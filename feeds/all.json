@@ -1,0 +1,720 @@
+{
+  "feed": "threatcluster-public-iocs",
+  "version": 1,
+  "generated_at": "2026-08-25T13:20:47Z",
+  "filters": {
+    "confidence": "high",
+    "window_days": 30,
+    "types": [
+      "ipv4",
+      "ipv6",
+      "domain"
+    ]
+  },
+  "count": 25,
+  "iocs": [
+    {
+      "type": "domain",
+      "value": "mychart-epic.com",
+      "confidence": "high",
+      "reason": "Domain used for phishing, mimicking MyChart; attacker-controlled infrastructure.",
+      "first_seen": "2026-08-24T16:35:14.982407+00:00",
+      "last_seen": "2026-08-24T16:35:14.982407+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.mychart.org",
+          "url": "https://www.mychart.org/l/en-us/help/staying-safe-from-scams-and-fraud/",
+          "pub_date": "2026-08-24T16:35:14.982407+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "my-chart.org",
+      "confidence": "high",
+      "reason": "Domain used for phishing, mimicking MyChart; attacker-controlled infrastructure.",
+      "first_seen": "2026-08-24T16:35:14.982407+00:00",
+      "last_seen": "2026-08-24T16:35:14.982407+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.mychart.org",
+          "url": "https://www.mychart.org/l/en-us/help/staying-safe-from-scams-and-fraud/",
+          "pub_date": "2026-08-24T16:35:14.982407+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "drive.google.verify-drive.com",
+      "confidence": "high",
+      "reason": "Identified as a malware distribution domain.",
+      "first_seen": "2026-08-21T00:32:07.289805+00:00",
+      "last_seen": "2026-08-21T00:32:07.289805+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "cloud.google.com",
+          "url": "https://cloud.google.com/blog/topics/threat-intelligence/distinct-clusters-target-individuals-of-interest-to-russia",
+          "pub_date": "2026-08-21T00:32:07.289805+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Apt29"
+        },
+        {
+          "type": "apt_group",
+          "value": "ICE Relic"
+        },
+        {
+          "type": "campaign",
+          "value": "Unc6293 Phishing Campaigns"
+        },
+        {
+          "type": "campaign",
+          "value": "Unc7005 Phishing Campaigns"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "miov2iaiaoubqosiqoiajwowiwjso.online",
+      "confidence": "high",
+      "reason": "C2 for AtomicStealer identified.",
+      "first_seen": "2026-08-21T00:32:07.289805+00:00",
+      "last_seen": "2026-08-21T00:32:07.289805+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "cloud.google.com",
+          "url": "https://cloud.google.com/blog/topics/threat-intelligence/distinct-clusters-target-individuals-of-interest-to-russia",
+          "pub_date": "2026-08-21T00:32:07.289805+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Apt29"
+        },
+        {
+          "type": "apt_group",
+          "value": "ICE Relic"
+        },
+        {
+          "type": "campaign",
+          "value": "Unc6293 Phishing Campaigns"
+        },
+        {
+          "type": "campaign",
+          "value": "Unc7005 Phishing Campaigns"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "spyroid.net",
+      "confidence": "high",
+      "reason": "Identified as a commercial RAT framework sold to cybercriminals.",
+      "first_seen": "2026-08-19T09:52:51+00:00",
+      "last_seen": "2026-08-19T09:52:51+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Group-Ib",
+          "url": "https://www.group-ib.com/blog/balonx-sistema-mexico-phaas/",
+          "pub_date": "2026-08-19T09:52:51+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "industry",
+          "value": "Financial"
+        },
+        {
+          "type": "malware",
+          "value": "Spyroid"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "196.251.84.11",
+      "confidence": "high",
+      "reason": "Identified as active C2 server for Spyroid-based malware.",
+      "first_seen": "2026-08-19T09:52:51+00:00",
+      "last_seen": "2026-08-19T09:52:51+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Group-Ib",
+          "url": "https://www.group-ib.com/blog/balonx-sistema-mexico-phaas/",
+          "pub_date": "2026-08-19T09:52:51+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "industry",
+          "value": "Financial"
+        },
+        {
+          "type": "malware",
+          "value": "Spyroid"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "108.187.42.63",
+      "confidence": "high",
+      "reason": "Identified as C2 server responding to requests.",
+      "first_seen": "2026-08-13T12:20:26+00:00",
+      "last_seen": "2026-08-13T20:36:50.388033+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "securelist.com",
+          "url": "https://securelist.com/tr/silver-fox-tax-notification-campaign/120038/",
+          "pub_date": "2026-08-13T20:36:50.388033+00:00"
+        },
+        {
+          "source": "Acronis",
+          "url": "https://www.acronis.com/en/tru/posts/patchcord-new-malware-cluster-targets-afghan-telecom-and-south-asian-critical-infrastructure/",
+          "pub_date": "2026-08-13T12:20:26+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Apt36"
+        },
+        {
+          "type": "apt_group",
+          "value": "Transparent Tribe"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2021-4034"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2024-6387"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "46.30.188.13",
+      "confidence": "high",
+      "reason": "Identified as C2 server responding to requests.",
+      "first_seen": "2026-08-13T12:20:26+00:00",
+      "last_seen": "2026-08-13T12:20:26+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Acronis",
+          "url": "https://www.acronis.com/tru/posts/patchcord-new-malware-cluster-targets-afghan-telecom-and-south-asian-critical-infrastructure/",
+          "pub_date": "2026-08-13T12:20:26+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Apt36"
+        },
+        {
+          "type": "apt_group",
+          "value": "Transparent Tribe"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2021-4034"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2024-6387"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "bookcheckarrival-gueststayhotel.com",
+      "confidence": "high",
+      "reason": "Indicates attacker-controlled phishing domain targeting hotel reservations.",
+      "first_seen": "2026-08-13T06:24:31+00:00",
+      "last_seen": "2026-08-13T06:24:31+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Heise.De",
+          "url": "https://www.heise.de/en/news/Phishing-waves-Cyberattacks-on-IT-service-providers-for-hotels-11412196.html",
+          "pub_date": "2026-08-13T06:24:31+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "ccleanerwind.top",
+      "confidence": "high",
+      "reason": "Identified as attacker-controlled domain for malware distribution",
+      "first_seen": "2026-08-12T10:20:02+00:00",
+      "last_seen": "2026-08-12T11:31:38+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "Gbhackers",
+          "url": "https://gbhackers.com/malicious-ccleaner-installer/amp/",
+          "pub_date": "2026-08-12T11:31:38+00:00"
+        },
+        {
+          "source": "Csoonline",
+          "url": "https://www.csoonline.com/article/4208565/fake-ccleaner-downloads-turn-chrome-into-a-credential-stealing-surveillance-tool.html",
+          "pub_date": "2026-08-12T11:26:50+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "GhostDesk"
+        },
+        {
+          "type": "malware",
+          "value": "Trojan.Dropper"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-59310"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "74.65.75.102",
+      "confidence": "high",
+      "reason": "Explicitly mentioned in response context.",
+      "first_seen": "2026-08-11T10:00:19+00:00",
+      "last_seen": "2026-08-11T10:00:19+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Securelist",
+          "url": "https://securelist.com/project-cav3rn-continues/120991/",
+          "pub_date": "2026-08-11T10:00:19+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "Cav3rn"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "login.microsoft-secure-portal.com",
+      "confidence": "high",
+      "reason": "Clearly identified as an attacker-controlled domain.",
+      "first_seen": "2026-08-08T03:49:43.525813+00:00",
+      "last_seen": "2026-08-08T03:49:43.525813+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "hivesecurity.gitlab.io",
+          "url": "https://hivesecurity.gitlab.io/blog/aitm-phishing-mfa-bypass-evilginx/",
+          "pub_date": "2026-08-08T03:49:43.525813+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "Starkiller"
+        },
+        {
+          "type": "malware",
+          "value": "W3LL Kit"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "213.165.51.115",
+      "confidence": "high",
+      "reason": "Listed as part of malicious infrastructure in hunting queries.",
+      "first_seen": "2026-08-06T11:21:24.300532+00:00",
+      "last_seen": "2026-08-06T11:21:24.300532+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.trendmicro.com",
+          "url": "https://www.trendmicro.com/en_us/research/26/e/inside-the-influence-and-fraud-patriot-bait-campaign.html?ct=1783532687994",
+          "pub_date": "2026-08-06T11:21:24.300532+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Quantum Patriot"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "154.223.58.64",
+      "confidence": "high",
+      "reason": "Listed as C2 IP address.",
+      "first_seen": "2026-08-06T08:39:33+00:00",
+      "last_seen": "2026-08-06T08:39:33+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Rescana",
+          "url": "https://www.rescana.com/post/active-exploitation-alert-quickfox-windows-supply-chain-attack-delivers-fdmtp-backdoor-via-trojanized-installer",
+          "pub_date": "2026-08-06T08:39:33+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Twill Typhoon"
+        },
+        {
+          "type": "malware",
+          "value": "Fdmtp"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "154.223.75.206",
+      "confidence": "high",
+      "reason": "Listed as C2 IP address.",
+      "first_seen": "2026-08-06T08:39:33+00:00",
+      "last_seen": "2026-08-06T08:39:33+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Rescana",
+          "url": "https://www.rescana.com/post/active-exploitation-alert-quickfox-windows-supply-chain-attack-delivers-fdmtp-backdoor-via-trojanized-installer",
+          "pub_date": "2026-08-06T08:39:33+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Twill Typhoon"
+        },
+        {
+          "type": "malware",
+          "value": "Fdmtp"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "38.60.142.56",
+      "confidence": "high",
+      "reason": "Listed as C2 IP address.",
+      "first_seen": "2026-08-06T08:39:33+00:00",
+      "last_seen": "2026-08-06T08:39:33+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Rescana",
+          "url": "https://www.rescana.com/post/active-exploitation-alert-quickfox-windows-supply-chain-attack-delivers-fdmtp-backdoor-via-trojanized-installer",
+          "pub_date": "2026-08-06T08:39:33+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Twill Typhoon"
+        },
+        {
+          "type": "malware",
+          "value": "Fdmtp"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "45.158.180.250",
+      "confidence": "high",
+      "reason": "Listed as C2 IP address.",
+      "first_seen": "2026-08-06T08:39:33+00:00",
+      "last_seen": "2026-08-06T08:39:33+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Rescana",
+          "url": "https://www.rescana.com/post/active-exploitation-alert-quickfox-windows-supply-chain-attack-delivers-fdmtp-backdoor-via-trojanized-installer",
+          "pub_date": "2026-08-06T08:39:33+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Twill Typhoon"
+        },
+        {
+          "type": "malware",
+          "value": "Fdmtp"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "xfconnect.com",
+      "confidence": "high",
+      "reason": "Pointed to as hosting multiple FCN binaries related to Chanming's product",
+      "first_seen": "2026-07-29T18:06:50+00:00",
+      "last_seen": "2026-07-29T18:06:50+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Techtimes",
+          "url": "https://www.techtimes.com/articles/322063/20260729/guangdong-chanming-sold-spy-botnet-pla-nearly-dozen-chinese-hacking-groups.htm",
+          "pub_date": "2026-07-29T18:06:50+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Apt15"
+        },
+        {
+          "type": "apt_group",
+          "value": "CSF 8th Bureau"
+        },
+        {
+          "type": "apt_group",
+          "value": "Ke3chang"
+        },
+        {
+          "type": "apt_group",
+          "value": "Nickel"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "login.trees4sale.net",
+      "confidence": "high",
+      "reason": "identified as Dysphoria infrastructure domain",
+      "first_seen": "2026-07-29T10:33:04+00:00",
+      "last_seen": "2026-07-29T10:33:04+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Techtimes",
+          "url": "https://www.techtimes.com/articles/321926/20260729/rebuilt-six-days-dysphoria-iot-botnet-hides-blockchain-defy-seizure.htm",
+          "pub_date": "2026-07-29T10:33:04+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2017-17215"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2020-8515"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2025-28137"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2025-34152"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "206.72.242.124",
+      "confidence": "high",
+      "reason": "Listed as a known malicious IP address.",
+      "first_seen": "2026-07-28T21:52:08+00:00",
+      "last_seen": "2026-07-28T21:52:08+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Feeds.Feedburner",
+          "url": "https://www.scworld.com/brief/arista-patches-critical-command-injection-flaw-in-velocloud-orchestrator-exploited-in-attacks",
+          "pub_date": "2026-07-28T21:52:08+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2026-16812"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "8.19.75.217",
+      "confidence": "high",
+      "reason": "Listed as a known malicious IP address.",
+      "first_seen": "2026-07-28T21:52:08+00:00",
+      "last_seen": "2026-07-28T21:52:08+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Feeds.Feedburner",
+          "url": "https://www.scworld.com/brief/arista-patches-critical-command-injection-flaw-in-velocloud-orchestrator-exploited-in-attacks",
+          "pub_date": "2026-07-28T21:52:08+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2026-16812"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "re2.filesdwnload.top",
+      "confidence": "high",
+      "reason": "Listed as C2 server deploying tools.",
+      "first_seen": "2026-07-28T05:26:30+00:00",
+      "last_seen": "2026-07-28T05:26:30+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Zscaler",
+          "url": "https://www.zscaler.com/blogs/security-research/helpdesk-hijackers-teams-vishing-quick-assist-and-gogrpc-backdoor",
+          "pub_date": "2026-07-28T05:26:30+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Payouts King"
+        },
+        {
+          "type": "malware",
+          "value": "BlindDoor"
+        },
+        {
+          "type": "malware",
+          "value": "GoGRPC"
+        },
+        {
+          "type": "malware",
+          "value": "PyGRPC"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "re8.dowlfles.online",
+      "confidence": "high",
+      "reason": "Listed as C2 server deploying tools.",
+      "first_seen": "2026-07-28T05:26:30+00:00",
+      "last_seen": "2026-07-28T05:26:30+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Zscaler",
+          "url": "https://www.zscaler.com/blogs/security-research/helpdesk-hijackers-teams-vishing-quick-assist-and-gogrpc-backdoor",
+          "pub_date": "2026-07-28T05:26:30+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Payouts King"
+        },
+        {
+          "type": "malware",
+          "value": "BlindDoor"
+        },
+        {
+          "type": "malware",
+          "value": "GoGRPC"
+        },
+        {
+          "type": "malware",
+          "value": "PyGRPC"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "update19.upldf.online",
+      "confidence": "high",
+      "reason": "Listed as C2 server deploying tools.",
+      "first_seen": "2026-07-28T05:26:30+00:00",
+      "last_seen": "2026-07-28T05:26:30+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Zscaler",
+          "url": "https://www.zscaler.com/blogs/security-research/helpdesk-hijackers-teams-vishing-quick-assist-and-gogrpc-backdoor",
+          "pub_date": "2026-07-28T05:26:30+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Payouts King"
+        },
+        {
+          "type": "malware",
+          "value": "BlindDoor"
+        },
+        {
+          "type": "malware",
+          "value": "GoGRPC"
+        },
+        {
+          "type": "malware",
+          "value": "PyGRPC"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "xeds.geranteeg.online",
+      "confidence": "high",
+      "reason": "Listed as C2 server deploying tools.",
+      "first_seen": "2026-07-28T05:26:30+00:00",
+      "last_seen": "2026-07-28T05:26:30+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Zscaler",
+          "url": "https://www.zscaler.com/blogs/security-research/helpdesk-hijackers-teams-vishing-quick-assist-and-gogrpc-backdoor",
+          "pub_date": "2026-07-28T05:26:30+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Payouts King"
+        },
+        {
+          "type": "malware",
+          "value": "BlindDoor"
+        },
+        {
+          "type": "malware",
+          "value": "GoGRPC"
+        },
+        {
+          "type": "malware",
+          "value": "PyGRPC"
+        }
+      ]
+    }
+  ],
+  "license": "CC-BY 4.0 \u2014 attribute ThreatCluster (https://threatcluster.io)",
+  "report_false_positive": "hello@threatcluster.io"
+}
