@@ -1,9 +1,34 @@
-# ThreatCluster - Public Feeds & IOCs
+# ThreatCluster — Public Feeds & IOCs
 
 Free, no-auth threat intelligence feeds from [ThreatCluster](https://threatcluster.io).
 Clustered and deduplicated from 20,000+ sources.
 
 **TLP:CLEAR** — free to use, redistribute, and integrate. Attribution appreciated.
+
+---
+
+## Files in this repo
+
+Snapshotted daily from the API. Use these if you want a pinned, versioned copy —
+or `git log` to see when an indicator first appeared.
+
+| File | Contents |
+|---|---|
+| [`feeds/domains.txt`](feeds/domains.txt) | Domains, one per line |
+| [`feeds/ips.txt`](feeds/ips.txt) | IPv4 / IPv6 |
+| [`feeds/hashes.txt`](feeds/hashes.txt) | MD5 / SHA-1 / SHA-256 |
+| [`feeds/all.txt`](feeds/all.txt) | Domains + IPs combined |
+| [`feeds/all.csv`](feeds/all.csv) | Full metadata (type, confidence, sources, reason) |
+| [`feeds/all.json`](feeds/all.json) | Same, JSON |
+| [`feeds/hashes.csv`](feeds/hashes.csv) | Hashes with metadata |
+| [`feeds/stats.json`](feeds/stats.json) | Counts by type |
+
+```bash
+# pin to this repo instead of the live API
+curl -s https://raw.githubusercontent.com/Jam0k/Public-Feeds-IOCs/main/feeds/domains.txt
+```
+
+The API below is the live source and always current; these files lag by up to a day.
 
 ---
 
@@ -135,21 +160,3 @@ the indicator and we'll review and remove it.
 - [IOC browser](https://threatcluster.io/iocs)
 - [API documentation](https://threatcluster.io/api/public/v1/docs)
 - [Format matrix](https://threatcluster.io/formats)
-
----
-
-## Current feed
-
-<!--STATS-->
-_Last updated: 2026-08-25 13:20 UTC_
-
-**25 network indicators** · **331 hashes** · 30-day window
-
-| Type | Count |
-|---|---|
-| md5 | 242 |
-| sha256 | 75 |
-| domain | 14 |
-| sha1 | 14 |
-| ipv4 | 11 |
-<!--/STATS-->
