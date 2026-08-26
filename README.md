@@ -160,3 +160,21 @@ the indicator and we'll review and remove it.
 - [IOC browser](https://threatcluster.io/iocs)
 - [API documentation](https://threatcluster.io/api/public/v1/docs)
 - [Format matrix](https://threatcluster.io/formats)
+
+---
+
+## Current feed
+
+<!--STATS-->
+_Last updated: 2026-08-26 06:26 UTC_
+
+**26 network indicators** · **331 hashes** · 30-day window
+
+| Type | Count |
+|---|---|
+| md5 | 242 |
+| sha256 | 75 |
+| domain | 14 |
+| sha1 | 14 |
+| ipv4 | 12 |
+<!--/STATS-->

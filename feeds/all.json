@@ -1,7 +1,7 @@
 {
   "feed": "threatcluster-public-iocs",
   "version": 1,
-  "generated_at": "2026-08-25T13:20:47Z",
+  "generated_at": "2026-08-26T06:26:06Z",
   "filters": {
     "confidence": "high",
     "window_days": 30,
@@ -11,8 +11,34 @@
       "domain"
     ]
   },
-  "count": 25,
+  "count": 26,
   "iocs": [
+    {
+      "type": "ipv4",
+      "value": "102.91.71.83",
+      "confidence": "high",
+      "reason": "Listed as a scanning IP used to detect exploit attempts",
+      "first_seen": "2026-08-25T15:50:04+00:00",
+      "last_seen": "2026-08-25T15:50:04+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Techtimes",
+          "url": "https://www.techtimes.com/articles/325482/20260825/attackers-exploit-wordpress-sso-plugin-six-paid-editions-were-never-any-vulnerability-database.htm",
+          "pub_date": "2026-08-25T15:50:04+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2026-15981"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-61979"
+        }
+      ]
+    },
     {
       "type": "domain",
       "value": "mychart-epic.com",
