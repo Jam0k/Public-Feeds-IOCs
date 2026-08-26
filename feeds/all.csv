@@ -1,4 +1,18 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason
+domain,flanycast-xxxx.yotocloud.com,high,2026-08-26T20:18:54.083342+00:00,2026-08-26T20:18:54.083342+00:00,1,www.lumen.com:2026-08-26,Subdomain used as part of the attacker's proxy infrastructure
+domain,flnode-xxxx.yotocloud.com,high,2026-08-26T20:18:54.083342+00:00,2026-08-26T20:18:54.083342+00:00,1,www.lumen.com:2026-08-26,Subdomain used as part of the attacker's proxy infrastructure
+domain,instantmessagehub.tech,high,2026-08-26T20:18:54.083342+00:00,2026-08-26T20:18:54.083342+00:00,1,www.lumen.com:2026-08-26,Listed as a core infrastructure element for Fast Labyrinth
+domain,jump.qt-proxy.org,high,2026-08-26T20:18:54.083342+00:00,2026-08-26T20:18:54.083342+00:00,1,www.lumen.com:2026-08-26,Listed as an active operational jump box for Fast Labyrinth
+domain,mq-result-qt-team.com,high,2026-08-26T20:18:54.083342+00:00,2026-08-26T20:18:54.083342+00:00,1,www.lumen.com:2026-08-26,Listed as a central Redis results database server for QScan
+domain,mq-task-qt-team.com,high,2026-08-26T20:18:54.083342+00:00,2026-08-26T20:18:54.083342+00:00,1,www.lumen.com:2026-08-26,Listed as a central RabbitMQ task engine for QScan
+domain,qt-proxy.org,high,2026-08-26T20:18:54.083342+00:00,2026-08-26T20:18:54.083342+00:00,1,www.lumen.com:2026-08-26,Active infrastructure element for Fast Labyrinth
+domain,qtproxy.xyz,high,2026-08-26T20:18:54.083342+00:00,2026-08-26T20:18:54.083342+00:00,1,www.lumen.com:2026-08-26,Primary administrative domain for proxy orchestration
+domain,qt-team.com,high,2026-08-26T20:18:54.083342+00:00,2026-08-26T20:18:54.083342+00:00,1,www.lumen.com:2026-08-26,Legacy assets replaced by qt-proxy.org
+ipv4,1.32.216.171,high,2026-08-26T20:18:54.083342+00:00,2026-08-26T20:18:54.083342+00:00,1,www.lumen.com:2026-08-26,Mapped to Fast Labyrinth admin plane
+ipv4,154.64.238.222,high,2026-08-26T20:18:54.083342+00:00,2026-08-26T20:18:54.083342+00:00,1,www.lumen.com:2026-08-26,Mapped to QScan broker
+ipv4,154.64.238.247,high,2026-08-26T20:18:54.083342+00:00,2026-08-26T20:18:54.083342+00:00,1,www.lumen.com:2026-08-26,Mapped to QScan backend
+ipv4,8.148.149.147,high,2026-08-26T20:18:54.083342+00:00,2026-08-26T20:18:54.083342+00:00,1,www.lumen.com:2026-08-26,Mapped to active operational jump box
+domain,lkvb06fkzsjv.org,high,2026-08-26T15:13:00+00:00,2026-08-26T15:13:00+00:00,1,Theregister:2026-08-26,"Randomly generated domain used in synthetic data injection, likely attacker-controlled."
 ipv4,102.91.71.83,high,2026-08-25T15:50:04+00:00,2026-08-25T15:50:04+00:00,1,Techtimes:2026-08-25,Listed as a scanning IP used to detect exploit attempts
 domain,mychart-epic.com,high,2026-08-24T16:35:14.982407+00:00,2026-08-24T16:35:14.982407+00:00,1,www.mychart.org:2026-08-24,"Domain used for phishing, mimicking MyChart; attacker-controlled infrastructure."
 domain,my-chart.org,high,2026-08-24T16:35:14.982407+00:00,2026-08-24T16:35:14.982407+00:00,1,www.mychart.org:2026-08-24,"Domain used for phishing, mimicking MyChart; attacker-controlled infrastructure."

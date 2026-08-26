@@ -1,7 +1,7 @@
 {
   "feed": "threatcluster-public-iocs",
   "version": 1,
-  "generated_at": "2026-08-26T06:26:06Z",
+  "generated_at": "2026-08-26T22:59:24Z",
   "filters": {
     "confidence": "high",
     "window_days": 30,
@@ -11,8 +11,467 @@
       "domain"
     ]
   },
-  "count": 26,
+  "count": 40,
   "iocs": [
+    {
+      "type": "domain",
+      "value": "flanycast-xxxx.yotocloud.com",
+      "confidence": "high",
+      "reason": "Subdomain used as part of the attacker's proxy infrastructure",
+      "first_seen": "2026-08-26T20:18:54.083342+00:00",
+      "last_seen": "2026-08-26T20:18:54.083342+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.lumen.com",
+          "url": "https://www.lumen.com/blog/en-us/the-infrastructure-quartermaster-inside-a-china-nexus-state-enablement-model",
+          "pub_date": "2026-08-26T20:18:54.083342+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Raptor Train"
+        },
+        {
+          "type": "industry",
+          "value": "Energy"
+        },
+        {
+          "type": "industry",
+          "value": "Financial"
+        },
+        {
+          "type": "industry",
+          "value": "Government"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "flnode-xxxx.yotocloud.com",
+      "confidence": "high",
+      "reason": "Subdomain used as part of the attacker's proxy infrastructure",
+      "first_seen": "2026-08-26T20:18:54.083342+00:00",
+      "last_seen": "2026-08-26T20:18:54.083342+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.lumen.com",
+          "url": "https://www.lumen.com/blog/en-us/the-infrastructure-quartermaster-inside-a-china-nexus-state-enablement-model",
+          "pub_date": "2026-08-26T20:18:54.083342+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Raptor Train"
+        },
+        {
+          "type": "industry",
+          "value": "Energy"
+        },
+        {
+          "type": "industry",
+          "value": "Financial"
+        },
+        {
+          "type": "industry",
+          "value": "Government"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "instantmessagehub.tech",
+      "confidence": "high",
+      "reason": "Listed as a core infrastructure element for Fast Labyrinth",
+      "first_seen": "2026-08-26T20:18:54.083342+00:00",
+      "last_seen": "2026-08-26T20:18:54.083342+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.lumen.com",
+          "url": "https://www.lumen.com/blog/en-us/the-infrastructure-quartermaster-inside-a-china-nexus-state-enablement-model",
+          "pub_date": "2026-08-26T20:18:54.083342+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Raptor Train"
+        },
+        {
+          "type": "industry",
+          "value": "Energy"
+        },
+        {
+          "type": "industry",
+          "value": "Financial"
+        },
+        {
+          "type": "industry",
+          "value": "Government"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "jump.qt-proxy.org",
+      "confidence": "high",
+      "reason": "Listed as an active operational jump box for Fast Labyrinth",
+      "first_seen": "2026-08-26T20:18:54.083342+00:00",
+      "last_seen": "2026-08-26T20:18:54.083342+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.lumen.com",
+          "url": "https://www.lumen.com/blog/en-us/the-infrastructure-quartermaster-inside-a-china-nexus-state-enablement-model",
+          "pub_date": "2026-08-26T20:18:54.083342+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Raptor Train"
+        },
+        {
+          "type": "industry",
+          "value": "Energy"
+        },
+        {
+          "type": "industry",
+          "value": "Financial"
+        },
+        {
+          "type": "industry",
+          "value": "Government"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "mq-result-qt-team.com",
+      "confidence": "high",
+      "reason": "Listed as a central Redis results database server for QScan",
+      "first_seen": "2026-08-26T20:18:54.083342+00:00",
+      "last_seen": "2026-08-26T20:18:54.083342+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.lumen.com",
+          "url": "https://www.lumen.com/blog/en-us/the-infrastructure-quartermaster-inside-a-china-nexus-state-enablement-model",
+          "pub_date": "2026-08-26T20:18:54.083342+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Raptor Train"
+        },
+        {
+          "type": "industry",
+          "value": "Energy"
+        },
+        {
+          "type": "industry",
+          "value": "Financial"
+        },
+        {
+          "type": "industry",
+          "value": "Government"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "mq-task-qt-team.com",
+      "confidence": "high",
+      "reason": "Listed as a central RabbitMQ task engine for QScan",
+      "first_seen": "2026-08-26T20:18:54.083342+00:00",
+      "last_seen": "2026-08-26T20:18:54.083342+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.lumen.com",
+          "url": "https://www.lumen.com/blog/en-us/the-infrastructure-quartermaster-inside-a-china-nexus-state-enablement-model",
+          "pub_date": "2026-08-26T20:18:54.083342+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Raptor Train"
+        },
+        {
+          "type": "industry",
+          "value": "Energy"
+        },
+        {
+          "type": "industry",
+          "value": "Financial"
+        },
+        {
+          "type": "industry",
+          "value": "Government"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "qt-proxy.org",
+      "confidence": "high",
+      "reason": "Active infrastructure element for Fast Labyrinth",
+      "first_seen": "2026-08-26T20:18:54.083342+00:00",
+      "last_seen": "2026-08-26T20:18:54.083342+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.lumen.com",
+          "url": "https://www.lumen.com/blog/en-us/the-infrastructure-quartermaster-inside-a-china-nexus-state-enablement-model",
+          "pub_date": "2026-08-26T20:18:54.083342+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Raptor Train"
+        },
+        {
+          "type": "industry",
+          "value": "Energy"
+        },
+        {
+          "type": "industry",
+          "value": "Financial"
+        },
+        {
+          "type": "industry",
+          "value": "Government"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "qtproxy.xyz",
+      "confidence": "high",
+      "reason": "Primary administrative domain for proxy orchestration",
+      "first_seen": "2026-08-26T20:18:54.083342+00:00",
+      "last_seen": "2026-08-26T20:18:54.083342+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.lumen.com",
+          "url": "https://www.lumen.com/blog/en-us/the-infrastructure-quartermaster-inside-a-china-nexus-state-enablement-model",
+          "pub_date": "2026-08-26T20:18:54.083342+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Raptor Train"
+        },
+        {
+          "type": "industry",
+          "value": "Energy"
+        },
+        {
+          "type": "industry",
+          "value": "Financial"
+        },
+        {
+          "type": "industry",
+          "value": "Government"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "qt-team.com",
+      "confidence": "high",
+      "reason": "Legacy assets replaced by qt-proxy.org",
+      "first_seen": "2026-08-26T20:18:54.083342+00:00",
+      "last_seen": "2026-08-26T20:18:54.083342+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.lumen.com",
+          "url": "https://www.lumen.com/blog/en-us/the-infrastructure-quartermaster-inside-a-china-nexus-state-enablement-model",
+          "pub_date": "2026-08-26T20:18:54.083342+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Raptor Train"
+        },
+        {
+          "type": "industry",
+          "value": "Energy"
+        },
+        {
+          "type": "industry",
+          "value": "Financial"
+        },
+        {
+          "type": "industry",
+          "value": "Government"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "1.32.216.171",
+      "confidence": "high",
+      "reason": "Mapped to Fast Labyrinth admin plane",
+      "first_seen": "2026-08-26T20:18:54.083342+00:00",
+      "last_seen": "2026-08-26T20:18:54.083342+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.lumen.com",
+          "url": "https://www.lumen.com/blog/en-us/the-infrastructure-quartermaster-inside-a-china-nexus-state-enablement-model",
+          "pub_date": "2026-08-26T20:18:54.083342+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Raptor Train"
+        },
+        {
+          "type": "industry",
+          "value": "Energy"
+        },
+        {
+          "type": "industry",
+          "value": "Financial"
+        },
+        {
+          "type": "industry",
+          "value": "Government"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "154.64.238.222",
+      "confidence": "high",
+      "reason": "Mapped to QScan broker",
+      "first_seen": "2026-08-26T20:18:54.083342+00:00",
+      "last_seen": "2026-08-26T20:18:54.083342+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.lumen.com",
+          "url": "https://www.lumen.com/blog/en-us/the-infrastructure-quartermaster-inside-a-china-nexus-state-enablement-model",
+          "pub_date": "2026-08-26T20:18:54.083342+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Raptor Train"
+        },
+        {
+          "type": "industry",
+          "value": "Energy"
+        },
+        {
+          "type": "industry",
+          "value": "Financial"
+        },
+        {
+          "type": "industry",
+          "value": "Government"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "154.64.238.247",
+      "confidence": "high",
+      "reason": "Mapped to QScan backend",
+      "first_seen": "2026-08-26T20:18:54.083342+00:00",
+      "last_seen": "2026-08-26T20:18:54.083342+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.lumen.com",
+          "url": "https://www.lumen.com/blog/en-us/the-infrastructure-quartermaster-inside-a-china-nexus-state-enablement-model",
+          "pub_date": "2026-08-26T20:18:54.083342+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Raptor Train"
+        },
+        {
+          "type": "industry",
+          "value": "Energy"
+        },
+        {
+          "type": "industry",
+          "value": "Financial"
+        },
+        {
+          "type": "industry",
+          "value": "Government"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "8.148.149.147",
+      "confidence": "high",
+      "reason": "Mapped to active operational jump box",
+      "first_seen": "2026-08-26T20:18:54.083342+00:00",
+      "last_seen": "2026-08-26T20:18:54.083342+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.lumen.com",
+          "url": "https://www.lumen.com/blog/en-us/the-infrastructure-quartermaster-inside-a-china-nexus-state-enablement-model",
+          "pub_date": "2026-08-26T20:18:54.083342+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Raptor Train"
+        },
+        {
+          "type": "industry",
+          "value": "Energy"
+        },
+        {
+          "type": "industry",
+          "value": "Financial"
+        },
+        {
+          "type": "industry",
+          "value": "Government"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "lkvb06fkzsjv.org",
+      "confidence": "high",
+      "reason": "Randomly generated domain used in synthetic data injection, likely attacker-controlled.",
+      "first_seen": "2026-08-26T15:13:00+00:00",
+      "last_seen": "2026-08-26T15:13:00+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Theregister",
+          "url": "https://www.theregister.com/security/2026/08/26/carhartt-data-breach-affects-129m-half-of-what-shinyhunters-claimed/5292626",
+          "pub_date": "2026-08-26T15:13:00+00:00"
+        }
+      ],
+      "tags": []
+    },
     {
       "type": "ipv4",
       "value": "102.91.71.83",
