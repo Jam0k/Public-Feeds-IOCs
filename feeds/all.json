@@ -1,7 +1,7 @@
 {
   "feed": "threatcluster-public-iocs",
   "version": 1,
-  "generated_at": "2026-08-26T22:59:24Z",
+  "generated_at": "2026-08-26T23:46:16Z",
   "filters": {
     "confidence": "high",
     "window_days": 30,
@@ -11,76 +11,8 @@
       "domain"
     ]
   },
-  "count": 40,
+  "count": 36,
   "iocs": [
-    {
-      "type": "domain",
-      "value": "flanycast-xxxx.yotocloud.com",
-      "confidence": "high",
-      "reason": "Subdomain used as part of the attacker's proxy infrastructure",
-      "first_seen": "2026-08-26T20:18:54.083342+00:00",
-      "last_seen": "2026-08-26T20:18:54.083342+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.lumen.com",
-          "url": "https://www.lumen.com/blog/en-us/the-infrastructure-quartermaster-inside-a-china-nexus-state-enablement-model",
-          "pub_date": "2026-08-26T20:18:54.083342+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Raptor Train"
-        },
-        {
-          "type": "industry",
-          "value": "Energy"
-        },
-        {
-          "type": "industry",
-          "value": "Financial"
-        },
-        {
-          "type": "industry",
-          "value": "Government"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "flnode-xxxx.yotocloud.com",
-      "confidence": "high",
-      "reason": "Subdomain used as part of the attacker's proxy infrastructure",
-      "first_seen": "2026-08-26T20:18:54.083342+00:00",
-      "last_seen": "2026-08-26T20:18:54.083342+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.lumen.com",
-          "url": "https://www.lumen.com/blog/en-us/the-infrastructure-quartermaster-inside-a-china-nexus-state-enablement-model",
-          "pub_date": "2026-08-26T20:18:54.083342+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Raptor Train"
-        },
-        {
-          "type": "industry",
-          "value": "Energy"
-        },
-        {
-          "type": "industry",
-          "value": "Financial"
-        },
-        {
-          "type": "industry",
-          "value": "Government"
-        }
-      ]
-    },
     {
       "type": "domain",
       "value": "instantmessagehub.tech",
@@ -120,74 +52,6 @@
       "value": "jump.qt-proxy.org",
       "confidence": "high",
       "reason": "Listed as an active operational jump box for Fast Labyrinth",
-      "first_seen": "2026-08-26T20:18:54.083342+00:00",
-      "last_seen": "2026-08-26T20:18:54.083342+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.lumen.com",
-          "url": "https://www.lumen.com/blog/en-us/the-infrastructure-quartermaster-inside-a-china-nexus-state-enablement-model",
-          "pub_date": "2026-08-26T20:18:54.083342+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Raptor Train"
-        },
-        {
-          "type": "industry",
-          "value": "Energy"
-        },
-        {
-          "type": "industry",
-          "value": "Financial"
-        },
-        {
-          "type": "industry",
-          "value": "Government"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "mq-result-qt-team.com",
-      "confidence": "high",
-      "reason": "Listed as a central Redis results database server for QScan",
-      "first_seen": "2026-08-26T20:18:54.083342+00:00",
-      "last_seen": "2026-08-26T20:18:54.083342+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.lumen.com",
-          "url": "https://www.lumen.com/blog/en-us/the-infrastructure-quartermaster-inside-a-china-nexus-state-enablement-model",
-          "pub_date": "2026-08-26T20:18:54.083342+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Raptor Train"
-        },
-        {
-          "type": "industry",
-          "value": "Energy"
-        },
-        {
-          "type": "industry",
-          "value": "Financial"
-        },
-        {
-          "type": "industry",
-          "value": "Government"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "mq-task-qt-team.com",
-      "confidence": "high",
-      "reason": "Listed as a central RabbitMQ task engine for QScan",
       "first_seen": "2026-08-26T20:18:54.083342+00:00",
       "last_seen": "2026-08-26T20:18:54.083342+00:00",
       "source_count": 1,
