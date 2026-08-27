@@ -221,3 +221,25 @@ the indicator and we'll review and remove it.
 - [IOC browser](https://threatcluster.io/iocs)
 - [API documentation](https://threatcluster.io/api/public/v1/docs)
 - [Format matrix](https://threatcluster.io/formats)
+
+---
+
+## Current feed
+
+<!--STATS-->
+_Last updated: 2026-08-27 11:32 UTC_
+
+**32 network indicators** · **320 hashes** · **54 wallets** · 30-day window
+
+| Type | Last 30 days | All time |
+|---|---|---|
+| md5 | 242 | 767 |
+| sha256 | 64 | 409 |
+| sha1 | 14 | 183 |
+| domain | 16 | 144 |
+| ipv4 | 16 | 96 |
+| eth | 52 | 94 |
+| xmr | 1 | 3 |
+| btc | 1 | 3 |
+| ipv6 | 0 | 1 |
+<!--/STATS-->
