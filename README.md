@@ -166,15 +166,15 @@ the indicator and we'll review and remove it.
 ## Current feed
 
 <!--STATS-->
-_Last updated: 2026-08-26 23:46 UTC_
+_Last updated: 2026-08-27 09:21 UTC_
 
-**36 network indicators** · **331 hashes** · 30-day window
+**32 network indicators** · **320 hashes** · 30-day window
 
 | Type | Count |
 |---|---|
 | md5 | 242 |
-| sha256 | 75 |
-| domain | 20 |
+| sha256 | 64 |
+| domain | 16 |
 | ipv4 | 16 |
 | sha1 | 14 |
 <!--/STATS-->

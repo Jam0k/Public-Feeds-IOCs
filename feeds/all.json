@@ -1,7 +1,7 @@
 {
   "feed": "threatcluster-public-iocs",
   "version": 1,
-  "generated_at": "2026-08-26T23:46:16Z",
+  "generated_at": "2026-08-27T09:21:30Z",
   "filters": {
     "confidence": "high",
     "window_days": 30,
@@ -11,7 +11,7 @@
       "domain"
     ]
   },
-  "count": 36,
+  "count": 32,
   "iocs": [
     {
       "type": "domain",
@@ -924,142 +924,6 @@
         {
           "type": "cve",
           "value": "CVE-2026-16812"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "re2.filesdwnload.top",
-      "confidence": "high",
-      "reason": "Listed as C2 server deploying tools.",
-      "first_seen": "2026-07-28T05:26:30+00:00",
-      "last_seen": "2026-07-28T05:26:30+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Zscaler",
-          "url": "https://www.zscaler.com/blogs/security-research/helpdesk-hijackers-teams-vishing-quick-assist-and-gogrpc-backdoor",
-          "pub_date": "2026-07-28T05:26:30+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Payouts King"
-        },
-        {
-          "type": "malware",
-          "value": "BlindDoor"
-        },
-        {
-          "type": "malware",
-          "value": "GoGRPC"
-        },
-        {
-          "type": "malware",
-          "value": "PyGRPC"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "re8.dowlfles.online",
-      "confidence": "high",
-      "reason": "Listed as C2 server deploying tools.",
-      "first_seen": "2026-07-28T05:26:30+00:00",
-      "last_seen": "2026-07-28T05:26:30+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Zscaler",
-          "url": "https://www.zscaler.com/blogs/security-research/helpdesk-hijackers-teams-vishing-quick-assist-and-gogrpc-backdoor",
-          "pub_date": "2026-07-28T05:26:30+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Payouts King"
-        },
-        {
-          "type": "malware",
-          "value": "BlindDoor"
-        },
-        {
-          "type": "malware",
-          "value": "GoGRPC"
-        },
-        {
-          "type": "malware",
-          "value": "PyGRPC"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "update19.upldf.online",
-      "confidence": "high",
-      "reason": "Listed as C2 server deploying tools.",
-      "first_seen": "2026-07-28T05:26:30+00:00",
-      "last_seen": "2026-07-28T05:26:30+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Zscaler",
-          "url": "https://www.zscaler.com/blogs/security-research/helpdesk-hijackers-teams-vishing-quick-assist-and-gogrpc-backdoor",
-          "pub_date": "2026-07-28T05:26:30+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Payouts King"
-        },
-        {
-          "type": "malware",
-          "value": "BlindDoor"
-        },
-        {
-          "type": "malware",
-          "value": "GoGRPC"
-        },
-        {
-          "type": "malware",
-          "value": "PyGRPC"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "xeds.geranteeg.online",
-      "confidence": "high",
-      "reason": "Listed as C2 server deploying tools.",
-      "first_seen": "2026-07-28T05:26:30+00:00",
-      "last_seen": "2026-07-28T05:26:30+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Zscaler",
-          "url": "https://www.zscaler.com/blogs/security-research/helpdesk-hijackers-teams-vishing-quick-assist-and-gogrpc-backdoor",
-          "pub_date": "2026-07-28T05:26:30+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Payouts King"
-        },
-        {
-          "type": "malware",
-          "value": "BlindDoor"
-        },
-        {
-          "type": "malware",
-          "value": "GoGRPC"
-        },
-        {
-          "type": "malware",
-          "value": "PyGRPC"
         }
       ]
     }
