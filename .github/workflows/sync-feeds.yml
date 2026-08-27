@@ -60,14 +60,35 @@ jobs:
             mv "$dest.tmp" "$dest"
           }
 
+          # 30-day block-ready set — the recommended feeds.
           fetch domains.txt  feeds/domains.txt   32
+          fetch domains.csv  feeds/domains.csv   64
           fetch ips.txt      feeds/ips.txt       16
+          fetch ips.csv      feeds/ips.csv       64
           fetch hashes.txt   feeds/hashes.txt   256
+          fetch hashes.csv   feeds/hashes.csv   256
+          fetch crypto.txt   feeds/crypto.txt    32
+          fetch crypto.csv   feeds/crypto.csv    64
           fetch feed.txt     feeds/all.txt      128
           fetch feed.csv     feeds/all.csv      128
           fetch feed.json    feeds/all.json     128
-          fetch hashes.csv   feeds/hashes.csv   256
           fetch stats        feeds/stats.json    32
+
+          # Full history — hunt/retrospective, NOT block-ready. Kept in a
+          # separate directory so nobody wires feeds/domains.txt and
+          # feeds/full/domains.txt into the same blocklist by accident.
+          mkdir -p feeds/full
+          fetch full/domains.txt feeds/full/domains.txt   32
+          fetch full/domains.csv feeds/full/domains.csv   64
+          fetch full/ips.txt     feeds/full/ips.txt       16
+          fetch full/ips.csv     feeds/full/ips.csv       64
+          fetch full/hashes.txt  feeds/full/hashes.txt   256
+          fetch full/hashes.csv  feeds/full/hashes.csv   256
+          fetch full/crypto.txt  feeds/full/crypto.txt    32
+          fetch full/crypto.csv  feeds/full/crypto.csv    64
+          fetch full/feed.csv    feeds/full/all.csv      128
+          fetch full/feed.json   feeds/full/all.json     128
+          fetch full/stats       feeds/full/stats.json    32
 
       - name: Update README stats
         run: |
@@ -76,16 +97,29 @@ jobs:
           import json, re, pathlib, datetime
           stats = json.loads(pathlib.Path('feeds/stats.json').read_text())
           by = stats.get('by_type', {})
+          # Full-history totals sit alongside the 30-day ones so the table
+          # shows both "what to block now" and "how deep the archive goes".
+          full = {}
+          fp = pathlib.Path('feeds/full/stats.json')
+          if fp.exists():
+              try:
+                  full = {r['type']: r['count']
+                          for r in json.loads(fp.read_text()).get('by_type', [])}
+              except Exception:
+                  full = {}
+          types = sorted(set(by) | set(full), key=lambda k: -(full.get(k) or by.get(k, 0)))
           rows = "\n".join(
-              f"| {k} | {v} |" for k, v in sorted(by.items(), key=lambda x: -x[1]) if v
+              f"| {k} | {by.get(k, 0)} | {full.get(k, '—')} |"
+              for k in types if by.get(k) or full.get(k)
           )
           block = (
               "<!--STATS-->\n"
               f"_Last updated: {datetime.datetime.utcnow():%Y-%m-%d %H:%M} UTC_\n\n"
               f"**{stats.get('count', 0)} network indicators** · "
               f"**{stats.get('hash_count', 0)} hashes** · "
+              f"**{stats.get('crypto_count', 0)} wallets** · "
               f"{stats.get('window_days', 30)}-day window\n\n"
-              "| Type | Count |\n|---|---|\n" + rows + "\n"
+              "| Type | Last 30 days | All time |\n|---|---|---|\n" + rows + "\n"
               "<!--/STATS-->"
           )
           p = pathlib.Path('README.md')
