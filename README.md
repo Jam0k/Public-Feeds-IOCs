@@ -12,16 +12,21 @@ Clustered and deduplicated from 20,000+ sources.
 Snapshotted daily from the API. Use these if you want a pinned, versioned copy —
 or `git log` to see when an indicator first appeared.
 
+**`feeds/`** — the block-ready set (last 30 days):
+
 | File | Contents |
 |---|---|
-| [`feeds/domains.txt`](feeds/domains.txt) | Domains, one per line |
-| [`feeds/ips.txt`](feeds/ips.txt) | IPv4 / IPv6 |
-| [`feeds/hashes.txt`](feeds/hashes.txt) | MD5 / SHA-1 / SHA-256 |
+| [`feeds/domains.txt`](feeds/domains.txt) · [`.csv`](feeds/domains.csv) | Domains |
+| [`feeds/ips.txt`](feeds/ips.txt) · [`.csv`](feeds/ips.csv) | IPv4 / IPv6 |
+| [`feeds/hashes.txt`](feeds/hashes.txt) · [`.csv`](feeds/hashes.csv) | MD5 / SHA-1 / SHA-256 |
+| [`feeds/crypto.txt`](feeds/crypto.txt) · [`.csv`](feeds/crypto.csv) | BTC / ETH / XMR wallets |
 | [`feeds/all.txt`](feeds/all.txt) | Domains + IPs combined |
-| [`feeds/all.csv`](feeds/all.csv) | Full metadata (type, confidence, sources, reason) |
-| [`feeds/all.json`](feeds/all.json) | Same, JSON |
-| [`feeds/hashes.csv`](feeds/hashes.csv) | Hashes with metadata |
+| [`feeds/all.csv`](feeds/all.csv) · [`.json`](feeds/all.json) | Full metadata |
 | [`feeds/stats.json`](feeds/stats.json) | Counts by type |
+
+**`feeds/full/`** — the whole archive since Nov 2025. Same filenames, and
+deliberately a separate directory so a full list never lands in a blocklist by
+accident. See [Full history](#full-history) before using it.
 
 ```bash
 # pin to this repo instead of the live API
@@ -57,10 +62,25 @@ High-confidence indicators from the last **30 days**.
 | [`/api/iocs/public/feed.csv`](https://threatcluster.io/api/iocs/public/feed.csv) | CSV | Full metadata incl. sources and reasoning |
 | [`/api/iocs/public/feed.json`](https://threatcluster.io/api/iocs/public/feed.json) | JSON | Structured, same fields as CSV |
 | [`/api/iocs/public/domains.txt`](https://threatcluster.io/api/iocs/public/domains.txt) | text | Domains only |
+| [`/api/iocs/public/domains.csv`](https://threatcluster.io/api/iocs/public/domains.csv) | CSV | Domains with metadata |
 | [`/api/iocs/public/ips.txt`](https://threatcluster.io/api/iocs/public/ips.txt) | text | IPv4/IPv6 only |
+| [`/api/iocs/public/ips.csv`](https://threatcluster.io/api/iocs/public/ips.csv) | CSV | IPs with metadata |
 | [`/api/iocs/public/hashes.txt`](https://threatcluster.io/api/iocs/public/hashes.txt) | text | MD5 / SHA-1 / SHA-256 |
 | [`/api/iocs/public/hashes.csv`](https://threatcluster.io/api/iocs/public/hashes.csv) | CSV | Hashes with metadata |
+| [`/api/iocs/public/crypto.txt`](https://threatcluster.io/api/iocs/public/crypto.txt) | text | Attacker wallets (BTC/ETH/XMR) |
+| [`/api/iocs/public/crypto.csv`](https://threatcluster.io/api/iocs/public/crypto.csv) | CSV | Wallets with metadata |
 | [`/api/iocs/public/stats`](https://threatcluster.io/api/iocs/public/stats) | JSON | Counts by type, window, freshness |
+
+Every `.csv` above shares the same column set, so a parser written against one
+works on all of them.
+
+### Wallets
+
+Attacker-controlled cryptocurrency addresses — ransom payments, exchange
+thefts, scam proceeds. These are for chain analysis and payment screening, and
+are deliberately **not** in `feed.txt`: a wallet address in a DNS blocklist is
+meaningless. Every address is checksum-validated before it ships, so a mistyped
+or truncated one never reaches the feed.
 
 ### Lookup a single indicator
 
@@ -79,6 +99,41 @@ attacker-controlled. Useful for triage and for filing disputes.
 
 ```csv
 domain,drive.google.verify-drive.com,high,2026-08-21T00:32:07Z,2026-08-21T00:32:07Z,1,cloud.google.com:2026-08-21,Identified as a malware distribution domain.
+```
+
+---
+
+## Full history
+
+Everything above covers the last 30 days — the **block-ready** set: recent,
+corroborated, safe to point a firewall at. The `full/` endpoints are the whole
+archive back to November 2025, with the date each indicator was first seen.
+
+> **Read this before you use it.** This is a hunt and enrichment dataset, not a
+> blocklist. Infrastructure ages: a C2 address from last winter may since have
+> been reallocated to somebody uninvolved, and blocking it would hit them
+> rather than the actor. Search your logs against it, enrich with it, pivot on
+> it — don't sinkhole it.
+
+| Endpoint | Format |
+|---|---|
+| [`/api/iocs/public/full/domains.txt`](https://threatcluster.io/api/iocs/public/full/domains.txt) · [`.csv`](https://threatcluster.io/api/iocs/public/full/domains.csv) | Every domain |
+| [`/api/iocs/public/full/ips.txt`](https://threatcluster.io/api/iocs/public/full/ips.txt) · [`.csv`](https://threatcluster.io/api/iocs/public/full/ips.csv) | Every IP |
+| [`/api/iocs/public/full/hashes.txt`](https://threatcluster.io/api/iocs/public/full/hashes.txt) · [`.csv`](https://threatcluster.io/api/iocs/public/full/hashes.csv) | Every hash |
+| [`/api/iocs/public/full/crypto.txt`](https://threatcluster.io/api/iocs/public/full/crypto.txt) · [`.csv`](https://threatcluster.io/api/iocs/public/full/crypto.csv) | Every wallet |
+| [`/api/iocs/public/full/feed.csv`](https://threatcluster.io/api/iocs/public/full/feed.csv) · [`.json`](https://threatcluster.io/api/iocs/public/full/feed.json) | All types, full metadata |
+| [`/api/iocs/public/full/stats`](https://threatcluster.io/api/iocs/public/full/stats) | Counts and date coverage |
+
+**Hashes and wallets age best.** A file hash names one exact artefact forever,
+and a wallet is bound to whoever holds the key — neither can be reassigned to
+an innocent party the way a domain or an address can. If you only take one full
+list, take those.
+
+Corroboration filter — indicators reported by two or more independent
+publishers:
+
+```bash
+curl "https://threatcluster.io/api/iocs/public/full/feed.json?min_sources=2"
 ```
 
 ---
@@ -150,9 +205,15 @@ the indicator and we'll review and remove it.
 - **No authentication.** No API key, no rate limit for reasonable use.
 - **Caching.** Feeds are cached server-side; polling more often than hourly
   gains you nothing.
-- **Scope.** The public feed covers high-confidence network indicators from the
-  last 30 days. Full corpus, all entity types and historical data are available
-  via the [API](https://threatcluster.io/api/public/v1/docs).
+- **Scope.** The default feeds cover high-confidence indicators from the last
+  30 days. [Full history](#full-history) goes back to November 2025. Every
+  entity type, richer filtering and authenticated volume are available via the
+  [API](https://threatcluster.io/api/public/v1/docs).
+- **What gets excluded.** Indicators are dropped at export if they resolve to
+  government, academic or e-government domains, freemail providers, known
+  abused third-party services (paste sites, tunnelling, mining pools), bare
+  network ranges, or placeholder hostnames from a redacted advisory. Most
+  candidate indicators do not make it — that is deliberate.
 
 ## Links
 
@@ -160,21 +221,3 @@ the indicator and we'll review and remove it.
 - [IOC browser](https://threatcluster.io/iocs)
 - [API documentation](https://threatcluster.io/api/public/v1/docs)
 - [Format matrix](https://threatcluster.io/formats)
-
----
-
-## Current feed
-
-<!--STATS-->
-_Last updated: 2026-08-27 09:21 UTC_
-
-**32 network indicators** · **320 hashes** · 30-day window
-
-| Type | Count |
-|---|---|
-| md5 | 242 |
-| sha256 | 64 |
-| domain | 16 |
-| ipv4 | 16 |
-| sha1 | 14 |
-<!--/STATS-->
