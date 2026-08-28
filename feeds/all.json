@@ -1,7 +1,7 @@
 {
   "feed": "threatcluster-public-iocs",
   "version": 1,
-  "generated_at": "2026-08-27T11:32:39Z",
+  "generated_at": "2026-08-28T09:23:35Z",
   "filters": {
     "confidence": "high",
     "window_days": 30,
@@ -11,21 +11,208 @@
       "domain"
     ]
   },
-  "count": 32,
+  "count": 56,
   "iocs": [
+    {
+      "type": "domain",
+      "value": "exessupdate.info",
+      "confidence": "high",
+      "reason": "[article sweep] Listed as part of campaign infrastructure in a YARA rule",
+      "first_seen": "2026-08-28T03:24:16+00:00",
+      "last_seen": "2026-08-28T03:24:16+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cyfirma",
+          "url": "https://www.cyfirma.com/news/weekly-intelligence-report-28-aug-2026/",
+          "pub_date": "2026-08-28T03:24:16+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "greezupdto.info",
+      "confidence": "high",
+      "reason": "[article sweep] Listed as part of campaign infrastructure in a YARA rule",
+      "first_seen": "2026-08-28T03:24:16+00:00",
+      "last_seen": "2026-08-28T03:24:16+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cyfirma",
+          "url": "https://www.cyfirma.com/news/weekly-intelligence-report-28-aug-2026/",
+          "pub_date": "2026-08-28T03:24:16+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "hillisolutions.info",
+      "confidence": "high",
+      "reason": "[article sweep] Listed as part of campaign infrastructure in a YARA rule",
+      "first_seen": "2026-08-28T03:24:16+00:00",
+      "last_seen": "2026-08-28T03:24:16+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cyfirma",
+          "url": "https://www.cyfirma.com/news/weekly-intelligence-report-28-aug-2026/",
+          "pub_date": "2026-08-28T03:24:16+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "makerolleds.info",
+      "confidence": "high",
+      "reason": "[article sweep] Listed as part of campaign infrastructure in a YARA rule",
+      "first_seen": "2026-08-28T03:24:16+00:00",
+      "last_seen": "2026-08-28T03:24:16+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cyfirma",
+          "url": "https://www.cyfirma.com/news/weekly-intelligence-report-28-aug-2026/",
+          "pub_date": "2026-08-28T03:24:16+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "programgreedz.info",
+      "confidence": "high",
+      "reason": "[article sweep] Listed as part of campaign infrastructure in a YARA rule",
+      "first_seen": "2026-08-28T03:24:16+00:00",
+      "last_seen": "2026-08-28T03:24:16+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cyfirma",
+          "url": "https://www.cyfirma.com/news/weekly-intelligence-report-28-aug-2026/",
+          "pub_date": "2026-08-28T03:24:16+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "reggyupdated.info",
+      "confidence": "high",
+      "reason": "[article sweep] Listed as part of campaign infrastructure in a YARA rule",
+      "first_seen": "2026-08-28T03:24:16+00:00",
+      "last_seen": "2026-08-28T03:24:16+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cyfirma",
+          "url": "https://www.cyfirma.com/news/weekly-intelligence-report-28-aug-2026/",
+          "pub_date": "2026-08-28T03:24:16+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "ipv4",
+      "value": "192.162.199.149",
+      "confidence": "high",
+      "reason": "[article sweep] IP address associated with malware file hosting",
+      "first_seen": "2026-08-28T03:24:16+00:00",
+      "last_seen": "2026-08-28T03:24:16+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cyfirma",
+          "url": "https://www.cyfirma.com/news/weekly-intelligence-report-28-aug-2026/",
+          "pub_date": "2026-08-28T03:24:16+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "mychart-epic.com",
+      "confidence": "high",
+      "reason": "Domain used for phishing, mimicking MyChart; attacker-controlled infrastructure.",
+      "first_seen": "2026-08-27T23:05:32.658708+00:00",
+      "last_seen": "2026-08-27T23:05:32.658708+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.mychart.org",
+          "url": "https://www.mychart.org/l/en-us/help/staying-safe-from-scams-and-fraud/",
+          "pub_date": "2026-08-27T23:05:32.658708+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "my-chart.org",
+      "confidence": "high",
+      "reason": "Domain used for phishing, mimicking MyChart; attacker-controlled infrastructure.",
+      "first_seen": "2026-08-27T23:05:32.658708+00:00",
+      "last_seen": "2026-08-27T23:05:32.658708+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.mychart.org",
+          "url": "https://www.mychart.org/l/en-us/help/staying-safe-from-scams-and-fraud/",
+          "pub_date": "2026-08-27T23:05:32.658708+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "crpx0.su",
+      "confidence": "high",
+      "reason": "[article sweep] Identified as hosting a panel for a ransomware group",
+      "first_seen": "2026-08-27T21:32:24.332810+00:00",
+      "last_seen": "2026-08-27T21:32:24.332810+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "theravenfile.com",
+          "url": "https://theravenfile.com/2026/08/03/crpx0-scammer-turned-ransomware-operator/",
+          "pub_date": "2026-08-27T21:32:24.33281+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "flash-token.shop",
+      "confidence": "high",
+      "reason": "[article sweep] Identified as a scam service domain",
+      "first_seen": "2026-08-27T21:32:24.332810+00:00",
+      "last_seen": "2026-08-27T21:32:24.332810+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "theravenfile.com",
+          "url": "https://theravenfile.com/2026/08/03/crpx0-scammer-turned-ransomware-operator/",
+          "pub_date": "2026-08-27T21:32:24.33281+00:00"
+        }
+      ],
+      "tags": []
+    },
     {
       "type": "domain",
       "value": "instantmessagehub.tech",
       "confidence": "high",
       "reason": "Listed as a core infrastructure element for Fast Labyrinth",
-      "first_seen": "2026-08-26T20:18:54.083342+00:00",
-      "last_seen": "2026-08-26T20:18:54.083342+00:00",
+      "first_seen": "2026-08-27T17:12:48.782680+00:00",
+      "last_seen": "2026-08-27T17:12:48.782680+00:00",
       "source_count": 1,
       "sources": [
         {
           "source": "www.lumen.com",
           "url": "https://www.lumen.com/blog/en-us/the-infrastructure-quartermaster-inside-a-china-nexus-state-enablement-model",
-          "pub_date": "2026-08-26T20:18:54.083342+00:00"
+          "pub_date": "2026-08-27T17:12:48.78268+00:00"
         }
       ],
       "tags": [
@@ -52,14 +239,14 @@
       "value": "jump.qt-proxy.org",
       "confidence": "high",
       "reason": "Listed as an active operational jump box for Fast Labyrinth",
-      "first_seen": "2026-08-26T20:18:54.083342+00:00",
-      "last_seen": "2026-08-26T20:18:54.083342+00:00",
+      "first_seen": "2026-08-27T17:12:48.782680+00:00",
+      "last_seen": "2026-08-27T17:12:48.782680+00:00",
       "source_count": 1,
       "sources": [
         {
           "source": "www.lumen.com",
           "url": "https://www.lumen.com/blog/en-us/the-infrastructure-quartermaster-inside-a-china-nexus-state-enablement-model",
-          "pub_date": "2026-08-26T20:18:54.083342+00:00"
+          "pub_date": "2026-08-27T17:12:48.78268+00:00"
         }
       ],
       "tags": [
@@ -83,17 +270,17 @@
     },
     {
       "type": "domain",
-      "value": "qt-proxy.org",
+      "value": "mq-result-qt-team.com",
       "confidence": "high",
-      "reason": "Active infrastructure element for Fast Labyrinth",
-      "first_seen": "2026-08-26T20:18:54.083342+00:00",
-      "last_seen": "2026-08-26T20:18:54.083342+00:00",
+      "reason": "[article sweep] Listed as part of QScan backend infrastructure, mapped to a specific IP",
+      "first_seen": "2026-08-27T17:12:48.782680+00:00",
+      "last_seen": "2026-08-27T17:12:48.782680+00:00",
       "source_count": 1,
       "sources": [
         {
           "source": "www.lumen.com",
           "url": "https://www.lumen.com/blog/en-us/the-infrastructure-quartermaster-inside-a-china-nexus-state-enablement-model",
-          "pub_date": "2026-08-26T20:18:54.083342+00:00"
+          "pub_date": "2026-08-27T17:12:48.78268+00:00"
         }
       ],
       "tags": [
@@ -117,51 +304,17 @@
     },
     {
       "type": "domain",
-      "value": "qtproxy.xyz",
+      "value": "mq-task-qt-team.com",
       "confidence": "high",
-      "reason": "Primary administrative domain for proxy orchestration",
-      "first_seen": "2026-08-26T20:18:54.083342+00:00",
-      "last_seen": "2026-08-26T20:18:54.083342+00:00",
+      "reason": "[article sweep] Listed as part of QScan broker infrastructure, mapped to a specific IP",
+      "first_seen": "2026-08-27T17:12:48.782680+00:00",
+      "last_seen": "2026-08-27T17:12:48.782680+00:00",
       "source_count": 1,
       "sources": [
         {
           "source": "www.lumen.com",
           "url": "https://www.lumen.com/blog/en-us/the-infrastructure-quartermaster-inside-a-china-nexus-state-enablement-model",
-          "pub_date": "2026-08-26T20:18:54.083342+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Raptor Train"
-        },
-        {
-          "type": "industry",
-          "value": "Energy"
-        },
-        {
-          "type": "industry",
-          "value": "Financial"
-        },
-        {
-          "type": "industry",
-          "value": "Government"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "qt-team.com",
-      "confidence": "high",
-      "reason": "Legacy assets replaced by qt-proxy.org",
-      "first_seen": "2026-08-26T20:18:54.083342+00:00",
-      "last_seen": "2026-08-26T20:18:54.083342+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.lumen.com",
-          "url": "https://www.lumen.com/blog/en-us/the-infrastructure-quartermaster-inside-a-china-nexus-state-enablement-model",
-          "pub_date": "2026-08-26T20:18:54.083342+00:00"
+          "pub_date": "2026-08-27T17:12:48.78268+00:00"
         }
       ],
       "tags": [
@@ -188,14 +341,14 @@
       "value": "1.32.216.171",
       "confidence": "high",
       "reason": "Mapped to Fast Labyrinth admin plane",
-      "first_seen": "2026-08-26T20:18:54.083342+00:00",
-      "last_seen": "2026-08-26T20:18:54.083342+00:00",
+      "first_seen": "2026-08-27T17:12:48.782680+00:00",
+      "last_seen": "2026-08-27T17:12:48.782680+00:00",
       "source_count": 1,
       "sources": [
         {
           "source": "www.lumen.com",
           "url": "https://www.lumen.com/blog/en-us/the-infrastructure-quartermaster-inside-a-china-nexus-state-enablement-model",
-          "pub_date": "2026-08-26T20:18:54.083342+00:00"
+          "pub_date": "2026-08-27T17:12:48.78268+00:00"
         }
       ],
       "tags": [
@@ -222,14 +375,14 @@
       "value": "154.64.238.222",
       "confidence": "high",
       "reason": "Mapped to QScan broker",
-      "first_seen": "2026-08-26T20:18:54.083342+00:00",
-      "last_seen": "2026-08-26T20:18:54.083342+00:00",
+      "first_seen": "2026-08-27T17:12:48.782680+00:00",
+      "last_seen": "2026-08-27T17:12:48.782680+00:00",
       "source_count": 1,
       "sources": [
         {
           "source": "www.lumen.com",
           "url": "https://www.lumen.com/blog/en-us/the-infrastructure-quartermaster-inside-a-china-nexus-state-enablement-model",
-          "pub_date": "2026-08-26T20:18:54.083342+00:00"
+          "pub_date": "2026-08-27T17:12:48.78268+00:00"
         }
       ],
       "tags": [
@@ -256,14 +409,14 @@
       "value": "154.64.238.247",
       "confidence": "high",
       "reason": "Mapped to QScan backend",
-      "first_seen": "2026-08-26T20:18:54.083342+00:00",
-      "last_seen": "2026-08-26T20:18:54.083342+00:00",
+      "first_seen": "2026-08-27T17:12:48.782680+00:00",
+      "last_seen": "2026-08-27T17:12:48.782680+00:00",
       "source_count": 1,
       "sources": [
         {
           "source": "www.lumen.com",
           "url": "https://www.lumen.com/blog/en-us/the-infrastructure-quartermaster-inside-a-china-nexus-state-enablement-model",
-          "pub_date": "2026-08-26T20:18:54.083342+00:00"
+          "pub_date": "2026-08-27T17:12:48.78268+00:00"
         }
       ],
       "tags": [
@@ -290,14 +443,14 @@
       "value": "8.148.149.147",
       "confidence": "high",
       "reason": "Mapped to active operational jump box",
-      "first_seen": "2026-08-26T20:18:54.083342+00:00",
-      "last_seen": "2026-08-26T20:18:54.083342+00:00",
+      "first_seen": "2026-08-27T17:12:48.782680+00:00",
+      "last_seen": "2026-08-27T17:12:48.782680+00:00",
       "source_count": 1,
       "sources": [
         {
           "source": "www.lumen.com",
           "url": "https://www.lumen.com/blog/en-us/the-infrastructure-quartermaster-inside-a-china-nexus-state-enablement-model",
-          "pub_date": "2026-08-26T20:18:54.083342+00:00"
+          "pub_date": "2026-08-27T17:12:48.78268+00:00"
         }
       ],
       "tags": [
@@ -321,20 +474,93 @@
     },
     {
       "type": "domain",
-      "value": "lkvb06fkzsjv.org",
+      "value": "cryptoprice.pw",
       "confidence": "high",
-      "reason": "Randomly generated domain used in synthetic data injection, likely attacker-controlled.",
-      "first_seen": "2026-08-26T15:13:00+00:00",
-      "last_seen": "2026-08-26T15:13:00+00:00",
+      "reason": "Listed as a service advertised by the actor for scams and malware delivery",
+      "first_seen": "2026-08-26T17:39:45+00:00",
+      "last_seen": "2026-08-26T17:39:45+00:00",
       "source_count": 1,
       "sources": [
         {
-          "source": "Theregister",
-          "url": "https://www.theregister.com/security/2026/08/26/carhartt-data-breach-affects-129m-half-of-what-shinyhunters-claimed/5292626",
-          "pub_date": "2026-08-26T15:13:00+00:00"
+          "source": "Kelacyber",
+          "url": "https://www.kelacyber.com/blog/crpx0-threat-actor-profile/",
+          "pub_date": "2026-08-26T17:39:45+00:00"
         }
       ],
-      "tags": []
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "CRPx0 Campaign"
+        },
+        {
+          "type": "industry",
+          "value": "Healthcare"
+        },
+        {
+          "type": "ransomware_group",
+          "value": "CRPx0"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "databreach.space",
+      "confidence": "high",
+      "reason": "Identified as an earlier version of the actor\u2019s ransomware blog",
+      "first_seen": "2026-08-26T17:39:45+00:00",
+      "last_seen": "2026-08-26T17:39:45+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Kelacyber",
+          "url": "https://www.kelacyber.com/blog/crpx0-threat-actor-profile/",
+          "pub_date": "2026-08-26T17:39:45+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "CRPx0 Campaign"
+        },
+        {
+          "type": "industry",
+          "value": "Healthcare"
+        },
+        {
+          "type": "ransomware_group",
+          "value": "CRPx0"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "socialposter.org",
+      "confidence": "high",
+      "reason": "Registered by the threat actor and associated with cybercrime activity",
+      "first_seen": "2026-08-26T17:39:45+00:00",
+      "last_seen": "2026-08-26T17:39:45+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Kelacyber",
+          "url": "https://www.kelacyber.com/blog/crpx0-threat-actor-profile/",
+          "pub_date": "2026-08-26T17:39:45+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "CRPx0 Campaign"
+        },
+        {
+          "type": "industry",
+          "value": "Healthcare"
+        },
+        {
+          "type": "ransomware_group",
+          "value": "CRPx0"
+        }
+      ]
     },
     {
       "type": "ipv4",
@@ -364,34 +590,34 @@
     },
     {
       "type": "domain",
-      "value": "mychart-epic.com",
+      "value": "case-apple.com",
       "confidence": "high",
-      "reason": "Domain used for phishing, mimicking MyChart; attacker-controlled infrastructure.",
-      "first_seen": "2026-08-24T16:35:14.982407+00:00",
-      "last_seen": "2026-08-24T16:35:14.982407+00:00",
+      "reason": "[article sweep] Used in phishing scams impersonating Apple",
+      "first_seen": "2026-08-21T14:51:21+00:00",
+      "last_seen": "2026-08-21T14:51:21+00:00",
       "source_count": 1,
       "sources": [
         {
-          "source": "www.mychart.org",
-          "url": "https://www.mychart.org/l/en-us/help/staying-safe-from-scams-and-fraud/",
-          "pub_date": "2026-08-24T16:35:14.982407+00:00"
+          "source": "Straitstimes",
+          "url": "https://www.straitstimes.com/singapore/apple-impersonation-scams-cost-spore-victims-at-least-195k-in-crypto-assets-within-2-weeks",
+          "pub_date": "2026-08-21T14:51:21+00:00"
         }
       ],
       "tags": []
     },
     {
       "type": "domain",
-      "value": "my-chart.org",
+      "value": "chat-apple.com",
       "confidence": "high",
-      "reason": "Domain used for phishing, mimicking MyChart; attacker-controlled infrastructure.",
-      "first_seen": "2026-08-24T16:35:14.982407+00:00",
-      "last_seen": "2026-08-24T16:35:14.982407+00:00",
+      "reason": "[article sweep] Used in phishing scams impersonating Apple",
+      "first_seen": "2026-08-21T14:51:21+00:00",
+      "last_seen": "2026-08-21T14:51:21+00:00",
       "source_count": 1,
       "sources": [
         {
-          "source": "www.mychart.org",
-          "url": "https://www.mychart.org/l/en-us/help/staying-safe-from-scams-and-fraud/",
-          "pub_date": "2026-08-24T16:35:14.982407+00:00"
+          "source": "Straitstimes",
+          "url": "https://www.straitstimes.com/singapore/apple-impersonation-scams-cost-spore-victims-at-least-195k-in-crypto-assets-within-2-weeks",
+          "pub_date": "2026-08-21T14:51:21+00:00"
         }
       ],
       "tags": []
@@ -513,6 +739,88 @@
         {
           "type": "malware",
           "value": "Spyroid"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "gigapaper.ir",
+      "confidence": "high",
+      "reason": "[article sweep] Used to sell stolen academic data, controlled by attackers",
+      "first_seen": "2026-08-18T17:54:40+00:00",
+      "last_seen": "2026-08-18T17:54:40+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Justice",
+          "url": "https://www.justice.gov/opa/pr/17-iranians-charged-conducting-massive-cyber-theft-campaign-behalf-islamic-revolutionary",
+          "pub_date": "2026-08-18T17:54:40+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "University Hacking Campaign"
+        },
+        {
+          "type": "industry",
+          "value": "Government"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "megapaper.ir",
+      "confidence": "high",
+      "reason": "[article sweep] Used to sell stolen academic resources",
+      "first_seen": "2026-08-18T17:54:40+00:00",
+      "last_seen": "2026-08-18T17:54:40+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Justice",
+          "url": "https://www.justice.gov/opa/pr/17-iranians-charged-conducting-massive-cyber-theft-campaign-behalf-islamic-revolutionary",
+          "pub_date": "2026-08-18T17:54:40+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "University Hacking Campaign"
+        },
+        {
+          "type": "industry",
+          "value": "Government"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "85.206.161.241",
+      "confidence": "high",
+      "reason": "[article sweep] IP address used for direct C2 communication via WebSocket",
+      "first_seen": "2026-08-17T13:59:31+00:00",
+      "last_seen": "2026-08-17T13:59:31+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Huntress",
+          "url": "https://www.huntress.com/blog/fake-claude-macsync",
+          "pub_date": "2026-08-17T13:59:31+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "AMOS Stealer"
+        },
+        {
+          "type": "malware",
+          "value": "MacSync Stealer"
+        },
+        {
+          "type": "malware",
+          "value": "SectopRAT"
         }
       ]
     },
@@ -642,6 +950,28 @@
       ]
     },
     {
+      "type": "domain",
+      "value": "m.studiotikva.com",
+      "confidence": "high",
+      "reason": "[article sweep] Used for DNS A-record queries in C2 communication",
+      "first_seen": "2026-08-11T10:00:19+00:00",
+      "last_seen": "2026-08-11T10:00:19+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Securelist",
+          "url": "https://securelist.com/project-cav3rn-continues/120991/",
+          "pub_date": "2026-08-11T10:00:19+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "Cav3rn"
+        }
+      ]
+    },
+    {
       "type": "ipv4",
       "value": "74.65.75.102",
       "confidence": "high",
@@ -688,6 +1018,125 @@
           "value": "W3LL Kit"
         }
       ]
+    },
+    {
+      "type": "domain",
+      "value": "tommysbakescodes.ws",
+      "confidence": "high",
+      "reason": "[article sweep] Listed in a YARA rule as part of C2/network communication",
+      "first_seen": "2026-08-06T18:48:08+00:00",
+      "last_seen": "2026-08-06T18:48:08+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cyfirma",
+          "url": "https://www.cyfirma.com/news/weekly-intelligence-report-7-aug-2026/",
+          "pub_date": "2026-08-06T18:48:08+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "www1.planetink.com",
+      "confidence": "high",
+      "reason": "[article sweep] Listed as part of Lazarus-related supply chain campaign artifacts",
+      "first_seen": "2026-08-06T18:48:08+00:00",
+      "last_seen": "2026-08-06T18:48:08+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cyfirma",
+          "url": "https://www.cyfirma.com/news/weekly-intelligence-report-7-aug-2026/",
+          "pub_date": "2026-08-06T18:48:08+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "www2.planetink.com",
+      "confidence": "high",
+      "reason": "[article sweep] Listed as part of Lazarus-related supply chain campaign artifacts",
+      "first_seen": "2026-08-06T18:48:08+00:00",
+      "last_seen": "2026-08-06T18:48:08+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cyfirma",
+          "url": "https://www.cyfirma.com/news/weekly-intelligence-report-7-aug-2026/",
+          "pub_date": "2026-08-06T18:48:08+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "zimbra.planetink.com",
+      "confidence": "high",
+      "reason": "[article sweep] Listed in a rule for detecting Lazarus-related supply chain campaign artifacts",
+      "first_seen": "2026-08-06T18:48:08+00:00",
+      "last_seen": "2026-08-06T18:48:08+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cyfirma",
+          "url": "https://www.cyfirma.com/news/weekly-intelligence-report-7-aug-2026/",
+          "pub_date": "2026-08-06T18:48:08+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "zmail.vetstarts.com",
+      "confidence": "high",
+      "reason": "[article sweep] Listed in a rule for detecting Lazarus-related supply chain campaign artifacts",
+      "first_seen": "2026-08-06T18:48:08+00:00",
+      "last_seen": "2026-08-06T18:48:08+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cyfirma",
+          "url": "https://www.cyfirma.com/news/weekly-intelligence-report-7-aug-2026/",
+          "pub_date": "2026-08-06T18:48:08+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "ipv4",
+      "value": "73.158.81.165",
+      "confidence": "high",
+      "reason": "[article sweep] Listed as part of a YARA rule for malicious activity",
+      "first_seen": "2026-08-06T18:48:08+00:00",
+      "last_seen": "2026-08-06T18:48:08+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cyfirma",
+          "url": "https://www.cyfirma.com/news/weekly-intelligence-report-7-aug-2026/",
+          "pub_date": "2026-08-06T18:48:08+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "ipv4",
+      "value": "76.229.204.88",
+      "confidence": "high",
+      "reason": "[article sweep] Listed as part of a YARA rule for malicious activity",
+      "first_seen": "2026-08-06T18:48:08+00:00",
+      "last_seen": "2026-08-06T18:48:08+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cyfirma",
+          "url": "https://www.cyfirma.com/news/weekly-intelligence-report-7-aug-2026/",
+          "pub_date": "2026-08-06T18:48:08+00:00"
+        }
+      ],
+      "tags": []
     },
     {
       "type": "ipv4",
@@ -817,6 +1266,57 @@
     },
     {
       "type": "domain",
+      "value": "deltaode.com",
+      "confidence": "high",
+      "reason": "[article sweep] Identified as part of a C2 infrastructure for a campaign",
+      "first_seen": "2026-08-05T12:14:01+00:00",
+      "last_seen": "2026-08-05T12:14:01+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Socprime",
+          "url": "https://socprime.com/active-threats/smartapesg-pushes-an-unknown-rat-through-clickfix-lures/",
+          "pub_date": "2026-08-05T12:14:01+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "ipv4",
+      "value": "213.173.45.230",
+      "confidence": "high",
+      "reason": "[article sweep] Described as hosting a malicious SimpleHelp server",
+      "first_seen": "2026-08-04T13:04:39.953091+00:00",
+      "last_seen": "2026-08-04T13:04:39.953091+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "fieldeffect.com",
+          "url": "https://fieldeffect.com/blog/field-effect-mitigates-not-so-simplehelp-exploits-enabling-deployment-of-backdoors",
+          "pub_date": "2026-08-04T13:04:39.953091+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "microsoft-login.secure-verify.net",
+      "confidence": "high",
+      "reason": "[article sweep] Described as a phishing domain impersonating Microsoft",
+      "first_seen": "2026-08-03T13:40:21+00:00",
+      "last_seen": "2026-08-03T13:40:21+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Dexpose",
+          "url": "https://www.dexpose.io/phishing-link/",
+          "pub_date": "2026-08-03T13:40:21+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
       "value": "xfconnect.com",
       "confidence": "high",
       "reason": "Pointed to as hosting multiple FCN binaries related to Chanming's product",
@@ -880,50 +1380,6 @@
         {
           "type": "cve",
           "value": "CVE-2025-34152"
-        }
-      ]
-    },
-    {
-      "type": "ipv4",
-      "value": "206.72.242.124",
-      "confidence": "high",
-      "reason": "Listed as a known malicious IP address.",
-      "first_seen": "2026-07-28T21:52:08+00:00",
-      "last_seen": "2026-07-28T21:52:08+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Feeds.Feedburner",
-          "url": "https://www.scworld.com/brief/arista-patches-critical-command-injection-flaw-in-velocloud-orchestrator-exploited-in-attacks",
-          "pub_date": "2026-07-28T21:52:08+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "cve",
-          "value": "CVE-2026-16812"
-        }
-      ]
-    },
-    {
-      "type": "ipv4",
-      "value": "8.19.75.217",
-      "confidence": "high",
-      "reason": "Listed as a known malicious IP address.",
-      "first_seen": "2026-07-28T21:52:08+00:00",
-      "last_seen": "2026-07-28T21:52:08+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Feeds.Feedburner",
-          "url": "https://www.scworld.com/brief/arista-patches-critical-command-injection-flaw-in-velocloud-orchestrator-exploited-in-attacks",
-          "pub_date": "2026-07-28T21:52:08+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "cve",
-          "value": "CVE-2026-16812"
         }
       ]
     }
