@@ -1,4 +1,5 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason
+domain,nuihuw.top,high,2026-08-26T10:37:36+00:00,2026-08-28T11:38:54+00:00,2,,Listed as a backup C2 server in the decrypted configuration
 domain,exessupdate.info,high,2026-08-28T03:24:16+00:00,2026-08-28T03:24:16+00:00,1,,[article sweep] Listed as part of campaign infrastructure in a YARA rule
 domain,greezupdto.info,high,2026-08-28T03:24:16+00:00,2026-08-28T03:24:16+00:00,1,,[article sweep] Listed as part of campaign infrastructure in a YARA rule
 domain,hillisolutions.info,high,2026-08-28T03:24:16+00:00,2026-08-28T03:24:16+00:00,1,,[article sweep] Listed as part of campaign infrastructure in a YARA rule
@@ -13,6 +14,9 @@ domain,instantmessagehub.tech,high,2026-08-26T20:18:54.083342+00:00,2026-08-27T1
 domain,jump.qt-proxy.org,high,2026-08-26T20:18:54.083342+00:00,2026-08-27T17:12:48.782680+00:00,1,,Listed as an active operational jump box for Fast Labyrinth
 domain,mq-result-qt-team.com,high,2026-08-27T17:12:48.782680+00:00,2026-08-27T17:12:48.782680+00:00,1,,"[article sweep] Listed as part of QScan backend infrastructure, mapped to a specific IP"
 domain,mq-task-qt-team.com,high,2026-08-27T17:12:48.782680+00:00,2026-08-27T17:12:48.782680+00:00,1,,"[article sweep] Listed as part of QScan broker infrastructure, mapped to a specific IP"
+domain,datewithmealways.online,high,2026-08-27T14:50:04+00:00,2026-08-27T14:50:04+00:00,1,,[article sweep] Associated with malicious activity by DragonDoll malware
+domain,datewithmealways.site,high,2026-08-27T14:50:04+00:00,2026-08-27T14:50:04+00:00,1,,[article sweep] Associated with malicious activity by DragonDoll malware
+domain,digitaladstracking.com,high,2026-08-27T14:50:04+00:00,2026-08-27T14:50:04+00:00,1,,[article sweep] Associated with malicious activity by DragonDoll malware
 domain,qt-proxy.org,high,2026-08-26T20:18:54.083342+00:00,2026-08-26T20:18:54.083342+00:00,1,,Active infrastructure element for Fast Labyrinth
 domain,qtproxy.xyz,high,2026-08-26T20:18:54.083342+00:00,2026-08-26T20:18:54.083342+00:00,1,,Primary administrative domain for proxy orchestration
 domain,qt-team.com,high,2026-08-26T20:18:54.083342+00:00,2026-08-26T20:18:54.083342+00:00,1,,Legacy assets replaced by qt-proxy.org
@@ -20,14 +24,28 @@ domain,cryptoprice.pw,high,2026-08-26T17:39:45+00:00,2026-08-26T17:39:45+00:00,1
 domain,databreach.space,high,2026-08-26T17:39:45+00:00,2026-08-26T17:39:45+00:00,1,,Identified as an earlier version of the actor’s ransomware blog
 domain,socialposter.org,high,2026-08-26T17:39:45+00:00,2026-08-26T17:39:45+00:00,1,,Registered by the threat actor and associated with cybercrime activity
 domain,lkvb06fkzsjv.org,high,2026-08-26T15:13:00+00:00,2026-08-26T15:13:00+00:00,1,,"Randomly generated domain used in synthetic data injection, likely attacker-controlled."
+domain,ver.bandhiem.com,high,2026-08-25T09:20:02+00:00,2026-08-25T09:20:02+00:00,1,,[article sweep] Listed as part of a malicious infrastructure cluster
+domain,browser-app.com,high,2026-08-24T15:33:04.063145+00:00,2026-08-24T15:33:04.063145+00:00,1,,[article sweep] Domain used in a malicious browser extension campaign
+domain,browsify.co,high,2026-08-24T15:33:04.063145+00:00,2026-08-24T15:33:04.063145+00:00,1,,[article sweep] Domain used in a malicious browser extension campaign
+domain,cleankits.co,high,2026-08-24T15:33:04.063145+00:00,2026-08-24T15:33:04.063145+00:00,1,,[article sweep] Associated with malicious Firefox extensions
+domain,devplugs.co,high,2026-08-24T15:33:04.063145+00:00,2026-08-24T15:33:04.063145+00:00,1,,[article sweep] Associated with malicious activity in Firefox extensions
+domain,extlab.co,high,2026-08-24T15:33:04.063145+00:00,2026-08-24T15:33:04.063145+00:00,1,,[article sweep] Associated with malicious Firefox extensions
+domain,extlab.org,high,2026-08-24T15:33:04.063145+00:00,2026-08-24T15:33:04.063145+00:00,1,,[article sweep] Associated with malicious Firefox extensions
+domain,acrobatreaderonline.com,high,2026-08-24T04:47:41+00:00,2026-08-24T04:47:41+00:00,1,,[article sweep] Used as a malicious site impersonating Adobe Acrobat Reader.
 domain,case-apple.com,high,2026-08-21T14:51:21+00:00,2026-08-21T14:51:21+00:00,1,,[article sweep] Used in phishing scams impersonating Apple
 domain,chat-apple.com,high,2026-08-21T14:51:21+00:00,2026-08-21T14:51:21+00:00,1,,[article sweep] Used in phishing scams impersonating Apple
+domain,malicious-miner.com,high,2026-08-21T05:50:46+00:00,2026-08-21T05:50:46+00:00,1,,"[article sweep] Domain used to host malicious scripts, indicating attacker control"
+domain,securestore.tv,high,2026-08-21T05:50:46+00:00,2026-08-21T05:50:46+00:00,1,,[article sweep] Listed in a YARA rule as associated with APT36 activity
 domain,drive.google.verify-drive.com,high,2026-08-21T00:32:07.289805+00:00,2026-08-21T00:32:07.289805+00:00,1,,Identified as a malware distribution domain.
 domain,miov2iaiaoubqosiqoiajwowiwjso.online,high,2026-08-21T00:32:07.289805+00:00,2026-08-21T00:32:07.289805+00:00,1,,C2 for AtomicStealer identified.
 domain,spyroid.net,high,2026-08-19T09:52:51+00:00,2026-08-19T09:52:51+00:00,1,,Identified as a commercial RAT framework sold to cybercriminals.
+domain,lockwall.xyz,high,2026-08-18T18:04:45+00:00,2026-08-18T18:04:45+00:00,1,,"[article sweep] Captured phishing page hosted on this domain, indicating attacker control"
 domain,gigapaper.ir,high,2026-08-18T17:54:40+00:00,2026-08-18T17:54:40+00:00,1,,"[article sweep] Used to sell stolen academic data, controlled by attackers"
 domain,megapaper.ir,high,2026-08-18T17:54:40+00:00,2026-08-18T17:54:40+00:00,1,,[article sweep] Used to sell stolen academic resources
+domain,msfconfig.icu,high,2026-08-17T16:03:58+00:00,2026-08-17T16:03:58+00:00,1,,"[article sweep] Domain used to host malicious scripts, indicating attacker control"
 domain,bookcheckarrival-gueststayhotel.com,high,2026-08-13T06:24:31+00:00,2026-08-13T06:24:31+00:00,1,,Indicates attacker-controlled phishing domain targeting hotel reservations.
+domain,ramimac.me,high,2026-08-12T22:06:24.425523+00:00,2026-08-12T22:06:24.425523+00:00,1,,[article sweep] Used in a campaign tracked by Wiz Threat Center.
+domain,msupdate.updatemicfosoft.com,high,2026-08-12T14:35:21+00:00,2026-08-12T14:35:21+00:00,1,,"[article sweep] Custom C2 domain used in an attack, indicating attacker control"
 domain,ccleanerwind.top,high,2026-08-12T10:20:02+00:00,2026-08-12T11:31:38+00:00,2,,Identified as attacker-controlled domain for malware distribution
 domain,m.studiotikva.com,high,2026-08-11T10:00:19+00:00,2026-08-11T10:00:19+00:00,1,,[article sweep] Used for DNS A-record queries in C2 communication
 domain,login.microsoft-secure-portal.com,high,2026-08-08T03:49:43.525813+00:00,2026-08-08T03:49:43.525813+00:00,1,,Clearly identified as an attacker-controlled domain.
@@ -36,34 +54,65 @@ domain,www1.planetink.com,high,2026-08-06T18:48:08+00:00,2026-08-06T18:48:08+00:
 domain,www2.planetink.com,high,2026-08-06T18:48:08+00:00,2026-08-06T18:48:08+00:00,1,,[article sweep] Listed as part of Lazarus-related supply chain campaign artifacts
 domain,zimbra.planetink.com,high,2026-08-06T18:48:08+00:00,2026-08-06T18:48:08+00:00,1,,[article sweep] Listed in a rule for detecting Lazarus-related supply chain campaign artifacts
 domain,zmail.vetstarts.com,high,2026-08-06T18:48:08+00:00,2026-08-06T18:48:08+00:00,1,,[article sweep] Listed in a rule for detecting Lazarus-related supply chain campaign artifacts
+domain,coldcardteamnews.com,high,2026-08-05T17:49:41+00:00,2026-08-05T17:49:41+00:00,1,,[article sweep] Used in a phishing campaign impersonating COLDCARD
 domain,deltaode.com,high,2026-08-05T12:14:01+00:00,2026-08-05T12:14:01+00:00,1,,[article sweep] Identified as part of a C2 infrastructure for a campaign
 domain,microsoft-login.secure-verify.net,high,2026-08-03T13:40:21+00:00,2026-08-03T13:40:21+00:00,1,,[article sweep] Described as a phishing domain impersonating Microsoft
+domain,totally-legit-invoices.com,high,2026-08-03T09:29:46+00:00,2026-08-03T09:29:46+00:00,1,,[article sweep] Used for sending authenticated but malicious emails
 domain,xfconnect.com,high,2026-07-29T18:06:50+00:00,2026-07-29T18:06:50+00:00,1,,Pointed to as hosting multiple FCN binaries related to Chanming's product
 domain,login.trees4sale.net,high,2026-07-29T10:33:04+00:00,2026-07-29T10:33:04+00:00,1,,identified as Dysphoria infrastructure domain
+domain,fine-work-team.com,high,2026-07-28T14:25:36+00:00,2026-07-28T14:25:36+00:00,1,,[article sweep] Used in a PowerShell command to download a script
 domain,businessmixture.com,high,2026-07-28T08:00:20+00:00,2026-07-28T08:00:20+00:00,1,,"[article sweep] Communicates with malware over WSS, indicating attacker control"
 domain,re2.filesdwnload.top,high,2026-07-28T05:26:30+00:00,2026-07-28T05:26:30+00:00,1,,Listed as C2 server deploying tools.
 domain,re8.dowlfles.online,high,2026-07-28T05:26:30+00:00,2026-07-28T05:26:30+00:00,1,,Listed as C2 server deploying tools.
 domain,update19.upldf.online,high,2026-07-28T05:26:30+00:00,2026-07-28T05:26:30+00:00,1,,Listed as C2 server deploying tools.
 domain,xeds.geranteeg.online,high,2026-07-28T05:26:30+00:00,2026-07-28T05:26:30+00:00,1,,Listed as C2 server deploying tools.
+domain,hodlsofltd.com,high,2026-07-27T18:21:55.476079+00:00,2026-07-27T18:21:55.476079+00:00,1,,[article sweep] Used as a fake investment platform
 domain,googie.us-gmeet.com,high,2026-07-27T05:18:43+00:00,2026-07-27T05:18:43+00:00,1,,[article sweep] Suspicious lookalike domain likely used for phishing
 domain,corepack.org,high,2026-07-26T20:14:00+00:00,2026-07-26T20:14:00+00:00,1,,[article sweep] Identified as a fake website distributing malware
 domain,claude.ai.download-app.us,high,2026-07-22T20:08:20+00:00,2026-07-25T01:04:41.598641+00:00,2,,Redirects users to malicious content.
+domain,a.zhblz.com,high,2026-07-24T17:38:33.825555+00:00,2026-07-24T17:38:33.825555+00:00,1,,[article sweep] Domain used in a CSS selector side-channel attack
 domain,docs.goog1e.com,high,2026-07-24T17:38:33.825555+00:00,2026-07-24T17:38:33.825555+00:00,1,,[article sweep] Typosquat of a legitimate domain likely used for phishing
 domain,goog1e.com,high,2026-07-24T17:38:33.825555+00:00,2026-07-24T17:38:33.825555+00:00,1,,Identified as a typosquatted domain mimicking Google.
 domain,zhblz.com,high,2026-07-24T17:38:33.825555+00:00,2026-07-24T17:38:33.825555+00:00,1,,Identified as a domain used in an attack.
 domain,claude-pro.com,high,2026-07-23T14:16:44+00:00,2026-07-24T11:24:08.687591+00:00,2,,"Phishing site impersonating Claude AI, likely attacker-controlled."
+domain,find-help.info,high,2026-07-23T17:08:49+00:00,2026-07-23T17:08:49+00:00,1,,[article sweep] Listed in a YARA rule for malware detection
+domain,mariamchurch.com,high,2026-07-23T17:08:49+00:00,2026-07-23T17:08:49+00:00,1,,"[article sweep] Listed in a YARA rule as an IOC domain, indicating attacker control"
+domain,techzenspace.com,high,2026-07-23T17:08:49+00:00,2026-07-23T17:08:49+00:00,1,,[article sweep] Listed in a YARA rule for detecting malware domains
 domain,8e8a88f8fc968996eed0d7ddd.6ceca998199c18f8d968889898896899789978997.westurn.in,high,2026-07-23T12:19:54.088909+00:00,2026-07-23T12:19:54.088909+00:00,1,,Identified as C2 server used by TrickBot
+domain,testewin.com,high,2026-07-23T10:31:33+00:00,2026-07-23T10:31:33+00:00,1,,[article sweep] Used as a subdomain for C2 infrastructure
 domain,mskmde.com,high,2026-07-23T08:08:37.998373+00:00,2026-07-23T08:08:37.998373+00:00,1,,Used as malware delivery.
 domain,tracking.adsafety.net,high,2026-07-23T08:02:59.893399+00:00,2026-07-23T08:02:59.893399+00:00,1,,"Used for tracking before consent, indicating potential malicious use."
 domain,downloading-api.it,high,2026-07-22T20:08:20+00:00,2026-07-22T20:08:20+00:00,1,,[article sweep] Used to serve a malicious executable in a phishing campaign
 domain,dwbud.vilaribit.com,high,2026-07-22T16:17:23.678778+00:00,2026-07-22T16:17:23.678778+00:00,1,,Identified as associated domain with exfiltration code.
+domain,pubstorm.com,high,2026-07-21T11:49:09.266482+00:00,2026-07-21T11:49:09.266482+00:00,1,,[article sweep] Listed as part of malicious infrastructure in extortion emails.
+domain,pubstorm.net,high,2026-07-21T11:49:09.266482+00:00,2026-07-21T11:49:09.266482+00:00,1,,[article sweep] Listed as part of malicious infrastructure in extortion emails.
+domain,exampl3.com,high,2026-07-21T07:16:07.184673+00:00,2026-07-21T07:16:07.184673+00:00,1,,[article sweep] Used as an example of a phishing website
 domain,gobf.mx,high,2026-07-20T15:43:55+00:00,2026-07-20T15:43:55+00:00,1,,Identified as C2 server in context.
 domain,evil.com,high,2026-07-17T18:47:17.820605+00:00,2026-07-17T18:47:17.820605+00:00,1,,Clearly identified as an exfiltration vector for data
 domain,my-salesforce-cms.com,high,2026-07-17T18:47:17.820605+00:00,2026-07-17T18:47:17.820605+00:00,1,,"Registered by researchers to demonstrate data leak, indicating attacker control"
+domain,2fa.valoufroo.in,high,2026-07-14T10:42:49+00:00,2026-07-14T10:42:49+00:00,1,,[article sweep] Listed as part of the infrastructure associated with malicious campaigns.
+domain,werkbit.app,high,2026-07-13T13:02:42+00:00,2026-07-13T13:02:42+00:00,1,,[article sweep] Linked to a command panel for malware delivery
+domain,api.goautolink.com,high,2026-07-10T21:23:23+00:00,2026-07-10T21:23:23+00:00,1,,[article sweep] Domain used for exfiltration in a phishing campaign
+domain,aussiecleaningservices.com,high,2026-07-10T21:23:23+00:00,2026-07-10T21:23:23+00:00,1,,[article sweep] Domain used in a phishing campaign
+domain,tronracing.com,high,2026-07-09T17:10:35+00:00,2026-07-09T17:10:35+00:00,1,,[article sweep] Listed in a YARA rule for detecting malicious domains
+domain,uti98.com,high,2026-07-09T17:10:35+00:00,2026-07-09T17:10:35+00:00,1,,[article sweep] Listed in a YARA rule for detecting malicious domains
+domain,abwxjp5.me,high,2026-07-09T00:21:46+00:00,2026-07-09T00:21:46+00:00,1,,[article sweep] Listed as part of the infrastructure associated with malicious campaigns.
+domain,brackusi0n.live,high,2026-07-09T00:21:46+00:00,2026-07-09T00:21:46+00:00,1,,[article sweep] Domain listed in a detection rule for malware infrastructure
+domain,emezonhe.me,high,2026-07-09T00:21:46+00:00,2026-07-09T00:21:46+00:00,1,,[article sweep] Listed in a detection rule for UNC6619 malware
+domain,gouvn.me,high,2026-07-09T00:21:46+00:00,2026-07-09T00:21:46+00:00,1,,[article sweep] Listed in a rule for detecting malware infrastructure
+domain,pickupweb.me,high,2026-07-09T00:21:46+00:00,2026-07-09T00:21:46+00:00,1,,[article sweep] Listed as C2 domain in a malware rule.
+domain,pr0fu5a.me,high,2026-07-09T00:21:46+00:00,2026-07-09T00:21:46+00:00,1,,[article sweep] Listed as C2 domain in a malware rule.
+domain,q74vn.live,high,2026-07-09T00:21:46+00:00,2026-07-09T00:21:46+00:00,1,,[article sweep] Listed as C2 domain in a malware rule.
+domain,servgate.me,high,2026-07-09T00:21:46+00:00,2026-07-09T00:21:46+00:00,1,,[article sweep] Listed in a YARA rule as associated with UNC6619 activity
+domain,skycloudcenter.com,high,2026-07-09T00:21:46+00:00,2026-07-09T00:21:46+00:00,1,,[article sweep] Listed in a YARA rule as associated with Lotus Blossom activity
+domain,zamstats.me,high,2026-07-09T00:21:46+00:00,2026-07-09T00:21:46+00:00,1,,[article sweep] Listed as part of malicious infrastructure
+domain,zrheblirsy.me,high,2026-07-09T00:21:46+00:00,2026-07-09T00:21:46+00:00,1,,[article sweep] Listed as part of malicious infrastructure
+domain,giftshop.club,high,2026-07-08T00:39:11.176144+00:00,2026-07-08T00:39:11.176144+00:00,1,,[article sweep] Used for exfiltrating emails in a supply chain attack
 domain,vniir-avia.space,high,2026-07-07T11:06:29+00:00,2026-07-07T12:30:50+00:00,1,,"Freshly registered spoof domain used for phishing, identified as attacker-controlled"
 domain,careldutoit-el.co,high,2026-07-04T14:02:28.678186+00:00,2026-07-04T14:02:28.678186+00:00,1,,[article sweep] Listed as a phishing domain in a threat report
 domain,eqfit.co,high,2026-07-04T14:02:28.678186+00:00,2026-07-04T14:02:28.678186+00:00,1,,[article sweep] Listed as self-hosted phishing domain by affiliates
 domain,xlkconsulting.co,high,2026-07-04T14:02:28.678186+00:00,2026-07-04T14:02:28.678186+00:00,1,,[article sweep] Listed among domains hosted by EvilTokens administrator
+domain,jsonkeeper.com,high,2026-07-04T11:46:20+00:00,2026-07-04T11:46:20+00:00,1,,[article sweep] Used as a payload host in a malware campaign
 domain,api.jt2x.com,high,2026-07-04T11:37:25.401151+00:00,2026-07-04T11:37:26.678813+00:00,2,,Used for C2 operations and data exfiltration
 domain,dealctr.com,high,2026-07-04T11:37:25.401151+00:00,2026-07-04T11:37:26.678813+00:00,2,,Documented as a C2 domain in GhostPoster investigation
 domain,gmzdaily.com,high,2026-07-04T11:37:25.401151+00:00,2026-07-04T11:37:26.678813+00:00,2,,New domain identified in connection with malicious activity
@@ -73,22 +122,50 @@ domain,muo.cc,high,2026-07-04T11:37:25.401151+00:00,2026-07-04T11:37:26.678813+0
 domain,zhuayuya.com,high,2026-07-04T11:37:25.401151+00:00,2026-07-04T11:37:26.678813+00:00,2,,Part of a cluster used for C2 operations
 domain,kav-certificates.info,high,2026-07-03T16:30:32+00:00,2026-07-03T16:30:32+00:00,1,,[article sweep] Listed in a YARA rule as an IOC domain
 domain,lab52.io,high,2026-07-03T16:30:32+00:00,2026-07-03T16:30:32+00:00,1,,[article sweep] Listed in a YARA rule as an IOC domain
+domain,apintiative.org,high,2026-07-02T10:39:04+00:00,2026-07-02T10:39:04+00:00,1,,[article sweep] Domain identified as fraudulent and used for impersonation
+domain,evilwebsite.com,high,2026-07-01T07:38:55+00:00,2026-07-01T07:38:55+00:00,1,,[article sweep] Used in a domain fronting attack
 domain,cloaked.gg,high,2026-06-25T21:18:08+00:00,2026-07-01T07:02:22+00:00,3,,"Identified as a service for avoiding security scanners, associated with a phishing kit."
 domain,de-fra.i3storage.com,high,2026-06-30T19:16:50.055525+00:00,2026-06-30T19:16:50.055525+00:00,1,,Identified as primary exfiltration destination
+domain,8fb29c57162d4e1c.com,high,2026-06-29T12:00:54+00:00,2026-06-29T12:00:54+00:00,1,,[article sweep] Listed as a hostname used in malicious activities.
+domain,attacker-db.com,high,2026-06-26T17:19:28+00:00,2026-06-26T17:19:28+00:00,1,,[article sweep] Domain used for attacker-controlled database connections
+domain,nimblecapture.com,high,2026-06-26T10:20:03.329721+00:00,2026-06-26T10:20:03.329721+00:00,1,,"[article sweep] Domain used in a malicious configuration, indicating attacker control"
 domain,cdnexpress.cc,high,2026-06-25T16:51:35+00:00,2026-06-25T16:51:35+00:00,1,,Traffic involving cdnexpress.cc indicates potential attacker-controlled infrastructure.
 domain,cloudaxis.cc,high,2026-06-25T16:51:35+00:00,2026-06-25T16:51:35+00:00,1,,Traffic involving cloudaxis.cc indicates potential attacker-controlled infrastructure.
+domain,smveo.com,high,2026-06-25T06:06:07+00:00,2026-06-25T06:06:07+00:00,1,,[article sweep] Mentioned as part of a C2 infrastructure
 domain,putdrive.com,high,2026-06-24T19:05:05.454476+00:00,2026-06-24T19:05:05.454476+00:00,1,,Hosted malicious payloads used by Sandworm Team
 domain,gs.thc.org,high,2026-06-24T06:47:16.754750+00:00,2026-06-24T06:47:16.754750+00:00,1,,"Part of the GSRN relay infrastructure, indicating attacker-controlled domain"
 domain,market0day.com,high,2026-06-23T14:36:29+00:00,2026-06-23T23:36:47+00:00,2,,Identified as an illicit online marketplace selling compromised credentials and phishing kits.
 domain,spoxy.us,high,2026-06-23T14:36:29+00:00,2026-06-23T23:36:47+00:00,2,,Identified as an illicit online marketplace selling compromised credentials and phishing kits.
+domain,nnapp.app,high,2026-06-23T18:30:16+00:00,2026-06-23T18:30:16+00:00,1,,"[article sweep] Domain used to deliver malware, indicating attacker control"
+domain,dybic.ajb8.com,high,2026-06-22T12:22:26+00:00,2026-06-22T12:22:26+00:00,1,,[article sweep] Hardcoded C2 address in malware
+domain,opi7.com,high,2026-06-22T12:22:26+00:00,2026-06-22T12:22:26+00:00,1,,[article sweep] Hardcoded C2 address in malware.
+domain,clearmic.net,high,2026-06-21T17:33:12+00:00,2026-06-21T17:33:12+00:00,1,,[article sweep] Identified as malware hosting site
 domain,meeting-invite.com,high,2026-06-20T23:51:07+00:00,2026-06-20T23:51:07+00:00,1,,[article sweep] Described as part of an attack chain involving phishing
+domain,electric-marinade.com,high,2026-06-20T18:41:40+00:00,2026-06-20T18:41:40+00:00,1,,[article sweep] Part of a suspected infrastructure cluster for malicious activity
+domain,api.cmsplughub.com,high,2026-06-19T20:25:23+00:00,2026-06-19T20:25:23+00:00,1,,[article sweep] Domain used in a malicious plugin for unauthorized control
+domain,cmsplughub.com,high,2026-06-19T20:25:23+00:00,2026-06-19T20:25:23+00:00,1,,[article sweep] Associated with malicious WordPress plugins
+domain,safetybis.com,high,2026-06-19T20:25:23+00:00,2026-06-19T20:25:23+00:00,1,,[article sweep] Named as a C2 domain in a security report
 domain,tracksystem.info,high,2026-06-19T11:34:11.606269+00:00,2026-06-19T11:34:11.606269+00:00,1,,Clearly associated with Circles and indicated as part of their infrastructure.
 domain,random-site-login.xyz,high,2026-06-18T22:02:03+00:00,2026-06-18T22:02:03+00:00,1,,[article sweep] Described as a phishing link with mismatched URL
+domain,hosting-wordpress-services.com,high,2026-06-18T16:44:22+00:00,2026-06-18T16:44:22+00:00,1,,[article sweep] Listed as part of malicious infrastructure
+domain,ps.andreagahuvrauvin.com,high,2026-06-18T16:44:22+00:00,2026-06-18T16:44:22+00:00,1,,[article sweep] Listed as part of malicious infrastructure in a threat report.
+domain,stablewindowsapp.com,high,2026-06-18T16:44:22+00:00,2026-06-18T16:44:22+00:00,1,,[article sweep] Listed in a YARA rule as associated with malicious infrastructure
+domain,toppaperservices.com,high,2026-06-18T16:44:22+00:00,2026-06-18T16:44:22+00:00,1,,[article sweep] Listed as part of known malicious infrastructure
+domain,webmanufacturers.com,high,2026-06-18T16:44:22+00:00,2026-06-18T16:44:22+00:00,1,,[article sweep] Listed as part of observed malicious infrastructure
 domain,fresicrto.top,high,2026-06-18T16:36:35.205418+00:00,2026-06-18T16:36:35.205418+00:00,1,,Configured as fallback domain for C2 endpoint in SmartApeSG campaign
 domain,killav.at,high,2026-06-18T10:47:51+00:00,2026-06-18T10:47:51+00:00,1,,Identified as malware delivery domain associated with Gentlemen ransomware
 domain,killav.de,high,2026-06-18T10:47:51+00:00,2026-06-18T10:47:51+00:00,1,,Identified as malware delivery domain associated with Gentlemen ransomware
+domain,followfromapps.icu,high,2026-06-17T17:32:15+00:00,2026-06-17T17:32:15+00:00,1,,[article sweep] Identified as a malicious spam site redirect
 domain,celuweb.com,high,2026-06-16T20:48:43.845389+00:00,2026-06-16T20:48:43.845389+00:00,1,,[article sweep] Described as attacker-controlled host in phishing context
+domain,cl.distritovagas.com,high,2026-06-16T18:57:27+00:00,2026-06-16T18:57:27+00:00,1,,[article sweep] Used to host a malicious HTA payload
+domain,50statesoflie.cc,high,2026-06-16T11:34:06.565166+00:00,2026-06-16T11:34:06.565166+00:00,1,,[article sweep] Identified as part of Doppelganger-linked websites used for malicious purposes.
+domain,acrosstheline.cc,high,2026-06-16T11:34:06.565166+00:00,2026-06-16T11:34:06.565166+00:00,1,,[article sweep] Used in a Russian malign information operation.
+domain,artichoc.cc,high,2026-06-16T11:34:06.565166+00:00,2026-06-16T11:34:06.565166+00:00,1,,[article sweep] Domain created as part of a coordinated malicious operation
+domain,mail.shadowwatch.co,high,2026-06-16T11:34:06.565166+00:00,2026-06-16T11:34:06.565166+00:00,1,,"[article sweep] Domain used in a network of malicious sites, indicating attacker control"
+domain,mail.warfareinsider.cc,high,2026-06-16T11:34:06.565166+00:00,2026-06-16T11:34:06.565166+00:00,1,,"[article sweep] Domain used in a network of malicious sites, indicating attacker control"
 domain,tidio.cc,high,2026-06-15T17:00:00+00:00,2026-06-16T11:10:17+00:00,3,,"Identified as a lookalike domain used to send credentials, indicating attacker control."
+domain,comunidadesparentais.com,high,2026-06-16T10:11:12+00:00,2026-06-16T10:11:12+00:00,1,,[article sweep] Listed as a C&C server for downloading tools
+domain,projetosmecanicos.com,high,2026-06-16T10:11:12+00:00,2026-06-16T10:11:12+00:00,1,,[article sweep] Listed as C2 domain for downloading additional tools.
 domain,models.litellm.cloud,high,2026-03-24T14:59:33+00:00,2026-06-12T23:17:20.425409+00:00,6,,Exfiltration domain registered by the attacker.
 domain,fortuneprimeglobalirts.com,high,2026-06-12T22:15:35.468182+00:00,2026-06-12T22:15:35.468182+00:00,1,,Domain associated with fraudulent investment platform
 domain,azurenetfiles.net,high,2026-06-11T14:00:00+00:00,2026-06-12T09:05:14+00:00,2,,Identified as C2 server mimicking legitimate Microsoft Azure endpoints
@@ -96,11 +173,28 @@ domain,attacker.com,high,2026-02-09T20:21:27+00:00,2026-06-12T03:18:25.738337+00
 domain,docs.splunk.com.evil.com,high,2026-06-12T03:18:19.719231+00:00,2026-06-12T03:18:19.719231+00:00,1,,Clearly identified as attacker-controlled subdomain.
 domain,deliverly.top,high,2026-06-11T20:13:22+00:00,2026-06-11T20:13:22+00:00,1,,Identified as a domain utilized by administrators to register fraudulent accounts.
 domain,inboxly.top,high,2026-06-11T20:13:22+00:00,2026-06-11T20:13:22+00:00,1,,Identified as a domain utilized by administrators to register fraudulent accounts.
+domain,soundsgroovybox.com,high,2026-06-11T16:04:23+00:00,2026-06-11T16:04:23+00:00,1,,[article sweep] Listed in a YARA rule as associated with UNC5221 activity
 domain,shampobiskworld.nl,high,2026-06-11T14:17:50.213284+00:00,2026-06-11T14:17:50.213284+00:00,1,,[article sweep] Listed as part of a C2 server list for a RAT
 domain,shampoolagtto.com,high,2026-06-11T14:17:50.213284+00:00,2026-06-11T14:17:50.213284+00:00,1,,[article sweep] Listed as part of a C2 server list for a RAT
 domain,shamppocosmaticso.com,high,2026-06-11T14:17:50.213284+00:00,2026-06-11T14:17:50.213284+00:00,1,,[article sweep] Listed as part of a C2 server list for a RAT
+domain,nativems-mfl09093004.digitalscrapbookingfreebies.com,high,2026-06-11T09:00:00+00:00,2026-06-11T09:00:00+00:00,1,,"[article sweep] Subdomain used in phishing, indicating attacker control"
+domain,hrs2y15sungu.com,high,2026-06-10T23:49:02+00:00,2026-06-10T23:49:02+00:00,1,,[article sweep] Used in a detection rule for malicious activity
+domain,helloworld.supp0v3.com,high,2026-06-09T12:58:02+00:00,2026-06-09T12:58:02+00:00,1,,[article sweep] Used as part of a command-and-control infrastructure
+domain,supp0v3.com,high,2026-06-09T12:58:02+00:00,2026-06-09T12:58:02+00:00,1,,[article sweep] Used as a root domain for rotating C2 infrastructure
+domain,welcome.supp0v3.com,high,2026-06-09T12:58:02+00:00,2026-06-09T12:58:02+00:00,1,,[article sweep] Used as part of a command-and-control infrastructure
+domain,achipu.com,high,2026-06-09T05:38:57+00:00,2026-06-09T05:38:57+00:00,1,,[article sweep] Used in phishing activities impersonating Wells Fargo.
+domain,justsstop.ru,high,2026-06-08T20:20:50+00:00,2026-06-08T20:20:50+00:00,1,,[article sweep] Used as fallback infrastructure in a malware campaign
+domain,worldcup2026-tickets.com,high,2026-06-08T16:37:06+00:00,2026-06-08T16:37:06+00:00,1,,[article sweep] Identified as a malicious domain for phishing and fraud
 domain,advinservers.com,high,2026-06-08T09:02:41.732432+00:00,2026-06-08T09:02:41.732432+00:00,1,,Notified as the hosting provider for the C2 IP
+domain,pulsynk.org,high,2026-06-08T09:02:41.732432+00:00,2026-06-08T09:02:41.732432+00:00,1,,[article sweep] Used as part of a social engineering campaign targeting developers.
+domain,a.digoprotergonde.org,high,2026-06-07T15:03:07.365786+00:00,2026-06-07T15:03:07.365786+00:00,1,,[article sweep] Part of a fast flux infrastructure used for malicious purposes.
+domain,a.hefirealde.org,high,2026-06-07T15:03:07.365786+00:00,2026-06-07T15:03:07.365786+00:00,1,,[article sweep] Part of a fast flux infrastructure used for malicious purposes.
+domain,a.heopldenticalderr.org,high,2026-06-07T15:03:07.365786+00:00,2026-06-07T15:03:07.365786+00:00,1,,[article sweep] Part of a fast flux infrastructure used for malicious purposes.
+domain,c.hefirealde.org,high,2026-06-07T15:03:07.365786+00:00,2026-06-07T15:03:07.365786+00:00,1,,[article sweep] Used for Fast Flux communications by attackers
+domain,c.heopldenticalderr.org,high,2026-06-07T15:03:07.365786+00:00,2026-06-07T15:03:07.365786+00:00,1,,[article sweep] Used for Fast Flux communications by attackers
 domain,demo.business-data-leaks.com,high,2026-06-07T15:03:07.365786+00:00,2026-06-07T15:03:07.365786+00:00,1,,Mentioned as infrastructure for data leaks.
+domain,d.hefirealde.org,high,2026-06-07T15:03:07.365786+00:00,2026-06-07T15:03:07.365786+00:00,1,,[article sweep] Used in fast flux communications by attackers
+domain,d.heopldenticalderr.org,high,2026-06-07T15:03:07.365786+00:00,2026-06-07T15:03:07.365786+00:00,1,,[article sweep] Used in fast flux communications by attackers
 domain,ep6pheij.com,high,2026-06-07T15:03:07.365786+00:00,2026-06-07T15:03:07.365786+00:00,1,,Mentioned as a mechanism for stolen data.
 domain,help.business-data-leaks.com,high,2026-06-07T15:03:07.365786+00:00,2026-06-07T15:03:07.365786+00:00,1,,Mentioned as infrastructure for data leaks.
 domain,heopldenticalderr.org,high,2026-06-07T15:03:07.365786+00:00,2026-06-07T15:03:07.365786+00:00,1,,Used for Fast Flux communications.
@@ -113,14 +207,33 @@ domain,cloud-sync.online,high,2026-06-06T21:15:36.725839+00:00,2026-06-06T21:15:
 domain,driver-store.com,high,2026-06-06T21:15:36.725839+00:00,2026-06-06T21:15:36.725839+00:00,1,,identified as actor-controlled infrastructure
 domain,windows.driver-store.com,high,2026-06-06T21:15:36.725839+00:00,2026-06-06T21:15:36.725839+00:00,1,,identified as actor-controlled infrastructure
 domain,account-emails-verification.cc.cd,high,2026-06-05T13:49:46.003523+00:00,2026-06-05T13:49:46.003523+00:00,1,,Identified as phishing infrastructure used to capture credentials.
+domain,accounts.mgovcloud.in.departmentofdefence.live,high,2026-06-04T16:16:31+00:00,2026-06-04T16:16:31+00:00,1,,[article sweep] Listed as part of the infrastructure associated with APT36-related activity.
+domain,departmentofdefence.live,high,2026-06-04T16:16:31+00:00,2026-06-04T16:16:31+00:00,1,,[article sweep] Listed in a YARA rule as associated with APT36 activity
+domain,sorlastore.com,high,2026-06-04T16:16:31+00:00,2026-06-04T16:16:31+00:00,1,,[article sweep] Listed in a YARA rule as associated with APT36 activity
+domain,appradarr.cc,high,2026-06-04T11:58:07+00:00,2026-06-04T11:58:07+00:00,1,,[article sweep] Domain listed in a detection rule for phishing infrastructure
+domain,asdqxcdsa.icu,high,2026-06-04T11:58:07+00:00,2026-06-04T11:58:07+00:00,1,,[article sweep] Domain listed in a detection rule for phishing infrastructure
+domain,d.pc-weide.com,high,2026-06-04T11:58:07+00:00,2026-06-04T11:58:07+00:00,1,,[article sweep] Listed in a detection rule for phishing infrastructure
+domain,guhxmg.com,high,2026-06-04T11:58:07+00:00,2026-06-04T11:58:07+00:00,1,,[article sweep] Listed in a rule for detecting phishing infrastructure
+domain,naiqja.icu,high,2026-06-04T11:58:07+00:00,2026-06-04T11:58:07+00:00,1,,"[article sweep] Listed in a detection rule for phishing infrastructure, indicating attacker control"
+domain,taxations.cn-web-okooo.com,high,2026-06-04T11:58:07+00:00,2026-06-04T11:58:07+00:00,1,,[article sweep] Listed in a detection rule for phishing infrastructure
+domain,ws4962.com,high,2026-06-04T11:58:07+00:00,2026-06-04T11:58:07+00:00,1,,[article sweep] Listed as part of phishing infrastructure
+domain,zhengfu666.com,high,2026-06-04T11:58:07+00:00,2026-06-04T11:58:07+00:00,1,,[article sweep] Listed as part of phishing infrastructure
+domain,zh-welcome-1xbet.com,high,2026-06-04T11:58:07+00:00,2026-06-04T11:58:07+00:00,1,,[article sweep] Listed as part of phishing infrastructure
+domain,blackcore.online,high,2026-06-03T22:15:52+00:00,2026-06-03T22:15:52+00:00,1,,[article sweep] Domain used in a digital interference scheme
 domain,g00gle.com,high,2026-06-03T19:02:25+00:00,2026-06-03T19:02:25+00:00,1,,[article sweep] Typo-squatted domain likely used for phishing
+domain,andrefelipedonascime1778799406970.2241107.meusitehostgator.com,high,2026-06-03T18:56:29+00:00,2026-06-03T18:56:29+00:00,1,,"[article sweep] Domain used in a malware configuration, indicating attacker control"
 domain,0x0.st,high,2026-06-03T14:10:37+00:00,2026-06-03T14:10:37+00:00,1,,Used for payload delivery in a command-and-control context.
 domain,bestflowers247.online,high,2026-06-03T14:10:37+00:00,2026-06-03T14:10:37+00:00,1,,Identified as shared infrastructure supporting ransomware operations.
 domain,api.yellowflashvpn.com,high,2026-06-03T13:49:47.920663+00:00,2026-06-03T13:49:47.920663+00:00,1,,[article sweep] Used to retrieve C2 information for malware
 domain,com.okovpn.app,high,2026-06-03T13:49:47.920663+00:00,2026-06-03T13:49:47.920663+00:00,1,,[article sweep] Identified as part of a malicious VPN app used for ad fraud
+domain,9pay.org,high,2026-06-03T11:34:14.457827+00:00,2026-06-03T11:34:14.457827+00:00,1,,[article sweep] Used in phishing and malicious activities as identified in analysis.
+domain,de8xapil.in,high,2026-06-03T11:34:14.457827+00:00,2026-06-03T11:34:14.457827+00:00,1,,[article sweep] Used as a C2 server with rotating subdomains
+domain,warmbr-ead5.de8xapil.in,high,2026-06-03T11:34:14.457827+00:00,2026-06-03T11:34:14.457827+00:00,1,,[article sweep] Used as a C2 server for fileless execution
 domain,api.masscan.cloud,high,2026-06-02T11:53:09+00:00,2026-06-02T11:53:09+00:00,1,,[article sweep] Listed as part of the infrastructure used for command-and-control
 domain,riggletoy.ru,high,2026-06-01T15:33:10.999147+00:00,2026-06-01T15:33:10.999147+00:00,1,,Identified as a C2 server in malware analysis
 domain,systemupdate.app,high,2026-06-01T13:00:33+00:00,2026-06-01T13:00:33+00:00,1,,Identified as a fake application used for phishing and communicating with a C2 server
+domain,totally-legit-ca.com,high,2026-05-30T19:47:36+00:00,2026-05-30T19:47:36+00:00,1,,[article sweep] Used in a certificate issuance exploit
+domain,microsoftsupport.ru,high,2026-05-30T10:15:24+00:00,2026-05-30T10:15:24+00:00,1,,"[article sweep] Example of a lookalike domain used in phishing, indicating attacker control"
 domain,minemine.gleeze.com,high,2026-05-28T11:25:29+00:00,2026-05-28T16:19:28.696648+00:00,2,,Blocked domain associated with miner binaries
 domain,5d14vnfb.space,high,2026-05-28T06:55:11+00:00,2026-05-28T06:55:11+00:00,1,,Listed as RAT C&C in malware analysis
 domain,jeaw520i.space,high,2026-05-28T06:55:11+00:00,2026-05-28T06:55:11+00:00,1,,Listed as RAT C&C in malware analysis

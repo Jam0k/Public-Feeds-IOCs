@@ -1,7 +1,7 @@
 {
   "feed": "threatcluster-public-iocs",
   "version": 1,
-  "generated_at": "2026-08-28T09:23:35Z",
+  "generated_at": "2026-08-29T06:33:24Z",
   "filters": {
     "confidence": "high",
     "window_days": 30,
@@ -11,8 +11,39 @@
       "domain"
     ]
   },
-  "count": 56,
+  "count": 95,
   "iocs": [
+    {
+      "type": "domain",
+      "value": "nuihuw.top",
+      "confidence": "high",
+      "reason": "Listed as a backup C2 server in the decrypted configuration",
+      "first_seen": "2026-08-26T10:37:36+00:00",
+      "last_seen": "2026-08-28T11:38:54+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "Socprime",
+          "url": "https://socprime.com/active-threats/cambodia-focused-threat-cluster-uses-localized-phishing-and-multi-stage-malware/",
+          "pub_date": "2026-08-28T11:38:54+00:00"
+        },
+        {
+          "source": "Acronis",
+          "url": "https://www.acronis.com/en/tru/posts/cambodia-focused-cluster-uses-multi-stage-infection-chain-with-localized-lures/",
+          "pub_date": "2026-08-26T10:37:36+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2026-36425"
+        },
+        {
+          "type": "malware",
+          "value": "SparkRAT"
+        }
+      ]
+    },
     {
       "type": "domain",
       "value": "exessupdate.info",
@@ -474,6 +505,142 @@
     },
     {
       "type": "domain",
+      "value": "datewithmealways.online",
+      "confidence": "high",
+      "reason": "[article sweep] Associated with malicious activity by DragonDoll malware",
+      "first_seen": "2026-08-27T14:50:04+00:00",
+      "last_seen": "2026-08-27T14:50:04+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Habr",
+          "url": "https://habr.com/en/amp/publications/1073720/",
+          "pub_date": "2026-08-27T14:50:04+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "datewithmealways.site",
+      "confidence": "high",
+      "reason": "[article sweep] Associated with malicious activity by DragonDoll malware",
+      "first_seen": "2026-08-27T14:50:04+00:00",
+      "last_seen": "2026-08-27T14:50:04+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Habr",
+          "url": "https://habr.com/en/amp/publications/1073720/",
+          "pub_date": "2026-08-27T14:50:04+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "digitaladstracking.com",
+      "confidence": "high",
+      "reason": "[article sweep] Associated with malicious activity by DragonDoll malware",
+      "first_seen": "2026-08-27T14:50:04+00:00",
+      "last_seen": "2026-08-27T14:50:04+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Habr",
+          "url": "https://habr.com/en/amp/publications/1073720/",
+          "pub_date": "2026-08-27T14:50:04+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "ipv4",
+      "value": "112.90.22.197",
+      "confidence": "high",
+      "reason": "[article sweep] Listed as a C&C server for a backdoor",
+      "first_seen": "2026-08-27T09:18:43.223353+00:00",
+      "last_seen": "2026-08-27T09:18:43.223353+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "securelist.com",
+          "url": "https://securelist.com/versatile-ddos-trojan-for-linux/64361/",
+          "pub_date": "2026-08-27T09:18:43.223353+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "ipv4",
+      "value": "112.90.252.76",
+      "confidence": "high",
+      "reason": "[article sweep] Listed as a C&C server for a backdoor",
+      "first_seen": "2026-08-27T09:18:43.223353+00:00",
+      "last_seen": "2026-08-27T09:18:43.223353+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "securelist.com",
+          "url": "https://securelist.com/versatile-ddos-trojan-for-linux/64361/",
+          "pub_date": "2026-08-27T09:18:43.223353+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "ipv4",
+      "value": "116.10.189.246",
+      "confidence": "high",
+      "reason": "[article sweep] Listed as a C&C server for a Trojan",
+      "first_seen": "2026-08-27T09:18:43.223353+00:00",
+      "last_seen": "2026-08-27T09:18:43.223353+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "securelist.com",
+          "url": "https://securelist.com/versatile-ddos-trojan-for-linux/64361/",
+          "pub_date": "2026-08-27T09:18:43.223353+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "ipv4",
+      "value": "121.12.110.96",
+      "confidence": "high",
+      "reason": "[article sweep] Listed as a C&C server for a Trojan",
+      "first_seen": "2026-08-27T09:18:43.223353+00:00",
+      "last_seen": "2026-08-27T09:18:43.223353+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "securelist.com",
+          "url": "https://securelist.com/versatile-ddos-trojan-for-linux/64361/",
+          "pub_date": "2026-08-27T09:18:43.223353+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "ipv4",
+      "value": "202.103.178.76",
+      "confidence": "high",
+      "reason": "[article sweep] Decrypted as a C&C server IP address by a backdoor",
+      "first_seen": "2026-08-27T09:18:43.223353+00:00",
+      "last_seen": "2026-08-27T09:18:43.223353+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "securelist.com",
+          "url": "https://securelist.com/versatile-ddos-trojan-for-linux/64361/",
+          "pub_date": "2026-08-27T09:18:43.223353+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
       "value": "cryptoprice.pw",
       "confidence": "high",
       "reason": "Listed as a service advertised by the actor for scams and malware delivery",
@@ -564,6 +731,23 @@
     },
     {
       "type": "ipv4",
+      "value": "67.213.118.179",
+      "confidence": "high",
+      "reason": "[article sweep] Used in exploitation attempts against Oracle WebLogic Server",
+      "first_seen": "2026-08-25T19:04:41.630110+00:00",
+      "last_seen": "2026-08-25T19:04:41.630110+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.cloudsek.com",
+          "url": "https://www.cloudsek.com/blog/honey-for-hackers-a-study-of-attacks-targeting-the-recent-cve-2026-21962-and-other-critical-weblogic-vulnerabilities-on-a-high-interactive-oracle-honeypot",
+          "pub_date": "2026-08-25T19:04:41.63011+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "ipv4",
       "value": "102.91.71.83",
       "confidence": "high",
       "reason": "Listed as a scanning IP used to detect exploit attempts",
@@ -587,6 +771,142 @@
           "value": "CVE-2026-61979"
         }
       ]
+    },
+    {
+      "type": "domain",
+      "value": "ver.bandhiem.com",
+      "confidence": "high",
+      "reason": "[article sweep] Listed as part of a malicious infrastructure cluster",
+      "first_seen": "2026-08-25T09:20:02+00:00",
+      "last_seen": "2026-08-25T09:20:02+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Hackernoon",
+          "url": "https://hackernoon.com/mirage2fa-hijacks-companies-microsoft-365-sessions-with-over-4k-victims-in-the-us",
+          "pub_date": "2026-08-25T09:20:02+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "browser-app.com",
+      "confidence": "high",
+      "reason": "[article sweep] Domain used in a malicious browser extension campaign",
+      "first_seen": "2026-08-24T15:33:04.063145+00:00",
+      "last_seen": "2026-08-24T15:33:04.063145+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "socket.dev",
+          "url": "https://socket.dev/blog/firefox-crypto-wallet-theft",
+          "pub_date": "2026-08-24T15:33:04.063145+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "browsify.co",
+      "confidence": "high",
+      "reason": "[article sweep] Domain used in a malicious browser extension campaign",
+      "first_seen": "2026-08-24T15:33:04.063145+00:00",
+      "last_seen": "2026-08-24T15:33:04.063145+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "socket.dev",
+          "url": "https://socket.dev/blog/firefox-crypto-wallet-theft",
+          "pub_date": "2026-08-24T15:33:04.063145+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "cleankits.co",
+      "confidence": "high",
+      "reason": "[article sweep] Associated with malicious Firefox extensions",
+      "first_seen": "2026-08-24T15:33:04.063145+00:00",
+      "last_seen": "2026-08-24T15:33:04.063145+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "socket.dev",
+          "url": "https://socket.dev/blog/firefox-crypto-wallet-theft",
+          "pub_date": "2026-08-24T15:33:04.063145+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "devplugs.co",
+      "confidence": "high",
+      "reason": "[article sweep] Associated with malicious activity in Firefox extensions",
+      "first_seen": "2026-08-24T15:33:04.063145+00:00",
+      "last_seen": "2026-08-24T15:33:04.063145+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "socket.dev",
+          "url": "https://socket.dev/blog/firefox-crypto-wallet-theft",
+          "pub_date": "2026-08-24T15:33:04.063145+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "extlab.co",
+      "confidence": "high",
+      "reason": "[article sweep] Associated with malicious Firefox extensions",
+      "first_seen": "2026-08-24T15:33:04.063145+00:00",
+      "last_seen": "2026-08-24T15:33:04.063145+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "socket.dev",
+          "url": "https://socket.dev/blog/firefox-crypto-wallet-theft",
+          "pub_date": "2026-08-24T15:33:04.063145+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "extlab.org",
+      "confidence": "high",
+      "reason": "[article sweep] Associated with malicious Firefox extensions",
+      "first_seen": "2026-08-24T15:33:04.063145+00:00",
+      "last_seen": "2026-08-24T15:33:04.063145+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "socket.dev",
+          "url": "https://socket.dev/blog/firefox-crypto-wallet-theft",
+          "pub_date": "2026-08-24T15:33:04.063145+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "acrobatreaderonline.com",
+      "confidence": "high",
+      "reason": "[article sweep] Used as a malicious site impersonating Adobe Acrobat Reader.",
+      "first_seen": "2026-08-24T04:47:41+00:00",
+      "last_seen": "2026-08-24T04:47:41+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cybersecuritynews",
+          "url": "https://cybersecuritynews.com/malware-as-a-service-adobe-themed-domain/",
+          "pub_date": "2026-08-24T04:47:41+00:00"
+        }
+      ],
+      "tags": []
     },
     {
       "type": "domain",
@@ -618,6 +938,40 @@
           "source": "Straitstimes",
           "url": "https://www.straitstimes.com/singapore/apple-impersonation-scams-cost-spore-victims-at-least-195k-in-crypto-assets-within-2-weeks",
           "pub_date": "2026-08-21T14:51:21+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "malicious-miner.com",
+      "confidence": "high",
+      "reason": "[article sweep] Domain used to host malicious scripts, indicating attacker control",
+      "first_seen": "2026-08-21T05:50:46+00:00",
+      "last_seen": "2026-08-21T05:50:46+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cyfirma",
+          "url": "https://www.cyfirma.com/news/weekly-intelligence-report-21-aug-2026/",
+          "pub_date": "2026-08-21T05:50:46+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "securestore.tv",
+      "confidence": "high",
+      "reason": "[article sweep] Listed in a YARA rule as associated with APT36 activity",
+      "first_seen": "2026-08-21T05:50:46+00:00",
+      "last_seen": "2026-08-21T05:50:46+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cyfirma",
+          "url": "https://www.cyfirma.com/news/weekly-intelligence-report-21-aug-2026/",
+          "pub_date": "2026-08-21T05:50:46+00:00"
         }
       ],
       "tags": []
@@ -691,6 +1045,23 @@
       ]
     },
     {
+      "type": "ipv4",
+      "value": "103.236.54.207",
+      "confidence": "high",
+      "reason": "[article sweep] Used as a staging server by the attacker",
+      "first_seen": "2026-08-19T19:56:48+00:00",
+      "last_seen": "2026-08-19T19:56:48+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cloudsek",
+          "url": "https://www.cloudsek.com/blog/ai-agent-driven-offensive-operation-crypto-wallet-credential-compromise",
+          "pub_date": "2026-08-19T19:56:48+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
       "type": "domain",
       "value": "spyroid.net",
       "confidence": "high",
@@ -741,6 +1112,23 @@
           "value": "Spyroid"
         }
       ]
+    },
+    {
+      "type": "domain",
+      "value": "lockwall.xyz",
+      "confidence": "high",
+      "reason": "[article sweep] Captured phishing page hosted on this domain, indicating attacker control",
+      "first_seen": "2026-08-18T18:04:45+00:00",
+      "last_seen": "2026-08-18T18:04:45+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Wiz",
+          "url": "https://www.wiz.io/blog/detecting-entra-device-registration-abuse",
+          "pub_date": "2026-08-18T18:04:45+00:00"
+        }
+      ],
+      "tags": []
     },
     {
       "type": "domain",
@@ -795,6 +1183,23 @@
       ]
     },
     {
+      "type": "domain",
+      "value": "msfconfig.icu",
+      "confidence": "high",
+      "reason": "[article sweep] Domain used to host malicious scripts, indicating attacker control",
+      "first_seen": "2026-08-17T16:03:58+00:00",
+      "last_seen": "2026-08-17T16:03:58+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Kaspersky",
+          "url": "https://www.kaspersky.com/blog/steam-forum-clickfix-attack-irm-iex/56285/",
+          "pub_date": "2026-08-17T16:03:58+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
       "type": "ipv4",
       "value": "85.206.161.241",
       "confidence": "high",
@@ -823,6 +1228,23 @@
           "value": "SectopRAT"
         }
       ]
+    },
+    {
+      "type": "ipv4",
+      "value": "45.192.12.34",
+      "confidence": "high",
+      "reason": "[article sweep] Identified as a C2 server in malware configuration",
+      "first_seen": "2026-08-13T21:19:45+00:00",
+      "last_seen": "2026-08-13T21:19:45+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Iverify",
+          "url": "https://iverify.io/blog/octagon-android-bot-crypto-wallets-banking-apps",
+          "pub_date": "2026-08-13T21:19:45+00:00"
+        }
+      ],
+      "tags": []
     },
     {
       "type": "ipv4",
@@ -916,6 +1338,91 @@
     },
     {
       "type": "domain",
+      "value": "ramimac.me",
+      "confidence": "high",
+      "reason": "[article sweep] Used in a campaign tracked by Wiz Threat Center.",
+      "first_seen": "2026-08-12T22:06:24.425523+00:00",
+      "last_seen": "2026-08-12T22:06:24.425523+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "snyk.io",
+          "url": "https://snyk.io/blog/poisoned-security-scanner-backdooring-litellm/",
+          "pub_date": "2026-08-12T22:06:24.425523+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "msupdate.updatemicfosoft.com",
+      "confidence": "high",
+      "reason": "[article sweep] Custom C2 domain used in an attack, indicating attacker control",
+      "first_seen": "2026-08-12T14:35:21+00:00",
+      "last_seen": "2026-08-12T14:35:21+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Rescana",
+          "url": "https://www.rescana.com/post/active-exploitation-alert-critical-microsoft-sharepoint-cve-2026-50522-vulnerability-targeted-in-global-attacks",
+          "pub_date": "2026-08-12T14:35:21+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "ipv4",
+      "value": "131.226.2.6",
+      "confidence": "high",
+      "reason": "[article sweep] Listed as a known malicious IP in a threat report",
+      "first_seen": "2026-08-12T14:35:21+00:00",
+      "last_seen": "2026-08-12T14:35:21+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Rescana",
+          "url": "https://www.rescana.com/post/active-exploitation-alert-critical-microsoft-sharepoint-cve-2026-50522-vulnerability-targeted-in-global-attacks",
+          "pub_date": "2026-08-12T14:35:21+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "ipv4",
+      "value": "188.130.206.168",
+      "confidence": "high",
+      "reason": "[article sweep] Known malicious IP used in SharePoint exploitation",
+      "first_seen": "2026-08-12T14:35:21+00:00",
+      "last_seen": "2026-08-12T14:35:21+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Rescana",
+          "url": "https://www.rescana.com/post/active-exploitation-alert-critical-microsoft-sharepoint-cve-2026-50522-vulnerability-targeted-in-global-attacks",
+          "pub_date": "2026-08-12T14:35:21+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "ipv4",
+      "value": "65.38.121.198",
+      "confidence": "high",
+      "reason": "[article sweep] Listed as a known malicious IP in SharePoint exploitation",
+      "first_seen": "2026-08-12T14:35:21+00:00",
+      "last_seen": "2026-08-12T14:35:21+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Rescana",
+          "url": "https://www.rescana.com/post/active-exploitation-alert-critical-microsoft-sharepoint-cve-2026-50522-vulnerability-targeted-in-global-attacks",
+          "pub_date": "2026-08-12T14:35:21+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
       "value": "ccleanerwind.top",
       "confidence": "high",
       "reason": "Identified as attacker-controlled domain for malware distribution",
@@ -948,6 +1455,23 @@
           "value": "CVE-2026-59310"
         }
       ]
+    },
+    {
+      "type": "ipv4",
+      "value": "166.88.134.62",
+      "confidence": "high",
+      "reason": "[article sweep] Decoded C2 IP address from a transaction",
+      "first_seen": "2026-08-11T13:21:16.792531+00:00",
+      "last_seen": "2026-08-11T13:21:16.792531+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "opensourcemalware.com",
+          "url": "https://opensourcemalware.com/blog/nullreceiver-dprk-c2-technique",
+          "pub_date": "2026-08-11T13:21:16.792531+00:00"
+        }
+      ],
+      "tags": []
     },
     {
       "type": "domain",
@@ -1018,6 +1542,23 @@
           "value": "W3LL Kit"
         }
       ]
+    },
+    {
+      "type": "ipv4",
+      "value": "185.242.3.238",
+      "confidence": "high",
+      "reason": "[article sweep] Observed sending SQL injection payloads to vulnerable endpoints",
+      "first_seen": "2026-08-08T00:42:00+00:00",
+      "last_seen": "2026-08-08T00:42:00+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "F5",
+          "url": "https://www.f5.com/labs/articles/cve-2026-63030-and-cve-2026-60137-wp2shell-captured-exploit-payload",
+          "pub_date": "2026-08-08T00:42:00+00:00"
+        }
+      ],
+      "tags": []
     },
     {
       "type": "domain",
@@ -1092,6 +1633,23 @@
       "value": "zmail.vetstarts.com",
       "confidence": "high",
       "reason": "[article sweep] Listed in a rule for detecting Lazarus-related supply chain campaign artifacts",
+      "first_seen": "2026-08-06T18:48:08+00:00",
+      "last_seen": "2026-08-06T18:48:08+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cyfirma",
+          "url": "https://www.cyfirma.com/news/weekly-intelligence-report-7-aug-2026/",
+          "pub_date": "2026-08-06T18:48:08+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "ipv4",
+      "value": "104.239.66.201",
+      "confidence": "high",
+      "reason": "[article sweep] Listed as part of a coordinated cyberattack",
       "first_seen": "2026-08-06T18:48:08+00:00",
       "last_seen": "2026-08-06T18:48:08+00:00",
       "source_count": 1,
@@ -1265,6 +1823,91 @@
       ]
     },
     {
+      "type": "ipv4",
+      "value": "163.7.8.79",
+      "confidence": "high",
+      "reason": "[article sweep] Source IP for an SSH connection to a honeypot",
+      "first_seen": "2026-08-06T00:15:40+00:00",
+      "last_seen": "2026-08-06T00:15:40+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Isc.Sans.Edu",
+          "url": "https://isc.sans.edu/diary/rss/33220",
+          "pub_date": "2026-08-06T00:15:40+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "ipv4",
+      "value": "80.94.92.171",
+      "confidence": "high",
+      "reason": "[article sweep] Part of a coordinated scanning infrastructure used in the mdrfckr SSH campaign.",
+      "first_seen": "2026-08-06T00:15:40+00:00",
+      "last_seen": "2026-08-06T00:15:40+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Isc.Sans.Edu",
+          "url": "https://isc.sans.edu/diary/rss/33220",
+          "pub_date": "2026-08-06T00:15:40+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "ipv4",
+      "value": "80.94.92.184",
+      "confidence": "high",
+      "reason": "[article sweep] Part of a coordinated scanning infrastructure used in the mdrfckr SSH campaign.",
+      "first_seen": "2026-08-06T00:15:40+00:00",
+      "last_seen": "2026-08-06T00:15:40+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Isc.Sans.Edu",
+          "url": "https://isc.sans.edu/diary/rss/33220",
+          "pub_date": "2026-08-06T00:15:40+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "ipv4",
+      "value": "80.94.92.186",
+      "confidence": "high",
+      "reason": "[article sweep] Part of a coordinated scanning infrastructure used in the mdrfckr SSH campaign.",
+      "first_seen": "2026-08-06T00:15:40+00:00",
+      "last_seen": "2026-08-06T00:15:40+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Isc.Sans.Edu",
+          "url": "https://isc.sans.edu/diary/rss/33220",
+          "pub_date": "2026-08-06T00:15:40+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "coldcardteamnews.com",
+      "confidence": "high",
+      "reason": "[article sweep] Used in a phishing campaign impersonating COLDCARD",
+      "first_seen": "2026-08-05T17:49:41+00:00",
+      "last_seen": "2026-08-05T17:49:41+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Bleepingcomputer",
+          "url": "https://www.bleepingcomputer.com/news/security/coldcard-security-audit-phishing-attack-installs-remote-access-tool/",
+          "pub_date": "2026-08-05T17:49:41+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
       "type": "domain",
       "value": "deltaode.com",
       "confidence": "high",
@@ -1299,6 +1942,40 @@
       "tags": []
     },
     {
+      "type": "ipv4",
+      "value": "213.145.86.112",
+      "confidence": "high",
+      "reason": "[article sweep] Hardcoded C2 IP for ChocoShell infostealer",
+      "first_seen": "2026-08-04T12:16:39+00:00",
+      "last_seen": "2026-08-04T12:16:39+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Socprime",
+          "url": "https://socprime.com/active-threats/captivecrunch-campaign-delivers-malware-and-steals-traveler-credentials/",
+          "pub_date": "2026-08-04T12:16:39+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "ipv4",
+      "value": "64.95.11.22",
+      "confidence": "high",
+      "reason": "[article sweep] Associated with a malicious web host used in an attack",
+      "first_seen": "2026-08-04T12:04:14+00:00",
+      "last_seen": "2026-08-04T12:04:14+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Sophos",
+          "url": "https://www.sophos.com/en-us/blog/2608-volatility-interlock",
+          "pub_date": "2026-08-04T12:04:14+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
       "type": "domain",
       "value": "microsoft-login.secure-verify.net",
       "confidence": "high",
@@ -1317,71 +1994,37 @@
     },
     {
       "type": "domain",
-      "value": "xfconnect.com",
+      "value": "totally-legit-invoices.com",
       "confidence": "high",
-      "reason": "Pointed to as hosting multiple FCN binaries related to Chanming's product",
-      "first_seen": "2026-07-29T18:06:50+00:00",
-      "last_seen": "2026-07-29T18:06:50+00:00",
+      "reason": "[article sweep] Used for sending authenticated but malicious emails",
+      "first_seen": "2026-08-03T09:29:46+00:00",
+      "last_seen": "2026-08-03T09:29:46+00:00",
       "source_count": 1,
       "sources": [
         {
-          "source": "Techtimes",
-          "url": "https://www.techtimes.com/articles/322063/20260729/guangdong-chanming-sold-spy-botnet-pla-nearly-dozen-chinese-hacking-groups.htm",
-          "pub_date": "2026-07-29T18:06:50+00:00"
+          "source": "News.Ycombinator",
+          "url": "https://senderledger.com/articles/what-dmarc-actually-protects-you-from",
+          "pub_date": "2026-08-03T09:29:46+00:00"
         }
       ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Apt15"
-        },
-        {
-          "type": "apt_group",
-          "value": "CSF 8th Bureau"
-        },
-        {
-          "type": "apt_group",
-          "value": "Ke3chang"
-        },
-        {
-          "type": "apt_group",
-          "value": "Nickel"
-        }
-      ]
+      "tags": []
     },
     {
-      "type": "domain",
-      "value": "login.trees4sale.net",
+      "type": "ipv4",
+      "value": "31.57.34.228",
       "confidence": "high",
-      "reason": "identified as Dysphoria infrastructure domain",
-      "first_seen": "2026-07-29T10:33:04+00:00",
-      "last_seen": "2026-07-29T10:33:04+00:00",
+      "reason": "[article sweep] Associated with malicious hosting infrastructure used for payload delivery",
+      "first_seen": "2026-07-30T20:07:20.633185+00:00",
+      "last_seen": "2026-07-30T20:07:20.633185+00:00",
       "source_count": 1,
       "sources": [
         {
-          "source": "Techtimes",
-          "url": "https://www.techtimes.com/articles/321926/20260729/rebuilt-six-days-dysphoria-iot-botnet-hides-blockchain-defy-seizure.htm",
-          "pub_date": "2026-07-29T10:33:04+00:00"
+          "source": "medium.com",
+          "url": "https://medium.com/@FeintBE/workshop-map-for-meccha-chameleon-is-a-malware-dropper-full-breakdown-d1ac29565265",
+          "pub_date": "2026-07-30T20:07:20.633185+00:00"
         }
       ],
-      "tags": [
-        {
-          "type": "cve",
-          "value": "CVE-2017-17215"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2020-8515"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2025-28137"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2025-34152"
-        }
-      ]
+      "tags": []
     }
   ],
   "license": "CC-BY 4.0 \u2014 attribute ThreatCluster (https://threatcluster.io)",
