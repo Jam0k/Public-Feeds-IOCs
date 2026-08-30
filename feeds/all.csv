@@ -1,4 +1,6 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason
+domain,mychart-epic.com,high,2026-08-29T18:03:32.277709+00:00,2026-08-29T18:03:32.277709+00:00,1,www.mychart.org:2026-08-29,"Domain used for phishing, mimicking MyChart; attacker-controlled infrastructure."
+domain,my-chart.org,high,2026-08-29T18:03:32.277709+00:00,2026-08-29T18:03:32.277709+00:00,1,www.mychart.org:2026-08-29,"Domain used for phishing, mimicking MyChart; attacker-controlled infrastructure."
 domain,nuihuw.top,high,2026-08-26T10:37:36+00:00,2026-08-28T11:38:54+00:00,2,Socprime:2026-08-28|Acronis:2026-08-26,Listed as a backup C2 server in the decrypted configuration
 domain,exessupdate.info,high,2026-08-28T03:24:16+00:00,2026-08-28T03:24:16+00:00,1,Cyfirma:2026-08-28,[article sweep] Listed as part of campaign infrastructure in a YARA rule
 domain,greezupdto.info,high,2026-08-28T03:24:16+00:00,2026-08-28T03:24:16+00:00,1,Cyfirma:2026-08-28,[article sweep] Listed as part of campaign infrastructure in a YARA rule
@@ -7,8 +9,6 @@ domain,makerolleds.info,high,2026-08-28T03:24:16+00:00,2026-08-28T03:24:16+00:00
 domain,programgreedz.info,high,2026-08-28T03:24:16+00:00,2026-08-28T03:24:16+00:00,1,Cyfirma:2026-08-28,[article sweep] Listed as part of campaign infrastructure in a YARA rule
 domain,reggyupdated.info,high,2026-08-28T03:24:16+00:00,2026-08-28T03:24:16+00:00,1,Cyfirma:2026-08-28,[article sweep] Listed as part of campaign infrastructure in a YARA rule
 ipv4,192.162.199.149,high,2026-08-28T03:24:16+00:00,2026-08-28T03:24:16+00:00,1,Cyfirma:2026-08-28,[article sweep] IP address associated with malware file hosting
-domain,mychart-epic.com,high,2026-08-27T23:05:32.658708+00:00,2026-08-27T23:05:32.658708+00:00,1,www.mychart.org:2026-08-27,"Domain used for phishing, mimicking MyChart; attacker-controlled infrastructure."
-domain,my-chart.org,high,2026-08-27T23:05:32.658708+00:00,2026-08-27T23:05:32.658708+00:00,1,www.mychart.org:2026-08-27,"Domain used for phishing, mimicking MyChart; attacker-controlled infrastructure."
 domain,crpx0.su,high,2026-08-27T21:32:24.332810+00:00,2026-08-27T21:32:24.332810+00:00,1,theravenfile.com:2026-08-27,[article sweep] Identified as hosting a panel for a ransomware group
 domain,flash-token.shop,high,2026-08-27T21:32:24.332810+00:00,2026-08-27T21:32:24.332810+00:00,1,theravenfile.com:2026-08-27,[article sweep] Identified as a scam service domain
 domain,instantmessagehub.tech,high,2026-08-27T17:12:48.782680+00:00,2026-08-27T17:12:48.782680+00:00,1,www.lumen.com:2026-08-27,Listed as a core infrastructure element for Fast Labyrinth
@@ -93,4 +93,3 @@ ipv4,213.145.86.112,high,2026-08-04T12:16:39+00:00,2026-08-04T12:16:39+00:00,1,S
 ipv4,64.95.11.22,high,2026-08-04T12:04:14+00:00,2026-08-04T12:04:14+00:00,1,Sophos:2026-08-04,[article sweep] Associated with a malicious web host used in an attack
 domain,microsoft-login.secure-verify.net,high,2026-08-03T13:40:21+00:00,2026-08-03T13:40:21+00:00,1,Dexpose:2026-08-03,[article sweep] Described as a phishing domain impersonating Microsoft
 domain,totally-legit-invoices.com,high,2026-08-03T09:29:46+00:00,2026-08-03T09:29:46+00:00,1,News.Ycombinator:2026-08-03,[article sweep] Used for sending authenticated but malicious emails
-ipv4,31.57.34.228,high,2026-07-30T20:07:20.633185+00:00,2026-07-30T20:07:20.633185+00:00,1,medium.com:2026-07-30,[article sweep] Associated with malicious hosting infrastructure used for payload delivery

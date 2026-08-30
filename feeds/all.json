@@ -1,7 +1,7 @@
 {
   "feed": "threatcluster-public-iocs",
   "version": 1,
-  "generated_at": "2026-08-29T06:33:24Z",
+  "generated_at": "2026-08-30T06:34:52Z",
   "filters": {
     "confidence": "high",
     "window_days": 30,
@@ -11,8 +11,42 @@
       "domain"
     ]
   },
-  "count": 95,
+  "count": 94,
   "iocs": [
+    {
+      "type": "domain",
+      "value": "mychart-epic.com",
+      "confidence": "high",
+      "reason": "Domain used for phishing, mimicking MyChart; attacker-controlled infrastructure.",
+      "first_seen": "2026-08-29T18:03:32.277709+00:00",
+      "last_seen": "2026-08-29T18:03:32.277709+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.mychart.org",
+          "url": "https://www.mychart.org/l/en-us/help/staying-safe-from-scams-and-fraud/",
+          "pub_date": "2026-08-29T18:03:32.277709+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "my-chart.org",
+      "confidence": "high",
+      "reason": "Domain used for phishing, mimicking MyChart; attacker-controlled infrastructure.",
+      "first_seen": "2026-08-29T18:03:32.277709+00:00",
+      "last_seen": "2026-08-29T18:03:32.277709+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.mychart.org",
+          "url": "https://www.mychart.org/l/en-us/help/staying-safe-from-scams-and-fraud/",
+          "pub_date": "2026-08-29T18:03:32.277709+00:00"
+        }
+      ],
+      "tags": []
+    },
     {
       "type": "domain",
       "value": "nuihuw.top",
@@ -159,40 +193,6 @@
           "source": "Cyfirma",
           "url": "https://www.cyfirma.com/news/weekly-intelligence-report-28-aug-2026/",
           "pub_date": "2026-08-28T03:24:16+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "mychart-epic.com",
-      "confidence": "high",
-      "reason": "Domain used for phishing, mimicking MyChart; attacker-controlled infrastructure.",
-      "first_seen": "2026-08-27T23:05:32.658708+00:00",
-      "last_seen": "2026-08-27T23:05:32.658708+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.mychart.org",
-          "url": "https://www.mychart.org/l/en-us/help/staying-safe-from-scams-and-fraud/",
-          "pub_date": "2026-08-27T23:05:32.658708+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "my-chart.org",
-      "confidence": "high",
-      "reason": "Domain used for phishing, mimicking MyChart; attacker-controlled infrastructure.",
-      "first_seen": "2026-08-27T23:05:32.658708+00:00",
-      "last_seen": "2026-08-27T23:05:32.658708+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.mychart.org",
-          "url": "https://www.mychart.org/l/en-us/help/staying-safe-from-scams-and-fraud/",
-          "pub_date": "2026-08-27T23:05:32.658708+00:00"
         }
       ],
       "tags": []
@@ -2005,23 +2005,6 @@
           "source": "News.Ycombinator",
           "url": "https://senderledger.com/articles/what-dmarc-actually-protects-you-from",
           "pub_date": "2026-08-03T09:29:46+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "ipv4",
-      "value": "31.57.34.228",
-      "confidence": "high",
-      "reason": "[article sweep] Associated with malicious hosting infrastructure used for payload delivery",
-      "first_seen": "2026-07-30T20:07:20.633185+00:00",
-      "last_seen": "2026-07-30T20:07:20.633185+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "medium.com",
-          "url": "https://medium.com/@FeintBE/workshop-map-for-meccha-chameleon-is-a-malware-dropper-full-breakdown-d1ac29565265",
-          "pub_date": "2026-07-30T20:07:20.633185+00:00"
         }
       ],
       "tags": []
