@@ -227,7 +227,7 @@ the indicator and we'll review and remove it.
 ## Current feed
 
 <!--STATS-->
-_Last updated: 2026-08-30 06:34 UTC_
+_Last updated: 2026-08-31 06:47 UTC_
 
 **94 network indicators** · **522 hashes** · **54 wallets** · 30-day window
 
