@@ -1,7 +1,7 @@
 {
   "feed": "threatcluster-public-iocs",
   "version": 1,
-  "generated_at": "2026-08-31T06:47:38Z",
+  "generated_at": "2026-09-01T06:40:25Z",
   "filters": {
     "confidence": "high",
     "window_days": 30,
@@ -11,8 +11,225 @@
       "domain"
     ]
   },
-  "count": 94,
+  "count": 104,
   "iocs": [
+    {
+      "type": "ipv4",
+      "value": "185.254.222.105",
+      "confidence": "high",
+      "reason": "[article sweep] IP address used in a phishing email header",
+      "first_seen": "2026-09-01T00:33:21+00:00",
+      "last_seen": "2026-09-01T00:33:21+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Isc.Sans.Edu",
+          "url": "https://isc.sans.edu/diary/rss/33300",
+          "pub_date": "2026-09-01T00:33:21+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "dosportal.app",
+      "confidence": "high",
+      "reason": "[article sweep] Domain used in an OAuth phishing campaign",
+      "first_seen": "2026-08-31T18:26:30+00:00",
+      "last_seen": "2026-08-31T18:26:30+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Socprime",
+          "url": "https://socprime.com/active-threats/inhospitable-mapping-russian-cyber-espionage-infrastructure/",
+          "pub_date": "2026-08-31T18:26:30+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "js-mirror.com",
+      "confidence": "high",
+      "reason": "[article sweep] Domain used for suspicious outbound traffic",
+      "first_seen": "2026-08-31T13:05:38.820639+00:00",
+      "last_seen": "2026-08-31T13:05:38.820639+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.chainguard.dev",
+          "url": "https://www.chainguard.dev/unchained/the-keyv-and-cacheable-npm-supply-chain-attack-inside-the-mini-shai-hulud-campaign",
+          "pub_date": "2026-08-31T13:05:38.820639+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "npm-cache.com",
+      "confidence": "high",
+      "reason": "[article sweep] Domain used in a supply chain attack",
+      "first_seen": "2026-08-31T13:05:38.820639+00:00",
+      "last_seen": "2026-08-31T13:05:38.820639+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.chainguard.dev",
+          "url": "https://www.chainguard.dev/unchained/the-keyv-and-cacheable-npm-supply-chain-attack-inside-the-mini-shai-hulud-campaign",
+          "pub_date": "2026-08-31T13:05:38.820639+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "pypi-get.com",
+      "confidence": "high",
+      "reason": "[article sweep] Domain used in a supply chain attack",
+      "first_seen": "2026-08-31T13:05:38.820639+00:00",
+      "last_seen": "2026-08-31T13:05:38.820639+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.chainguard.dev",
+          "url": "https://www.chainguard.dev/unchained/the-keyv-and-cacheable-npm-supply-chain-attack-inside-the-mini-shai-hulud-campaign",
+          "pub_date": "2026-08-31T13:05:38.820639+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "fine-work-team.com",
+      "confidence": "high",
+      "reason": "Identified as a delivery URL for a malicious script",
+      "first_seen": "2026-08-31T12:34:31.263942+00:00",
+      "last_seen": "2026-08-31T12:34:31.263942+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "hunt.io",
+          "url": "https://hunt.io/blog/chinese-speaking-operator-philippine-nuclear-naval-contractor",
+          "pub_date": "2026-08-31T12:34:31.263942+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Operation CameraSwarm"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2023-49105"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2024-28000"
+        },
+        {
+          "type": "industry",
+          "value": "Government"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "timelevel12.com",
+      "confidence": "high",
+      "reason": "Identified as a delivery URL for a malicious script",
+      "first_seen": "2026-08-31T12:34:31.263942+00:00",
+      "last_seen": "2026-08-31T12:34:31.263942+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "hunt.io",
+          "url": "https://hunt.io/blog/chinese-speaking-operator-philippine-nuclear-naval-contractor",
+          "pub_date": "2026-08-31T12:34:31.263942+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Operation CameraSwarm"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2023-49105"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2024-28000"
+        },
+        {
+          "type": "industry",
+          "value": "Government"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "san-sid.com",
+      "confidence": "high",
+      "reason": "URL hosting obfuscated PowerShell payload used as RAT dropper",
+      "first_seen": "2026-08-31T10:00:36+00:00",
+      "last_seen": "2026-08-31T10:00:36+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Unit42.Paloaltonetworks",
+          "url": "https://unit42.paloaltonetworks.com/spring-ring-voice-phishing-campaigns/",
+          "pub_date": "2026-08-31T10:00:36+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Apt29"
+        },
+        {
+          "type": "apt_group",
+          "value": "Cloaked Ursa"
+        },
+        {
+          "type": "campaign",
+          "value": "Spring Ring"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "infect.online",
+      "confidence": "high",
+      "reason": "[article sweep] Domain associated with a vendor in a cybercriminal marketplace",
+      "first_seen": "2026-08-31T09:45:15+00:00",
+      "last_seen": "2026-08-31T09:45:15+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Group-Ib",
+          "url": "https://www.group-ib.com/blog/brazetsu-ai-enhanced-iab-marketplace/",
+          "pub_date": "2026-08-31T09:45:15+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "ipv4",
+      "value": "31.58.209.241",
+      "confidence": "high",
+      "reason": "[article sweep] IP address hosting stolen data and exploit scripts",
+      "first_seen": "2026-08-30T20:09:53+00:00",
+      "last_seen": "2026-08-30T20:09:53+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Pasqualepillitteri.It",
+          "url": "https://pasqualepillitteri.it/en/news/13473/chinese-operator-philippine-nuclear-data-owncloud",
+          "pub_date": "2026-08-30T20:09:53+00:00"
+        }
+      ],
+      "tags": []
+    },
     {
       "type": "domain",
       "value": "mychart-epic.com",

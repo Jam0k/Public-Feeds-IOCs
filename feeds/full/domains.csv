@@ -1,4 +1,12 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason
+domain,dosportal.app,high,2026-08-31T18:26:30+00:00,2026-08-31T18:26:30+00:00,1,,[article sweep] Domain used in an OAuth phishing campaign
+domain,js-mirror.com,high,2026-08-31T13:05:38.820639+00:00,2026-08-31T13:05:38.820639+00:00,1,,[article sweep] Domain used for suspicious outbound traffic
+domain,npm-cache.com,high,2026-08-31T13:05:38.820639+00:00,2026-08-31T13:05:38.820639+00:00,1,,[article sweep] Domain used in a supply chain attack
+domain,pypi-get.com,high,2026-08-31T13:05:38.820639+00:00,2026-08-31T13:05:38.820639+00:00,1,,[article sweep] Domain used in a supply chain attack
+domain,fine-work-team.com,high,2026-07-28T14:25:36+00:00,2026-08-31T12:34:31.263942+00:00,2,,Identified as a delivery URL for a malicious script
+domain,timelevel12.com,high,2026-08-31T12:34:31.263942+00:00,2026-08-31T12:34:31.263942+00:00,1,,Identified as a delivery URL for a malicious script
+domain,san-sid.com,high,2026-08-31T10:00:36+00:00,2026-08-31T10:00:36+00:00,1,,URL hosting obfuscated PowerShell payload used as RAT dropper
+domain,infect.online,high,2026-08-31T09:45:15+00:00,2026-08-31T09:45:15+00:00,1,,[article sweep] Domain associated with a vendor in a cybercriminal marketplace
 domain,mychart-epic.com,high,2026-08-24T16:35:14.982407+00:00,2026-08-29T18:03:32.277709+00:00,1,,"Domain used for phishing, mimicking MyChart; attacker-controlled infrastructure."
 domain,my-chart.org,high,2026-08-24T16:35:14.982407+00:00,2026-08-29T18:03:32.277709+00:00,1,,"Domain used for phishing, mimicking MyChart; attacker-controlled infrastructure."
 domain,nuihuw.top,high,2026-08-26T10:37:36+00:00,2026-08-28T11:38:54+00:00,2,,Listed as a backup C2 server in the decrypted configuration
@@ -60,7 +68,6 @@ domain,microsoft-login.secure-verify.net,high,2026-08-03T13:40:21+00:00,2026-08-
 domain,totally-legit-invoices.com,high,2026-08-03T09:29:46+00:00,2026-08-03T09:29:46+00:00,1,,[article sweep] Used for sending authenticated but malicious emails
 domain,xfconnect.com,high,2026-07-29T18:06:50+00:00,2026-07-29T18:06:50+00:00,1,,Pointed to as hosting multiple FCN binaries related to Chanming's product
 domain,login.trees4sale.net,high,2026-07-29T10:33:04+00:00,2026-07-29T10:33:04+00:00,1,,identified as Dysphoria infrastructure domain
-domain,fine-work-team.com,high,2026-07-28T14:25:36+00:00,2026-07-28T14:25:36+00:00,1,,[article sweep] Used in a PowerShell command to download a script
 domain,businessmixture.com,high,2026-07-28T08:00:20+00:00,2026-07-28T08:00:20+00:00,1,,"[article sweep] Communicates with malware over WSS, indicating attacker control"
 domain,re2.filesdwnload.top,high,2026-07-28T05:26:30+00:00,2026-07-28T05:26:30+00:00,1,,Listed as C2 server deploying tools.
 domain,re8.dowlfles.online,high,2026-07-28T05:26:30+00:00,2026-07-28T05:26:30+00:00,1,,Listed as C2 server deploying tools.

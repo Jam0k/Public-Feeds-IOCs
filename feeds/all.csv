@@ -1,4 +1,14 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason
+ipv4,185.254.222.105,high,2026-09-01T00:33:21+00:00,2026-09-01T00:33:21+00:00,1,Isc.Sans.Edu:2026-09-01,[article sweep] IP address used in a phishing email header
+domain,dosportal.app,high,2026-08-31T18:26:30+00:00,2026-08-31T18:26:30+00:00,1,Socprime:2026-08-31,[article sweep] Domain used in an OAuth phishing campaign
+domain,js-mirror.com,high,2026-08-31T13:05:38.820639+00:00,2026-08-31T13:05:38.820639+00:00,1,www.chainguard.dev:2026-08-31,[article sweep] Domain used for suspicious outbound traffic
+domain,npm-cache.com,high,2026-08-31T13:05:38.820639+00:00,2026-08-31T13:05:38.820639+00:00,1,www.chainguard.dev:2026-08-31,[article sweep] Domain used in a supply chain attack
+domain,pypi-get.com,high,2026-08-31T13:05:38.820639+00:00,2026-08-31T13:05:38.820639+00:00,1,www.chainguard.dev:2026-08-31,[article sweep] Domain used in a supply chain attack
+domain,fine-work-team.com,high,2026-08-31T12:34:31.263942+00:00,2026-08-31T12:34:31.263942+00:00,1,hunt.io:2026-08-31,Identified as a delivery URL for a malicious script
+domain,timelevel12.com,high,2026-08-31T12:34:31.263942+00:00,2026-08-31T12:34:31.263942+00:00,1,hunt.io:2026-08-31,Identified as a delivery URL for a malicious script
+domain,san-sid.com,high,2026-08-31T10:00:36+00:00,2026-08-31T10:00:36+00:00,1,Unit42.Paloaltonetworks:2026-08-31,URL hosting obfuscated PowerShell payload used as RAT dropper
+domain,infect.online,high,2026-08-31T09:45:15+00:00,2026-08-31T09:45:15+00:00,1,Group-Ib:2026-08-31,[article sweep] Domain associated with a vendor in a cybercriminal marketplace
+ipv4,31.58.209.241,high,2026-08-30T20:09:53+00:00,2026-08-30T20:09:53+00:00,1,Pasqualepillitteri.It:2026-08-30,[article sweep] IP address hosting stolen data and exploit scripts
 domain,mychart-epic.com,high,2026-08-29T18:03:32.277709+00:00,2026-08-29T18:03:32.277709+00:00,1,www.mychart.org:2026-08-29,"Domain used for phishing, mimicking MyChart; attacker-controlled infrastructure."
 domain,my-chart.org,high,2026-08-29T18:03:32.277709+00:00,2026-08-29T18:03:32.277709+00:00,1,www.mychart.org:2026-08-29,"Domain used for phishing, mimicking MyChart; attacker-controlled infrastructure."
 domain,nuihuw.top,high,2026-08-26T10:37:36+00:00,2026-08-28T11:38:54+00:00,2,Socprime:2026-08-28|Acronis:2026-08-26,Listed as a backup C2 server in the decrypted configuration
