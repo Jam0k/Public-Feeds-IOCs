@@ -1,7 +1,7 @@
 {
   "feed": "threatcluster-public-iocs",
   "version": 1,
-  "generated_at": "2026-09-01T06:40:25Z",
+  "generated_at": "2026-09-02T06:43:40Z",
   "filters": {
     "confidence": "high",
     "window_days": 30,
@@ -11,13 +11,120 @@
       "domain"
     ]
   },
-  "count": 104,
+  "count": 109,
   "iocs": [
+    {
+      "type": "ipv4",
+      "value": "176.65.148.184",
+      "confidence": "high",
+      "reason": "[article sweep] Identified as the attacker's IP used in a honeypot exploitation attempt",
+      "first_seen": "2026-09-01T22:29:26+00:00",
+      "last_seen": "2026-09-01T22:29:26+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Horizon3.Ai",
+          "url": "https://horizon3.ai/attack-research/disclosures/cve-2026-9586-sangoma-switchvox-rce/",
+          "pub_date": "2026-09-01T22:29:26+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "ipv4",
+      "value": "206.238.196.96",
+      "confidence": "high",
+      "reason": "Explicitly identified as a hardcoded C2 IP for the PackClient RAT.",
+      "first_seen": "2026-09-01T19:09:37+00:00",
+      "last_seen": "2026-09-01T19:09:37+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Socprime",
+          "url": "https://socprime.com/active-threats/carry-on-compromise-ta4922-packs-packclient/",
+          "pub_date": "2026-09-01T19:09:37+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "PackClient"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "veruisuealx.xyz",
+      "confidence": "high",
+      "reason": "[article sweep] Used in a ClickFix invocation for malicious activity",
+      "first_seen": "2026-09-01T14:47:28.739044+00:00",
+      "last_seen": "2026-09-01T14:47:28.739044+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.guidepointsecurity.com",
+          "url": "https://www.guidepointsecurity.com/blog/etherhiding_exposed_what_security_leaders_need_to_know/",
+          "pub_date": "2026-09-01T14:47:28.739044+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "us05.org",
+      "confidence": "high",
+      "reason": "[article sweep] Used as delivery infrastructure for a trojanized build",
+      "first_seen": "2026-09-01T12:13:57+00:00",
+      "last_seen": "2026-09-01T12:13:57+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Huntress",
+          "url": "https://www.huntress.com/blog/exodus-crypto-wallet-installer-rat",
+          "pub_date": "2026-09-01T12:13:57+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "co1nbase.com",
+      "confidence": "high",
+      "reason": "[article sweep] Identified as a typosquatted domain impersonating Coinbase",
+      "first_seen": "2026-09-01T11:55:33+00:00",
+      "last_seen": "2026-09-01T11:55:33+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Privateinternetaccess",
+          "url": "https://www.privateinternetaccess.com/blog/coinbase-scam-emails/",
+          "pub_date": "2026-09-01T11:55:33+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "coinbase-security.com",
+      "confidence": "high",
+      "reason": "[article sweep] Identified as a domain impersonating Coinbase",
+      "first_seen": "2026-09-01T11:55:33+00:00",
+      "last_seen": "2026-09-01T11:55:33+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Privateinternetaccess",
+          "url": "https://www.privateinternetaccess.com/blog/coinbase-scam-emails/",
+          "pub_date": "2026-09-01T11:55:33+00:00"
+        }
+      ],
+      "tags": []
+    },
     {
       "type": "ipv4",
       "value": "185.254.222.105",
       "confidence": "high",
-      "reason": "[article sweep] IP address used in a phishing email header",
+      "reason": "IP address used in email headers, likely attacker-controlled infrastructure.",
       "first_seen": "2026-09-01T00:33:21+00:00",
       "last_seen": "2026-09-01T00:33:21+00:00",
       "source_count": 1,
@@ -28,7 +135,16 @@
           "pub_date": "2026-09-01T00:33:21+00:00"
         }
       ],
-      "tags": []
+      "tags": [
+        {
+          "type": "malware",
+          "value": "Astaroth"
+        },
+        {
+          "type": "malware",
+          "value": "Guildma"
+        }
+      ]
     },
     {
       "type": "domain",
@@ -102,7 +218,7 @@
       "type": "domain",
       "value": "fine-work-team.com",
       "confidence": "high",
-      "reason": "Identified as a delivery URL for a malicious script",
+      "reason": "Listed as a delivery URL for a malicious script",
       "first_seen": "2026-08-31T12:34:31.263942+00:00",
       "last_seen": "2026-08-31T12:34:31.263942+00:00",
       "source_count": 1,
@@ -136,7 +252,7 @@
       "type": "domain",
       "value": "timelevel12.com",
       "confidence": "high",
-      "reason": "Identified as a delivery URL for a malicious script",
+      "reason": "Listed as a delivery URL for a malicious script",
       "first_seen": "2026-08-31T12:34:31.263942+00:00",
       "last_seen": "2026-08-31T12:34:31.263942+00:00",
       "source_count": 1,
@@ -170,7 +286,7 @@
       "type": "domain",
       "value": "san-sid.com",
       "confidence": "high",
-      "reason": "URL hosting obfuscated PowerShell payload used as RAT dropper",
+      "reason": "Domain hosting obfuscated PowerShell payload used as RAT dropper",
       "first_seen": "2026-08-31T10:00:36+00:00",
       "last_seen": "2026-08-31T10:00:36+00:00",
       "source_count": 1,
@@ -197,27 +313,10 @@
       ]
     },
     {
-      "type": "domain",
-      "value": "infect.online",
-      "confidence": "high",
-      "reason": "[article sweep] Domain associated with a vendor in a cybercriminal marketplace",
-      "first_seen": "2026-08-31T09:45:15+00:00",
-      "last_seen": "2026-08-31T09:45:15+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Group-Ib",
-          "url": "https://www.group-ib.com/blog/brazetsu-ai-enhanced-iab-marketplace/",
-          "pub_date": "2026-08-31T09:45:15+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
       "type": "ipv4",
       "value": "31.58.209.241",
       "confidence": "high",
-      "reason": "[article sweep] IP address hosting stolen data and exploit scripts",
+      "reason": "IP address hosting stolen data and offensive tools",
       "first_seen": "2026-08-30T20:09:53+00:00",
       "last_seen": "2026-08-30T20:09:53+00:00",
       "source_count": 1,
@@ -228,7 +327,16 @@
           "pub_date": "2026-08-30T20:09:53+00:00"
         }
       ],
-      "tags": []
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2023-49105"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2024-28000"
+        }
+      ]
     },
     {
       "type": "domain",

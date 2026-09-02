@@ -1,8 +1,10 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason
-ipv4,185.254.222.105,high,2026-09-01T00:33:21+00:00,2026-09-01T00:33:21+00:00,1,,[article sweep] IP address used in a phishing email header
+ipv4,176.65.148.184,high,2026-09-01T22:29:26+00:00,2026-09-01T22:29:26+00:00,1,,[article sweep] Identified as the attacker's IP used in a honeypot exploitation attempt
+ipv4,206.238.196.96,high,2026-09-01T19:09:37+00:00,2026-09-01T19:09:37+00:00,1,,Explicitly identified as a hardcoded C2 IP for the PackClient RAT.
+ipv4,185.254.222.105,high,2026-09-01T00:33:21+00:00,2026-09-01T00:33:21+00:00,1,,"IP address used in email headers, likely attacker-controlled infrastructure."
 ipv4,103.45.66.18,high,2026-08-31T10:00:21+00:00,2026-08-31T12:14:00+00:00,2,,"IP address listed with multiple ports, likely used for malicious purposes"
 ipv4,192.253.225.173,high,2026-08-31T10:00:21+00:00,2026-08-31T12:14:00+00:00,2,,"IP address listed with multiple ports, likely used for malicious purposes"
-ipv4,31.58.209.241,high,2026-08-30T20:09:53+00:00,2026-08-30T20:09:53+00:00,1,,[article sweep] IP address hosting stolen data and exploit scripts
+ipv4,31.58.209.241,high,2026-08-30T20:09:53+00:00,2026-08-30T20:09:53+00:00,1,,IP address hosting stolen data and offensive tools
 ipv4,192.162.199.149,high,2026-08-28T03:24:16+00:00,2026-08-28T03:24:16+00:00,1,,[article sweep] IP address associated with malware file hosting
 ipv4,1.32.216.171,high,2026-08-26T20:18:54.083342+00:00,2026-08-27T17:12:48.782680+00:00,1,,Mapped to Fast Labyrinth admin plane
 ipv4,154.64.238.222,high,2026-08-26T20:18:54.083342+00:00,2026-08-27T17:12:48.782680+00:00,1,,Mapped to QScan broker
