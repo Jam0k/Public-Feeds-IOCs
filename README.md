@@ -159,11 +159,17 @@ Events are tagged `tlp:clear`, `source:ThreatCluster`, and by threat level.
 
 ## STIX 2.1
 
-Per-cluster STIX bundles for SIEM/TIP ingestion:
+Per-cluster STIX bundles (report, indicators, inferred relationships,
+TLP-marked) for SIEM/TIP ingestion. They need a key; a free one is minted on
+every account and covers 100 credits a day, and a bundle costs 3.
 
+```bash
+curl -H "X-API-Key: $TC_KEY" \
+  "https://threatcluster.io/api/public/v1/threats/{cluster_id}/stix"
 ```
-GET /api/threats/{cluster_id}/stix
-```
+
+Every cluster page on the site has an **API** button that shows this request
+for the record you are looking at. Quick start: https://threatcluster.io/api
 
 ---
 
@@ -202,13 +208,15 @@ the indicator and we'll review and remove it.
 
 ## Usage notes
 
-- **No authentication.** No API key, no rate limit for reasonable use.
+- **No authentication.** No API key on any feed on this page. Rate limit is
+  60 requests a minute per IP, which is far more than a feed needs.
 - **Caching.** Feeds are cached server-side; polling more often than hourly
   gains you nothing.
 - **Scope.** The default feeds cover high-confidence indicators from the last
-  30 days. [Full history](#full-history) goes back to November 2025. Every
-  entity type, richer filtering and authenticated volume are available via the
-  [API](https://threatcluster.io/api/public/v1/docs).
+  30 days. [Full history](#full-history) goes back to November 2025. Per-cluster
+  IOCs, entity and CVE records, search and the dark-web records are in the
+  [API](https://threatcluster.io/api): a free key on every account, 100 credits
+  a day, no card.
 - **What gets excluded.** Indicators are dropped at export if they resolve to
   government, academic or e-government domains, freemail providers, known
   abused third-party services (paste sites, tunnelling, mining pools), bare
@@ -219,8 +227,10 @@ the indicator and we'll review and remove it.
 
 - [Feed directory](https://threatcluster.io/feeds)
 - [IOC browser](https://threatcluster.io/iocs)
-- [API documentation](https://threatcluster.io/api/public/v1/docs)
+- [API quick start](https://threatcluster.io/api) · [reference](https://threatcluster.io/api/public/v1/docs) · [client + examples](https://github.com/Jam0k/Cyber-Threat-Intelligence-API)
+- [Integration guides](https://threatcluster.io/integrations) (Splunk, Sentinel, Elastic, Claude, OpenAI, Cursor, the terminal)
 - [Format matrix](https://threatcluster.io/formats)
+- Ransomware leak-site data: [Ransomware-Intel](https://github.com/Jam0k/Ransomware-Intel)
 
 ---
 
