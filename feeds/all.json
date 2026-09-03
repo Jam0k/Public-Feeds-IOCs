@@ -1,7 +1,7 @@
 {
   "feed": "threatcluster-public-iocs",
   "version": 1,
-  "generated_at": "2026-09-02T06:43:40Z",
+  "generated_at": "2026-09-03T06:39:55Z",
   "filters": {
     "confidence": "high",
     "window_days": 30,
@@ -11,24 +11,464 @@
       "domain"
     ]
   },
-  "count": 109,
+  "count": 131,
   "iocs": [
+    {
+      "type": "domain",
+      "value": "idoej.com",
+      "confidence": "high",
+      "reason": "Domain with typosquatting characteristics likely registered by attacker",
+      "first_seen": "2026-09-02T19:03:22+00:00",
+      "last_seen": "2026-09-02T19:03:22+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Itsecurityguru",
+          "url": "https://www.itsecurityguru.org/2026/09/02/new-knight-office-phishing-kit-steals-microsoft-365-logins-without-touching-a-password/",
+          "pub_date": "2026-09-02T19:03:22+00:00"
+        }
+      ],
+      "tags": []
+    },
     {
       "type": "ipv4",
       "value": "176.65.148.184",
       "confidence": "high",
       "reason": "[article sweep] Identified as the attacker's IP used in a honeypot exploitation attempt",
       "first_seen": "2026-09-01T22:29:26+00:00",
-      "last_seen": "2026-09-01T22:29:26+00:00",
-      "source_count": 1,
+      "last_seen": "2026-09-02T13:19:54+00:00",
+      "source_count": 3,
       "sources": [
+        {
+          "source": "Helpnetsecurity",
+          "url": "https://www.helpnetsecurity.com/2026/09/02/exploitation-of-sangoma-switchvox-flaw-underway-cve-2026-9586/",
+          "pub_date": "2026-09-02T13:19:54+00:00"
+        },
+        {
+          "source": "Thehackernews",
+          "url": "https://thehackernews.com/2026/09/attackers-exploit-critical-switchvox.html",
+          "pub_date": "2026-09-02T07:08:50+00:00"
+        },
         {
           "source": "Horizon3.Ai",
           "url": "https://horizon3.ai/attack-research/disclosures/cve-2026-9586-sangoma-switchvox-rce/",
           "pub_date": "2026-09-01T22:29:26+00:00"
         }
       ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2026-9586"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "advancedplacyncement.vu",
+      "confidence": "high",
+      "reason": "Domain with typosquatting characteristics likely registered by attacker",
+      "first_seen": "2026-09-02T12:53:51+00:00",
+      "last_seen": "2026-09-02T12:53:51+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Huntress",
+          "url": "https://www.huntress.com/blog/inside-knight-office-m365-aitm-attack",
+          "pub_date": "2026-09-02T12:53:51+00:00"
+        }
+      ],
       "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "arandasoftzfdware.vu",
+      "confidence": "high",
+      "reason": "Domain with typosquatting characteristics likely registered by attacker",
+      "first_seen": "2026-09-02T12:53:51+00:00",
+      "last_seen": "2026-09-02T12:53:51+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Huntress",
+          "url": "https://www.huntress.com/blog/inside-knight-office-m365-aitm-attack",
+          "pub_date": "2026-09-02T12:53:51+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "avisoretentiunionllc.vu",
+      "confidence": "high",
+      "reason": "Domain with typosquatting characteristics likely registered by attacker",
+      "first_seen": "2026-09-02T12:53:51+00:00",
+      "last_seen": "2026-09-02T12:53:51+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Huntress",
+          "url": "https://www.huntress.com/blog/inside-knight-office-m365-aitm-attack",
+          "pub_date": "2026-09-02T12:53:51+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "capitalflwxinancialpartners.vu",
+      "confidence": "high",
+      "reason": "Domain with typosquatting characteristics likely registered by attacker",
+      "first_seen": "2026-09-02T12:53:51+00:00",
+      "last_seen": "2026-09-02T12:53:51+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Huntress",
+          "url": "https://www.huntress.com/blog/inside-knight-office-m365-aitm-attack",
+          "pub_date": "2026-09-02T12:53:51+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "certififiycationedge.vu",
+      "confidence": "high",
+      "reason": "Domain with typosquatting characteristics likely registered by attacker",
+      "first_seen": "2026-09-02T12:53:51+00:00",
+      "last_seen": "2026-09-02T12:53:51+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Huntress",
+          "url": "https://www.huntress.com/blog/inside-knight-office-m365-aitm-attack",
+          "pub_date": "2026-09-02T12:53:51+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "connectivnqzityltd.vu",
+      "confidence": "high",
+      "reason": "Domain with typosquatting characteristics likely registered by attacker",
+      "first_seen": "2026-09-02T12:53:51+00:00",
+      "last_seen": "2026-09-02T12:53:51+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Huntress",
+          "url": "https://www.huntress.com/blog/inside-knight-office-m365-aitm-attack",
+          "pub_date": "2026-09-02T12:53:51+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "digitaltrafwwrficsystems.vu",
+      "confidence": "high",
+      "reason": "Domain with typosquatting characteristics likely registered by attacker",
+      "first_seen": "2026-09-02T12:53:51+00:00",
+      "last_seen": "2026-09-02T12:53:51+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Huntress",
+          "url": "https://www.huntress.com/blog/inside-knight-office-m365-aitm-attack",
+          "pub_date": "2026-09-02T12:53:51+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "exceltecbusinessbwpsolutions.vu",
+      "confidence": "high",
+      "reason": "Domain with typosquatting characteristics likely registered by attacker",
+      "first_seen": "2026-09-02T12:53:51+00:00",
+      "last_seen": "2026-09-02T12:53:51+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Huntress",
+          "url": "https://www.huntress.com/blog/inside-knight-office-m365-aitm-attack",
+          "pub_date": "2026-09-02T12:53:51+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "genamewwgdiamarketing.vu",
+      "confidence": "high",
+      "reason": "Domain with typosquatting characteristics likely registered by attacker",
+      "first_seen": "2026-09-02T12:53:51+00:00",
+      "last_seen": "2026-09-02T12:53:51+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Huntress",
+          "url": "https://www.huntress.com/blog/inside-knight-office-m365-aitm-attack",
+          "pub_date": "2026-09-02T12:53:51+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "globaieflsoftinc.vu",
+      "confidence": "high",
+      "reason": "Domain with typosquatting characteristics likely registered by attacker",
+      "first_seen": "2026-09-02T12:53:51+00:00",
+      "last_seen": "2026-09-02T12:53:51+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Huntress",
+          "url": "https://www.huntress.com/blog/inside-knight-office-m365-aitm-attack",
+          "pub_date": "2026-09-02T12:53:51+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "globalmixeucbdmodetechnologyinc.vu",
+      "confidence": "high",
+      "reason": "Domain with typosquatting characteristics likely registered by attacker",
+      "first_seen": "2026-09-02T12:53:51+00:00",
+      "last_seen": "2026-09-02T12:53:51+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Huntress",
+          "url": "https://www.huntress.com/blog/inside-knight-office-m365-aitm-attack",
+          "pub_date": "2026-09-02T12:53:51+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "globalprojectspvtltd.vu",
+      "confidence": "high",
+      "reason": "Domain with typosquatting characteristics likely registered by attacker",
+      "first_seen": "2026-09-02T12:53:51+00:00",
+      "last_seen": "2026-09-02T12:53:51+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Huntress",
+          "url": "https://www.huntress.com/blog/inside-knight-office-m365-aitm-attack",
+          "pub_date": "2026-09-02T12:53:51+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "joinbusinessmanagementconsdjeulting.vu",
+      "confidence": "high",
+      "reason": "Domain with typosquatting characteristics likely registered by attacker",
+      "first_seen": "2026-09-02T12:53:51+00:00",
+      "last_seen": "2026-09-02T12:53:51+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Huntress",
+          "url": "https://www.huntress.com/blog/inside-knight-office-m365-aitm-attack",
+          "pub_date": "2026-09-02T12:53:51+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "kentmanqhfufacturingcompany.vu",
+      "confidence": "high",
+      "reason": "Domain with typosquatting characteristics likely registered by attacker",
+      "first_seen": "2026-09-02T12:53:51+00:00",
+      "last_seen": "2026-09-02T12:53:51+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Huntress",
+          "url": "https://www.huntress.com/blog/inside-knight-office-m365-aitm-attack",
+          "pub_date": "2026-09-02T12:53:51+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "kleepxrnlinecorporation.vu",
+      "confidence": "high",
+      "reason": "Domain with typosquatting characteristics likely registered by attacker",
+      "first_seen": "2026-09-02T12:53:51+00:00",
+      "last_seen": "2026-09-02T12:53:51+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Huntress",
+          "url": "https://www.huntress.com/blog/inside-knight-office-m365-aitm-attack",
+          "pub_date": "2026-09-02T12:53:51+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "knsinternacshtional.vu",
+      "confidence": "high",
+      "reason": "Domain with typosquatting characteristics likely registered by attacker",
+      "first_seen": "2026-09-02T12:53:51+00:00",
+      "last_seen": "2026-09-02T12:53:51+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Huntress",
+          "url": "https://www.huntress.com/blog/inside-knight-office-m365-aitm-attack",
+          "pub_date": "2026-09-02T12:53:51+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "monttmmlrustcompany.vu",
+      "confidence": "high",
+      "reason": "Domain with typosquatting characteristics likely registered by attacker",
+      "first_seen": "2026-09-02T12:53:51+00:00",
+      "last_seen": "2026-09-02T12:53:51+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Huntress",
+          "url": "https://www.huntress.com/blog/inside-knight-office-m365-aitm-attack",
+          "pub_date": "2026-09-02T12:53:51+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "mtprormtductions.vu",
+      "confidence": "high",
+      "reason": "Domain with typosquatting characteristics likely registered by attacker",
+      "first_seen": "2026-09-02T12:53:51+00:00",
+      "last_seen": "2026-09-02T12:53:51+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Huntress",
+          "url": "https://www.huntress.com/blog/inside-knight-office-m365-aitm-attack",
+          "pub_date": "2026-09-02T12:53:51+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "realestatecotblrp.vu",
+      "confidence": "high",
+      "reason": "Domain with typosquatting characteristics likely registered by attacker",
+      "first_seen": "2026-09-02T12:53:51+00:00",
+      "last_seen": "2026-09-02T12:53:51+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Huntress",
+          "url": "https://www.huntress.com/blog/inside-knight-office-m365-aitm-attack",
+          "pub_date": "2026-09-02T12:53:51+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "summitcapitaltrapojininggroup.vu",
+      "confidence": "high",
+      "reason": "Domain with typosquatting characteristics likely registered by attacker",
+      "first_seen": "2026-09-02T12:53:51+00:00",
+      "last_seen": "2026-09-02T12:53:51+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Huntress",
+          "url": "https://www.huntress.com/blog/inside-knight-office-m365-aitm-attack",
+          "pub_date": "2026-09-02T12:53:51+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "techcompositnkoes.vu",
+      "confidence": "high",
+      "reason": "Domain with typosquatting characteristics likely registered by attacker",
+      "first_seen": "2026-09-02T12:53:51+00:00",
+      "last_seen": "2026-09-02T12:53:51+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Huntress",
+          "url": "https://www.huntress.com/blog/inside-knight-office-m365-aitm-attack",
+          "pub_date": "2026-09-02T12:53:51+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "techromixsolutionlonsinc.vu",
+      "confidence": "high",
+      "reason": "Domain with typosquatting characteristics likely registered by attacker",
+      "first_seen": "2026-09-02T12:53:51+00:00",
+      "last_seen": "2026-09-02T12:53:51+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Huntress",
+          "url": "https://www.huntress.com/blog/inside-knight-office-m365-aitm-attack",
+          "pub_date": "2026-09-02T12:53:51+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "pc-razerzone.com.cn",
+      "confidence": "high",
+      "reason": "Identified as a spoofed domain used in phishing campaign",
+      "first_seen": "2026-09-01T22:48:28+00:00",
+      "last_seen": "2026-09-01T22:48:28+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Blogs.Microsoft",
+          "url": "https://www.microsoft.com/en-us/security/blog/2026/09/01/counterfeit-installers-system-compromise-tracking-deceptive-software-download-campaign/",
+          "pub_date": "2026-09-01T22:48:28+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Silver Fox"
+        },
+        {
+          "type": "industry",
+          "value": "Education"
+        },
+        {
+          "type": "industry",
+          "value": "Gaming"
+        },
+        {
+          "type": "industry",
+          "value": "Government"
+        }
+      ]
     },
     {
       "type": "ipv4",
@@ -73,7 +513,7 @@
       "type": "domain",
       "value": "us05.org",
       "confidence": "high",
-      "reason": "[article sweep] Used as delivery infrastructure for a trojanized build",
+      "reason": "Used for delivery infrastructure and redirects in the attack",
       "first_seen": "2026-09-01T12:13:57+00:00",
       "last_seen": "2026-09-01T12:13:57+00:00",
       "source_count": 1,
@@ -2296,40 +2736,6 @@
           "source": "Sophos",
           "url": "https://www.sophos.com/en-us/blog/2608-volatility-interlock",
           "pub_date": "2026-08-04T12:04:14+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "microsoft-login.secure-verify.net",
-      "confidence": "high",
-      "reason": "[article sweep] Described as a phishing domain impersonating Microsoft",
-      "first_seen": "2026-08-03T13:40:21+00:00",
-      "last_seen": "2026-08-03T13:40:21+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Dexpose",
-          "url": "https://www.dexpose.io/phishing-link/",
-          "pub_date": "2026-08-03T13:40:21+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "totally-legit-invoices.com",
-      "confidence": "high",
-      "reason": "[article sweep] Used for sending authenticated but malicious emails",
-      "first_seen": "2026-08-03T09:29:46+00:00",
-      "last_seen": "2026-08-03T09:29:46+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "News.Ycombinator",
-          "url": "https://senderledger.com/articles/what-dmarc-actually-protects-you-from",
-          "pub_date": "2026-08-03T09:29:46+00:00"
         }
       ],
       "tags": []
