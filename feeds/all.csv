@@ -1,4 +1,16 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason
+domain,coder-infra.com,high,2026-09-03T20:42:31+00:00,2026-09-04T00:48:18.053876+00:00,2,github.com:2026-09-04|Bleepingcomputer:2026-09-03,Identified as an untrusted domain for outbound traffic in the context of potential data loss.
+domain,veruisuealx.xyz,high,2026-09-03T11:31:52.443490+00:00,2026-09-03T11:31:52.443490+00:00,1,www.guidepointsecurity.com:2026-09-03,[article sweep] Used in a ClickFix invocation for malicious activity
+domain,datalayerservice.com,high,2026-09-03T10:18:27+00:00,2026-09-03T11:31:50.519345+00:00,2,www.security.com:2026-09-03|Security:2026-09-03,Listed under C&C infrastructure in the article
+domain,docs.datalayerservice.com,high,2026-09-03T10:18:27+00:00,2026-09-03T11:31:50.519345+00:00,2,www.security.com:2026-09-03|Security:2026-09-03,Listed under C&C infrastructure in the article
+domain,resources.datalayerservice.com,high,2026-09-03T10:18:27+00:00,2026-09-03T11:31:50.519345+00:00,2,www.security.com:2026-09-03|Security:2026-09-03,Listed under C&C infrastructure in the article
+ipv4,144.31.53.78,high,2026-09-03T10:18:27+00:00,2026-09-03T11:31:50.519345+00:00,2,www.security.com:2026-09-03|Security:2026-09-03,Listed as a network indicator in the article
+ipv4,178.16.54.253,high,2026-09-03T10:18:27+00:00,2026-09-03T11:31:50.519345+00:00,2,www.security.com:2026-09-03|Security:2026-09-03,Listed as a network indicator in the article
+ipv4,193.58.122.42,high,2026-09-03T10:18:27+00:00,2026-09-03T11:31:50.519345+00:00,2,www.security.com:2026-09-03|Security:2026-09-03,Listed as a network indicator in the article
+ipv4,198.13.159.44,high,2026-09-03T10:18:27+00:00,2026-09-03T11:31:50.519345+00:00,2,www.security.com:2026-09-03|Security:2026-09-03,Listed as a network indicator in the article
+ipv4,199.91.221.42,high,2026-09-03T10:18:27+00:00,2026-09-03T11:31:50.519345+00:00,2,www.security.com:2026-09-03|Security:2026-09-03,Listed as a network indicator in the article
+ipv4,45.158.196.23,high,2026-09-03T10:18:27+00:00,2026-09-03T11:31:50.519345+00:00,2,www.security.com:2026-09-03|Security:2026-09-03,Listed as a network indicator in the article
+ipv4,185.254.222.105,high,2026-09-01T00:33:21+00:00,2026-09-03T02:00:03+00:00,1,Isc.Sans.Edu:2026-09-03,IP address used as a source for malicious email activity
 domain,idoej.com,high,2026-09-02T19:03:22+00:00,2026-09-02T19:03:22+00:00,1,Itsecurityguru:2026-09-02,Domain with typosquatting characteristics likely registered by attacker
 ipv4,176.65.148.184,high,2026-09-01T22:29:26+00:00,2026-09-02T13:19:54+00:00,3,Helpnetsecurity:2026-09-02|Thehackernews:2026-09-02|Horizon3.Ai:2026-09-01,[article sweep] Identified as the attacker's IP used in a honeypot exploitation attempt
 domain,advancedplacyncement.vu,high,2026-09-02T12:53:51+00:00,2026-09-02T12:53:51+00:00,1,Huntress:2026-09-02,Domain with typosquatting characteristics likely registered by attacker
@@ -25,11 +37,9 @@ domain,techcompositnkoes.vu,high,2026-09-02T12:53:51+00:00,2026-09-02T12:53:51+0
 domain,techromixsolutionlonsinc.vu,high,2026-09-02T12:53:51+00:00,2026-09-02T12:53:51+00:00,1,Huntress:2026-09-02,Domain with typosquatting characteristics likely registered by attacker
 domain,pc-razerzone.com.cn,high,2026-09-01T22:48:28+00:00,2026-09-01T22:48:28+00:00,1,Blogs.Microsoft:2026-09-01,Identified as a spoofed domain used in phishing campaign
 ipv4,206.238.196.96,high,2026-09-01T19:09:37+00:00,2026-09-01T19:09:37+00:00,1,Socprime:2026-09-01,Explicitly identified as a hardcoded C2 IP for the PackClient RAT.
-domain,veruisuealx.xyz,high,2026-09-01T14:47:28.739044+00:00,2026-09-01T14:47:28.739044+00:00,1,www.guidepointsecurity.com:2026-09-01,[article sweep] Used in a ClickFix invocation for malicious activity
 domain,us05.org,high,2026-09-01T12:13:57+00:00,2026-09-01T12:13:57+00:00,1,Huntress:2026-09-01,Used for delivery infrastructure and redirects in the attack
 domain,co1nbase.com,high,2026-09-01T11:55:33+00:00,2026-09-01T11:55:33+00:00,1,Privateinternetaccess:2026-09-01,[article sweep] Identified as a typosquatted domain impersonating Coinbase
 domain,coinbase-security.com,high,2026-09-01T11:55:33+00:00,2026-09-01T11:55:33+00:00,1,Privateinternetaccess:2026-09-01,[article sweep] Identified as a domain impersonating Coinbase
-ipv4,185.254.222.105,high,2026-09-01T00:33:21+00:00,2026-09-01T00:33:21+00:00,1,Isc.Sans.Edu:2026-09-01,"IP address used in email headers, likely attacker-controlled infrastructure."
 domain,dosportal.app,high,2026-08-31T18:26:30+00:00,2026-08-31T18:26:30+00:00,1,Socprime:2026-08-31,[article sweep] Domain used in an OAuth phishing campaign
 domain,js-mirror.com,high,2026-08-31T13:05:38.820639+00:00,2026-08-31T13:05:38.820639+00:00,1,www.chainguard.dev:2026-08-31,[article sweep] Domain used for suspicious outbound traffic
 domain,npm-cache.com,high,2026-08-31T13:05:38.820639+00:00,2026-08-31T13:05:38.820639+00:00,1,www.chainguard.dev:2026-08-31,[article sweep] Domain used in a supply chain attack
@@ -127,6 +137,3 @@ ipv4,80.94.92.184,high,2026-08-06T00:15:40+00:00,2026-08-06T00:15:40+00:00,1,Isc
 ipv4,80.94.92.186,high,2026-08-06T00:15:40+00:00,2026-08-06T00:15:40+00:00,1,Isc.Sans.Edu:2026-08-06,[article sweep] Part of a coordinated scanning infrastructure used in the mdrfckr SSH campaign.
 domain,coldcardteamnews.com,high,2026-08-05T17:49:41+00:00,2026-08-05T17:49:41+00:00,1,Bleepingcomputer:2026-08-05,[article sweep] Used in a phishing campaign impersonating COLDCARD
 domain,deltaode.com,high,2026-08-05T12:14:01+00:00,2026-08-05T12:14:01+00:00,1,Socprime:2026-08-05,[article sweep] Identified as part of a C2 infrastructure for a campaign
-ipv4,213.173.45.230,high,2026-08-04T13:04:39.953091+00:00,2026-08-04T13:04:39.953091+00:00,1,fieldeffect.com:2026-08-04,[article sweep] Described as hosting a malicious SimpleHelp server
-ipv4,213.145.86.112,high,2026-08-04T12:16:39+00:00,2026-08-04T12:16:39+00:00,1,Socprime:2026-08-04,[article sweep] Hardcoded C2 IP for ChocoShell infostealer
-ipv4,64.95.11.22,high,2026-08-04T12:04:14+00:00,2026-08-04T12:04:14+00:00,1,Sophos:2026-08-04,[article sweep] Associated with a malicious web host used in an attack

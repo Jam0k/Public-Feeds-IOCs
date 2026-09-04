@@ -1,7 +1,13 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason
+ipv4,144.31.53.78,high,2026-09-03T10:18:27+00:00,2026-09-03T11:31:50.519345+00:00,2,www.security.com:2026-09-03|Security:2026-09-03,Listed as a network indicator in the article
+ipv4,178.16.54.253,high,2026-09-03T10:18:27+00:00,2026-09-03T11:31:50.519345+00:00,2,www.security.com:2026-09-03|Security:2026-09-03,Listed as a network indicator in the article
+ipv4,193.58.122.42,high,2026-09-03T10:18:27+00:00,2026-09-03T11:31:50.519345+00:00,2,www.security.com:2026-09-03|Security:2026-09-03,Listed as a network indicator in the article
+ipv4,198.13.159.44,high,2026-09-03T10:18:27+00:00,2026-09-03T11:31:50.519345+00:00,2,www.security.com:2026-09-03|Security:2026-09-03,Listed as a network indicator in the article
+ipv4,199.91.221.42,high,2026-09-03T10:18:27+00:00,2026-09-03T11:31:50.519345+00:00,2,www.security.com:2026-09-03|Security:2026-09-03,Listed as a network indicator in the article
+ipv4,45.158.196.23,high,2026-09-03T10:18:27+00:00,2026-09-03T11:31:50.519345+00:00,2,www.security.com:2026-09-03|Security:2026-09-03,Listed as a network indicator in the article
+ipv4,185.254.222.105,high,2026-09-01T00:33:21+00:00,2026-09-03T02:00:03+00:00,1,Isc.Sans.Edu:2026-09-03,IP address used as a source for malicious email activity
 ipv4,176.65.148.184,high,2026-09-01T22:29:26+00:00,2026-09-02T13:19:54+00:00,3,Helpnetsecurity:2026-09-02|Thehackernews:2026-09-02|Horizon3.Ai:2026-09-01,[article sweep] Identified as the attacker's IP used in a honeypot exploitation attempt
 ipv4,206.238.196.96,high,2026-09-01T19:09:37+00:00,2026-09-01T19:09:37+00:00,1,Socprime:2026-09-01,Explicitly identified as a hardcoded C2 IP for the PackClient RAT.
-ipv4,185.254.222.105,high,2026-09-01T00:33:21+00:00,2026-09-01T00:33:21+00:00,1,Isc.Sans.Edu:2026-09-01,"IP address used in email headers, likely attacker-controlled infrastructure."
 ipv4,31.58.209.241,high,2026-08-30T20:09:53+00:00,2026-08-30T20:09:53+00:00,1,Pasqualepillitteri.It:2026-08-30,IP address hosting stolen data and offensive tools
 ipv4,192.162.199.149,high,2026-08-28T03:24:16+00:00,2026-08-28T03:24:16+00:00,1,Cyfirma:2026-08-28,[article sweep] IP address associated with malware file hosting
 ipv4,1.32.216.171,high,2026-08-27T17:12:48.782680+00:00,2026-08-27T17:12:48.782680+00:00,1,www.lumen.com:2026-08-27,Mapped to Fast Labyrinth admin plane
@@ -39,6 +45,3 @@ ipv4,163.7.8.79,high,2026-08-06T00:15:40+00:00,2026-08-06T00:15:40+00:00,1,Isc.S
 ipv4,80.94.92.171,high,2026-08-06T00:15:40+00:00,2026-08-06T00:15:40+00:00,1,Isc.Sans.Edu:2026-08-06,[article sweep] Part of a coordinated scanning infrastructure used in the mdrfckr SSH campaign.
 ipv4,80.94.92.184,high,2026-08-06T00:15:40+00:00,2026-08-06T00:15:40+00:00,1,Isc.Sans.Edu:2026-08-06,[article sweep] Part of a coordinated scanning infrastructure used in the mdrfckr SSH campaign.
 ipv4,80.94.92.186,high,2026-08-06T00:15:40+00:00,2026-08-06T00:15:40+00:00,1,Isc.Sans.Edu:2026-08-06,[article sweep] Part of a coordinated scanning infrastructure used in the mdrfckr SSH campaign.
-ipv4,213.173.45.230,high,2026-08-04T13:04:39.953091+00:00,2026-08-04T13:04:39.953091+00:00,1,fieldeffect.com:2026-08-04,[article sweep] Described as hosting a malicious SimpleHelp server
-ipv4,213.145.86.112,high,2026-08-04T12:16:39+00:00,2026-08-04T12:16:39+00:00,1,Socprime:2026-08-04,[article sweep] Hardcoded C2 IP for ChocoShell infostealer
-ipv4,64.95.11.22,high,2026-08-04T12:04:14+00:00,2026-08-04T12:04:14+00:00,1,Sophos:2026-08-04,[article sweep] Associated with a malicious web host used in an attack

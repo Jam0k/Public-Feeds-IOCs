@@ -1,7 +1,7 @@
 {
   "feed": "threatcluster-public-iocs",
   "version": 1,
-  "generated_at": "2026-09-03T09:32:46Z",
+  "generated_at": "2026-09-04T06:38:19Z",
   "filters": {
     "confidence": "high",
     "window_days": 30,
@@ -11,8 +11,424 @@
       "domain"
     ]
   },
-  "count": 131,
+  "count": 138,
   "iocs": [
+    {
+      "type": "domain",
+      "value": "coder-infra.com",
+      "confidence": "high",
+      "reason": "Identified as an untrusted domain for outbound traffic in the context of potential data loss.",
+      "first_seen": "2026-09-03T20:42:31+00:00",
+      "last_seen": "2026-09-04T00:48:18.053876+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "github.com",
+          "url": "https://github.com/coder/coder/security/advisories/GHSA-vx42-ghc9-gw65",
+          "pub_date": "2026-09-04T00:48:18.053876+00:00"
+        },
+        {
+          "source": "Bleepingcomputer",
+          "url": "https://www.bleepingcomputer.com/news/security/coders-registry-infrastructure-compromised-to-push-malicious-modules/",
+          "pub_date": "2026-09-03T20:42:31+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "veruisuealx.xyz",
+      "confidence": "high",
+      "reason": "[article sweep] Used in a ClickFix invocation for malicious activity",
+      "first_seen": "2026-09-03T11:31:52.443490+00:00",
+      "last_seen": "2026-09-03T11:31:52.443490+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.guidepointsecurity.com",
+          "url": "https://www.guidepointsecurity.com/blog/etherhiding_exposed_what_security_leaders_need_to_know/",
+          "pub_date": "2026-09-03T11:31:52.44349+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "datalayerservice.com",
+      "confidence": "high",
+      "reason": "Listed under C&C infrastructure in the article",
+      "first_seen": "2026-09-03T10:18:27+00:00",
+      "last_seen": "2026-09-03T11:31:50.519345+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "www.security.com",
+          "url": "https://www.security.com/threat-intelligence/node-js-returns-ransomware",
+          "pub_date": "2026-09-03T11:31:50.519345+00:00"
+        },
+        {
+          "source": "Security",
+          "url": "https://www.security.com/blog-post/node-js-returns-ransomware",
+          "pub_date": "2026-09-03T10:18:27+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "industry",
+          "value": "Government"
+        },
+        {
+          "type": "industry",
+          "value": "Technology"
+        },
+        {
+          "type": "malware",
+          "value": "AdaptixC2"
+        },
+        {
+          "type": "malware",
+          "value": "Backdoor.Mistic"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "docs.datalayerservice.com",
+      "confidence": "high",
+      "reason": "Listed under C&C infrastructure in the article",
+      "first_seen": "2026-09-03T10:18:27+00:00",
+      "last_seen": "2026-09-03T11:31:50.519345+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "www.security.com",
+          "url": "https://www.security.com/threat-intelligence/node-js-returns-ransomware",
+          "pub_date": "2026-09-03T11:31:50.519345+00:00"
+        },
+        {
+          "source": "Security",
+          "url": "https://www.security.com/blog-post/node-js-returns-ransomware",
+          "pub_date": "2026-09-03T10:18:27+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "industry",
+          "value": "Government"
+        },
+        {
+          "type": "industry",
+          "value": "Technology"
+        },
+        {
+          "type": "malware",
+          "value": "AdaptixC2"
+        },
+        {
+          "type": "malware",
+          "value": "Backdoor.Mistic"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "resources.datalayerservice.com",
+      "confidence": "high",
+      "reason": "Listed under C&C infrastructure in the article",
+      "first_seen": "2026-09-03T10:18:27+00:00",
+      "last_seen": "2026-09-03T11:31:50.519345+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "www.security.com",
+          "url": "https://www.security.com/threat-intelligence/node-js-returns-ransomware",
+          "pub_date": "2026-09-03T11:31:50.519345+00:00"
+        },
+        {
+          "source": "Security",
+          "url": "https://www.security.com/blog-post/node-js-returns-ransomware",
+          "pub_date": "2026-09-03T10:18:27+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "industry",
+          "value": "Government"
+        },
+        {
+          "type": "industry",
+          "value": "Technology"
+        },
+        {
+          "type": "malware",
+          "value": "AdaptixC2"
+        },
+        {
+          "type": "malware",
+          "value": "Backdoor.Mistic"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "144.31.53.78",
+      "confidence": "high",
+      "reason": "Listed as a network indicator in the article",
+      "first_seen": "2026-09-03T10:18:27+00:00",
+      "last_seen": "2026-09-03T11:31:50.519345+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "www.security.com",
+          "url": "https://www.security.com/threat-intelligence/node-js-returns-ransomware",
+          "pub_date": "2026-09-03T11:31:50.519345+00:00"
+        },
+        {
+          "source": "Security",
+          "url": "https://www.security.com/blog-post/node-js-returns-ransomware",
+          "pub_date": "2026-09-03T10:18:27+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "industry",
+          "value": "Government"
+        },
+        {
+          "type": "industry",
+          "value": "Technology"
+        },
+        {
+          "type": "malware",
+          "value": "AdaptixC2"
+        },
+        {
+          "type": "malware",
+          "value": "Backdoor.Mistic"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "178.16.54.253",
+      "confidence": "high",
+      "reason": "Listed as a network indicator in the article",
+      "first_seen": "2026-09-03T10:18:27+00:00",
+      "last_seen": "2026-09-03T11:31:50.519345+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "www.security.com",
+          "url": "https://www.security.com/threat-intelligence/node-js-returns-ransomware",
+          "pub_date": "2026-09-03T11:31:50.519345+00:00"
+        },
+        {
+          "source": "Security",
+          "url": "https://www.security.com/blog-post/node-js-returns-ransomware",
+          "pub_date": "2026-09-03T10:18:27+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "industry",
+          "value": "Government"
+        },
+        {
+          "type": "industry",
+          "value": "Technology"
+        },
+        {
+          "type": "malware",
+          "value": "AdaptixC2"
+        },
+        {
+          "type": "malware",
+          "value": "Backdoor.Mistic"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "193.58.122.42",
+      "confidence": "high",
+      "reason": "Listed as a network indicator in the article",
+      "first_seen": "2026-09-03T10:18:27+00:00",
+      "last_seen": "2026-09-03T11:31:50.519345+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "www.security.com",
+          "url": "https://www.security.com/threat-intelligence/node-js-returns-ransomware",
+          "pub_date": "2026-09-03T11:31:50.519345+00:00"
+        },
+        {
+          "source": "Security",
+          "url": "https://www.security.com/blog-post/node-js-returns-ransomware",
+          "pub_date": "2026-09-03T10:18:27+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "industry",
+          "value": "Government"
+        },
+        {
+          "type": "industry",
+          "value": "Technology"
+        },
+        {
+          "type": "malware",
+          "value": "AdaptixC2"
+        },
+        {
+          "type": "malware",
+          "value": "Backdoor.Mistic"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "198.13.159.44",
+      "confidence": "high",
+      "reason": "Listed as a network indicator in the article",
+      "first_seen": "2026-09-03T10:18:27+00:00",
+      "last_seen": "2026-09-03T11:31:50.519345+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "www.security.com",
+          "url": "https://www.security.com/threat-intelligence/node-js-returns-ransomware",
+          "pub_date": "2026-09-03T11:31:50.519345+00:00"
+        },
+        {
+          "source": "Security",
+          "url": "https://www.security.com/blog-post/node-js-returns-ransomware",
+          "pub_date": "2026-09-03T10:18:27+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "industry",
+          "value": "Government"
+        },
+        {
+          "type": "industry",
+          "value": "Technology"
+        },
+        {
+          "type": "malware",
+          "value": "AdaptixC2"
+        },
+        {
+          "type": "malware",
+          "value": "Backdoor.Mistic"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "199.91.221.42",
+      "confidence": "high",
+      "reason": "Listed as a network indicator in the article",
+      "first_seen": "2026-09-03T10:18:27+00:00",
+      "last_seen": "2026-09-03T11:31:50.519345+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "www.security.com",
+          "url": "https://www.security.com/threat-intelligence/node-js-returns-ransomware",
+          "pub_date": "2026-09-03T11:31:50.519345+00:00"
+        },
+        {
+          "source": "Security",
+          "url": "https://www.security.com/blog-post/node-js-returns-ransomware",
+          "pub_date": "2026-09-03T10:18:27+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "industry",
+          "value": "Government"
+        },
+        {
+          "type": "industry",
+          "value": "Technology"
+        },
+        {
+          "type": "malware",
+          "value": "AdaptixC2"
+        },
+        {
+          "type": "malware",
+          "value": "Backdoor.Mistic"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "45.158.196.23",
+      "confidence": "high",
+      "reason": "Listed as a network indicator in the article",
+      "first_seen": "2026-09-03T10:18:27+00:00",
+      "last_seen": "2026-09-03T11:31:50.519345+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "www.security.com",
+          "url": "https://www.security.com/threat-intelligence/node-js-returns-ransomware",
+          "pub_date": "2026-09-03T11:31:50.519345+00:00"
+        },
+        {
+          "source": "Security",
+          "url": "https://www.security.com/blog-post/node-js-returns-ransomware",
+          "pub_date": "2026-09-03T10:18:27+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "industry",
+          "value": "Government"
+        },
+        {
+          "type": "industry",
+          "value": "Technology"
+        },
+        {
+          "type": "malware",
+          "value": "AdaptixC2"
+        },
+        {
+          "type": "malware",
+          "value": "Backdoor.Mistic"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "185.254.222.105",
+      "confidence": "high",
+      "reason": "IP address used as a source for malicious email activity",
+      "first_seen": "2026-09-01T00:33:21+00:00",
+      "last_seen": "2026-09-03T02:00:03+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Isc.Sans.Edu",
+          "url": "https://isc.sans.edu/diary/rss/33308",
+          "pub_date": "2026-09-03T02:00:03+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "Astaroth"
+        },
+        {
+          "type": "malware",
+          "value": "Guildma"
+        }
+      ]
+    },
     {
       "type": "domain",
       "value": "idoej.com",
@@ -494,23 +910,6 @@
     },
     {
       "type": "domain",
-      "value": "veruisuealx.xyz",
-      "confidence": "high",
-      "reason": "[article sweep] Used in a ClickFix invocation for malicious activity",
-      "first_seen": "2026-09-01T14:47:28.739044+00:00",
-      "last_seen": "2026-09-01T14:47:28.739044+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.guidepointsecurity.com",
-          "url": "https://www.guidepointsecurity.com/blog/etherhiding_exposed_what_security_leaders_need_to_know/",
-          "pub_date": "2026-09-01T14:47:28.739044+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
       "value": "us05.org",
       "confidence": "high",
       "reason": "Used for delivery infrastructure and redirects in the attack",
@@ -559,32 +958,6 @@
         }
       ],
       "tags": []
-    },
-    {
-      "type": "ipv4",
-      "value": "185.254.222.105",
-      "confidence": "high",
-      "reason": "IP address used in email headers, likely attacker-controlled infrastructure.",
-      "first_seen": "2026-09-01T00:33:21+00:00",
-      "last_seen": "2026-09-01T00:33:21+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Isc.Sans.Edu",
-          "url": "https://isc.sans.edu/diary/rss/33300",
-          "pub_date": "2026-09-01T00:33:21+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "malware",
-          "value": "Astaroth"
-        },
-        {
-          "type": "malware",
-          "value": "Guildma"
-        }
-      ]
     },
     {
       "type": "domain",
@@ -2685,57 +3058,6 @@
           "source": "Socprime",
           "url": "https://socprime.com/active-threats/smartapesg-pushes-an-unknown-rat-through-clickfix-lures/",
           "pub_date": "2026-08-05T12:14:01+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "ipv4",
-      "value": "213.173.45.230",
-      "confidence": "high",
-      "reason": "[article sweep] Described as hosting a malicious SimpleHelp server",
-      "first_seen": "2026-08-04T13:04:39.953091+00:00",
-      "last_seen": "2026-08-04T13:04:39.953091+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "fieldeffect.com",
-          "url": "https://fieldeffect.com/blog/field-effect-mitigates-not-so-simplehelp-exploits-enabling-deployment-of-backdoors",
-          "pub_date": "2026-08-04T13:04:39.953091+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "ipv4",
-      "value": "213.145.86.112",
-      "confidence": "high",
-      "reason": "[article sweep] Hardcoded C2 IP for ChocoShell infostealer",
-      "first_seen": "2026-08-04T12:16:39+00:00",
-      "last_seen": "2026-08-04T12:16:39+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Socprime",
-          "url": "https://socprime.com/active-threats/captivecrunch-campaign-delivers-malware-and-steals-traveler-credentials/",
-          "pub_date": "2026-08-04T12:16:39+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "ipv4",
-      "value": "64.95.11.22",
-      "confidence": "high",
-      "reason": "[article sweep] Associated with a malicious web host used in an attack",
-      "first_seen": "2026-08-04T12:04:14+00:00",
-      "last_seen": "2026-08-04T12:04:14+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Sophos",
-          "url": "https://www.sophos.com/en-us/blog/2608-volatility-interlock",
-          "pub_date": "2026-08-04T12:04:14+00:00"
         }
       ],
       "tags": []
