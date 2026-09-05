@@ -1,7 +1,7 @@
 {
   "feed": "threatcluster-public-iocs",
   "version": 1,
-  "generated_at": "2026-09-04T06:38:19Z",
+  "generated_at": "2026-09-05T06:34:10Z",
   "filters": {
     "confidence": "high",
     "window_days": 30,
@@ -11,7 +11,7 @@
       "domain"
     ]
   },
-  "count": 138,
+  "count": 135,
   "iocs": [
     {
       "type": "domain",
@@ -19,9 +19,14 @@
       "confidence": "high",
       "reason": "Identified as an untrusted domain for outbound traffic in the context of potential data loss.",
       "first_seen": "2026-09-03T20:42:31+00:00",
-      "last_seen": "2026-09-04T00:48:18.053876+00:00",
-      "source_count": 2,
+      "last_seen": "2026-09-04T22:37:10+00:00",
+      "source_count": 3,
       "sources": [
+        {
+          "source": "Esecurityplanet",
+          "url": "https://www.esecurityplanet.com/cybersecurity/news-coder-registry-malicious-terraform-modules/",
+          "pub_date": "2026-09-04T22:37:10+00:00"
+        },
         {
           "source": "github.com",
           "url": "https://github.com/coder/coder/security/advisories/GHSA-vx42-ghc9-gw65",
@@ -31,6 +36,84 @@
           "source": "Bleepingcomputer",
           "url": "https://www.bleepingcomputer.com/news/security/coders-registry-infrastructure-compromised-to-push-malicious-modules/",
           "pub_date": "2026-09-03T20:42:31+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Shai-Hulud Npm Supply Chain Attack"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "img.monderhouse.space",
+      "confidence": "high",
+      "reason": "Described as a C2 host in the context",
+      "first_seen": "2026-09-04T14:51:13+00:00",
+      "last_seen": "2026-09-04T15:31:57.223581+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "www.rapid7.com",
+          "url": "https://www.rapid7.com/blog/post/tr-dprk-apts-ted-backdoor-curlrat-target-south-korean-media-automotive-sectors/",
+          "pub_date": "2026-09-04T15:31:57.223581+00:00"
+        },
+        {
+          "source": "Thehackernews",
+          "url": "https://thehackernews.com/2026/09/new-ted-backdoor-hides-inside-victims.html",
+          "pub_date": "2026-09-04T14:51:13+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Apt37"
+        },
+        {
+          "type": "apt_group",
+          "value": "Kimsuky"
+        },
+        {
+          "type": "malware",
+          "value": "CurlRAT"
+        },
+        {
+          "type": "apt_group",
+          "value": "Lazarus"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "niestools.com",
+      "confidence": "high",
+      "reason": "[article sweep] Used as a proxy server domain in a malicious campaign.",
+      "first_seen": "2026-09-04T11:00:15+00:00",
+      "last_seen": "2026-09-04T11:00:15+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Securityaffairs.Co",
+          "url": "https://securityaffairs.com/198417/ai/chinese-hackers-use-ai-agents-in-multi-country-cyber-campaign.html",
+          "pub_date": "2026-09-04T11:00:15+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "ipv4",
+      "value": "75.3.231.105",
+      "confidence": "high",
+      "reason": "[article sweep] Listed as the source IP for a threat actor's AWS Management Console login.",
+      "first_seen": "2026-09-03T23:53:06+00:00",
+      "last_seen": "2026-09-03T23:53:06+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Aws.Amazon",
+          "url": "https://aws.amazon.com/blogs/security/incident-response-guide-for-aws-cloudtrail-investigations-part-2/",
+          "pub_date": "2026-09-03T23:53:06+00:00"
         }
       ],
       "tags": []
@@ -2959,108 +3042,6 @@
           "value": "Fdmtp"
         }
       ]
-    },
-    {
-      "type": "ipv4",
-      "value": "163.7.8.79",
-      "confidence": "high",
-      "reason": "[article sweep] Source IP for an SSH connection to a honeypot",
-      "first_seen": "2026-08-06T00:15:40+00:00",
-      "last_seen": "2026-08-06T00:15:40+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Isc.Sans.Edu",
-          "url": "https://isc.sans.edu/diary/rss/33220",
-          "pub_date": "2026-08-06T00:15:40+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "ipv4",
-      "value": "80.94.92.171",
-      "confidence": "high",
-      "reason": "[article sweep] Part of a coordinated scanning infrastructure used in the mdrfckr SSH campaign.",
-      "first_seen": "2026-08-06T00:15:40+00:00",
-      "last_seen": "2026-08-06T00:15:40+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Isc.Sans.Edu",
-          "url": "https://isc.sans.edu/diary/rss/33220",
-          "pub_date": "2026-08-06T00:15:40+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "ipv4",
-      "value": "80.94.92.184",
-      "confidence": "high",
-      "reason": "[article sweep] Part of a coordinated scanning infrastructure used in the mdrfckr SSH campaign.",
-      "first_seen": "2026-08-06T00:15:40+00:00",
-      "last_seen": "2026-08-06T00:15:40+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Isc.Sans.Edu",
-          "url": "https://isc.sans.edu/diary/rss/33220",
-          "pub_date": "2026-08-06T00:15:40+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "ipv4",
-      "value": "80.94.92.186",
-      "confidence": "high",
-      "reason": "[article sweep] Part of a coordinated scanning infrastructure used in the mdrfckr SSH campaign.",
-      "first_seen": "2026-08-06T00:15:40+00:00",
-      "last_seen": "2026-08-06T00:15:40+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Isc.Sans.Edu",
-          "url": "https://isc.sans.edu/diary/rss/33220",
-          "pub_date": "2026-08-06T00:15:40+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "coldcardteamnews.com",
-      "confidence": "high",
-      "reason": "[article sweep] Used in a phishing campaign impersonating COLDCARD",
-      "first_seen": "2026-08-05T17:49:41+00:00",
-      "last_seen": "2026-08-05T17:49:41+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Bleepingcomputer",
-          "url": "https://www.bleepingcomputer.com/news/security/coldcard-security-audit-phishing-attack-installs-remote-access-tool/",
-          "pub_date": "2026-08-05T17:49:41+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "deltaode.com",
-      "confidence": "high",
-      "reason": "[article sweep] Identified as part of a C2 infrastructure for a campaign",
-      "first_seen": "2026-08-05T12:14:01+00:00",
-      "last_seen": "2026-08-05T12:14:01+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Socprime",
-          "url": "https://socprime.com/active-threats/smartapesg-pushes-an-unknown-rat-through-clickfix-lures/",
-          "pub_date": "2026-08-05T12:14:01+00:00"
-        }
-      ],
-      "tags": []
     }
   ],
   "license": "CC-BY 4.0 \u2014 attribute ThreatCluster (https://threatcluster.io)",
