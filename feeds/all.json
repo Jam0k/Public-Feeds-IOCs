@@ -1,7 +1,7 @@
 {
   "feed": "threatcluster-public-iocs",
   "version": 1,
-  "generated_at": "2026-09-05T06:34:10Z",
+  "generated_at": "2026-09-06T06:34:39Z",
   "filters": {
     "confidence": "high",
     "window_days": 30,
@@ -11,8 +11,76 @@
       "domain"
     ]
   },
-  "count": 135,
+  "count": 126,
   "iocs": [
+    {
+      "type": "domain",
+      "value": "247.cdnflare.xyz",
+      "confidence": "high",
+      "reason": "Identified as a malware download host in the article",
+      "first_seen": "2026-09-05T20:14:47+00:00",
+      "last_seen": "2026-09-05T20:14:47+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Thehackernews",
+          "url": "https://thehackernews.com/2026/09/unpatched-magento-and-adobe-commerce.html",
+          "pub_date": "2026-09-05T20:14:47+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "ipv4",
+      "value": "5.181.86.133",
+      "confidence": "high",
+      "reason": "Listed as an attacker source sending in bulk",
+      "first_seen": "2026-09-05T20:14:47+00:00",
+      "last_seen": "2026-09-05T20:14:47+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Thehackernews",
+          "url": "https://thehackernews.com/2026/09/unpatched-magento-and-adobe-commerce.html",
+          "pub_date": "2026-09-05T20:14:47+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "ipv4",
+      "value": "88.216.72.181",
+      "confidence": "high",
+      "reason": "Identified as an attacker source",
+      "first_seen": "2026-09-05T20:14:47+00:00",
+      "last_seen": "2026-09-05T20:14:47+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Thehackernews",
+          "url": "https://thehackernews.com/2026/09/unpatched-magento-and-adobe-commerce.html",
+          "pub_date": "2026-09-05T20:14:47+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "ipv4",
+      "value": "210.247.242.190",
+      "confidence": "high",
+      "reason": "[article sweep] Listed as an IP address associated with observed exploitation activity",
+      "first_seen": "2026-09-05T16:52:33+00:00",
+      "last_seen": "2026-09-05T16:52:33+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Thehackernews",
+          "url": "https://thehackernews.com/2026/09/attackers-breached-jetbrains-cadence.html",
+          "pub_date": "2026-09-05T16:52:33+00:00"
+        }
+      ],
+      "tags": []
+    },
     {
       "type": "domain",
       "value": "coder-infra.com",
@@ -2780,268 +2848,6 @@
         }
       ],
       "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "tommysbakescodes.ws",
-      "confidence": "high",
-      "reason": "[article sweep] Listed in a YARA rule as part of C2/network communication",
-      "first_seen": "2026-08-06T18:48:08+00:00",
-      "last_seen": "2026-08-06T18:48:08+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Cyfirma",
-          "url": "https://www.cyfirma.com/news/weekly-intelligence-report-7-aug-2026/",
-          "pub_date": "2026-08-06T18:48:08+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "www1.planetink.com",
-      "confidence": "high",
-      "reason": "[article sweep] Listed as part of Lazarus-related supply chain campaign artifacts",
-      "first_seen": "2026-08-06T18:48:08+00:00",
-      "last_seen": "2026-08-06T18:48:08+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Cyfirma",
-          "url": "https://www.cyfirma.com/news/weekly-intelligence-report-7-aug-2026/",
-          "pub_date": "2026-08-06T18:48:08+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "www2.planetink.com",
-      "confidence": "high",
-      "reason": "[article sweep] Listed as part of Lazarus-related supply chain campaign artifacts",
-      "first_seen": "2026-08-06T18:48:08+00:00",
-      "last_seen": "2026-08-06T18:48:08+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Cyfirma",
-          "url": "https://www.cyfirma.com/news/weekly-intelligence-report-7-aug-2026/",
-          "pub_date": "2026-08-06T18:48:08+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "zimbra.planetink.com",
-      "confidence": "high",
-      "reason": "[article sweep] Listed in a rule for detecting Lazarus-related supply chain campaign artifacts",
-      "first_seen": "2026-08-06T18:48:08+00:00",
-      "last_seen": "2026-08-06T18:48:08+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Cyfirma",
-          "url": "https://www.cyfirma.com/news/weekly-intelligence-report-7-aug-2026/",
-          "pub_date": "2026-08-06T18:48:08+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "zmail.vetstarts.com",
-      "confidence": "high",
-      "reason": "[article sweep] Listed in a rule for detecting Lazarus-related supply chain campaign artifacts",
-      "first_seen": "2026-08-06T18:48:08+00:00",
-      "last_seen": "2026-08-06T18:48:08+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Cyfirma",
-          "url": "https://www.cyfirma.com/news/weekly-intelligence-report-7-aug-2026/",
-          "pub_date": "2026-08-06T18:48:08+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "ipv4",
-      "value": "104.239.66.201",
-      "confidence": "high",
-      "reason": "[article sweep] Listed as part of a coordinated cyberattack",
-      "first_seen": "2026-08-06T18:48:08+00:00",
-      "last_seen": "2026-08-06T18:48:08+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Cyfirma",
-          "url": "https://www.cyfirma.com/news/weekly-intelligence-report-7-aug-2026/",
-          "pub_date": "2026-08-06T18:48:08+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "ipv4",
-      "value": "73.158.81.165",
-      "confidence": "high",
-      "reason": "[article sweep] Listed as part of a YARA rule for malicious activity",
-      "first_seen": "2026-08-06T18:48:08+00:00",
-      "last_seen": "2026-08-06T18:48:08+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Cyfirma",
-          "url": "https://www.cyfirma.com/news/weekly-intelligence-report-7-aug-2026/",
-          "pub_date": "2026-08-06T18:48:08+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "ipv4",
-      "value": "76.229.204.88",
-      "confidence": "high",
-      "reason": "[article sweep] Listed as part of a YARA rule for malicious activity",
-      "first_seen": "2026-08-06T18:48:08+00:00",
-      "last_seen": "2026-08-06T18:48:08+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Cyfirma",
-          "url": "https://www.cyfirma.com/news/weekly-intelligence-report-7-aug-2026/",
-          "pub_date": "2026-08-06T18:48:08+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "ipv4",
-      "value": "213.165.51.115",
-      "confidence": "high",
-      "reason": "Listed as part of malicious infrastructure in hunting queries.",
-      "first_seen": "2026-08-06T11:21:24.300532+00:00",
-      "last_seen": "2026-08-06T11:21:24.300532+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.trendmicro.com",
-          "url": "https://www.trendmicro.com/en_us/research/26/e/inside-the-influence-and-fraud-patriot-bait-campaign.html?ct=1783532687994",
-          "pub_date": "2026-08-06T11:21:24.300532+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Quantum Patriot"
-        }
-      ]
-    },
-    {
-      "type": "ipv4",
-      "value": "154.223.58.64",
-      "confidence": "high",
-      "reason": "Listed as C2 IP address.",
-      "first_seen": "2026-08-06T08:39:33+00:00",
-      "last_seen": "2026-08-06T08:39:33+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Rescana",
-          "url": "https://www.rescana.com/post/active-exploitation-alert-quickfox-windows-supply-chain-attack-delivers-fdmtp-backdoor-via-trojanized-installer",
-          "pub_date": "2026-08-06T08:39:33+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Twill Typhoon"
-        },
-        {
-          "type": "malware",
-          "value": "Fdmtp"
-        }
-      ]
-    },
-    {
-      "type": "ipv4",
-      "value": "154.223.75.206",
-      "confidence": "high",
-      "reason": "Listed as C2 IP address.",
-      "first_seen": "2026-08-06T08:39:33+00:00",
-      "last_seen": "2026-08-06T08:39:33+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Rescana",
-          "url": "https://www.rescana.com/post/active-exploitation-alert-quickfox-windows-supply-chain-attack-delivers-fdmtp-backdoor-via-trojanized-installer",
-          "pub_date": "2026-08-06T08:39:33+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Twill Typhoon"
-        },
-        {
-          "type": "malware",
-          "value": "Fdmtp"
-        }
-      ]
-    },
-    {
-      "type": "ipv4",
-      "value": "38.60.142.56",
-      "confidence": "high",
-      "reason": "Listed as C2 IP address.",
-      "first_seen": "2026-08-06T08:39:33+00:00",
-      "last_seen": "2026-08-06T08:39:33+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Rescana",
-          "url": "https://www.rescana.com/post/active-exploitation-alert-quickfox-windows-supply-chain-attack-delivers-fdmtp-backdoor-via-trojanized-installer",
-          "pub_date": "2026-08-06T08:39:33+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Twill Typhoon"
-        },
-        {
-          "type": "malware",
-          "value": "Fdmtp"
-        }
-      ]
-    },
-    {
-      "type": "ipv4",
-      "value": "45.158.180.250",
-      "confidence": "high",
-      "reason": "Listed as C2 IP address.",
-      "first_seen": "2026-08-06T08:39:33+00:00",
-      "last_seen": "2026-08-06T08:39:33+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Rescana",
-          "url": "https://www.rescana.com/post/active-exploitation-alert-quickfox-windows-supply-chain-attack-delivers-fdmtp-backdoor-via-trojanized-installer",
-          "pub_date": "2026-08-06T08:39:33+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Twill Typhoon"
-        },
-        {
-          "type": "malware",
-          "value": "Fdmtp"
-        }
-      ]
     }
   ],
   "license": "CC-BY 4.0 \u2014 attribute ThreatCluster (https://threatcluster.io)",
