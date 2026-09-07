@@ -1,10 +1,11 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason
+domain,img.monderhouse.space,high,2026-09-04T14:51:13+00:00,2026-09-06T14:03:08.318415+00:00,2,www.rapid7.com:2026-09-06|Thehackernews:2026-09-04,Described as a C2 host in the context
+ipv4,103.102.31.18,high,2026-09-06T06:20:44+00:00,2026-09-06T13:46:02+00:00,2,Securityaffairs.Co:2026-09-06|Cert.Pl:2026-09-06,Used in attempts to exploit vulnerabilities; identified as attacker infrastructure
+ipv4,210.247.242.190,high,2026-09-05T16:52:33+00:00,2026-09-06T07:47:42.172476+00:00,3,thenewstack.io:2026-09-06|Rescana:2026-09-06|Thehackernews:2026-09-05,Listed as an IP address associated with detected exploitation.
 domain,247.cdnflare.xyz,high,2026-09-05T20:14:47+00:00,2026-09-05T20:14:47+00:00,1,Thehackernews:2026-09-05,Identified as a malware download host in the article
 ipv4,5.181.86.133,high,2026-09-05T20:14:47+00:00,2026-09-05T20:14:47+00:00,1,Thehackernews:2026-09-05,Listed as an attacker source sending in bulk
 ipv4,88.216.72.181,high,2026-09-05T20:14:47+00:00,2026-09-05T20:14:47+00:00,1,Thehackernews:2026-09-05,Identified as an attacker source
-ipv4,210.247.242.190,high,2026-09-05T16:52:33+00:00,2026-09-05T16:52:33+00:00,1,Thehackernews:2026-09-05,[article sweep] Listed as an IP address associated with observed exploitation activity
 domain,coder-infra.com,high,2026-09-03T20:42:31+00:00,2026-09-04T22:37:10+00:00,3,Esecurityplanet:2026-09-04|github.com:2026-09-04|Bleepingcomputer:2026-09-03,Identified as an untrusted domain for outbound traffic in the context of potential data loss.
-domain,img.monderhouse.space,high,2026-09-04T14:51:13+00:00,2026-09-04T15:31:57.223581+00:00,2,www.rapid7.com:2026-09-04|Thehackernews:2026-09-04,Described as a C2 host in the context
 domain,niestools.com,high,2026-09-04T11:00:15+00:00,2026-09-04T11:00:15+00:00,1,Securityaffairs.Co:2026-09-04,[article sweep] Used as a proxy server domain in a malicious campaign.
 ipv4,75.3.231.105,high,2026-09-03T23:53:06+00:00,2026-09-03T23:53:06+00:00,1,Aws.Amazon:2026-09-03,[article sweep] Listed as the source IP for a threat actor's AWS Management Console login.
 domain,veruisuealx.xyz,high,2026-09-03T11:31:52.443490+00:00,2026-09-03T11:31:52.443490+00:00,1,www.guidepointsecurity.com:2026-09-03,[article sweep] Used in a ClickFix invocation for malicious activity
@@ -123,5 +124,3 @@ domain,ccleanerwind.top,high,2026-08-12T10:20:02+00:00,2026-08-12T11:31:38+00:00
 ipv4,166.88.134.62,high,2026-08-11T13:21:16.792531+00:00,2026-08-11T13:21:16.792531+00:00,1,opensourcemalware.com:2026-08-11,[article sweep] Decoded C2 IP address from a transaction
 domain,m.studiotikva.com,high,2026-08-11T10:00:19+00:00,2026-08-11T10:00:19+00:00,1,Securelist:2026-08-11,[article sweep] Used for DNS A-record queries in C2 communication
 ipv4,74.65.75.102,high,2026-08-11T10:00:19+00:00,2026-08-11T10:00:19+00:00,1,Securelist:2026-08-11,Explicitly mentioned in response context.
-domain,login.microsoft-secure-portal.com,high,2026-08-08T03:49:43.525813+00:00,2026-08-08T03:49:43.525813+00:00,1,hivesecurity.gitlab.io:2026-08-08,Clearly identified as an attacker-controlled domain.
-ipv4,185.242.3.238,high,2026-08-08T00:42:00+00:00,2026-08-08T00:42:00+00:00,1,F5:2026-08-08,[article sweep] Observed sending SQL injection payloads to vulnerable endpoints

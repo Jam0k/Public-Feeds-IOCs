@@ -1,7 +1,7 @@
 {
   "feed": "threatcluster-public-iocs",
   "version": 1,
-  "generated_at": "2026-09-06T06:34:39Z",
+  "generated_at": "2026-09-07T06:48:25Z",
   "filters": {
     "confidence": "high",
     "window_days": 30,
@@ -11,8 +11,114 @@
       "domain"
     ]
   },
-  "count": 126,
+  "count": 125,
   "iocs": [
+    {
+      "type": "domain",
+      "value": "img.monderhouse.space",
+      "confidence": "high",
+      "reason": "Described as a C2 host in the context",
+      "first_seen": "2026-09-04T14:51:13+00:00",
+      "last_seen": "2026-09-06T14:03:08.318415+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "www.rapid7.com",
+          "url": "https://www.rapid7.com/blog/post/tr-dprk-apts-ted-backdoor-curlrat-target-south-korean-media-automotive-sectors/",
+          "pub_date": "2026-09-06T14:03:08.318415+00:00"
+        },
+        {
+          "source": "Thehackernews",
+          "url": "https://thehackernews.com/2026/09/new-ted-backdoor-hides-inside-victims.html",
+          "pub_date": "2026-09-04T14:51:13+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Apt37"
+        },
+        {
+          "type": "apt_group",
+          "value": "Kimsuky"
+        },
+        {
+          "type": "malware",
+          "value": "CurlRAT"
+        },
+        {
+          "type": "apt_group",
+          "value": "Lazarus"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "103.102.31.18",
+      "confidence": "high",
+      "reason": "Used in attempts to exploit vulnerabilities; identified as attacker infrastructure",
+      "first_seen": "2026-09-06T06:20:44+00:00",
+      "last_seen": "2026-09-06T13:46:02+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "Securityaffairs.Co",
+          "url": "https://securityaffairs.com/198538/security/your-mikrotik-router-may-already-be-compromised-look-for-ssh-user-2.html",
+          "pub_date": "2026-09-06T13:46:02+00:00"
+        },
+        {
+          "source": "Cert.Pl",
+          "url": "https://cert.pl/en/posts/2026/09/vulnerabilities-in-mikrotik-routeros-actively-exploited/",
+          "pub_date": "2026-09-06T06:20:44+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2026-67276"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-86060"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-67277"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "210.247.242.190",
+      "confidence": "high",
+      "reason": "Listed as an IP address associated with detected exploitation.",
+      "first_seen": "2026-09-05T16:52:33+00:00",
+      "last_seen": "2026-09-06T07:47:42.172476+00:00",
+      "source_count": 3,
+      "sources": [
+        {
+          "source": "thenewstack.io",
+          "url": "https://thenewstack.io/jetbrains-told-everyone-to-patch-it-didnt-patch-itself/",
+          "pub_date": "2026-09-06T07:47:42.172476+00:00"
+        },
+        {
+          "source": "Rescana",
+          "url": "https://www.rescana.com/post/jetbrains-cadence-breach-attackers-exploit-unpatched-teamcity-cve-2026-63077-to-exfiltrate-aws-credentials-and-source-co",
+          "pub_date": "2026-09-06T07:14:49+00:00"
+        },
+        {
+          "source": "Thehackernews",
+          "url": "https://thehackernews.com/2026/09/attackers-breached-jetbrains-cadence.html",
+          "pub_date": "2026-09-05T16:52:33+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2026-63077"
+        }
+      ]
+    },
     {
       "type": "domain",
       "value": "247.cdnflare.xyz",
@@ -65,23 +171,6 @@
       "tags": []
     },
     {
-      "type": "ipv4",
-      "value": "210.247.242.190",
-      "confidence": "high",
-      "reason": "[article sweep] Listed as an IP address associated with observed exploitation activity",
-      "first_seen": "2026-09-05T16:52:33+00:00",
-      "last_seen": "2026-09-05T16:52:33+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Thehackernews",
-          "url": "https://thehackernews.com/2026/09/attackers-breached-jetbrains-cadence.html",
-          "pub_date": "2026-09-05T16:52:33+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
       "type": "domain",
       "value": "coder-infra.com",
       "confidence": "high",
@@ -110,45 +199,6 @@
         {
           "type": "campaign",
           "value": "Shai-Hulud Npm Supply Chain Attack"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "img.monderhouse.space",
-      "confidence": "high",
-      "reason": "Described as a C2 host in the context",
-      "first_seen": "2026-09-04T14:51:13+00:00",
-      "last_seen": "2026-09-04T15:31:57.223581+00:00",
-      "source_count": 2,
-      "sources": [
-        {
-          "source": "www.rapid7.com",
-          "url": "https://www.rapid7.com/blog/post/tr-dprk-apts-ted-backdoor-curlrat-target-south-korean-media-automotive-sectors/",
-          "pub_date": "2026-09-04T15:31:57.223581+00:00"
-        },
-        {
-          "source": "Thehackernews",
-          "url": "https://thehackernews.com/2026/09/new-ted-backdoor-hides-inside-victims.html",
-          "pub_date": "2026-09-04T14:51:13+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Apt37"
-        },
-        {
-          "type": "apt_group",
-          "value": "Kimsuky"
-        },
-        {
-          "type": "malware",
-          "value": "CurlRAT"
-        },
-        {
-          "type": "apt_group",
-          "value": "Lazarus"
         }
       ]
     },
@@ -2805,49 +2855,6 @@
           "value": "Cav3rn"
         }
       ]
-    },
-    {
-      "type": "domain",
-      "value": "login.microsoft-secure-portal.com",
-      "confidence": "high",
-      "reason": "Clearly identified as an attacker-controlled domain.",
-      "first_seen": "2026-08-08T03:49:43.525813+00:00",
-      "last_seen": "2026-08-08T03:49:43.525813+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "hivesecurity.gitlab.io",
-          "url": "https://hivesecurity.gitlab.io/blog/aitm-phishing-mfa-bypass-evilginx/",
-          "pub_date": "2026-08-08T03:49:43.525813+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "malware",
-          "value": "Starkiller"
-        },
-        {
-          "type": "malware",
-          "value": "W3LL Kit"
-        }
-      ]
-    },
-    {
-      "type": "ipv4",
-      "value": "185.242.3.238",
-      "confidence": "high",
-      "reason": "[article sweep] Observed sending SQL injection payloads to vulnerable endpoints",
-      "first_seen": "2026-08-08T00:42:00+00:00",
-      "last_seen": "2026-08-08T00:42:00+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "F5",
-          "url": "https://www.f5.com/labs/articles/cve-2026-63030-and-cve-2026-60137-wp2shell-captured-exploit-payload",
-          "pub_date": "2026-08-08T00:42:00+00:00"
-        }
-      ],
-      "tags": []
     }
   ],
   "license": "CC-BY 4.0 \u2014 attribute ThreatCluster (https://threatcluster.io)",

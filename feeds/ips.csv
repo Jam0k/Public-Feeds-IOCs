@@ -1,7 +1,8 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason
+ipv4,103.102.31.18,high,2026-09-06T06:20:44+00:00,2026-09-06T13:46:02+00:00,2,Securityaffairs.Co:2026-09-06|Cert.Pl:2026-09-06,Used in attempts to exploit vulnerabilities; identified as attacker infrastructure
+ipv4,210.247.242.190,high,2026-09-05T16:52:33+00:00,2026-09-06T07:47:42.172476+00:00,3,thenewstack.io:2026-09-06|Rescana:2026-09-06|Thehackernews:2026-09-05,Listed as an IP address associated with detected exploitation.
 ipv4,5.181.86.133,high,2026-09-05T20:14:47+00:00,2026-09-05T20:14:47+00:00,1,Thehackernews:2026-09-05,Listed as an attacker source sending in bulk
 ipv4,88.216.72.181,high,2026-09-05T20:14:47+00:00,2026-09-05T20:14:47+00:00,1,Thehackernews:2026-09-05,Identified as an attacker source
-ipv4,210.247.242.190,high,2026-09-05T16:52:33+00:00,2026-09-05T16:52:33+00:00,1,Thehackernews:2026-09-05,[article sweep] Listed as an IP address associated with observed exploitation activity
 ipv4,75.3.231.105,high,2026-09-03T23:53:06+00:00,2026-09-03T23:53:06+00:00,1,Aws.Amazon:2026-09-03,[article sweep] Listed as the source IP for a threat actor's AWS Management Console login.
 ipv4,144.31.53.78,high,2026-09-03T10:18:27+00:00,2026-09-03T11:31:50.519345+00:00,2,www.security.com:2026-09-03|Security:2026-09-03,Listed as a network indicator in the article
 ipv4,178.16.54.253,high,2026-09-03T10:18:27+00:00,2026-09-03T11:31:50.519345+00:00,2,www.security.com:2026-09-03|Security:2026-09-03,Listed as a network indicator in the article
@@ -36,4 +37,3 @@ ipv4,188.130.206.168,high,2026-08-12T14:35:21+00:00,2026-08-12T14:35:21+00:00,1,
 ipv4,65.38.121.198,high,2026-08-12T14:35:21+00:00,2026-08-12T14:35:21+00:00,1,Rescana:2026-08-12,[article sweep] Listed as a known malicious IP in SharePoint exploitation
 ipv4,166.88.134.62,high,2026-08-11T13:21:16.792531+00:00,2026-08-11T13:21:16.792531+00:00,1,opensourcemalware.com:2026-08-11,[article sweep] Decoded C2 IP address from a transaction
 ipv4,74.65.75.102,high,2026-08-11T10:00:19+00:00,2026-08-11T10:00:19+00:00,1,Securelist:2026-08-11,Explicitly mentioned in response context.
-ipv4,185.242.3.238,high,2026-08-08T00:42:00+00:00,2026-08-08T00:42:00+00:00,1,F5:2026-08-08,[article sweep] Observed sending SQL injection payloads to vulnerable endpoints

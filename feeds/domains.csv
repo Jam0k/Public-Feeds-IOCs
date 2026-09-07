@@ -1,7 +1,7 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason
+domain,img.monderhouse.space,high,2026-09-04T14:51:13+00:00,2026-09-06T14:03:08.318415+00:00,2,www.rapid7.com:2026-09-06|Thehackernews:2026-09-04,Described as a C2 host in the context
 domain,247.cdnflare.xyz,high,2026-09-05T20:14:47+00:00,2026-09-05T20:14:47+00:00,1,Thehackernews:2026-09-05,Identified as a malware download host in the article
 domain,coder-infra.com,high,2026-09-03T20:42:31+00:00,2026-09-04T22:37:10+00:00,3,Esecurityplanet:2026-09-04|github.com:2026-09-04|Bleepingcomputer:2026-09-03,Identified as an untrusted domain for outbound traffic in the context of potential data loss.
-domain,img.monderhouse.space,high,2026-09-04T14:51:13+00:00,2026-09-04T15:31:57.223581+00:00,2,www.rapid7.com:2026-09-04|Thehackernews:2026-09-04,Described as a C2 host in the context
 domain,niestools.com,high,2026-09-04T11:00:15+00:00,2026-09-04T11:00:15+00:00,1,Securityaffairs.Co:2026-09-04,[article sweep] Used as a proxy server domain in a malicious campaign.
 domain,veruisuealx.xyz,high,2026-09-03T11:31:52.443490+00:00,2026-09-03T11:31:52.443490+00:00,1,www.guidepointsecurity.com:2026-09-03,[article sweep] Used in a ClickFix invocation for malicious activity
 domain,datalayerservice.com,high,2026-09-03T10:18:27+00:00,2026-09-03T11:31:50.519345+00:00,2,www.security.com:2026-09-03|Security:2026-09-03,Listed under C&C infrastructure in the article
@@ -86,4 +86,3 @@ domain,ramimac.me,high,2026-08-12T22:06:24.425523+00:00,2026-08-12T22:06:24.4255
 domain,msupdate.updatemicfosoft.com,high,2026-08-12T14:35:21+00:00,2026-08-12T14:35:21+00:00,1,Rescana:2026-08-12,"[article sweep] Custom C2 domain used in an attack, indicating attacker control"
 domain,ccleanerwind.top,high,2026-08-12T10:20:02+00:00,2026-08-12T11:31:38+00:00,2,Gbhackers:2026-08-12|Csoonline:2026-08-12,Identified as attacker-controlled domain for malware distribution
 domain,m.studiotikva.com,high,2026-08-11T10:00:19+00:00,2026-08-11T10:00:19+00:00,1,Securelist:2026-08-11,[article sweep] Used for DNS A-record queries in C2 communication
-domain,login.microsoft-secure-portal.com,high,2026-08-08T03:49:43.525813+00:00,2026-08-08T03:49:43.525813+00:00,1,hivesecurity.gitlab.io:2026-08-08,Clearly identified as an attacker-controlled domain.
