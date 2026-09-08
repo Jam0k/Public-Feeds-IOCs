@@ -1,5 +1,9 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason
-domain,img.monderhouse.space,high,2026-09-04T14:51:13+00:00,2026-09-06T14:03:08.318415+00:00,2,www.rapid7.com:2026-09-06|Thehackernews:2026-09-04,Described as a C2 host in the context
+domain,login.evil-domain.com,high,2026-09-07T16:39:25+00:00,2026-09-07T16:39:25+00:00,1,Cloudsek:2026-09-07,Phishing domain used in Evilginx2 attack to proxy traffic and capture session cookies.
+domain,img.monderhouse.space,high,2026-09-04T14:51:13+00:00,2026-09-07T15:47:58.411565+00:00,2,www.rapid7.com:2026-09-07|Thehackernews:2026-09-04,Described as a C2 host in the context
+ipv4,2.147.68.96,high,2026-09-07T11:47:55+00:00,2026-09-07T11:47:55+00:00,1,Dexpose:2026-09-07,[article sweep] Listed as a command-and-control IP address for DragonForce campaign
+ipv4,69.4.234.20,high,2026-09-07T11:47:55+00:00,2026-09-07T11:47:55+00:00,1,Dexpose:2026-09-07,[article sweep] Listed as a command-and-control IP address for DragonForce campaign
+ipv4,159.198.75.180,high,2026-09-07T05:02:05+00:00,2026-09-07T05:02:05+00:00,1,Redpacketsecurity:2026-09-07,Alert on connections to this IP suggests it is used for Mythic C2 operations.
 ipv4,103.102.31.18,high,2026-09-06T06:20:44+00:00,2026-09-06T13:46:02+00:00,2,Securityaffairs.Co:2026-09-06|Cert.Pl:2026-09-06,Used in attempts to exploit vulnerabilities; identified as attacker infrastructure
 ipv4,210.247.242.190,high,2026-09-05T16:52:33+00:00,2026-09-06T07:47:42.172476+00:00,3,thenewstack.io:2026-09-06|Rescana:2026-09-06|Thehackernews:2026-09-05,Listed as an IP address associated with detected exploitation.
 domain,247.cdnflare.xyz,high,2026-09-05T20:14:47+00:00,2026-09-05T20:14:47+00:00,1,Thehackernews:2026-09-05,Identified as a malware download host in the article
