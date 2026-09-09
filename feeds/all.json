@@ -1,7 +1,7 @@
 {
   "feed": "threatcluster-public-iocs",
   "version": 1,
-  "generated_at": "2026-09-08T06:38:23Z",
+  "generated_at": "2026-09-09T06:39:08Z",
   "filters": {
     "confidence": "high",
     "window_days": 30,
@@ -11,8 +11,922 @@
       "domain"
     ]
   },
-  "count": 129,
+  "count": 166,
   "iocs": [
+    {
+      "type": "domain",
+      "value": "img.monderhouse.space",
+      "confidence": "high",
+      "reason": "Described as a C2 host in the context",
+      "first_seen": "2026-09-04T14:51:13+00:00",
+      "last_seen": "2026-09-08T17:01:50.224687+00:00",
+      "source_count": 3,
+      "sources": [
+        {
+          "source": "www.rapid7.com",
+          "url": "https://www.rapid7.com/blog/post/tr-dprk-apts-ted-backdoor-curlrat-target-south-korean-media-automotive-sectors/",
+          "pub_date": "2026-09-08T17:01:50.224687+00:00"
+        },
+        {
+          "source": "Krypt3Ia.Wordpress",
+          "url": "https://krypt3ia.wordpress.com/2026/09/08/weekly-all-source-cyber-warfare-intelligence-brief-september-8-2026/",
+          "pub_date": "2026-09-08T16:58:55+00:00"
+        },
+        {
+          "source": "Thehackernews",
+          "url": "https://thehackernews.com/2026/09/new-ted-backdoor-hides-inside-victims.html",
+          "pub_date": "2026-09-04T14:51:13+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "CurlRAT"
+        },
+        {
+          "type": "apt_group",
+          "value": "Apt37"
+        },
+        {
+          "type": "apt_group",
+          "value": "Kimsuky"
+        },
+        {
+          "type": "industry",
+          "value": "Financial"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "niestools.com",
+      "confidence": "high",
+      "reason": "[article sweep] Used as a proxy server domain in a malicious campaign.",
+      "first_seen": "2026-09-04T11:00:15+00:00",
+      "last_seen": "2026-09-08T16:58:55+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "Krypt3Ia.Wordpress",
+          "url": "https://krypt3ia.wordpress.com/2026/09/08/weekly-all-source-cyber-warfare-intelligence-brief-september-8-2026/",
+          "pub_date": "2026-09-08T16:58:55+00:00"
+        },
+        {
+          "source": "Securityaffairs.Co",
+          "url": "https://securityaffairs.com/198417/ai/chinese-hackers-use-ai-agents-in-multi-country-cyber-campaign.html",
+          "pub_date": "2026-09-04T11:00:15+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Mirage Kitten"
+        },
+        {
+          "type": "apt_group",
+          "value": "Unc3886"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2014-6271"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2020-1938"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "92.255.57.155",
+      "confidence": "high",
+      "reason": "[article sweep] Used in a malicious campaign",
+      "first_seen": "2026-09-08T16:31:14.745150+00:00",
+      "last_seen": "2026-09-08T16:31:14.745150+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "any.run",
+          "url": "https://any.run/cybersecurity-blog/iocs-iobs-ioas-explained/?ref=hackernoon.com",
+          "pub_date": "2026-09-08T16:31:14.74515+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "ipv4",
+      "value": "122.183.48.195",
+      "confidence": "high",
+      "reason": "[article sweep] Used by a threat actor in an attack",
+      "first_seen": "2026-09-08T13:32:49.587167+00:00",
+      "last_seen": "2026-09-08T13:32:49.587167+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.sysdig.com",
+          "url": "https://www.sysdig.com/blog/llmjacking-evolved-attackers-are-using-stolen-ai-compute-to-build-offensive-agentic-tools",
+          "pub_date": "2026-09-08T13:32:49.587167+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "ipv4",
+      "value": "122.183.48.35",
+      "confidence": "high",
+      "reason": "[article sweep] Used by a threat actor in an attack",
+      "first_seen": "2026-09-08T13:32:49.587167+00:00",
+      "last_seen": "2026-09-08T13:32:49.587167+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.sysdig.com",
+          "url": "https://www.sysdig.com/blog/llmjacking-evolved-attackers-are-using-stolen-ai-compute-to-build-offensive-agentic-tools",
+          "pub_date": "2026-09-08T13:32:49.587167+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "ipv4",
+      "value": "122.183.48.82",
+      "confidence": "high",
+      "reason": "[article sweep] Used by a threat actor in an attack",
+      "first_seen": "2026-09-08T13:32:49.587167+00:00",
+      "last_seen": "2026-09-08T13:32:49.587167+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.sysdig.com",
+          "url": "https://www.sysdig.com/blog/llmjacking-evolved-attackers-are-using-stolen-ai-compute-to-build-offensive-agentic-tools",
+          "pub_date": "2026-09-08T13:32:49.587167+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "ipv4",
+      "value": "47.15.69.15",
+      "confidence": "high",
+      "reason": "[article sweep] Used by a threat actor in an attack",
+      "first_seen": "2026-09-08T13:32:49.587167+00:00",
+      "last_seen": "2026-09-08T13:32:49.587167+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.sysdig.com",
+          "url": "https://www.sysdig.com/blog/llmjacking-evolved-attackers-are-using-stolen-ai-compute-to-build-offensive-agentic-tools",
+          "pub_date": "2026-09-08T13:32:49.587167+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "hagaseca.com",
+      "confidence": "high",
+      "reason": "Dedicated domain used by THost9 as attacker infrastructure",
+      "first_seen": "2026-09-08T11:18:18.463595+00:00",
+      "last_seen": "2026-09-08T11:18:18.463595+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "darkatlas.io",
+          "url": "https://darkatlas.io/blog/hagaseca-inside-a-packed-android-rat-loader",
+          "pub_date": "2026-09-08T11:18:18.463595+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "Hagaseca"
+        },
+        {
+          "type": "malware",
+          "value": "THost4"
+        },
+        {
+          "type": "malware",
+          "value": "THost9"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "pleasedonthackmyserver.com",
+      "confidence": "high",
+      "reason": "Subdomain used by THost4 as part of attacker infrastructure",
+      "first_seen": "2026-09-08T11:18:18.463595+00:00",
+      "last_seen": "2026-09-08T11:18:18.463595+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "darkatlas.io",
+          "url": "https://darkatlas.io/blog/hagaseca-inside-a-packed-android-rat-loader",
+          "pub_date": "2026-09-08T11:18:18.463595+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "Hagaseca"
+        },
+        {
+          "type": "malware",
+          "value": "THost4"
+        },
+        {
+          "type": "malware",
+          "value": "THost9"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "jenniferwelsh.com",
+      "confidence": "high",
+      "reason": "Domain used for hosting malicious payloads as per context",
+      "first_seen": "2026-09-08T10:17:00.157905+00:00",
+      "last_seen": "2026-09-08T10:17:00.157905+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.proofpoint.com",
+          "url": "https://www.proofpoint.com/us/blog/threat-insight/clipboard-compromise-powershell-self-pwn",
+          "pub_date": "2026-09-08T10:17:00.157905+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "ClearFake"
+        },
+        {
+          "type": "campaign",
+          "value": "ClickFix"
+        },
+        {
+          "type": "malware",
+          "value": "Amadey Loader"
+        },
+        {
+          "type": "malware",
+          "value": "DarkGate"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "kostumn1.ilabserver.com",
+      "confidence": "high",
+      "reason": "Domain used for hosting malicious payloads as per context",
+      "first_seen": "2026-09-08T10:17:00.157905+00:00",
+      "last_seen": "2026-09-08T10:17:00.157905+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.proofpoint.com",
+          "url": "https://www.proofpoint.com/us/blog/threat-insight/clipboard-compromise-powershell-self-pwn",
+          "pub_date": "2026-09-08T10:17:00.157905+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "ClearFake"
+        },
+        {
+          "type": "campaign",
+          "value": "ClickFix"
+        },
+        {
+          "type": "malware",
+          "value": "Amadey Loader"
+        },
+        {
+          "type": "malware",
+          "value": "DarkGate"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "languangjob.com",
+      "confidence": "high",
+      "reason": "Domain used for hosting malicious payloads as per context",
+      "first_seen": "2026-09-08T10:17:00.157905+00:00",
+      "last_seen": "2026-09-08T10:17:00.157905+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.proofpoint.com",
+          "url": "https://www.proofpoint.com/us/blog/threat-insight/clipboard-compromise-powershell-self-pwn",
+          "pub_date": "2026-09-08T10:17:00.157905+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "ClearFake"
+        },
+        {
+          "type": "campaign",
+          "value": "ClickFix"
+        },
+        {
+          "type": "malware",
+          "value": "Amadey Loader"
+        },
+        {
+          "type": "malware",
+          "value": "DarkGate"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "lashakhazhalia86dancer.com",
+      "confidence": "high",
+      "reason": "Domain used for hosting malicious payloads as per context",
+      "first_seen": "2026-09-08T10:17:00.157905+00:00",
+      "last_seen": "2026-09-08T10:17:00.157905+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.proofpoint.com",
+          "url": "https://www.proofpoint.com/us/blog/threat-insight/clipboard-compromise-powershell-self-pwn",
+          "pub_date": "2026-09-08T10:17:00.157905+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "ClearFake"
+        },
+        {
+          "type": "campaign",
+          "value": "ClickFix"
+        },
+        {
+          "type": "malware",
+          "value": "Amadey Loader"
+        },
+        {
+          "type": "malware",
+          "value": "DarkGate"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "mylittlecabbage.net",
+      "confidence": "high",
+      "reason": "Domain used for hosting malicious payloads as per context",
+      "first_seen": "2026-09-08T10:17:00.157905+00:00",
+      "last_seen": "2026-09-08T10:17:00.157905+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.proofpoint.com",
+          "url": "https://www.proofpoint.com/us/blog/threat-insight/clipboard-compromise-powershell-self-pwn",
+          "pub_date": "2026-09-08T10:17:00.157905+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "ClearFake"
+        },
+        {
+          "type": "campaign",
+          "value": "ClickFix"
+        },
+        {
+          "type": "malware",
+          "value": "Amadey Loader"
+        },
+        {
+          "type": "malware",
+          "value": "DarkGate"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "oazevents.com",
+      "confidence": "high",
+      "reason": "Domain used for hosting malicious payloads as per context",
+      "first_seen": "2026-09-08T10:17:00.157905+00:00",
+      "last_seen": "2026-09-08T10:17:00.157905+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.proofpoint.com",
+          "url": "https://www.proofpoint.com/us/blog/threat-insight/clipboard-compromise-powershell-self-pwn",
+          "pub_date": "2026-09-08T10:17:00.157905+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "ClearFake"
+        },
+        {
+          "type": "campaign",
+          "value": "ClickFix"
+        },
+        {
+          "type": "malware",
+          "value": "Amadey Loader"
+        },
+        {
+          "type": "malware",
+          "value": "DarkGate"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "rtattack.baqebei1.online",
+      "confidence": "high",
+      "reason": "Domain used for hosting malicious payloads as per context",
+      "first_seen": "2026-09-08T10:17:00.157905+00:00",
+      "last_seen": "2026-09-08T10:17:00.157905+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.proofpoint.com",
+          "url": "https://www.proofpoint.com/us/blog/threat-insight/clipboard-compromise-powershell-self-pwn",
+          "pub_date": "2026-09-08T10:17:00.157905+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "ClearFake"
+        },
+        {
+          "type": "campaign",
+          "value": "ClickFix"
+        },
+        {
+          "type": "malware",
+          "value": "Amadey Loader"
+        },
+        {
+          "type": "malware",
+          "value": "DarkGate"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "update.dubbedmuch.cc",
+      "confidence": "high",
+      "reason": "Listed as C2 domain in the context of a malware payload",
+      "first_seen": "2026-09-08T10:01:07+00:00",
+      "last_seen": "2026-09-08T10:01:07+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Blog.Talosintelligence",
+          "url": "https://blog.talosintelligence.com/clearfake-webdav-infection-chain/",
+          "pub_date": "2026-09-08T10:01:07+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "industry",
+          "value": "Government"
+        },
+        {
+          "type": "malware",
+          "value": "ACRStealer"
+        },
+        {
+          "type": "malware",
+          "value": "Amatera"
+        },
+        {
+          "type": "malware",
+          "value": "ZigCryptoStealer"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "sk.wc.ci",
+      "confidence": "high",
+      "reason": "Domain registered by BengalSEO and linked to attacker activities.",
+      "first_seen": "2026-09-08T09:46:25.913877+00:00",
+      "last_seen": "2026-09-08T09:46:25.913877+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "thedfirreport.com",
+          "url": "https://thedfirreport.com/2026/08/24/bengalseo-part-1-anatomy-of-the-operation/",
+          "pub_date": "2026-09-08T09:46:25.913877+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "BengalSEO"
+        },
+        {
+          "type": "malware",
+          "value": "MayaBot"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "wapp.live",
+      "confidence": "high",
+      "reason": "[article sweep] Used as redirector domains in malicious infrastructure",
+      "first_seen": "2026-09-08T09:46:25.913877+00:00",
+      "last_seen": "2026-09-08T09:46:25.913877+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "thedfirreport.com",
+          "url": "https://thedfirreport.com/2026/08/24/bengalseo-part-1-anatomy-of-the-operation/",
+          "pub_date": "2026-09-08T09:46:25.913877+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "BengalSEO"
+        },
+        {
+          "type": "malware",
+          "value": "MayaBot"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "wc.ci",
+      "confidence": "high",
+      "reason": "Domain registered by BengalSEO and linked to attacker activities.",
+      "first_seen": "2026-09-08T08:43:51+00:00",
+      "last_seen": "2026-09-08T09:46:25.913877+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "thedfirreport.com",
+          "url": "https://thedfirreport.com/2026/08/24/bengalseo-part-1-anatomy-of-the-operation/",
+          "pub_date": "2026-09-08T09:46:25.913877+00:00"
+        },
+        {
+          "source": "Thehackernews",
+          "url": "https://thehackernews.com/2026/09/bengalseo-poisons-bing-search-results.html",
+          "pub_date": "2026-09-08T08:43:51+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "BengalSEO"
+        },
+        {
+          "type": "malware",
+          "value": "MayaBot"
+        },
+        {
+          "type": "industry",
+          "value": "Government"
+        },
+        {
+          "type": "malware",
+          "value": "AlphaAgent"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "bad.twittertoday.com",
+      "confidence": "high",
+      "reason": "[article sweep] Identified as a domain used by malware for C&C traffic",
+      "first_seen": "2026-09-08T08:37:02+00:00",
+      "last_seen": "2026-09-08T08:37:02+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Sploitus",
+          "url": "https://sploitus.com/exploit?id=KITPLOIT:3539659128764112668&utm_source=rss&utm_medium=rss",
+          "pub_date": "2026-09-08T08:37:02+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "cc.twittertoday.com",
+      "confidence": "high",
+      "reason": "[article sweep] Used in malicious C&C traffic according to the report",
+      "first_seen": "2026-09-08T08:37:02+00:00",
+      "last_seen": "2026-09-08T08:37:02+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Sploitus",
+          "url": "https://sploitus.com/exploit?id=KITPLOIT:3539659128764112668&utm_source=rss&utm_medium=rss",
+          "pub_date": "2026-09-08T08:37:02+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "twittertoday.com",
+      "confidence": "high",
+      "reason": "[article sweep] Domain used in malware communication according to the report",
+      "first_seen": "2026-09-08T08:37:02+00:00",
+      "last_seen": "2026-09-08T08:37:02+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Sploitus",
+          "url": "https://sploitus.com/exploit?id=KITPLOIT:3539659128764112668&utm_source=rss&utm_medium=rss",
+          "pub_date": "2026-09-08T08:37:02+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "ipv4",
+      "value": "202.29.94.200",
+      "confidence": "high",
+      "reason": "[article sweep] Resolved IP for a malicious domain",
+      "first_seen": "2026-09-08T08:37:02+00:00",
+      "last_seen": "2026-09-08T08:37:02+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Sploitus",
+          "url": "https://sploitus.com/exploit?id=KITPLOIT:3539659128764112668&utm_source=rss&utm_medium=rss",
+          "pub_date": "2026-09-08T08:37:02+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "ipv4",
+      "value": "71.51.115.11",
+      "confidence": "high",
+      "reason": "[article sweep] Resolved IP for a malicious domain",
+      "first_seen": "2026-09-08T08:37:02+00:00",
+      "last_seen": "2026-09-08T08:37:02+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Sploitus",
+          "url": "https://sploitus.com/exploit?id=KITPLOIT:3539659128764112668&utm_source=rss&utm_medium=rss",
+          "pub_date": "2026-09-08T08:37:02+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "enrollpasskey.com",
+      "confidence": "high",
+      "reason": "[article sweep] Listed as part of phishing infrastructure targeting credentials",
+      "first_seen": "2026-09-08T08:24:28+00:00",
+      "last_seen": "2026-09-08T08:24:28+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Bloglab.360",
+          "url": "https://blog.netlab.360.com/jin-rong-xing-ye-wang-luo-an-quan-jian-ce-yue-bao-202608/",
+          "pub_date": "2026-09-08T08:24:28+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "keyokta.com",
+      "confidence": "high",
+      "reason": "[article sweep] Listed as part of phishing infrastructure targeting credentials",
+      "first_seen": "2026-09-08T08:24:28+00:00",
+      "last_seen": "2026-09-08T08:24:28+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Bloglab.360",
+          "url": "https://blog.netlab.360.com/jin-rong-xing-ye-wang-luo-an-quan-jian-ce-yue-bao-202608/",
+          "pub_date": "2026-09-08T08:24:28+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "mspasskey.com",
+      "confidence": "high",
+      "reason": "[article sweep] Listed as part of phishing infrastructure targeting credentials",
+      "first_seen": "2026-09-08T08:24:28+00:00",
+      "last_seen": "2026-09-08T08:24:28+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Bloglab.360",
+          "url": "https://blog.netlab.360.com/jin-rong-xing-ye-wang-luo-an-quan-jian-ce-yue-bao-202608/",
+          "pub_date": "2026-09-08T08:24:28+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "myoktasso.com",
+      "confidence": "high",
+      "reason": "[article sweep] Listed as part of phishing infrastructure targeting credentials",
+      "first_seen": "2026-09-08T08:24:28+00:00",
+      "last_seen": "2026-09-08T08:24:28+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Bloglab.360",
+          "url": "https://blog.netlab.360.com/jin-rong-xing-ye-wang-luo-an-quan-jian-ce-yue-bao-202608/",
+          "pub_date": "2026-09-08T08:24:28+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "mypasskeysso.com",
+      "confidence": "high",
+      "reason": "[article sweep] Listed as part of phishing infrastructure targeting credentials",
+      "first_seen": "2026-09-08T08:24:28+00:00",
+      "last_seen": "2026-09-08T08:24:28+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Bloglab.360",
+          "url": "https://blog.netlab.360.com/jin-rong-xing-ye-wang-luo-an-quan-jian-ce-yue-bao-202608/",
+          "pub_date": "2026-09-08T08:24:28+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "oktaenroll.com",
+      "confidence": "high",
+      "reason": "[article sweep] Listed as part of phishing infrastructure targeting credentials",
+      "first_seen": "2026-09-08T08:24:28+00:00",
+      "last_seen": "2026-09-08T08:24:28+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Bloglab.360",
+          "url": "https://blog.netlab.360.com/jin-rong-xing-ye-wang-luo-an-quan-jian-ce-yue-bao-202608/",
+          "pub_date": "2026-09-08T08:24:28+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "oktaportalsso.com",
+      "confidence": "high",
+      "reason": "[article sweep] Listed as part of phishing infrastructure targeting credentials",
+      "first_seen": "2026-09-08T08:24:28+00:00",
+      "last_seen": "2026-09-08T08:24:28+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Bloglab.360",
+          "url": "https://blog.netlab.360.com/jin-rong-xing-ye-wang-luo-an-quan-jian-ce-yue-bao-202608/",
+          "pub_date": "2026-09-08T08:24:28+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "ipv4",
+      "value": "107.128.45.122",
+      "confidence": "high",
+      "reason": "[article sweep] Listed as part of an attack campaign",
+      "first_seen": "2026-09-08T08:24:28+00:00",
+      "last_seen": "2026-09-08T08:24:28+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Bloglab.360",
+          "url": "https://blog.netlab.360.com/jin-rong-xing-ye-wang-luo-an-quan-jian-ce-yue-bao-202608/",
+          "pub_date": "2026-09-08T08:24:28+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "ipv4",
+      "value": "38.42.59.171",
+      "confidence": "high",
+      "reason": "[article sweep] Listed as part of an attack campaign",
+      "first_seen": "2026-09-08T08:24:28+00:00",
+      "last_seen": "2026-09-08T08:24:28+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Bloglab.360",
+          "url": "https://blog.netlab.360.com/jin-rong-xing-ye-wang-luo-an-quan-jian-ce-yue-bao-202608/",
+          "pub_date": "2026-09-08T08:24:28+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "ipv4",
+      "value": "76.103.148.180",
+      "confidence": "high",
+      "reason": "[article sweep] Listed as part of an attack campaign",
+      "first_seen": "2026-09-08T08:24:28+00:00",
+      "last_seen": "2026-09-08T08:24:28+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Bloglab.360",
+          "url": "https://blog.netlab.360.com/jin-rong-xing-ye-wang-luo-an-quan-jian-ce-yue-bao-202608/",
+          "pub_date": "2026-09-08T08:24:28+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "ipv4",
+      "value": "80.96.109.64",
+      "confidence": "high",
+      "reason": "[article sweep] Listed as part of an attack campaign",
+      "first_seen": "2026-09-08T08:24:28+00:00",
+      "last_seen": "2026-09-08T08:24:28+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Bloglab.360",
+          "url": "https://blog.netlab.360.com/jin-rong-xing-ye-wang-luo-an-quan-jian-ce-yue-bao-202608/",
+          "pub_date": "2026-09-08T08:24:28+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "mybadsite.com",
+      "confidence": "high",
+      "reason": "[article sweep] Used in a payload URL indicating malicious intent",
+      "first_seen": "2026-09-08T04:49:58+00:00",
+      "last_seen": "2026-09-08T04:49:58+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Sploitus",
+          "url": "https://sploitus.com/exploit?id=KITPLOIT:TOOLS-GITHUB-EKULTEK-XANXSS&utm_source=rss&utm_medium=rss",
+          "pub_date": "2026-09-08T04:49:58+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "microsoft-secure.com",
+      "confidence": "high",
+      "reason": "[article sweep] Phishing domain designed to mimic a legitimate brand",
+      "first_seen": "2026-09-08T04:28:47+00:00",
+      "last_seen": "2026-09-08T04:28:47+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Sploitus",
+          "url": "https://sploitus.com/exploit?id=KITPLOIT:TOOLS-GITHUB-RAIKIA-FIERCEPHISH&utm_source=rss&utm_medium=rss",
+          "pub_date": "2026-09-08T04:28:47+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "yourfilehost.com",
+      "confidence": "high",
+      "reason": "[article sweep] Example of a domain used for phishing campaigns",
+      "first_seen": "2026-09-08T04:28:47+00:00",
+      "last_seen": "2026-09-08T04:28:47+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Sploitus",
+          "url": "https://sploitus.com/exploit?id=KITPLOIT:TOOLS-GITHUB-RAIKIA-FIERCEPHISH&utm_source=rss&utm_medium=rss",
+          "pub_date": "2026-09-08T04:28:47+00:00"
+        }
+      ],
+      "tags": []
+    },
     {
       "type": "domain",
       "value": "login.evil-domain.com",
@@ -44,45 +958,6 @@
         {
           "type": "industry",
           "value": "Pharmaceuticals"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "img.monderhouse.space",
-      "confidence": "high",
-      "reason": "Described as a C2 host in the context",
-      "first_seen": "2026-09-04T14:51:13+00:00",
-      "last_seen": "2026-09-07T15:47:58.411565+00:00",
-      "source_count": 2,
-      "sources": [
-        {
-          "source": "www.rapid7.com",
-          "url": "https://www.rapid7.com/blog/post/tr-dprk-apts-ted-backdoor-curlrat-target-south-korean-media-automotive-sectors/",
-          "pub_date": "2026-09-07T15:47:58.411565+00:00"
-        },
-        {
-          "source": "Thehackernews",
-          "url": "https://thehackernews.com/2026/09/new-ted-backdoor-hides-inside-victims.html",
-          "pub_date": "2026-09-04T14:51:13+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Apt37"
-        },
-        {
-          "type": "apt_group",
-          "value": "Kimsuky"
-        },
-        {
-          "type": "malware",
-          "value": "CurlRAT"
-        },
-        {
-          "type": "apt_group",
-          "value": "Lazarus"
         }
       ]
     },
@@ -320,23 +1195,6 @@
           "value": "Shai-Hulud Npm Supply Chain Attack"
         }
       ]
-    },
-    {
-      "type": "domain",
-      "value": "niestools.com",
-      "confidence": "high",
-      "reason": "[article sweep] Used as a proxy server domain in a malicious campaign.",
-      "first_seen": "2026-09-04T11:00:15+00:00",
-      "last_seen": "2026-09-04T11:00:15+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Securityaffairs.Co",
-          "url": "https://securityaffairs.com/198417/ai/chinese-hackers-use-ai-agents-in-multi-country-cyber-campaign.html",
-          "pub_date": "2026-09-04T11:00:15+00:00"
-        }
-      ],
-      "tags": []
     },
     {
       "type": "ipv4",
