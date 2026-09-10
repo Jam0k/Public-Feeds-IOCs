@@ -1,4 +1,19 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason
+domain,zfs.sy.gs,high,2026-09-09T15:45:47+00:00,2026-09-09T15:45:47+00:00,1,Sploitus:2026-09-09,Listed as a DNS zone for handling requests in a malicious context
+domain,brianwilli.com,high,2026-09-09T15:00:00+00:00,2026-09-09T15:00:00+00:00,1,Proofpoint:2026-09-09,Mentioned as an actor-controlled domain for downloading files
+domain,fracons.com,high,2026-09-09T15:00:00+00:00,2026-09-09T15:00:00+00:00,1,Proofpoint:2026-09-09,Used for C&C as per context
+domain,publish.openlumakora.com,high,2026-09-09T15:00:00+00:00,2026-09-09T15:00:00+00:00,1,Proofpoint:2026-09-09,Listed as BlueMoon exploit delivery hostname
+domain,silvustechnologies.online,high,2026-09-09T15:00:00+00:00,2026-09-09T15:00:00+00:00,1,Proofpoint:2026-09-09,Suspected BlueMoon exploit delivery domain
+domain,wcce.joinmacket.com,high,2026-09-09T15:00:00+00:00,2026-09-09T15:00:00+00:00,1,Proofpoint:2026-09-09,Listed as BlueMoon exploit delivery domain
+domain,ses.1001gacor.org,high,2026-09-09T14:31:09.124499+00:00,2026-09-09T14:31:09.124499+00:00,1,www.malwarebytes.com:2026-09-09,[article sweep] Communicated with by malware as part of attacker infrastructure.
+domain,xccset.sd,high,2026-09-09T08:31:18.137308+00:00,2026-09-09T08:31:18.137308+00:00,1,www.microsoft.com:2026-09-09,Domain related to XCSSET malware detected by Microsoft Defender
+domain,xccset.se,high,2026-09-09T08:31:18.137308+00:00,2026-09-09T08:31:18.137308+00:00,1,www.microsoft.com:2026-09-09,Domain related to XCSSET malware detected by Microsoft Defender
+domain,xccset.sg,high,2026-09-09T08:31:18.137308+00:00,2026-09-09T08:31:18.137308+00:00,1,www.microsoft.com:2026-09-09,Domain related to XCSSET malware detected by Microsoft Defender
+domain,xccset.si,high,2026-09-09T08:31:18.137308+00:00,2026-09-09T08:31:18.137308+00:00,1,www.microsoft.com:2026-09-09,Domain related to XCSSET malware detected by Microsoft Defender
+domain,xccset.sk,high,2026-09-09T08:31:18.137308+00:00,2026-09-09T08:31:18.137308+00:00,1,www.microsoft.com:2026-09-09,Domain related to XCSSET malware detected by Microsoft Defender
+domain,xcsset.sc,high,2026-09-09T08:31:18.137308+00:00,2026-09-09T08:31:18.137308+00:00,1,www.microsoft.com:2026-09-09,Domain related to XCSSET malware detected by Microsoft Defender
+domain,xcsset.se,high,2026-09-09T08:31:18.137308+00:00,2026-09-09T08:31:18.137308+00:00,1,www.microsoft.com:2026-09-09,Domain related to XCSSET malware detected by Microsoft Defender
+domain,xcsset.st,high,2026-09-09T08:31:18.137308+00:00,2026-09-09T08:31:18.137308+00:00,1,www.microsoft.com:2026-09-09,Domain related to XCSSET malware detected by Microsoft Defender
 domain,img.monderhouse.space,high,2026-09-04T14:51:13+00:00,2026-09-08T17:01:50.224687+00:00,3,www.rapid7.com:2026-09-08|Krypt3Ia.Wordpress:2026-09-08|Thehackernews:2026-09-04,Described as a C2 host in the context
 domain,niestools.com,high,2026-09-04T11:00:15+00:00,2026-09-08T16:58:55+00:00,2,Krypt3Ia.Wordpress:2026-09-08|Securityaffairs.Co:2026-09-04,[article sweep] Used as a proxy server domain in a malicious campaign.
 domain,hagaseca.com,high,2026-09-08T11:18:18.463595+00:00,2026-09-08T11:18:18.463595+00:00,1,darkatlas.io:2026-09-08,Dedicated domain used by THost9 as attacker infrastructure

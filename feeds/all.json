@@ -1,7 +1,7 @@
 {
   "feed": "threatcluster-public-iocs",
   "version": 1,
-  "generated_at": "2026-09-09T06:39:08Z",
+  "generated_at": "2026-09-10T06:38:39Z",
   "filters": {
     "confidence": "high",
     "window_days": 30,
@@ -11,8 +11,439 @@
       "domain"
     ]
   },
-  "count": 166,
+  "count": 184,
   "iocs": [
+    {
+      "type": "ipv4",
+      "value": "62.60.130.193",
+      "confidence": "high",
+      "reason": "[article sweep] Listed as a source of brute force traffic",
+      "first_seen": "2026-09-09T17:46:24+00:00",
+      "last_seen": "2026-09-09T17:46:24+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Isc.Sans.Edu",
+          "url": "https://isc.sans.edu/diary/rss/33324",
+          "pub_date": "2026-09-09T17:46:24+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "zfs.sy.gs",
+      "confidence": "high",
+      "reason": "Listed as a DNS zone for handling requests in a malicious context",
+      "first_seen": "2026-09-09T15:45:47+00:00",
+      "last_seen": "2026-09-09T15:45:47+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Sploitus",
+          "url": "https://sploitus.com/exploit?id=KITPLOIT:TOOLS-GITHUB-SYSS-RESEARCH-OUTIS&utm_source=rss&utm_medium=rss",
+          "pub_date": "2026-09-09T15:45:47+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "brianwilli.com",
+      "confidence": "high",
+      "reason": "Mentioned as an actor-controlled domain for downloading files",
+      "first_seen": "2026-09-09T15:00:00+00:00",
+      "last_seen": "2026-09-09T15:00:00+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Proofpoint",
+          "url": "https://www.proofpoint.com/us/blog/threat-insight/once-bluemoon-multiple-state-aligned-threat-actors-rapidly-adopt-novel-exploit",
+          "pub_date": "2026-09-09T15:00:00+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Apt31"
+        },
+        {
+          "type": "apt_group",
+          "value": "JungleBamboo"
+        },
+        {
+          "type": "apt_group",
+          "value": "Ta412"
+        },
+        {
+          "type": "apt_group",
+          "value": "TIDE Castle"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "fracons.com",
+      "confidence": "high",
+      "reason": "Used for C&C as per context",
+      "first_seen": "2026-09-09T15:00:00+00:00",
+      "last_seen": "2026-09-09T15:00:00+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Proofpoint",
+          "url": "https://www.proofpoint.com/us/blog/threat-insight/once-bluemoon-multiple-state-aligned-threat-actors-rapidly-adopt-novel-exploit",
+          "pub_date": "2026-09-09T15:00:00+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Apt31"
+        },
+        {
+          "type": "apt_group",
+          "value": "JungleBamboo"
+        },
+        {
+          "type": "apt_group",
+          "value": "Ta412"
+        },
+        {
+          "type": "apt_group",
+          "value": "TIDE Castle"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "publish.openlumakora.com",
+      "confidence": "high",
+      "reason": "Listed as BlueMoon exploit delivery hostname",
+      "first_seen": "2026-09-09T15:00:00+00:00",
+      "last_seen": "2026-09-09T15:00:00+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Proofpoint",
+          "url": "https://www.proofpoint.com/us/blog/threat-insight/once-bluemoon-multiple-state-aligned-threat-actors-rapidly-adopt-novel-exploit",
+          "pub_date": "2026-09-09T15:00:00+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Apt31"
+        },
+        {
+          "type": "apt_group",
+          "value": "JungleBamboo"
+        },
+        {
+          "type": "apt_group",
+          "value": "Ta412"
+        },
+        {
+          "type": "apt_group",
+          "value": "TIDE Castle"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "silvustechnologies.online",
+      "confidence": "high",
+      "reason": "Suspected BlueMoon exploit delivery domain",
+      "first_seen": "2026-09-09T15:00:00+00:00",
+      "last_seen": "2026-09-09T15:00:00+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Proofpoint",
+          "url": "https://www.proofpoint.com/us/blog/threat-insight/once-bluemoon-multiple-state-aligned-threat-actors-rapidly-adopt-novel-exploit",
+          "pub_date": "2026-09-09T15:00:00+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Apt31"
+        },
+        {
+          "type": "apt_group",
+          "value": "JungleBamboo"
+        },
+        {
+          "type": "apt_group",
+          "value": "Ta412"
+        },
+        {
+          "type": "apt_group",
+          "value": "TIDE Castle"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "wcce.joinmacket.com",
+      "confidence": "high",
+      "reason": "Listed as BlueMoon exploit delivery domain",
+      "first_seen": "2026-09-09T15:00:00+00:00",
+      "last_seen": "2026-09-09T15:00:00+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Proofpoint",
+          "url": "https://www.proofpoint.com/us/blog/threat-insight/once-bluemoon-multiple-state-aligned-threat-actors-rapidly-adopt-novel-exploit",
+          "pub_date": "2026-09-09T15:00:00+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Apt31"
+        },
+        {
+          "type": "apt_group",
+          "value": "JungleBamboo"
+        },
+        {
+          "type": "apt_group",
+          "value": "Ta412"
+        },
+        {
+          "type": "apt_group",
+          "value": "TIDE Castle"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "ses.1001gacor.org",
+      "confidence": "high",
+      "reason": "[article sweep] Communicated with by malware as part of attacker infrastructure.",
+      "first_seen": "2026-09-09T14:31:09.124499+00:00",
+      "last_seen": "2026-09-09T14:31:09.124499+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.malwarebytes.com",
+          "url": "https://www.malwarebytes.com/blog/threat-intel/2026/08/fake-gta-6-extended-look-and-demo-sites-deliver-an-infostealer",
+          "pub_date": "2026-09-09T14:31:09.124499+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "xccset.sd",
+      "confidence": "high",
+      "reason": "Domain related to XCSSET malware detected by Microsoft Defender",
+      "first_seen": "2026-09-09T08:31:18.137308+00:00",
+      "last_seen": "2026-09-09T08:31:18.137308+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.microsoft.com",
+          "url": "https://www.microsoft.com/en-us/security/blog/2025/03/11/new-xcsset-malware-adds-new-obfuscation-persistence-techniques-to-infect-xcode-projects/",
+          "pub_date": "2026-09-09T08:31:18.137308+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "Xcsset"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "xccset.se",
+      "confidence": "high",
+      "reason": "Domain related to XCSSET malware detected by Microsoft Defender",
+      "first_seen": "2026-09-09T08:31:18.137308+00:00",
+      "last_seen": "2026-09-09T08:31:18.137308+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.microsoft.com",
+          "url": "https://www.microsoft.com/en-us/security/blog/2025/03/11/new-xcsset-malware-adds-new-obfuscation-persistence-techniques-to-infect-xcode-projects/",
+          "pub_date": "2026-09-09T08:31:18.137308+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "Xcsset"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "xccset.sg",
+      "confidence": "high",
+      "reason": "Domain related to XCSSET malware detected by Microsoft Defender",
+      "first_seen": "2026-09-09T08:31:18.137308+00:00",
+      "last_seen": "2026-09-09T08:31:18.137308+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.microsoft.com",
+          "url": "https://www.microsoft.com/en-us/security/blog/2025/03/11/new-xcsset-malware-adds-new-obfuscation-persistence-techniques-to-infect-xcode-projects/",
+          "pub_date": "2026-09-09T08:31:18.137308+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "Xcsset"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "xccset.si",
+      "confidence": "high",
+      "reason": "Domain related to XCSSET malware detected by Microsoft Defender",
+      "first_seen": "2026-09-09T08:31:18.137308+00:00",
+      "last_seen": "2026-09-09T08:31:18.137308+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.microsoft.com",
+          "url": "https://www.microsoft.com/en-us/security/blog/2025/03/11/new-xcsset-malware-adds-new-obfuscation-persistence-techniques-to-infect-xcode-projects/",
+          "pub_date": "2026-09-09T08:31:18.137308+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "Xcsset"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "xccset.sk",
+      "confidence": "high",
+      "reason": "Domain related to XCSSET malware detected by Microsoft Defender",
+      "first_seen": "2026-09-09T08:31:18.137308+00:00",
+      "last_seen": "2026-09-09T08:31:18.137308+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.microsoft.com",
+          "url": "https://www.microsoft.com/en-us/security/blog/2025/03/11/new-xcsset-malware-adds-new-obfuscation-persistence-techniques-to-infect-xcode-projects/",
+          "pub_date": "2026-09-09T08:31:18.137308+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "Xcsset"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "xcsset.sc",
+      "confidence": "high",
+      "reason": "Domain related to XCSSET malware detected by Microsoft Defender",
+      "first_seen": "2026-09-09T08:31:18.137308+00:00",
+      "last_seen": "2026-09-09T08:31:18.137308+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.microsoft.com",
+          "url": "https://www.microsoft.com/en-us/security/blog/2025/03/11/new-xcsset-malware-adds-new-obfuscation-persistence-techniques-to-infect-xcode-projects/",
+          "pub_date": "2026-09-09T08:31:18.137308+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "Xcsset"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "xcsset.se",
+      "confidence": "high",
+      "reason": "Domain related to XCSSET malware detected by Microsoft Defender",
+      "first_seen": "2026-09-09T08:31:18.137308+00:00",
+      "last_seen": "2026-09-09T08:31:18.137308+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.microsoft.com",
+          "url": "https://www.microsoft.com/en-us/security/blog/2025/03/11/new-xcsset-malware-adds-new-obfuscation-persistence-techniques-to-infect-xcode-projects/",
+          "pub_date": "2026-09-09T08:31:18.137308+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "Xcsset"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "xcsset.st",
+      "confidence": "high",
+      "reason": "Domain related to XCSSET malware detected by Microsoft Defender",
+      "first_seen": "2026-09-09T08:31:18.137308+00:00",
+      "last_seen": "2026-09-09T08:31:18.137308+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.microsoft.com",
+          "url": "https://www.microsoft.com/en-us/security/blog/2025/03/11/new-xcsset-malware-adds-new-obfuscation-persistence-techniques-to-infect-xcode-projects/",
+          "pub_date": "2026-09-09T08:31:18.137308+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "Xcsset"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "1.2.3.4",
+      "confidence": "high",
+      "reason": "[article sweep] Listed as the C2 server APT28 provisioned for this campaign",
+      "first_seen": "2026-09-09T03:54:51+00:00",
+      "last_seen": "2026-09-09T03:54:51+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Sploitus",
+          "url": "https://sploitus.com/exploit?id=KITPLOIT:TOOLS-GITHUB-DEREEQW-BERRYSENTINEL&utm_source=rss&utm_medium=rss",
+          "pub_date": "2026-09-09T03:54:51+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "ipv4",
+      "value": "5.6.7.8",
+      "confidence": "high",
+      "reason": "[article sweep] Listed as a C2 server in a behavioral detection tool",
+      "first_seen": "2026-09-09T03:54:51+00:00",
+      "last_seen": "2026-09-09T03:54:51+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Sploitus",
+          "url": "https://sploitus.com/exploit?id=KITPLOIT:TOOLS-GITHUB-DEREEQW-BERRYSENTINEL&utm_source=rss&utm_medium=rss",
+          "pub_date": "2026-09-09T03:54:51+00:00"
+        }
+      ],
+      "tags": []
+    },
     {
       "type": "domain",
       "value": "img.monderhouse.space",
