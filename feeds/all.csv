@@ -1,4 +1,11 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason
+ipv4,203.160.68.12,high,2026-09-12T15:05:46+00:00,2026-09-12T15:05:46+00:00,1,Sploitus:2026-09-12,[article sweep] Identified as a source IP for malicious activity
+ipv4,92.118.112.181,high,2026-09-12T11:01:24+00:00,2026-09-12T11:01:24+00:00,1,Sploitus:2026-09-12,[article sweep] Listed as a known malicious IP
+domain,gopdallas2026.com,high,2026-09-12T08:15:02+00:00,2026-09-12T08:15:02+00:00,1,Cybermagazine:2026-09-12,[article sweep] Identified as a fake website impersonating a legitimate domain
+domain,evil-vps.domainreg.net,high,2026-09-11T18:07:49+00:00,2026-09-11T18:07:49+00:00,1,Sploitus:2026-09-11,[article sweep] Described as a registered domain used for reverse shell actions
+ipv4,186.227.4.31,high,2026-09-11T18:07:49+00:00,2026-09-11T18:07:49+00:00,1,Sploitus:2026-09-11,[article sweep] Used in a reverse shell attack
+ipv4,1.2.3.5,high,2026-09-11T16:02:45+00:00,2026-09-11T16:02:45+00:00,1,Sploitus:2026-09-11,[article sweep] Used in a privilege escalation attack
+ipv4,45.158.196.75,high,2026-09-11T10:05:52+00:00,2026-09-11T10:05:52+00:00,1,Bloglab.360:2026-09-11,[article sweep] Used in a global attack campaign
 domain,leappoach.info,high,2026-09-10T20:36:21.084658+00:00,2026-09-10T20:36:21.084658+00:00,1,npratley.net:2026-09-10,[article sweep] Listed as part of a suspicious domain chain in a security audit.
 domain,y4bxj.adozeuds.com,high,2026-09-10T18:33:12.876366+00:00,2026-09-10T18:33:12.876366+00:00,1,www.bleepingcomputer.com:2026-09-10,[article sweep] Listed as a payment gateway host for TeslaCrypt ransomware.
 ipv4,113.141.67.163,high,2026-09-10T16:49:06+00:00,2026-09-10T16:49:06+00:00,1,Sploitus:2026-09-10,[article sweep] IP address detected as source of attack and blacklisted
@@ -12,6 +19,8 @@ ipv4,45.143.221.59,high,2026-09-10T16:49:06+00:00,2026-09-10T16:49:06+00:00,1,Sp
 ipv4,45.234.152.38,high,2026-09-10T16:49:06+00:00,2026-09-10T16:49:06+00:00,1,Sploitus:2026-09-10,[article sweep] IP address detected as source of attack and blacklisted
 ipv4,91.212.38.210,high,2026-09-10T16:49:06+00:00,2026-09-10T16:49:06+00:00,1,Sploitus:2026-09-10,[article sweep] IP address detected as source of attack and blacklisted
 ipv4,92.246.85.154,high,2026-09-10T16:49:06+00:00,2026-09-10T16:49:06+00:00,1,Sploitus:2026-09-10,[article sweep] Listed as an IP address detected in an attack and added to a blacklist.
+domain,finger.linked4x.com,high,2026-09-10T16:08:43+00:00,2026-09-10T16:08:43+00:00,1,Zscaler:2026-09-10,"Listed as a ClickFix script domain, indicating attacker control"
+domain,skipraid.com,high,2026-09-10T16:08:43+00:00,2026-09-10T16:08:43+00:00,1,Zscaler:2026-09-10,"Listed as a domain used in the attack, indicating attacker control"
 ipv4,62.60.130.193,high,2026-09-09T17:46:24+00:00,2026-09-09T17:46:24+00:00,1,Isc.Sans.Edu:2026-09-09,[article sweep] Listed as a source of brute force traffic
 domain,zfs.sy.gs,high,2026-09-09T15:45:47+00:00,2026-09-09T15:45:47+00:00,1,Sploitus:2026-09-09,Listed as a DNS zone for handling requests in a malicious context
 domain,aurexdefense.online,high,2026-09-09T15:00:00+00:00,2026-09-09T15:00:00+00:00,1,Proofpoint:2026-09-09,Listed as a suspected BlueMoon exploit delivery domain
@@ -191,13 +200,3 @@ domain,gigapaper.ir,high,2026-08-18T17:54:40+00:00,2026-08-18T17:54:40+00:00,1,J
 domain,megapaper.ir,high,2026-08-18T17:54:40+00:00,2026-08-18T17:54:40+00:00,1,Justice:2026-08-18,[article sweep] Used to sell stolen academic resources
 domain,msfconfig.icu,high,2026-08-17T16:03:58+00:00,2026-08-17T16:03:58+00:00,1,Kaspersky:2026-08-17,"[article sweep] Domain used to host malicious scripts, indicating attacker control"
 ipv4,85.206.161.241,high,2026-08-17T13:59:31+00:00,2026-08-17T13:59:31+00:00,1,Huntress:2026-08-17,[article sweep] IP address used for direct C2 communication via WebSocket
-ipv4,45.192.12.34,high,2026-08-13T21:19:45+00:00,2026-08-13T21:19:45+00:00,1,Iverify:2026-08-13,[article sweep] Identified as a C2 server in malware configuration
-ipv4,108.187.42.63,high,2026-08-13T12:20:26+00:00,2026-08-13T20:36:50.388033+00:00,2,securelist.com:2026-08-13|Acronis:2026-08-13,Identified as C2 server responding to requests.
-ipv4,46.30.188.13,high,2026-08-13T12:20:26+00:00,2026-08-13T12:20:26+00:00,1,Acronis:2026-08-13,Identified as C2 server responding to requests.
-domain,bookcheckarrival-gueststayhotel.com,high,2026-08-13T06:24:31+00:00,2026-08-13T06:24:31+00:00,1,Heise.De:2026-08-13,Indicates attacker-controlled phishing domain targeting hotel reservations.
-domain,ramimac.me,high,2026-08-12T22:06:24.425523+00:00,2026-08-12T22:06:24.425523+00:00,1,snyk.io:2026-08-12,[article sweep] Used in a campaign tracked by Wiz Threat Center.
-domain,msupdate.updatemicfosoft.com,high,2026-08-12T14:35:21+00:00,2026-08-12T14:35:21+00:00,1,Rescana:2026-08-12,"[article sweep] Custom C2 domain used in an attack, indicating attacker control"
-ipv4,131.226.2.6,high,2026-08-12T14:35:21+00:00,2026-08-12T14:35:21+00:00,1,Rescana:2026-08-12,[article sweep] Listed as a known malicious IP in a threat report
-ipv4,188.130.206.168,high,2026-08-12T14:35:21+00:00,2026-08-12T14:35:21+00:00,1,Rescana:2026-08-12,[article sweep] Known malicious IP used in SharePoint exploitation
-ipv4,65.38.121.198,high,2026-08-12T14:35:21+00:00,2026-08-12T14:35:21+00:00,1,Rescana:2026-08-12,[article sweep] Listed as a known malicious IP in SharePoint exploitation
-domain,ccleanerwind.top,high,2026-08-12T10:20:02+00:00,2026-08-12T11:31:38+00:00,2,Gbhackers:2026-08-12|Csoonline:2026-08-12,Identified as attacker-controlled domain for malware distribution

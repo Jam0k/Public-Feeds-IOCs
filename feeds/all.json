@@ -1,7 +1,7 @@
 {
   "feed": "threatcluster-public-iocs",
   "version": 1,
-  "generated_at": "2026-09-11T06:38:02Z",
+  "generated_at": "2026-09-13T06:39:30Z",
   "filters": {
     "confidence": "high",
     "window_days": 30,
@@ -11,8 +11,127 @@
       "domain"
     ]
   },
-  "count": 202,
+  "count": 201,
   "iocs": [
+    {
+      "type": "ipv4",
+      "value": "203.160.68.12",
+      "confidence": "high",
+      "reason": "[article sweep] Identified as a source IP for malicious activity",
+      "first_seen": "2026-09-12T15:05:46+00:00",
+      "last_seen": "2026-09-12T15:05:46+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Sploitus",
+          "url": "https://sploitus.com/exploit?id=KITPLOIT:TOOLS-GITHUB-CYBERBIBS-SOC274---PALO-ALTO-NETWORKS-PAN-OS-COMMAND-INJECTION-VULNERABILITY-EXPLOITATION-CVE-2024-3400-&utm_source=rss&utm_medium=rss",
+          "pub_date": "2026-09-12T15:05:46+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "ipv4",
+      "value": "92.118.112.181",
+      "confidence": "high",
+      "reason": "[article sweep] Listed as a known malicious IP",
+      "first_seen": "2026-09-12T11:01:24+00:00",
+      "last_seen": "2026-09-12T11:01:24+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Sploitus",
+          "url": "https://sploitus.com/exploit?id=052122DE-9698-54C5-AF84-3E655FC24B14&utm_source=rss&utm_medium=rss",
+          "pub_date": "2026-09-12T11:01:24+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "gopdallas2026.com",
+      "confidence": "high",
+      "reason": "[article sweep] Identified as a fake website impersonating a legitimate domain",
+      "first_seen": "2026-09-12T08:15:02+00:00",
+      "last_seen": "2026-09-12T08:15:02+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cybermagazine",
+          "url": "https://cybermagazine.com/news/this-weeks-top-five-stories-in-cybersecurity-cyber-news-today-top-stories",
+          "pub_date": "2026-09-12T08:15:02+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "evil-vps.domainreg.net",
+      "confidence": "high",
+      "reason": "[article sweep] Described as a registered domain used for reverse shell actions",
+      "first_seen": "2026-09-11T18:07:49+00:00",
+      "last_seen": "2026-09-11T18:07:49+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Sploitus",
+          "url": "https://sploitus.com/exploit?id=KITPLOIT:TOOLS-GITHUB-RAI2EN-CVE-2023-4220-CHAMILO-LMS&utm_source=rss&utm_medium=rss",
+          "pub_date": "2026-09-11T18:07:49+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "ipv4",
+      "value": "186.227.4.31",
+      "confidence": "high",
+      "reason": "[article sweep] Used in a reverse shell attack",
+      "first_seen": "2026-09-11T18:07:49+00:00",
+      "last_seen": "2026-09-11T18:07:49+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Sploitus",
+          "url": "https://sploitus.com/exploit?id=KITPLOIT:TOOLS-GITHUB-RAI2EN-CVE-2023-4220-CHAMILO-LMS&utm_source=rss&utm_medium=rss",
+          "pub_date": "2026-09-11T18:07:49+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "ipv4",
+      "value": "1.2.3.5",
+      "confidence": "high",
+      "reason": "[article sweep] Used in a privilege escalation attack",
+      "first_seen": "2026-09-11T16:02:45+00:00",
+      "last_seen": "2026-09-11T16:02:45+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Sploitus",
+          "url": "https://sploitus.com/exploit?id=C760232B-F434-564F-BE87-CE2C03764A6B&utm_source=rss&utm_medium=rss",
+          "pub_date": "2026-09-11T16:02:45+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "ipv4",
+      "value": "45.158.196.75",
+      "confidence": "high",
+      "reason": "[article sweep] Used in a global attack campaign",
+      "first_seen": "2026-09-11T10:05:52+00:00",
+      "last_seen": "2026-09-11T10:05:52+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Bloglab.360",
+          "url": "https://blog.netlab.360.com/aian-quan-zhuan-ti-zhou-bao-5/",
+          "pub_date": "2026-09-11T10:05:52+00:00"
+        }
+      ],
+      "tags": []
+    },
     {
       "type": "domain",
       "value": "leappoach.info",
@@ -233,6 +352,66 @@
         }
       ],
       "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "finger.linked4x.com",
+      "confidence": "high",
+      "reason": "Listed as a ClickFix script domain, indicating attacker control",
+      "first_seen": "2026-09-10T16:08:43+00:00",
+      "last_seen": "2026-09-10T16:08:43+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Zscaler",
+          "url": "https://www.zscaler.com/blogs/security-research/sloppyrat-new-tool-ransomware-attacks",
+          "pub_date": "2026-09-10T16:08:43+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "CastleLoader"
+        },
+        {
+          "type": "malware",
+          "value": "CastleRAT"
+        },
+        {
+          "type": "malware",
+          "value": "SloppyRAT"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "skipraid.com",
+      "confidence": "high",
+      "reason": "Listed as a domain used in the attack, indicating attacker control",
+      "first_seen": "2026-09-10T16:08:43+00:00",
+      "last_seen": "2026-09-10T16:08:43+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Zscaler",
+          "url": "https://www.zscaler.com/blogs/security-research/sloppyrat-new-tool-ransomware-attacks",
+          "pub_date": "2026-09-10T16:08:43+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "CastleLoader"
+        },
+        {
+          "type": "malware",
+          "value": "CastleRAT"
+        },
+        {
+          "type": "malware",
+          "value": "SloppyRAT"
+        }
+      ]
     },
     {
       "type": "ipv4",
@@ -4466,233 +4645,6 @@
         {
           "type": "malware",
           "value": "SectopRAT"
-        }
-      ]
-    },
-    {
-      "type": "ipv4",
-      "value": "45.192.12.34",
-      "confidence": "high",
-      "reason": "[article sweep] Identified as a C2 server in malware configuration",
-      "first_seen": "2026-08-13T21:19:45+00:00",
-      "last_seen": "2026-08-13T21:19:45+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Iverify",
-          "url": "https://iverify.io/blog/octagon-android-bot-crypto-wallets-banking-apps",
-          "pub_date": "2026-08-13T21:19:45+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "ipv4",
-      "value": "108.187.42.63",
-      "confidence": "high",
-      "reason": "Identified as C2 server responding to requests.",
-      "first_seen": "2026-08-13T12:20:26+00:00",
-      "last_seen": "2026-08-13T20:36:50.388033+00:00",
-      "source_count": 2,
-      "sources": [
-        {
-          "source": "securelist.com",
-          "url": "https://securelist.com/tr/silver-fox-tax-notification-campaign/120038/",
-          "pub_date": "2026-08-13T20:36:50.388033+00:00"
-        },
-        {
-          "source": "Acronis",
-          "url": "https://www.acronis.com/en/tru/posts/patchcord-new-malware-cluster-targets-afghan-telecom-and-south-asian-critical-infrastructure/",
-          "pub_date": "2026-08-13T12:20:26+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Apt36"
-        },
-        {
-          "type": "apt_group",
-          "value": "Transparent Tribe"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2021-4034"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2024-6387"
-        }
-      ]
-    },
-    {
-      "type": "ipv4",
-      "value": "46.30.188.13",
-      "confidence": "high",
-      "reason": "Identified as C2 server responding to requests.",
-      "first_seen": "2026-08-13T12:20:26+00:00",
-      "last_seen": "2026-08-13T12:20:26+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Acronis",
-          "url": "https://www.acronis.com/tru/posts/patchcord-new-malware-cluster-targets-afghan-telecom-and-south-asian-critical-infrastructure/",
-          "pub_date": "2026-08-13T12:20:26+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Apt36"
-        },
-        {
-          "type": "apt_group",
-          "value": "Transparent Tribe"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2021-4034"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2024-6387"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "bookcheckarrival-gueststayhotel.com",
-      "confidence": "high",
-      "reason": "Indicates attacker-controlled phishing domain targeting hotel reservations.",
-      "first_seen": "2026-08-13T06:24:31+00:00",
-      "last_seen": "2026-08-13T06:24:31+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Heise.De",
-          "url": "https://www.heise.de/en/news/Phishing-waves-Cyberattacks-on-IT-service-providers-for-hotels-11412196.html",
-          "pub_date": "2026-08-13T06:24:31+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "ramimac.me",
-      "confidence": "high",
-      "reason": "[article sweep] Used in a campaign tracked by Wiz Threat Center.",
-      "first_seen": "2026-08-12T22:06:24.425523+00:00",
-      "last_seen": "2026-08-12T22:06:24.425523+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "snyk.io",
-          "url": "https://snyk.io/blog/poisoned-security-scanner-backdooring-litellm/",
-          "pub_date": "2026-08-12T22:06:24.425523+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "msupdate.updatemicfosoft.com",
-      "confidence": "high",
-      "reason": "[article sweep] Custom C2 domain used in an attack, indicating attacker control",
-      "first_seen": "2026-08-12T14:35:21+00:00",
-      "last_seen": "2026-08-12T14:35:21+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Rescana",
-          "url": "https://www.rescana.com/post/active-exploitation-alert-critical-microsoft-sharepoint-cve-2026-50522-vulnerability-targeted-in-global-attacks",
-          "pub_date": "2026-08-12T14:35:21+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "ipv4",
-      "value": "131.226.2.6",
-      "confidence": "high",
-      "reason": "[article sweep] Listed as a known malicious IP in a threat report",
-      "first_seen": "2026-08-12T14:35:21+00:00",
-      "last_seen": "2026-08-12T14:35:21+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Rescana",
-          "url": "https://www.rescana.com/post/active-exploitation-alert-critical-microsoft-sharepoint-cve-2026-50522-vulnerability-targeted-in-global-attacks",
-          "pub_date": "2026-08-12T14:35:21+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "ipv4",
-      "value": "188.130.206.168",
-      "confidence": "high",
-      "reason": "[article sweep] Known malicious IP used in SharePoint exploitation",
-      "first_seen": "2026-08-12T14:35:21+00:00",
-      "last_seen": "2026-08-12T14:35:21+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Rescana",
-          "url": "https://www.rescana.com/post/active-exploitation-alert-critical-microsoft-sharepoint-cve-2026-50522-vulnerability-targeted-in-global-attacks",
-          "pub_date": "2026-08-12T14:35:21+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "ipv4",
-      "value": "65.38.121.198",
-      "confidence": "high",
-      "reason": "[article sweep] Listed as a known malicious IP in SharePoint exploitation",
-      "first_seen": "2026-08-12T14:35:21+00:00",
-      "last_seen": "2026-08-12T14:35:21+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Rescana",
-          "url": "https://www.rescana.com/post/active-exploitation-alert-critical-microsoft-sharepoint-cve-2026-50522-vulnerability-targeted-in-global-attacks",
-          "pub_date": "2026-08-12T14:35:21+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "ccleanerwind.top",
-      "confidence": "high",
-      "reason": "Identified as attacker-controlled domain for malware distribution",
-      "first_seen": "2026-08-12T10:20:02+00:00",
-      "last_seen": "2026-08-12T11:31:38+00:00",
-      "source_count": 2,
-      "sources": [
-        {
-          "source": "Gbhackers",
-          "url": "https://gbhackers.com/malicious-ccleaner-installer/amp/",
-          "pub_date": "2026-08-12T11:31:38+00:00"
-        },
-        {
-          "source": "Csoonline",
-          "url": "https://www.csoonline.com/article/4208565/fake-ccleaner-downloads-turn-chrome-into-a-credential-stealing-surveillance-tool.html",
-          "pub_date": "2026-08-12T11:26:50+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "malware",
-          "value": "GhostDesk"
-        },
-        {
-          "type": "malware",
-          "value": "Trojan.Dropper"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-59310"
         }
       ]
     }

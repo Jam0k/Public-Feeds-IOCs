@@ -1,4 +1,9 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason
+ipv4,203.160.68.12,high,2026-09-12T15:05:46+00:00,2026-09-12T15:05:46+00:00,1,Sploitus:2026-09-12,[article sweep] Identified as a source IP for malicious activity
+ipv4,92.118.112.181,high,2026-09-12T11:01:24+00:00,2026-09-12T11:01:24+00:00,1,Sploitus:2026-09-12,[article sweep] Listed as a known malicious IP
+ipv4,186.227.4.31,high,2026-09-11T18:07:49+00:00,2026-09-11T18:07:49+00:00,1,Sploitus:2026-09-11,[article sweep] Used in a reverse shell attack
+ipv4,1.2.3.5,high,2026-09-11T16:02:45+00:00,2026-09-11T16:02:45+00:00,1,Sploitus:2026-09-11,[article sweep] Used in a privilege escalation attack
+ipv4,45.158.196.75,high,2026-09-11T10:05:52+00:00,2026-09-11T10:05:52+00:00,1,Bloglab.360:2026-09-11,[article sweep] Used in a global attack campaign
 ipv4,113.141.67.163,high,2026-09-10T16:49:06+00:00,2026-09-10T16:49:06+00:00,1,Sploitus:2026-09-10,[article sweep] IP address detected as source of attack and blacklisted
 ipv4,185.221.135.138,high,2026-09-10T16:49:06+00:00,2026-09-10T16:49:06+00:00,1,Sploitus:2026-09-10,[article sweep] IP address detected as source of attack and blacklisted
 ipv4,185.53.88.49,high,2026-09-10T16:49:06+00:00,2026-09-10T16:49:06+00:00,1,Sploitus:2026-09-10,[article sweep] IP address detected as source of attack and blacklisted
@@ -57,9 +62,3 @@ ipv4,102.91.71.83,high,2026-08-25T15:50:04+00:00,2026-08-25T15:50:04+00:00,1,Tec
 ipv4,103.236.54.207,high,2026-08-19T19:56:48+00:00,2026-08-19T19:56:48+00:00,1,Cloudsek:2026-08-19,[article sweep] Used as a staging server by the attacker
 ipv4,196.251.84.11,high,2026-08-19T09:52:51+00:00,2026-08-19T09:52:51+00:00,1,Group-Ib:2026-08-19,Identified as active C2 server for Spyroid-based malware.
 ipv4,85.206.161.241,high,2026-08-17T13:59:31+00:00,2026-08-17T13:59:31+00:00,1,Huntress:2026-08-17,[article sweep] IP address used for direct C2 communication via WebSocket
-ipv4,45.192.12.34,high,2026-08-13T21:19:45+00:00,2026-08-13T21:19:45+00:00,1,Iverify:2026-08-13,[article sweep] Identified as a C2 server in malware configuration
-ipv4,108.187.42.63,high,2026-08-13T12:20:26+00:00,2026-08-13T20:36:50.388033+00:00,2,securelist.com:2026-08-13|Acronis:2026-08-13,Identified as C2 server responding to requests.
-ipv4,46.30.188.13,high,2026-08-13T12:20:26+00:00,2026-08-13T12:20:26+00:00,1,Acronis:2026-08-13,Identified as C2 server responding to requests.
-ipv4,131.226.2.6,high,2026-08-12T14:35:21+00:00,2026-08-12T14:35:21+00:00,1,Rescana:2026-08-12,[article sweep] Listed as a known malicious IP in a threat report
-ipv4,188.130.206.168,high,2026-08-12T14:35:21+00:00,2026-08-12T14:35:21+00:00,1,Rescana:2026-08-12,[article sweep] Known malicious IP used in SharePoint exploitation
-ipv4,65.38.121.198,high,2026-08-12T14:35:21+00:00,2026-08-12T14:35:21+00:00,1,Rescana:2026-08-12,[article sweep] Listed as a known malicious IP in SharePoint exploitation
