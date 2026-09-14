@@ -1,7 +1,7 @@
 {
   "feed": "threatcluster-public-iocs",
   "version": 1,
-  "generated_at": "2026-09-13T06:39:30Z",
+  "generated_at": "2026-09-14T06:49:23Z",
   "filters": {
     "confidence": "high",
     "window_days": 30,
@@ -11,8 +11,103 @@
       "domain"
     ]
   },
-  "count": 201,
+  "count": 206,
   "iocs": [
+    {
+      "type": "domain",
+      "value": "assetnote-callback.com",
+      "confidence": "high",
+      "reason": "[article sweep] Domain used for callback attempts in scanning activity",
+      "first_seen": "2026-09-13T18:03:09+00:00",
+      "last_seen": "2026-09-13T18:03:09+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "News.Ycombinator",
+          "url": "https://dreamstation.systems/personal/tesla.html",
+          "pub_date": "2026-09-13T18:03:09+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "canary.assetnotessrf.com",
+      "confidence": "high",
+      "reason": "[article sweep] Domain used for SSRF detection in scanning activity",
+      "first_seen": "2026-09-13T18:03:09+00:00",
+      "last_seen": "2026-09-13T18:03:09+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "News.Ycombinator",
+          "url": "https://dreamstation.systems/personal/tesla.html",
+          "pub_date": "2026-09-13T18:03:09+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "img.monderhouse.space",
+      "confidence": "high",
+      "reason": "Described as a C2 host in the context",
+      "first_seen": "2026-09-04T14:51:13+00:00",
+      "last_seen": "2026-09-13T17:51:49.140131+00:00",
+      "source_count": 3,
+      "sources": [
+        {
+          "source": "www.rapid7.com",
+          "url": "https://www.rapid7.com/blog/post/tr-dprk-apts-ted-backdoor-curlrat-target-south-korean-media-automotive-sectors/",
+          "pub_date": "2026-09-13T17:51:49.140131+00:00"
+        },
+        {
+          "source": "Krypt3Ia.Wordpress",
+          "url": "https://krypt3ia.wordpress.com/2026/09/08/weekly-all-source-cyber-warfare-intelligence-brief-september-8-2026/",
+          "pub_date": "2026-09-08T16:58:55+00:00"
+        },
+        {
+          "source": "Thehackernews",
+          "url": "https://thehackernews.com/2026/09/new-ted-backdoor-hides-inside-victims.html",
+          "pub_date": "2026-09-04T14:51:13+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "CurlRAT"
+        },
+        {
+          "type": "apt_group",
+          "value": "Apt37"
+        },
+        {
+          "type": "apt_group",
+          "value": "Kimsuky"
+        },
+        {
+          "type": "industry",
+          "value": "Financial"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "malicious.xyz",
+      "confidence": "high",
+      "reason": "[article sweep] Domain used for reputation check in a threat intelligence tool",
+      "first_seen": "2026-09-13T10:02:18+00:00",
+      "last_seen": "2026-09-13T10:02:18+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Sploitus",
+          "url": "https://sploitus.com/exploit?id=KITPLOIT:TOOLS-GITHUB-COGENSEC-GIDEON&utm_source=rss&utm_medium=rss",
+          "pub_date": "2026-09-13T10:02:18+00:00"
+        }
+      ],
+      "tags": []
+    },
     {
       "type": "ipv4",
       "value": "203.160.68.12",
@@ -131,6 +226,74 @@
         }
       ],
       "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "mail.uaiubifas.top",
+      "confidence": "high",
+      "reason": "Listed as a backdoor command server",
+      "first_seen": "2026-09-11T07:14:09+00:00",
+      "last_seen": "2026-09-11T07:14:09+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Thehackernews",
+          "url": "https://thehackernews.com/2026/09/china-linked-unc3569-exploited-sogou.html",
+          "pub_date": "2026-09-11T07:14:09+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Unc3569"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2021-38003"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-51990"
+        },
+        {
+          "type": "industry",
+          "value": "Education"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "noht1ng.top",
+      "confidence": "high",
+      "reason": "Hosted the exploit page",
+      "first_seen": "2026-09-11T07:14:09+00:00",
+      "last_seen": "2026-09-11T07:14:09+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Thehackernews",
+          "url": "https://thehackernews.com/2026/09/china-linked-unc3569-exploited-sogou.html",
+          "pub_date": "2026-09-11T07:14:09+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Unc3569"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2021-38003"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-51990"
+        },
+        {
+          "type": "industry",
+          "value": "Education"
+        }
+      ]
     },
     {
       "type": "domain",
@@ -1115,50 +1278,6 @@
         }
       ],
       "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "img.monderhouse.space",
-      "confidence": "high",
-      "reason": "Described as a C2 host in the context",
-      "first_seen": "2026-09-04T14:51:13+00:00",
-      "last_seen": "2026-09-08T17:01:50.224687+00:00",
-      "source_count": 3,
-      "sources": [
-        {
-          "source": "www.rapid7.com",
-          "url": "https://www.rapid7.com/blog/post/tr-dprk-apts-ted-backdoor-curlrat-target-south-korean-media-automotive-sectors/",
-          "pub_date": "2026-09-08T17:01:50.224687+00:00"
-        },
-        {
-          "source": "Krypt3Ia.Wordpress",
-          "url": "https://krypt3ia.wordpress.com/2026/09/08/weekly-all-source-cyber-warfare-intelligence-brief-september-8-2026/",
-          "pub_date": "2026-09-08T16:58:55+00:00"
-        },
-        {
-          "source": "Thehackernews",
-          "url": "https://thehackernews.com/2026/09/new-ted-backdoor-hides-inside-victims.html",
-          "pub_date": "2026-09-04T14:51:13+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "malware",
-          "value": "CurlRAT"
-        },
-        {
-          "type": "apt_group",
-          "value": "Apt37"
-        },
-        {
-          "type": "apt_group",
-          "value": "Kimsuky"
-        },
-        {
-          "type": "industry",
-          "value": "Financial"
-        }
-      ]
     },
     {
       "type": "domain",

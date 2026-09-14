@@ -1,6 +1,12 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason
+domain,assetnote-callback.com,high,2026-09-13T18:03:09+00:00,2026-09-13T18:03:09+00:00,1,News.Ycombinator:2026-09-13,[article sweep] Domain used for callback attempts in scanning activity
+domain,canary.assetnotessrf.com,high,2026-09-13T18:03:09+00:00,2026-09-13T18:03:09+00:00,1,News.Ycombinator:2026-09-13,[article sweep] Domain used for SSRF detection in scanning activity
+domain,img.monderhouse.space,high,2026-09-04T14:51:13+00:00,2026-09-13T17:51:49.140131+00:00,3,www.rapid7.com:2026-09-13|Krypt3Ia.Wordpress:2026-09-08|Thehackernews:2026-09-04,Described as a C2 host in the context
+domain,malicious.xyz,high,2026-09-13T10:02:18+00:00,2026-09-13T10:02:18+00:00,1,Sploitus:2026-09-13,[article sweep] Domain used for reputation check in a threat intelligence tool
 domain,gopdallas2026.com,high,2026-09-12T08:15:02+00:00,2026-09-12T08:15:02+00:00,1,Cybermagazine:2026-09-12,[article sweep] Identified as a fake website impersonating a legitimate domain
 domain,evil-vps.domainreg.net,high,2026-09-11T18:07:49+00:00,2026-09-11T18:07:49+00:00,1,Sploitus:2026-09-11,[article sweep] Described as a registered domain used for reverse shell actions
+domain,mail.uaiubifas.top,high,2026-09-11T07:14:09+00:00,2026-09-11T07:14:09+00:00,1,Thehackernews:2026-09-11,Listed as a backdoor command server
+domain,noht1ng.top,high,2026-09-11T07:14:09+00:00,2026-09-11T07:14:09+00:00,1,Thehackernews:2026-09-11,Hosted the exploit page
 domain,leappoach.info,high,2026-09-10T20:36:21.084658+00:00,2026-09-10T20:36:21.084658+00:00,1,npratley.net:2026-09-10,[article sweep] Listed as part of a suspicious domain chain in a security audit.
 domain,y4bxj.adozeuds.com,high,2026-09-10T18:33:12.876366+00:00,2026-09-10T18:33:12.876366+00:00,1,www.bleepingcomputer.com:2026-09-10,[article sweep] Listed as a payment gateway host for TeslaCrypt ransomware.
 domain,finger.linked4x.com,high,2026-09-10T16:08:43+00:00,2026-09-10T16:08:43+00:00,1,Zscaler:2026-09-10,"Listed as a ClickFix script domain, indicating attacker control"
@@ -28,7 +34,6 @@ domain,xccset.sk,high,2026-09-09T08:31:18.137308+00:00,2026-09-09T08:31:18.13730
 domain,xcsset.sc,high,2026-09-09T08:31:18.137308+00:00,2026-09-09T08:31:18.137308+00:00,1,www.microsoft.com:2026-09-09,Domain related to XCSSET malware detected by Microsoft Defender
 domain,xcsset.se,high,2026-09-09T08:31:18.137308+00:00,2026-09-09T08:31:18.137308+00:00,1,www.microsoft.com:2026-09-09,Domain related to XCSSET malware detected by Microsoft Defender
 domain,xcsset.st,high,2026-09-09T08:31:18.137308+00:00,2026-09-09T08:31:18.137308+00:00,1,www.microsoft.com:2026-09-09,Domain related to XCSSET malware detected by Microsoft Defender
-domain,img.monderhouse.space,high,2026-09-04T14:51:13+00:00,2026-09-08T17:01:50.224687+00:00,3,www.rapid7.com:2026-09-08|Krypt3Ia.Wordpress:2026-09-08|Thehackernews:2026-09-04,Described as a C2 host in the context
 domain,niestools.com,high,2026-09-04T11:00:15+00:00,2026-09-08T16:58:55+00:00,2,Krypt3Ia.Wordpress:2026-09-08|Securityaffairs.Co:2026-09-04,[article sweep] Used as a proxy server domain in a malicious campaign.
 domain,hagaseca.com,high,2026-09-08T11:18:18.463595+00:00,2026-09-08T11:18:18.463595+00:00,1,darkatlas.io:2026-09-08,Dedicated domain used by THost9 as attacker infrastructure
 domain,pleasedonthackmyserver.com,high,2026-09-08T11:18:18.463595+00:00,2026-09-08T11:18:18.463595+00:00,1,darkatlas.io:2026-09-08,Subdomain used by THost4 as part of attacker infrastructure

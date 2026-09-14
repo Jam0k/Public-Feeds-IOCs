@@ -1,4 +1,8 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason
+domain,assetnote-callback.com,high,2026-09-13T18:03:09+00:00,2026-09-13T18:03:09+00:00,1,News.Ycombinator:2026-09-13,[article sweep] Domain used for callback attempts in scanning activity
+domain,canary.assetnotessrf.com,high,2026-09-13T18:03:09+00:00,2026-09-13T18:03:09+00:00,1,News.Ycombinator:2026-09-13,[article sweep] Domain used for SSRF detection in scanning activity
+domain,img.monderhouse.space,high,2026-09-04T14:51:13+00:00,2026-09-13T17:51:49.140131+00:00,3,www.rapid7.com:2026-09-13|Krypt3Ia.Wordpress:2026-09-08|Thehackernews:2026-09-04,Described as a C2 host in the context
+domain,malicious.xyz,high,2026-09-13T10:02:18+00:00,2026-09-13T10:02:18+00:00,1,Sploitus:2026-09-13,[article sweep] Domain used for reputation check in a threat intelligence tool
 ipv4,203.160.68.12,high,2026-09-12T15:05:46+00:00,2026-09-12T15:05:46+00:00,1,Sploitus:2026-09-12,[article sweep] Identified as a source IP for malicious activity
 ipv4,92.118.112.181,high,2026-09-12T11:01:24+00:00,2026-09-12T11:01:24+00:00,1,Sploitus:2026-09-12,[article sweep] Listed as a known malicious IP
 domain,gopdallas2026.com,high,2026-09-12T08:15:02+00:00,2026-09-12T08:15:02+00:00,1,Cybermagazine:2026-09-12,[article sweep] Identified as a fake website impersonating a legitimate domain
@@ -6,6 +10,8 @@ domain,evil-vps.domainreg.net,high,2026-09-11T18:07:49+00:00,2026-09-11T18:07:49
 ipv4,186.227.4.31,high,2026-09-11T18:07:49+00:00,2026-09-11T18:07:49+00:00,1,Sploitus:2026-09-11,[article sweep] Used in a reverse shell attack
 ipv4,1.2.3.5,high,2026-09-11T16:02:45+00:00,2026-09-11T16:02:45+00:00,1,Sploitus:2026-09-11,[article sweep] Used in a privilege escalation attack
 ipv4,45.158.196.75,high,2026-09-11T10:05:52+00:00,2026-09-11T10:05:52+00:00,1,Bloglab.360:2026-09-11,[article sweep] Used in a global attack campaign
+domain,mail.uaiubifas.top,high,2026-09-11T07:14:09+00:00,2026-09-11T07:14:09+00:00,1,Thehackernews:2026-09-11,Listed as a backdoor command server
+domain,noht1ng.top,high,2026-09-11T07:14:09+00:00,2026-09-11T07:14:09+00:00,1,Thehackernews:2026-09-11,Hosted the exploit page
 domain,leappoach.info,high,2026-09-10T20:36:21.084658+00:00,2026-09-10T20:36:21.084658+00:00,1,npratley.net:2026-09-10,[article sweep] Listed as part of a suspicious domain chain in a security audit.
 domain,y4bxj.adozeuds.com,high,2026-09-10T18:33:12.876366+00:00,2026-09-10T18:33:12.876366+00:00,1,www.bleepingcomputer.com:2026-09-10,[article sweep] Listed as a payment gateway host for TeslaCrypt ransomware.
 ipv4,113.141.67.163,high,2026-09-10T16:49:06+00:00,2026-09-10T16:49:06+00:00,1,Sploitus:2026-09-10,[article sweep] IP address detected as source of attack and blacklisted
@@ -47,7 +53,6 @@ domain,xcsset.se,high,2026-09-09T08:31:18.137308+00:00,2026-09-09T08:31:18.13730
 domain,xcsset.st,high,2026-09-09T08:31:18.137308+00:00,2026-09-09T08:31:18.137308+00:00,1,www.microsoft.com:2026-09-09,Domain related to XCSSET malware detected by Microsoft Defender
 ipv4,1.2.3.4,high,2026-09-09T03:54:51+00:00,2026-09-09T03:54:51+00:00,1,Sploitus:2026-09-09,[article sweep] Listed as the C2 server APT28 provisioned for this campaign
 ipv4,5.6.7.8,high,2026-09-09T03:54:51+00:00,2026-09-09T03:54:51+00:00,1,Sploitus:2026-09-09,[article sweep] Listed as a C2 server in a behavioral detection tool
-domain,img.monderhouse.space,high,2026-09-04T14:51:13+00:00,2026-09-08T17:01:50.224687+00:00,3,www.rapid7.com:2026-09-08|Krypt3Ia.Wordpress:2026-09-08|Thehackernews:2026-09-04,Described as a C2 host in the context
 domain,niestools.com,high,2026-09-04T11:00:15+00:00,2026-09-08T16:58:55+00:00,2,Krypt3Ia.Wordpress:2026-09-08|Securityaffairs.Co:2026-09-04,[article sweep] Used as a proxy server domain in a malicious campaign.
 ipv4,92.255.57.155,high,2026-09-08T16:31:14.745150+00:00,2026-09-08T16:31:14.745150+00:00,1,any.run:2026-09-08,[article sweep] Used in a malicious campaign
 ipv4,122.183.48.195,high,2026-09-08T13:32:49.587167+00:00,2026-09-08T13:32:49.587167+00:00,1,www.sysdig.com:2026-09-08,[article sweep] Used by a threat actor in an attack
