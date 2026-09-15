@@ -1,4 +1,9 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason
+sha256,6759c72365d0c690db613ff30635970668f5699b65c3842ecdc4f1b695ed13a7,high,2026-09-14T16:32:19.199902+00:00,2026-09-14T23:31:34.219258+00:00,1,,SHA-256 hash of a malicious payload
+sha256,7fa9d1132f62a34aaa54fd5fa0deba45bf0258388743b69c6c74c63207e64ccb,high,2026-09-14T16:32:19.199902+00:00,2026-09-14T23:31:34.219258+00:00,1,,SHA-256 hash of a captured Apple-styled Terminal page
+sha256,985683bd660c0c47c6be513a2d1f0a554d52d241714bb17fb18ab0d0f8cc2dc6,high,2026-09-14T16:32:19.199902+00:00,2026-09-14T23:31:34.219258+00:00,1,,SHA-256 hash of a malicious route
+sha256,e6e54a8e8f30cedd8492f515ab95e005478bafb41998c43341fcf3a494573d6c,high,2026-09-14T16:32:19.199902+00:00,2026-09-14T23:31:34.219258+00:00,1,,SHA-256 hash of a historical helper
+sha256,2728a7d444cd65550f652a8c66eaced0fe6d0389161f86393ab73da8f446a362,high,2026-09-14T16:32:25.041691+00:00,2026-09-14T16:32:25.041691+00:00,1,,SHA-256 hash of a malicious Stage 2 zsh loader sample
 sha256,009a1e2d7a582a24e50cf2ffc2a005482c8e38f22bf5ed416053855f8d054e1e,high,2026-09-04T15:31:57.223581+00:00,2026-09-13T17:51:49.140131+00:00,1,,[article sweep] Listed in a table of malware hashes as an IOC.
 sha256,09739441ed4599bac2f8159028f772f71e4b25c8badfff95574e56d7384f3dbe,high,2026-09-04T15:31:57.223581+00:00,2026-09-13T17:51:49.140131+00:00,1,,[article sweep] Listed in a table of malware hashes as an IOC.
 sha256,12810854c8b2c391b23e2e18b013e873d0369b0637aa3cf993136c07188ba3b8,high,2026-09-04T15:31:57.223581+00:00,2026-09-13T17:51:49.140131+00:00,1,,[article sweep] Listed in a table of malware hashes as an IOC.
@@ -50,11 +55,11 @@ sha256,66499653c0fff78d81db5dc319b9aaa0288dc5d76f555a5eba73660c0ee810eb,high,202
 sha256,9ca27df7938f12794bab0847434482955ca9adea714a34afd315c7a7be522611,high,2026-09-09T14:31:32.530379+00:00,2026-09-11T14:33:48.129919+00:00,1,,[article sweep] Listed in a table of Indicators of Compromise (IOCs)
 sha256,ae6f6eeba2bd4cc948d24610d9447986e52f913f4b5ff960ddea26075ff621ae,high,2026-09-09T14:31:32.530379+00:00,2026-09-11T14:33:48.129919+00:00,1,,Listed in a malware analysis as an IOC hash.
 sha256,b769721621aed0418b193e4a00e51bc772c8383a4149d23a5425b13475e2d501,high,2026-09-09T14:31:32.530379+00:00,2026-09-11T14:33:48.129919+00:00,1,,Listed in a malware analysis as an IOC hash.
-md5,528cd4e69ecfa5191adbcf6ef28667bf,high,2026-09-11T10:05:52+00:00,2026-09-11T10:05:52+00:00,1,,[article sweep] Listed as a hash for a malicious file used in an attack
-md5,974decb9ff4c8f9ccb0937c96d513347,high,2026-09-11T10:05:52+00:00,2026-09-11T10:05:52+00:00,1,,[article sweep] Listed as a hash for a malicious file used in an attack
-md5,a6437ac3d6798090a218520985d36a3f,high,2026-09-11T10:05:52+00:00,2026-09-11T10:05:52+00:00,1,,[article sweep] Listed as a hash for a malicious file used in an attack
-md5,ce870a91e8d27e8f663f0687abc60b04,high,2026-09-11T10:05:52+00:00,2026-09-11T10:05:52+00:00,1,,[article sweep] Listed as a hash for a malicious file used in an attack
-md5,fc92dfafa7aa741c5f2b9cbcf75d1d19,high,2026-09-11T10:05:52+00:00,2026-09-11T10:05:52+00:00,1,,[article sweep] Listed as a hash for a malicious file used in an attack
+md5,528cd4e69ecfa5191adbcf6ef28667bf,high,2026-09-11T10:05:52+00:00,2026-09-11T10:05:52+00:00,1,,Listed as a malware file hash used in the attack.
+md5,974decb9ff4c8f9ccb0937c96d513347,high,2026-09-11T10:05:52+00:00,2026-09-11T10:05:52+00:00,1,,Listed as a malware file hash used in the attack.
+md5,a6437ac3d6798090a218520985d36a3f,high,2026-09-11T10:05:52+00:00,2026-09-11T10:05:52+00:00,1,,Listed as a malware file hash used in the attack.
+md5,ce870a91e8d27e8f663f0687abc60b04,high,2026-09-11T10:05:52+00:00,2026-09-11T10:05:52+00:00,1,,Listed as a malware file hash used in the attack.
+md5,fc92dfafa7aa741c5f2b9cbcf75d1d19,high,2026-09-11T10:05:52+00:00,2026-09-11T10:05:52+00:00,1,,Listed as a malware file hash used in the attack.
 sha256,29c7ee41d0cc9e07d981e451df56d0c3d37c41ac4ec10c7b516cc033ee397a63,high,2026-09-11T07:14:09+00:00,2026-09-11T07:14:09+00:00,1,,Malicious DLL loader
 sha256,749160a2f20f82744026719cf72e483595c6aad718efa74d675a98662e02422e,high,2026-09-11T07:14:09+00:00,2026-09-11T07:14:09+00:00,1,,Encrypted payload file
 sha256,d7a3c7eb94edc0e020f74c678743d71d61e944634aade4a67a96c3589e828b3a,high,2026-09-11T07:14:09+00:00,2026-09-11T07:14:09+00:00,1,,GRAYRABBIT backdoor
@@ -86,7 +91,7 @@ sha256,cb9930d0cde5bf8e8a7ad08fe2c60b937c7beaf9ab51b03191dfcaba40b7b189,high,202
 sha256,eaa52d2d6d4daf29157e8e813247fb2e92797324230ee42c79f7861b2f5c341d,high,2026-09-10T16:08:43+00:00,2026-09-10T16:08:43+00:00,1,,"SHA256 hash of SloppyRAT DLL, indicating malware sample"
 sha256,f534a957edec74d69081665309311b791b6d11a3221fffa67744812d73ad98eb,high,2026-09-10T16:08:43+00:00,2026-09-10T16:08:43+00:00,1,,"SHA256 hash of SloppyRAT DLL, indicating malware sample"
 sha256,ff142fc192daa2a83bc565e5b38ebbe05561f3a19c7fc2d08e38c97e1986bbc5,high,2026-09-10T16:08:43+00:00,2026-09-10T16:08:43+00:00,1,,"SHA256 hash of SloppyRAT DLL, indicating malware sample"
-sha256,63be5f38b520b3143732962a5f8fec1f9abd1f483dbc741ed324e58f955dd35e,high,2026-09-10T12:58:10+00:00,2026-09-10T12:58:10+00:00,1,,[article sweep] SHA256 hash of a RedTail Linux payload identified as malware
+sha256,63be5f38b520b3143732962a5f8fec1f9abd1f483dbc741ed324e58f955dd35e,high,2026-09-10T12:58:10+00:00,2026-09-10T12:58:10+00:00,1,,SHA-256 hash of a malware sample analyzed in the report
 md5,8e8a8fe8361c7238f60d6bbfdbd304a8,high,2026-09-10T08:03:01+00:00,2026-09-10T08:03:01+00:00,1,,[article sweep] MD5 hash identified as a malicious executable
 sha1,557832efe10daff3f528a3c3589eb5a6dfd12447,high,2026-09-10T08:03:01+00:00,2026-09-10T08:03:01+00:00,1,,[article sweep] SHA1 hash identified as a malicious executable
 sha256,118983ba4e1c12a366d7d6e9461c68bf222e2b03f3c1296091dee92ac0cc9dd8,high,2026-09-10T08:03:01+00:00,2026-09-10T08:03:01+00:00,1,,[article sweep] SHA256 hash identified as a malicious executable

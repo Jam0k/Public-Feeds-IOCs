@@ -1,7 +1,7 @@
 {
   "feed": "threatcluster-public-iocs",
   "version": 1,
-  "generated_at": "2026-09-14T06:49:23Z",
+  "generated_at": "2026-09-15T06:40:24Z",
   "filters": {
     "confidence": "high",
     "window_days": 30,
@@ -11,8 +11,812 @@
       "domain"
     ]
   },
-  "count": 206,
+  "count": 249,
   "iocs": [
+    {
+      "type": "ipv4",
+      "value": "176.53.159.66",
+      "confidence": "high",
+      "reason": "IP address used for delivery and teardown cluster",
+      "first_seen": "2026-09-15T02:32:04.084452+00:00",
+      "last_seen": "2026-09-15T02:32:04.084452+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "adamnet.works",
+          "url": "https://adamnet.works/blog/hbo-max-ads-exposed-the-pasteswitch-clickfix-operation/index.html",
+          "pub_date": "2026-09-15T02:32:04.084452+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Claude-themed Delivery"
+        },
+        {
+          "type": "campaign",
+          "value": "Codex Campaign"
+        },
+        {
+          "type": "campaign",
+          "value": "HBO Max Campaign"
+        },
+        {
+          "type": "campaign",
+          "value": "Homebrew Campaign"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "45.94.47.204",
+      "confidence": "high",
+      "reason": "IP address used for task service enrollment",
+      "first_seen": "2026-09-15T02:32:04.084452+00:00",
+      "last_seen": "2026-09-15T02:32:04.084452+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "adamnet.works",
+          "url": "https://adamnet.works/blog/hbo-max-ads-exposed-the-pasteswitch-clickfix-operation/index.html",
+          "pub_date": "2026-09-15T02:32:04.084452+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Claude-themed Delivery"
+        },
+        {
+          "type": "campaign",
+          "value": "Codex Campaign"
+        },
+        {
+          "type": "campaign",
+          "value": "HBO Max Campaign"
+        },
+        {
+          "type": "campaign",
+          "value": "Homebrew Campaign"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "62.60.226.69",
+      "confidence": "high",
+      "reason": "IP address used for provisioning cluster",
+      "first_seen": "2026-09-15T02:32:04.084452+00:00",
+      "last_seen": "2026-09-15T02:32:04.084452+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "adamnet.works",
+          "url": "https://adamnet.works/blog/hbo-max-ads-exposed-the-pasteswitch-clickfix-operation/index.html",
+          "pub_date": "2026-09-15T02:32:04.084452+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Claude-themed Delivery"
+        },
+        {
+          "type": "campaign",
+          "value": "Codex Campaign"
+        },
+        {
+          "type": "campaign",
+          "value": "HBO Max Campaign"
+        },
+        {
+          "type": "campaign",
+          "value": "Homebrew Campaign"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "check.aupporte.com",
+      "confidence": "high",
+      "reason": "[article sweep] Subdomain of a malicious domain used in a campaign",
+      "first_seen": "2026-09-14T20:32:11.162627+00:00",
+      "last_seen": "2026-09-14T20:32:11.162627+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.labs.greynoise.io",
+          "url": "https://www.labs.greynoise.io/grimoire/2025-12-09-react2shell-meshcentral",
+          "pub_date": "2026-09-14T20:32:11.162627+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "ipv4",
+      "value": "62.60.135.34",
+      "confidence": "high",
+      "reason": "[article sweep] Listed as a staging IP address for malicious activity.",
+      "first_seen": "2026-09-14T20:32:11.162627+00:00",
+      "last_seen": "2026-09-14T20:32:11.162627+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.labs.greynoise.io",
+          "url": "https://www.labs.greynoise.io/grimoire/2025-12-09-react2shell-meshcentral",
+          "pub_date": "2026-09-14T20:32:11.162627+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "ipv4",
+      "value": "74.93.203.1",
+      "confidence": "high",
+      "reason": "[article sweep] Listed as an IP address involved in malicious activity.",
+      "first_seen": "2026-09-14T20:32:11.162627+00:00",
+      "last_seen": "2026-09-14T20:32:11.162627+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.labs.greynoise.io",
+          "url": "https://www.labs.greynoise.io/grimoire/2025-12-09-react2shell-meshcentral",
+          "pub_date": "2026-09-14T20:32:11.162627+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "ipv4",
+      "value": "114.10.43.203",
+      "confidence": "high",
+      "reason": "[article sweep] Listed as an IP address actively engaged in attacks.",
+      "first_seen": "2026-09-14T18:49:14+00:00",
+      "last_seen": "2026-09-14T18:49:14+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Wordfence",
+          "url": "https://www.wordfence.com/blog/2026/09/attackers-actively-exploiting-critical-vulnerability-in-woocommerce-wholesale-lead-capture-plugin/",
+          "pub_date": "2026-09-14T18:49:14+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "ipv4",
+      "value": "187.75.114.36",
+      "confidence": "high",
+      "reason": "[article sweep] Listed as an IP address actively engaged in attacks.",
+      "first_seen": "2026-09-14T18:49:14+00:00",
+      "last_seen": "2026-09-14T18:49:14+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Wordfence",
+          "url": "https://www.wordfence.com/blog/2026/09/attackers-actively-exploiting-critical-vulnerability-in-woocommerce-wholesale-lead-capture-plugin/",
+          "pub_date": "2026-09-14T18:49:14+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "ipv4",
+      "value": "23.137.105.214",
+      "confidence": "high",
+      "reason": "[article sweep] Listed as an IP address actively engaged in attacks.",
+      "first_seen": "2026-09-14T18:49:14+00:00",
+      "last_seen": "2026-09-14T18:49:14+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Wordfence",
+          "url": "https://www.wordfence.com/blog/2026/09/attackers-actively-exploiting-critical-vulnerability-in-woocommerce-wholesale-lead-capture-plugin/",
+          "pub_date": "2026-09-14T18:49:14+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "ipv4",
+      "value": "23.180.120.140",
+      "confidence": "high",
+      "reason": "[article sweep] Listed as an IP address actively engaged in attacks.",
+      "first_seen": "2026-09-14T18:49:14+00:00",
+      "last_seen": "2026-09-14T18:49:14+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Wordfence",
+          "url": "https://www.wordfence.com/blog/2026/09/attackers-actively-exploiting-critical-vulnerability-in-woocommerce-wholesale-lead-capture-plugin/",
+          "pub_date": "2026-09-14T18:49:14+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "ipv4",
+      "value": "31.59.129.150",
+      "confidence": "high",
+      "reason": "[article sweep] Listed as an IP address actively engaged in attacks.",
+      "first_seen": "2026-09-14T18:49:14+00:00",
+      "last_seen": "2026-09-14T18:49:14+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Wordfence",
+          "url": "https://www.wordfence.com/blog/2026/09/attackers-actively-exploiting-critical-vulnerability-in-woocommerce-wholesale-lead-capture-plugin/",
+          "pub_date": "2026-09-14T18:49:14+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "ipv4",
+      "value": "37.114.144.209",
+      "confidence": "high",
+      "reason": "[article sweep] Listed as an IP address actively engaged in attacks.",
+      "first_seen": "2026-09-14T18:49:14+00:00",
+      "last_seen": "2026-09-14T18:49:14+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Wordfence",
+          "url": "https://www.wordfence.com/blog/2026/09/attackers-actively-exploiting-critical-vulnerability-in-woocommerce-wholesale-lead-capture-plugin/",
+          "pub_date": "2026-09-14T18:49:14+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "ipv4",
+      "value": "92.241.13.140",
+      "confidence": "high",
+      "reason": "[article sweep] Listed as an IP address actively engaged in attacks.",
+      "first_seen": "2026-09-14T18:49:14+00:00",
+      "last_seen": "2026-09-14T18:49:14+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Wordfence",
+          "url": "https://www.wordfence.com/blog/2026/09/attackers-actively-exploiting-critical-vulnerability-in-woocommerce-wholesale-lead-capture-plugin/",
+          "pub_date": "2026-09-14T18:49:14+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "ipv4",
+      "value": "92.241.13.213",
+      "confidence": "high",
+      "reason": "[article sweep] Listed as an IP address actively engaged in attacks.",
+      "first_seen": "2026-09-14T18:49:14+00:00",
+      "last_seen": "2026-09-14T18:49:14+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Wordfence",
+          "url": "https://www.wordfence.com/blog/2026/09/attackers-actively-exploiting-critical-vulnerability-in-woocommerce-wholesale-lead-capture-plugin/",
+          "pub_date": "2026-09-14T18:49:14+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "b28n40i25b68gte41o61dwc19htc29jwgxiqfzbr.org",
+      "confidence": "high",
+      "reason": "[article sweep] Domain generated by a DGA, likely attacker-controlled",
+      "first_seen": "2026-09-14T17:57:25+00:00",
+      "last_seen": "2026-09-14T17:57:25+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Sploitus",
+          "url": "https://sploitus.com/exploit?id=KITPLOIT:TOOLS-GITHUB-BADERJ-DOMAIN_GENERATION_ALGORITHMS&utm_source=rss&utm_medium=rss",
+          "pub_date": "2026-09-14T17:57:25+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "bre41hvc29kri15ewpwdsazjyn40p52kwe21gw.biz",
+      "confidence": "high",
+      "reason": "[article sweep] Domain generated by a DGA, likely attacker-controlled",
+      "first_seen": "2026-09-14T17:57:25+00:00",
+      "last_seen": "2026-09-14T17:57:25+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Sploitus",
+          "url": "https://sploitus.com/exploit?id=KITPLOIT:TOOLS-GITHUB-BADERJ-DOMAIN_GENERATION_ALGORITHMS&utm_source=rss&utm_medium=rss",
+          "pub_date": "2026-09-14T17:57:25+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "czfsn20exg53nzcqcrg43exf62b28p22pyd50lu.org",
+      "confidence": "high",
+      "reason": "[article sweep] Domain generated by a DGA, likely attacker-controlled",
+      "first_seen": "2026-09-14T17:57:25+00:00",
+      "last_seen": "2026-09-14T17:57:25+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Sploitus",
+          "url": "https://sploitus.com/exploit?id=KITPLOIT:TOOLS-GITHUB-BADERJ-DOMAIN_GENERATION_ALGORITHMS&utm_source=rss&utm_medium=rss",
+          "pub_date": "2026-09-14T17:57:25+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "enisobure-antidimadom-minikevuship.org",
+      "confidence": "high",
+      "reason": "[article sweep] Domain generated by a DGA, likely attacker-controlled",
+      "first_seen": "2026-09-14T17:57:25+00:00",
+      "last_seen": "2026-09-14T17:57:25+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Sploitus",
+          "url": "https://sploitus.com/exploit?id=KITPLOIT:TOOLS-GITHUB-BADERJ-DOMAIN_GENERATION_ALGORITHMS&utm_source=rss&utm_medium=rss",
+          "pub_date": "2026-09-14T17:57:25+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "hvcsjxd20mzm29d40nznunta27c29kyi55fun50.com",
+      "confidence": "high",
+      "reason": "[article sweep] Domain generated by a DGA, likely attacker-controlled",
+      "first_seen": "2026-09-14T17:57:25+00:00",
+      "last_seen": "2026-09-14T17:57:25+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Sploitus",
+          "url": "https://sploitus.com/exploit?id=KITPLOIT:TOOLS-GITHUB-BADERJ-DOMAIN_GENERATION_ALGORITHMS&utm_source=rss&utm_medium=rss",
+          "pub_date": "2026-09-14T17:57:25+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "ilolupage-nonurisudize-minikazolike.net",
+      "confidence": "high",
+      "reason": "[article sweep] Domain generated by a DGA, likely attacker-controlled",
+      "first_seen": "2026-09-14T17:57:25+00:00",
+      "last_seen": "2026-09-14T17:57:25+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Sploitus",
+          "url": "https://sploitus.com/exploit?id=KITPLOIT:TOOLS-GITHUB-BADERJ-DOMAIN_GENERATION_ALGORITHMS&utm_source=rss&utm_medium=rss",
+          "pub_date": "2026-09-14T17:57:25+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "jwdzptm69p62izcve41f22k37oyj16g63fqote11.com",
+      "confidence": "high",
+      "reason": "[article sweep] Domain generated by a DGA, likely attacker-controlled",
+      "first_seen": "2026-09-14T17:57:25+00:00",
+      "last_seen": "2026-09-14T17:57:25+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Sploitus",
+          "url": "https://sploitus.com/exploit?id=KITPLOIT:TOOLS-GITHUB-BADERJ-DOMAIN_GENERATION_ALGORITHMS&utm_source=rss&utm_medium=rss",
+          "pub_date": "2026-09-14T17:57:25+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "ktirhsn50kzc49b58cyf32fwh14h64dzgxiqcz.info",
+      "confidence": "high",
+      "reason": "[article sweep] Domain generated by a DGA, likely attacker-controlled",
+      "first_seen": "2026-09-14T17:57:25+00:00",
+      "last_seen": "2026-09-14T17:57:25+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Sploitus",
+          "url": "https://sploitus.com/exploit?id=KITPLOIT:TOOLS-GITHUB-BADERJ-DOMAIN_GENERATION_ALGORITHMS&utm_source=rss&utm_medium=rss",
+          "pub_date": "2026-09-14T17:57:25+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "minihileth-subatudofy.org",
+      "confidence": "high",
+      "reason": "[article sweep] Domain generated by a DGA, likely attacker-controlled",
+      "first_seen": "2026-09-14T17:57:25+00:00",
+      "last_seen": "2026-09-14T17:57:25+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Sploitus",
+          "url": "https://sploitus.com/exploit?id=KITPLOIT:TOOLS-GITHUB-BADERJ-DOMAIN_GENERATION_ALGORITHMS&utm_source=rss&utm_medium=rss",
+          "pub_date": "2026-09-14T17:57:25+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "n30mwhsoxfqe51j56lunsg13o11hyd60ewf52nu.ru",
+      "confidence": "high",
+      "reason": "[article sweep] Domain generated by a DGA, likely attacker-controlled",
+      "first_seen": "2026-09-14T17:57:25+00:00",
+      "last_seen": "2026-09-14T17:57:25+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Sploitus",
+          "url": "https://sploitus.com/exploit?id=KITPLOIT:TOOLS-GITHUB-BADERJ-DOMAIN_GENERATION_ALGORITHMS&utm_source=rss&utm_medium=rss",
+          "pub_date": "2026-09-14T17:57:25+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "nxlya47huo61czerb18o51e11d30i55gycwe31lx.ru",
+      "confidence": "high",
+      "reason": "[article sweep] Domain generated by a DGA, likely attacker-controlled",
+      "first_seen": "2026-09-14T17:57:25+00:00",
+      "last_seen": "2026-09-14T17:57:25+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Sploitus",
+          "url": "https://sploitus.com/exploit?id=KITPLOIT:TOOLS-GITHUB-BADERJ-DOMAIN_GENERATION_ALGORITHMS&utm_source=rss&utm_medium=rss",
+          "pub_date": "2026-09-14T17:57:25+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "nzosg13oymzg63ntpxaro51btkvfyoshrk27.info",
+      "confidence": "high",
+      "reason": "[article sweep] Domain generated by a DGA, likely attacker-controlled",
+      "first_seen": "2026-09-14T17:57:25+00:00",
+      "last_seen": "2026-09-14T17:57:25+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Sploitus",
+          "url": "https://sploitus.com/exploit?id=KITPLOIT:TOOLS-GITHUB-BADERJ-DOMAIN_GENERATION_ALGORITHMS&utm_source=rss&utm_medium=rss",
+          "pub_date": "2026-09-14T17:57:25+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "overedaxive-nonameraness.net",
+      "confidence": "high",
+      "reason": "[article sweep] Domain generated by a DGA, likely attacker-controlled",
+      "first_seen": "2026-09-14T17:57:25+00:00",
+      "last_seen": "2026-09-14T17:57:25+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Sploitus",
+          "url": "https://sploitus.com/exploit?id=KITPLOIT:TOOLS-GITHUB-BADERJ-DOMAIN_GENERATION_ALGORITHMS&utm_source=rss&utm_medium=rss",
+          "pub_date": "2026-09-14T17:57:25+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "p42p52nvd50izkqazaqe21lvo21pycqotp22e61.net",
+      "confidence": "high",
+      "reason": "[article sweep] Domain generated by a DGA, likely attacker-controlled",
+      "first_seen": "2026-09-14T17:57:25+00:00",
+      "last_seen": "2026-09-14T17:57:25+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Sploitus",
+          "url": "https://sploitus.com/exploit?id=KITPLOIT:TOOLS-GITHUB-BADERJ-DOMAIN_GENERATION_ALGORITHMS&utm_source=rss&utm_medium=rss",
+          "pub_date": "2026-09-14T17:57:25+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "prevomozary-microfemaly.info",
+      "confidence": "high",
+      "reason": "[article sweep] Domain generated by a DGA, likely attacker-controlled",
+      "first_seen": "2026-09-14T17:57:25+00:00",
+      "last_seen": "2026-09-14T17:57:25+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Sploitus",
+          "url": "https://sploitus.com/exploit?id=KITPLOIT:TOOLS-GITHUB-BADERJ-DOMAIN_GENERATION_ALGORITHMS&utm_source=rss&utm_medium=rss",
+          "pub_date": "2026-09-14T17:57:25+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "prolefexity-disorisance.org",
+      "confidence": "high",
+      "reason": "[article sweep] Domain generated by a DGA, likely attacker-controlled",
+      "first_seen": "2026-09-14T17:57:25+00:00",
+      "last_seen": "2026-09-14T17:57:25+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Sploitus",
+          "url": "https://sploitus.com/exploit?id=KITPLOIT:TOOLS-GITHUB-BADERJ-DOMAIN_GENERATION_ALGORITHMS&utm_source=rss&utm_medium=rss",
+          "pub_date": "2026-09-14T17:57:25+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "revodihudom.info",
+      "confidence": "high",
+      "reason": "[article sweep] Domain generated by a DGA, likely attacker-controlled",
+      "first_seen": "2026-09-14T17:57:25+00:00",
+      "last_seen": "2026-09-14T17:57:25+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Sploitus",
+          "url": "https://sploitus.com/exploit?id=KITPLOIT:TOOLS-GITHUB-BADERJ-DOMAIN_GENERATION_ALGORITHMS&utm_source=rss&utm_medium=rss",
+          "pub_date": "2026-09-14T17:57:25+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "semicofaxiful-enixakor-subafapehen.info",
+      "confidence": "high",
+      "reason": "[article sweep] Domain generated by a DGA, likely attacker-controlled",
+      "first_seen": "2026-09-14T17:57:25+00:00",
+      "last_seen": "2026-09-14T17:57:25+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Sploitus",
+          "url": "https://sploitus.com/exploit?id=KITPLOIT:TOOLS-GITHUB-BADERJ-DOMAIN_GENERATION_ALGORITHMS&utm_source=rss&utm_medium=rss",
+          "pub_date": "2026-09-14T17:57:25+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "semiridinution-postepudency.com",
+      "confidence": "high",
+      "reason": "[article sweep] Domain generated by a DGA, likely attacker-controlled",
+      "first_seen": "2026-09-14T17:57:25+00:00",
+      "last_seen": "2026-09-14T17:57:25+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Sploitus",
+          "url": "https://sploitus.com/exploit?id=KITPLOIT:TOOLS-GITHUB-BADERJ-DOMAIN_GENERATION_ALGORITHMS&utm_source=rss&utm_medium=rss",
+          "pub_date": "2026-09-14T17:57:25+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "evil.net",
+      "confidence": "high",
+      "reason": "Domain used in an example command for unauthorized access, suggesting attacker control",
+      "first_seen": "2026-09-14T15:30:43.146621+00:00",
+      "last_seen": "2026-09-14T15:30:43.146621+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "github.com",
+          "url": "https://github.com/froxlor/froxlor/security/advisories/GHSA-34qg-65m4-f23m",
+          "pub_date": "2026-09-14T15:30:43.146621+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "trump2026.org",
+      "confidence": "high",
+      "reason": "[article sweep] Domain used in a cryptocurrency scam, likely attacker-controlled",
+      "first_seen": "2026-09-14T15:07:10+00:00",
+      "last_seen": "2026-09-14T15:07:10+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Ibtimes",
+          "url": "https://www.ibtimes.co.uk/trump-deepfake-super-bowl-crypto-scam-1819567",
+          "pub_date": "2026-09-14T15:07:10+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "ipv4",
+      "value": "77.91.65.13",
+      "confidence": "high",
+      "reason": "[article sweep] Listed as an IP address involved in malicious activity.",
+      "first_seen": "2026-09-14T14:37:33+00:00",
+      "last_seen": "2026-09-14T14:37:33+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Infostealers",
+          "url": "https://www.infostealers.com/article/hbo-max-ads-on-a-compromised-reddit-account-exposed-a-massive-pasteswitch-clickfix-operation/",
+          "pub_date": "2026-09-14T14:37:33+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "PasteSwitch ClickFix Operation"
+        },
+        {
+          "type": "malware",
+          "value": "Amatera Stealer"
+        },
+        {
+          "type": "malware",
+          "value": "AnimateClipper"
+        },
+        {
+          "type": "malware",
+          "value": "ZigClipper"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "attacker.com",
+      "confidence": "high",
+      "reason": "Domain used to download and execute a shell script, indicating attacker control.",
+      "first_seen": "2026-09-14T12:54:22+00:00",
+      "last_seen": "2026-09-14T12:54:22+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Sploitus",
+          "url": "https://sploitus.com/exploit?id=KITPLOIT:TOOLS-GITHUB-THESTINGR-CVE-2025-68613-POC&utm_source=rss&utm_medium=rss",
+          "pub_date": "2026-09-14T12:54:22+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2025-68613"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "dwu6.top",
+      "confidence": "high",
+      "reason": "[article sweep] Domain registered for use in a smishing campaign",
+      "first_seen": "2026-09-14T11:40:38.059747+00:00",
+      "last_seen": "2026-09-14T11:40:38.059747+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.resecurity.com",
+          "url": "https://www.resecurity.com/blog/article/Smishing-Triad-Impersonates-Emirates-Post-Target-UAE-Citizens",
+          "pub_date": "2026-09-14T11:40:38.059747+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "trsb.top",
+      "confidence": "high",
+      "reason": "[article sweep] Domain used in a smishing campaign, likely attacker-controlled",
+      "first_seen": "2026-09-14T09:04:16+00:00",
+      "last_seen": "2026-09-14T09:04:16+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Group-Ib",
+          "url": "https://www.group-ib.com/blog/smishing-triad-outsider-jwr/",
+          "pub_date": "2026-09-14T09:04:16+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "gg-steelseries.com",
+      "confidence": "high",
+      "reason": "[article sweep] Domain used in a malicious campaign, likely attacker-controlled",
+      "first_seen": "2026-09-14T06:55:22+00:00",
+      "last_seen": "2026-09-14T06:55:22+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Bloglab.360",
+          "url": "https://blog.netlab.360.com/yin-hu-yun-duan-sheng-si-bo-cong-wu-tiao-jian-fan-hui-dao-hei-ming-dan-ji-zhi/",
+          "pub_date": "2026-09-14T06:55:22+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "gg-steelseries.com.cn",
+      "confidence": "high",
+      "reason": "[article sweep] Domain used in a malicious campaign, likely attacker-controlled",
+      "first_seen": "2026-09-14T06:55:22+00:00",
+      "last_seen": "2026-09-14T06:55:22+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Bloglab.360",
+          "url": "https://blog.netlab.360.com/yin-hu-yun-duan-sheng-si-bo-cong-wu-tiao-jian-fan-hui-dao-hei-ming-dan-ji-zhi/",
+          "pub_date": "2026-09-14T06:55:22+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "noah-ssh.com.cn",
+      "confidence": "high",
+      "reason": "[article sweep] Domain used in a malicious campaign, likely attacker-controlled",
+      "first_seen": "2026-09-14T06:55:22+00:00",
+      "last_seen": "2026-09-14T06:55:22+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Bloglab.360",
+          "url": "https://blog.netlab.360.com/yin-hu-yun-duan-sheng-si-bo-cong-wu-tiao-jian-fan-hui-dao-hei-ming-dan-ji-zhi/",
+          "pub_date": "2026-09-14T06:55:22+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "org-bcut.com.cn",
+      "confidence": "high",
+      "reason": "[article sweep] Domain used in a malicious campaign, likely attacker-controlled",
+      "first_seen": "2026-09-14T06:55:22+00:00",
+      "last_seen": "2026-09-14T06:55:22+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Bloglab.360",
+          "url": "https://blog.netlab.360.com/yin-hu-yun-duan-sheng-si-bo-cong-wu-tiao-jian-fan-hui-dao-hei-ming-dan-ji-zhi/",
+          "pub_date": "2026-09-14T06:55:22+00:00"
+        }
+      ],
+      "tags": []
+    },
     {
       "type": "domain",
       "value": "assetnote-callback.com",
@@ -214,7 +1018,7 @@
       "type": "ipv4",
       "value": "45.158.196.75",
       "confidence": "high",
-      "reason": "[article sweep] Used in a global attack campaign",
+      "reason": "Listed as an IP address used in the attack.",
       "first_seen": "2026-09-11T10:05:52+00:00",
       "last_seen": "2026-09-11T10:05:52+00:00",
       "source_count": 1,
@@ -225,7 +1029,24 @@
           "pub_date": "2026-09-11T10:05:52+00:00"
         }
       ],
-      "tags": []
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2021-42278"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2021-42287"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2023-27350"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-35029"
+        }
+      ]
     },
     {
       "type": "domain",
