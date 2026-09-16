@@ -1,7 +1,9 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason
-ipv4,176.53.159.66,high,2026-09-14T16:32:19.199902+00:00,2026-09-15T02:32:04.084452+00:00,1,,IP address used for delivery and teardown cluster
-ipv4,45.94.47.204,high,2026-09-14T16:32:19.199902+00:00,2026-09-15T02:32:04.084452+00:00,1,,IP address used for task service enrollment
-ipv4,62.60.226.69,high,2026-09-14T16:32:19.199902+00:00,2026-09-15T02:32:04.084452+00:00,1,,IP address used for provisioning cluster
+ipv4,176.53.159.66,high,2026-09-14T16:32:19.199902+00:00,2026-09-16T03:01:46.530686+00:00,1,,Used as a delivery and teardown cluster
+ipv4,45.94.47.204,high,2026-09-14T16:32:19.199902+00:00,2026-09-16T03:01:46.530686+00:00,1,,Used for enrolling with a plaintext task service
+ipv4,62.60.226.69,high,2026-09-14T16:32:19.199902+00:00,2026-09-16T03:01:46.530686+00:00,1,,Hosted a coordinated Nova and macOS-tool neighborhood
+ipv4,37.16.74.100,high,2026-09-15T19:32:30.314356+00:00,2026-09-15T19:32:30.314356+00:00,1,,Listed as a C2 endpoint
+ipv4,210.1.231.13,high,2026-09-15T16:39:41.623419+00:00,2026-09-15T16:39:41.623419+00:00,1,,Associated with attacker-controlled domain turbo.c2iznja.com
 ipv4,62.60.135.34,high,2026-09-14T20:32:11.162627+00:00,2026-09-14T20:32:11.162627+00:00,1,,[article sweep] Listed as a staging IP address for malicious activity.
 ipv4,74.93.203.1,high,2026-09-14T20:32:11.162627+00:00,2026-09-14T20:32:11.162627+00:00,1,,[article sweep] Listed as an IP address involved in malicious activity.
 ipv4,114.10.43.203,high,2026-09-14T18:49:14+00:00,2026-09-14T18:49:14+00:00,1,,[article sweep] Listed as an IP address actively engaged in attacks.
@@ -12,7 +14,7 @@ ipv4,31.59.129.150,high,2026-09-14T18:49:14+00:00,2026-09-14T18:49:14+00:00,1,,[
 ipv4,37.114.144.209,high,2026-09-14T18:49:14+00:00,2026-09-14T18:49:14+00:00,1,,[article sweep] Listed as an IP address actively engaged in attacks.
 ipv4,92.241.13.140,high,2026-09-14T18:49:14+00:00,2026-09-14T18:49:14+00:00,1,,[article sweep] Listed as an IP address actively engaged in attacks.
 ipv4,92.241.13.213,high,2026-09-14T18:49:14+00:00,2026-09-14T18:49:14+00:00,1,,[article sweep] Listed as an IP address actively engaged in attacks.
-ipv4,77.91.65.13,high,2026-09-14T14:37:33+00:00,2026-09-14T14:37:33+00:00,1,,[article sweep] Listed as an IP address involved in malicious activity.
+ipv4,77.91.65.13,high,2026-09-14T14:37:33+00:00,2026-09-14T14:37:33+00:00,1,,Connected directly by malicious PE
 ipv4,203.160.68.12,high,2026-09-12T15:05:46+00:00,2026-09-12T15:05:46+00:00,1,,[article sweep] Identified as a source IP for malicious activity
 ipv4,92.118.112.181,high,2026-09-12T11:01:24+00:00,2026-09-12T11:01:24+00:00,1,,[article sweep] Listed as a known malicious IP
 ipv4,186.227.4.31,high,2026-09-11T18:07:49+00:00,2026-09-11T18:07:49+00:00,1,,[article sweep] Used in a reverse shell attack

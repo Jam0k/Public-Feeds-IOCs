@@ -1,31 +1,60 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason
-domain,arkypc.com,high,2026-09-14T16:32:19.199902+00:00,2026-09-14T23:31:34.219258+00:00,1,,Domain used for downloading malicious helper
-domain,blzaeagent.com,high,2026-09-14T16:32:19.199902+00:00,2026-09-14T23:31:34.219258+00:00,1,,Domain connected to MacSync subgroup
-domain,bright-links.com,high,2026-09-14T16:32:19.199902+00:00,2026-09-14T23:31:34.219258+00:00,1,,Domain used in PasteSwitch lure infrastructure
-domain,cli-desktop.com,high,2026-09-14T16:32:19.199902+00:00,2026-09-14T23:31:34.219258+00:00,1,,Domain used for delivering malicious payload
+domain,mychart-epic.com,high,2026-08-24T16:35:14.982407+00:00,2026-09-16T03:36:12.496533+00:00,1,,"Domain used for phishing, mimicking MyChart; attacker-controlled infrastructure."
+domain,my-chart.org,high,2026-08-24T16:35:14.982407+00:00,2026-09-16T03:36:12.496533+00:00,1,,"Domain used for phishing, mimicking MyChart; attacker-controlled infrastructure."
+domain,arkypc.com,high,2026-09-14T16:32:19.199902+00:00,2026-09-16T03:01:46.530686+00:00,1,,Domain used for downloading malicious helper
+domain,blzaeagent.com,high,2026-09-14T16:32:19.199902+00:00,2026-09-16T03:01:46.530686+00:00,1,,Part of a MacSync subgroup with attacker-controlled domains
+domain,bright-links.com,high,2026-09-14T16:32:19.199902+00:00,2026-09-16T03:01:46.530686+00:00,1,,Associated with PasteSwitch lure infrastructure
+domain,cli-desktop.com,high,2026-09-14T16:32:19.199902+00:00,2026-09-16T03:01:46.530686+00:00,1,,Used to deliver malicious payloads
+domain,dogtrainersgeorgia.com,high,2026-09-14T16:32:19.199902+00:00,2026-09-16T03:01:46.530686+00:00,1,,Part of a malicious infrastructure
+domain,fern-plume.com,high,2026-09-14T16:32:19.199902+00:00,2026-09-16T03:01:46.530686+00:00,1,,Used in malicious helper update route
+domain,gatemaden.space,high,2026-09-14T16:32:19.199902+00:00,2026-09-16T03:01:46.530686+00:00,2,,Used in malicious delivery route
+domain,glowmedaesthetics.com,high,2026-09-14T16:32:19.199902+00:00,2026-09-16T03:01:46.530686+00:00,2,,Established as a MacSync controller
+domain,harbor-29.com,high,2026-09-14T16:32:19.199902+00:00,2026-09-16T03:01:46.530686+00:00,1,,Used to deliver malicious shell and helper
+domain,helxiagent.com,high,2026-09-14T16:32:19.199902+00:00,2026-09-16T03:01:46.530686+00:00,1,,Part of a MacSync subgroup with attacker-controlled domains
+domain,hindustanagency.com,high,2026-09-14T16:32:19.199902+00:00,2026-09-16T03:01:46.530686+00:00,1,,Hosted on attacker-controlled infrastructure
+domain,houstongaragedoorinstallers.com,high,2026-09-14T16:32:19.199902+00:00,2026-09-16T03:01:46.530686+00:00,2,,Identified as part of a C2 cluster
+domain,lumenagnet.com,high,2026-09-14T16:32:19.199902+00:00,2026-09-16T03:01:46.530686+00:00,1,,Part of a MacSync subgroup with attacker-controlled domains
+domain,macstoragetips.com,high,2026-09-14T16:32:19.199902+00:00,2026-09-16T03:01:46.530686+00:00,1,,Connected to attacker-controlled infrastructure
+domain,marbellaresales.com,high,2026-09-14T16:32:19.199902+00:00,2026-09-16T03:01:46.530686+00:00,1,,Part of a malicious infrastructure
+domain,mpasvw.com,high,2026-09-14T16:32:19.199902+00:00,2026-09-16T03:01:46.530686+00:00,1,,Used for uploading stolen data
+domain,node-slate.com,high,2026-09-14T16:32:19.199902+00:00,2026-09-16T03:01:46.530686+00:00,1,,Used in malicious helper update route
+domain,novastacktips.com,high,2026-09-14T16:32:19.199902+00:00,2026-09-16T03:01:46.530686+00:00,1,,Connected to attacker-controlled infrastructure
+domain,opendisplay.us,high,2026-09-14T16:32:19.199902+00:00,2026-09-16T03:01:46.530686+00:00,1,,Connected to attacker-controlled infrastructure
+domain,peaecagent.com,high,2026-09-14T16:32:19.199902+00:00,2026-09-16T03:01:46.530686+00:00,1,,Part of a MacSync subgroup with attacker-controlled domains
+domain,remotion-skills.com,high,2026-09-14T16:32:19.199902+00:00,2026-09-16T03:01:46.530686+00:00,1,,Connected to attacker-controlled infrastructure
+domain,restoremental.com,high,2026-09-14T16:32:19.199902+00:00,2026-09-16T03:01:46.530686+00:00,1,,Part of a MacSync subgroup with attacker-controlled domains
+domain,rudder-moss.com,high,2026-09-14T16:32:19.199902+00:00,2026-09-16T03:01:46.530686+00:00,1,,Used for telemetry and exfiltration
+domain,verse-18.com,high,2026-09-14T16:32:19.199902+00:00,2026-09-16T03:01:46.530686+00:00,1,,Used for receiving execution telemetry
+domain,img.monderhouse.space,high,2026-09-04T14:51:13+00:00,2026-09-16T02:04:55.793732+00:00,3,,Described as a C2 host in the context
+domain,affordableonline.online,high,2026-09-15T19:32:30.314356+00:00,2026-09-15T19:32:30.314356+00:00,1,,Listed among domains associated with malicious campaigns
+domain,codecaudiog.site,high,2026-09-15T19:32:30.314356+00:00,2026-09-15T19:32:30.314356+00:00,1,,Used to download malicious payloads
+domain,codecvideowin.online,high,2026-09-15T19:32:30.314356+00:00,2026-09-15T19:32:30.314356+00:00,1,,Used to download malicious payloads
+domain,connection.timesmaluku.com,high,2026-09-15T19:32:30.314356+00:00,2026-09-15T19:32:30.314356+00:00,1,,Listed among domains associated with malicious campaigns
+domain,connection.upgradeonline.site,high,2026-09-15T19:32:30.314356+00:00,2026-09-15T19:32:30.314356+00:00,1,,Listed among domains associated with malicious campaigns
+domain,donalurdesconfeitos.site,high,2026-09-15T19:32:30.314356+00:00,2026-09-15T19:32:30.314356+00:00,1,,Listed among domains associated with malicious campaigns
+domain,seguranca.versionnova.site,high,2026-09-15T19:32:30.314356+00:00,2026-09-15T19:32:30.314356+00:00,1,,Listed among domains associated with malicious campaigns
+domain,volmira.site,high,2026-09-15T18:59:52+00:00,2026-09-15T19:32:30.314356+00:00,2,,Used as a C2 endpoint
+domain,zaviro.online,high,2026-09-15T18:59:52+00:00,2026-09-15T19:32:30.314356+00:00,2,,Used as a C2 endpoint
+domain,api06.chat5188.tk,high,2026-09-15T16:39:41.623419+00:00,2026-09-15T16:39:41.623419+00:00,1,,Listed under command and control domains
+domain,api08.chat5188.tk,high,2026-09-15T16:39:41.623419+00:00,2026-09-15T16:39:41.623419+00:00,1,,Listed under command and control domains
+domain,api80.c2iznja.com,high,2026-09-15T15:41:10+00:00,2026-09-15T16:39:41.623419+00:00,2,,Listed under command and control domains
+domain,apis.chat5188.tk,high,2026-09-15T16:39:41.623419+00:00,2026-09-15T16:39:41.623419+00:00,1,,Listed under command and control domains
+domain,base64.c2iznja.com,high,2026-09-15T16:39:41.623419+00:00,2026-09-15T16:39:41.623419+00:00,1,,Listed under command and control domains
+domain,beacon.chat5188.tk,high,2026-09-15T16:39:41.623419+00:00,2026-09-15T16:39:41.623419+00:00,1,,Listed under command and control domains
+domain,c2iznja.com,high,2026-09-15T16:39:41.623419+00:00,2026-09-15T16:39:41.623419+00:00,1,,Listed under command and control domains
+domain,cache.c2iznja.com,high,2026-09-15T16:39:41.623419+00:00,2026-09-15T16:39:41.623419+00:00,1,,Listed under command and control domains
+domain,ccc80.c2iznja.com,high,2026-09-15T16:39:41.623419+00:00,2026-09-15T16:39:41.623419+00:00,1,,Listed under command and control domains
+domain,chat5188.tk,high,2026-09-15T15:41:10+00:00,2026-09-15T16:39:41.623419+00:00,2,,Listed under command and control domains
+domain,chat.chat5188.tk,high,2026-09-15T16:39:41.623419+00:00,2026-09-15T16:39:41.623419+00:00,1,,Listed under command and control domains
+domain,live-hk.c2iznja.com,high,2026-09-15T16:39:41.623419+00:00,2026-09-15T16:39:41.623419+00:00,1,,Listed under command and control domains
+domain,newdma.c2iznja.com,high,2026-09-15T16:39:41.623419+00:00,2026-09-15T16:39:41.623419+00:00,1,,Listed under command and control domains
+domain,turbo.c2iznja.com,high,2026-09-15T16:39:41.623419+00:00,2026-09-15T16:39:41.623419+00:00,1,,Listed under command and control domains
+domain,host07eu.com,high,2026-09-15T13:24:22+00:00,2026-09-15T13:24:22+00:00,1,,"[article sweep] Described as a domain used to impersonate StreamYard, indicating attacker control"
+domain,streamyard.host07eu.com,high,2026-09-15T13:24:22+00:00,2026-09-15T13:24:22+00:00,1,,"[article sweep] Described as a domain used to impersonate StreamYard, indicating attacker control"
+domain,ayakliborsa.net,high,2026-09-15T12:32:10.190064+00:00,2026-09-15T12:32:10.190064+00:00,1,,Described as operator-controlled infrastructure with a self-signed RDP certificate.
 domain,codex-craft.com,high,2026-09-14T16:32:19.199902+00:00,2026-09-14T23:31:34.219258+00:00,3,,Domain used in malicious campaigns
-domain,dogtrainersgeorgia.com,high,2026-09-14T16:32:19.199902+00:00,2026-09-14T23:31:34.219258+00:00,1,,Domain associated with malicious activity
-domain,fern-plume.com,high,2026-09-14T16:32:19.199902+00:00,2026-09-14T23:31:34.219258+00:00,1,,Domain used for helper update route
-domain,gatemaden.space,high,2026-09-14T16:32:19.199902+00:00,2026-09-14T23:31:34.219258+00:00,2,,Domain used in malicious campaigns
-domain,glowmedaesthetics.com,high,2026-09-14T16:32:19.199902+00:00,2026-09-14T23:31:34.219258+00:00,2,,Domain used as MacSync controller
-domain,harbor-29.com,high,2026-09-14T16:32:19.199902+00:00,2026-09-14T23:31:34.219258+00:00,1,,Domain used for delivering malicious payload
 domain,hbomaxx.app,high,2026-09-14T16:32:19.199902+00:00,2026-09-14T23:31:34.219258+00:00,3,,Domain likely used for phishing targeting HBO Max users
 domain,hbomaxx.us,high,2026-09-14T16:32:19.199902+00:00,2026-09-14T23:31:34.219258+00:00,4,,Domain likely used for phishing targeting HBO Max users
-domain,helxiagent.com,high,2026-09-14T16:32:19.199902+00:00,2026-09-14T23:31:34.219258+00:00,1,,Domain connected to MacSync subgroup
-domain,hindustanagency.com,high,2026-09-14T16:32:19.199902+00:00,2026-09-14T23:31:34.219258+00:00,1,,Domain associated with malicious activity
-domain,houstongaragedoorinstallers.com,high,2026-09-14T16:32:19.199902+00:00,2026-09-14T23:31:34.219258+00:00,2,,Domain used as C2 in malicious campaigns
-domain,lumenagnet.com,high,2026-09-14T16:32:19.199902+00:00,2026-09-14T23:31:34.219258+00:00,1,,Domain connected to MacSync subgroup
-domain,macstoragetips.com,high,2026-09-14T16:32:19.199902+00:00,2026-09-14T23:31:34.219258+00:00,1,,Domain associated with malicious activity
-domain,marbellaresales.com,high,2026-09-14T16:32:19.199902+00:00,2026-09-14T23:31:34.219258+00:00,1,,Domain associated with malicious activity
-domain,mpasvw.com,high,2026-09-14T16:32:19.199902+00:00,2026-09-14T23:31:34.219258+00:00,1,,Domain used for uploading stolen data
-domain,node-slate.com,high,2026-09-14T16:32:19.199902+00:00,2026-09-14T23:31:34.219258+00:00,1,,Domain used for malicious activity
-domain,novastacktips.com,high,2026-09-14T16:32:19.199902+00:00,2026-09-14T23:31:34.219258+00:00,1,,Domain associated with malicious activity
-domain,opendisplay.us,high,2026-09-14T16:32:19.199902+00:00,2026-09-14T23:31:34.219258+00:00,1,,Domain associated with malicious activity
-domain,peaecagent.com,high,2026-09-14T16:32:19.199902+00:00,2026-09-14T23:31:34.219258+00:00,1,,Domain connected to MacSync subgroup
-domain,remotion-skills.com,high,2026-09-14T16:32:19.199902+00:00,2026-09-14T23:31:34.219258+00:00,1,,Domain associated with malicious activity
-domain,restoremental.com,high,2026-09-14T16:32:19.199902+00:00,2026-09-14T23:31:34.219258+00:00,1,,Domain used as MacSync controller
-domain,rudder-moss.com,high,2026-09-14T16:32:19.199902+00:00,2026-09-14T23:31:34.219258+00:00,1,,Domain contacted by malicious payload
-domain,verse-18.com,high,2026-09-14T16:32:19.199902+00:00,2026-09-14T23:31:34.219258+00:00,1,,Domain used for receiving execution telemetry
 domain,hbomax-macos.com,high,2026-09-14T18:34:16+00:00,2026-09-14T22:45:53+00:00,2,,Domain likely used for phishing targeting HBO Max users
 domain,check.aupporte.com,high,2026-09-14T20:32:11.162627+00:00,2026-09-14T20:32:11.162627+00:00,1,,[article sweep] Subdomain of a malicious domain used in a campaign
 domain,b28n40i25b68gte41o61dwc19htc29jwgxiqfzbr.org,high,2026-09-14T17:57:25+00:00,2026-09-14T17:57:25+00:00,1,,"[article sweep] Domain generated by a DGA, likely attacker-controlled"
@@ -47,9 +76,9 @@ domain,prolefexity-disorisance.org,high,2026-09-14T17:57:25+00:00,2026-09-14T17:
 domain,revodihudom.info,high,2026-09-14T17:57:25+00:00,2026-09-14T17:57:25+00:00,1,,"[article sweep] Domain generated by a DGA, likely attacker-controlled"
 domain,semicofaxiful-enixakor-subafapehen.info,high,2026-09-14T17:57:25+00:00,2026-09-14T17:57:25+00:00,1,,"[article sweep] Domain generated by a DGA, likely attacker-controlled"
 domain,semiridinution-postepudency.com,high,2026-09-14T17:57:25+00:00,2026-09-14T17:57:25+00:00,1,,"[article sweep] Domain generated by a DGA, likely attacker-controlled"
-domain,focusgroovy.com,high,2026-09-14T16:32:25.041691+00:00,2026-09-14T16:32:25.041691+00:00,1,,Domain used as C2 in malicious campaigns
-domain,jacksonvillemma.com,high,2026-09-14T16:32:25.041691+00:00,2026-09-14T16:32:25.041691+00:00,1,,Domain used as C2 in malicious campaigns
-domain,mansfieldpediatrics.com,high,2026-09-14T16:32:25.041691+00:00,2026-09-14T16:32:25.041691+00:00,1,,Domain used as C2 in malicious campaigns
+domain,focusgroovy.com,high,2026-09-14T16:32:25.041691+00:00,2026-09-14T16:32:25.041691+00:00,1,,Identified as part of a C2 cluster
+domain,jacksonvillemma.com,high,2026-09-14T16:32:25.041691+00:00,2026-09-14T16:32:25.041691+00:00,1,,Anchored on attacker-controlled infrastructure
+domain,mansfieldpediatrics.com,high,2026-09-14T16:32:25.041691+00:00,2026-09-14T16:32:25.041691+00:00,1,,Identified as part of a C2 cluster
 domain,evil.net,high,2026-09-14T15:30:43.146621+00:00,2026-09-14T15:30:43.146621+00:00,1,,"Domain used in an example command for unauthorized access, suggesting attacker control"
 domain,trump2026.org,high,2026-09-14T15:07:10+00:00,2026-09-14T15:07:10+00:00,1,,"[article sweep] Domain used in a cryptocurrency scam, likely attacker-controlled"
 domain,attacker.com,high,2026-02-09T20:21:27+00:00,2026-09-14T12:54:22+00:00,5,,"Domain used to download and execute a shell script, indicating attacker control."
@@ -61,7 +90,6 @@ domain,noah-ssh.com.cn,high,2026-09-14T06:55:22+00:00,2026-09-14T06:55:22+00:00,
 domain,org-bcut.com.cn,high,2026-09-14T06:55:22+00:00,2026-09-14T06:55:22+00:00,1,,"[article sweep] Domain used in a malicious campaign, likely attacker-controlled"
 domain,assetnote-callback.com,high,2026-09-13T18:03:09+00:00,2026-09-13T18:03:09+00:00,1,,[article sweep] Domain used for callback attempts in scanning activity
 domain,canary.assetnotessrf.com,high,2026-09-13T18:03:09+00:00,2026-09-13T18:03:09+00:00,1,,[article sweep] Domain used for SSRF detection in scanning activity
-domain,img.monderhouse.space,high,2026-09-04T14:51:13+00:00,2026-09-13T17:51:49.140131+00:00,3,,Described as a C2 host in the context
 domain,malicious.xyz,high,2026-09-13T10:02:18+00:00,2026-09-13T10:02:18+00:00,1,,[article sweep] Domain used for reputation check in a threat intelligence tool
 domain,gopdallas2026.com,high,2026-09-12T08:15:02+00:00,2026-09-12T08:15:02+00:00,1,,[article sweep] Identified as a fake website impersonating a legitimate domain
 domain,evil-vps.domainreg.net,high,2026-09-11T18:07:49+00:00,2026-09-11T18:07:49+00:00,1,,[article sweep] Described as a registered domain used for reverse shell actions
@@ -97,12 +125,12 @@ domain,xcsset.st,high,2026-09-09T08:31:18.137308+00:00,2026-09-09T08:31:18.13730
 domain,hagaseca.com,high,2026-09-08T11:18:18.463595+00:00,2026-09-08T11:18:18.463595+00:00,1,,Dedicated domain used by THost9 as attacker infrastructure
 domain,pleasedonthackmyserver.com,high,2026-09-08T11:18:18.463595+00:00,2026-09-08T11:18:18.463595+00:00,1,,Subdomain used by THost4 as part of attacker infrastructure
 domain,jenniferwelsh.com,high,2026-09-08T10:17:00.157905+00:00,2026-09-08T10:17:00.157905+00:00,1,,Domain used for hosting malicious payloads as per context
-domain,kostumn1.ilabserver.com,high,2026-09-08T10:17:00.157905+00:00,2026-09-08T10:17:00.157905+00:00,1,,Domain used for hosting malicious payloads as per context
-domain,languangjob.com,high,2026-09-08T10:17:00.157905+00:00,2026-09-08T10:17:00.157905+00:00,1,,Domain used for hosting malicious payloads as per context
-domain,lashakhazhalia86dancer.com,high,2026-09-08T10:17:00.157905+00:00,2026-09-08T10:17:00.157905+00:00,1,,Domain used for hosting malicious payloads as per context
-domain,mylittlecabbage.net,high,2026-09-08T10:17:00.157905+00:00,2026-09-08T10:17:00.157905+00:00,1,,Domain used for hosting malicious payloads as per context
-domain,oazevents.com,high,2026-09-08T10:17:00.157905+00:00,2026-09-08T10:17:00.157905+00:00,1,,Domain used for hosting malicious payloads as per context
-domain,rtattack.baqebei1.online,high,2026-09-08T10:17:00.157905+00:00,2026-09-08T10:17:00.157905+00:00,1,,Domain used for hosting malicious payloads as per context
+domain,kostumn1.ilabserver.com,high,2026-09-08T10:17:00.157905+00:00,2026-09-08T10:17:00.157905+00:00,1,,Used for malicious payload delivery
+domain,languangjob.com,high,2026-09-08T10:17:00.157905+00:00,2026-09-08T10:17:00.157905+00:00,1,,Used for malicious payload delivery
+domain,lashakhazhalia86dancer.com,high,2026-09-08T10:17:00.157905+00:00,2026-09-08T10:17:00.157905+00:00,1,,Used for malicious payload delivery
+domain,mylittlecabbage.net,high,2026-09-08T10:17:00.157905+00:00,2026-09-08T10:17:00.157905+00:00,1,,Used for malicious payload delivery
+domain,oazevents.com,high,2026-09-08T10:17:00.157905+00:00,2026-09-08T10:17:00.157905+00:00,1,,Used for malicious payload delivery
+domain,rtattack.baqebei1.online,high,2026-09-08T10:17:00.157905+00:00,2026-09-08T10:17:00.157905+00:00,1,,Used for malicious payload delivery
 domain,update.dubbedmuch.cc,high,2026-09-08T10:01:07+00:00,2026-09-08T10:01:07+00:00,1,,Listed as C2 domain in the context of a malware payload
 domain,sk.wc.ci,high,2026-09-08T09:46:25.913877+00:00,2026-09-08T09:46:25.913877+00:00,1,,Domain registered by BengalSEO and linked to attacker activities.
 domain,wapp.live,high,2026-09-08T09:46:25.913877+00:00,2026-09-08T09:46:25.913877+00:00,1,,[article sweep] Used as redirector domains in malicious infrastructure
@@ -177,8 +205,6 @@ domain,fine-work-team.com,high,2026-07-28T14:25:36+00:00,2026-08-31T12:34:31.263
 domain,timelevel12.com,high,2026-08-31T12:34:31.263942+00:00,2026-08-31T12:34:31.263942+00:00,1,,Listed as a delivery URL for a malicious script
 domain,san-sid.com,high,2026-08-31T10:00:36+00:00,2026-08-31T10:00:36+00:00,1,,Domain hosting obfuscated PowerShell payload used as RAT dropper
 domain,infect.online,high,2026-08-31T09:45:15+00:00,2026-08-31T09:45:15+00:00,1,,[article sweep] Domain associated with a vendor in a cybercriminal marketplace
-domain,mychart-epic.com,high,2026-08-24T16:35:14.982407+00:00,2026-08-29T18:03:32.277709+00:00,1,,"Domain used for phishing, mimicking MyChart; attacker-controlled infrastructure."
-domain,my-chart.org,high,2026-08-24T16:35:14.982407+00:00,2026-08-29T18:03:32.277709+00:00,1,,"Domain used for phishing, mimicking MyChart; attacker-controlled infrastructure."
 domain,nuihuw.top,high,2026-08-26T10:37:36+00:00,2026-08-28T11:38:54+00:00,2,,Listed as a backup C2 server in the decrypted configuration
 domain,exessupdate.info,high,2026-08-28T03:24:16+00:00,2026-08-28T03:24:16+00:00,1,,[article sweep] Listed as part of campaign infrastructure in a YARA rule
 domain,greezupdto.info,high,2026-08-28T03:24:16+00:00,2026-08-28T03:24:16+00:00,1,,[article sweep] Listed as part of campaign infrastructure in a YARA rule

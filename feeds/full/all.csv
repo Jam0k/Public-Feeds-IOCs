@@ -1,39 +1,95 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason
-ipv4,176.53.159.66,high,2026-09-14T16:32:19.199902+00:00,2026-09-15T02:32:04.084452+00:00,1,,IP address used for delivery and teardown cluster
-ipv4,45.94.47.204,high,2026-09-14T16:32:19.199902+00:00,2026-09-15T02:32:04.084452+00:00,1,,IP address used for task service enrollment
-ipv4,62.60.226.69,high,2026-09-14T16:32:19.199902+00:00,2026-09-15T02:32:04.084452+00:00,1,,IP address used for provisioning cluster
-md5,1c6bcaad7aa6a3ece63dadfba246def0,high,2026-09-15T02:32:04.084452+00:00,2026-09-15T02:32:04.084452+00:00,1,,MD5 hash of a configuration file used in the campaign
-sha256,6759c72365d0c690db613ff30635970668f5699b65c3842ecdc4f1b695ed13a7,high,2026-09-14T16:32:19.199902+00:00,2026-09-15T02:32:04.084452+00:00,1,,SHA256 hash of a Windows loader chain
+domain,mychart-epic.com,high,2026-08-24T16:35:14.982407+00:00,2026-09-16T03:36:12.496533+00:00,1,,"Domain used for phishing, mimicking MyChart; attacker-controlled infrastructure."
+domain,my-chart.org,high,2026-08-24T16:35:14.982407+00:00,2026-09-16T03:36:12.496533+00:00,1,,"Domain used for phishing, mimicking MyChart; attacker-controlled infrastructure."
+domain,arkypc.com,high,2026-09-14T16:32:19.199902+00:00,2026-09-16T03:01:46.530686+00:00,1,,Domain used for downloading malicious helper
+domain,blzaeagent.com,high,2026-09-14T16:32:19.199902+00:00,2026-09-16T03:01:46.530686+00:00,1,,Part of a MacSync subgroup with attacker-controlled domains
+domain,bright-links.com,high,2026-09-14T16:32:19.199902+00:00,2026-09-16T03:01:46.530686+00:00,1,,Associated with PasteSwitch lure infrastructure
+domain,cli-desktop.com,high,2026-09-14T16:32:19.199902+00:00,2026-09-16T03:01:46.530686+00:00,1,,Used to deliver malicious payloads
+domain,dogtrainersgeorgia.com,high,2026-09-14T16:32:19.199902+00:00,2026-09-16T03:01:46.530686+00:00,1,,Part of a malicious infrastructure
+domain,fern-plume.com,high,2026-09-14T16:32:19.199902+00:00,2026-09-16T03:01:46.530686+00:00,1,,Used in malicious helper update route
+domain,gatemaden.space,high,2026-09-14T16:32:19.199902+00:00,2026-09-16T03:01:46.530686+00:00,2,,Used in malicious delivery route
+domain,glowmedaesthetics.com,high,2026-09-14T16:32:19.199902+00:00,2026-09-16T03:01:46.530686+00:00,2,,Established as a MacSync controller
+domain,harbor-29.com,high,2026-09-14T16:32:19.199902+00:00,2026-09-16T03:01:46.530686+00:00,1,,Used to deliver malicious shell and helper
+domain,helxiagent.com,high,2026-09-14T16:32:19.199902+00:00,2026-09-16T03:01:46.530686+00:00,1,,Part of a MacSync subgroup with attacker-controlled domains
+domain,hindustanagency.com,high,2026-09-14T16:32:19.199902+00:00,2026-09-16T03:01:46.530686+00:00,1,,Hosted on attacker-controlled infrastructure
+domain,houstongaragedoorinstallers.com,high,2026-09-14T16:32:19.199902+00:00,2026-09-16T03:01:46.530686+00:00,2,,Identified as part of a C2 cluster
+domain,lumenagnet.com,high,2026-09-14T16:32:19.199902+00:00,2026-09-16T03:01:46.530686+00:00,1,,Part of a MacSync subgroup with attacker-controlled domains
+domain,macstoragetips.com,high,2026-09-14T16:32:19.199902+00:00,2026-09-16T03:01:46.530686+00:00,1,,Connected to attacker-controlled infrastructure
+domain,marbellaresales.com,high,2026-09-14T16:32:19.199902+00:00,2026-09-16T03:01:46.530686+00:00,1,,Part of a malicious infrastructure
+domain,mpasvw.com,high,2026-09-14T16:32:19.199902+00:00,2026-09-16T03:01:46.530686+00:00,1,,Used for uploading stolen data
+domain,node-slate.com,high,2026-09-14T16:32:19.199902+00:00,2026-09-16T03:01:46.530686+00:00,1,,Used in malicious helper update route
+domain,novastacktips.com,high,2026-09-14T16:32:19.199902+00:00,2026-09-16T03:01:46.530686+00:00,1,,Connected to attacker-controlled infrastructure
+domain,opendisplay.us,high,2026-09-14T16:32:19.199902+00:00,2026-09-16T03:01:46.530686+00:00,1,,Connected to attacker-controlled infrastructure
+domain,peaecagent.com,high,2026-09-14T16:32:19.199902+00:00,2026-09-16T03:01:46.530686+00:00,1,,Part of a MacSync subgroup with attacker-controlled domains
+domain,remotion-skills.com,high,2026-09-14T16:32:19.199902+00:00,2026-09-16T03:01:46.530686+00:00,1,,Connected to attacker-controlled infrastructure
+domain,restoremental.com,high,2026-09-14T16:32:19.199902+00:00,2026-09-16T03:01:46.530686+00:00,1,,Part of a MacSync subgroup with attacker-controlled domains
+domain,rudder-moss.com,high,2026-09-14T16:32:19.199902+00:00,2026-09-16T03:01:46.530686+00:00,1,,Used for telemetry and exfiltration
+domain,verse-18.com,high,2026-09-14T16:32:19.199902+00:00,2026-09-16T03:01:46.530686+00:00,1,,Used for receiving execution telemetry
+ipv4,176.53.159.66,high,2026-09-14T16:32:19.199902+00:00,2026-09-16T03:01:46.530686+00:00,1,,Used as a delivery and teardown cluster
+ipv4,45.94.47.204,high,2026-09-14T16:32:19.199902+00:00,2026-09-16T03:01:46.530686+00:00,1,,Used for enrolling with a plaintext task service
+ipv4,62.60.226.69,high,2026-09-14T16:32:19.199902+00:00,2026-09-16T03:01:46.530686+00:00,1,,Hosted a coordinated Nova and macOS-tool neighborhood
+sha256,6759c72365d0c690db613ff30635970668f5699b65c3842ecdc4f1b695ed13a7,high,2026-09-14T16:32:19.199902+00:00,2026-09-16T03:01:46.530686+00:00,1,,Identified as a malicious payload hash
+sha256,985683bd660c0c47c6be513a2d1f0a554d52d241714bb17fb18ab0d0f8cc2dc6,high,2026-09-14T16:32:19.199902+00:00,2026-09-16T03:01:46.530686+00:00,1,,Used in malicious delivery route
+sha256,e6e54a8e8f30cedd8492f515ab95e005478bafb41998c43341fcf3a494573d6c,high,2026-09-14T16:32:19.199902+00:00,2026-09-16T03:01:46.530686+00:00,1,,Identified as a malicious helper hash
+domain,img.monderhouse.space,high,2026-09-04T14:51:13+00:00,2026-09-16T02:04:55.793732+00:00,3,,Described as a C2 host in the context
+sha256,009a1e2d7a582a24e50cf2ffc2a005482c8e38f22bf5ed416053855f8d054e1e,high,2026-09-04T15:31:57.223581+00:00,2026-09-16T02:04:55.793732+00:00,1,,[article sweep] Listed in a table of malware hashes as an IOC.
+sha256,09739441ed4599bac2f8159028f772f71e4b25c8badfff95574e56d7384f3dbe,high,2026-09-04T15:31:57.223581+00:00,2026-09-16T02:04:55.793732+00:00,1,,[article sweep] Listed in a table of malware hashes as an IOC.
+sha256,12810854c8b2c391b23e2e18b013e873d0369b0637aa3cf993136c07188ba3b8,high,2026-09-04T15:31:57.223581+00:00,2026-09-16T02:04:55.793732+00:00,1,,[article sweep] Listed in a table of malware hashes as an IOC.
+sha256,2f02b09d61d432134e994ad671258f523bbf289ae6091fd4eae192c60bd51b6f,high,2026-09-04T15:31:57.223581+00:00,2026-09-16T02:04:55.793732+00:00,1,,[article sweep] Listed in a table of malware hashes as an IOC.
+sha256,5db1b6d52faf60b4f32d6fd0c7c938e4d05d29a14c32ded4a9668357c08b6a91,high,2026-09-04T15:31:57.223581+00:00,2026-09-16T02:04:55.793732+00:00,1,,[article sweep] Listed in a table of malware hashes as an IOC.
+sha256,6cf1b5e92a9c0756f597a5ddefb38eba32961c52efac7ab2a0aa52c639a8fc53,high,2026-09-04T15:31:57.223581+00:00,2026-09-16T02:04:55.793732+00:00,1,,[article sweep] Listed in a table of malware hashes as an IOC.
+sha256,7007a78d50a993cb174c685eba96eb442c9507e38fd9d8e5dffc712f613ec110,high,2026-09-04T15:31:57.223581+00:00,2026-09-16T02:04:55.793732+00:00,1,,[article sweep] Listed in a table of malware hashes as an IOC.
+sha256,83f7d565b0465546027052b597af46eae3a199e7a91fcc2ab936341147349130,high,2026-09-04T15:31:57.223581+00:00,2026-09-16T02:04:55.793732+00:00,1,,[article sweep] Listed in a table of malware hashes as an IOC.
+sha256,8f30b57928934ae67478d0e690c91d046e35a638da098d02922a4a88a0fdb66c,high,2026-09-04T15:31:57.223581+00:00,2026-09-16T02:04:55.793732+00:00,1,,[article sweep] Listed in a table of malware hashes as an IOC.
+sha256,94630b96f628c96a6bff7904b40ffc9ad67c86f8a4ff6080c3b524831c93f402,high,2026-09-04T15:31:57.223581+00:00,2026-09-16T02:04:55.793732+00:00,1,,[article sweep] Listed in a table of malware hashes as an IOC.
+sha256,a1d8af3a6acb731f07f72040eccb3450c1c83d40e29f736c2a63d35388660be4,high,2026-09-04T15:31:57.223581+00:00,2026-09-16T02:04:55.793732+00:00,1,,[article sweep] Listed in a table of malware hashes as an IOC.
+sha256,a8bfab4de81a1acb04aacdf757346946b0f5e30f0c9f402004016d0e425119c7,high,2026-09-04T15:31:57.223581+00:00,2026-09-16T02:04:55.793732+00:00,1,,[article sweep] Listed in a table of malware hashes as an IOC.
+sha256,d53c760c23b4405eb04ad0f20ead375440344b3bdf1fb7854ed12e40d155eabe,high,2026-09-04T15:31:57.223581+00:00,2026-09-16T02:04:55.793732+00:00,1,,[article sweep] Listed in a table of malware hashes as an IOC.
+sha256,ed72f4cd8d467b5c5d95ae6aeca4aaeea14d79565d379c1ca5871a714727be16,high,2026-09-04T15:31:57.223581+00:00,2026-09-16T02:04:55.793732+00:00,1,,[article sweep] Listed in a table of malware hashes as an IOC.
+sha256,fea1bc36632c71e5a839803469ef60ac47595d36b2c50934ac109ade6df06e61,high,2026-09-04T15:31:57.223581+00:00,2026-09-16T02:04:55.793732+00:00,1,,Listed as part of the attacker's toolkit
+sha256,feeea9d0bf6ae7396d28271baa51ae50df5169ce5d32a516865856f91abc50b3,high,2026-09-04T15:31:57.223581+00:00,2026-09-16T02:04:55.793732+00:00,1,,[article sweep] Listed in a table of malware hashes as an IOC.
+domain,affordableonline.online,high,2026-09-15T19:32:30.314356+00:00,2026-09-15T19:32:30.314356+00:00,1,,Listed among domains associated with malicious campaigns
+domain,codecaudiog.site,high,2026-09-15T19:32:30.314356+00:00,2026-09-15T19:32:30.314356+00:00,1,,Used to download malicious payloads
+domain,codecvideowin.online,high,2026-09-15T19:32:30.314356+00:00,2026-09-15T19:32:30.314356+00:00,1,,Used to download malicious payloads
+domain,connection.timesmaluku.com,high,2026-09-15T19:32:30.314356+00:00,2026-09-15T19:32:30.314356+00:00,1,,Listed among domains associated with malicious campaigns
+domain,connection.upgradeonline.site,high,2026-09-15T19:32:30.314356+00:00,2026-09-15T19:32:30.314356+00:00,1,,Listed among domains associated with malicious campaigns
+domain,donalurdesconfeitos.site,high,2026-09-15T19:32:30.314356+00:00,2026-09-15T19:32:30.314356+00:00,1,,Listed among domains associated with malicious campaigns
+domain,seguranca.versionnova.site,high,2026-09-15T19:32:30.314356+00:00,2026-09-15T19:32:30.314356+00:00,1,,Listed among domains associated with malicious campaigns
+domain,volmira.site,high,2026-09-15T18:59:52+00:00,2026-09-15T19:32:30.314356+00:00,2,,Used as a C2 endpoint
+domain,zaviro.online,high,2026-09-15T18:59:52+00:00,2026-09-15T19:32:30.314356+00:00,2,,Used as a C2 endpoint
+ipv4,37.16.74.100,high,2026-09-15T19:32:30.314356+00:00,2026-09-15T19:32:30.314356+00:00,1,,Listed as a C2 endpoint
+md5,5f109e7bb3df4dea81946f2f853da288,high,2026-09-15T19:32:30.314356+00:00,2026-09-15T19:32:30.314356+00:00,1,,Used as part of a malicious campaign
+md5,87b76a60ba7c474dbf8f689df2808e1a,high,2026-09-15T19:32:30.314356+00:00,2026-09-15T19:32:30.314356+00:00,1,,Used as part of a malicious campaign
+md5,f9e95a1e1fa3f3aebfc802c6c8e6a2eb,high,2026-09-15T19:32:30.314356+00:00,2026-09-15T19:32:30.314356+00:00,1,,Used as part of a malicious campaign
+sha256,106eac79396a3ff77b8f375c391260ce422be2ae4d55d3aa75b2635cbdc0fa42,high,2026-09-15T19:32:30.314356+00:00,2026-09-15T19:32:30.314356+00:00,1,,Used as part of a malicious campaign
+sha256,170dffb37e05f525f735bc9ad84b3908a488f7ce43fcb07739a10e4331e15a2c,high,2026-09-15T19:32:30.314356+00:00,2026-09-15T19:32:30.314356+00:00,1,,Used as part of a malicious campaign
+sha256,223be3f8648bf6998c4a58b972522e5fda8d9d0a57b4e163811930de66c3f7ca,high,2026-09-15T19:32:30.314356+00:00,2026-09-15T19:32:30.314356+00:00,1,,Used as part of a malicious campaign
+sha256,5ece7fd3766b0b7f8aadefa562313cea6c3c94f9398658dd389910e5be44f552,high,2026-09-15T19:32:30.314356+00:00,2026-09-15T19:32:30.314356+00:00,1,,Used as part of a malicious campaign
+sha256,ba80216c960977fa45e317f00dcf31e96acab29904a737cbc0bf86e929c3be5f,high,2026-09-15T19:32:30.314356+00:00,2026-09-15T19:32:30.314356+00:00,1,,Used as part of a malicious campaign
+sha256,c8c38634dd44d7c6162c66174a6ee23ee404265125166e8d757681bdd66a4268,high,2026-09-15T19:32:30.314356+00:00,2026-09-15T19:32:30.314356+00:00,1,,Used as part of a malicious campaign
+domain,api06.chat5188.tk,high,2026-09-15T16:39:41.623419+00:00,2026-09-15T16:39:41.623419+00:00,1,,Listed under command and control domains
+domain,api08.chat5188.tk,high,2026-09-15T16:39:41.623419+00:00,2026-09-15T16:39:41.623419+00:00,1,,Listed under command and control domains
+domain,api80.c2iznja.com,high,2026-09-15T15:41:10+00:00,2026-09-15T16:39:41.623419+00:00,2,,Listed under command and control domains
+domain,apis.chat5188.tk,high,2026-09-15T16:39:41.623419+00:00,2026-09-15T16:39:41.623419+00:00,1,,Listed under command and control domains
+domain,base64.c2iznja.com,high,2026-09-15T16:39:41.623419+00:00,2026-09-15T16:39:41.623419+00:00,1,,Listed under command and control domains
+domain,beacon.chat5188.tk,high,2026-09-15T16:39:41.623419+00:00,2026-09-15T16:39:41.623419+00:00,1,,Listed under command and control domains
+domain,c2iznja.com,high,2026-09-15T16:39:41.623419+00:00,2026-09-15T16:39:41.623419+00:00,1,,Listed under command and control domains
+domain,cache.c2iznja.com,high,2026-09-15T16:39:41.623419+00:00,2026-09-15T16:39:41.623419+00:00,1,,Listed under command and control domains
+domain,ccc80.c2iznja.com,high,2026-09-15T16:39:41.623419+00:00,2026-09-15T16:39:41.623419+00:00,1,,Listed under command and control domains
+domain,chat5188.tk,high,2026-09-15T15:41:10+00:00,2026-09-15T16:39:41.623419+00:00,2,,Listed under command and control domains
+domain,chat.chat5188.tk,high,2026-09-15T16:39:41.623419+00:00,2026-09-15T16:39:41.623419+00:00,1,,Listed under command and control domains
+domain,live-hk.c2iznja.com,high,2026-09-15T16:39:41.623419+00:00,2026-09-15T16:39:41.623419+00:00,1,,Listed under command and control domains
+domain,newdma.c2iznja.com,high,2026-09-15T16:39:41.623419+00:00,2026-09-15T16:39:41.623419+00:00,1,,Listed under command and control domains
+domain,turbo.c2iznja.com,high,2026-09-15T16:39:41.623419+00:00,2026-09-15T16:39:41.623419+00:00,1,,Listed under command and control domains
+ipv4,210.1.231.13,high,2026-09-15T16:39:41.623419+00:00,2026-09-15T16:39:41.623419+00:00,1,,Associated with attacker-controlled domain turbo.c2iznja.com
+domain,host07eu.com,high,2026-09-15T13:24:22+00:00,2026-09-15T13:24:22+00:00,1,,"[article sweep] Described as a domain used to impersonate StreamYard, indicating attacker control"
+domain,streamyard.host07eu.com,high,2026-09-15T13:24:22+00:00,2026-09-15T13:24:22+00:00,1,,"[article sweep] Described as a domain used to impersonate StreamYard, indicating attacker control"
+domain,ayakliborsa.net,high,2026-09-15T12:32:10.190064+00:00,2026-09-15T12:32:10.190064+00:00,1,,Described as operator-controlled infrastructure with a self-signed RDP certificate.
+md5,1c6bcaad7aa6a3ece63dadfba246def0,high,2026-09-15T02:32:04.084452+00:00,2026-09-15T02:32:04.084452+00:00,1,,MD5 hash of a malicious configuration file
 sha256,7fa9d1132f62a34aaa54fd5fa0deba45bf0258388743b69c6c74c63207e64ccb,high,2026-09-14T16:32:19.199902+00:00,2026-09-15T02:32:04.084452+00:00,1,,SHA256 hash of an Apple-styled Terminal page
-sha256,985683bd660c0c47c6be513a2d1f0a554d52d241714bb17fb18ab0d0f8cc2dc6,high,2026-09-14T16:32:19.199902+00:00,2026-09-15T02:32:04.084452+00:00,1,,SHA256 hash of a route used in the campaign
-sha256,e6e54a8e8f30cedd8492f515ab95e005478bafb41998c43341fcf3a494573d6c,high,2026-09-14T16:32:19.199902+00:00,2026-09-15T02:32:04.084452+00:00,1,,SHA256 hash of a historical helper used in the campaign
-domain,arkypc.com,high,2026-09-14T16:32:19.199902+00:00,2026-09-14T23:31:34.219258+00:00,1,,Domain used for downloading malicious helper
-domain,blzaeagent.com,high,2026-09-14T16:32:19.199902+00:00,2026-09-14T23:31:34.219258+00:00,1,,Domain connected to MacSync subgroup
-domain,bright-links.com,high,2026-09-14T16:32:19.199902+00:00,2026-09-14T23:31:34.219258+00:00,1,,Domain used in PasteSwitch lure infrastructure
-domain,cli-desktop.com,high,2026-09-14T16:32:19.199902+00:00,2026-09-14T23:31:34.219258+00:00,1,,Domain used for delivering malicious payload
 domain,codex-craft.com,high,2026-09-14T16:32:19.199902+00:00,2026-09-14T23:31:34.219258+00:00,3,,Domain used in malicious campaigns
-domain,dogtrainersgeorgia.com,high,2026-09-14T16:32:19.199902+00:00,2026-09-14T23:31:34.219258+00:00,1,,Domain associated with malicious activity
-domain,fern-plume.com,high,2026-09-14T16:32:19.199902+00:00,2026-09-14T23:31:34.219258+00:00,1,,Domain used for helper update route
-domain,gatemaden.space,high,2026-09-14T16:32:19.199902+00:00,2026-09-14T23:31:34.219258+00:00,2,,Domain used in malicious campaigns
-domain,glowmedaesthetics.com,high,2026-09-14T16:32:19.199902+00:00,2026-09-14T23:31:34.219258+00:00,2,,Domain used as MacSync controller
-domain,harbor-29.com,high,2026-09-14T16:32:19.199902+00:00,2026-09-14T23:31:34.219258+00:00,1,,Domain used for delivering malicious payload
 domain,hbomaxx.app,high,2026-09-14T16:32:19.199902+00:00,2026-09-14T23:31:34.219258+00:00,3,,Domain likely used for phishing targeting HBO Max users
 domain,hbomaxx.us,high,2026-09-14T16:32:19.199902+00:00,2026-09-14T23:31:34.219258+00:00,4,,Domain likely used for phishing targeting HBO Max users
-domain,helxiagent.com,high,2026-09-14T16:32:19.199902+00:00,2026-09-14T23:31:34.219258+00:00,1,,Domain connected to MacSync subgroup
-domain,hindustanagency.com,high,2026-09-14T16:32:19.199902+00:00,2026-09-14T23:31:34.219258+00:00,1,,Domain associated with malicious activity
-domain,houstongaragedoorinstallers.com,high,2026-09-14T16:32:19.199902+00:00,2026-09-14T23:31:34.219258+00:00,2,,Domain used as C2 in malicious campaigns
-domain,lumenagnet.com,high,2026-09-14T16:32:19.199902+00:00,2026-09-14T23:31:34.219258+00:00,1,,Domain connected to MacSync subgroup
-domain,macstoragetips.com,high,2026-09-14T16:32:19.199902+00:00,2026-09-14T23:31:34.219258+00:00,1,,Domain associated with malicious activity
-domain,marbellaresales.com,high,2026-09-14T16:32:19.199902+00:00,2026-09-14T23:31:34.219258+00:00,1,,Domain associated with malicious activity
-domain,mpasvw.com,high,2026-09-14T16:32:19.199902+00:00,2026-09-14T23:31:34.219258+00:00,1,,Domain used for uploading stolen data
-domain,node-slate.com,high,2026-09-14T16:32:19.199902+00:00,2026-09-14T23:31:34.219258+00:00,1,,Domain used for malicious activity
-domain,novastacktips.com,high,2026-09-14T16:32:19.199902+00:00,2026-09-14T23:31:34.219258+00:00,1,,Domain associated with malicious activity
-domain,opendisplay.us,high,2026-09-14T16:32:19.199902+00:00,2026-09-14T23:31:34.219258+00:00,1,,Domain associated with malicious activity
-domain,peaecagent.com,high,2026-09-14T16:32:19.199902+00:00,2026-09-14T23:31:34.219258+00:00,1,,Domain connected to MacSync subgroup
-domain,remotion-skills.com,high,2026-09-14T16:32:19.199902+00:00,2026-09-14T23:31:34.219258+00:00,1,,Domain associated with malicious activity
-domain,restoremental.com,high,2026-09-14T16:32:19.199902+00:00,2026-09-14T23:31:34.219258+00:00,1,,Domain used as MacSync controller
-domain,rudder-moss.com,high,2026-09-14T16:32:19.199902+00:00,2026-09-14T23:31:34.219258+00:00,1,,Domain contacted by malicious payload
-domain,verse-18.com,high,2026-09-14T16:32:19.199902+00:00,2026-09-14T23:31:34.219258+00:00,1,,Domain used for receiving execution telemetry
 domain,hbomax-macos.com,high,2026-09-14T18:34:16+00:00,2026-09-14T22:45:53+00:00,2,,Domain likely used for phishing targeting HBO Max users
 domain,check.aupporte.com,high,2026-09-14T20:32:11.162627+00:00,2026-09-14T20:32:11.162627+00:00,1,,[article sweep] Subdomain of a malicious domain used in a campaign
 ipv4,62.60.135.34,high,2026-09-14T20:32:11.162627+00:00,2026-09-14T20:32:11.162627+00:00,1,,[article sweep] Listed as a staging IP address for malicious activity.
@@ -65,14 +121,14 @@ domain,prolefexity-disorisance.org,high,2026-09-14T17:57:25+00:00,2026-09-14T17:
 domain,revodihudom.info,high,2026-09-14T17:57:25+00:00,2026-09-14T17:57:25+00:00,1,,"[article sweep] Domain generated by a DGA, likely attacker-controlled"
 domain,semicofaxiful-enixakor-subafapehen.info,high,2026-09-14T17:57:25+00:00,2026-09-14T17:57:25+00:00,1,,"[article sweep] Domain generated by a DGA, likely attacker-controlled"
 domain,semiridinution-postepudency.com,high,2026-09-14T17:57:25+00:00,2026-09-14T17:57:25+00:00,1,,"[article sweep] Domain generated by a DGA, likely attacker-controlled"
-domain,focusgroovy.com,high,2026-09-14T16:32:25.041691+00:00,2026-09-14T16:32:25.041691+00:00,1,,Domain used as C2 in malicious campaigns
-domain,jacksonvillemma.com,high,2026-09-14T16:32:25.041691+00:00,2026-09-14T16:32:25.041691+00:00,1,,Domain used as C2 in malicious campaigns
-domain,mansfieldpediatrics.com,high,2026-09-14T16:32:25.041691+00:00,2026-09-14T16:32:25.041691+00:00,1,,Domain used as C2 in malicious campaigns
+domain,focusgroovy.com,high,2026-09-14T16:32:25.041691+00:00,2026-09-14T16:32:25.041691+00:00,1,,Identified as part of a C2 cluster
+domain,jacksonvillemma.com,high,2026-09-14T16:32:25.041691+00:00,2026-09-14T16:32:25.041691+00:00,1,,Anchored on attacker-controlled infrastructure
+domain,mansfieldpediatrics.com,high,2026-09-14T16:32:25.041691+00:00,2026-09-14T16:32:25.041691+00:00,1,,Identified as part of a C2 cluster
 md5,5190ef1733183a0dc63fb623357f56d6,high,2026-09-14T16:32:25.041691+00:00,2026-09-14T16:32:25.041691+00:00,1,,MD5 hash of an API key used in the campaign
-sha256,2728a7d444cd65550f652a8c66eaced0fe6d0389161f86393ab73da8f446a362,high,2026-09-14T16:32:25.041691+00:00,2026-09-14T16:32:25.041691+00:00,1,,SHA256 hash of a Stage 2 zsh loader sample
+sha256,2728a7d444cd65550f652a8c66eaced0fe6d0389161f86393ab73da8f446a362,high,2026-09-14T16:32:25.041691+00:00,2026-09-14T16:32:25.041691+00:00,1,,Identified as a malicious loader sample
 domain,evil.net,high,2026-09-14T15:30:43.146621+00:00,2026-09-14T15:30:43.146621+00:00,1,,"Domain used in an example command for unauthorized access, suggesting attacker control"
 domain,trump2026.org,high,2026-09-14T15:07:10+00:00,2026-09-14T15:07:10+00:00,1,,"[article sweep] Domain used in a cryptocurrency scam, likely attacker-controlled"
-ipv4,77.91.65.13,high,2026-09-14T14:37:33+00:00,2026-09-14T14:37:33+00:00,1,,[article sweep] Listed as an IP address involved in malicious activity.
+ipv4,77.91.65.13,high,2026-09-14T14:37:33+00:00,2026-09-14T14:37:33+00:00,1,,Connected directly by malicious PE
 md5,81c34eea9c853c5ec13a3b3cd4a2228b,high,2026-09-14T13:32:47.050312+00:00,2026-09-14T13:32:47.050312+00:00,1,,[article sweep] Listed in an IOC table as a malware sample hash.
 md5,9211506ae02c9e4e75aeadfebeb4883c,high,2026-09-14T13:32:47.050312+00:00,2026-09-14T13:32:47.050312+00:00,1,,[article sweep] Listed in an IOC table as a malware sample hash.
 sha1,5f924c0454f1fb6b2299d658c3bb4e75ce3d0b66,high,2026-09-14T13:32:47.050312+00:00,2026-09-14T13:32:47.050312+00:00,1,,[article sweep] Listed in an IOC table as a malware sample hash.
@@ -88,23 +144,6 @@ domain,noah-ssh.com.cn,high,2026-09-14T06:55:22+00:00,2026-09-14T06:55:22+00:00,
 domain,org-bcut.com.cn,high,2026-09-14T06:55:22+00:00,2026-09-14T06:55:22+00:00,1,,"[article sweep] Domain used in a malicious campaign, likely attacker-controlled"
 domain,assetnote-callback.com,high,2026-09-13T18:03:09+00:00,2026-09-13T18:03:09+00:00,1,,[article sweep] Domain used for callback attempts in scanning activity
 domain,canary.assetnotessrf.com,high,2026-09-13T18:03:09+00:00,2026-09-13T18:03:09+00:00,1,,[article sweep] Domain used for SSRF detection in scanning activity
-domain,img.monderhouse.space,high,2026-09-04T14:51:13+00:00,2026-09-13T17:51:49.140131+00:00,3,,Described as a C2 host in the context
-sha256,009a1e2d7a582a24e50cf2ffc2a005482c8e38f22bf5ed416053855f8d054e1e,high,2026-09-04T15:31:57.223581+00:00,2026-09-13T17:51:49.140131+00:00,1,,[article sweep] Listed in a table of malware hashes as an IOC.
-sha256,09739441ed4599bac2f8159028f772f71e4b25c8badfff95574e56d7384f3dbe,high,2026-09-04T15:31:57.223581+00:00,2026-09-13T17:51:49.140131+00:00,1,,[article sweep] Listed in a table of malware hashes as an IOC.
-sha256,12810854c8b2c391b23e2e18b013e873d0369b0637aa3cf993136c07188ba3b8,high,2026-09-04T15:31:57.223581+00:00,2026-09-13T17:51:49.140131+00:00,1,,[article sweep] Listed in a table of malware hashes as an IOC.
-sha256,2f02b09d61d432134e994ad671258f523bbf289ae6091fd4eae192c60bd51b6f,high,2026-09-04T15:31:57.223581+00:00,2026-09-13T17:51:49.140131+00:00,1,,[article sweep] Listed in a table of malware hashes as an IOC.
-sha256,5db1b6d52faf60b4f32d6fd0c7c938e4d05d29a14c32ded4a9668357c08b6a91,high,2026-09-04T15:31:57.223581+00:00,2026-09-13T17:51:49.140131+00:00,1,,[article sweep] Listed in a table of malware hashes as an IOC.
-sha256,6cf1b5e92a9c0756f597a5ddefb38eba32961c52efac7ab2a0aa52c639a8fc53,high,2026-09-04T15:31:57.223581+00:00,2026-09-13T17:51:49.140131+00:00,1,,[article sweep] Listed in a table of malware hashes as an IOC.
-sha256,7007a78d50a993cb174c685eba96eb442c9507e38fd9d8e5dffc712f613ec110,high,2026-09-04T15:31:57.223581+00:00,2026-09-13T17:51:49.140131+00:00,1,,[article sweep] Listed in a table of malware hashes as an IOC.
-sha256,83f7d565b0465546027052b597af46eae3a199e7a91fcc2ab936341147349130,high,2026-09-04T15:31:57.223581+00:00,2026-09-13T17:51:49.140131+00:00,1,,[article sweep] Listed in a table of malware hashes as an IOC.
-sha256,8f30b57928934ae67478d0e690c91d046e35a638da098d02922a4a88a0fdb66c,high,2026-09-04T15:31:57.223581+00:00,2026-09-13T17:51:49.140131+00:00,1,,[article sweep] Listed in a table of malware hashes as an IOC.
-sha256,94630b96f628c96a6bff7904b40ffc9ad67c86f8a4ff6080c3b524831c93f402,high,2026-09-04T15:31:57.223581+00:00,2026-09-13T17:51:49.140131+00:00,1,,[article sweep] Listed in a table of malware hashes as an IOC.
-sha256,a1d8af3a6acb731f07f72040eccb3450c1c83d40e29f736c2a63d35388660be4,high,2026-09-04T15:31:57.223581+00:00,2026-09-13T17:51:49.140131+00:00,1,,[article sweep] Listed in a table of malware hashes as an IOC.
-sha256,a8bfab4de81a1acb04aacdf757346946b0f5e30f0c9f402004016d0e425119c7,high,2026-09-04T15:31:57.223581+00:00,2026-09-13T17:51:49.140131+00:00,1,,[article sweep] Listed in a table of malware hashes as an IOC.
-sha256,d53c760c23b4405eb04ad0f20ead375440344b3bdf1fb7854ed12e40d155eabe,high,2026-09-04T15:31:57.223581+00:00,2026-09-13T17:51:49.140131+00:00,1,,[article sweep] Listed in a table of malware hashes as an IOC.
-sha256,ed72f4cd8d467b5c5d95ae6aeca4aaeea14d79565d379c1ca5871a714727be16,high,2026-09-04T15:31:57.223581+00:00,2026-09-13T17:51:49.140131+00:00,1,,[article sweep] Listed in a table of malware hashes as an IOC.
-sha256,fea1bc36632c71e5a839803469ef60ac47595d36b2c50934ac109ade6df06e61,high,2026-09-04T15:31:57.223581+00:00,2026-09-13T17:51:49.140131+00:00,1,,Listed as part of the attacker's toolkit
-sha256,feeea9d0bf6ae7396d28271baa51ae50df5169ce5d32a516865856f91abc50b3,high,2026-09-04T15:31:57.223581+00:00,2026-09-13T17:51:49.140131+00:00,1,,[article sweep] Listed in a table of malware hashes as an IOC.
 sha1,1a279f5df4103743b823ec2a6a08436fdf63fe30,high,2026-09-13T10:02:48+00:00,2026-09-13T10:02:48+00:00,1,,[article sweep] Listed as a body hash associated with Brute Ratel C4
 sha1,bc517bf173440dad15b99a051389fadc366d5df2,high,2026-09-13T10:02:48+00:00,2026-09-13T10:02:48+00:00,1,,[article sweep] Listed as a body hash associated with Brute Ratel C4
 sha1,dcb32e6256459d3660fdc90e4c79e95a921841cc,high,2026-09-13T10:02:48+00:00,2026-09-13T10:02:48+00:00,1,,[article sweep] Listed as a body hash associated with Brute Ratel C4
@@ -280,15 +319,15 @@ md5,bdca0eb738faaccb5b992d0f393b9d9f,high,2026-09-08T11:18:18.463595+00:00,2026-
 sha1,c6ee3d72053772bdce063c5b98afe32e739e918e,high,2026-09-08T11:18:18.463595+00:00,2026-09-08T11:18:18.463595+00:00,1,,SHA-1 hash of a malware sample (tc9.dex) used in the attack
 sha256,54d4ee85175a249dcb576716edf491d09fa05dfdfc492ff710a0cb711f9a35ab,high,2026-09-08T11:18:18.463595+00:00,2026-09-08T11:18:18.463595+00:00,1,,SHA-256 hash of a malware sample (tc9.dex) used in the attack
 domain,jenniferwelsh.com,high,2026-09-08T10:17:00.157905+00:00,2026-09-08T10:17:00.157905+00:00,1,,Domain used for hosting malicious payloads as per context
-domain,kostumn1.ilabserver.com,high,2026-09-08T10:17:00.157905+00:00,2026-09-08T10:17:00.157905+00:00,1,,Domain used for hosting malicious payloads as per context
-domain,languangjob.com,high,2026-09-08T10:17:00.157905+00:00,2026-09-08T10:17:00.157905+00:00,1,,Domain used for hosting malicious payloads as per context
-domain,lashakhazhalia86dancer.com,high,2026-09-08T10:17:00.157905+00:00,2026-09-08T10:17:00.157905+00:00,1,,Domain used for hosting malicious payloads as per context
-domain,mylittlecabbage.net,high,2026-09-08T10:17:00.157905+00:00,2026-09-08T10:17:00.157905+00:00,1,,Domain used for hosting malicious payloads as per context
-domain,oazevents.com,high,2026-09-08T10:17:00.157905+00:00,2026-09-08T10:17:00.157905+00:00,1,,Domain used for hosting malicious payloads as per context
-domain,rtattack.baqebei1.online,high,2026-09-08T10:17:00.157905+00:00,2026-09-08T10:17:00.157905+00:00,1,,Domain used for hosting malicious payloads as per context
-sha256,07e0c15adc6fcf6096dd5b0b03c20145171c00afe14100468f18f01876457c80,high,2026-09-08T10:17:00.157905+00:00,2026-09-08T10:17:00.157905+00:00,1,,Hash listed as an example of a malicious attachment
-sha256,11909c0262563f29d28312baffb7ff027f113512c5a76bab7c5870f348ff778f,high,2026-09-08T10:17:00.157905+00:00,2026-09-08T10:17:00.157905+00:00,1,,Hash listed as an example of a malicious attachment
-sha256,9701fec71e5bbec912f69c8ed63ffb6dba21b9cca7e67da5d60a72139c1795d1,high,2026-09-08T10:17:00.157905+00:00,2026-09-08T10:17:00.157905+00:00,1,,Hash listed as an example of a malicious attachment
+domain,kostumn1.ilabserver.com,high,2026-09-08T10:17:00.157905+00:00,2026-09-08T10:17:00.157905+00:00,1,,Used for malicious payload delivery
+domain,languangjob.com,high,2026-09-08T10:17:00.157905+00:00,2026-09-08T10:17:00.157905+00:00,1,,Used for malicious payload delivery
+domain,lashakhazhalia86dancer.com,high,2026-09-08T10:17:00.157905+00:00,2026-09-08T10:17:00.157905+00:00,1,,Used for malicious payload delivery
+domain,mylittlecabbage.net,high,2026-09-08T10:17:00.157905+00:00,2026-09-08T10:17:00.157905+00:00,1,,Used for malicious payload delivery
+domain,oazevents.com,high,2026-09-08T10:17:00.157905+00:00,2026-09-08T10:17:00.157905+00:00,1,,Used for malicious payload delivery
+domain,rtattack.baqebei1.online,high,2026-09-08T10:17:00.157905+00:00,2026-09-08T10:17:00.157905+00:00,1,,Used for malicious payload delivery
+sha256,07e0c15adc6fcf6096dd5b0b03c20145171c00afe14100468f18f01876457c80,high,2026-09-08T10:17:00.157905+00:00,2026-09-08T10:17:00.157905+00:00,1,,Identified as a malicious payload hash
+sha256,11909c0262563f29d28312baffb7ff027f113512c5a76bab7c5870f348ff778f,high,2026-09-08T10:17:00.157905+00:00,2026-09-08T10:17:00.157905+00:00,1,,Identified as a malicious payload hash
+sha256,9701fec71e5bbec912f69c8ed63ffb6dba21b9cca7e67da5d60a72139c1795d1,high,2026-09-08T10:17:00.157905+00:00,2026-09-08T10:17:00.157905+00:00,1,,Identified as a malicious payload hash
 md5,29203ca123d51b1b33505a0813d360df,high,2026-09-08T10:16:57.536939+00:00,2026-09-08T10:16:57.536939+00:00,1,,[article sweep] First-stage loader (Trojanized DLL)
 md5,2e116632248a7e1f8aa6bca92d9c1c90,high,2026-09-08T10:16:57.536939+00:00,2026-09-08T10:16:57.536939+00:00,1,,[article sweep] GollopDevest DLL (Loader DLL)
 md5,681db529e402467a4b0567c82a350fc0,high,2026-09-08T10:16:57.536939+00:00,2026-09-08T10:16:57.536939+00:00,1,,[article sweep] PavinWride DLL (Anti-analysis DLL)
@@ -605,8 +644,6 @@ domain,san-sid.com,high,2026-08-31T10:00:36+00:00,2026-08-31T10:00:36+00:00,1,,D
 sha256,24ab9fe5d5be62d3bf055a0ca4508e8bca2996b6d78649dce8145d8a27bc1c5b,high,2026-08-31T10:00:36+00:00,2026-08-31T10:00:36+00:00,1,,SHA256 hash of obfuscated PowerShell RAT dropper
 domain,infect.online,high,2026-08-31T09:45:15+00:00,2026-08-31T09:45:15+00:00,1,,[article sweep] Domain associated with a vendor in a cybercriminal marketplace
 ipv4,31.58.209.241,high,2026-08-30T20:09:53+00:00,2026-08-30T20:09:53+00:00,1,,IP address hosting stolen data and offensive tools
-domain,mychart-epic.com,high,2026-08-24T16:35:14.982407+00:00,2026-08-29T18:03:32.277709+00:00,1,,"Domain used for phishing, mimicking MyChart; attacker-controlled infrastructure."
-domain,my-chart.org,high,2026-08-24T16:35:14.982407+00:00,2026-08-29T18:03:32.277709+00:00,1,,"Domain used for phishing, mimicking MyChart; attacker-controlled infrastructure."
 sha256,055a883f18ffcc413973fa45383e72e998aae87909af5f9507b6384bfec34a5b,high,2026-08-28T07:35:06.349886+00:00,2026-08-28T23:35:52.488768+00:00,1,,[article sweep] Listed as a shellcode hash in a threat report
 sha256,120316ecaf06b76a564ce42e11f7074c52df6d79b85d3526c5b4e9f362d2f1c2,high,2026-08-28T07:35:06.349886+00:00,2026-08-28T23:35:52.488768+00:00,1,,[article sweep] Listed as a malware sample hash in a threat report
 sha256,2960d5f8a3d9b0a21d6b744092fe3089517ecf2e49169683f754bfe9800e3991,high,2026-08-28T07:35:06.349886+00:00,2026-08-28T23:35:52.488768+00:00,1,,"[article sweep] Identified as ClearFake ClickFix csproj payload hash, indicating malware."
