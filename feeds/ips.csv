@@ -1,9 +1,21 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason
-ipv4,176.53.159.66,high,2026-09-16T03:01:46.530686+00:00,2026-09-16T03:01:46.530686+00:00,1,adamnet.works:2026-09-16,Used as a delivery and teardown cluster
-ipv4,45.94.47.204,high,2026-09-16T03:01:46.530686+00:00,2026-09-16T03:01:46.530686+00:00,1,adamnet.works:2026-09-16,Used for enrolling with a plaintext task service
-ipv4,62.60.226.69,high,2026-09-16T03:01:46.530686+00:00,2026-09-16T03:01:46.530686+00:00,1,adamnet.works:2026-09-16,Hosted a coordinated Nova and macOS-tool neighborhood
-ipv4,37.16.74.100,high,2026-09-15T19:32:30.314356+00:00,2026-09-15T19:32:30.314356+00:00,1,www.elastic.co:2026-09-15,Listed as a C2 endpoint
-ipv4,210.1.231.13,high,2026-09-15T16:39:41.623419+00:00,2026-09-15T16:39:41.623419+00:00,1,www.lumen.com:2026-09-15,Associated with attacker-controlled domain turbo.c2iznja.com
+ipv4,37.16.74.100,high,2026-09-17T19:02:55.531733+00:00,2026-09-17T19:02:55.531733+00:00,1,www.elastic.co:2026-09-17,Listed as a C2 endpoint
+ipv4,184.75.129.113,high,2026-09-17T16:10:35+00:00,2026-09-17T16:10:35+00:00,1,Cyfirma:2026-09-17,[article sweep] Listed in a YARA rule as an IP address associated with APT31
+ipv4,195.91.239.226,high,2026-09-17T16:10:35+00:00,2026-09-17T16:10:35+00:00,1,Cyfirma:2026-09-17,[article sweep] Listed in a YARA rule as an IP address associated with APT31
+ipv4,50.71.100.164,high,2026-09-17T16:10:35+00:00,2026-09-17T16:10:35+00:00,1,Cyfirma:2026-09-17,[article sweep] Listed in a YARA rule as an IP address associated with APT31
+ipv4,88.247.129.12,high,2026-09-17T16:10:35+00:00,2026-09-17T16:10:35+00:00,1,Cyfirma:2026-09-17,[article sweep] Listed in a YARA rule as an IP address associated with APT31
+ipv4,89.31.228.228,high,2026-09-17T16:10:35+00:00,2026-09-17T16:10:35+00:00,1,Cyfirma:2026-09-17,[article sweep] Listed in a YARA rule as an IP address associated with APT31
+ipv4,208.64.33.90,high,2026-09-17T16:05:22.520791+00:00,2026-09-17T16:05:22.520791+00:00,1,securelist.com:2026-09-17,Listed as second-stage C2 server
+ipv4,139.28.85.223,high,2026-09-17T10:14:31+00:00,2026-09-17T10:14:31+00:00,1,Itweb.Co.Za:2026-09-17,[article sweep] Identified as the origin of a phishing email
+ipv4,210.1.231.13,high,2026-09-16T21:33:59.611872+00:00,2026-09-16T21:33:59.611872+00:00,1,www.lumen.com:2026-09-16,Associated with attacker-controlled domain turbo.c2iznja.com
+ipv4,94.102.49.125,high,2026-09-16T18:44:04+00:00,2026-09-16T18:44:04+00:00,1,Isc.Sans.Edu:2026-09-16,[article sweep] Identified as a source IP for malicious scans
+ipv4,5.252.177.210,high,2026-09-16T14:15:51+00:00,2026-09-16T14:15:51+00:00,1,Socprime:2026-09-16,[article sweep] Identified as a C2 server for RUSTGate malware
+ipv4,176.53.159.66,high,2026-09-16T11:35:24.102374+00:00,2026-09-16T11:35:24.102374+00:00,1,adamnet.works:2026-09-16,Used for malicious delivery and teardown operations
+ipv4,45.94.47.204,high,2026-09-16T11:35:24.102374+00:00,2026-09-16T11:35:24.102374+00:00,1,adamnet.works:2026-09-16,Used for malicious task service enrollment
+ipv4,62.60.226.69,high,2026-09-16T11:35:24.102374+00:00,2026-09-16T11:35:24.102374+00:00,1,adamnet.works:2026-09-16,Used as a provisioning cluster for malicious operations
+ipv4,176.101.204.172,high,2026-09-16T08:34:19+00:00,2026-09-16T08:34:19+00:00,1,Sploitus:2026-09-16,[article sweep] Listed in a blacklist for malicious activity
+ipv4,93.183.250.196,high,2026-09-16T08:34:19+00:00,2026-09-16T08:34:19+00:00,1,Sploitus:2026-09-16,[article sweep] Listed in a blacklist for malicious activity
+ipv4,150.251.113.223,high,2026-09-15T14:55:03+00:00,2026-09-15T14:55:03+00:00,1,Socprime:2026-09-15,[article sweep] Identified as a C2 IP used by the attacker
 ipv4,62.60.135.34,high,2026-09-14T20:32:11.162627+00:00,2026-09-14T20:32:11.162627+00:00,1,www.labs.greynoise.io:2026-09-14,[article sweep] Listed as a staging IP address for malicious activity.
 ipv4,74.93.203.1,high,2026-09-14T20:32:11.162627+00:00,2026-09-14T20:32:11.162627+00:00,1,www.labs.greynoise.io:2026-09-14,[article sweep] Listed as an IP address involved in malicious activity.
 ipv4,114.10.43.203,high,2026-09-14T18:49:14+00:00,2026-09-14T18:49:14+00:00,1,Wordfence:2026-09-14,[article sweep] Listed as an IP address actively engaged in attacks.
@@ -64,10 +76,6 @@ ipv4,176.65.148.184,high,2026-09-01T22:29:26+00:00,2026-09-02T13:19:54+00:00,3,H
 ipv4,206.238.196.96,high,2026-09-01T19:09:37+00:00,2026-09-01T19:09:37+00:00,1,Socprime:2026-09-01,Explicitly identified as a hardcoded C2 IP for the PackClient RAT.
 ipv4,31.58.209.241,high,2026-08-30T20:09:53+00:00,2026-08-30T20:09:53+00:00,1,Pasqualepillitteri.It:2026-08-30,IP address hosting stolen data and offensive tools
 ipv4,192.162.199.149,high,2026-08-28T03:24:16+00:00,2026-08-28T03:24:16+00:00,1,Cyfirma:2026-08-28,[article sweep] IP address associated with malware file hosting
-ipv4,1.32.216.171,high,2026-08-27T17:12:48.782680+00:00,2026-08-27T17:12:48.782680+00:00,1,www.lumen.com:2026-08-27,Mapped to Fast Labyrinth admin plane
-ipv4,154.64.238.222,high,2026-08-27T17:12:48.782680+00:00,2026-08-27T17:12:48.782680+00:00,1,www.lumen.com:2026-08-27,Mapped to QScan broker
-ipv4,154.64.238.247,high,2026-08-27T17:12:48.782680+00:00,2026-08-27T17:12:48.782680+00:00,1,www.lumen.com:2026-08-27,Mapped to QScan backend
-ipv4,8.148.149.147,high,2026-08-27T17:12:48.782680+00:00,2026-08-27T17:12:48.782680+00:00,1,www.lumen.com:2026-08-27,Mapped to active operational jump box
 ipv4,112.90.22.197,high,2026-08-27T09:18:43.223353+00:00,2026-08-27T09:18:43.223353+00:00,1,securelist.com:2026-08-27,[article sweep] Listed as a C&C server for a backdoor
 ipv4,112.90.252.76,high,2026-08-27T09:18:43.223353+00:00,2026-08-27T09:18:43.223353+00:00,1,securelist.com:2026-08-27,[article sweep] Listed as a C&C server for a backdoor
 ipv4,116.10.189.246,high,2026-08-27T09:18:43.223353+00:00,2026-08-27T09:18:43.223353+00:00,1,securelist.com:2026-08-27,[article sweep] Listed as a C&C server for a Trojan
@@ -77,4 +85,3 @@ ipv4,67.213.118.179,high,2026-08-25T19:04:41.630110+00:00,2026-08-25T19:04:41.63
 ipv4,102.91.71.83,high,2026-08-25T15:50:04+00:00,2026-08-25T15:50:04+00:00,1,Techtimes:2026-08-25,Listed as a scanning IP used to detect exploit attempts
 ipv4,103.236.54.207,high,2026-08-19T19:56:48+00:00,2026-08-19T19:56:48+00:00,1,Cloudsek:2026-08-19,[article sweep] Used as a staging server by the attacker
 ipv4,196.251.84.11,high,2026-08-19T09:52:51+00:00,2026-08-19T09:52:51+00:00,1,Group-Ib:2026-08-19,Identified as active C2 server for Spyroid-based malware.
-ipv4,85.206.161.241,high,2026-08-17T13:59:31+00:00,2026-08-17T13:59:31+00:00,1,Huntress:2026-08-17,[article sweep] IP address used for direct C2 communication via WebSocket

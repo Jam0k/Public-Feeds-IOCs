@@ -1,7 +1,59 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason
-sha256,6759c72365d0c690db613ff30635970668f5699b65c3842ecdc4f1b695ed13a7,high,2026-09-16T03:01:46.530686+00:00,2026-09-16T03:01:46.530686+00:00,1,adamnet.works:2026-09-16,Identified as a malicious payload hash
-sha256,985683bd660c0c47c6be513a2d1f0a554d52d241714bb17fb18ab0d0f8cc2dc6,high,2026-09-16T03:01:46.530686+00:00,2026-09-16T03:01:46.530686+00:00,1,adamnet.works:2026-09-16,Used in malicious delivery route
-sha256,e6e54a8e8f30cedd8492f515ab95e005478bafb41998c43341fcf3a494573d6c,high,2026-09-16T03:01:46.530686+00:00,2026-09-16T03:01:46.530686+00:00,1,adamnet.works:2026-09-16,Identified as a malicious helper hash
+sha1,44F0A22B143B79FA760BF31E14C8FFF714C8A2A1,high,2026-09-17T21:32:41.154649+00:00,2026-09-17T21:32:41.154649+00:00,1,www.welivesecurity.com:2026-09-17,SHA-1 hash of a malware sample analyzed in the report
+md5,5f109e7bb3df4dea81946f2f853da288,high,2026-09-17T19:02:55.531733+00:00,2026-09-17T19:02:55.531733+00:00,1,www.elastic.co:2026-09-17,Used as part of a malicious campaign
+md5,87b76a60ba7c474dbf8f689df2808e1a,high,2026-09-17T19:02:55.531733+00:00,2026-09-17T19:02:55.531733+00:00,1,www.elastic.co:2026-09-17,Used as part of a malicious campaign
+md5,f9e95a1e1fa3f3aebfc802c6c8e6a2eb,high,2026-09-17T19:02:55.531733+00:00,2026-09-17T19:02:55.531733+00:00,1,www.elastic.co:2026-09-17,Used as part of a malicious campaign
+sha256,106eac79396a3ff77b8f375c391260ce422be2ae4d55d3aa75b2635cbdc0fa42,high,2026-09-17T19:02:55.531733+00:00,2026-09-17T19:02:55.531733+00:00,1,www.elastic.co:2026-09-17,Used as part of a malicious campaign
+sha256,170dffb37e05f525f735bc9ad84b3908a488f7ce43fcb07739a10e4331e15a2c,high,2026-09-17T19:02:55.531733+00:00,2026-09-17T19:02:55.531733+00:00,1,www.elastic.co:2026-09-17,Used as part of a malicious campaign
+sha256,223be3f8648bf6998c4a58b972522e5fda8d9d0a57b4e163811930de66c3f7ca,high,2026-09-17T19:02:55.531733+00:00,2026-09-17T19:02:55.531733+00:00,1,www.elastic.co:2026-09-17,Used as part of a malicious campaign
+sha256,5ece7fd3766b0b7f8aadefa562313cea6c3c94f9398658dd389910e5be44f552,high,2026-09-17T19:02:55.531733+00:00,2026-09-17T19:02:55.531733+00:00,1,www.elastic.co:2026-09-17,Used as part of a malicious campaign
+sha256,ba80216c960977fa45e317f00dcf31e96acab29904a737cbc0bf86e929c3be5f,high,2026-09-17T19:02:55.531733+00:00,2026-09-17T19:02:55.531733+00:00,1,www.elastic.co:2026-09-17,Used as part of a malicious campaign
+sha256,c8c38634dd44d7c6162c66174a6ee23ee404265125166e8d757681bdd66a4268,high,2026-09-17T19:02:55.531733+00:00,2026-09-17T19:02:55.531733+00:00,1,www.elastic.co:2026-09-17,Used as part of a malicious campaign
+sha256,002dc9f6823ad8d3de23bcb5e41bcefd895df573ed3d89e0821243aa9b7bb4a8,high,2026-09-17T16:10:35+00:00,2026-09-17T16:10:35+00:00,1,Cyfirma:2026-09-17,[article sweep] Listed in a YARA rule as a malware sample hash associated with APT31
+sha256,70a0b041d945a1d26a65ae366537e5de7353f0a4b0b0c9abcbfe9eb6cfa8d44b,high,2026-09-17T16:10:35+00:00,2026-09-17T16:10:35+00:00,1,Cyfirma:2026-09-17,[article sweep] Listed in a YARA rule as a malware sample hash
+sha256,b377fb7c454dea093ba4c63040f6177dd6a1ef7cf623497c043a9ce631e5d0b4,high,2026-09-17T16:10:35+00:00,2026-09-17T16:10:35+00:00,1,Cyfirma:2026-09-17,[article sweep] Listed in a YARA rule as a malware sample hash
+sha256,e1999a3e5a611312e16bb65bb5a880dfedbab8d4d2c0a5d3ed1ed926a3f63e94,high,2026-09-17T16:10:35+00:00,2026-09-17T16:10:35+00:00,1,Cyfirma:2026-09-17,[article sweep] Listed in a YARA rule as a malware sample hash associated with APT31
+md5,4843F9FAFCAE492F11E2D4D33DBB4CDD,high,2026-09-17T16:05:22.520791+00:00,2026-09-17T16:05:22.520791+00:00,1,securelist.com:2026-09-17,Listed in IOC section as a malware sample hash
+md5,5310CABAE3FBE6DB8742849B588093F9,high,2026-09-17T16:05:22.520791+00:00,2026-09-17T16:05:22.520791+00:00,1,securelist.com:2026-09-17,Listed in IOC section as a malware sample hash
+md5,70060341CAF3338697A7DDFE0FB62875,high,2026-09-17T16:05:22.520791+00:00,2026-09-17T16:05:22.520791+00:00,1,securelist.com:2026-09-17,Listed in IOC section as a malware sample hash
+md5,A0B13781EDD7CFDAB13D79AFFF3C83C1,high,2026-09-17T16:05:22.520791+00:00,2026-09-17T16:05:22.520791+00:00,1,securelist.com:2026-09-17,Listed in IOC section as a malware sample hash
+md5,AD4643EEA15AC286FA47D1131F9EF756,high,2026-09-17T16:05:22.520791+00:00,2026-09-17T16:05:22.520791+00:00,1,securelist.com:2026-09-17,Listed in IOC section as a malware sample hash
+md5,D0B967571AC8A3863C7F324BF5BDE99C,high,2026-09-17T16:05:22.520791+00:00,2026-09-17T16:05:22.520791+00:00,1,securelist.com:2026-09-17,Listed in IOC section as a malware sample hash
+md5,D88D550D0FB8E60CFFFF3EA61FF7A067,high,2026-09-17T16:05:22.520791+00:00,2026-09-17T16:05:22.520791+00:00,1,securelist.com:2026-09-17,Listed in IOC section as a malware sample hash
+md5,01d98380dfb9211251c75c87ddb3c79c,high,2026-09-17T14:03:30.879693+00:00,2026-09-17T14:03:30.879693+00:00,1,securelist.com:2026-09-17,Listed as a malware hash compromising Exchange servers
+sha256,0f8f7cd39e1a5231b49f986b877befce0c2f558f0c1a9844833ac702cb3eba6e,high,2026-09-17T14:01:48.566375+00:00,2026-09-17T14:01:48.566375+00:00,1,www.trendmicro.com:2026-09-17,Hardcoded hash used to decode C&C server domain
+sha1,3933f8309824a9127dde97b9c0f5459b06fd6c13,high,2026-09-17T14:01:48.046135+00:00,2026-09-17T14:01:48.046135+00:00,1,research.checkpoint.com:2026-09-17,Listed in a table of IOCs as a malware sample hash
+sha1,3f2b758122c0d180ccfba03b74b593854f2b0e86,high,2026-09-17T14:01:48.046135+00:00,2026-09-17T14:01:48.046135+00:00,1,research.checkpoint.com:2026-09-17,Listed in a table of IOCs as a malware sample hash
+sha1,44b6627acd5b2c601443c55d2e44ae4298381720,high,2026-09-17T14:01:48.046135+00:00,2026-09-17T14:01:48.046135+00:00,1,research.checkpoint.com:2026-09-17,Listed in a table of IOCs as a malware sample hash
+sha1,51c7a774a0616b4611966d6d4f783c1164c9fa50,high,2026-09-17T14:01:48.046135+00:00,2026-09-17T14:01:48.046135+00:00,1,research.checkpoint.com:2026-09-17,Listed in a table of IOCs as a malware sample hash
+sha1,817bd8fff5b026ba74852955eb5f84244a92e098,high,2026-09-17T14:01:48.046135+00:00,2026-09-17T14:01:48.046135+00:00,1,research.checkpoint.com:2026-09-17,Listed in a table of IOCs as a malware sample hash
+sha1,9d7b264367320da38c94be1f940c663375d67a2a,high,2026-09-17T14:01:48.046135+00:00,2026-09-17T14:01:48.046135+00:00,1,research.checkpoint.com:2026-09-17,Listed in a table of IOCs as a malware sample hash
+sha1,bbdce69acc6101c1f61748c91010c579625ef758,high,2026-09-17T14:01:48.046135+00:00,2026-09-17T14:01:48.046135+00:00,1,research.checkpoint.com:2026-09-17,Listed in a table of IOCs as a malware sample hash
+sha1,c098dc7c06e0da8f6e2551f262375713ba87ca05,high,2026-09-17T14:01:48.046135+00:00,2026-09-17T14:01:48.046135+00:00,1,research.checkpoint.com:2026-09-17,Listed in a table of IOCs as a malware sample hash
+sha1,cf9c74ed67a4fbe89ab77643f3acbd98b14d5568,high,2026-09-17T14:01:48.046135+00:00,2026-09-17T14:01:48.046135+00:00,1,research.checkpoint.com:2026-09-17,Listed in a table of IOCs as a malware sample hash
+sha1,d9fb2504008345af97b0e400706cdaa406476314,high,2026-09-17T14:01:48.046135+00:00,2026-09-17T14:01:48.046135+00:00,1,research.checkpoint.com:2026-09-17,Listed in a table of IOCs as a malware sample hash
+sha1,c10e48ee1f802f730f41f3d11ae9d7bcc649080c,high,2026-09-16T20:52:26+00:00,2026-09-16T20:52:26+00:00,1,Sploitus:2026-09-16,[article sweep] Identified as a malicious file hash from AgentTesla malware
+sha256,b7512e6b8e9517024afdecc9e97121319e7dad2539eb21a79428257401e5558d,high,2026-09-16T20:52:26+00:00,2026-09-16T20:52:26+00:00,1,Sploitus:2026-09-16,[article sweep] Identified as a malicious file hash from AgentTesla malware
+md5,40a75f87f1e52c33df9ca733aaf8ebbb,high,2026-09-16T16:47:29+00:00,2026-09-16T16:47:29+00:00,1,Zscaler:2026-09-16,[article sweep] Listed in a malware analysis as a malicious file hash
+md5,aade06ec611d69f1553035f22356ccf4,high,2026-09-16T16:47:29+00:00,2026-09-16T16:47:29+00:00,1,Zscaler:2026-09-16,[article sweep] Listed in a malware analysis as a malicious file hash
+md5,ae77f1834ccde53258bc27a779102af2,high,2026-09-16T16:47:29+00:00,2026-09-16T16:47:29+00:00,1,Zscaler:2026-09-16,[article sweep] Listed in a malware analysis as a malicious file hash
+md5,f16f507a8ed515663a4f07050cd97a74,high,2026-09-16T16:47:29+00:00,2026-09-16T16:47:29+00:00,1,Zscaler:2026-09-16,[article sweep] Listed in a malware analysis as a malicious file hash
+sha1,00aff1a72c5d5635ab36ce2eb370718a7f0557a0,high,2026-09-16T16:47:29+00:00,2026-09-16T16:47:29+00:00,1,Zscaler:2026-09-16,[article sweep] Listed in a malware analysis as a malicious file hash
+sha1,00e1cc0fb1355c196c069791a02b4a5f3b57ae94,high,2026-09-16T16:47:29+00:00,2026-09-16T16:47:29+00:00,1,Zscaler:2026-09-16,[article sweep] Listed in a malware analysis as a malicious file hash
+sha1,761ccb15af1c3fe6e4365ddf65578966e4c84fc9,high,2026-09-16T16:47:29+00:00,2026-09-16T16:47:29+00:00,1,Zscaler:2026-09-16,[article sweep] Listed in a malware analysis as a malicious file hash
+sha1,ad4afe86a835bb2f7768862d358ebd8324c05902,high,2026-09-16T16:47:29+00:00,2026-09-16T16:47:29+00:00,1,Zscaler:2026-09-16,[article sweep] Listed in a malware analysis as a malicious file hash
+sha256,05bbeea42f481a3dd1b3f670aba481f7c5c8e897ef321d65188317be5a65a4d7,high,2026-09-16T16:47:29+00:00,2026-09-16T16:47:29+00:00,1,Zscaler:2026-09-16,[article sweep] Listed in a malware analysis as a malicious file hash
+sha256,52d07b3ef0c5f27d082551d51027de452682e1fbd5bb38a897ea4b31bd387523,high,2026-09-16T16:47:29+00:00,2026-09-16T16:47:29+00:00,1,Zscaler:2026-09-16,[article sweep] Listed in a malware analysis as a malicious file hash
+sha256,70fc6cba3c2021889fb4093d0221dc6925818666df25718a630c562cac18da31,high,2026-09-16T16:47:29+00:00,2026-09-16T16:47:29+00:00,1,Zscaler:2026-09-16,[article sweep] Listed in a malware analysis as a malicious file hash
+sha256,80fdde0dafa450ae33937ccef752b46666da567926b2f39b37e02e77f9d6a92e,high,2026-09-16T16:47:29+00:00,2026-09-16T16:47:29+00:00,1,Zscaler:2026-09-16,[article sweep] Listed in a malware analysis as a malicious file hash
+sha256,6759c72365d0c690db613ff30635970668f5699b65c3842ecdc4f1b695ed13a7,high,2026-09-16T11:35:24.102374+00:00,2026-09-16T11:35:24.102374+00:00,1,adamnet.works:2026-09-16,Identified as part of a Windows loader chain
+sha256,985683bd660c0c47c6be513a2d1f0a554d52d241714bb17fb18ab0d0f8cc2dc6,high,2026-09-16T11:35:24.102374+00:00,2026-09-16T11:35:24.102374+00:00,1,adamnet.works:2026-09-16,Identified as part of a delivery route
+sha256,e6e54a8e8f30cedd8492f515ab95e005478bafb41998c43341fcf3a494573d6c,high,2026-09-16T11:35:24.102374+00:00,2026-09-16T11:35:24.102374+00:00,1,adamnet.works:2026-09-16,Identified as a historical helper
+md5,1dcafb7f8448683281106b06dd22409a,high,2026-09-16T10:22:25+00:00,2026-09-16T10:22:25+00:00,1,Securelist:2026-09-16,Listed as a malware hash in the IOC section
+md5,1f3034b706c78b35d8e34044e68c693a,high,2026-09-16T10:22:25+00:00,2026-09-16T10:22:25+00:00,1,Securelist:2026-09-16,Listed as a malware hash in the IOC section
+md5,3ecd1cd627d0340c92901a478a7caad8,high,2026-09-16T10:22:25+00:00,2026-09-16T10:22:25+00:00,1,Securelist:2026-09-16,Listed as a malware hash in the IOC section
+md5,4aa9fb1bf9223dfcdac920759bc7a3c7,high,2026-09-16T10:22:25+00:00,2026-09-16T10:22:25+00:00,1,Securelist:2026-09-16,Listed as a malware hash in the IOC section
+md5,631fb131a56caf4ca0f287ed73e876ab,high,2026-09-16T10:22:25+00:00,2026-09-16T10:22:25+00:00,1,Securelist:2026-09-16,Listed as a malware hash in the IOC section
 sha256,009a1e2d7a582a24e50cf2ffc2a005482c8e38f22bf5ed416053855f8d054e1e,high,2026-09-16T02:04:55.793732+00:00,2026-09-16T02:04:55.793732+00:00,1,www.rapid7.com:2026-09-16,[article sweep] Listed in a table of malware hashes as an IOC.
 sha256,09739441ed4599bac2f8159028f772f71e4b25c8badfff95574e56d7384f3dbe,high,2026-09-16T02:04:55.793732+00:00,2026-09-16T02:04:55.793732+00:00,1,www.rapid7.com:2026-09-16,[article sweep] Listed in a table of malware hashes as an IOC.
 sha256,12810854c8b2c391b23e2e18b013e873d0369b0637aa3cf993136c07188ba3b8,high,2026-09-16T02:04:55.793732+00:00,2026-09-16T02:04:55.793732+00:00,1,www.rapid7.com:2026-09-16,[article sweep] Listed in a table of malware hashes as an IOC.
@@ -18,16 +70,7 @@ sha256,d53c760c23b4405eb04ad0f20ead375440344b3bdf1fb7854ed12e40d155eabe,high,202
 sha256,ed72f4cd8d467b5c5d95ae6aeca4aaeea14d79565d379c1ca5871a714727be16,high,2026-09-16T02:04:55.793732+00:00,2026-09-16T02:04:55.793732+00:00,1,www.rapid7.com:2026-09-16,[article sweep] Listed in a table of malware hashes as an IOC.
 sha256,fea1bc36632c71e5a839803469ef60ac47595d36b2c50934ac109ade6df06e61,high,2026-09-16T02:04:55.793732+00:00,2026-09-16T02:04:55.793732+00:00,1,www.rapid7.com:2026-09-16,Listed as part of the attacker's toolkit
 sha256,feeea9d0bf6ae7396d28271baa51ae50df5169ce5d32a516865856f91abc50b3,high,2026-09-16T02:04:55.793732+00:00,2026-09-16T02:04:55.793732+00:00,1,www.rapid7.com:2026-09-16,[article sweep] Listed in a table of malware hashes as an IOC.
-md5,5f109e7bb3df4dea81946f2f853da288,high,2026-09-15T19:32:30.314356+00:00,2026-09-15T19:32:30.314356+00:00,1,www.elastic.co:2026-09-15,Used as part of a malicious campaign
-md5,87b76a60ba7c474dbf8f689df2808e1a,high,2026-09-15T19:32:30.314356+00:00,2026-09-15T19:32:30.314356+00:00,1,www.elastic.co:2026-09-15,Used as part of a malicious campaign
-md5,f9e95a1e1fa3f3aebfc802c6c8e6a2eb,high,2026-09-15T19:32:30.314356+00:00,2026-09-15T19:32:30.314356+00:00,1,www.elastic.co:2026-09-15,Used as part of a malicious campaign
-sha256,106eac79396a3ff77b8f375c391260ce422be2ae4d55d3aa75b2635cbdc0fa42,high,2026-09-15T19:32:30.314356+00:00,2026-09-15T19:32:30.314356+00:00,1,www.elastic.co:2026-09-15,Used as part of a malicious campaign
-sha256,170dffb37e05f525f735bc9ad84b3908a488f7ce43fcb07739a10e4331e15a2c,high,2026-09-15T19:32:30.314356+00:00,2026-09-15T19:32:30.314356+00:00,1,www.elastic.co:2026-09-15,Used as part of a malicious campaign
-sha256,223be3f8648bf6998c4a58b972522e5fda8d9d0a57b4e163811930de66c3f7ca,high,2026-09-15T19:32:30.314356+00:00,2026-09-15T19:32:30.314356+00:00,1,www.elastic.co:2026-09-15,Used as part of a malicious campaign
-sha256,5ece7fd3766b0b7f8aadefa562313cea6c3c94f9398658dd389910e5be44f552,high,2026-09-15T19:32:30.314356+00:00,2026-09-15T19:32:30.314356+00:00,1,www.elastic.co:2026-09-15,Used as part of a malicious campaign
-sha256,ba80216c960977fa45e317f00dcf31e96acab29904a737cbc0bf86e929c3be5f,high,2026-09-15T19:32:30.314356+00:00,2026-09-15T19:32:30.314356+00:00,1,www.elastic.co:2026-09-15,Used as part of a malicious campaign
-sha256,c8c38634dd44d7c6162c66174a6ee23ee404265125166e8d757681bdd66a4268,high,2026-09-15T19:32:30.314356+00:00,2026-09-15T19:32:30.314356+00:00,1,www.elastic.co:2026-09-15,Used as part of a malicious campaign
-sha256,2728a7d444cd65550f652a8c66eaced0fe6d0389161f86393ab73da8f446a362,high,2026-09-14T16:32:25.041691+00:00,2026-09-14T16:32:25.041691+00:00,1,www.rstcloud.com:2026-09-14,Identified as a malicious loader sample
+sha256,2728a7d444cd65550f652a8c66eaced0fe6d0389161f86393ab73da8f446a362,high,2026-09-14T16:32:25.041691+00:00,2026-09-14T16:32:25.041691+00:00,1,www.rstcloud.com:2026-09-14,Identified as a Stage 2 zsh loader sample
 md5,81c34eea9c853c5ec13a3b3cd4a2228b,high,2026-09-14T13:32:47.050312+00:00,2026-09-14T13:32:47.050312+00:00,1,socket.dev:2026-09-14,[article sweep] Listed in an IOC table as a malware sample hash.
 md5,9211506ae02c9e4e75aeadfebeb4883c,high,2026-09-14T13:32:47.050312+00:00,2026-09-14T13:32:47.050312+00:00,1,socket.dev:2026-09-14,[article sweep] Listed in an IOC table as a malware sample hash.
 sha1,5f924c0454f1fb6b2299d658c3bb4e75ce3d0b66,high,2026-09-14T13:32:47.050312+00:00,2026-09-14T13:32:47.050312+00:00,1,socket.dev:2026-09-14,[article sweep] Listed in an IOC table as a malware sample hash.
@@ -77,6 +120,7 @@ md5,fc92dfafa7aa741c5f2b9cbcf75d1d19,high,2026-09-11T10:05:52+00:00,2026-09-11T1
 sha256,29c7ee41d0cc9e07d981e451df56d0c3d37c41ac4ec10c7b516cc033ee397a63,high,2026-09-11T07:14:09+00:00,2026-09-11T07:14:09+00:00,1,Thehackernews:2026-09-11,Malicious DLL loader
 sha256,749160a2f20f82744026719cf72e483595c6aad718efa74d675a98662e02422e,high,2026-09-11T07:14:09+00:00,2026-09-11T07:14:09+00:00,1,Thehackernews:2026-09-11,Encrypted payload file
 sha256,d7a3c7eb94edc0e020f74c678743d71d61e944634aade4a67a96c3589e828b3a,high,2026-09-11T07:14:09+00:00,2026-09-11T07:14:09+00:00,1,Thehackernews:2026-09-11,GRAYRABBIT backdoor
+sha256,690f5031deede7d3357d0ca24c89866ae8c60e6c63b3a2c8bba813a6ac10ae5b,high,2026-09-11T07:11:14+00:00,2026-09-11T07:11:14+00:00,1,Securityaffairs.Co:2026-09-11,[article sweep] Referenced as the SHA-256 of an Impacket binary used by the attacker
 sha256,6f98add5d1a7729192b6ad8491d85c505c64836f7881742d6b93bd8e3d2fe461,high,2026-09-10T18:35:00.632181+00:00,2026-09-10T18:35:00.632181+00:00,1,blog.talosintelligence.com:2026-09-10,Listed as Cyclops Blink malware sample
 sha256,B037f45e02a289325a1a5eb0d4db6a9fce9954fd0fdfd07162cb4eb2acbef77d,high,2026-09-10T18:35:00.632181+00:00,2026-09-10T18:35:00.632181+00:00,1,blog.talosintelligence.com:2026-09-10,Listed as a web shell malware sample
 sha256,db491181ece3f319de6567ab6f6daa90c6879911cd890155e6b7d8cc7a1a8c8e,high,2026-09-10T18:35:00.632181+00:00,2026-09-10T18:35:00.632181+00:00,1,blog.talosintelligence.com:2026-09-10,Listed as a JAR-based command executor malware sample
@@ -150,9 +194,6 @@ md5,bcac28919fa33704a01d7a9e5e3ddf3f,high,2026-09-08T16:04:41.282954+00:00,2026-
 md5,bdca0eb738faaccb5b992d0f393b9d9f,high,2026-09-08T11:18:18.463595+00:00,2026-09-08T11:18:18.463595+00:00,1,darkatlas.io:2026-09-08,MD5 hash of a malware sample (tc9.dex) used in the attack
 sha1,c6ee3d72053772bdce063c5b98afe32e739e918e,high,2026-09-08T11:18:18.463595+00:00,2026-09-08T11:18:18.463595+00:00,1,darkatlas.io:2026-09-08,SHA-1 hash of a malware sample (tc9.dex) used in the attack
 sha256,54d4ee85175a249dcb576716edf491d09fa05dfdfc492ff710a0cb711f9a35ab,high,2026-09-08T11:18:18.463595+00:00,2026-09-08T11:18:18.463595+00:00,1,darkatlas.io:2026-09-08,SHA-256 hash of a malware sample (tc9.dex) used in the attack
-sha256,07e0c15adc6fcf6096dd5b0b03c20145171c00afe14100468f18f01876457c80,high,2026-09-08T10:17:00.157905+00:00,2026-09-08T10:17:00.157905+00:00,1,www.proofpoint.com:2026-09-08,Identified as a malicious payload hash
-sha256,11909c0262563f29d28312baffb7ff027f113512c5a76bab7c5870f348ff778f,high,2026-09-08T10:17:00.157905+00:00,2026-09-08T10:17:00.157905+00:00,1,www.proofpoint.com:2026-09-08,Identified as a malicious payload hash
-sha256,9701fec71e5bbec912f69c8ed63ffb6dba21b9cca7e67da5d60a72139c1795d1,high,2026-09-08T10:17:00.157905+00:00,2026-09-08T10:17:00.157905+00:00,1,www.proofpoint.com:2026-09-08,Identified as a malicious payload hash
 md5,29203ca123d51b1b33505a0813d360df,high,2026-09-08T10:16:57.536939+00:00,2026-09-08T10:16:57.536939+00:00,1,www.malwarebytes.com:2026-09-08,[article sweep] First-stage loader (Trojanized DLL)
 md5,2e116632248a7e1f8aa6bca92d9c1c90,high,2026-09-08T10:16:57.536939+00:00,2026-09-08T10:16:57.536939+00:00,1,www.malwarebytes.com:2026-09-08,[article sweep] GollopDevest DLL (Loader DLL)
 md5,681db529e402467a4b0567c82a350fc0,high,2026-09-08T10:16:57.536939+00:00,2026-09-08T10:16:57.536939+00:00,1,www.malwarebytes.com:2026-09-08,[article sweep] PavinWride DLL (Anti-analysis DLL)
@@ -245,8 +286,10 @@ sha256,ebadfe4f370b6129402df7107581c7142c916aa7b0fae588540ab16beb5c4cae,high,202
 sha256,f591275a8f014b29e567529d67c54eb7bb4473db1c38737d6bfd5b3d52c9344e,high,2026-09-03T10:18:27+00:00,2026-09-03T11:31:50.519345+00:00,2,www.security.com:2026-09-03|Security:2026-09-03,Listed as a Backdoor.Mistic file hash in the context of malware analysis.
 sha256,fb3630822b70bacb56aa4cec29b5a0e3e9acb3920809e70310a4003385a6d34a,high,2026-09-03T10:18:27+00:00,2026-09-03T11:31:50.519345+00:00,2,www.security.com:2026-09-03|Security:2026-09-03,Listed as a Backdoor.Mistic file hash in the context of malware analysis.
 sha256,08ea6bcce44b13813b321599b1ec88bb2c61314106286eca60402f7e738f3c4d,high,2026-09-03T10:18:27+00:00,2026-09-03T10:18:27+00:00,1,Security:2026-09-03,[article sweep] Identified as an AdaptixC2 agent in a threat report
+sha256,164cad33a0b076a6d01263e159ad06d2e7b1e9e1ace43294c252b11699022485,high,2026-09-03T10:18:27+00:00,2026-09-03T10:18:27+00:00,1,Security:2026-09-03,[article sweep] Identified as a Nodejs module used by attackers
 sha256,1a8739e2dedebc971743dd0c985526f2373f871f9c31c5b2258a5e8b373e4df2,high,2026-09-03T10:18:27+00:00,2026-09-03T10:18:27+00:00,1,Security:2026-09-03,[article sweep] Identified as AsukaStealer in a threat report
 sha256,232b5115f4b78fe01c6497b1039b85ee57f6a58abd095dc80ea4d3c5e6cef6d6,high,2026-09-03T10:18:27+00:00,2026-09-03T10:18:27+00:00,1,Security:2026-09-03,[article sweep] Identified as a suspicious file in a threat report
+sha256,24d71cb6cf6d34871031564c3f104195b812f8e72ceffb1f0ce1936998531e6f,high,2026-09-03T10:18:27+00:00,2026-09-03T10:18:27+00:00,1,Security:2026-09-03,[article sweep] Identified as a PowerShell script used by attackers
 sha256,374d7008d9ba33b440d1838561f59d936a25092e4dc60def6346a9486a799906,high,2026-09-03T10:18:27+00:00,2026-09-03T10:18:27+00:00,1,Security:2026-09-03,[article sweep] Identified as Bootstrap in a threat report
 sha256,466762502123d91be56d9c5a3b92a55c7e3a8c8939a3006cfaee565440ffe5e4,high,2026-09-03T10:18:27+00:00,2026-09-03T10:18:27+00:00,1,Security:2026-09-03,[article sweep] Identified as an AdaptixC2 agent in a threat report
 sha256,59358233a269ce587a1b24ca35e79ab294ce560b43555b500d02cf03687c4fcf,high,2026-09-03T10:18:27+00:00,2026-09-03T10:18:27+00:00,1,Security:2026-09-03,[article sweep] Identified as a CS Beacon in a threat report
@@ -358,12 +401,14 @@ md5,1EA83E4E4592B01E4ACAB63EB867BEE5,high,2026-09-01T07:00:26+00:00,2026-09-01T0
 md5,291AC3ABE73C5158E59A437B75D5F0AA,high,2026-09-01T07:00:26+00:00,2026-09-01T07:00:26+00:00,1,Securelist:2026-09-01,Listed in a table of malware samples in the article
 md5,366515822D5AC1CC500711EF57A2E32E,high,2026-09-01T07:00:26+00:00,2026-09-01T07:00:26+00:00,1,Securelist:2026-09-01,Listed in a table of malware samples in the article
 md5,795E053A990A1569FFDCB57F48F6D085,high,2026-09-01T07:00:26+00:00,2026-09-01T07:00:26+00:00,1,Securelist:2026-09-01,Listed in a table of malware samples in the article
+md5,810F8E3B88EB05F710C09552941D6F56,high,2026-09-01T07:00:26+00:00,2026-09-01T07:00:26+00:00,1,Securelist:2026-09-01,Described as a backdoor used by the attackers
 md5,BE086789568441D0D7E4679AEE51F566,high,2026-09-01T07:00:26+00:00,2026-09-01T07:00:26+00:00,1,Securelist:2026-09-01,Listed in a table of malware samples in the article
 md5,CBAAF0900A13F28E380F49ADECEC932C,high,2026-09-01T07:00:26+00:00,2026-09-01T07:00:26+00:00,1,Securelist:2026-09-01,Listed in a table of malware samples in the article
 md5,CF449F1992C2819E62AC44A0B06AC2E7,high,2026-09-01T07:00:26+00:00,2026-09-01T07:00:26+00:00,1,Securelist:2026-09-01,Listed in a table of malware samples in the article
 md5,DE5AF16A3757EF700B01DC34D67079AE,high,2026-09-01T07:00:26+00:00,2026-09-01T07:00:26+00:00,1,Securelist:2026-09-01,Listed in a table of malware samples in the article
 md5,E259C5EDF158AAC4CFE14F77DDD0B196,high,2026-09-01T07:00:26+00:00,2026-09-01T07:00:26+00:00,1,Securelist:2026-09-01,Listed in a table of malware samples in the article
 md5,E95A4366686E3F786EA3C056FAB5B0DA,high,2026-09-01T07:00:26+00:00,2026-09-01T07:00:26+00:00,1,Securelist:2026-09-01,Listed in a table of malware samples in the article
+sha256,7447d0d0c34779d4c519823b39bf6ddc16d2b34a226b82ee69da6f5b4a77ad82,high,2026-08-31T12:34:31.263942+00:00,2026-08-31T12:34:31.263942+00:00,1,hunt.io:2026-08-31,SHA-256 hash of a stage-1 ELF loader used by the attacker
 md5,07ddbbe2c71c45577a7a4fbcdba0df91,high,2026-08-31T10:00:21+00:00,2026-08-31T12:14:00+00:00,2,Thehackernews:2026-08-31|Securelist:2026-08-31,MD5 hash listed in context of malicious activity
 md5,8a626d844943da3456b044f38deae3a2,high,2026-08-31T10:00:21+00:00,2026-08-31T12:14:00+00:00,2,Thehackernews:2026-08-31|Securelist:2026-08-31,MD5 hash listed in context of malicious activity
 md5,c24e99f9437feacaa63766a3cde3fe3d,high,2026-08-31T10:00:21+00:00,2026-08-31T12:14:00+00:00,2,Thehackernews:2026-08-31|Securelist:2026-08-31,MD5 hash listed in context of malicious activity
@@ -586,78 +631,3 @@ md5,cd08e22dbfe032d15b54217f4f4ed350,high,2026-08-19T13:38:24+00:00,2026-08-19T1
 md5,f4769ba9e8065727ef26cca72e894f83,high,2026-08-19T13:38:24+00:00,2026-08-19T13:38:24+00:00,1,Huntress:2026-08-19,Listed as malware hash in threat report.
 sha256,15afe14b5db2896d35a0c4f3139db85158da120fa90613c975c88f10bbbcc420,high,2026-08-19T13:38:24+00:00,2026-08-19T13:38:24+00:00,1,Huntress:2026-08-19,Listed as malware hash in threat report.
 md5,82f771c3ec4fe979c3ae00372e8c3ac8,high,2026-08-19T12:05:16+00:00,2026-08-19T12:05:16+00:00,1,Acronis:2026-08-19,Listed as hash of malware sample in analysis.
-sha256,321e1fb01eb3462b48ff6ccdef132acc1182e3f7456548439f0d4ead12fd98bf,high,2026-08-18T17:33:53.552798+00:00,2026-08-18T17:33:53.552798+00:00,1,reliaquest.com:2026-08-18,[article sweep] Hash of Clop’s custom webshell in a threat report
-sha256,08a474368a2f94f347ad9e1a0a08d4258fcf49c6b9373214f7901bb770bacca4,high,2026-08-18T15:16:23.255522+00:00,2026-08-18T15:16:23.255522+00:00,1,www.levelblue.com:2026-08-18,[article sweep] Listed as a Python loader hash in a threat report
-sha256,0e346fb46176ffce4c7dbe40a8682bc1f4a2fc70b7389be427568d97a47bd149,high,2026-08-18T15:16:23.255522+00:00,2026-08-18T15:16:23.255522+00:00,1,www.levelblue.com:2026-08-18,[article sweep] Listed as a Python RAT bytecode hash in a threat report
-sha256,7c54bcf3aea8348e8902cac80eb0df31b43a71601a62e2514087fef40a416bfd,high,2026-08-18T15:16:23.255522+00:00,2026-08-18T15:16:23.255522+00:00,1,www.levelblue.com:2026-08-18,[article sweep] Listed in a malware analysis as a file hash of a malicious sample
-sha256,c024a3d852b73fef5bfca7ec5c80df3d59ff9ec858e0adad80c588fe22c39dfc,high,2026-08-18T15:16:23.255522+00:00,2026-08-18T15:16:23.255522+00:00,1,www.levelblue.com:2026-08-18,[article sweep] Listed as RC4 Encrypted Shellcode in a threat report.
-sha256,cd4a51037bf58733c0cb24b273951dd3fcea45a2aaeb8b30a3c625e183c4c0c7,high,2026-08-18T15:16:23.255522+00:00,2026-08-18T15:16:23.255522+00:00,1,www.levelblue.com:2026-08-18,[article sweep] Listed as Stage 1 Shellcode in a threat report.
-sha256,d04ae4d214531d70c634d29763a9c0b84d601cf94aaca4720363f7512995393c,high,2026-08-18T15:16:23.255522+00:00,2026-08-18T15:16:23.255522+00:00,1,www.levelblue.com:2026-08-18,[article sweep] Listed as a Python Loader hash in a threat report.
-sha256,d3e936fa36289fd1210047d8f25257bab0608825ed92908dc98c00e33bdb3db2,high,2026-08-18T15:16:23.255522+00:00,2026-08-18T15:16:23.255522+00:00,1,www.levelblue.com:2026-08-18,[article sweep] Listed as a Stage 1 Shellcode in a threat report
-sha256,d56b810dfacaa1630bf562ccdefd46835349710d9516334e1a182619335ddea7,high,2026-08-18T15:16:23.255522+00:00,2026-08-18T15:16:23.255522+00:00,1,www.levelblue.com:2026-08-18,[article sweep] Listed as a Stage 1 Shellcode in a threat report
-md5,02ebc2356f9f700bbdac444cdefa0da2,high,2026-08-18T04:51:42.737395+00:00,2026-08-18T04:51:42.737395+00:00,1,www.genians.co.kr:2026-08-18,Listed as malware hash.
-md5,0d8ceb7dea7d471afa2f8e753b13d2d6,high,2026-08-18T04:51:42.737395+00:00,2026-08-18T04:51:42.737395+00:00,1,www.genians.co.kr:2026-08-18,Listed as malware hash.
-md5,1f378c0efc13669dada1fe340c6837bd,high,2026-08-18T04:51:42.737395+00:00,2026-08-18T04:51:42.737395+00:00,1,www.genians.co.kr:2026-08-18,Listed as malware hash.
-md5,2669731cb5ff664dfb5fbfc37637876d,high,2026-08-18T04:51:42.737395+00:00,2026-08-18T04:51:42.737395+00:00,1,www.genians.co.kr:2026-08-18,Listed as malware hash.
-md5,2ab3df4762fbde5d86e99a1ad147850e,high,2026-08-18T04:51:42.737395+00:00,2026-08-18T04:51:42.737395+00:00,1,www.genians.co.kr:2026-08-18,Listed as malware hash.
-md5,2e76d5316663a3dc472398b1c01cb9a8,high,2026-08-18T04:51:42.737395+00:00,2026-08-18T04:51:42.737395+00:00,1,www.genians.co.kr:2026-08-18,Listed as malware hash.
-md5,2eb77109cce1e8afca6245c2963e52a6,high,2026-08-18T04:51:42.737395+00:00,2026-08-18T04:51:42.737395+00:00,1,www.genians.co.kr:2026-08-18,Listed as malware hash.
-md5,302725413076d1aeaee2d7f2b3692646,high,2026-08-18T04:51:42.737395+00:00,2026-08-18T04:51:42.737395+00:00,1,www.genians.co.kr:2026-08-18,Listed as malware hash.
-md5,30792a0c0dfad55fb2b19d3e30e9a7d4,high,2026-08-18T04:51:42.737395+00:00,2026-08-18T04:51:42.737395+00:00,1,www.genians.co.kr:2026-08-18,Listed as malware hash.
-md5,30d5f17d5e3f85be18220a7cab0b9fff,high,2026-08-18T04:51:42.737395+00:00,2026-08-18T04:51:42.737395+00:00,1,www.genians.co.kr:2026-08-18,Listed as malware hash.
-md5,37cec428257cd41153cf43d7f1a12652,high,2026-08-18T04:51:42.737395+00:00,2026-08-18T04:51:42.737395+00:00,1,www.genians.co.kr:2026-08-18,Listed as malware hash.
-md5,3b9d40f3d620ec87960b4350d42ccc03,high,2026-08-18T04:51:42.737395+00:00,2026-08-18T04:51:42.737395+00:00,1,www.genians.co.kr:2026-08-18,Listed as malware hash.
-md5,3e2110d233d4543830e14c78d53900f4,high,2026-08-18T04:51:42.737395+00:00,2026-08-18T04:51:42.737395+00:00,1,www.genians.co.kr:2026-08-18,Listed as malware hash.
-md5,422a221851ea6ad15f53cd3aea51c8af,high,2026-08-18T04:51:42.737395+00:00,2026-08-18T04:51:42.737395+00:00,1,www.genians.co.kr:2026-08-18,Listed as malware hash.
-md5,49bdbe7e6cbb88842afcce3a9fe60e9b,high,2026-08-18T04:51:42.737395+00:00,2026-08-18T04:51:42.737395+00:00,1,www.genians.co.kr:2026-08-18,Listed as malware hash.
-md5,4d87fef16790cbe1df72007d99149665,high,2026-08-18T04:51:42.737395+00:00,2026-08-18T04:51:42.737395+00:00,1,www.genians.co.kr:2026-08-18,Listed as malware hash.
-md5,5577fffb5b5acd3771ef9dc696498f1e,high,2026-08-18T04:51:42.737395+00:00,2026-08-18T04:51:42.737395+00:00,1,www.genians.co.kr:2026-08-18,Listed as malware hash.
-md5,5af95590a33b9bc64d95808f1fc71b78,high,2026-08-18T04:51:42.737395+00:00,2026-08-18T04:51:42.737395+00:00,1,www.genians.co.kr:2026-08-18,Listed as malware hash.
-md5,5c5672bb14e1d2f07a8318ffec19b213,high,2026-08-18T04:51:42.737395+00:00,2026-08-18T04:51:42.737395+00:00,1,www.genians.co.kr:2026-08-18,Listed as malware hash.
-md5,6add815cd61d6514f81a23ab8c23405a,high,2026-08-18T04:51:42.737395+00:00,2026-08-18T04:51:42.737395+00:00,1,www.genians.co.kr:2026-08-18,Listed as malware hash.
-md5,73ff669fc282653bd6c42cf87ade9337,high,2026-08-18T04:51:42.737395+00:00,2026-08-18T04:51:42.737395+00:00,1,www.genians.co.kr:2026-08-18,Listed as malware hash.
-md5,7f12fa589f56f6203c692715b3958d30,high,2026-08-18T04:51:42.737395+00:00,2026-08-18T04:51:42.737395+00:00,1,www.genians.co.kr:2026-08-18,Listed as malware hash.
-md5,8406075af0a1e9ec09bafdc0de01f138,high,2026-08-18T04:51:42.737395+00:00,2026-08-18T04:51:42.737395+00:00,1,www.genians.co.kr:2026-08-18,Listed as malware hash.
-md5,8c859a03814443c6f0da341ee594c352,high,2026-08-18T04:51:42.737395+00:00,2026-08-18T04:51:42.737395+00:00,1,www.genians.co.kr:2026-08-18,Listed as malware hash.
-md5,a1c07ac866fb6b388e38c6bb1d4bbe94,high,2026-08-18T04:51:42.737395+00:00,2026-08-18T04:51:42.737395+00:00,1,www.genians.co.kr:2026-08-18,Listed as malware hash.
-md5,a343d8bcf02a0554fa271452a512f3ce,high,2026-08-18T04:51:42.737395+00:00,2026-08-18T04:51:42.737395+00:00,1,www.genians.co.kr:2026-08-18,Listed as malware hash.
-md5,a435292106026e257789036a70ee1a14,high,2026-08-18T04:51:42.737395+00:00,2026-08-18T04:51:42.737395+00:00,1,www.genians.co.kr:2026-08-18,Listed as malware hash.
-md5,a5701848f82c65a55765dc534111899f,high,2026-08-18T04:51:42.737395+00:00,2026-08-18T04:51:42.737395+00:00,1,www.genians.co.kr:2026-08-18,Listed as malware hash.
-md5,aa9d5dd632bb90addca480eaa5ff4382,high,2026-08-18T04:51:42.737395+00:00,2026-08-18T04:51:42.737395+00:00,1,www.genians.co.kr:2026-08-18,Listed as malware hash.
-md5,af3fa7f22f6e97901f20326cc12bdb49,high,2026-08-18T04:51:42.737395+00:00,2026-08-18T04:51:42.737395+00:00,1,www.genians.co.kr:2026-08-18,Listed as malware hash.
-md5,b406ea5b8628cb7801f47c0189b96182,high,2026-08-18T04:51:42.737395+00:00,2026-08-18T04:51:42.737395+00:00,1,www.genians.co.kr:2026-08-18,Listed as malware hash.
-md5,b50dad56d891ef230656b37ce62cdada,high,2026-08-18T04:51:42.737395+00:00,2026-08-18T04:51:42.737395+00:00,1,www.genians.co.kr:2026-08-18,Listed as malware hash.
-md5,b516ec6c6b37618ad65080a063270ea4,high,2026-08-18T04:51:42.737395+00:00,2026-08-18T04:51:42.737395+00:00,1,www.genians.co.kr:2026-08-18,Listed as malware hash.
-md5,ba0238423b5c29667cd760ccd7b000aa,high,2026-08-18T04:51:42.737395+00:00,2026-08-18T04:51:42.737395+00:00,1,www.genians.co.kr:2026-08-18,Listed as malware hash.
-md5,ba8e682a72c6a3e634c070f0fb057bf5,high,2026-08-18T04:51:42.737395+00:00,2026-08-18T04:51:42.737395+00:00,1,www.genians.co.kr:2026-08-18,Listed as malware hash.
-md5,bbf1b0ab9fc27439de4386ed7b8fc151,high,2026-08-18T04:51:42.737395+00:00,2026-08-18T04:51:42.737395+00:00,1,www.genians.co.kr:2026-08-18,Listed as malware hash.
-md5,c410055bfa198937825dfd7e41000e7a,high,2026-08-18T04:51:42.737395+00:00,2026-08-18T04:51:42.737395+00:00,1,www.genians.co.kr:2026-08-18,Listed as malware hash.
-md5,c63d021de798034cbf933e1c99bcb83f,high,2026-08-18T04:51:42.737395+00:00,2026-08-18T04:51:42.737395+00:00,1,www.genians.co.kr:2026-08-18,Listed as malware hash.
-md5,c7723bf166ef08ff3112257a1244f584,high,2026-08-18T04:51:42.737395+00:00,2026-08-18T04:51:42.737395+00:00,1,www.genians.co.kr:2026-08-18,Listed as malware hash.
-md5,ca0b57807f79f26e7f59cab2a2542da0,high,2026-08-18T04:51:42.737395+00:00,2026-08-18T04:51:42.737395+00:00,1,www.genians.co.kr:2026-08-18,Listed as malware hash.
-md5,e0e4aec6d494fe68cdaa52d6878a8366,high,2026-08-18T04:51:42.737395+00:00,2026-08-18T04:51:42.737395+00:00,1,www.genians.co.kr:2026-08-18,Listed as malware hash.
-md5,e22367800e9d39bc865bd50cddd0537d,high,2026-08-18T04:51:42.737395+00:00,2026-08-18T04:51:42.737395+00:00,1,www.genians.co.kr:2026-08-18,Listed as malware hash.
-md5,ead95793528572e7b89679860e2f2116,high,2026-08-18T04:51:42.737395+00:00,2026-08-18T04:51:42.737395+00:00,1,www.genians.co.kr:2026-08-18,Listed as malware hash.
-md5,ed2f8dd9b96d706d833b7aa545b8e621,high,2026-08-18T04:51:42.737395+00:00,2026-08-18T04:51:42.737395+00:00,1,www.genians.co.kr:2026-08-18,Listed as malware hash.
-md5,f4e7ca8c1de252840c1f0e957cd4b717,high,2026-08-18T04:51:42.737395+00:00,2026-08-18T04:51:42.737395+00:00,1,www.genians.co.kr:2026-08-18,Listed as malware hash.
-md5,f73e07efb8707e3561e9cbff74557acb,high,2026-08-18T04:51:42.737395+00:00,2026-08-18T04:51:42.737395+00:00,1,www.genians.co.kr:2026-08-18,Listed as malware hash.
-md5,1077ea936033ee9e9bf444dafb55867c,high,2026-08-17T23:38:02.910715+00:00,2026-08-17T23:38:02.910715+00:00,1,securelist.com:2026-08-17,[article sweep] MD5 hash of a malicious text file
-md5,3ac65326f598ee9930031c17ce158d3d,high,2026-08-17T23:38:02.910715+00:00,2026-08-17T23:38:02.910715+00:00,1,securelist.com:2026-08-17,[article sweep] Hash of a VenomRAT implant
-md5,607f64b56bb3b94ee0009471f1fe9a3c,high,2026-08-17T23:38:02.910715+00:00,2026-08-17T23:38:02.910715+00:00,1,securelist.com:2026-08-17,[article sweep] Hash of a VenomRAT entry point
-md5,91454a68ca3a6ce7cb30c9264a88c0dc,high,2026-08-17T23:38:02.910715+00:00,2026-08-17T23:38:02.910715+00:00,1,securelist.com:2026-08-17,[article sweep] Listed in a malware analysis as a sample hash
-md5,b1a5dc66f40a38d807ec8350ae89d1e4,high,2026-08-17T23:38:02.910715+00:00,2026-08-17T23:38:02.910715+00:00,1,securelist.com:2026-08-17,[article sweep] Malicious file identified in threat report
-md5,d5f241dee73cffe51897c15f36b713cc,high,2026-08-17T23:38:02.910715+00:00,2026-08-17T23:38:02.910715+00:00,1,securelist.com:2026-08-17,[article sweep] Malicious file identified in threat report
-md5,dbf5afa377e3e761622e5f21af1f09e6,high,2026-08-17T23:38:02.910715+00:00,2026-08-17T23:38:02.910715+00:00,1,securelist.com:2026-08-17,[article sweep] Malicious file identified in threat report
-md5,02af7cec58b9a5da1c542b5a32151ba1,high,2026-08-17T19:54:37.017779+00:00,2026-08-17T19:54:37.017779+00:00,1,cloud.google.com:2026-08-17,Listed as hash of malware sample in threat report
-md5,b91ce2fa41029f6955bff20079468448,high,2026-08-17T19:54:37.017779+00:00,2026-08-17T19:54:37.017779+00:00,1,cloud.google.com:2026-08-17,Listed as hash of malware sample in threat report
-sha256,20675a659c338f7267fd09bacb431f4491f061d3acf42d07aca2dec3d25fa549,high,2026-08-17T16:11:34+00:00,2026-08-17T16:11:34+00:00,1,Zscaler:2026-08-17,"[article sweep] Identified as a C2Looper debug build hash, indicating malware."
-sha256,f96ff2f3abbff7f382ace509b90e54853b4b61c402ecde27d82f1c17b414867b,high,2026-08-17T16:11:34+00:00,2026-08-17T16:11:34+00:00,1,Zscaler:2026-08-17,[article sweep] Identified as a variant of C2Looper malware
-sha256,de5748aac4a4d4cb48cf050652679e6bc49eda33d9ffaa0d280b578122fab55a,high,2026-08-17T14:03:27.147068+00:00,2026-08-17T14:03:27.147068+00:00,1,www.jamf.com:2026-08-17,[article sweep] Listed as a Rust universal malware sample hash
-sha256,0f2c7194f1f577e73460db9ec2e75fc0c7f845588cbd4246333b7a4fbec90d9f,high,2026-08-17T13:49:33+00:00,2026-08-17T13:49:33+00:00,1,Rapid7:2026-08-17,Listed as a malware sample hash.
-sha256,7073b2a3a34525c5969921dd17ef1fa5607af92be78b3fc6129cdea73216691a,high,2026-08-17T13:49:33+00:00,2026-08-17T13:49:33+00:00,1,Rapid7:2026-08-17,Listed as a malware sample hash.
-sha256,918fa540126b7db6424652d84a5ce7e968947136db3d6e3e0cab30ea309e25a2,high,2026-08-17T13:49:33+00:00,2026-08-17T13:49:33+00:00,1,Rapid7:2026-08-17,Listed as a malware sample hash.
-sha256,961a398a5c71e837626b5fce68e44b14a5d220e3bd74a3d0ecd61a2762c38176,high,2026-08-17T13:49:33+00:00,2026-08-17T13:49:33+00:00,1,Rapid7:2026-08-17,Listed as a malware sample hash.
-sha256,ba9d459169a303067a4fe36c8b8582a5ea023b9c270dafe89613bab840501b19,high,2026-08-17T13:49:33+00:00,2026-08-17T13:49:33+00:00,1,Rapid7:2026-08-17,Listed as a malware sample hash.
-sha256,71656539CC644513396F56100FFB56F9EF9EAA5B7A16B0773D6E5D370A912A88,high,2026-08-17T10:00:00+00:00,2026-08-17T10:00:00+00:00,1,Feeds.Feedburner:2026-08-17,Listed as malware sample in analysis.
-sha256,a799417bd79060d63e93682f339fbe2868de3881f9c5865d9b583f5b715c70a9,high,2026-08-17T10:00:00+00:00,2026-08-17T10:00:00+00:00,1,Feeds.Feedburner:2026-08-17,[article sweep] Identified as a malicious file hash
-sha256,d50ca2fa212df1c1ff69b5d26ba594bd39bfd86a71b068a650cc577e5dc9a94e,high,2026-08-17T10:00:00+00:00,2026-08-17T10:00:00+00:00,1,Feeds.Feedburner:2026-08-17,[article sweep] Listed as a Preload.js malware sample hash

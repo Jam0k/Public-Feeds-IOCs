@@ -1,7 +1,7 @@
 {
   "feed": "threatcluster-public-iocs",
   "version": 1,
-  "generated_at": "2026-09-16T06:39:46Z",
+  "generated_at": "2026-09-18T06:38:49Z",
   "filters": {
     "confidence": "high",
     "window_days": 30,
@@ -11,8 +11,1573 @@
       "domain"
     ]
   },
-  "count": 303,
+  "count": 299,
   "iocs": [
+    {
+      "type": "domain",
+      "value": "cdn.sendibt1.com",
+      "confidence": "high",
+      "reason": "SSL certificate created by attacker, used to serve malware",
+      "first_seen": "2026-09-17T15:17:31+00:00",
+      "last_seen": "2026-09-17T22:39:13.767730+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "sansec.io",
+          "url": "https://sansec.io/research/brevo-supply-chain-attack",
+          "pub_date": "2026-09-17T22:39:13.76773+00:00"
+        },
+        {
+          "source": "Cybernews",
+          "url": "https://cybernews.com/security/brevo-supply-chain-attack-clickfix-malware/",
+          "pub_date": "2026-09-17T15:17:31+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "ClickFix"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "nightmarestresser.co",
+      "confidence": "high",
+      "reason": "[article sweep] Identified as a booter site seized by the FBI",
+      "first_seen": "2026-09-17T21:16:57+00:00",
+      "last_seen": "2026-09-17T21:16:57+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Govinfosecurity",
+          "url": "https://www.govinfosecurity.com/breach-roundup-china-calls-for-stronger-ai-oversight-a-32861",
+          "pub_date": "2026-09-17T21:16:57+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "nightmarestresser.net",
+      "confidence": "high",
+      "reason": "[article sweep] Identified as a booter site seized by the FBI",
+      "first_seen": "2026-09-17T21:16:57+00:00",
+      "last_seen": "2026-09-17T21:16:57+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Govinfosecurity",
+          "url": "https://www.govinfosecurity.com/breach-roundup-china-calls-for-stronger-ai-oversight-a-32861",
+          "pub_date": "2026-09-17T21:16:57+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "affordableonline.online",
+      "confidence": "high",
+      "reason": "Listed among domains associated with malicious campaigns",
+      "first_seen": "2026-09-17T19:02:55.531733+00:00",
+      "last_seen": "2026-09-17T19:02:55.531733+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.elastic.co",
+          "url": "https://www.elastic.co/security-labs/threat-command/malicious-browser-extension-kremlin-banking-malware",
+          "pub_date": "2026-09-17T19:02:55.531733+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Ref9334"
+        },
+        {
+          "type": "industry",
+          "value": "Financial"
+        },
+        {
+          "type": "malware",
+          "value": "Kremlin"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "codecaudiog.site",
+      "confidence": "high",
+      "reason": "Used to download malicious payloads",
+      "first_seen": "2026-09-17T19:02:55.531733+00:00",
+      "last_seen": "2026-09-17T19:02:55.531733+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.elastic.co",
+          "url": "https://www.elastic.co/security-labs/threat-command/malicious-browser-extension-kremlin-banking-malware",
+          "pub_date": "2026-09-17T19:02:55.531733+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Ref9334"
+        },
+        {
+          "type": "industry",
+          "value": "Financial"
+        },
+        {
+          "type": "malware",
+          "value": "Kremlin"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "codecvideowin.online",
+      "confidence": "high",
+      "reason": "Used to download malicious payloads",
+      "first_seen": "2026-09-17T19:02:55.531733+00:00",
+      "last_seen": "2026-09-17T19:02:55.531733+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.elastic.co",
+          "url": "https://www.elastic.co/security-labs/threat-command/malicious-browser-extension-kremlin-banking-malware",
+          "pub_date": "2026-09-17T19:02:55.531733+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Ref9334"
+        },
+        {
+          "type": "industry",
+          "value": "Financial"
+        },
+        {
+          "type": "malware",
+          "value": "Kremlin"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "connection.timesmaluku.com",
+      "confidence": "high",
+      "reason": "Listed among domains associated with malicious campaigns",
+      "first_seen": "2026-09-17T19:02:55.531733+00:00",
+      "last_seen": "2026-09-17T19:02:55.531733+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.elastic.co",
+          "url": "https://www.elastic.co/security-labs/threat-command/malicious-browser-extension-kremlin-banking-malware",
+          "pub_date": "2026-09-17T19:02:55.531733+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Ref9334"
+        },
+        {
+          "type": "industry",
+          "value": "Financial"
+        },
+        {
+          "type": "malware",
+          "value": "Kremlin"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "connection.upgradeonline.site",
+      "confidence": "high",
+      "reason": "Listed among domains associated with malicious campaigns",
+      "first_seen": "2026-09-17T19:02:55.531733+00:00",
+      "last_seen": "2026-09-17T19:02:55.531733+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.elastic.co",
+          "url": "https://www.elastic.co/security-labs/threat-command/malicious-browser-extension-kremlin-banking-malware",
+          "pub_date": "2026-09-17T19:02:55.531733+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Ref9334"
+        },
+        {
+          "type": "industry",
+          "value": "Financial"
+        },
+        {
+          "type": "malware",
+          "value": "Kremlin"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "donalurdesconfeitos.site",
+      "confidence": "high",
+      "reason": "Listed among domains associated with malicious campaigns",
+      "first_seen": "2026-09-17T19:02:55.531733+00:00",
+      "last_seen": "2026-09-17T19:02:55.531733+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.elastic.co",
+          "url": "https://www.elastic.co/security-labs/threat-command/malicious-browser-extension-kremlin-banking-malware",
+          "pub_date": "2026-09-17T19:02:55.531733+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Ref9334"
+        },
+        {
+          "type": "industry",
+          "value": "Financial"
+        },
+        {
+          "type": "malware",
+          "value": "Kremlin"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "seguranca.versionnova.site",
+      "confidence": "high",
+      "reason": "Listed among domains associated with malicious campaigns",
+      "first_seen": "2026-09-17T19:02:55.531733+00:00",
+      "last_seen": "2026-09-17T19:02:55.531733+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.elastic.co",
+          "url": "https://www.elastic.co/security-labs/threat-command/malicious-browser-extension-kremlin-banking-malware",
+          "pub_date": "2026-09-17T19:02:55.531733+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Ref9334"
+        },
+        {
+          "type": "industry",
+          "value": "Financial"
+        },
+        {
+          "type": "malware",
+          "value": "Kremlin"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "volmira.site",
+      "confidence": "high",
+      "reason": "Used as a C2 endpoint",
+      "first_seen": "2026-09-15T18:59:52+00:00",
+      "last_seen": "2026-09-17T19:02:55.531733+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "www.elastic.co",
+          "url": "https://www.elastic.co/security-labs/threat-command/malicious-browser-extension-kremlin-banking-malware",
+          "pub_date": "2026-09-17T19:02:55.531733+00:00"
+        },
+        {
+          "source": "Thehackernews",
+          "url": "https://thehackernews.com/2026/09/kremlin-banking-malware-hijacks-chrome.html",
+          "pub_date": "2026-09-15T18:59:52+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "Kremlin"
+        },
+        {
+          "type": "apt_group",
+          "value": "Apt31"
+        },
+        {
+          "type": "campaign",
+          "value": "Ref9334"
+        },
+        {
+          "type": "industry",
+          "value": "Financial"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "zaviro.online",
+      "confidence": "high",
+      "reason": "Used as a C2 endpoint",
+      "first_seen": "2026-09-15T18:59:52+00:00",
+      "last_seen": "2026-09-17T19:02:55.531733+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "www.elastic.co",
+          "url": "https://www.elastic.co/security-labs/threat-command/malicious-browser-extension-kremlin-banking-malware",
+          "pub_date": "2026-09-17T19:02:55.531733+00:00"
+        },
+        {
+          "source": "Thehackernews",
+          "url": "https://thehackernews.com/2026/09/kremlin-banking-malware-hijacks-chrome.html",
+          "pub_date": "2026-09-15T18:59:52+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "Kremlin"
+        },
+        {
+          "type": "apt_group",
+          "value": "Apt31"
+        },
+        {
+          "type": "campaign",
+          "value": "Ref9334"
+        },
+        {
+          "type": "industry",
+          "value": "Financial"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "37.16.74.100",
+      "confidence": "high",
+      "reason": "Listed as a C2 endpoint",
+      "first_seen": "2026-09-17T19:02:55.531733+00:00",
+      "last_seen": "2026-09-17T19:02:55.531733+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.elastic.co",
+          "url": "https://www.elastic.co/security-labs/threat-command/malicious-browser-extension-kremlin-banking-malware",
+          "pub_date": "2026-09-17T19:02:55.531733+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Ref9334"
+        },
+        {
+          "type": "industry",
+          "value": "Financial"
+        },
+        {
+          "type": "malware",
+          "value": "Kremlin"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "edgecloudc.com",
+      "confidence": "high",
+      "reason": "[article sweep] Listed in a YARA rule as a domain associated with APT31",
+      "first_seen": "2026-09-17T16:10:35+00:00",
+      "last_seen": "2026-09-17T16:10:35+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cyfirma",
+          "url": "https://www.cyfirma.com/news/weekly-intelligence-report-18-sep-2026/",
+          "pub_date": "2026-09-17T16:10:35+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "gitloucache.com",
+      "confidence": "high",
+      "reason": "[article sweep] Listed in a YARA rule as associated with APT31",
+      "first_seen": "2026-09-17T16:10:35+00:00",
+      "last_seen": "2026-09-17T16:10:35+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cyfirma",
+          "url": "https://www.cyfirma.com/news/weekly-intelligence-report-18-sep-2026/",
+          "pub_date": "2026-09-17T16:10:35+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "hdpopcorn.live",
+      "confidence": "high",
+      "reason": "[article sweep] Listed in a YARA rule as associated with APT31",
+      "first_seen": "2026-09-17T16:10:35+00:00",
+      "last_seen": "2026-09-17T16:10:35+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cyfirma",
+          "url": "https://www.cyfirma.com/news/weekly-intelligence-report-18-sep-2026/",
+          "pub_date": "2026-09-17T16:10:35+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "ramblercloud.com",
+      "confidence": "high",
+      "reason": "[article sweep] Listed in a YARA rule as associated with APT31",
+      "first_seen": "2026-09-17T16:10:35+00:00",
+      "last_seen": "2026-09-17T16:10:35+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cyfirma",
+          "url": "https://www.cyfirma.com/news/weekly-intelligence-report-18-sep-2026/",
+          "pub_date": "2026-09-17T16:10:35+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "yandexpro.net",
+      "confidence": "high",
+      "reason": "[article sweep] Listed in a YARA rule as associated with APT31",
+      "first_seen": "2026-09-17T16:10:35+00:00",
+      "last_seen": "2026-09-17T16:10:35+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cyfirma",
+          "url": "https://www.cyfirma.com/news/weekly-intelligence-report-18-sep-2026/",
+          "pub_date": "2026-09-17T16:10:35+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "ipv4",
+      "value": "184.75.129.113",
+      "confidence": "high",
+      "reason": "[article sweep] Listed in a YARA rule as an IP address associated with APT31",
+      "first_seen": "2026-09-17T16:10:35+00:00",
+      "last_seen": "2026-09-17T16:10:35+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cyfirma",
+          "url": "https://www.cyfirma.com/news/weekly-intelligence-report-18-sep-2026/",
+          "pub_date": "2026-09-17T16:10:35+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "ipv4",
+      "value": "195.91.239.226",
+      "confidence": "high",
+      "reason": "[article sweep] Listed in a YARA rule as an IP address associated with APT31",
+      "first_seen": "2026-09-17T16:10:35+00:00",
+      "last_seen": "2026-09-17T16:10:35+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cyfirma",
+          "url": "https://www.cyfirma.com/news/weekly-intelligence-report-18-sep-2026/",
+          "pub_date": "2026-09-17T16:10:35+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "ipv4",
+      "value": "50.71.100.164",
+      "confidence": "high",
+      "reason": "[article sweep] Listed in a YARA rule as an IP address associated with APT31",
+      "first_seen": "2026-09-17T16:10:35+00:00",
+      "last_seen": "2026-09-17T16:10:35+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cyfirma",
+          "url": "https://www.cyfirma.com/news/weekly-intelligence-report-18-sep-2026/",
+          "pub_date": "2026-09-17T16:10:35+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "ipv4",
+      "value": "88.247.129.12",
+      "confidence": "high",
+      "reason": "[article sweep] Listed in a YARA rule as an IP address associated with APT31",
+      "first_seen": "2026-09-17T16:10:35+00:00",
+      "last_seen": "2026-09-17T16:10:35+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cyfirma",
+          "url": "https://www.cyfirma.com/news/weekly-intelligence-report-18-sep-2026/",
+          "pub_date": "2026-09-17T16:10:35+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "ipv4",
+      "value": "89.31.228.228",
+      "confidence": "high",
+      "reason": "[article sweep] Listed in a YARA rule as an IP address associated with APT31",
+      "first_seen": "2026-09-17T16:10:35+00:00",
+      "last_seen": "2026-09-17T16:10:35+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cyfirma",
+          "url": "https://www.cyfirma.com/news/weekly-intelligence-report-18-sep-2026/",
+          "pub_date": "2026-09-17T16:10:35+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "deadhub.org",
+      "confidence": "high",
+      "reason": "Listed as first-stage C2 server",
+      "first_seen": "2026-09-17T16:05:22.520791+00:00",
+      "last_seen": "2026-09-17T16:05:22.520791+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "securelist.com",
+          "url": "https://securelist.com/moviereaper-malware-torrent-odyssey-solana/121344/",
+          "pub_date": "2026-09-17T16:05:22.520791+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Mirage Kitten"
+        },
+        {
+          "type": "apt_group",
+          "value": "Nimbus Manticore"
+        },
+        {
+          "type": "apt_group",
+          "value": "Smoke Sandstorm"
+        },
+        {
+          "type": "apt_group",
+          "value": "Unc1549"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "208.64.33.90",
+      "confidence": "high",
+      "reason": "Listed as second-stage C2 server",
+      "first_seen": "2026-09-17T16:05:22.520791+00:00",
+      "last_seen": "2026-09-17T16:05:22.520791+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "securelist.com",
+          "url": "https://securelist.com/moviereaper-malware-torrent-odyssey-solana/121344/",
+          "pub_date": "2026-09-17T16:05:22.520791+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Mirage Kitten"
+        },
+        {
+          "type": "apt_group",
+          "value": "Nimbus Manticore"
+        },
+        {
+          "type": "apt_group",
+          "value": "Smoke Sandstorm"
+        },
+        {
+          "type": "apt_group",
+          "value": "Unc1549"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "frscgov.eu.cc",
+      "confidence": "high",
+      "reason": "[article sweep] Identified as a phishing domain mimicking a legitimate government site",
+      "first_seen": "2026-09-17T16:03:00+00:00",
+      "last_seen": "2026-09-17T16:03:00+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Fij.Ng",
+          "url": "https://fij.ng/article/alert-fake-frsc-websites-target-motorists-scam-actress-of-n400000-fine/",
+          "pub_date": "2026-09-17T16:03:00+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "frscgov.top",
+      "confidence": "high",
+      "reason": "[article sweep] Identified as a fraudulent website with no affiliation to the legitimate FRSC",
+      "first_seen": "2026-09-17T16:03:00+00:00",
+      "last_seen": "2026-09-17T16:03:00+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Fij.Ng",
+          "url": "https://fij.ng/article/alert-fake-frsc-websites-target-motorists-scam-actress-of-n400000-fine/",
+          "pub_date": "2026-09-17T16:03:00+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "stats-best.site",
+      "confidence": "high",
+      "reason": "Used by threat actor to receive fingerprinting data",
+      "first_seen": "2026-09-17T14:01:48.971488+00:00",
+      "last_seen": "2026-09-17T14:01:48.971488+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "rmceoin.github.io",
+          "url": "https://rmceoin.github.io/malware-analysis/2023/08/06/clearfake.html",
+          "pub_date": "2026-09-17T14:01:48.971488+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "ClearFake"
+        },
+        {
+          "type": "malware",
+          "value": "Amadey"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "adtargett.com",
+      "confidence": "high",
+      "reason": "Typosquatting domain registered by attacker to mimic a legitimate service",
+      "first_seen": "2026-09-16T20:07:42+00:00",
+      "last_seen": "2026-09-17T12:02:57+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "Techtimes",
+          "url": "https://www.techtimes.com/articles/327649/20260917/malicious-javascript-evaded-virustotal-seven-eight-e-commerce-storefront-attacks.htm",
+          "pub_date": "2026-09-17T12:02:57+00:00"
+        },
+        {
+          "source": "Blog.Cloudflare",
+          "url": "https://blog.cloudflare.com/client-side-security-finds-4-malicious-campaigns/",
+          "pub_date": "2026-09-16T20:07:42+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "Lnkr"
+        },
+        {
+          "type": "campaign",
+          "value": "Operation 1"
+        },
+        {
+          "type": "campaign",
+          "value": "Operation 2"
+        },
+        {
+          "type": "campaign",
+          "value": "Operation 3"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "iamnotavillain.xyz",
+      "confidence": "high",
+      "reason": "Domain associated with the attacker group making ransom demands",
+      "first_seen": "2026-09-15T18:46:30+00:00",
+      "last_seen": "2026-09-17T12:00:56.254730+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "cointelegraph.com",
+          "url": "https://cointelegraph.com/news/revolut-data-breach-monero-ransom-no-direct-contact",
+          "pub_date": "2026-09-17T12:00:56.25473+00:00"
+        },
+        {
+          "source": "Govinfosecurity",
+          "url": "https://www.govinfosecurity.com/crypto-industry-figures-blackmailed-by-revoluts-hacker-a-32824",
+          "pub_date": "2026-09-15T18:46:30+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "industry",
+          "value": "Financial"
+        },
+        {
+          "type": "industry",
+          "value": "Government"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "jfgroup-kw.com",
+      "confidence": "high",
+      "reason": "[article sweep] Identified as a phishing page by Bitdefender",
+      "first_seen": "2026-09-17T10:14:31+00:00",
+      "last_seen": "2026-09-17T10:14:31+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Itweb.Co.Za",
+          "url": "https://www.itweb.co.za/article/fake-sars-e-mails-get-smarter-this-tax-season/xA9PO7NE2dlvo4J8",
+          "pub_date": "2026-09-17T10:14:31+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "sarscollections.com",
+      "confidence": "high",
+      "reason": "[article sweep] Used in phishing emails impersonating SARS",
+      "first_seen": "2026-09-17T10:14:31+00:00",
+      "last_seen": "2026-09-17T10:14:31+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Itweb.Co.Za",
+          "url": "https://www.itweb.co.za/article/fake-sars-e-mails-get-smarter-this-tax-season/xA9PO7NE2dlvo4J8",
+          "pub_date": "2026-09-17T10:14:31+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "ipv4",
+      "value": "139.28.85.223",
+      "confidence": "high",
+      "reason": "[article sweep] Identified as the origin of a phishing email",
+      "first_seen": "2026-09-17T10:14:31+00:00",
+      "last_seen": "2026-09-17T10:14:31+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Itweb.Co.Za",
+          "url": "https://www.itweb.co.za/article/fake-sars-e-mails-get-smarter-this-tax-season/xA9PO7NE2dlvo4J8",
+          "pub_date": "2026-09-17T10:14:31+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "cdn10.sendibt1.com",
+      "confidence": "high",
+      "reason": "Used to host and serve malware during the attack",
+      "first_seen": "2026-09-17T09:20:26+00:00",
+      "last_seen": "2026-09-17T09:20:26+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cyberinsider",
+          "url": "https://cyberinsider.com/100000-wordpress-sites-infected-via-brevo-supply-chain-attack/",
+          "pub_date": "2026-09-17T09:20:26+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "industry",
+          "value": "Government"
+        },
+        {
+          "type": "malware",
+          "value": "SparroWocky"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "api06.chat5188.tk",
+      "confidence": "high",
+      "reason": "Listed under command and control domains",
+      "first_seen": "2026-09-16T21:33:59.611872+00:00",
+      "last_seen": "2026-09-16T21:33:59.611872+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.lumen.com",
+          "url": "https://www.lumen.com/blog/en-us/the-banana-stand-brokering-and-managing-infections-across-asia-using-mqtt",
+          "pub_date": "2026-09-16T21:33:59.611872+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "GhostEmperor"
+        },
+        {
+          "type": "apt_group",
+          "value": "Volt Typhoon"
+        },
+        {
+          "type": "apt_group",
+          "value": "ZuoRAT"
+        },
+        {
+          "type": "industry",
+          "value": "Financial"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "api08.chat5188.tk",
+      "confidence": "high",
+      "reason": "Listed under command and control domains",
+      "first_seen": "2026-09-16T21:33:59.611872+00:00",
+      "last_seen": "2026-09-16T21:33:59.611872+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.lumen.com",
+          "url": "https://www.lumen.com/blog/en-us/the-banana-stand-brokering-and-managing-infections-across-asia-using-mqtt",
+          "pub_date": "2026-09-16T21:33:59.611872+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "GhostEmperor"
+        },
+        {
+          "type": "apt_group",
+          "value": "Volt Typhoon"
+        },
+        {
+          "type": "apt_group",
+          "value": "ZuoRAT"
+        },
+        {
+          "type": "industry",
+          "value": "Financial"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "api80.c2iznja.com",
+      "confidence": "high",
+      "reason": "Listed under command and control domains",
+      "first_seen": "2026-09-15T15:41:10+00:00",
+      "last_seen": "2026-09-16T21:33:59.611872+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "www.lumen.com",
+          "url": "https://www.lumen.com/blog/en-us/the-banana-stand-brokering-and-managing-infections-across-asia-using-mqtt",
+          "pub_date": "2026-09-16T21:33:59.611872+00:00"
+        },
+        {
+          "source": "Thehackernews",
+          "url": "https://thehackernews.com/2026/09/bambootoken-malware-uses-mqtt-to.html",
+          "pub_date": "2026-09-15T15:41:10+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "industry",
+          "value": "Financial"
+        },
+        {
+          "type": "industry",
+          "value": "Government"
+        },
+        {
+          "type": "malware",
+          "value": "BambooToken"
+        },
+        {
+          "type": "malware",
+          "value": "Iocontrol"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "apis.chat5188.tk",
+      "confidence": "high",
+      "reason": "Listed under command and control domains",
+      "first_seen": "2026-09-16T21:33:59.611872+00:00",
+      "last_seen": "2026-09-16T21:33:59.611872+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.lumen.com",
+          "url": "https://www.lumen.com/blog/en-us/the-banana-stand-brokering-and-managing-infections-across-asia-using-mqtt",
+          "pub_date": "2026-09-16T21:33:59.611872+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "GhostEmperor"
+        },
+        {
+          "type": "apt_group",
+          "value": "Volt Typhoon"
+        },
+        {
+          "type": "apt_group",
+          "value": "ZuoRAT"
+        },
+        {
+          "type": "industry",
+          "value": "Financial"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "base64.c2iznja.com",
+      "confidence": "high",
+      "reason": "Listed under command and control domains",
+      "first_seen": "2026-09-16T21:33:59.611872+00:00",
+      "last_seen": "2026-09-16T21:33:59.611872+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.lumen.com",
+          "url": "https://www.lumen.com/blog/en-us/the-banana-stand-brokering-and-managing-infections-across-asia-using-mqtt",
+          "pub_date": "2026-09-16T21:33:59.611872+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "GhostEmperor"
+        },
+        {
+          "type": "apt_group",
+          "value": "Volt Typhoon"
+        },
+        {
+          "type": "apt_group",
+          "value": "ZuoRAT"
+        },
+        {
+          "type": "industry",
+          "value": "Financial"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "beacon.chat5188.tk",
+      "confidence": "high",
+      "reason": "Listed under command and control domains",
+      "first_seen": "2026-09-16T21:33:59.611872+00:00",
+      "last_seen": "2026-09-16T21:33:59.611872+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.lumen.com",
+          "url": "https://www.lumen.com/blog/en-us/the-banana-stand-brokering-and-managing-infections-across-asia-using-mqtt",
+          "pub_date": "2026-09-16T21:33:59.611872+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "GhostEmperor"
+        },
+        {
+          "type": "apt_group",
+          "value": "Volt Typhoon"
+        },
+        {
+          "type": "apt_group",
+          "value": "ZuoRAT"
+        },
+        {
+          "type": "industry",
+          "value": "Financial"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "c2iznja.com",
+      "confidence": "high",
+      "reason": "Listed under command and control domains",
+      "first_seen": "2026-09-16T21:33:59.611872+00:00",
+      "last_seen": "2026-09-16T21:33:59.611872+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.lumen.com",
+          "url": "https://www.lumen.com/blog/en-us/the-banana-stand-brokering-and-managing-infections-across-asia-using-mqtt",
+          "pub_date": "2026-09-16T21:33:59.611872+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "GhostEmperor"
+        },
+        {
+          "type": "apt_group",
+          "value": "Volt Typhoon"
+        },
+        {
+          "type": "apt_group",
+          "value": "ZuoRAT"
+        },
+        {
+          "type": "industry",
+          "value": "Financial"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "cache.c2iznja.com",
+      "confidence": "high",
+      "reason": "Listed under command and control domains",
+      "first_seen": "2026-09-16T21:33:59.611872+00:00",
+      "last_seen": "2026-09-16T21:33:59.611872+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.lumen.com",
+          "url": "https://www.lumen.com/blog/en-us/the-banana-stand-brokering-and-managing-infections-across-asia-using-mqtt",
+          "pub_date": "2026-09-16T21:33:59.611872+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "GhostEmperor"
+        },
+        {
+          "type": "apt_group",
+          "value": "Volt Typhoon"
+        },
+        {
+          "type": "apt_group",
+          "value": "ZuoRAT"
+        },
+        {
+          "type": "industry",
+          "value": "Financial"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "ccc80.c2iznja.com",
+      "confidence": "high",
+      "reason": "Listed under command and control domains",
+      "first_seen": "2026-09-16T21:33:59.611872+00:00",
+      "last_seen": "2026-09-16T21:33:59.611872+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.lumen.com",
+          "url": "https://www.lumen.com/blog/en-us/the-banana-stand-brokering-and-managing-infections-across-asia-using-mqtt",
+          "pub_date": "2026-09-16T21:33:59.611872+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "GhostEmperor"
+        },
+        {
+          "type": "apt_group",
+          "value": "Volt Typhoon"
+        },
+        {
+          "type": "apt_group",
+          "value": "ZuoRAT"
+        },
+        {
+          "type": "industry",
+          "value": "Financial"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "chat5188.tk",
+      "confidence": "high",
+      "reason": "Listed under command and control domains",
+      "first_seen": "2026-09-15T15:41:10+00:00",
+      "last_seen": "2026-09-16T21:33:59.611872+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "www.lumen.com",
+          "url": "https://www.lumen.com/blog/en-us/the-banana-stand-brokering-and-managing-infections-across-asia-using-mqtt",
+          "pub_date": "2026-09-16T21:33:59.611872+00:00"
+        },
+        {
+          "source": "Thehackernews",
+          "url": "https://thehackernews.com/2026/09/bambootoken-malware-uses-mqtt-to.html",
+          "pub_date": "2026-09-15T15:41:10+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "industry",
+          "value": "Financial"
+        },
+        {
+          "type": "industry",
+          "value": "Government"
+        },
+        {
+          "type": "malware",
+          "value": "BambooToken"
+        },
+        {
+          "type": "malware",
+          "value": "Iocontrol"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "chat.chat5188.tk",
+      "confidence": "high",
+      "reason": "Listed under command and control domains",
+      "first_seen": "2026-09-16T21:33:59.611872+00:00",
+      "last_seen": "2026-09-16T21:33:59.611872+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.lumen.com",
+          "url": "https://www.lumen.com/blog/en-us/the-banana-stand-brokering-and-managing-infections-across-asia-using-mqtt",
+          "pub_date": "2026-09-16T21:33:59.611872+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "GhostEmperor"
+        },
+        {
+          "type": "apt_group",
+          "value": "Volt Typhoon"
+        },
+        {
+          "type": "apt_group",
+          "value": "ZuoRAT"
+        },
+        {
+          "type": "industry",
+          "value": "Financial"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "live-hk.c2iznja.com",
+      "confidence": "high",
+      "reason": "Listed under command and control domains",
+      "first_seen": "2026-09-16T21:33:59.611872+00:00",
+      "last_seen": "2026-09-16T21:33:59.611872+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.lumen.com",
+          "url": "https://www.lumen.com/blog/en-us/the-banana-stand-brokering-and-managing-infections-across-asia-using-mqtt",
+          "pub_date": "2026-09-16T21:33:59.611872+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "GhostEmperor"
+        },
+        {
+          "type": "apt_group",
+          "value": "Volt Typhoon"
+        },
+        {
+          "type": "apt_group",
+          "value": "ZuoRAT"
+        },
+        {
+          "type": "industry",
+          "value": "Financial"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "newdma.c2iznja.com",
+      "confidence": "high",
+      "reason": "Listed under command and control domains",
+      "first_seen": "2026-09-16T21:33:59.611872+00:00",
+      "last_seen": "2026-09-16T21:33:59.611872+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.lumen.com",
+          "url": "https://www.lumen.com/blog/en-us/the-banana-stand-brokering-and-managing-infections-across-asia-using-mqtt",
+          "pub_date": "2026-09-16T21:33:59.611872+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "GhostEmperor"
+        },
+        {
+          "type": "apt_group",
+          "value": "Volt Typhoon"
+        },
+        {
+          "type": "apt_group",
+          "value": "ZuoRAT"
+        },
+        {
+          "type": "industry",
+          "value": "Financial"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "turbo.c2iznja.com",
+      "confidence": "high",
+      "reason": "Listed under command and control domains",
+      "first_seen": "2026-09-16T21:33:59.611872+00:00",
+      "last_seen": "2026-09-16T21:33:59.611872+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.lumen.com",
+          "url": "https://www.lumen.com/blog/en-us/the-banana-stand-brokering-and-managing-infections-across-asia-using-mqtt",
+          "pub_date": "2026-09-16T21:33:59.611872+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "GhostEmperor"
+        },
+        {
+          "type": "apt_group",
+          "value": "Volt Typhoon"
+        },
+        {
+          "type": "apt_group",
+          "value": "ZuoRAT"
+        },
+        {
+          "type": "industry",
+          "value": "Financial"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "210.1.231.13",
+      "confidence": "high",
+      "reason": "Associated with attacker-controlled domain turbo.c2iznja.com",
+      "first_seen": "2026-09-16T21:33:59.611872+00:00",
+      "last_seen": "2026-09-16T21:33:59.611872+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.lumen.com",
+          "url": "https://www.lumen.com/blog/en-us/the-banana-stand-brokering-and-managing-infections-across-asia-using-mqtt",
+          "pub_date": "2026-09-16T21:33:59.611872+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "GhostEmperor"
+        },
+        {
+          "type": "apt_group",
+          "value": "Volt Typhoon"
+        },
+        {
+          "type": "apt_group",
+          "value": "ZuoRAT"
+        },
+        {
+          "type": "industry",
+          "value": "Financial"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "94.102.49.125",
+      "confidence": "high",
+      "reason": "[article sweep] Identified as a source IP for malicious scans",
+      "first_seen": "2026-09-16T18:44:04+00:00",
+      "last_seen": "2026-09-16T18:44:04+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Isc.Sans.Edu",
+          "url": "https://isc.sans.edu/diary/rss/33344",
+          "pub_date": "2026-09-16T18:44:04+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "bad.com",
+      "confidence": "high",
+      "reason": "Described as a domain used to serve malicious JavaScript in a web attack.",
+      "first_seen": "2026-09-16T17:24:54.240928+00:00",
+      "last_seen": "2026-09-16T17:24:54.240928+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "forever.security",
+          "url": "https://forever.security/blog/bragjack-attack-hijacks-every-browser-agent",
+          "pub_date": "2026-09-16T17:24:54.240928+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "ipv4",
+      "value": "5.252.177.210",
+      "confidence": "high",
+      "reason": "[article sweep] Identified as a C2 server for RUSTGate malware",
+      "first_seen": "2026-09-16T14:15:51+00:00",
+      "last_seen": "2026-09-16T14:15:51+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Socprime",
+          "url": "https://socprime.com/active-threats/rustgate-a-drone-swarm-lure-points-to-potential-defence-sector-targeting/",
+          "pub_date": "2026-09-16T14:15:51+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "mpasvw.com",
+      "confidence": "high",
+      "reason": "Used for data exfiltration in the article",
+      "first_seen": "2026-09-16T11:35:24.102374+00:00",
+      "last_seen": "2026-09-16T11:35:24.102374+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "adamnet.works",
+          "url": "https://adamnet.works/blog/hbo-max-ads-exposed-the-pasteswitch-clickfix-operation/index.html",
+          "pub_date": "2026-09-16T11:35:24.102374+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Claude-themed Delivery"
+        },
+        {
+          "type": "campaign",
+          "value": "Codex Campaign"
+        },
+        {
+          "type": "campaign",
+          "value": "HBO Max Campaign"
+        },
+        {
+          "type": "campaign",
+          "value": "Homebrew Campaign"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "176.53.159.66",
+      "confidence": "high",
+      "reason": "Used for malicious delivery and teardown operations",
+      "first_seen": "2026-09-16T11:35:24.102374+00:00",
+      "last_seen": "2026-09-16T11:35:24.102374+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "adamnet.works",
+          "url": "https://adamnet.works/blog/hbo-max-ads-exposed-the-pasteswitch-clickfix-operation/index.html",
+          "pub_date": "2026-09-16T11:35:24.102374+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Claude-themed Delivery"
+        },
+        {
+          "type": "campaign",
+          "value": "Codex Campaign"
+        },
+        {
+          "type": "campaign",
+          "value": "HBO Max Campaign"
+        },
+        {
+          "type": "campaign",
+          "value": "Homebrew Campaign"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "45.94.47.204",
+      "confidence": "high",
+      "reason": "Used for malicious task service enrollment",
+      "first_seen": "2026-09-16T11:35:24.102374+00:00",
+      "last_seen": "2026-09-16T11:35:24.102374+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "adamnet.works",
+          "url": "https://adamnet.works/blog/hbo-max-ads-exposed-the-pasteswitch-clickfix-operation/index.html",
+          "pub_date": "2026-09-16T11:35:24.102374+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Claude-themed Delivery"
+        },
+        {
+          "type": "campaign",
+          "value": "Codex Campaign"
+        },
+        {
+          "type": "campaign",
+          "value": "HBO Max Campaign"
+        },
+        {
+          "type": "campaign",
+          "value": "Homebrew Campaign"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "62.60.226.69",
+      "confidence": "high",
+      "reason": "Used as a provisioning cluster for malicious operations",
+      "first_seen": "2026-09-16T11:35:24.102374+00:00",
+      "last_seen": "2026-09-16T11:35:24.102374+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "adamnet.works",
+          "url": "https://adamnet.works/blog/hbo-max-ads-exposed-the-pasteswitch-clickfix-operation/index.html",
+          "pub_date": "2026-09-16T11:35:24.102374+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Claude-themed Delivery"
+        },
+        {
+          "type": "campaign",
+          "value": "Codex Campaign"
+        },
+        {
+          "type": "campaign",
+          "value": "HBO Max Campaign"
+        },
+        {
+          "type": "campaign",
+          "value": "Homebrew Campaign"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "176.101.204.172",
+      "confidence": "high",
+      "reason": "[article sweep] Listed in a blacklist for malicious activity",
+      "first_seen": "2026-09-16T08:34:19+00:00",
+      "last_seen": "2026-09-16T08:34:19+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Sploitus",
+          "url": "https://sploitus.com/exploit?id=KITPLOIT:TOOLS-GITHUB-ST2LABS-SIPI&utm_source=rss&utm_medium=rss",
+          "pub_date": "2026-09-16T08:34:19+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "ipv4",
+      "value": "93.183.250.196",
+      "confidence": "high",
+      "reason": "[article sweep] Listed in a blacklist for malicious activity",
+      "first_seen": "2026-09-16T08:34:19+00:00",
+      "last_seen": "2026-09-16T08:34:19+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Sploitus",
+          "url": "https://sploitus.com/exploit?id=KITPLOIT:TOOLS-GITHUB-ST2LABS-SIPI&utm_source=rss&utm_medium=rss",
+          "pub_date": "2026-09-16T08:34:19+00:00"
+        }
+      ],
+      "tags": []
+    },
     {
       "type": "domain",
       "value": "mychart-epic.com",
@@ -46,939 +1611,6 @@
         }
       ],
       "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "arkypc.com",
-      "confidence": "high",
-      "reason": "Domain used for downloading malicious helper",
-      "first_seen": "2026-09-16T03:01:46.530686+00:00",
-      "last_seen": "2026-09-16T03:01:46.530686+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "adamnet.works",
-          "url": "https://adamnet.works/blog/hbo-max-ads-exposed-the-pasteswitch-clickfix-operation/index.html",
-          "pub_date": "2026-09-16T03:01:46.530686+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Claude-themed Delivery"
-        },
-        {
-          "type": "campaign",
-          "value": "Codex Campaign"
-        },
-        {
-          "type": "campaign",
-          "value": "HBO Max Campaign"
-        },
-        {
-          "type": "campaign",
-          "value": "Homebrew Campaign"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "blzaeagent.com",
-      "confidence": "high",
-      "reason": "Part of a MacSync subgroup with attacker-controlled domains",
-      "first_seen": "2026-09-16T03:01:46.530686+00:00",
-      "last_seen": "2026-09-16T03:01:46.530686+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "adamnet.works",
-          "url": "https://adamnet.works/blog/hbo-max-ads-exposed-the-pasteswitch-clickfix-operation/index.html",
-          "pub_date": "2026-09-16T03:01:46.530686+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Claude-themed Delivery"
-        },
-        {
-          "type": "campaign",
-          "value": "Codex Campaign"
-        },
-        {
-          "type": "campaign",
-          "value": "HBO Max Campaign"
-        },
-        {
-          "type": "campaign",
-          "value": "Homebrew Campaign"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "bright-links.com",
-      "confidence": "high",
-      "reason": "Associated with PasteSwitch lure infrastructure",
-      "first_seen": "2026-09-16T03:01:46.530686+00:00",
-      "last_seen": "2026-09-16T03:01:46.530686+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "adamnet.works",
-          "url": "https://adamnet.works/blog/hbo-max-ads-exposed-the-pasteswitch-clickfix-operation/index.html",
-          "pub_date": "2026-09-16T03:01:46.530686+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Claude-themed Delivery"
-        },
-        {
-          "type": "campaign",
-          "value": "Codex Campaign"
-        },
-        {
-          "type": "campaign",
-          "value": "HBO Max Campaign"
-        },
-        {
-          "type": "campaign",
-          "value": "Homebrew Campaign"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "cli-desktop.com",
-      "confidence": "high",
-      "reason": "Used to deliver malicious payloads",
-      "first_seen": "2026-09-16T03:01:46.530686+00:00",
-      "last_seen": "2026-09-16T03:01:46.530686+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "adamnet.works",
-          "url": "https://adamnet.works/blog/hbo-max-ads-exposed-the-pasteswitch-clickfix-operation/index.html",
-          "pub_date": "2026-09-16T03:01:46.530686+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Claude-themed Delivery"
-        },
-        {
-          "type": "campaign",
-          "value": "Codex Campaign"
-        },
-        {
-          "type": "campaign",
-          "value": "HBO Max Campaign"
-        },
-        {
-          "type": "campaign",
-          "value": "Homebrew Campaign"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "dogtrainersgeorgia.com",
-      "confidence": "high",
-      "reason": "Part of a malicious infrastructure",
-      "first_seen": "2026-09-16T03:01:46.530686+00:00",
-      "last_seen": "2026-09-16T03:01:46.530686+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "adamnet.works",
-          "url": "https://adamnet.works/blog/hbo-max-ads-exposed-the-pasteswitch-clickfix-operation/index.html",
-          "pub_date": "2026-09-16T03:01:46.530686+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Claude-themed Delivery"
-        },
-        {
-          "type": "campaign",
-          "value": "Codex Campaign"
-        },
-        {
-          "type": "campaign",
-          "value": "HBO Max Campaign"
-        },
-        {
-          "type": "campaign",
-          "value": "Homebrew Campaign"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "fern-plume.com",
-      "confidence": "high",
-      "reason": "Used in malicious helper update route",
-      "first_seen": "2026-09-16T03:01:46.530686+00:00",
-      "last_seen": "2026-09-16T03:01:46.530686+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "adamnet.works",
-          "url": "https://adamnet.works/blog/hbo-max-ads-exposed-the-pasteswitch-clickfix-operation/index.html",
-          "pub_date": "2026-09-16T03:01:46.530686+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Claude-themed Delivery"
-        },
-        {
-          "type": "campaign",
-          "value": "Codex Campaign"
-        },
-        {
-          "type": "campaign",
-          "value": "HBO Max Campaign"
-        },
-        {
-          "type": "campaign",
-          "value": "Homebrew Campaign"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "gatemaden.space",
-      "confidence": "high",
-      "reason": "Used in malicious delivery route",
-      "first_seen": "2026-09-14T16:32:25.041691+00:00",
-      "last_seen": "2026-09-16T03:01:46.530686+00:00",
-      "source_count": 2,
-      "sources": [
-        {
-          "source": "adamnet.works",
-          "url": "https://adamnet.works/blog/hbo-max-ads-exposed-the-pasteswitch-clickfix-operation/index.html",
-          "pub_date": "2026-09-16T03:01:46.530686+00:00"
-        },
-        {
-          "source": "www.rstcloud.com",
-          "url": "https://www.rstcloud.com/macsync-stealer-c2-infrastructure-rotation/",
-          "pub_date": "2026-09-14T16:32:25.041691+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Mentalpositive"
-        },
-        {
-          "type": "campaign",
-          "value": "Claude-themed Delivery"
-        },
-        {
-          "type": "campaign",
-          "value": "ClickFix"
-        },
-        {
-          "type": "campaign",
-          "value": "Codex Campaign"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "glowmedaesthetics.com",
-      "confidence": "high",
-      "reason": "Established as a MacSync controller",
-      "first_seen": "2026-09-14T16:32:25.041691+00:00",
-      "last_seen": "2026-09-16T03:01:46.530686+00:00",
-      "source_count": 2,
-      "sources": [
-        {
-          "source": "adamnet.works",
-          "url": "https://adamnet.works/blog/hbo-max-ads-exposed-the-pasteswitch-clickfix-operation/index.html",
-          "pub_date": "2026-09-16T03:01:46.530686+00:00"
-        },
-        {
-          "source": "www.rstcloud.com",
-          "url": "https://www.rstcloud.com/macsync-stealer-c2-infrastructure-rotation/",
-          "pub_date": "2026-09-14T16:32:25.041691+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Mentalpositive"
-        },
-        {
-          "type": "campaign",
-          "value": "Claude-themed Delivery"
-        },
-        {
-          "type": "campaign",
-          "value": "ClickFix"
-        },
-        {
-          "type": "campaign",
-          "value": "Codex Campaign"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "harbor-29.com",
-      "confidence": "high",
-      "reason": "Used to deliver malicious shell and helper",
-      "first_seen": "2026-09-16T03:01:46.530686+00:00",
-      "last_seen": "2026-09-16T03:01:46.530686+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "adamnet.works",
-          "url": "https://adamnet.works/blog/hbo-max-ads-exposed-the-pasteswitch-clickfix-operation/index.html",
-          "pub_date": "2026-09-16T03:01:46.530686+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Claude-themed Delivery"
-        },
-        {
-          "type": "campaign",
-          "value": "Codex Campaign"
-        },
-        {
-          "type": "campaign",
-          "value": "HBO Max Campaign"
-        },
-        {
-          "type": "campaign",
-          "value": "Homebrew Campaign"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "helxiagent.com",
-      "confidence": "high",
-      "reason": "Part of a MacSync subgroup with attacker-controlled domains",
-      "first_seen": "2026-09-16T03:01:46.530686+00:00",
-      "last_seen": "2026-09-16T03:01:46.530686+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "adamnet.works",
-          "url": "https://adamnet.works/blog/hbo-max-ads-exposed-the-pasteswitch-clickfix-operation/index.html",
-          "pub_date": "2026-09-16T03:01:46.530686+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Claude-themed Delivery"
-        },
-        {
-          "type": "campaign",
-          "value": "Codex Campaign"
-        },
-        {
-          "type": "campaign",
-          "value": "HBO Max Campaign"
-        },
-        {
-          "type": "campaign",
-          "value": "Homebrew Campaign"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "hindustanagency.com",
-      "confidence": "high",
-      "reason": "Hosted on attacker-controlled infrastructure",
-      "first_seen": "2026-09-16T03:01:46.530686+00:00",
-      "last_seen": "2026-09-16T03:01:46.530686+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "adamnet.works",
-          "url": "https://adamnet.works/blog/hbo-max-ads-exposed-the-pasteswitch-clickfix-operation/index.html",
-          "pub_date": "2026-09-16T03:01:46.530686+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Claude-themed Delivery"
-        },
-        {
-          "type": "campaign",
-          "value": "Codex Campaign"
-        },
-        {
-          "type": "campaign",
-          "value": "HBO Max Campaign"
-        },
-        {
-          "type": "campaign",
-          "value": "Homebrew Campaign"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "houstongaragedoorinstallers.com",
-      "confidence": "high",
-      "reason": "Identified as part of a C2 cluster",
-      "first_seen": "2026-09-14T16:32:25.041691+00:00",
-      "last_seen": "2026-09-16T03:01:46.530686+00:00",
-      "source_count": 2,
-      "sources": [
-        {
-          "source": "adamnet.works",
-          "url": "https://adamnet.works/blog/hbo-max-ads-exposed-the-pasteswitch-clickfix-operation/index.html",
-          "pub_date": "2026-09-16T03:01:46.530686+00:00"
-        },
-        {
-          "source": "www.rstcloud.com",
-          "url": "https://www.rstcloud.com/macsync-stealer-c2-infrastructure-rotation/",
-          "pub_date": "2026-09-14T16:32:25.041691+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Mentalpositive"
-        },
-        {
-          "type": "campaign",
-          "value": "Claude-themed Delivery"
-        },
-        {
-          "type": "campaign",
-          "value": "ClickFix"
-        },
-        {
-          "type": "campaign",
-          "value": "Codex Campaign"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "lumenagnet.com",
-      "confidence": "high",
-      "reason": "Part of a MacSync subgroup with attacker-controlled domains",
-      "first_seen": "2026-09-16T03:01:46.530686+00:00",
-      "last_seen": "2026-09-16T03:01:46.530686+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "adamnet.works",
-          "url": "https://adamnet.works/blog/hbo-max-ads-exposed-the-pasteswitch-clickfix-operation/index.html",
-          "pub_date": "2026-09-16T03:01:46.530686+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Claude-themed Delivery"
-        },
-        {
-          "type": "campaign",
-          "value": "Codex Campaign"
-        },
-        {
-          "type": "campaign",
-          "value": "HBO Max Campaign"
-        },
-        {
-          "type": "campaign",
-          "value": "Homebrew Campaign"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "macstoragetips.com",
-      "confidence": "high",
-      "reason": "Connected to attacker-controlled infrastructure",
-      "first_seen": "2026-09-16T03:01:46.530686+00:00",
-      "last_seen": "2026-09-16T03:01:46.530686+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "adamnet.works",
-          "url": "https://adamnet.works/blog/hbo-max-ads-exposed-the-pasteswitch-clickfix-operation/index.html",
-          "pub_date": "2026-09-16T03:01:46.530686+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Claude-themed Delivery"
-        },
-        {
-          "type": "campaign",
-          "value": "Codex Campaign"
-        },
-        {
-          "type": "campaign",
-          "value": "HBO Max Campaign"
-        },
-        {
-          "type": "campaign",
-          "value": "Homebrew Campaign"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "marbellaresales.com",
-      "confidence": "high",
-      "reason": "Part of a malicious infrastructure",
-      "first_seen": "2026-09-16T03:01:46.530686+00:00",
-      "last_seen": "2026-09-16T03:01:46.530686+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "adamnet.works",
-          "url": "https://adamnet.works/blog/hbo-max-ads-exposed-the-pasteswitch-clickfix-operation/index.html",
-          "pub_date": "2026-09-16T03:01:46.530686+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Claude-themed Delivery"
-        },
-        {
-          "type": "campaign",
-          "value": "Codex Campaign"
-        },
-        {
-          "type": "campaign",
-          "value": "HBO Max Campaign"
-        },
-        {
-          "type": "campaign",
-          "value": "Homebrew Campaign"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "mpasvw.com",
-      "confidence": "high",
-      "reason": "Used for uploading stolen data",
-      "first_seen": "2026-09-16T03:01:46.530686+00:00",
-      "last_seen": "2026-09-16T03:01:46.530686+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "adamnet.works",
-          "url": "https://adamnet.works/blog/hbo-max-ads-exposed-the-pasteswitch-clickfix-operation/index.html",
-          "pub_date": "2026-09-16T03:01:46.530686+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Claude-themed Delivery"
-        },
-        {
-          "type": "campaign",
-          "value": "Codex Campaign"
-        },
-        {
-          "type": "campaign",
-          "value": "HBO Max Campaign"
-        },
-        {
-          "type": "campaign",
-          "value": "Homebrew Campaign"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "node-slate.com",
-      "confidence": "high",
-      "reason": "Used in malicious helper update route",
-      "first_seen": "2026-09-16T03:01:46.530686+00:00",
-      "last_seen": "2026-09-16T03:01:46.530686+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "adamnet.works",
-          "url": "https://adamnet.works/blog/hbo-max-ads-exposed-the-pasteswitch-clickfix-operation/index.html",
-          "pub_date": "2026-09-16T03:01:46.530686+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Claude-themed Delivery"
-        },
-        {
-          "type": "campaign",
-          "value": "Codex Campaign"
-        },
-        {
-          "type": "campaign",
-          "value": "HBO Max Campaign"
-        },
-        {
-          "type": "campaign",
-          "value": "Homebrew Campaign"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "novastacktips.com",
-      "confidence": "high",
-      "reason": "Connected to attacker-controlled infrastructure",
-      "first_seen": "2026-09-16T03:01:46.530686+00:00",
-      "last_seen": "2026-09-16T03:01:46.530686+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "adamnet.works",
-          "url": "https://adamnet.works/blog/hbo-max-ads-exposed-the-pasteswitch-clickfix-operation/index.html",
-          "pub_date": "2026-09-16T03:01:46.530686+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Claude-themed Delivery"
-        },
-        {
-          "type": "campaign",
-          "value": "Codex Campaign"
-        },
-        {
-          "type": "campaign",
-          "value": "HBO Max Campaign"
-        },
-        {
-          "type": "campaign",
-          "value": "Homebrew Campaign"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "opendisplay.us",
-      "confidence": "high",
-      "reason": "Connected to attacker-controlled infrastructure",
-      "first_seen": "2026-09-16T03:01:46.530686+00:00",
-      "last_seen": "2026-09-16T03:01:46.530686+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "adamnet.works",
-          "url": "https://adamnet.works/blog/hbo-max-ads-exposed-the-pasteswitch-clickfix-operation/index.html",
-          "pub_date": "2026-09-16T03:01:46.530686+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Claude-themed Delivery"
-        },
-        {
-          "type": "campaign",
-          "value": "Codex Campaign"
-        },
-        {
-          "type": "campaign",
-          "value": "HBO Max Campaign"
-        },
-        {
-          "type": "campaign",
-          "value": "Homebrew Campaign"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "peaecagent.com",
-      "confidence": "high",
-      "reason": "Part of a MacSync subgroup with attacker-controlled domains",
-      "first_seen": "2026-09-16T03:01:46.530686+00:00",
-      "last_seen": "2026-09-16T03:01:46.530686+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "adamnet.works",
-          "url": "https://adamnet.works/blog/hbo-max-ads-exposed-the-pasteswitch-clickfix-operation/index.html",
-          "pub_date": "2026-09-16T03:01:46.530686+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Claude-themed Delivery"
-        },
-        {
-          "type": "campaign",
-          "value": "Codex Campaign"
-        },
-        {
-          "type": "campaign",
-          "value": "HBO Max Campaign"
-        },
-        {
-          "type": "campaign",
-          "value": "Homebrew Campaign"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "remotion-skills.com",
-      "confidence": "high",
-      "reason": "Connected to attacker-controlled infrastructure",
-      "first_seen": "2026-09-16T03:01:46.530686+00:00",
-      "last_seen": "2026-09-16T03:01:46.530686+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "adamnet.works",
-          "url": "https://adamnet.works/blog/hbo-max-ads-exposed-the-pasteswitch-clickfix-operation/index.html",
-          "pub_date": "2026-09-16T03:01:46.530686+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Claude-themed Delivery"
-        },
-        {
-          "type": "campaign",
-          "value": "Codex Campaign"
-        },
-        {
-          "type": "campaign",
-          "value": "HBO Max Campaign"
-        },
-        {
-          "type": "campaign",
-          "value": "Homebrew Campaign"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "restoremental.com",
-      "confidence": "high",
-      "reason": "Part of a MacSync subgroup with attacker-controlled domains",
-      "first_seen": "2026-09-16T03:01:46.530686+00:00",
-      "last_seen": "2026-09-16T03:01:46.530686+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "adamnet.works",
-          "url": "https://adamnet.works/blog/hbo-max-ads-exposed-the-pasteswitch-clickfix-operation/index.html",
-          "pub_date": "2026-09-16T03:01:46.530686+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Claude-themed Delivery"
-        },
-        {
-          "type": "campaign",
-          "value": "Codex Campaign"
-        },
-        {
-          "type": "campaign",
-          "value": "HBO Max Campaign"
-        },
-        {
-          "type": "campaign",
-          "value": "Homebrew Campaign"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "rudder-moss.com",
-      "confidence": "high",
-      "reason": "Used for telemetry and exfiltration",
-      "first_seen": "2026-09-16T03:01:46.530686+00:00",
-      "last_seen": "2026-09-16T03:01:46.530686+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "adamnet.works",
-          "url": "https://adamnet.works/blog/hbo-max-ads-exposed-the-pasteswitch-clickfix-operation/index.html",
-          "pub_date": "2026-09-16T03:01:46.530686+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Claude-themed Delivery"
-        },
-        {
-          "type": "campaign",
-          "value": "Codex Campaign"
-        },
-        {
-          "type": "campaign",
-          "value": "HBO Max Campaign"
-        },
-        {
-          "type": "campaign",
-          "value": "Homebrew Campaign"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "verse-18.com",
-      "confidence": "high",
-      "reason": "Used for receiving execution telemetry",
-      "first_seen": "2026-09-16T03:01:46.530686+00:00",
-      "last_seen": "2026-09-16T03:01:46.530686+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "adamnet.works",
-          "url": "https://adamnet.works/blog/hbo-max-ads-exposed-the-pasteswitch-clickfix-operation/index.html",
-          "pub_date": "2026-09-16T03:01:46.530686+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Claude-themed Delivery"
-        },
-        {
-          "type": "campaign",
-          "value": "Codex Campaign"
-        },
-        {
-          "type": "campaign",
-          "value": "HBO Max Campaign"
-        },
-        {
-          "type": "campaign",
-          "value": "Homebrew Campaign"
-        }
-      ]
-    },
-    {
-      "type": "ipv4",
-      "value": "176.53.159.66",
-      "confidence": "high",
-      "reason": "Used as a delivery and teardown cluster",
-      "first_seen": "2026-09-16T03:01:46.530686+00:00",
-      "last_seen": "2026-09-16T03:01:46.530686+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "adamnet.works",
-          "url": "https://adamnet.works/blog/hbo-max-ads-exposed-the-pasteswitch-clickfix-operation/index.html",
-          "pub_date": "2026-09-16T03:01:46.530686+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Claude-themed Delivery"
-        },
-        {
-          "type": "campaign",
-          "value": "Codex Campaign"
-        },
-        {
-          "type": "campaign",
-          "value": "HBO Max Campaign"
-        },
-        {
-          "type": "campaign",
-          "value": "Homebrew Campaign"
-        }
-      ]
-    },
-    {
-      "type": "ipv4",
-      "value": "45.94.47.204",
-      "confidence": "high",
-      "reason": "Used for enrolling with a plaintext task service",
-      "first_seen": "2026-09-16T03:01:46.530686+00:00",
-      "last_seen": "2026-09-16T03:01:46.530686+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "adamnet.works",
-          "url": "https://adamnet.works/blog/hbo-max-ads-exposed-the-pasteswitch-clickfix-operation/index.html",
-          "pub_date": "2026-09-16T03:01:46.530686+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Claude-themed Delivery"
-        },
-        {
-          "type": "campaign",
-          "value": "Codex Campaign"
-        },
-        {
-          "type": "campaign",
-          "value": "HBO Max Campaign"
-        },
-        {
-          "type": "campaign",
-          "value": "Homebrew Campaign"
-        }
-      ]
-    },
-    {
-      "type": "ipv4",
-      "value": "62.60.226.69",
-      "confidence": "high",
-      "reason": "Hosted a coordinated Nova and macOS-tool neighborhood",
-      "first_seen": "2026-09-16T03:01:46.530686+00:00",
-      "last_seen": "2026-09-16T03:01:46.530686+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "adamnet.works",
-          "url": "https://adamnet.works/blog/hbo-max-ads-exposed-the-pasteswitch-clickfix-operation/index.html",
-          "pub_date": "2026-09-16T03:01:46.530686+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Claude-themed Delivery"
-        },
-        {
-          "type": "campaign",
-          "value": "Codex Campaign"
-        },
-        {
-          "type": "campaign",
-          "value": "HBO Max Campaign"
-        },
-        {
-          "type": "campaign",
-          "value": "Homebrew Campaign"
-        }
-      ]
     },
     {
       "type": "domain",
@@ -1025,842 +1657,21 @@
       ]
     },
     {
-      "type": "domain",
-      "value": "affordableonline.online",
-      "confidence": "high",
-      "reason": "Listed among domains associated with malicious campaigns",
-      "first_seen": "2026-09-15T19:32:30.314356+00:00",
-      "last_seen": "2026-09-15T19:32:30.314356+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.elastic.co",
-          "url": "https://www.elastic.co/security-labs/threat-command/malicious-browser-extension-kremlin-banking-malware",
-          "pub_date": "2026-09-15T19:32:30.314356+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Ref9334"
-        },
-        {
-          "type": "industry",
-          "value": "Financial"
-        },
-        {
-          "type": "malware",
-          "value": "Kremlin"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "codecaudiog.site",
-      "confidence": "high",
-      "reason": "Used to download malicious payloads",
-      "first_seen": "2026-09-15T19:32:30.314356+00:00",
-      "last_seen": "2026-09-15T19:32:30.314356+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.elastic.co",
-          "url": "https://www.elastic.co/security-labs/threat-command/malicious-browser-extension-kremlin-banking-malware",
-          "pub_date": "2026-09-15T19:32:30.314356+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Ref9334"
-        },
-        {
-          "type": "industry",
-          "value": "Financial"
-        },
-        {
-          "type": "malware",
-          "value": "Kremlin"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "codecvideowin.online",
-      "confidence": "high",
-      "reason": "Used to download malicious payloads",
-      "first_seen": "2026-09-15T19:32:30.314356+00:00",
-      "last_seen": "2026-09-15T19:32:30.314356+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.elastic.co",
-          "url": "https://www.elastic.co/security-labs/threat-command/malicious-browser-extension-kremlin-banking-malware",
-          "pub_date": "2026-09-15T19:32:30.314356+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Ref9334"
-        },
-        {
-          "type": "industry",
-          "value": "Financial"
-        },
-        {
-          "type": "malware",
-          "value": "Kremlin"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "connection.timesmaluku.com",
-      "confidence": "high",
-      "reason": "Listed among domains associated with malicious campaigns",
-      "first_seen": "2026-09-15T19:32:30.314356+00:00",
-      "last_seen": "2026-09-15T19:32:30.314356+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.elastic.co",
-          "url": "https://www.elastic.co/security-labs/threat-command/malicious-browser-extension-kremlin-banking-malware",
-          "pub_date": "2026-09-15T19:32:30.314356+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Ref9334"
-        },
-        {
-          "type": "industry",
-          "value": "Financial"
-        },
-        {
-          "type": "malware",
-          "value": "Kremlin"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "connection.upgradeonline.site",
-      "confidence": "high",
-      "reason": "Listed among domains associated with malicious campaigns",
-      "first_seen": "2026-09-15T19:32:30.314356+00:00",
-      "last_seen": "2026-09-15T19:32:30.314356+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.elastic.co",
-          "url": "https://www.elastic.co/security-labs/threat-command/malicious-browser-extension-kremlin-banking-malware",
-          "pub_date": "2026-09-15T19:32:30.314356+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Ref9334"
-        },
-        {
-          "type": "industry",
-          "value": "Financial"
-        },
-        {
-          "type": "malware",
-          "value": "Kremlin"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "donalurdesconfeitos.site",
-      "confidence": "high",
-      "reason": "Listed among domains associated with malicious campaigns",
-      "first_seen": "2026-09-15T19:32:30.314356+00:00",
-      "last_seen": "2026-09-15T19:32:30.314356+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.elastic.co",
-          "url": "https://www.elastic.co/security-labs/threat-command/malicious-browser-extension-kremlin-banking-malware",
-          "pub_date": "2026-09-15T19:32:30.314356+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Ref9334"
-        },
-        {
-          "type": "industry",
-          "value": "Financial"
-        },
-        {
-          "type": "malware",
-          "value": "Kremlin"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "seguranca.versionnova.site",
-      "confidence": "high",
-      "reason": "Listed among domains associated with malicious campaigns",
-      "first_seen": "2026-09-15T19:32:30.314356+00:00",
-      "last_seen": "2026-09-15T19:32:30.314356+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.elastic.co",
-          "url": "https://www.elastic.co/security-labs/threat-command/malicious-browser-extension-kremlin-banking-malware",
-          "pub_date": "2026-09-15T19:32:30.314356+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Ref9334"
-        },
-        {
-          "type": "industry",
-          "value": "Financial"
-        },
-        {
-          "type": "malware",
-          "value": "Kremlin"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "volmira.site",
-      "confidence": "high",
-      "reason": "Used as a C2 endpoint",
-      "first_seen": "2026-09-15T18:59:52+00:00",
-      "last_seen": "2026-09-15T19:32:30.314356+00:00",
-      "source_count": 2,
-      "sources": [
-        {
-          "source": "www.elastic.co",
-          "url": "https://www.elastic.co/security-labs/threat-command/malicious-browser-extension-kremlin-banking-malware",
-          "pub_date": "2026-09-15T19:32:30.314356+00:00"
-        },
-        {
-          "source": "Thehackernews",
-          "url": "https://thehackernews.com/2026/09/kremlin-banking-malware-hijacks-chrome.html",
-          "pub_date": "2026-09-15T18:59:52+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "malware",
-          "value": "Kremlin"
-        },
-        {
-          "type": "apt_group",
-          "value": "Apt31"
-        },
-        {
-          "type": "campaign",
-          "value": "Ref9334"
-        },
-        {
-          "type": "industry",
-          "value": "Financial"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "zaviro.online",
-      "confidence": "high",
-      "reason": "Used as a C2 endpoint",
-      "first_seen": "2026-09-15T18:59:52+00:00",
-      "last_seen": "2026-09-15T19:32:30.314356+00:00",
-      "source_count": 2,
-      "sources": [
-        {
-          "source": "www.elastic.co",
-          "url": "https://www.elastic.co/security-labs/threat-command/malicious-browser-extension-kremlin-banking-malware",
-          "pub_date": "2026-09-15T19:32:30.314356+00:00"
-        },
-        {
-          "source": "Thehackernews",
-          "url": "https://thehackernews.com/2026/09/kremlin-banking-malware-hijacks-chrome.html",
-          "pub_date": "2026-09-15T18:59:52+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "malware",
-          "value": "Kremlin"
-        },
-        {
-          "type": "apt_group",
-          "value": "Apt31"
-        },
-        {
-          "type": "campaign",
-          "value": "Ref9334"
-        },
-        {
-          "type": "industry",
-          "value": "Financial"
-        }
-      ]
-    },
-    {
       "type": "ipv4",
-      "value": "37.16.74.100",
+      "value": "150.251.113.223",
       "confidence": "high",
-      "reason": "Listed as a C2 endpoint",
-      "first_seen": "2026-09-15T19:32:30.314356+00:00",
-      "last_seen": "2026-09-15T19:32:30.314356+00:00",
+      "reason": "[article sweep] Identified as a C2 IP used by the attacker",
+      "first_seen": "2026-09-15T14:55:03+00:00",
+      "last_seen": "2026-09-15T14:55:03+00:00",
       "source_count": 1,
       "sources": [
         {
-          "source": "www.elastic.co",
-          "url": "https://www.elastic.co/security-labs/threat-command/malicious-browser-extension-kremlin-banking-malware",
-          "pub_date": "2026-09-15T19:32:30.314356+00:00"
+          "source": "Socprime",
+          "url": "https://socprime.com/active-threats/dprk-polinrider-campaign-shows-hands-on-keyboard-supply-chain-activity/",
+          "pub_date": "2026-09-15T14:55:03+00:00"
         }
       ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Ref9334"
-        },
-        {
-          "type": "industry",
-          "value": "Financial"
-        },
-        {
-          "type": "malware",
-          "value": "Kremlin"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "api06.chat5188.tk",
-      "confidence": "high",
-      "reason": "Listed under command and control domains",
-      "first_seen": "2026-09-15T16:39:41.623419+00:00",
-      "last_seen": "2026-09-15T16:39:41.623419+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.lumen.com",
-          "url": "https://www.lumen.com/blog/en-us/the-banana-stand-brokering-and-managing-infections-across-asia-using-mqtt",
-          "pub_date": "2026-09-15T16:39:41.623419+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "GhostEmperor"
-        },
-        {
-          "type": "apt_group",
-          "value": "Volt Typhoon"
-        },
-        {
-          "type": "apt_group",
-          "value": "ZuoRAT"
-        },
-        {
-          "type": "industry",
-          "value": "Financial"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "api08.chat5188.tk",
-      "confidence": "high",
-      "reason": "Listed under command and control domains",
-      "first_seen": "2026-09-15T16:39:41.623419+00:00",
-      "last_seen": "2026-09-15T16:39:41.623419+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.lumen.com",
-          "url": "https://www.lumen.com/blog/en-us/the-banana-stand-brokering-and-managing-infections-across-asia-using-mqtt",
-          "pub_date": "2026-09-15T16:39:41.623419+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "GhostEmperor"
-        },
-        {
-          "type": "apt_group",
-          "value": "Volt Typhoon"
-        },
-        {
-          "type": "apt_group",
-          "value": "ZuoRAT"
-        },
-        {
-          "type": "industry",
-          "value": "Financial"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "api80.c2iznja.com",
-      "confidence": "high",
-      "reason": "Listed under command and control domains",
-      "first_seen": "2026-09-15T15:41:10+00:00",
-      "last_seen": "2026-09-15T16:39:41.623419+00:00",
-      "source_count": 2,
-      "sources": [
-        {
-          "source": "www.lumen.com",
-          "url": "https://www.lumen.com/blog/en-us/the-banana-stand-brokering-and-managing-infections-across-asia-using-mqtt",
-          "pub_date": "2026-09-15T16:39:41.623419+00:00"
-        },
-        {
-          "source": "Thehackernews",
-          "url": "https://thehackernews.com/2026/09/bambootoken-malware-uses-mqtt-to.html",
-          "pub_date": "2026-09-15T15:41:10+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "industry",
-          "value": "Financial"
-        },
-        {
-          "type": "industry",
-          "value": "Government"
-        },
-        {
-          "type": "malware",
-          "value": "BambooToken"
-        },
-        {
-          "type": "malware",
-          "value": "Iocontrol"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "apis.chat5188.tk",
-      "confidence": "high",
-      "reason": "Listed under command and control domains",
-      "first_seen": "2026-09-15T16:39:41.623419+00:00",
-      "last_seen": "2026-09-15T16:39:41.623419+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.lumen.com",
-          "url": "https://www.lumen.com/blog/en-us/the-banana-stand-brokering-and-managing-infections-across-asia-using-mqtt",
-          "pub_date": "2026-09-15T16:39:41.623419+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "GhostEmperor"
-        },
-        {
-          "type": "apt_group",
-          "value": "Volt Typhoon"
-        },
-        {
-          "type": "apt_group",
-          "value": "ZuoRAT"
-        },
-        {
-          "type": "industry",
-          "value": "Financial"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "base64.c2iznja.com",
-      "confidence": "high",
-      "reason": "Listed under command and control domains",
-      "first_seen": "2026-09-15T16:39:41.623419+00:00",
-      "last_seen": "2026-09-15T16:39:41.623419+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.lumen.com",
-          "url": "https://www.lumen.com/blog/en-us/the-banana-stand-brokering-and-managing-infections-across-asia-using-mqtt",
-          "pub_date": "2026-09-15T16:39:41.623419+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "GhostEmperor"
-        },
-        {
-          "type": "apt_group",
-          "value": "Volt Typhoon"
-        },
-        {
-          "type": "apt_group",
-          "value": "ZuoRAT"
-        },
-        {
-          "type": "industry",
-          "value": "Financial"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "beacon.chat5188.tk",
-      "confidence": "high",
-      "reason": "Listed under command and control domains",
-      "first_seen": "2026-09-15T16:39:41.623419+00:00",
-      "last_seen": "2026-09-15T16:39:41.623419+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.lumen.com",
-          "url": "https://www.lumen.com/blog/en-us/the-banana-stand-brokering-and-managing-infections-across-asia-using-mqtt",
-          "pub_date": "2026-09-15T16:39:41.623419+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "GhostEmperor"
-        },
-        {
-          "type": "apt_group",
-          "value": "Volt Typhoon"
-        },
-        {
-          "type": "apt_group",
-          "value": "ZuoRAT"
-        },
-        {
-          "type": "industry",
-          "value": "Financial"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "c2iznja.com",
-      "confidence": "high",
-      "reason": "Listed under command and control domains",
-      "first_seen": "2026-09-15T16:39:41.623419+00:00",
-      "last_seen": "2026-09-15T16:39:41.623419+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.lumen.com",
-          "url": "https://www.lumen.com/blog/en-us/the-banana-stand-brokering-and-managing-infections-across-asia-using-mqtt",
-          "pub_date": "2026-09-15T16:39:41.623419+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "GhostEmperor"
-        },
-        {
-          "type": "apt_group",
-          "value": "Volt Typhoon"
-        },
-        {
-          "type": "apt_group",
-          "value": "ZuoRAT"
-        },
-        {
-          "type": "industry",
-          "value": "Financial"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "cache.c2iznja.com",
-      "confidence": "high",
-      "reason": "Listed under command and control domains",
-      "first_seen": "2026-09-15T16:39:41.623419+00:00",
-      "last_seen": "2026-09-15T16:39:41.623419+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.lumen.com",
-          "url": "https://www.lumen.com/blog/en-us/the-banana-stand-brokering-and-managing-infections-across-asia-using-mqtt",
-          "pub_date": "2026-09-15T16:39:41.623419+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "GhostEmperor"
-        },
-        {
-          "type": "apt_group",
-          "value": "Volt Typhoon"
-        },
-        {
-          "type": "apt_group",
-          "value": "ZuoRAT"
-        },
-        {
-          "type": "industry",
-          "value": "Financial"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "ccc80.c2iznja.com",
-      "confidence": "high",
-      "reason": "Listed under command and control domains",
-      "first_seen": "2026-09-15T16:39:41.623419+00:00",
-      "last_seen": "2026-09-15T16:39:41.623419+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.lumen.com",
-          "url": "https://www.lumen.com/blog/en-us/the-banana-stand-brokering-and-managing-infections-across-asia-using-mqtt",
-          "pub_date": "2026-09-15T16:39:41.623419+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "GhostEmperor"
-        },
-        {
-          "type": "apt_group",
-          "value": "Volt Typhoon"
-        },
-        {
-          "type": "apt_group",
-          "value": "ZuoRAT"
-        },
-        {
-          "type": "industry",
-          "value": "Financial"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "chat5188.tk",
-      "confidence": "high",
-      "reason": "Listed under command and control domains",
-      "first_seen": "2026-09-15T15:41:10+00:00",
-      "last_seen": "2026-09-15T16:39:41.623419+00:00",
-      "source_count": 2,
-      "sources": [
-        {
-          "source": "www.lumen.com",
-          "url": "https://www.lumen.com/blog/en-us/the-banana-stand-brokering-and-managing-infections-across-asia-using-mqtt",
-          "pub_date": "2026-09-15T16:39:41.623419+00:00"
-        },
-        {
-          "source": "Thehackernews",
-          "url": "https://thehackernews.com/2026/09/bambootoken-malware-uses-mqtt-to.html",
-          "pub_date": "2026-09-15T15:41:10+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "industry",
-          "value": "Financial"
-        },
-        {
-          "type": "industry",
-          "value": "Government"
-        },
-        {
-          "type": "malware",
-          "value": "BambooToken"
-        },
-        {
-          "type": "malware",
-          "value": "Iocontrol"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "chat.chat5188.tk",
-      "confidence": "high",
-      "reason": "Listed under command and control domains",
-      "first_seen": "2026-09-15T16:39:41.623419+00:00",
-      "last_seen": "2026-09-15T16:39:41.623419+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.lumen.com",
-          "url": "https://www.lumen.com/blog/en-us/the-banana-stand-brokering-and-managing-infections-across-asia-using-mqtt",
-          "pub_date": "2026-09-15T16:39:41.623419+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "GhostEmperor"
-        },
-        {
-          "type": "apt_group",
-          "value": "Volt Typhoon"
-        },
-        {
-          "type": "apt_group",
-          "value": "ZuoRAT"
-        },
-        {
-          "type": "industry",
-          "value": "Financial"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "live-hk.c2iznja.com",
-      "confidence": "high",
-      "reason": "Listed under command and control domains",
-      "first_seen": "2026-09-15T16:39:41.623419+00:00",
-      "last_seen": "2026-09-15T16:39:41.623419+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.lumen.com",
-          "url": "https://www.lumen.com/blog/en-us/the-banana-stand-brokering-and-managing-infections-across-asia-using-mqtt",
-          "pub_date": "2026-09-15T16:39:41.623419+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "GhostEmperor"
-        },
-        {
-          "type": "apt_group",
-          "value": "Volt Typhoon"
-        },
-        {
-          "type": "apt_group",
-          "value": "ZuoRAT"
-        },
-        {
-          "type": "industry",
-          "value": "Financial"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "newdma.c2iznja.com",
-      "confidence": "high",
-      "reason": "Listed under command and control domains",
-      "first_seen": "2026-09-15T16:39:41.623419+00:00",
-      "last_seen": "2026-09-15T16:39:41.623419+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.lumen.com",
-          "url": "https://www.lumen.com/blog/en-us/the-banana-stand-brokering-and-managing-infections-across-asia-using-mqtt",
-          "pub_date": "2026-09-15T16:39:41.623419+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "GhostEmperor"
-        },
-        {
-          "type": "apt_group",
-          "value": "Volt Typhoon"
-        },
-        {
-          "type": "apt_group",
-          "value": "ZuoRAT"
-        },
-        {
-          "type": "industry",
-          "value": "Financial"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "turbo.c2iznja.com",
-      "confidence": "high",
-      "reason": "Listed under command and control domains",
-      "first_seen": "2026-09-15T16:39:41.623419+00:00",
-      "last_seen": "2026-09-15T16:39:41.623419+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.lumen.com",
-          "url": "https://www.lumen.com/blog/en-us/the-banana-stand-brokering-and-managing-infections-across-asia-using-mqtt",
-          "pub_date": "2026-09-15T16:39:41.623419+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "GhostEmperor"
-        },
-        {
-          "type": "apt_group",
-          "value": "Volt Typhoon"
-        },
-        {
-          "type": "apt_group",
-          "value": "ZuoRAT"
-        },
-        {
-          "type": "industry",
-          "value": "Financial"
-        }
-      ]
-    },
-    {
-      "type": "ipv4",
-      "value": "210.1.231.13",
-      "confidence": "high",
-      "reason": "Associated with attacker-controlled domain turbo.c2iznja.com",
-      "first_seen": "2026-09-15T16:39:41.623419+00:00",
-      "last_seen": "2026-09-15T16:39:41.623419+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.lumen.com",
-          "url": "https://www.lumen.com/blog/en-us/the-banana-stand-brokering-and-managing-infections-across-asia-using-mqtt",
-          "pub_date": "2026-09-15T16:39:41.623419+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "GhostEmperor"
-        },
-        {
-          "type": "apt_group",
-          "value": "Volt Typhoon"
-        },
-        {
-          "type": "apt_group",
-          "value": "ZuoRAT"
-        },
-        {
-          "type": "industry",
-          "value": "Financial"
-        }
-      ]
+      "tags": []
     },
     {
       "type": "domain",
@@ -2430,108 +2241,6 @@
     },
     {
       "type": "domain",
-      "value": "focusgroovy.com",
-      "confidence": "high",
-      "reason": "Identified as part of a C2 cluster",
-      "first_seen": "2026-09-14T16:32:25.041691+00:00",
-      "last_seen": "2026-09-14T16:32:25.041691+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.rstcloud.com",
-          "url": "https://www.rstcloud.com/macsync-stealer-c2-infrastructure-rotation/",
-          "pub_date": "2026-09-14T16:32:25.041691+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Mentalpositive"
-        },
-        {
-          "type": "campaign",
-          "value": "ClickFix"
-        },
-        {
-          "type": "malware",
-          "value": "Mac.c"
-        },
-        {
-          "type": "malware",
-          "value": "MacSync Stealer"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "jacksonvillemma.com",
-      "confidence": "high",
-      "reason": "Anchored on attacker-controlled infrastructure",
-      "first_seen": "2026-09-14T16:32:25.041691+00:00",
-      "last_seen": "2026-09-14T16:32:25.041691+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.rstcloud.com",
-          "url": "https://www.rstcloud.com/macsync-stealer-c2-infrastructure-rotation/",
-          "pub_date": "2026-09-14T16:32:25.041691+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Mentalpositive"
-        },
-        {
-          "type": "campaign",
-          "value": "ClickFix"
-        },
-        {
-          "type": "malware",
-          "value": "Mac.c"
-        },
-        {
-          "type": "malware",
-          "value": "MacSync Stealer"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "mansfieldpediatrics.com",
-      "confidence": "high",
-      "reason": "Identified as part of a C2 cluster",
-      "first_seen": "2026-09-14T16:32:25.041691+00:00",
-      "last_seen": "2026-09-14T16:32:25.041691+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.rstcloud.com",
-          "url": "https://www.rstcloud.com/macsync-stealer-c2-infrastructure-rotation/",
-          "pub_date": "2026-09-14T16:32:25.041691+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Mentalpositive"
-        },
-        {
-          "type": "campaign",
-          "value": "ClickFix"
-        },
-        {
-          "type": "malware",
-          "value": "Mac.c"
-        },
-        {
-          "type": "malware",
-          "value": "MacSync Stealer"
-        }
-      ]
-    },
-    {
-      "type": "domain",
       "value": "evil.net",
       "confidence": "high",
       "reason": "Domain used in an example command for unauthorized access, suggesting attacker control",
@@ -2641,7 +2350,7 @@
       "type": "domain",
       "value": "trsb.top",
       "confidence": "high",
-      "reason": "[article sweep] Domain used in a smishing campaign, likely attacker-controlled",
+      "reason": "Referenced as part of the phishing kit's infrastructure",
       "first_seen": "2026-09-14T09:04:16+00:00",
       "last_seen": "2026-09-14T09:04:16+00:00",
       "source_count": 1,
@@ -2652,7 +2361,16 @@
           "pub_date": "2026-09-14T09:04:16+00:00"
         }
       ],
-      "tags": []
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Smishing Triad"
+        },
+        {
+          "type": "malware",
+          "value": "JWR"
+        }
+      ]
     },
     {
       "type": "domain",
@@ -4142,210 +3860,6 @@
         {
           "type": "malware",
           "value": "THost9"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "kostumn1.ilabserver.com",
-      "confidence": "high",
-      "reason": "Used for malicious payload delivery",
-      "first_seen": "2026-09-08T10:17:00.157905+00:00",
-      "last_seen": "2026-09-08T10:17:00.157905+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.proofpoint.com",
-          "url": "https://www.proofpoint.com/us/blog/threat-insight/clipboard-compromise-powershell-self-pwn",
-          "pub_date": "2026-09-08T10:17:00.157905+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "ClearFake"
-        },
-        {
-          "type": "campaign",
-          "value": "ClickFix"
-        },
-        {
-          "type": "malware",
-          "value": "Amadey Loader"
-        },
-        {
-          "type": "malware",
-          "value": "DarkGate"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "languangjob.com",
-      "confidence": "high",
-      "reason": "Used for malicious payload delivery",
-      "first_seen": "2026-09-08T10:17:00.157905+00:00",
-      "last_seen": "2026-09-08T10:17:00.157905+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.proofpoint.com",
-          "url": "https://www.proofpoint.com/us/blog/threat-insight/clipboard-compromise-powershell-self-pwn",
-          "pub_date": "2026-09-08T10:17:00.157905+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "ClearFake"
-        },
-        {
-          "type": "campaign",
-          "value": "ClickFix"
-        },
-        {
-          "type": "malware",
-          "value": "Amadey Loader"
-        },
-        {
-          "type": "malware",
-          "value": "DarkGate"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "lashakhazhalia86dancer.com",
-      "confidence": "high",
-      "reason": "Used for malicious payload delivery",
-      "first_seen": "2026-09-08T10:17:00.157905+00:00",
-      "last_seen": "2026-09-08T10:17:00.157905+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.proofpoint.com",
-          "url": "https://www.proofpoint.com/us/blog/threat-insight/clipboard-compromise-powershell-self-pwn",
-          "pub_date": "2026-09-08T10:17:00.157905+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "ClearFake"
-        },
-        {
-          "type": "campaign",
-          "value": "ClickFix"
-        },
-        {
-          "type": "malware",
-          "value": "Amadey Loader"
-        },
-        {
-          "type": "malware",
-          "value": "DarkGate"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "mylittlecabbage.net",
-      "confidence": "high",
-      "reason": "Used for malicious payload delivery",
-      "first_seen": "2026-09-08T10:17:00.157905+00:00",
-      "last_seen": "2026-09-08T10:17:00.157905+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.proofpoint.com",
-          "url": "https://www.proofpoint.com/us/blog/threat-insight/clipboard-compromise-powershell-self-pwn",
-          "pub_date": "2026-09-08T10:17:00.157905+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "ClearFake"
-        },
-        {
-          "type": "campaign",
-          "value": "ClickFix"
-        },
-        {
-          "type": "malware",
-          "value": "Amadey Loader"
-        },
-        {
-          "type": "malware",
-          "value": "DarkGate"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "oazevents.com",
-      "confidence": "high",
-      "reason": "Used for malicious payload delivery",
-      "first_seen": "2026-09-08T10:17:00.157905+00:00",
-      "last_seen": "2026-09-08T10:17:00.157905+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.proofpoint.com",
-          "url": "https://www.proofpoint.com/us/blog/threat-insight/clipboard-compromise-powershell-self-pwn",
-          "pub_date": "2026-09-08T10:17:00.157905+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "ClearFake"
-        },
-        {
-          "type": "campaign",
-          "value": "ClickFix"
-        },
-        {
-          "type": "malware",
-          "value": "Amadey Loader"
-        },
-        {
-          "type": "malware",
-          "value": "DarkGate"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "rtattack.baqebei1.online",
-      "confidence": "high",
-      "reason": "Used for malicious payload delivery",
-      "first_seen": "2026-09-08T10:17:00.157905+00:00",
-      "last_seen": "2026-09-08T10:17:00.157905+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.proofpoint.com",
-          "url": "https://www.proofpoint.com/us/blog/threat-insight/clipboard-compromise-powershell-self-pwn",
-          "pub_date": "2026-09-08T10:17:00.157905+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "ClearFake"
-        },
-        {
-          "type": "campaign",
-          "value": "ClickFix"
-        },
-        {
-          "type": "malware",
-          "value": "Amadey Loader"
-        },
-        {
-          "type": "malware",
-          "value": "DarkGate"
         }
       ]
     },
@@ -6201,6 +5715,50 @@
     },
     {
       "type": "domain",
+      "value": "cookie-whitelist.top",
+      "confidence": "high",
+      "reason": "Domain used to load a chain-specific second stage for wallet draining, indicating attacker control.",
+      "first_seen": "2026-08-29T16:32:56.604853+00:00",
+      "last_seen": "2026-08-29T16:32:56.604853+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "socket.dev",
+          "url": "https://socket.dev/blog/chrome-edge-extension-wallet-drainer",
+          "pub_date": "2026-08-29T16:32:56.604853+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Superior"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "ggle-analytics.com",
+      "confidence": "high",
+      "reason": "Domain used to fetch a fake update-and-restore wizard for phishing, indicating attacker control.",
+      "first_seen": "2026-08-29T16:32:56.604853+00:00",
+      "last_seen": "2026-08-29T16:32:56.604853+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "socket.dev",
+          "url": "https://socket.dev/blog/chrome-edge-extension-wallet-drainer",
+          "pub_date": "2026-08-29T16:32:56.604853+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Superior"
+        }
+      ]
+    },
+    {
+      "type": "domain",
       "value": "nuihuw.top",
       "confidence": "high",
       "reason": "Listed as a backup C2 server in the decrypted configuration",
@@ -6385,28 +5943,25 @@
     },
     {
       "type": "domain",
-      "value": "instantmessagehub.tech",
+      "value": "qt-proxy.org",
       "confidence": "high",
-      "reason": "Listed as a core infrastructure element for Fast Labyrinth",
-      "first_seen": "2026-08-27T17:12:48.782680+00:00",
+      "reason": "Seized domain used for malware communication and authentication",
+      "first_seen": "2026-08-27T13:47:51+00:00",
       "last_seen": "2026-08-27T17:12:48.782680+00:00",
-      "source_count": 1,
+      "source_count": 2,
       "sources": [
         {
           "source": "www.lumen.com",
           "url": "https://www.lumen.com/blog/en-us/the-infrastructure-quartermaster-inside-a-china-nexus-state-enablement-model",
           "pub_date": "2026-08-27T17:12:48.78268+00:00"
+        },
+        {
+          "source": "Techtimes",
+          "url": "https://www.techtimes.com/articles/325708/20260827/china-hacked-nasa-federal-reserve-fbi-seizes-platforms-behind-eight-year-breach.htm",
+          "pub_date": "2026-08-27T13:47:51+00:00"
         }
       ],
       "tags": [
-        {
-          "type": "campaign",
-          "value": "Raptor Train"
-        },
-        {
-          "type": "industry",
-          "value": "Energy"
-        },
         {
           "type": "industry",
           "value": "Financial"
@@ -6414,33 +5969,38 @@
         {
           "type": "industry",
           "value": "Government"
+        },
+        {
+          "type": "apt_group",
+          "value": "Flax Typhoon"
+        },
+        {
+          "type": "apt_group",
+          "value": "Mustang Panda"
         }
       ]
     },
     {
       "type": "domain",
-      "value": "jump.qt-proxy.org",
+      "value": "qtproxy.xyz",
       "confidence": "high",
-      "reason": "Listed as an active operational jump box for Fast Labyrinth",
-      "first_seen": "2026-08-27T17:12:48.782680+00:00",
+      "reason": "Seized domain used for malware communication and authentication",
+      "first_seen": "2026-08-27T13:47:51+00:00",
       "last_seen": "2026-08-27T17:12:48.782680+00:00",
-      "source_count": 1,
+      "source_count": 2,
       "sources": [
         {
           "source": "www.lumen.com",
           "url": "https://www.lumen.com/blog/en-us/the-infrastructure-quartermaster-inside-a-china-nexus-state-enablement-model",
           "pub_date": "2026-08-27T17:12:48.78268+00:00"
+        },
+        {
+          "source": "Techtimes",
+          "url": "https://www.techtimes.com/articles/325708/20260827/china-hacked-nasa-federal-reserve-fbi-seizes-platforms-behind-eight-year-breach.htm",
+          "pub_date": "2026-08-27T13:47:51+00:00"
         }
       ],
       "tags": [
-        {
-          "type": "campaign",
-          "value": "Raptor Train"
-        },
-        {
-          "type": "industry",
-          "value": "Energy"
-        },
         {
           "type": "industry",
           "value": "Financial"
@@ -6448,33 +6008,38 @@
         {
           "type": "industry",
           "value": "Government"
+        },
+        {
+          "type": "apt_group",
+          "value": "Flax Typhoon"
+        },
+        {
+          "type": "apt_group",
+          "value": "Mustang Panda"
         }
       ]
     },
     {
       "type": "domain",
-      "value": "mq-result-qt-team.com",
+      "value": "qt-team.com",
       "confidence": "high",
-      "reason": "[article sweep] Listed as part of QScan backend infrastructure, mapped to a specific IP",
-      "first_seen": "2026-08-27T17:12:48.782680+00:00",
+      "reason": "Seized domain used for malware communication and authentication",
+      "first_seen": "2026-08-27T13:47:51+00:00",
       "last_seen": "2026-08-27T17:12:48.782680+00:00",
-      "source_count": 1,
+      "source_count": 2,
       "sources": [
         {
           "source": "www.lumen.com",
           "url": "https://www.lumen.com/blog/en-us/the-infrastructure-quartermaster-inside-a-china-nexus-state-enablement-model",
           "pub_date": "2026-08-27T17:12:48.78268+00:00"
+        },
+        {
+          "source": "Techtimes",
+          "url": "https://www.techtimes.com/articles/325708/20260827/china-hacked-nasa-federal-reserve-fbi-seizes-platforms-behind-eight-year-breach.htm",
+          "pub_date": "2026-08-27T13:47:51+00:00"
         }
       ],
       "tags": [
-        {
-          "type": "campaign",
-          "value": "Raptor Train"
-        },
-        {
-          "type": "industry",
-          "value": "Energy"
-        },
         {
           "type": "industry",
           "value": "Financial"
@@ -6482,176 +6047,14 @@
         {
           "type": "industry",
           "value": "Government"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "mq-task-qt-team.com",
-      "confidence": "high",
-      "reason": "[article sweep] Listed as part of QScan broker infrastructure, mapped to a specific IP",
-      "first_seen": "2026-08-27T17:12:48.782680+00:00",
-      "last_seen": "2026-08-27T17:12:48.782680+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.lumen.com",
-          "url": "https://www.lumen.com/blog/en-us/the-infrastructure-quartermaster-inside-a-china-nexus-state-enablement-model",
-          "pub_date": "2026-08-27T17:12:48.78268+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Raptor Train"
         },
         {
-          "type": "industry",
-          "value": "Energy"
+          "type": "apt_group",
+          "value": "Flax Typhoon"
         },
         {
-          "type": "industry",
-          "value": "Financial"
-        },
-        {
-          "type": "industry",
-          "value": "Government"
-        }
-      ]
-    },
-    {
-      "type": "ipv4",
-      "value": "1.32.216.171",
-      "confidence": "high",
-      "reason": "Mapped to Fast Labyrinth admin plane",
-      "first_seen": "2026-08-27T17:12:48.782680+00:00",
-      "last_seen": "2026-08-27T17:12:48.782680+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.lumen.com",
-          "url": "https://www.lumen.com/blog/en-us/the-infrastructure-quartermaster-inside-a-china-nexus-state-enablement-model",
-          "pub_date": "2026-08-27T17:12:48.78268+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Raptor Train"
-        },
-        {
-          "type": "industry",
-          "value": "Energy"
-        },
-        {
-          "type": "industry",
-          "value": "Financial"
-        },
-        {
-          "type": "industry",
-          "value": "Government"
-        }
-      ]
-    },
-    {
-      "type": "ipv4",
-      "value": "154.64.238.222",
-      "confidence": "high",
-      "reason": "Mapped to QScan broker",
-      "first_seen": "2026-08-27T17:12:48.782680+00:00",
-      "last_seen": "2026-08-27T17:12:48.782680+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.lumen.com",
-          "url": "https://www.lumen.com/blog/en-us/the-infrastructure-quartermaster-inside-a-china-nexus-state-enablement-model",
-          "pub_date": "2026-08-27T17:12:48.78268+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Raptor Train"
-        },
-        {
-          "type": "industry",
-          "value": "Energy"
-        },
-        {
-          "type": "industry",
-          "value": "Financial"
-        },
-        {
-          "type": "industry",
-          "value": "Government"
-        }
-      ]
-    },
-    {
-      "type": "ipv4",
-      "value": "154.64.238.247",
-      "confidence": "high",
-      "reason": "Mapped to QScan backend",
-      "first_seen": "2026-08-27T17:12:48.782680+00:00",
-      "last_seen": "2026-08-27T17:12:48.782680+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.lumen.com",
-          "url": "https://www.lumen.com/blog/en-us/the-infrastructure-quartermaster-inside-a-china-nexus-state-enablement-model",
-          "pub_date": "2026-08-27T17:12:48.78268+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Raptor Train"
-        },
-        {
-          "type": "industry",
-          "value": "Energy"
-        },
-        {
-          "type": "industry",
-          "value": "Financial"
-        },
-        {
-          "type": "industry",
-          "value": "Government"
-        }
-      ]
-    },
-    {
-      "type": "ipv4",
-      "value": "8.148.149.147",
-      "confidence": "high",
-      "reason": "Mapped to active operational jump box",
-      "first_seen": "2026-08-27T17:12:48.782680+00:00",
-      "last_seen": "2026-08-27T17:12:48.782680+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.lumen.com",
-          "url": "https://www.lumen.com/blog/en-us/the-infrastructure-quartermaster-inside-a-china-nexus-state-enablement-model",
-          "pub_date": "2026-08-27T17:12:48.78268+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Raptor Train"
-        },
-        {
-          "type": "industry",
-          "value": "Energy"
-        },
-        {
-          "type": "industry",
-          "value": "Financial"
-        },
-        {
-          "type": "industry",
-          "value": "Government"
+          "type": "apt_group",
+          "value": "Mustang Panda"
         }
       ]
     },
@@ -6943,6 +6346,110 @@
     },
     {
       "type": "domain",
+      "value": "expedia-careers.com",
+      "confidence": "high",
+      "reason": "Domain follows the pattern of brand-impersonating recruitment domains used by attackers.",
+      "first_seen": "2026-08-24T20:20:29+00:00",
+      "last_seen": "2026-08-24T20:20:29+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Zimperium",
+          "url": "https://zimperium.com/blog/extended-rapid-response-zimperium-identifies-recruittrap-recruit-scams-are-targeting-enterprise-credentials-on-mobile",
+          "pub_date": "2026-08-24T20:20:29+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "RecruitTrap"
+        },
+        {
+          "type": "industry",
+          "value": "Retail"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "insulet-careers.com",
+      "confidence": "high",
+      "reason": "Domain follows the pattern of brand-impersonating recruitment domains used by attackers.",
+      "first_seen": "2026-08-24T20:20:29+00:00",
+      "last_seen": "2026-08-24T20:20:29+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Zimperium",
+          "url": "https://zimperium.com/blog/extended-rapid-response-zimperium-identifies-recruittrap-recruit-scams-are-targeting-enterprise-credentials-on-mobile",
+          "pub_date": "2026-08-24T20:20:29+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "RecruitTrap"
+        },
+        {
+          "type": "industry",
+          "value": "Retail"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "mondial-relay-global.com",
+      "confidence": "high",
+      "reason": "Domain follows the pattern of brand-impersonating recruitment domains used by attackers.",
+      "first_seen": "2026-08-24T20:20:29+00:00",
+      "last_seen": "2026-08-24T20:20:29+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Zimperium",
+          "url": "https://zimperium.com/blog/extended-rapid-response-zimperium-identifies-recruittrap-recruit-scams-are-targeting-enterprise-credentials-on-mobile",
+          "pub_date": "2026-08-24T20:20:29+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "RecruitTrap"
+        },
+        {
+          "type": "industry",
+          "value": "Retail"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "xmtrading-global.com",
+      "confidence": "high",
+      "reason": "Domain follows the pattern of brand-impersonating recruitment domains used by attackers.",
+      "first_seen": "2026-08-24T20:20:29+00:00",
+      "last_seen": "2026-08-24T20:20:29+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Zimperium",
+          "url": "https://zimperium.com/blog/extended-rapid-response-zimperium-identifies-recruittrap-recruit-scams-are-targeting-enterprise-credentials-on-mobile",
+          "pub_date": "2026-08-24T20:20:29+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "RecruitTrap"
+        },
+        {
+          "type": "industry",
+          "value": "Retail"
+        }
+      ]
+    },
+    {
+      "type": "domain",
       "value": "browser-app.com",
       "confidence": "high",
       "reason": "[article sweep] Domain used in a malicious browser extension campaign",
@@ -7197,6 +6704,40 @@
       ]
     },
     {
+      "type": "domain",
+      "value": "garantex.io",
+      "confidence": "high",
+      "reason": "[article sweep] Seized by law enforcement for money laundering activities",
+      "first_seen": "2026-08-20T22:38:27.756075+00:00",
+      "last_seen": "2026-08-20T22:38:27.756075+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.justice.gov",
+          "url": "https://www.justice.gov/opa/pr/garantex-cryptocurrency-exchange-disrupted-international-operation",
+          "pub_date": "2026-08-20T22:38:27.756075+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "garantex.org",
+      "confidence": "high",
+      "reason": "[article sweep] Seized by law enforcement for money laundering activities",
+      "first_seen": "2026-08-20T22:38:27.756075+00:00",
+      "last_seen": "2026-08-20T22:38:27.756075+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.justice.gov",
+          "url": "https://www.justice.gov/opa/pr/garantex-cryptocurrency-exchange-disrupted-international-operation",
+          "pub_date": "2026-08-20T22:38:27.756075+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
       "type": "ipv4",
       "value": "103.236.54.207",
       "confidence": "high",
@@ -7262,122 +6803,6 @@
         {
           "type": "malware",
           "value": "Spyroid"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "lockwall.xyz",
-      "confidence": "high",
-      "reason": "[article sweep] Captured phishing page hosted on this domain, indicating attacker control",
-      "first_seen": "2026-08-18T18:04:45+00:00",
-      "last_seen": "2026-08-18T18:04:45+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Wiz",
-          "url": "https://www.wiz.io/blog/detecting-entra-device-registration-abuse",
-          "pub_date": "2026-08-18T18:04:45+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "gigapaper.ir",
-      "confidence": "high",
-      "reason": "[article sweep] Used to sell stolen academic data, controlled by attackers",
-      "first_seen": "2026-08-18T17:54:40+00:00",
-      "last_seen": "2026-08-18T17:54:40+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Justice",
-          "url": "https://www.justice.gov/opa/pr/17-iranians-charged-conducting-massive-cyber-theft-campaign-behalf-islamic-revolutionary",
-          "pub_date": "2026-08-18T17:54:40+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "University Hacking Campaign"
-        },
-        {
-          "type": "industry",
-          "value": "Government"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "megapaper.ir",
-      "confidence": "high",
-      "reason": "[article sweep] Used to sell stolen academic resources",
-      "first_seen": "2026-08-18T17:54:40+00:00",
-      "last_seen": "2026-08-18T17:54:40+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Justice",
-          "url": "https://www.justice.gov/opa/pr/17-iranians-charged-conducting-massive-cyber-theft-campaign-behalf-islamic-revolutionary",
-          "pub_date": "2026-08-18T17:54:40+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "University Hacking Campaign"
-        },
-        {
-          "type": "industry",
-          "value": "Government"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "msfconfig.icu",
-      "confidence": "high",
-      "reason": "[article sweep] Domain used to host malicious scripts, indicating attacker control",
-      "first_seen": "2026-08-17T16:03:58+00:00",
-      "last_seen": "2026-08-17T16:03:58+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Kaspersky",
-          "url": "https://www.kaspersky.com/blog/steam-forum-clickfix-attack-irm-iex/56285/",
-          "pub_date": "2026-08-17T16:03:58+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "ipv4",
-      "value": "85.206.161.241",
-      "confidence": "high",
-      "reason": "[article sweep] IP address used for direct C2 communication via WebSocket",
-      "first_seen": "2026-08-17T13:59:31+00:00",
-      "last_seen": "2026-08-17T13:59:31+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Huntress",
-          "url": "https://www.huntress.com/blog/fake-claude-macsync",
-          "pub_date": "2026-08-17T13:59:31+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "malware",
-          "value": "AMOS Stealer"
-        },
-        {
-          "type": "malware",
-          "value": "MacSync Stealer"
-        },
-        {
-          "type": "malware",
-          "value": "SectopRAT"
         }
       ]
     }
