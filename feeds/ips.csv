@@ -1,5 +1,8 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason
-ipv4,37.16.74.100,high,2026-09-17T19:02:55.531733+00:00,2026-09-17T19:02:55.531733+00:00,1,www.elastic.co:2026-09-17,Listed as a C2 endpoint
+ipv4,172.86.93.139,high,2026-09-18T16:31:07.760690+00:00,2026-09-18T16:31:07.760690+00:00,1,gitlab-com.gitlab.io:2026-09-18,Listed as a command and control address used by the threat actor
+ipv4,188.190.18.208,high,2026-09-18T08:42:53.457982+00:00,2026-09-18T08:42:53.457982+00:00,1,hunt.io:2026-09-18,[article sweep] Confirmed as SpiceRAT infrastructure.
+ipv4,2.58.14.95,high,2026-09-18T08:42:53.457982+00:00,2026-09-18T08:42:53.457982+00:00,1,hunt.io:2026-09-18,[article sweep] Confirmed as SpiceRAT infrastructure.
+ipv4,37.16.74.100,high,2026-09-18T07:04:44.392720+00:00,2026-09-18T07:04:44.392720+00:00,1,www.elastic.co:2026-09-18,Listed as a C2 endpoint
 ipv4,184.75.129.113,high,2026-09-17T16:10:35+00:00,2026-09-17T16:10:35+00:00,1,Cyfirma:2026-09-17,[article sweep] Listed in a YARA rule as an IP address associated with APT31
 ipv4,195.91.239.226,high,2026-09-17T16:10:35+00:00,2026-09-17T16:10:35+00:00,1,Cyfirma:2026-09-17,[article sweep] Listed in a YARA rule as an IP address associated with APT31
 ipv4,50.71.100.164,high,2026-09-17T16:10:35+00:00,2026-09-17T16:10:35+00:00,1,Cyfirma:2026-09-17,[article sweep] Listed in a YARA rule as an IP address associated with APT31
@@ -83,5 +86,3 @@ ipv4,121.12.110.96,high,2026-08-27T09:18:43.223353+00:00,2026-08-27T09:18:43.223
 ipv4,202.103.178.76,high,2026-08-27T09:18:43.223353+00:00,2026-08-27T09:18:43.223353+00:00,1,securelist.com:2026-08-27,[article sweep] Decrypted as a C&C server IP address by a backdoor
 ipv4,67.213.118.179,high,2026-08-25T19:04:41.630110+00:00,2026-08-25T19:04:41.630110+00:00,1,www.cloudsek.com:2026-08-25,[article sweep] Used in exploitation attempts against Oracle WebLogic Server
 ipv4,102.91.71.83,high,2026-08-25T15:50:04+00:00,2026-08-25T15:50:04+00:00,1,Techtimes:2026-08-25,Listed as a scanning IP used to detect exploit attempts
-ipv4,103.236.54.207,high,2026-08-19T19:56:48+00:00,2026-08-19T19:56:48+00:00,1,Cloudsek:2026-08-19,[article sweep] Used as a staging server by the attacker
-ipv4,196.251.84.11,high,2026-08-19T09:52:51+00:00,2026-08-19T09:52:51+00:00,1,Group-Ib:2026-08-19,Identified as active C2 server for Spyroid-based malware.
