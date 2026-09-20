@@ -1,7 +1,7 @@
 {
   "feed": "threatcluster-public-iocs",
   "version": 1,
-  "generated_at": "2026-09-19T06:35:21Z",
+  "generated_at": "2026-09-20T06:35:54Z",
   "filters": {
     "confidence": "high",
     "window_days": 30,
@@ -11,7 +11,7 @@
       "domain"
     ]
   },
-  "count": 310,
+  "count": 304,
   "iocs": [
     {
       "type": "domain",
@@ -6938,142 +6938,6 @@
           "source": "Straitstimes",
           "url": "https://www.straitstimes.com/singapore/apple-impersonation-scams-cost-spore-victims-at-least-195k-in-crypto-assets-within-2-weeks",
           "pub_date": "2026-08-21T14:51:21+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "malicious-miner.com",
-      "confidence": "high",
-      "reason": "[article sweep] Domain used to host malicious scripts, indicating attacker control",
-      "first_seen": "2026-08-21T05:50:46+00:00",
-      "last_seen": "2026-08-21T05:50:46+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Cyfirma",
-          "url": "https://www.cyfirma.com/news/weekly-intelligence-report-21-aug-2026/",
-          "pub_date": "2026-08-21T05:50:46+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "securestore.tv",
-      "confidence": "high",
-      "reason": "[article sweep] Listed in a YARA rule as associated with APT36 activity",
-      "first_seen": "2026-08-21T05:50:46+00:00",
-      "last_seen": "2026-08-21T05:50:46+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Cyfirma",
-          "url": "https://www.cyfirma.com/news/weekly-intelligence-report-21-aug-2026/",
-          "pub_date": "2026-08-21T05:50:46+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "drive.google.verify-drive.com",
-      "confidence": "high",
-      "reason": "Identified as a malware distribution domain.",
-      "first_seen": "2026-08-21T00:32:07.289805+00:00",
-      "last_seen": "2026-08-21T00:32:07.289805+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "cloud.google.com",
-          "url": "https://cloud.google.com/blog/topics/threat-intelligence/distinct-clusters-target-individuals-of-interest-to-russia",
-          "pub_date": "2026-08-21T00:32:07.289805+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Apt29"
-        },
-        {
-          "type": "apt_group",
-          "value": "ICE Relic"
-        },
-        {
-          "type": "campaign",
-          "value": "Unc6293 Phishing Campaigns"
-        },
-        {
-          "type": "campaign",
-          "value": "Unc7005 Phishing Campaigns"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "miov2iaiaoubqosiqoiajwowiwjso.online",
-      "confidence": "high",
-      "reason": "C2 for AtomicStealer identified.",
-      "first_seen": "2026-08-21T00:32:07.289805+00:00",
-      "last_seen": "2026-08-21T00:32:07.289805+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "cloud.google.com",
-          "url": "https://cloud.google.com/blog/topics/threat-intelligence/distinct-clusters-target-individuals-of-interest-to-russia",
-          "pub_date": "2026-08-21T00:32:07.289805+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Apt29"
-        },
-        {
-          "type": "apt_group",
-          "value": "ICE Relic"
-        },
-        {
-          "type": "campaign",
-          "value": "Unc6293 Phishing Campaigns"
-        },
-        {
-          "type": "campaign",
-          "value": "Unc7005 Phishing Campaigns"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "garantex.io",
-      "confidence": "high",
-      "reason": "[article sweep] Seized by law enforcement for money laundering activities",
-      "first_seen": "2026-08-20T22:38:27.756075+00:00",
-      "last_seen": "2026-08-20T22:38:27.756075+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.justice.gov",
-          "url": "https://www.justice.gov/opa/pr/garantex-cryptocurrency-exchange-disrupted-international-operation",
-          "pub_date": "2026-08-20T22:38:27.756075+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "garantex.org",
-      "confidence": "high",
-      "reason": "[article sweep] Seized by law enforcement for money laundering activities",
-      "first_seen": "2026-08-20T22:38:27.756075+00:00",
-      "last_seen": "2026-08-20T22:38:27.756075+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.justice.gov",
-          "url": "https://www.justice.gov/opa/pr/garantex-cryptocurrency-exchange-disrupted-international-operation",
-          "pub_date": "2026-08-20T22:38:27.756075+00:00"
         }
       ],
       "tags": []
