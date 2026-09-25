@@ -1,4 +1,8 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason
+ipv4,176.53.159.66,high,2026-09-21T11:02:57.464783+00:00,2026-09-21T11:02:57.464783+00:00,1,adamnet.works:2026-09-21,Used for malicious delivery and teardown operations
+ipv4,45.94.47.204,high,2026-09-21T11:02:57.464783+00:00,2026-09-21T11:02:57.464783+00:00,1,adamnet.works:2026-09-21,Used for malicious task service enrollment
+ipv4,62.60.226.69,high,2026-09-21T11:02:57.464783+00:00,2026-09-21T11:02:57.464783+00:00,1,adamnet.works:2026-09-21,Used as a provisioning cluster for malicious operations
+ipv4,91.92.242.30,high,2026-09-20T06:57:48+00:00,2026-09-20T06:57:48+00:00,1,Sploitus:2026-09-20,[article sweep] Listed as a known C2 IP address
 ipv4,172.86.93.139,high,2026-09-18T16:31:07.760690+00:00,2026-09-18T16:31:07.760690+00:00,1,gitlab-com.gitlab.io:2026-09-18,Listed as a command and control address used by the threat actor
 ipv4,188.190.18.208,high,2026-09-18T08:42:53.457982+00:00,2026-09-18T08:42:53.457982+00:00,1,hunt.io:2026-09-18,[article sweep] Confirmed as SpiceRAT infrastructure.
 ipv4,2.58.14.95,high,2026-09-18T08:42:53.457982+00:00,2026-09-18T08:42:53.457982+00:00,1,hunt.io:2026-09-18,[article sweep] Confirmed as SpiceRAT infrastructure.
@@ -13,9 +17,6 @@ ipv4,139.28.85.223,high,2026-09-17T10:14:31+00:00,2026-09-17T10:14:31+00:00,1,It
 ipv4,210.1.231.13,high,2026-09-16T21:33:59.611872+00:00,2026-09-16T21:33:59.611872+00:00,1,www.lumen.com:2026-09-16,Associated with attacker-controlled domain turbo.c2iznja.com
 ipv4,94.102.49.125,high,2026-09-16T18:44:04+00:00,2026-09-16T18:44:04+00:00,1,Isc.Sans.Edu:2026-09-16,[article sweep] Identified as a source IP for malicious scans
 ipv4,5.252.177.210,high,2026-09-16T14:15:51+00:00,2026-09-16T14:15:51+00:00,1,Socprime:2026-09-16,[article sweep] Identified as a C2 server for RUSTGate malware
-ipv4,176.53.159.66,high,2026-09-16T11:35:24.102374+00:00,2026-09-16T11:35:24.102374+00:00,1,adamnet.works:2026-09-16,Used for malicious delivery and teardown operations
-ipv4,45.94.47.204,high,2026-09-16T11:35:24.102374+00:00,2026-09-16T11:35:24.102374+00:00,1,adamnet.works:2026-09-16,Used for malicious task service enrollment
-ipv4,62.60.226.69,high,2026-09-16T11:35:24.102374+00:00,2026-09-16T11:35:24.102374+00:00,1,adamnet.works:2026-09-16,Used as a provisioning cluster for malicious operations
 ipv4,176.101.204.172,high,2026-09-16T08:34:19+00:00,2026-09-16T08:34:19+00:00,1,Sploitus:2026-09-16,[article sweep] Listed in a blacklist for malicious activity
 ipv4,93.183.250.196,high,2026-09-16T08:34:19+00:00,2026-09-16T08:34:19+00:00,1,Sploitus:2026-09-16,[article sweep] Listed in a blacklist for malicious activity
 ipv4,150.251.113.223,high,2026-09-15T14:55:03+00:00,2026-09-15T14:55:03+00:00,1,Socprime:2026-09-15,[article sweep] Identified as a C2 IP used by the attacker
@@ -84,5 +85,3 @@ ipv4,112.90.252.76,high,2026-08-27T09:18:43.223353+00:00,2026-08-27T09:18:43.223
 ipv4,116.10.189.246,high,2026-08-27T09:18:43.223353+00:00,2026-08-27T09:18:43.223353+00:00,1,securelist.com:2026-08-27,[article sweep] Listed as a C&C server for a Trojan
 ipv4,121.12.110.96,high,2026-08-27T09:18:43.223353+00:00,2026-08-27T09:18:43.223353+00:00,1,securelist.com:2026-08-27,[article sweep] Listed as a C&C server for a Trojan
 ipv4,202.103.178.76,high,2026-08-27T09:18:43.223353+00:00,2026-08-27T09:18:43.223353+00:00,1,securelist.com:2026-08-27,[article sweep] Decrypted as a C&C server IP address by a backdoor
-ipv4,67.213.118.179,high,2026-08-25T19:04:41.630110+00:00,2026-08-25T19:04:41.630110+00:00,1,www.cloudsek.com:2026-08-25,[article sweep] Used in exploitation attempts against Oracle WebLogic Server
-ipv4,102.91.71.83,high,2026-08-25T15:50:04+00:00,2026-08-25T15:50:04+00:00,1,Techtimes:2026-08-25,Listed as a scanning IP used to detect exploit attempts

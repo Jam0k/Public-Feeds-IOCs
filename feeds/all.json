@@ -1,7 +1,7 @@
 {
   "feed": "threatcluster-public-iocs",
   "version": 1,
-  "generated_at": "2026-09-20T06:35:54Z",
+  "generated_at": "2026-09-25T08:14:13Z",
   "filters": {
     "confidence": "high",
     "window_days": 30,
@@ -11,8 +11,1673 @@
       "domain"
     ]
   },
-  "count": 304,
+  "count": 352,
   "iocs": [
+    {
+      "type": "domain",
+      "value": "ernigr-esfilc.com",
+      "confidence": "high",
+      "reason": "Used as an iframe domain in a phishing campaign, indicating attacker control.",
+      "first_seen": "2026-09-24T13:12:11.081376+00:00",
+      "last_seen": "2026-09-24T13:12:11.081376+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "haveibeensquatted.com",
+          "url": "https://haveibeensquatted.com/blog/diesel-vortex-inside-the-russian-cybercrime-group-targeting-us-eu-freight",
+          "pub_date": "2026-09-24T13:12:11.081376+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Diesel Vortex"
+        },
+        {
+          "type": "industry",
+          "value": "Logistics"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "lpanel-bckaoplsks.top",
+      "confidence": "high",
+      "reason": "Appears in referrer entries recording victim traffic, indicating attacker control.",
+      "first_seen": "2026-09-24T13:12:11.081376+00:00",
+      "last_seen": "2026-09-24T13:12:11.081376+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "haveibeensquatted.com",
+          "url": "https://haveibeensquatted.com/blog/diesel-vortex-inside-the-russian-cybercrime-group-targeting-us-eu-freight",
+          "pub_date": "2026-09-24T13:12:11.081376+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Diesel Vortex"
+        },
+        {
+          "type": "industry",
+          "value": "Logistics"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "lpanel-bumaepxuje-iframe.top",
+      "confidence": "high",
+      "reason": "Identified as an active secondary domain used by attackers.",
+      "first_seen": "2026-09-24T13:12:11.081376+00:00",
+      "last_seen": "2026-09-24T13:12:11.081376+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "haveibeensquatted.com",
+          "url": "https://haveibeensquatted.com/blog/diesel-vortex-inside-the-russian-cybercrime-group-targeting-us-eu-freight",
+          "pub_date": "2026-09-24T13:12:11.081376+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Diesel Vortex"
+        },
+        {
+          "type": "industry",
+          "value": "Logistics"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "lpanel-bumaepxuje.top",
+      "confidence": "high",
+      "reason": "Configured as the panel hostname in the attacker's codebase.",
+      "first_seen": "2026-09-24T13:12:11.081376+00:00",
+      "last_seen": "2026-09-24T13:12:11.081376+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "haveibeensquatted.com",
+          "url": "https://haveibeensquatted.com/blog/diesel-vortex-inside-the-russian-cybercrime-group-targeting-us-eu-freight",
+          "pub_date": "2026-09-24T13:12:11.081376+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Diesel Vortex"
+        },
+        {
+          "type": "industry",
+          "value": "Logistics"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "yasomawork.space",
+      "confidence": "high",
+      "reason": "Referenced in the admin panel footer, indicating attacker control.",
+      "first_seen": "2026-09-24T13:12:11.081376+00:00",
+      "last_seen": "2026-09-24T13:12:11.081376+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "haveibeensquatted.com",
+          "url": "https://haveibeensquatted.com/blog/diesel-vortex-inside-the-russian-cybercrime-group-targeting-us-eu-freight",
+          "pub_date": "2026-09-24T13:12:11.081376+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Diesel Vortex"
+        },
+        {
+          "type": "industry",
+          "value": "Logistics"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "playgoogle.logisticstkwcargo.com",
+      "confidence": "high",
+      "reason": "Domain appears to be a typosquat or lookalike used for phishing or malware delivery.",
+      "first_seen": "2026-09-24T12:09:27+00:00",
+      "last_seen": "2026-09-24T13:12:08.828530+00:00",
+      "source_count": 3,
+      "sources": [
+        {
+          "source": "haveibeensquatted.com",
+          "url": "https://haveibeensquatted.com/blog/inside-corp-mdm-android-spyware-targeting-logisitics",
+          "pub_date": "2026-09-24T13:12:08.82853+00:00"
+        },
+        {
+          "source": "News.Lavx.Hu",
+          "url": "https://news.lavx.hu/article/corp-mdm-spyware-targets-logistics-firms-steals-new-sms-and-redirects-calls",
+          "pub_date": "2026-09-24T12:40:33+00:00"
+        },
+        {
+          "source": "Thehackernews",
+          "url": "https://thehackernews.com/2026/09/corp-mdm-spyware-targets-logistics.html",
+          "pub_date": "2026-09-24T12:09:27+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "Corp MDM"
+        },
+        {
+          "type": "campaign",
+          "value": "Diesel Vortex"
+        },
+        {
+          "type": "campaign",
+          "value": "Global Profit"
+        },
+        {
+          "type": "campaign",
+          "value": "MC Profit Always"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "docsend.appstore.com",
+      "confidence": "high",
+      "reason": "[article sweep] Listed as a URL used for malware delivery, indicating attacker control.",
+      "first_seen": "2026-09-24T10:12:52+00:00",
+      "last_seen": "2026-09-24T10:12:52+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Securelist",
+          "url": "https://securelist.com/macsync-new-version/121383/",
+          "pub_date": "2026-09-24T10:12:52+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "streamyard.appstore.com",
+      "confidence": "high",
+      "reason": "[article sweep] Domain used for hosting malicious installer script",
+      "first_seen": "2026-09-24T10:12:52+00:00",
+      "last_seen": "2026-09-24T10:12:52+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Securelist",
+          "url": "https://securelist.com/macsync-new-version/121383/",
+          "pub_date": "2026-09-24T10:12:52+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "waaako.appstore.com",
+      "confidence": "high",
+      "reason": "[article sweep] Domain used for hosting malicious installer script",
+      "first_seen": "2026-09-24T10:12:52+00:00",
+      "last_seen": "2026-09-24T10:12:52+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Securelist",
+          "url": "https://securelist.com/macsync-new-version/121383/",
+          "pub_date": "2026-09-24T10:12:52+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "cacheoutattack.com",
+      "confidence": "high",
+      "reason": "Domain associated with the CacheOut attack",
+      "first_seen": "2026-09-24T04:31:27.990972+00:00",
+      "last_seen": "2026-09-24T04:31:27.990972+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "en.wikipedia.org",
+          "url": "https://en.wikipedia.org/wiki/Transient_execution_CPU_vulnerability",
+          "pub_date": "2026-09-24T04:31:27.990972+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2020-12965"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2021-0086"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2021-0089"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2021-26341"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "indirector.cpusec.org",
+      "confidence": "high",
+      "reason": "Domain associated with the Indirector attack",
+      "first_seen": "2026-09-24T04:31:27.990972+00:00",
+      "last_seen": "2026-09-24T04:31:27.990972+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "en.wikipedia.org",
+          "url": "https://en.wikipedia.org/wiki/Transient_execution_CPU_vulnerability",
+          "pub_date": "2026-09-24T04:31:27.990972+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2020-12965"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2021-0086"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2021-0089"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2021-26341"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "lviattack.eu",
+      "confidence": "high",
+      "reason": "Domain associated with the Load Value Injection attack",
+      "first_seen": "2026-09-24T04:31:27.990972+00:00",
+      "last_seen": "2026-09-24T04:31:27.990972+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "en.wikipedia.org",
+          "url": "https://en.wikipedia.org/wiki/Transient_execution_CPU_vulnerability",
+          "pub_date": "2026-09-24T04:31:27.990972+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2020-12965"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2021-0086"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2021-0089"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2021-26341"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "mdsattacks.com",
+      "confidence": "high",
+      "reason": "Domain associated with Microarchitectural Data Sampling attacks",
+      "first_seen": "2026-09-24T04:31:27.990972+00:00",
+      "last_seen": "2026-09-24T04:31:27.990972+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "en.wikipedia.org",
+          "url": "https://en.wikipedia.org/wiki/Transient_execution_CPU_vulnerability",
+          "pub_date": "2026-09-24T04:31:27.990972+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2020-12965"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2021-0086"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2021-0089"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2021-26341"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "meltdownattack.com",
+      "confidence": "high",
+      "reason": "Domain associated with the Meltdown attack",
+      "first_seen": "2026-09-24T04:31:27.990972+00:00",
+      "last_seen": "2026-09-24T04:31:27.990972+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "en.wikipedia.org",
+          "url": "https://en.wikipedia.org/wiki/Transient_execution_CPU_vulnerability",
+          "pub_date": "2026-09-24T04:31:27.990972+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2020-12965"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2021-0086"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2021-0089"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2021-26341"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "zombieloadattack.com",
+      "confidence": "high",
+      "reason": "Domain associated with the ZombieLoad attack",
+      "first_seen": "2026-09-24T04:31:27.990972+00:00",
+      "last_seen": "2026-09-24T04:31:27.990972+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "en.wikipedia.org",
+          "url": "https://en.wikipedia.org/wiki/Transient_execution_CPU_vulnerability",
+          "pub_date": "2026-09-24T04:31:27.990972+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2020-12965"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2021-0086"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2021-0089"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2021-26341"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "elxxvvx.xyz",
+      "confidence": "high",
+      "reason": "Referenced as a site distributing a malicious PowerShell script",
+      "first_seen": "2026-09-24T03:17:57+00:00",
+      "last_seen": "2026-09-24T03:17:57+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Bleepingcomputer",
+          "url": "https://www.bleepingcomputer.com/news/security/placeholder-domain-used-in-dev-docs-now-serves-clickfix-attacks/",
+          "pub_date": "2026-09-24T03:17:57+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "gocommunity.io",
+      "confidence": "high",
+      "reason": "Domain used to distribute Go malware via Terraform providers and Go Modules",
+      "first_seen": "2026-09-22T15:17:55+00:00",
+      "last_seen": "2026-09-23T18:07:17+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "Thehackernews",
+          "url": "https://thehackernews.com/2026/09/attackers-use-malicious-terraform.html",
+          "pub_date": "2026-09-23T18:07:17+00:00"
+        },
+        {
+          "source": "Aikido.Dev",
+          "url": "https://www.aikido.dev/blog/graphalgo-terraform-go-modules",
+          "pub_date": "2026-09-22T15:17:55+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "Graphalgo"
+        },
+        {
+          "type": "campaign",
+          "value": "Contagious Interview"
+        },
+        {
+          "type": "campaign",
+          "value": "Graphalgo Campaign"
+        },
+        {
+          "type": "campaign",
+          "value": "PolinRider"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "evilcorp.co.uk",
+      "confidence": "high",
+      "reason": "[article sweep] Used in an example of a scan target, indicating attacker infrastructure",
+      "first_seen": "2026-09-23T16:55:18+00:00",
+      "last_seen": "2026-09-23T16:55:18+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Sploitus",
+          "url": "https://sploitus.com/exploit?id=KITPLOIT:7160620916719256541&utm_source=rss&utm_medium=rss",
+          "pub_date": "2026-09-23T16:55:18+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "tradeyourevents.com",
+      "confidence": "high",
+      "reason": "[article sweep] Used in phishing emails impersonating Xero",
+      "first_seen": "2026-09-23T15:27:39+00:00",
+      "last_seen": "2026-09-23T15:27:39+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Central.Xero",
+          "url": "https://central.xero.com/s/article/Security-noticeboard",
+          "pub_date": "2026-09-23T15:27:39+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "xerocareers.com",
+      "confidence": "high",
+      "reason": "[article sweep] Used in a fake job offer scam email",
+      "first_seen": "2026-09-23T15:27:39+00:00",
+      "last_seen": "2026-09-23T15:27:39+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Central.Xero",
+          "url": "https://central.xero.com/s/article/Security-noticeboard",
+          "pub_date": "2026-09-23T15:27:39+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "b.filename.com",
+      "confidence": "high",
+      "reason": "[article sweep] Used in an example of data exfiltration via DNS requests",
+      "first_seen": "2026-09-23T12:02:01+00:00",
+      "last_seen": "2026-09-23T12:02:01+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Sploitus",
+          "url": "https://sploitus.com/exploit?id=KITPLOIT:1913984219067314417&utm_source=rss&utm_medium=rss",
+          "pub_date": "2026-09-23T12:02:01+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "filename.com",
+      "confidence": "high",
+      "reason": "[article sweep] Used in an example of data exfiltration via DNS requests",
+      "first_seen": "2026-09-23T12:02:01+00:00",
+      "last_seen": "2026-09-23T12:02:01+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Sploitus",
+          "url": "https://sploitus.com/exploit?id=KITPLOIT:1913984219067314417&utm_source=rss&utm_medium=rss",
+          "pub_date": "2026-09-23T12:02:01+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "techroboticslabmade.com",
+      "confidence": "high",
+      "reason": "Listed as Central C2 / MailVault platform",
+      "first_seen": "2026-09-22T23:35:45.683500+00:00",
+      "last_seen": "2026-09-22T23:35:45.683500+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "abnormal.ai",
+          "url": "https://abnormal.ai/blog/eviltokens-oauth-device-codes-bec-operations",
+          "pub_date": "2026-09-22T23:35:45.6835+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "goorkan.info",
+      "confidence": "high",
+      "reason": "Domain promoted by hacked traffic sign, linked to a campaign targeting Iranian dissidents, suggesting attacker control.",
+      "first_seen": "2026-09-21T04:54:33+00:00",
+      "last_seen": "2026-09-22T17:02:08.153305+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "www.aol.com",
+          "url": "https://www.aol.com/articles/iranian-dissidents-claim-chilling-sign-212251000.html",
+          "pub_date": "2026-09-22T17:02:08.153305+00:00"
+        },
+        {
+          "source": "Nypost",
+          "url": "https://nypost.com/2026/09/20/us-news/los-angeles-405-freeway-sign-hacked-with-threats-targeting-iranian-dissidents/",
+          "pub_date": "2026-09-21T04:54:33+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "crownsmark.uk",
+      "confidence": "high",
+      "reason": "Domain used in a scam email, likely attacker-controlled.",
+      "first_seen": "2026-09-22T16:06:06.732366+00:00",
+      "last_seen": "2026-09-22T16:06:06.732366+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.systemscloud.co.uk",
+          "url": "https://www.systemscloud.co.uk/post/the-trademark-scam-email-targeting-uk-business-owners-what-to-look-for",
+          "pub_date": "2026-09-22T16:06:06.732366+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "gogets.dev",
+      "confidence": "high",
+      "reason": "Domain used to distribute Go malware via Go Modules",
+      "first_seen": "2026-09-22T15:17:55+00:00",
+      "last_seen": "2026-09-22T15:17:55+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Aikido.Dev",
+          "url": "https://www.aikido.dev/blog/graphalgo-terraform-go-modules",
+          "pub_date": "2026-09-22T15:17:55+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Graphalgo Campaign"
+        },
+        {
+          "type": "malware",
+          "value": "Graphalgo"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "istatlmenus.com",
+      "confidence": "high",
+      "reason": "Domain used as traffic director in a malicious campaign, controlled by attackers",
+      "first_seen": "2026-09-22T08:37:39.780623+00:00",
+      "last_seen": "2026-09-22T08:37:39.780623+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.diariobitcoin.com",
+          "url": "https://www.diariobitcoin.com/estafas/repositorios-falsos-de-lastpass-distribuyen-el-infostealer-rapuncel-en-github/",
+          "pub_date": "2026-09-22T08:37:39.780623+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "BoryptGrab"
+        },
+        {
+          "type": "malware",
+          "value": "Rapuncel"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "aodintech.com",
+      "confidence": "high",
+      "reason": "[article sweep] Used as C2 infrastructure for malware",
+      "first_seen": "2026-09-22T04:55:20+00:00",
+      "last_seen": "2026-09-22T04:55:20+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Sploitus",
+          "url": "https://sploitus.com/exploit?id=KITPLOIT:TOOLS-GITHUB-KAVAN00-ANDROID-PROJECTOR-C2-MALWARE&utm_source=rss&utm_medium=rss",
+          "pub_date": "2026-09-22T04:55:20+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "bur.thedynamicleap.com",
+      "confidence": "high",
+      "reason": "[article sweep] Used for telemetry exfiltration by malware",
+      "first_seen": "2026-09-22T04:55:20+00:00",
+      "last_seen": "2026-09-22T04:55:20+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Sploitus",
+          "url": "https://sploitus.com/exploit?id=KITPLOIT:TOOLS-GITHUB-KAVAN00-ANDROID-PROJECTOR-C2-MALWARE&utm_source=rss&utm_medium=rss",
+          "pub_date": "2026-09-22T04:55:20+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "cdn-store.aodintech.com",
+      "confidence": "high",
+      "reason": "[article sweep] Used as a CDN for malware distribution",
+      "first_seen": "2026-09-22T04:55:20+00:00",
+      "last_seen": "2026-09-22T04:55:20+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Sploitus",
+          "url": "https://sploitus.com/exploit?id=KITPLOIT:TOOLS-GITHUB-KAVAN00-ANDROID-PROJECTOR-C2-MALWARE&utm_source=rss&utm_medium=rss",
+          "pub_date": "2026-09-22T04:55:20+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "euads-o.api.leiniao.com",
+      "confidence": "high",
+      "reason": "[article sweep] Used as a C2 server for malware",
+      "first_seen": "2026-09-22T04:55:20+00:00",
+      "last_seen": "2026-09-22T04:55:20+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Sploitus",
+          "url": "https://sploitus.com/exploit?id=KITPLOIT:TOOLS-GITHUB-KAVAN00-ANDROID-PROJECTOR-C2-MALWARE&utm_source=rss&utm_medium=rss",
+          "pub_date": "2026-09-22T04:55:20+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "event-api.aodintech.com",
+      "confidence": "high",
+      "reason": "[article sweep] Used for telemetry exfiltration by malware",
+      "first_seen": "2026-09-22T04:55:20+00:00",
+      "last_seen": "2026-09-22T04:55:20+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Sploitus",
+          "url": "https://sploitus.com/exploit?id=KITPLOIT:TOOLS-GITHUB-KAVAN00-ANDROID-PROJECTOR-C2-MALWARE&utm_source=rss&utm_medium=rss",
+          "pub_date": "2026-09-22T04:55:20+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "ota.triplesai.com",
+      "confidence": "high",
+      "reason": "[article sweep] Used for OTA updates in a malware campaign.",
+      "first_seen": "2026-09-22T04:55:20+00:00",
+      "last_seen": "2026-09-22T04:55:20+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Sploitus",
+          "url": "https://sploitus.com/exploit?id=KITPLOIT:TOOLS-GITHUB-KAVAN00-ANDROID-PROJECTOR-C2-MALWARE&utm_source=rss&utm_medium=rss",
+          "pub_date": "2026-09-22T04:55:20+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "pb-api.aodintech.com",
+      "confidence": "high",
+      "reason": "[article sweep] Used as a C2 server in a malware campaign.",
+      "first_seen": "2026-09-22T04:55:20+00:00",
+      "last_seen": "2026-09-22T04:55:20+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Sploitus",
+          "url": "https://sploitus.com/exploit?id=KITPLOIT:TOOLS-GITHUB-KAVAN00-ANDROID-PROJECTOR-C2-MALWARE&utm_source=rss&utm_medium=rss",
+          "pub_date": "2026-09-22T04:55:20+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "pioneerss.com",
+      "confidence": "high",
+      "reason": "[article sweep] Used as a C2 server in a malware campaign.",
+      "first_seen": "2026-09-22T04:55:20+00:00",
+      "last_seen": "2026-09-22T04:55:20+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Sploitus",
+          "url": "https://sploitus.com/exploit?id=KITPLOIT:TOOLS-GITHUB-KAVAN00-ANDROID-PROJECTOR-C2-MALWARE&utm_source=rss&utm_medium=rss",
+          "pub_date": "2026-09-22T04:55:20+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "sta.smartinnovate.net",
+      "confidence": "high",
+      "reason": "[article sweep] Used as a C2 server in a malware campaign.",
+      "first_seen": "2026-09-22T04:55:20+00:00",
+      "last_seen": "2026-09-22T04:55:20+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Sploitus",
+          "url": "https://sploitus.com/exploit?id=KITPLOIT:TOOLS-GITHUB-KAVAN00-ANDROID-PROJECTOR-C2-MALWARE&utm_source=rss&utm_medium=rss",
+          "pub_date": "2026-09-22T04:55:20+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "store-api.aodintech.com",
+      "confidence": "high",
+      "reason": "[article sweep] Used for app distribution in a malware campaign.",
+      "first_seen": "2026-09-22T04:55:20+00:00",
+      "last_seen": "2026-09-22T04:55:20+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Sploitus",
+          "url": "https://sploitus.com/exploit?id=KITPLOIT:TOOLS-GITHUB-KAVAN00-ANDROID-PROJECTOR-C2-MALWARE&utm_source=rss&utm_medium=rss",
+          "pub_date": "2026-09-22T04:55:20+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "bedotiq.net",
+      "confidence": "high",
+      "reason": "Identified as a C2 server used by the malware",
+      "first_seen": "2026-09-21T23:31:21+00:00",
+      "last_seen": "2026-09-21T23:31:21+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Hackread",
+          "url": "https://hackread.com/clickfix-chainscript-rat-fake-spotify-teams-installers/",
+          "pub_date": "2026-09-21T23:31:21+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Adversary Pursuit Group"
+        },
+        {
+          "type": "campaign",
+          "value": "ClickFix"
+        },
+        {
+          "type": "malware",
+          "value": "ChainScript"
+        },
+        {
+          "type": "malware",
+          "value": "EtherRAT"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "shift-api-control.com",
+      "confidence": "high",
+      "reason": "Identified as a C2 server used by the malware",
+      "first_seen": "2026-09-21T23:31:21+00:00",
+      "last_seen": "2026-09-21T23:31:21+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Hackread",
+          "url": "https://hackread.com/clickfix-chainscript-rat-fake-spotify-teams-installers/",
+          "pub_date": "2026-09-21T23:31:21+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Adversary Pursuit Group"
+        },
+        {
+          "type": "campaign",
+          "value": "ClickFix"
+        },
+        {
+          "type": "malware",
+          "value": "ChainScript"
+        },
+        {
+          "type": "malware",
+          "value": "EtherRAT"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "jppost-hi.top",
+      "confidence": "high",
+      "reason": "[article sweep] Listed as a FAKESPY host in a VirusTotal lookup",
+      "first_seen": "2026-09-21T21:06:21+00:00",
+      "last_seen": "2026-09-21T21:06:21+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Sploitus",
+          "url": "https://sploitus.com/exploit?id=KITPLOIT:2316822026530859145&utm_source=rss&utm_medium=rss",
+          "pub_date": "2026-09-21T21:06:21+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "it.api.npmjs.org",
+      "confidence": "high",
+      "reason": "Domain with suspicious TLD likely registered by attacker for malicious purposes",
+      "first_seen": "2026-09-21T21:03:59.851622+00:00",
+      "last_seen": "2026-09-21T21:03:59.851622+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "research.jfrog.com",
+          "url": "https://research.jfrog.com/post/equation-of-compromise/",
+          "pub_date": "2026-09-21T21:03:59.851622+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "phones.it",
+      "confidence": "high",
+      "reason": "Domain with suspicious TLD likely registered by attacker for malicious purposes",
+      "first_seen": "2026-09-21T21:03:59.851622+00:00",
+      "last_seen": "2026-09-21T21:03:59.851622+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "research.jfrog.com",
+          "url": "https://research.jfrog.com/post/equation-of-compromise/",
+          "pub_date": "2026-09-21T21:03:59.851622+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "repositories.it",
+      "confidence": "high",
+      "reason": "Domain with suspicious TLD likely registered by attacker for malicious purposes",
+      "first_seen": "2026-09-21T21:03:59.851622+00:00",
+      "last_seen": "2026-09-21T21:03:59.851622+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "research.jfrog.com",
+          "url": "https://research.jfrog.com/post/equation-of-compromise/",
+          "pub_date": "2026-09-21T21:03:59.851622+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "api.telegram.org.it",
+      "confidence": "high",
+      "reason": "Domain with suspicious TLD likely registered by attacker for malicious purposes",
+      "first_seen": "2026-09-21T18:33:44+00:00",
+      "last_seen": "2026-09-21T18:33:44+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "News.Ycombinator",
+          "url": "https://safedep.io/mathmain-encrypted-loader/",
+          "pub_date": "2026-09-21T18:33:44+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "Mathmain"
+        },
+        {
+          "type": "malware",
+          "value": "Mathsbase"
+        },
+        {
+          "type": "malware",
+          "value": "Math-universe"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "diffiehellman.it",
+      "confidence": "high",
+      "reason": "Domain with suspicious TLD likely registered by attacker for malicious purposes",
+      "first_seen": "2026-09-21T18:33:44+00:00",
+      "last_seen": "2026-09-21T18:33:44+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "News.Ycombinator",
+          "url": "https://safedep.io/mathmain-encrypted-loader/",
+          "pub_date": "2026-09-21T18:33:44+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "Mathmain"
+        },
+        {
+          "type": "malware",
+          "value": "Mathsbase"
+        },
+        {
+          "type": "malware",
+          "value": "Math-universe"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "ethers.it",
+      "confidence": "high",
+      "reason": "Domain with suspicious TLD likely registered by attacker for malicious purposes",
+      "first_seen": "2026-09-21T18:33:44+00:00",
+      "last_seen": "2026-09-21T18:33:44+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "News.Ycombinator",
+          "url": "https://safedep.io/mathmain-encrypted-loader/",
+          "pub_date": "2026-09-21T18:33:44+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "Mathmain"
+        },
+        {
+          "type": "malware",
+          "value": "Mathsbase"
+        },
+        {
+          "type": "malware",
+          "value": "Math-universe"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "execsync.it",
+      "confidence": "high",
+      "reason": "Domain with suspicious TLD likely registered by attacker for malicious purposes",
+      "first_seen": "2026-09-21T18:33:44+00:00",
+      "last_seen": "2026-09-21T18:33:44+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "News.Ycombinator",
+          "url": "https://safedep.io/mathmain-encrypted-loader/",
+          "pub_date": "2026-09-21T18:33:44+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "Mathmain"
+        },
+        {
+          "type": "malware",
+          "value": "Mathsbase"
+        },
+        {
+          "type": "malware",
+          "value": "Math-universe"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "fs.it",
+      "confidence": "high",
+      "reason": "Domain with suspicious TLD likely registered by attacker for malicious purposes",
+      "first_seen": "2026-09-21T18:33:44+00:00",
+      "last_seen": "2026-09-21T18:33:44+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "News.Ycombinator",
+          "url": "https://safedep.io/mathmain-encrypted-loader/",
+          "pub_date": "2026-09-21T18:33:44+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "Mathmain"
+        },
+        {
+          "type": "malware",
+          "value": "Mathsbase"
+        },
+        {
+          "type": "malware",
+          "value": "Math-universe"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "graph.js.it",
+      "confidence": "high",
+      "reason": "Domain with suspicious TLD likely registered by attacker for malicious purposes",
+      "first_seen": "2026-09-21T18:33:44+00:00",
+      "last_seen": "2026-09-21T18:33:44+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "News.Ycombinator",
+          "url": "https://safedep.io/mathmain-encrypted-loader/",
+          "pub_date": "2026-09-21T18:33:44+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "Mathmain"
+        },
+        {
+          "type": "malware",
+          "value": "Mathsbase"
+        },
+        {
+          "type": "malware",
+          "value": "Math-universe"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "analysis-id-lfg.info",
+      "confidence": "high",
+      "reason": "Listed as a C2 domain for ErrTraffic malware",
+      "first_seen": "2026-09-21T18:01:30.115223+00:00",
+      "last_seen": "2026-09-21T18:01:30.115223+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.sekoia.com",
+          "url": "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework",
+          "pub_date": "2026-09-21T18:01:30.115223+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "ErrTraffic"
+        },
+        {
+          "type": "malware",
+          "value": "Exvicy"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "claude.ai.download-app.us",
+      "confidence": "high",
+      "reason": "Redirects users to malicious content.",
+      "first_seen": "2026-09-21T15:38:12.879049+00:00",
+      "last_seen": "2026-09-21T15:38:12.879049+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.huntress.com",
+          "url": "https://www.huntress.com/blog/fakeagent-claude-desktop-malvertising-ends-in-dotnet-rat",
+          "pub_date": "2026-09-21T15:38:12.879049+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "FakeAgent"
+        },
+        {
+          "type": "malware",
+          "value": "SectopRAT"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "attachmentsharingdrive.xyz",
+      "confidence": "high",
+      "reason": "Domain used as C2 infrastructure in the campaign",
+      "first_seen": "2026-09-21T14:20:02+00:00",
+      "last_seen": "2026-09-21T15:00:57.908655+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "www.securonix.com",
+          "url": "https://www.securonix.com/blog/task-stomp-powershell-backdoor-document-theft-remote-access",
+          "pub_date": "2026-09-21T15:00:57.908655+00:00"
+        },
+        {
+          "source": "Thehackernews",
+          "url": "https://thehackernews.com/2026/09/taskstomp-powershell-backdoor-steals.html",
+          "pub_date": "2026-09-21T14:20:02+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Task#stomp"
+        },
+        {
+          "type": "industry",
+          "value": "Government"
+        },
+        {
+          "type": "malware",
+          "value": "Task#stomp"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "corecloudfileshare.xyz",
+      "confidence": "high",
+      "reason": "Domain used as C2 infrastructure in the campaign",
+      "first_seen": "2026-09-21T14:20:02+00:00",
+      "last_seen": "2026-09-21T15:00:57.908655+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "www.securonix.com",
+          "url": "https://www.securonix.com/blog/task-stomp-powershell-backdoor-document-theft-remote-access",
+          "pub_date": "2026-09-21T15:00:57.908655+00:00"
+        },
+        {
+          "source": "Thehackernews",
+          "url": "https://thehackernews.com/2026/09/taskstomp-powershell-backdoor-steals.html",
+          "pub_date": "2026-09-21T14:20:02+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Task#stomp"
+        },
+        {
+          "type": "industry",
+          "value": "Government"
+        },
+        {
+          "type": "malware",
+          "value": "Task#stomp"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "votesmith2026.co",
+      "confidence": "high",
+      "reason": "Described as a slightly altered URL used in malicious election scams",
+      "first_seen": "2026-09-21T12:05:07.773455+00:00",
+      "last_seen": "2026-09-21T12:05:07.773455+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.doppel.com",
+          "url": "https://www.doppel.com/blog/voter-election-scam",
+          "pub_date": "2026-09-21T12:05:07.773455+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "domain.com.evil.com",
+      "confidence": "high",
+      "reason": "[article sweep] Example of a domain used in CORS misconfiguration testing",
+      "first_seen": "2026-09-21T12:00:24+00:00",
+      "last_seen": "2026-09-21T12:00:24+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Sploitus",
+          "url": "https://sploitus.com/exploit?id=KITPLOIT:TOOLS-GITHUB-SANTANDERSECURITYRESEARCH-CORSAIR_SCAN&utm_source=rss&utm_medium=rss",
+          "pub_date": "2026-09-21T12:00:24+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "drivinguber.com",
+      "confidence": "high",
+      "reason": "Used as a primary health probe in the malware's execution pipeline",
+      "first_seen": "2026-09-21T11:02:59.974624+00:00",
+      "last_seen": "2026-09-21T11:02:59.974624+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.seqrite.com",
+          "url": "https://www.seqrite.com/blog/macsync-the-evasive-macos-stealer-exploiting-clickfix-lures/",
+          "pub_date": "2026-09-21T11:02:59.974624+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "ClickFix"
+        },
+        {
+          "type": "malware",
+          "value": "LummaC2"
+        },
+        {
+          "type": "malware",
+          "value": "Mac.C Stealer"
+        },
+        {
+          "type": "malware",
+          "value": "MacSync"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "newsinweb.com",
+      "confidence": "high",
+      "reason": "Used in fallback rotation for C2 communication",
+      "first_seen": "2026-09-21T11:02:59.974624+00:00",
+      "last_seen": "2026-09-21T11:02:59.974624+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.seqrite.com",
+          "url": "https://www.seqrite.com/blog/macsync-the-evasive-macos-stealer-exploiting-clickfix-lures/",
+          "pub_date": "2026-09-21T11:02:59.974624+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "ClickFix"
+        },
+        {
+          "type": "malware",
+          "value": "LummaC2"
+        },
+        {
+          "type": "malware",
+          "value": "Mac.C Stealer"
+        },
+        {
+          "type": "malware",
+          "value": "MacSync"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "mpasvw.com",
+      "confidence": "high",
+      "reason": "Used for data exfiltration in the article",
+      "first_seen": "2026-09-21T11:02:57.464783+00:00",
+      "last_seen": "2026-09-21T11:02:57.464783+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "adamnet.works",
+          "url": "https://adamnet.works/blog/hbo-max-ads-exposed-the-pasteswitch-clickfix-operation/index.html",
+          "pub_date": "2026-09-21T11:02:57.464783+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Claude-themed Delivery"
+        },
+        {
+          "type": "campaign",
+          "value": "Codex Campaign"
+        },
+        {
+          "type": "campaign",
+          "value": "HBO Max Campaign"
+        },
+        {
+          "type": "campaign",
+          "value": "Homebrew Campaign"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "176.53.159.66",
+      "confidence": "high",
+      "reason": "Used for malicious delivery and teardown operations",
+      "first_seen": "2026-09-21T11:02:57.464783+00:00",
+      "last_seen": "2026-09-21T11:02:57.464783+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "adamnet.works",
+          "url": "https://adamnet.works/blog/hbo-max-ads-exposed-the-pasteswitch-clickfix-operation/index.html",
+          "pub_date": "2026-09-21T11:02:57.464783+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Claude-themed Delivery"
+        },
+        {
+          "type": "campaign",
+          "value": "Codex Campaign"
+        },
+        {
+          "type": "campaign",
+          "value": "HBO Max Campaign"
+        },
+        {
+          "type": "campaign",
+          "value": "Homebrew Campaign"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "45.94.47.204",
+      "confidence": "high",
+      "reason": "Used for malicious task service enrollment",
+      "first_seen": "2026-09-21T11:02:57.464783+00:00",
+      "last_seen": "2026-09-21T11:02:57.464783+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "adamnet.works",
+          "url": "https://adamnet.works/blog/hbo-max-ads-exposed-the-pasteswitch-clickfix-operation/index.html",
+          "pub_date": "2026-09-21T11:02:57.464783+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Claude-themed Delivery"
+        },
+        {
+          "type": "campaign",
+          "value": "Codex Campaign"
+        },
+        {
+          "type": "campaign",
+          "value": "HBO Max Campaign"
+        },
+        {
+          "type": "campaign",
+          "value": "Homebrew Campaign"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "62.60.226.69",
+      "confidence": "high",
+      "reason": "Used as a provisioning cluster for malicious operations",
+      "first_seen": "2026-09-21T11:02:57.464783+00:00",
+      "last_seen": "2026-09-21T11:02:57.464783+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "adamnet.works",
+          "url": "https://adamnet.works/blog/hbo-max-ads-exposed-the-pasteswitch-clickfix-operation/index.html",
+          "pub_date": "2026-09-21T11:02:57.464783+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Claude-themed Delivery"
+        },
+        {
+          "type": "campaign",
+          "value": "Codex Campaign"
+        },
+        {
+          "type": "campaign",
+          "value": "HBO Max Campaign"
+        },
+        {
+          "type": "campaign",
+          "value": "Homebrew Campaign"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "our-link.burpcollaborator.net",
+      "confidence": "high",
+      "reason": "[article sweep] Used in a Log4Shell exploit example",
+      "first_seen": "2026-09-21T06:52:33+00:00",
+      "last_seen": "2026-09-21T06:52:33+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Sploitus",
+          "url": "https://sploitus.com/exploit?id=KITPLOIT:TOOLS-GITHUB-TWSEPTIAN-SPRING-BOOT-LOG4J-CVE-2021-44228-DOCKER-LAB&utm_source=rss&utm_medium=rss",
+          "pub_date": "2026-09-21T06:52:33+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "loader.app",
+      "confidence": "high",
+      "reason": "[article sweep] Used as a payload host in a malware campaign",
+      "first_seen": "2026-09-21T04:20:50+00:00",
+      "last_seen": "2026-09-21T04:20:50+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Hackernoon",
+          "url": "https://hackernoon.com/downloading-zoom-or-brave-could-be-new-mac-malware-sonoma-in-disguise",
+          "pub_date": "2026-09-21T04:20:50+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "streamyardinstaller.app",
+      "confidence": "high",
+      "reason": "[article sweep] Used as a fake installer in a malware campaign",
+      "first_seen": "2026-09-21T04:20:50+00:00",
+      "last_seen": "2026-09-21T04:20:50+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Hackernoon",
+          "url": "https://hackernoon.com/downloading-zoom-or-brave-could-be-new-mac-malware-sonoma-in-disguise",
+          "pub_date": "2026-09-21T04:20:50+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "toria.app",
+      "confidence": "high",
+      "reason": "[article sweep] Used in a malware campaign as a payload host",
+      "first_seen": "2026-09-21T04:20:50+00:00",
+      "last_seen": "2026-09-21T04:20:50+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Hackernoon",
+          "url": "https://hackernoon.com/downloading-zoom-or-brave-could-be-new-mac-malware-sonoma-in-disguise",
+          "pub_date": "2026-09-21T04:20:50+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "www-account-booking.com",
+      "confidence": "high",
+      "reason": "Malicious lookalike domain registered by attackers for phishing",
+      "first_seen": "2026-09-20T10:32:24.433292+00:00",
+      "last_seen": "2026-09-20T10:32:24.433292+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.bleepingcomputer.com",
+          "url": "https://www.bleepingcomputer.com/news/security/bookingcom-phishing-campaign-uses-sneaky-character-to-trick-you/",
+          "pub_date": "2026-09-20T10:32:24.433292+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Booking.com Phishing Campaign"
+        },
+        {
+          "type": "campaign",
+          "value": "Intuit Phishing Campaign"
+        },
+        {
+          "type": "industry",
+          "value": "Hospitality"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "91.92.242.30",
+      "confidence": "high",
+      "reason": "[article sweep] Listed as a known C2 IP address",
+      "first_seen": "2026-09-20T06:57:48+00:00",
+      "last_seen": "2026-09-20T06:57:48+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Sploitus",
+          "url": "https://sploitus.com/exploit?id=KITPLOIT:TOOLS-GITHUB-ADIBIRZU-OPENCLAW-SECURITY-MONITOR&utm_source=rss&utm_medium=rss",
+          "pub_date": "2026-09-20T06:57:48+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "rce.ee",
+      "confidence": "high",
+      "reason": "Domain used to proxy an instance for exploit demonstration, suggesting attacker control",
+      "first_seen": "2026-09-18T19:12:10+00:00",
+      "last_seen": "2026-09-18T19:12:10+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Thenewstack",
+          "url": "https://thenewstack.io/claude-exploits-openai-forum/",
+          "pub_date": "2026-09-18T19:12:10+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "HEIF Heist"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-32882"
+        }
+      ]
+    },
     {
       "type": "domain",
       "value": "bfm-tv.net",
@@ -1748,142 +3413,6 @@
         }
       ],
       "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "mpasvw.com",
-      "confidence": "high",
-      "reason": "Used for data exfiltration in the article",
-      "first_seen": "2026-09-16T11:35:24.102374+00:00",
-      "last_seen": "2026-09-16T11:35:24.102374+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "adamnet.works",
-          "url": "https://adamnet.works/blog/hbo-max-ads-exposed-the-pasteswitch-clickfix-operation/index.html",
-          "pub_date": "2026-09-16T11:35:24.102374+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Claude-themed Delivery"
-        },
-        {
-          "type": "campaign",
-          "value": "Codex Campaign"
-        },
-        {
-          "type": "campaign",
-          "value": "HBO Max Campaign"
-        },
-        {
-          "type": "campaign",
-          "value": "Homebrew Campaign"
-        }
-      ]
-    },
-    {
-      "type": "ipv4",
-      "value": "176.53.159.66",
-      "confidence": "high",
-      "reason": "Used for malicious delivery and teardown operations",
-      "first_seen": "2026-09-16T11:35:24.102374+00:00",
-      "last_seen": "2026-09-16T11:35:24.102374+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "adamnet.works",
-          "url": "https://adamnet.works/blog/hbo-max-ads-exposed-the-pasteswitch-clickfix-operation/index.html",
-          "pub_date": "2026-09-16T11:35:24.102374+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Claude-themed Delivery"
-        },
-        {
-          "type": "campaign",
-          "value": "Codex Campaign"
-        },
-        {
-          "type": "campaign",
-          "value": "HBO Max Campaign"
-        },
-        {
-          "type": "campaign",
-          "value": "Homebrew Campaign"
-        }
-      ]
-    },
-    {
-      "type": "ipv4",
-      "value": "45.94.47.204",
-      "confidence": "high",
-      "reason": "Used for malicious task service enrollment",
-      "first_seen": "2026-09-16T11:35:24.102374+00:00",
-      "last_seen": "2026-09-16T11:35:24.102374+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "adamnet.works",
-          "url": "https://adamnet.works/blog/hbo-max-ads-exposed-the-pasteswitch-clickfix-operation/index.html",
-          "pub_date": "2026-09-16T11:35:24.102374+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Claude-themed Delivery"
-        },
-        {
-          "type": "campaign",
-          "value": "Codex Campaign"
-        },
-        {
-          "type": "campaign",
-          "value": "HBO Max Campaign"
-        },
-        {
-          "type": "campaign",
-          "value": "Homebrew Campaign"
-        }
-      ]
-    },
-    {
-      "type": "ipv4",
-      "value": "62.60.226.69",
-      "confidence": "high",
-      "reason": "Used as a provisioning cluster for malicious operations",
-      "first_seen": "2026-09-16T11:35:24.102374+00:00",
-      "last_seen": "2026-09-16T11:35:24.102374+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "adamnet.works",
-          "url": "https://adamnet.works/blog/hbo-max-ads-exposed-the-pasteswitch-clickfix-operation/index.html",
-          "pub_date": "2026-09-16T11:35:24.102374+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Claude-themed Delivery"
-        },
-        {
-          "type": "campaign",
-          "value": "Codex Campaign"
-        },
-        {
-          "type": "campaign",
-          "value": "HBO Max Campaign"
-        },
-        {
-          "type": "campaign",
-          "value": "Homebrew Campaign"
-        }
-      ]
     },
     {
       "type": "ipv4",
@@ -6624,323 +8153,6 @@
           "value": "CRPx0"
         }
       ]
-    },
-    {
-      "type": "ipv4",
-      "value": "67.213.118.179",
-      "confidence": "high",
-      "reason": "[article sweep] Used in exploitation attempts against Oracle WebLogic Server",
-      "first_seen": "2026-08-25T19:04:41.630110+00:00",
-      "last_seen": "2026-08-25T19:04:41.630110+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.cloudsek.com",
-          "url": "https://www.cloudsek.com/blog/honey-for-hackers-a-study-of-attacks-targeting-the-recent-cve-2026-21962-and-other-critical-weblogic-vulnerabilities-on-a-high-interactive-oracle-honeypot",
-          "pub_date": "2026-08-25T19:04:41.63011+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "ipv4",
-      "value": "102.91.71.83",
-      "confidence": "high",
-      "reason": "Listed as a scanning IP used to detect exploit attempts",
-      "first_seen": "2026-08-25T15:50:04+00:00",
-      "last_seen": "2026-08-25T15:50:04+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Techtimes",
-          "url": "https://www.techtimes.com/articles/325482/20260825/attackers-exploit-wordpress-sso-plugin-six-paid-editions-were-never-any-vulnerability-database.htm",
-          "pub_date": "2026-08-25T15:50:04+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "cve",
-          "value": "CVE-2026-15981"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-61979"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "ver.bandhiem.com",
-      "confidence": "high",
-      "reason": "[article sweep] Listed as part of a malicious infrastructure cluster",
-      "first_seen": "2026-08-25T09:20:02+00:00",
-      "last_seen": "2026-08-25T09:20:02+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Hackernoon",
-          "url": "https://hackernoon.com/mirage2fa-hijacks-companies-microsoft-365-sessions-with-over-4k-victims-in-the-us",
-          "pub_date": "2026-08-25T09:20:02+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "expedia-careers.com",
-      "confidence": "high",
-      "reason": "Domain follows the pattern of brand-impersonating recruitment domains used by attackers.",
-      "first_seen": "2026-08-24T20:20:29+00:00",
-      "last_seen": "2026-08-24T20:20:29+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Zimperium",
-          "url": "https://zimperium.com/blog/extended-rapid-response-zimperium-identifies-recruittrap-recruit-scams-are-targeting-enterprise-credentials-on-mobile",
-          "pub_date": "2026-08-24T20:20:29+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "RecruitTrap"
-        },
-        {
-          "type": "industry",
-          "value": "Retail"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "insulet-careers.com",
-      "confidence": "high",
-      "reason": "Domain follows the pattern of brand-impersonating recruitment domains used by attackers.",
-      "first_seen": "2026-08-24T20:20:29+00:00",
-      "last_seen": "2026-08-24T20:20:29+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Zimperium",
-          "url": "https://zimperium.com/blog/extended-rapid-response-zimperium-identifies-recruittrap-recruit-scams-are-targeting-enterprise-credentials-on-mobile",
-          "pub_date": "2026-08-24T20:20:29+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "RecruitTrap"
-        },
-        {
-          "type": "industry",
-          "value": "Retail"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "mondial-relay-global.com",
-      "confidence": "high",
-      "reason": "Domain follows the pattern of brand-impersonating recruitment domains used by attackers.",
-      "first_seen": "2026-08-24T20:20:29+00:00",
-      "last_seen": "2026-08-24T20:20:29+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Zimperium",
-          "url": "https://zimperium.com/blog/extended-rapid-response-zimperium-identifies-recruittrap-recruit-scams-are-targeting-enterprise-credentials-on-mobile",
-          "pub_date": "2026-08-24T20:20:29+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "RecruitTrap"
-        },
-        {
-          "type": "industry",
-          "value": "Retail"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "xmtrading-global.com",
-      "confidence": "high",
-      "reason": "Domain follows the pattern of brand-impersonating recruitment domains used by attackers.",
-      "first_seen": "2026-08-24T20:20:29+00:00",
-      "last_seen": "2026-08-24T20:20:29+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Zimperium",
-          "url": "https://zimperium.com/blog/extended-rapid-response-zimperium-identifies-recruittrap-recruit-scams-are-targeting-enterprise-credentials-on-mobile",
-          "pub_date": "2026-08-24T20:20:29+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "RecruitTrap"
-        },
-        {
-          "type": "industry",
-          "value": "Retail"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "browser-app.com",
-      "confidence": "high",
-      "reason": "[article sweep] Domain used in a malicious browser extension campaign",
-      "first_seen": "2026-08-24T15:33:04.063145+00:00",
-      "last_seen": "2026-08-24T15:33:04.063145+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "socket.dev",
-          "url": "https://socket.dev/blog/firefox-crypto-wallet-theft",
-          "pub_date": "2026-08-24T15:33:04.063145+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "browsify.co",
-      "confidence": "high",
-      "reason": "[article sweep] Domain used in a malicious browser extension campaign",
-      "first_seen": "2026-08-24T15:33:04.063145+00:00",
-      "last_seen": "2026-08-24T15:33:04.063145+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "socket.dev",
-          "url": "https://socket.dev/blog/firefox-crypto-wallet-theft",
-          "pub_date": "2026-08-24T15:33:04.063145+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "cleankits.co",
-      "confidence": "high",
-      "reason": "[article sweep] Associated with malicious Firefox extensions",
-      "first_seen": "2026-08-24T15:33:04.063145+00:00",
-      "last_seen": "2026-08-24T15:33:04.063145+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "socket.dev",
-          "url": "https://socket.dev/blog/firefox-crypto-wallet-theft",
-          "pub_date": "2026-08-24T15:33:04.063145+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "devplugs.co",
-      "confidence": "high",
-      "reason": "[article sweep] Associated with malicious activity in Firefox extensions",
-      "first_seen": "2026-08-24T15:33:04.063145+00:00",
-      "last_seen": "2026-08-24T15:33:04.063145+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "socket.dev",
-          "url": "https://socket.dev/blog/firefox-crypto-wallet-theft",
-          "pub_date": "2026-08-24T15:33:04.063145+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "extlab.co",
-      "confidence": "high",
-      "reason": "[article sweep] Associated with malicious Firefox extensions",
-      "first_seen": "2026-08-24T15:33:04.063145+00:00",
-      "last_seen": "2026-08-24T15:33:04.063145+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "socket.dev",
-          "url": "https://socket.dev/blog/firefox-crypto-wallet-theft",
-          "pub_date": "2026-08-24T15:33:04.063145+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "extlab.org",
-      "confidence": "high",
-      "reason": "[article sweep] Associated with malicious Firefox extensions",
-      "first_seen": "2026-08-24T15:33:04.063145+00:00",
-      "last_seen": "2026-08-24T15:33:04.063145+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "socket.dev",
-          "url": "https://socket.dev/blog/firefox-crypto-wallet-theft",
-          "pub_date": "2026-08-24T15:33:04.063145+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "acrobatreaderonline.com",
-      "confidence": "high",
-      "reason": "[article sweep] Used as a malicious site impersonating Adobe Acrobat Reader.",
-      "first_seen": "2026-08-24T04:47:41+00:00",
-      "last_seen": "2026-08-24T04:47:41+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Cybersecuritynews",
-          "url": "https://cybersecuritynews.com/malware-as-a-service-adobe-themed-domain/",
-          "pub_date": "2026-08-24T04:47:41+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "case-apple.com",
-      "confidence": "high",
-      "reason": "[article sweep] Used in phishing scams impersonating Apple",
-      "first_seen": "2026-08-21T14:51:21+00:00",
-      "last_seen": "2026-08-21T14:51:21+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Straitstimes",
-          "url": "https://www.straitstimes.com/singapore/apple-impersonation-scams-cost-spore-victims-at-least-195k-in-crypto-assets-within-2-weeks",
-          "pub_date": "2026-08-21T14:51:21+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "chat-apple.com",
-      "confidence": "high",
-      "reason": "[article sweep] Used in phishing scams impersonating Apple",
-      "first_seen": "2026-08-21T14:51:21+00:00",
-      "last_seen": "2026-08-21T14:51:21+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Straitstimes",
-          "url": "https://www.straitstimes.com/singapore/apple-impersonation-scams-cost-spore-victims-at-least-195k-in-crypto-assets-within-2-weeks",
-          "pub_date": "2026-08-21T14:51:21+00:00"
-        }
-      ],
-      "tags": []
     }
   ],
   "license": "CC-BY 4.0 \u2014 attribute ThreatCluster (https://threatcluster.io)",
