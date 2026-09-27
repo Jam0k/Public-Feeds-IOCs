@@ -1,7 +1,7 @@
 {
   "feed": "threatcluster-public-iocs",
   "version": 1,
-  "generated_at": "2026-09-25T08:14:13Z",
+  "generated_at": "2026-09-27T06:38:30Z",
   "filters": {
     "confidence": "high",
     "window_days": 30,
@@ -11,8 +11,210 @@
       "domain"
     ]
   },
-  "count": 352,
+  "count": 339,
   "iocs": [
+    {
+      "type": "domain",
+      "value": "account-access-rc3uenqi.elitechiropracticandrehab.com",
+      "confidence": "high",
+      "reason": "Subdomain used for phishing, likely attacker-controlled.",
+      "first_seen": "2026-09-25T21:03:05.521709+00:00",
+      "last_seen": "2026-09-25T21:03:05.521709+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.esentire.com",
+          "url": "https://www.esentire.com/blog/ghostcode-dissecting-a-novel-device-code-phishing-kit",
+          "pub_date": "2026-09-25T21:03:05.521709+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "GhostCode"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "authstep91-booking.info",
+      "confidence": "high",
+      "reason": "Phishing domain mimicking booking.com, used to capture booking data",
+      "first_seen": "2026-09-25T19:32:09.702308+00:00",
+      "last_seen": "2026-09-25T19:32:09.702308+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "borncity.com",
+          "url": "https://borncity.com/blog/2026/03/09/whatsapp-phishing-gibt-es-ein-leck-bei-buchungsplattform-onepagebooking-com/",
+          "pub_date": "2026-09-25T19:32:09.702308+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "0b48fafd6fbe.skyleen.fr",
+      "confidence": "high",
+      "reason": "[article sweep] Listed as part of attacker infrastructure in a threat report",
+      "first_seen": "2026-09-25T17:31:00.178828+00:00",
+      "last_seen": "2026-09-25T17:31:00.178828+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.aikido.dev",
+          "url": "https://www.aikido.dev/blog/supplychain-local-memtensor-npm-pypi",
+          "pub_date": "2026-09-25T17:31:00.178828+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "266297c6df27.skyleen.fr",
+      "confidence": "high",
+      "reason": "[article sweep] Listed as part of attacker infrastructure in a threat report",
+      "first_seen": "2026-09-25T17:31:00.178828+00:00",
+      "last_seen": "2026-09-25T17:31:00.178828+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.aikido.dev",
+          "url": "https://www.aikido.dev/blog/supplychain-local-memtensor-npm-pypi",
+          "pub_date": "2026-09-25T17:31:00.178828+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "73376a079d87.skyleen.fr",
+      "confidence": "high",
+      "reason": "[article sweep] Listed as part of attacker infrastructure in a threat report",
+      "first_seen": "2026-09-25T17:31:00.178828+00:00",
+      "last_seen": "2026-09-25T17:31:00.178828+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.aikido.dev",
+          "url": "https://www.aikido.dev/blog/supplychain-local-memtensor-npm-pypi",
+          "pub_date": "2026-09-25T17:31:00.178828+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "8a8acaf167b3.skyleen.fr",
+      "confidence": "high",
+      "reason": "[article sweep] Listed as part of attacker infrastructure in a threat report",
+      "first_seen": "2026-09-25T17:31:00.178828+00:00",
+      "last_seen": "2026-09-25T17:31:00.178828+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.aikido.dev",
+          "url": "https://www.aikido.dev/blog/supplychain-local-memtensor-npm-pypi",
+          "pub_date": "2026-09-25T17:31:00.178828+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "c747d139e7e9.skyleen.fr",
+      "confidence": "high",
+      "reason": "[article sweep] Listed as part of attacker infrastructure in a threat report",
+      "first_seen": "2026-09-25T17:31:00.178828+00:00",
+      "last_seen": "2026-09-25T17:31:00.178828+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.aikido.dev",
+          "url": "https://www.aikido.dev/blog/supplychain-local-memtensor-npm-pypi",
+          "pub_date": "2026-09-25T17:31:00.178828+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "d4f77a3a8cb0.skyleen.fr",
+      "confidence": "high",
+      "reason": "[article sweep] Listed in an IOC table as part of attacker infrastructure.",
+      "first_seen": "2026-09-25T17:31:00.178828+00:00",
+      "last_seen": "2026-09-25T17:31:00.178828+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.aikido.dev",
+          "url": "https://www.aikido.dev/blog/supplychain-local-memtensor-npm-pypi",
+          "pub_date": "2026-09-25T17:31:00.178828+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "ipv4",
+      "value": "193.178.158.61",
+      "confidence": "high",
+      "reason": "[article sweep] Identified as part of attacker infrastructure in a threat report",
+      "first_seen": "2026-09-25T17:12:02.656577+00:00",
+      "last_seen": "2026-09-25T17:12:02.656577+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.ontinue.com",
+          "url": "https://www.ontinue.com/resource/lunex-unmasked-a-new-information-stealer-deployed-through-byovd/",
+          "pub_date": "2026-09-25T17:12:02.656577+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "enotsosun.pw",
+      "confidence": "high",
+      "reason": "Domain used to host malicious payloads",
+      "first_seen": "2026-09-25T15:01:35.609768+00:00",
+      "last_seen": "2026-09-25T15:01:35.609768+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "isc.sans.edu",
+          "url": "https://isc.sans.edu/diary/32904",
+          "pub_date": "2026-09-25T15:01:35.609768+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "Lumma Stealer"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "mega-nz.goldeneagletransport.com",
+      "confidence": "high",
+      "reason": "Impersonating MEGA for malicious purposes",
+      "first_seen": "2026-09-25T15:01:35.609768+00:00",
+      "last_seen": "2026-09-25T15:01:35.609768+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "isc.sans.edu",
+          "url": "https://isc.sans.edu/diary/32904",
+          "pub_date": "2026-09-25T15:01:35.609768+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "Lumma Stealer"
+        }
+      ]
+    },
     {
       "type": "domain",
       "value": "ernigr-esfilc.com",
@@ -446,7 +648,7 @@
       "type": "domain",
       "value": "elxxvvx.xyz",
       "confidence": "high",
-      "reason": "Referenced as a site distributing a malicious PowerShell script",
+      "reason": "Referenced as a site distributing a PowerShell script for malware delivery.",
       "first_seen": "2026-09-24T03:17:57+00:00",
       "last_seen": "2026-09-24T03:17:57+00:00",
       "source_count": 1,
@@ -1694,28 +1896,6 @@
         }
       ],
       "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "account-access-rc3uenqi.elitechiropracticandrehab.com",
-      "confidence": "high",
-      "reason": "Subdomain used for phishing, likely attacker-controlled.",
-      "first_seen": "2026-09-18T16:33:34.967593+00:00",
-      "last_seen": "2026-09-18T16:33:34.967593+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.esentire.com",
-          "url": "https://www.esentire.com/blog/ghostcode-dissecting-a-novel-device-code-phishing-kit",
-          "pub_date": "2026-09-18T16:33:34.967593+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "GhostCode"
-        }
-      ]
     },
     {
       "type": "domain",
@@ -7632,19 +7812,14 @@
       "value": "nuihuw.top",
       "confidence": "high",
       "reason": "Listed as a backup C2 server in the decrypted configuration",
-      "first_seen": "2026-08-26T10:37:36+00:00",
+      "first_seen": "2026-08-28T11:38:54+00:00",
       "last_seen": "2026-08-28T11:38:54+00:00",
-      "source_count": 2,
+      "source_count": 1,
       "sources": [
         {
           "source": "Socprime",
           "url": "https://socprime.com/active-threats/cambodia-focused-threat-cluster-uses-localized-phishing-and-multi-stage-malware/",
           "pub_date": "2026-08-28T11:38:54+00:00"
-        },
-        {
-          "source": "Acronis",
-          "url": "https://www.acronis.com/en/tru/posts/cambodia-focused-cluster-uses-multi-stage-infection-chain-with-localized-lures/",
-          "pub_date": "2026-08-26T10:37:36+00:00"
         }
       ],
       "tags": [
@@ -7655,502 +7830,6 @@
         {
           "type": "malware",
           "value": "SparkRAT"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "exessupdate.info",
-      "confidence": "high",
-      "reason": "[article sweep] Listed as part of campaign infrastructure in a YARA rule",
-      "first_seen": "2026-08-28T03:24:16+00:00",
-      "last_seen": "2026-08-28T03:24:16+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Cyfirma",
-          "url": "https://www.cyfirma.com/news/weekly-intelligence-report-28-aug-2026/",
-          "pub_date": "2026-08-28T03:24:16+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "greezupdto.info",
-      "confidence": "high",
-      "reason": "[article sweep] Listed as part of campaign infrastructure in a YARA rule",
-      "first_seen": "2026-08-28T03:24:16+00:00",
-      "last_seen": "2026-08-28T03:24:16+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Cyfirma",
-          "url": "https://www.cyfirma.com/news/weekly-intelligence-report-28-aug-2026/",
-          "pub_date": "2026-08-28T03:24:16+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "hillisolutions.info",
-      "confidence": "high",
-      "reason": "[article sweep] Listed as part of campaign infrastructure in a YARA rule",
-      "first_seen": "2026-08-28T03:24:16+00:00",
-      "last_seen": "2026-08-28T03:24:16+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Cyfirma",
-          "url": "https://www.cyfirma.com/news/weekly-intelligence-report-28-aug-2026/",
-          "pub_date": "2026-08-28T03:24:16+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "makerolleds.info",
-      "confidence": "high",
-      "reason": "[article sweep] Listed as part of campaign infrastructure in a YARA rule",
-      "first_seen": "2026-08-28T03:24:16+00:00",
-      "last_seen": "2026-08-28T03:24:16+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Cyfirma",
-          "url": "https://www.cyfirma.com/news/weekly-intelligence-report-28-aug-2026/",
-          "pub_date": "2026-08-28T03:24:16+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "programgreedz.info",
-      "confidence": "high",
-      "reason": "[article sweep] Listed as part of campaign infrastructure in a YARA rule",
-      "first_seen": "2026-08-28T03:24:16+00:00",
-      "last_seen": "2026-08-28T03:24:16+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Cyfirma",
-          "url": "https://www.cyfirma.com/news/weekly-intelligence-report-28-aug-2026/",
-          "pub_date": "2026-08-28T03:24:16+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "reggyupdated.info",
-      "confidence": "high",
-      "reason": "[article sweep] Listed as part of campaign infrastructure in a YARA rule",
-      "first_seen": "2026-08-28T03:24:16+00:00",
-      "last_seen": "2026-08-28T03:24:16+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Cyfirma",
-          "url": "https://www.cyfirma.com/news/weekly-intelligence-report-28-aug-2026/",
-          "pub_date": "2026-08-28T03:24:16+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "ipv4",
-      "value": "192.162.199.149",
-      "confidence": "high",
-      "reason": "[article sweep] IP address associated with malware file hosting",
-      "first_seen": "2026-08-28T03:24:16+00:00",
-      "last_seen": "2026-08-28T03:24:16+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Cyfirma",
-          "url": "https://www.cyfirma.com/news/weekly-intelligence-report-28-aug-2026/",
-          "pub_date": "2026-08-28T03:24:16+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "crpx0.su",
-      "confidence": "high",
-      "reason": "[article sweep] Identified as hosting a panel for a ransomware group",
-      "first_seen": "2026-08-27T21:32:24.332810+00:00",
-      "last_seen": "2026-08-27T21:32:24.332810+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "theravenfile.com",
-          "url": "https://theravenfile.com/2026/08/03/crpx0-scammer-turned-ransomware-operator/",
-          "pub_date": "2026-08-27T21:32:24.33281+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "flash-token.shop",
-      "confidence": "high",
-      "reason": "[article sweep] Identified as a scam service domain",
-      "first_seen": "2026-08-27T21:32:24.332810+00:00",
-      "last_seen": "2026-08-27T21:32:24.332810+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "theravenfile.com",
-          "url": "https://theravenfile.com/2026/08/03/crpx0-scammer-turned-ransomware-operator/",
-          "pub_date": "2026-08-27T21:32:24.33281+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "qt-proxy.org",
-      "confidence": "high",
-      "reason": "Seized domain used for malware communication and authentication",
-      "first_seen": "2026-08-27T13:47:51+00:00",
-      "last_seen": "2026-08-27T17:12:48.782680+00:00",
-      "source_count": 2,
-      "sources": [
-        {
-          "source": "www.lumen.com",
-          "url": "https://www.lumen.com/blog/en-us/the-infrastructure-quartermaster-inside-a-china-nexus-state-enablement-model",
-          "pub_date": "2026-08-27T17:12:48.78268+00:00"
-        },
-        {
-          "source": "Techtimes",
-          "url": "https://www.techtimes.com/articles/325708/20260827/china-hacked-nasa-federal-reserve-fbi-seizes-platforms-behind-eight-year-breach.htm",
-          "pub_date": "2026-08-27T13:47:51+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "industry",
-          "value": "Financial"
-        },
-        {
-          "type": "industry",
-          "value": "Government"
-        },
-        {
-          "type": "apt_group",
-          "value": "Flax Typhoon"
-        },
-        {
-          "type": "apt_group",
-          "value": "Mustang Panda"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "qtproxy.xyz",
-      "confidence": "high",
-      "reason": "Seized domain used for malware communication and authentication",
-      "first_seen": "2026-08-27T13:47:51+00:00",
-      "last_seen": "2026-08-27T17:12:48.782680+00:00",
-      "source_count": 2,
-      "sources": [
-        {
-          "source": "www.lumen.com",
-          "url": "https://www.lumen.com/blog/en-us/the-infrastructure-quartermaster-inside-a-china-nexus-state-enablement-model",
-          "pub_date": "2026-08-27T17:12:48.78268+00:00"
-        },
-        {
-          "source": "Techtimes",
-          "url": "https://www.techtimes.com/articles/325708/20260827/china-hacked-nasa-federal-reserve-fbi-seizes-platforms-behind-eight-year-breach.htm",
-          "pub_date": "2026-08-27T13:47:51+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "industry",
-          "value": "Financial"
-        },
-        {
-          "type": "industry",
-          "value": "Government"
-        },
-        {
-          "type": "apt_group",
-          "value": "Flax Typhoon"
-        },
-        {
-          "type": "apt_group",
-          "value": "Mustang Panda"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "qt-team.com",
-      "confidence": "high",
-      "reason": "Seized domain used for malware communication and authentication",
-      "first_seen": "2026-08-27T13:47:51+00:00",
-      "last_seen": "2026-08-27T17:12:48.782680+00:00",
-      "source_count": 2,
-      "sources": [
-        {
-          "source": "www.lumen.com",
-          "url": "https://www.lumen.com/blog/en-us/the-infrastructure-quartermaster-inside-a-china-nexus-state-enablement-model",
-          "pub_date": "2026-08-27T17:12:48.78268+00:00"
-        },
-        {
-          "source": "Techtimes",
-          "url": "https://www.techtimes.com/articles/325708/20260827/china-hacked-nasa-federal-reserve-fbi-seizes-platforms-behind-eight-year-breach.htm",
-          "pub_date": "2026-08-27T13:47:51+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "industry",
-          "value": "Financial"
-        },
-        {
-          "type": "industry",
-          "value": "Government"
-        },
-        {
-          "type": "apt_group",
-          "value": "Flax Typhoon"
-        },
-        {
-          "type": "apt_group",
-          "value": "Mustang Panda"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "datewithmealways.online",
-      "confidence": "high",
-      "reason": "[article sweep] Associated with malicious activity by DragonDoll malware",
-      "first_seen": "2026-08-27T14:50:04+00:00",
-      "last_seen": "2026-08-27T14:50:04+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Habr",
-          "url": "https://habr.com/en/amp/publications/1073720/",
-          "pub_date": "2026-08-27T14:50:04+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "datewithmealways.site",
-      "confidence": "high",
-      "reason": "[article sweep] Associated with malicious activity by DragonDoll malware",
-      "first_seen": "2026-08-27T14:50:04+00:00",
-      "last_seen": "2026-08-27T14:50:04+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Habr",
-          "url": "https://habr.com/en/amp/publications/1073720/",
-          "pub_date": "2026-08-27T14:50:04+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "digitaladstracking.com",
-      "confidence": "high",
-      "reason": "[article sweep] Associated with malicious activity by DragonDoll malware",
-      "first_seen": "2026-08-27T14:50:04+00:00",
-      "last_seen": "2026-08-27T14:50:04+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Habr",
-          "url": "https://habr.com/en/amp/publications/1073720/",
-          "pub_date": "2026-08-27T14:50:04+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "ipv4",
-      "value": "112.90.22.197",
-      "confidence": "high",
-      "reason": "[article sweep] Listed as a C&C server for a backdoor",
-      "first_seen": "2026-08-27T09:18:43.223353+00:00",
-      "last_seen": "2026-08-27T09:18:43.223353+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "securelist.com",
-          "url": "https://securelist.com/versatile-ddos-trojan-for-linux/64361/",
-          "pub_date": "2026-08-27T09:18:43.223353+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "ipv4",
-      "value": "112.90.252.76",
-      "confidence": "high",
-      "reason": "[article sweep] Listed as a C&C server for a backdoor",
-      "first_seen": "2026-08-27T09:18:43.223353+00:00",
-      "last_seen": "2026-08-27T09:18:43.223353+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "securelist.com",
-          "url": "https://securelist.com/versatile-ddos-trojan-for-linux/64361/",
-          "pub_date": "2026-08-27T09:18:43.223353+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "ipv4",
-      "value": "116.10.189.246",
-      "confidence": "high",
-      "reason": "[article sweep] Listed as a C&C server for a Trojan",
-      "first_seen": "2026-08-27T09:18:43.223353+00:00",
-      "last_seen": "2026-08-27T09:18:43.223353+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "securelist.com",
-          "url": "https://securelist.com/versatile-ddos-trojan-for-linux/64361/",
-          "pub_date": "2026-08-27T09:18:43.223353+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "ipv4",
-      "value": "121.12.110.96",
-      "confidence": "high",
-      "reason": "[article sweep] Listed as a C&C server for a Trojan",
-      "first_seen": "2026-08-27T09:18:43.223353+00:00",
-      "last_seen": "2026-08-27T09:18:43.223353+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "securelist.com",
-          "url": "https://securelist.com/versatile-ddos-trojan-for-linux/64361/",
-          "pub_date": "2026-08-27T09:18:43.223353+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "ipv4",
-      "value": "202.103.178.76",
-      "confidence": "high",
-      "reason": "[article sweep] Decrypted as a C&C server IP address by a backdoor",
-      "first_seen": "2026-08-27T09:18:43.223353+00:00",
-      "last_seen": "2026-08-27T09:18:43.223353+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "securelist.com",
-          "url": "https://securelist.com/versatile-ddos-trojan-for-linux/64361/",
-          "pub_date": "2026-08-27T09:18:43.223353+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "cryptoprice.pw",
-      "confidence": "high",
-      "reason": "Listed as a service advertised by the actor for scams and malware delivery",
-      "first_seen": "2026-08-26T17:39:45+00:00",
-      "last_seen": "2026-08-26T17:39:45+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Kelacyber",
-          "url": "https://www.kelacyber.com/blog/crpx0-threat-actor-profile/",
-          "pub_date": "2026-08-26T17:39:45+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "CRPx0 Campaign"
-        },
-        {
-          "type": "industry",
-          "value": "Healthcare"
-        },
-        {
-          "type": "ransomware_group",
-          "value": "CRPx0"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "databreach.space",
-      "confidence": "high",
-      "reason": "Identified as an earlier version of the actor\u2019s ransomware blog",
-      "first_seen": "2026-08-26T17:39:45+00:00",
-      "last_seen": "2026-08-26T17:39:45+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Kelacyber",
-          "url": "https://www.kelacyber.com/blog/crpx0-threat-actor-profile/",
-          "pub_date": "2026-08-26T17:39:45+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "CRPx0 Campaign"
-        },
-        {
-          "type": "industry",
-          "value": "Healthcare"
-        },
-        {
-          "type": "ransomware_group",
-          "value": "CRPx0"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "socialposter.org",
-      "confidence": "high",
-      "reason": "Registered by the threat actor and associated with cybercrime activity",
-      "first_seen": "2026-08-26T17:39:45+00:00",
-      "last_seen": "2026-08-26T17:39:45+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Kelacyber",
-          "url": "https://www.kelacyber.com/blog/crpx0-threat-actor-profile/",
-          "pub_date": "2026-08-26T17:39:45+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "CRPx0 Campaign"
-        },
-        {
-          "type": "industry",
-          "value": "Healthcare"
-        },
-        {
-          "type": "ransomware_group",
-          "value": "CRPx0"
         }
       ]
     }

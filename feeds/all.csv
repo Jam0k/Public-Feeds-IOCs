@@ -1,4 +1,15 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason
+domain,account-access-rc3uenqi.elitechiropracticandrehab.com,high,2026-09-25T21:03:05.521709+00:00,2026-09-25T21:03:05.521709+00:00,1,www.esentire.com:2026-09-25,"Subdomain used for phishing, likely attacker-controlled."
+domain,authstep91-booking.info,high,2026-09-25T19:32:09.702308+00:00,2026-09-25T19:32:09.702308+00:00,1,borncity.com:2026-09-25,"Phishing domain mimicking booking.com, used to capture booking data"
+domain,0b48fafd6fbe.skyleen.fr,high,2026-09-25T17:31:00.178828+00:00,2026-09-25T17:31:00.178828+00:00,1,www.aikido.dev:2026-09-25,[article sweep] Listed as part of attacker infrastructure in a threat report
+domain,266297c6df27.skyleen.fr,high,2026-09-25T17:31:00.178828+00:00,2026-09-25T17:31:00.178828+00:00,1,www.aikido.dev:2026-09-25,[article sweep] Listed as part of attacker infrastructure in a threat report
+domain,73376a079d87.skyleen.fr,high,2026-09-25T17:31:00.178828+00:00,2026-09-25T17:31:00.178828+00:00,1,www.aikido.dev:2026-09-25,[article sweep] Listed as part of attacker infrastructure in a threat report
+domain,8a8acaf167b3.skyleen.fr,high,2026-09-25T17:31:00.178828+00:00,2026-09-25T17:31:00.178828+00:00,1,www.aikido.dev:2026-09-25,[article sweep] Listed as part of attacker infrastructure in a threat report
+domain,c747d139e7e9.skyleen.fr,high,2026-09-25T17:31:00.178828+00:00,2026-09-25T17:31:00.178828+00:00,1,www.aikido.dev:2026-09-25,[article sweep] Listed as part of attacker infrastructure in a threat report
+domain,d4f77a3a8cb0.skyleen.fr,high,2026-09-25T17:31:00.178828+00:00,2026-09-25T17:31:00.178828+00:00,1,www.aikido.dev:2026-09-25,[article sweep] Listed in an IOC table as part of attacker infrastructure.
+ipv4,193.178.158.61,high,2026-09-25T17:12:02.656577+00:00,2026-09-25T17:12:02.656577+00:00,1,www.ontinue.com:2026-09-25,[article sweep] Identified as part of attacker infrastructure in a threat report
+domain,enotsosun.pw,high,2026-09-25T15:01:35.609768+00:00,2026-09-25T15:01:35.609768+00:00,1,isc.sans.edu:2026-09-25,Domain used to host malicious payloads
+domain,mega-nz.goldeneagletransport.com,high,2026-09-25T15:01:35.609768+00:00,2026-09-25T15:01:35.609768+00:00,1,isc.sans.edu:2026-09-25,Impersonating MEGA for malicious purposes
 domain,ernigr-esfilc.com,high,2026-09-24T13:12:11.081376+00:00,2026-09-24T13:12:11.081376+00:00,1,haveibeensquatted.com:2026-09-24,"Used as an iframe domain in a phishing campaign, indicating attacker control."
 domain,lpanel-bckaoplsks.top,high,2026-09-24T13:12:11.081376+00:00,2026-09-24T13:12:11.081376+00:00,1,haveibeensquatted.com:2026-09-24,"Appears in referrer entries recording victim traffic, indicating attacker control."
 domain,lpanel-bumaepxuje-iframe.top,high,2026-09-24T13:12:11.081376+00:00,2026-09-24T13:12:11.081376+00:00,1,haveibeensquatted.com:2026-09-24,Identified as an active secondary domain used by attackers.
@@ -14,7 +25,7 @@ domain,lviattack.eu,high,2026-09-24T04:31:27.990972+00:00,2026-09-24T04:31:27.99
 domain,mdsattacks.com,high,2026-09-24T04:31:27.990972+00:00,2026-09-24T04:31:27.990972+00:00,1,en.wikipedia.org:2026-09-24,Domain associated with Microarchitectural Data Sampling attacks
 domain,meltdownattack.com,high,2026-09-24T04:31:27.990972+00:00,2026-09-24T04:31:27.990972+00:00,1,en.wikipedia.org:2026-09-24,Domain associated with the Meltdown attack
 domain,zombieloadattack.com,high,2026-09-24T04:31:27.990972+00:00,2026-09-24T04:31:27.990972+00:00,1,en.wikipedia.org:2026-09-24,Domain associated with the ZombieLoad attack
-domain,elxxvvx.xyz,high,2026-09-24T03:17:57+00:00,2026-09-24T03:17:57+00:00,1,Bleepingcomputer:2026-09-24,Referenced as a site distributing a malicious PowerShell script
+domain,elxxvvx.xyz,high,2026-09-24T03:17:57+00:00,2026-09-24T03:17:57+00:00,1,Bleepingcomputer:2026-09-24,Referenced as a site distributing a PowerShell script for malware delivery.
 domain,gocommunity.io,high,2026-09-22T15:17:55+00:00,2026-09-23T18:07:17+00:00,2,Thehackernews:2026-09-23|Aikido.Dev:2026-09-22,Domain used to distribute Go malware via Terraform providers and Go Modules
 domain,evilcorp.co.uk,high,2026-09-23T16:55:18+00:00,2026-09-23T16:55:18+00:00,1,Sploitus:2026-09-23,"[article sweep] Used in an example of a scan target, indicating attacker infrastructure"
 domain,tradeyourevents.com,high,2026-09-23T15:27:39+00:00,2026-09-23T15:27:39+00:00,1,Central.Xero:2026-09-23,[article sweep] Used in phishing emails impersonating Xero
@@ -68,7 +79,6 @@ domain,www-account-booking.com,high,2026-09-20T10:32:24.433292+00:00,2026-09-20T
 ipv4,91.92.242.30,high,2026-09-20T06:57:48+00:00,2026-09-20T06:57:48+00:00,1,Sploitus:2026-09-20,[article sweep] Listed as a known C2 IP address
 domain,rce.ee,high,2026-09-18T19:12:10+00:00,2026-09-18T19:12:10+00:00,1,Thenewstack:2026-09-18,"Domain used to proxy an instance for exploit demonstration, suggesting attacker control"
 domain,bfm-tv.net,high,2026-09-18T18:02:50.264733+00:00,2026-09-18T18:02:50.264733+00:00,1,www.tf1info.fr:2026-09-18,[article sweep] Fraudulent site impersonating a legitimate news outlet.
-domain,account-access-rc3uenqi.elitechiropracticandrehab.com,high,2026-09-18T16:33:34.967593+00:00,2026-09-18T16:33:34.967593+00:00,1,www.esentire.com:2026-09-18,"Subdomain used for phishing, likely attacker-controlled."
 domain,hireproflix-iauhsmsuv-gabriels-projects-75362d20.vercel.app,high,2026-09-18T16:31:07.760690+00:00,2026-09-18T16:31:07.760690+00:00,1,gitlab-com.gitlab.io:2026-09-18,[article sweep] Used in a phishing campaign by a threat actor.
 ipv4,172.86.93.139,high,2026-09-18T16:31:07.760690+00:00,2026-09-18T16:31:07.760690+00:00,1,gitlab-com.gitlab.io:2026-09-18,Listed as a command and control address used by the threat actor
 domain,indiatodays.org,high,2026-09-16T16:47:29+00:00,2026-09-18T15:54:22+00:00,3,Thehackernews:2026-09-18|Socprime:2026-09-18|Zscaler:2026-09-16,"Impersonating a legitimate media organization, likely attacker-registered"
@@ -327,27 +337,4 @@ domain,san-sid.com,high,2026-08-31T10:00:36+00:00,2026-08-31T10:00:36+00:00,1,Un
 ipv4,31.58.209.241,high,2026-08-30T20:09:53+00:00,2026-08-30T20:09:53+00:00,1,Pasqualepillitteri.It:2026-08-30,IP address hosting stolen data and offensive tools
 domain,cookie-whitelist.top,high,2026-08-29T16:32:56.604853+00:00,2026-08-29T16:32:56.604853+00:00,1,socket.dev:2026-08-29,"Domain used to load a chain-specific second stage for wallet draining, indicating attacker control."
 domain,ggle-analytics.com,high,2026-08-29T16:32:56.604853+00:00,2026-08-29T16:32:56.604853+00:00,1,socket.dev:2026-08-29,"Domain used to fetch a fake update-and-restore wizard for phishing, indicating attacker control."
-domain,nuihuw.top,high,2026-08-26T10:37:36+00:00,2026-08-28T11:38:54+00:00,2,Socprime:2026-08-28|Acronis:2026-08-26,Listed as a backup C2 server in the decrypted configuration
-domain,exessupdate.info,high,2026-08-28T03:24:16+00:00,2026-08-28T03:24:16+00:00,1,Cyfirma:2026-08-28,[article sweep] Listed as part of campaign infrastructure in a YARA rule
-domain,greezupdto.info,high,2026-08-28T03:24:16+00:00,2026-08-28T03:24:16+00:00,1,Cyfirma:2026-08-28,[article sweep] Listed as part of campaign infrastructure in a YARA rule
-domain,hillisolutions.info,high,2026-08-28T03:24:16+00:00,2026-08-28T03:24:16+00:00,1,Cyfirma:2026-08-28,[article sweep] Listed as part of campaign infrastructure in a YARA rule
-domain,makerolleds.info,high,2026-08-28T03:24:16+00:00,2026-08-28T03:24:16+00:00,1,Cyfirma:2026-08-28,[article sweep] Listed as part of campaign infrastructure in a YARA rule
-domain,programgreedz.info,high,2026-08-28T03:24:16+00:00,2026-08-28T03:24:16+00:00,1,Cyfirma:2026-08-28,[article sweep] Listed as part of campaign infrastructure in a YARA rule
-domain,reggyupdated.info,high,2026-08-28T03:24:16+00:00,2026-08-28T03:24:16+00:00,1,Cyfirma:2026-08-28,[article sweep] Listed as part of campaign infrastructure in a YARA rule
-ipv4,192.162.199.149,high,2026-08-28T03:24:16+00:00,2026-08-28T03:24:16+00:00,1,Cyfirma:2026-08-28,[article sweep] IP address associated with malware file hosting
-domain,crpx0.su,high,2026-08-27T21:32:24.332810+00:00,2026-08-27T21:32:24.332810+00:00,1,theravenfile.com:2026-08-27,[article sweep] Identified as hosting a panel for a ransomware group
-domain,flash-token.shop,high,2026-08-27T21:32:24.332810+00:00,2026-08-27T21:32:24.332810+00:00,1,theravenfile.com:2026-08-27,[article sweep] Identified as a scam service domain
-domain,qt-proxy.org,high,2026-08-27T13:47:51+00:00,2026-08-27T17:12:48.782680+00:00,2,www.lumen.com:2026-08-27|Techtimes:2026-08-27,Seized domain used for malware communication and authentication
-domain,qtproxy.xyz,high,2026-08-27T13:47:51+00:00,2026-08-27T17:12:48.782680+00:00,2,www.lumen.com:2026-08-27|Techtimes:2026-08-27,Seized domain used for malware communication and authentication
-domain,qt-team.com,high,2026-08-27T13:47:51+00:00,2026-08-27T17:12:48.782680+00:00,2,www.lumen.com:2026-08-27|Techtimes:2026-08-27,Seized domain used for malware communication and authentication
-domain,datewithmealways.online,high,2026-08-27T14:50:04+00:00,2026-08-27T14:50:04+00:00,1,Habr:2026-08-27,[article sweep] Associated with malicious activity by DragonDoll malware
-domain,datewithmealways.site,high,2026-08-27T14:50:04+00:00,2026-08-27T14:50:04+00:00,1,Habr:2026-08-27,[article sweep] Associated with malicious activity by DragonDoll malware
-domain,digitaladstracking.com,high,2026-08-27T14:50:04+00:00,2026-08-27T14:50:04+00:00,1,Habr:2026-08-27,[article sweep] Associated with malicious activity by DragonDoll malware
-ipv4,112.90.22.197,high,2026-08-27T09:18:43.223353+00:00,2026-08-27T09:18:43.223353+00:00,1,securelist.com:2026-08-27,[article sweep] Listed as a C&C server for a backdoor
-ipv4,112.90.252.76,high,2026-08-27T09:18:43.223353+00:00,2026-08-27T09:18:43.223353+00:00,1,securelist.com:2026-08-27,[article sweep] Listed as a C&C server for a backdoor
-ipv4,116.10.189.246,high,2026-08-27T09:18:43.223353+00:00,2026-08-27T09:18:43.223353+00:00,1,securelist.com:2026-08-27,[article sweep] Listed as a C&C server for a Trojan
-ipv4,121.12.110.96,high,2026-08-27T09:18:43.223353+00:00,2026-08-27T09:18:43.223353+00:00,1,securelist.com:2026-08-27,[article sweep] Listed as a C&C server for a Trojan
-ipv4,202.103.178.76,high,2026-08-27T09:18:43.223353+00:00,2026-08-27T09:18:43.223353+00:00,1,securelist.com:2026-08-27,[article sweep] Decrypted as a C&C server IP address by a backdoor
-domain,cryptoprice.pw,high,2026-08-26T17:39:45+00:00,2026-08-26T17:39:45+00:00,1,Kelacyber:2026-08-26,Listed as a service advertised by the actor for scams and malware delivery
-domain,databreach.space,high,2026-08-26T17:39:45+00:00,2026-08-26T17:39:45+00:00,1,Kelacyber:2026-08-26,Identified as an earlier version of the actor’s ransomware blog
-domain,socialposter.org,high,2026-08-26T17:39:45+00:00,2026-08-26T17:39:45+00:00,1,Kelacyber:2026-08-26,Registered by the threat actor and associated with cybercrime activity
+domain,nuihuw.top,high,2026-08-28T11:38:54+00:00,2026-08-28T11:38:54+00:00,1,Socprime:2026-08-28,Listed as a backup C2 server in the decrypted configuration
