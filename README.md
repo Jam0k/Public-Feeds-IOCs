@@ -1,6 +1,6 @@
 # ThreatCluster — Public Feeds & IOCs
 
-Free, no-auth threat intelligence feeds from [ThreatCluster](https://threatcluster.io).
+Free, no-auth [threat intelligence feeds](https://threatcluster.io/free-threat-intelligence-feeds) from [ThreatCluster](https://threatcluster.io).
 Clustered and deduplicated from 20,000+ sources.
 
 **TLP:CLEAR** — free to use, redistribute, and integrate. Attribution appreciated.
