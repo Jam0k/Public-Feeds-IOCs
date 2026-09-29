@@ -1,4 +1,20 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason
+domain,evil-wikipedia.org,high,2026-09-28T19:03:15+00:00,2026-09-28T19:03:15+00:00,1,Github.Blog:2026-09-28,[article sweep] Described as an attacker-controlled page used for phishing
+domain,redseaaxis.com,high,2026-09-28T18:46:11+00:00,2026-09-28T18:46:11+00:00,1,Hornreview:2026-09-28,[article sweep] Described as a network of websites for influence operations
+domain,fonts.chrorne.com,high,2026-09-28T18:35:59.996122+00:00,2026-09-28T18:35:59.996122+00:00,1,www.security.com:2026-09-28,Listed among domains related to Antino-related samples
+domain,fonts.tarotfree101.top,high,2026-09-28T18:35:59.996122+00:00,2026-09-28T18:35:59.996122+00:00,1,www.security.com:2026-09-28,Listed among domains related to Antino-related samples
+domain,microsoft-flash.com,high,2026-09-28T18:35:59.996122+00:00,2026-09-28T18:35:59.996122+00:00,1,www.security.com:2026-09-28,Listed among domains related to Antino-related samples
+domain,pub-abfa7742e315485a98a5fafd6dbfb68e.r2.dev,high,2026-09-28T18:35:59.996122+00:00,2026-09-28T18:35:59.996122+00:00,1,www.security.com:2026-09-28,Listed among domains related to Antino-related samples
+domain,robot.avbliud.com,high,2026-09-28T18:35:59.996122+00:00,2026-09-28T18:35:59.996122+00:00,1,www.security.com:2026-09-28,Listed among domains related to Antino-related samples
+domain,www.f1ash.org.cn,high,2026-09-28T18:35:59.996122+00:00,2026-09-28T18:35:59.996122+00:00,1,www.security.com:2026-09-28,Listed among domains related to Antino-related samples
+domain,2ftwitter.com,high,2026-09-28T18:00:29.453145+00:00,2026-09-28T18:00:29.453145+00:00,1,adguard.com:2026-09-28,[article sweep] Suspicious lookalike domain likely used for phishing
+domain,adblockprime.co,high,2026-09-28T18:00:29.453145+00:00,2026-09-28T18:00:29.453145+00:00,1,adguard.com:2026-09-28,[article sweep] Website used to distribute a suspicious ad blocker
+domain,api2.poperblocker.com,high,2026-09-28T18:00:29.453145+00:00,2026-09-28T18:00:29.453145+00:00,1,adguard.com:2026-09-28,[article sweep] Listed as a destination for personal data in spyware filter
+ipv4,45.83.193.150,high,2026-09-28T16:57:00+00:00,2026-09-28T16:57:00+00:00,1,Sploitus:2026-09-28,[article sweep] Used in a Log4j exploit attempt.
+domain,not-really-google.com,high,2026-09-28T16:55:34+00:00,2026-09-28T16:55:34+00:00,1,Sploitus:2026-09-28,[article sweep] Described as a phishing domain used in Evilginx setup
+domain,lapsus.ar.io,high,2026-09-28T11:42:42.129736+00:00,2026-09-28T11:42:42.129736+00:00,1,www.cloudskope.com:2026-09-28,[article sweep] Described as an attacker-controlled domain used in a cyberattack
+domain,abcd.oastify.com,high,2026-09-28T10:55:27+00:00,2026-09-28T10:55:27+00:00,1,Sploitus:2026-09-28,[article sweep] Used in security testing tool for HTTP request smuggling
+ipv4,2.56.10.86,high,2026-09-28T05:19:24+00:00,2026-09-28T05:19:24+00:00,1,Cyfirma:2026-09-28,[article sweep] Listed as an IOC in a threat report.
 domain,ejemplo.com.atacante.net,high,2026-09-28T04:00:41+00:00,2026-09-28T04:00:41+00:00,1,Ciberseguridadlatam:2026-09-28,[article sweep] Domain used in an example of cross-origin attacks
 domain,ejemplo.com-malicioso.org,high,2026-09-28T04:00:41+00:00,2026-09-28T04:00:41+00:00,1,Ciberseguridadlatam:2026-09-28,[article sweep] Domain used in an example of cross-origin attacks
 domain,grannityrektonaver.co,high,2026-09-27T21:09:17+00:00,2026-09-27T21:09:17+00:00,1,Sploitus:2026-09-27,[article sweep] Domain identified as hosting malicious content
@@ -351,5 +367,3 @@ domain,fine-work-team.com,high,2026-08-31T12:34:31.263942+00:00,2026-08-31T12:34
 domain,timelevel12.com,high,2026-08-31T12:34:31.263942+00:00,2026-08-31T12:34:31.263942+00:00,1,hunt.io:2026-08-31,Listed as a delivery URL for a malicious script
 domain,san-sid.com,high,2026-08-31T10:00:36+00:00,2026-08-31T10:00:36+00:00,1,Unit42.Paloaltonetworks:2026-08-31,Domain hosting obfuscated PowerShell payload used as RAT dropper
 ipv4,31.58.209.241,high,2026-08-30T20:09:53+00:00,2026-08-30T20:09:53+00:00,1,Pasqualepillitteri.It:2026-08-30,IP address hosting stolen data and offensive tools
-domain,cookie-whitelist.top,high,2026-08-29T16:32:56.604853+00:00,2026-08-29T16:32:56.604853+00:00,1,socket.dev:2026-08-29,"Domain used to load a chain-specific second stage for wallet draining, indicating attacker control."
-domain,ggle-analytics.com,high,2026-08-29T16:32:56.604853+00:00,2026-08-29T16:32:56.604853+00:00,1,socket.dev:2026-08-29,"Domain used to fetch a fake update-and-restore wizard for phishing, indicating attacker control."

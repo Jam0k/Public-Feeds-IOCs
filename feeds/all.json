@@ -1,7 +1,7 @@
 {
   "feed": "threatcluster-public-iocs",
   "version": 1,
-  "generated_at": "2026-09-28T06:54:03Z",
+  "generated_at": "2026-09-29T06:42:30Z",
   "filters": {
     "confidence": "high",
     "window_days": 30,
@@ -11,8 +11,382 @@
       "domain"
     ]
   },
-  "count": 354,
+  "count": 368,
   "iocs": [
+    {
+      "type": "domain",
+      "value": "evil-wikipedia.org",
+      "confidence": "high",
+      "reason": "[article sweep] Described as an attacker-controlled page used for phishing",
+      "first_seen": "2026-09-28T19:03:15+00:00",
+      "last_seen": "2026-09-28T19:03:15+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Github.Blog",
+          "url": "https://github.blog/security/how-we-found-24-android-vulnerabilities-using-our-open-source-ai-security-agent/",
+          "pub_date": "2026-09-28T19:03:15+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "redseaaxis.com",
+      "confidence": "high",
+      "reason": "[article sweep] Described as a network of websites for influence operations",
+      "first_seen": "2026-09-28T18:46:11+00:00",
+      "last_seen": "2026-09-28T18:46:11+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Hornreview",
+          "url": "https://hornreview.org/2026/09/28/the-ai-disinformation-war-in-the-horn-and-the-economics-of-digital-conflict/",
+          "pub_date": "2026-09-28T18:46:11+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "fonts.chrorne.com",
+      "confidence": "high",
+      "reason": "Listed among domains related to Antino-related samples",
+      "first_seen": "2026-09-28T18:35:59.996122+00:00",
+      "last_seen": "2026-09-28T18:35:59.996122+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.security.com",
+          "url": "https://www.security.com/threat-intelligence/jewelbug-crypto-fraud-espionage",
+          "pub_date": "2026-09-28T18:35:59.996122+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Cl-sta-0049"
+        },
+        {
+          "type": "apt_group",
+          "value": "Earth Alux"
+        },
+        {
+          "type": "apt_group",
+          "value": "Jewelbug"
+        },
+        {
+          "type": "apt_group",
+          "value": "Ref7707"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "fonts.tarotfree101.top",
+      "confidence": "high",
+      "reason": "Listed among domains related to Antino-related samples",
+      "first_seen": "2026-09-28T18:35:59.996122+00:00",
+      "last_seen": "2026-09-28T18:35:59.996122+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.security.com",
+          "url": "https://www.security.com/threat-intelligence/jewelbug-crypto-fraud-espionage",
+          "pub_date": "2026-09-28T18:35:59.996122+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Cl-sta-0049"
+        },
+        {
+          "type": "apt_group",
+          "value": "Earth Alux"
+        },
+        {
+          "type": "apt_group",
+          "value": "Jewelbug"
+        },
+        {
+          "type": "apt_group",
+          "value": "Ref7707"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "microsoft-flash.com",
+      "confidence": "high",
+      "reason": "Listed among domains related to Antino-related samples",
+      "first_seen": "2026-09-28T18:35:59.996122+00:00",
+      "last_seen": "2026-09-28T18:35:59.996122+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.security.com",
+          "url": "https://www.security.com/threat-intelligence/jewelbug-crypto-fraud-espionage",
+          "pub_date": "2026-09-28T18:35:59.996122+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Cl-sta-0049"
+        },
+        {
+          "type": "apt_group",
+          "value": "Earth Alux"
+        },
+        {
+          "type": "apt_group",
+          "value": "Jewelbug"
+        },
+        {
+          "type": "apt_group",
+          "value": "Ref7707"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "pub-abfa7742e315485a98a5fafd6dbfb68e.r2.dev",
+      "confidence": "high",
+      "reason": "Listed among domains related to Antino-related samples",
+      "first_seen": "2026-09-28T18:35:59.996122+00:00",
+      "last_seen": "2026-09-28T18:35:59.996122+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.security.com",
+          "url": "https://www.security.com/threat-intelligence/jewelbug-crypto-fraud-espionage",
+          "pub_date": "2026-09-28T18:35:59.996122+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Cl-sta-0049"
+        },
+        {
+          "type": "apt_group",
+          "value": "Earth Alux"
+        },
+        {
+          "type": "apt_group",
+          "value": "Jewelbug"
+        },
+        {
+          "type": "apt_group",
+          "value": "Ref7707"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "robot.avbliud.com",
+      "confidence": "high",
+      "reason": "Listed among domains related to Antino-related samples",
+      "first_seen": "2026-09-28T18:35:59.996122+00:00",
+      "last_seen": "2026-09-28T18:35:59.996122+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.security.com",
+          "url": "https://www.security.com/threat-intelligence/jewelbug-crypto-fraud-espionage",
+          "pub_date": "2026-09-28T18:35:59.996122+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Cl-sta-0049"
+        },
+        {
+          "type": "apt_group",
+          "value": "Earth Alux"
+        },
+        {
+          "type": "apt_group",
+          "value": "Jewelbug"
+        },
+        {
+          "type": "apt_group",
+          "value": "Ref7707"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "www.f1ash.org.cn",
+      "confidence": "high",
+      "reason": "Listed among domains related to Antino-related samples",
+      "first_seen": "2026-09-28T18:35:59.996122+00:00",
+      "last_seen": "2026-09-28T18:35:59.996122+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.security.com",
+          "url": "https://www.security.com/threat-intelligence/jewelbug-crypto-fraud-espionage",
+          "pub_date": "2026-09-28T18:35:59.996122+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Cl-sta-0049"
+        },
+        {
+          "type": "apt_group",
+          "value": "Earth Alux"
+        },
+        {
+          "type": "apt_group",
+          "value": "Jewelbug"
+        },
+        {
+          "type": "apt_group",
+          "value": "Ref7707"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "2ftwitter.com",
+      "confidence": "high",
+      "reason": "[article sweep] Suspicious lookalike domain likely used for phishing",
+      "first_seen": "2026-09-28T18:00:29.453145+00:00",
+      "last_seen": "2026-09-28T18:00:29.453145+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "adguard.com",
+          "url": "https://adguard.com/en/blog/big-star-labs-spyware.html",
+          "pub_date": "2026-09-28T18:00:29.453145+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "adblockprime.co",
+      "confidence": "high",
+      "reason": "[article sweep] Website used to distribute a suspicious ad blocker",
+      "first_seen": "2026-09-28T18:00:29.453145+00:00",
+      "last_seen": "2026-09-28T18:00:29.453145+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "adguard.com",
+          "url": "https://adguard.com/en/blog/big-star-labs-spyware.html",
+          "pub_date": "2026-09-28T18:00:29.453145+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "api2.poperblocker.com",
+      "confidence": "high",
+      "reason": "[article sweep] Listed as a destination for personal data in spyware filter",
+      "first_seen": "2026-09-28T18:00:29.453145+00:00",
+      "last_seen": "2026-09-28T18:00:29.453145+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "adguard.com",
+          "url": "https://adguard.com/en/blog/big-star-labs-spyware.html",
+          "pub_date": "2026-09-28T18:00:29.453145+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "ipv4",
+      "value": "45.83.193.150",
+      "confidence": "high",
+      "reason": "[article sweep] Used in a Log4j exploit attempt.",
+      "first_seen": "2026-09-28T16:57:00+00:00",
+      "last_seen": "2026-09-28T16:57:00+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Sploitus",
+          "url": "https://sploitus.com/exploit?id=KITPLOIT:TOOLS-GITHUB-CORELIGHT-CVE-2021-44228&utm_source=rss&utm_medium=rss",
+          "pub_date": "2026-09-28T16:57:00+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "not-really-google.com",
+      "confidence": "high",
+      "reason": "[article sweep] Described as a phishing domain used in Evilginx setup",
+      "first_seen": "2026-09-28T16:55:34+00:00",
+      "last_seen": "2026-09-28T16:55:34+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Sploitus",
+          "url": "https://sploitus.com/exploit?id=KITPLOIT:7863178637250697575&utm_source=rss&utm_medium=rss",
+          "pub_date": "2026-09-28T16:55:34+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "lapsus.ar.io",
+      "confidence": "high",
+      "reason": "[article sweep] Described as an attacker-controlled domain used in a cyberattack",
+      "first_seen": "2026-09-28T11:42:42.129736+00:00",
+      "last_seen": "2026-09-28T11:42:42.129736+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.cloudskope.com",
+          "url": "https://www.cloudskope.com/insights/post/elsevier-hijack-teampcp-credential-chain",
+          "pub_date": "2026-09-28T11:42:42.129736+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "abcd.oastify.com",
+      "confidence": "high",
+      "reason": "[article sweep] Used in security testing tool for HTTP request smuggling",
+      "first_seen": "2026-09-28T10:55:27+00:00",
+      "last_seen": "2026-09-28T10:55:27+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Sploitus",
+          "url": "https://sploitus.com/exploit?id=KITPLOIT:TOOLS-GITHUB-HAHWUL-SMUGGLEX&utm_source=rss&utm_medium=rss",
+          "pub_date": "2026-09-28T10:55:27+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "ipv4",
+      "value": "2.56.10.86",
+      "confidence": "high",
+      "reason": "[article sweep] Listed as an IOC in a threat report.",
+      "first_seen": "2026-09-28T05:19:24+00:00",
+      "last_seen": "2026-09-28T05:19:24+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cyfirma",
+          "url": "https://www.cyfirma.com/news/weekly-intelligence-report-25-sep-2026/",
+          "pub_date": "2026-09-28T05:19:24+00:00"
+        }
+      ],
+      "tags": []
+    },
     {
       "type": "domain",
       "value": "ejemplo.com.atacante.net",
@@ -8092,50 +8466,6 @@
         {
           "type": "cve",
           "value": "CVE-2024-28000"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "cookie-whitelist.top",
-      "confidence": "high",
-      "reason": "Domain used to load a chain-specific second stage for wallet draining, indicating attacker control.",
-      "first_seen": "2026-08-29T16:32:56.604853+00:00",
-      "last_seen": "2026-08-29T16:32:56.604853+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "socket.dev",
-          "url": "https://socket.dev/blog/chrome-edge-extension-wallet-drainer",
-          "pub_date": "2026-08-29T16:32:56.604853+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Superior"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "ggle-analytics.com",
-      "confidence": "high",
-      "reason": "Domain used to fetch a fake update-and-restore wizard for phishing, indicating attacker control.",
-      "first_seen": "2026-08-29T16:32:56.604853+00:00",
-      "last_seen": "2026-08-29T16:32:56.604853+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "socket.dev",
-          "url": "https://socket.dev/blog/chrome-edge-extension-wallet-drainer",
-          "pub_date": "2026-08-29T16:32:56.604853+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Superior"
         }
       ]
     }
