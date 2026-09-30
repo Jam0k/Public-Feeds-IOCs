@@ -1,16 +1,44 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason
+ipv4,89.125.66.183,high,2026-09-29T18:30:57.944399+00:00,2026-09-29T18:30:57.944399+00:00,1,,[article sweep] Used as a WebDAV server for malicious activity.
+ipv4,103.160.59.97,high,2026-09-29T17:20:08+00:00,2026-09-29T17:20:08+00:00,1,,"Listed as an indicator in Microsoft's report, associated with malicious activity"
+ipv4,172.94.9.194,high,2026-09-29T05:01:43+00:00,2026-09-29T05:01:43+00:00,1,,[article sweep] IP address hosting a Mythic C2 portal
+ipv4,193.201.185.90,high,2026-09-29T05:01:43+00:00,2026-09-29T05:01:43+00:00,1,,[article sweep] Exposed Mythic C2 portal
+ipv4,69.48.229.140,high,2026-09-29T00:00:00+00:00,2026-09-29T00:00:00+00:00,1,,[article sweep] Used as a C2 server for malicious npm packages.
+ipv4,134.122.155.135,high,2026-09-28T17:51:54+00:00,2026-09-28T17:51:54+00:00,1,,[article sweep] IP address used for C2 communications
 ipv4,45.83.193.150,high,2026-09-28T16:57:00+00:00,2026-09-28T16:57:00+00:00,1,,[article sweep] Used in a Log4j exploit attempt.
-ipv4,2.56.10.86,high,2026-09-28T05:19:24+00:00,2026-09-28T05:19:24+00:00,1,,[article sweep] Listed as an IOC in a threat report.
+ipv4,2.56.10.86,high,2026-09-28T05:19:24+00:00,2026-09-28T05:19:24+00:00,1,,Listed in an IOC section likely indicating attacker-controlled infrastructure
+ipv4,46.30.188.13,high,2026-08-13T12:20:26+00:00,2026-09-28T05:19:24+00:00,2,,Listed in an IOC section likely indicating attacker-controlled infrastructure
+ipv4,206.82.6.22,high,2026-09-27T15:00:00+00:00,2026-09-27T15:00:00+00:00,1,,[article sweep] Used for reverse shell connections
+ipv4,65.98.5.158,high,2026-09-27T15:00:00+00:00,2026-09-27T15:00:00+00:00,1,,[article sweep] Hosts a list of targets for a WordPress scanner
 ipv4,103.101.85.123,high,2026-09-27T09:02:32.908946+00:00,2026-09-27T09:02:32.908946+00:00,1,,IP address hosts a panel resolving to phishing domains
 ipv4,193.178.158.61,high,2026-09-25T17:12:02.656577+00:00,2026-09-27T09:02:32.908946+00:00,1,,IP address hosts a panel on the same network as the exfiltration server
 ipv4,104.219.234.138,high,2026-09-26T12:01:02.128049+00:00,2026-09-26T12:01:02.128049+00:00,1,,Used for secondary staging and management by threat actor
+ipv4,46.8.9.223,high,2026-09-25T11:06:36.553165+00:00,2026-09-25T11:06:36.553165+00:00,1,,[article sweep] Part of a coordinated domain cluster with DGA-style domains
+ipv4,194.87.89.30,high,2026-09-24T13:03:24+00:00,2026-09-24T13:03:24+00:00,1,,[article sweep] Used to download AnyDesk RMM by threat actor
+ipv4,96.9.125.52,high,2026-09-22T10:31:16+00:00,2026-09-22T10:31:16+00:00,1,,[article sweep] Hosts a domain impersonating China Digital Times
+ipv4,189.141.53.203,high,2026-09-22T05:01:55+00:00,2026-09-22T05:01:55+00:00,1,,[article sweep] Exposed Mythic C2 management interface
 ipv4,176.53.159.66,high,2026-09-14T16:32:19.199902+00:00,2026-09-21T11:02:57.464783+00:00,1,,Used for malicious delivery and teardown operations
 ipv4,45.94.47.204,high,2026-09-14T16:32:19.199902+00:00,2026-09-21T11:02:57.464783+00:00,1,,Used for malicious task service enrollment
 ipv4,62.60.226.69,high,2026-09-14T16:32:19.199902+00:00,2026-09-21T11:02:57.464783+00:00,1,,Used as a provisioning cluster for malicious operations
+ipv4,109.94.171.225,high,2026-09-21T04:20:50+00:00,2026-09-21T04:20:50+00:00,1,,[article sweep] IP address used for data exfiltration
 ipv4,91.92.242.30,high,2026-09-20T06:57:48+00:00,2026-09-20T06:57:48+00:00,1,,[article sweep] Listed as a known C2 IP address
+ipv4,95.158.131.141,high,2026-09-19T05:01:06+00:00,2026-09-19T05:01:06+00:00,1,,[article sweep] Exposed Mythic C2 management interface
 ipv4,172.86.93.139,high,2026-09-18T16:31:07.760690+00:00,2026-09-18T16:31:07.760690+00:00,1,,Listed as a command and control address used by the threat actor
+ipv4,171.22.16.187,high,2026-09-18T08:42:53.457982+00:00,2026-09-18T08:42:53.457982+00:00,1,,[article sweep] IP address associated with SpiceRAT servers
+ipv4,185.122.185.36,high,2026-09-18T08:42:53.457982+00:00,2026-09-18T08:42:53.457982+00:00,1,,[article sweep] IP address associated with SpiceRAT servers
+ipv4,185.243.112.253,high,2026-09-18T08:42:53.457982+00:00,2026-09-18T08:42:53.457982+00:00,1,,[article sweep] IP address associated with SpiceRAT servers
+ipv4,185.243.114.124,high,2026-09-18T08:42:53.457982+00:00,2026-09-18T08:42:53.457982+00:00,1,,[article sweep] IP associated with a domain impersonating Turkmenistan's Ministry of Foreign Affairs
+ipv4,185.243.114.238,high,2026-09-18T08:42:53.457982+00:00,2026-09-18T08:42:53.457982+00:00,1,,[article sweep] IP associated with a domain impersonating Tajikistan's national IT-hub project
 ipv4,188.190.18.208,high,2026-09-18T08:42:53.457982+00:00,2026-09-18T08:42:53.457982+00:00,1,,[article sweep] Confirmed as SpiceRAT infrastructure.
+ipv4,193.29.57.159,high,2026-09-18T08:42:53.457982+00:00,2026-09-18T08:42:53.457982+00:00,1,,[article sweep] Associated with SpiceRAT C2 infrastructure
+ipv4,193.29.58.192,high,2026-09-18T08:42:53.457982+00:00,2026-09-18T08:42:53.457982+00:00,1,,[article sweep] Associated with NodeEdgeRAT infrastructure
+ipv4,193.29.59.159,high,2026-09-18T08:42:53.457982+00:00,2026-09-18T08:42:53.457982+00:00,1,,[article sweep] Part of a cluster of SpiceRAT servers
 ipv4,2.58.14.95,high,2026-09-18T08:42:53.457982+00:00,2026-09-18T08:42:53.457982+00:00,1,,[article sweep] Confirmed as SpiceRAT infrastructure.
+ipv4,31.58.220.250,high,2026-09-18T08:42:53.457982+00:00,2026-09-18T08:42:53.457982+00:00,1,,[article sweep] Part of a cluster of SpiceRAT servers
+ipv4,45.86.162.141,high,2026-09-18T08:42:53.457982+00:00,2026-09-18T08:42:53.457982+00:00,1,,"[article sweep] Resolved to mail.postmfa.com, linked to malware infrastructure"
+ipv4,46.30.188.54,high,2026-09-18T08:42:53.457982+00:00,2026-09-18T08:42:53.457982+00:00,1,,"[article sweep] Targets Tojiktelecom, Tajikistan's state telecommunications provider"
+ipv4,46.30.189.191,high,2026-09-18T08:42:53.457982+00:00,2026-09-18T08:42:53.457982+00:00,1,,[article sweep] Hosts a TLC-issued certificate for a typosquat domain
+ipv4,46.30.191.230,high,2026-09-18T08:42:53.457982+00:00,2026-09-18T08:42:53.457982+00:00,1,,[article sweep] Part of a cluster of SpiceRAT servers
 ipv4,37.16.74.100,high,2026-09-15T19:32:30.314356+00:00,2026-09-18T07:04:44.392720+00:00,1,,Listed as a C2 endpoint
 ipv4,184.75.129.113,high,2026-09-17T16:10:35+00:00,2026-09-17T16:10:35+00:00,1,,[article sweep] Listed in a YARA rule as an IP address associated with APT31
 ipv4,195.91.239.226,high,2026-09-17T16:10:35+00:00,2026-09-17T16:10:35+00:00,1,,[article sweep] Listed in a YARA rule as an IP address associated with APT31
@@ -24,7 +52,11 @@ ipv4,94.102.49.125,high,2026-09-16T18:44:04+00:00,2026-09-16T18:44:04+00:00,1,,[
 ipv4,5.252.177.210,high,2026-09-16T14:15:51+00:00,2026-09-16T14:15:51+00:00,1,,[article sweep] Identified as a C2 server for RUSTGate malware
 ipv4,176.101.204.172,high,2026-09-16T08:34:19+00:00,2026-09-16T08:34:19+00:00,1,,[article sweep] Listed in a blacklist for malicious activity
 ipv4,93.183.250.196,high,2026-09-16T08:34:19+00:00,2026-09-16T08:34:19+00:00,1,,[article sweep] Listed in a blacklist for malicious activity
+ipv4,213.165.63.49,high,2026-09-16T07:00:42.026578+00:00,2026-09-16T07:00:42.026578+00:00,1,,[article sweep] Used for scanning and exploitation against routers and cameras
+ipv4,89.208.97.165,high,2026-09-16T07:00:42.026578+00:00,2026-09-16T07:00:42.026578+00:00,1,,[article sweep] Open directory containing files for compromising Ukrainian sites
+ipv4,23.148.228.253,high,2026-09-16T05:02:01+00:00,2026-09-16T05:02:01+00:00,1,,[article sweep] Exposed Mythic C2 management interface
 ipv4,150.251.113.223,high,2026-09-15T14:55:03+00:00,2026-09-15T14:55:03+00:00,1,,[article sweep] Identified as a C2 IP used by the attacker
+ipv4,206.166.251.164,high,2026-09-15T12:32:07.447809+00:00,2026-09-15T12:32:07.447809+00:00,1,,[article sweep] Hosts cloud.shinewrist.net serving PowerShell staging payloads
 ipv4,62.60.135.34,high,2026-09-14T20:32:11.162627+00:00,2026-09-14T20:32:11.162627+00:00,1,,[article sweep] Listed as a staging IP address for malicious activity.
 ipv4,74.93.203.1,high,2026-09-14T20:32:11.162627+00:00,2026-09-14T20:32:11.162627+00:00,1,,[article sweep] Listed as an IP address involved in malicious activity.
 ipv4,114.10.43.203,high,2026-09-14T18:49:14+00:00,2026-09-14T18:49:14+00:00,1,,[article sweep] Listed as an IP address actively engaged in attacks.
@@ -36,11 +68,13 @@ ipv4,37.114.144.209,high,2026-09-14T18:49:14+00:00,2026-09-14T18:49:14+00:00,1,,
 ipv4,92.241.13.140,high,2026-09-14T18:49:14+00:00,2026-09-14T18:49:14+00:00,1,,[article sweep] Listed as an IP address actively engaged in attacks.
 ipv4,92.241.13.213,high,2026-09-14T18:49:14+00:00,2026-09-14T18:49:14+00:00,1,,[article sweep] Listed as an IP address actively engaged in attacks.
 ipv4,77.91.65.13,high,2026-09-14T14:37:33+00:00,2026-09-14T14:37:33+00:00,1,,Connected directly by malicious PE
+ipv4,154.198.49.31,high,2026-09-13T05:02:04+00:00,2026-09-13T05:02:04+00:00,1,,[article sweep] IP address hosting a Mythic management portal
 ipv4,203.160.68.12,high,2026-09-12T15:05:46+00:00,2026-09-12T15:05:46+00:00,1,,[article sweep] Identified as a source IP for malicious activity
+ipv4,64.207.232.6,high,2026-09-12T12:45:25+00:00,2026-09-12T12:45:25+00:00,1,,[article sweep] C2 communications observed to this IP
 ipv4,92.118.112.181,high,2026-09-12T11:01:24+00:00,2026-09-12T11:01:24+00:00,1,,[article sweep] Listed as a known malicious IP
 ipv4,186.227.4.31,high,2026-09-11T18:07:49+00:00,2026-09-11T18:07:49+00:00,1,,[article sweep] Used in a reverse shell attack
-ipv4,1.2.3.5,high,2026-09-11T16:02:45+00:00,2026-09-11T16:02:45+00:00,1,,[article sweep] Used in a privilege escalation attack
 ipv4,45.158.196.75,high,2026-09-11T10:05:52+00:00,2026-09-11T10:05:52+00:00,1,,Listed as an IP address used in the attack.
+ipv4,95.181.173.36,high,2026-09-11T07:11:14+00:00,2026-09-11T07:11:14+00:00,1,,[article sweep] Open directory containing attacker's toolchain
 ipv4,113.141.67.163,high,2026-09-10T16:49:06+00:00,2026-09-10T16:49:06+00:00,1,,[article sweep] IP address detected as source of attack and blacklisted
 ipv4,185.221.135.138,high,2026-09-10T16:49:06+00:00,2026-09-10T16:49:06+00:00,1,,[article sweep] IP address detected as source of attack and blacklisted
 ipv4,185.53.88.49,high,2026-09-10T16:49:06+00:00,2026-09-10T16:49:06+00:00,1,,[article sweep] IP address detected as source of attack and blacklisted
@@ -53,8 +87,6 @@ ipv4,45.234.152.38,high,2026-09-10T16:49:06+00:00,2026-09-10T16:49:06+00:00,1,,[
 ipv4,91.212.38.210,high,2026-09-10T16:49:06+00:00,2026-09-10T16:49:06+00:00,1,,[article sweep] IP address detected as source of attack and blacklisted
 ipv4,92.246.85.154,high,2026-09-10T16:49:06+00:00,2026-09-10T16:49:06+00:00,1,,[article sweep] Listed as an IP address detected in an attack and added to a blacklist.
 ipv4,62.60.130.193,high,2026-09-09T17:46:24+00:00,2026-09-09T17:46:24+00:00,1,,[article sweep] Listed as a source of brute force traffic
-ipv4,1.2.3.4,high,2026-09-09T03:54:51+00:00,2026-09-09T03:54:51+00:00,1,,[article sweep] Listed as the C2 server APT28 provisioned for this campaign
-ipv4,5.6.7.8,high,2026-09-09T03:54:51+00:00,2026-09-09T03:54:51+00:00,1,,[article sweep] Listed as a C2 server in a behavioral detection tool
 ipv4,92.255.57.155,high,2026-09-08T16:31:14.745150+00:00,2026-09-08T16:31:14.745150+00:00,1,,[article sweep] Used in a malicious campaign
 ipv4,122.183.48.195,high,2026-09-08T13:32:49.587167+00:00,2026-09-08T13:32:49.587167+00:00,1,,[article sweep] Used by a threat actor in an attack
 ipv4,122.183.48.35,high,2026-09-08T13:32:49.587167+00:00,2026-09-08T13:32:49.587167+00:00,1,,[article sweep] Used by a threat actor in an attack
@@ -80,9 +112,14 @@ ipv4,193.58.122.42,high,2026-09-03T10:18:27+00:00,2026-09-03T11:31:50.519345+00:
 ipv4,198.13.159.44,high,2026-06-24T10:20:25+00:00,2026-09-03T11:31:50.519345+00:00,2,,Listed as a network indicator in the article
 ipv4,199.91.221.42,high,2026-06-24T10:20:25+00:00,2026-09-03T11:31:50.519345+00:00,2,,Listed as a network indicator in the article
 ipv4,45.158.196.23,high,2026-09-03T10:18:27+00:00,2026-09-03T11:31:50.519345+00:00,2,,Listed as a network indicator in the article
+ipv4,94.156.114.250,high,2026-09-03T10:18:27+00:00,2026-09-03T10:18:27+00:00,1,,[article sweep] Hosts malicious files for download
+ipv4,61.7.209.88,high,2026-09-03T06:25:20+00:00,2026-09-03T06:25:20+00:00,1,,[article sweep] Linked to Mirai botnet by OSINT
+ipv4,95.161.128.62,high,2026-09-03T06:25:20+00:00,2026-09-03T06:25:20+00:00,1,,[article sweep] Linked to Mirai botnet by OSINT
 ipv4,185.254.222.105,high,2026-09-01T00:33:21+00:00,2026-09-03T02:00:03+00:00,1,,IP address used as a source for malicious email activity
 ipv4,176.65.148.184,high,2026-09-01T22:29:26+00:00,2026-09-02T13:19:54+00:00,3,,Listed as the attacker's IP address used for exploitation attempts against honeypots.
+ipv4,154.127.53.78,high,2026-09-02T12:53:51+00:00,2026-09-02T12:53:51+00:00,1,,[article sweep] IP address linked to phishing email campaigns
 ipv4,206.238.196.96,high,2026-09-01T19:09:37+00:00,2026-09-01T19:09:37+00:00,1,,Explicitly identified as a hardcoded C2 IP for the PackClient RAT.
+ipv4,206.119.167.207,high,2026-09-01T18:20:31.503341+00:00,2026-09-01T18:20:31.503341+00:00,1,,[article sweep] Hosts a Proxy Pool Management System for compromised IoT devices
 ipv4,103.45.66.18,high,2026-08-31T10:00:21+00:00,2026-08-31T12:14:00+00:00,2,,"IP address listed with multiple ports, likely used for malicious purposes"
 ipv4,192.253.225.173,high,2026-08-31T10:00:21+00:00,2026-08-31T12:14:00+00:00,2,,"IP address listed with multiple ports, likely used for malicious purposes"
 ipv4,31.58.209.241,high,2026-08-30T20:09:53+00:00,2026-08-30T20:09:53+00:00,1,,IP address hosting stolen data and offensive tools
@@ -96,20 +133,33 @@ ipv4,112.90.252.76,high,2026-08-27T09:18:43.223353+00:00,2026-08-27T09:18:43.223
 ipv4,116.10.189.246,high,2026-08-27T09:18:43.223353+00:00,2026-08-27T09:18:43.223353+00:00,1,,[article sweep] Listed as a C&C server for a Trojan
 ipv4,121.12.110.96,high,2026-08-27T09:18:43.223353+00:00,2026-08-27T09:18:43.223353+00:00,1,,[article sweep] Listed as a C&C server for a Trojan
 ipv4,202.103.178.76,high,2026-08-27T09:18:43.223353+00:00,2026-08-27T09:18:43.223353+00:00,1,,[article sweep] Decrypted as a C&C server IP address by a backdoor
+ipv4,154.36.188.98,high,2026-08-27T09:00:40+00:00,2026-08-27T09:00:40+00:00,1,,[article sweep] IP address used for hosting malicious payloads
+ipv4,192.252.180.45,high,2026-08-27T09:00:40+00:00,2026-08-27T09:00:40+00:00,1,,[article sweep] Observed C2 communications with this IP
+ipv4,64.81.30.99,high,2026-08-27T09:00:40+00:00,2026-08-27T09:00:40+00:00,1,,[article sweep] Post-compromise communications observed to this IP
 ipv4,67.213.118.179,high,2026-08-25T19:04:41.630110+00:00,2026-08-25T19:04:41.630110+00:00,1,,[article sweep] Used in exploitation attempts against Oracle WebLogic Server
 ipv4,102.91.71.83,high,2026-08-25T15:50:04+00:00,2026-08-25T15:50:04+00:00,1,,Listed as a scanning IP used to detect exploit attempts
+ipv4,181.214.165.173,high,2026-08-25T09:20:02+00:00,2026-08-25T09:20:02+00:00,1,,[article sweep] IP address used for testing attacker infrastructure
 ipv4,103.236.54.207,high,2026-08-19T19:56:48+00:00,2026-08-19T19:56:48+00:00,1,,[article sweep] Used as a staging server by the attacker
+ipv4,72.23.77.35,high,2026-08-19T18:46:43+00:00,2026-08-19T18:46:43+00:00,1,,[article sweep] Used in a credential-spraying campaign for ransomware intrusion
 ipv4,196.251.84.11,high,2026-08-19T09:52:51+00:00,2026-08-19T09:52:51+00:00,1,,Identified as active C2 server for Spyroid-based malware.
+ipv4,130.94.80.141,high,2026-08-18T20:46:13+00:00,2026-08-18T20:46:13+00:00,1,,[article sweep] IP address associated with unauthorized access attempts
 ipv4,85.206.161.241,high,2026-08-17T13:59:31+00:00,2026-08-17T13:59:31+00:00,1,,[article sweep] IP address used for direct C2 communication via WebSocket
+ipv4,104.251.180.179,high,2026-08-13T21:19:45+00:00,2026-08-13T21:19:45+00:00,1,,[article sweep] IP address used for C2 communications
+ipv4,209.99.187.28,high,2026-08-13T21:19:45+00:00,2026-08-13T21:19:45+00:00,1,,[article sweep] Backup IP for Lifted Dreams malware client
 ipv4,45.192.12.34,high,2026-08-13T21:19:45+00:00,2026-08-13T21:19:45+00:00,1,,[article sweep] Identified as a C2 server in malware configuration
 ipv4,108.187.42.63,high,2026-08-13T12:20:26+00:00,2026-08-13T20:36:50.388033+00:00,2,,Identified as C2 server responding to requests.
-ipv4,46.30.188.13,high,2026-08-13T12:20:26+00:00,2026-08-13T12:20:26+00:00,1,,Identified as C2 server responding to requests.
 ipv4,131.226.2.6,high,2026-08-12T14:35:21+00:00,2026-08-12T14:35:21+00:00,1,,[article sweep] Listed as a known malicious IP in a threat report
 ipv4,188.130.206.168,high,2026-08-12T14:35:21+00:00,2026-08-12T14:35:21+00:00,1,,[article sweep] Known malicious IP used in SharePoint exploitation
 ipv4,65.38.121.198,high,2026-08-12T14:35:21+00:00,2026-08-12T14:35:21+00:00,1,,[article sweep] Listed as a known malicious IP in SharePoint exploitation
+ipv4,162.33.177.16,high,2026-08-11T14:19:17+00:00,2026-08-11T14:19:17+00:00,1,,[article sweep] IP address used for hosting an infostealer payload
 ipv4,166.88.134.62,high,2026-08-11T13:21:16.792531+00:00,2026-08-11T13:21:16.792531+00:00,1,,[article sweep] Decoded C2 IP address from a transaction
 ipv4,74.65.75.102,high,2026-08-11T10:00:19+00:00,2026-08-11T10:00:19+00:00,1,,Explicitly mentioned in response context.
+ipv4,103.27.108.207,high,2026-08-08T11:22:18+00:00,2026-08-08T11:22:18+00:00,1,,[article sweep] IP address associated with LightSpy variant
+ipv4,46.17.43.74,high,2026-08-08T11:22:18+00:00,2026-08-08T11:22:18+00:00,1,,[article sweep] Associated with LightSpy malware infrastructure
 ipv4,185.242.3.238,high,2026-08-08T00:42:00+00:00,2026-08-08T00:42:00+00:00,1,,[article sweep] Observed sending SQL injection payloads to vulnerable endpoints
+ipv4,138.124.118.69,high,2026-08-07T07:25:45+00:00,2026-08-07T07:25:45+00:00,1,,[article sweep] IP address used for C2 communications
+ipv4,193.29.224.151,high,2026-08-07T07:25:45+00:00,2026-08-07T07:25:45+00:00,1,,[article sweep] Used to retrieve and execute a malicious Bash script
+ipv4,77.221.152.34,high,2026-08-07T07:25:45+00:00,2026-08-07T07:25:45+00:00,1,,[article sweep] Used to deliver payloads by Aeza Group
 ipv4,104.239.66.201,high,2026-08-06T18:48:08+00:00,2026-08-06T18:48:08+00:00,1,,[article sweep] Listed as part of a coordinated cyberattack
 ipv4,73.158.81.165,high,2026-08-06T18:48:08+00:00,2026-08-06T18:48:08+00:00,1,,[article sweep] Listed as part of a YARA rule for malicious activity
 ipv4,76.229.204.88,high,2026-08-06T18:48:08+00:00,2026-08-06T18:48:08+00:00,1,,[article sweep] Listed as part of a YARA rule for malicious activity
@@ -126,11 +176,21 @@ ipv4,213.173.45.230,high,2026-08-04T13:04:39.953091+00:00,2026-08-04T13:04:39.95
 ipv4,213.145.86.112,high,2026-08-04T12:16:39+00:00,2026-08-04T12:16:39+00:00,1,,[article sweep] Hardcoded C2 IP for ChocoShell infostealer
 ipv4,64.95.11.22,high,2026-08-04T12:04:14+00:00,2026-08-04T12:04:14+00:00,1,,[article sweep] Associated with a malicious web host used in an attack
 ipv4,31.57.34.228,high,2026-07-30T20:07:20.633185+00:00,2026-07-30T20:07:20.633185+00:00,1,,[article sweep] Associated with malicious hosting infrastructure used for payload delivery
+ipv4,154.44.25.12,high,2026-07-30T20:03:45.054800+00:00,2026-07-30T20:03:45.054800+00:00,1,,[article sweep] IP address associated with malicious activities
+ipv4,85.137.253.48,high,2026-07-30T20:03:45.054800+00:00,2026-07-30T20:03:45.054800+00:00,1,,[article sweep] Fetched PHP-CGI exploit code from this IP
+ipv4,154.196.162.76,high,2026-07-30T11:00:12+00:00,2026-07-30T11:00:12+00:00,1,,[article sweep] IP address used as a LurkProxy C2 server
+ipv4,154.196.187.73,high,2026-07-30T11:00:12+00:00,2026-07-30T11:00:12+00:00,1,,[article sweep] IP address used for malicious activities
+ipv4,64.7.198.130,high,2026-07-30T11:00:12+00:00,2026-07-30T11:00:12+00:00,1,,[article sweep] C2 address for PlugX malware
 ipv4,91.92.40.13,high,2026-07-30T00:42:29+00:00,2026-07-30T00:42:29+00:00,1,,[article sweep] Used by a bot for reconnaissance and potential cryptomining.
+ipv4,112.213.124.132,high,2026-07-29T00:18:40.596043+00:00,2026-07-29T00:18:40.596043+00:00,1,,[article sweep] IP address hosting a full operational toolkit
+ipv4,112.213.124.159,high,2026-07-29T00:18:40.596043+00:00,2026-07-29T00:18:40.596043+00:00,1,,[article sweep] IP address tied to an open directory with malicious content
+ipv4,112.213.124.163,high,2026-07-29T00:18:40.596043+00:00,2026-07-29T00:18:40.596043+00:00,1,,[article sweep] IP address tied to an open directory with malicious content
+ipv4,38.55.105.143,high,2026-07-29T00:18:40.596043+00:00,2026-07-29T00:18:40.596043+00:00,1,,[article sweep] Possible C2 for Linux/x86 malware variant
 ipv4,206.72.242.124,high,2026-07-28T21:52:08+00:00,2026-07-28T21:52:08+00:00,1,,Listed as a known malicious IP address.
 ipv4,8.19.75.217,high,2026-07-28T21:52:08+00:00,2026-07-28T21:52:08+00:00,1,,Listed as a known malicious IP address.
 ipv4,206.72.242.162,high,2026-07-28T08:30:22+00:00,2026-07-28T08:30:22+00:00,1,,[article sweep] Linked to attacks exploiting a vulnerability
 ipv4,67.175.210.186,high,2026-07-28T04:36:09.856013+00:00,2026-07-28T04:36:09.856013+00:00,1,,[article sweep] Used in unauthorized Snapchat account access
+ipv4,80.82.65.226,high,2026-07-27T19:33:37+00:00,2026-07-27T19:33:37+00:00,1,,[article sweep] Source IP observed in active exploitation
 ipv4,216.152.148.54,high,2026-07-26T08:44:38+00:00,2026-07-26T08:44:38+00:00,1,,[article sweep] Listed as a malicious IP address involved in outbound connections
 ipv4,216.152.151.204,high,2026-07-26T08:44:38+00:00,2026-07-26T08:44:38+00:00,1,,[article sweep] Listed as a malicious IP address involved in outbound connections
 ipv4,193.29.58.37,high,2026-07-24T21:38:25.266472+00:00,2026-07-24T21:38:25.266472+00:00,1,,[article sweep] Used to spoof emails and send exploits
@@ -149,10 +209,17 @@ ipv4,200.107.207.26,high,2026-07-21T11:49:09.266482+00:00,2026-07-21T11:49:09.26
 ipv4,23.94.252.228,high,2026-07-20T15:43:55+00:00,2026-07-20T15:43:55+00:00,1,,Identified as C2 server in context.
 ipv4,77.110.127.205,high,2026-07-20T15:43:55+00:00,2026-07-20T15:43:55+00:00,1,,Identified as C2 server in context.
 ipv4,62.182.81.38,high,2026-07-18T23:37:00.762243+00:00,2026-07-18T23:37:00.762243+00:00,1,,[article sweep] Identified as backend for Kairos data-leak site
+ipv4,80.200.28.28,high,2026-07-18T06:38:04+00:00,2026-07-18T06:38:04+00:00,1,,[article sweep] C2 server for npm malware
+ipv4,176.32.34.135,high,2026-07-16T13:05:56+00:00,2026-07-16T13:05:56+00:00,1,,[article sweep] IP address used for malicious activities
+ipv4,5.39.253.206,high,2026-07-16T13:05:56+00:00,2026-07-16T13:05:56+00:00,1,,[article sweep] Used as a command server for SSH tunnels
+ipv4,113.196.56.150,high,2026-07-15T18:05:44+00:00,2026-07-15T18:05:44+00:00,1,,[article sweep] IP address used for malicious activities
 ipv4,96.1.1.1,high,2026-07-14T15:24:12+00:00,2026-07-14T15:24:12+00:00,1,,[article sweep] Used by attackers to receive exported configuration files from compromised devices.
+ipv4,137.175.93.126,high,2026-07-12T17:12:45+00:00,2026-07-12T17:12:45+00:00,1,,[article sweep] IP address used for malicious activities
 ipv4,2.4.6.8,high,2026-07-09T17:28:46.604245+00:00,2026-07-09T17:28:46.604245+00:00,1,,[article sweep] Associated with a malicious website in a DNS cache poisoning attack
 ipv4,188.127.251.171,high,2026-07-09T00:21:46+00:00,2026-07-09T00:21:46+00:00,1,,[article sweep] Listed in a YARA rule as part of attacker infrastructure
 ipv4,59.110.7.32,high,2026-07-09T00:21:46+00:00,2026-07-09T00:21:46+00:00,1,,[article sweep] Listed as part of a campaign's embedded infrastructure indicators
+ipv4,14.176.1.47,high,2026-07-08T05:21:29+00:00,2026-07-08T05:21:29+00:00,1,,[article sweep] IP address used for suspicious AWS activity
+ipv4,185.62.1.8,high,2026-07-08T05:21:29+00:00,2026-07-08T05:21:29+00:00,1,,[article sweep] Hosts a ZIP file containing XMRig crypto-mining malware
 ipv4,206.71.149.179,high,2026-07-07T04:33:06.729842+00:00,2026-07-07T04:33:06.729842+00:00,1,,[article sweep] Listed as a C&C connection for Flodrix Botnet
 ipv4,45.61.137.226,high,2026-07-07T04:33:06.729842+00:00,2026-07-07T04:33:06.729842+00:00,1,,[article sweep] Listed as a C2 IP address for Flodrix Botnet
 ipv4,80.66.75.121,high,2026-07-07T04:33:06.729842+00:00,2026-07-07T04:33:06.729842+00:00,1,,[article sweep] Identified as a C&C connection for Flodrix Botnet
