@@ -1,7 +1,7 @@
 {
   "feed": "threatcluster-public-iocs",
   "version": 1,
-  "generated_at": "2026-09-30T06:42:33Z",
+  "generated_at": "2026-10-01T06:43:36Z",
   "filters": {
     "confidence": "high",
     "window_days": 30,
@@ -11,13 +11,813 @@
       "domain"
     ]
   },
-  "count": 506,
+  "count": 520,
   "iocs": [
+    {
+      "type": "domain",
+      "value": "agent2.sh",
+      "confidence": "high",
+      "reason": "Described as part of a multi-stage payload chain used by attackers",
+      "first_seen": "2026-09-30T21:13:41.814200+00:00",
+      "last_seen": "2026-09-30T21:13:41.814200+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.microsoft.com",
+          "url": "https://www.microsoft.com/en-us/security/blog/2026/09/30/unauthenticated-command-injection-on-internet-facing-mail-servers-tracking-cve-2026-73570/",
+          "pub_date": "2026-09-30T21:13:41.8142+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "bypass.eu.org",
+      "confidence": "high",
+      "reason": "Described as campaign-associated infrastructure used by attackers",
+      "first_seen": "2026-09-30T21:13:41.814200+00:00",
+      "last_seen": "2026-09-30T21:13:41.814200+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.microsoft.com",
+          "url": "https://www.microsoft.com/en-us/security/blog/2026/09/30/unauthenticated-command-injection-on-internet-facing-mail-servers-tracking-cve-2026-73570/",
+          "pub_date": "2026-09-30T21:13:41.8142+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "claudecode-developers.squarespace.com",
+      "confidence": "high",
+      "reason": "Listed as part of the attacker's phishing infrastructure",
+      "first_seen": "2026-09-30T17:00:25.403246+00:00",
+      "last_seen": "2026-09-30T17:00:25.403246+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "pushsecurity.com",
+          "url": "https://pushsecurity.com/blog/installfix",
+          "pub_date": "2026-09-30T17:00:25.403246+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "ClickFix"
+        },
+        {
+          "type": "campaign",
+          "value": "InstallFix"
+        },
+        {
+          "type": "malware",
+          "value": "ACR Stealer"
+        },
+        {
+          "type": "malware",
+          "value": "Amatera Stealer"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "claude-code-docs-dvlr2jpuuw.edgeone.app",
+      "confidence": "high",
+      "reason": "Listed as part of the attacker's phishing infrastructure",
+      "first_seen": "2026-09-30T17:00:25.403246+00:00",
+      "last_seen": "2026-09-30T17:00:25.403246+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "pushsecurity.com",
+          "url": "https://pushsecurity.com/blog/installfix",
+          "pub_date": "2026-09-30T17:00:25.403246+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "ClickFix"
+        },
+        {
+          "type": "campaign",
+          "value": "InstallFix"
+        },
+        {
+          "type": "malware",
+          "value": "ACR Stealer"
+        },
+        {
+          "type": "malware",
+          "value": "Amatera Stealer"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "claude-code-install.squarespace.com",
+      "confidence": "high",
+      "reason": "Listed as part of the attacker's phishing infrastructure",
+      "first_seen": "2026-09-30T17:00:25.403246+00:00",
+      "last_seen": "2026-09-30T17:00:25.403246+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "pushsecurity.com",
+          "url": "https://pushsecurity.com/blog/installfix",
+          "pub_date": "2026-09-30T17:00:25.403246+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "ClickFix"
+        },
+        {
+          "type": "campaign",
+          "value": "InstallFix"
+        },
+        {
+          "type": "malware",
+          "value": "ACR Stealer"
+        },
+        {
+          "type": "malware",
+          "value": "Amatera Stealer"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "claude-code-macos.com",
+      "confidence": "high",
+      "reason": "Listed as part of the attacker's phishing infrastructure",
+      "first_seen": "2026-09-30T17:00:25.403246+00:00",
+      "last_seen": "2026-09-30T17:00:25.403246+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "pushsecurity.com",
+          "url": "https://pushsecurity.com/blog/installfix",
+          "pub_date": "2026-09-30T17:00:25.403246+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "ClickFix"
+        },
+        {
+          "type": "campaign",
+          "value": "InstallFix"
+        },
+        {
+          "type": "malware",
+          "value": "ACR Stealer"
+        },
+        {
+          "type": "malware",
+          "value": "Amatera Stealer"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "claude-code-update.squarespace.com",
+      "confidence": "high",
+      "reason": "Listed as part of the attacker's phishing infrastructure",
+      "first_seen": "2026-09-30T17:00:25.403246+00:00",
+      "last_seen": "2026-09-30T17:00:25.403246+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "pushsecurity.com",
+          "url": "https://pushsecurity.com/blog/installfix",
+          "pub_date": "2026-09-30T17:00:25.403246+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "ClickFix"
+        },
+        {
+          "type": "campaign",
+          "value": "InstallFix"
+        },
+        {
+          "type": "malware",
+          "value": "ACR Stealer"
+        },
+        {
+          "type": "malware",
+          "value": "Amatera Stealer"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "claudecodeupdate.squarespace.com",
+      "confidence": "high",
+      "reason": "Listed as part of the attacker's phishing infrastructure",
+      "first_seen": "2026-09-30T17:00:25.403246+00:00",
+      "last_seen": "2026-09-30T17:00:25.403246+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "pushsecurity.com",
+          "url": "https://pushsecurity.com/blog/installfix",
+          "pub_date": "2026-09-30T17:00:25.403246+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "ClickFix"
+        },
+        {
+          "type": "campaign",
+          "value": "InstallFix"
+        },
+        {
+          "type": "malware",
+          "value": "ACR Stealer"
+        },
+        {
+          "type": "malware",
+          "value": "Amatera Stealer"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "claude.update-version.com",
+      "confidence": "high",
+      "reason": "Listed as a domain hosting malicious payload",
+      "first_seen": "2026-09-30T17:00:25.403246+00:00",
+      "last_seen": "2026-09-30T17:00:25.403246+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "pushsecurity.com",
+          "url": "https://pushsecurity.com/blog/installfix",
+          "pub_date": "2026-09-30T17:00:25.403246+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "ClickFix"
+        },
+        {
+          "type": "campaign",
+          "value": "InstallFix"
+        },
+        {
+          "type": "malware",
+          "value": "ACR Stealer"
+        },
+        {
+          "type": "malware",
+          "value": "Amatera Stealer"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "claulastver.squarespace.com",
+      "confidence": "high",
+      "reason": "Listed as part of the attacker's phishing infrastructure",
+      "first_seen": "2026-09-30T17:00:25.403246+00:00",
+      "last_seen": "2026-09-30T17:00:25.403246+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "pushsecurity.com",
+          "url": "https://pushsecurity.com/blog/installfix",
+          "pub_date": "2026-09-30T17:00:25.403246+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "ClickFix"
+        },
+        {
+          "type": "campaign",
+          "value": "InstallFix"
+        },
+        {
+          "type": "malware",
+          "value": "ACR Stealer"
+        },
+        {
+          "type": "malware",
+          "value": "Amatera Stealer"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "notebooklm-version-upd.squarespace.com",
+      "confidence": "high",
+      "reason": "Listed as part of the attacker's phishing infrastructure",
+      "first_seen": "2026-09-30T17:00:25.403246+00:00",
+      "last_seen": "2026-09-30T17:00:25.403246+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "pushsecurity.com",
+          "url": "https://pushsecurity.com/blog/installfix",
+          "pub_date": "2026-09-30T17:00:25.403246+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "ClickFix"
+        },
+        {
+          "type": "campaign",
+          "value": "InstallFix"
+        },
+        {
+          "type": "malware",
+          "value": "ACR Stealer"
+        },
+        {
+          "type": "malware",
+          "value": "Amatera Stealer"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "fonts.chrorne.com",
+      "confidence": "high",
+      "reason": "Listed among domains related to Antino-related samples",
+      "first_seen": "2026-09-30T16:03:22.001025+00:00",
+      "last_seen": "2026-09-30T16:03:22.001025+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.security.com",
+          "url": "https://www.security.com/threat-intelligence/jewelbug-crypto-fraud-espionage",
+          "pub_date": "2026-09-30T16:03:22.001025+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Cl-sta-0049"
+        },
+        {
+          "type": "apt_group",
+          "value": "Earth Alux"
+        },
+        {
+          "type": "apt_group",
+          "value": "Jewelbug"
+        },
+        {
+          "type": "apt_group",
+          "value": "Ref7707"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "fonts.tarotfree101.top",
+      "confidence": "high",
+      "reason": "Listed among domains related to Antino-related samples",
+      "first_seen": "2026-09-30T16:03:22.001025+00:00",
+      "last_seen": "2026-09-30T16:03:22.001025+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.security.com",
+          "url": "https://www.security.com/threat-intelligence/jewelbug-crypto-fraud-espionage",
+          "pub_date": "2026-09-30T16:03:22.001025+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Cl-sta-0049"
+        },
+        {
+          "type": "apt_group",
+          "value": "Earth Alux"
+        },
+        {
+          "type": "apt_group",
+          "value": "Jewelbug"
+        },
+        {
+          "type": "apt_group",
+          "value": "Ref7707"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "microsoft-flash.com",
+      "confidence": "high",
+      "reason": "Listed among domains related to Antino-related samples",
+      "first_seen": "2026-09-30T16:03:22.001025+00:00",
+      "last_seen": "2026-09-30T16:03:22.001025+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.security.com",
+          "url": "https://www.security.com/threat-intelligence/jewelbug-crypto-fraud-espionage",
+          "pub_date": "2026-09-30T16:03:22.001025+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Cl-sta-0049"
+        },
+        {
+          "type": "apt_group",
+          "value": "Earth Alux"
+        },
+        {
+          "type": "apt_group",
+          "value": "Jewelbug"
+        },
+        {
+          "type": "apt_group",
+          "value": "Ref7707"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "pub-abfa7742e315485a98a5fafd6dbfb68e.r2.dev",
+      "confidence": "high",
+      "reason": "Listed among domains related to Antino-related samples",
+      "first_seen": "2026-09-30T16:03:22.001025+00:00",
+      "last_seen": "2026-09-30T16:03:22.001025+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.security.com",
+          "url": "https://www.security.com/threat-intelligence/jewelbug-crypto-fraud-espionage",
+          "pub_date": "2026-09-30T16:03:22.001025+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Cl-sta-0049"
+        },
+        {
+          "type": "apt_group",
+          "value": "Earth Alux"
+        },
+        {
+          "type": "apt_group",
+          "value": "Jewelbug"
+        },
+        {
+          "type": "apt_group",
+          "value": "Ref7707"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "robot.avbliud.com",
+      "confidence": "high",
+      "reason": "Listed among domains related to Antino-related samples",
+      "first_seen": "2026-09-30T16:03:22.001025+00:00",
+      "last_seen": "2026-09-30T16:03:22.001025+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.security.com",
+          "url": "https://www.security.com/threat-intelligence/jewelbug-crypto-fraud-espionage",
+          "pub_date": "2026-09-30T16:03:22.001025+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Cl-sta-0049"
+        },
+        {
+          "type": "apt_group",
+          "value": "Earth Alux"
+        },
+        {
+          "type": "apt_group",
+          "value": "Jewelbug"
+        },
+        {
+          "type": "apt_group",
+          "value": "Ref7707"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "www.f1ash.org.cn",
+      "confidence": "high",
+      "reason": "Listed among domains related to Antino-related samples",
+      "first_seen": "2026-09-30T16:03:22.001025+00:00",
+      "last_seen": "2026-09-30T16:03:22.001025+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.security.com",
+          "url": "https://www.security.com/threat-intelligence/jewelbug-crypto-fraud-espionage",
+          "pub_date": "2026-09-30T16:03:22.001025+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Cl-sta-0049"
+        },
+        {
+          "type": "apt_group",
+          "value": "Earth Alux"
+        },
+        {
+          "type": "apt_group",
+          "value": "Jewelbug"
+        },
+        {
+          "type": "apt_group",
+          "value": "Ref7707"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "driverupdate.sbs",
+      "confidence": "high",
+      "reason": "Used to deliver a malicious ISO file in a phishing attack",
+      "first_seen": "2026-09-30T15:44:45+00:00",
+      "last_seen": "2026-09-30T15:44:45+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Hackread",
+          "url": "https://hackread.com/global-group-ransomware-winmerge-deploy-encryptor/",
+          "pub_date": "2026-09-30T15:44:45+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "globalsupportupdate.top",
+      "confidence": "high",
+      "reason": "Used to retrieve a ransomware encryptor",
+      "first_seen": "2026-09-30T15:44:45+00:00",
+      "last_seen": "2026-09-30T15:44:45+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Hackread",
+          "url": "https://hackread.com/global-group-ransomware-winmerge-deploy-encryptor/",
+          "pub_date": "2026-09-30T15:44:45+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "ipv4",
+      "value": "96.62.224.81",
+      "confidence": "high",
+      "reason": "Listed as a server IP in a ClickFix attack",
+      "first_seen": "2026-09-30T14:31:15+00:00",
+      "last_seen": "2026-09-30T14:31:15+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Techtimes",
+          "url": "https://www.techtimes.com/articles/328282/20260930/fake-chatgpt-model-real-chatgptcom-delivers-8-stage-rat-via-clickfix.htm",
+          "pub_date": "2026-09-30T14:31:15+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "page.dev",
+      "confidence": "high",
+      "reason": "Used in a spear-phishing campaign to deliver malicious files",
+      "first_seen": "2026-09-30T14:13:51+00:00",
+      "last_seen": "2026-09-30T14:13:51+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Blog.Talosintelligence",
+          "url": "https://blog.talosintelligence.com/china-nexus-uat-11587-targets-government-and-policy-organizations-across-asia-with-antino-backdoor/",
+          "pub_date": "2026-09-30T14:13:51+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "pub-0173d1566dcd4fd49fa25f11f14bfe4c.r2.dev",
+      "confidence": "high",
+      "reason": "Used as a Cloudflare R2 staging domain for malicious activity",
+      "first_seen": "2026-09-30T14:13:51+00:00",
+      "last_seen": "2026-09-30T14:13:51+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Blog.Talosintelligence",
+          "url": "https://blog.talosintelligence.com/china-nexus-uat-11587-targets-government-and-policy-organizations-across-asia-with-antino-backdoor/",
+          "pub_date": "2026-09-30T14:13:51+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "wps-cn.com",
+      "confidence": "high",
+      "reason": "Used to deliver Antino malware samples",
+      "first_seen": "2026-09-30T14:13:51+00:00",
+      "last_seen": "2026-09-30T14:13:51+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Blog.Talosintelligence",
+          "url": "https://blog.talosintelligence.com/china-nexus-uat-11587-targets-government-and-policy-organizations-across-asia-with-antino-backdoor/",
+          "pub_date": "2026-09-30T14:13:51+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "www.wps-cn.com",
+      "confidence": "high",
+      "reason": "Listed as a standalone Antino fake-installer delivery domain",
+      "first_seen": "2026-09-30T14:13:51+00:00",
+      "last_seen": "2026-09-30T14:13:51+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Blog.Talosintelligence",
+          "url": "https://blog.talosintelligence.com/china-nexus-uat-11587-targets-government-and-policy-organizations-across-asia-with-antino-backdoor/",
+          "pub_date": "2026-09-30T14:13:51+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "ipv4",
+      "value": "103.27.110.220",
+      "confidence": "high",
+      "reason": "Listed as a historical serving IP for Antino payload",
+      "first_seen": "2026-09-30T14:13:51+00:00",
+      "last_seen": "2026-09-30T14:13:51+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Blog.Talosintelligence",
+          "url": "https://blog.talosintelligence.com/china-nexus-uat-11587-targets-government-and-policy-organizations-across-asia-with-antino-backdoor/",
+          "pub_date": "2026-09-30T14:13:51+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "hf98x4d.site",
+      "confidence": "high",
+      "reason": "Linked to information-stealing malware families",
+      "first_seen": "2026-09-30T12:35:09+00:00",
+      "last_seen": "2026-09-30T12:35:09+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Darktrace",
+          "url": "https://www.darktrace.com/es/blog/ai-assisted-attacks-still-leave-a-behavioral-trace",
+          "pub_date": "2026-09-30T12:35:09+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "ipv4",
+      "value": "138.124.123.87",
+      "confidence": "high",
+      "reason": "Listed as part of a malware delivery operation",
+      "first_seen": "2026-09-30T12:35:09+00:00",
+      "last_seen": "2026-09-30T12:35:09+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Darktrace",
+          "url": "https://www.darktrace.com/es/blog/ai-assisted-attacks-still-leave-a-behavioral-trace",
+          "pub_date": "2026-09-30T12:35:09+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "ipv4",
+      "value": "185.177.239.241",
+      "confidence": "high",
+      "reason": "Listed as an IP used in attacks",
+      "first_seen": "2026-09-30T10:41:36+00:00",
+      "last_seen": "2026-09-30T10:41:36+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Bloglab.360",
+          "url": "https://blog.netlab.360.com/aian-quan-zhuan-ti-zhou-bao-8/",
+          "pub_date": "2026-09-30T10:41:36+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "api.imghippo.com",
+      "confidence": "high",
+      "reason": "Shared payload URL associated with the MALFEX campaign",
+      "first_seen": "2026-09-30T00:00:00+00:00",
+      "last_seen": "2026-09-30T00:00:00+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cloudsek",
+          "url": "https://www.cloudsek.com/blog/malfex-malicious-npm-postinstall-supply-chain-campaign",
+          "pub_date": "2026-09-30T00:00:00+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "Movinlike"
+        },
+        {
+          "type": "malware",
+          "value": "Overlord"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "104.234.65.75",
+      "confidence": "high",
+      "reason": "Listed as a payload host in a threat report",
+      "first_seen": "2026-09-30T00:00:00+00:00",
+      "last_seen": "2026-09-30T00:00:00+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cloudsek",
+          "url": "https://www.cloudsek.com/blog/malfex-malicious-npm-postinstall-supply-chain-campaign",
+          "pub_date": "2026-09-30T00:00:00+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "Movinlike"
+        },
+        {
+          "type": "malware",
+          "value": "Overlord"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "45.137.198.133",
+      "confidence": "high",
+      "reason": "Listed as part of a C2 infrastructure in a threat report",
+      "first_seen": "2026-09-30T00:00:00+00:00",
+      "last_seen": "2026-09-30T00:00:00+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Safedep",
+          "url": "https://safedep.io/polinrider-ethereum-c2-github-repositories",
+          "pub_date": "2026-09-30T00:00:00+00:00"
+        }
+      ],
+      "tags": []
+    },
     {
       "type": "domain",
       "value": "docupdatedd.org",
       "confidence": "high",
-      "reason": "[article sweep] Used in phishing emails impersonating a religious organization",
+      "reason": "Used in phishing emails impersonating a religious organization",
       "first_seen": "2026-09-29T22:37:04+00:00",
       "last_seen": "2026-09-29T22:37:04+00:00",
       "source_count": 1,
@@ -374,7 +1174,7 @@
       "type": "domain",
       "value": "vidmemax.com",
       "confidence": "high",
-      "reason": "Resolved to an actor-controlled VPS used in attacks",
+      "reason": "Resolved to an actor-controlled VPS",
       "first_seen": "2026-09-29T20:30:31.342952+00:00",
       "last_seen": "2026-09-29T20:30:31.342952+00:00",
       "source_count": 1,
@@ -459,7 +1259,7 @@
       "type": "ipv4",
       "value": "89.125.66.183",
       "confidence": "high",
-      "reason": "[article sweep] Used as a WebDAV server for malicious activity.",
+      "reason": "Used as a WebDAV server by attackers",
       "first_seen": "2026-09-29T18:30:57.944399+00:00",
       "last_seen": "2026-09-29T18:30:57.944399+00:00",
       "source_count": 1,
@@ -481,7 +1281,7 @@
       "type": "domain",
       "value": "secure-dns-hub.com",
       "confidence": "high",
-      "reason": "Listed as an indicator in Microsoft's report, associated with malicious activity",
+      "reason": "Listed as an indicator in Microsoft's report",
       "first_seen": "2026-09-29T17:20:08+00:00",
       "last_seen": "2026-09-29T17:20:08+00:00",
       "source_count": 1,
@@ -515,7 +1315,7 @@
       "type": "ipv4",
       "value": "103.160.59.97",
       "confidence": "high",
-      "reason": "Listed as an indicator in Microsoft's report, associated with malicious activity",
+      "reason": "Listed as an indicator in Microsoft's report",
       "first_seen": "2026-09-29T17:20:08+00:00",
       "last_seen": "2026-09-29T17:20:08+00:00",
       "source_count": 1,
@@ -549,7 +1349,7 @@
       "type": "domain",
       "value": "instances.httpworkbench.com",
       "confidence": "high",
-      "reason": "[article sweep] Used for DNS lookups indicating compromise",
+      "reason": "Used for DNS lookups indicating compromise",
       "first_seen": "2026-09-29T15:01:35+00:00",
       "last_seen": "2026-09-29T15:01:35+00:00",
       "source_count": 1,
@@ -637,7 +1437,7 @@
       "type": "domain",
       "value": "cloud.cmatgldn.click",
       "confidence": "high",
-      "reason": "[article sweep] Listed as an ad click and conversion tracker used by attackers",
+      "reason": "Listed as an ad click and conversion tracker used by attackers",
       "first_seen": "2026-09-29T09:56:49+00:00",
       "last_seen": "2026-09-29T09:56:49+00:00",
       "source_count": 1,
@@ -654,7 +1454,7 @@
       "type": "domain",
       "value": "pnmrud.cc",
       "confidence": "high",
-      "reason": "[article sweep] Listed as a command-and-control server",
+      "reason": "Listed as a command-and-control server",
       "first_seen": "2026-09-29T09:56:49+00:00",
       "last_seen": "2026-09-29T09:56:49+00:00",
       "source_count": 1,
@@ -671,7 +1471,7 @@
       "type": "ipv4",
       "value": "172.94.9.194",
       "confidence": "high",
-      "reason": "[article sweep] IP address hosting a Mythic C2 portal",
+      "reason": "IP address hosting a Mythic C2 portal",
       "first_seen": "2026-09-29T05:01:43+00:00",
       "last_seen": "2026-09-29T05:01:43+00:00",
       "source_count": 1,
@@ -688,7 +1488,7 @@
       "type": "ipv4",
       "value": "193.201.185.90",
       "confidence": "high",
-      "reason": "[article sweep] Exposed Mythic C2 portal",
+      "reason": "Exposed Mythic C2 portal",
       "first_seen": "2026-09-29T05:01:43+00:00",
       "last_seen": "2026-09-29T05:01:43+00:00",
       "source_count": 1,
@@ -705,7 +1505,7 @@
       "type": "ipv4",
       "value": "69.48.229.140",
       "confidence": "high",
-      "reason": "[article sweep] Used as a C2 server for malicious npm packages.",
+      "reason": "Used as a C2 server for malicious npm packages.",
       "first_seen": "2026-09-29T00:00:00+00:00",
       "last_seen": "2026-09-29T00:00:00+00:00",
       "source_count": 1,
@@ -722,7 +1522,7 @@
       "type": "domain",
       "value": "redseaaxis.com",
       "confidence": "high",
-      "reason": "[article sweep] Described as a network of websites for influence operations",
+      "reason": "Described as a network of websites for influence operations",
       "first_seen": "2026-09-28T18:46:11+00:00",
       "last_seen": "2026-09-28T18:46:11+00:00",
       "source_count": 1,
@@ -737,213 +1537,9 @@
     },
     {
       "type": "domain",
-      "value": "fonts.chrorne.com",
-      "confidence": "high",
-      "reason": "Listed among domains related to Antino-related samples",
-      "first_seen": "2026-09-28T18:35:59.996122+00:00",
-      "last_seen": "2026-09-28T18:35:59.996122+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.security.com",
-          "url": "https://www.security.com/threat-intelligence/jewelbug-crypto-fraud-espionage",
-          "pub_date": "2026-09-28T18:35:59.996122+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Cl-sta-0049"
-        },
-        {
-          "type": "apt_group",
-          "value": "Earth Alux"
-        },
-        {
-          "type": "apt_group",
-          "value": "Jewelbug"
-        },
-        {
-          "type": "apt_group",
-          "value": "Ref7707"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "fonts.tarotfree101.top",
-      "confidence": "high",
-      "reason": "Listed among domains related to Antino-related samples",
-      "first_seen": "2026-09-28T18:35:59.996122+00:00",
-      "last_seen": "2026-09-28T18:35:59.996122+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.security.com",
-          "url": "https://www.security.com/threat-intelligence/jewelbug-crypto-fraud-espionage",
-          "pub_date": "2026-09-28T18:35:59.996122+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Cl-sta-0049"
-        },
-        {
-          "type": "apt_group",
-          "value": "Earth Alux"
-        },
-        {
-          "type": "apt_group",
-          "value": "Jewelbug"
-        },
-        {
-          "type": "apt_group",
-          "value": "Ref7707"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "microsoft-flash.com",
-      "confidence": "high",
-      "reason": "Listed among domains related to Antino-related samples",
-      "first_seen": "2026-09-28T18:35:59.996122+00:00",
-      "last_seen": "2026-09-28T18:35:59.996122+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.security.com",
-          "url": "https://www.security.com/threat-intelligence/jewelbug-crypto-fraud-espionage",
-          "pub_date": "2026-09-28T18:35:59.996122+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Cl-sta-0049"
-        },
-        {
-          "type": "apt_group",
-          "value": "Earth Alux"
-        },
-        {
-          "type": "apt_group",
-          "value": "Jewelbug"
-        },
-        {
-          "type": "apt_group",
-          "value": "Ref7707"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "pub-abfa7742e315485a98a5fafd6dbfb68e.r2.dev",
-      "confidence": "high",
-      "reason": "Listed among domains related to Antino-related samples",
-      "first_seen": "2026-09-28T18:35:59.996122+00:00",
-      "last_seen": "2026-09-28T18:35:59.996122+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.security.com",
-          "url": "https://www.security.com/threat-intelligence/jewelbug-crypto-fraud-espionage",
-          "pub_date": "2026-09-28T18:35:59.996122+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Cl-sta-0049"
-        },
-        {
-          "type": "apt_group",
-          "value": "Earth Alux"
-        },
-        {
-          "type": "apt_group",
-          "value": "Jewelbug"
-        },
-        {
-          "type": "apt_group",
-          "value": "Ref7707"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "robot.avbliud.com",
-      "confidence": "high",
-      "reason": "Listed among domains related to Antino-related samples",
-      "first_seen": "2026-09-28T18:35:59.996122+00:00",
-      "last_seen": "2026-09-28T18:35:59.996122+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.security.com",
-          "url": "https://www.security.com/threat-intelligence/jewelbug-crypto-fraud-espionage",
-          "pub_date": "2026-09-28T18:35:59.996122+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Cl-sta-0049"
-        },
-        {
-          "type": "apt_group",
-          "value": "Earth Alux"
-        },
-        {
-          "type": "apt_group",
-          "value": "Jewelbug"
-        },
-        {
-          "type": "apt_group",
-          "value": "Ref7707"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "www.f1ash.org.cn",
-      "confidence": "high",
-      "reason": "Listed among domains related to Antino-related samples",
-      "first_seen": "2026-09-28T18:35:59.996122+00:00",
-      "last_seen": "2026-09-28T18:35:59.996122+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.security.com",
-          "url": "https://www.security.com/threat-intelligence/jewelbug-crypto-fraud-espionage",
-          "pub_date": "2026-09-28T18:35:59.996122+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Cl-sta-0049"
-        },
-        {
-          "type": "apt_group",
-          "value": "Earth Alux"
-        },
-        {
-          "type": "apt_group",
-          "value": "Jewelbug"
-        },
-        {
-          "type": "apt_group",
-          "value": "Ref7707"
-        }
-      ]
-    },
-    {
-      "type": "domain",
       "value": "q-vpn.com",
       "confidence": "high",
-      "reason": "[article sweep] Described as weaponized to distribute malware",
+      "reason": "Described as weaponized to distribute malware",
       "first_seen": "2026-09-28T17:54:14+00:00",
       "last_seen": "2026-09-28T17:54:14+00:00",
       "source_count": 1,
@@ -960,7 +1556,7 @@
       "type": "ipv4",
       "value": "134.122.155.135",
       "confidence": "high",
-      "reason": "[article sweep] IP address used for C2 communications",
+      "reason": "IP address used for C2 communications",
       "first_seen": "2026-09-28T17:51:54+00:00",
       "last_seen": "2026-09-28T17:51:54+00:00",
       "source_count": 1,
@@ -977,7 +1573,7 @@
       "type": "domain",
       "value": "admin.rathat.live",
       "confidence": "high",
-      "reason": "[article sweep] Used as a C2 server in a threat campaign",
+      "reason": "Used as a C2 server in a threat campaign",
       "first_seen": "2026-09-28T17:38:33+00:00",
       "last_seen": "2026-09-28T17:38:33+00:00",
       "source_count": 1,
@@ -994,7 +1590,7 @@
       "type": "domain",
       "value": "dramaspoolcoa.com",
       "confidence": "high",
-      "reason": "[article sweep] Used as a download link for malware",
+      "reason": "Used as a download link for malware",
       "first_seen": "2026-09-28T17:38:33+00:00",
       "last_seen": "2026-09-28T17:38:33+00:00",
       "source_count": 1,
@@ -1011,7 +1607,7 @@
       "type": "domain",
       "value": "rathat.me",
       "confidence": "high",
-      "reason": "[article sweep] Used as a download link for malware",
+      "reason": "Used as a download link for malware",
       "first_seen": "2026-09-28T17:38:33+00:00",
       "last_seen": "2026-09-28T17:38:33+00:00",
       "source_count": 1,
@@ -1028,7 +1624,7 @@
       "type": "domain",
       "value": "lapsus.ar.io",
       "confidence": "high",
-      "reason": "[article sweep] Described as an attacker-controlled domain used in a cyberattack",
+      "reason": "Described as an attacker-controlled domain used in a cyberattack",
       "first_seen": "2026-09-28T11:42:42.129736+00:00",
       "last_seen": "2026-09-28T11:42:42.129736+00:00",
       "source_count": 1,
@@ -1045,7 +1641,7 @@
       "type": "domain",
       "value": "t.m-kosche.com",
       "confidence": "high",
-      "reason": "[article sweep] Used for credential harvesting in supply chain attacks",
+      "reason": "Used for credential harvesting in supply chain attacks",
       "first_seen": "2026-09-28T06:26:24+00:00",
       "last_seen": "2026-09-28T06:26:24+00:00",
       "source_count": 1,
@@ -1122,7 +1718,7 @@
       "type": "ipv4",
       "value": "206.82.6.22",
       "confidence": "high",
-      "reason": "[article sweep] Used for reverse shell connections",
+      "reason": "Used for reverse shell connections",
       "first_seen": "2026-09-27T15:00:00+00:00",
       "last_seen": "2026-09-27T15:00:00+00:00",
       "source_count": 1,
@@ -1139,7 +1735,7 @@
       "type": "ipv4",
       "value": "65.98.5.158",
       "confidence": "high",
-      "reason": "[article sweep] Hosts a list of targets for a WordPress scanner",
+      "reason": "Hosts a list of targets for a WordPress scanner",
       "first_seen": "2026-09-27T15:00:00+00:00",
       "last_seen": "2026-09-27T15:00:00+00:00",
       "source_count": 1,
@@ -1347,7 +1943,7 @@
       "type": "domain",
       "value": "apisim.com",
       "confidence": "high",
-      "reason": "[article sweep] Domain used by a gang for online frauds.",
+      "reason": "Domain used by a gang for online frauds.",
       "first_seen": "2026-09-27T05:02:37+00:00",
       "last_seen": "2026-09-27T05:02:37+00:00",
       "source_count": 1,
@@ -1442,7 +2038,7 @@
       "type": "domain",
       "value": "0b48fafd6fbe.skyleen.fr",
       "confidence": "high",
-      "reason": "[article sweep] Listed as part of attacker infrastructure in a threat report",
+      "reason": "Listed as part of attacker infrastructure in a threat report",
       "first_seen": "2026-09-25T17:31:00.178828+00:00",
       "last_seen": "2026-09-25T17:31:00.178828+00:00",
       "source_count": 1,
@@ -1459,7 +2055,7 @@
       "type": "domain",
       "value": "266297c6df27.skyleen.fr",
       "confidence": "high",
-      "reason": "[article sweep] Listed as part of attacker infrastructure in a threat report",
+      "reason": "Listed as part of attacker infrastructure in a threat report",
       "first_seen": "2026-09-25T17:31:00.178828+00:00",
       "last_seen": "2026-09-25T17:31:00.178828+00:00",
       "source_count": 1,
@@ -1476,7 +2072,7 @@
       "type": "domain",
       "value": "73376a079d87.skyleen.fr",
       "confidence": "high",
-      "reason": "[article sweep] Listed as part of attacker infrastructure in a threat report",
+      "reason": "Listed as part of attacker infrastructure in a threat report",
       "first_seen": "2026-09-25T17:31:00.178828+00:00",
       "last_seen": "2026-09-25T17:31:00.178828+00:00",
       "source_count": 1,
@@ -1493,7 +2089,7 @@
       "type": "domain",
       "value": "8a8acaf167b3.skyleen.fr",
       "confidence": "high",
-      "reason": "[article sweep] Listed as part of attacker infrastructure in a threat report",
+      "reason": "Listed as part of attacker infrastructure in a threat report",
       "first_seen": "2026-09-25T17:31:00.178828+00:00",
       "last_seen": "2026-09-25T17:31:00.178828+00:00",
       "source_count": 1,
@@ -1510,7 +2106,7 @@
       "type": "domain",
       "value": "c747d139e7e9.skyleen.fr",
       "confidence": "high",
-      "reason": "[article sweep] Listed as part of attacker infrastructure in a threat report",
+      "reason": "Listed as part of attacker infrastructure in a threat report",
       "first_seen": "2026-09-25T17:31:00.178828+00:00",
       "last_seen": "2026-09-25T17:31:00.178828+00:00",
       "source_count": 1,
@@ -1527,7 +2123,7 @@
       "type": "domain",
       "value": "d4f77a3a8cb0.skyleen.fr",
       "confidence": "high",
-      "reason": "[article sweep] Listed in an IOC table as part of attacker infrastructure.",
+      "reason": "Listed in an IOC table as part of attacker infrastructure.",
       "first_seen": "2026-09-25T17:31:00.178828+00:00",
       "last_seen": "2026-09-25T17:31:00.178828+00:00",
       "source_count": 1,
@@ -1544,7 +2140,7 @@
       "type": "domain",
       "value": "skyleen.fr",
       "confidence": "high",
-      "reason": "[article sweep] Used in a malicious campaign targeting npm and PyPI",
+      "reason": "Used in a malicious campaign targeting npm and PyPI",
       "first_seen": "2026-09-25T17:30:59.852849+00:00",
       "last_seen": "2026-09-25T17:30:59.852849+00:00",
       "source_count": 1,
@@ -1605,7 +2201,7 @@
       "type": "domain",
       "value": "1cvvts.cyou",
       "confidence": "high",
-      "reason": "[article sweep] Part of a coordinated domain cluster suggesting attacker-controlled infrastructure",
+      "reason": "Part of a coordinated domain cluster suggesting attacker-controlled infrastructure",
       "first_seen": "2026-09-25T11:06:36.553165+00:00",
       "last_seen": "2026-09-25T11:06:36.553165+00:00",
       "source_count": 1,
@@ -1627,7 +2223,7 @@
       "type": "domain",
       "value": "2nftgz.cyou",
       "confidence": "high",
-      "reason": "[article sweep] Part of a coordinated domain cluster suggesting attacker-controlled infrastructure",
+      "reason": "Part of a coordinated domain cluster suggesting attacker-controlled infrastructure",
       "first_seen": "2026-09-25T11:06:36.553165+00:00",
       "last_seen": "2026-09-25T11:06:36.553165+00:00",
       "source_count": 1,
@@ -1649,7 +2245,7 @@
       "type": "domain",
       "value": "3gftdw.cyou",
       "confidence": "high",
-      "reason": "[article sweep] Part of a coordinated domain cluster suggesting attacker-controlled infrastructure",
+      "reason": "Part of a coordinated domain cluster suggesting attacker-controlled infrastructure",
       "first_seen": "2026-09-25T11:06:36.553165+00:00",
       "last_seen": "2026-09-25T11:06:36.553165+00:00",
       "source_count": 1,
@@ -1671,7 +2267,7 @@
       "type": "domain",
       "value": "3hfllr.cyou",
       "confidence": "high",
-      "reason": "[article sweep] Part of a coordinated domain cluster suggesting attacker-controlled infrastructure",
+      "reason": "Part of a coordinated domain cluster suggesting attacker-controlled infrastructure",
       "first_seen": "2026-09-25T11:06:36.553165+00:00",
       "last_seen": "2026-09-25T11:06:36.553165+00:00",
       "source_count": 1,
@@ -1693,7 +2289,7 @@
       "type": "domain",
       "value": "5kcivu.cyou",
       "confidence": "high",
-      "reason": "[article sweep] Part of a coordinated domain cluster suggesting attacker-controlled infrastructure",
+      "reason": "Part of a coordinated domain cluster suggesting attacker-controlled infrastructure",
       "first_seen": "2026-09-25T11:06:36.553165+00:00",
       "last_seen": "2026-09-25T11:06:36.553165+00:00",
       "source_count": 1,
@@ -1715,7 +2311,7 @@
       "type": "domain",
       "value": "5kvicu.cyou",
       "confidence": "high",
-      "reason": "[article sweep] Part of a coordinated domain cluster suggesting attacker-controlled infrastructure",
+      "reason": "Part of a coordinated domain cluster suggesting attacker-controlled infrastructure",
       "first_seen": "2026-09-25T11:06:36.553165+00:00",
       "last_seen": "2026-09-25T11:06:36.553165+00:00",
       "source_count": 1,
@@ -1737,7 +2333,7 @@
       "type": "domain",
       "value": "6nygmf.cyou",
       "confidence": "high",
-      "reason": "[article sweep] Part of a coordinated domain cluster suggesting attacker-controlled infrastructure",
+      "reason": "Part of a coordinated domain cluster suggesting attacker-controlled infrastructure",
       "first_seen": "2026-09-25T11:06:36.553165+00:00",
       "last_seen": "2026-09-25T11:06:36.553165+00:00",
       "source_count": 1,
@@ -1759,7 +2355,7 @@
       "type": "domain",
       "value": "7cbuyw.cyou",
       "confidence": "high",
-      "reason": "[article sweep] Part of a coordinated domain cluster suggesting attacker-controlled infrastructure",
+      "reason": "Part of a coordinated domain cluster suggesting attacker-controlled infrastructure",
       "first_seen": "2026-09-25T11:06:36.553165+00:00",
       "last_seen": "2026-09-25T11:06:36.553165+00:00",
       "source_count": 1,
@@ -1781,7 +2377,7 @@
       "type": "domain",
       "value": "9fkjsk.cyou",
       "confidence": "high",
-      "reason": "[article sweep] Part of a coordinated domain cluster suggesting attacker-controlled infrastructure",
+      "reason": "Part of a coordinated domain cluster suggesting attacker-controlled infrastructure",
       "first_seen": "2026-09-25T11:06:36.553165+00:00",
       "last_seen": "2026-09-25T11:06:36.553165+00:00",
       "source_count": 1,
@@ -1803,7 +2399,7 @@
       "type": "domain",
       "value": "9rqqca.cyou",
       "confidence": "high",
-      "reason": "[article sweep] Part of a coordinated domain cluster suggesting attacker-controlled infrastructure",
+      "reason": "Part of a coordinated domain cluster suggesting attacker-controlled infrastructure",
       "first_seen": "2026-09-25T11:06:36.553165+00:00",
       "last_seen": "2026-09-25T11:06:36.553165+00:00",
       "source_count": 1,
@@ -1825,7 +2421,7 @@
       "type": "ipv4",
       "value": "46.8.9.223",
       "confidence": "high",
-      "reason": "[article sweep] Part of a coordinated domain cluster with DGA-style domains",
+      "reason": "Part of a coordinated domain cluster with DGA-style domains",
       "first_seen": "2026-09-25T11:06:36.553165+00:00",
       "last_seen": "2026-09-25T11:06:36.553165+00:00",
       "source_count": 1,
@@ -1847,7 +2443,7 @@
       "type": "domain",
       "value": "fsputnik.com",
       "confidence": "high",
-      "reason": "[article sweep] Used to host malicious scripts",
+      "reason": "Used to host malicious scripts",
       "first_seen": "2026-09-24T14:57:10+00:00",
       "last_seen": "2026-09-24T14:57:10+00:00",
       "source_count": 1,
@@ -2043,7 +2639,7 @@
       "type": "ipv4",
       "value": "194.87.89.30",
       "confidence": "high",
-      "reason": "[article sweep] Used to download AnyDesk RMM by threat actor",
+      "reason": "Used to download AnyDesk RMM by threat actor",
       "first_seen": "2026-09-24T13:03:24+00:00",
       "last_seen": "2026-09-24T13:03:24+00:00",
       "source_count": 1,
@@ -2073,7 +2669,7 @@
       "type": "domain",
       "value": "toria.apple03cloudstore.com",
       "confidence": "high",
-      "reason": "[article sweep] Used to host malicious payloads",
+      "reason": "Used to host malicious payloads",
       "first_seen": "2026-09-24T10:12:52+00:00",
       "last_seen": "2026-09-24T10:12:52+00:00",
       "source_count": 1,
@@ -2090,7 +2686,7 @@
       "type": "domain",
       "value": "waaako.appstore.com.mx",
       "confidence": "high",
-      "reason": "[article sweep] Listed among URLs used for distributing malicious scripts and payloads.",
+      "reason": "Listed among URLs used for distributing malicious scripts and payloads.",
       "first_seen": "2026-09-24T10:12:52+00:00",
       "last_seen": "2026-09-24T10:12:52+00:00",
       "source_count": 1,
@@ -2367,7 +2963,7 @@
       "type": "domain",
       "value": "tradeyourevents.com",
       "confidence": "high",
-      "reason": "[article sweep] Used in phishing emails impersonating Xero",
+      "reason": "Used in phishing emails impersonating Xero",
       "first_seen": "2026-09-23T15:27:39+00:00",
       "last_seen": "2026-09-23T15:27:39+00:00",
       "source_count": 1,
@@ -2384,7 +2980,7 @@
       "type": "domain",
       "value": "xerocareers.com",
       "confidence": "high",
-      "reason": "[article sweep] Used in a fake job offer scam email",
+      "reason": "Used in a fake job offer scam email",
       "first_seen": "2026-09-23T15:27:39+00:00",
       "last_seen": "2026-09-23T15:27:39+00:00",
       "source_count": 1,
@@ -2401,7 +2997,7 @@
       "type": "domain",
       "value": "brokeapt.com",
       "confidence": "high",
-      "reason": "[article sweep] Identified as a C2 domain for Vidar infostealer.",
+      "reason": "Identified as a C2 domain for Vidar infostealer.",
       "first_seen": "2026-09-23T14:43:17.455423+00:00",
       "last_seen": "2026-09-23T14:43:17.455423+00:00",
       "source_count": 1,
@@ -2418,7 +3014,7 @@
       "type": "domain",
       "value": "dash.awaydouble.org",
       "confidence": "high",
-      "reason": "[article sweep] Used for credential harvesting",
+      "reason": "Used for credential harvesting",
       "first_seen": "2026-09-23T14:43:17.455423+00:00",
       "last_seen": "2026-09-23T14:43:17.455423+00:00",
       "source_count": 1,
@@ -2435,7 +3031,7 @@
       "type": "domain",
       "value": "servicing.pureplantcravings.com",
       "confidence": "high",
-      "reason": "[article sweep] Used in a phishing campaign for credential harvesting",
+      "reason": "Used in a phishing campaign for credential harvesting",
       "first_seen": "2026-09-23T14:43:17.455423+00:00",
       "last_seen": "2026-09-23T14:43:17.455423+00:00",
       "source_count": 1,
@@ -2452,7 +3048,7 @@
       "type": "domain",
       "value": "bnbnhura.top",
       "confidence": "high",
-      "reason": "[article sweep] Described as a C2 domain used in RemControl campaigns.",
+      "reason": "Described as a C2 domain used in RemControl campaigns.",
       "first_seen": "2026-09-23T08:50:25+00:00",
       "last_seen": "2026-09-23T08:50:25+00:00",
       "source_count": 1,
@@ -2469,7 +3065,7 @@
       "type": "domain",
       "value": "definatelynoone.com",
       "confidence": "high",
-      "reason": "[article sweep] Used for operator panel servers",
+      "reason": "Used for operator panel servers",
       "first_seen": "2026-09-23T08:50:25+00:00",
       "last_seen": "2026-09-23T08:50:25+00:00",
       "source_count": 1,
@@ -2486,7 +3082,7 @@
       "type": "domain",
       "value": "tvtap-hd.app",
       "confidence": "high",
-      "reason": "[article sweep] Registered on the same day as a related domain for distributing a dropper, indicating attacker control.",
+      "reason": "Registered on the same day as a related domain for distributing a dropper, indicating attacker control.",
       "first_seen": "2026-09-23T08:50:25+00:00",
       "last_seen": "2026-09-23T08:50:25+00:00",
       "source_count": 1,
@@ -2503,7 +3099,7 @@
       "type": "domain",
       "value": "tvtap-liveapp.com",
       "confidence": "high",
-      "reason": "[article sweep] Registered on the same day as a related domain for distributing a dropper, indicating attacker control.",
+      "reason": "Registered on the same day as a related domain for distributing a dropper, indicating attacker control.",
       "first_seen": "2026-09-23T08:50:25+00:00",
       "last_seen": "2026-09-23T08:50:25+00:00",
       "source_count": 1,
@@ -2537,7 +3133,7 @@
       "type": "domain",
       "value": "effectivecpmnetwork.com",
       "confidence": "high",
-      "reason": "[article sweep] Linked to adware tracking",
+      "reason": "Linked to adware tracking",
       "first_seen": "2026-09-22T22:12:48+00:00",
       "last_seen": "2026-09-22T22:12:48+00:00",
       "source_count": 1,
@@ -2571,7 +3167,7 @@
       "type": "domain",
       "value": "viewdocument.live",
       "confidence": "high",
-      "reason": "[article sweep] Domain registered and used for serving malicious payloads, indicating attacker control.",
+      "reason": "Domain registered and used for serving malicious payloads, indicating attacker control.",
       "first_seen": "2026-09-22T22:12:48+00:00",
       "last_seen": "2026-09-22T22:12:48+00:00",
       "source_count": 1,
@@ -2670,7 +3266,7 @@
       "type": "ipv4",
       "value": "96.9.125.52",
       "confidence": "high",
-      "reason": "[article sweep] Hosts a domain impersonating China Digital Times",
+      "reason": "Hosts a domain impersonating China Digital Times",
       "first_seen": "2026-09-22T10:31:16+00:00",
       "last_seen": "2026-09-22T10:31:16+00:00",
       "source_count": 1,
@@ -2713,7 +3309,7 @@
       "type": "domain",
       "value": "boiseno.club",
       "confidence": "high",
-      "reason": "[article sweep] Listed as related to a supply-chain attack.",
+      "reason": "Listed as related to a supply-chain attack.",
       "first_seen": "2026-09-22T07:54:45+00:00",
       "last_seen": "2026-09-22T07:54:45+00:00",
       "source_count": 1,
@@ -2730,7 +3326,7 @@
       "type": "domain",
       "value": "glegchner.com",
       "confidence": "high",
-      "reason": "[article sweep] Used as a C2 server",
+      "reason": "Used as a C2 server",
       "first_seen": "2026-09-22T07:54:45+00:00",
       "last_seen": "2026-09-22T07:54:45+00:00",
       "source_count": 1,
@@ -2747,7 +3343,7 @@
       "type": "ipv4",
       "value": "189.141.53.203",
       "confidence": "high",
-      "reason": "[article sweep] Exposed Mythic C2 management interface",
+      "reason": "Exposed Mythic C2 management interface",
       "first_seen": "2026-09-22T05:01:55+00:00",
       "last_seen": "2026-09-22T05:01:55+00:00",
       "source_count": 1,
@@ -3168,7 +3764,7 @@
       "type": "domain",
       "value": "throughoutes.net",
       "confidence": "high",
-      "reason": "[article sweep] Communicated with a PowerShell implant",
+      "reason": "Communicated with a PowerShell implant",
       "first_seen": "2026-09-21T13:05:04+00:00",
       "last_seen": "2026-09-21T13:05:04+00:00",
       "source_count": 1,
@@ -3406,7 +4002,7 @@
       "type": "domain",
       "value": "apple03cloudstore.com",
       "confidence": "high",
-      "reason": "[article sweep] Used for hosting malicious payloads as part of an attack.",
+      "reason": "Used for hosting malicious payloads as part of an attack.",
       "first_seen": "2026-09-21T04:20:50+00:00",
       "last_seen": "2026-09-21T04:20:50+00:00",
       "source_count": 1,
@@ -3423,7 +4019,7 @@
       "type": "domain",
       "value": "appstore.com.mx",
       "confidence": "high",
-      "reason": "[article sweep] Used for hosting malicious payloads as part of an attack.",
+      "reason": "Used for hosting malicious payloads as part of an attack.",
       "first_seen": "2026-09-21T04:20:50+00:00",
       "last_seen": "2026-09-21T04:20:50+00:00",
       "source_count": 1,
@@ -3440,7 +4036,7 @@
       "type": "domain",
       "value": "brave.apple03cloudstore.com",
       "confidence": "high",
-      "reason": "[article sweep] Listed as part of a campaign's C2 infrastructure.",
+      "reason": "Listed as part of a campaign's C2 infrastructure.",
       "first_seen": "2026-09-21T04:20:50+00:00",
       "last_seen": "2026-09-21T04:20:50+00:00",
       "source_count": 1,
@@ -3457,7 +4053,7 @@
       "type": "domain",
       "value": "cavepay.apple03cloudstore.com",
       "confidence": "high",
-      "reason": "[article sweep] Listed as part of a campaign's C2 infrastructure.",
+      "reason": "Listed as part of a campaign's C2 infrastructure.",
       "first_seen": "2026-09-21T04:20:50+00:00",
       "last_seen": "2026-09-21T04:20:50+00:00",
       "source_count": 1,
@@ -3474,7 +4070,7 @@
       "type": "domain",
       "value": "crystalflip.apple03cloudstore.com",
       "confidence": "high",
-      "reason": "[article sweep] Used for DeFi/gaming lure staging",
+      "reason": "Used for DeFi/gaming lure staging",
       "first_seen": "2026-09-21T04:20:50+00:00",
       "last_seen": "2026-09-21T04:20:50+00:00",
       "source_count": 1,
@@ -3491,7 +4087,7 @@
       "type": "domain",
       "value": "docsend.appstore.com.mx",
       "confidence": "high",
-      "reason": "[article sweep] Used for hosting malicious files",
+      "reason": "Used for hosting malicious files",
       "first_seen": "2026-09-21T04:20:50+00:00",
       "last_seen": "2026-09-21T04:20:50+00:00",
       "source_count": 1,
@@ -3508,7 +4104,7 @@
       "type": "domain",
       "value": "loader.app",
       "confidence": "high",
-      "reason": "[article sweep] Used as a payload host in a malware campaign",
+      "reason": "Used as a payload host in a malware campaign",
       "first_seen": "2026-09-21T04:20:50+00:00",
       "last_seen": "2026-09-21T04:20:50+00:00",
       "source_count": 1,
@@ -3525,7 +4121,7 @@
       "type": "domain",
       "value": "slack.apple03cloudstore.com",
       "confidence": "high",
-      "reason": "[article sweep] Used for hosting malicious scripts",
+      "reason": "Used for hosting malicious scripts",
       "first_seen": "2026-09-21T04:20:50+00:00",
       "last_seen": "2026-09-21T04:20:50+00:00",
       "source_count": 1,
@@ -3542,7 +4138,7 @@
       "type": "domain",
       "value": "streamyard.appstore.com.mx",
       "confidence": "high",
-      "reason": "[article sweep] Used to host a malicious installer script",
+      "reason": "Used to host a malicious installer script",
       "first_seen": "2026-09-21T04:20:50+00:00",
       "last_seen": "2026-09-21T04:20:50+00:00",
       "source_count": 1,
@@ -3559,7 +4155,7 @@
       "type": "domain",
       "value": "streamyardinstaller.app",
       "confidence": "high",
-      "reason": "[article sweep] Used as a fake installer in a malware campaign",
+      "reason": "Used as a fake installer in a malware campaign",
       "first_seen": "2026-09-21T04:20:50+00:00",
       "last_seen": "2026-09-21T04:20:50+00:00",
       "source_count": 1,
@@ -3576,7 +4172,7 @@
       "type": "domain",
       "value": "toria.app",
       "confidence": "high",
-      "reason": "[article sweep] Used in a malware campaign as a payload host",
+      "reason": "Used in a malware campaign as a payload host",
       "first_seen": "2026-09-21T04:20:50+00:00",
       "last_seen": "2026-09-21T04:20:50+00:00",
       "source_count": 1,
@@ -3593,7 +4189,7 @@
       "type": "ipv4",
       "value": "109.94.171.225",
       "confidence": "high",
-      "reason": "[article sweep] IP address used for data exfiltration",
+      "reason": "IP address used for data exfiltration",
       "first_seen": "2026-09-21T04:20:50+00:00",
       "last_seen": "2026-09-21T04:20:50+00:00",
       "source_count": 1,
@@ -3610,7 +4206,7 @@
       "type": "domain",
       "value": "interac-transfers.ca",
       "confidence": "high",
-      "reason": "[article sweep] Used in scams to impersonate a legitimate service",
+      "reason": "Used in scams to impersonate a legitimate service",
       "first_seen": "2026-09-20T14:28:35+00:00",
       "last_seen": "2026-09-20T14:28:35+00:00",
       "source_count": 1,
@@ -3657,7 +4253,7 @@
       "type": "ipv4",
       "value": "95.158.131.141",
       "confidence": "high",
-      "reason": "[article sweep] Exposed Mythic C2 management interface",
+      "reason": "Exposed Mythic C2 management interface",
       "first_seen": "2026-09-19T05:01:06+00:00",
       "last_seen": "2026-09-19T05:01:06+00:00",
       "source_count": 1,
@@ -3700,7 +4296,7 @@
       "type": "domain",
       "value": "bpost.be-pakje-ontvangen-nl-recevoir-colis-fr.my.id",
       "confidence": "high",
-      "reason": "[article sweep] Described as a fake bpost site used in a phishing campaign.",
+      "reason": "Described as a fake bpost site used in a phishing campaign.",
       "first_seen": "2026-09-18T16:46:57+00:00",
       "last_seen": "2026-09-18T16:46:57+00:00",
       "source_count": 1,
@@ -3717,7 +4313,7 @@
       "type": "domain",
       "value": "qr.paps.jp",
       "confidence": "high",
-      "reason": "[article sweep] Used in a phishing campaign to redirect to a fake site",
+      "reason": "Used in a phishing campaign to redirect to a fake site",
       "first_seen": "2026-09-18T16:46:57+00:00",
       "last_seen": "2026-09-18T16:46:57+00:00",
       "source_count": 1,
@@ -3856,7 +4452,7 @@
       "type": "domain",
       "value": "francais.news-pravda.com",
       "confidence": "high",
-      "reason": "[article sweep] Part of a network of sites used for disinformation.",
+      "reason": "Part of a network of sites used for disinformation.",
       "first_seen": "2026-09-18T11:37:54+00:00",
       "last_seen": "2026-09-18T11:37:54+00:00",
       "source_count": 1,
@@ -3873,7 +4469,7 @@
       "type": "domain",
       "value": "fr.news-pravda.com",
       "confidence": "high",
-      "reason": "[article sweep] Part of a network of sites used for disinformation.",
+      "reason": "Part of a network of sites used for disinformation.",
       "first_seen": "2026-09-18T11:37:54+00:00",
       "last_seen": "2026-09-18T11:37:54+00:00",
       "source_count": 1,
@@ -3917,7 +4513,7 @@
       "type": "domain",
       "value": "center.infocomkg.org",
       "confidence": "high",
-      "reason": "[article sweep] Resolved to an IP associated with malicious activity.",
+      "reason": "Resolved to an IP associated with malicious activity.",
       "first_seen": "2026-09-18T08:42:53.457982+00:00",
       "last_seen": "2026-09-18T08:42:53.457982+00:00",
       "source_count": 1,
@@ -3934,7 +4530,7 @@
       "type": "domain",
       "value": "help.hoster-kg.com",
       "confidence": "high",
-      "reason": "[article sweep] Linked to NodeEdgeRAT infrastructure",
+      "reason": "Linked to NodeEdgeRAT infrastructure",
       "first_seen": "2026-09-18T08:42:53.457982+00:00",
       "last_seen": "2026-09-18T08:42:53.457982+00:00",
       "source_count": 1,
@@ -3951,7 +4547,7 @@
       "type": "domain",
       "value": "infocomkg.org",
       "confidence": "high",
-      "reason": "[article sweep] Resolved to a domain matching malicious patterns",
+      "reason": "Resolved to a domain matching malicious patterns",
       "first_seen": "2026-09-18T08:42:53.457982+00:00",
       "last_seen": "2026-09-18T08:42:53.457982+00:00",
       "source_count": 1,
@@ -3968,7 +4564,7 @@
       "type": "domain",
       "value": "kginfocom.com",
       "confidence": "high",
-      "reason": "[article sweep] Part of infrastructure linked to malicious activity",
+      "reason": "Part of infrastructure linked to malicious activity",
       "first_seen": "2026-09-18T08:42:53.457982+00:00",
       "last_seen": "2026-09-18T08:42:53.457982+00:00",
       "source_count": 1,
@@ -3985,7 +4581,7 @@
       "type": "domain",
       "value": "kg.tdtu.org",
       "confidence": "high",
-      "reason": "[article sweep] Linked to NomadRAT C2 activity",
+      "reason": "Linked to NomadRAT C2 activity",
       "first_seen": "2026-09-18T08:42:53.457982+00:00",
       "last_seen": "2026-09-18T08:42:53.457982+00:00",
       "source_count": 1,
@@ -4002,7 +4598,7 @@
       "type": "domain",
       "value": "mail.postmfa.com",
       "confidence": "high",
-      "reason": "[article sweep] Part of infrastructure linked to malicious activity",
+      "reason": "Part of infrastructure linked to malicious activity",
       "first_seen": "2026-09-18T08:42:53.457982+00:00",
       "last_seen": "2026-09-18T08:42:53.457982+00:00",
       "source_count": 1,
@@ -4019,7 +4615,7 @@
       "type": "domain",
       "value": "mineconom.tdtu.org",
       "confidence": "high",
-      "reason": "[article sweep] Listed as a NomadRAT C2 indicator",
+      "reason": "Listed as a NomadRAT C2 indicator",
       "first_seen": "2026-09-18T08:42:53.457982+00:00",
       "last_seen": "2026-09-18T08:42:53.457982+00:00",
       "source_count": 1,
@@ -4036,7 +4632,7 @@
       "type": "domain",
       "value": "ns2.asiainfo.it.com",
       "confidence": "high",
-      "reason": "[article sweep] Resolved to multiple SpiceRAT servers, indicating attacker control",
+      "reason": "Resolved to multiple SpiceRAT servers, indicating attacker control",
       "first_seen": "2026-09-18T08:42:53.457982+00:00",
       "last_seen": "2026-09-18T08:42:53.457982+00:00",
       "source_count": 1,
@@ -4053,7 +4649,7 @@
       "type": "domain",
       "value": "storage.natcommunzu.com",
       "confidence": "high",
-      "reason": "[article sweep] Identified as part of malicious infrastructure",
+      "reason": "Identified as part of malicious infrastructure",
       "first_seen": "2026-09-18T08:42:53.457982+00:00",
       "last_seen": "2026-09-18T08:42:53.457982+00:00",
       "source_count": 1,
@@ -4070,7 +4666,7 @@
       "type": "ipv4",
       "value": "171.22.16.187",
       "confidence": "high",
-      "reason": "[article sweep] IP address associated with SpiceRAT servers",
+      "reason": "IP address associated with SpiceRAT servers",
       "first_seen": "2026-09-18T08:42:53.457982+00:00",
       "last_seen": "2026-09-18T08:42:53.457982+00:00",
       "source_count": 1,
@@ -4087,7 +4683,7 @@
       "type": "ipv4",
       "value": "185.122.185.36",
       "confidence": "high",
-      "reason": "[article sweep] IP address associated with SpiceRAT servers",
+      "reason": "IP address associated with SpiceRAT servers",
       "first_seen": "2026-09-18T08:42:53.457982+00:00",
       "last_seen": "2026-09-18T08:42:53.457982+00:00",
       "source_count": 1,
@@ -4104,7 +4700,7 @@
       "type": "ipv4",
       "value": "185.243.112.253",
       "confidence": "high",
-      "reason": "[article sweep] IP address associated with SpiceRAT servers",
+      "reason": "IP address associated with SpiceRAT servers",
       "first_seen": "2026-09-18T08:42:53.457982+00:00",
       "last_seen": "2026-09-18T08:42:53.457982+00:00",
       "source_count": 1,
@@ -4121,7 +4717,7 @@
       "type": "ipv4",
       "value": "185.243.114.124",
       "confidence": "high",
-      "reason": "[article sweep] IP associated with a domain impersonating Turkmenistan's Ministry of Foreign Affairs",
+      "reason": "IP associated with a domain impersonating Turkmenistan's Ministry of Foreign Affairs",
       "first_seen": "2026-09-18T08:42:53.457982+00:00",
       "last_seen": "2026-09-18T08:42:53.457982+00:00",
       "source_count": 1,
@@ -4138,7 +4734,7 @@
       "type": "ipv4",
       "value": "185.243.114.238",
       "confidence": "high",
-      "reason": "[article sweep] IP associated with a domain impersonating Tajikistan's national IT-hub project",
+      "reason": "IP associated with a domain impersonating Tajikistan's national IT-hub project",
       "first_seen": "2026-09-18T08:42:53.457982+00:00",
       "last_seen": "2026-09-18T08:42:53.457982+00:00",
       "source_count": 1,
@@ -4155,7 +4751,7 @@
       "type": "ipv4",
       "value": "188.190.18.208",
       "confidence": "high",
-      "reason": "[article sweep] Confirmed as SpiceRAT infrastructure.",
+      "reason": "Confirmed as SpiceRAT infrastructure.",
       "first_seen": "2026-09-18T08:42:53.457982+00:00",
       "last_seen": "2026-09-18T08:42:53.457982+00:00",
       "source_count": 1,
@@ -4172,7 +4768,7 @@
       "type": "ipv4",
       "value": "193.29.57.159",
       "confidence": "high",
-      "reason": "[article sweep] Associated with SpiceRAT C2 infrastructure",
+      "reason": "Associated with SpiceRAT C2 infrastructure",
       "first_seen": "2026-09-18T08:42:53.457982+00:00",
       "last_seen": "2026-09-18T08:42:53.457982+00:00",
       "source_count": 1,
@@ -4189,7 +4785,7 @@
       "type": "ipv4",
       "value": "193.29.58.192",
       "confidence": "high",
-      "reason": "[article sweep] Associated with NodeEdgeRAT infrastructure",
+      "reason": "Associated with NodeEdgeRAT infrastructure",
       "first_seen": "2026-09-18T08:42:53.457982+00:00",
       "last_seen": "2026-09-18T08:42:53.457982+00:00",
       "source_count": 1,
@@ -4206,7 +4802,7 @@
       "type": "ipv4",
       "value": "193.29.59.159",
       "confidence": "high",
-      "reason": "[article sweep] Part of a cluster of SpiceRAT servers",
+      "reason": "Part of a cluster of SpiceRAT servers",
       "first_seen": "2026-09-18T08:42:53.457982+00:00",
       "last_seen": "2026-09-18T08:42:53.457982+00:00",
       "source_count": 1,
@@ -4223,7 +4819,7 @@
       "type": "ipv4",
       "value": "2.58.14.95",
       "confidence": "high",
-      "reason": "[article sweep] Confirmed as SpiceRAT infrastructure.",
+      "reason": "Confirmed as SpiceRAT infrastructure.",
       "first_seen": "2026-09-18T08:42:53.457982+00:00",
       "last_seen": "2026-09-18T08:42:53.457982+00:00",
       "source_count": 1,
@@ -4240,7 +4836,7 @@
       "type": "ipv4",
       "value": "31.58.220.250",
       "confidence": "high",
-      "reason": "[article sweep] Part of a cluster of SpiceRAT servers",
+      "reason": "Part of a cluster of SpiceRAT servers",
       "first_seen": "2026-09-18T08:42:53.457982+00:00",
       "last_seen": "2026-09-18T08:42:53.457982+00:00",
       "source_count": 1,
@@ -4257,7 +4853,7 @@
       "type": "ipv4",
       "value": "45.86.162.141",
       "confidence": "high",
-      "reason": "[article sweep] Resolved to mail.postmfa.com, linked to malware infrastructure",
+      "reason": "Resolved to mail.postmfa.com, linked to malware infrastructure",
       "first_seen": "2026-09-18T08:42:53.457982+00:00",
       "last_seen": "2026-09-18T08:42:53.457982+00:00",
       "source_count": 1,
@@ -4274,7 +4870,7 @@
       "type": "ipv4",
       "value": "46.30.188.54",
       "confidence": "high",
-      "reason": "[article sweep] Targets Tojiktelecom, Tajikistan's state telecommunications provider",
+      "reason": "Targets Tojiktelecom, Tajikistan's state telecommunications provider",
       "first_seen": "2026-09-18T08:42:53.457982+00:00",
       "last_seen": "2026-09-18T08:42:53.457982+00:00",
       "source_count": 1,
@@ -4291,7 +4887,7 @@
       "type": "ipv4",
       "value": "46.30.189.191",
       "confidence": "high",
-      "reason": "[article sweep] Hosts a TLC-issued certificate for a typosquat domain",
+      "reason": "Hosts a TLC-issued certificate for a typosquat domain",
       "first_seen": "2026-09-18T08:42:53.457982+00:00",
       "last_seen": "2026-09-18T08:42:53.457982+00:00",
       "source_count": 1,
@@ -4308,7 +4904,7 @@
       "type": "ipv4",
       "value": "46.30.191.230",
       "confidence": "high",
-      "reason": "[article sweep] Part of a cluster of SpiceRAT servers",
+      "reason": "Part of a cluster of SpiceRAT servers",
       "first_seen": "2026-09-18T08:42:53.457982+00:00",
       "last_seen": "2026-09-18T08:42:53.457982+00:00",
       "source_count": 1,
@@ -4670,7 +5266,7 @@
       "type": "domain",
       "value": "nightmarestresser.co",
       "confidence": "high",
-      "reason": "[article sweep] Identified as a booter site seized by the FBI",
+      "reason": "Identified as a booter site seized by the FBI",
       "first_seen": "2026-09-17T21:16:57+00:00",
       "last_seen": "2026-09-17T21:16:57+00:00",
       "source_count": 1,
@@ -4687,7 +5283,7 @@
       "type": "domain",
       "value": "nightmarestresser.net",
       "confidence": "high",
-      "reason": "[article sweep] Identified as a booter site seized by the FBI",
+      "reason": "Identified as a booter site seized by the FBI",
       "first_seen": "2026-09-17T21:16:57+00:00",
       "last_seen": "2026-09-17T21:16:57+00:00",
       "source_count": 1,
@@ -4704,7 +5300,7 @@
       "type": "domain",
       "value": "t-mobile.biktpw.top",
       "confidence": "high",
-      "reason": "[article sweep] Part of a phishing campaign using short-lived domains",
+      "reason": "Part of a phishing campaign using short-lived domains",
       "first_seen": "2026-09-17T17:40:20+00:00",
       "last_seen": "2026-09-17T17:40:20+00:00",
       "source_count": 1,
@@ -4721,7 +5317,7 @@
       "type": "domain",
       "value": "t-mobile.cugbjl.top",
       "confidence": "high",
-      "reason": "[article sweep] Part of a phishing campaign using short-lived domains",
+      "reason": "Part of a phishing campaign using short-lived domains",
       "first_seen": "2026-09-17T17:40:20+00:00",
       "last_seen": "2026-09-17T17:40:20+00:00",
       "source_count": 1,
@@ -4738,7 +5334,7 @@
       "type": "domain",
       "value": "t-mobile.cymfjd.top",
       "confidence": "high",
-      "reason": "[article sweep] Part of a phishing campaign using short-lived domains",
+      "reason": "Part of a phishing campaign using short-lived domains",
       "first_seen": "2026-09-17T17:40:20+00:00",
       "last_seen": "2026-09-17T17:40:20+00:00",
       "source_count": 1,
@@ -4755,7 +5351,7 @@
       "type": "domain",
       "value": "t-mobile.gdikxv.top",
       "confidence": "high",
-      "reason": "[article sweep] Part of a phishing campaign using short-lived domains",
+      "reason": "Part of a phishing campaign using short-lived domains",
       "first_seen": "2026-09-17T17:40:20+00:00",
       "last_seen": "2026-09-17T17:40:20+00:00",
       "source_count": 1,
@@ -4772,7 +5368,7 @@
       "type": "domain",
       "value": "t-mobile.hdzcnb.top",
       "confidence": "high",
-      "reason": "[article sweep] Part of a phishing campaign using short-lived domains",
+      "reason": "Part of a phishing campaign using short-lived domains",
       "first_seen": "2026-09-17T17:40:20+00:00",
       "last_seen": "2026-09-17T17:40:20+00:00",
       "source_count": 1,
@@ -4789,7 +5385,7 @@
       "type": "domain",
       "value": "t-mobile.koxetp.top",
       "confidence": "high",
-      "reason": "[article sweep] Part of a phishing campaign using short-lived domains",
+      "reason": "Part of a phishing campaign using short-lived domains",
       "first_seen": "2026-09-17T17:40:20+00:00",
       "last_seen": "2026-09-17T17:40:20+00:00",
       "source_count": 1,
@@ -4806,7 +5402,7 @@
       "type": "domain",
       "value": "t-mobile.nxdcfp.top",
       "confidence": "high",
-      "reason": "[article sweep] Part of a phishing campaign using short-lived domains",
+      "reason": "Part of a phishing campaign using short-lived domains",
       "first_seen": "2026-09-17T17:40:20+00:00",
       "last_seen": "2026-09-17T17:40:20+00:00",
       "source_count": 1,
@@ -4823,7 +5419,7 @@
       "type": "domain",
       "value": "t-mobile.pkrbai.top",
       "confidence": "high",
-      "reason": "[article sweep] Part of a phishing campaign using short-lived domains",
+      "reason": "Part of a phishing campaign using short-lived domains",
       "first_seen": "2026-09-17T17:40:20+00:00",
       "last_seen": "2026-09-17T17:40:20+00:00",
       "source_count": 1,
@@ -4840,7 +5436,7 @@
       "type": "domain",
       "value": "t-mobile.qfrhkt.top",
       "confidence": "high",
-      "reason": "[article sweep] Part of a phishing campaign using short-lived domains",
+      "reason": "Part of a phishing campaign using short-lived domains",
       "first_seen": "2026-09-17T17:40:20+00:00",
       "last_seen": "2026-09-17T17:40:20+00:00",
       "source_count": 1,
@@ -4857,7 +5453,7 @@
       "type": "domain",
       "value": "t-mobile.qscizj.top",
       "confidence": "high",
-      "reason": "[article sweep] Part of a phishing campaign using short-lived domains",
+      "reason": "Part of a phishing campaign using short-lived domains",
       "first_seen": "2026-09-17T17:40:20+00:00",
       "last_seen": "2026-09-17T17:40:20+00:00",
       "source_count": 1,
@@ -4874,7 +5470,7 @@
       "type": "domain",
       "value": "t-mobile.tmfncb.top",
       "confidence": "high",
-      "reason": "[article sweep] Part of a phishing campaign using short-lived domains",
+      "reason": "Part of a phishing campaign using short-lived domains",
       "first_seen": "2026-09-17T17:40:20+00:00",
       "last_seen": "2026-09-17T17:40:20+00:00",
       "source_count": 1,
@@ -4891,7 +5487,7 @@
       "type": "domain",
       "value": "t-mobile.vmnqsu.top",
       "confidence": "high",
-      "reason": "[article sweep] Part of a phishing campaign using short-lived domains",
+      "reason": "Part of a phishing campaign using short-lived domains",
       "first_seen": "2026-09-17T17:40:20+00:00",
       "last_seen": "2026-09-17T17:40:20+00:00",
       "source_count": 1,
@@ -4908,7 +5504,7 @@
       "type": "domain",
       "value": "edgecloudc.com",
       "confidence": "high",
-      "reason": "[article sweep] Listed in a YARA rule as a domain associated with APT31",
+      "reason": "Listed in a YARA rule as a domain associated with APT31",
       "first_seen": "2026-09-17T16:10:35+00:00",
       "last_seen": "2026-09-17T16:10:35+00:00",
       "source_count": 1,
@@ -4925,7 +5521,7 @@
       "type": "domain",
       "value": "gitloucache.com",
       "confidence": "high",
-      "reason": "[article sweep] Listed in a YARA rule as associated with APT31",
+      "reason": "Listed in a YARA rule as associated with APT31",
       "first_seen": "2026-09-17T16:10:35+00:00",
       "last_seen": "2026-09-17T16:10:35+00:00",
       "source_count": 1,
@@ -4942,7 +5538,7 @@
       "type": "domain",
       "value": "hdpopcorn.live",
       "confidence": "high",
-      "reason": "[article sweep] Listed in a YARA rule as associated with APT31",
+      "reason": "Listed in a YARA rule as associated with APT31",
       "first_seen": "2026-09-17T16:10:35+00:00",
       "last_seen": "2026-09-17T16:10:35+00:00",
       "source_count": 1,
@@ -4959,7 +5555,7 @@
       "type": "domain",
       "value": "ramblercloud.com",
       "confidence": "high",
-      "reason": "[article sweep] Listed in a YARA rule as associated with APT31",
+      "reason": "Listed in a YARA rule as associated with APT31",
       "first_seen": "2026-09-17T16:10:35+00:00",
       "last_seen": "2026-09-17T16:10:35+00:00",
       "source_count": 1,
@@ -4976,7 +5572,7 @@
       "type": "domain",
       "value": "yandexpro.net",
       "confidence": "high",
-      "reason": "[article sweep] Listed in a YARA rule as associated with APT31",
+      "reason": "Listed in a YARA rule as associated with APT31",
       "first_seen": "2026-09-17T16:10:35+00:00",
       "last_seen": "2026-09-17T16:10:35+00:00",
       "source_count": 1,
@@ -4993,7 +5589,7 @@
       "type": "ipv4",
       "value": "184.75.129.113",
       "confidence": "high",
-      "reason": "[article sweep] Listed in a YARA rule as an IP address associated with APT31",
+      "reason": "Listed in a YARA rule as an IP address associated with APT31",
       "first_seen": "2026-09-17T16:10:35+00:00",
       "last_seen": "2026-09-17T16:10:35+00:00",
       "source_count": 1,
@@ -5010,7 +5606,7 @@
       "type": "ipv4",
       "value": "195.91.239.226",
       "confidence": "high",
-      "reason": "[article sweep] Listed in a YARA rule as an IP address associated with APT31",
+      "reason": "Listed in a YARA rule as an IP address associated with APT31",
       "first_seen": "2026-09-17T16:10:35+00:00",
       "last_seen": "2026-09-17T16:10:35+00:00",
       "source_count": 1,
@@ -5027,7 +5623,7 @@
       "type": "ipv4",
       "value": "50.71.100.164",
       "confidence": "high",
-      "reason": "[article sweep] Listed in a YARA rule as an IP address associated with APT31",
+      "reason": "Listed in a YARA rule as an IP address associated with APT31",
       "first_seen": "2026-09-17T16:10:35+00:00",
       "last_seen": "2026-09-17T16:10:35+00:00",
       "source_count": 1,
@@ -5044,7 +5640,7 @@
       "type": "ipv4",
       "value": "88.247.129.12",
       "confidence": "high",
-      "reason": "[article sweep] Listed in a YARA rule as an IP address associated with APT31",
+      "reason": "Listed in a YARA rule as an IP address associated with APT31",
       "first_seen": "2026-09-17T16:10:35+00:00",
       "last_seen": "2026-09-17T16:10:35+00:00",
       "source_count": 1,
@@ -5061,7 +5657,7 @@
       "type": "ipv4",
       "value": "89.31.228.228",
       "confidence": "high",
-      "reason": "[article sweep] Listed in a YARA rule as an IP address associated with APT31",
+      "reason": "Listed in a YARA rule as an IP address associated with APT31",
       "first_seen": "2026-09-17T16:10:35+00:00",
       "last_seen": "2026-09-17T16:10:35+00:00",
       "source_count": 1,
@@ -5146,7 +5742,7 @@
       "type": "domain",
       "value": "frscgov.eu.cc.ng",
       "confidence": "high",
-      "reason": "[article sweep] Identified as a phishing domain mimicking a government site",
+      "reason": "Identified as a phishing domain mimicking a government site",
       "first_seen": "2026-09-17T16:03:00+00:00",
       "last_seen": "2026-09-17T16:03:00+00:00",
       "source_count": 1,
@@ -5163,7 +5759,7 @@
       "type": "domain",
       "value": "frscgov.top",
       "confidence": "high",
-      "reason": "[article sweep] Identified as a fraudulent website with no affiliation to the legitimate FRSC",
+      "reason": "Identified as a fraudulent website with no affiliation to the legitimate FRSC",
       "first_seen": "2026-09-17T16:03:00+00:00",
       "last_seen": "2026-09-17T16:03:00+00:00",
       "source_count": 1,
@@ -5276,7 +5872,7 @@
       "type": "domain",
       "value": "jfgroup-kw.com",
       "confidence": "high",
-      "reason": "[article sweep] Identified as a phishing page by Bitdefender",
+      "reason": "Identified as a phishing page by Bitdefender",
       "first_seen": "2026-09-17T10:14:31+00:00",
       "last_seen": "2026-09-17T10:14:31+00:00",
       "source_count": 1,
@@ -5293,7 +5889,7 @@
       "type": "domain",
       "value": "sarscollections.com",
       "confidence": "high",
-      "reason": "[article sweep] Used in phishing emails impersonating SARS",
+      "reason": "Used in phishing emails impersonating SARS",
       "first_seen": "2026-09-17T10:14:31+00:00",
       "last_seen": "2026-09-17T10:14:31+00:00",
       "source_count": 1,
@@ -5310,7 +5906,7 @@
       "type": "ipv4",
       "value": "139.28.85.223",
       "confidence": "high",
-      "reason": "[article sweep] Identified as the origin of a phishing email",
+      "reason": "Identified as the origin of a phishing email",
       "first_seen": "2026-09-17T10:14:31+00:00",
       "last_seen": "2026-09-17T10:14:31+00:00",
       "source_count": 1,
@@ -5327,7 +5923,7 @@
       "type": "domain",
       "value": "tradingclaw.pro",
       "confidence": "high",
-      "reason": "[article sweep] Used to distribute Needle Stealer malware",
+      "reason": "Used to distribute Needle Stealer malware",
       "first_seen": "2026-09-17T09:32:21+00:00",
       "last_seen": "2026-09-17T09:32:21+00:00",
       "source_count": 1,
@@ -5907,7 +6503,7 @@
       "type": "ipv4",
       "value": "94.102.49.125",
       "confidence": "high",
-      "reason": "[article sweep] Identified as a source IP for malicious scans",
+      "reason": "Identified as a source IP for malicious scans",
       "first_seen": "2026-09-16T18:44:04+00:00",
       "last_seen": "2026-09-16T18:44:04+00:00",
       "source_count": 1,
@@ -5941,7 +6537,7 @@
       "type": "domain",
       "value": "ferncore13.com",
       "confidence": "high",
-      "reason": "[article sweep] Used to host a malicious script",
+      "reason": "Used to host a malicious script",
       "first_seen": "2026-09-16T16:09:36+00:00",
       "last_seen": "2026-09-16T16:09:36+00:00",
       "source_count": 1,
@@ -5958,7 +6554,7 @@
       "type": "domain",
       "value": "grove-89.com",
       "confidence": "high",
-      "reason": "[article sweep] Listed as a URL extracted from a payload, indicating attacker-controlled infrastructure",
+      "reason": "Listed as a URL extracted from a payload, indicating attacker-controlled infrastructure",
       "first_seen": "2026-09-16T16:09:36+00:00",
       "last_seen": "2026-09-16T16:09:36+00:00",
       "source_count": 1,
@@ -5975,7 +6571,7 @@
       "type": "ipv4",
       "value": "5.252.177.210",
       "confidence": "high",
-      "reason": "[article sweep] Identified as a C2 server for RUSTGate malware",
+      "reason": "Identified as a C2 server for RUSTGate malware",
       "first_seen": "2026-09-16T14:15:51+00:00",
       "last_seen": "2026-09-16T14:15:51+00:00",
       "source_count": 1,
@@ -5992,7 +6588,7 @@
       "type": "ipv4",
       "value": "213.165.63.49",
       "confidence": "high",
-      "reason": "[article sweep] Used for scanning and exploitation against routers and cameras",
+      "reason": "Used for scanning and exploitation against routers and cameras",
       "first_seen": "2026-09-16T07:00:42.026578+00:00",
       "last_seen": "2026-09-16T07:00:42.026578+00:00",
       "source_count": 1,
@@ -6009,7 +6605,7 @@
       "type": "ipv4",
       "value": "89.208.97.165",
       "confidence": "high",
-      "reason": "[article sweep] Open directory containing files for compromising Ukrainian sites",
+      "reason": "Open directory containing files for compromising Ukrainian sites",
       "first_seen": "2026-09-16T07:00:42.026578+00:00",
       "last_seen": "2026-09-16T07:00:42.026578+00:00",
       "source_count": 1,
@@ -6026,7 +6622,7 @@
       "type": "ipv4",
       "value": "23.148.228.253",
       "confidence": "high",
-      "reason": "[article sweep] Exposed Mythic C2 management interface",
+      "reason": "Exposed Mythic C2 management interface",
       "first_seen": "2026-09-16T05:02:01+00:00",
       "last_seen": "2026-09-16T05:02:01+00:00",
       "source_count": 1,
@@ -6121,7 +6717,7 @@
       "type": "ipv4",
       "value": "150.251.113.223",
       "confidence": "high",
-      "reason": "[article sweep] Identified as a C2 IP used by the attacker",
+      "reason": "Identified as a C2 IP used by the attacker",
       "first_seen": "2026-09-15T14:55:03+00:00",
       "last_seen": "2026-09-15T14:55:03+00:00",
       "source_count": 1,
@@ -6138,7 +6734,7 @@
       "type": "domain",
       "value": "host07eu.com",
       "confidence": "high",
-      "reason": "[article sweep] Described as a domain used to impersonate StreamYard, indicating attacker control",
+      "reason": "Described as a domain used to impersonate StreamYard, indicating attacker control",
       "first_seen": "2026-09-15T13:24:22+00:00",
       "last_seen": "2026-09-15T13:24:22+00:00",
       "source_count": 1,
@@ -6155,7 +6751,7 @@
       "type": "domain",
       "value": "hr-psb.eu",
       "confidence": "high",
-      "reason": "[article sweep] Used in a phishing campaign impersonating a legitimate entity",
+      "reason": "Used in a phishing campaign impersonating a legitimate entity",
       "first_seen": "2026-09-15T13:24:22+00:00",
       "last_seen": "2026-09-15T13:24:22+00:00",
       "source_count": 1,
@@ -6172,7 +6768,7 @@
       "type": "domain",
       "value": "streamyard.host07eu.com",
       "confidence": "high",
-      "reason": "[article sweep] Described as a domain used to impersonate StreamYard, indicating attacker control",
+      "reason": "Described as a domain used to impersonate StreamYard, indicating attacker control",
       "first_seen": "2026-09-15T13:24:22+00:00",
       "last_seen": "2026-09-15T13:24:22+00:00",
       "source_count": 1,
@@ -6189,7 +6785,7 @@
       "type": "domain",
       "value": "web12api.com",
       "confidence": "high",
-      "reason": "[article sweep] Listed among domains used for malicious traffic and counterfeit applications.",
+      "reason": "Listed among domains used for malicious traffic and counterfeit applications.",
       "first_seen": "2026-09-15T13:00:00+00:00",
       "last_seen": "2026-09-15T13:00:00+00:00",
       "source_count": 1,
@@ -6228,7 +6824,7 @@
       "type": "domain",
       "value": "d71bedcf-307a-4432-beec-ce943223d0e3.cfargotunnel.com",
       "confidence": "high",
-      "reason": "[article sweep] Used in JungleBamboo campaigns",
+      "reason": "Used in JungleBamboo campaigns",
       "first_seen": "2026-09-15T12:32:07.447809+00:00",
       "last_seen": "2026-09-15T12:32:07.447809+00:00",
       "source_count": 1,
@@ -6245,7 +6841,7 @@
       "type": "domain",
       "value": "document.gitprogram.com",
       "confidence": "high",
-      "reason": "[article sweep] Used in JungleBamboo campaigns",
+      "reason": "Used in JungleBamboo campaigns",
       "first_seen": "2026-09-15T12:32:07.447809+00:00",
       "last_seen": "2026-09-15T12:32:07.447809+00:00",
       "source_count": 1,
@@ -6262,7 +6858,7 @@
       "type": "domain",
       "value": "gitprogram.com",
       "confidence": "high",
-      "reason": "[article sweep] Used to host exploit components",
+      "reason": "Used to host exploit components",
       "first_seen": "2026-09-15T12:32:07.447809+00:00",
       "last_seen": "2026-09-15T12:32:07.447809+00:00",
       "source_count": 1,
@@ -6279,7 +6875,7 @@
       "type": "domain",
       "value": "msbenefit.com",
       "confidence": "high",
-      "reason": "[article sweep] Domain used in a BlueMoon exploit campaign",
+      "reason": "Domain used in a BlueMoon exploit campaign",
       "first_seen": "2026-09-15T12:32:07.447809+00:00",
       "last_seen": "2026-09-15T12:32:07.447809+00:00",
       "source_count": 1,
@@ -6296,7 +6892,7 @@
       "type": "ipv4",
       "value": "206.166.251.164",
       "confidence": "high",
-      "reason": "[article sweep] Hosts cloud.shinewrist.net serving PowerShell staging payloads",
+      "reason": "Hosts cloud.shinewrist.net serving PowerShell staging payloads",
       "first_seen": "2026-09-15T12:32:07.447809+00:00",
       "last_seen": "2026-09-15T12:32:07.447809+00:00",
       "source_count": 1,
@@ -6313,7 +6909,7 @@
       "type": "domain",
       "value": "imnotavillain.xyz",
       "confidence": "high",
-      "reason": "[article sweep] Used by a threat actor claiming to hold a customer database",
+      "reason": "Used by a threat actor claiming to hold a customer database",
       "first_seen": "2026-09-15T11:47:42+00:00",
       "last_seen": "2026-09-15T11:47:42+00:00",
       "source_count": 1,
@@ -6330,7 +6926,7 @@
       "type": "domain",
       "value": "bitrefill-payments.com",
       "confidence": "high",
-      "reason": "[article sweep] Listed in a section explicitly labeled as indicators of compromise.",
+      "reason": "Listed in a section explicitly labeled as indicators of compromise.",
       "first_seen": "2026-09-15T11:35:14+00:00",
       "last_seen": "2026-09-15T11:35:14+00:00",
       "source_count": 1,
@@ -6347,7 +6943,7 @@
       "type": "domain",
       "value": "xn--bitrefll-71a.com",
       "confidence": "high",
-      "reason": "[article sweep] Domain used for phishing and scam activities",
+      "reason": "Domain used for phishing and scam activities",
       "first_seen": "2026-09-15T11:35:14+00:00",
       "last_seen": "2026-09-15T11:35:14+00:00",
       "source_count": 1,
@@ -6364,7 +6960,7 @@
       "type": "domain",
       "value": "xn--bitrefll-h2a.com",
       "confidence": "high",
-      "reason": "[article sweep] Domain used for phishing and scam activities",
+      "reason": "Domain used for phishing and scam activities",
       "first_seen": "2026-09-15T11:35:14+00:00",
       "last_seen": "2026-09-15T11:35:14+00:00",
       "source_count": 1,
@@ -6381,7 +6977,7 @@
       "type": "domain",
       "value": "xn--bitrefll-pay-kfb.com",
       "confidence": "high",
-      "reason": "[article sweep] Domain used for phishing and scam activities",
+      "reason": "Domain used for phishing and scam activities",
       "first_seen": "2026-09-15T11:35:14+00:00",
       "last_seen": "2026-09-15T11:35:14+00:00",
       "source_count": 1,
@@ -6398,7 +6994,7 @@
       "type": "domain",
       "value": "xn--bitrefll-pay-xfb.com",
       "confidence": "high",
-      "reason": "[article sweep] Domain used for phishing and scam activities",
+      "reason": "Domain used for phishing and scam activities",
       "first_seen": "2026-09-15T11:35:14+00:00",
       "last_seen": "2026-09-15T11:35:14+00:00",
       "source_count": 1,
@@ -6415,7 +7011,7 @@
       "type": "domain",
       "value": "xn--bitrefll-q2a.com",
       "confidence": "high",
-      "reason": "[article sweep] Domain used for phishing and scam activities",
+      "reason": "Domain used for phishing and scam activities",
       "first_seen": "2026-09-15T11:35:14+00:00",
       "last_seen": "2026-09-15T11:35:14+00:00",
       "source_count": 1,
@@ -6432,7 +7028,7 @@
       "type": "domain",
       "value": "xn--bitreill-cz9c.com",
       "confidence": "high",
-      "reason": "[article sweep] Domain used for phishing and scam activities",
+      "reason": "Domain used for phishing and scam activities",
       "first_seen": "2026-09-15T11:35:14+00:00",
       "last_seen": "2026-09-15T11:35:14+00:00",
       "source_count": 1,
@@ -6449,7 +7045,7 @@
       "type": "domain",
       "value": "xn--bitreill-pay-yq4f.com",
       "confidence": "high",
-      "reason": "[article sweep] Domain used for phishing and scam activities",
+      "reason": "Domain used for phishing and scam activities",
       "first_seen": "2026-09-15T11:35:14+00:00",
       "last_seen": "2026-09-15T11:35:14+00:00",
       "source_count": 1,
@@ -6466,7 +7062,7 @@
       "type": "domain",
       "value": "xn--btrefill-l2a.com",
       "confidence": "high",
-      "reason": "[article sweep] Domain used for phishing and scam activities",
+      "reason": "Domain used for phishing and scam activities",
       "first_seen": "2026-09-15T11:35:14+00:00",
       "last_seen": "2026-09-15T11:35:14+00:00",
       "source_count": 1,
@@ -6483,7 +7079,7 @@
       "type": "domain",
       "value": "xn--pay-bitrefll-fgb.com",
       "confidence": "high",
-      "reason": "[article sweep] Domain used for phishing and scam activities",
+      "reason": "Domain used for phishing and scam activities",
       "first_seen": "2026-09-15T11:35:14+00:00",
       "last_seen": "2026-09-15T11:35:14+00:00",
       "source_count": 1,
@@ -6500,7 +7096,7 @@
       "type": "domain",
       "value": "moolaah.com",
       "confidence": "high",
-      "reason": "[article sweep] Domain used in a phishing campaign",
+      "reason": "Domain used in a phishing campaign",
       "first_seen": "2026-09-15T05:41:34+00:00",
       "last_seen": "2026-09-15T05:41:34+00:00",
       "source_count": 1,
@@ -6517,7 +7113,7 @@
       "type": "domain",
       "value": "web5-4s4c-online-garantibbva.vibtee.com",
       "confidence": "high",
-      "reason": "[article sweep] Used in a banking phishing campaign with cloaked credential theft endpoints.",
+      "reason": "Used in a banking phishing campaign with cloaked credential theft endpoints.",
       "first_seen": "2026-09-15T05:41:34+00:00",
       "last_seen": "2026-09-15T05:41:34+00:00",
       "source_count": 1,
@@ -6534,7 +7130,7 @@
       "type": "domain",
       "value": "website-2df62808.mvplineup.com",
       "confidence": "high",
-      "reason": "[article sweep] Used in a phishing campaign with cloaked crypto/NFT fraud routes, indicating attacker control.",
+      "reason": "Used in a phishing campaign with cloaked crypto/NFT fraud routes, indicating attacker control.",
       "first_seen": "2026-09-15T05:41:34+00:00",
       "last_seen": "2026-09-15T05:41:34+00:00",
       "source_count": 1,
@@ -6551,7 +7147,7 @@
       "type": "domain",
       "value": "check.aupporte.com",
       "confidence": "high",
-      "reason": "[article sweep] Subdomain of a malicious domain used in a campaign",
+      "reason": "Subdomain of a malicious domain used in a campaign",
       "first_seen": "2026-09-14T20:32:11.162627+00:00",
       "last_seen": "2026-09-14T20:32:11.162627+00:00",
       "source_count": 1,
@@ -6568,7 +7164,7 @@
       "type": "ipv4",
       "value": "62.60.135.34",
       "confidence": "high",
-      "reason": "[article sweep] Listed as a staging IP address for malicious activity.",
+      "reason": "Listed as a staging IP address for malicious activity.",
       "first_seen": "2026-09-14T20:32:11.162627+00:00",
       "last_seen": "2026-09-14T20:32:11.162627+00:00",
       "source_count": 1,
@@ -6585,7 +7181,7 @@
       "type": "ipv4",
       "value": "74.93.203.1",
       "confidence": "high",
-      "reason": "[article sweep] Listed as an IP address involved in malicious activity.",
+      "reason": "Listed as an IP address involved in malicious activity.",
       "first_seen": "2026-09-14T20:32:11.162627+00:00",
       "last_seen": "2026-09-14T20:32:11.162627+00:00",
       "source_count": 1,
@@ -6602,7 +7198,7 @@
       "type": "ipv4",
       "value": "114.10.43.203",
       "confidence": "high",
-      "reason": "[article sweep] Listed as an IP address actively engaged in attacks.",
+      "reason": "Listed as an IP address actively engaged in attacks.",
       "first_seen": "2026-09-14T18:49:14+00:00",
       "last_seen": "2026-09-14T18:49:14+00:00",
       "source_count": 1,
@@ -6619,7 +7215,7 @@
       "type": "ipv4",
       "value": "187.75.114.36",
       "confidence": "high",
-      "reason": "[article sweep] Listed as an IP address actively engaged in attacks.",
+      "reason": "Listed as an IP address actively engaged in attacks.",
       "first_seen": "2026-09-14T18:49:14+00:00",
       "last_seen": "2026-09-14T18:49:14+00:00",
       "source_count": 1,
@@ -6636,7 +7232,7 @@
       "type": "ipv4",
       "value": "23.137.105.214",
       "confidence": "high",
-      "reason": "[article sweep] Listed as an IP address actively engaged in attacks.",
+      "reason": "Listed as an IP address actively engaged in attacks.",
       "first_seen": "2026-09-14T18:49:14+00:00",
       "last_seen": "2026-09-14T18:49:14+00:00",
       "source_count": 1,
@@ -6653,7 +7249,7 @@
       "type": "ipv4",
       "value": "23.180.120.140",
       "confidence": "high",
-      "reason": "[article sweep] Listed as an IP address actively engaged in attacks.",
+      "reason": "Listed as an IP address actively engaged in attacks.",
       "first_seen": "2026-09-14T18:49:14+00:00",
       "last_seen": "2026-09-14T18:49:14+00:00",
       "source_count": 1,
@@ -6670,7 +7266,7 @@
       "type": "ipv4",
       "value": "31.59.129.150",
       "confidence": "high",
-      "reason": "[article sweep] Listed as an IP address actively engaged in attacks.",
+      "reason": "Listed as an IP address actively engaged in attacks.",
       "first_seen": "2026-09-14T18:49:14+00:00",
       "last_seen": "2026-09-14T18:49:14+00:00",
       "source_count": 1,
@@ -6687,7 +7283,7 @@
       "type": "ipv4",
       "value": "37.114.144.209",
       "confidence": "high",
-      "reason": "[article sweep] Listed as an IP address actively engaged in attacks.",
+      "reason": "Listed as an IP address actively engaged in attacks.",
       "first_seen": "2026-09-14T18:49:14+00:00",
       "last_seen": "2026-09-14T18:49:14+00:00",
       "source_count": 1,
@@ -6704,7 +7300,7 @@
       "type": "ipv4",
       "value": "92.241.13.140",
       "confidence": "high",
-      "reason": "[article sweep] Listed as an IP address actively engaged in attacks.",
+      "reason": "Listed as an IP address actively engaged in attacks.",
       "first_seen": "2026-09-14T18:49:14+00:00",
       "last_seen": "2026-09-14T18:49:14+00:00",
       "source_count": 1,
@@ -6721,7 +7317,7 @@
       "type": "ipv4",
       "value": "92.241.13.213",
       "confidence": "high",
-      "reason": "[article sweep] Listed as an IP address actively engaged in attacks.",
+      "reason": "Listed as an IP address actively engaged in attacks.",
       "first_seen": "2026-09-14T18:49:14+00:00",
       "last_seen": "2026-09-14T18:49:14+00:00",
       "source_count": 1,
@@ -6738,7 +7334,7 @@
       "type": "domain",
       "value": "syncmykey.com",
       "confidence": "high",
-      "reason": "[article sweep] Used in phishing infrastructure around passkey themes",
+      "reason": "Used in phishing infrastructure around passkey themes",
       "first_seen": "2026-09-14T18:35:02+00:00",
       "last_seen": "2026-09-14T18:35:02+00:00",
       "source_count": 1,
@@ -6755,7 +7351,7 @@
       "type": "domain",
       "value": "cloud.shinewrist.net",
       "confidence": "high",
-      "reason": "[article sweep] Used in a multi-stage exploit chain",
+      "reason": "Used in a multi-stage exploit chain",
       "first_seen": "2026-09-14T15:31:05+00:00",
       "last_seen": "2026-09-14T15:31:05+00:00",
       "source_count": 1,
@@ -6772,7 +7368,7 @@
       "type": "domain",
       "value": "proof.gitprogram.com",
       "confidence": "high",
-      "reason": "[article sweep] Used to host exploit components by attackers",
+      "reason": "Used to host exploit components by attackers",
       "first_seen": "2026-09-14T15:31:05+00:00",
       "last_seen": "2026-09-14T15:31:05+00:00",
       "source_count": 1,
@@ -6789,7 +7385,7 @@
       "type": "domain",
       "value": "xyz0102.gitprogram.com",
       "confidence": "high",
-      "reason": "[article sweep] Domain used to host malicious Chrome extension",
+      "reason": "Domain used to host malicious Chrome extension",
       "first_seen": "2026-09-14T15:31:05+00:00",
       "last_seen": "2026-09-14T15:31:05+00:00",
       "source_count": 1,
@@ -6806,7 +7402,7 @@
       "type": "domain",
       "value": "trump2026.org",
       "confidence": "high",
-      "reason": "[article sweep] Domain used in a cryptocurrency scam, likely attacker-controlled",
+      "reason": "Domain used in a cryptocurrency scam, likely attacker-controlled",
       "first_seen": "2026-09-14T15:07:10+00:00",
       "last_seen": "2026-09-14T15:07:10+00:00",
       "source_count": 1,
@@ -6883,7 +7479,7 @@
       "type": "domain",
       "value": "gg-steelseries.com.cn",
       "confidence": "high",
-      "reason": "[article sweep] Domain used in a malicious campaign, likely attacker-controlled",
+      "reason": "Domain used in a malicious campaign, likely attacker-controlled",
       "first_seen": "2026-09-14T06:55:22+00:00",
       "last_seen": "2026-09-14T06:55:22+00:00",
       "source_count": 1,
@@ -6900,7 +7496,7 @@
       "type": "domain",
       "value": "noah-ssh.com.cn",
       "confidence": "high",
-      "reason": "[article sweep] Domain used in a malicious campaign, likely attacker-controlled",
+      "reason": "Domain used in a malicious campaign, likely attacker-controlled",
       "first_seen": "2026-09-14T06:55:22+00:00",
       "last_seen": "2026-09-14T06:55:22+00:00",
       "source_count": 1,
@@ -6917,7 +7513,7 @@
       "type": "domain",
       "value": "org-bcut.com.cn",
       "confidence": "high",
-      "reason": "[article sweep] Domain used in a malicious campaign, likely attacker-controlled",
+      "reason": "Domain used in a malicious campaign, likely attacker-controlled",
       "first_seen": "2026-09-14T06:55:22+00:00",
       "last_seen": "2026-09-14T06:55:22+00:00",
       "source_count": 1,
@@ -6934,7 +7530,7 @@
       "type": "domain",
       "value": "assetnote-callback.com",
       "confidence": "high",
-      "reason": "[article sweep] Domain used for callback attempts in scanning activity",
+      "reason": "Domain used for callback attempts in scanning activity",
       "first_seen": "2026-09-13T18:03:09+00:00",
       "last_seen": "2026-09-13T18:03:09+00:00",
       "source_count": 1,
@@ -6951,7 +7547,7 @@
       "type": "domain",
       "value": "canary.assetnotessrf.com",
       "confidence": "high",
-      "reason": "[article sweep] Domain used for SSRF detection in scanning activity",
+      "reason": "Domain used for SSRF detection in scanning activity",
       "first_seen": "2026-09-13T18:03:09+00:00",
       "last_seen": "2026-09-13T18:03:09+00:00",
       "source_count": 1,
@@ -6968,7 +7564,7 @@
       "type": "ipv4",
       "value": "154.198.49.31",
       "confidence": "high",
-      "reason": "[article sweep] IP address hosting a Mythic management portal",
+      "reason": "IP address hosting a Mythic management portal",
       "first_seen": "2026-09-13T05:02:04+00:00",
       "last_seen": "2026-09-13T05:02:04+00:00",
       "source_count": 1,
@@ -6985,7 +7581,7 @@
       "type": "domain",
       "value": "log.gitclone.org",
       "confidence": "high",
-      "reason": "[article sweep] Used for payload delivery in a malicious campaign",
+      "reason": "Used for payload delivery in a malicious campaign",
       "first_seen": "2026-09-12T12:45:25+00:00",
       "last_seen": "2026-09-12T12:45:25+00:00",
       "source_count": 1,
@@ -7002,7 +7598,7 @@
       "type": "ipv4",
       "value": "64.207.232.6",
       "confidence": "high",
-      "reason": "[article sweep] C2 communications observed to this IP",
+      "reason": "C2 communications observed to this IP",
       "first_seen": "2026-09-12T12:45:25+00:00",
       "last_seen": "2026-09-12T12:45:25+00:00",
       "source_count": 1,
@@ -7019,7 +7615,7 @@
       "type": "domain",
       "value": "gopdallas2026.com",
       "confidence": "high",
-      "reason": "[article sweep] Identified as a fake website impersonating a legitimate domain",
+      "reason": "Identified as a fake website impersonating a legitimate domain",
       "first_seen": "2026-09-12T08:15:02+00:00",
       "last_seen": "2026-09-12T08:15:02+00:00",
       "source_count": 1,
@@ -7036,7 +7632,7 @@
       "type": "domain",
       "value": "add-passkey.com",
       "confidence": "high",
-      "reason": "[article sweep] Used in phishing attacks with malicious intent",
+      "reason": "Used in phishing attacks with malicious intent",
       "first_seen": "2026-09-11T17:45:03+00:00",
       "last_seen": "2026-09-11T17:45:03+00:00",
       "source_count": 1,
@@ -7053,7 +7649,7 @@
       "type": "domain",
       "value": "integratedsso.com",
       "confidence": "high",
-      "reason": "[article sweep] Used in phishing attacks to capture credentials",
+      "reason": "Used in phishing attacks to capture credentials",
       "first_seen": "2026-09-11T17:45:03+00:00",
       "last_seen": "2026-09-11T17:45:03+00:00",
       "source_count": 1,
@@ -7070,7 +7666,7 @@
       "type": "domain",
       "value": "secure-passkey.com",
       "confidence": "high",
-      "reason": "[article sweep] Used in phishing campaigns to capture credentials",
+      "reason": "Used in phishing campaigns to capture credentials",
       "first_seen": "2026-09-11T17:45:03+00:00",
       "last_seen": "2026-09-11T17:45:03+00:00",
       "source_count": 1,
@@ -7087,7 +7683,7 @@
       "type": "domain",
       "value": "setupmypasskey.com",
       "confidence": "high",
-      "reason": "[article sweep] Used in phishing campaigns to capture credentials",
+      "reason": "Used in phishing campaigns to capture credentials",
       "first_seen": "2026-09-11T17:45:03+00:00",
       "last_seen": "2026-09-11T17:45:03+00:00",
       "source_count": 1,
@@ -7206,7 +7802,7 @@
       "type": "ipv4",
       "value": "95.181.173.36",
       "confidence": "high",
-      "reason": "[article sweep] Open directory containing attacker's toolchain",
+      "reason": "Open directory containing attacker's toolchain",
       "first_seen": "2026-09-11T07:11:14+00:00",
       "last_seen": "2026-09-11T07:11:14+00:00",
       "source_count": 1,
@@ -7223,7 +7819,7 @@
       "type": "domain",
       "value": "company.add-passkey.com",
       "confidence": "high",
-      "reason": "[article sweep] Malicious domain used in phishing attacks",
+      "reason": "Malicious domain used in phishing attacks",
       "first_seen": "2026-09-10T20:36:03+00:00",
       "last_seen": "2026-09-10T20:36:03+00:00",
       "source_count": 1,
@@ -7300,7 +7896,7 @@
       "type": "domain",
       "value": "dcfdc-eight.vercel.app",
       "confidence": "high",
-      "reason": "[article sweep] Used in malicious extension campaign",
+      "reason": "Used in malicious extension campaign",
       "first_seen": "2026-09-09T21:40:24.555000+00:00",
       "last_seen": "2026-09-09T21:40:24.555000+00:00",
       "source_count": 1,
@@ -7317,7 +7913,7 @@
       "type": "domain",
       "value": "snipex-iota.vercel.app",
       "confidence": "high",
-      "reason": "[article sweep] Used for data exfiltration in a malicious browser extension campaign",
+      "reason": "Used for data exfiltration in a malicious browser extension campaign",
       "first_seen": "2026-09-09T21:40:24.555000+00:00",
       "last_seen": "2026-09-09T21:40:24.555000+00:00",
       "source_count": 1,
@@ -7334,7 +7930,7 @@
       "type": "ipv4",
       "value": "62.60.130.193",
       "confidence": "high",
-      "reason": "[article sweep] Listed as a source of brute force traffic",
+      "reason": "Listed as a source of brute force traffic",
       "first_seen": "2026-09-09T17:46:24+00:00",
       "last_seen": "2026-09-09T17:46:24+00:00",
       "source_count": 1,
@@ -7351,7 +7947,7 @@
       "type": "domain",
       "value": "apimantax.otax.fun",
       "confidence": "high",
-      "reason": "[article sweep] Identified as a dynamic C2 domain used by malware.",
+      "reason": "Identified as a dynamic C2 domain used by malware.",
       "first_seen": "2026-09-09T15:03:47+00:00",
       "last_seen": "2026-09-09T15:03:47+00:00",
       "source_count": 1,
@@ -7577,7 +8173,7 @@
       "type": "domain",
       "value": "homepage.brianwilli.com",
       "confidence": "high",
-      "reason": "[article sweep] Used to download files in a malicious campaign",
+      "reason": "Used to download files in a malicious campaign",
       "first_seen": "2026-09-09T15:00:00+00:00",
       "last_seen": "2026-09-09T15:00:00+00:00",
       "source_count": 1,
@@ -7747,7 +8343,7 @@
       "type": "domain",
       "value": "bib.1001gacor.org",
       "confidence": "high",
-      "reason": "[article sweep] Listed as part of a malicious infrastructure.",
+      "reason": "Listed as part of a malicious infrastructure.",
       "first_seen": "2026-09-09T14:31:09.124499+00:00",
       "last_seen": "2026-09-09T14:31:09.124499+00:00",
       "source_count": 1,
@@ -7764,7 +8360,7 @@
       "type": "domain",
       "value": "bob.1001gacor.org",
       "confidence": "high",
-      "reason": "[article sweep] Listed as part of Vidar infrastructure.",
+      "reason": "Listed as part of Vidar infrastructure.",
       "first_seen": "2026-09-09T14:31:09.124499+00:00",
       "last_seen": "2026-09-09T14:31:09.124499+00:00",
       "source_count": 1,
@@ -7781,7 +8377,7 @@
       "type": "domain",
       "value": "brr.1001gacor.org",
       "confidence": "high",
-      "reason": "[article sweep] Listed as part of Vidar infrastructure.",
+      "reason": "Listed as part of Vidar infrastructure.",
       "first_seen": "2026-09-09T14:31:09.124499+00:00",
       "last_seen": "2026-09-09T14:31:09.124499+00:00",
       "source_count": 1,
@@ -7798,7 +8394,7 @@
       "type": "domain",
       "value": "dez.11gokil.org",
       "confidence": "high",
-      "reason": "[article sweep] Listed as additional Vidar infrastructure",
+      "reason": "Listed as additional Vidar infrastructure",
       "first_seen": "2026-09-09T14:31:09.124499+00:00",
       "last_seen": "2026-09-09T14:31:09.124499+00:00",
       "source_count": 1,
@@ -7815,7 +8411,7 @@
       "type": "domain",
       "value": "ges.1001gacor.org",
       "confidence": "high",
-      "reason": "[article sweep] Listed as part of Vidar infrastructure",
+      "reason": "Listed as part of Vidar infrastructure",
       "first_seen": "2026-09-09T14:31:09.124499+00:00",
       "last_seen": "2026-09-09T14:31:09.124499+00:00",
       "source_count": 1,
@@ -7832,7 +8428,7 @@
       "type": "domain",
       "value": "gta6demo.eu",
       "confidence": "high",
-      "reason": "[article sweep] Listed in an IOC table as attacker infrastructure",
+      "reason": "Listed in an IOC table as attacker infrastructure",
       "first_seen": "2026-09-09T14:31:09.124499+00:00",
       "last_seen": "2026-09-09T14:31:09.124499+00:00",
       "source_count": 1,
@@ -7849,7 +8445,7 @@
       "type": "domain",
       "value": "gta6demo.us",
       "confidence": "high",
-      "reason": "[article sweep] Listed in an IOC table as attacker infrastructure",
+      "reason": "Listed in an IOC table as attacker infrastructure",
       "first_seen": "2026-09-09T14:31:09.124499+00:00",
       "last_seen": "2026-09-09T14:31:09.124499+00:00",
       "source_count": 1,
@@ -7866,7 +8462,7 @@
       "type": "domain",
       "value": "ket.1001gacor.org",
       "confidence": "high",
-      "reason": "[article sweep] Listed as part of Vidar infrastructure",
+      "reason": "Listed as part of Vidar infrastructure",
       "first_seen": "2026-09-09T14:31:09.124499+00:00",
       "last_seen": "2026-09-09T14:31:09.124499+00:00",
       "source_count": 1,
@@ -7883,7 +8479,7 @@
       "type": "domain",
       "value": "kra.1001gacor.org",
       "confidence": "high",
-      "reason": "[article sweep] Listed as part of Vidar infrastructure",
+      "reason": "Listed as part of Vidar infrastructure",
       "first_seen": "2026-09-09T14:31:09.124499+00:00",
       "last_seen": "2026-09-09T14:31:09.124499+00:00",
       "source_count": 1,
@@ -7900,7 +8496,7 @@
       "type": "domain",
       "value": "ljr.1001gacor.org",
       "confidence": "high",
-      "reason": "[article sweep] Listed as part of Vidar infrastructure",
+      "reason": "Listed as part of Vidar infrastructure",
       "first_seen": "2026-09-09T14:31:09.124499+00:00",
       "last_seen": "2026-09-09T14:31:09.124499+00:00",
       "source_count": 1,
@@ -7917,7 +8513,7 @@
       "type": "domain",
       "value": "nhg.1001gacor.org",
       "confidence": "high",
-      "reason": "[article sweep] Domain used as part of Vidar malware infrastructure",
+      "reason": "Domain used as part of Vidar malware infrastructure",
       "first_seen": "2026-09-09T14:31:09.124499+00:00",
       "last_seen": "2026-09-09T14:31:09.124499+00:00",
       "source_count": 1,
@@ -7934,7 +8530,7 @@
       "type": "domain",
       "value": "rex.1001gacor.org",
       "confidence": "high",
-      "reason": "[article sweep] Listed as part of Vidar infrastructure",
+      "reason": "Listed as part of Vidar infrastructure",
       "first_seen": "2026-09-09T14:31:09.124499+00:00",
       "last_seen": "2026-09-09T14:31:09.124499+00:00",
       "source_count": 1,
@@ -7951,7 +8547,7 @@
       "type": "domain",
       "value": "rockstar-gta-6.com",
       "confidence": "high",
-      "reason": "[article sweep] Listed as part of attacker infrastructure",
+      "reason": "Listed as part of attacker infrastructure",
       "first_seen": "2026-09-09T14:31:09.124499+00:00",
       "last_seen": "2026-09-09T14:31:09.124499+00:00",
       "source_count": 1,
@@ -7968,7 +8564,7 @@
       "type": "domain",
       "value": "ses.1001gacor.org",
       "confidence": "high",
-      "reason": "[article sweep] Communicated with by malware as part of attacker infrastructure.",
+      "reason": "Communicated with by malware as part of attacker infrastructure.",
       "first_seen": "2026-09-09T14:31:09.124499+00:00",
       "last_seen": "2026-09-09T14:31:09.124499+00:00",
       "source_count": 1,
@@ -7985,7 +8581,7 @@
       "type": "domain",
       "value": "sii.11gokil.org",
       "confidence": "high",
-      "reason": "[article sweep] Listed as part of Vidar malware infrastructure",
+      "reason": "Listed as part of Vidar malware infrastructure",
       "first_seen": "2026-09-09T14:31:09.124499+00:00",
       "last_seen": "2026-09-09T14:31:09.124499+00:00",
       "source_count": 1,
@@ -8002,7 +8598,7 @@
       "type": "domain",
       "value": "sii.sm188dnsx.top",
       "confidence": "high",
-      "reason": "[article sweep] Listed as part of Vidar malware infrastructure",
+      "reason": "Listed as part of Vidar malware infrastructure",
       "first_seen": "2026-09-09T14:31:09.124499+00:00",
       "last_seen": "2026-09-09T14:31:09.124499+00:00",
       "source_count": 1,
@@ -8019,7 +8615,7 @@
       "type": "domain",
       "value": "sto.1001gacor.org",
       "confidence": "high",
-      "reason": "[article sweep] Listed as part of Vidar malware infrastructure",
+      "reason": "Listed as part of Vidar malware infrastructure",
       "first_seen": "2026-09-09T14:31:09.124499+00:00",
       "last_seen": "2026-09-09T14:31:09.124499+00:00",
       "source_count": 1,
@@ -8036,7 +8632,7 @@
       "type": "domain",
       "value": "tax.11gokil.org",
       "confidence": "high",
-      "reason": "[article sweep] Listed as part of Vidar malware infrastructure",
+      "reason": "Listed as part of Vidar malware infrastructure",
       "first_seen": "2026-09-09T14:31:09.124499+00:00",
       "last_seen": "2026-09-09T14:31:09.124499+00:00",
       "source_count": 1,
@@ -8053,7 +8649,7 @@
       "type": "domain",
       "value": "tax.sm188dnsx.top",
       "confidence": "high",
-      "reason": "[article sweep] Listed as part of Vidar malware infrastructure",
+      "reason": "Listed as part of Vidar malware infrastructure",
       "first_seen": "2026-09-09T14:31:09.124499+00:00",
       "last_seen": "2026-09-09T14:31:09.124499+00:00",
       "source_count": 1,
@@ -8070,7 +8666,7 @@
       "type": "domain",
       "value": "zaf.11gokil.org",
       "confidence": "high",
-      "reason": "[article sweep] Domain listed among attacker-controlled infrastructure",
+      "reason": "Domain listed among attacker-controlled infrastructure",
       "first_seen": "2026-09-09T14:31:09.124499+00:00",
       "last_seen": "2026-09-09T14:31:09.124499+00:00",
       "source_count": 1,
@@ -8087,7 +8683,7 @@
       "type": "domain",
       "value": "zaf.sm188dnsx.top",
       "confidence": "high",
-      "reason": "[article sweep] Domain listed among attacker-controlled infrastructure",
+      "reason": "Domain listed among attacker-controlled infrastructure",
       "first_seen": "2026-09-09T14:31:09.124499+00:00",
       "last_seen": "2026-09-09T14:31:09.124499+00:00",
       "source_count": 1,
@@ -8104,7 +8700,7 @@
       "type": "domain",
       "value": "a0700877.xsph.ru",
       "confidence": "high",
-      "reason": "[article sweep] Domain used by DCRAT for malicious activities",
+      "reason": "Domain used by DCRAT for malicious activities",
       "first_seen": "2026-09-09T14:05:57+00:00",
       "last_seen": "2026-09-09T14:05:57+00:00",
       "source_count": 1,
@@ -8155,7 +8751,7 @@
       "type": "domain",
       "value": "noiseship.cfd",
       "confidence": "high",
-      "reason": "[article sweep] Domain used to distribute a trojanized installer",
+      "reason": "Domain used to distribute a trojanized installer",
       "first_seen": "2026-09-09T10:00:55+00:00",
       "last_seen": "2026-09-09T10:00:55+00:00",
       "source_count": 1,
@@ -8433,7 +9029,7 @@
       "type": "domain",
       "value": "5yotmxcc54l9xda.ru",
       "confidence": "high",
-      "reason": "[article sweep] Domain used in a campaign to download malicious payloads",
+      "reason": "Domain used in a campaign to download malicious payloads",
       "first_seen": "2026-09-09T05:43:12+00:00",
       "last_seen": "2026-09-09T05:43:12+00:00",
       "source_count": 1,
@@ -8450,7 +9046,7 @@
       "type": "domain",
       "value": "ejntin6hkjt7gj2.ru",
       "confidence": "high",
-      "reason": "[article sweep] Used in XCSSET malware campaign",
+      "reason": "Used in XCSSET malware campaign",
       "first_seen": "2026-09-09T05:43:12+00:00",
       "last_seen": "2026-09-09T05:43:12+00:00",
       "source_count": 1,
@@ -8467,7 +9063,7 @@
       "type": "domain",
       "value": "qdgs232i-q.ru",
       "confidence": "high",
-      "reason": "[article sweep] Used as a C2 domain in a malware campaign",
+      "reason": "Used as a C2 domain in a malware campaign",
       "first_seen": "2026-09-09T05:43:12+00:00",
       "last_seen": "2026-09-09T05:43:12+00:00",
       "source_count": 1,
@@ -8484,7 +9080,7 @@
       "type": "domain",
       "value": "niestools.com",
       "confidence": "high",
-      "reason": "[article sweep] Used as a proxy server domain in a malicious campaign.",
+      "reason": "Described as private infrastructure used by attackers",
       "first_seen": "2026-09-04T11:00:15+00:00",
       "last_seen": "2026-09-08T16:58:55+00:00",
       "source_count": 2,
@@ -8523,7 +9119,7 @@
       "type": "ipv4",
       "value": "122.183.48.195",
       "confidence": "high",
-      "reason": "[article sweep] Used by a threat actor in an attack",
+      "reason": "Used by a threat actor in an attack",
       "first_seen": "2026-09-08T13:32:49.587167+00:00",
       "last_seen": "2026-09-08T13:32:49.587167+00:00",
       "source_count": 1,
@@ -8540,7 +9136,7 @@
       "type": "ipv4",
       "value": "122.183.48.35",
       "confidence": "high",
-      "reason": "[article sweep] Used by a threat actor in an attack",
+      "reason": "Used by a threat actor in an attack",
       "first_seen": "2026-09-08T13:32:49.587167+00:00",
       "last_seen": "2026-09-08T13:32:49.587167+00:00",
       "source_count": 1,
@@ -8557,7 +9153,7 @@
       "type": "ipv4",
       "value": "122.183.48.82",
       "confidence": "high",
-      "reason": "[article sweep] Used by a threat actor in an attack",
+      "reason": "Used by a threat actor in an attack",
       "first_seen": "2026-09-08T13:32:49.587167+00:00",
       "last_seen": "2026-09-08T13:32:49.587167+00:00",
       "source_count": 1,
@@ -8574,7 +9170,7 @@
       "type": "ipv4",
       "value": "47.15.69.15",
       "confidence": "high",
-      "reason": "[article sweep] Used by a threat actor in an attack",
+      "reason": "Used by a threat actor in an attack",
       "first_seen": "2026-09-08T13:32:49.587167+00:00",
       "last_seen": "2026-09-08T13:32:49.587167+00:00",
       "source_count": 1,
@@ -8591,7 +9187,7 @@
       "type": "domain",
       "value": "9i6pokerdepot.com",
       "confidence": "high",
-      "reason": "[article sweep] Used as a sending domain in a phishing campaign",
+      "reason": "Used as a sending domain in a phishing campaign",
       "first_seen": "2026-09-08T13:01:18.371466+00:00",
       "last_seen": "2026-09-08T13:01:18.371466+00:00",
       "source_count": 1,
@@ -8668,7 +9264,7 @@
       "type": "domain",
       "value": "againstmor.store",
       "confidence": "high",
-      "reason": "[article sweep] Listed as distribution infrastructure in a threat campaign",
+      "reason": "Listed as distribution infrastructure in a threat campaign",
       "first_seen": "2026-09-08T10:16:57.536939+00:00",
       "last_seen": "2026-09-08T10:16:57.536939+00:00",
       "source_count": 1,
@@ -8685,7 +9281,7 @@
       "type": "domain",
       "value": "analyticstrack-pzh.click",
       "confidence": "high",
-      "reason": "[article sweep] Listed as tracking infrastructure in a threat campaign",
+      "reason": "Listed as tracking infrastructure in a threat campaign",
       "first_seen": "2026-09-08T10:16:57.536939+00:00",
       "last_seen": "2026-09-08T10:16:57.536939+00:00",
       "source_count": 1,
@@ -8702,7 +9298,7 @@
       "type": "domain",
       "value": "citronemu.com",
       "confidence": "high",
-      "reason": "[article sweep] Identified as a fake download website.",
+      "reason": "Identified as a fake download website.",
       "first_seen": "2026-09-08T10:16:57.536939+00:00",
       "last_seen": "2026-09-08T10:16:57.536939+00:00",
       "source_count": 1,
@@ -8719,7 +9315,7 @@
       "type": "domain",
       "value": "cloud01y.cfd",
       "confidence": "high",
-      "reason": "[article sweep] Listed as distribution infrastructure",
+      "reason": "Listed as distribution infrastructure",
       "first_seen": "2026-09-08T10:16:57.536939+00:00",
       "last_seen": "2026-09-08T10:16:57.536939+00:00",
       "source_count": 1,
@@ -8736,7 +9332,7 @@
       "type": "domain",
       "value": "cloud05y.cfd",
       "confidence": "high",
-      "reason": "[article sweep] Listed as distribution infrastructure",
+      "reason": "Listed as distribution infrastructure",
       "first_seen": "2026-09-08T10:16:57.536939+00:00",
       "last_seen": "2026-09-08T10:16:57.536939+00:00",
       "source_count": 1,
@@ -8753,7 +9349,7 @@
       "type": "domain",
       "value": "downpro.net",
       "confidence": "high",
-      "reason": "[article sweep] Fake download website",
+      "reason": "Fake download website",
       "first_seen": "2026-09-08T10:16:57.536939+00:00",
       "last_seen": "2026-09-08T10:16:57.536939+00:00",
       "source_count": 1,
@@ -8770,7 +9366,7 @@
       "type": "domain",
       "value": "filemodo.xyz",
       "confidence": "high",
-      "reason": "[article sweep] Listed as distribution infrastructure",
+      "reason": "Listed as distribution infrastructure",
       "first_seen": "2026-09-08T10:16:57.536939+00:00",
       "last_seen": "2026-09-08T10:16:57.536939+00:00",
       "source_count": 1,
@@ -8787,7 +9383,7 @@
       "type": "domain",
       "value": "flingbase.net",
       "confidence": "high",
-      "reason": "[article sweep] Listed as a fake download website",
+      "reason": "Listed as a fake download website",
       "first_seen": "2026-09-08T10:16:57.536939+00:00",
       "last_seen": "2026-09-08T10:16:57.536939+00:00",
       "source_count": 1,
@@ -8804,7 +9400,7 @@
       "type": "domain",
       "value": "getgamerfree.com",
       "confidence": "high",
-      "reason": "[article sweep] Listed as a fake download website",
+      "reason": "Listed as a fake download website",
       "first_seen": "2026-09-08T10:16:57.536939+00:00",
       "last_seen": "2026-09-08T10:16:57.536939+00:00",
       "source_count": 1,
@@ -8821,7 +9417,7 @@
       "type": "domain",
       "value": "host03q.cfd",
       "confidence": "high",
-      "reason": "[article sweep] Listed as distribution infrastructure",
+      "reason": "Listed as distribution infrastructure",
       "first_seen": "2026-09-08T10:16:57.536939+00:00",
       "last_seen": "2026-09-08T10:16:57.536939+00:00",
       "source_count": 1,
@@ -8838,7 +9434,7 @@
       "type": "domain",
       "value": "host82p.cfd",
       "confidence": "high",
-      "reason": "[article sweep] Listed as distribution infrastructure",
+      "reason": "Listed as distribution infrastructure",
       "first_seen": "2026-09-08T10:16:57.536939+00:00",
       "last_seen": "2026-09-08T10:16:57.536939+00:00",
       "source_count": 1,
@@ -8855,7 +9451,7 @@
       "type": "domain",
       "value": "login.orbitalframework.cc",
       "confidence": "high",
-      "reason": "[article sweep] Used as a C2 for Amatera Stealer",
+      "reason": "Used as a C2 for Amatera Stealer",
       "first_seen": "2026-09-08T10:16:57.536939+00:00",
       "last_seen": "2026-09-08T10:16:57.536939+00:00",
       "source_count": 1,
@@ -8872,7 +9468,7 @@
       "type": "domain",
       "value": "macisofile.sbs",
       "confidence": "high",
-      "reason": "[article sweep] Fake download website used in a malicious campaign",
+      "reason": "Fake download website used in a malicious campaign",
       "first_seen": "2026-09-08T10:16:57.536939+00:00",
       "last_seen": "2026-09-08T10:16:57.536939+00:00",
       "source_count": 1,
@@ -8889,7 +9485,7 @@
       "type": "domain",
       "value": "storage04x.cfd",
       "confidence": "high",
-      "reason": "[article sweep] Identified as distribution infrastructure",
+      "reason": "Identified as distribution infrastructure",
       "first_seen": "2026-09-08T10:16:57.536939+00:00",
       "last_seen": "2026-09-08T10:16:57.536939+00:00",
       "source_count": 1,
@@ -8906,7 +9502,7 @@
       "type": "domain",
       "value": "storage06x.cfd",
       "confidence": "high",
-      "reason": "[article sweep] Identified as distribution infrastructure",
+      "reason": "Identified as distribution infrastructure",
       "first_seen": "2026-09-08T10:16:57.536939+00:00",
       "last_seen": "2026-09-08T10:16:57.536939+00:00",
       "source_count": 1,
@@ -8923,7 +9519,7 @@
       "type": "domain",
       "value": "storage11x.cfd",
       "confidence": "high",
-      "reason": "[article sweep] Identified as distribution infrastructure",
+      "reason": "Identified as distribution infrastructure",
       "first_seen": "2026-09-08T10:16:57.536939+00:00",
       "last_seen": "2026-09-08T10:16:57.536939+00:00",
       "source_count": 1,
@@ -8940,7 +9536,7 @@
       "type": "domain",
       "value": "wimsedas.xyz",
       "confidence": "high",
-      "reason": "[article sweep] Listed among domains used for distribution infrastructure in a malicious campaign.",
+      "reason": "Listed among domains used for distribution infrastructure in a malicious campaign.",
       "first_seen": "2026-09-08T10:16:57.536939+00:00",
       "last_seen": "2026-09-08T10:16:57.536939+00:00",
       "source_count": 1,
@@ -9017,7 +9613,7 @@
       "type": "domain",
       "value": "wapp.live",
       "confidence": "high",
-      "reason": "[article sweep] Used as redirector domains in malicious infrastructure",
+      "reason": "Used as redirector domains in malicious infrastructure",
       "first_seen": "2026-09-08T09:46:25.913877+00:00",
       "last_seen": "2026-09-08T09:46:25.913877+00:00",
       "source_count": 1,
@@ -9082,7 +9678,7 @@
       "type": "domain",
       "value": "enrollpasskey.com",
       "confidence": "high",
-      "reason": "[article sweep] Listed as part of phishing infrastructure targeting credentials",
+      "reason": "Listed as part of phishing infrastructure targeting credentials",
       "first_seen": "2026-09-08T08:24:28+00:00",
       "last_seen": "2026-09-08T08:24:28+00:00",
       "source_count": 1,
@@ -9099,7 +9695,7 @@
       "type": "domain",
       "value": "keyokta.com",
       "confidence": "high",
-      "reason": "[article sweep] Listed as part of phishing infrastructure targeting credentials",
+      "reason": "Listed as part of phishing infrastructure targeting credentials",
       "first_seen": "2026-09-08T08:24:28+00:00",
       "last_seen": "2026-09-08T08:24:28+00:00",
       "source_count": 1,
@@ -9116,7 +9712,7 @@
       "type": "domain",
       "value": "mspasskey.com",
       "confidence": "high",
-      "reason": "[article sweep] Listed as part of phishing infrastructure targeting credentials",
+      "reason": "Listed as part of phishing infrastructure targeting credentials",
       "first_seen": "2026-09-08T08:24:28+00:00",
       "last_seen": "2026-09-08T08:24:28+00:00",
       "source_count": 1,
@@ -9133,7 +9729,7 @@
       "type": "domain",
       "value": "myoktasso.com",
       "confidence": "high",
-      "reason": "[article sweep] Listed as part of phishing infrastructure targeting credentials",
+      "reason": "Listed as part of phishing infrastructure targeting credentials",
       "first_seen": "2026-09-08T08:24:28+00:00",
       "last_seen": "2026-09-08T08:24:28+00:00",
       "source_count": 1,
@@ -9150,7 +9746,7 @@
       "type": "domain",
       "value": "mypasskeysso.com",
       "confidence": "high",
-      "reason": "[article sweep] Listed as part of phishing infrastructure targeting credentials",
+      "reason": "Listed as part of phishing infrastructure targeting credentials",
       "first_seen": "2026-09-08T08:24:28+00:00",
       "last_seen": "2026-09-08T08:24:28+00:00",
       "source_count": 1,
@@ -9167,7 +9763,7 @@
       "type": "domain",
       "value": "oktaenroll.com",
       "confidence": "high",
-      "reason": "[article sweep] Listed as part of phishing infrastructure targeting credentials",
+      "reason": "Listed as part of phishing infrastructure targeting credentials",
       "first_seen": "2026-09-08T08:24:28+00:00",
       "last_seen": "2026-09-08T08:24:28+00:00",
       "source_count": 1,
@@ -9184,7 +9780,7 @@
       "type": "domain",
       "value": "oktaportalsso.com",
       "confidence": "high",
-      "reason": "[article sweep] Listed as part of phishing infrastructure targeting credentials",
+      "reason": "Listed as part of phishing infrastructure targeting credentials",
       "first_seen": "2026-09-08T08:24:28+00:00",
       "last_seen": "2026-09-08T08:24:28+00:00",
       "source_count": 1,
@@ -9201,7 +9797,7 @@
       "type": "ipv4",
       "value": "107.128.45.122",
       "confidence": "high",
-      "reason": "[article sweep] Listed as part of an attack campaign",
+      "reason": "Listed as part of an attack campaign",
       "first_seen": "2026-09-08T08:24:28+00:00",
       "last_seen": "2026-09-08T08:24:28+00:00",
       "source_count": 1,
@@ -9218,7 +9814,7 @@
       "type": "ipv4",
       "value": "38.42.59.171",
       "confidence": "high",
-      "reason": "[article sweep] Listed as part of an attack campaign",
+      "reason": "Listed as part of an attack campaign",
       "first_seen": "2026-09-08T08:24:28+00:00",
       "last_seen": "2026-09-08T08:24:28+00:00",
       "source_count": 1,
@@ -9235,7 +9831,7 @@
       "type": "ipv4",
       "value": "76.103.148.180",
       "confidence": "high",
-      "reason": "[article sweep] Listed as part of an attack campaign",
+      "reason": "Listed as part of an attack campaign",
       "first_seen": "2026-09-08T08:24:28+00:00",
       "last_seen": "2026-09-08T08:24:28+00:00",
       "source_count": 1,
@@ -9252,7 +9848,7 @@
       "type": "ipv4",
       "value": "80.96.109.64",
       "confidence": "high",
-      "reason": "[article sweep] Listed as part of an attack campaign",
+      "reason": "Listed as part of an attack campaign",
       "first_seen": "2026-09-08T08:24:28+00:00",
       "last_seen": "2026-09-08T08:24:28+00:00",
       "source_count": 1,
@@ -9269,7 +9865,7 @@
       "type": "ipv4",
       "value": "2.147.68.96",
       "confidence": "high",
-      "reason": "[article sweep] Listed as a command-and-control IP address for DragonForce campaign",
+      "reason": "Listed as a command-and-control IP address for DragonForce campaign",
       "first_seen": "2026-09-07T11:47:55+00:00",
       "last_seen": "2026-09-07T11:47:55+00:00",
       "source_count": 1,
@@ -9303,7 +9899,7 @@
       "type": "ipv4",
       "value": "69.4.234.20",
       "confidence": "high",
-      "reason": "[article sweep] Listed as a command-and-control IP address for DragonForce campaign",
+      "reason": "Listed as a command-and-control IP address for DragonForce campaign",
       "first_seen": "2026-09-07T11:47:55+00:00",
       "last_seen": "2026-09-07T11:47:55+00:00",
       "source_count": 1,
@@ -9337,7 +9933,7 @@
       "type": "domain",
       "value": "xfjcc.fun",
       "confidence": "high",
-      "reason": "[article sweep] Domain used for C2 activity and payload distribution",
+      "reason": "Domain used for C2 activity and payload distribution",
       "first_seen": "2026-09-07T05:51:11+00:00",
       "last_seen": "2026-09-07T05:51:11+00:00",
       "source_count": 1,
@@ -9415,7 +10011,7 @@
       "type": "domain",
       "value": "config.hubdisplay.lol",
       "confidence": "high",
-      "reason": "[article sweep] Listed as ProManager C2",
+      "reason": "Listed as ProManager C2",
       "first_seen": "2026-09-06T08:34:20+00:00",
       "last_seen": "2026-09-06T08:34:20+00:00",
       "source_count": 1,
@@ -9449,7 +10045,7 @@
       "type": "domain",
       "value": "health.journal-metric.lol",
       "confidence": "high",
-      "reason": "[article sweep] Listed as a C2 domain for WinUpdate malware",
+      "reason": "Listed as a C2 domain for WinUpdate malware",
       "first_seen": "2026-09-06T08:34:20+00:00",
       "last_seen": "2026-09-06T08:34:20+00:00",
       "source_count": 1,
@@ -9483,7 +10079,7 @@
       "type": "domain",
       "value": "metric.gardenpark.click",
       "confidence": "high",
-      "reason": "[article sweep] Listed as a C2 server for SoftManager malware",
+      "reason": "Listed as a C2 server for SoftManager malware",
       "first_seen": "2026-09-06T08:34:20+00:00",
       "last_seen": "2026-09-06T08:34:20+00:00",
       "source_count": 1,
@@ -9517,7 +10113,7 @@
       "type": "domain",
       "value": "monitor5.roast-core85.click",
       "confidence": "high",
-      "reason": "[article sweep] Listed as a C2 server for REVSTEALER malware",
+      "reason": "Listed as a C2 server for REVSTEALER malware",
       "first_seen": "2026-09-06T08:34:20+00:00",
       "last_seen": "2026-09-06T08:34:20+00:00",
       "source_count": 1,
@@ -9666,7 +10262,7 @@
       "type": "domain",
       "value": "admin.primgs.lol",
       "confidence": "high",
-      "reason": "[article sweep] Listed as part of APT37 infrastructure",
+      "reason": "Listed as part of APT37 infrastructure",
       "first_seen": "2026-09-04T14:51:13+00:00",
       "last_seen": "2026-09-04T14:51:13+00:00",
       "source_count": 1,
@@ -9700,7 +10296,7 @@
       "type": "domain",
       "value": "img.darklights.store",
       "confidence": "high",
-      "reason": "[article sweep] Listed as an IOC by Rapid7 for a RAT campaign",
+      "reason": "Listed as an IOC by Rapid7 for a RAT campaign",
       "first_seen": "2026-09-04T14:51:13+00:00",
       "last_seen": "2026-09-04T14:51:13+00:00",
       "source_count": 1,
@@ -9734,7 +10330,7 @@
       "type": "domain",
       "value": "img.socialteams.store",
       "confidence": "high",
-      "reason": "[article sweep] Listed as an IOC by Rapid7 for a RAT campaign",
+      "reason": "Listed as an IOC by Rapid7 for a RAT campaign",
       "first_seen": "2026-09-04T14:51:13+00:00",
       "last_seen": "2026-09-04T14:51:13+00:00",
       "source_count": 1,
@@ -9768,7 +10364,7 @@
       "type": "domain",
       "value": "img.worksongo.store",
       "confidence": "high",
-      "reason": "[article sweep] Listed as an IOC by Rapid7 for a RAT campaign",
+      "reason": "Listed as an IOC by Rapid7 for a RAT campaign",
       "first_seen": "2026-09-04T14:51:13+00:00",
       "last_seen": "2026-09-04T14:51:13+00:00",
       "source_count": 1,
@@ -9802,7 +10398,7 @@
       "type": "domain",
       "value": "chatgpt.niestools.com",
       "confidence": "high",
-      "reason": "[article sweep] Part of a malicious infrastructure using Sub2API AI gateway.",
+      "reason": "Part of a malicious infrastructure using Sub2API AI gateway.",
       "first_seen": "2026-09-04T11:17:36.360288+00:00",
       "last_seen": "2026-09-04T11:17:36.360288+00:00",
       "source_count": 1,
@@ -9819,7 +10415,7 @@
       "type": "domain",
       "value": "claude.niestools.com",
       "confidence": "high",
-      "reason": "[article sweep] Part of a malicious infrastructure using Sub2API AI gateway.",
+      "reason": "Part of a malicious infrastructure using Sub2API AI gateway.",
       "first_seen": "2026-09-04T11:17:36.360288+00:00",
       "last_seen": "2026-09-04T11:17:36.360288+00:00",
       "source_count": 1,
@@ -9836,7 +10432,7 @@
       "type": "domain",
       "value": "deepseek.niestools.com",
       "confidence": "high",
-      "reason": "[article sweep] Part of malicious infrastructure",
+      "reason": "Part of malicious infrastructure",
       "first_seen": "2026-09-04T11:17:36.360288+00:00",
       "last_seen": "2026-09-04T11:17:36.360288+00:00",
       "source_count": 1,
@@ -9853,7 +10449,7 @@
       "type": "ipv4",
       "value": "75.3.231.105",
       "confidence": "high",
-      "reason": "[article sweep] Listed as the source IP for a threat actor's AWS Management Console login.",
+      "reason": "Listed as the source IP for a threat actor's AWS Management Console login.",
       "first_seen": "2026-09-03T23:53:06+00:00",
       "last_seen": "2026-09-03T23:53:06+00:00",
       "source_count": 1,
@@ -10221,7 +10817,7 @@
       "type": "domain",
       "value": "bestopebel.pl",
       "confidence": "high",
-      "reason": "[article sweep] Listed as part of a C2 infrastructure.",
+      "reason": "Listed as part of a C2 infrastructure.",
       "first_seen": "2026-09-03T10:18:27+00:00",
       "last_seen": "2026-09-03T10:18:27+00:00",
       "source_count": 1,
@@ -10255,7 +10851,7 @@
       "type": "domain",
       "value": "bookphotohot.pro",
       "confidence": "high",
-      "reason": "[article sweep] Listed as part of a network indicator for Backdoor.Mistic.",
+      "reason": "Listed as part of a network indicator for Backdoor.Mistic.",
       "first_seen": "2026-09-03T10:18:27+00:00",
       "last_seen": "2026-09-03T10:18:27+00:00",
       "source_count": 1,
@@ -10289,7 +10885,7 @@
       "type": "domain",
       "value": "bookphotoreserv.pro",
       "confidence": "high",
-      "reason": "[article sweep] Listed as part of a network indicator for Backdoor.Mistic.",
+      "reason": "Listed as part of a network indicator for Backdoor.Mistic.",
       "first_seen": "2026-09-03T10:18:27+00:00",
       "last_seen": "2026-09-03T10:18:27+00:00",
       "source_count": 1,
@@ -10323,7 +10919,7 @@
       "type": "ipv4",
       "value": "94.156.114.250",
       "confidence": "high",
-      "reason": "[article sweep] Hosts malicious files for download",
+      "reason": "Hosts malicious files for download",
       "first_seen": "2026-09-03T10:18:27+00:00",
       "last_seen": "2026-09-03T10:18:27+00:00",
       "source_count": 1,
@@ -10357,7 +10953,7 @@
       "type": "ipv4",
       "value": "61.7.209.88",
       "confidence": "high",
-      "reason": "[article sweep] Linked to Mirai botnet by OSINT",
+      "reason": "Linked to Mirai botnet by OSINT",
       "first_seen": "2026-09-03T06:25:20+00:00",
       "last_seen": "2026-09-03T06:25:20+00:00",
       "source_count": 1,
@@ -10374,7 +10970,7 @@
       "type": "ipv4",
       "value": "95.161.128.62",
       "confidence": "high",
-      "reason": "[article sweep] Linked to Mirai botnet by OSINT",
+      "reason": "Linked to Mirai botnet by OSINT",
       "first_seen": "2026-09-03T06:25:20+00:00",
       "last_seen": "2026-09-03T06:25:20+00:00",
       "source_count": 1,
@@ -10391,7 +10987,7 @@
       "type": "domain",
       "value": "tele-sync.opik.net",
       "confidence": "high",
-      "reason": "[article sweep] Associated with a command-and-control server",
+      "reason": "Associated with a command-and-control server",
       "first_seen": "2026-09-03T05:53:30+00:00",
       "last_seen": "2026-09-03T05:53:30+00:00",
       "source_count": 1,
@@ -10409,7 +11005,7 @@
       "value": "185.254.222.105",
       "confidence": "high",
       "reason": "IP address used as a source for malicious email activity",
-      "first_seen": "2026-09-01T00:33:21+00:00",
+      "first_seen": "2026-09-03T02:00:03+00:00",
       "last_seen": "2026-09-03T02:00:03+00:00",
       "source_count": 1,
       "sources": [
@@ -10419,16 +11015,7 @@
           "pub_date": "2026-09-03T02:00:03+00:00"
         }
       ],
-      "tags": [
-        {
-          "type": "malware",
-          "value": "Astaroth"
-        },
-        {
-          "type": "malware",
-          "value": "Guildma"
-        }
-      ]
+      "tags": []
     },
     {
       "type": "domain",
@@ -10451,7 +11038,7 @@
       "type": "domain",
       "value": "iualef.net",
       "confidence": "high",
-      "reason": "[article sweep] Identified as a C2 domain in malicious activity",
+      "reason": "Identified as a C2 domain in malicious activity",
       "first_seen": "2026-09-02T17:03:28+00:00",
       "last_seen": "2026-09-02T17:03:28+00:00",
       "source_count": 1,
@@ -10468,7 +11055,7 @@
       "type": "domain",
       "value": "translate-youdao.hl.cn",
       "confidence": "high",
-      "reason": "[article sweep] Listed as part of a campaign using spoofed vendor download pages for malware distribution.",
+      "reason": "Listed as part of a campaign using spoofed vendor download pages for malware distribution.",
       "first_seen": "2026-09-02T17:03:28+00:00",
       "last_seen": "2026-09-02T17:03:28+00:00",
       "source_count": 1,
@@ -10485,7 +11072,7 @@
       "type": "ipv4",
       "value": "176.65.148.184",
       "confidence": "high",
-      "reason": "[article sweep] Identified as the attacker's IP used in a honeypot exploitation attempt",
+      "reason": "Identified as the attacker's IP used in a honeypot exploitation attempt",
       "first_seen": "2026-09-01T22:29:26+00:00",
       "last_seen": "2026-09-02T13:19:54+00:00",
       "source_count": 3,
@@ -10517,7 +11104,7 @@
       "type": "domain",
       "value": "cdn.nerat.cc",
       "confidence": "high",
-      "reason": "[article sweep] Identified as a C2 domain in the context of a malware campaign.",
+      "reason": "Identified as a C2 domain in the context of a malware campaign.",
       "first_seen": "2026-09-02T13:12:45+00:00",
       "last_seen": "2026-09-02T13:12:45+00:00",
       "source_count": 1,
@@ -10534,7 +11121,7 @@
       "type": "domain",
       "value": "connect.ne-rat.xyz",
       "confidence": "high",
-      "reason": "[article sweep] Listed as C2 domain",
+      "reason": "Listed as C2 domain",
       "first_seen": "2026-09-02T13:12:45+00:00",
       "last_seen": "2026-09-02T13:12:45+00:00",
       "source_count": 1,
@@ -10925,7 +11512,7 @@
       "type": "ipv4",
       "value": "154.127.53.78",
       "confidence": "high",
-      "reason": "[article sweep] IP address linked to phishing email campaigns",
+      "reason": "IP address linked to phishing email campaigns",
       "first_seen": "2026-09-02T12:53:51+00:00",
       "last_seen": "2026-09-02T12:53:51+00:00",
       "source_count": 1,
@@ -10942,7 +11529,7 @@
       "type": "domain",
       "value": "imhd.io",
       "confidence": "high",
-      "reason": "[article sweep] Picked up by a scavenger actor for malicious use",
+      "reason": "Picked up by a scavenger actor for malicious use",
       "first_seen": "2026-09-02T02:32:56+00:00",
       "last_seen": "2026-09-02T02:32:56+00:00",
       "source_count": 1,
@@ -11015,7 +11602,7 @@
       "type": "ipv4",
       "value": "206.119.167.207",
       "confidence": "high",
-      "reason": "[article sweep] Hosts a Proxy Pool Management System for compromised IoT devices",
+      "reason": "Hosts a Proxy Pool Management System for compromised IoT devices",
       "first_seen": "2026-09-01T18:20:31.503341+00:00",
       "last_seen": "2026-09-01T18:20:31.503341+00:00",
       "source_count": 1,
@@ -11049,7 +11636,7 @@
       "type": "domain",
       "value": "dasunerforschtelandamendederwelt.sbs",
       "confidence": "high",
-      "reason": "[article sweep] Listed as drainer infrastructure",
+      "reason": "Listed as drainer infrastructure",
       "first_seen": "2026-09-01T16:33:31+00:00",
       "last_seen": "2026-09-01T16:33:31+00:00",
       "source_count": 1,
@@ -11083,7 +11670,7 @@
       "type": "domain",
       "value": "co1nbase.com",
       "confidence": "high",
-      "reason": "[article sweep] Identified as a typosquatted domain impersonating Coinbase",
+      "reason": "Identified as a typosquatted domain impersonating Coinbase",
       "first_seen": "2026-09-01T11:55:33+00:00",
       "last_seen": "2026-09-01T11:55:33+00:00",
       "source_count": 1,
@@ -11100,7 +11687,7 @@
       "type": "domain",
       "value": "coinbase-security.com",
       "confidence": "high",
-      "reason": "[article sweep] Identified as a domain impersonating Coinbase",
+      "reason": "Identified as a domain impersonating Coinbase",
       "first_seen": "2026-09-01T11:55:33+00:00",
       "last_seen": "2026-09-01T11:55:33+00:00",
       "source_count": 1,
@@ -11117,7 +11704,7 @@
       "type": "domain",
       "value": "healthcomfsdpower.com",
       "confidence": "high",
-      "reason": "[article sweep] Listed among domains used in a malicious campaign",
+      "reason": "Listed among domains used in a malicious campaign",
       "first_seen": "2026-09-01T07:00:26+00:00",
       "last_seen": "2026-09-01T07:00:26+00:00",
       "source_count": 1,
@@ -11147,7 +11734,7 @@
       "type": "domain",
       "value": "healthful-hub.com",
       "confidence": "high",
-      "reason": "[article sweep] Listed among domains used in a malicious campaign",
+      "reason": "Listed among domains used in a malicious campaign",
       "first_seen": "2026-09-01T07:00:26+00:00",
       "last_seen": "2026-09-01T07:00:26+00:00",
       "source_count": 1,
@@ -11177,7 +11764,7 @@
       "type": "domain",
       "value": "healthfullyrecipes.com",
       "confidence": "high",
-      "reason": "[article sweep] Listed among domains used in a malicious campaign",
+      "reason": "Listed among domains used in a malicious campaign",
       "first_seen": "2026-09-01T07:00:26+00:00",
       "last_seen": "2026-09-01T07:00:26+00:00",
       "source_count": 1,
@@ -11207,7 +11794,7 @@
       "type": "domain",
       "value": "msmanagementgrp.com",
       "confidence": "high",
-      "reason": "[article sweep] Domain used as part of Mirage Kitten's C2 infrastructure",
+      "reason": "Domain used as part of Mirage Kitten's C2 infrastructure",
       "first_seen": "2026-09-01T07:00:26+00:00",
       "last_seen": "2026-09-01T07:00:26+00:00",
       "source_count": 1,
@@ -11237,7 +11824,7 @@
       "type": "domain",
       "value": "msmanagementgrpmedia.com",
       "confidence": "high",
-      "reason": "[article sweep] Domain used as part of Mirage Kitten's C2 infrastructure",
+      "reason": "Domain used as part of Mirage Kitten's C2 infrastructure",
       "first_seen": "2026-09-01T07:00:26+00:00",
       "last_seen": "2026-09-01T07:00:26+00:00",
       "source_count": 1,
@@ -11267,7 +11854,7 @@
       "type": "domain",
       "value": "sahi-finance.com",
       "confidence": "high",
-      "reason": "[article sweep] Associated with malware targeting FinTech sectors",
+      "reason": "Associated with malware targeting FinTech sectors",
       "first_seen": "2026-09-01T07:00:26+00:00",
       "last_seen": "2026-09-01T07:00:26+00:00",
       "source_count": 1,
@@ -11297,7 +11884,7 @@
       "type": "domain",
       "value": "visitfinancedentists.com",
       "confidence": "high",
-      "reason": "[article sweep] Identified as part of Mirage Kitten's infrastructure for C2 communications.",
+      "reason": "Identified as part of Mirage Kitten's infrastructure for C2 communications.",
       "first_seen": "2026-09-01T07:00:26+00:00",
       "last_seen": "2026-09-01T07:00:26+00:00",
       "source_count": 1,
@@ -11320,275 +11907,6 @@
         {
           "type": "malware",
           "value": "PollCat"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "crironxil.aguasedum.cfd",
-      "confidence": "high",
-      "reason": "[article sweep] Communicated with infected host",
-      "first_seen": "2026-09-01T00:33:21+00:00",
-      "last_seen": "2026-09-01T00:33:21+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Isc.Sans.Edu",
-          "url": "https://isc.sans.edu/diary/rss/33300",
-          "pub_date": "2026-09-01T00:33:21+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "malware",
-          "value": "Astaroth"
-        },
-        {
-          "type": "malware",
-          "value": "Guildma"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "relatorio01a.colombstracciatella.cfd",
-      "confidence": "high",
-      "reason": "[article sweep] Used to send malicious emails",
-      "first_seen": "2026-09-01T00:33:21+00:00",
-      "last_seen": "2026-09-01T00:33:21+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Isc.Sans.Edu",
-          "url": "https://isc.sans.edu/diary/rss/33300",
-          "pub_date": "2026-09-01T00:33:21+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "malware",
-          "value": "Astaroth"
-        },
-        {
-          "type": "malware",
-          "value": "Guildma"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "startcareer.org",
-      "confidence": "high",
-      "reason": "[article sweep] Listed as a domain hosting a dropped malware payload",
-      "first_seen": "2026-08-31T21:19:17.623504+00:00",
-      "last_seen": "2026-08-31T21:19:17.623504+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.malwarebytes.com",
-          "url": "https://www.malwarebytes.com/blog/scams/2026/08/beware-of-fake-indeed-interview-apps-used-to-install-spyware",
-          "pub_date": "2026-08-31T21:19:17.623504+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "dosportal.app",
-      "confidence": "high",
-      "reason": "[article sweep] Domain used in an OAuth phishing campaign",
-      "first_seen": "2026-08-31T18:26:30+00:00",
-      "last_seen": "2026-08-31T18:26:30+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Socprime",
-          "url": "https://socprime.com/active-threats/inhospitable-mapping-russian-cyber-espionage-infrastructure/",
-          "pub_date": "2026-08-31T18:26:30+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "js-mirror.com",
-      "confidence": "high",
-      "reason": "[article sweep] Domain used for suspicious outbound traffic",
-      "first_seen": "2026-08-31T13:05:38.820639+00:00",
-      "last_seen": "2026-08-31T13:05:38.820639+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.chainguard.dev",
-          "url": "https://www.chainguard.dev/unchained/the-keyv-and-cacheable-npm-supply-chain-attack-inside-the-mini-shai-hulud-campaign",
-          "pub_date": "2026-08-31T13:05:38.820639+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "npm-cache.com",
-      "confidence": "high",
-      "reason": "[article sweep] Domain used in a supply chain attack",
-      "first_seen": "2026-08-31T13:05:38.820639+00:00",
-      "last_seen": "2026-08-31T13:05:38.820639+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.chainguard.dev",
-          "url": "https://www.chainguard.dev/unchained/the-keyv-and-cacheable-npm-supply-chain-attack-inside-the-mini-shai-hulud-campaign",
-          "pub_date": "2026-08-31T13:05:38.820639+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "pypi-get.com",
-      "confidence": "high",
-      "reason": "[article sweep] Domain used in a supply chain attack",
-      "first_seen": "2026-08-31T13:05:38.820639+00:00",
-      "last_seen": "2026-08-31T13:05:38.820639+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.chainguard.dev",
-          "url": "https://www.chainguard.dev/unchained/the-keyv-and-cacheable-npm-supply-chain-attack-inside-the-mini-shai-hulud-campaign",
-          "pub_date": "2026-08-31T13:05:38.820639+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "fine-work-team.com",
-      "confidence": "high",
-      "reason": "Listed as a delivery URL for a malicious script",
-      "first_seen": "2026-08-31T12:34:31.263942+00:00",
-      "last_seen": "2026-08-31T12:34:31.263942+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "hunt.io",
-          "url": "https://hunt.io/blog/chinese-speaking-operator-philippine-nuclear-naval-contractor",
-          "pub_date": "2026-08-31T12:34:31.263942+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Operation CameraSwarm"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2023-49105"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2024-28000"
-        },
-        {
-          "type": "industry",
-          "value": "Government"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "snake.zooparkko.com",
-      "confidence": "high",
-      "reason": "[article sweep] Used for data exfiltration in a ClickFix attack",
-      "first_seen": "2026-08-31T12:34:31.263942+00:00",
-      "last_seen": "2026-08-31T12:34:31.263942+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "hunt.io",
-          "url": "https://hunt.io/blog/chinese-speaking-operator-philippine-nuclear-naval-contractor",
-          "pub_date": "2026-08-31T12:34:31.263942+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Operation CameraSwarm"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2023-49105"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2024-28000"
-        },
-        {
-          "type": "industry",
-          "value": "Government"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "timelevel12.com",
-      "confidence": "high",
-      "reason": "Listed as a delivery URL for a malicious script",
-      "first_seen": "2026-08-31T12:34:31.263942+00:00",
-      "last_seen": "2026-08-31T12:34:31.263942+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "hunt.io",
-          "url": "https://hunt.io/blog/chinese-speaking-operator-philippine-nuclear-naval-contractor",
-          "pub_date": "2026-08-31T12:34:31.263942+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Operation CameraSwarm"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2023-49105"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2024-28000"
-        },
-        {
-          "type": "industry",
-          "value": "Government"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "san-sid.com",
-      "confidence": "high",
-      "reason": "Domain hosting obfuscated PowerShell payload used as RAT dropper",
-      "first_seen": "2026-08-31T10:00:36+00:00",
-      "last_seen": "2026-08-31T10:00:36+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Unit42.Paloaltonetworks",
-          "url": "https://unit42.paloaltonetworks.com/spring-ring-voice-phishing-campaigns/",
-          "pub_date": "2026-08-31T10:00:36+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Apt29"
-        },
-        {
-          "type": "apt_group",
-          "value": "Cloaked Ursa"
-        },
-        {
-          "type": "campaign",
-          "value": "Spring Ring"
         }
       ]
     }

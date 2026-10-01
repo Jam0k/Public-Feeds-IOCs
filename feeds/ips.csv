@@ -1,101 +1,107 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason
-ipv4,89.125.66.183,high,2026-09-29T18:30:57.944399+00:00,2026-09-29T18:30:57.944399+00:00,1,dslua.org:2026-09-29,[article sweep] Used as a WebDAV server for malicious activity.
-ipv4,103.160.59.97,high,2026-09-29T17:20:08+00:00,2026-09-29T17:20:08+00:00,1,Thehackernews:2026-09-29,"Listed as an indicator in Microsoft's report, associated with malicious activity"
-ipv4,172.94.9.194,high,2026-09-29T05:01:43+00:00,2026-09-29T05:01:43+00:00,1,Redpacketsecurity:2026-09-29,[article sweep] IP address hosting a Mythic C2 portal
-ipv4,193.201.185.90,high,2026-09-29T05:01:43+00:00,2026-09-29T05:01:43+00:00,1,Redpacketsecurity:2026-09-29,[article sweep] Exposed Mythic C2 portal
-ipv4,69.48.229.140,high,2026-09-29T00:00:00+00:00,2026-09-29T00:00:00+00:00,1,Cloudsek:2026-09-29,[article sweep] Used as a C2 server for malicious npm packages.
-ipv4,134.122.155.135,high,2026-09-28T17:51:54+00:00,2026-09-28T17:51:54+00:00,1,Cyberkendra:2026-09-28,[article sweep] IP address used for C2 communications
+ipv4,96.62.224.81,high,2026-09-30T14:31:15+00:00,2026-09-30T14:31:15+00:00,1,Techtimes:2026-09-30,Listed as a server IP in a ClickFix attack
+ipv4,103.27.110.220,high,2026-09-30T14:13:51+00:00,2026-09-30T14:13:51+00:00,1,Blog.Talosintelligence:2026-09-30,Listed as a historical serving IP for Antino payload
+ipv4,138.124.123.87,high,2026-09-30T12:35:09+00:00,2026-09-30T12:35:09+00:00,1,Darktrace:2026-09-30,Listed as part of a malware delivery operation
+ipv4,185.177.239.241,high,2026-09-30T10:41:36+00:00,2026-09-30T10:41:36+00:00,1,Bloglab.360:2026-09-30,Listed as an IP used in attacks
+ipv4,104.234.65.75,high,2026-09-30T00:00:00+00:00,2026-09-30T00:00:00+00:00,1,Cloudsek:2026-09-30,Listed as a payload host in a threat report
+ipv4,45.137.198.133,high,2026-09-30T00:00:00+00:00,2026-09-30T00:00:00+00:00,1,Safedep:2026-09-30,Listed as part of a C2 infrastructure in a threat report
+ipv4,89.125.66.183,high,2026-09-29T18:30:57.944399+00:00,2026-09-29T18:30:57.944399+00:00,1,dslua.org:2026-09-29,Used as a WebDAV server by attackers
+ipv4,103.160.59.97,high,2026-09-29T17:20:08+00:00,2026-09-29T17:20:08+00:00,1,Thehackernews:2026-09-29,Listed as an indicator in Microsoft's report
+ipv4,172.94.9.194,high,2026-09-29T05:01:43+00:00,2026-09-29T05:01:43+00:00,1,Redpacketsecurity:2026-09-29,IP address hosting a Mythic C2 portal
+ipv4,193.201.185.90,high,2026-09-29T05:01:43+00:00,2026-09-29T05:01:43+00:00,1,Redpacketsecurity:2026-09-29,Exposed Mythic C2 portal
+ipv4,69.48.229.140,high,2026-09-29T00:00:00+00:00,2026-09-29T00:00:00+00:00,1,Cloudsek:2026-09-29,Used as a C2 server for malicious npm packages.
+ipv4,134.122.155.135,high,2026-09-28T17:51:54+00:00,2026-09-28T17:51:54+00:00,1,Cyberkendra:2026-09-28,IP address used for C2 communications
 ipv4,2.56.10.86,high,2026-09-28T05:19:24+00:00,2026-09-28T05:19:24+00:00,1,Cyfirma:2026-09-28,Listed in an IOC section likely indicating attacker-controlled infrastructure
 ipv4,46.30.188.13,high,2026-09-28T05:19:24+00:00,2026-09-28T05:19:24+00:00,1,Cyfirma:2026-09-28,Listed in an IOC section likely indicating attacker-controlled infrastructure
-ipv4,206.82.6.22,high,2026-09-27T15:00:00+00:00,2026-09-27T15:00:00+00:00,1,Asec.Ahnlab:2026-09-27,[article sweep] Used for reverse shell connections
-ipv4,65.98.5.158,high,2026-09-27T15:00:00+00:00,2026-09-27T15:00:00+00:00,1,Asec.Ahnlab:2026-09-27,[article sweep] Hosts a list of targets for a WordPress scanner
+ipv4,206.82.6.22,high,2026-09-27T15:00:00+00:00,2026-09-27T15:00:00+00:00,1,Asec.Ahnlab:2026-09-27,Used for reverse shell connections
+ipv4,65.98.5.158,high,2026-09-27T15:00:00+00:00,2026-09-27T15:00:00+00:00,1,Asec.Ahnlab:2026-09-27,Hosts a list of targets for a WordPress scanner
 ipv4,103.101.85.123,high,2026-09-27T09:02:32.908946+00:00,2026-09-27T09:02:32.908946+00:00,1,www.ontinue.com:2026-09-27,IP address hosts a panel resolving to phishing domains
 ipv4,193.178.158.61,high,2026-09-27T09:02:32.908946+00:00,2026-09-27T09:02:32.908946+00:00,1,www.ontinue.com:2026-09-27,IP address hosts a panel on the same network as the exfiltration server
 ipv4,104.219.234.138,high,2026-09-26T12:01:02.128049+00:00,2026-09-26T12:01:02.128049+00:00,1,cloud.google.com:2026-09-26,Used for secondary staging and management by threat actor
-ipv4,46.8.9.223,high,2026-09-25T11:06:36.553165+00:00,2026-09-25T11:06:36.553165+00:00,1,efficientip.com:2026-09-25,[article sweep] Part of a coordinated domain cluster with DGA-style domains
-ipv4,194.87.89.30,high,2026-09-24T13:03:24+00:00,2026-09-24T13:03:24+00:00,1,Huntress:2026-09-24,[article sweep] Used to download AnyDesk RMM by threat actor
-ipv4,96.9.125.52,high,2026-09-22T10:31:16+00:00,2026-09-22T10:31:16+00:00,1,Gbhackers:2026-09-22,[article sweep] Hosts a domain impersonating China Digital Times
-ipv4,189.141.53.203,high,2026-09-22T05:01:55+00:00,2026-09-22T05:01:55+00:00,1,Redpacketsecurity:2026-09-22,[article sweep] Exposed Mythic C2 management interface
+ipv4,46.8.9.223,high,2026-09-25T11:06:36.553165+00:00,2026-09-25T11:06:36.553165+00:00,1,efficientip.com:2026-09-25,Part of a coordinated domain cluster with DGA-style domains
+ipv4,194.87.89.30,high,2026-09-24T13:03:24+00:00,2026-09-24T13:03:24+00:00,1,Huntress:2026-09-24,Used to download AnyDesk RMM by threat actor
+ipv4,96.9.125.52,high,2026-09-22T10:31:16+00:00,2026-09-22T10:31:16+00:00,1,Gbhackers:2026-09-22,Hosts a domain impersonating China Digital Times
+ipv4,189.141.53.203,high,2026-09-22T05:01:55+00:00,2026-09-22T05:01:55+00:00,1,Redpacketsecurity:2026-09-22,Exposed Mythic C2 management interface
 ipv4,176.53.159.66,high,2026-09-21T11:02:57.464783+00:00,2026-09-21T11:02:57.464783+00:00,1,adamnet.works:2026-09-21,Used for malicious delivery and teardown operations
 ipv4,45.94.47.204,high,2026-09-21T11:02:57.464783+00:00,2026-09-21T11:02:57.464783+00:00,1,adamnet.works:2026-09-21,Used for malicious task service enrollment
 ipv4,62.60.226.69,high,2026-09-21T11:02:57.464783+00:00,2026-09-21T11:02:57.464783+00:00,1,adamnet.works:2026-09-21,Used as a provisioning cluster for malicious operations
-ipv4,109.94.171.225,high,2026-09-21T04:20:50+00:00,2026-09-21T04:20:50+00:00,1,Hackernoon:2026-09-21,[article sweep] IP address used for data exfiltration
-ipv4,95.158.131.141,high,2026-09-19T05:01:06+00:00,2026-09-19T05:01:06+00:00,1,Redpacketsecurity:2026-09-19,[article sweep] Exposed Mythic C2 management interface
+ipv4,109.94.171.225,high,2026-09-21T04:20:50+00:00,2026-09-21T04:20:50+00:00,1,Hackernoon:2026-09-21,IP address used for data exfiltration
+ipv4,95.158.131.141,high,2026-09-19T05:01:06+00:00,2026-09-19T05:01:06+00:00,1,Redpacketsecurity:2026-09-19,Exposed Mythic C2 management interface
 ipv4,172.86.93.139,high,2026-09-18T16:31:07.760690+00:00,2026-09-18T16:31:07.760690+00:00,1,gitlab-com.gitlab.io:2026-09-18,Listed as a command and control address used by the threat actor
-ipv4,171.22.16.187,high,2026-09-18T08:42:53.457982+00:00,2026-09-18T08:42:53.457982+00:00,1,hunt.io:2026-09-18,[article sweep] IP address associated with SpiceRAT servers
-ipv4,185.122.185.36,high,2026-09-18T08:42:53.457982+00:00,2026-09-18T08:42:53.457982+00:00,1,hunt.io:2026-09-18,[article sweep] IP address associated with SpiceRAT servers
-ipv4,185.243.112.253,high,2026-09-18T08:42:53.457982+00:00,2026-09-18T08:42:53.457982+00:00,1,hunt.io:2026-09-18,[article sweep] IP address associated with SpiceRAT servers
-ipv4,185.243.114.124,high,2026-09-18T08:42:53.457982+00:00,2026-09-18T08:42:53.457982+00:00,1,hunt.io:2026-09-18,[article sweep] IP associated with a domain impersonating Turkmenistan's Ministry of Foreign Affairs
-ipv4,185.243.114.238,high,2026-09-18T08:42:53.457982+00:00,2026-09-18T08:42:53.457982+00:00,1,hunt.io:2026-09-18,[article sweep] IP associated with a domain impersonating Tajikistan's national IT-hub project
-ipv4,188.190.18.208,high,2026-09-18T08:42:53.457982+00:00,2026-09-18T08:42:53.457982+00:00,1,hunt.io:2026-09-18,[article sweep] Confirmed as SpiceRAT infrastructure.
-ipv4,193.29.57.159,high,2026-09-18T08:42:53.457982+00:00,2026-09-18T08:42:53.457982+00:00,1,hunt.io:2026-09-18,[article sweep] Associated with SpiceRAT C2 infrastructure
-ipv4,193.29.58.192,high,2026-09-18T08:42:53.457982+00:00,2026-09-18T08:42:53.457982+00:00,1,hunt.io:2026-09-18,[article sweep] Associated with NodeEdgeRAT infrastructure
-ipv4,193.29.59.159,high,2026-09-18T08:42:53.457982+00:00,2026-09-18T08:42:53.457982+00:00,1,hunt.io:2026-09-18,[article sweep] Part of a cluster of SpiceRAT servers
-ipv4,2.58.14.95,high,2026-09-18T08:42:53.457982+00:00,2026-09-18T08:42:53.457982+00:00,1,hunt.io:2026-09-18,[article sweep] Confirmed as SpiceRAT infrastructure.
-ipv4,31.58.220.250,high,2026-09-18T08:42:53.457982+00:00,2026-09-18T08:42:53.457982+00:00,1,hunt.io:2026-09-18,[article sweep] Part of a cluster of SpiceRAT servers
-ipv4,45.86.162.141,high,2026-09-18T08:42:53.457982+00:00,2026-09-18T08:42:53.457982+00:00,1,hunt.io:2026-09-18,"[article sweep] Resolved to mail.postmfa.com, linked to malware infrastructure"
-ipv4,46.30.188.54,high,2026-09-18T08:42:53.457982+00:00,2026-09-18T08:42:53.457982+00:00,1,hunt.io:2026-09-18,"[article sweep] Targets Tojiktelecom, Tajikistan's state telecommunications provider"
-ipv4,46.30.189.191,high,2026-09-18T08:42:53.457982+00:00,2026-09-18T08:42:53.457982+00:00,1,hunt.io:2026-09-18,[article sweep] Hosts a TLC-issued certificate for a typosquat domain
-ipv4,46.30.191.230,high,2026-09-18T08:42:53.457982+00:00,2026-09-18T08:42:53.457982+00:00,1,hunt.io:2026-09-18,[article sweep] Part of a cluster of SpiceRAT servers
+ipv4,171.22.16.187,high,2026-09-18T08:42:53.457982+00:00,2026-09-18T08:42:53.457982+00:00,1,hunt.io:2026-09-18,IP address associated with SpiceRAT servers
+ipv4,185.122.185.36,high,2026-09-18T08:42:53.457982+00:00,2026-09-18T08:42:53.457982+00:00,1,hunt.io:2026-09-18,IP address associated with SpiceRAT servers
+ipv4,185.243.112.253,high,2026-09-18T08:42:53.457982+00:00,2026-09-18T08:42:53.457982+00:00,1,hunt.io:2026-09-18,IP address associated with SpiceRAT servers
+ipv4,185.243.114.124,high,2026-09-18T08:42:53.457982+00:00,2026-09-18T08:42:53.457982+00:00,1,hunt.io:2026-09-18,IP associated with a domain impersonating Turkmenistan's Ministry of Foreign Affairs
+ipv4,185.243.114.238,high,2026-09-18T08:42:53.457982+00:00,2026-09-18T08:42:53.457982+00:00,1,hunt.io:2026-09-18,IP associated with a domain impersonating Tajikistan's national IT-hub project
+ipv4,188.190.18.208,high,2026-09-18T08:42:53.457982+00:00,2026-09-18T08:42:53.457982+00:00,1,hunt.io:2026-09-18,Confirmed as SpiceRAT infrastructure.
+ipv4,193.29.57.159,high,2026-09-18T08:42:53.457982+00:00,2026-09-18T08:42:53.457982+00:00,1,hunt.io:2026-09-18,Associated with SpiceRAT C2 infrastructure
+ipv4,193.29.58.192,high,2026-09-18T08:42:53.457982+00:00,2026-09-18T08:42:53.457982+00:00,1,hunt.io:2026-09-18,Associated with NodeEdgeRAT infrastructure
+ipv4,193.29.59.159,high,2026-09-18T08:42:53.457982+00:00,2026-09-18T08:42:53.457982+00:00,1,hunt.io:2026-09-18,Part of a cluster of SpiceRAT servers
+ipv4,2.58.14.95,high,2026-09-18T08:42:53.457982+00:00,2026-09-18T08:42:53.457982+00:00,1,hunt.io:2026-09-18,Confirmed as SpiceRAT infrastructure.
+ipv4,31.58.220.250,high,2026-09-18T08:42:53.457982+00:00,2026-09-18T08:42:53.457982+00:00,1,hunt.io:2026-09-18,Part of a cluster of SpiceRAT servers
+ipv4,45.86.162.141,high,2026-09-18T08:42:53.457982+00:00,2026-09-18T08:42:53.457982+00:00,1,hunt.io:2026-09-18,"Resolved to mail.postmfa.com, linked to malware infrastructure"
+ipv4,46.30.188.54,high,2026-09-18T08:42:53.457982+00:00,2026-09-18T08:42:53.457982+00:00,1,hunt.io:2026-09-18,"Targets Tojiktelecom, Tajikistan's state telecommunications provider"
+ipv4,46.30.189.191,high,2026-09-18T08:42:53.457982+00:00,2026-09-18T08:42:53.457982+00:00,1,hunt.io:2026-09-18,Hosts a TLC-issued certificate for a typosquat domain
+ipv4,46.30.191.230,high,2026-09-18T08:42:53.457982+00:00,2026-09-18T08:42:53.457982+00:00,1,hunt.io:2026-09-18,Part of a cluster of SpiceRAT servers
 ipv4,37.16.74.100,high,2026-09-18T07:04:44.392720+00:00,2026-09-18T07:04:44.392720+00:00,1,www.elastic.co:2026-09-18,Listed as a C2 endpoint
-ipv4,184.75.129.113,high,2026-09-17T16:10:35+00:00,2026-09-17T16:10:35+00:00,1,Cyfirma:2026-09-17,[article sweep] Listed in a YARA rule as an IP address associated with APT31
-ipv4,195.91.239.226,high,2026-09-17T16:10:35+00:00,2026-09-17T16:10:35+00:00,1,Cyfirma:2026-09-17,[article sweep] Listed in a YARA rule as an IP address associated with APT31
-ipv4,50.71.100.164,high,2026-09-17T16:10:35+00:00,2026-09-17T16:10:35+00:00,1,Cyfirma:2026-09-17,[article sweep] Listed in a YARA rule as an IP address associated with APT31
-ipv4,88.247.129.12,high,2026-09-17T16:10:35+00:00,2026-09-17T16:10:35+00:00,1,Cyfirma:2026-09-17,[article sweep] Listed in a YARA rule as an IP address associated with APT31
-ipv4,89.31.228.228,high,2026-09-17T16:10:35+00:00,2026-09-17T16:10:35+00:00,1,Cyfirma:2026-09-17,[article sweep] Listed in a YARA rule as an IP address associated with APT31
+ipv4,184.75.129.113,high,2026-09-17T16:10:35+00:00,2026-09-17T16:10:35+00:00,1,Cyfirma:2026-09-17,Listed in a YARA rule as an IP address associated with APT31
+ipv4,195.91.239.226,high,2026-09-17T16:10:35+00:00,2026-09-17T16:10:35+00:00,1,Cyfirma:2026-09-17,Listed in a YARA rule as an IP address associated with APT31
+ipv4,50.71.100.164,high,2026-09-17T16:10:35+00:00,2026-09-17T16:10:35+00:00,1,Cyfirma:2026-09-17,Listed in a YARA rule as an IP address associated with APT31
+ipv4,88.247.129.12,high,2026-09-17T16:10:35+00:00,2026-09-17T16:10:35+00:00,1,Cyfirma:2026-09-17,Listed in a YARA rule as an IP address associated with APT31
+ipv4,89.31.228.228,high,2026-09-17T16:10:35+00:00,2026-09-17T16:10:35+00:00,1,Cyfirma:2026-09-17,Listed in a YARA rule as an IP address associated with APT31
 ipv4,208.64.33.90,high,2026-09-17T16:05:22.520791+00:00,2026-09-17T16:05:22.520791+00:00,1,securelist.com:2026-09-17,Listed as second-stage C2 server
-ipv4,139.28.85.223,high,2026-09-17T10:14:31+00:00,2026-09-17T10:14:31+00:00,1,Itweb.Co.Za:2026-09-17,[article sweep] Identified as the origin of a phishing email
+ipv4,139.28.85.223,high,2026-09-17T10:14:31+00:00,2026-09-17T10:14:31+00:00,1,Itweb.Co.Za:2026-09-17,Identified as the origin of a phishing email
 ipv4,210.1.231.13,high,2026-09-16T21:33:59.611872+00:00,2026-09-16T21:33:59.611872+00:00,1,www.lumen.com:2026-09-16,Associated with attacker-controlled domain turbo.c2iznja.com
-ipv4,94.102.49.125,high,2026-09-16T18:44:04+00:00,2026-09-16T18:44:04+00:00,1,Isc.Sans.Edu:2026-09-16,[article sweep] Identified as a source IP for malicious scans
-ipv4,5.252.177.210,high,2026-09-16T14:15:51+00:00,2026-09-16T14:15:51+00:00,1,Socprime:2026-09-16,[article sweep] Identified as a C2 server for RUSTGate malware
-ipv4,213.165.63.49,high,2026-09-16T07:00:42.026578+00:00,2026-09-16T07:00:42.026578+00:00,1,hunt.io:2026-09-16,[article sweep] Used for scanning and exploitation against routers and cameras
-ipv4,89.208.97.165,high,2026-09-16T07:00:42.026578+00:00,2026-09-16T07:00:42.026578+00:00,1,hunt.io:2026-09-16,[article sweep] Open directory containing files for compromising Ukrainian sites
-ipv4,23.148.228.253,high,2026-09-16T05:02:01+00:00,2026-09-16T05:02:01+00:00,1,Redpacketsecurity:2026-09-16,[article sweep] Exposed Mythic C2 management interface
-ipv4,150.251.113.223,high,2026-09-15T14:55:03+00:00,2026-09-15T14:55:03+00:00,1,Socprime:2026-09-15,[article sweep] Identified as a C2 IP used by the attacker
-ipv4,206.166.251.164,high,2026-09-15T12:32:07.447809+00:00,2026-09-15T12:32:07.447809+00:00,1,www.volexity.com:2026-09-15,[article sweep] Hosts cloud.shinewrist.net serving PowerShell staging payloads
-ipv4,62.60.135.34,high,2026-09-14T20:32:11.162627+00:00,2026-09-14T20:32:11.162627+00:00,1,www.labs.greynoise.io:2026-09-14,[article sweep] Listed as a staging IP address for malicious activity.
-ipv4,74.93.203.1,high,2026-09-14T20:32:11.162627+00:00,2026-09-14T20:32:11.162627+00:00,1,www.labs.greynoise.io:2026-09-14,[article sweep] Listed as an IP address involved in malicious activity.
-ipv4,114.10.43.203,high,2026-09-14T18:49:14+00:00,2026-09-14T18:49:14+00:00,1,Wordfence:2026-09-14,[article sweep] Listed as an IP address actively engaged in attacks.
-ipv4,187.75.114.36,high,2026-09-14T18:49:14+00:00,2026-09-14T18:49:14+00:00,1,Wordfence:2026-09-14,[article sweep] Listed as an IP address actively engaged in attacks.
-ipv4,23.137.105.214,high,2026-09-14T18:49:14+00:00,2026-09-14T18:49:14+00:00,1,Wordfence:2026-09-14,[article sweep] Listed as an IP address actively engaged in attacks.
-ipv4,23.180.120.140,high,2026-09-14T18:49:14+00:00,2026-09-14T18:49:14+00:00,1,Wordfence:2026-09-14,[article sweep] Listed as an IP address actively engaged in attacks.
-ipv4,31.59.129.150,high,2026-09-14T18:49:14+00:00,2026-09-14T18:49:14+00:00,1,Wordfence:2026-09-14,[article sweep] Listed as an IP address actively engaged in attacks.
-ipv4,37.114.144.209,high,2026-09-14T18:49:14+00:00,2026-09-14T18:49:14+00:00,1,Wordfence:2026-09-14,[article sweep] Listed as an IP address actively engaged in attacks.
-ipv4,92.241.13.140,high,2026-09-14T18:49:14+00:00,2026-09-14T18:49:14+00:00,1,Wordfence:2026-09-14,[article sweep] Listed as an IP address actively engaged in attacks.
-ipv4,92.241.13.213,high,2026-09-14T18:49:14+00:00,2026-09-14T18:49:14+00:00,1,Wordfence:2026-09-14,[article sweep] Listed as an IP address actively engaged in attacks.
+ipv4,94.102.49.125,high,2026-09-16T18:44:04+00:00,2026-09-16T18:44:04+00:00,1,Isc.Sans.Edu:2026-09-16,Identified as a source IP for malicious scans
+ipv4,5.252.177.210,high,2026-09-16T14:15:51+00:00,2026-09-16T14:15:51+00:00,1,Socprime:2026-09-16,Identified as a C2 server for RUSTGate malware
+ipv4,213.165.63.49,high,2026-09-16T07:00:42.026578+00:00,2026-09-16T07:00:42.026578+00:00,1,hunt.io:2026-09-16,Used for scanning and exploitation against routers and cameras
+ipv4,89.208.97.165,high,2026-09-16T07:00:42.026578+00:00,2026-09-16T07:00:42.026578+00:00,1,hunt.io:2026-09-16,Open directory containing files for compromising Ukrainian sites
+ipv4,23.148.228.253,high,2026-09-16T05:02:01+00:00,2026-09-16T05:02:01+00:00,1,Redpacketsecurity:2026-09-16,Exposed Mythic C2 management interface
+ipv4,150.251.113.223,high,2026-09-15T14:55:03+00:00,2026-09-15T14:55:03+00:00,1,Socprime:2026-09-15,Identified as a C2 IP used by the attacker
+ipv4,206.166.251.164,high,2026-09-15T12:32:07.447809+00:00,2026-09-15T12:32:07.447809+00:00,1,www.volexity.com:2026-09-15,Hosts cloud.shinewrist.net serving PowerShell staging payloads
+ipv4,62.60.135.34,high,2026-09-14T20:32:11.162627+00:00,2026-09-14T20:32:11.162627+00:00,1,www.labs.greynoise.io:2026-09-14,Listed as a staging IP address for malicious activity.
+ipv4,74.93.203.1,high,2026-09-14T20:32:11.162627+00:00,2026-09-14T20:32:11.162627+00:00,1,www.labs.greynoise.io:2026-09-14,Listed as an IP address involved in malicious activity.
+ipv4,114.10.43.203,high,2026-09-14T18:49:14+00:00,2026-09-14T18:49:14+00:00,1,Wordfence:2026-09-14,Listed as an IP address actively engaged in attacks.
+ipv4,187.75.114.36,high,2026-09-14T18:49:14+00:00,2026-09-14T18:49:14+00:00,1,Wordfence:2026-09-14,Listed as an IP address actively engaged in attacks.
+ipv4,23.137.105.214,high,2026-09-14T18:49:14+00:00,2026-09-14T18:49:14+00:00,1,Wordfence:2026-09-14,Listed as an IP address actively engaged in attacks.
+ipv4,23.180.120.140,high,2026-09-14T18:49:14+00:00,2026-09-14T18:49:14+00:00,1,Wordfence:2026-09-14,Listed as an IP address actively engaged in attacks.
+ipv4,31.59.129.150,high,2026-09-14T18:49:14+00:00,2026-09-14T18:49:14+00:00,1,Wordfence:2026-09-14,Listed as an IP address actively engaged in attacks.
+ipv4,37.114.144.209,high,2026-09-14T18:49:14+00:00,2026-09-14T18:49:14+00:00,1,Wordfence:2026-09-14,Listed as an IP address actively engaged in attacks.
+ipv4,92.241.13.140,high,2026-09-14T18:49:14+00:00,2026-09-14T18:49:14+00:00,1,Wordfence:2026-09-14,Listed as an IP address actively engaged in attacks.
+ipv4,92.241.13.213,high,2026-09-14T18:49:14+00:00,2026-09-14T18:49:14+00:00,1,Wordfence:2026-09-14,Listed as an IP address actively engaged in attacks.
 ipv4,77.91.65.13,high,2026-09-14T14:37:33+00:00,2026-09-14T14:37:33+00:00,1,Infostealers:2026-09-14,Connected directly by malicious PE
-ipv4,154.198.49.31,high,2026-09-13T05:02:04+00:00,2026-09-13T05:02:04+00:00,1,Redpacketsecurity:2026-09-13,[article sweep] IP address hosting a Mythic management portal
-ipv4,64.207.232.6,high,2026-09-12T12:45:25+00:00,2026-09-12T12:45:25+00:00,1,Techtimes:2026-09-12,[article sweep] C2 communications observed to this IP
+ipv4,154.198.49.31,high,2026-09-13T05:02:04+00:00,2026-09-13T05:02:04+00:00,1,Redpacketsecurity:2026-09-13,IP address hosting a Mythic management portal
+ipv4,64.207.232.6,high,2026-09-12T12:45:25+00:00,2026-09-12T12:45:25+00:00,1,Techtimes:2026-09-12,C2 communications observed to this IP
 ipv4,45.158.196.75,high,2026-09-11T10:05:52+00:00,2026-09-11T10:05:52+00:00,1,Bloglab.360:2026-09-11,Listed as an IP address used in the attack.
-ipv4,95.181.173.36,high,2026-09-11T07:11:14+00:00,2026-09-11T07:11:14+00:00,1,Securityaffairs.Co:2026-09-11,[article sweep] Open directory containing attacker's toolchain
-ipv4,62.60.130.193,high,2026-09-09T17:46:24+00:00,2026-09-09T17:46:24+00:00,1,Isc.Sans.Edu:2026-09-09,[article sweep] Listed as a source of brute force traffic
-ipv4,122.183.48.195,high,2026-09-08T13:32:49.587167+00:00,2026-09-08T13:32:49.587167+00:00,1,www.sysdig.com:2026-09-08,[article sweep] Used by a threat actor in an attack
-ipv4,122.183.48.35,high,2026-09-08T13:32:49.587167+00:00,2026-09-08T13:32:49.587167+00:00,1,www.sysdig.com:2026-09-08,[article sweep] Used by a threat actor in an attack
-ipv4,122.183.48.82,high,2026-09-08T13:32:49.587167+00:00,2026-09-08T13:32:49.587167+00:00,1,www.sysdig.com:2026-09-08,[article sweep] Used by a threat actor in an attack
-ipv4,47.15.69.15,high,2026-09-08T13:32:49.587167+00:00,2026-09-08T13:32:49.587167+00:00,1,www.sysdig.com:2026-09-08,[article sweep] Used by a threat actor in an attack
-ipv4,107.128.45.122,high,2026-09-08T08:24:28+00:00,2026-09-08T08:24:28+00:00,1,Bloglab.360:2026-09-08,[article sweep] Listed as part of an attack campaign
-ipv4,38.42.59.171,high,2026-09-08T08:24:28+00:00,2026-09-08T08:24:28+00:00,1,Bloglab.360:2026-09-08,[article sweep] Listed as part of an attack campaign
-ipv4,76.103.148.180,high,2026-09-08T08:24:28+00:00,2026-09-08T08:24:28+00:00,1,Bloglab.360:2026-09-08,[article sweep] Listed as part of an attack campaign
-ipv4,80.96.109.64,high,2026-09-08T08:24:28+00:00,2026-09-08T08:24:28+00:00,1,Bloglab.360:2026-09-08,[article sweep] Listed as part of an attack campaign
-ipv4,2.147.68.96,high,2026-09-07T11:47:55+00:00,2026-09-07T11:47:55+00:00,1,Dexpose:2026-09-07,[article sweep] Listed as a command-and-control IP address for DragonForce campaign
-ipv4,69.4.234.20,high,2026-09-07T11:47:55+00:00,2026-09-07T11:47:55+00:00,1,Dexpose:2026-09-07,[article sweep] Listed as a command-and-control IP address for DragonForce campaign
+ipv4,95.181.173.36,high,2026-09-11T07:11:14+00:00,2026-09-11T07:11:14+00:00,1,Securityaffairs.Co:2026-09-11,Open directory containing attacker's toolchain
+ipv4,62.60.130.193,high,2026-09-09T17:46:24+00:00,2026-09-09T17:46:24+00:00,1,Isc.Sans.Edu:2026-09-09,Listed as a source of brute force traffic
+ipv4,122.183.48.195,high,2026-09-08T13:32:49.587167+00:00,2026-09-08T13:32:49.587167+00:00,1,www.sysdig.com:2026-09-08,Used by a threat actor in an attack
+ipv4,122.183.48.35,high,2026-09-08T13:32:49.587167+00:00,2026-09-08T13:32:49.587167+00:00,1,www.sysdig.com:2026-09-08,Used by a threat actor in an attack
+ipv4,122.183.48.82,high,2026-09-08T13:32:49.587167+00:00,2026-09-08T13:32:49.587167+00:00,1,www.sysdig.com:2026-09-08,Used by a threat actor in an attack
+ipv4,47.15.69.15,high,2026-09-08T13:32:49.587167+00:00,2026-09-08T13:32:49.587167+00:00,1,www.sysdig.com:2026-09-08,Used by a threat actor in an attack
+ipv4,107.128.45.122,high,2026-09-08T08:24:28+00:00,2026-09-08T08:24:28+00:00,1,Bloglab.360:2026-09-08,Listed as part of an attack campaign
+ipv4,38.42.59.171,high,2026-09-08T08:24:28+00:00,2026-09-08T08:24:28+00:00,1,Bloglab.360:2026-09-08,Listed as part of an attack campaign
+ipv4,76.103.148.180,high,2026-09-08T08:24:28+00:00,2026-09-08T08:24:28+00:00,1,Bloglab.360:2026-09-08,Listed as part of an attack campaign
+ipv4,80.96.109.64,high,2026-09-08T08:24:28+00:00,2026-09-08T08:24:28+00:00,1,Bloglab.360:2026-09-08,Listed as part of an attack campaign
+ipv4,2.147.68.96,high,2026-09-07T11:47:55+00:00,2026-09-07T11:47:55+00:00,1,Dexpose:2026-09-07,Listed as a command-and-control IP address for DragonForce campaign
+ipv4,69.4.234.20,high,2026-09-07T11:47:55+00:00,2026-09-07T11:47:55+00:00,1,Dexpose:2026-09-07,Listed as a command-and-control IP address for DragonForce campaign
 ipv4,159.198.75.180,high,2026-09-07T05:02:05+00:00,2026-09-07T05:02:05+00:00,1,Redpacketsecurity:2026-09-07,Alert on connections to this IP suggests it is used for Mythic C2 operations.
 ipv4,103.102.31.18,high,2026-09-06T06:20:44+00:00,2026-09-06T13:46:02+00:00,2,Securityaffairs.Co:2026-09-06|Cert.Pl:2026-09-06,Used in attempts to exploit vulnerabilities; identified as attacker infrastructure
 ipv4,210.247.242.190,high,2026-09-05T16:52:33+00:00,2026-09-06T07:47:42.172476+00:00,3,thenewstack.io:2026-09-06|Rescana:2026-09-06|Thehackernews:2026-09-05,Listed as an IP address associated with detected exploitation.
 ipv4,5.181.86.133,high,2026-09-05T20:14:47+00:00,2026-09-05T20:14:47+00:00,1,Thehackernews:2026-09-05,Listed as an attacker source sending in bulk
 ipv4,88.216.72.181,high,2026-09-05T20:14:47+00:00,2026-09-05T20:14:47+00:00,1,Thehackernews:2026-09-05,Identified as an attacker source
-ipv4,75.3.231.105,high,2026-09-03T23:53:06+00:00,2026-09-03T23:53:06+00:00,1,Aws.Amazon:2026-09-03,[article sweep] Listed as the source IP for a threat actor's AWS Management Console login.
+ipv4,75.3.231.105,high,2026-09-03T23:53:06+00:00,2026-09-03T23:53:06+00:00,1,Aws.Amazon:2026-09-03,Listed as the source IP for a threat actor's AWS Management Console login.
 ipv4,144.31.53.78,high,2026-09-03T10:18:27+00:00,2026-09-03T11:31:50.519345+00:00,2,www.security.com:2026-09-03|Security:2026-09-03,Listed as a network indicator in the article
 ipv4,178.16.54.253,high,2026-09-03T10:18:27+00:00,2026-09-03T11:31:50.519345+00:00,2,www.security.com:2026-09-03|Security:2026-09-03,Listed as a network indicator in the article
 ipv4,193.58.122.42,high,2026-09-03T10:18:27+00:00,2026-09-03T11:31:50.519345+00:00,2,www.security.com:2026-09-03|Security:2026-09-03,Listed as a network indicator in the article
 ipv4,198.13.159.44,high,2026-09-03T10:18:27+00:00,2026-09-03T11:31:50.519345+00:00,2,www.security.com:2026-09-03|Security:2026-09-03,Listed as a network indicator in the article
 ipv4,199.91.221.42,high,2026-09-03T10:18:27+00:00,2026-09-03T11:31:50.519345+00:00,2,www.security.com:2026-09-03|Security:2026-09-03,Listed as a network indicator in the article
 ipv4,45.158.196.23,high,2026-09-03T10:18:27+00:00,2026-09-03T11:31:50.519345+00:00,2,www.security.com:2026-09-03|Security:2026-09-03,Listed as a network indicator in the article
-ipv4,94.156.114.250,high,2026-09-03T10:18:27+00:00,2026-09-03T10:18:27+00:00,1,Security:2026-09-03,[article sweep] Hosts malicious files for download
-ipv4,61.7.209.88,high,2026-09-03T06:25:20+00:00,2026-09-03T06:25:20+00:00,1,Darktrace:2026-09-03,[article sweep] Linked to Mirai botnet by OSINT
-ipv4,95.161.128.62,high,2026-09-03T06:25:20+00:00,2026-09-03T06:25:20+00:00,1,Darktrace:2026-09-03,[article sweep] Linked to Mirai botnet by OSINT
-ipv4,185.254.222.105,high,2026-09-01T00:33:21+00:00,2026-09-03T02:00:03+00:00,1,Isc.Sans.Edu:2026-09-03,IP address used as a source for malicious email activity
-ipv4,176.65.148.184,high,2026-09-01T22:29:26+00:00,2026-09-02T13:19:54+00:00,3,Helpnetsecurity:2026-09-02|Thehackernews:2026-09-02|Horizon3.Ai:2026-09-01,[article sweep] Identified as the attacker's IP used in a honeypot exploitation attempt
-ipv4,154.127.53.78,high,2026-09-02T12:53:51+00:00,2026-09-02T12:53:51+00:00,1,Huntress:2026-09-02,[article sweep] IP address linked to phishing email campaigns
+ipv4,94.156.114.250,high,2026-09-03T10:18:27+00:00,2026-09-03T10:18:27+00:00,1,Security:2026-09-03,Hosts malicious files for download
+ipv4,61.7.209.88,high,2026-09-03T06:25:20+00:00,2026-09-03T06:25:20+00:00,1,Darktrace:2026-09-03,Linked to Mirai botnet by OSINT
+ipv4,95.161.128.62,high,2026-09-03T06:25:20+00:00,2026-09-03T06:25:20+00:00,1,Darktrace:2026-09-03,Linked to Mirai botnet by OSINT
+ipv4,185.254.222.105,high,2026-09-03T02:00:03+00:00,2026-09-03T02:00:03+00:00,1,Isc.Sans.Edu:2026-09-03,IP address used as a source for malicious email activity
+ipv4,176.65.148.184,high,2026-09-01T22:29:26+00:00,2026-09-02T13:19:54+00:00,3,Helpnetsecurity:2026-09-02|Thehackernews:2026-09-02|Horizon3.Ai:2026-09-01,Identified as the attacker's IP used in a honeypot exploitation attempt
+ipv4,154.127.53.78,high,2026-09-02T12:53:51+00:00,2026-09-02T12:53:51+00:00,1,Huntress:2026-09-02,IP address linked to phishing email campaigns
 ipv4,206.238.196.96,high,2026-09-01T19:09:37+00:00,2026-09-01T19:09:37+00:00,1,Socprime:2026-09-01,Explicitly identified as a hardcoded C2 IP for the PackClient RAT.
-ipv4,206.119.167.207,high,2026-09-01T18:20:31.503341+00:00,2026-09-01T18:20:31.503341+00:00,1,www.safebreach.com:2026-09-01,[article sweep] Hosts a Proxy Pool Management System for compromised IoT devices
+ipv4,206.119.167.207,high,2026-09-01T18:20:31.503341+00:00,2026-09-01T18:20:31.503341+00:00,1,www.safebreach.com:2026-09-01,Hosts a Proxy Pool Management System for compromised IoT devices
