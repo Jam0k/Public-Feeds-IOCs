@@ -1,4 +1,14 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason
+ipv4,79.141.169.187,high,2026-10-01T22:42:49+00:00,2026-10-02T05:49:50+00:00,2,Thehackernews:2026-10-02|Bleepingcomputer:2026-10-01,"Listed as an IP address associated with the attacks, used as a remote server for data exfiltration"
+ipv4,103.148.245.235,high,2026-10-01T17:40:37.656673+00:00,2026-10-01T17:40:37.656673+00:00,1,www.proofpoint.com:2026-10-01,Shared hosting with UNK_SweetSpecter C2 domains
+ipv4,43.242.203.115,high,2026-10-01T17:40:37.656673+00:00,2026-10-01T17:40:37.656673+00:00,1,www.proofpoint.com:2026-10-01,Hosting the new C2 domain for UNK_SweetSpecter
+ipv4,36.106.166.96,high,2026-10-01T17:06:20+00:00,2026-10-01T17:06:20+00:00,1,Cyfirma:2026-10-01,Listed as a threat intelligence IOC
+ipv4,36.106.166.97,high,2026-10-01T17:06:20+00:00,2026-10-01T17:06:20+00:00,1,Cyfirma:2026-10-01,Listed as a threat intelligence IOC
+ipv4,31.217.177.172,high,2026-10-01T09:00:24+00:00,2026-10-01T09:00:24+00:00,1,Maltego:2026-10-01,Listed as a peer IP address associated with a ransomware group
+ipv4,23.27.143.20,high,2026-10-01T04:35:34+00:00,2026-10-01T04:35:34+00:00,1,Thehackernews:2026-10-01,Listed as a source of payload retrieval in a threat report
+ipv4,31.56.197.72,high,2026-10-01T04:35:34+00:00,2026-10-01T04:35:34+00:00,1,Thehackernews:2026-10-01,Listed as a source of payload retrieval in a threat report
+ipv4,45.141.21.130,high,2026-10-01T04:35:34+00:00,2026-10-01T04:35:34+00:00,1,Thehackernews:2026-10-01,Listed as a reverse shell target in a threat report
+ipv4,64.94.85.67,high,2026-10-01T04:35:34+00:00,2026-10-01T04:35:34+00:00,1,Thehackernews:2026-10-01,Listed as a source of payload retrieval in a threat report
 ipv4,96.62.224.81,high,2026-09-30T14:31:15+00:00,2026-09-30T14:31:15+00:00,1,Techtimes:2026-09-30,Listed as a server IP in a ClickFix attack
 ipv4,103.27.110.220,high,2026-09-30T14:13:51+00:00,2026-09-30T14:13:51+00:00,1,Blog.Talosintelligence:2026-09-30,Listed as a historical serving IP for Antino payload
 ipv4,138.124.123.87,high,2026-09-30T12:35:09+00:00,2026-09-30T12:35:09+00:00,1,Darktrace:2026-09-30,Listed as part of a malware delivery operation
@@ -101,7 +111,5 @@ ipv4,94.156.114.250,high,2026-09-03T10:18:27+00:00,2026-09-03T10:18:27+00:00,1,S
 ipv4,61.7.209.88,high,2026-09-03T06:25:20+00:00,2026-09-03T06:25:20+00:00,1,Darktrace:2026-09-03,Linked to Mirai botnet by OSINT
 ipv4,95.161.128.62,high,2026-09-03T06:25:20+00:00,2026-09-03T06:25:20+00:00,1,Darktrace:2026-09-03,Linked to Mirai botnet by OSINT
 ipv4,185.254.222.105,high,2026-09-03T02:00:03+00:00,2026-09-03T02:00:03+00:00,1,Isc.Sans.Edu:2026-09-03,IP address used as a source for malicious email activity
-ipv4,176.65.148.184,high,2026-09-01T22:29:26+00:00,2026-09-02T13:19:54+00:00,3,Helpnetsecurity:2026-09-02|Thehackernews:2026-09-02|Horizon3.Ai:2026-09-01,Identified as the attacker's IP used in a honeypot exploitation attempt
+ipv4,176.65.148.184,high,2026-09-02T13:19:54+00:00,2026-09-02T13:19:54+00:00,1,Helpnetsecurity:2026-09-02,Listed as the attacker's IP address used for exploitation attempts against honeypots.
 ipv4,154.127.53.78,high,2026-09-02T12:53:51+00:00,2026-09-02T12:53:51+00:00,1,Huntress:2026-09-02,IP address linked to phishing email campaigns
-ipv4,206.238.196.96,high,2026-09-01T19:09:37+00:00,2026-09-01T19:09:37+00:00,1,Socprime:2026-09-01,Explicitly identified as a hardcoded C2 IP for the PackClient RAT.
-ipv4,206.119.167.207,high,2026-09-01T18:20:31.503341+00:00,2026-09-01T18:20:31.503341+00:00,1,www.safebreach.com:2026-09-01,Hosts a Proxy Pool Management System for compromised IoT devices
