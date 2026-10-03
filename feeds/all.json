@@ -1,7 +1,7 @@
 {
   "feed": "threatcluster-public-iocs",
   "version": 1,
-  "generated_at": "2026-10-02T12:31:30Z",
+  "generated_at": "2026-10-03T11:37:30Z",
   "filters": {
     "confidence": "high",
     "window_days": 30,
@@ -11,8 +11,249 @@
       "domain"
     ]
   },
-  "count": 604,
+  "count": 571,
   "iocs": [
+    {
+      "type": "domain",
+      "value": "account.drive-google-com.tk",
+      "confidence": "high",
+      "reason": "Listed as previously reported UNK_SweetSpecter domain used for C2 communications",
+      "first_seen": "2026-10-02T16:30:51.440394+00:00",
+      "last_seen": "2026-10-02T16:30:51.440394+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.proofpoint.com",
+          "url": "https://www.proofpoint.com/us/blog/threat-insight/security-brief-artificial-sweetener-sugargh0st-rat-used-target-american",
+          "pub_date": "2026-10-02T16:30:51.440394+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "SugarGh0st RAT Campaign"
+        },
+        {
+          "type": "industry",
+          "value": "Government"
+        },
+        {
+          "type": "malware",
+          "value": "Gh0stRAT"
+        },
+        {
+          "type": "malware",
+          "value": "SugarGh0st RAT"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "account.gommask.online",
+      "confidence": "high",
+      "reason": "Identified as a new C2 domain for UNK_SweetSpecter",
+      "first_seen": "2026-10-02T16:30:51.440394+00:00",
+      "last_seen": "2026-10-02T16:30:51.440394+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.proofpoint.com",
+          "url": "https://www.proofpoint.com/us/blog/threat-insight/security-brief-artificial-sweetener-sugargh0st-rat-used-target-american",
+          "pub_date": "2026-10-02T16:30:51.440394+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "SugarGh0st RAT Campaign"
+        },
+        {
+          "type": "industry",
+          "value": "Government"
+        },
+        {
+          "type": "malware",
+          "value": "Gh0stRAT"
+        },
+        {
+          "type": "malware",
+          "value": "SugarGh0st RAT"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "103.148.245.235",
+      "confidence": "high",
+      "reason": "Shared hosting with UNK_SweetSpecter C2 domains",
+      "first_seen": "2026-10-02T16:30:51.440394+00:00",
+      "last_seen": "2026-10-02T16:30:51.440394+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.proofpoint.com",
+          "url": "https://www.proofpoint.com/us/blog/threat-insight/security-brief-artificial-sweetener-sugargh0st-rat-used-target-american",
+          "pub_date": "2026-10-02T16:30:51.440394+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "SugarGh0st RAT Campaign"
+        },
+        {
+          "type": "industry",
+          "value": "Government"
+        },
+        {
+          "type": "malware",
+          "value": "Gh0stRAT"
+        },
+        {
+          "type": "malware",
+          "value": "SugarGh0st RAT"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "43.242.203.115",
+      "confidence": "high",
+      "reason": "Hosting the new C2 domain for UNK_SweetSpecter",
+      "first_seen": "2026-10-02T16:30:51.440394+00:00",
+      "last_seen": "2026-10-02T16:30:51.440394+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.proofpoint.com",
+          "url": "https://www.proofpoint.com/us/blog/threat-insight/security-brief-artificial-sweetener-sugargh0st-rat-used-target-american",
+          "pub_date": "2026-10-02T16:30:51.440394+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "SugarGh0st RAT Campaign"
+        },
+        {
+          "type": "industry",
+          "value": "Government"
+        },
+        {
+          "type": "malware",
+          "value": "Gh0stRAT"
+        },
+        {
+          "type": "malware",
+          "value": "SugarGh0st RAT"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "lowtpills.com",
+      "confidence": "high",
+      "reason": "Used in a vulnerability exploitation scenario",
+      "first_seen": "2026-10-02T16:27:54+00:00",
+      "last_seen": "2026-10-02T16:27:54+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Darkreading",
+          "url": "https://www.darkreading.com/cybersecurity-operations/swift-banking-govt-middleware-rce",
+          "pub_date": "2026-10-02T16:27:54+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "pbapi.xyz",
+      "confidence": "high",
+      "reason": "Described as a command-and-control channel used by the extension",
+      "first_seen": "2026-10-02T14:41:46.380979+00:00",
+      "last_seen": "2026-10-02T14:41:46.380979+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "amibeingpwned.com",
+          "url": "https://amibeingpwned.com/blog/poper-blocker-the-adblocker-that-spies-on-you",
+          "pub_date": "2026-10-02T14:41:46.380979+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "Poper Blocker"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "79.141.169.187",
+      "confidence": "high",
+      "reason": "Identified as an external server used by attackers for data exfiltration",
+      "first_seen": "2026-10-01T22:42:49+00:00",
+      "last_seen": "2026-10-02T10:12:19+00:00",
+      "source_count": 4,
+      "sources": [
+        {
+          "source": "Linkedin",
+          "url": "https://www.linkedin.com/pulse/fortinet-warns-fortimail-zero-day-attacks-critical-g9jje",
+          "pub_date": "2026-10-02T10:12:19+00:00"
+        },
+        {
+          "source": "Forkast.News",
+          "url": "https://forkast.news/fortimails-encryption-feature-was-supposed-to-protect-email-it-became-the-attack-vector/",
+          "pub_date": "2026-10-02T08:57:12+00:00"
+        },
+        {
+          "source": "Thehackernews",
+          "url": "https://thehackernews.com/2026/10/critical-fortimail-zero-day-flaw.html",
+          "pub_date": "2026-10-02T05:49:50+00:00"
+        },
+        {
+          "source": "Bleepingcomputer",
+          "url": "https://www.bleepingcomputer.com/news/security/fortinet-warns-of-critical-fortimail-flaw-exploited-in-zero-day-attacks/",
+          "pub_date": "2026-10-01T22:42:49+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2026-104286"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-76504"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-85102"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-88771"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "presaie-roaringkitty.com",
+      "confidence": "high",
+      "reason": "Domain used by attackers to lure victims into a cryptocurrency scam.",
+      "first_seen": "2026-10-02T09:29:56+00:00",
+      "last_seen": "2026-10-02T09:29:56+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Bleepingcomputer",
+          "url": "https://www.bleepingcomputer.com/news/security/microsofts-x-account-hacked-in-crypto-token-pump-and-dump-scheme/",
+          "pub_date": "2026-10-02T09:29:56+00:00"
+        }
+      ],
+      "tags": []
+    },
     {
       "type": "domain",
       "value": "driftshare.co",
@@ -94,43 +335,21 @@
       ]
     },
     {
-      "type": "ipv4",
-      "value": "79.141.169.187",
+      "type": "domain",
+      "value": "fingercakes4sale.store",
       "confidence": "high",
-      "reason": "Listed as an IP address associated with the attacks, used as a remote server for data exfiltration",
-      "first_seen": "2026-10-01T22:42:49+00:00",
-      "last_seen": "2026-10-02T05:49:50+00:00",
-      "source_count": 2,
+      "reason": "Listed as a malware contact domain in a threat report",
+      "first_seen": "2026-10-02T03:44:40.584000+00:00",
+      "last_seen": "2026-10-02T03:44:40.584000+00:00",
+      "source_count": 1,
       "sources": [
         {
-          "source": "Thehackernews",
-          "url": "https://thehackernews.com/2026/10/critical-fortimail-zero-day-flaw.html",
-          "pub_date": "2026-10-02T05:49:50+00:00"
-        },
-        {
-          "source": "Bleepingcomputer",
-          "url": "https://www.bleepingcomputer.com/news/security/fortinet-warns-of-critical-fortimail-flaw-exploited-in-zero-day-attacks/",
-          "pub_date": "2026-10-01T22:42:49+00:00"
+          "source": "Socket.Dev",
+          "url": "https://socket.dev/blog/glassworm-vscode-themes?utm_medium=feed",
+          "pub_date": "2026-10-02T03:44:40.584+00:00"
         }
       ],
-      "tags": [
-        {
-          "type": "cve",
-          "value": "CVE-2026-104286"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-76504"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-85102"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-88771"
-        }
-      ]
+      "tags": []
     },
     {
       "type": "domain",
@@ -401,142 +620,6 @@
         {
           "type": "apt_group",
           "value": "Ref7707"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "account.drive-google-com.tk",
-      "confidence": "high",
-      "reason": "Listed as previously reported UNK_SweetSpecter domain used for C2 communications",
-      "first_seen": "2026-10-01T17:40:37.656673+00:00",
-      "last_seen": "2026-10-01T17:40:37.656673+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.proofpoint.com",
-          "url": "https://www.proofpoint.com/us/blog/threat-insight/security-brief-artificial-sweetener-sugargh0st-rat-used-target-american",
-          "pub_date": "2026-10-01T17:40:37.656673+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "SugarGh0st RAT Campaign"
-        },
-        {
-          "type": "industry",
-          "value": "Government"
-        },
-        {
-          "type": "malware",
-          "value": "Gh0stRAT"
-        },
-        {
-          "type": "malware",
-          "value": "SugarGh0st RAT"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "account.gommask.online",
-      "confidence": "high",
-      "reason": "Identified as a new C2 domain for UNK_SweetSpecter",
-      "first_seen": "2026-10-01T17:40:37.656673+00:00",
-      "last_seen": "2026-10-01T17:40:37.656673+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.proofpoint.com",
-          "url": "https://www.proofpoint.com/us/blog/threat-insight/security-brief-artificial-sweetener-sugargh0st-rat-used-target-american",
-          "pub_date": "2026-10-01T17:40:37.656673+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "SugarGh0st RAT Campaign"
-        },
-        {
-          "type": "industry",
-          "value": "Government"
-        },
-        {
-          "type": "malware",
-          "value": "Gh0stRAT"
-        },
-        {
-          "type": "malware",
-          "value": "SugarGh0st RAT"
-        }
-      ]
-    },
-    {
-      "type": "ipv4",
-      "value": "103.148.245.235",
-      "confidence": "high",
-      "reason": "Shared hosting with UNK_SweetSpecter C2 domains",
-      "first_seen": "2026-10-01T17:40:37.656673+00:00",
-      "last_seen": "2026-10-01T17:40:37.656673+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.proofpoint.com",
-          "url": "https://www.proofpoint.com/us/blog/threat-insight/security-brief-artificial-sweetener-sugargh0st-rat-used-target-american",
-          "pub_date": "2026-10-01T17:40:37.656673+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "SugarGh0st RAT Campaign"
-        },
-        {
-          "type": "industry",
-          "value": "Government"
-        },
-        {
-          "type": "malware",
-          "value": "Gh0stRAT"
-        },
-        {
-          "type": "malware",
-          "value": "SugarGh0st RAT"
-        }
-      ]
-    },
-    {
-      "type": "ipv4",
-      "value": "43.242.203.115",
-      "confidence": "high",
-      "reason": "Hosting the new C2 domain for UNK_SweetSpecter",
-      "first_seen": "2026-10-01T17:40:37.656673+00:00",
-      "last_seen": "2026-10-01T17:40:37.656673+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.proofpoint.com",
-          "url": "https://www.proofpoint.com/us/blog/threat-insight/security-brief-artificial-sweetener-sugargh0st-rat-used-target-american",
-          "pub_date": "2026-10-01T17:40:37.656673+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "SugarGh0st RAT Campaign"
-        },
-        {
-          "type": "industry",
-          "value": "Government"
-        },
-        {
-          "type": "malware",
-          "value": "Gh0stRAT"
-        },
-        {
-          "type": "malware",
-          "value": "SugarGh0st RAT"
         }
       ]
     },
@@ -12318,19 +12401,14 @@
       "value": "datalayerservice.com",
       "confidence": "high",
       "reason": "Listed under C&C infrastructure in the article",
-      "first_seen": "2026-09-03T10:18:27+00:00",
+      "first_seen": "2026-09-03T11:31:50.519345+00:00",
       "last_seen": "2026-09-03T11:31:50.519345+00:00",
-      "source_count": 2,
+      "source_count": 1,
       "sources": [
         {
           "source": "www.security.com",
           "url": "https://www.security.com/threat-intelligence/node-js-returns-ransomware",
           "pub_date": "2026-09-03T11:31:50.519345+00:00"
-        },
-        {
-          "source": "Security",
-          "url": "https://www.security.com/blog-post/node-js-returns-ransomware",
-          "pub_date": "2026-09-03T10:18:27+00:00"
         }
       ],
       "tags": [
@@ -12357,19 +12435,14 @@
       "value": "docs.datalayerservice.com",
       "confidence": "high",
       "reason": "Listed under C&C infrastructure in the article",
-      "first_seen": "2026-09-03T10:18:27+00:00",
+      "first_seen": "2026-09-03T11:31:50.519345+00:00",
       "last_seen": "2026-09-03T11:31:50.519345+00:00",
-      "source_count": 2,
+      "source_count": 1,
       "sources": [
         {
           "source": "www.security.com",
           "url": "https://www.security.com/threat-intelligence/node-js-returns-ransomware",
           "pub_date": "2026-09-03T11:31:50.519345+00:00"
-        },
-        {
-          "source": "Security",
-          "url": "https://www.security.com/blog-post/node-js-returns-ransomware",
-          "pub_date": "2026-09-03T10:18:27+00:00"
         }
       ],
       "tags": [
@@ -12396,19 +12469,14 @@
       "value": "resources.datalayerservice.com",
       "confidence": "high",
       "reason": "Listed under C&C infrastructure in the article",
-      "first_seen": "2026-09-03T10:18:27+00:00",
+      "first_seen": "2026-09-03T11:31:50.519345+00:00",
       "last_seen": "2026-09-03T11:31:50.519345+00:00",
-      "source_count": 2,
+      "source_count": 1,
       "sources": [
         {
           "source": "www.security.com",
           "url": "https://www.security.com/threat-intelligence/node-js-returns-ransomware",
           "pub_date": "2026-09-03T11:31:50.519345+00:00"
-        },
-        {
-          "source": "Security",
-          "url": "https://www.security.com/blog-post/node-js-returns-ransomware",
-          "pub_date": "2026-09-03T10:18:27+00:00"
         }
       ],
       "tags": [
@@ -12435,19 +12503,14 @@
       "value": "144.31.53.78",
       "confidence": "high",
       "reason": "Listed as a network indicator in the article",
-      "first_seen": "2026-09-03T10:18:27+00:00",
+      "first_seen": "2026-09-03T11:31:50.519345+00:00",
       "last_seen": "2026-09-03T11:31:50.519345+00:00",
-      "source_count": 2,
+      "source_count": 1,
       "sources": [
         {
           "source": "www.security.com",
           "url": "https://www.security.com/threat-intelligence/node-js-returns-ransomware",
           "pub_date": "2026-09-03T11:31:50.519345+00:00"
-        },
-        {
-          "source": "Security",
-          "url": "https://www.security.com/blog-post/node-js-returns-ransomware",
-          "pub_date": "2026-09-03T10:18:27+00:00"
         }
       ],
       "tags": [
@@ -12474,19 +12537,14 @@
       "value": "178.16.54.253",
       "confidence": "high",
       "reason": "Listed as a network indicator in the article",
-      "first_seen": "2026-09-03T10:18:27+00:00",
+      "first_seen": "2026-09-03T11:31:50.519345+00:00",
       "last_seen": "2026-09-03T11:31:50.519345+00:00",
-      "source_count": 2,
+      "source_count": 1,
       "sources": [
         {
           "source": "www.security.com",
           "url": "https://www.security.com/threat-intelligence/node-js-returns-ransomware",
           "pub_date": "2026-09-03T11:31:50.519345+00:00"
-        },
-        {
-          "source": "Security",
-          "url": "https://www.security.com/blog-post/node-js-returns-ransomware",
-          "pub_date": "2026-09-03T10:18:27+00:00"
         }
       ],
       "tags": [
@@ -12513,19 +12571,14 @@
       "value": "193.58.122.42",
       "confidence": "high",
       "reason": "Listed as a network indicator in the article",
-      "first_seen": "2026-09-03T10:18:27+00:00",
+      "first_seen": "2026-09-03T11:31:50.519345+00:00",
       "last_seen": "2026-09-03T11:31:50.519345+00:00",
-      "source_count": 2,
+      "source_count": 1,
       "sources": [
         {
           "source": "www.security.com",
           "url": "https://www.security.com/threat-intelligence/node-js-returns-ransomware",
           "pub_date": "2026-09-03T11:31:50.519345+00:00"
-        },
-        {
-          "source": "Security",
-          "url": "https://www.security.com/blog-post/node-js-returns-ransomware",
-          "pub_date": "2026-09-03T10:18:27+00:00"
         }
       ],
       "tags": [
@@ -12552,19 +12605,14 @@
       "value": "198.13.159.44",
       "confidence": "high",
       "reason": "Listed as a network indicator in the article",
-      "first_seen": "2026-09-03T10:18:27+00:00",
+      "first_seen": "2026-09-03T11:31:50.519345+00:00",
       "last_seen": "2026-09-03T11:31:50.519345+00:00",
-      "source_count": 2,
+      "source_count": 1,
       "sources": [
         {
           "source": "www.security.com",
           "url": "https://www.security.com/threat-intelligence/node-js-returns-ransomware",
           "pub_date": "2026-09-03T11:31:50.519345+00:00"
-        },
-        {
-          "source": "Security",
-          "url": "https://www.security.com/blog-post/node-js-returns-ransomware",
-          "pub_date": "2026-09-03T10:18:27+00:00"
         }
       ],
       "tags": [
@@ -12591,19 +12639,14 @@
       "value": "199.91.221.42",
       "confidence": "high",
       "reason": "Listed as a network indicator in the article",
-      "first_seen": "2026-09-03T10:18:27+00:00",
+      "first_seen": "2026-09-03T11:31:50.519345+00:00",
       "last_seen": "2026-09-03T11:31:50.519345+00:00",
-      "source_count": 2,
+      "source_count": 1,
       "sources": [
         {
           "source": "www.security.com",
           "url": "https://www.security.com/threat-intelligence/node-js-returns-ransomware",
           "pub_date": "2026-09-03T11:31:50.519345+00:00"
-        },
-        {
-          "source": "Security",
-          "url": "https://www.security.com/blog-post/node-js-returns-ransomware",
-          "pub_date": "2026-09-03T10:18:27+00:00"
         }
       ],
       "tags": [
@@ -12630,19 +12673,14 @@
       "value": "45.158.196.23",
       "confidence": "high",
       "reason": "Listed as a network indicator in the article",
-      "first_seen": "2026-09-03T10:18:27+00:00",
+      "first_seen": "2026-09-03T11:31:50.519345+00:00",
       "last_seen": "2026-09-03T11:31:50.519345+00:00",
-      "source_count": 2,
+      "source_count": 1,
       "sources": [
         {
           "source": "www.security.com",
           "url": "https://www.security.com/threat-intelligence/node-js-returns-ransomware",
           "pub_date": "2026-09-03T11:31:50.519345+00:00"
-        },
-        {
-          "source": "Security",
-          "url": "https://www.security.com/blog-post/node-js-returns-ransomware",
-          "pub_date": "2026-09-03T10:18:27+00:00"
         }
       ],
       "tags": [
@@ -12663,708 +12701,6 @@
           "value": "Backdoor.Mistic"
         }
       ]
-    },
-    {
-      "type": "domain",
-      "value": "bestopebel.pl",
-      "confidence": "high",
-      "reason": "Listed as part of a C2 infrastructure.",
-      "first_seen": "2026-09-03T10:18:27+00:00",
-      "last_seen": "2026-09-03T10:18:27+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Security",
-          "url": "https://www.security.com/blog-post/node-js-returns-ransomware",
-          "pub_date": "2026-09-03T10:18:27+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "industry",
-          "value": "Financial"
-        },
-        {
-          "type": "industry",
-          "value": "Government"
-        },
-        {
-          "type": "industry",
-          "value": "Technology"
-        },
-        {
-          "type": "malware",
-          "value": "AdaptixC2"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "bookphotohot.pro",
-      "confidence": "high",
-      "reason": "Listed as part of a network indicator for Backdoor.Mistic.",
-      "first_seen": "2026-09-03T10:18:27+00:00",
-      "last_seen": "2026-09-03T10:18:27+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Security",
-          "url": "https://www.security.com/blog-post/node-js-returns-ransomware",
-          "pub_date": "2026-09-03T10:18:27+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "industry",
-          "value": "Financial"
-        },
-        {
-          "type": "industry",
-          "value": "Government"
-        },
-        {
-          "type": "industry",
-          "value": "Technology"
-        },
-        {
-          "type": "malware",
-          "value": "AdaptixC2"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "bookphotoreserv.pro",
-      "confidence": "high",
-      "reason": "Listed as part of a network indicator for Backdoor.Mistic.",
-      "first_seen": "2026-09-03T10:18:27+00:00",
-      "last_seen": "2026-09-03T10:18:27+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Security",
-          "url": "https://www.security.com/blog-post/node-js-returns-ransomware",
-          "pub_date": "2026-09-03T10:18:27+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "industry",
-          "value": "Financial"
-        },
-        {
-          "type": "industry",
-          "value": "Government"
-        },
-        {
-          "type": "industry",
-          "value": "Technology"
-        },
-        {
-          "type": "malware",
-          "value": "AdaptixC2"
-        }
-      ]
-    },
-    {
-      "type": "ipv4",
-      "value": "94.156.114.250",
-      "confidence": "high",
-      "reason": "Hosts malicious files for download",
-      "first_seen": "2026-09-03T10:18:27+00:00",
-      "last_seen": "2026-09-03T10:18:27+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Security",
-          "url": "https://www.security.com/blog-post/node-js-returns-ransomware",
-          "pub_date": "2026-09-03T10:18:27+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "industry",
-          "value": "Financial"
-        },
-        {
-          "type": "industry",
-          "value": "Government"
-        },
-        {
-          "type": "industry",
-          "value": "Technology"
-        },
-        {
-          "type": "malware",
-          "value": "AdaptixC2"
-        }
-      ]
-    },
-    {
-      "type": "ipv4",
-      "value": "61.7.209.88",
-      "confidence": "high",
-      "reason": "Linked to Mirai botnet by OSINT",
-      "first_seen": "2026-09-03T06:25:20+00:00",
-      "last_seen": "2026-09-03T06:25:20+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Darktrace",
-          "url": "https://www.darktrace.com/blog/botnet-behind-the-camera-mirai-katana-activity-on-a-video-recording-device",
-          "pub_date": "2026-09-03T06:25:20+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "ipv4",
-      "value": "95.161.128.62",
-      "confidence": "high",
-      "reason": "Linked to Mirai botnet by OSINT",
-      "first_seen": "2026-09-03T06:25:20+00:00",
-      "last_seen": "2026-09-03T06:25:20+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Darktrace",
-          "url": "https://www.darktrace.com/blog/botnet-behind-the-camera-mirai-katana-activity-on-a-video-recording-device",
-          "pub_date": "2026-09-03T06:25:20+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "tele-sync.opik.net",
-      "confidence": "high",
-      "reason": "Associated with a command-and-control server",
-      "first_seen": "2026-09-03T05:53:30+00:00",
-      "last_seen": "2026-09-03T05:53:30+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Huntress",
-          "url": "https://www.huntress.com/blog/rogue-screenconnect-installations",
-          "pub_date": "2026-09-03T05:53:30+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "ipv4",
-      "value": "185.254.222.105",
-      "confidence": "high",
-      "reason": "IP address used as a source for malicious email activity",
-      "first_seen": "2026-09-03T02:00:03+00:00",
-      "last_seen": "2026-09-03T02:00:03+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Isc.Sans.Edu",
-          "url": "https://isc.sans.edu/diary/rss/33308",
-          "pub_date": "2026-09-03T02:00:03+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "idoej.com",
-      "confidence": "high",
-      "reason": "Domain with typosquatting characteristics likely registered by attacker",
-      "first_seen": "2026-09-02T19:03:22+00:00",
-      "last_seen": "2026-09-02T19:03:22+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Itsecurityguru",
-          "url": "https://www.itsecurityguru.org/2026/09/02/new-knight-office-phishing-kit-steals-microsoft-365-logins-without-touching-a-password/",
-          "pub_date": "2026-09-02T19:03:22+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "iualef.net",
-      "confidence": "high",
-      "reason": "Identified as a C2 domain in malicious activity",
-      "first_seen": "2026-09-02T17:03:28+00:00",
-      "last_seen": "2026-09-02T17:03:28+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Thehackernews",
-          "url": "https://thehackernews.com/2026/09/fake-software-installers-disable.html",
-          "pub_date": "2026-09-02T17:03:28+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "translate-youdao.hl.cn",
-      "confidence": "high",
-      "reason": "Listed as part of a campaign using spoofed vendor download pages for malware distribution.",
-      "first_seen": "2026-09-02T17:03:28+00:00",
-      "last_seen": "2026-09-02T17:03:28+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Thehackernews",
-          "url": "https://thehackernews.com/2026/09/fake-software-installers-disable.html",
-          "pub_date": "2026-09-02T17:03:28+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "ipv4",
-      "value": "176.65.148.184",
-      "confidence": "high",
-      "reason": "Listed as the attacker's IP address used for exploitation attempts against honeypots.",
-      "first_seen": "2026-09-02T13:19:54+00:00",
-      "last_seen": "2026-09-02T13:19:54+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Helpnetsecurity",
-          "url": "https://www.helpnetsecurity.com/2026/09/02/exploitation-of-sangoma-switchvox-flaw-underway-cve-2026-9586/",
-          "pub_date": "2026-09-02T13:19:54+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "cve",
-          "value": "CVE-2026-9586"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "cdn.nerat.cc",
-      "confidence": "high",
-      "reason": "Identified as a C2 domain in the context of a malware campaign.",
-      "first_seen": "2026-09-02T13:12:45+00:00",
-      "last_seen": "2026-09-02T13:12:45+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Thehackernews",
-          "url": "https://thehackernews.com/2026/09/bgp-hijack-delivers-malicious.html",
-          "pub_date": "2026-09-02T13:12:45+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "connect.ne-rat.xyz",
-      "confidence": "high",
-      "reason": "Listed as C2 domain",
-      "first_seen": "2026-09-02T13:12:45+00:00",
-      "last_seen": "2026-09-02T13:12:45+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Thehackernews",
-          "url": "https://thehackernews.com/2026/09/bgp-hijack-delivers-malicious.html",
-          "pub_date": "2026-09-02T13:12:45+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "advancedplacyncement.vu",
-      "confidence": "high",
-      "reason": "Domain with typosquatting characteristics likely registered by attacker",
-      "first_seen": "2026-09-02T12:53:51+00:00",
-      "last_seen": "2026-09-02T12:53:51+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Huntress",
-          "url": "https://www.huntress.com/blog/inside-knight-office-m365-aitm-attack",
-          "pub_date": "2026-09-02T12:53:51+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "arandasoftzfdware.vu",
-      "confidence": "high",
-      "reason": "Domain with typosquatting characteristics likely registered by attacker",
-      "first_seen": "2026-09-02T12:53:51+00:00",
-      "last_seen": "2026-09-02T12:53:51+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Huntress",
-          "url": "https://www.huntress.com/blog/inside-knight-office-m365-aitm-attack",
-          "pub_date": "2026-09-02T12:53:51+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "avisoretentiunionllc.vu",
-      "confidence": "high",
-      "reason": "Domain with typosquatting characteristics likely registered by attacker",
-      "first_seen": "2026-09-02T12:53:51+00:00",
-      "last_seen": "2026-09-02T12:53:51+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Huntress",
-          "url": "https://www.huntress.com/blog/inside-knight-office-m365-aitm-attack",
-          "pub_date": "2026-09-02T12:53:51+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "capitalflwxinancialpartners.vu",
-      "confidence": "high",
-      "reason": "Domain with typosquatting characteristics likely registered by attacker",
-      "first_seen": "2026-09-02T12:53:51+00:00",
-      "last_seen": "2026-09-02T12:53:51+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Huntress",
-          "url": "https://www.huntress.com/blog/inside-knight-office-m365-aitm-attack",
-          "pub_date": "2026-09-02T12:53:51+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "certififiycationedge.vu",
-      "confidence": "high",
-      "reason": "Domain with typosquatting characteristics likely registered by attacker",
-      "first_seen": "2026-09-02T12:53:51+00:00",
-      "last_seen": "2026-09-02T12:53:51+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Huntress",
-          "url": "https://www.huntress.com/blog/inside-knight-office-m365-aitm-attack",
-          "pub_date": "2026-09-02T12:53:51+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "connectivnqzityltd.vu",
-      "confidence": "high",
-      "reason": "Domain with typosquatting characteristics likely registered by attacker",
-      "first_seen": "2026-09-02T12:53:51+00:00",
-      "last_seen": "2026-09-02T12:53:51+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Huntress",
-          "url": "https://www.huntress.com/blog/inside-knight-office-m365-aitm-attack",
-          "pub_date": "2026-09-02T12:53:51+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "digitaltrafwwrficsystems.vu",
-      "confidence": "high",
-      "reason": "Domain with typosquatting characteristics likely registered by attacker",
-      "first_seen": "2026-09-02T12:53:51+00:00",
-      "last_seen": "2026-09-02T12:53:51+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Huntress",
-          "url": "https://www.huntress.com/blog/inside-knight-office-m365-aitm-attack",
-          "pub_date": "2026-09-02T12:53:51+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "exceltecbusinessbwpsolutions.vu",
-      "confidence": "high",
-      "reason": "Domain with typosquatting characteristics likely registered by attacker",
-      "first_seen": "2026-09-02T12:53:51+00:00",
-      "last_seen": "2026-09-02T12:53:51+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Huntress",
-          "url": "https://www.huntress.com/blog/inside-knight-office-m365-aitm-attack",
-          "pub_date": "2026-09-02T12:53:51+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "genamewwgdiamarketing.vu",
-      "confidence": "high",
-      "reason": "Domain with typosquatting characteristics likely registered by attacker",
-      "first_seen": "2026-09-02T12:53:51+00:00",
-      "last_seen": "2026-09-02T12:53:51+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Huntress",
-          "url": "https://www.huntress.com/blog/inside-knight-office-m365-aitm-attack",
-          "pub_date": "2026-09-02T12:53:51+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "globaieflsoftinc.vu",
-      "confidence": "high",
-      "reason": "Domain with typosquatting characteristics likely registered by attacker",
-      "first_seen": "2026-09-02T12:53:51+00:00",
-      "last_seen": "2026-09-02T12:53:51+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Huntress",
-          "url": "https://www.huntress.com/blog/inside-knight-office-m365-aitm-attack",
-          "pub_date": "2026-09-02T12:53:51+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "globalmixeucbdmodetechnologyinc.vu",
-      "confidence": "high",
-      "reason": "Domain with typosquatting characteristics likely registered by attacker",
-      "first_seen": "2026-09-02T12:53:51+00:00",
-      "last_seen": "2026-09-02T12:53:51+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Huntress",
-          "url": "https://www.huntress.com/blog/inside-knight-office-m365-aitm-attack",
-          "pub_date": "2026-09-02T12:53:51+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "globalprojectspvtltd.vu",
-      "confidence": "high",
-      "reason": "Domain with typosquatting characteristics likely registered by attacker",
-      "first_seen": "2026-09-02T12:53:51+00:00",
-      "last_seen": "2026-09-02T12:53:51+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Huntress",
-          "url": "https://www.huntress.com/blog/inside-knight-office-m365-aitm-attack",
-          "pub_date": "2026-09-02T12:53:51+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "joinbusinessmanagementconsdjeulting.vu",
-      "confidence": "high",
-      "reason": "Domain with typosquatting characteristics likely registered by attacker",
-      "first_seen": "2026-09-02T12:53:51+00:00",
-      "last_seen": "2026-09-02T12:53:51+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Huntress",
-          "url": "https://www.huntress.com/blog/inside-knight-office-m365-aitm-attack",
-          "pub_date": "2026-09-02T12:53:51+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "kentmanqhfufacturingcompany.vu",
-      "confidence": "high",
-      "reason": "Domain with typosquatting characteristics likely registered by attacker",
-      "first_seen": "2026-09-02T12:53:51+00:00",
-      "last_seen": "2026-09-02T12:53:51+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Huntress",
-          "url": "https://www.huntress.com/blog/inside-knight-office-m365-aitm-attack",
-          "pub_date": "2026-09-02T12:53:51+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "kleepxrnlinecorporation.vu",
-      "confidence": "high",
-      "reason": "Domain with typosquatting characteristics likely registered by attacker",
-      "first_seen": "2026-09-02T12:53:51+00:00",
-      "last_seen": "2026-09-02T12:53:51+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Huntress",
-          "url": "https://www.huntress.com/blog/inside-knight-office-m365-aitm-attack",
-          "pub_date": "2026-09-02T12:53:51+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "knsinternacshtional.vu",
-      "confidence": "high",
-      "reason": "Domain with typosquatting characteristics likely registered by attacker",
-      "first_seen": "2026-09-02T12:53:51+00:00",
-      "last_seen": "2026-09-02T12:53:51+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Huntress",
-          "url": "https://www.huntress.com/blog/inside-knight-office-m365-aitm-attack",
-          "pub_date": "2026-09-02T12:53:51+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "monttmmlrustcompany.vu",
-      "confidence": "high",
-      "reason": "Domain with typosquatting characteristics likely registered by attacker",
-      "first_seen": "2026-09-02T12:53:51+00:00",
-      "last_seen": "2026-09-02T12:53:51+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Huntress",
-          "url": "https://www.huntress.com/blog/inside-knight-office-m365-aitm-attack",
-          "pub_date": "2026-09-02T12:53:51+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "mtprormtductions.vu",
-      "confidence": "high",
-      "reason": "Domain with typosquatting characteristics likely registered by attacker",
-      "first_seen": "2026-09-02T12:53:51+00:00",
-      "last_seen": "2026-09-02T12:53:51+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Huntress",
-          "url": "https://www.huntress.com/blog/inside-knight-office-m365-aitm-attack",
-          "pub_date": "2026-09-02T12:53:51+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "realestatecotblrp.vu",
-      "confidence": "high",
-      "reason": "Domain with typosquatting characteristics likely registered by attacker",
-      "first_seen": "2026-09-02T12:53:51+00:00",
-      "last_seen": "2026-09-02T12:53:51+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Huntress",
-          "url": "https://www.huntress.com/blog/inside-knight-office-m365-aitm-attack",
-          "pub_date": "2026-09-02T12:53:51+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "summitcapitaltrapojininggroup.vu",
-      "confidence": "high",
-      "reason": "Domain with typosquatting characteristics likely registered by attacker",
-      "first_seen": "2026-09-02T12:53:51+00:00",
-      "last_seen": "2026-09-02T12:53:51+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Huntress",
-          "url": "https://www.huntress.com/blog/inside-knight-office-m365-aitm-attack",
-          "pub_date": "2026-09-02T12:53:51+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "techcompositnkoes.vu",
-      "confidence": "high",
-      "reason": "Domain with typosquatting characteristics likely registered by attacker",
-      "first_seen": "2026-09-02T12:53:51+00:00",
-      "last_seen": "2026-09-02T12:53:51+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Huntress",
-          "url": "https://www.huntress.com/blog/inside-knight-office-m365-aitm-attack",
-          "pub_date": "2026-09-02T12:53:51+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "techromixsolutionlonsinc.vu",
-      "confidence": "high",
-      "reason": "Domain with typosquatting characteristics likely registered by attacker",
-      "first_seen": "2026-09-02T12:53:51+00:00",
-      "last_seen": "2026-09-02T12:53:51+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Huntress",
-          "url": "https://www.huntress.com/blog/inside-knight-office-m365-aitm-attack",
-          "pub_date": "2026-09-02T12:53:51+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "ipv4",
-      "value": "154.127.53.78",
-      "confidence": "high",
-      "reason": "IP address linked to phishing email campaigns",
-      "first_seen": "2026-09-02T12:53:51+00:00",
-      "last_seen": "2026-09-02T12:53:51+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Huntress",
-          "url": "https://www.huntress.com/blog/inside-knight-office-m365-aitm-attack",
-          "pub_date": "2026-09-02T12:53:51+00:00"
-        }
-      ],
-      "tags": []
     }
   ],
   "license": "CC-BY 4.0 \u2014 attribute ThreatCluster (https://threatcluster.io)",

@@ -1,6 +1,12 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason
+domain,account.drive-google-com.tk,high,2026-10-02T16:30:51.440394+00:00,2026-10-02T16:30:51.440394+00:00,1,www.proofpoint.com:2026-10-02,Listed as previously reported UNK_SweetSpecter domain used for C2 communications
+domain,account.gommask.online,high,2026-10-02T16:30:51.440394+00:00,2026-10-02T16:30:51.440394+00:00,1,www.proofpoint.com:2026-10-02,Identified as a new C2 domain for UNK_SweetSpecter
+domain,lowtpills.com,high,2026-10-02T16:27:54+00:00,2026-10-02T16:27:54+00:00,1,Darkreading:2026-10-02,Used in a vulnerability exploitation scenario
+domain,pbapi.xyz,high,2026-10-02T14:41:46.380979+00:00,2026-10-02T14:41:46.380979+00:00,1,amibeingpwned.com:2026-10-02,Described as a command-and-control channel used by the extension
+domain,presaie-roaringkitty.com,high,2026-10-02T09:29:56+00:00,2026-10-02T09:29:56+00:00,1,Bleepingcomputer:2026-10-02,Domain used by attackers to lure victims into a cryptocurrency scam.
 domain,driftshare.co,high,2026-10-01T09:00:00+00:00,2026-10-02T06:57:52+00:00,3,Crnasia:2026-10-02|News.Lavx.Hu:2026-10-01|Proofpoint:2026-10-01,Used as a first-stage domain in a phishing campaign by TA419
 domain,globalfileshareplatform.com,high,2026-10-01T09:00:00+00:00,2026-10-02T06:57:52+00:00,3,Crnasia:2026-10-02|News.Lavx.Hu:2026-10-01|Proofpoint:2026-10-01,Used as a second-stage domain in a phishing campaign by TA419
+domain,fingercakes4sale.store,high,2026-10-02T03:44:40.584000+00:00,2026-10-02T03:44:40.584000+00:00,1,Socket.Dev:2026-10-02,Listed as a malware contact domain in a threat report
 domain,amazonprime-support.com,high,2026-10-01T22:23:34+00:00,2026-10-01T22:23:34+00:00,1,Blog.Checkpoint:2026-10-01,Classified as a malicious domain targeting Amazon Prime brand.
 domain,amazonprimewindows.com,high,2026-10-01T22:23:34+00:00,2026-10-01T22:23:34+00:00,1,Blog.Checkpoint:2026-10-01,Classified as a malicious domain targeting Amazon Prime brand.
 domain,primevideoamazon.com,high,2026-10-01T22:23:34+00:00,2026-10-01T22:23:34+00:00,1,Blog.Checkpoint:2026-10-01,Classified as a malicious domain targeting Amazon Prime brand.
@@ -11,8 +17,6 @@ domain,microsoft-flash.com,high,2026-10-01T19:31:07.432240+00:00,2026-10-01T19:3
 domain,pub-abfa7742e315485a98a5fafd6dbfb68e.r2.dev,high,2026-10-01T19:31:07.432240+00:00,2026-10-01T19:31:07.432240+00:00,1,www.security.com:2026-10-01,Listed among domains related to Antino-related samples
 domain,robot.avbliud.com,high,2026-10-01T19:31:07.432240+00:00,2026-10-01T19:31:07.432240+00:00,1,www.security.com:2026-10-01,Listed among domains related to Antino-related samples
 domain,www.f1ash.org.cn,high,2026-10-01T19:31:07.432240+00:00,2026-10-01T19:31:07.432240+00:00,1,www.security.com:2026-10-01,Listed among domains related to Antino-related samples
-domain,account.drive-google-com.tk,high,2026-10-01T17:40:37.656673+00:00,2026-10-01T17:40:37.656673+00:00,1,www.proofpoint.com:2026-10-01,Listed as previously reported UNK_SweetSpecter domain used for C2 communications
-domain,account.gommask.online,high,2026-10-01T17:40:37.656673+00:00,2026-10-01T17:40:37.656673+00:00,1,www.proofpoint.com:2026-10-01,Identified as a new C2 domain for UNK_SweetSpecter
 domain,sitemufl06qs0r4o.xyz,high,2026-10-01T17:40:23+00:00,2026-10-01T17:40:23+00:00,1,Malwarebytes:2026-10-01,Listed in an IOC table as part of phishing and scam infrastructure
 domain,sitemui6m6bbj1bd.xyz,high,2026-10-01T17:40:23+00:00,2026-10-01T17:40:23+00:00,1,Malwarebytes:2026-10-01,Listed in an IOC table as part of phishing and scam infrastructure
 domain,sitemui8go6g99bb.xyz,high,2026-10-01T17:40:23+00:00,2026-10-01T17:40:23+00:00,1,Malwarebytes:2026-10-01,Listed in an IOC table as part of phishing and scam infrastructure
@@ -455,37 +459,6 @@ domain,img.worksongo.store,high,2026-09-04T14:51:13+00:00,2026-09-04T14:51:13+00
 domain,chatgpt.niestools.com,high,2026-09-04T11:17:36.360288+00:00,2026-09-04T11:17:36.360288+00:00,1,hunt.io:2026-09-04,Part of a malicious infrastructure using Sub2API AI gateway.
 domain,claude.niestools.com,high,2026-09-04T11:17:36.360288+00:00,2026-09-04T11:17:36.360288+00:00,1,hunt.io:2026-09-04,Part of a malicious infrastructure using Sub2API AI gateway.
 domain,deepseek.niestools.com,high,2026-09-04T11:17:36.360288+00:00,2026-09-04T11:17:36.360288+00:00,1,hunt.io:2026-09-04,Part of malicious infrastructure
-domain,datalayerservice.com,high,2026-09-03T10:18:27+00:00,2026-09-03T11:31:50.519345+00:00,2,www.security.com:2026-09-03|Security:2026-09-03,Listed under C&C infrastructure in the article
-domain,docs.datalayerservice.com,high,2026-09-03T10:18:27+00:00,2026-09-03T11:31:50.519345+00:00,2,www.security.com:2026-09-03|Security:2026-09-03,Listed under C&C infrastructure in the article
-domain,resources.datalayerservice.com,high,2026-09-03T10:18:27+00:00,2026-09-03T11:31:50.519345+00:00,2,www.security.com:2026-09-03|Security:2026-09-03,Listed under C&C infrastructure in the article
-domain,bestopebel.pl,high,2026-09-03T10:18:27+00:00,2026-09-03T10:18:27+00:00,1,Security:2026-09-03,Listed as part of a C2 infrastructure.
-domain,bookphotohot.pro,high,2026-09-03T10:18:27+00:00,2026-09-03T10:18:27+00:00,1,Security:2026-09-03,Listed as part of a network indicator for Backdoor.Mistic.
-domain,bookphotoreserv.pro,high,2026-09-03T10:18:27+00:00,2026-09-03T10:18:27+00:00,1,Security:2026-09-03,Listed as part of a network indicator for Backdoor.Mistic.
-domain,tele-sync.opik.net,high,2026-09-03T05:53:30+00:00,2026-09-03T05:53:30+00:00,1,Huntress:2026-09-03,Associated with a command-and-control server
-domain,idoej.com,high,2026-09-02T19:03:22+00:00,2026-09-02T19:03:22+00:00,1,Itsecurityguru:2026-09-02,Domain with typosquatting characteristics likely registered by attacker
-domain,iualef.net,high,2026-09-02T17:03:28+00:00,2026-09-02T17:03:28+00:00,1,Thehackernews:2026-09-02,Identified as a C2 domain in malicious activity
-domain,translate-youdao.hl.cn,high,2026-09-02T17:03:28+00:00,2026-09-02T17:03:28+00:00,1,Thehackernews:2026-09-02,Listed as part of a campaign using spoofed vendor download pages for malware distribution.
-domain,cdn.nerat.cc,high,2026-09-02T13:12:45+00:00,2026-09-02T13:12:45+00:00,1,Thehackernews:2026-09-02,Identified as a C2 domain in the context of a malware campaign.
-domain,connect.ne-rat.xyz,high,2026-09-02T13:12:45+00:00,2026-09-02T13:12:45+00:00,1,Thehackernews:2026-09-02,Listed as C2 domain
-domain,advancedplacyncement.vu,high,2026-09-02T12:53:51+00:00,2026-09-02T12:53:51+00:00,1,Huntress:2026-09-02,Domain with typosquatting characteristics likely registered by attacker
-domain,arandasoftzfdware.vu,high,2026-09-02T12:53:51+00:00,2026-09-02T12:53:51+00:00,1,Huntress:2026-09-02,Domain with typosquatting characteristics likely registered by attacker
-domain,avisoretentiunionllc.vu,high,2026-09-02T12:53:51+00:00,2026-09-02T12:53:51+00:00,1,Huntress:2026-09-02,Domain with typosquatting characteristics likely registered by attacker
-domain,capitalflwxinancialpartners.vu,high,2026-09-02T12:53:51+00:00,2026-09-02T12:53:51+00:00,1,Huntress:2026-09-02,Domain with typosquatting characteristics likely registered by attacker
-domain,certififiycationedge.vu,high,2026-09-02T12:53:51+00:00,2026-09-02T12:53:51+00:00,1,Huntress:2026-09-02,Domain with typosquatting characteristics likely registered by attacker
-domain,connectivnqzityltd.vu,high,2026-09-02T12:53:51+00:00,2026-09-02T12:53:51+00:00,1,Huntress:2026-09-02,Domain with typosquatting characteristics likely registered by attacker
-domain,digitaltrafwwrficsystems.vu,high,2026-09-02T12:53:51+00:00,2026-09-02T12:53:51+00:00,1,Huntress:2026-09-02,Domain with typosquatting characteristics likely registered by attacker
-domain,exceltecbusinessbwpsolutions.vu,high,2026-09-02T12:53:51+00:00,2026-09-02T12:53:51+00:00,1,Huntress:2026-09-02,Domain with typosquatting characteristics likely registered by attacker
-domain,genamewwgdiamarketing.vu,high,2026-09-02T12:53:51+00:00,2026-09-02T12:53:51+00:00,1,Huntress:2026-09-02,Domain with typosquatting characteristics likely registered by attacker
-domain,globaieflsoftinc.vu,high,2026-09-02T12:53:51+00:00,2026-09-02T12:53:51+00:00,1,Huntress:2026-09-02,Domain with typosquatting characteristics likely registered by attacker
-domain,globalmixeucbdmodetechnologyinc.vu,high,2026-09-02T12:53:51+00:00,2026-09-02T12:53:51+00:00,1,Huntress:2026-09-02,Domain with typosquatting characteristics likely registered by attacker
-domain,globalprojectspvtltd.vu,high,2026-09-02T12:53:51+00:00,2026-09-02T12:53:51+00:00,1,Huntress:2026-09-02,Domain with typosquatting characteristics likely registered by attacker
-domain,joinbusinessmanagementconsdjeulting.vu,high,2026-09-02T12:53:51+00:00,2026-09-02T12:53:51+00:00,1,Huntress:2026-09-02,Domain with typosquatting characteristics likely registered by attacker
-domain,kentmanqhfufacturingcompany.vu,high,2026-09-02T12:53:51+00:00,2026-09-02T12:53:51+00:00,1,Huntress:2026-09-02,Domain with typosquatting characteristics likely registered by attacker
-domain,kleepxrnlinecorporation.vu,high,2026-09-02T12:53:51+00:00,2026-09-02T12:53:51+00:00,1,Huntress:2026-09-02,Domain with typosquatting characteristics likely registered by attacker
-domain,knsinternacshtional.vu,high,2026-09-02T12:53:51+00:00,2026-09-02T12:53:51+00:00,1,Huntress:2026-09-02,Domain with typosquatting characteristics likely registered by attacker
-domain,monttmmlrustcompany.vu,high,2026-09-02T12:53:51+00:00,2026-09-02T12:53:51+00:00,1,Huntress:2026-09-02,Domain with typosquatting characteristics likely registered by attacker
-domain,mtprormtductions.vu,high,2026-09-02T12:53:51+00:00,2026-09-02T12:53:51+00:00,1,Huntress:2026-09-02,Domain with typosquatting characteristics likely registered by attacker
-domain,realestatecotblrp.vu,high,2026-09-02T12:53:51+00:00,2026-09-02T12:53:51+00:00,1,Huntress:2026-09-02,Domain with typosquatting characteristics likely registered by attacker
-domain,summitcapitaltrapojininggroup.vu,high,2026-09-02T12:53:51+00:00,2026-09-02T12:53:51+00:00,1,Huntress:2026-09-02,Domain with typosquatting characteristics likely registered by attacker
-domain,techcompositnkoes.vu,high,2026-09-02T12:53:51+00:00,2026-09-02T12:53:51+00:00,1,Huntress:2026-09-02,Domain with typosquatting characteristics likely registered by attacker
-domain,techromixsolutionlonsinc.vu,high,2026-09-02T12:53:51+00:00,2026-09-02T12:53:51+00:00,1,Huntress:2026-09-02,Domain with typosquatting characteristics likely registered by attacker
+domain,datalayerservice.com,high,2026-09-03T11:31:50.519345+00:00,2026-09-03T11:31:50.519345+00:00,1,www.security.com:2026-09-03,Listed under C&C infrastructure in the article
+domain,docs.datalayerservice.com,high,2026-09-03T11:31:50.519345+00:00,2026-09-03T11:31:50.519345+00:00,1,www.security.com:2026-09-03,Listed under C&C infrastructure in the article
+domain,resources.datalayerservice.com,high,2026-09-03T11:31:50.519345+00:00,2026-09-03T11:31:50.519345+00:00,1,www.security.com:2026-09-03,Listed under C&C infrastructure in the article
