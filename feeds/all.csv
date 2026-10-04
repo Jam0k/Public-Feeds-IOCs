@@ -1,4 +1,6 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason
+domain,agent2.sh,high,2026-10-04T07:38:29.077520+00:00,2026-10-04T07:38:29.077520+00:00,1,www.microsoft.com:2026-10-04,Described as part of a multi-stage payload chain used by attackers
+domain,bypass.eu.org,high,2026-10-04T07:38:29.077520+00:00,2026-10-04T07:38:29.077520+00:00,1,www.microsoft.com:2026-10-04,Described as campaign-associated infrastructure used by attackers
 domain,account.drive-google-com.tk,high,2026-10-02T16:30:51.440394+00:00,2026-10-02T16:30:51.440394+00:00,1,www.proofpoint.com:2026-10-02,Listed as previously reported UNK_SweetSpecter domain used for C2 communications
 domain,account.gommask.online,high,2026-10-02T16:30:51.440394+00:00,2026-10-02T16:30:51.440394+00:00,1,www.proofpoint.com:2026-10-02,Identified as a new C2 domain for UNK_SweetSpecter
 ipv4,103.148.245.235,high,2026-10-02T16:30:51.440394+00:00,2026-10-02T16:30:51.440394+00:00,1,www.proofpoint.com:2026-10-02,Shared hosting with UNK_SweetSpecter C2 domains
@@ -16,8 +18,8 @@ domain,primevideoamazon.com,high,2026-10-01T22:23:34+00:00,2026-10-01T22:23:34+0
 domain,videoamazonprime.com,high,2026-10-01T22:23:34+00:00,2026-10-01T22:23:34+00:00,1,Blog.Checkpoint:2026-10-01,Listed as a malicious domain targeting the Amazon Prime brand
 domain,fonts.chrorne.com,high,2026-10-01T19:31:07.432240+00:00,2026-10-01T19:31:07.432240+00:00,1,www.security.com:2026-10-01,Listed among domains related to Antino-related samples
 domain,fonts.tarotfree101.top,high,2026-10-01T19:31:07.432240+00:00,2026-10-01T19:31:07.432240+00:00,1,www.security.com:2026-10-01,Listed among domains related to Antino-related samples
-domain,microsoft-flash.com,high,2026-10-01T19:31:07.432240+00:00,2026-10-01T19:31:07.432240+00:00,1,www.security.com:2026-10-01,Listed among domains related to Antino-related samples
-domain,pub-abfa7742e315485a98a5fafd6dbfb68e.r2.dev,high,2026-10-01T19:31:07.432240+00:00,2026-10-01T19:31:07.432240+00:00,1,www.security.com:2026-10-01,Listed among domains related to Antino-related samples
+domain,microsoft-flash.com,high,2026-09-30T14:13:51+00:00,2026-10-01T19:31:07.432240+00:00,2,www.security.com:2026-10-01|Blog.Talosintelligence:2026-09-30,Listed among domains related to Antino-related samples
+domain,pub-abfa7742e315485a98a5fafd6dbfb68e.r2.dev,high,2026-09-30T14:13:51+00:00,2026-10-01T19:31:07.432240+00:00,2,www.security.com:2026-10-01|Blog.Talosintelligence:2026-09-30,Listed among domains related to Antino-related samples
 domain,robot.avbliud.com,high,2026-10-01T19:31:07.432240+00:00,2026-10-01T19:31:07.432240+00:00,1,www.security.com:2026-10-01,Listed among domains related to Antino-related samples
 domain,www.f1ash.org.cn,high,2026-10-01T19:31:07.432240+00:00,2026-10-01T19:31:07.432240+00:00,1,www.security.com:2026-10-01,Listed among domains related to Antino-related samples
 domain,sitemufl06qs0r4o.xyz,high,2026-10-01T17:40:23+00:00,2026-10-01T17:40:23+00:00,1,Malwarebytes:2026-10-01,Listed in an IOC table as part of phishing and scam infrastructure
@@ -98,8 +100,6 @@ domain,altra-paris.fr,high,2026-10-01T17:06:20+00:00,2026-10-01T17:06:20+00:00,1
 domain,wss.scriptlab.cc,high,2026-10-01T17:06:20+00:00,2026-10-01T17:06:20+00:00,1,Cyfirma:2026-10-01,Used in a malware configuration as a C2 endpoint
 ipv4,36.106.166.96,high,2026-10-01T17:06:20+00:00,2026-10-01T17:06:20+00:00,1,Cyfirma:2026-10-01,Listed as a threat intelligence IOC
 ipv4,36.106.166.97,high,2026-10-01T17:06:20+00:00,2026-10-01T17:06:20+00:00,1,Cyfirma:2026-10-01,Listed as a threat intelligence IOC
-domain,agent2.sh,high,2026-10-01T15:38:06.116230+00:00,2026-10-01T15:38:06.116230+00:00,1,www.microsoft.com:2026-10-01,Described as part of a multi-stage payload chain used by attackers
-domain,bypass.eu.org,high,2026-10-01T15:38:06.116230+00:00,2026-10-01T15:38:06.116230+00:00,1,www.microsoft.com:2026-10-01,Described as campaign-associated infrastructure used by attackers
 domain,chestergreenfarming.com,high,2026-10-01T10:31:57+00:00,2026-10-01T10:31:57+00:00,1,X:2026-10-01,Identified as a C2 for a RAT delivered in a campaign.
 domain,gomescareerplans.com,high,2026-10-01T10:31:57+00:00,2026-10-01T10:31:57+00:00,1,X:2026-10-01,Used as a C2 register in a malware campaign.
 ipv4,31.217.177.172,high,2026-10-01T09:00:24+00:00,2026-10-01T09:00:24+00:00,1,Maltego:2026-10-01,Listed as a peer IP address associated with a ransomware group
@@ -122,11 +122,10 @@ domain,notebooklm-version-upd.squarespace.com,high,2026-09-30T17:00:25.403246+00
 domain,driverupdate.sbs,high,2026-09-30T15:44:45+00:00,2026-09-30T15:44:45+00:00,1,Hackread:2026-09-30,Used to deliver a malicious ISO file in a phishing attack
 domain,globalsupportupdate.top,high,2026-09-30T15:44:45+00:00,2026-09-30T15:44:45+00:00,1,Hackread:2026-09-30,Used to retrieve a ransomware encryptor
 ipv4,96.62.224.81,high,2026-09-30T14:31:15+00:00,2026-09-30T14:31:15+00:00,1,Techtimes:2026-09-30,Listed as a server IP in a ClickFix attack
-domain,page.dev,high,2026-09-30T14:13:51+00:00,2026-09-30T14:13:51+00:00,1,Blog.Talosintelligence:2026-09-30,Used in a spear-phishing campaign to deliver malicious files
-domain,pub-0173d1566dcd4fd49fa25f11f14bfe4c.r2.dev,high,2026-09-30T14:13:51+00:00,2026-09-30T14:13:51+00:00,1,Blog.Talosintelligence:2026-09-30,Used as a Cloudflare R2 staging domain for malicious activity
-domain,wps-cn.com,high,2026-09-30T14:13:51+00:00,2026-09-30T14:13:51+00:00,1,Blog.Talosintelligence:2026-09-30,Used to deliver Antino malware samples
-domain,www.wps-cn.com,high,2026-09-30T14:13:51+00:00,2026-09-30T14:13:51+00:00,1,Blog.Talosintelligence:2026-09-30,Listed as a standalone Antino fake-installer delivery domain
-ipv4,103.27.110.220,high,2026-09-30T14:13:51+00:00,2026-09-30T14:13:51+00:00,1,Blog.Talosintelligence:2026-09-30,Listed as a historical serving IP for Antino payload
+domain,pub-0173d1566dcd4fd49fa25f11f14bfe4c.r2.dev,high,2026-09-30T14:13:51+00:00,2026-09-30T14:13:51+00:00,1,Blog.Talosintelligence:2026-09-30,Used as a Cloudflare R2 staging domain by attackers
+domain,wps-cn.com,high,2026-09-30T14:13:51+00:00,2026-09-30T14:13:51+00:00,1,Blog.Talosintelligence:2026-09-30,"Used to deliver Antino builds, indicating attacker control"
+domain,www.wps-cn.com,high,2026-09-30T14:13:51+00:00,2026-09-30T14:13:51+00:00,1,Blog.Talosintelligence:2026-09-30,"Used to deliver Antino builds, indicating attacker control"
+ipv4,103.27.110.220,high,2026-09-30T14:13:51+00:00,2026-09-30T14:13:51+00:00,1,Blog.Talosintelligence:2026-09-30,Historical IP serving Antino payloads
 domain,hf98x4d.site,high,2026-09-30T12:35:09+00:00,2026-09-30T12:35:09+00:00,1,Darktrace:2026-09-30,Linked to information-stealing malware families
 ipv4,138.124.123.87,high,2026-09-30T12:35:09+00:00,2026-09-30T12:35:09+00:00,1,Darktrace:2026-09-30,Listed as part of a malware delivery operation
 ipv4,185.177.239.241,high,2026-09-30T10:41:36+00:00,2026-09-30T10:41:36+00:00,1,Bloglab.360:2026-09-30,Listed as an IP used in attacks
@@ -499,7 +498,7 @@ domain,xcsset.st,high,2026-09-09T08:31:18.137308+00:00,2026-09-09T08:31:18.13730
 domain,5yotmxcc54l9xda.ru,high,2026-09-09T05:43:12+00:00,2026-09-09T05:43:12+00:00,1,Aikido.Dev:2026-09-09,Domain used in a campaign to download malicious payloads
 domain,ejntin6hkjt7gj2.ru,high,2026-09-09T05:43:12+00:00,2026-09-09T05:43:12+00:00,1,Aikido.Dev:2026-09-09,Used in XCSSET malware campaign
 domain,qdgs232i-q.ru,high,2026-09-09T05:43:12+00:00,2026-09-09T05:43:12+00:00,1,Aikido.Dev:2026-09-09,Used as a C2 domain in a malware campaign
-domain,niestools.com,high,2026-09-04T11:00:15+00:00,2026-09-08T16:58:55+00:00,2,Krypt3Ia.Wordpress:2026-09-08|Securityaffairs.Co:2026-09-04,Described as private infrastructure used by attackers
+domain,niestools.com,high,2026-09-08T16:58:55+00:00,2026-09-08T16:58:55+00:00,1,Krypt3Ia.Wordpress:2026-09-08,Described as private infrastructure used by attackers
 ipv4,122.183.48.195,high,2026-09-08T13:32:49.587167+00:00,2026-09-08T13:32:49.587167+00:00,1,www.sysdig.com:2026-09-08,Used by a threat actor in an attack
 ipv4,122.183.48.35,high,2026-09-08T13:32:49.587167+00:00,2026-09-08T13:32:49.587167+00:00,1,www.sysdig.com:2026-09-08,Used by a threat actor in an attack
 ipv4,122.183.48.82,high,2026-09-08T13:32:49.587167+00:00,2026-09-08T13:32:49.587167+00:00,1,www.sysdig.com:2026-09-08,Used by a threat actor in an attack
@@ -552,21 +551,8 @@ ipv4,210.247.242.190,high,2026-09-05T16:52:33+00:00,2026-09-06T07:47:42.172476+0
 domain,247.cdnflare.xyz,high,2026-09-05T20:14:47+00:00,2026-09-05T20:14:47+00:00,1,Thehackernews:2026-09-05,Identified as a malware download host in the article
 ipv4,5.181.86.133,high,2026-09-05T20:14:47+00:00,2026-09-05T20:14:47+00:00,1,Thehackernews:2026-09-05,Listed as an attacker source sending in bulk
 ipv4,88.216.72.181,high,2026-09-05T20:14:47+00:00,2026-09-05T20:14:47+00:00,1,Thehackernews:2026-09-05,Identified as an attacker source
-domain,coder-infra.com,high,2026-09-03T20:42:31+00:00,2026-09-04T22:37:10+00:00,3,Esecurityplanet:2026-09-04|github.com:2026-09-04|Bleepingcomputer:2026-09-03,Identified as an untrusted domain for outbound traffic in the context of potential data loss.
+domain,coder-infra.com,high,2026-09-04T22:37:10+00:00,2026-09-04T22:37:10+00:00,1,Esecurityplanet:2026-09-04,Identified as an untrusted domain for outbound traffic in the context of potential data loss.
 domain,admin.primgs.lol,high,2026-09-04T14:51:13+00:00,2026-09-04T14:51:13+00:00,1,Thehackernews:2026-09-04,Listed as part of APT37 infrastructure
 domain,img.darklights.store,high,2026-09-04T14:51:13+00:00,2026-09-04T14:51:13+00:00,1,Thehackernews:2026-09-04,Listed as an IOC by Rapid7 for a RAT campaign
 domain,img.socialteams.store,high,2026-09-04T14:51:13+00:00,2026-09-04T14:51:13+00:00,1,Thehackernews:2026-09-04,Listed as an IOC by Rapid7 for a RAT campaign
 domain,img.worksongo.store,high,2026-09-04T14:51:13+00:00,2026-09-04T14:51:13+00:00,1,Thehackernews:2026-09-04,Listed as an IOC by Rapid7 for a RAT campaign
-domain,chatgpt.niestools.com,high,2026-09-04T11:17:36.360288+00:00,2026-09-04T11:17:36.360288+00:00,1,hunt.io:2026-09-04,Part of a malicious infrastructure using Sub2API AI gateway.
-domain,claude.niestools.com,high,2026-09-04T11:17:36.360288+00:00,2026-09-04T11:17:36.360288+00:00,1,hunt.io:2026-09-04,Part of a malicious infrastructure using Sub2API AI gateway.
-domain,deepseek.niestools.com,high,2026-09-04T11:17:36.360288+00:00,2026-09-04T11:17:36.360288+00:00,1,hunt.io:2026-09-04,Part of malicious infrastructure
-ipv4,75.3.231.105,high,2026-09-03T23:53:06+00:00,2026-09-03T23:53:06+00:00,1,Aws.Amazon:2026-09-03,Listed as the source IP for a threat actor's AWS Management Console login.
-domain,datalayerservice.com,high,2026-09-03T11:31:50.519345+00:00,2026-09-03T11:31:50.519345+00:00,1,www.security.com:2026-09-03,Listed under C&C infrastructure in the article
-domain,docs.datalayerservice.com,high,2026-09-03T11:31:50.519345+00:00,2026-09-03T11:31:50.519345+00:00,1,www.security.com:2026-09-03,Listed under C&C infrastructure in the article
-domain,resources.datalayerservice.com,high,2026-09-03T11:31:50.519345+00:00,2026-09-03T11:31:50.519345+00:00,1,www.security.com:2026-09-03,Listed under C&C infrastructure in the article
-ipv4,144.31.53.78,high,2026-09-03T11:31:50.519345+00:00,2026-09-03T11:31:50.519345+00:00,1,www.security.com:2026-09-03,Listed as a network indicator in the article
-ipv4,178.16.54.253,high,2026-09-03T11:31:50.519345+00:00,2026-09-03T11:31:50.519345+00:00,1,www.security.com:2026-09-03,Listed as a network indicator in the article
-ipv4,193.58.122.42,high,2026-09-03T11:31:50.519345+00:00,2026-09-03T11:31:50.519345+00:00,1,www.security.com:2026-09-03,Listed as a network indicator in the article
-ipv4,198.13.159.44,high,2026-09-03T11:31:50.519345+00:00,2026-09-03T11:31:50.519345+00:00,1,www.security.com:2026-09-03,Listed as a network indicator in the article
-ipv4,199.91.221.42,high,2026-09-03T11:31:50.519345+00:00,2026-09-03T11:31:50.519345+00:00,1,www.security.com:2026-09-03,Listed as a network indicator in the article
-ipv4,45.158.196.23,high,2026-09-03T11:31:50.519345+00:00,2026-09-03T11:31:50.519345+00:00,1,www.security.com:2026-09-03,Listed as a network indicator in the article

@@ -1,4 +1,6 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason
+domain,agent2.sh,high,2026-10-04T07:38:29.077520+00:00,2026-10-04T07:38:29.077520+00:00,1,www.microsoft.com:2026-10-04,Described as part of a multi-stage payload chain used by attackers
+domain,bypass.eu.org,high,2026-10-04T07:38:29.077520+00:00,2026-10-04T07:38:29.077520+00:00,1,www.microsoft.com:2026-10-04,Described as campaign-associated infrastructure used by attackers
 domain,account.drive-google-com.tk,high,2026-10-02T16:30:51.440394+00:00,2026-10-02T16:30:51.440394+00:00,1,www.proofpoint.com:2026-10-02,Listed as previously reported UNK_SweetSpecter domain used for C2 communications
 domain,account.gommask.online,high,2026-10-02T16:30:51.440394+00:00,2026-10-02T16:30:51.440394+00:00,1,www.proofpoint.com:2026-10-02,Identified as a new C2 domain for UNK_SweetSpecter
 domain,lowtpills.com,high,2026-10-02T16:27:54+00:00,2026-10-02T16:27:54+00:00,1,Darkreading:2026-10-02,Used in a vulnerability exploitation scenario
@@ -13,8 +15,8 @@ domain,primevideoamazon.com,high,2026-10-01T22:23:34+00:00,2026-10-01T22:23:34+0
 domain,videoamazonprime.com,high,2026-10-01T22:23:34+00:00,2026-10-01T22:23:34+00:00,1,Blog.Checkpoint:2026-10-01,Listed as a malicious domain targeting the Amazon Prime brand
 domain,fonts.chrorne.com,high,2026-10-01T19:31:07.432240+00:00,2026-10-01T19:31:07.432240+00:00,1,www.security.com:2026-10-01,Listed among domains related to Antino-related samples
 domain,fonts.tarotfree101.top,high,2026-10-01T19:31:07.432240+00:00,2026-10-01T19:31:07.432240+00:00,1,www.security.com:2026-10-01,Listed among domains related to Antino-related samples
-domain,microsoft-flash.com,high,2026-10-01T19:31:07.432240+00:00,2026-10-01T19:31:07.432240+00:00,1,www.security.com:2026-10-01,Listed among domains related to Antino-related samples
-domain,pub-abfa7742e315485a98a5fafd6dbfb68e.r2.dev,high,2026-10-01T19:31:07.432240+00:00,2026-10-01T19:31:07.432240+00:00,1,www.security.com:2026-10-01,Listed among domains related to Antino-related samples
+domain,microsoft-flash.com,high,2026-09-30T14:13:51+00:00,2026-10-01T19:31:07.432240+00:00,2,www.security.com:2026-10-01|Blog.Talosintelligence:2026-09-30,Listed among domains related to Antino-related samples
+domain,pub-abfa7742e315485a98a5fafd6dbfb68e.r2.dev,high,2026-09-30T14:13:51+00:00,2026-10-01T19:31:07.432240+00:00,2,www.security.com:2026-10-01|Blog.Talosintelligence:2026-09-30,Listed among domains related to Antino-related samples
 domain,robot.avbliud.com,high,2026-10-01T19:31:07.432240+00:00,2026-10-01T19:31:07.432240+00:00,1,www.security.com:2026-10-01,Listed among domains related to Antino-related samples
 domain,www.f1ash.org.cn,high,2026-10-01T19:31:07.432240+00:00,2026-10-01T19:31:07.432240+00:00,1,www.security.com:2026-10-01,Listed among domains related to Antino-related samples
 domain,sitemufl06qs0r4o.xyz,high,2026-10-01T17:40:23+00:00,2026-10-01T17:40:23+00:00,1,Malwarebytes:2026-10-01,Listed in an IOC table as part of phishing and scam infrastructure
@@ -93,8 +95,6 @@ domain,5jkl8ae8ph.ucarecd.net,high,2026-10-01T17:06:20+00:00,2026-10-01T17:06:20
 domain,altra-chaussure.fr,high,2026-10-01T17:06:20+00:00,2026-10-01T17:06:20+00:00,1,Cyfirma:2026-10-01,Listed in a threat intelligence IOC detection rule.
 domain,altra-paris.fr,high,2026-10-01T17:06:20+00:00,2026-10-01T17:06:20+00:00,1,Cyfirma:2026-10-01,Listed in a threat intelligence IOC detection rule.
 domain,wss.scriptlab.cc,high,2026-10-01T17:06:20+00:00,2026-10-01T17:06:20+00:00,1,Cyfirma:2026-10-01,Used in a malware configuration as a C2 endpoint
-domain,agent2.sh,high,2026-10-01T15:38:06.116230+00:00,2026-10-01T15:38:06.116230+00:00,1,www.microsoft.com:2026-10-01,Described as part of a multi-stage payload chain used by attackers
-domain,bypass.eu.org,high,2026-10-01T15:38:06.116230+00:00,2026-10-01T15:38:06.116230+00:00,1,www.microsoft.com:2026-10-01,Described as campaign-associated infrastructure used by attackers
 domain,chestergreenfarming.com,high,2026-10-01T10:31:57+00:00,2026-10-01T10:31:57+00:00,1,X:2026-10-01,Identified as a C2 for a RAT delivered in a campaign.
 domain,gomescareerplans.com,high,2026-10-01T10:31:57+00:00,2026-10-01T10:31:57+00:00,1,X:2026-10-01,Used as a C2 register in a malware campaign.
 domain,fileswiftonline.cloud,high,2026-10-01T09:00:00+00:00,2026-10-01T09:00:00+00:00,1,Proofpoint:2026-10-01,Used as a second-stage AitM phishing domain
@@ -111,10 +111,9 @@ domain,claulastver.squarespace.com,high,2026-09-30T17:00:25.403246+00:00,2026-09
 domain,notebooklm-version-upd.squarespace.com,high,2026-09-30T17:00:25.403246+00:00,2026-09-30T17:00:25.403246+00:00,1,pushsecurity.com:2026-09-30,Listed as part of the attacker's phishing infrastructure
 domain,driverupdate.sbs,high,2026-09-30T15:44:45+00:00,2026-09-30T15:44:45+00:00,1,Hackread:2026-09-30,Used to deliver a malicious ISO file in a phishing attack
 domain,globalsupportupdate.top,high,2026-09-30T15:44:45+00:00,2026-09-30T15:44:45+00:00,1,Hackread:2026-09-30,Used to retrieve a ransomware encryptor
-domain,page.dev,high,2026-09-30T14:13:51+00:00,2026-09-30T14:13:51+00:00,1,Blog.Talosintelligence:2026-09-30,Used in a spear-phishing campaign to deliver malicious files
-domain,pub-0173d1566dcd4fd49fa25f11f14bfe4c.r2.dev,high,2026-09-30T14:13:51+00:00,2026-09-30T14:13:51+00:00,1,Blog.Talosintelligence:2026-09-30,Used as a Cloudflare R2 staging domain for malicious activity
-domain,wps-cn.com,high,2026-09-30T14:13:51+00:00,2026-09-30T14:13:51+00:00,1,Blog.Talosintelligence:2026-09-30,Used to deliver Antino malware samples
-domain,www.wps-cn.com,high,2026-09-30T14:13:51+00:00,2026-09-30T14:13:51+00:00,1,Blog.Talosintelligence:2026-09-30,Listed as a standalone Antino fake-installer delivery domain
+domain,pub-0173d1566dcd4fd49fa25f11f14bfe4c.r2.dev,high,2026-09-30T14:13:51+00:00,2026-09-30T14:13:51+00:00,1,Blog.Talosintelligence:2026-09-30,Used as a Cloudflare R2 staging domain by attackers
+domain,wps-cn.com,high,2026-09-30T14:13:51+00:00,2026-09-30T14:13:51+00:00,1,Blog.Talosintelligence:2026-09-30,"Used to deliver Antino builds, indicating attacker control"
+domain,www.wps-cn.com,high,2026-09-30T14:13:51+00:00,2026-09-30T14:13:51+00:00,1,Blog.Talosintelligence:2026-09-30,"Used to deliver Antino builds, indicating attacker control"
 domain,hf98x4d.site,high,2026-09-30T12:35:09+00:00,2026-09-30T12:35:09+00:00,1,Darktrace:2026-09-30,Linked to information-stealing malware families
 domain,api.imghippo.com,high,2026-09-30T00:00:00+00:00,2026-09-30T00:00:00+00:00,1,Cloudsek:2026-09-30,Shared payload URL associated with the MALFEX campaign
 domain,docupdatedd.org,high,2026-09-29T22:37:04+00:00,2026-09-29T22:37:04+00:00,1,Brethren:2026-09-29,Used in phishing emails impersonating a religious organization
@@ -413,7 +412,7 @@ domain,xcsset.st,high,2026-09-09T08:31:18.137308+00:00,2026-09-09T08:31:18.13730
 domain,5yotmxcc54l9xda.ru,high,2026-09-09T05:43:12+00:00,2026-09-09T05:43:12+00:00,1,Aikido.Dev:2026-09-09,Domain used in a campaign to download malicious payloads
 domain,ejntin6hkjt7gj2.ru,high,2026-09-09T05:43:12+00:00,2026-09-09T05:43:12+00:00,1,Aikido.Dev:2026-09-09,Used in XCSSET malware campaign
 domain,qdgs232i-q.ru,high,2026-09-09T05:43:12+00:00,2026-09-09T05:43:12+00:00,1,Aikido.Dev:2026-09-09,Used as a C2 domain in a malware campaign
-domain,niestools.com,high,2026-09-04T11:00:15+00:00,2026-09-08T16:58:55+00:00,2,Krypt3Ia.Wordpress:2026-09-08|Securityaffairs.Co:2026-09-04,Described as private infrastructure used by attackers
+domain,niestools.com,high,2026-09-08T16:58:55+00:00,2026-09-08T16:58:55+00:00,1,Krypt3Ia.Wordpress:2026-09-08,Described as private infrastructure used by attackers
 domain,9i6pokerdepot.com,high,2026-09-08T13:01:18.371466+00:00,2026-09-08T13:01:18.371466+00:00,1,www.microsoft.com:2026-09-08,Used as a sending domain in a phishing campaign
 domain,hagaseca.com,high,2026-09-08T11:18:18.463595+00:00,2026-09-08T11:18:18.463595+00:00,1,darkatlas.io:2026-09-08,Dedicated domain used by THost9 as attacker infrastructure
 domain,pleasedonthackmyserver.com,high,2026-09-08T11:18:18.463595+00:00,2026-09-08T11:18:18.463595+00:00,1,darkatlas.io:2026-09-08,Subdomain used by THost4 as part of attacker infrastructure
@@ -451,14 +450,8 @@ domain,health.journal-metric.lol,high,2026-09-06T08:34:20+00:00,2026-09-06T08:34
 domain,metric.gardenpark.click,high,2026-09-06T08:34:20+00:00,2026-09-06T08:34:20+00:00,1,Thehackernews:2026-09-06,Listed as a C2 server for SoftManager malware
 domain,monitor5.roast-core85.click,high,2026-09-06T08:34:20+00:00,2026-09-06T08:34:20+00:00,1,Thehackernews:2026-09-06,Listed as a C2 server for REVSTEALER malware
 domain,247.cdnflare.xyz,high,2026-09-05T20:14:47+00:00,2026-09-05T20:14:47+00:00,1,Thehackernews:2026-09-05,Identified as a malware download host in the article
-domain,coder-infra.com,high,2026-09-03T20:42:31+00:00,2026-09-04T22:37:10+00:00,3,Esecurityplanet:2026-09-04|github.com:2026-09-04|Bleepingcomputer:2026-09-03,Identified as an untrusted domain for outbound traffic in the context of potential data loss.
+domain,coder-infra.com,high,2026-09-04T22:37:10+00:00,2026-09-04T22:37:10+00:00,1,Esecurityplanet:2026-09-04,Identified as an untrusted domain for outbound traffic in the context of potential data loss.
 domain,admin.primgs.lol,high,2026-09-04T14:51:13+00:00,2026-09-04T14:51:13+00:00,1,Thehackernews:2026-09-04,Listed as part of APT37 infrastructure
 domain,img.darklights.store,high,2026-09-04T14:51:13+00:00,2026-09-04T14:51:13+00:00,1,Thehackernews:2026-09-04,Listed as an IOC by Rapid7 for a RAT campaign
 domain,img.socialteams.store,high,2026-09-04T14:51:13+00:00,2026-09-04T14:51:13+00:00,1,Thehackernews:2026-09-04,Listed as an IOC by Rapid7 for a RAT campaign
 domain,img.worksongo.store,high,2026-09-04T14:51:13+00:00,2026-09-04T14:51:13+00:00,1,Thehackernews:2026-09-04,Listed as an IOC by Rapid7 for a RAT campaign
-domain,chatgpt.niestools.com,high,2026-09-04T11:17:36.360288+00:00,2026-09-04T11:17:36.360288+00:00,1,hunt.io:2026-09-04,Part of a malicious infrastructure using Sub2API AI gateway.
-domain,claude.niestools.com,high,2026-09-04T11:17:36.360288+00:00,2026-09-04T11:17:36.360288+00:00,1,hunt.io:2026-09-04,Part of a malicious infrastructure using Sub2API AI gateway.
-domain,deepseek.niestools.com,high,2026-09-04T11:17:36.360288+00:00,2026-09-04T11:17:36.360288+00:00,1,hunt.io:2026-09-04,Part of malicious infrastructure
-domain,datalayerservice.com,high,2026-09-03T11:31:50.519345+00:00,2026-09-03T11:31:50.519345+00:00,1,www.security.com:2026-09-03,Listed under C&C infrastructure in the article
-domain,docs.datalayerservice.com,high,2026-09-03T11:31:50.519345+00:00,2026-09-03T11:31:50.519345+00:00,1,www.security.com:2026-09-03,Listed under C&C infrastructure in the article
-domain,resources.datalayerservice.com,high,2026-09-03T11:31:50.519345+00:00,2026-09-03T11:31:50.519345+00:00,1,www.security.com:2026-09-03,Listed under C&C infrastructure in the article
