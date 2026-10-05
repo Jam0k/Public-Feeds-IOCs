@@ -1,4 +1,8 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason
+ipv4,195.64.128.106,high,2026-10-05T02:54:00+00:00,2026-10-05T02:54:00+00:00,1,,Listed as C2 traffic for CNCmachineRMS RAT
+ipv4,213.209.159.55,high,2026-10-04T22:10:13+00:00,2026-10-04T22:10:13+00:00,1,,IP address used to download a payload in an attack sequence
+ipv4,103.101.85.123,high,2026-09-27T09:02:32.908946+00:00,2026-10-04T15:32:08.324786+00:00,1,,IP address hosts a panel resolving to phishing domains
+ipv4,193.178.158.61,high,2026-09-25T17:12:02.656577+00:00,2026-10-04T15:32:08.324786+00:00,1,,IP address hosts a panel on the same network as the exfiltration server
 ipv4,103.148.245.235,high,2026-10-01T17:40:37.656673+00:00,2026-10-02T16:30:51.440394+00:00,1,,Shared hosting with UNK_SweetSpecter C2 domains
 ipv4,43.242.203.115,high,2026-10-01T17:40:37.656673+00:00,2026-10-02T16:30:51.440394+00:00,1,,Hosting the new C2 domain for UNK_SweetSpecter
 ipv4,79.141.169.187,high,2026-10-01T22:42:49+00:00,2026-10-02T10:12:19+00:00,4,,Identified as an external server used by attackers for data exfiltration
@@ -26,8 +30,6 @@ ipv4,2.56.10.86,high,2026-09-28T05:19:24+00:00,2026-09-28T05:19:24+00:00,1,,List
 ipv4,46.30.188.13,high,2026-08-13T12:20:26+00:00,2026-09-28T05:19:24+00:00,2,,Listed in an IOC section likely indicating attacker-controlled infrastructure
 ipv4,206.82.6.22,high,2026-09-27T15:00:00+00:00,2026-09-27T15:00:00+00:00,1,,Used for reverse shell connections
 ipv4,65.98.5.158,high,2026-09-27T15:00:00+00:00,2026-09-27T15:00:00+00:00,1,,Hosts a list of targets for a WordPress scanner
-ipv4,103.101.85.123,high,2026-09-27T09:02:32.908946+00:00,2026-09-27T09:02:32.908946+00:00,1,,IP address hosts a panel resolving to phishing domains
-ipv4,193.178.158.61,high,2026-09-25T17:12:02.656577+00:00,2026-09-27T09:02:32.908946+00:00,1,,IP address hosts a panel on the same network as the exfiltration server
 ipv4,104.219.234.138,high,2026-09-26T12:01:02.128049+00:00,2026-09-26T12:01:02.128049+00:00,1,,Used for secondary staging and management by threat actor
 ipv4,46.8.9.223,high,2026-09-25T11:06:36.553165+00:00,2026-09-25T11:06:36.553165+00:00,1,,Part of a coordinated domain cluster with DGA-style domains
 ipv4,194.87.89.30,high,2026-09-24T13:03:24+00:00,2026-09-24T13:03:24+00:00,1,,Used to download AnyDesk RMM by threat actor

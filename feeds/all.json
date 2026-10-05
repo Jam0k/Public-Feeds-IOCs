@@ -1,7 +1,7 @@
 {
   "feed": "threatcluster-public-iocs",
   "version": 1,
-  "generated_at": "2026-10-04T12:19:20Z",
+  "generated_at": "2026-10-05T14:33:53Z",
   "filters": {
     "confidence": "high",
     "window_days": 30,
@@ -11,21 +11,21 @@
       "domain"
     ]
   },
-  "count": 557,
+  "count": 554,
   "iocs": [
     {
       "type": "domain",
       "value": "agent2.sh",
       "confidence": "high",
       "reason": "Described as part of a multi-stage payload chain used by attackers",
-      "first_seen": "2026-10-04T07:38:29.077520+00:00",
-      "last_seen": "2026-10-04T07:38:29.077520+00:00",
+      "first_seen": "2026-10-05T10:30:37.105742+00:00",
+      "last_seen": "2026-10-05T10:30:37.105742+00:00",
       "source_count": 1,
       "sources": [
         {
           "source": "www.microsoft.com",
           "url": "https://www.microsoft.com/en-us/security/blog/2026/09/30/unauthenticated-command-injection-on-internet-facing-mail-servers-tracking-cve-2026-73570/",
-          "pub_date": "2026-10-04T07:38:29.07752+00:00"
+          "pub_date": "2026-10-05T10:30:37.105742+00:00"
         }
       ],
       "tags": []
@@ -35,17 +35,229 @@
       "value": "bypass.eu.org",
       "confidence": "high",
       "reason": "Described as campaign-associated infrastructure used by attackers",
-      "first_seen": "2026-10-04T07:38:29.077520+00:00",
-      "last_seen": "2026-10-04T07:38:29.077520+00:00",
+      "first_seen": "2026-10-05T10:30:37.105742+00:00",
+      "last_seen": "2026-10-05T10:30:37.105742+00:00",
       "source_count": 1,
       "sources": [
         {
           "source": "www.microsoft.com",
           "url": "https://www.microsoft.com/en-us/security/blog/2026/09/30/unauthenticated-command-injection-on-internet-facing-mail-servers-tracking-cve-2026-73570/",
-          "pub_date": "2026-10-04T07:38:29.07752+00:00"
+          "pub_date": "2026-10-05T10:30:37.105742+00:00"
         }
       ],
       "tags": []
+    },
+    {
+      "type": "ipv4",
+      "value": "195.64.128.106",
+      "confidence": "high",
+      "reason": "Listed as C2 traffic for CNCmachineRMS RAT",
+      "first_seen": "2026-10-05T02:54:00+00:00",
+      "last_seen": "2026-10-05T02:54:00+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Malware-Traffic-Analysis",
+          "url": "https://www.malware-traffic-analysis.net/2026/10/01/index.html",
+          "pub_date": "2026-10-05T02:54:00+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "ipv4",
+      "value": "213.209.159.55",
+      "confidence": "high",
+      "reason": "IP address used to download a payload in an attack sequence",
+      "first_seen": "2026-10-04T22:10:13+00:00",
+      "last_seen": "2026-10-04T22:10:13+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Bleepingcomputer",
+          "url": "https://www.bleepingcomputer.com/news/security/citrix-patches-netscaler-saml-zero-day-exploited-in-attacks/",
+          "pub_date": "2026-10-04T22:10:13+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2025-6543"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-88779"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "account-sams-club.com",
+      "confidence": "high",
+      "reason": "Domain resolves to a phishing site used for brand impersonation",
+      "first_seen": "2026-09-27T07:30:52+00:00",
+      "last_seen": "2026-10-04T15:32:08.324786+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "www.ontinue.com",
+          "url": "https://www.ontinue.com/resource/lunex-unmasked-a-new-information-stealer-deployed-through-byovd/",
+          "pub_date": "2026-10-04T15:32:08.324786+00:00"
+        },
+        {
+          "source": "Thehackernews",
+          "url": "https://thehackernews.com/2026/09/lunex-stealer-abuses-amd-driver-to.html",
+          "pub_date": "2026-09-27T07:30:52+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2023-20598"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "ibraq-perfumes.com",
+      "confidence": "high",
+      "reason": "Domain resolves to a phishing site used for brand impersonation",
+      "first_seen": "2026-10-04T15:32:08.324786+00:00",
+      "last_seen": "2026-10-04T15:32:08.324786+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.ontinue.com",
+          "url": "https://www.ontinue.com/resource/lunex-unmasked-a-new-information-stealer-deployed-through-byovd/",
+          "pub_date": "2026-10-04T15:32:08.324786+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2023-20598"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "namshi-uae.com",
+      "confidence": "high",
+      "reason": "Domain resolves to a phishing site used for brand impersonation",
+      "first_seen": "2026-10-04T15:32:08.324786+00:00",
+      "last_seen": "2026-10-04T15:32:08.324786+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.ontinue.com",
+          "url": "https://www.ontinue.com/resource/lunex-unmasked-a-new-information-stealer-deployed-through-byovd/",
+          "pub_date": "2026-10-04T15:32:08.324786+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2023-20598"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "teamwork-recover-password.com",
+      "confidence": "high",
+      "reason": "Domain resolves to a phishing site used for brand impersonation",
+      "first_seen": "2026-09-27T07:30:52+00:00",
+      "last_seen": "2026-10-04T15:32:08.324786+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "www.ontinue.com",
+          "url": "https://www.ontinue.com/resource/lunex-unmasked-a-new-information-stealer-deployed-through-byovd/",
+          "pub_date": "2026-10-04T15:32:08.324786+00:00"
+        },
+        {
+          "source": "Thehackernews",
+          "url": "https://thehackernews.com/2026/09/lunex-stealer-abuses-amd-driver-to.html",
+          "pub_date": "2026-09-27T07:30:52+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2023-20598"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "whatsappbusineses.com",
+      "confidence": "high",
+      "reason": "Domain resolves to a phishing site used for brand impersonation",
+      "first_seen": "2026-09-27T07:30:52+00:00",
+      "last_seen": "2026-10-04T15:32:08.324786+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "www.ontinue.com",
+          "url": "https://www.ontinue.com/resource/lunex-unmasked-a-new-information-stealer-deployed-through-byovd/",
+          "pub_date": "2026-10-04T15:32:08.324786+00:00"
+        },
+        {
+          "source": "Thehackernews",
+          "url": "https://thehackernews.com/2026/09/lunex-stealer-abuses-amd-driver-to.html",
+          "pub_date": "2026-09-27T07:30:52+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2023-20598"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "103.101.85.123",
+      "confidence": "high",
+      "reason": "IP address hosts a panel resolving to phishing domains",
+      "first_seen": "2026-10-04T15:32:08.324786+00:00",
+      "last_seen": "2026-10-04T15:32:08.324786+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.ontinue.com",
+          "url": "https://www.ontinue.com/resource/lunex-unmasked-a-new-information-stealer-deployed-through-byovd/",
+          "pub_date": "2026-10-04T15:32:08.324786+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2023-20598"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "193.178.158.61",
+      "confidence": "high",
+      "reason": "IP address hosts a panel on the same network as the exfiltration server",
+      "first_seen": "2026-10-04T15:32:08.324786+00:00",
+      "last_seen": "2026-10-04T15:32:08.324786+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.ontinue.com",
+          "url": "https://www.ontinue.com/resource/lunex-unmasked-a-new-information-stealer-deployed-through-byovd/",
+          "pub_date": "2026-10-04T15:32:08.324786+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2023-20598"
+        }
+      ]
     },
     {
       "type": "domain",
@@ -3748,175 +3960,6 @@
         }
       ],
       "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "account-sams-club.com",
-      "confidence": "high",
-      "reason": "Domain resolves to a phishing site used for brand impersonation",
-      "first_seen": "2026-09-27T07:30:52+00:00",
-      "last_seen": "2026-09-27T09:02:32.908946+00:00",
-      "source_count": 2,
-      "sources": [
-        {
-          "source": "www.ontinue.com",
-          "url": "https://www.ontinue.com/resource/lunex-unmasked-a-new-information-stealer-deployed-through-byovd/",
-          "pub_date": "2026-09-27T09:02:32.908946+00:00"
-        },
-        {
-          "source": "Thehackernews",
-          "url": "https://thehackernews.com/2026/09/lunex-stealer-abuses-amd-driver-to.html",
-          "pub_date": "2026-09-27T07:30:52+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "cve",
-          "value": "CVE-2023-20598"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "ibraq-perfumes.com",
-      "confidence": "high",
-      "reason": "Domain resolves to a phishing site used for brand impersonation",
-      "first_seen": "2026-09-27T09:02:32.908946+00:00",
-      "last_seen": "2026-09-27T09:02:32.908946+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.ontinue.com",
-          "url": "https://www.ontinue.com/resource/lunex-unmasked-a-new-information-stealer-deployed-through-byovd/",
-          "pub_date": "2026-09-27T09:02:32.908946+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "cve",
-          "value": "CVE-2023-20598"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "namshi-uae.com",
-      "confidence": "high",
-      "reason": "Domain resolves to a phishing site used for brand impersonation",
-      "first_seen": "2026-09-27T09:02:32.908946+00:00",
-      "last_seen": "2026-09-27T09:02:32.908946+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.ontinue.com",
-          "url": "https://www.ontinue.com/resource/lunex-unmasked-a-new-information-stealer-deployed-through-byovd/",
-          "pub_date": "2026-09-27T09:02:32.908946+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "cve",
-          "value": "CVE-2023-20598"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "teamwork-recover-password.com",
-      "confidence": "high",
-      "reason": "Domain resolves to a phishing site used for brand impersonation",
-      "first_seen": "2026-09-27T07:30:52+00:00",
-      "last_seen": "2026-09-27T09:02:32.908946+00:00",
-      "source_count": 2,
-      "sources": [
-        {
-          "source": "www.ontinue.com",
-          "url": "https://www.ontinue.com/resource/lunex-unmasked-a-new-information-stealer-deployed-through-byovd/",
-          "pub_date": "2026-09-27T09:02:32.908946+00:00"
-        },
-        {
-          "source": "Thehackernews",
-          "url": "https://thehackernews.com/2026/09/lunex-stealer-abuses-amd-driver-to.html",
-          "pub_date": "2026-09-27T07:30:52+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "cve",
-          "value": "CVE-2023-20598"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "whatsappbusineses.com",
-      "confidence": "high",
-      "reason": "Domain resolves to a phishing site used for brand impersonation",
-      "first_seen": "2026-09-27T07:30:52+00:00",
-      "last_seen": "2026-09-27T09:02:32.908946+00:00",
-      "source_count": 2,
-      "sources": [
-        {
-          "source": "www.ontinue.com",
-          "url": "https://www.ontinue.com/resource/lunex-unmasked-a-new-information-stealer-deployed-through-byovd/",
-          "pub_date": "2026-09-27T09:02:32.908946+00:00"
-        },
-        {
-          "source": "Thehackernews",
-          "url": "https://thehackernews.com/2026/09/lunex-stealer-abuses-amd-driver-to.html",
-          "pub_date": "2026-09-27T07:30:52+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "cve",
-          "value": "CVE-2023-20598"
-        }
-      ]
-    },
-    {
-      "type": "ipv4",
-      "value": "103.101.85.123",
-      "confidence": "high",
-      "reason": "IP address hosts a panel resolving to phishing domains",
-      "first_seen": "2026-09-27T09:02:32.908946+00:00",
-      "last_seen": "2026-09-27T09:02:32.908946+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.ontinue.com",
-          "url": "https://www.ontinue.com/resource/lunex-unmasked-a-new-information-stealer-deployed-through-byovd/",
-          "pub_date": "2026-09-27T09:02:32.908946+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "cve",
-          "value": "CVE-2023-20598"
-        }
-      ]
-    },
-    {
-      "type": "ipv4",
-      "value": "193.178.158.61",
-      "confidence": "high",
-      "reason": "IP address hosts a panel on the same network as the exfiltration server",
-      "first_seen": "2026-09-27T09:02:32.908946+00:00",
-      "last_seen": "2026-09-27T09:02:32.908946+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.ontinue.com",
-          "url": "https://www.ontinue.com/resource/lunex-unmasked-a-new-information-stealer-deployed-through-byovd/",
-          "pub_date": "2026-09-27T09:02:32.908946+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "cve",
-          "value": "CVE-2023-20598"
-        }
-      ]
     },
     {
       "type": "domain",
@@ -8653,9 +8696,9 @@
       "value": "img.monderhouse.space",
       "confidence": "high",
       "reason": "Described as a C2 host in the context",
-      "first_seen": "2026-09-04T14:51:13+00:00",
+      "first_seen": "2026-09-08T16:58:55+00:00",
       "last_seen": "2026-09-16T02:04:55.793732+00:00",
-      "source_count": 3,
+      "source_count": 2,
       "sources": [
         {
           "source": "www.rapid7.com",
@@ -8666,11 +8709,6 @@
           "source": "Krypt3Ia.Wordpress",
           "url": "https://krypt3ia.wordpress.com/2026/09/08/weekly-all-source-cyber-warfare-intelligence-brief-september-8-2026/",
           "pub_date": "2026-09-08T16:58:55+00:00"
-        },
-        {
-          "source": "Thehackernews",
-          "url": "https://thehackernews.com/2026/09/new-ted-backdoor-hides-inside-victims.html",
-          "pub_date": "2026-09-04T14:51:13+00:00"
         }
       ],
       "tags": [
@@ -8687,8 +8725,8 @@
           "value": "Kimsuky"
         },
         {
-          "type": "industry",
-          "value": "Financial"
+          "type": "apt_group",
+          "value": "Mirage Kitten"
         }
       ]
     },
@@ -12199,164 +12237,6 @@
         }
       ],
       "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "coder-infra.com",
-      "confidence": "high",
-      "reason": "Identified as an untrusted domain for outbound traffic in the context of potential data loss.",
-      "first_seen": "2026-09-04T22:37:10+00:00",
-      "last_seen": "2026-09-04T22:37:10+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Esecurityplanet",
-          "url": "https://www.esecurityplanet.com/cybersecurity/news-coder-registry-malicious-terraform-modules/",
-          "pub_date": "2026-09-04T22:37:10+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Shai-Hulud Npm Supply Chain Attack"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "admin.primgs.lol",
-      "confidence": "high",
-      "reason": "Listed as part of APT37 infrastructure",
-      "first_seen": "2026-09-04T14:51:13+00:00",
-      "last_seen": "2026-09-04T14:51:13+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Thehackernews",
-          "url": "https://thehackernews.com/2026/09/new-ted-backdoor-hides-inside-victims.html",
-          "pub_date": "2026-09-04T14:51:13+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "APT37"
-        },
-        {
-          "type": "apt_group",
-          "value": "Kimsuky"
-        },
-        {
-          "type": "apt_group",
-          "value": "Lazarus"
-        },
-        {
-          "type": "campaign",
-          "value": "Operation SyncHole"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "img.darklights.store",
-      "confidence": "high",
-      "reason": "Listed as an IOC by Rapid7 for a RAT campaign",
-      "first_seen": "2026-09-04T14:51:13+00:00",
-      "last_seen": "2026-09-04T14:51:13+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Thehackernews",
-          "url": "https://thehackernews.com/2026/09/new-ted-backdoor-hides-inside-victims.html",
-          "pub_date": "2026-09-04T14:51:13+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "APT37"
-        },
-        {
-          "type": "apt_group",
-          "value": "Kimsuky"
-        },
-        {
-          "type": "apt_group",
-          "value": "Lazarus"
-        },
-        {
-          "type": "campaign",
-          "value": "Operation SyncHole"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "img.socialteams.store",
-      "confidence": "high",
-      "reason": "Listed as an IOC by Rapid7 for a RAT campaign",
-      "first_seen": "2026-09-04T14:51:13+00:00",
-      "last_seen": "2026-09-04T14:51:13+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Thehackernews",
-          "url": "https://thehackernews.com/2026/09/new-ted-backdoor-hides-inside-victims.html",
-          "pub_date": "2026-09-04T14:51:13+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "APT37"
-        },
-        {
-          "type": "apt_group",
-          "value": "Kimsuky"
-        },
-        {
-          "type": "apt_group",
-          "value": "Lazarus"
-        },
-        {
-          "type": "campaign",
-          "value": "Operation SyncHole"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "img.worksongo.store",
-      "confidence": "high",
-      "reason": "Listed as an IOC by Rapid7 for a RAT campaign",
-      "first_seen": "2026-09-04T14:51:13+00:00",
-      "last_seen": "2026-09-04T14:51:13+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Thehackernews",
-          "url": "https://thehackernews.com/2026/09/new-ted-backdoor-hides-inside-victims.html",
-          "pub_date": "2026-09-04T14:51:13+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "APT37"
-        },
-        {
-          "type": "apt_group",
-          "value": "Kimsuky"
-        },
-        {
-          "type": "apt_group",
-          "value": "Lazarus"
-        },
-        {
-          "type": "campaign",
-          "value": "Operation SyncHole"
-        }
-      ]
     }
   ],
   "license": "CC-BY 4.0 \u2014 attribute ThreatCluster (https://threatcluster.io)",
