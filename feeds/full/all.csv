@@ -1,8 +1,47 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason
+ipv4,118.145.196.225,high,2026-10-05T16:30:57.752378+00:00,2026-10-06T10:32:19.218199+00:00,1,,Listed as a download source for malware by the attacker
+ipv4,124.163.212.119,high,2026-10-05T16:30:57.752378+00:00,2026-10-06T10:32:19.218199+00:00,1,,Listed as a download source for malware by the attacker
+ipv4,222.223.152.97,high,2026-10-05T16:30:57.752378+00:00,2026-10-06T10:32:19.218199+00:00,1,,Listed as a download source for malware by the attacker
+sha256,5c4e263546fb21f8fe8732789a5b6583eaa8ae11ebeef099462a7c9bf50e022d,high,2026-10-05T16:30:57.752378+00:00,2026-10-06T10:32:19.218199+00:00,1,,SHA256 hash listed among malware samples
+sha256,dfba6008a2c828a9cb62342aec53006ae05a60cb8d4c41c3fa216fd727e8c6a3,high,2026-10-05T16:30:57.752378+00:00,2026-10-06T10:32:19.218199+00:00,1,,SHA256 hash listed among malware samples
+ipv4,118.45.196.225,high,2026-10-05T13:30:43.355486+00:00,2026-10-06T08:37:33.517997+00:00,1,,Listed as a loader host for malware
+ipv4,120.193.219.210,high,2026-10-05T13:30:43.355486+00:00,2026-10-06T08:37:33.517997+00:00,1,,Listed as a loader host for malware
+ipv4,145.249.115.184,high,2026-10-05T11:50:39+00:00,2026-10-06T08:37:33.517997+00:00,4,,Identified as a STUN server controlled by the botnet operator
+ipv4,58.211.144.243,high,2026-10-05T13:30:43.355486+00:00,2026-10-06T08:37:33.517997+00:00,1,,Listed as a loader host for malware
+sha1,08636d09d9ffd1713bd6bcb965ad40b6ce3de1aa,high,2026-10-05T13:30:43.355486+00:00,2026-10-06T08:37:33.517997+00:00,1,,SHA1 hash of a malware sample
+sha1,3b0ac6aaabb3bf8058ca14f9c8ccc613cfa3ea71,high,2026-10-05T13:30:43.355486+00:00,2026-10-06T08:37:33.517997+00:00,1,,SHA1 hash of a malware sample
+sha256,3a6927a3399f2a10bb2e2229482e5096e5f1c3401a87f7f1730db11243531e28,high,2026-10-05T13:30:43.355486+00:00,2026-10-06T08:37:33.517997+00:00,1,,SHA256 hash of a malware sample
+sha256,90d738a8d650e3fefda9d7efa4baa11bd89ab05fcf0eb173e04aa01a52b465e2,high,2026-10-05T13:30:43.355486+00:00,2026-10-06T08:37:33.517997+00:00,1,,SHA256 hash of a malware sample
+domain,capsysnet.vg,high,2026-10-05T18:15:00+00:00,2026-10-06T05:22:55+00:00,2,,Domain used to obtain a secondary in-memory stage in the attack chain
+domain,ciliabula.cc,high,2026-10-05T18:15:00+00:00,2026-10-06T05:22:55+00:00,2,,Domain used for outbound connections in the attack chain
+domain,cocojambo.us.com,high,2026-10-05T18:15:00+00:00,2026-10-06T05:22:55+00:00,2,,Domain used to fetch a PowerShell script as part of the attack
+domain,aware-cr1.com,high,2026-10-05T19:05:32+00:00,2026-10-05T19:05:32+00:00,1,,Listed as known C2 infrastructure in the context of 2CLoader activity
+sha256,031267ee37c5a84c25cb0542cbfeb49f30d5604305b0bdccdeafbedcbbe6849b,high,2026-10-05T17:31:02.783382+00:00,2026-10-05T17:31:02.783382+00:00,1,,Hash listed as a tarball SHA-256 in a malware analysis
+sha256,f0c8b0cde86b98a2869a22fd43ffcf61f1dcca252729e2be291e590e3dc5f49a,high,2026-10-05T17:31:02.783382+00:00,2026-10-05T17:31:02.783382+00:00,1,,Hash listed as a manifest-cache.js SHA-256 in a malware analysis
+sha256,2bedc26d4b29b435c21962beed7db21188a0219a0d28334bba8b4fb1656d7b15,high,2026-10-02T14:41:59.270334+00:00,2026-10-05T15:30:42.508303+00:00,1,,Listed as a dropper in the threat report
+sha256,2fe2dd402ee6f9c578fce6dd4b36daaa407e99133e5dd502f2afca80feb60150,high,2026-10-02T14:41:59.270334+00:00,2026-10-05T15:30:42.508303+00:00,1,,Listed as a file indicator in the threat report
+sha256,4435fcd6862921092614dbeaa880e4192352984686ebcd98f0ba13ee8e226ef9,high,2026-10-02T14:41:59.270334+00:00,2026-10-05T15:30:42.508303+00:00,1,,Listed as a file indicator in the threat report
+sha256,4925bcca085ec504f51191645da278d8e96698d91f3c6df44146336c697b4de8,high,2026-10-02T14:41:59.270334+00:00,2026-10-05T15:30:42.508303+00:00,1,,Listed as a file indicator in the threat report
+sha256,652508a9cf40bee883dc0e5e219dfeba71fe7dac591d01c89f74c21f73b4963f,high,2026-10-02T14:41:59.270334+00:00,2026-10-05T15:30:42.508303+00:00,1,,Listed as a Rekoobe-based backdoor in the threat report
+sha256,7e667ba5f9df912e02275d3cfe3809d16f822fe776f4035c84b118ebd925b1b5,high,2026-10-02T14:41:59.270334+00:00,2026-10-05T15:30:42.508303+00:00,1,,Listed as a file indicator in the threat report
+sha256,925c041807d4fb9dfe2ad84f963c2a4c60ea1289f6a0bdccbfb944478ffc2cf2,high,2026-10-02T14:41:59.270334+00:00,2026-10-05T15:30:42.508303+00:00,1,,Listed as a file indicator in the threat report
+sha256,a37ea9897221d4495b538de72b74f2aa1d2ff09b7b6dcedd395aee58931adbf3,high,2026-10-02T14:41:59.270334+00:00,2026-10-05T15:30:42.508303+00:00,1,,Listed as a file indicator in the threat report
+sha256,a4379e115d3c4420f5d4b92561022d6e0897990e7297be65c033d47de68e6a6a,high,2026-10-02T14:41:59.270334+00:00,2026-10-05T15:30:42.508303+00:00,1,,Listed as a file indicator in the threat report
+sha256,a65048eb30661e27f8edc2dd8d8c77ec87faec1f1750f6e04e7ecaf069a32858,high,2026-10-02T14:41:59.270334+00:00,2026-10-05T15:30:42.508303+00:00,1,,Listed as a file indicator in the threat report
+sha256,a6f3b7f932761fb1fd5e74123f2482e36c65dd13e769af2ce08c65da195bfa7a,high,2026-10-02T14:41:59.270334+00:00,2026-10-05T15:30:42.508303+00:00,1,,Listed as a BPFDoor sample in the threat report
+sha256,bf8135f46ecedfe5bd06fcecbb2e721c2367ff765b18f4aa3f868e6597f49e47,high,2026-10-02T14:41:59.270334+00:00,2026-10-05T15:30:42.508303+00:00,1,,Listed as a file indicator in the threat report
+domain,ci-artifacts.dev,high,2026-10-05T14:12:32+00:00,2026-10-05T14:12:32+00:00,1,,Identified as malicious in threat report
+domain,amazonprimeusa.com,high,2026-10-05T13:59:12+00:00,2026-10-05T13:59:12+00:00,1,,Flagged as malicious in threat report
+domain,prime-amazonfr.com,high,2026-10-05T13:59:12+00:00,2026-10-05T13:59:12+00:00,1,,Listed as a malicious Amazon-themed domain used for phishing
+domain,finger.linkeders.net,high,2026-10-05T13:48:11+00:00,2026-10-05T13:48:11+00:00,1,,Used in an obfuscated command for malicious activity
+domain,linkeders.net,high,2026-10-05T13:48:11+00:00,2026-10-05T13:48:11+00:00,1,,Used in an obfuscated command for malicious activity
 domain,uyagsdusa4.wpg7mmci3k.lol,high,2026-10-05T11:42:24.149541+00:00,2026-10-05T11:42:24.149541+00:00,1,,Listed as a dubious URL used by scammers to trick victims into providing sensitive information
+ipv4,66.179.30.155,high,2026-10-05T11:10:47+00:00,2026-10-05T11:10:47+00:00,1,,Used as a publication and archive node by attackers
+ipv4,66.203.124.135,high,2026-10-05T11:10:47+00:00,2026-10-05T11:10:47+00:00,1,,Used as a final exfiltration destination by attackers
 domain,agent2.sh,high,2026-09-30T21:13:41.814200+00:00,2026-10-05T10:30:37.105742+00:00,1,,Described as part of a multi-stage payload chain used by attackers
 domain,bypass.eu.org,high,2026-09-30T21:13:41.814200+00:00,2026-10-05T10:30:37.105742+00:00,1,,Described as campaign-associated infrastructure used by attackers
 ipv4,195.64.128.106,high,2026-10-05T02:54:00+00:00,2026-10-05T02:54:00+00:00,1,,Listed as C2 traffic for CNCmachineRMS RAT
+ipv4,45.138.12.177,high,2026-10-05T00:00:00+00:00,2026-10-05T00:00:00+00:00,1,,Used as a reverse shell endpoint by malicious gems
 ipv4,213.209.159.55,high,2026-10-04T22:10:13+00:00,2026-10-04T22:10:13+00:00,1,,IP address used to download a payload in an attack sequence
 md5,1cd6d13ff15adbf7a42025d10ec99b4a,high,2026-10-04T15:32:15.265954+00:00,2026-10-04T15:32:15.265954+00:00,1,,Listed in a malware analysis as a malicious file hash
 sha1,02df07a173ab03b82a4fb6a08973fff8b1467f28,high,2026-10-04T15:32:15.265954+00:00,2026-10-04T15:32:15.265954+00:00,1,,Listed in a malware analysis as a malicious file hash
@@ -98,18 +137,6 @@ sha256,77324ac428bde86d351fc5fc06f6d64a6bfe737dfb2743df1d4c5ac2418a5b6a,high,202
 sha256,7a6cea9f5c9e2e9994d4e3c4da73f86cf5acd05ea5d312c066c9d1dafd69ee38,high,2026-10-02T15:05:49+00:00,2026-10-02T15:05:49+00:00,1,,Listed in a malware indicators section
 sha256,8015f34dc84922b03688399d7f9fe7a00361789f7e420c7e2a2cdb23e75cef84,high,2026-10-02T15:05:49+00:00,2026-10-02T15:05:49+00:00,1,,Listed in a malware indicators section
 sha256,8953ec7960b09f544a880b072ad4e6cfda7a8303f486251d3478dcfdfbac23b6,high,2026-10-02T15:05:49+00:00,2026-10-02T15:05:49+00:00,1,,Listed in a malware indicators section
-sha256,2bedc26d4b29b435c21962beed7db21188a0219a0d28334bba8b4fb1656d7b15,high,2026-10-02T14:41:59.270334+00:00,2026-10-02T14:41:59.270334+00:00,1,,Dropper hash listed in a malware indicators section
-sha256,2fe2dd402ee6f9c578fce6dd4b36daaa407e99133e5dd502f2afca80feb60150,high,2026-10-02T14:41:59.270334+00:00,2026-10-02T14:41:59.270334+00:00,1,,Listed in a malware indicators section
-sha256,4435fcd6862921092614dbeaa880e4192352984686ebcd98f0ba13ee8e226ef9,high,2026-10-02T14:41:59.270334+00:00,2026-10-02T14:41:59.270334+00:00,1,,Listed in a malware indicators section
-sha256,4925bcca085ec504f51191645da278d8e96698d91f3c6df44146336c697b4de8,high,2026-10-02T14:41:59.270334+00:00,2026-10-02T14:41:59.270334+00:00,1,,Listed in a malware indicators section
-sha256,652508a9cf40bee883dc0e5e219dfeba71fe7dac591d01c89f74c21f73b4963f,high,2026-10-02T14:41:59.270334+00:00,2026-10-02T14:41:59.270334+00:00,1,,Listed in a malware indicators section
-sha256,7e667ba5f9df912e02275d3cfe3809d16f822fe776f4035c84b118ebd925b1b5,high,2026-10-02T14:41:59.270334+00:00,2026-10-02T14:41:59.270334+00:00,1,,Listed in a malware indicators section
-sha256,925c041807d4fb9dfe2ad84f963c2a4c60ea1289f6a0bdccbfb944478ffc2cf2,high,2026-10-02T14:41:59.270334+00:00,2026-10-02T14:41:59.270334+00:00,1,,Listed in a malware indicators section
-sha256,a37ea9897221d4495b538de72b74f2aa1d2ff09b7b6dcedd395aee58931adbf3,high,2026-10-02T14:41:59.270334+00:00,2026-10-02T14:41:59.270334+00:00,1,,Listed in a malware indicators section
-sha256,a4379e115d3c4420f5d4b92561022d6e0897990e7297be65c033d47de68e6a6a,high,2026-10-02T14:41:59.270334+00:00,2026-10-02T14:41:59.270334+00:00,1,,Listed in a malware indicators section
-sha256,a65048eb30661e27f8edc2dd8d8c77ec87faec1f1750f6e04e7ecaf069a32858,high,2026-10-02T14:41:59.270334+00:00,2026-10-02T14:41:59.270334+00:00,1,,Listed in a malware indicators section
-sha256,a6f3b7f932761fb1fd5e74123f2482e36c65dd13e769af2ce08c65da195bfa7a,high,2026-10-02T14:41:59.270334+00:00,2026-10-02T14:41:59.270334+00:00,1,,Listed in a malware indicators section
-sha256,bf8135f46ecedfe5bd06fcecbb2e721c2367ff765b18f4aa3f868e6597f49e47,high,2026-10-02T14:41:59.270334+00:00,2026-10-02T14:41:59.270334+00:00,1,,Listed in a malware indicators section
 domain,pbapi.xyz,high,2026-10-02T14:41:46.380979+00:00,2026-10-02T14:41:46.380979+00:00,1,,Described as a command-and-control channel used by the extension
 sha256,04f7326c40c33fda51010d067915a1e50b63e00b4ab86db00158d5e067a78ff6,high,2026-10-02T11:35:26.437944+00:00,2026-10-02T11:35:26.437944+00:00,1,,Hash of a file downloaded and used by attackers
 sha256,430cf700c7f1b625fded4da4084a0a6c0240b15d52e624a2361bc2512ca2355d,high,2026-10-02T11:35:26.437944+00:00,2026-10-02T11:35:26.437944+00:00,1,,Hash of a file used by attackers

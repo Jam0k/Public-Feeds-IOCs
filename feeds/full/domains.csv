@@ -1,4 +1,13 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason
+domain,capsysnet.vg,high,2026-10-05T18:15:00+00:00,2026-10-06T05:22:55+00:00,2,,Domain used to obtain a secondary in-memory stage in the attack chain
+domain,ciliabula.cc,high,2026-10-05T18:15:00+00:00,2026-10-06T05:22:55+00:00,2,,Domain used for outbound connections in the attack chain
+domain,cocojambo.us.com,high,2026-10-05T18:15:00+00:00,2026-10-06T05:22:55+00:00,2,,Domain used to fetch a PowerShell script as part of the attack
+domain,aware-cr1.com,high,2026-10-05T19:05:32+00:00,2026-10-05T19:05:32+00:00,1,,Listed as known C2 infrastructure in the context of 2CLoader activity
+domain,ci-artifacts.dev,high,2026-10-05T14:12:32+00:00,2026-10-05T14:12:32+00:00,1,,Identified as malicious in threat report
+domain,amazonprimeusa.com,high,2026-10-05T13:59:12+00:00,2026-10-05T13:59:12+00:00,1,,Flagged as malicious in threat report
+domain,prime-amazonfr.com,high,2026-10-05T13:59:12+00:00,2026-10-05T13:59:12+00:00,1,,Listed as a malicious Amazon-themed domain used for phishing
+domain,finger.linkeders.net,high,2026-10-05T13:48:11+00:00,2026-10-05T13:48:11+00:00,1,,Used in an obfuscated command for malicious activity
+domain,linkeders.net,high,2026-10-05T13:48:11+00:00,2026-10-05T13:48:11+00:00,1,,Used in an obfuscated command for malicious activity
 domain,uyagsdusa4.wpg7mmci3k.lol,high,2026-10-05T11:42:24.149541+00:00,2026-10-05T11:42:24.149541+00:00,1,,Listed as a dubious URL used by scammers to trick victims into providing sensitive information
 domain,agent2.sh,high,2026-09-30T21:13:41.814200+00:00,2026-10-05T10:30:37.105742+00:00,1,,Described as part of a multi-stage payload chain used by attackers
 domain,bypass.eu.org,high,2026-09-30T21:13:41.814200+00:00,2026-10-05T10:30:37.105742+00:00,1,,Described as campaign-associated infrastructure used by attackers

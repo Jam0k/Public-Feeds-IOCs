@@ -1,4 +1,15 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason
+domain,cbc-comerica.com-e2.es,high,2026-10-06T12:10:50.663938+00:00,2026-10-06T12:10:50.663938+00:00,1,www.netcraft.com:2026-10-06,"Domain is part of a cluster used by Omegatech for phishing, indicating attacker control."
+domain,asdfafadafg.online,high,2026-10-06T10:05:56+00:00,2026-10-06T10:05:56+00:00,1,Unit42.Paloaltonetworks:2026-10-06,Domain used for phishing infrastructure as part of a credential harvesting campaign
+domain,capsysnet.vg,high,2026-10-05T18:15:00+00:00,2026-10-06T05:22:55+00:00,2,Feeds.Feedburner:2026-10-06|Itnews.Au:2026-10-05,Domain used to obtain a secondary in-memory stage in the attack chain
+domain,ciliabula.cc,high,2026-10-05T18:15:00+00:00,2026-10-06T05:22:55+00:00,2,Feeds.Feedburner:2026-10-06|Itnews.Au:2026-10-05,Domain used for outbound connections in the attack chain
+domain,cocojambo.us.com,high,2026-10-05T18:15:00+00:00,2026-10-06T05:22:55+00:00,2,Feeds.Feedburner:2026-10-06|Itnews.Au:2026-10-05,Domain used to fetch a PowerShell script as part of the attack
+domain,aware-cr1.com,high,2026-10-05T19:05:32+00:00,2026-10-05T19:05:32+00:00,1,Socprime:2026-10-05,Listed as known C2 infrastructure in the context of 2CLoader activity
+domain,ci-artifacts.dev,high,2026-10-05T14:12:32+00:00,2026-10-05T14:12:32+00:00,1,Stepsecurity:2026-10-05,Identified as malicious in threat report
+domain,amazonprimeusa.com,high,2026-10-05T13:59:12+00:00,2026-10-05T13:59:12+00:00,1,Itsecurityguru:2026-10-05,Flagged as malicious in threat report
+domain,prime-amazonfr.com,high,2026-10-05T13:59:12+00:00,2026-10-05T13:59:12+00:00,1,Itsecurityguru:2026-10-05,Listed as a malicious Amazon-themed domain used for phishing
+domain,finger.linkeders.net,high,2026-10-05T13:48:11+00:00,2026-10-05T13:48:11+00:00,1,Huntress:2026-10-05,Used in an obfuscated command for malicious activity
+domain,linkeders.net,high,2026-10-05T13:48:11+00:00,2026-10-05T13:48:11+00:00,1,Huntress:2026-10-05,Used in an obfuscated command for malicious activity
 domain,agent2.sh,high,2026-10-05T10:30:37.105742+00:00,2026-10-05T10:30:37.105742+00:00,1,www.microsoft.com:2026-10-05,Described as part of a multi-stage payload chain used by attackers
 domain,bypass.eu.org,high,2026-10-05T10:30:37.105742+00:00,2026-10-05T10:30:37.105742+00:00,1,www.microsoft.com:2026-10-05,Described as campaign-associated infrastructure used by attackers
 domain,account-sams-club.com,high,2026-09-27T07:30:52+00:00,2026-10-04T15:32:08.324786+00:00,2,www.ontinue.com:2026-10-04|Thehackernews:2026-09-27,Domain resolves to a phishing site used for brand impersonation
@@ -104,7 +115,6 @@ domain,chestergreenfarming.com,high,2026-10-01T10:31:57+00:00,2026-10-01T10:31:5
 domain,gomescareerplans.com,high,2026-10-01T10:31:57+00:00,2026-10-01T10:31:57+00:00,1,X:2026-10-01,Used as a C2 register in a malware campaign.
 domain,fileswiftonline.cloud,high,2026-10-01T09:00:00+00:00,2026-10-01T09:00:00+00:00,1,Proofpoint:2026-10-01,Used as a second-stage AitM phishing domain
 domain,publicsharefile.cloud,high,2026-10-01T09:00:00+00:00,2026-10-01T09:00:00+00:00,1,Proofpoint:2026-10-01,Used as a second-stage AitM phishing domain
-domain,instance-v2e3e2-relay.screenconnect.com,high,2026-10-01T05:32:13+00:00,2026-10-01T05:32:13+00:00,1,Isc.Sans.Edu:2026-10-01,Used as a callback for a phishing attack.
 domain,claudecode-developers.squarespace.com,high,2026-09-30T17:00:25.403246+00:00,2026-09-30T17:00:25.403246+00:00,1,pushsecurity.com:2026-09-30,Listed as part of the attacker's phishing infrastructure
 domain,claude-code-docs-dvlr2jpuuw.edgeone.app,high,2026-09-30T17:00:25.403246+00:00,2026-09-30T17:00:25.403246+00:00,1,pushsecurity.com:2026-09-30,Listed as part of the attacker's phishing infrastructure
 domain,claude-code-install.squarespace.com,high,2026-09-30T17:00:25.403246+00:00,2026-09-30T17:00:25.403246+00:00,1,pushsecurity.com:2026-09-30,Listed as part of the attacker's phishing infrastructure
@@ -445,8 +455,3 @@ domain,mypasskeysso.com,high,2026-09-08T08:24:28+00:00,2026-09-08T08:24:28+00:00
 domain,oktaenroll.com,high,2026-09-08T08:24:28+00:00,2026-09-08T08:24:28+00:00,1,Bloglab.360:2026-09-08,Listed as part of phishing infrastructure targeting credentials
 domain,oktaportalsso.com,high,2026-09-08T08:24:28+00:00,2026-09-08T08:24:28+00:00,1,Bloglab.360:2026-09-08,Listed as part of phishing infrastructure targeting credentials
 domain,xfjcc.fun,high,2026-09-07T05:51:11+00:00,2026-09-07T05:51:11+00:00,1,Gbhackers:2026-09-07,Domain used for C2 activity and payload distribution
-domain,config.hubdisplay.lol,high,2026-09-06T08:34:20+00:00,2026-09-06T08:34:20+00:00,1,Thehackernews:2026-09-06,Listed as ProManager C2
-domain,health.journal-metric.lol,high,2026-09-06T08:34:20+00:00,2026-09-06T08:34:20+00:00,1,Thehackernews:2026-09-06,Listed as a C2 domain for WinUpdate malware
-domain,metric.gardenpark.click,high,2026-09-06T08:34:20+00:00,2026-09-06T08:34:20+00:00,1,Thehackernews:2026-09-06,Listed as a C2 server for SoftManager malware
-domain,monitor5.roast-core85.click,high,2026-09-06T08:34:20+00:00,2026-09-06T08:34:20+00:00,1,Thehackernews:2026-09-06,Listed as a C2 server for REVSTEALER malware
-domain,247.cdnflare.xyz,high,2026-09-05T20:14:47+00:00,2026-09-05T20:14:47+00:00,1,Thehackernews:2026-09-05,Identified as a malware download host in the article

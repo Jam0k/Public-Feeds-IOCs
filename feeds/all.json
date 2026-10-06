@@ -1,7 +1,7 @@
 {
   "feed": "threatcluster-public-iocs",
   "version": 1,
-  "generated_at": "2026-10-05T14:33:53Z",
+  "generated_at": "2026-10-06T13:16:41Z",
   "filters": {
     "confidence": "high",
     "window_days": 30,
@@ -11,8 +11,633 @@
       "domain"
     ]
   },
-  "count": 554,
+  "count": 567,
   "iocs": [
+    {
+      "type": "domain",
+      "value": "cbc-comerica.com-e2.es",
+      "confidence": "high",
+      "reason": "Domain is part of a cluster used by Omegatech for phishing, indicating attacker control.",
+      "first_seen": "2026-10-06T12:10:50.663938+00:00",
+      "last_seen": "2026-10-06T12:10:50.663938+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.netcraft.com",
+          "url": "https://www.netcraft.com/blog/h1-phishing-landscape-report-financial-sector",
+          "pub_date": "2026-10-06T12:10:50.663938+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Golden Chollima"
+        },
+        {
+          "type": "apt_group",
+          "value": "Labyrinth Chollima"
+        },
+        {
+          "type": "apt_group",
+          "value": "Pressure Chollima"
+        },
+        {
+          "type": "campaign",
+          "value": "Darcula Campaign"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "118.145.196.225",
+      "confidence": "high",
+      "reason": "Listed as a download source for malware by the attacker",
+      "first_seen": "2026-10-06T10:32:19.218199+00:00",
+      "last_seen": "2026-10-06T10:32:19.218199+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.fortinet.com",
+          "url": "https://www.fortinet.com/blog/threat-research/clingstun-linux-backdoor-abuses-public-stun-infrastructure",
+          "pub_date": "2026-10-06T10:32:19.218199+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2021-35394"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2022-36553"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2023-1389"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2024-10915"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "124.163.212.119",
+      "confidence": "high",
+      "reason": "Listed as a download source for malware by the attacker",
+      "first_seen": "2026-10-06T10:32:19.218199+00:00",
+      "last_seen": "2026-10-06T10:32:19.218199+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.fortinet.com",
+          "url": "https://www.fortinet.com/blog/threat-research/clingstun-linux-backdoor-abuses-public-stun-infrastructure",
+          "pub_date": "2026-10-06T10:32:19.218199+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2021-35394"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2022-36553"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2023-1389"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2024-10915"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "222.223.152.97",
+      "confidence": "high",
+      "reason": "Listed as a download source for malware by the attacker",
+      "first_seen": "2026-10-06T10:32:19.218199+00:00",
+      "last_seen": "2026-10-06T10:32:19.218199+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.fortinet.com",
+          "url": "https://www.fortinet.com/blog/threat-research/clingstun-linux-backdoor-abuses-public-stun-infrastructure",
+          "pub_date": "2026-10-06T10:32:19.218199+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2021-35394"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2022-36553"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2023-1389"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2024-10915"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "asdfafadafg.online",
+      "confidence": "high",
+      "reason": "Domain used for phishing infrastructure as part of a credential harvesting campaign",
+      "first_seen": "2026-10-06T10:05:56+00:00",
+      "last_seen": "2026-10-06T10:05:56+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Unit42.Paloaltonetworks",
+          "url": "https://unit42.paloaltonetworks.com/blinder-tunnel-targets-critical-infrastructure/",
+          "pub_date": "2026-10-06T10:05:56+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Screening Serpens"
+        },
+        {
+          "type": "campaign",
+          "value": "Blinder Tunnel"
+        },
+        {
+          "type": "campaign",
+          "value": "The Shelby Strategy"
+        },
+        {
+          "type": "industry",
+          "value": "Telecommunications"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "87.248.129.239",
+      "confidence": "high",
+      "reason": "IP address used as part of Blackwood malware infrastructure",
+      "first_seen": "2026-10-06T10:05:56+00:00",
+      "last_seen": "2026-10-06T10:05:56+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Unit42.Paloaltonetworks",
+          "url": "https://unit42.paloaltonetworks.com/blinder-tunnel-targets-critical-infrastructure/",
+          "pub_date": "2026-10-06T10:05:56+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Screening Serpens"
+        },
+        {
+          "type": "campaign",
+          "value": "Blinder Tunnel"
+        },
+        {
+          "type": "campaign",
+          "value": "The Shelby Strategy"
+        },
+        {
+          "type": "industry",
+          "value": "Telecommunications"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "118.45.196.225",
+      "confidence": "high",
+      "reason": "Listed as a loader host for malware",
+      "first_seen": "2026-10-06T08:37:33.517997+00:00",
+      "last_seen": "2026-10-06T08:37:33.517997+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.nozominetworks.com",
+          "url": "https://www.nozominetworks.com/blog/a-stunning-disguise-cling-malware-masquerades-as-google-",
+          "pub_date": "2026-10-06T08:37:33.517997+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2014-8361"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2016-10372"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2016-20016"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2021-35394"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "120.193.219.210",
+      "confidence": "high",
+      "reason": "Listed as a loader host for malware",
+      "first_seen": "2026-10-06T08:37:33.517997+00:00",
+      "last_seen": "2026-10-06T08:37:33.517997+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.nozominetworks.com",
+          "url": "https://www.nozominetworks.com/blog/a-stunning-disguise-cling-malware-masquerades-as-google-",
+          "pub_date": "2026-10-06T08:37:33.517997+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2014-8361"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2016-10372"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2016-20016"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2021-35394"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "145.249.115.184",
+      "confidence": "high",
+      "reason": "Identified as a STUN server controlled by the botnet operator",
+      "first_seen": "2026-10-05T11:50:39+00:00",
+      "last_seen": "2026-10-06T08:37:33.517997+00:00",
+      "source_count": 4,
+      "sources": [
+        {
+          "source": "www.nozominetworks.com",
+          "url": "https://www.nozominetworks.com/blog/a-stunning-disguise-cling-malware-masquerades-as-google-",
+          "pub_date": "2026-10-06T08:37:33.517997+00:00"
+        },
+        {
+          "source": "Industrialcyber.Co",
+          "url": "https://industrialcyber.co/ransomware/cling-botnet-uses-stun-traffic-to-conceal-command-and-control-activity-and-attacks-against-vulnerable-iot-devices/",
+          "pub_date": "2026-10-06T07:58:55+00:00"
+        },
+        {
+          "source": "News.Lavx.Hu",
+          "url": "https://news.lavx.hu/article/cling-botnet-hides-command-traffic-inside-stun-protocol-exchanges",
+          "pub_date": "2026-10-06T00:44:33+00:00"
+        },
+        {
+          "source": "Thehackernews",
+          "url": "https://thehackernews.com/2026/10/realtek-jungle-sdk-exploit-attempts.html",
+          "pub_date": "2026-10-05T11:50:39+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2021-35394"
+        },
+        {
+          "type": "malware",
+          "value": "Cling"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2014-8361"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2016-10372"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "58.211.144.243",
+      "confidence": "high",
+      "reason": "Listed as a loader host for malware",
+      "first_seen": "2026-10-06T08:37:33.517997+00:00",
+      "last_seen": "2026-10-06T08:37:33.517997+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.nozominetworks.com",
+          "url": "https://www.nozominetworks.com/blog/a-stunning-disguise-cling-malware-masquerades-as-google-",
+          "pub_date": "2026-10-06T08:37:33.517997+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2014-8361"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2016-10372"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2016-20016"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2021-35394"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "capsysnet.vg",
+      "confidence": "high",
+      "reason": "Domain used to obtain a secondary in-memory stage in the attack chain",
+      "first_seen": "2026-10-05T18:15:00+00:00",
+      "last_seen": "2026-10-06T05:22:55+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "Feeds.Feedburner",
+          "url": "https://thehackernews.com/2026/10/clickfix-smuggles-payloads-through.html",
+          "pub_date": "2026-10-06T05:22:55+00:00"
+        },
+        {
+          "source": "Itnews.Au",
+          "url": "https://www.itnews.com.au/news/microsoft-spots-new-twist-on-clickfix-cache-smuggling-629401?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+Security+feed",
+          "pub_date": "2026-10-05T18:15:00+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Sandworm"
+        },
+        {
+          "type": "campaign",
+          "value": "ClickFix"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-6854"
+        },
+        {
+          "type": "industry",
+          "value": "Financial"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "ciliabula.cc",
+      "confidence": "high",
+      "reason": "Domain used for outbound connections in the attack chain",
+      "first_seen": "2026-10-05T18:15:00+00:00",
+      "last_seen": "2026-10-06T05:22:55+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "Feeds.Feedburner",
+          "url": "https://thehackernews.com/2026/10/clickfix-smuggles-payloads-through.html",
+          "pub_date": "2026-10-06T05:22:55+00:00"
+        },
+        {
+          "source": "Itnews.Au",
+          "url": "https://www.itnews.com.au/news/microsoft-spots-new-twist-on-clickfix-cache-smuggling-629401?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+Security+feed",
+          "pub_date": "2026-10-05T18:15:00+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Sandworm"
+        },
+        {
+          "type": "campaign",
+          "value": "ClickFix"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-6854"
+        },
+        {
+          "type": "industry",
+          "value": "Financial"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "cocojambo.us.com",
+      "confidence": "high",
+      "reason": "Domain used to fetch a PowerShell script as part of the attack",
+      "first_seen": "2026-10-05T18:15:00+00:00",
+      "last_seen": "2026-10-06T05:22:55+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "Feeds.Feedburner",
+          "url": "https://thehackernews.com/2026/10/clickfix-smuggles-payloads-through.html",
+          "pub_date": "2026-10-06T05:22:55+00:00"
+        },
+        {
+          "source": "Itnews.Au",
+          "url": "https://www.itnews.com.au/news/microsoft-spots-new-twist-on-clickfix-cache-smuggling-629401?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+Security+feed",
+          "pub_date": "2026-10-05T18:15:00+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Sandworm"
+        },
+        {
+          "type": "campaign",
+          "value": "ClickFix"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-6854"
+        },
+        {
+          "type": "industry",
+          "value": "Financial"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "aware-cr1.com",
+      "confidence": "high",
+      "reason": "Listed as known C2 infrastructure in the context of 2CLoader activity",
+      "first_seen": "2026-10-05T19:05:32+00:00",
+      "last_seen": "2026-10-05T19:05:32+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Socprime",
+          "url": "https://socprime.com/active-threats/2cloader-a-new-malware-loader-delivering-vidar-and-remus/",
+          "pub_date": "2026-10-05T19:05:32+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "2CLoader"
+        },
+        {
+          "type": "malware",
+          "value": "Remus"
+        },
+        {
+          "type": "malware",
+          "value": "Vidar"
+        },
+        {
+          "type": "malware",
+          "value": "XWorm RAT"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "ci-artifacts.dev",
+      "confidence": "high",
+      "reason": "Identified as malicious in threat report",
+      "first_seen": "2026-10-05T14:12:32+00:00",
+      "last_seen": "2026-10-05T14:12:32+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Stepsecurity",
+          "url": "https://www.stepsecurity.io/blog/subql-ecosystem-compromised",
+          "pub_date": "2026-10-05T14:12:32+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "amazonprimeusa.com",
+      "confidence": "high",
+      "reason": "Flagged as malicious in threat report",
+      "first_seen": "2026-10-05T13:59:12+00:00",
+      "last_seen": "2026-10-05T13:59:12+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Itsecurityguru",
+          "url": "https://www.itsecurityguru.org/2026/10/05/prime-big-deal-days-scammers-stock-up-early-as-amazon-impersonation-attacks-nearly-triple/",
+          "pub_date": "2026-10-05T13:59:12+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "prime-amazonfr.com",
+      "confidence": "high",
+      "reason": "Listed as a malicious Amazon-themed domain used for phishing",
+      "first_seen": "2026-10-05T13:59:12+00:00",
+      "last_seen": "2026-10-05T13:59:12+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Itsecurityguru",
+          "url": "https://www.itsecurityguru.org/2026/10/05/prime-big-deal-days-scammers-stock-up-early-as-amazon-impersonation-attacks-nearly-triple/",
+          "pub_date": "2026-10-05T13:59:12+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "finger.linkeders.net",
+      "confidence": "high",
+      "reason": "Used in an obfuscated command for malicious activity",
+      "first_seen": "2026-10-05T13:48:11+00:00",
+      "last_seen": "2026-10-05T13:48:11+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Huntress",
+          "url": "https://www.huntress.com/blog/fix-for-clickfix",
+          "pub_date": "2026-10-05T13:48:11+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "linkeders.net",
+      "confidence": "high",
+      "reason": "Used in an obfuscated command for malicious activity",
+      "first_seen": "2026-10-05T13:48:11+00:00",
+      "last_seen": "2026-10-05T13:48:11+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Huntress",
+          "url": "https://www.huntress.com/blog/fix-for-clickfix",
+          "pub_date": "2026-10-05T13:48:11+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "ipv4",
+      "value": "66.179.30.155",
+      "confidence": "high",
+      "reason": "Used as a publication and archive node by attackers",
+      "first_seen": "2026-10-05T11:10:47+00:00",
+      "last_seen": "2026-10-05T11:10:47+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cloudsek",
+          "url": "https://www.cloudsek.com/blog/caught-in-4k-the-gentlemen-files",
+          "pub_date": "2026-10-05T11:10:47+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "ipv4",
+      "value": "66.203.124.135",
+      "confidence": "high",
+      "reason": "Used as a final exfiltration destination by attackers",
+      "first_seen": "2026-10-05T11:10:47+00:00",
+      "last_seen": "2026-10-05T11:10:47+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cloudsek",
+          "url": "https://www.cloudsek.com/blog/caught-in-4k-the-gentlemen-files",
+          "pub_date": "2026-10-05T11:10:47+00:00"
+        }
+      ],
+      "tags": []
+    },
     {
       "type": "domain",
       "value": "agent2.sh",
@@ -60,6 +685,23 @@
           "source": "Malware-Traffic-Analysis",
           "url": "https://www.malware-traffic-analysis.net/2026/10/01/index.html",
           "pub_date": "2026-10-05T02:54:00+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "ipv4",
+      "value": "45.138.12.177",
+      "confidence": "high",
+      "reason": "Used as a reverse shell endpoint by malicious gems",
+      "first_seen": "2026-10-05T00:00:00+00:00",
+      "last_seen": "2026-10-05T00:00:00+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Safedep",
+          "url": "https://safedep.io/rubygems-crypto-gems-install-time-reverse-shell",
+          "pub_date": "2026-10-05T00:00:00+00:00"
         }
       ],
       "tags": []
@@ -2321,23 +2963,6 @@
           "value": "Government"
         }
       ]
-    },
-    {
-      "type": "domain",
-      "value": "instance-v2e3e2-relay.screenconnect.com",
-      "confidence": "high",
-      "reason": "Used as a callback for a phishing attack.",
-      "first_seen": "2026-10-01T05:32:13+00:00",
-      "last_seen": "2026-10-01T05:32:13+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Isc.Sans.Edu",
-          "url": "https://isc.sans.edu/diary/rss/33388",
-          "pub_date": "2026-10-01T05:32:13+00:00"
-        }
-      ],
-      "tags": []
     },
     {
       "type": "ipv4",
@@ -11989,19 +12614,14 @@
       "value": "103.102.31.18",
       "confidence": "high",
       "reason": "Used in attempts to exploit vulnerabilities; identified as attacker infrastructure",
-      "first_seen": "2026-09-06T06:20:44+00:00",
+      "first_seen": "2026-09-06T13:46:02+00:00",
       "last_seen": "2026-09-06T13:46:02+00:00",
-      "source_count": 2,
+      "source_count": 1,
       "sources": [
         {
           "source": "Securityaffairs.Co",
           "url": "https://securityaffairs.com/198538/security/your-mikrotik-router-may-already-be-compromised-look-for-ssh-user-2.html",
           "pub_date": "2026-09-06T13:46:02+00:00"
-        },
-        {
-          "source": "Cert.Pl",
-          "url": "https://cert.pl/en/posts/2026/09/vulnerabilities-in-mikrotik-routeros-actively-exploited/",
-          "pub_date": "2026-09-06T06:20:44+00:00"
         }
       ],
       "tags": [
@@ -12012,231 +12632,8 @@
         {
           "type": "cve",
           "value": "CVE-2026-86060"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-67277"
         }
       ]
-    },
-    {
-      "type": "domain",
-      "value": "config.hubdisplay.lol",
-      "confidence": "high",
-      "reason": "Listed as ProManager C2",
-      "first_seen": "2026-09-06T08:34:20+00:00",
-      "last_seen": "2026-09-06T08:34:20+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Thehackernews",
-          "url": "https://thehackernews.com/2026/09/four-revstealer-linked-modules-disable.html",
-          "pub_date": "2026-09-06T08:34:20+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "malware",
-          "value": "AuraStealer"
-        },
-        {
-          "type": "malware",
-          "value": "Lumma Stealer"
-        },
-        {
-          "type": "malware",
-          "value": "Revstealer"
-        },
-        {
-          "type": "malware",
-          "value": "VoidStealer"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "health.journal-metric.lol",
-      "confidence": "high",
-      "reason": "Listed as a C2 domain for WinUpdate malware",
-      "first_seen": "2026-09-06T08:34:20+00:00",
-      "last_seen": "2026-09-06T08:34:20+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Thehackernews",
-          "url": "https://thehackernews.com/2026/09/four-revstealer-linked-modules-disable.html",
-          "pub_date": "2026-09-06T08:34:20+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "malware",
-          "value": "AuraStealer"
-        },
-        {
-          "type": "malware",
-          "value": "Lumma Stealer"
-        },
-        {
-          "type": "malware",
-          "value": "Revstealer"
-        },
-        {
-          "type": "malware",
-          "value": "VoidStealer"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "metric.gardenpark.click",
-      "confidence": "high",
-      "reason": "Listed as a C2 server for SoftManager malware",
-      "first_seen": "2026-09-06T08:34:20+00:00",
-      "last_seen": "2026-09-06T08:34:20+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Thehackernews",
-          "url": "https://thehackernews.com/2026/09/four-revstealer-linked-modules-disable.html",
-          "pub_date": "2026-09-06T08:34:20+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "malware",
-          "value": "AuraStealer"
-        },
-        {
-          "type": "malware",
-          "value": "Lumma Stealer"
-        },
-        {
-          "type": "malware",
-          "value": "Revstealer"
-        },
-        {
-          "type": "malware",
-          "value": "VoidStealer"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "monitor5.roast-core85.click",
-      "confidence": "high",
-      "reason": "Listed as a C2 server for REVSTEALER malware",
-      "first_seen": "2026-09-06T08:34:20+00:00",
-      "last_seen": "2026-09-06T08:34:20+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Thehackernews",
-          "url": "https://thehackernews.com/2026/09/four-revstealer-linked-modules-disable.html",
-          "pub_date": "2026-09-06T08:34:20+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "malware",
-          "value": "AuraStealer"
-        },
-        {
-          "type": "malware",
-          "value": "Lumma Stealer"
-        },
-        {
-          "type": "malware",
-          "value": "Revstealer"
-        },
-        {
-          "type": "malware",
-          "value": "VoidStealer"
-        }
-      ]
-    },
-    {
-      "type": "ipv4",
-      "value": "210.247.242.190",
-      "confidence": "high",
-      "reason": "Listed as an IP address associated with detected exploitation.",
-      "first_seen": "2026-09-05T16:52:33+00:00",
-      "last_seen": "2026-09-06T07:47:42.172476+00:00",
-      "source_count": 3,
-      "sources": [
-        {
-          "source": "thenewstack.io",
-          "url": "https://thenewstack.io/jetbrains-told-everyone-to-patch-it-didnt-patch-itself/",
-          "pub_date": "2026-09-06T07:47:42.172476+00:00"
-        },
-        {
-          "source": "Rescana",
-          "url": "https://www.rescana.com/post/jetbrains-cadence-breach-attackers-exploit-unpatched-teamcity-cve-2026-63077-to-exfiltrate-aws-credentials-and-source-co",
-          "pub_date": "2026-09-06T07:14:49+00:00"
-        },
-        {
-          "source": "Thehackernews",
-          "url": "https://thehackernews.com/2026/09/attackers-breached-jetbrains-cadence.html",
-          "pub_date": "2026-09-05T16:52:33+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "cve",
-          "value": "CVE-2026-63077"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "247.cdnflare.xyz",
-      "confidence": "high",
-      "reason": "Identified as a malware download host in the article",
-      "first_seen": "2026-09-05T20:14:47+00:00",
-      "last_seen": "2026-09-05T20:14:47+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Thehackernews",
-          "url": "https://thehackernews.com/2026/09/unpatched-magento-and-adobe-commerce.html",
-          "pub_date": "2026-09-05T20:14:47+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "ipv4",
-      "value": "5.181.86.133",
-      "confidence": "high",
-      "reason": "Listed as an attacker source sending in bulk",
-      "first_seen": "2026-09-05T20:14:47+00:00",
-      "last_seen": "2026-09-05T20:14:47+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Thehackernews",
-          "url": "https://thehackernews.com/2026/09/unpatched-magento-and-adobe-commerce.html",
-          "pub_date": "2026-09-05T20:14:47+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "ipv4",
-      "value": "88.216.72.181",
-      "confidence": "high",
-      "reason": "Identified as an attacker source",
-      "first_seen": "2026-09-05T20:14:47+00:00",
-      "last_seen": "2026-09-05T20:14:47+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Thehackernews",
-          "url": "https://thehackernews.com/2026/09/unpatched-magento-and-adobe-commerce.html",
-          "pub_date": "2026-09-05T20:14:47+00:00"
-        }
-      ],
-      "tags": []
     }
   ],
   "license": "CC-BY 4.0 \u2014 attribute ThreatCluster (https://threatcluster.io)",
