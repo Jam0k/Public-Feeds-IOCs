@@ -1,10 +1,31 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason
+domain,account-sams-club.com,high,2026-09-27T07:30:52+00:00,2026-10-07T12:02:35.647461+00:00,2,www.ontinue.com:2026-10-07|Thehackernews:2026-09-27,Domain resolves to a phishing site used for brand impersonation
+domain,ibraq-perfumes.com,high,2026-10-07T12:02:35.647461+00:00,2026-10-07T12:02:35.647461+00:00,1,www.ontinue.com:2026-10-07,Domain resolves to a phishing site used for brand impersonation
+domain,namshi-uae.com,high,2026-10-07T12:02:35.647461+00:00,2026-10-07T12:02:35.647461+00:00,1,www.ontinue.com:2026-10-07,Domain resolves to a phishing site used for brand impersonation
+domain,teamwork-recover-password.com,high,2026-09-27T07:30:52+00:00,2026-10-07T12:02:35.647461+00:00,2,www.ontinue.com:2026-10-07|Thehackernews:2026-09-27,Domain resolves to a phishing site used for brand impersonation
+domain,whatsappbusineses.com,high,2026-09-27T07:30:52+00:00,2026-10-07T12:02:35.647461+00:00,2,www.ontinue.com:2026-10-07|Thehackernews:2026-09-27,Domain resolves to a phishing site used for brand impersonation
+ipv4,103.101.85.123,high,2026-10-07T12:02:35.647461+00:00,2026-10-07T12:02:35.647461+00:00,1,www.ontinue.com:2026-10-07,IP address hosts a panel resolving to phishing domains
+ipv4,193.178.158.61,high,2026-10-07T12:02:35.647461+00:00,2026-10-07T12:02:35.647461+00:00,1,www.ontinue.com:2026-10-07,IP address hosts a panel on the same network as the exfiltration server
+domain,imgcdn1.com,high,2026-10-06T08:59:43+00:00,2026-10-07T02:25:48+00:00,3,X:2026-10-07|Bleepingcomputer:2026-10-06|Patchstack:2026-10-06,Domain used to deliver JavaScript payloads in WordPress XSS attacks
+ipv4,185.177.72.38,high,2026-10-06T23:29:39+00:00,2026-10-06T23:29:39+00:00,1,F5:2026-10-06,"IP address used in capability probing sequence, indicating attacker control"
+domain,backend-production-6d75.up.railway.app,high,2026-10-06T20:41:31.677664+00:00,2026-10-06T20:41:31.677664+00:00,1,www.island.io:2026-10-06,Used in phishing infrastructure
+domain,mx.zxopfds.com,high,2026-10-06T18:38:42+00:00,2026-10-06T18:38:42+00:00,1,Thehackernews:2026-10-06,Domain used as a C2 server for AVERAT malware
+ipv4,118.145.196.225,high,2026-10-06T15:01:27.216140+00:00,2026-10-06T15:01:27.216140+00:00,1,www.fortinet.com:2026-10-06,Listed as a download source for malware by the attacker
+ipv4,124.163.212.119,high,2026-10-06T15:01:27.216140+00:00,2026-10-06T15:01:27.216140+00:00,1,www.fortinet.com:2026-10-06,Listed as a download source for malware by the attacker
+ipv4,222.223.152.97,high,2026-10-06T15:01:27.216140+00:00,2026-10-06T15:01:27.216140+00:00,1,www.fortinet.com:2026-10-06,Listed as a download source for malware by the attacker
+domain,museads.ai,high,2026-10-06T13:25:57+00:00,2026-10-06T13:25:57+00:00,1,Thehackernews:2026-10-06,Domain used for phishing attacks with browser-in-the-browser trick
+domain,cdnzona.discloud.app,high,2026-10-06T12:21:43.114381+00:00,2026-10-06T12:21:43.114381+00:00,1,checkmarx.com:2026-10-06,Used to host malicious payloads
+domain,arthurshelby.click,high,2026-10-06T12:18:12.787511+00:00,2026-10-06T12:18:12.787511+00:00,1,www.elastic.co:2026-10-06,Domain used for C2 registration and subdomain generation by malware
+domain,s.grldiyrsmvsggojzmi4wmyi.inevyrcfknfvit2qfvcvinjriffe6ib6hyqdambqgaydambahy7cama.arthurshelby.click,high,2026-10-06T12:18:12.787511+00:00,2026-10-06T12:18:12.787511+00:00,1,www.elastic.co:2026-10-06,Subdomain used for C2 registration by malware
+ipv4,195.16.74.138,high,2026-10-06T12:18:12.787511+00:00,2026-10-06T12:18:12.787511+00:00,1,www.elastic.co:2026-10-06,IP address associated with attacker-controlled domain
+ipv4,2.56.126.151,high,2026-10-06T12:18:12.787511+00:00,2026-10-06T12:18:12.787511+00:00,1,www.elastic.co:2026-10-06,IP address associated with attacker-controlled domain
+ipv4,2.56.126.157,high,2026-10-06T12:18:12.787511+00:00,2026-10-06T12:18:12.787511+00:00,1,www.elastic.co:2026-10-06,IP address associated with attacker-controlled domain
+ipv4,2.56.126.188,high,2026-10-06T12:18:12.787511+00:00,2026-10-06T12:18:12.787511+00:00,1,www.elastic.co:2026-10-06,IP address associated with attacker-controlled domain
 domain,cbc-comerica.com-e2.es,high,2026-10-06T12:10:50.663938+00:00,2026-10-06T12:10:50.663938+00:00,1,www.netcraft.com:2026-10-06,"Domain is part of a cluster used by Omegatech for phishing, indicating attacker control."
-ipv4,118.145.196.225,high,2026-10-06T10:32:19.218199+00:00,2026-10-06T10:32:19.218199+00:00,1,www.fortinet.com:2026-10-06,Listed as a download source for malware by the attacker
-ipv4,124.163.212.119,high,2026-10-06T10:32:19.218199+00:00,2026-10-06T10:32:19.218199+00:00,1,www.fortinet.com:2026-10-06,Listed as a download source for malware by the attacker
-ipv4,222.223.152.97,high,2026-10-06T10:32:19.218199+00:00,2026-10-06T10:32:19.218199+00:00,1,www.fortinet.com:2026-10-06,Listed as a download source for malware by the attacker
-domain,asdfafadafg.online,high,2026-10-06T10:05:56+00:00,2026-10-06T10:05:56+00:00,1,Unit42.Paloaltonetworks:2026-10-06,Domain used for phishing infrastructure as part of a credential harvesting campaign
-ipv4,87.248.129.239,high,2026-10-06T10:05:56+00:00,2026-10-06T10:05:56+00:00,1,Unit42.Paloaltonetworks:2026-10-06,IP address used as part of Blackwood malware infrastructure
+domain,asdfafadafg.online,high,2026-10-06T10:05:56+00:00,2026-10-06T10:05:56+00:00,1,Unit42.Paloaltonetworks:2026-10-06,Domain used to test phishing infrastructure
+domain,portal.sharjahairport.cloud,high,2026-10-06T10:05:56+00:00,2026-10-06T10:05:56+00:00,1,Unit42.Paloaltonetworks:2026-10-06,Domain used in malicious infrastructure targeting UAE aviation sector
+ipv4,38.180.136.127,high,2026-10-06T10:05:56+00:00,2026-10-06T10:05:56+00:00,1,Unit42.Paloaltonetworks:2026-10-06,Used as a secondary IP for phishing infrastructure
+ipv4,87.248.129.239,high,2026-10-06T10:05:56+00:00,2026-10-06T10:05:56+00:00,1,Unit42.Paloaltonetworks:2026-10-06,IP address associated with attacker-controlled domain
 ipv4,118.45.196.225,high,2026-10-06T08:37:33.517997+00:00,2026-10-06T08:37:33.517997+00:00,1,www.nozominetworks.com:2026-10-06,Listed as a loader host for malware
 ipv4,120.193.219.210,high,2026-10-06T08:37:33.517997+00:00,2026-10-06T08:37:33.517997+00:00,1,www.nozominetworks.com:2026-10-06,Listed as a loader host for malware
 ipv4,145.249.115.184,high,2026-10-05T11:50:39+00:00,2026-10-06T08:37:33.517997+00:00,4,www.nozominetworks.com:2026-10-06|Industrialcyber.Co:2026-10-06|News.Lavx.Hu:2026-10-06|Thehackernews:2026-10-05,Identified as a STUN server controlled by the botnet operator
@@ -12,6 +33,8 @@ ipv4,58.211.144.243,high,2026-10-06T08:37:33.517997+00:00,2026-10-06T08:37:33.51
 domain,capsysnet.vg,high,2026-10-05T18:15:00+00:00,2026-10-06T05:22:55+00:00,2,Feeds.Feedburner:2026-10-06|Itnews.Au:2026-10-05,Domain used to obtain a secondary in-memory stage in the attack chain
 domain,ciliabula.cc,high,2026-10-05T18:15:00+00:00,2026-10-06T05:22:55+00:00,2,Feeds.Feedburner:2026-10-06|Itnews.Au:2026-10-05,Domain used for outbound connections in the attack chain
 domain,cocojambo.us.com,high,2026-10-05T18:15:00+00:00,2026-10-06T05:22:55+00:00,2,Feeds.Feedburner:2026-10-06|Itnews.Au:2026-10-05,Domain used to fetch a PowerShell script as part of the attack
+domain,blomehairdryers.com,high,2026-10-05T20:54:17+00:00,2026-10-05T20:54:17+00:00,1,Reddit:2026-10-05,Redirects from a known adware domain
+domain,shubads.testcasehub.net,high,2026-10-05T20:54:17+00:00,2026-10-05T20:54:17+00:00,1,Reddit:2026-10-05,Domain used for adware and redirects to gambling site
 domain,aware-cr1.com,high,2026-10-05T19:05:32+00:00,2026-10-05T19:05:32+00:00,1,Socprime:2026-10-05,Listed as known C2 infrastructure in the context of 2CLoader activity
 domain,ci-artifacts.dev,high,2026-10-05T14:12:32+00:00,2026-10-05T14:12:32+00:00,1,Stepsecurity:2026-10-05,Identified as malicious in threat report
 domain,amazonprimeusa.com,high,2026-10-05T13:59:12+00:00,2026-10-05T13:59:12+00:00,1,Itsecurityguru:2026-10-05,Flagged as malicious in threat report
@@ -25,13 +48,6 @@ domain,bypass.eu.org,high,2026-10-05T10:30:37.105742+00:00,2026-10-05T10:30:37.1
 ipv4,195.64.128.106,high,2026-10-05T02:54:00+00:00,2026-10-05T02:54:00+00:00,1,Malware-Traffic-Analysis:2026-10-05,Listed as C2 traffic for CNCmachineRMS RAT
 ipv4,45.138.12.177,high,2026-10-05T00:00:00+00:00,2026-10-05T00:00:00+00:00,1,Safedep:2026-10-05,Used as a reverse shell endpoint by malicious gems
 ipv4,213.209.159.55,high,2026-10-04T22:10:13+00:00,2026-10-04T22:10:13+00:00,1,Bleepingcomputer:2026-10-04,IP address used to download a payload in an attack sequence
-domain,account-sams-club.com,high,2026-09-27T07:30:52+00:00,2026-10-04T15:32:08.324786+00:00,2,www.ontinue.com:2026-10-04|Thehackernews:2026-09-27,Domain resolves to a phishing site used for brand impersonation
-domain,ibraq-perfumes.com,high,2026-10-04T15:32:08.324786+00:00,2026-10-04T15:32:08.324786+00:00,1,www.ontinue.com:2026-10-04,Domain resolves to a phishing site used for brand impersonation
-domain,namshi-uae.com,high,2026-10-04T15:32:08.324786+00:00,2026-10-04T15:32:08.324786+00:00,1,www.ontinue.com:2026-10-04,Domain resolves to a phishing site used for brand impersonation
-domain,teamwork-recover-password.com,high,2026-09-27T07:30:52+00:00,2026-10-04T15:32:08.324786+00:00,2,www.ontinue.com:2026-10-04|Thehackernews:2026-09-27,Domain resolves to a phishing site used for brand impersonation
-domain,whatsappbusineses.com,high,2026-09-27T07:30:52+00:00,2026-10-04T15:32:08.324786+00:00,2,www.ontinue.com:2026-10-04|Thehackernews:2026-09-27,Domain resolves to a phishing site used for brand impersonation
-ipv4,103.101.85.123,high,2026-10-04T15:32:08.324786+00:00,2026-10-04T15:32:08.324786+00:00,1,www.ontinue.com:2026-10-04,IP address hosts a panel resolving to phishing domains
-ipv4,193.178.158.61,high,2026-10-04T15:32:08.324786+00:00,2026-10-04T15:32:08.324786+00:00,1,www.ontinue.com:2026-10-04,IP address hosts a panel on the same network as the exfiltration server
 domain,account.drive-google-com.tk,high,2026-10-02T16:30:51.440394+00:00,2026-10-02T16:30:51.440394+00:00,1,www.proofpoint.com:2026-10-02,Listed as previously reported UNK_SweetSpecter domain used for C2 communications
 domain,account.gommask.online,high,2026-10-02T16:30:51.440394+00:00,2026-10-02T16:30:51.440394+00:00,1,www.proofpoint.com:2026-10-02,Identified as a new C2 domain for UNK_SweetSpecter
 ipv4,103.148.245.235,high,2026-10-02T16:30:51.440394+00:00,2026-10-02T16:30:51.440394+00:00,1,www.proofpoint.com:2026-10-02,Shared hosting with UNK_SweetSpecter C2 domains
@@ -42,7 +58,7 @@ ipv4,79.141.169.187,high,2026-10-01T22:42:49+00:00,2026-10-02T10:12:19+00:00,4,L
 domain,presaie-roaringkitty.com,high,2026-10-02T09:29:56+00:00,2026-10-02T09:29:56+00:00,1,Bleepingcomputer:2026-10-02,Domain used by attackers to lure victims into a cryptocurrency scam.
 domain,driftshare.co,high,2026-10-01T09:00:00+00:00,2026-10-02T06:57:52+00:00,3,Crnasia:2026-10-02|News.Lavx.Hu:2026-10-01|Proofpoint:2026-10-01,Used as a first-stage domain in a phishing campaign by TA419
 domain,globalfileshareplatform.com,high,2026-10-01T09:00:00+00:00,2026-10-02T06:57:52+00:00,3,Crnasia:2026-10-02|News.Lavx.Hu:2026-10-01|Proofpoint:2026-10-01,Used as a second-stage domain in a phishing campaign by TA419
-domain,fingercakes4sale.store,high,2026-10-02T03:44:40.584000+00:00,2026-10-02T03:44:40.584000+00:00,1,Socket.Dev:2026-10-02,Listed as a malware contact domain in a threat report
+domain,fingercakes4sale.store,high,2026-10-02T03:44:40.584000+00:00,2026-10-02T03:44:40.584000+00:00,1,Socket.Dev:2026-10-02,Domain contacted by malware for executing threat actor-controlled content
 domain,amazonprime-support.com,high,2026-10-01T22:23:34+00:00,2026-10-01T22:23:34+00:00,1,Blog.Checkpoint:2026-10-01,Classified as a malicious domain targeting Amazon Prime brand.
 domain,amazonprimewindows.com,high,2026-10-01T22:23:34+00:00,2026-10-01T22:23:34+00:00,1,Blog.Checkpoint:2026-10-01,Classified as a malicious domain targeting Amazon Prime brand.
 domain,primevideoamazon.com,high,2026-10-01T22:23:34+00:00,2026-10-01T22:23:34+00:00,1,Blog.Checkpoint:2026-10-01,Classified as a malicious domain targeting Amazon Prime brand.
@@ -561,8 +577,3 @@ ipv4,107.128.45.122,high,2026-09-08T08:24:28+00:00,2026-09-08T08:24:28+00:00,1,B
 ipv4,38.42.59.171,high,2026-09-08T08:24:28+00:00,2026-09-08T08:24:28+00:00,1,Bloglab.360:2026-09-08,Listed as part of an attack campaign
 ipv4,76.103.148.180,high,2026-09-08T08:24:28+00:00,2026-09-08T08:24:28+00:00,1,Bloglab.360:2026-09-08,Listed as part of an attack campaign
 ipv4,80.96.109.64,high,2026-09-08T08:24:28+00:00,2026-09-08T08:24:28+00:00,1,Bloglab.360:2026-09-08,Listed as part of an attack campaign
-ipv4,2.147.68.96,high,2026-09-07T11:47:55+00:00,2026-09-07T11:47:55+00:00,1,Dexpose:2026-09-07,Listed as a command-and-control IP address for DragonForce campaign
-ipv4,69.4.234.20,high,2026-09-07T11:47:55+00:00,2026-09-07T11:47:55+00:00,1,Dexpose:2026-09-07,Listed as a command-and-control IP address for DragonForce campaign
-domain,xfjcc.fun,high,2026-09-07T05:51:11+00:00,2026-09-07T05:51:11+00:00,1,Gbhackers:2026-09-07,Domain used for C2 activity and payload distribution
-ipv4,159.198.75.180,high,2026-09-07T05:02:05+00:00,2026-09-07T05:02:05+00:00,1,Redpacketsecurity:2026-09-07,Alert on connections to this IP suggests it is used for Mythic C2 operations.
-ipv4,103.102.31.18,high,2026-09-06T13:46:02+00:00,2026-09-06T13:46:02+00:00,1,Securityaffairs.Co:2026-09-06,Used in attempts to exploit vulnerabilities; identified as attacker infrastructure

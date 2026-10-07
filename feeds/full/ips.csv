@@ -1,7 +1,16 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason
-ipv4,118.145.196.225,high,2026-10-05T16:30:57.752378+00:00,2026-10-06T10:32:19.218199+00:00,1,,Listed as a download source for malware by the attacker
-ipv4,124.163.212.119,high,2026-10-05T16:30:57.752378+00:00,2026-10-06T10:32:19.218199+00:00,1,,Listed as a download source for malware by the attacker
-ipv4,222.223.152.97,high,2026-10-05T16:30:57.752378+00:00,2026-10-06T10:32:19.218199+00:00,1,,Listed as a download source for malware by the attacker
+ipv4,103.101.85.123,high,2026-09-27T09:02:32.908946+00:00,2026-10-07T12:02:35.647461+00:00,1,,IP address hosts a panel resolving to phishing domains
+ipv4,193.178.158.61,high,2026-09-25T17:12:02.656577+00:00,2026-10-07T12:02:35.647461+00:00,1,,IP address hosts a panel on the same network as the exfiltration server
+ipv4,185.177.72.38,high,2026-10-06T23:29:39+00:00,2026-10-06T23:29:39+00:00,1,,"IP address used in capability probing sequence, indicating attacker control"
+ipv4,118.145.196.225,high,2026-10-05T16:30:57.752378+00:00,2026-10-06T15:01:27.216140+00:00,1,,Listed as a download source for malware by the attacker
+ipv4,124.163.212.119,high,2026-10-05T16:30:57.752378+00:00,2026-10-06T15:01:27.216140+00:00,1,,Listed as a download source for malware by the attacker
+ipv4,222.223.152.97,high,2026-10-05T16:30:57.752378+00:00,2026-10-06T15:01:27.216140+00:00,1,,Listed as a download source for malware by the attacker
+ipv4,195.16.74.138,high,2026-10-06T12:18:12.787511+00:00,2026-10-06T12:18:12.787511+00:00,1,,IP address associated with attacker-controlled domain
+ipv4,2.56.126.151,high,2026-10-06T12:18:12.787511+00:00,2026-10-06T12:18:12.787511+00:00,1,,IP address associated with attacker-controlled domain
+ipv4,2.56.126.157,high,2026-10-06T12:18:12.787511+00:00,2026-10-06T12:18:12.787511+00:00,1,,IP address associated with attacker-controlled domain
+ipv4,2.56.126.188,high,2026-10-06T12:18:12.787511+00:00,2026-10-06T12:18:12.787511+00:00,1,,IP address associated with attacker-controlled domain
+ipv4,38.180.136.127,high,2026-10-06T10:05:56+00:00,2026-10-06T10:05:56+00:00,1,,Used as a secondary IP for phishing infrastructure
+ipv4,87.248.129.239,high,2026-10-06T10:05:56+00:00,2026-10-06T10:05:56+00:00,1,,IP address associated with attacker-controlled domain
 ipv4,118.45.196.225,high,2026-10-05T13:30:43.355486+00:00,2026-10-06T08:37:33.517997+00:00,1,,Listed as a loader host for malware
 ipv4,120.193.219.210,high,2026-10-05T13:30:43.355486+00:00,2026-10-06T08:37:33.517997+00:00,1,,Listed as a loader host for malware
 ipv4,145.249.115.184,high,2026-10-05T11:50:39+00:00,2026-10-06T08:37:33.517997+00:00,4,,Identified as a STUN server controlled by the botnet operator
@@ -11,8 +20,6 @@ ipv4,66.203.124.135,high,2026-10-05T11:10:47+00:00,2026-10-05T11:10:47+00:00,1,,
 ipv4,195.64.128.106,high,2026-10-05T02:54:00+00:00,2026-10-05T02:54:00+00:00,1,,Listed as C2 traffic for CNCmachineRMS RAT
 ipv4,45.138.12.177,high,2026-10-05T00:00:00+00:00,2026-10-05T00:00:00+00:00,1,,Used as a reverse shell endpoint by malicious gems
 ipv4,213.209.159.55,high,2026-10-04T22:10:13+00:00,2026-10-04T22:10:13+00:00,1,,IP address used to download a payload in an attack sequence
-ipv4,103.101.85.123,high,2026-09-27T09:02:32.908946+00:00,2026-10-04T15:32:08.324786+00:00,1,,IP address hosts a panel resolving to phishing domains
-ipv4,193.178.158.61,high,2026-09-25T17:12:02.656577+00:00,2026-10-04T15:32:08.324786+00:00,1,,IP address hosts a panel on the same network as the exfiltration server
 ipv4,103.148.245.235,high,2026-10-01T17:40:37.656673+00:00,2026-10-02T16:30:51.440394+00:00,1,,Shared hosting with UNK_SweetSpecter C2 domains
 ipv4,43.242.203.115,high,2026-10-01T17:40:37.656673+00:00,2026-10-02T16:30:51.440394+00:00,1,,Hosting the new C2 domain for UNK_SweetSpecter
 ipv4,79.141.169.187,high,2026-10-01T22:42:49+00:00,2026-10-02T10:12:19+00:00,4,,Identified as an external server used by attackers for data exfiltration
