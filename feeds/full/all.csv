@@ -1,4 +1,149 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason
+domain,malwarescan.xyz,high,2026-10-07T16:33:59.128067+00:00,2026-10-08T12:00:35.203953+00:00,1,,Domain registered and operated by the PoeLLM creator
+ipv4,103.249.201.108,high,2026-10-07T16:33:59.128067+00:00,2026-10-08T12:00:35.203953+00:00,1,,Listed as a C2 IP address associated with the campaign
+ipv4,120.224.114.212,high,2026-10-07T16:33:59.128067+00:00,2026-10-08T12:00:35.203953+00:00,1,,Listed as additional infrastructure observed during the campaign
+ipv4,136.148.69.233,high,2026-10-07T16:33:59.128067+00:00,2026-10-08T12:00:35.203953+00:00,1,,Listed as additional infrastructure observed during the campaign
+ipv4,185.132.53.158,high,2026-10-07T16:33:59.128067+00:00,2026-10-08T12:00:35.203953+00:00,1,,Listed as additional infrastructure observed during the campaign
+ipv4,191.37.28.160,high,2026-10-07T16:33:59.128067+00:00,2026-10-08T12:00:35.203953+00:00,1,,Listed as additional infrastructure observed during the campaign
+ipv4,89.39.253.46,high,2026-10-07T16:33:59.128067+00:00,2026-10-08T12:00:35.203953+00:00,1,,Listed as additional infrastructure observed during the campaign
+ipv4,92.119.164.50,high,2026-10-07T16:33:59.128067+00:00,2026-10-08T12:00:35.203953+00:00,1,,Listed as a C2 IP address associated with the campaign
+ipv4,92.119.165.74,high,2026-10-07T16:33:59.128067+00:00,2026-10-08T12:00:35.203953+00:00,1,,Listed as additional infrastructure observed during the campaign
+sha256,6fab94577364beec314afae3b082dd680933f08a8349b9f35b92667e8231b501,high,2026-10-07T16:33:59.128067+00:00,2026-10-08T12:00:35.203953+00:00,1,,SHA256 hash of a PoeLLM malware sample
+ipv4,64.95.10.223,high,2026-10-08T11:00:28.804589+00:00,2026-10-08T11:00:28.804589+00:00,1,,"Listed as MATCHBOIL C&C IP, VPS"
+ipv4,64.95.13.210,high,2026-10-08T11:00:28.804589+00:00,2026-10-08T11:00:28.804589+00:00,1,,"Listed as MATCHBOIL C&C IP, VPS"
+sha1,050926727CDD74F0B3A8A098E60B76D10FB06B14,high,2026-10-08T11:00:28.804589+00:00,2026-10-08T11:00:28.804589+00:00,1,,SHA-1 hash of a MATCHBOIL malware sample
+sha1,1E2C4AAC30EDFF86CD9A30BD08B199BCD3D0CCCE,high,2026-10-08T11:00:28.804589+00:00,2026-10-08T11:00:28.804589+00:00,1,,SHA-1 hash of a MATCHBOIL malware sample
+sha1,C85D28F7D272CE2BBBFB9DAE71D21BF25B8D00FC,high,2026-10-08T11:00:28.804589+00:00,2026-10-08T11:00:28.804589+00:00,1,,SHA-1 hash of a MATCHBOIL malware sample
+sha1,F886B615CB9E23EAD2718FF2A61155ACFB04CE9E,high,2026-10-08T11:00:28.804589+00:00,2026-10-08T11:00:28.804589+00:00,1,,SHA-1 hash of a MATCHBOIL malware sample
+sha256,16447c70f8e3c99de95b92846460214a661915c89f5c10965bf18da4c279880a,high,2026-10-08T10:04:16.417854+00:00,2026-10-08T10:04:16.417854+00:00,1,,Listed as a loader payload script hash
+sha256,dc717b5ab9a8eccf6b6187880ba90b004cb00f503ff8bceb8405ccc33d1c6e3e,high,2026-10-08T10:04:16.417854+00:00,2026-10-08T10:04:16.417854+00:00,1,,Listed as a Google account takeover payload hash
+domain,ns1.intersecdns.com,high,2026-10-08T10:00:29.921694+00:00,2026-10-08T10:00:29.921694+00:00,1,,Identified as an actor-controlled name server used in the campaign
+domain,rootdnservers.com,high,2026-10-08T10:00:29.921694+00:00,2026-10-08T10:00:29.921694+00:00,1,,New actor-controlled name server used for DNS hijacking
+domain,fasttools.co,high,2026-10-07T15:43:09.619000+00:00,2026-10-08T09:46:32+00:00,2,,Listed as part of malicious extensions infrastructure
+domain,tabtools.co,high,2026-10-07T15:43:09.619000+00:00,2026-10-08T09:46:32+00:00,2,,Listed as part of malicious extensions infrastructure
+domain,webtools.co,high,2026-10-07T15:43:09.619000+00:00,2026-10-08T09:46:32+00:00,2,,Listed as part of malicious extensions infrastructure
+domain,iseekaigogo.com,high,2026-10-08T00:00:00+00:00,2026-10-08T08:45:18+00:00,5,,Listed as the hardcoded C2 address in the malware
+sha256,25a0735d0db7dc40e5d45ce42d9c106067e6a66e184d967cfecfab17c3bcb5ef,high,2026-10-08T02:54:50.050000+00:00,2026-10-08T08:45:18+00:00,3,,SHA-256 hash of a malicious file used in the attack
+sha256,974b69782fdf5d67b97cfd508465939e44ee10798dbcc1e82b92d78776bad938,high,2026-10-01T06:30:21.250034+00:00,2026-10-08T08:11:23.444182+00:00,1,,Listed as a payload-hosting infrastructure file hash
+sha256,e9fe43968c6c0955300e3bc4d7fb0b05a18570b4733aaf4f5c6f7f09be5a242c,high,2026-10-01T06:30:21.250034+00:00,2026-10-08T08:11:23.444182+00:00,1,,Listed as a payload-hosting infrastructure file hash
+ipv4,38.60.157.86,high,2026-10-07T12:49:01+00:00,2026-10-08T07:57:29+00:00,2,,Listed as an IP address from which exploit attempts originated
+sha256,b50a00900399ba99fb6ce1fc151519cb99d44320ef2a631f2237e1aea0ad6fec,high,2026-10-08T02:54:50.050000+00:00,2026-10-08T03:19:22+00:00,2,,SHA-256 hash of a malicious file used in the attack
+sha256,0801b24d2708b3f6195c8156d3661c027d678f5be064906db4fefe74e1a74b17,high,2026-10-07T23:01:57.464999+00:00,2026-10-07T23:01:57.464999+00:00,1,,Listed as a malware variant for Linux in a threat report.
+sha256,3f4445eaf22cf236b5aeff5a5c24bf6dbc4c25dc926239b8732b351b09698653,high,2026-10-07T23:01:57.464999+00:00,2026-10-07T23:01:57.464999+00:00,1,,Listed as a malware variant for macOS in a threat report.
+sha256,df67a118cacf68ffe5610e8acddbe38db9fb702b473c941f4ea0320943ef32ba,high,2026-10-07T23:01:57.464999+00:00,2026-10-07T23:01:57.464999+00:00,1,,Listed as a malware variant for Windows in a threat report.
+domain,accessdest.strangled.net,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,,Listed in a structured IOC list as attacker-controlled infrastructure
+domain,bookstore.strangled.net,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,,Listed in a structured IOC list as attacker-controlled infrastructure
+domain,bug.ignorelist.com,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,,Listed in a structured IOC list as attacker-controlled infrastructure
+domain,cars-online.zapto.org,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,,Listed in a structured IOC list as attacker-controlled infrastructure
+domain,coldriver.strangled.net,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,,Listed in a structured IOC list as attacker-controlled infrastructure
+domain,downtown.crabdance.com,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,,Listed in a structured IOC list as attacker-controlled infrastructure
+domain,easport-news.publicvm.com,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,,Listed in a structured IOC list as attacker-controlled infrastructure
+domain,forum.sytes.net,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,,Listed in a structured IOC list as attacker-controlled infrastructure
+domain,goldenroade.strangled.net,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,,Listed in a structured IOC list as attacker-controlled infrastructure
+domain,greateplan.ocry.com,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,,Listed in a structured IOC list as attacker-controlled infrastructure
+domain,health-everyday.faqserv.com,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,,Listed in a structured IOC list as attacker-controlled infrastructure
+domain,highhills.ignorelist.com,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,,Listed in a structured IOC list as attacker-controlled infrastructure
+domain,hockey-news.servehttp.com,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,,Listed in a structured IOC list as attacker-controlled infrastructure
+domain,leagueoflegends.servequake.com,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,,Listed in a structured IOC list as attacker-controlled infrastructure
+domain,marketplace.servehttp.com,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,,Listed in a structured IOC list as attacker-controlled infrastructure
+domain,mediahistory.linkpc.net,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,,Listed in a structured IOC list as attacker-controlled infrastructure
+domain,music-world.servemp3.com,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,,Listed in a structured IOC list as attacker-controlled infrastructure
+domain,new-book.linkpc.net,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,,Listed in a structured IOC list as attacker-controlled infrastructure
+domain,securesource.strangled.net,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,,Listed in a structured IOC list as attacker-controlled infrastructure
+domain,softstream.strangled.net,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,,Listed in a structured IOC list as attacker-controlled infrastructure
+domain,sportacademy.my03.com,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,,Listed in a structured IOC list as attacker-controlled infrastructure
+domain,sportnewspaper.strangled.net,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,,Listed in a structured IOC list as attacker-controlled infrastructure
+domain,supercar.ignorelist.com,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,,Listed in a structured IOC list as attacker-controlled infrastructure
+domain,supernews.instanthq.com,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,,Listed in a structured IOC list as attacker-controlled infrastructure
+domain,supernews.sytes.net,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,,Listed in a structured IOC list as attacker-controlled infrastructure
+domain,tiger.got-game.org,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,,Listed in a structured IOC list as attacker-controlled infrastructure
+domain,top-facts.sytes.net,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,,Listed in a structured IOC list as attacker-controlled infrastructure
+domain,track.strangled.net,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,,Listed in a structured IOC list as attacker-controlled infrastructure
+domain,wargame.ignorelist.com,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,,Listed in a structured IOC list as attacker-controlled infrastructure
+domain,weather-online.hopto.org,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,,Listed in a structured IOC list as attacker-controlled infrastructure
+domain,wintersport.mrbasic.com,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,,Listed in a structured IOC list as attacker-controlled infrastructure
+domain,x-files.zapto.org,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,,Listed in a structured IOC list as attacker-controlled infrastructure
+ipv4,209.239.79.121,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,,Listed in a structured IOC list as attacker-controlled infrastructure
+ipv4,209.239.79.125,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,,Listed in a structured IOC list as attacker-controlled infrastructure
+ipv4,209.239.79.15,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,,Listed in a structured IOC list as attacker-controlled infrastructure
+ipv4,209.239.79.152,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,,Listed in a structured IOC list as attacker-controlled infrastructure
+ipv4,209.239.79.33,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,,Listed in a structured IOC list as attacker-controlled infrastructure
+ipv4,209.239.79.35,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,,Listed in a structured IOC list as attacker-controlled infrastructure
+ipv4,209.239.79.47,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,,Listed in a structured IOC list as attacker-controlled infrastructure
+ipv4,209.239.79.52,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,,Listed in a structured IOC list as attacker-controlled infrastructure
+ipv4,209.239.79.55,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,,Listed in a structured IOC list as attacker-controlled infrastructure
+ipv4,209.239.79.69,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,,Listed in a structured IOC list as attacker-controlled infrastructure
+ipv4,209.239.82.7,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,,Listed in a structured IOC list as attacker-controlled infrastructure
+ipv4,209.239.85.240,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,,Listed in a structured IOC list as attacker-controlled infrastructure
+ipv4,209.239.89.100,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,,Listed in a structured IOC list as attacker-controlled infrastructure
+ipv4,217.194.150.31,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,,Listed in a structured IOC list as attacker-controlled infrastructure
+ipv4,217.20.242.22,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,,Listed in a structured IOC list as attacker-controlled infrastructure
+ipv4,41.190.233.29,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,,Listed in a structured IOC list as attacker-controlled infrastructure
+ipv4,62.243.189.187,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,,Listed in a structured IOC list as attacker-controlled infrastructure
+ipv4,62.243.189.215,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,,Listed in a structured IOC list as attacker-controlled infrastructure
+ipv4,62.243.189.231,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,,Listed in a structured IOC list as attacker-controlled infrastructure
+ipv4,77.246.71.10,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,,Listed in a structured IOC list as attacker-controlled infrastructure
+ipv4,77.246.76.19,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,,Listed in a structured IOC list as attacker-controlled infrastructure
+ipv4,77.73.187.223,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,,Listed in a structured IOC list as attacker-controlled infrastructure
+ipv4,82.146.166.56,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,,Listed in a structured IOC list as attacker-controlled infrastructure
+ipv4,82.146.166.62,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,,Listed in a structured IOC list as attacker-controlled infrastructure
+ipv4,82.146.174.58,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,,Listed in a structured IOC list as attacker-controlled infrastructure
+ipv4,84.11.79.6,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,,Hardcoded in the configuration block of a malicious sample
+ipv4,92.62.218.99,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,,Listed in a structured IOC list as attacker-controlled infrastructure
+ipv4,92.62.219.172,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,,Listed in a structured IOC list as attacker-controlled infrastructure
+ipv4,92.62.220.170,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,,Listed in a structured IOC list as attacker-controlled infrastructure
+ipv4,92.62.221.30,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,,Listed in a structured IOC list as attacker-controlled infrastructure
+ipv4,92.62.221.38,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,,Listed in a structured IOC list as attacker-controlled infrastructure
+md5,0328dedfce54e185ad395ac44aa4223c,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,,Listed as a Turla malware sample hash
+md5,18da7eea4e8a862a19c8c4f10d7341c0,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,,Listed as a Turla malware sample hash
+md5,2a7670aa9d1cc64e61fd50f9f64296f9,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,,Listed as a Turla malware sample hash
+md5,49d6cf436aa7bc5314aa4e78608872d8,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,,Listed as a Turla malware sample hash
+md5,594cb9523e32a5bbf4eb1c491f06d4f9,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,,Listed as a Turla malware sample hash
+md5,a44ee30f9f14e156ac0c2137af595cf7,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,,Listed as a Turla malware sample hash
+md5,b0a1301bc25cfbe66afe596272f56475,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,,Listed as a Turla malware sample hash
+md5,bcfee2fb5dbc111bfa892ff9e19e45c1,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,,Listed as a Turla malware sample hash
+md5,d5bd7211332d31dcead4bfb07b288473,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,,Listed as a Turla malware sample hash
+md5,d6211fec96c60114d41ec83874a1b31d,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,,Listed as a Turla malware sample hash
+md5,e29a3cc864d943f0e3ede404a32f4189,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,,Listed as a Turla malware sample hash
+md5,f5916f8f004ffb85e93b4d205576a247,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,,Listed as a Turla malware sample hash
+domain,browserweb.com,high,2026-10-07T15:43:09.619000+00:00,2026-10-07T15:43:09.619000+00:00,1,,Used for exfiltration in a malicious extension
+domain,neattools.com,high,2026-10-07T15:43:09.619000+00:00,2026-10-07T15:43:09.619000+00:00,1,,Used in malicious extensions for crypto-theft
+domain,protools.net,high,2026-10-07T15:43:09.619000+00:00,2026-10-07T15:43:09.619000+00:00,1,,Used in malicious extensions for crypto-theft
+domain,webtools.com,high,2026-10-07T15:43:09.619000+00:00,2026-10-07T15:43:09.619000+00:00,1,,Used in malicious extensions for crypto-theft
+sha256,0aed5f24ce625ee6b9422083302766f74b0b9a57e1b18213328b950cc7057e35,high,2026-10-07T15:43:09.619000+00:00,2026-10-07T15:43:09.619000+00:00,1,,Listed as a malicious extension hash
+sha256,225f5d6c5d70a7e7f3abf62ea0dda1cf8bf8e70565f7db748b0d8fa602da939b,high,2026-10-07T15:43:09.619000+00:00,2026-10-07T15:43:09.619000+00:00,1,,Listed as a malicious extension hash
+sha256,2f9270269e631bc4fd634d741afcfc3df8f54e43e40b16f38660fe8ce6c26f51,high,2026-10-07T15:43:09.619000+00:00,2026-10-07T15:43:09.619000+00:00,1,,Listed as a malicious extension hash
+sha256,4512389444a767f12211beeb5f2ad165aca4a558e88e8f111affb30b77ed6a5a,high,2026-10-07T15:43:09.619000+00:00,2026-10-07T15:43:09.619000+00:00,1,,Listed as a malicious extension hash
+sha256,458e7255438f15aaede02fd7f8fcfdf762aa6e08608b9546fe8aa8aa399c76b7,high,2026-10-07T15:43:09.619000+00:00,2026-10-07T15:43:09.619000+00:00,1,,Listed as a malicious extension hash
+sha256,635b31b4a19b5673fcbe0fedeb3f7ed2c27fddb739685f19ca5f3d1f1d7f0083,high,2026-10-07T15:43:09.619000+00:00,2026-10-07T15:43:09.619000+00:00,1,,Listed as a malicious extension hash
+sha256,6b53369fb868efb92b60af40fbd5906fa3d3d8785a7878b4af6e4efd333a4de8,high,2026-10-07T15:43:09.619000+00:00,2026-10-07T15:43:09.619000+00:00,1,,Listed as a malicious extension hash
+sha256,71ec70479ab78efb1e1f9507f8ff7348d5711c837cc50a0120f3a188c340f3f4,high,2026-10-07T15:43:09.619000+00:00,2026-10-07T15:43:09.619000+00:00,1,,Listed as a malicious extension hash
+sha256,7d9d7e80ed52350616be0215a7ded10aaeb9aaa64e34ff8af7f9177c8c855799,high,2026-10-07T15:43:09.619000+00:00,2026-10-07T15:43:09.619000+00:00,1,,Listed as a malicious extension hash
+sha256,8906dd85b0991fac14e5973b3f3f61d93ef1101504cb5867a004c762ee184ef7,high,2026-10-07T15:43:09.619000+00:00,2026-10-07T15:43:09.619000+00:00,1,,Listed as a malicious extension hash
+sha256,9fea0ee3c81047f5e50eeb3a2ab2a7cd70357f3e49944b7079ab3e90c9ea0e8b,high,2026-10-07T15:43:09.619000+00:00,2026-10-07T15:43:09.619000+00:00,1,,Listed as a malicious extension hash
+sha256,b02ae1d5a0d2a5b28f8baa2afcdc7d7090fab051536303cba3ba1f17860da980,high,2026-10-07T15:43:09.619000+00:00,2026-10-07T15:43:09.619000+00:00,1,,Listed as a malicious extension hash
+sha256,bb8f60b3f77d96adc93bf0515b34df7c5f1f560a9f6d0c353b7d849609e3557d,high,2026-10-07T15:43:09.619000+00:00,2026-10-07T15:43:09.619000+00:00,1,,Listed as a malicious extension hash
+sha256,be246ca5cb1372394e0443df45454f88ca39eb4a8dcfc4a99cb8865100fb4897,high,2026-10-07T15:43:09.619000+00:00,2026-10-07T15:43:09.619000+00:00,1,,Listed as a malicious extension hash
+sha256,c550f0860012e0dfab14ed65a9425961e22025e0ab23fd9d69d294a8aa34db2f,high,2026-10-07T15:43:09.619000+00:00,2026-10-07T15:43:09.619000+00:00,1,,Listed as a malicious extension hash
+sha256,d9432e41e0401715bce4ce11f4a7104d94fab1ec89be553ba57a2097e418c1a1,high,2026-10-07T15:43:09.619000+00:00,2026-10-07T15:43:09.619000+00:00,1,,Listed as a malicious extension hash
+sha256,da447fe02e4577da97144a4d92b395078954fde1ff196746413837e1e4a20bcd,high,2026-10-07T15:43:09.619000+00:00,2026-10-07T15:43:09.619000+00:00,1,,Listed as a malicious extension hash
+sha256,e5c9a29d5ba0f53a49d8b333bfab17bf9878f94e8c3f325f5afacad44bb26fb5,high,2026-10-07T15:43:09.619000+00:00,2026-10-07T15:43:09.619000+00:00,1,,Listed as a malicious extension hash
+sha256,e96c75cd0c9b35000b4a3ec12d5dd23ca157e94aee7271a0fe8d8d7c9f2e9096,high,2026-10-07T15:43:09.619000+00:00,2026-10-07T15:43:09.619000+00:00,1,,Listed as a malicious extension hash
+sha256,eb134bbf73046800c8177383754cf754b8776ec30cf5cc8a13655d259e49a4bf,high,2026-10-07T15:43:09.619000+00:00,2026-10-07T15:43:09.619000+00:00,1,,Listed as a shared compact frontend hash
+sha256,faf174414ddc7099360c4ae4d16497b9846cfae71ffad5bbab820bba657f94d3,high,2026-10-07T15:43:09.619000+00:00,2026-10-07T15:43:09.619000+00:00,1,,Listed as a malicious extension hash
+domain,burnsworth.site,high,2026-10-07T13:04:03+00:00,2026-10-07T14:25:29+00:00,2,,Domain used for attacker-controlled operations and fingerprinting victims.
+domain,dailylifeproject.site,high,2026-10-07T14:25:29+00:00,2026-10-07T14:25:29+00:00,1,,Domain used for fingerprinting victims and part of attacker-controlled operations.
+domain,essaywritingservice.site,high,2026-10-07T13:04:03+00:00,2026-10-07T14:25:29+00:00,2,,Domain used for attacker-controlled operations and fingerprinting victims.
+domain,onthegotree.site,high,2026-10-07T13:04:03+00:00,2026-10-07T14:25:29+00:00,2,,Domain used for attacker-controlled operations and deploying rogue clients.
+ipv4,45.154.12.132,high,2026-10-07T13:51:21+00:00,2026-10-07T13:51:23+00:00,1,,Listed as a C2 server used by the threat actors in the FortiBleed campaign.
+ipv4,103.27.186.156,high,2026-10-07T13:51:21+00:00,2026-10-07T13:51:21+00:00,1,,Listed as a proxy node used by threat actors.
+ipv4,154.202.59.169,high,2026-10-07T13:51:21+00:00,2026-10-07T13:51:21+00:00,1,,Listed as a proxy node used by threat actors.
+domain,check.vykyn.click,high,2026-10-07T13:04:03+00:00,2026-10-07T13:04:03+00:00,1,,Domain used for redirecting visitors as part of attacker-controlled operations.
+domain,openpediatrics.site,high,2026-10-07T13:04:03+00:00,2026-10-07T13:04:03+00:00,1,,Domain used for attacker-controlled operations and fingerprinting victims.
+sha256,5956f9afb3ba610c38b2cfda88dd15be98783963769a12020c93ce05e749b3c3,high,2026-10-07T13:04:03+00:00,2026-10-07T13:04:03+00:00,1,,SHA256 hash listed as an initial rogue ScreenConnect client.
+domain,carte-avantage.com,high,2026-10-07T13:03:38+00:00,2026-10-07T13:03:38+00:00,1,,Used as an exfiltration endpoint by attackers
+ipv4,170.39.218.2,high,2026-10-07T13:03:38+00:00,2026-10-07T13:03:38+00:00,1,,Listed as an endpoint used by attackers.
+ipv4,193.32.204.199,high,2026-10-07T13:03:38+00:00,2026-10-07T13:03:38+00:00,1,,Listed as an exfiltration endpoint used by attackers.
 domain,account-sams-club.com,high,2026-09-27T07:30:52+00:00,2026-10-07T12:02:35.647461+00:00,2,,Domain resolves to a phishing site used for brand impersonation
 domain,ibraq-perfumes.com,high,2026-09-27T09:02:32.908946+00:00,2026-10-07T12:02:35.647461+00:00,1,,Domain resolves to a phishing site used for brand impersonation
 domain,namshi-uae.com,high,2026-09-27T09:02:32.908946+00:00,2026-10-07T12:02:35.647461+00:00,1,,Domain resolves to a phishing site used for brand impersonation
@@ -6,7 +151,10 @@ domain,teamwork-recover-password.com,high,2026-09-27T07:30:52+00:00,2026-10-07T1
 domain,whatsappbusineses.com,high,2026-09-27T07:30:52+00:00,2026-10-07T12:02:35.647461+00:00,2,,Domain resolves to a phishing site used for brand impersonation
 ipv4,103.101.85.123,high,2026-09-27T09:02:32.908946+00:00,2026-10-07T12:02:35.647461+00:00,1,,IP address hosts a panel resolving to phishing domains
 ipv4,193.178.158.61,high,2026-09-25T17:12:02.656577+00:00,2026-10-07T12:02:35.647461+00:00,1,,IP address hosts a panel on the same network as the exfiltration server
+domain,www.hookphish.com,high,2026-10-07T08:18:23+00:00,2026-10-07T08:18:23+00:00,1,,Listed as an indicator for ransomware detection
 sha256,30a8cf3e6863030c762b468bf48d679f3dd053a80793770443938fa18de89617,high,2026-10-07T08:18:23+00:00,2026-10-07T08:18:23+00:00,1,,Confirmed SHA256 hash of the Termite ransomware sample.
+domain,xcai.pro,high,2026-10-07T05:00:00+00:00,2026-10-07T05:00:00+00:00,1,,Used as an LLM API proxy by attackers
+ipv4,38.244.50.120,high,2026-10-07T05:00:00+00:00,2026-10-07T05:00:00+00:00,1,,Associated with threat actor activity and hosting malicious content.
 domain,imgcdn1.com,high,2026-10-06T08:59:43+00:00,2026-10-07T02:25:48+00:00,3,,Domain used to deliver JavaScript payloads in WordPress XSS attacks
 ipv4,185.177.72.38,high,2026-10-06T23:29:39+00:00,2026-10-06T23:29:39+00:00,1,,"IP address used in capability probing sequence, indicating attacker control"
 domain,backend-production-6d75.up.railway.app,high,2026-10-06T20:41:31.677664+00:00,2026-10-06T20:41:31.677664+00:00,1,,Used in phishing infrastructure
@@ -320,8 +468,6 @@ ipv4,31.217.177.172,high,2026-10-01T09:00:24+00:00,2026-10-01T09:00:24+00:00,1,,
 sha1,3972dd9c063f297dbaf386d1bcae235a2d0142dd,high,2026-10-01T09:00:24+00:00,2026-10-01T09:00:24+00:00,1,,Listed as a torrent infohash linked to a ransomware group
 domain,fileswiftonline.cloud,high,2026-10-01T09:00:00+00:00,2026-10-01T09:00:00+00:00,1,,Used as a second-stage AitM phishing domain
 domain,publicsharefile.cloud,high,2026-10-01T09:00:00+00:00,2026-10-01T09:00:00+00:00,1,,Used as a second-stage AitM phishing domain
-sha256,974b69782fdf5d67b97cfd508465939e44ee10798dbcc1e82b92d78776bad938,high,2026-10-01T06:30:21.250034+00:00,2026-10-01T06:30:21.250034+00:00,1,,Listed as a payload-hosting infrastructure file hash
-sha256,e9fe43968c6c0955300e3bc4d7fb0b05a18570b4733aaf4f5c6f7f09be5a242c,high,2026-10-01T06:30:21.250034+00:00,2026-10-01T06:30:21.250034+00:00,1,,Listed as a payload-hosting infrastructure file hash
 domain,instance-v2e3e2-relay.screenconnect.com,high,2026-10-01T05:32:13+00:00,2026-10-01T05:32:13+00:00,1,,Used as a callback for a phishing attack.
 ipv4,23.27.143.20,high,2026-10-01T04:35:34+00:00,2026-10-01T04:35:34+00:00,1,,Listed as a source of payload retrieval in a threat report
 ipv4,31.56.197.72,high,2026-10-01T04:35:34+00:00,2026-10-01T04:35:34+00:00,1,,Listed as a source of payload retrieval in a threat report
