@@ -1,7 +1,7 @@
 {
   "feed": "threatcluster-public-iocs",
   "version": 1,
-  "generated_at": "2026-10-08T13:26:13Z",
+  "generated_at": "2026-10-09T13:14:04Z",
   "filters": {
     "confidence": "high",
     "window_days": 30,
@@ -11,8 +11,3411 @@
       "domain"
     ]
   },
-  "count": 650,
+  "count": 781,
   "iocs": [
+    {
+      "type": "domain",
+      "value": "0aa0cf0637d66c0d.com",
+      "confidence": "high",
+      "reason": "Listed as a proxyware control host used by attackers",
+      "first_seen": "2026-10-09T11:11:15.831866+00:00",
+      "last_seen": "2026-10-09T11:11:15.831866+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.bitdefender.com",
+          "url": "https://www.bitdefender.com/en-us/blog/labs/midnight-mimosa-malware",
+          "pub_date": "2026-10-09T11:11:15.831866+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Midnight Mimosa"
+        },
+        {
+          "type": "industry",
+          "value": "Technology"
+        },
+        {
+          "type": "malware",
+          "value": "Android.Phantom"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "442fe7151fb1e9b5.com",
+      "confidence": "high",
+      "reason": "Listed as a proxyware control host used by attackers",
+      "first_seen": "2026-10-09T11:11:15.831866+00:00",
+      "last_seen": "2026-10-09T11:11:15.831866+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.bitdefender.com",
+          "url": "https://www.bitdefender.com/en-us/blog/labs/midnight-mimosa-malware",
+          "pub_date": "2026-10-09T11:11:15.831866+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Midnight Mimosa"
+        },
+        {
+          "type": "industry",
+          "value": "Technology"
+        },
+        {
+          "type": "malware",
+          "value": "Android.Phantom"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "5.ahd187.com",
+      "confidence": "high",
+      "reason": "Listed as part of shared infrastructure used by malware operators",
+      "first_seen": "2026-10-09T11:11:15.831866+00:00",
+      "last_seen": "2026-10-09T11:11:15.831866+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.bitdefender.com",
+          "url": "https://www.bitdefender.com/en-us/blog/labs/midnight-mimosa-malware",
+          "pub_date": "2026-10-09T11:11:15.831866+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Midnight Mimosa"
+        },
+        {
+          "type": "industry",
+          "value": "Technology"
+        },
+        {
+          "type": "malware",
+          "value": "Android.Phantom"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "aa86a52a98162b7d.com",
+      "confidence": "high",
+      "reason": "Listed as a proxyware control host used by attackers",
+      "first_seen": "2026-10-09T11:11:15.831866+00:00",
+      "last_seen": "2026-10-09T11:11:15.831866+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.bitdefender.com",
+          "url": "https://www.bitdefender.com/en-us/blog/labs/midnight-mimosa-malware",
+          "pub_date": "2026-10-09T11:11:15.831866+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Midnight Mimosa"
+        },
+        {
+          "type": "industry",
+          "value": "Technology"
+        },
+        {
+          "type": "malware",
+          "value": "Android.Phantom"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "api.weatherlive.world",
+      "confidence": "high",
+      "reason": "Used as a command channel for malware control",
+      "first_seen": "2026-10-08T15:28:24+00:00",
+      "last_seen": "2026-10-09T11:11:15.831866+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "www.bitdefender.com",
+          "url": "https://www.bitdefender.com/en-us/blog/labs/midnight-mimosa-malware",
+          "pub_date": "2026-10-09T11:11:15.831866+00:00"
+        },
+        {
+          "source": "Hackread",
+          "url": "https://hackread.com/midnight-mimosa-malware-preinstalled-android-phones/",
+          "pub_date": "2026-10-08T15:28:24+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Midnight Mimosa"
+        },
+        {
+          "type": "industry",
+          "value": "Technology"
+        },
+        {
+          "type": "malware",
+          "value": "Android.Phantom"
+        },
+        {
+          "type": "malware",
+          "value": "Midnight Mimosa"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "cgb.jingongbuxiao.com",
+      "confidence": "high",
+      "reason": "Listed as part of shared infrastructure used by malware operators",
+      "first_seen": "2026-10-09T11:11:15.831866+00:00",
+      "last_seen": "2026-10-09T11:11:15.831866+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.bitdefender.com",
+          "url": "https://www.bitdefender.com/en-us/blog/labs/midnight-mimosa-malware",
+          "pub_date": "2026-10-09T11:11:15.831866+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Midnight Mimosa"
+        },
+        {
+          "type": "industry",
+          "value": "Technology"
+        },
+        {
+          "type": "malware",
+          "value": "Android.Phantom"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "fyapi.freeflightbird.com",
+      "confidence": "high",
+      "reason": "Listed as part of shared infrastructure used by malware operators",
+      "first_seen": "2026-10-09T11:11:15.831866+00:00",
+      "last_seen": "2026-10-09T11:11:15.831866+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.bitdefender.com",
+          "url": "https://www.bitdefender.com/en-us/blog/labs/midnight-mimosa-malware",
+          "pub_date": "2026-10-09T11:11:15.831866+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Midnight Mimosa"
+        },
+        {
+          "type": "industry",
+          "value": "Technology"
+        },
+        {
+          "type": "malware",
+          "value": "Android.Phantom"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "newsadapi.zhuifengzhe.top",
+      "confidence": "high",
+      "reason": "Listed as part of shared infrastructure used by malware operators",
+      "first_seen": "2026-10-09T11:11:15.831866+00:00",
+      "last_seen": "2026-10-09T11:11:15.831866+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.bitdefender.com",
+          "url": "https://www.bitdefender.com/en-us/blog/labs/midnight-mimosa-malware",
+          "pub_date": "2026-10-09T11:11:15.831866+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Midnight Mimosa"
+        },
+        {
+          "type": "industry",
+          "value": "Technology"
+        },
+        {
+          "type": "malware",
+          "value": "Android.Phantom"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "oss.showtimetool.com",
+      "confidence": "high",
+      "reason": "Used as a CDN for serving malicious payloads",
+      "first_seen": "2026-10-09T11:11:15.831866+00:00",
+      "last_seen": "2026-10-09T11:11:15.831866+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.bitdefender.com",
+          "url": "https://www.bitdefender.com/en-us/blog/labs/midnight-mimosa-malware",
+          "pub_date": "2026-10-09T11:11:15.831866+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Midnight Mimosa"
+        },
+        {
+          "type": "industry",
+          "value": "Technology"
+        },
+        {
+          "type": "malware",
+          "value": "Android.Phantom"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "v46wd6uramzkmeeo.in",
+      "confidence": "high",
+      "reason": "Listed as a proxyware control host used by attackers",
+      "first_seen": "2026-10-09T11:11:15.831866+00:00",
+      "last_seen": "2026-10-09T11:11:15.831866+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.bitdefender.com",
+          "url": "https://www.bitdefender.com/en-us/blog/labs/midnight-mimosa-malware",
+          "pub_date": "2026-10-09T11:11:15.831866+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Midnight Mimosa"
+        },
+        {
+          "type": "industry",
+          "value": "Technology"
+        },
+        {
+          "type": "malware",
+          "value": "Android.Phantom"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "weatherlive.world",
+      "confidence": "high",
+      "reason": "Used as a telemetry beacon for malware",
+      "first_seen": "2026-10-09T11:11:15.831866+00:00",
+      "last_seen": "2026-10-09T11:11:15.831866+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.bitdefender.com",
+          "url": "https://www.bitdefender.com/en-us/blog/labs/midnight-mimosa-malware",
+          "pub_date": "2026-10-09T11:11:15.831866+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Midnight Mimosa"
+        },
+        {
+          "type": "industry",
+          "value": "Technology"
+        },
+        {
+          "type": "malware",
+          "value": "Android.Phantom"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "zhuifengzhe.top",
+      "confidence": "high",
+      "reason": "Listed as part of shared infrastructure used by malware operators",
+      "first_seen": "2026-10-09T11:11:15.831866+00:00",
+      "last_seen": "2026-10-09T11:11:15.831866+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.bitdefender.com",
+          "url": "https://www.bitdefender.com/en-us/blog/labs/midnight-mimosa-malware",
+          "pub_date": "2026-10-09T11:11:15.831866+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Midnight Mimosa"
+        },
+        {
+          "type": "industry",
+          "value": "Technology"
+        },
+        {
+          "type": "malware",
+          "value": "Android.Phantom"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "64.95.10.223",
+      "confidence": "high",
+      "reason": "Listed as MATCHBOIL C&C IP",
+      "first_seen": "2026-10-09T08:00:28.298894+00:00",
+      "last_seen": "2026-10-09T08:00:28.298894+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.welivesecurity.com",
+          "url": "https://www.welivesecurity.com/en/eset-research/matchboil-new-tricks-same-old-evil-intentions/",
+          "pub_date": "2026-10-09T08:00:28.298894+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Sandworm"
+        },
+        {
+          "type": "apt_group",
+          "value": "UAC-0099"
+        },
+        {
+          "type": "industry",
+          "value": "Energy"
+        },
+        {
+          "type": "industry",
+          "value": "Financial"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "64.95.13.210",
+      "confidence": "high",
+      "reason": "Listed as MATCHBOIL C&C IP",
+      "first_seen": "2026-10-09T08:00:28.298894+00:00",
+      "last_seen": "2026-10-09T08:00:28.298894+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.welivesecurity.com",
+          "url": "https://www.welivesecurity.com/en/eset-research/matchboil-new-tricks-same-old-evil-intentions/",
+          "pub_date": "2026-10-09T08:00:28.298894+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Sandworm"
+        },
+        {
+          "type": "apt_group",
+          "value": "UAC-0099"
+        },
+        {
+          "type": "industry",
+          "value": "Energy"
+        },
+        {
+          "type": "industry",
+          "value": "Financial"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "flycloud-service.com",
+      "confidence": "high",
+      "reason": "Listed as MATCHBOIL C&C server",
+      "first_seen": "2026-10-09T06:44:33+00:00",
+      "last_seen": "2026-10-09T06:44:33+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Gbhackers",
+          "url": "https://gbhackers.com/matchboil-malware/",
+          "pub_date": "2026-10-09T06:44:33+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Sandworm"
+        },
+        {
+          "type": "apt_group",
+          "value": "UAC-0099"
+        },
+        {
+          "type": "industry",
+          "value": "Energy"
+        },
+        {
+          "type": "industry",
+          "value": "Financial"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "telemetry-conf.com",
+      "confidence": "high",
+      "reason": "Listed as MATCHBOIL C&C server",
+      "first_seen": "2026-10-09T06:44:33+00:00",
+      "last_seen": "2026-10-09T06:44:33+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Gbhackers",
+          "url": "https://gbhackers.com/matchboil-malware/",
+          "pub_date": "2026-10-09T06:44:33+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Sandworm"
+        },
+        {
+          "type": "apt_group",
+          "value": "UAC-0099"
+        },
+        {
+          "type": "industry",
+          "value": "Energy"
+        },
+        {
+          "type": "industry",
+          "value": "Financial"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "virtualdailyplanner.pro",
+      "confidence": "high",
+      "reason": "Listed as MATCHBOIL C&C server",
+      "first_seen": "2026-10-09T06:44:33+00:00",
+      "last_seen": "2026-10-09T06:44:33+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Gbhackers",
+          "url": "https://gbhackers.com/matchboil-malware/",
+          "pub_date": "2026-10-09T06:44:33+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Sandworm"
+        },
+        {
+          "type": "apt_group",
+          "value": "UAC-0099"
+        },
+        {
+          "type": "industry",
+          "value": "Energy"
+        },
+        {
+          "type": "industry",
+          "value": "Financial"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "98aicai.com",
+      "confidence": "high",
+      "reason": "Listed as one of the seized domains used to deliver malware",
+      "first_seen": "2026-10-08T17:20:13+00:00",
+      "last_seen": "2026-10-09T05:40:37+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "Thecyberexpress",
+          "url": "https://thecyberexpress.com/flax-typhoon-hackers-lose-microscan/",
+          "pub_date": "2026-10-09T05:40:37+00:00"
+        },
+        {
+          "source": "Justice",
+          "url": "https://www.justice.gov/opa/pr/justice-department-and-fbi-seize-vulnerability-scanning-and-spear-phishing-tools-operated",
+          "pub_date": "2026-10-08T17:20:13+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "Mirai"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "98aicode.com",
+      "confidence": "high",
+      "reason": "Listed as one of the seized domains used to deliver malware",
+      "first_seen": "2026-10-08T17:20:13+00:00",
+      "last_seen": "2026-10-09T05:40:37+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "Thecyberexpress",
+          "url": "https://thecyberexpress.com/flax-typhoon-hackers-lose-microscan/",
+          "pub_date": "2026-10-09T05:40:37+00:00"
+        },
+        {
+          "source": "Justice",
+          "url": "https://www.justice.gov/opa/pr/justice-department-and-fbi-seize-vulnerability-scanning-and-spear-phishing-tools-operated",
+          "pub_date": "2026-10-08T17:20:13+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "Mirai"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "c0cc.cc",
+      "confidence": "high",
+      "reason": "Seized domain used to deliver malware, indicating attacker control.",
+      "first_seen": "2026-10-08T17:20:13+00:00",
+      "last_seen": "2026-10-09T05:40:37+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "Thecyberexpress",
+          "url": "https://thecyberexpress.com/flax-typhoon-hackers-lose-microscan/",
+          "pub_date": "2026-10-09T05:40:37+00:00"
+        },
+        {
+          "source": "Justice",
+          "url": "https://www.justice.gov/opa/pr/justice-department-and-fbi-seize-vulnerability-scanning-and-spear-phishing-tools-operated",
+          "pub_date": "2026-10-08T17:20:13+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "Mirai"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "linkedinns.net",
+      "confidence": "high",
+      "reason": "Listed as one of the seized domains used to deliver malware",
+      "first_seen": "2026-10-08T17:20:13+00:00",
+      "last_seen": "2026-10-09T05:40:37+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "Thecyberexpress",
+          "url": "https://thecyberexpress.com/flax-typhoon-hackers-lose-microscan/",
+          "pub_date": "2026-10-09T05:40:37+00:00"
+        },
+        {
+          "source": "Justice",
+          "url": "https://www.justice.gov/opa/pr/justice-department-and-fbi-seize-vulnerability-scanning-and-spear-phishing-tools-operated",
+          "pub_date": "2026-10-08T17:20:13+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "Mirai"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "outlook3650.com",
+      "confidence": "high",
+      "reason": "Listed as one of the seized domains used to deliver malware",
+      "first_seen": "2026-10-08T17:20:13+00:00",
+      "last_seen": "2026-10-09T05:40:37+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "Thecyberexpress",
+          "url": "https://thecyberexpress.com/flax-typhoon-hackers-lose-microscan/",
+          "pub_date": "2026-10-09T05:40:37+00:00"
+        },
+        {
+          "source": "Justice",
+          "url": "https://www.justice.gov/opa/pr/justice-department-and-fbi-seize-vulnerability-scanning-and-spear-phishing-tools-operated",
+          "pub_date": "2026-10-08T17:20:13+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "Mirai"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "youtubecard.com",
+      "confidence": "high",
+      "reason": "Listed as one of the seized domains used to deliver malware",
+      "first_seen": "2026-10-08T17:20:13+00:00",
+      "last_seen": "2026-10-09T05:40:37+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "Thecyberexpress",
+          "url": "https://thecyberexpress.com/flax-typhoon-hackers-lose-microscan/",
+          "pub_date": "2026-10-09T05:40:37+00:00"
+        },
+        {
+          "source": "Justice",
+          "url": "https://www.justice.gov/opa/pr/justice-department-and-fbi-seize-vulnerability-scanning-and-spear-phishing-tools-operated",
+          "pub_date": "2026-10-08T17:20:13+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "Mirai"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "cdn.gotoiphone.com",
+      "confidence": "high",
+      "reason": "Used for C2 communication with the implant",
+      "first_seen": "2026-10-09T00:04:17.966518+00:00",
+      "last_seen": "2026-10-09T00:04:17.966518+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.iverify.com",
+          "url": "https://www.iverify.com/blog/darksword-variant-threat-research",
+          "pub_date": "2026-10-09T00:04:17.966518+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "Coruna"
+        },
+        {
+          "type": "malware",
+          "value": "DarkSword"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "js.gotoiphone.com",
+      "confidence": "high",
+      "reason": "Used for C2 communication with the implant",
+      "first_seen": "2026-10-09T00:04:17.966518+00:00",
+      "last_seen": "2026-10-09T00:04:17.966518+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.iverify.com",
+          "url": "https://www.iverify.com/blog/darksword-variant-threat-research",
+          "pub_date": "2026-10-09T00:04:17.966518+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "Coruna"
+        },
+        {
+          "type": "malware",
+          "value": "DarkSword"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "mzpo30.cam",
+      "confidence": "high",
+      "reason": "Used for C2 communication with the implant",
+      "first_seen": "2026-10-09T00:04:17.966518+00:00",
+      "last_seen": "2026-10-09T00:04:17.966518+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.iverify.com",
+          "url": "https://www.iverify.com/blog/darksword-variant-threat-research",
+          "pub_date": "2026-10-09T00:04:17.966518+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "Coruna"
+        },
+        {
+          "type": "malware",
+          "value": "DarkSword"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "moonlighthathel.org",
+      "confidence": "high",
+      "reason": "Listed as a malicious FQDN targeted by DNS Object Block Rule",
+      "first_seen": "2026-10-08T15:00:39+00:00",
+      "last_seen": "2026-10-08T23:02:10.117783+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "www.splunk.com",
+          "url": "https://www.splunk.com/en_us/blog/security/conf26-agentic-soc-scalpel.html",
+          "pub_date": "2026-10-08T23:02:10.117783+00:00"
+        },
+        {
+          "source": "Blogs.Cisco",
+          "url": "https://blogs.cisco.com/security/conf26-agentic-soc/",
+          "pub_date": "2026-10-08T15:00:39+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "fake-Corepack Infostealer Campaign"
+        },
+        {
+          "type": "campaign",
+          "value": "Proxyware Campaign"
+        },
+        {
+          "type": "malware",
+          "value": "Corepack"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "ukankingwithea.com",
+      "confidence": "high",
+      "reason": "Listed as a malicious FQDN targeted by DNS Object Block Rule",
+      "first_seen": "2026-10-08T23:02:10.117783+00:00",
+      "last_seen": "2026-10-08T23:02:10.117783+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.splunk.com",
+          "url": "https://www.splunk.com/en_us/blog/security/conf26-agentic-soc-scalpel.html",
+          "pub_date": "2026-10-08T23:02:10.117783+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "malwarescan.xyz",
+      "confidence": "high",
+      "reason": "Domain registered and likely operated by the attacker for malicious purposes",
+      "first_seen": "2026-10-08T22:03:32.844465+00:00",
+      "last_seen": "2026-10-08T22:03:32.844465+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.lumen.com",
+          "url": "https://www.lumen.com/blog/en-us/canto-incognito-tracking-the-poellm-malware",
+          "pub_date": "2026-10-08T22:03:32.844465+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "PoeLLM Campaign"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2018-21027"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2018-21028"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-10520"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "103.249.201.108",
+      "confidence": "high",
+      "reason": "Listed as a C2 IP address associated with the campaign",
+      "first_seen": "2026-10-08T22:03:32.844465+00:00",
+      "last_seen": "2026-10-08T22:03:32.844465+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.lumen.com",
+          "url": "https://www.lumen.com/blog/en-us/canto-incognito-tracking-the-poellm-malware",
+          "pub_date": "2026-10-08T22:03:32.844465+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "PoeLLM Campaign"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2018-21027"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2018-21028"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-10520"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "120.224.114.212",
+      "confidence": "high",
+      "reason": "Listed as additional infrastructure used during the campaign",
+      "first_seen": "2026-10-08T22:03:32.844465+00:00",
+      "last_seen": "2026-10-08T22:03:32.844465+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.lumen.com",
+          "url": "https://www.lumen.com/blog/en-us/canto-incognito-tracking-the-poellm-malware",
+          "pub_date": "2026-10-08T22:03:32.844465+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "PoeLLM Campaign"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2018-21027"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2018-21028"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-10520"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "136.148.69.233",
+      "confidence": "high",
+      "reason": "Listed as additional infrastructure used during the campaign",
+      "first_seen": "2026-10-08T22:03:32.844465+00:00",
+      "last_seen": "2026-10-08T22:03:32.844465+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.lumen.com",
+          "url": "https://www.lumen.com/blog/en-us/canto-incognito-tracking-the-poellm-malware",
+          "pub_date": "2026-10-08T22:03:32.844465+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "PoeLLM Campaign"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2018-21027"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2018-21028"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-10520"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "185.132.53.158",
+      "confidence": "high",
+      "reason": "Listed as additional infrastructure used during the campaign",
+      "first_seen": "2026-10-08T22:03:32.844465+00:00",
+      "last_seen": "2026-10-08T22:03:32.844465+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.lumen.com",
+          "url": "https://www.lumen.com/blog/en-us/canto-incognito-tracking-the-poellm-malware",
+          "pub_date": "2026-10-08T22:03:32.844465+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "PoeLLM Campaign"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2018-21027"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2018-21028"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-10520"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "191.37.28.160",
+      "confidence": "high",
+      "reason": "Listed as additional infrastructure used during the campaign",
+      "first_seen": "2026-10-08T22:03:32.844465+00:00",
+      "last_seen": "2026-10-08T22:03:32.844465+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.lumen.com",
+          "url": "https://www.lumen.com/blog/en-us/canto-incognito-tracking-the-poellm-malware",
+          "pub_date": "2026-10-08T22:03:32.844465+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "PoeLLM Campaign"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2018-21027"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2018-21028"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-10520"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "89.39.253.46",
+      "confidence": "high",
+      "reason": "Listed as additional infrastructure used during the campaign",
+      "first_seen": "2026-10-08T22:03:32.844465+00:00",
+      "last_seen": "2026-10-08T22:03:32.844465+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.lumen.com",
+          "url": "https://www.lumen.com/blog/en-us/canto-incognito-tracking-the-poellm-malware",
+          "pub_date": "2026-10-08T22:03:32.844465+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "PoeLLM Campaign"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2018-21027"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2018-21028"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-10520"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "92.119.164.50",
+      "confidence": "high",
+      "reason": "Listed as a C2 IP address associated with the campaign",
+      "first_seen": "2026-10-08T22:03:32.844465+00:00",
+      "last_seen": "2026-10-08T22:03:32.844465+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.lumen.com",
+          "url": "https://www.lumen.com/blog/en-us/canto-incognito-tracking-the-poellm-malware",
+          "pub_date": "2026-10-08T22:03:32.844465+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "PoeLLM Campaign"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2018-21027"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2018-21028"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-10520"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "92.119.165.74",
+      "confidence": "high",
+      "reason": "Listed as additional infrastructure used during the campaign",
+      "first_seen": "2026-10-08T22:03:32.844465+00:00",
+      "last_seen": "2026-10-08T22:03:32.844465+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.lumen.com",
+          "url": "https://www.lumen.com/blog/en-us/canto-incognito-tracking-the-poellm-malware",
+          "pub_date": "2026-10-08T22:03:32.844465+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "PoeLLM Campaign"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2018-21027"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2018-21028"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-10520"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "98aiblog.com",
+      "confidence": "high",
+      "reason": "Seized domain used to deliver malware, indicating attacker control.",
+      "first_seen": "2026-10-08T21:56:58+00:00",
+      "last_seen": "2026-10-08T21:56:58+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Bleepingcomputer",
+          "url": "https://www.bleepingcomputer.com/news/security/fbi-disrupts-chinese-hacking-tools-used-to-breach-critical-infrastructure/",
+          "pub_date": "2026-10-08T21:56:58+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "imagefiles-backup.oss-ap-southeast-7.aliyuncs.com",
+      "confidence": "high",
+      "reason": "Domain used to host and deliver malicious payloads",
+      "first_seen": "2026-10-08T20:23:28+00:00",
+      "last_seen": "2026-10-08T20:23:28+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Huntress",
+          "url": "https://www.huntress.com/blog/ahsaycbs-flaws-exploit",
+          "pub_date": "2026-10-08T20:23:28+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2026-105133"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-105134"
+        },
+        {
+          "type": "malware",
+          "value": "XMRig"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "104.234.26.10",
+      "confidence": "high",
+      "reason": "Listed in the IOC section as attacker infrastructure",
+      "first_seen": "2026-10-08T20:23:28+00:00",
+      "last_seen": "2026-10-08T20:23:28+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Huntress",
+          "url": "https://www.huntress.com/blog/ahsaycbs-flaws-exploit",
+          "pub_date": "2026-10-08T20:23:28+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2026-105133"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-105134"
+        },
+        {
+          "type": "malware",
+          "value": "XMRig"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "123.202.208.37",
+      "confidence": "high",
+      "reason": "Listed in the IOC section as attacker infrastructure",
+      "first_seen": "2026-10-08T20:23:28+00:00",
+      "last_seen": "2026-10-08T20:23:28+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Huntress",
+          "url": "https://www.huntress.com/blog/ahsaycbs-flaws-exploit",
+          "pub_date": "2026-10-08T20:23:28+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2026-105133"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-105134"
+        },
+        {
+          "type": "malware",
+          "value": "XMRig"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "177.4.12.11",
+      "confidence": "high",
+      "reason": "Listed in the IOC section as attacker infrastructure",
+      "first_seen": "2026-10-08T20:23:28+00:00",
+      "last_seen": "2026-10-08T20:23:28+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Huntress",
+          "url": "https://www.huntress.com/blog/ahsaycbs-flaws-exploit",
+          "pub_date": "2026-10-08T20:23:28+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2026-105133"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-105134"
+        },
+        {
+          "type": "malware",
+          "value": "XMRig"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "185.220.236.49",
+      "confidence": "high",
+      "reason": "Listed in the IOC section as attacker infrastructure",
+      "first_seen": "2026-10-08T20:23:28+00:00",
+      "last_seen": "2026-10-08T20:23:28+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Huntress",
+          "url": "https://www.huntress.com/blog/ahsaycbs-flaws-exploit",
+          "pub_date": "2026-10-08T20:23:28+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2026-105133"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-105134"
+        },
+        {
+          "type": "malware",
+          "value": "XMRig"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "38.60.252.110",
+      "confidence": "high",
+      "reason": "Listed in the IOC section as attacker infrastructure",
+      "first_seen": "2026-10-08T20:23:28+00:00",
+      "last_seen": "2026-10-08T20:23:28+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Huntress",
+          "url": "https://www.huntress.com/blog/ahsaycbs-flaws-exploit",
+          "pub_date": "2026-10-08T20:23:28+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2026-105133"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-105134"
+        },
+        {
+          "type": "malware",
+          "value": "XMRig"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "504e1bed.host.njalla.net",
+      "confidence": "high",
+      "reason": "Domain resolves to an IP associated with attacker infrastructure",
+      "first_seen": "2026-10-08T19:12:38.094042+00:00",
+      "last_seen": "2026-10-08T19:12:38.094042+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "hunt.io",
+          "url": "https://hunt.io/blog/brazetsu-access-broker-infrastructure",
+          "pub_date": "2026-10-08T19:12:38.094042+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "industry",
+          "value": "Energy"
+        },
+        {
+          "type": "industry",
+          "value": "Government"
+        },
+        {
+          "type": "malware",
+          "value": "AgenteV2"
+        },
+        {
+          "type": "malware",
+          "value": "BraZetsu"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "504e1bfc.host.njalla.net",
+      "confidence": "high",
+      "reason": "Domain resolves to an IP associated with attacker infrastructure",
+      "first_seen": "2026-10-08T19:12:38.094042+00:00",
+      "last_seen": "2026-10-08T19:12:38.094042+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "hunt.io",
+          "url": "https://hunt.io/blog/brazetsu-access-broker-infrastructure",
+          "pub_date": "2026-10-08T19:12:38.094042+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "industry",
+          "value": "Energy"
+        },
+        {
+          "type": "industry",
+          "value": "Government"
+        },
+        {
+          "type": "malware",
+          "value": "AgenteV2"
+        },
+        {
+          "type": "malware",
+          "value": "BraZetsu"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "infectonline.store",
+      "confidence": "high",
+      "reason": "Listed as part of the attack infrastructure",
+      "first_seen": "2026-10-08T19:12:38.094042+00:00",
+      "last_seen": "2026-10-08T19:12:38.094042+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "hunt.io",
+          "url": "https://hunt.io/blog/brazetsu-access-broker-infrastructure",
+          "pub_date": "2026-10-08T19:12:38.094042+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "industry",
+          "value": "Energy"
+        },
+        {
+          "type": "industry",
+          "value": "Government"
+        },
+        {
+          "type": "malware",
+          "value": "AgenteV2"
+        },
+        {
+          "type": "malware",
+          "value": "BraZetsu"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "installscenter.com",
+      "confidence": "high",
+      "reason": "Domain used in the attack infrastructure",
+      "first_seen": "2026-10-08T17:47:35+00:00",
+      "last_seen": "2026-10-08T19:12:38.094042+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "hunt.io",
+          "url": "https://hunt.io/blog/brazetsu-access-broker-infrastructure",
+          "pub_date": "2026-10-08T19:12:38.094042+00:00"
+        },
+        {
+          "source": "Securityaffairs.Co",
+          "url": "https://securityaffairs.com/200634/cyber-crime/hunt-io-finds-new-brazetsu-infrastructure-months-before-disclosure.html",
+          "pub_date": "2026-10-08T17:47:35+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "BraZetsu"
+        },
+        {
+          "type": "industry",
+          "value": "Energy"
+        },
+        {
+          "type": "industry",
+          "value": "Government"
+        },
+        {
+          "type": "malware",
+          "value": "AgenteV2"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "painel.installscenter.com",
+      "confidence": "high",
+      "reason": "Domain used in the attack infrastructure",
+      "first_seen": "2026-10-08T17:47:35+00:00",
+      "last_seen": "2026-10-08T19:12:38.094042+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "hunt.io",
+          "url": "https://hunt.io/blog/brazetsu-access-broker-infrastructure",
+          "pub_date": "2026-10-08T19:12:38.094042+00:00"
+        },
+        {
+          "source": "Securityaffairs.Co",
+          "url": "https://securityaffairs.com/200634/cyber-crime/hunt-io-finds-new-brazetsu-infrastructure-months-before-disclosure.html",
+          "pub_date": "2026-10-08T17:47:35+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "BraZetsu"
+        },
+        {
+          "type": "industry",
+          "value": "Energy"
+        },
+        {
+          "type": "industry",
+          "value": "Government"
+        },
+        {
+          "type": "malware",
+          "value": "AgenteV2"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "painel.seu-dominio.com",
+      "confidence": "high",
+      "reason": "Domain used in the attack infrastructure",
+      "first_seen": "2026-10-08T17:47:35+00:00",
+      "last_seen": "2026-10-08T19:12:38.094042+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "hunt.io",
+          "url": "https://hunt.io/blog/brazetsu-access-broker-infrastructure",
+          "pub_date": "2026-10-08T19:12:38.094042+00:00"
+        },
+        {
+          "source": "Securityaffairs.Co",
+          "url": "https://securityaffairs.com/200634/cyber-crime/hunt-io-finds-new-brazetsu-infrastructure-months-before-disclosure.html",
+          "pub_date": "2026-10-08T17:47:35+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "BraZetsu"
+        },
+        {
+          "type": "industry",
+          "value": "Energy"
+        },
+        {
+          "type": "industry",
+          "value": "Government"
+        },
+        {
+          "type": "malware",
+          "value": "AgenteV2"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "seu-dominio.com",
+      "confidence": "high",
+      "reason": "Domain used in the attack infrastructure",
+      "first_seen": "2026-10-08T19:12:38.094042+00:00",
+      "last_seen": "2026-10-08T19:12:38.094042+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "hunt.io",
+          "url": "https://hunt.io/blog/brazetsu-access-broker-infrastructure",
+          "pub_date": "2026-10-08T19:12:38.094042+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "industry",
+          "value": "Energy"
+        },
+        {
+          "type": "industry",
+          "value": "Government"
+        },
+        {
+          "type": "malware",
+          "value": "AgenteV2"
+        },
+        {
+          "type": "malware",
+          "value": "BraZetsu"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "vmi3003111.contaboserver.net",
+      "confidence": "high",
+      "reason": "Domain used in the attack infrastructure",
+      "first_seen": "2026-10-08T19:12:38.094042+00:00",
+      "last_seen": "2026-10-08T19:12:38.094042+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "hunt.io",
+          "url": "https://hunt.io/blog/brazetsu-access-broker-infrastructure",
+          "pub_date": "2026-10-08T19:12:38.094042+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "industry",
+          "value": "Energy"
+        },
+        {
+          "type": "industry",
+          "value": "Government"
+        },
+        {
+          "type": "malware",
+          "value": "AgenteV2"
+        },
+        {
+          "type": "malware",
+          "value": "BraZetsu"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "80.78.27.237",
+      "confidence": "high",
+      "reason": "IP associated with attacker infrastructure",
+      "first_seen": "2026-10-08T19:12:38.094042+00:00",
+      "last_seen": "2026-10-08T19:12:38.094042+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "hunt.io",
+          "url": "https://hunt.io/blog/brazetsu-access-broker-infrastructure",
+          "pub_date": "2026-10-08T19:12:38.094042+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "industry",
+          "value": "Energy"
+        },
+        {
+          "type": "industry",
+          "value": "Government"
+        },
+        {
+          "type": "malware",
+          "value": "AgenteV2"
+        },
+        {
+          "type": "malware",
+          "value": "BraZetsu"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "80.78.27.252",
+      "confidence": "high",
+      "reason": "IP associated with attacker infrastructure",
+      "first_seen": "2026-10-08T17:47:35+00:00",
+      "last_seen": "2026-10-08T19:12:38.094042+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "hunt.io",
+          "url": "https://hunt.io/blog/brazetsu-access-broker-infrastructure",
+          "pub_date": "2026-10-08T19:12:38.094042+00:00"
+        },
+        {
+          "source": "Securityaffairs.Co",
+          "url": "https://securityaffairs.com/200634/cyber-crime/hunt-io-finds-new-brazetsu-infrastructure-months-before-disclosure.html",
+          "pub_date": "2026-10-08T17:47:35+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "BraZetsu"
+        },
+        {
+          "type": "industry",
+          "value": "Energy"
+        },
+        {
+          "type": "industry",
+          "value": "Government"
+        },
+        {
+          "type": "malware",
+          "value": "AgenteV2"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "1421.client.96html.com",
+      "confidence": "high",
+      "reason": "Listed in a table of observed IOCs",
+      "first_seen": "2026-10-08T18:06:48+00:00",
+      "last_seen": "2026-10-08T18:06:48+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cisa",
+          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
+          "pub_date": "2026-10-08T18:06:48+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "1421.cloud.96html.com",
+      "confidence": "high",
+      "reason": "Listed in a table of observed IOCs",
+      "first_seen": "2026-10-08T18:06:48+00:00",
+      "last_seen": "2026-10-08T18:06:48+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cisa",
+          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
+          "pub_date": "2026-10-08T18:06:48+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "1421.support.96html.com",
+      "confidence": "high",
+      "reason": "Listed in a table of observed IOCs",
+      "first_seen": "2026-10-08T18:06:48+00:00",
+      "last_seen": "2026-10-08T18:06:48+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cisa",
+          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
+          "pub_date": "2026-10-08T18:06:48+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "154-119-131-252-103-58-216-162-36.m.secshow.net",
+      "confidence": "high",
+      "reason": "Listed in a table of observed IOCs",
+      "first_seen": "2026-10-08T18:06:48+00:00",
+      "last_seen": "2026-10-08T18:06:48+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cisa",
+          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
+          "pub_date": "2026-10-08T18:06:48+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "2-12-44-140-78-81-211-109-241.h.secshow.net",
+      "confidence": "high",
+      "reason": "Listed in a table of observed IOCs",
+      "first_seen": "2026-10-08T18:06:48+00:00",
+      "last_seen": "2026-10-08T18:06:48+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cisa",
+          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
+          "pub_date": "2026-10-08T18:06:48+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "22852.careers.96html.com",
+      "confidence": "high",
+      "reason": "Listed in a table of observed IOCs",
+      "first_seen": "2026-10-08T18:06:48+00:00",
+      "last_seen": "2026-10-08T18:06:48+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cisa",
+          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
+          "pub_date": "2026-10-08T18:06:48+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "22852.careers.trendmicro.96html.com",
+      "confidence": "high",
+      "reason": "Listed in a table of observed IOCs",
+      "first_seen": "2026-10-08T18:06:48+00:00",
+      "last_seen": "2026-10-08T18:06:48+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cisa",
+          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
+          "pub_date": "2026-10-08T18:06:48+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "22852.trendmicro.96html.com",
+      "confidence": "high",
+      "reason": "Listed in a table of observed IOCs",
+      "first_seen": "2026-10-08T18:06:48+00:00",
+      "last_seen": "2026-10-08T18:06:48+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cisa",
+          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
+          "pub_date": "2026-10-08T18:06:48+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "23175.careers.96html.com",
+      "confidence": "high",
+      "reason": "Listed in a table of observed IOCs",
+      "first_seen": "2026-10-08T18:06:48+00:00",
+      "last_seen": "2026-10-08T18:06:48+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cisa",
+          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
+          "pub_date": "2026-10-08T18:06:48+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "23175.careers.trendmicro.96html.com",
+      "confidence": "high",
+      "reason": "Listed in a table of observed IOCs",
+      "first_seen": "2026-10-08T18:06:48+00:00",
+      "last_seen": "2026-10-08T18:06:48+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cisa",
+          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
+          "pub_date": "2026-10-08T18:06:48+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "2637596418.softether.net",
+      "confidence": "high",
+      "reason": "Listed in a table of observed IOCs",
+      "first_seen": "2026-10-08T18:06:48+00:00",
+      "last_seen": "2026-10-08T18:06:48+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cisa",
+          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
+          "pub_date": "2026-10-08T18:06:48+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "28394.careers.96html.com",
+      "confidence": "high",
+      "reason": "Listed in a table of observed IOCs",
+      "first_seen": "2026-10-08T18:06:48+00:00",
+      "last_seen": "2026-10-08T18:06:48+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cisa",
+          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
+          "pub_date": "2026-10-08T18:06:48+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "28394.careers.trendmicro.96html.com",
+      "confidence": "high",
+      "reason": "Listed in a table of observed IOCs",
+      "first_seen": "2026-10-08T18:06:48+00:00",
+      "last_seen": "2026-10-08T18:06:48+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cisa",
+          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
+          "pub_date": "2026-10-08T18:06:48+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "28394.trendmicro.96html.com",
+      "confidence": "high",
+      "reason": "Listed in a table of observed IOCs",
+      "first_seen": "2026-10-08T18:06:48+00:00",
+      "last_seen": "2026-10-08T18:06:48+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cisa",
+          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
+          "pub_date": "2026-10-08T18:06:48+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "28733.careers.trendmicro.96html.com",
+      "confidence": "high",
+      "reason": "Listed in a table of observed IOCs",
+      "first_seen": "2026-10-08T18:06:48+00:00",
+      "last_seen": "2026-10-08T18:06:48+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cisa",
+          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
+          "pub_date": "2026-10-08T18:06:48+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "28733.trendmicro.96html.com",
+      "confidence": "high",
+      "reason": "Listed in a table of observed IOCs",
+      "first_seen": "2026-10-08T18:06:48+00:00",
+      "last_seen": "2026-10-08T18:06:48+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cisa",
+          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
+          "pub_date": "2026-10-08T18:06:48+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "35584.careers.96html.com",
+      "confidence": "high",
+      "reason": "Listed in a table of observed IOCs",
+      "first_seen": "2026-10-08T18:06:48+00:00",
+      "last_seen": "2026-10-08T18:06:48+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cisa",
+          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
+          "pub_date": "2026-10-08T18:06:48+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "35584.careers.trendmicro.96html.com",
+      "confidence": "high",
+      "reason": "Listed in a table of observed IOCs",
+      "first_seen": "2026-10-08T18:06:48+00:00",
+      "last_seen": "2026-10-08T18:06:48+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cisa",
+          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
+          "pub_date": "2026-10-08T18:06:48+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "35584.trendmicro.96html.com",
+      "confidence": "high",
+      "reason": "Listed in a table of observed IOCs",
+      "first_seen": "2026-10-08T18:06:48+00:00",
+      "last_seen": "2026-10-08T18:06:48+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cisa",
+          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
+          "pub_date": "2026-10-08T18:06:48+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "44673.careers.96html.com",
+      "confidence": "high",
+      "reason": "Listed in a table of observed IOCs",
+      "first_seen": "2026-10-08T18:06:48+00:00",
+      "last_seen": "2026-10-08T18:06:48+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cisa",
+          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
+          "pub_date": "2026-10-08T18:06:48+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "44673.trendmicro.96html.com",
+      "confidence": "high",
+      "reason": "Listed in a table of observed IOCs",
+      "first_seen": "2026-10-08T18:06:48+00:00",
+      "last_seen": "2026-10-08T18:06:48+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cisa",
+          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
+          "pub_date": "2026-10-08T18:06:48+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "47298.client.96html.com",
+      "confidence": "high",
+      "reason": "Listed in a table of observed IOCs",
+      "first_seen": "2026-10-08T18:06:48+00:00",
+      "last_seen": "2026-10-08T18:06:48+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cisa",
+          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
+          "pub_date": "2026-10-08T18:06:48+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "47298.cloud.96html.com",
+      "confidence": "high",
+      "reason": "Listed in a table of observed IOCs",
+      "first_seen": "2026-10-08T18:06:48+00:00",
+      "last_seen": "2026-10-08T18:06:48+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cisa",
+          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
+          "pub_date": "2026-10-08T18:06:48+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "47298.support.96html.com",
+      "confidence": "high",
+      "reason": "Listed in a table of observed IOCs",
+      "first_seen": "2026-10-08T18:06:48+00:00",
+      "last_seen": "2026-10-08T18:06:48+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cisa",
+          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
+          "pub_date": "2026-10-08T18:06:48+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "50669.careers.trendmicro.96html.com",
+      "confidence": "high",
+      "reason": "Listed in a table of observed IOCs",
+      "first_seen": "2026-10-08T18:06:48+00:00",
+      "last_seen": "2026-10-08T18:06:48+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cisa",
+          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
+          "pub_date": "2026-10-08T18:06:48+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "51640.careers.trendmicro.96html.com",
+      "confidence": "high",
+      "reason": "Listed in a table of observed IOCs",
+      "first_seen": "2026-10-08T18:06:48+00:00",
+      "last_seen": "2026-10-08T18:06:48+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cisa",
+          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
+          "pub_date": "2026-10-08T18:06:48+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "54-2-32-236-208-2-40-107-38.h.secshow.net",
+      "confidence": "high",
+      "reason": "Listed in a table of observed IOCs",
+      "first_seen": "2026-10-08T18:06:48+00:00",
+      "last_seen": "2026-10-08T18:06:48+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cisa",
+          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
+          "pub_date": "2026-10-08T18:06:48+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "66-37-178-96-110-2-40-107-38.h.secshow.net",
+      "confidence": "high",
+      "reason": "Listed in a table of observed IOCs",
+      "first_seen": "2026-10-08T18:06:48+00:00",
+      "last_seen": "2026-10-08T18:06:48+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cisa",
+          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
+          "pub_date": "2026-10-08T18:06:48+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "74788.careers.96html.com",
+      "confidence": "high",
+      "reason": "Listed in a table of observed IOCs",
+      "first_seen": "2026-10-08T18:06:48+00:00",
+      "last_seen": "2026-10-08T18:06:48+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cisa",
+          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
+          "pub_date": "2026-10-08T18:06:48+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "74788.trendmicro.96html.com",
+      "confidence": "high",
+      "reason": "Listed in a table of observed IOCs",
+      "first_seen": "2026-10-08T18:06:48+00:00",
+      "last_seen": "2026-10-08T18:06:48+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cisa",
+          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
+          "pub_date": "2026-10-08T18:06:48+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "77692.careers.96html.com",
+      "confidence": "high",
+      "reason": "Listed in a table of observed IOCs",
+      "first_seen": "2026-10-08T18:06:48+00:00",
+      "last_seen": "2026-10-08T18:06:48+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cisa",
+          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
+          "pub_date": "2026-10-08T18:06:48+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "77692.careers.trendmicro.96html.com",
+      "confidence": "high",
+      "reason": "Listed in a table of observed IOCs",
+      "first_seen": "2026-10-08T18:06:48+00:00",
+      "last_seen": "2026-10-08T18:06:48+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cisa",
+          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
+          "pub_date": "2026-10-08T18:06:48+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "77692.trendmicro.96html.com",
+      "confidence": "high",
+      "reason": "Listed in a table of observed IOCs",
+      "first_seen": "2026-10-08T18:06:48+00:00",
+      "last_seen": "2026-10-08T18:06:48+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cisa",
+          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
+          "pub_date": "2026-10-08T18:06:48+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "82262.careers.96html.com",
+      "confidence": "high",
+      "reason": "Listed in a table of observed IOCs",
+      "first_seen": "2026-10-08T18:06:48+00:00",
+      "last_seen": "2026-10-08T18:06:48+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cisa",
+          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
+          "pub_date": "2026-10-08T18:06:48+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "82262.careers.trendmicro.96html.com",
+      "confidence": "high",
+      "reason": "Listed in a table of observed IOCs",
+      "first_seen": "2026-10-08T18:06:48+00:00",
+      "last_seen": "2026-10-08T18:06:48+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cisa",
+          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
+          "pub_date": "2026-10-08T18:06:48+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "85005.careers.96html.com",
+      "confidence": "high",
+      "reason": "Listed in a table of observed IOCs",
+      "first_seen": "2026-10-08T18:06:48+00:00",
+      "last_seen": "2026-10-08T18:06:48+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cisa",
+          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
+          "pub_date": "2026-10-08T18:06:48+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "85005.careers.trendmicro.96html.com",
+      "confidence": "high",
+      "reason": "Listed in a table of observed IOCs",
+      "first_seen": "2026-10-08T18:06:48+00:00",
+      "last_seen": "2026-10-08T18:06:48+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cisa",
+          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
+          "pub_date": "2026-10-08T18:06:48+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "85005.trendmicro.96html.com",
+      "confidence": "high",
+      "reason": "Listed in a table of observed IOCs",
+      "first_seen": "2026-10-08T18:06:48+00:00",
+      "last_seen": "2026-10-08T18:06:48+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cisa",
+          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
+          "pub_date": "2026-10-08T18:06:48+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "90174.careers.96html.com",
+      "confidence": "high",
+      "reason": "Listed in a table of observed IOCs",
+      "first_seen": "2026-10-08T18:06:48+00:00",
+      "last_seen": "2026-10-08T18:06:48+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cisa",
+          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
+          "pub_date": "2026-10-08T18:06:48+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "90174.careers.trendmicro.96html.com",
+      "confidence": "high",
+      "reason": "Domain appears to be attacker-controlled infrastructure based on naming pattern and context.",
+      "first_seen": "2026-10-08T18:06:48+00:00",
+      "last_seen": "2026-10-08T18:06:48+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cisa",
+          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
+          "pub_date": "2026-10-08T18:06:48+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "96976.careers.96html.com",
+      "confidence": "high",
+      "reason": "Domain appears to be attacker-controlled infrastructure based on naming pattern and context.",
+      "first_seen": "2026-10-08T18:06:48+00:00",
+      "last_seen": "2026-10-08T18:06:48+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cisa",
+          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
+          "pub_date": "2026-10-08T18:06:48+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "96976.trendmicro.96html.com",
+      "confidence": "high",
+      "reason": "Domain appears to be attacker-controlled infrastructure based on naming pattern and context.",
+      "first_seen": "2026-10-08T18:06:48+00:00",
+      "last_seen": "2026-10-08T18:06:48+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cisa",
+          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
+          "pub_date": "2026-10-08T18:06:48+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "bbs.sunmoon.website",
+      "confidence": "high",
+      "reason": "Domain appears to be attacker-controlled infrastructure based on naming pattern and context.",
+      "first_seen": "2026-10-08T18:06:48+00:00",
+      "last_seen": "2026-10-08T18:06:48+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cisa",
+          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
+          "pub_date": "2026-10-08T18:06:48+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "careers.trendmicro.96html.com",
+      "confidence": "high",
+      "reason": "Domain appears to be attacker-controlled infrastructure based on naming pattern and context.",
+      "first_seen": "2026-10-08T18:06:48+00:00",
+      "last_seen": "2026-10-08T18:06:48+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cisa",
+          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
+          "pub_date": "2026-10-08T18:06:48+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "cktime.ooguy.com",
+      "confidence": "high",
+      "reason": "Domain appears to be attacker-controlled infrastructure based on naming pattern and context.",
+      "first_seen": "2026-10-08T18:06:48+00:00",
+      "last_seen": "2026-10-08T18:06:48+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cisa",
+          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
+          "pub_date": "2026-10-08T18:06:48+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "csrfproxy.studiocloud.xyz",
+      "confidence": "high",
+      "reason": "Domain appears to be attacker-controlled infrastructure based on naming pattern and context.",
+      "first_seen": "2026-10-08T18:06:48+00:00",
+      "last_seen": "2026-10-08T18:06:48+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cisa",
+          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
+          "pub_date": "2026-10-08T18:06:48+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "dc-29465b27aa45.96html.com",
+      "confidence": "high",
+      "reason": "Domain appears to be attacker-controlled infrastructure based on naming pattern and context.",
+      "first_seen": "2026-10-08T18:06:48+00:00",
+      "last_seen": "2026-10-08T18:06:48+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cisa",
+          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
+          "pub_date": "2026-10-08T18:06:48+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "dc-4fe9871cb224.96html.com",
+      "confidence": "high",
+      "reason": "Domain appears to be attacker-controlled infrastructure based on naming pattern and context.",
+      "first_seen": "2026-10-08T18:06:48+00:00",
+      "last_seen": "2026-10-08T18:06:48+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cisa",
+          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
+          "pub_date": "2026-10-08T18:06:48+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "dc-582fc0f46da9.96html.com",
+      "confidence": "high",
+      "reason": "Domain appears to be attacker-controlled infrastructure based on naming pattern and context.",
+      "first_seen": "2026-10-08T18:06:48+00:00",
+      "last_seen": "2026-10-08T18:06:48+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cisa",
+          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
+          "pub_date": "2026-10-08T18:06:48+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "dc-843d98722400.96html.com",
+      "confidence": "high",
+      "reason": "Domain appears to be attacker-controlled infrastructure based on naming pattern and context.",
+      "first_seen": "2026-10-08T18:06:48+00:00",
+      "last_seen": "2026-10-08T18:06:48+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cisa",
+          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
+          "pub_date": "2026-10-08T18:06:48+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "dc-bb503834b7dc.96html.com",
+      "confidence": "high",
+      "reason": "Domain appears to be attacker-controlled infrastructure based on naming pattern and context.",
+      "first_seen": "2026-10-08T18:06:48+00:00",
+      "last_seen": "2026-10-08T18:06:48+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cisa",
+          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
+          "pub_date": "2026-10-08T18:06:48+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "dc-c11a983d7f83.96html.com",
+      "confidence": "high",
+      "reason": "Domain appears to be attacker-controlled infrastructure based on naming pattern and context.",
+      "first_seen": "2026-10-08T18:06:48+00:00",
+      "last_seen": "2026-10-08T18:06:48+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cisa",
+          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
+          "pub_date": "2026-10-08T18:06:48+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "dns.studiocloud.xyz",
+      "confidence": "high",
+      "reason": "Domain appears to be attacker-controlled infrastructure based on naming pattern and context.",
+      "first_seen": "2026-10-08T18:06:48+00:00",
+      "last_seen": "2026-10-08T18:06:48+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cisa",
+          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
+          "pub_date": "2026-10-08T18:06:48+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "etechhosting.twimg.co.uk",
+      "confidence": "high",
+      "reason": "Domain appears to be attacker-controlled infrastructure based on naming pattern and context.",
+      "first_seen": "2026-10-08T18:06:48+00:00",
+      "last_seen": "2026-10-08T18:06:48+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cisa",
+          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
+          "pub_date": "2026-10-08T18:06:48+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "hook.studiocloud.xyz",
+      "confidence": "high",
+      "reason": "Domain appears to be attacker-controlled infrastructure based on naming pattern and context.",
+      "first_seen": "2026-10-08T18:06:48+00:00",
+      "last_seen": "2026-10-08T18:06:48+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cisa",
+          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
+          "pub_date": "2026-10-08T18:06:48+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "imap.sunmoon.website",
+      "confidence": "high",
+      "reason": "Domain appears to be attacker-controlled infrastructure based on naming pattern and context.",
+      "first_seen": "2026-10-08T18:06:48+00:00",
+      "last_seen": "2026-10-08T18:06:48+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cisa",
+          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
+          "pub_date": "2026-10-08T18:06:48+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "iplc-hk.hmbcloud.com",
+      "confidence": "high",
+      "reason": "Domain appears to be attacker-controlled infrastructure based on naming pattern and context.",
+      "first_seen": "2026-10-08T18:06:48+00:00",
+      "last_seen": "2026-10-08T18:06:48+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cisa",
+          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
+          "pub_date": "2026-10-08T18:06:48+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "javacheck.ooguy.com",
+      "confidence": "high",
+      "reason": "Domain used in malicious infrastructure, indicating attacker control.",
+      "first_seen": "2026-10-08T18:06:48+00:00",
+      "last_seen": "2026-10-08T18:06:48+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cisa",
+          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
+          "pub_date": "2026-10-08T18:06:48+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "javaupdate.giize.com",
+      "confidence": "high",
+      "reason": "Domain used in malicious infrastructure, indicating attacker control.",
+      "first_seen": "2026-10-08T18:06:48+00:00",
+      "last_seen": "2026-10-08T18:06:48+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cisa",
+          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
+          "pub_date": "2026-10-08T18:06:48+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "live.studiocloud.xyz",
+      "confidence": "high",
+      "reason": "Domain appears to be attacker-controlled infrastructure based on naming pattern and context.",
+      "first_seen": "2026-10-08T18:06:48+00:00",
+      "last_seen": "2026-10-08T18:06:48+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cisa",
+          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
+          "pub_date": "2026-10-08T18:06:48+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "mail.bailbonding.info",
+      "confidence": "high",
+      "reason": "Domain appears to be attacker-controlled infrastructure based on naming pattern and context.",
+      "first_seen": "2026-10-08T18:06:48+00:00",
+      "last_seen": "2026-10-08T18:06:48+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cisa",
+          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
+          "pub_date": "2026-10-08T18:06:48+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "mail.sunmoon.website",
+      "confidence": "high",
+      "reason": "Domain appears to be attacker-controlled infrastructure based on naming pattern and context.",
+      "first_seen": "2026-10-08T18:06:48+00:00",
+      "last_seen": "2026-10-08T18:06:48+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cisa",
+          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
+          "pub_date": "2026-10-08T18:06:48+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "natcloudservice.com",
+      "confidence": "high",
+      "reason": "Domain used as main C2 for bot, indicating attacker control.",
+      "first_seen": "2026-10-08T18:06:48+00:00",
+      "last_seen": "2026-10-08T18:06:48+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cisa",
+          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
+          "pub_date": "2026-10-08T18:06:48+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "ns1.honey1314520.com",
+      "confidence": "high",
+      "reason": "Domain appears to be attacker-controlled infrastructure based on naming pattern and context.",
+      "first_seen": "2026-10-08T18:06:48+00:00",
+      "last_seen": "2026-10-08T18:06:48+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cisa",
+          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
+          "pub_date": "2026-10-08T18:06:48+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "random.cktime.ooguy.com",
+      "confidence": "high",
+      "reason": "Domain appears to be attacker-controlled infrastructure based on naming pattern and context.",
+      "first_seen": "2026-10-08T18:06:48+00:00",
+      "last_seen": "2026-10-08T18:06:48+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cisa",
+          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
+          "pub_date": "2026-10-08T18:06:48+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "s3crts.softether.net",
+      "confidence": "high",
+      "reason": "Domain appears to be attacker-controlled infrastructure based on naming pattern and context.",
+      "first_seen": "2026-10-08T18:06:48+00:00",
+      "last_seen": "2026-10-08T18:06:48+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cisa",
+          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
+          "pub_date": "2026-10-08T18:06:48+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "smtp.sunmoon.website",
+      "confidence": "high",
+      "reason": "Domain appears to be attacker-controlled infrastructure based on naming pattern and context.",
+      "first_seen": "2026-10-08T18:06:48+00:00",
+      "last_seen": "2026-10-08T18:06:48+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cisa",
+          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
+          "pub_date": "2026-10-08T18:06:48+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "trendmicro.96html.com",
+      "confidence": "high",
+      "reason": "Listed as part of observed threat activity",
+      "first_seen": "2026-10-08T18:06:48+00:00",
+      "last_seen": "2026-10-08T18:06:48+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cisa",
+          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
+          "pub_date": "2026-10-08T18:06:48+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "txt.studiocloud.xyz",
+      "confidence": "high",
+      "reason": "Listed as part of observed threat activity",
+      "first_seen": "2026-10-08T18:06:48+00:00",
+      "last_seen": "2026-10-08T18:06:48+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cisa",
+          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
+          "pub_date": "2026-10-08T18:06:48+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "upl.natcloudservice.com",
+      "confidence": "high",
+      "reason": "Main C2 domain for the bot",
+      "first_seen": "2026-10-08T18:06:48+00:00",
+      "last_seen": "2026-10-08T18:06:48+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cisa",
+          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
+          "pub_date": "2026-10-08T18:06:48+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "vpn328433596.softether.net",
+      "confidence": "high",
+      "reason": "Listed as part of observed threat activity",
+      "first_seen": "2026-10-08T18:06:48+00:00",
+      "last_seen": "2026-10-08T18:06:48+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cisa",
+          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
+          "pub_date": "2026-10-08T18:06:48+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "vpn614174689.softether.net",
+      "confidence": "high",
+      "reason": "Listed as part of observed threat activity",
+      "first_seen": "2026-10-08T18:06:48+00:00",
+      "last_seen": "2026-10-08T18:06:48+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cisa",
+          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
+          "pub_date": "2026-10-08T18:06:48+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "vpn677190427.softether.net",
+      "confidence": "high",
+      "reason": "Listed as part of observed threat activity",
+      "first_seen": "2026-10-08T18:06:48+00:00",
+      "last_seen": "2026-10-08T18:06:48+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cisa",
+          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
+          "pub_date": "2026-10-08T18:06:48+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "vpn718535264.softether.net",
+      "confidence": "high",
+      "reason": "Listed as part of observed threat activity",
+      "first_seen": "2026-10-08T18:06:48+00:00",
+      "last_seen": "2026-10-08T18:06:48+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cisa",
+          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
+          "pub_date": "2026-10-08T18:06:48+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "vpn823494147.softether.net",
+      "confidence": "high",
+      "reason": "Listed as part of observed threat activity",
+      "first_seen": "2026-10-08T18:06:48+00:00",
+      "last_seen": "2026-10-08T18:06:48+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cisa",
+          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
+          "pub_date": "2026-10-08T18:06:48+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "wanfang.accesscam.org",
+      "confidence": "high",
+      "reason": "Listed as part of observed threat activity",
+      "first_seen": "2026-10-08T18:06:48+00:00",
+      "last_seen": "2026-10-08T18:06:48+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cisa",
+          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
+          "pub_date": "2026-10-08T18:06:48+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "webdisk.bailbonding.info",
+      "confidence": "high",
+      "reason": "Listed as part of observed threat activity",
+      "first_seen": "2026-10-08T18:06:48+00:00",
+      "last_seen": "2026-10-08T18:06:48+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cisa",
+          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
+          "pub_date": "2026-10-08T18:06:48+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "webmail.studiocloud.xyz",
+      "confidence": "high",
+      "reason": "Listed as part of observed threat activity",
+      "first_seen": "2026-10-08T18:06:48+00:00",
+      "last_seen": "2026-10-08T18:06:48+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cisa",
+          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
+          "pub_date": "2026-10-08T18:06:48+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "wss.studiocloud.xyz",
+      "confidence": "high",
+      "reason": "Listed as part of observed threat activity",
+      "first_seen": "2026-10-08T18:06:48+00:00",
+      "last_seen": "2026-10-08T18:06:48+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cisa",
+          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
+          "pub_date": "2026-10-08T18:06:48+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "ximmd.sexytube0.com",
+      "confidence": "high",
+      "reason": "Listed as part of observed threat activity",
+      "first_seen": "2026-10-08T18:06:48+00:00",
+      "last_seen": "2026-10-08T18:06:48+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cisa",
+          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
+          "pub_date": "2026-10-08T18:06:48+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "zerogravity1986.softether.net",
+      "confidence": "high",
+      "reason": "Listed as part of observed threat activity",
+      "first_seen": "2026-10-08T18:06:48+00:00",
+      "last_seen": "2026-10-08T18:06:48+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cisa",
+          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
+          "pub_date": "2026-10-08T18:06:48+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "dnshook.site",
+      "confidence": "high",
+      "reason": "Configured as an authoritative nameserver for data exfiltration via DNS tunneling",
+      "first_seen": "2026-10-08T15:14:15.038119+00:00",
+      "last_seen": "2026-10-08T15:14:15.038119+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "unit42.paloaltonetworks.com",
+          "url": "https://unit42.paloaltonetworks.com/bypass-of-aws-sandbox-network-isolation-mode/",
+          "pub_date": "2026-10-08T15:14:15.038119+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "my-secret.dnshook.site",
+      "confidence": "high",
+      "reason": "Subdomain used for data exfiltration via DNS tunneling",
+      "first_seen": "2026-10-08T15:14:15.038119+00:00",
+      "last_seen": "2026-10-08T15:14:15.038119+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "unit42.paloaltonetworks.com",
+          "url": "https://unit42.paloaltonetworks.com/bypass-of-aws-sandbox-network-isolation-mode/",
+          "pub_date": "2026-10-08T15:14:15.038119+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "backend-production-6d75.up.railway.app",
+      "confidence": "high",
+      "reason": "Used in phishing infrastructure",
+      "first_seen": "2026-10-08T14:01:39.081761+00:00",
+      "last_seen": "2026-10-08T14:01:39.081761+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.island.io",
+          "url": "https://www.island.io/blog/behind-the-connect-button-the-fake-ai-ads-campaign",
+          "pub_date": "2026-10-08T14:01:39.081761+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "joinmatchy.com",
+      "confidence": "high",
+      "reason": "Domain used to host a fake collaboration platform as part of a phishing scheme",
+      "first_seen": "2026-10-08T12:46:27+00:00",
+      "last_seen": "2026-10-08T14:01:31.398120+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "www.welivesecurity.com",
+          "url": "https://www.welivesecurity.com/en/social-media/brand-deal-scam-targeting-youtube-creators/",
+          "pub_date": "2026-10-08T14:01:31.39812+00:00"
+        },
+        {
+          "source": "Helpnetsecurity",
+          "url": "https://www.helpnetsecurity.com/2026/10/08/scams-targeting-youtube-creators-sponsorship/",
+          "pub_date": "2026-10-08T12:46:27+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Matchy"
+        },
+        {
+          "type": "campaign",
+          "value": "Scouty"
+        },
+        {
+          "type": "campaign",
+          "value": "Tubive"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "iseekaigogo.com",
+      "confidence": "high",
+      "reason": "Listed as a hardcoded command-and-control domain used by the malware",
+      "first_seen": "2026-10-08T00:00:00+00:00",
+      "last_seen": "2026-10-08T13:30:27+00:00",
+      "source_count": 6,
+      "sources": [
+        {
+          "source": "Gbhackers",
+          "url": "https://gbhackers.com/tensorlake-package-hijacked/",
+          "pub_date": "2026-10-08T13:30:27+00:00"
+        },
+        {
+          "source": "Endorlabs",
+          "url": "https://www.endorlabs.com/learn/tensorlake-npm-package-compromised-by-shai-hulud-in-latest-software-supply-chain-attack",
+          "pub_date": "2026-10-08T08:45:18+00:00"
+        },
+        {
+          "source": "Feeds.Feedburner",
+          "url": "https://thehackernews.com/2026/10/tensorlake-npm-package-compromised-to.html",
+          "pub_date": "2026-10-08T05:46:20+00:00"
+        },
+        {
+          "source": "Aikido.Dev",
+          "url": "https://www.aikido.dev/blog/tensorlake-npm-package-compromised",
+          "pub_date": "2026-10-08T03:32:00+00:00"
+        },
+        {
+          "source": "Stepsecurity",
+          "url": "https://www.stepsecurity.io/blog/tensorlake-npm-compromised-hostage-token-worm",
+          "pub_date": "2026-10-08T03:19:22+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "Shai-Hulud"
+        },
+        {
+          "type": "apt_group",
+          "value": "Shai-Hulud"
+        },
+        {
+          "type": "campaign",
+          "value": "August Campaign"
+        },
+        {
+          "type": "campaign",
+          "value": "ChainDrop"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "103.248.148.84",
+      "confidence": "high",
+      "reason": "Listed as a proxy address associated with the operation",
+      "first_seen": "2026-10-08T12:54:13+00:00",
+      "last_seen": "2026-10-08T12:54:13+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "News.Lavx.Hu",
+          "url": "https://news.lavx.hu/article/chinese-linked-threat-actor-deploys-ai-driven-artex-against-south-korean-banks",
+          "pub_date": "2026-10-08T12:54:13+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "ipv4",
+      "value": "154.201.79.246",
+      "confidence": "high",
+      "reason": "Listed as a proxy address associated with the operation",
+      "first_seen": "2026-10-08T12:54:13+00:00",
+      "last_seen": "2026-10-08T12:54:13+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "News.Lavx.Hu",
+          "url": "https://news.lavx.hu/article/chinese-linked-threat-actor-deploys-ai-driven-artex-against-south-korean-banks",
+          "pub_date": "2026-10-08T12:54:13+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "ipv4",
+      "value": "203.160.133.172",
+      "confidence": "high",
+      "reason": "Listed as a proxy address associated with the operation",
+      "first_seen": "2026-10-08T12:54:13+00:00",
+      "last_seen": "2026-10-08T12:54:13+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "News.Lavx.Hu",
+          "url": "https://news.lavx.hu/article/chinese-linked-threat-actor-deploys-ai-driven-artex-against-south-korean-banks",
+          "pub_date": "2026-10-08T12:54:13+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "ipv4",
+      "value": "209.209.85.38",
+      "confidence": "high",
+      "reason": "Listed as a proxy address associated with the operation",
+      "first_seen": "2026-10-08T12:54:13+00:00",
+      "last_seen": "2026-10-08T12:54:13+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "News.Lavx.Hu",
+          "url": "https://news.lavx.hu/article/chinese-linked-threat-actor-deploys-ai-driven-artex-against-south-korean-banks",
+          "pub_date": "2026-10-08T12:54:13+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "ipv4",
+      "value": "23.158.220.98",
+      "confidence": "high",
+      "reason": "Listed as a proxy address associated with the operation",
+      "first_seen": "2026-10-08T12:54:13+00:00",
+      "last_seen": "2026-10-08T12:54:13+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "News.Lavx.Hu",
+          "url": "https://news.lavx.hu/article/chinese-linked-threat-actor-deploys-ai-driven-artex-against-south-korean-banks",
+          "pub_date": "2026-10-08T12:54:13+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "ipv4",
+      "value": "23.248.249.90",
+      "confidence": "high",
+      "reason": "Listed as a proxy address associated with the operation",
+      "first_seen": "2026-10-08T12:54:13+00:00",
+      "last_seen": "2026-10-08T12:54:13+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "News.Lavx.Hu",
+          "url": "https://news.lavx.hu/article/chinese-linked-threat-actor-deploys-ai-driven-artex-against-south-korean-banks",
+          "pub_date": "2026-10-08T12:54:13+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "joinscouty.com",
+      "confidence": "high",
+      "reason": "Domain used to host a fake collaboration platform as part of a phishing scheme",
+      "first_seen": "2026-10-08T12:46:27+00:00",
+      "last_seen": "2026-10-08T12:46:27+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Helpnetsecurity",
+          "url": "https://www.helpnetsecurity.com/2026/10/08/scams-targeting-youtube-creators-sponsorship/",
+          "pub_date": "2026-10-08T12:46:27+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Matchy"
+        },
+        {
+          "type": "campaign",
+          "value": "Scouty"
+        },
+        {
+          "type": "campaign",
+          "value": "Tubive"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "matchyjoin.com",
+      "confidence": "high",
+      "reason": "Domain used to host a fake collaboration platform as part of a phishing scheme",
+      "first_seen": "2026-10-08T12:46:27+00:00",
+      "last_seen": "2026-10-08T12:46:27+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Helpnetsecurity",
+          "url": "https://www.helpnetsecurity.com/2026/10/08/scams-targeting-youtube-creators-sponsorship/",
+          "pub_date": "2026-10-08T12:46:27+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Matchy"
+        },
+        {
+          "type": "campaign",
+          "value": "Scouty"
+        },
+        {
+          "type": "campaign",
+          "value": "Tubive"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "mytubive.com",
+      "confidence": "high",
+      "reason": "Domain used to host a fake collaboration platform as part of a phishing scheme",
+      "first_seen": "2026-10-08T12:46:27+00:00",
+      "last_seen": "2026-10-08T12:46:27+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Helpnetsecurity",
+          "url": "https://www.helpnetsecurity.com/2026/10/08/scams-targeting-youtube-creators-sponsorship/",
+          "pub_date": "2026-10-08T12:46:27+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Matchy"
+        },
+        {
+          "type": "campaign",
+          "value": "Scouty"
+        },
+        {
+          "type": "campaign",
+          "value": "Tubive"
+        }
+      ]
+    },
     {
       "type": "domain",
       "value": "gateway001kir.com",
@@ -320,412 +3723,196 @@
       ]
     },
     {
+      "type": "ipv4",
+      "value": "177.75.57.20",
+      "confidence": "high",
+      "reason": "Identified as the most active address in coordinated exploitation",
+      "first_seen": "2026-10-08T11:28:37+00:00",
+      "last_seen": "2026-10-08T11:28:37+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Patchstack",
+          "url": "https://patchstack.com/articles/critical-unauthenticated-arbitrary-file-upload-vulnerability-exploited-in-bricksforge-plugin/",
+          "pub_date": "2026-10-08T11:28:37+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
       "type": "domain",
-      "value": "malwarescan.xyz",
+      "value": "66ds.lol",
       "confidence": "high",
-      "reason": "Domain registered and operated by the PoeLLM creator",
-      "first_seen": "2026-10-08T12:00:35.203953+00:00",
-      "last_seen": "2026-10-08T12:00:35.203953+00:00",
+      "reason": "Identified as a Cloudflare-fronted C2 server used in infections",
+      "first_seen": "2026-10-08T11:13:46+00:00",
+      "last_seen": "2026-10-08T11:13:46+00:00",
       "source_count": 1,
       "sources": [
         {
-          "source": "www.lumen.com",
-          "url": "https://www.lumen.com/blog/en-us/canto-incognito-tracking-the-poellm-malware",
-          "pub_date": "2026-10-08T12:00:35.203953+00:00"
+          "source": "Gbhackers",
+          "url": "https://gbhackers.com/exposed-darksword-ios-servers/",
+          "pub_date": "2026-10-08T11:13:46+00:00"
         }
       ],
       "tags": [
         {
-          "type": "campaign",
-          "value": "PoeLLM Campaign"
+          "type": "cve",
+          "value": "CVE-2026-31001"
         },
         {
-          "type": "cve",
-          "value": "CVE-2018-21027"
+          "type": "malware",
+          "value": "Coruna"
         },
         {
-          "type": "cve",
-          "value": "CVE-2018-21028"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-10520"
+          "type": "malware",
+          "value": "DarkSword"
         }
       ]
     },
     {
       "type": "ipv4",
-      "value": "103.249.201.108",
+      "value": "156.239.230.120",
       "confidence": "high",
-      "reason": "Listed as a C2 IP address associated with the campaign",
-      "first_seen": "2026-10-08T12:00:35.203953+00:00",
-      "last_seen": "2026-10-08T12:00:35.203953+00:00",
+      "reason": "Hosts exploit server and C2 platform for DarkSword operations",
+      "first_seen": "2026-10-08T11:13:46+00:00",
+      "last_seen": "2026-10-08T11:13:46+00:00",
       "source_count": 1,
       "sources": [
         {
-          "source": "www.lumen.com",
-          "url": "https://www.lumen.com/blog/en-us/canto-incognito-tracking-the-poellm-malware",
-          "pub_date": "2026-10-08T12:00:35.203953+00:00"
+          "source": "Gbhackers",
+          "url": "https://gbhackers.com/exposed-darksword-ios-servers/",
+          "pub_date": "2026-10-08T11:13:46+00:00"
         }
       ],
       "tags": [
         {
-          "type": "campaign",
-          "value": "PoeLLM Campaign"
+          "type": "cve",
+          "value": "CVE-2026-31001"
         },
         {
-          "type": "cve",
-          "value": "CVE-2018-21027"
+          "type": "malware",
+          "value": "Coruna"
         },
         {
-          "type": "cve",
-          "value": "CVE-2018-21028"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-10520"
+          "type": "malware",
+          "value": "DarkSword"
         }
       ]
     },
     {
       "type": "ipv4",
-      "value": "120.224.114.212",
+      "value": "166.88.95.90",
       "confidence": "high",
-      "reason": "Listed as additional infrastructure observed during the campaign",
-      "first_seen": "2026-10-08T12:00:35.203953+00:00",
-      "last_seen": "2026-10-08T12:00:35.203953+00:00",
+      "reason": "Telemetry showed suspicious activity from this IP",
+      "first_seen": "2026-10-08T11:13:46+00:00",
+      "last_seen": "2026-10-08T11:13:46+00:00",
       "source_count": 1,
       "sources": [
         {
-          "source": "www.lumen.com",
-          "url": "https://www.lumen.com/blog/en-us/canto-incognito-tracking-the-poellm-malware",
-          "pub_date": "2026-10-08T12:00:35.203953+00:00"
+          "source": "Gbhackers",
+          "url": "https://gbhackers.com/exposed-darksword-ios-servers/",
+          "pub_date": "2026-10-08T11:13:46+00:00"
         }
       ],
       "tags": [
         {
-          "type": "campaign",
-          "value": "PoeLLM Campaign"
+          "type": "cve",
+          "value": "CVE-2026-31001"
         },
         {
-          "type": "cve",
-          "value": "CVE-2018-21027"
+          "type": "malware",
+          "value": "Coruna"
         },
         {
-          "type": "cve",
-          "value": "CVE-2018-21028"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-10520"
-        }
-      ]
-    },
-    {
-      "type": "ipv4",
-      "value": "136.148.69.233",
-      "confidence": "high",
-      "reason": "Listed as additional infrastructure observed during the campaign",
-      "first_seen": "2026-10-08T12:00:35.203953+00:00",
-      "last_seen": "2026-10-08T12:00:35.203953+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.lumen.com",
-          "url": "https://www.lumen.com/blog/en-us/canto-incognito-tracking-the-poellm-malware",
-          "pub_date": "2026-10-08T12:00:35.203953+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "PoeLLM Campaign"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2018-21027"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2018-21028"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-10520"
-        }
-      ]
-    },
-    {
-      "type": "ipv4",
-      "value": "185.132.53.158",
-      "confidence": "high",
-      "reason": "Listed as additional infrastructure observed during the campaign",
-      "first_seen": "2026-10-08T12:00:35.203953+00:00",
-      "last_seen": "2026-10-08T12:00:35.203953+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.lumen.com",
-          "url": "https://www.lumen.com/blog/en-us/canto-incognito-tracking-the-poellm-malware",
-          "pub_date": "2026-10-08T12:00:35.203953+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "PoeLLM Campaign"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2018-21027"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2018-21028"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-10520"
-        }
-      ]
-    },
-    {
-      "type": "ipv4",
-      "value": "191.37.28.160",
-      "confidence": "high",
-      "reason": "Listed as additional infrastructure observed during the campaign",
-      "first_seen": "2026-10-08T12:00:35.203953+00:00",
-      "last_seen": "2026-10-08T12:00:35.203953+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.lumen.com",
-          "url": "https://www.lumen.com/blog/en-us/canto-incognito-tracking-the-poellm-malware",
-          "pub_date": "2026-10-08T12:00:35.203953+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "PoeLLM Campaign"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2018-21027"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2018-21028"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-10520"
-        }
-      ]
-    },
-    {
-      "type": "ipv4",
-      "value": "89.39.253.46",
-      "confidence": "high",
-      "reason": "Listed as additional infrastructure observed during the campaign",
-      "first_seen": "2026-10-08T12:00:35.203953+00:00",
-      "last_seen": "2026-10-08T12:00:35.203953+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.lumen.com",
-          "url": "https://www.lumen.com/blog/en-us/canto-incognito-tracking-the-poellm-malware",
-          "pub_date": "2026-10-08T12:00:35.203953+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "PoeLLM Campaign"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2018-21027"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2018-21028"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-10520"
-        }
-      ]
-    },
-    {
-      "type": "ipv4",
-      "value": "92.119.164.50",
-      "confidence": "high",
-      "reason": "Listed as a C2 IP address associated with the campaign",
-      "first_seen": "2026-10-08T12:00:35.203953+00:00",
-      "last_seen": "2026-10-08T12:00:35.203953+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.lumen.com",
-          "url": "https://www.lumen.com/blog/en-us/canto-incognito-tracking-the-poellm-malware",
-          "pub_date": "2026-10-08T12:00:35.203953+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "PoeLLM Campaign"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2018-21027"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2018-21028"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-10520"
-        }
-      ]
-    },
-    {
-      "type": "ipv4",
-      "value": "92.119.165.74",
-      "confidence": "high",
-      "reason": "Listed as additional infrastructure observed during the campaign",
-      "first_seen": "2026-10-08T12:00:35.203953+00:00",
-      "last_seen": "2026-10-08T12:00:35.203953+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.lumen.com",
-          "url": "https://www.lumen.com/blog/en-us/canto-incognito-tracking-the-poellm-malware",
-          "pub_date": "2026-10-08T12:00:35.203953+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "PoeLLM Campaign"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2018-21027"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2018-21028"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-10520"
+          "type": "malware",
+          "value": "DarkSword"
         }
       ]
     },
     {
       "type": "domain",
-      "value": "lanner.pro",
+      "value": "boegl-krysl.eu",
       "confidence": "high",
-      "reason": "Listed as MATCHBOIL C&C server",
-      "first_seen": "2026-10-08T11:00:28.804589+00:00",
-      "last_seen": "2026-10-08T11:00:28.804589+00:00",
+      "reason": "Domain used in phishing campaign, indicating attacker control.",
+      "first_seen": "2026-10-08T10:30:00+00:00",
+      "last_seen": "2026-10-08T10:30:00+00:00",
       "source_count": 1,
       "sources": [
         {
-          "source": "www.globenewswire.com",
-          "url": "https://www.welivesecurity.com/en/eset-research/matchboil-new-tricks-same-old-evil-intentions/",
-          "pub_date": "2026-10-08T11:00:28.804589+00:00"
+          "source": "Thehackernews",
+          "url": "https://thehackernews.com/2026/10/wazza-phishkit-targets-banking.html",
+          "pub_date": "2026-10-08T10:30:00+00:00"
         }
       ],
-      "tags": [
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "check.boegl-krysl.eu",
+      "confidence": "high",
+      "reason": "Domain used in phishing campaign, indicating attacker control.",
+      "first_seen": "2026-10-08T10:30:00+00:00",
+      "last_seen": "2026-10-08T10:30:00+00:00",
+      "source_count": 1,
+      "sources": [
         {
-          "type": "apt_group",
-          "value": "Sandworm"
-        },
-        {
-          "type": "apt_group",
-          "value": "UAC-0099"
-        },
-        {
-          "type": "industry",
-          "value": "Energy"
-        },
-        {
-          "type": "industry",
-          "value": "Financial"
+          "source": "Thehackernews",
+          "url": "https://thehackernews.com/2026/10/wazza-phishkit-targets-banking.html",
+          "pub_date": "2026-10-08T10:30:00+00:00"
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "type": "ipv4",
-      "value": "64.95.10.223",
+      "value": "101.53.80.20",
       "confidence": "high",
-      "reason": "Listed as MATCHBOIL C&C IP, VPS",
-      "first_seen": "2026-10-08T11:00:28.804589+00:00",
-      "last_seen": "2026-10-08T11:00:28.804589+00:00",
+      "reason": "Listed as a proxy address associated with the operation",
+      "first_seen": "2026-10-08T10:16:18+00:00",
+      "last_seen": "2026-10-08T10:16:18+00:00",
       "source_count": 1,
       "sources": [
         {
-          "source": "www.globenewswire.com",
-          "url": "https://www.welivesecurity.com/en/eset-research/matchboil-new-tricks-same-old-evil-intentions/",
-          "pub_date": "2026-10-08T11:00:28.804589+00:00"
+          "source": "Gbhackers",
+          "url": "https://gbhackers.com/financially-motivated-hacker-uses-agentic-ai-to-breach-multiple-south-korean-finance-targets/",
+          "pub_date": "2026-10-08T10:16:18+00:00"
         }
       ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Sandworm"
-        },
-        {
-          "type": "apt_group",
-          "value": "UAC-0099"
-        },
-        {
-          "type": "industry",
-          "value": "Energy"
-        },
-        {
-          "type": "industry",
-          "value": "Financial"
-        }
-      ]
+      "tags": []
     },
     {
       "type": "ipv4",
-      "value": "64.95.13.210",
+      "value": "124.155.252.63",
       "confidence": "high",
-      "reason": "Listed as MATCHBOIL C&C IP, VPS",
-      "first_seen": "2026-10-08T11:00:28.804589+00:00",
-      "last_seen": "2026-10-08T11:00:28.804589+00:00",
+      "reason": "Listed as a proxy address associated with the operation",
+      "first_seen": "2026-10-08T10:16:18+00:00",
+      "last_seen": "2026-10-08T10:16:18+00:00",
       "source_count": 1,
       "sources": [
         {
-          "source": "www.globenewswire.com",
-          "url": "https://www.welivesecurity.com/en/eset-research/matchboil-new-tricks-same-old-evil-intentions/",
-          "pub_date": "2026-10-08T11:00:28.804589+00:00"
+          "source": "Gbhackers",
+          "url": "https://gbhackers.com/financially-motivated-hacker-uses-agentic-ai-to-breach-multiple-south-korean-finance-targets/",
+          "pub_date": "2026-10-08T10:16:18+00:00"
         }
       ],
-      "tags": [
+      "tags": []
+    },
+    {
+      "type": "ipv4",
+      "value": "205.214.59.31",
+      "confidence": "high",
+      "reason": "Listed as a proxy address associated with the operation",
+      "first_seen": "2026-10-08T10:16:18+00:00",
+      "last_seen": "2026-10-08T10:16:18+00:00",
+      "source_count": 1,
+      "sources": [
         {
-          "type": "apt_group",
-          "value": "Sandworm"
-        },
-        {
-          "type": "apt_group",
-          "value": "UAC-0099"
-        },
-        {
-          "type": "industry",
-          "value": "Energy"
-        },
-        {
-          "type": "industry",
-          "value": "Financial"
+          "source": "Gbhackers",
+          "url": "https://gbhackers.com/financially-motivated-hacker-uses-agentic-ai-to-breach-multiple-south-korean-finance-targets/",
+          "pub_date": "2026-10-08T10:16:18+00:00"
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "type": "domain",
@@ -781,150 +3968,37 @@
     },
     {
       "type": "domain",
-      "value": "fasttools.co",
+      "value": "springbunnhopes.online",
       "confidence": "high",
-      "reason": "Listed as part of malicious extensions infrastructure",
-      "first_seen": "2026-10-07T15:43:09.619000+00:00",
-      "last_seen": "2026-10-08T09:46:32+00:00",
-      "source_count": 2,
+      "reason": "Phishing domain linked to a fraudulent website",
+      "first_seen": "2026-10-08T08:40:19+00:00",
+      "last_seen": "2026-10-08T08:40:19+00:00",
+      "source_count": 1,
       "sources": [
         {
-          "source": "Feeds.Feedburner",
-          "url": "https://thehackernews.com/2026/10/16-malicious-firefox-extensions-pose-as.html",
-          "pub_date": "2026-10-08T09:46:32+00:00"
-        },
-        {
-          "source": "Socket.Dev",
-          "url": "https://socket.dev/blog/firefox-crypto-wallet-stealers?utm_medium=feed",
-          "pub_date": "2026-10-07T15:43:09.619+00:00"
+          "source": "Premiumtimesng",
+          "url": "https://www.premiumtimesng.com/features-and-interviews/915268-meta-policies-fail-as-scam-ads-deepfakes-impersonating-nigerian-public-figures-litter-facebook.html",
+          "pub_date": "2026-10-08T08:40:19+00:00"
         }
       ],
-      "tags": [
-        {
-          "type": "malware",
-          "value": "OKX Clone Web3 Portal"
-        },
-        {
-          "type": "malware",
-          "value": "Rabby Clone Interface"
-        }
-      ]
+      "tags": []
     },
     {
       "type": "domain",
-      "value": "tabtools.co",
+      "value": "welceastming.website",
       "confidence": "high",
-      "reason": "Listed as part of malicious extensions infrastructure",
-      "first_seen": "2026-10-07T15:43:09.619000+00:00",
-      "last_seen": "2026-10-08T09:46:32+00:00",
-      "source_count": 2,
+      "reason": "Phishing domain linked to a fraudulent website",
+      "first_seen": "2026-10-08T08:40:19+00:00",
+      "last_seen": "2026-10-08T08:40:19+00:00",
+      "source_count": 1,
       "sources": [
         {
-          "source": "Feeds.Feedburner",
-          "url": "https://thehackernews.com/2026/10/16-malicious-firefox-extensions-pose-as.html",
-          "pub_date": "2026-10-08T09:46:32+00:00"
-        },
-        {
-          "source": "Socket.Dev",
-          "url": "https://socket.dev/blog/firefox-crypto-wallet-stealers?utm_medium=feed",
-          "pub_date": "2026-10-07T15:43:09.619+00:00"
+          "source": "Premiumtimesng",
+          "url": "https://www.premiumtimesng.com/features-and-interviews/915268-meta-policies-fail-as-scam-ads-deepfakes-impersonating-nigerian-public-figures-litter-facebook.html",
+          "pub_date": "2026-10-08T08:40:19+00:00"
         }
       ],
-      "tags": [
-        {
-          "type": "malware",
-          "value": "OKX Clone Web3 Portal"
-        },
-        {
-          "type": "malware",
-          "value": "Rabby Clone Interface"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "webtools.co",
-      "confidence": "high",
-      "reason": "Listed as part of malicious extensions infrastructure",
-      "first_seen": "2026-10-07T15:43:09.619000+00:00",
-      "last_seen": "2026-10-08T09:46:32+00:00",
-      "source_count": 2,
-      "sources": [
-        {
-          "source": "Feeds.Feedburner",
-          "url": "https://thehackernews.com/2026/10/16-malicious-firefox-extensions-pose-as.html",
-          "pub_date": "2026-10-08T09:46:32+00:00"
-        },
-        {
-          "source": "Socket.Dev",
-          "url": "https://socket.dev/blog/firefox-crypto-wallet-stealers?utm_medium=feed",
-          "pub_date": "2026-10-07T15:43:09.619+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "malware",
-          "value": "OKX Clone Web3 Portal"
-        },
-        {
-          "type": "malware",
-          "value": "Rabby Clone Interface"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "iseekaigogo.com",
-      "confidence": "high",
-      "reason": "Listed as the hardcoded C2 address in the malware",
-      "first_seen": "2026-10-08T00:00:00+00:00",
-      "last_seen": "2026-10-08T08:45:18+00:00",
-      "source_count": 5,
-      "sources": [
-        {
-          "source": "Endorlabs",
-          "url": "https://www.endorlabs.com/learn/tensorlake-npm-package-compromised-by-shai-hulud-in-latest-software-supply-chain-attack",
-          "pub_date": "2026-10-08T08:45:18+00:00"
-        },
-        {
-          "source": "Feeds.Feedburner",
-          "url": "https://thehackernews.com/2026/10/tensorlake-npm-package-compromised-to.html",
-          "pub_date": "2026-10-08T05:46:20+00:00"
-        },
-        {
-          "source": "Aikido.Dev",
-          "url": "https://www.aikido.dev/blog/tensorlake-npm-package-compromised",
-          "pub_date": "2026-10-08T03:32:00+00:00"
-        },
-        {
-          "source": "Stepsecurity",
-          "url": "https://www.stepsecurity.io/blog/tensorlake-npm-compromised-hostage-token-worm",
-          "pub_date": "2026-10-08T03:19:22+00:00"
-        },
-        {
-          "source": "Safedep",
-          "url": "https://safedep.io/tensorlake-npm-compromise-mini-shai-hulud",
-          "pub_date": "2026-10-08T00:00:00+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "malware",
-          "value": "Shai-Hulud"
-        },
-        {
-          "type": "campaign",
-          "value": "ChainDrop"
-        },
-        {
-          "type": "campaign",
-          "value": "Miasma Supply Chain Attack"
-        },
-        {
-          "type": "campaign",
-          "value": "Shai-Hulud Waves"
-        }
-      ]
+      "tags": []
     },
     {
       "type": "ipv4",
@@ -952,6 +4026,74 @@
           "value": "CVE-2026-21589"
         }
       ]
+    },
+    {
+      "type": "domain",
+      "value": "teams-online.com",
+      "confidence": "high",
+      "reason": "Phishing domain impersonating Microsoft Teams",
+      "first_seen": "2026-10-08T06:44:17+00:00",
+      "last_seen": "2026-10-08T06:44:17+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cybersecuritynews",
+          "url": "https://cybersecuritynews.com/domain-with-exact-microsoft-teams-interface/",
+          "pub_date": "2026-10-08T06:44:17+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "ipv4",
+      "value": "61.18.208.27",
+      "confidence": "high",
+      "reason": "Communicates with a remote access trojan",
+      "first_seen": "2026-10-08T06:42:10+00:00",
+      "last_seen": "2026-10-08T06:42:10+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Morphisec",
+          "url": "https://www.morphisec.com/blog/copy-of-how-to-stop-ransomware-before-execution/",
+          "pub_date": "2026-10-08T06:42:10+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "api.nebulaai.dev",
+      "confidence": "high",
+      "reason": "Domain used in malware campaign, indicating attacker control.",
+      "first_seen": "2026-10-08T00:00:00+00:00",
+      "last_seen": "2026-10-08T00:00:00+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cloudsek",
+          "url": "https://www.cloudsek.com/blog/nebula-fake-ai-sdk-npm-packages-windows-rat",
+          "pub_date": "2026-10-08T00:00:00+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "ipv4",
+      "value": "65.87.7.132",
+      "confidence": "high",
+      "reason": "Configured to communicate with a remote-access tool",
+      "first_seen": "2026-10-08T00:00:00+00:00",
+      "last_seen": "2026-10-08T00:00:00+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cloudsek",
+          "url": "https://www.cloudsek.com/blog/nebula-fake-ai-sdk-npm-packages-windows-rat",
+          "pub_date": "2026-10-08T00:00:00+00:00"
+        }
+      ],
+      "tags": []
     },
     {
       "type": "domain",
@@ -3512,6 +6654,91 @@
     },
     {
       "type": "domain",
+      "value": "c0ce.org",
+      "confidence": "high",
+      "reason": "Domain used in malicious infrastructure, indicating attacker control.",
+      "first_seen": "2026-10-07T08:32:26+00:00",
+      "last_seen": "2026-10-07T08:32:26+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Gbhackers",
+          "url": "https://gbhackers.com/partisan-zmiy-malware/",
+          "pub_date": "2026-10-07T08:32:26+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "f91j.org",
+      "confidence": "high",
+      "reason": "Domain used in malicious infrastructure, indicating attacker control.",
+      "first_seen": "2026-10-07T08:32:26+00:00",
+      "last_seen": "2026-10-07T08:32:26+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Gbhackers",
+          "url": "https://gbhackers.com/partisan-zmiy-malware/",
+          "pub_date": "2026-10-07T08:32:26+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "gov-by.com",
+      "confidence": "high",
+      "reason": "Domain used in malicious infrastructure, indicating attacker control.",
+      "first_seen": "2026-10-07T08:32:26+00:00",
+      "last_seen": "2026-10-07T08:32:26+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Gbhackers",
+          "url": "https://gbhackers.com/partisan-zmiy-malware/",
+          "pub_date": "2026-10-07T08:32:26+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "p7cp.org",
+      "confidence": "high",
+      "reason": "Domain used in malicious infrastructure, indicating attacker control.",
+      "first_seen": "2026-10-07T08:32:26+00:00",
+      "last_seen": "2026-10-07T08:32:26+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Gbhackers",
+          "url": "https://gbhackers.com/partisan-zmiy-malware/",
+          "pub_date": "2026-10-07T08:32:26+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "w3a01.net",
+      "confidence": "high",
+      "reason": "Listed as part of observed threat activity",
+      "first_seen": "2026-10-07T08:32:26+00:00",
+      "last_seen": "2026-10-07T08:32:26+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Gbhackers",
+          "url": "https://gbhackers.com/partisan-zmiy-malware/",
+          "pub_date": "2026-10-07T08:32:26+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
       "value": "www.hookphish.com",
       "confidence": "high",
       "reason": "Listed as an indicator for ransomware detection",
@@ -3651,23 +6878,6 @@
           "value": "CVE-2018-20062"
         }
       ]
-    },
-    {
-      "type": "domain",
-      "value": "backend-production-6d75.up.railway.app",
-      "confidence": "high",
-      "reason": "Used in phishing infrastructure",
-      "first_seen": "2026-10-06T20:41:31.677664+00:00",
-      "last_seen": "2026-10-06T20:41:31.677664+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.island.io",
-          "url": "https://www.island.io/blog/behind-the-connect-button-the-fake-ai-ads-campaign",
-          "pub_date": "2026-10-06T20:41:31.677664+00:00"
-        }
-      ],
-      "tags": []
     },
     {
       "type": "domain",
@@ -13102,26 +16312,17 @@
       "value": "img.monderhouse.space",
       "confidence": "high",
       "reason": "Described as a C2 host in the context",
-      "first_seen": "2026-09-08T16:58:55+00:00",
+      "first_seen": "2026-09-16T02:04:55.793732+00:00",
       "last_seen": "2026-09-16T02:04:55.793732+00:00",
-      "source_count": 2,
+      "source_count": 1,
       "sources": [
         {
           "source": "www.rapid7.com",
           "url": "https://www.rapid7.com/blog/post/tr-dprk-apts-ted-backdoor-curlrat-target-south-korean-media-automotive-sectors/",
           "pub_date": "2026-09-16T02:04:55.793732+00:00"
-        },
-        {
-          "source": "Krypt3Ia.Wordpress",
-          "url": "https://krypt3ia.wordpress.com/2026/09/08/weekly-all-source-cyber-warfare-intelligence-brief-september-8-2026/",
-          "pub_date": "2026-09-08T16:58:55+00:00"
         }
       ],
       "tags": [
-        {
-          "type": "malware",
-          "value": "CurlRAT"
-        },
         {
           "type": "apt_group",
           "value": "APT37"
@@ -13131,8 +16332,12 @@
           "value": "Kimsuky"
         },
         {
-          "type": "apt_group",
-          "value": "Mirage Kitten"
+          "type": "malware",
+          "value": "CurlRAT"
+        },
+        {
+          "type": "malware",
+          "value": "Ted Backdoor"
         }
       ]
     },
@@ -15132,488 +18337,6 @@
           "source": "Huntress",
           "url": "https://www.huntress.com/blog/fake-gta6-download-malware-analysis",
           "pub_date": "2026-09-09T14:05:57+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "aa.amazingshield.xyz",
-      "confidence": "high",
-      "reason": "Described as a Python agent host for malicious activity",
-      "first_seen": "2026-09-09T10:00:55+00:00",
-      "last_seen": "2026-09-09T10:00:55+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Unit42.Paloaltonetworks",
-          "url": "https://unit42.paloaltonetworks.com/ppi-network-malware-campaign-analysis/",
-          "pub_date": "2026-09-09T10:00:55+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Cl-cri-1171"
-        },
-        {
-          "type": "industry",
-          "value": "Government"
-        },
-        {
-          "type": "malware",
-          "value": "ARKTunnel"
-        },
-        {
-          "type": "malware",
-          "value": "Docro Hijacker"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "noiseship.cfd",
-      "confidence": "high",
-      "reason": "Domain used to distribute a trojanized installer",
-      "first_seen": "2026-09-09T10:00:55+00:00",
-      "last_seen": "2026-09-09T10:00:55+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Unit42.Paloaltonetworks",
-          "url": "https://unit42.paloaltonetworks.com/ppi-network-malware-campaign-analysis/",
-          "pub_date": "2026-09-09T10:00:55+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Cl-cri-1171"
-        },
-        {
-          "type": "industry",
-          "value": "Government"
-        },
-        {
-          "type": "malware",
-          "value": "ARKTunnel"
-        },
-        {
-          "type": "malware",
-          "value": "Docro Hijacker"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "reg.pcsdkflyer.ca",
-      "confidence": "high",
-      "reason": "Described as a WebSocket RAT C2 server",
-      "first_seen": "2026-09-09T10:00:55+00:00",
-      "last_seen": "2026-09-09T10:00:55+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Unit42.Paloaltonetworks",
-          "url": "https://unit42.paloaltonetworks.com/ppi-network-malware-campaign-analysis/",
-          "pub_date": "2026-09-09T10:00:55+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Cl-cri-1171"
-        },
-        {
-          "type": "industry",
-          "value": "Government"
-        },
-        {
-          "type": "malware",
-          "value": "ARKTunnel"
-        },
-        {
-          "type": "malware",
-          "value": "Docro Hijacker"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "stryper.info",
-      "confidence": "high",
-      "reason": "Described as a host for second-stage PowerShell and Node.js agents",
-      "first_seen": "2026-09-09T10:00:55+00:00",
-      "last_seen": "2026-09-09T10:00:55+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Unit42.Paloaltonetworks",
-          "url": "https://unit42.paloaltonetworks.com/ppi-network-malware-campaign-analysis/",
-          "pub_date": "2026-09-09T10:00:55+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Cl-cri-1171"
-        },
-        {
-          "type": "industry",
-          "value": "Government"
-        },
-        {
-          "type": "malware",
-          "value": "ARKTunnel"
-        },
-        {
-          "type": "malware",
-          "value": "Docro Hijacker"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "xccset.sd",
-      "confidence": "high",
-      "reason": "Domain related to XCSSET malware detected by Microsoft Defender",
-      "first_seen": "2026-09-09T08:31:18.137308+00:00",
-      "last_seen": "2026-09-09T08:31:18.137308+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.microsoft.com",
-          "url": "https://www.microsoft.com/en-us/security/blog/2025/03/11/new-xcsset-malware-adds-new-obfuscation-persistence-techniques-to-infect-xcode-projects/",
-          "pub_date": "2026-09-09T08:31:18.137308+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "malware",
-          "value": "Xcsset"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "xccset.se",
-      "confidence": "high",
-      "reason": "Domain related to XCSSET malware detected by Microsoft Defender",
-      "first_seen": "2026-09-09T08:31:18.137308+00:00",
-      "last_seen": "2026-09-09T08:31:18.137308+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.microsoft.com",
-          "url": "https://www.microsoft.com/en-us/security/blog/2025/03/11/new-xcsset-malware-adds-new-obfuscation-persistence-techniques-to-infect-xcode-projects/",
-          "pub_date": "2026-09-09T08:31:18.137308+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "malware",
-          "value": "Xcsset"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "xccset.sg",
-      "confidence": "high",
-      "reason": "Domain related to XCSSET malware detected by Microsoft Defender",
-      "first_seen": "2026-09-09T08:31:18.137308+00:00",
-      "last_seen": "2026-09-09T08:31:18.137308+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.microsoft.com",
-          "url": "https://www.microsoft.com/en-us/security/blog/2025/03/11/new-xcsset-malware-adds-new-obfuscation-persistence-techniques-to-infect-xcode-projects/",
-          "pub_date": "2026-09-09T08:31:18.137308+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "malware",
-          "value": "Xcsset"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "xccset.si",
-      "confidence": "high",
-      "reason": "Domain related to XCSSET malware detected by Microsoft Defender",
-      "first_seen": "2026-09-09T08:31:18.137308+00:00",
-      "last_seen": "2026-09-09T08:31:18.137308+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.microsoft.com",
-          "url": "https://www.microsoft.com/en-us/security/blog/2025/03/11/new-xcsset-malware-adds-new-obfuscation-persistence-techniques-to-infect-xcode-projects/",
-          "pub_date": "2026-09-09T08:31:18.137308+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "malware",
-          "value": "Xcsset"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "xccset.sk",
-      "confidence": "high",
-      "reason": "Domain related to XCSSET malware detected by Microsoft Defender",
-      "first_seen": "2026-09-09T08:31:18.137308+00:00",
-      "last_seen": "2026-09-09T08:31:18.137308+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.microsoft.com",
-          "url": "https://www.microsoft.com/en-us/security/blog/2025/03/11/new-xcsset-malware-adds-new-obfuscation-persistence-techniques-to-infect-xcode-projects/",
-          "pub_date": "2026-09-09T08:31:18.137308+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "malware",
-          "value": "Xcsset"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "xcsset.sc",
-      "confidence": "high",
-      "reason": "Domain related to XCSSET malware detected by Microsoft Defender",
-      "first_seen": "2026-09-09T08:31:18.137308+00:00",
-      "last_seen": "2026-09-09T08:31:18.137308+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.microsoft.com",
-          "url": "https://www.microsoft.com/en-us/security/blog/2025/03/11/new-xcsset-malware-adds-new-obfuscation-persistence-techniques-to-infect-xcode-projects/",
-          "pub_date": "2026-09-09T08:31:18.137308+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "malware",
-          "value": "Xcsset"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "xcsset.se",
-      "confidence": "high",
-      "reason": "Domain related to XCSSET malware detected by Microsoft Defender",
-      "first_seen": "2026-09-09T08:31:18.137308+00:00",
-      "last_seen": "2026-09-09T08:31:18.137308+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.microsoft.com",
-          "url": "https://www.microsoft.com/en-us/security/blog/2025/03/11/new-xcsset-malware-adds-new-obfuscation-persistence-techniques-to-infect-xcode-projects/",
-          "pub_date": "2026-09-09T08:31:18.137308+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "malware",
-          "value": "Xcsset"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "xcsset.st",
-      "confidence": "high",
-      "reason": "Domain related to XCSSET malware detected by Microsoft Defender",
-      "first_seen": "2026-09-09T08:31:18.137308+00:00",
-      "last_seen": "2026-09-09T08:31:18.137308+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.microsoft.com",
-          "url": "https://www.microsoft.com/en-us/security/blog/2025/03/11/new-xcsset-malware-adds-new-obfuscation-persistence-techniques-to-infect-xcode-projects/",
-          "pub_date": "2026-09-09T08:31:18.137308+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "malware",
-          "value": "Xcsset"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "5yotmxcc54l9xda.ru",
-      "confidence": "high",
-      "reason": "Domain used in a campaign to download malicious payloads",
-      "first_seen": "2026-09-09T05:43:12+00:00",
-      "last_seen": "2026-09-09T05:43:12+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Aikido.Dev",
-          "url": "https://www.aikido.dev/blog/compromised-flutter-package-on-pub-dev-contains-xcsset-malware",
-          "pub_date": "2026-09-09T05:43:12+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "ejntin6hkjt7gj2.ru",
-      "confidence": "high",
-      "reason": "Used in XCSSET malware campaign",
-      "first_seen": "2026-09-09T05:43:12+00:00",
-      "last_seen": "2026-09-09T05:43:12+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Aikido.Dev",
-          "url": "https://www.aikido.dev/blog/compromised-flutter-package-on-pub-dev-contains-xcsset-malware",
-          "pub_date": "2026-09-09T05:43:12+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "qdgs232i-q.ru",
-      "confidence": "high",
-      "reason": "Used as a C2 domain in a malware campaign",
-      "first_seen": "2026-09-09T05:43:12+00:00",
-      "last_seen": "2026-09-09T05:43:12+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Aikido.Dev",
-          "url": "https://www.aikido.dev/blog/compromised-flutter-package-on-pub-dev-contains-xcsset-malware",
-          "pub_date": "2026-09-09T05:43:12+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "niestools.com",
-      "confidence": "high",
-      "reason": "Described as private infrastructure used by attackers",
-      "first_seen": "2026-09-08T16:58:55+00:00",
-      "last_seen": "2026-09-08T16:58:55+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Krypt3Ia.Wordpress",
-          "url": "https://krypt3ia.wordpress.com/2026/09/08/weekly-all-source-cyber-warfare-intelligence-brief-september-8-2026/",
-          "pub_date": "2026-09-08T16:58:55+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Mirage Kitten"
-        },
-        {
-          "type": "apt_group",
-          "value": "UNC3886"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2014-6271"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2020-1938"
-        }
-      ]
-    },
-    {
-      "type": "ipv4",
-      "value": "122.183.48.195",
-      "confidence": "high",
-      "reason": "Used by a threat actor in an attack",
-      "first_seen": "2026-09-08T13:32:49.587167+00:00",
-      "last_seen": "2026-09-08T13:32:49.587167+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.sysdig.com",
-          "url": "https://www.sysdig.com/blog/llmjacking-evolved-attackers-are-using-stolen-ai-compute-to-build-offensive-agentic-tools",
-          "pub_date": "2026-09-08T13:32:49.587167+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "ipv4",
-      "value": "122.183.48.35",
-      "confidence": "high",
-      "reason": "Used by a threat actor in an attack",
-      "first_seen": "2026-09-08T13:32:49.587167+00:00",
-      "last_seen": "2026-09-08T13:32:49.587167+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.sysdig.com",
-          "url": "https://www.sysdig.com/blog/llmjacking-evolved-attackers-are-using-stolen-ai-compute-to-build-offensive-agentic-tools",
-          "pub_date": "2026-09-08T13:32:49.587167+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "ipv4",
-      "value": "122.183.48.82",
-      "confidence": "high",
-      "reason": "Used by a threat actor in an attack",
-      "first_seen": "2026-09-08T13:32:49.587167+00:00",
-      "last_seen": "2026-09-08T13:32:49.587167+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.sysdig.com",
-          "url": "https://www.sysdig.com/blog/llmjacking-evolved-attackers-are-using-stolen-ai-compute-to-build-offensive-agentic-tools",
-          "pub_date": "2026-09-08T13:32:49.587167+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "ipv4",
-      "value": "47.15.69.15",
-      "confidence": "high",
-      "reason": "Used by a threat actor in an attack",
-      "first_seen": "2026-09-08T13:32:49.587167+00:00",
-      "last_seen": "2026-09-08T13:32:49.587167+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.sysdig.com",
-          "url": "https://www.sysdig.com/blog/llmjacking-evolved-attackers-are-using-stolen-ai-compute-to-build-offensive-agentic-tools",
-          "pub_date": "2026-09-08T13:32:49.587167+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "9i6pokerdepot.com",
-      "confidence": "high",
-      "reason": "Used as a sending domain in a phishing campaign",
-      "first_seen": "2026-09-08T13:01:18.371466+00:00",
-      "last_seen": "2026-09-08T13:01:18.371466+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.microsoft.com",
-          "url": "https://www.microsoft.com/en-us/security/blog/2026/07/23/email-threat-landscape-q2-2026-trends-and-insights",
-          "pub_date": "2026-09-08T13:01:18.371466+00:00"
         }
       ],
       "tags": []
