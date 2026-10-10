@@ -1,14 +1,32 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason
-ipv4,64.95.10.223,high,2026-10-09T08:00:28.298894+00:00,2026-10-09T08:00:28.298894+00:00,1,www.welivesecurity.com:2026-10-09,Listed as MATCHBOIL C&C IP
-ipv4,64.95.13.210,high,2026-10-09T08:00:28.298894+00:00,2026-10-09T08:00:28.298894+00:00,1,www.welivesecurity.com:2026-10-09,Listed as MATCHBOIL C&C IP
-ipv4,103.249.201.108,high,2026-10-08T22:03:32.844465+00:00,2026-10-08T22:03:32.844465+00:00,1,www.lumen.com:2026-10-08,Listed as a C2 IP address associated with the campaign
-ipv4,120.224.114.212,high,2026-10-08T22:03:32.844465+00:00,2026-10-08T22:03:32.844465+00:00,1,www.lumen.com:2026-10-08,Listed as additional infrastructure used during the campaign
-ipv4,136.148.69.233,high,2026-10-08T22:03:32.844465+00:00,2026-10-08T22:03:32.844465+00:00,1,www.lumen.com:2026-10-08,Listed as additional infrastructure used during the campaign
-ipv4,185.132.53.158,high,2026-10-08T22:03:32.844465+00:00,2026-10-08T22:03:32.844465+00:00,1,www.lumen.com:2026-10-08,Listed as additional infrastructure used during the campaign
-ipv4,191.37.28.160,high,2026-10-08T22:03:32.844465+00:00,2026-10-08T22:03:32.844465+00:00,1,www.lumen.com:2026-10-08,Listed as additional infrastructure used during the campaign
-ipv4,89.39.253.46,high,2026-10-08T22:03:32.844465+00:00,2026-10-08T22:03:32.844465+00:00,1,www.lumen.com:2026-10-08,Listed as additional infrastructure used during the campaign
-ipv4,92.119.164.50,high,2026-10-08T22:03:32.844465+00:00,2026-10-08T22:03:32.844465+00:00,1,www.lumen.com:2026-10-08,Listed as a C2 IP address associated with the campaign
-ipv4,92.119.165.74,high,2026-10-08T22:03:32.844465+00:00,2026-10-08T22:03:32.844465+00:00,1,www.lumen.com:2026-10-08,Listed as additional infrastructure used during the campaign
+ipv4,195.16.74.138,high,2026-10-10T05:02:45.293755+00:00,2026-10-10T05:02:45.293755+00:00,1,www.elastic.co:2026-10-10,IP address associated with attacker-controlled domain
+ipv4,2.56.126.151,high,2026-10-10T05:02:45.293755+00:00,2026-10-10T05:02:45.293755+00:00,1,www.elastic.co:2026-10-10,IP address associated with attacker-controlled domain
+ipv4,2.56.126.157,high,2026-10-10T05:02:45.293755+00:00,2026-10-10T05:02:45.293755+00:00,1,www.elastic.co:2026-10-10,IP address associated with attacker-controlled domain
+ipv4,2.56.126.188,high,2026-10-10T05:02:45.293755+00:00,2026-10-10T05:02:45.293755+00:00,1,www.elastic.co:2026-10-10,IP address associated with attacker-controlled domain
+ipv4,64.95.10.223,high,2026-10-09T23:03:35.788859+00:00,2026-10-09T23:03:35.788859+00:00,1,www.welivesecurity.com:2026-10-09,Listed as MATCHBOIL C&C IP
+ipv4,64.95.13.210,high,2026-10-09T23:03:35.788859+00:00,2026-10-09T23:03:35.788859+00:00,1,www.welivesecurity.com:2026-10-09,Listed as MATCHBOIL C&C IP
+ipv4,112.213.108.85,high,2026-10-09T18:00:23.022990+00:00,2026-10-09T18:00:23.022990+00:00,1,censys.com:2026-10-09,Listed as a live production server for C2
+ipv4,14.128.47.81,high,2026-10-09T18:00:23.022990+00:00,2026-10-09T18:00:23.022990+00:00,1,censys.com:2026-10-09,Listed as part of a C2 control panel fleet
+ipv4,154.217.250.206,high,2026-10-09T18:00:23.022990+00:00,2026-10-09T18:00:23.022990+00:00,1,censys.com:2026-10-09,Listed as serving a C2 Control Panel
+ipv4,154.219.127.147,high,2026-10-09T18:00:23.022990+00:00,2026-10-09T18:00:23.022990+00:00,1,censys.com:2026-10-09,Exposes server-side delivery infrastructure
+ipv4,154.219.127.94,high,2026-10-09T18:00:23.022990+00:00,2026-10-09T18:00:23.022990+00:00,1,censys.com:2026-10-09,Identified as egress for staging host
+ipv4,185.189.45.40,high,2026-10-09T18:00:23.022990+00:00,2026-10-09T18:00:23.022990+00:00,1,censys.com:2026-10-09,Capture associated with DarkSword/Coruna kit
+ipv4,199.30.90.154,high,2026-10-09T18:00:23.022990+00:00,2026-10-09T18:00:23.022990+00:00,1,censys.com:2026-10-09,Part of a cluster identified as attacker infrastructure
+ipv4,202.146.222.253,high,2026-10-09T18:00:23.022990+00:00,2026-10-09T18:00:23.022990+00:00,1,censys.com:2026-10-09,Identified as a DarkSword admin panel and old production server
+ipv4,218.25.85.177,high,2026-10-09T18:00:23.022990+00:00,2026-10-09T18:00:23.022990+00:00,1,censys.com:2026-10-09,Part of the operator's lab domain infrastructure
+ipv4,218.25.85.178,high,2026-10-09T18:00:23.022990+00:00,2026-10-09T18:00:23.022990+00:00,1,censys.com:2026-10-09,Part of the operator's lab domain infrastructure
+ipv4,59.46.4.117,high,2026-10-09T18:00:23.022990+00:00,2026-10-09T18:00:23.022990+00:00,1,censys.com:2026-10-09,Part of the operator's lab domain infrastructure
+ipv4,59.46.4.119,high,2026-10-09T18:00:23.022990+00:00,2026-10-09T18:00:23.022990+00:00,1,censys.com:2026-10-09,Part of the operator's lab domain infrastructure
+ipv4,103.249.201.108,high,2026-10-09T17:01:10.977162+00:00,2026-10-09T17:01:10.977162+00:00,1,www.lumen.com:2026-10-09,Listed as a C2 IP address associated with the campaign
+ipv4,120.224.114.212,high,2026-10-09T17:01:10.977162+00:00,2026-10-09T17:01:10.977162+00:00,1,www.lumen.com:2026-10-09,Listed as additional infrastructure used during the campaign
+ipv4,136.148.69.233,high,2026-10-09T17:01:10.977162+00:00,2026-10-09T17:01:10.977162+00:00,1,www.lumen.com:2026-10-09,Listed as additional infrastructure used during the campaign
+ipv4,185.132.53.158,high,2026-10-09T17:01:10.977162+00:00,2026-10-09T17:01:10.977162+00:00,1,www.lumen.com:2026-10-09,Listed as additional infrastructure used during the campaign
+ipv4,191.37.28.160,high,2026-10-09T17:01:10.977162+00:00,2026-10-09T17:01:10.977162+00:00,1,www.lumen.com:2026-10-09,Listed as additional infrastructure used during the campaign
+ipv4,89.39.253.46,high,2026-10-09T17:01:10.977162+00:00,2026-10-09T17:01:10.977162+00:00,1,www.lumen.com:2026-10-09,Listed as additional infrastructure used during the campaign
+ipv4,92.119.164.50,high,2026-10-09T17:01:10.977162+00:00,2026-10-09T17:01:10.977162+00:00,1,www.lumen.com:2026-10-09,Listed as a C2 IP address associated with the campaign
+ipv4,92.119.165.74,high,2026-10-09T17:01:10.977162+00:00,2026-10-09T17:01:10.977162+00:00,1,www.lumen.com:2026-10-09,Listed as additional infrastructure used during the campaign
+ipv4,23.148.212.237,high,2026-10-09T16:29:55+00:00,2026-10-09T16:29:55+00:00,1,Thehackernews:2026-10-09,Serves as an analysis workspace for exploit development
+ipv4,185.164.172.128,high,2026-10-09T03:56:52+00:00,2026-10-09T03:56:52+00:00,1,Cyfirma:2026-10-09,Listed in a rule for Proton Decrypter indicators
 ipv4,104.234.26.10,high,2026-10-08T20:23:28+00:00,2026-10-08T20:23:28+00:00,1,Huntress:2026-10-08,Listed in the IOC section as attacker infrastructure
 ipv4,123.202.208.37,high,2026-10-08T20:23:28+00:00,2026-10-08T20:23:28+00:00,1,Huntress:2026-10-08,Listed in the IOC section as attacker infrastructure
 ipv4,177.4.12.11,high,2026-10-08T20:23:28+00:00,2026-10-08T20:23:28+00:00,1,Huntress:2026-10-08,Listed in the IOC section as attacker infrastructure
@@ -74,10 +92,6 @@ ipv4,185.177.72.38,high,2026-10-06T23:29:39+00:00,2026-10-06T23:29:39+00:00,1,F5
 ipv4,118.145.196.225,high,2026-10-06T15:01:27.216140+00:00,2026-10-06T15:01:27.216140+00:00,1,www.fortinet.com:2026-10-06,Listed as a download source for malware by the attacker
 ipv4,124.163.212.119,high,2026-10-06T15:01:27.216140+00:00,2026-10-06T15:01:27.216140+00:00,1,www.fortinet.com:2026-10-06,Listed as a download source for malware by the attacker
 ipv4,222.223.152.97,high,2026-10-06T15:01:27.216140+00:00,2026-10-06T15:01:27.216140+00:00,1,www.fortinet.com:2026-10-06,Listed as a download source for malware by the attacker
-ipv4,195.16.74.138,high,2026-10-06T12:18:12.787511+00:00,2026-10-06T12:18:12.787511+00:00,1,www.elastic.co:2026-10-06,IP address associated with attacker-controlled domain
-ipv4,2.56.126.151,high,2026-10-06T12:18:12.787511+00:00,2026-10-06T12:18:12.787511+00:00,1,www.elastic.co:2026-10-06,IP address associated with attacker-controlled domain
-ipv4,2.56.126.157,high,2026-10-06T12:18:12.787511+00:00,2026-10-06T12:18:12.787511+00:00,1,www.elastic.co:2026-10-06,IP address associated with attacker-controlled domain
-ipv4,2.56.126.188,high,2026-10-06T12:18:12.787511+00:00,2026-10-06T12:18:12.787511+00:00,1,www.elastic.co:2026-10-06,IP address associated with attacker-controlled domain
 ipv4,38.180.136.127,high,2026-10-06T10:05:56+00:00,2026-10-06T10:05:56+00:00,1,Unit42.Paloaltonetworks:2026-10-06,Used as a secondary IP for phishing infrastructure
 ipv4,87.248.129.239,high,2026-10-06T10:05:56+00:00,2026-10-06T10:05:56+00:00,1,Unit42.Paloaltonetworks:2026-10-06,IP address associated with attacker-controlled domain
 ipv4,118.45.196.225,high,2026-10-06T08:37:33.517997+00:00,2026-10-06T08:37:33.517997+00:00,1,www.nozominetworks.com:2026-10-06,Listed as a loader host for malware
@@ -172,4 +186,3 @@ ipv4,154.198.49.31,high,2026-09-13T05:02:04+00:00,2026-09-13T05:02:04+00:00,1,Re
 ipv4,64.207.232.6,high,2026-09-12T12:45:25+00:00,2026-09-12T12:45:25+00:00,1,Techtimes:2026-09-12,C2 communications observed to this IP
 ipv4,45.158.196.75,high,2026-09-11T10:05:52+00:00,2026-09-11T10:05:52+00:00,1,Bloglab.360:2026-09-11,Listed as an IP address used in the attack.
 ipv4,95.181.173.36,high,2026-09-11T07:11:14+00:00,2026-09-11T07:11:14+00:00,1,Securityaffairs.Co:2026-09-11,Open directory containing attacker's toolchain
-ipv4,62.60.130.193,high,2026-09-09T17:46:24+00:00,2026-09-09T17:46:24+00:00,1,Isc.Sans.Edu:2026-09-09,Listed as a source of brute force traffic

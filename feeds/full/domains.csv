@@ -1,32 +1,61 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason
-domain,0aa0cf0637d66c0d.com,high,2026-10-08T17:13:23.883934+00:00,2026-10-09T11:11:15.831866+00:00,1,,Listed as a proxyware control host used by attackers
-domain,442fe7151fb1e9b5.com,high,2026-10-08T17:13:23.883934+00:00,2026-10-09T11:11:15.831866+00:00,1,,Listed as a proxyware control host used by attackers
-domain,5.ahd187.com,high,2026-10-08T17:13:23.883934+00:00,2026-10-09T11:11:15.831866+00:00,1,,Listed as part of shared infrastructure used by malware operators
-domain,aa86a52a98162b7d.com,high,2026-10-08T17:13:23.883934+00:00,2026-10-09T11:11:15.831866+00:00,1,,Listed as a proxyware control host used by attackers
-domain,api.weatherlive.world,high,2026-10-08T15:28:24+00:00,2026-10-09T11:11:15.831866+00:00,2,,Used as a command channel for malware control
-domain,cgb.jingongbuxiao.com,high,2026-10-08T17:13:23.883934+00:00,2026-10-09T11:11:15.831866+00:00,1,,Listed as part of shared infrastructure used by malware operators
-domain,fyapi.freeflightbird.com,high,2026-10-08T17:13:23.883934+00:00,2026-10-09T11:11:15.831866+00:00,1,,Listed as part of shared infrastructure used by malware operators
-domain,newsadapi.zhuifengzhe.top,high,2026-10-08T17:13:23.883934+00:00,2026-10-09T11:11:15.831866+00:00,1,,Listed as part of shared infrastructure used by malware operators
-domain,oss.showtimetool.com,high,2026-10-08T17:13:23.883934+00:00,2026-10-09T11:11:15.831866+00:00,1,,Used as a CDN for serving malicious payloads
-domain,v46wd6uramzkmeeo.in,high,2026-10-08T17:13:23.883934+00:00,2026-10-09T11:11:15.831866+00:00,1,,Listed as a proxyware control host used by attackers
-domain,weatherlive.world,high,2026-10-08T17:13:23.883934+00:00,2026-10-09T11:11:15.831866+00:00,1,,Used as a telemetry beacon for malware
-domain,zhuifengzhe.top,high,2026-10-08T17:13:23.883934+00:00,2026-10-09T11:11:15.831866+00:00,1,,Listed as part of shared infrastructure used by malware operators
+domain,arthurshelby.click,high,2026-10-06T12:18:12.787511+00:00,2026-10-10T05:02:45.293755+00:00,1,,Domain used for C2 registration and subdomain generation by malware
+domain,s.grldiyrsmvsggojzmi4wmyi.inevyrcfknfvit2qfvcvinjriffe6ib6hyqdambqgaydambahy7cama.arthurshelby.click,high,2026-10-06T12:18:12.787511+00:00,2026-10-10T05:02:45.293755+00:00,1,,Subdomain used for C2 registration by malware
+domain,lake-90.com,high,2026-10-09T22:12:56.295984+00:00,2026-10-09T22:12:56.295984+00:00,1,,"Domain used to host and deliver payload, indicating attacker control"
+domain,claude-desk-code.com,high,2026-10-09T20:31:37+00:00,2026-10-09T20:31:37+00:00,1,,Used as a phishing destination in a campaign
+domain,98aicai.com,high,2026-10-08T17:20:13+00:00,2026-10-09T18:45:14+00:00,3,,"Domain used to deliver post-compromise tool FishHub, controlled by attackers"
+domain,98aicode.com,high,2026-10-08T17:20:13+00:00,2026-10-09T18:45:14+00:00,3,,"Domain used to deliver post-compromise tool FishHub, controlled by attackers"
+domain,c0cc.cc,high,2026-10-08T17:20:13+00:00,2026-10-09T18:45:14+00:00,3,,"Domain used to access Microscan, controlled by attackers"
+domain,linkedinns.net,high,2026-10-08T17:20:13+00:00,2026-10-09T18:45:14+00:00,3,,"Domain used to deliver post-compromise tool FishHub, controlled by attackers"
+domain,outlook3650.com,high,2026-10-08T17:20:13+00:00,2026-10-09T18:45:14+00:00,3,,"Domain used to deliver post-compromise tool FishHub, controlled by attackers"
+domain,youtubecard.com,high,2026-10-08T17:20:13+00:00,2026-10-09T18:45:14+00:00,3,,"Domain used to deliver post-compromise tool FishHub, controlled by attackers"
+domain,ccwu.cc,high,2026-10-09T18:00:23.022990+00:00,2026-10-09T18:00:23.022990+00:00,1,,Subdomains associated with C2 control panels
+domain,escofiringbijou.com,high,2026-10-09T18:00:23.022990+00:00,2026-10-09T18:00:23.022990+00:00,1,,Associated with a targeted campaign delivering malware
+domain,fc.rsqqq.top,high,2026-10-09T18:00:23.022990+00:00,2026-10-09T18:00:23.022990+00:00,1,,Part of a cluster of domains used for C2 infrastructure
+domain,g.northlab.cn,high,2026-10-09T18:00:23.022990+00:00,2026-10-09T18:00:23.022990+00:00,1,,Tied to an operator's lab domain with self-signed certificates
+domain,hdios.cn,high,2026-10-09T18:00:23.022990+00:00,2026-10-09T18:00:23.022990+00:00,1,,Hosts C2 infrastructure and exploit registry
+domain,iplcz.cn,high,2026-10-09T18:00:23.022990+00:00,2026-10-09T18:00:23.022990+00:00,1,,Associated with an operator's lab domain
+domain,manager.g.northlab.cn,high,2026-10-09T18:00:23.022990+00:00,2026-10-09T18:00:23.022990+00:00,1,,Tied to an operator's lab domain with self-signed certificates
+domain,northlab.cn,high,2026-10-09T18:00:23.022990+00:00,2026-10-09T18:00:23.022990+00:00,1,,Tied to an operator's lab domain with self-signed certificates
+domain,siekeltd.com,high,2026-10-09T18:00:23.022990+00:00,2026-10-09T18:00:23.022990+00:00,1,,Listed as payload and C2 in a targeted campaign
+domain,cdn.gotoiphone.com,high,2026-10-09T00:04:17.966518+00:00,2026-10-09T18:00:19.928743+00:00,1,,Used for C2 communication with the implant
+domain,js.gotoiphone.com,high,2026-10-09T00:04:17.966518+00:00,2026-10-09T18:00:19.928743+00:00,1,,Used for C2 communication with the implant
+domain,mzpo30.cam,high,2026-10-09T00:04:17.966518+00:00,2026-10-09T18:00:19.928743+00:00,1,,Used for C2 communication with the implant
+domain,breachforums.hn,high,2026-10-09T17:01:55.081127+00:00,2026-10-09T17:01:55.081127+00:00,1,,Described as a freshly registered domain used for disinformation by attackers
+domain,breachforums.st,high,2026-10-09T17:01:55.081127+00:00,2026-10-09T17:01:55.081127+00:00,1,,Regained control by attackers to redirect users after a forum seizure
+domain,raid.lol,high,2026-10-09T17:01:55.081127+00:00,2026-10-09T17:01:55.081127+00:00,1,,Seized domain previously used by attackers for illegal activities
+domain,rf.ws,high,2026-10-09T17:01:55.081127+00:00,2026-10-09T17:01:55.081127+00:00,1,,Seized domain previously used by attackers for illegal activities
+domain,malwarescan.xyz,high,2026-10-07T16:33:59.128067+00:00,2026-10-09T17:01:10.977162+00:00,1,,Domain registered and likely operated by the attacker for malicious purposes
+domain,0aa0cf0637d66c0d.com,high,2026-10-08T17:13:23.883934+00:00,2026-10-09T17:01:10.535872+00:00,1,,Listed as a proxyware control host used by attackers
+domain,442fe7151fb1e9b5.com,high,2026-10-08T17:13:23.883934+00:00,2026-10-09T17:01:10.535872+00:00,1,,Listed as a proxyware control host used by attackers
+domain,5.ahd187.com,high,2026-10-08T17:13:23.883934+00:00,2026-10-09T17:01:10.535872+00:00,1,,Listed as part of shared infrastructure used by malware operators
+domain,aa86a52a98162b7d.com,high,2026-10-08T17:13:23.883934+00:00,2026-10-09T17:01:10.535872+00:00,1,,Listed as a proxyware control host used by attackers
+domain,api.weatherlive.world,high,2026-10-08T15:28:24+00:00,2026-10-09T17:01:10.535872+00:00,2,,Used as a command channel for malware control
+domain,cgb.jingongbuxiao.com,high,2026-10-08T17:13:23.883934+00:00,2026-10-09T17:01:10.535872+00:00,1,,Listed as part of shared infrastructure used by malware operators
+domain,fyapi.freeflightbird.com,high,2026-10-08T17:13:23.883934+00:00,2026-10-09T17:01:10.535872+00:00,1,,Listed as part of shared infrastructure used by malware operators
+domain,newsadapi.zhuifengzhe.top,high,2026-10-08T17:13:23.883934+00:00,2026-10-09T17:01:10.535872+00:00,1,,Listed as part of shared infrastructure used by malware operators
+domain,oss.showtimetool.com,high,2026-10-08T17:13:23.883934+00:00,2026-10-09T17:01:10.535872+00:00,1,,Used as a CDN for serving malicious payloads
+domain,v46wd6uramzkmeeo.in,high,2026-10-08T17:13:23.883934+00:00,2026-10-09T17:01:10.535872+00:00,1,,Listed as a proxyware control host used by attackers
+domain,weatherlive.world,high,2026-10-08T17:13:23.883934+00:00,2026-10-09T17:01:10.535872+00:00,1,,Used as a telemetry beacon for malware
+domain,zhuifengzhe.top,high,2026-10-08T17:13:23.883934+00:00,2026-10-09T17:01:10.535872+00:00,1,,Listed as part of shared infrastructure used by malware operators
+domain,avittti.com,high,2026-10-09T12:04:28+00:00,2026-10-09T12:04:28+00:00,1,,Part of a phishing flow impersonating legitimate services
+domain,musairkompresor.com,high,2026-10-09T12:04:28+00:00,2026-10-09T12:04:28+00:00,1,,Part of a phishing redirect chain
+domain,secure-login-university.xyz,high,2026-10-09T09:54:30+00:00,2026-10-09T09:54:30+00:00,1,,Listed as a suspicious link in phishing context
+domain,hashicorp-terraform.io,high,2026-10-09T08:48:52+00:00,2026-10-09T08:48:52+00:00,1,,Used to download a malicious Bash loader
+domain,w8510.com,high,2026-10-09T07:20:08+00:00,2026-10-09T07:20:08+00:00,1,,Used for command-and-control in a botnet
+domain,ficus.in,high,2026-10-09T06:49:45+00:00,2026-10-09T06:49:45+00:00,1,,Associated with Remcos RAT and steganography
+domain,donutsmpcheats.org,high,2026-10-09T06:46:00+00:00,2026-10-09T06:46:00+00:00,1,,Associated with fake Minecraft mods and malware
 domain,flycloud-service.com,high,2026-10-09T06:44:33+00:00,2026-10-09T06:44:33+00:00,1,,Listed as MATCHBOIL C&C server
 domain,telemetry-conf.com,high,2026-10-09T06:44:33+00:00,2026-10-09T06:44:33+00:00,1,,Listed as MATCHBOIL C&C server
 domain,virtualdailyplanner.pro,high,2026-10-09T06:44:33+00:00,2026-10-09T06:44:33+00:00,1,,Listed as MATCHBOIL C&C server
-domain,98aicai.com,high,2026-10-08T17:20:13+00:00,2026-10-09T05:40:37+00:00,2,,Listed as one of the seized domains used to deliver malware
-domain,98aicode.com,high,2026-10-08T17:20:13+00:00,2026-10-09T05:40:37+00:00,2,,Listed as one of the seized domains used to deliver malware
-domain,c0cc.cc,high,2026-10-08T17:20:13+00:00,2026-10-09T05:40:37+00:00,2,,"Used by Integrity Tech to access Microscan, a tool for reconnaissance"
-domain,linkedinns.net,high,2026-10-08T17:20:13+00:00,2026-10-09T05:40:37+00:00,2,,Listed as one of the seized domains used to deliver malware
-domain,outlook3650.com,high,2026-10-08T17:20:13+00:00,2026-10-09T05:40:37+00:00,2,,Listed as one of the seized domains used to deliver malware
-domain,youtubecard.com,high,2026-10-08T17:20:13+00:00,2026-10-09T05:40:37+00:00,2,,Listed as one of the seized domains used to deliver malware
-domain,cdn.gotoiphone.com,high,2026-10-09T00:04:17.966518+00:00,2026-10-09T00:04:17.966518+00:00,1,,Used for C2 communication with the implant
-domain,js.gotoiphone.com,high,2026-10-09T00:04:17.966518+00:00,2026-10-09T00:04:17.966518+00:00,1,,Used for C2 communication with the implant
-domain,mzpo30.cam,high,2026-10-09T00:04:17.966518+00:00,2026-10-09T00:04:17.966518+00:00,1,,Used for C2 communication with the implant
+domain,aerofluidthermo.org,high,2026-10-09T03:56:52+00:00,2026-10-09T03:56:52+00:00,1,,Listed as part of Proton Decrypter indicators
+domain,civilstructgeo.org,high,2026-10-09T03:56:52+00:00,2026-10-09T03:56:52+00:00,1,,Listed in a rule as associated with malware indicators
+domain,cloudmediaportal.com,high,2026-10-09T03:56:52+00:00,2026-10-09T03:56:52+00:00,1,,Listed in a rule as associated with malware indicators
+domain,docs-info.com,high,2026-10-09T03:56:52+00:00,2026-10-09T03:56:52+00:00,1,,Listed in a rule as associated with malware indicators
 domain,moonlighthathel.org,high,2026-10-08T15:00:39+00:00,2026-10-08T23:02:10.117783+00:00,2,,Listed as a malicious FQDN targeted by DNS Object Block Rule
 domain,ukankingwithea.com,high,2026-10-08T23:02:10.117783+00:00,2026-10-08T23:02:10.117783+00:00,1,,Listed as a malicious FQDN targeted by DNS Object Block Rule
-domain,malwarescan.xyz,high,2026-10-07T16:33:59.128067+00:00,2026-10-08T22:03:32.844465+00:00,1,,Domain registered and likely operated by the attacker for malicious purposes
 domain,98aiblog.com,high,2026-10-08T21:56:58+00:00,2026-10-08T21:56:58+00:00,1,,"Seized domain used to deliver malware, indicating attacker control."
+domain,imagefiles-backup.oss-ap-southeast-7.aliyuncs.com,high,2026-10-08T20:23:28+00:00,2026-10-08T20:23:28+00:00,1,,Domain used to host and deliver malicious payloads
 domain,504e1bed.host.njalla.net,high,2026-10-08T19:12:38.094042+00:00,2026-10-08T19:12:38.094042+00:00,1,,Domain resolves to an IP associated with attacker infrastructure
 domain,504e1bfc.host.njalla.net,high,2026-10-08T19:12:38.094042+00:00,2026-10-08T19:12:38.094042+00:00,1,,Domain resolves to an IP associated with attacker infrastructure
 domain,infectonline.store,high,2026-10-08T19:12:38.094042+00:00,2026-10-08T19:12:38.094042+00:00,1,,Listed as part of the attack infrastructure
@@ -117,6 +146,8 @@ domain,webmail.studiocloud.xyz,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:4
 domain,wss.studiocloud.xyz,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,,Listed as part of observed threat activity
 domain,ximmd.sexytube0.com,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,,Listed as part of observed threat activity
 domain,zerogravity1986.softether.net,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,,Listed as part of observed threat activity
+domain,myhelpcare.cc,high,2026-10-08T17:01:59.564036+00:00,2026-10-08T17:01:59.564036+00:00,1,,Identified as a malicious domain involved in phishing activity
+domain,myhelpcare.online,high,2026-10-08T17:01:59.564036+00:00,2026-10-08T17:01:59.564036+00:00,1,,Identified as a malicious domain involved in phishing activity
 domain,dnshook.site,high,2026-10-08T15:14:15.038119+00:00,2026-10-08T15:14:15.038119+00:00,1,,Configured as an authoritative nameserver for data exfiltration via DNS tunneling
 domain,my-secret.dnshook.site,high,2026-10-08T15:14:15.038119+00:00,2026-10-08T15:14:15.038119+00:00,1,,Subdomain used for data exfiltration via DNS tunneling
 domain,backend-production-6d75.up.railway.app,high,2026-10-06T20:41:31.677664+00:00,2026-10-08T14:01:39.081761+00:00,1,,Used in phishing infrastructure
@@ -205,8 +236,6 @@ domain,imgcdn1.com,high,2026-10-06T08:59:43+00:00,2026-10-07T02:25:48+00:00,3,,D
 domain,mx.zxopfds.com,high,2026-10-06T18:38:42+00:00,2026-10-06T18:38:42+00:00,1,,Domain used as a C2 server for AVERAT malware
 domain,museads.ai,high,2026-10-06T13:25:57+00:00,2026-10-06T13:25:57+00:00,1,,Domain used for phishing attacks with browser-in-the-browser trick
 domain,cdnzona.discloud.app,high,2026-10-06T12:21:43.114381+00:00,2026-10-06T12:21:43.114381+00:00,1,,Used to host malicious payloads
-domain,arthurshelby.click,high,2026-10-06T12:18:12.787511+00:00,2026-10-06T12:18:12.787511+00:00,1,,Domain used for C2 registration and subdomain generation by malware
-domain,s.grldiyrsmvsggojzmi4wmyi.inevyrcfknfvit2qfvcvinjriffe6ib6hyqdambqgaydambahy7cama.arthurshelby.click,high,2026-10-06T12:18:12.787511+00:00,2026-10-06T12:18:12.787511+00:00,1,,Subdomain used for C2 registration by malware
 domain,cbc-comerica.com-e2.es,high,2026-10-06T12:10:50.663938+00:00,2026-10-06T12:10:50.663938+00:00,1,,"Domain is part of a cluster used by Omegatech for phishing, indicating attacker control."
 domain,asdfafadafg.online,high,2026-10-06T10:05:56+00:00,2026-10-06T10:05:56+00:00,1,,Domain used to test phishing infrastructure
 domain,portal.sharjahairport.cloud,high,2026-10-06T10:05:56+00:00,2026-10-06T10:05:56+00:00,1,,Domain used in malicious infrastructure targeting UAE aviation sector
