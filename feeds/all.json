@@ -1,7 +1,7 @@
 {
   "feed": "threatcluster-public-iocs",
   "version": 1,
-  "generated_at": "2026-10-10T12:29:18Z",
+  "generated_at": "2026-10-11T12:46:42Z",
   "filters": {
     "confidence": "high",
     "window_days": 30,
@@ -11,7 +11,7 @@
       "domain"
     ]
   },
-  "count": 786,
+  "count": 779,
   "iocs": [
     {
       "type": "domain",
@@ -1328,7 +1328,7 @@
       "type": "domain",
       "value": "breachforums.hn",
       "confidence": "high",
-      "reason": "Described as a domain registered by attackers for disinformation",
+      "reason": "Described as a freshly registered domain used for disinformation by attackers",
       "first_seen": "2026-10-09T17:01:55.081127+00:00",
       "last_seen": "2026-10-09T17:01:55.081127+00:00",
       "source_count": 1,
@@ -1362,7 +1362,7 @@
       "type": "domain",
       "value": "breachforums.st",
       "confidence": "high",
-      "reason": "Described as a domain controlled by attackers for forum redirection",
+      "reason": "Described as a domain controlled by attackers to redirect users",
       "first_seen": "2026-10-09T17:01:55.081127+00:00",
       "last_seen": "2026-10-09T17:01:55.081127+00:00",
       "source_count": 1,
@@ -18250,202 +18250,6 @@
         }
       ],
       "tags": []
-    },
-    {
-      "type": "ipv4",
-      "value": "45.158.196.75",
-      "confidence": "high",
-      "reason": "Listed as an IP address used in the attack.",
-      "first_seen": "2026-09-11T10:05:52+00:00",
-      "last_seen": "2026-09-11T10:05:52+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Bloglab.360",
-          "url": "https://blog.netlab.360.com/aian-quan-zhuan-ti-zhou-bao-5/",
-          "pub_date": "2026-09-11T10:05:52+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "cve",
-          "value": "CVE-2021-42278"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2021-42287"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2023-27350"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-35029"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "mail.uaiubifas.top",
-      "confidence": "high",
-      "reason": "Listed as a backdoor command server",
-      "first_seen": "2026-09-11T07:14:09+00:00",
-      "last_seen": "2026-09-11T07:14:09+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Thehackernews",
-          "url": "https://thehackernews.com/2026/09/china-linked-unc3569-exploited-sogou.html",
-          "pub_date": "2026-09-11T07:14:09+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "UNC3569"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2021-38003"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-51990"
-        },
-        {
-          "type": "industry",
-          "value": "Education"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "noht1ng.top",
-      "confidence": "high",
-      "reason": "Hosted the exploit page",
-      "first_seen": "2026-09-11T07:14:09+00:00",
-      "last_seen": "2026-09-11T07:14:09+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Thehackernews",
-          "url": "https://thehackernews.com/2026/09/china-linked-unc3569-exploited-sogou.html",
-          "pub_date": "2026-09-11T07:14:09+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "UNC3569"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2021-38003"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-51990"
-        },
-        {
-          "type": "industry",
-          "value": "Education"
-        }
-      ]
-    },
-    {
-      "type": "ipv4",
-      "value": "95.181.173.36",
-      "confidence": "high",
-      "reason": "Open directory containing attacker's toolchain",
-      "first_seen": "2026-09-11T07:11:14+00:00",
-      "last_seen": "2026-09-11T07:11:14+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Securityaffairs.Co",
-          "url": "https://securityaffairs.com/198864/hacking/uk-council-attack-linked-to-mass-exploitation-of-sonicwall-flaw.html",
-          "pub_date": "2026-09-11T07:11:14+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "company.add-passkey.com",
-      "confidence": "high",
-      "reason": "Malicious domain used in phishing attacks",
-      "first_seen": "2026-09-10T20:36:03+00:00",
-      "last_seen": "2026-09-10T20:36:03+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Darkreading",
-          "url": "https://www.darkreading.com/threat-intelligence/voice-callers-exploit-byod-microsoft-365-corporate-data",
-          "pub_date": "2026-09-10T20:36:03+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "finger.linked4x.com",
-      "confidence": "high",
-      "reason": "Listed as a ClickFix script domain, indicating attacker control",
-      "first_seen": "2026-09-10T16:08:43+00:00",
-      "last_seen": "2026-09-10T16:08:43+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Zscaler",
-          "url": "https://www.zscaler.com/blogs/security-research/sloppyrat-new-tool-ransomware-attacks",
-          "pub_date": "2026-09-10T16:08:43+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "malware",
-          "value": "CastleLoader"
-        },
-        {
-          "type": "malware",
-          "value": "CastleRAT"
-        },
-        {
-          "type": "malware",
-          "value": "SloppyRAT"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "skipraid.com",
-      "confidence": "high",
-      "reason": "Listed as a domain used in the attack, indicating attacker control",
-      "first_seen": "2026-09-10T16:08:43+00:00",
-      "last_seen": "2026-09-10T16:08:43+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Zscaler",
-          "url": "https://www.zscaler.com/blogs/security-research/sloppyrat-new-tool-ransomware-attacks",
-          "pub_date": "2026-09-10T16:08:43+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "malware",
-          "value": "CastleLoader"
-        },
-        {
-          "type": "malware",
-          "value": "CastleRAT"
-        },
-        {
-          "type": "malware",
-          "value": "SloppyRAT"
-        }
-      ]
     }
   ],
   "license": "CC-BY 4.0 \u2014 attribute ThreatCluster (https://threatcluster.io)",
