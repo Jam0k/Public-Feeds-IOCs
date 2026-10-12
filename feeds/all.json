@@ -1,7 +1,7 @@
 {
   "feed": "threatcluster-public-iocs",
   "version": 1,
-  "generated_at": "2026-10-11T12:46:42Z",
+  "generated_at": "2026-10-12T15:20:08Z",
   "filters": {
     "confidence": "high",
     "window_days": 30,
@@ -11,21 +11,327 @@
       "domain"
     ]
   },
-  "count": 779,
+  "count": 770,
   "iocs": [
+    {
+      "type": "domain",
+      "value": "malwarescan.xyz",
+      "confidence": "high",
+      "reason": "Domain registered and likely operated by the attacker for malicious purposes",
+      "first_seen": "2026-10-12T13:01:33.020113+00:00",
+      "last_seen": "2026-10-12T13:01:33.020113+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.lumen.com",
+          "url": "https://www.lumen.com/blog/en-us/canto-incognito-tracking-the-poellm-malware",
+          "pub_date": "2026-10-12T13:01:33.020113+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "PoeLLM Campaign"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2018-21027"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2018-21028"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-10520"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "103.249.201.108",
+      "confidence": "high",
+      "reason": "Listed as a C2 IP address associated with the campaign",
+      "first_seen": "2026-10-12T13:01:33.020113+00:00",
+      "last_seen": "2026-10-12T13:01:33.020113+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.lumen.com",
+          "url": "https://www.lumen.com/blog/en-us/canto-incognito-tracking-the-poellm-malware",
+          "pub_date": "2026-10-12T13:01:33.020113+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "PoeLLM Campaign"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2018-21027"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2018-21028"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-10520"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "120.224.114.212",
+      "confidence": "high",
+      "reason": "Listed as additional infrastructure used during the campaign",
+      "first_seen": "2026-10-12T13:01:33.020113+00:00",
+      "last_seen": "2026-10-12T13:01:33.020113+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.lumen.com",
+          "url": "https://www.lumen.com/blog/en-us/canto-incognito-tracking-the-poellm-malware",
+          "pub_date": "2026-10-12T13:01:33.020113+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "PoeLLM Campaign"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2018-21027"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2018-21028"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-10520"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "136.148.69.233",
+      "confidence": "high",
+      "reason": "Listed as additional infrastructure used during the campaign",
+      "first_seen": "2026-10-12T13:01:33.020113+00:00",
+      "last_seen": "2026-10-12T13:01:33.020113+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.lumen.com",
+          "url": "https://www.lumen.com/blog/en-us/canto-incognito-tracking-the-poellm-malware",
+          "pub_date": "2026-10-12T13:01:33.020113+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "PoeLLM Campaign"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2018-21027"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2018-21028"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-10520"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "185.132.53.158",
+      "confidence": "high",
+      "reason": "Listed as additional infrastructure used during the campaign",
+      "first_seen": "2026-10-12T13:01:33.020113+00:00",
+      "last_seen": "2026-10-12T13:01:33.020113+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.lumen.com",
+          "url": "https://www.lumen.com/blog/en-us/canto-incognito-tracking-the-poellm-malware",
+          "pub_date": "2026-10-12T13:01:33.020113+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "PoeLLM Campaign"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2018-21027"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2018-21028"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-10520"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "191.37.28.160",
+      "confidence": "high",
+      "reason": "Listed as additional infrastructure used during the campaign",
+      "first_seen": "2026-10-12T13:01:33.020113+00:00",
+      "last_seen": "2026-10-12T13:01:33.020113+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.lumen.com",
+          "url": "https://www.lumen.com/blog/en-us/canto-incognito-tracking-the-poellm-malware",
+          "pub_date": "2026-10-12T13:01:33.020113+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "PoeLLM Campaign"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2018-21027"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2018-21028"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-10520"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "89.39.253.46",
+      "confidence": "high",
+      "reason": "Listed as additional infrastructure used during the campaign",
+      "first_seen": "2026-10-12T13:01:33.020113+00:00",
+      "last_seen": "2026-10-12T13:01:33.020113+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.lumen.com",
+          "url": "https://www.lumen.com/blog/en-us/canto-incognito-tracking-the-poellm-malware",
+          "pub_date": "2026-10-12T13:01:33.020113+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "PoeLLM Campaign"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2018-21027"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2018-21028"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-10520"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "92.119.164.50",
+      "confidence": "high",
+      "reason": "Listed as a C2 IP address associated with the campaign",
+      "first_seen": "2026-10-12T13:01:33.020113+00:00",
+      "last_seen": "2026-10-12T13:01:33.020113+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.lumen.com",
+          "url": "https://www.lumen.com/blog/en-us/canto-incognito-tracking-the-poellm-malware",
+          "pub_date": "2026-10-12T13:01:33.020113+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "PoeLLM Campaign"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2018-21027"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2018-21028"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-10520"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "92.119.165.74",
+      "confidence": "high",
+      "reason": "Listed as additional infrastructure used during the campaign",
+      "first_seen": "2026-10-12T13:01:33.020113+00:00",
+      "last_seen": "2026-10-12T13:01:33.020113+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.lumen.com",
+          "url": "https://www.lumen.com/blog/en-us/canto-incognito-tracking-the-poellm-malware",
+          "pub_date": "2026-10-12T13:01:33.020113+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "PoeLLM Campaign"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2018-21027"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2018-21028"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-10520"
+        }
+      ]
+    },
     {
       "type": "domain",
       "value": "0aa0cf0637d66c0d.com",
       "confidence": "high",
       "reason": "Listed as a proxyware control host used by attackers",
-      "first_seen": "2026-10-10T09:02:22.399295+00:00",
-      "last_seen": "2026-10-10T09:02:22.399295+00:00",
+      "first_seen": "2026-10-12T12:11:03.074984+00:00",
+      "last_seen": "2026-10-12T12:11:03.074984+00:00",
       "source_count": 1,
       "sources": [
         {
           "source": "www.bitdefender.com",
           "url": "https://www.bitdefender.com/en-us/blog/labs/midnight-mimosa-malware",
-          "pub_date": "2026-10-10T09:02:22.399295+00:00"
+          "pub_date": "2026-10-12T12:11:03.074984+00:00"
         }
       ],
       "tags": [
@@ -48,14 +354,14 @@
       "value": "442fe7151fb1e9b5.com",
       "confidence": "high",
       "reason": "Listed as a proxyware control host used by attackers",
-      "first_seen": "2026-10-10T09:02:22.399295+00:00",
-      "last_seen": "2026-10-10T09:02:22.399295+00:00",
+      "first_seen": "2026-10-12T12:11:03.074984+00:00",
+      "last_seen": "2026-10-12T12:11:03.074984+00:00",
       "source_count": 1,
       "sources": [
         {
           "source": "www.bitdefender.com",
           "url": "https://www.bitdefender.com/en-us/blog/labs/midnight-mimosa-malware",
-          "pub_date": "2026-10-10T09:02:22.399295+00:00"
+          "pub_date": "2026-10-12T12:11:03.074984+00:00"
         }
       ],
       "tags": [
@@ -78,14 +384,14 @@
       "value": "5.ahd187.com",
       "confidence": "high",
       "reason": "Listed as part of shared infrastructure used by malware operators",
-      "first_seen": "2026-10-10T09:02:22.399295+00:00",
-      "last_seen": "2026-10-10T09:02:22.399295+00:00",
+      "first_seen": "2026-10-12T12:11:03.074984+00:00",
+      "last_seen": "2026-10-12T12:11:03.074984+00:00",
       "source_count": 1,
       "sources": [
         {
           "source": "www.bitdefender.com",
           "url": "https://www.bitdefender.com/en-us/blog/labs/midnight-mimosa-malware",
-          "pub_date": "2026-10-10T09:02:22.399295+00:00"
+          "pub_date": "2026-10-12T12:11:03.074984+00:00"
         }
       ],
       "tags": [
@@ -108,14 +414,14 @@
       "value": "aa86a52a98162b7d.com",
       "confidence": "high",
       "reason": "Listed as a proxyware control host used by attackers",
-      "first_seen": "2026-10-10T09:02:22.399295+00:00",
-      "last_seen": "2026-10-10T09:02:22.399295+00:00",
+      "first_seen": "2026-10-12T12:11:03.074984+00:00",
+      "last_seen": "2026-10-12T12:11:03.074984+00:00",
       "source_count": 1,
       "sources": [
         {
           "source": "www.bitdefender.com",
           "url": "https://www.bitdefender.com/en-us/blog/labs/midnight-mimosa-malware",
-          "pub_date": "2026-10-10T09:02:22.399295+00:00"
+          "pub_date": "2026-10-12T12:11:03.074984+00:00"
         }
       ],
       "tags": [
@@ -139,13 +445,13 @@
       "confidence": "high",
       "reason": "Used as a command channel for malware control",
       "first_seen": "2026-10-08T15:28:24+00:00",
-      "last_seen": "2026-10-10T09:02:22.399295+00:00",
+      "last_seen": "2026-10-12T12:11:03.074984+00:00",
       "source_count": 2,
       "sources": [
         {
           "source": "www.bitdefender.com",
           "url": "https://www.bitdefender.com/en-us/blog/labs/midnight-mimosa-malware",
-          "pub_date": "2026-10-10T09:02:22.399295+00:00"
+          "pub_date": "2026-10-12T12:11:03.074984+00:00"
         },
         {
           "source": "Hackread",
@@ -177,14 +483,14 @@
       "value": "cgb.jingongbuxiao.com",
       "confidence": "high",
       "reason": "Listed as part of shared infrastructure used by malware operators",
-      "first_seen": "2026-10-10T09:02:22.399295+00:00",
-      "last_seen": "2026-10-10T09:02:22.399295+00:00",
+      "first_seen": "2026-10-12T12:11:03.074984+00:00",
+      "last_seen": "2026-10-12T12:11:03.074984+00:00",
       "source_count": 1,
       "sources": [
         {
           "source": "www.bitdefender.com",
           "url": "https://www.bitdefender.com/en-us/blog/labs/midnight-mimosa-malware",
-          "pub_date": "2026-10-10T09:02:22.399295+00:00"
+          "pub_date": "2026-10-12T12:11:03.074984+00:00"
         }
       ],
       "tags": [
@@ -207,14 +513,14 @@
       "value": "fyapi.freeflightbird.com",
       "confidence": "high",
       "reason": "Listed as part of shared infrastructure used by malware operators",
-      "first_seen": "2026-10-10T09:02:22.399295+00:00",
-      "last_seen": "2026-10-10T09:02:22.399295+00:00",
+      "first_seen": "2026-10-12T12:11:03.074984+00:00",
+      "last_seen": "2026-10-12T12:11:03.074984+00:00",
       "source_count": 1,
       "sources": [
         {
           "source": "www.bitdefender.com",
           "url": "https://www.bitdefender.com/en-us/blog/labs/midnight-mimosa-malware",
-          "pub_date": "2026-10-10T09:02:22.399295+00:00"
+          "pub_date": "2026-10-12T12:11:03.074984+00:00"
         }
       ],
       "tags": [
@@ -237,14 +543,14 @@
       "value": "newsadapi.zhuifengzhe.top",
       "confidence": "high",
       "reason": "Listed as part of shared infrastructure used by malware operators",
-      "first_seen": "2026-10-10T09:02:22.399295+00:00",
-      "last_seen": "2026-10-10T09:02:22.399295+00:00",
+      "first_seen": "2026-10-12T12:11:03.074984+00:00",
+      "last_seen": "2026-10-12T12:11:03.074984+00:00",
       "source_count": 1,
       "sources": [
         {
           "source": "www.bitdefender.com",
           "url": "https://www.bitdefender.com/en-us/blog/labs/midnight-mimosa-malware",
-          "pub_date": "2026-10-10T09:02:22.399295+00:00"
+          "pub_date": "2026-10-12T12:11:03.074984+00:00"
         }
       ],
       "tags": [
@@ -267,14 +573,14 @@
       "value": "oss.showtimetool.com",
       "confidence": "high",
       "reason": "Used as a CDN for serving malicious payloads",
-      "first_seen": "2026-10-10T09:02:22.399295+00:00",
-      "last_seen": "2026-10-10T09:02:22.399295+00:00",
+      "first_seen": "2026-10-12T12:11:03.074984+00:00",
+      "last_seen": "2026-10-12T12:11:03.074984+00:00",
       "source_count": 1,
       "sources": [
         {
           "source": "www.bitdefender.com",
           "url": "https://www.bitdefender.com/en-us/blog/labs/midnight-mimosa-malware",
-          "pub_date": "2026-10-10T09:02:22.399295+00:00"
+          "pub_date": "2026-10-12T12:11:03.074984+00:00"
         }
       ],
       "tags": [
@@ -297,14 +603,14 @@
       "value": "v46wd6uramzkmeeo.in",
       "confidence": "high",
       "reason": "Listed as a proxyware control host used by attackers",
-      "first_seen": "2026-10-10T09:02:22.399295+00:00",
-      "last_seen": "2026-10-10T09:02:22.399295+00:00",
+      "first_seen": "2026-10-12T12:11:03.074984+00:00",
+      "last_seen": "2026-10-12T12:11:03.074984+00:00",
       "source_count": 1,
       "sources": [
         {
           "source": "www.bitdefender.com",
           "url": "https://www.bitdefender.com/en-us/blog/labs/midnight-mimosa-malware",
-          "pub_date": "2026-10-10T09:02:22.399295+00:00"
+          "pub_date": "2026-10-12T12:11:03.074984+00:00"
         }
       ],
       "tags": [
@@ -327,14 +633,14 @@
       "value": "weatherlive.world",
       "confidence": "high",
       "reason": "Used as a telemetry beacon for malware",
-      "first_seen": "2026-10-10T09:02:22.399295+00:00",
-      "last_seen": "2026-10-10T09:02:22.399295+00:00",
+      "first_seen": "2026-10-12T12:11:03.074984+00:00",
+      "last_seen": "2026-10-12T12:11:03.074984+00:00",
       "source_count": 1,
       "sources": [
         {
           "source": "www.bitdefender.com",
           "url": "https://www.bitdefender.com/en-us/blog/labs/midnight-mimosa-malware",
-          "pub_date": "2026-10-10T09:02:22.399295+00:00"
+          "pub_date": "2026-10-12T12:11:03.074984+00:00"
         }
       ],
       "tags": [
@@ -357,14 +663,14 @@
       "value": "zhuifengzhe.top",
       "confidence": "high",
       "reason": "Listed as part of shared infrastructure used by malware operators",
-      "first_seen": "2026-10-10T09:02:22.399295+00:00",
-      "last_seen": "2026-10-10T09:02:22.399295+00:00",
+      "first_seen": "2026-10-12T12:11:03.074984+00:00",
+      "last_seen": "2026-10-12T12:11:03.074984+00:00",
       "source_count": 1,
       "sources": [
         {
           "source": "www.bitdefender.com",
           "url": "https://www.bitdefender.com/en-us/blog/labs/midnight-mimosa-malware",
-          "pub_date": "2026-10-10T09:02:22.399295+00:00"
+          "pub_date": "2026-10-12T12:11:03.074984+00:00"
         }
       ],
       "tags": [
@@ -381,6 +687,427 @@
           "value": "Android.Phantom"
         }
       ]
+    },
+    {
+      "type": "ipv4",
+      "value": "79.130.26.202",
+      "confidence": "high",
+      "reason": "Listed as a threat actor source IP in a campaign",
+      "first_seen": "2026-10-12T10:00:21.401837+00:00",
+      "last_seen": "2026-10-12T10:00:21.401837+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.rapid7.com",
+          "url": "https://www.rapid7.com/blog/post/etr-rapid7-observed-exploitation-of-pan-os-globalprotect-authentication-bypass-vulnerability-cve-2026-0257/",
+          "pub_date": "2026-10-12T10:00:21.401837+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "cdn.gotoiphone.com",
+      "confidence": "high",
+      "reason": "Used for C2 communication with the implant",
+      "first_seen": "2026-10-11T21:30:49.285151+00:00",
+      "last_seen": "2026-10-11T21:30:49.285151+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.iverify.com",
+          "url": "https://www.iverify.com/blog/darksword-variant-threat-research",
+          "pub_date": "2026-10-11T21:30:49.285151+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "Coruna"
+        },
+        {
+          "type": "malware",
+          "value": "DarkSword"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "js.gotoiphone.com",
+      "confidence": "high",
+      "reason": "Used for C2 communication with the implant",
+      "first_seen": "2026-10-11T21:30:49.285151+00:00",
+      "last_seen": "2026-10-11T21:30:49.285151+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.iverify.com",
+          "url": "https://www.iverify.com/blog/darksword-variant-threat-research",
+          "pub_date": "2026-10-11T21:30:49.285151+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "Coruna"
+        },
+        {
+          "type": "malware",
+          "value": "DarkSword"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "mzpo30.cam",
+      "confidence": "high",
+      "reason": "Used for C2 communication with the implant",
+      "first_seen": "2026-10-11T21:30:49.285151+00:00",
+      "last_seen": "2026-10-11T21:30:49.285151+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.iverify.com",
+          "url": "https://www.iverify.com/blog/darksword-variant-threat-research",
+          "pub_date": "2026-10-11T21:30:49.285151+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "Coruna"
+        },
+        {
+          "type": "malware",
+          "value": "DarkSword"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "118.145.196.225",
+      "confidence": "high",
+      "reason": "Listed as a download source for malware by the attacker",
+      "first_seen": "2026-10-11T16:02:05.609563+00:00",
+      "last_seen": "2026-10-11T16:02:05.609563+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.fortinet.com",
+          "url": "https://www.fortinet.com/blog/threat-research/clingstun-linux-backdoor-abuses-public-stun-infrastructure",
+          "pub_date": "2026-10-11T16:02:05.609563+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2021-35394"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2022-36553"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2023-1389"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2024-10915"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "124.163.212.119",
+      "confidence": "high",
+      "reason": "Listed as a download source for malware by the attacker",
+      "first_seen": "2026-10-11T16:02:05.609563+00:00",
+      "last_seen": "2026-10-11T16:02:05.609563+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.fortinet.com",
+          "url": "https://www.fortinet.com/blog/threat-research/clingstun-linux-backdoor-abuses-public-stun-infrastructure",
+          "pub_date": "2026-10-11T16:02:05.609563+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2021-35394"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2022-36553"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2023-1389"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2024-10915"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "222.223.152.97",
+      "confidence": "high",
+      "reason": "Listed as a download source for malware by the attacker",
+      "first_seen": "2026-10-11T16:02:05.609563+00:00",
+      "last_seen": "2026-10-11T16:02:05.609563+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.fortinet.com",
+          "url": "https://www.fortinet.com/blog/threat-research/clingstun-linux-backdoor-abuses-public-stun-infrastructure",
+          "pub_date": "2026-10-11T16:02:05.609563+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2021-35394"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2022-36553"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2023-1389"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2024-10915"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "c0cc.cc",
+      "confidence": "high",
+      "reason": "Domain used to access Microscan, controlled by attackers",
+      "first_seen": "2026-10-08T17:20:13+00:00",
+      "last_seen": "2026-10-11T13:37:33+00:00",
+      "source_count": 4,
+      "sources": [
+        {
+          "source": "Itnews.Au",
+          "url": "https://www.itnews.com.au/news/asd-joins-seven-nation-alert-as-us-seizes-chinese-hacking-firms-tools-629536",
+          "pub_date": "2026-10-11T13:37:33+00:00"
+        },
+        {
+          "source": "Finance.Biggo",
+          "url": "https://finance.biggo.com/news/f8e5b44f-988b-4edc-b409-10b6318f541c",
+          "pub_date": "2026-10-09T18:45:14+00:00"
+        },
+        {
+          "source": "Thecyberexpress",
+          "url": "https://thecyberexpress.com/flax-typhoon-hackers-lose-microscan/",
+          "pub_date": "2026-10-09T05:40:37+00:00"
+        },
+        {
+          "source": "Justice",
+          "url": "https://www.justice.gov/opa/pr/justice-department-and-fbi-seize-vulnerability-scanning-and-spear-phishing-tools-operated",
+          "pub_date": "2026-10-08T17:20:13+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "Mirai"
+        },
+        {
+          "type": "apt_group",
+          "value": "Flax Typhoon"
+        },
+        {
+          "type": "industry",
+          "value": "Government"
+        },
+        {
+          "type": "apt_group",
+          "value": "Ethereal Panda"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "audit-coldcard.com",
+      "confidence": "high",
+      "reason": "Purpose-built phishing site using Coinkite's advisory language",
+      "first_seen": "2026-10-11T12:09:50.126997+00:00",
+      "last_seen": "2026-10-11T12:09:50.126997+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "unclone.io",
+          "url": "https://unclone.io/blog/coldcard-impersonation-teardown/",
+          "pub_date": "2026-10-11T12:09:50.126997+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "coldcard-audit.com",
+      "confidence": "high",
+      "reason": "Registered as part of a phishing campaign targeting Coldcard users",
+      "first_seen": "2026-10-11T12:09:50.126997+00:00",
+      "last_seen": "2026-10-11T12:09:50.126997+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "unclone.io",
+          "url": "https://unclone.io/blog/coldcard-impersonation-teardown/",
+          "pub_date": "2026-10-11T12:09:50.126997+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "coldcardfirmware.com",
+      "confidence": "high",
+      "reason": "Classified by Cloudflare as part of phishing infrastructure",
+      "first_seen": "2026-10-11T12:09:50.126997+00:00",
+      "last_seen": "2026-10-11T12:09:50.126997+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "unclone.io",
+          "url": "https://unclone.io/blog/coldcard-impersonation-teardown/",
+          "pub_date": "2026-10-11T12:09:50.126997+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "cold-card.live",
+      "confidence": "high",
+      "reason": "Registered for phishing using Coinkite's incident response vocabulary",
+      "first_seen": "2026-10-11T12:09:50.126997+00:00",
+      "last_seen": "2026-10-11T12:09:50.126997+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "unclone.io",
+          "url": "https://unclone.io/blog/coldcard-impersonation-teardown/",
+          "pub_date": "2026-10-11T12:09:50.126997+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "coldcard.online",
+      "confidence": "high",
+      "reason": "Identified as a phishing site for seed-phrase harvesting",
+      "first_seen": "2026-10-11T12:09:50.126997+00:00",
+      "last_seen": "2026-10-11T12:09:50.126997+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "unclone.io",
+          "url": "https://unclone.io/blog/coldcard-impersonation-teardown/",
+          "pub_date": "2026-10-11T12:09:50.126997+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "coldcards.app",
+      "confidence": "high",
+      "reason": "Registered for phishing using Coinkite's incident response vocabulary",
+      "first_seen": "2026-10-11T12:09:50.126997+00:00",
+      "last_seen": "2026-10-11T12:09:50.126997+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "unclone.io",
+          "url": "https://unclone.io/blog/coldcard-impersonation-teardown/",
+          "pub_date": "2026-10-11T12:09:50.126997+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "coldcardswallet.info",
+      "confidence": "high",
+      "reason": "Registered for phishing using Coinkite's incident response vocabulary",
+      "first_seen": "2026-10-11T12:09:50.126997+00:00",
+      "last_seen": "2026-10-11T12:09:50.126997+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "unclone.io",
+          "url": "https://unclone.io/blog/coldcard-impersonation-teardown/",
+          "pub_date": "2026-10-11T12:09:50.126997+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "coldcardwallet.info",
+      "confidence": "high",
+      "reason": "Registered for phishing using Coinkite's incident response vocabulary",
+      "first_seen": "2026-10-11T12:09:50.126997+00:00",
+      "last_seen": "2026-10-11T12:09:50.126997+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "unclone.io",
+          "url": "https://unclone.io/blog/coldcard-impersonation-teardown/",
+          "pub_date": "2026-10-11T12:09:50.126997+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "migrate.coldcardwallet.io",
+      "confidence": "high",
+      "reason": "Used in a phishing post on Coldcard's official account",
+      "first_seen": "2026-10-11T10:56:35+00:00",
+      "last_seen": "2026-10-11T11:17:54+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "Tradingview",
+          "url": "https://www.tradingview.com/news/cryptobriefing:47f3e8e9a094b:0-coldcard-investigates-phishing-link-posted-on-its-x-account-after-exploit/",
+          "pub_date": "2026-10-11T11:17:54+00:00"
+        },
+        {
+          "source": "Cryptobriefing",
+          "url": "https://cryptobriefing.com/coldcard-investigates-phishing-link-x-account/",
+          "pub_date": "2026-10-11T10:56:35+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "cablewireltd.site",
+      "confidence": "high",
+      "reason": "Identified as a source for malware delivery",
+      "first_seen": "2026-10-11T06:46:26+00:00",
+      "last_seen": "2026-10-11T06:46:26+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "2-Spyware",
+          "url": "https://www.2-spyware.com/remove-cablewireltd-site.html",
+          "pub_date": "2026-10-11T06:46:26+00:00"
+        }
+      ],
+      "tags": []
     },
     {
       "type": "domain",
@@ -674,50 +1401,6 @@
       "value": "98aicode.com",
       "confidence": "high",
       "reason": "Domain used to deliver post-compromise tool FishHub, controlled by attackers",
-      "first_seen": "2026-10-08T17:20:13+00:00",
-      "last_seen": "2026-10-09T18:45:14+00:00",
-      "source_count": 3,
-      "sources": [
-        {
-          "source": "Finance.Biggo",
-          "url": "https://finance.biggo.com/news/f8e5b44f-988b-4edc-b409-10b6318f541c",
-          "pub_date": "2026-10-09T18:45:14+00:00"
-        },
-        {
-          "source": "Thecyberexpress",
-          "url": "https://thecyberexpress.com/flax-typhoon-hackers-lose-microscan/",
-          "pub_date": "2026-10-09T05:40:37+00:00"
-        },
-        {
-          "source": "Justice",
-          "url": "https://www.justice.gov/opa/pr/justice-department-and-fbi-seize-vulnerability-scanning-and-spear-phishing-tools-operated",
-          "pub_date": "2026-10-08T17:20:13+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "malware",
-          "value": "Mirai"
-        },
-        {
-          "type": "apt_group",
-          "value": "Flax Typhoon"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2014-6278"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2015-3306"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "c0cc.cc",
-      "confidence": "high",
-      "reason": "Domain used to access Microscan, controlled by attackers",
       "first_seen": "2026-10-08T17:20:13+00:00",
       "last_seen": "2026-10-09T18:45:14+00:00",
       "source_count": 3,
@@ -1248,84 +1931,6 @@
     },
     {
       "type": "domain",
-      "value": "cdn.gotoiphone.com",
-      "confidence": "high",
-      "reason": "Used for C2 communication with the implant",
-      "first_seen": "2026-10-09T18:00:19.928743+00:00",
-      "last_seen": "2026-10-09T18:00:19.928743+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.iverify.com",
-          "url": "https://www.iverify.com/blog/darksword-variant-threat-research",
-          "pub_date": "2026-10-09T18:00:19.928743+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "malware",
-          "value": "Coruna"
-        },
-        {
-          "type": "malware",
-          "value": "DarkSword"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "js.gotoiphone.com",
-      "confidence": "high",
-      "reason": "Used for C2 communication with the implant",
-      "first_seen": "2026-10-09T18:00:19.928743+00:00",
-      "last_seen": "2026-10-09T18:00:19.928743+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.iverify.com",
-          "url": "https://www.iverify.com/blog/darksword-variant-threat-research",
-          "pub_date": "2026-10-09T18:00:19.928743+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "malware",
-          "value": "Coruna"
-        },
-        {
-          "type": "malware",
-          "value": "DarkSword"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "mzpo30.cam",
-      "confidence": "high",
-      "reason": "Used for C2 communication with the implant",
-      "first_seen": "2026-10-09T18:00:19.928743+00:00",
-      "last_seen": "2026-10-09T18:00:19.928743+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.iverify.com",
-          "url": "https://www.iverify.com/blog/darksword-variant-threat-research",
-          "pub_date": "2026-10-09T18:00:19.928743+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "malware",
-          "value": "Coruna"
-        },
-        {
-          "type": "malware",
-          "value": "DarkSword"
-        }
-      ]
-    },
-    {
-      "type": "domain",
       "value": "breachforums.hn",
       "confidence": "high",
       "reason": "Described as a freshly registered domain used for disinformation by attackers",
@@ -1457,312 +2062,6 @@
         {
           "type": "industry",
           "value": "Healthcare"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "malwarescan.xyz",
-      "confidence": "high",
-      "reason": "Domain registered and likely operated by the attacker for malicious purposes",
-      "first_seen": "2026-10-09T17:01:10.977162+00:00",
-      "last_seen": "2026-10-09T17:01:10.977162+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.lumen.com",
-          "url": "https://www.lumen.com/blog/en-us/canto-incognito-tracking-the-poellm-malware",
-          "pub_date": "2026-10-09T17:01:10.977162+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "PoeLLM Campaign"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2018-21027"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2018-21028"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-10520"
-        }
-      ]
-    },
-    {
-      "type": "ipv4",
-      "value": "103.249.201.108",
-      "confidence": "high",
-      "reason": "Listed as a C2 IP address associated with the campaign",
-      "first_seen": "2026-10-09T17:01:10.977162+00:00",
-      "last_seen": "2026-10-09T17:01:10.977162+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.lumen.com",
-          "url": "https://www.lumen.com/blog/en-us/canto-incognito-tracking-the-poellm-malware",
-          "pub_date": "2026-10-09T17:01:10.977162+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "PoeLLM Campaign"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2018-21027"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2018-21028"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-10520"
-        }
-      ]
-    },
-    {
-      "type": "ipv4",
-      "value": "120.224.114.212",
-      "confidence": "high",
-      "reason": "Listed as additional infrastructure used during the campaign",
-      "first_seen": "2026-10-09T17:01:10.977162+00:00",
-      "last_seen": "2026-10-09T17:01:10.977162+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.lumen.com",
-          "url": "https://www.lumen.com/blog/en-us/canto-incognito-tracking-the-poellm-malware",
-          "pub_date": "2026-10-09T17:01:10.977162+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "PoeLLM Campaign"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2018-21027"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2018-21028"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-10520"
-        }
-      ]
-    },
-    {
-      "type": "ipv4",
-      "value": "136.148.69.233",
-      "confidence": "high",
-      "reason": "Listed as additional infrastructure used during the campaign",
-      "first_seen": "2026-10-09T17:01:10.977162+00:00",
-      "last_seen": "2026-10-09T17:01:10.977162+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.lumen.com",
-          "url": "https://www.lumen.com/blog/en-us/canto-incognito-tracking-the-poellm-malware",
-          "pub_date": "2026-10-09T17:01:10.977162+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "PoeLLM Campaign"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2018-21027"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2018-21028"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-10520"
-        }
-      ]
-    },
-    {
-      "type": "ipv4",
-      "value": "185.132.53.158",
-      "confidence": "high",
-      "reason": "Listed as additional infrastructure used during the campaign",
-      "first_seen": "2026-10-09T17:01:10.977162+00:00",
-      "last_seen": "2026-10-09T17:01:10.977162+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.lumen.com",
-          "url": "https://www.lumen.com/blog/en-us/canto-incognito-tracking-the-poellm-malware",
-          "pub_date": "2026-10-09T17:01:10.977162+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "PoeLLM Campaign"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2018-21027"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2018-21028"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-10520"
-        }
-      ]
-    },
-    {
-      "type": "ipv4",
-      "value": "191.37.28.160",
-      "confidence": "high",
-      "reason": "Listed as additional infrastructure used during the campaign",
-      "first_seen": "2026-10-09T17:01:10.977162+00:00",
-      "last_seen": "2026-10-09T17:01:10.977162+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.lumen.com",
-          "url": "https://www.lumen.com/blog/en-us/canto-incognito-tracking-the-poellm-malware",
-          "pub_date": "2026-10-09T17:01:10.977162+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "PoeLLM Campaign"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2018-21027"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2018-21028"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-10520"
-        }
-      ]
-    },
-    {
-      "type": "ipv4",
-      "value": "89.39.253.46",
-      "confidence": "high",
-      "reason": "Listed as additional infrastructure used during the campaign",
-      "first_seen": "2026-10-09T17:01:10.977162+00:00",
-      "last_seen": "2026-10-09T17:01:10.977162+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.lumen.com",
-          "url": "https://www.lumen.com/blog/en-us/canto-incognito-tracking-the-poellm-malware",
-          "pub_date": "2026-10-09T17:01:10.977162+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "PoeLLM Campaign"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2018-21027"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2018-21028"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-10520"
-        }
-      ]
-    },
-    {
-      "type": "ipv4",
-      "value": "92.119.164.50",
-      "confidence": "high",
-      "reason": "Listed as a C2 IP address associated with the campaign",
-      "first_seen": "2026-10-09T17:01:10.977162+00:00",
-      "last_seen": "2026-10-09T17:01:10.977162+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.lumen.com",
-          "url": "https://www.lumen.com/blog/en-us/canto-incognito-tracking-the-poellm-malware",
-          "pub_date": "2026-10-09T17:01:10.977162+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "PoeLLM Campaign"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2018-21027"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2018-21028"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-10520"
-        }
-      ]
-    },
-    {
-      "type": "ipv4",
-      "value": "92.119.165.74",
-      "confidence": "high",
-      "reason": "Listed as additional infrastructure used during the campaign",
-      "first_seen": "2026-10-09T17:01:10.977162+00:00",
-      "last_seen": "2026-10-09T17:01:10.977162+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.lumen.com",
-          "url": "https://www.lumen.com/blog/en-us/canto-incognito-tracking-the-poellm-malware",
-          "pub_date": "2026-10-09T17:01:10.977162+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "PoeLLM Campaign"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2018-21027"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2018-21028"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-10520"
         }
       ]
     },
@@ -2702,7 +3001,7 @@
       "type": "domain",
       "value": "1421.client.96html.com",
       "confidence": "high",
-      "reason": "Listed in a table of observed IOCs",
+      "reason": "Listed in a structured IOC list as attacker-controlled infrastructure",
       "first_seen": "2026-10-08T18:06:48+00:00",
       "last_seen": "2026-10-08T18:06:48+00:00",
       "source_count": 1,
@@ -2713,13 +3012,30 @@
           "pub_date": "2026-10-08T18:06:48+00:00"
         }
       ],
-      "tags": []
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Ethereal Panda"
+        },
+        {
+          "type": "apt_group",
+          "value": "Flax Typhoon"
+        },
+        {
+          "type": "apt_group",
+          "value": "Red Juliett"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2014-6278"
+        }
+      ]
     },
     {
       "type": "domain",
       "value": "1421.cloud.96html.com",
       "confidence": "high",
-      "reason": "Listed in a table of observed IOCs",
+      "reason": "Listed in a structured IOC list as attacker-controlled infrastructure",
       "first_seen": "2026-10-08T18:06:48+00:00",
       "last_seen": "2026-10-08T18:06:48+00:00",
       "source_count": 1,
@@ -2730,13 +3046,30 @@
           "pub_date": "2026-10-08T18:06:48+00:00"
         }
       ],
-      "tags": []
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Ethereal Panda"
+        },
+        {
+          "type": "apt_group",
+          "value": "Flax Typhoon"
+        },
+        {
+          "type": "apt_group",
+          "value": "Red Juliett"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2014-6278"
+        }
+      ]
     },
     {
       "type": "domain",
       "value": "1421.support.96html.com",
       "confidence": "high",
-      "reason": "Listed in a table of observed IOCs",
+      "reason": "Listed in a structured IOC list as attacker-controlled infrastructure",
       "first_seen": "2026-10-08T18:06:48+00:00",
       "last_seen": "2026-10-08T18:06:48+00:00",
       "source_count": 1,
@@ -2747,13 +3080,30 @@
           "pub_date": "2026-10-08T18:06:48+00:00"
         }
       ],
-      "tags": []
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Ethereal Panda"
+        },
+        {
+          "type": "apt_group",
+          "value": "Flax Typhoon"
+        },
+        {
+          "type": "apt_group",
+          "value": "Red Juliett"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2014-6278"
+        }
+      ]
     },
     {
       "type": "domain",
       "value": "154-119-131-252-103-58-216-162-36.m.secshow.net",
       "confidence": "high",
-      "reason": "Listed in a table of observed IOCs",
+      "reason": "Listed in a structured IOC list as attacker-controlled infrastructure",
       "first_seen": "2026-10-08T18:06:48+00:00",
       "last_seen": "2026-10-08T18:06:48+00:00",
       "source_count": 1,
@@ -2764,13 +3114,30 @@
           "pub_date": "2026-10-08T18:06:48+00:00"
         }
       ],
-      "tags": []
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Ethereal Panda"
+        },
+        {
+          "type": "apt_group",
+          "value": "Flax Typhoon"
+        },
+        {
+          "type": "apt_group",
+          "value": "Red Juliett"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2014-6278"
+        }
+      ]
     },
     {
       "type": "domain",
       "value": "2-12-44-140-78-81-211-109-241.h.secshow.net",
       "confidence": "high",
-      "reason": "Listed in a table of observed IOCs",
+      "reason": "Listed in a structured IOC list as attacker-controlled infrastructure",
       "first_seen": "2026-10-08T18:06:48+00:00",
       "last_seen": "2026-10-08T18:06:48+00:00",
       "source_count": 1,
@@ -2781,13 +3148,30 @@
           "pub_date": "2026-10-08T18:06:48+00:00"
         }
       ],
-      "tags": []
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Ethereal Panda"
+        },
+        {
+          "type": "apt_group",
+          "value": "Flax Typhoon"
+        },
+        {
+          "type": "apt_group",
+          "value": "Red Juliett"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2014-6278"
+        }
+      ]
     },
     {
       "type": "domain",
       "value": "22852.careers.96html.com",
       "confidence": "high",
-      "reason": "Listed in a table of observed IOCs",
+      "reason": "Listed in a structured IOC list as attacker-controlled infrastructure",
       "first_seen": "2026-10-08T18:06:48+00:00",
       "last_seen": "2026-10-08T18:06:48+00:00",
       "source_count": 1,
@@ -2798,13 +3182,30 @@
           "pub_date": "2026-10-08T18:06:48+00:00"
         }
       ],
-      "tags": []
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Ethereal Panda"
+        },
+        {
+          "type": "apt_group",
+          "value": "Flax Typhoon"
+        },
+        {
+          "type": "apt_group",
+          "value": "Red Juliett"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2014-6278"
+        }
+      ]
     },
     {
       "type": "domain",
       "value": "22852.careers.trendmicro.96html.com",
       "confidence": "high",
-      "reason": "Listed in a table of observed IOCs",
+      "reason": "Listed in a structured IOC list as attacker-controlled infrastructure",
       "first_seen": "2026-10-08T18:06:48+00:00",
       "last_seen": "2026-10-08T18:06:48+00:00",
       "source_count": 1,
@@ -2815,13 +3216,30 @@
           "pub_date": "2026-10-08T18:06:48+00:00"
         }
       ],
-      "tags": []
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Ethereal Panda"
+        },
+        {
+          "type": "apt_group",
+          "value": "Flax Typhoon"
+        },
+        {
+          "type": "apt_group",
+          "value": "Red Juliett"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2014-6278"
+        }
+      ]
     },
     {
       "type": "domain",
       "value": "22852.trendmicro.96html.com",
       "confidence": "high",
-      "reason": "Listed in a table of observed IOCs",
+      "reason": "Listed in a structured IOC list as attacker-controlled infrastructure",
       "first_seen": "2026-10-08T18:06:48+00:00",
       "last_seen": "2026-10-08T18:06:48+00:00",
       "source_count": 1,
@@ -2832,13 +3250,30 @@
           "pub_date": "2026-10-08T18:06:48+00:00"
         }
       ],
-      "tags": []
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Ethereal Panda"
+        },
+        {
+          "type": "apt_group",
+          "value": "Flax Typhoon"
+        },
+        {
+          "type": "apt_group",
+          "value": "Red Juliett"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2014-6278"
+        }
+      ]
     },
     {
       "type": "domain",
       "value": "23175.careers.96html.com",
       "confidence": "high",
-      "reason": "Listed in a table of observed IOCs",
+      "reason": "Listed in a structured IOC list as attacker-controlled infrastructure",
       "first_seen": "2026-10-08T18:06:48+00:00",
       "last_seen": "2026-10-08T18:06:48+00:00",
       "source_count": 1,
@@ -2849,13 +3284,30 @@
           "pub_date": "2026-10-08T18:06:48+00:00"
         }
       ],
-      "tags": []
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Ethereal Panda"
+        },
+        {
+          "type": "apt_group",
+          "value": "Flax Typhoon"
+        },
+        {
+          "type": "apt_group",
+          "value": "Red Juliett"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2014-6278"
+        }
+      ]
     },
     {
       "type": "domain",
       "value": "23175.careers.trendmicro.96html.com",
       "confidence": "high",
-      "reason": "Listed in a table of observed IOCs",
+      "reason": "Listed in a structured IOC list as attacker-controlled infrastructure",
       "first_seen": "2026-10-08T18:06:48+00:00",
       "last_seen": "2026-10-08T18:06:48+00:00",
       "source_count": 1,
@@ -2866,13 +3318,30 @@
           "pub_date": "2026-10-08T18:06:48+00:00"
         }
       ],
-      "tags": []
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Ethereal Panda"
+        },
+        {
+          "type": "apt_group",
+          "value": "Flax Typhoon"
+        },
+        {
+          "type": "apt_group",
+          "value": "Red Juliett"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2014-6278"
+        }
+      ]
     },
     {
       "type": "domain",
       "value": "2637596418.softether.net",
       "confidence": "high",
-      "reason": "Listed in a table of observed IOCs",
+      "reason": "Listed in a structured IOC list as attacker-controlled infrastructure",
       "first_seen": "2026-10-08T18:06:48+00:00",
       "last_seen": "2026-10-08T18:06:48+00:00",
       "source_count": 1,
@@ -2883,13 +3352,30 @@
           "pub_date": "2026-10-08T18:06:48+00:00"
         }
       ],
-      "tags": []
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Ethereal Panda"
+        },
+        {
+          "type": "apt_group",
+          "value": "Flax Typhoon"
+        },
+        {
+          "type": "apt_group",
+          "value": "Red Juliett"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2014-6278"
+        }
+      ]
     },
     {
       "type": "domain",
       "value": "28394.careers.96html.com",
       "confidence": "high",
-      "reason": "Listed in a table of observed IOCs",
+      "reason": "Listed in a structured IOC list as attacker-controlled infrastructure",
       "first_seen": "2026-10-08T18:06:48+00:00",
       "last_seen": "2026-10-08T18:06:48+00:00",
       "source_count": 1,
@@ -2900,13 +3386,30 @@
           "pub_date": "2026-10-08T18:06:48+00:00"
         }
       ],
-      "tags": []
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Ethereal Panda"
+        },
+        {
+          "type": "apt_group",
+          "value": "Flax Typhoon"
+        },
+        {
+          "type": "apt_group",
+          "value": "Red Juliett"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2014-6278"
+        }
+      ]
     },
     {
       "type": "domain",
       "value": "28394.careers.trendmicro.96html.com",
       "confidence": "high",
-      "reason": "Listed in a table of observed IOCs",
+      "reason": "Listed in a structured IOC list as attacker-controlled infrastructure",
       "first_seen": "2026-10-08T18:06:48+00:00",
       "last_seen": "2026-10-08T18:06:48+00:00",
       "source_count": 1,
@@ -2917,13 +3420,30 @@
           "pub_date": "2026-10-08T18:06:48+00:00"
         }
       ],
-      "tags": []
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Ethereal Panda"
+        },
+        {
+          "type": "apt_group",
+          "value": "Flax Typhoon"
+        },
+        {
+          "type": "apt_group",
+          "value": "Red Juliett"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2014-6278"
+        }
+      ]
     },
     {
       "type": "domain",
       "value": "28394.trendmicro.96html.com",
       "confidence": "high",
-      "reason": "Listed in a table of observed IOCs",
+      "reason": "Listed in a structured IOC list as attacker-controlled infrastructure",
       "first_seen": "2026-10-08T18:06:48+00:00",
       "last_seen": "2026-10-08T18:06:48+00:00",
       "source_count": 1,
@@ -2934,13 +3454,30 @@
           "pub_date": "2026-10-08T18:06:48+00:00"
         }
       ],
-      "tags": []
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Ethereal Panda"
+        },
+        {
+          "type": "apt_group",
+          "value": "Flax Typhoon"
+        },
+        {
+          "type": "apt_group",
+          "value": "Red Juliett"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2014-6278"
+        }
+      ]
     },
     {
       "type": "domain",
       "value": "28733.careers.trendmicro.96html.com",
       "confidence": "high",
-      "reason": "Listed in a table of observed IOCs",
+      "reason": "Listed in a structured IOC list as attacker-controlled infrastructure",
       "first_seen": "2026-10-08T18:06:48+00:00",
       "last_seen": "2026-10-08T18:06:48+00:00",
       "source_count": 1,
@@ -2951,13 +3488,30 @@
           "pub_date": "2026-10-08T18:06:48+00:00"
         }
       ],
-      "tags": []
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Ethereal Panda"
+        },
+        {
+          "type": "apt_group",
+          "value": "Flax Typhoon"
+        },
+        {
+          "type": "apt_group",
+          "value": "Red Juliett"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2014-6278"
+        }
+      ]
     },
     {
       "type": "domain",
       "value": "28733.trendmicro.96html.com",
       "confidence": "high",
-      "reason": "Listed in a table of observed IOCs",
+      "reason": "Listed in a structured IOC list as attacker-controlled infrastructure",
       "first_seen": "2026-10-08T18:06:48+00:00",
       "last_seen": "2026-10-08T18:06:48+00:00",
       "source_count": 1,
@@ -2968,13 +3522,30 @@
           "pub_date": "2026-10-08T18:06:48+00:00"
         }
       ],
-      "tags": []
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Ethereal Panda"
+        },
+        {
+          "type": "apt_group",
+          "value": "Flax Typhoon"
+        },
+        {
+          "type": "apt_group",
+          "value": "Red Juliett"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2014-6278"
+        }
+      ]
     },
     {
       "type": "domain",
       "value": "35584.careers.96html.com",
       "confidence": "high",
-      "reason": "Listed in a table of observed IOCs",
+      "reason": "Listed in a structured IOC list as attacker-controlled infrastructure",
       "first_seen": "2026-10-08T18:06:48+00:00",
       "last_seen": "2026-10-08T18:06:48+00:00",
       "source_count": 1,
@@ -2985,13 +3556,30 @@
           "pub_date": "2026-10-08T18:06:48+00:00"
         }
       ],
-      "tags": []
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Ethereal Panda"
+        },
+        {
+          "type": "apt_group",
+          "value": "Flax Typhoon"
+        },
+        {
+          "type": "apt_group",
+          "value": "Red Juliett"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2014-6278"
+        }
+      ]
     },
     {
       "type": "domain",
       "value": "35584.careers.trendmicro.96html.com",
       "confidence": "high",
-      "reason": "Listed in a table of observed IOCs",
+      "reason": "Listed in a structured IOC list as attacker-controlled infrastructure",
       "first_seen": "2026-10-08T18:06:48+00:00",
       "last_seen": "2026-10-08T18:06:48+00:00",
       "source_count": 1,
@@ -3002,13 +3590,30 @@
           "pub_date": "2026-10-08T18:06:48+00:00"
         }
       ],
-      "tags": []
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Ethereal Panda"
+        },
+        {
+          "type": "apt_group",
+          "value": "Flax Typhoon"
+        },
+        {
+          "type": "apt_group",
+          "value": "Red Juliett"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2014-6278"
+        }
+      ]
     },
     {
       "type": "domain",
       "value": "35584.trendmicro.96html.com",
       "confidence": "high",
-      "reason": "Listed in a table of observed IOCs",
+      "reason": "Listed in a structured IOC list as attacker-controlled infrastructure",
       "first_seen": "2026-10-08T18:06:48+00:00",
       "last_seen": "2026-10-08T18:06:48+00:00",
       "source_count": 1,
@@ -3019,13 +3624,30 @@
           "pub_date": "2026-10-08T18:06:48+00:00"
         }
       ],
-      "tags": []
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Ethereal Panda"
+        },
+        {
+          "type": "apt_group",
+          "value": "Flax Typhoon"
+        },
+        {
+          "type": "apt_group",
+          "value": "Red Juliett"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2014-6278"
+        }
+      ]
     },
     {
       "type": "domain",
       "value": "44673.careers.96html.com",
       "confidence": "high",
-      "reason": "Listed in a table of observed IOCs",
+      "reason": "Listed in a structured IOC list as attacker-controlled infrastructure",
       "first_seen": "2026-10-08T18:06:48+00:00",
       "last_seen": "2026-10-08T18:06:48+00:00",
       "source_count": 1,
@@ -3036,13 +3658,30 @@
           "pub_date": "2026-10-08T18:06:48+00:00"
         }
       ],
-      "tags": []
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Ethereal Panda"
+        },
+        {
+          "type": "apt_group",
+          "value": "Flax Typhoon"
+        },
+        {
+          "type": "apt_group",
+          "value": "Red Juliett"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2014-6278"
+        }
+      ]
     },
     {
       "type": "domain",
       "value": "44673.trendmicro.96html.com",
       "confidence": "high",
-      "reason": "Listed in a table of observed IOCs",
+      "reason": "Listed in a structured IOC list as attacker-controlled infrastructure",
       "first_seen": "2026-10-08T18:06:48+00:00",
       "last_seen": "2026-10-08T18:06:48+00:00",
       "source_count": 1,
@@ -3053,13 +3692,30 @@
           "pub_date": "2026-10-08T18:06:48+00:00"
         }
       ],
-      "tags": []
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Ethereal Panda"
+        },
+        {
+          "type": "apt_group",
+          "value": "Flax Typhoon"
+        },
+        {
+          "type": "apt_group",
+          "value": "Red Juliett"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2014-6278"
+        }
+      ]
     },
     {
       "type": "domain",
       "value": "47298.client.96html.com",
       "confidence": "high",
-      "reason": "Listed in a table of observed IOCs",
+      "reason": "Listed in a structured IOC list as attacker-controlled infrastructure",
       "first_seen": "2026-10-08T18:06:48+00:00",
       "last_seen": "2026-10-08T18:06:48+00:00",
       "source_count": 1,
@@ -3070,13 +3726,30 @@
           "pub_date": "2026-10-08T18:06:48+00:00"
         }
       ],
-      "tags": []
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Ethereal Panda"
+        },
+        {
+          "type": "apt_group",
+          "value": "Flax Typhoon"
+        },
+        {
+          "type": "apt_group",
+          "value": "Red Juliett"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2014-6278"
+        }
+      ]
     },
     {
       "type": "domain",
       "value": "47298.cloud.96html.com",
       "confidence": "high",
-      "reason": "Listed in a table of observed IOCs",
+      "reason": "Listed in a structured IOC list as attacker-controlled infrastructure",
       "first_seen": "2026-10-08T18:06:48+00:00",
       "last_seen": "2026-10-08T18:06:48+00:00",
       "source_count": 1,
@@ -3087,13 +3760,30 @@
           "pub_date": "2026-10-08T18:06:48+00:00"
         }
       ],
-      "tags": []
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Ethereal Panda"
+        },
+        {
+          "type": "apt_group",
+          "value": "Flax Typhoon"
+        },
+        {
+          "type": "apt_group",
+          "value": "Red Juliett"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2014-6278"
+        }
+      ]
     },
     {
       "type": "domain",
       "value": "47298.support.96html.com",
       "confidence": "high",
-      "reason": "Listed in a table of observed IOCs",
+      "reason": "Listed in a structured IOC list as attacker-controlled infrastructure",
       "first_seen": "2026-10-08T18:06:48+00:00",
       "last_seen": "2026-10-08T18:06:48+00:00",
       "source_count": 1,
@@ -3104,13 +3794,30 @@
           "pub_date": "2026-10-08T18:06:48+00:00"
         }
       ],
-      "tags": []
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Ethereal Panda"
+        },
+        {
+          "type": "apt_group",
+          "value": "Flax Typhoon"
+        },
+        {
+          "type": "apt_group",
+          "value": "Red Juliett"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2014-6278"
+        }
+      ]
     },
     {
       "type": "domain",
       "value": "50669.careers.trendmicro.96html.com",
       "confidence": "high",
-      "reason": "Listed in a table of observed IOCs",
+      "reason": "Listed in a structured IOC list as attacker-controlled infrastructure",
       "first_seen": "2026-10-08T18:06:48+00:00",
       "last_seen": "2026-10-08T18:06:48+00:00",
       "source_count": 1,
@@ -3121,13 +3828,30 @@
           "pub_date": "2026-10-08T18:06:48+00:00"
         }
       ],
-      "tags": []
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Ethereal Panda"
+        },
+        {
+          "type": "apt_group",
+          "value": "Flax Typhoon"
+        },
+        {
+          "type": "apt_group",
+          "value": "Red Juliett"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2014-6278"
+        }
+      ]
     },
     {
       "type": "domain",
       "value": "51640.careers.trendmicro.96html.com",
       "confidence": "high",
-      "reason": "Listed in a table of observed IOCs",
+      "reason": "Listed in a structured IOC list as attacker-controlled infrastructure",
       "first_seen": "2026-10-08T18:06:48+00:00",
       "last_seen": "2026-10-08T18:06:48+00:00",
       "source_count": 1,
@@ -3138,13 +3862,30 @@
           "pub_date": "2026-10-08T18:06:48+00:00"
         }
       ],
-      "tags": []
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Ethereal Panda"
+        },
+        {
+          "type": "apt_group",
+          "value": "Flax Typhoon"
+        },
+        {
+          "type": "apt_group",
+          "value": "Red Juliett"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2014-6278"
+        }
+      ]
     },
     {
       "type": "domain",
       "value": "54-2-32-236-208-2-40-107-38.h.secshow.net",
       "confidence": "high",
-      "reason": "Listed in a table of observed IOCs",
+      "reason": "Listed in a structured IOC list as attacker-controlled infrastructure",
       "first_seen": "2026-10-08T18:06:48+00:00",
       "last_seen": "2026-10-08T18:06:48+00:00",
       "source_count": 1,
@@ -3155,13 +3896,30 @@
           "pub_date": "2026-10-08T18:06:48+00:00"
         }
       ],
-      "tags": []
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Ethereal Panda"
+        },
+        {
+          "type": "apt_group",
+          "value": "Flax Typhoon"
+        },
+        {
+          "type": "apt_group",
+          "value": "Red Juliett"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2014-6278"
+        }
+      ]
     },
     {
       "type": "domain",
       "value": "66-37-178-96-110-2-40-107-38.h.secshow.net",
       "confidence": "high",
-      "reason": "Listed in a table of observed IOCs",
+      "reason": "Listed in a structured IOC list as attacker-controlled infrastructure",
       "first_seen": "2026-10-08T18:06:48+00:00",
       "last_seen": "2026-10-08T18:06:48+00:00",
       "source_count": 1,
@@ -3172,13 +3930,30 @@
           "pub_date": "2026-10-08T18:06:48+00:00"
         }
       ],
-      "tags": []
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Ethereal Panda"
+        },
+        {
+          "type": "apt_group",
+          "value": "Flax Typhoon"
+        },
+        {
+          "type": "apt_group",
+          "value": "Red Juliett"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2014-6278"
+        }
+      ]
     },
     {
       "type": "domain",
       "value": "74788.careers.96html.com",
       "confidence": "high",
-      "reason": "Listed in a table of observed IOCs",
+      "reason": "Listed in a structured IOC list as attacker-controlled infrastructure",
       "first_seen": "2026-10-08T18:06:48+00:00",
       "last_seen": "2026-10-08T18:06:48+00:00",
       "source_count": 1,
@@ -3189,13 +3964,30 @@
           "pub_date": "2026-10-08T18:06:48+00:00"
         }
       ],
-      "tags": []
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Ethereal Panda"
+        },
+        {
+          "type": "apt_group",
+          "value": "Flax Typhoon"
+        },
+        {
+          "type": "apt_group",
+          "value": "Red Juliett"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2014-6278"
+        }
+      ]
     },
     {
       "type": "domain",
       "value": "74788.trendmicro.96html.com",
       "confidence": "high",
-      "reason": "Listed in a table of observed IOCs",
+      "reason": "Listed in a structured IOC list as attacker-controlled infrastructure",
       "first_seen": "2026-10-08T18:06:48+00:00",
       "last_seen": "2026-10-08T18:06:48+00:00",
       "source_count": 1,
@@ -3206,13 +3998,30 @@
           "pub_date": "2026-10-08T18:06:48+00:00"
         }
       ],
-      "tags": []
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Ethereal Panda"
+        },
+        {
+          "type": "apt_group",
+          "value": "Flax Typhoon"
+        },
+        {
+          "type": "apt_group",
+          "value": "Red Juliett"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2014-6278"
+        }
+      ]
     },
     {
       "type": "domain",
       "value": "77692.careers.96html.com",
       "confidence": "high",
-      "reason": "Listed in a table of observed IOCs",
+      "reason": "Listed in a structured IOC list as attacker-controlled infrastructure",
       "first_seen": "2026-10-08T18:06:48+00:00",
       "last_seen": "2026-10-08T18:06:48+00:00",
       "source_count": 1,
@@ -3223,13 +4032,30 @@
           "pub_date": "2026-10-08T18:06:48+00:00"
         }
       ],
-      "tags": []
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Ethereal Panda"
+        },
+        {
+          "type": "apt_group",
+          "value": "Flax Typhoon"
+        },
+        {
+          "type": "apt_group",
+          "value": "Red Juliett"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2014-6278"
+        }
+      ]
     },
     {
       "type": "domain",
       "value": "77692.careers.trendmicro.96html.com",
       "confidence": "high",
-      "reason": "Listed in a table of observed IOCs",
+      "reason": "Listed in a structured IOC list as attacker-controlled infrastructure",
       "first_seen": "2026-10-08T18:06:48+00:00",
       "last_seen": "2026-10-08T18:06:48+00:00",
       "source_count": 1,
@@ -3240,13 +4066,30 @@
           "pub_date": "2026-10-08T18:06:48+00:00"
         }
       ],
-      "tags": []
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Ethereal Panda"
+        },
+        {
+          "type": "apt_group",
+          "value": "Flax Typhoon"
+        },
+        {
+          "type": "apt_group",
+          "value": "Red Juliett"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2014-6278"
+        }
+      ]
     },
     {
       "type": "domain",
       "value": "77692.trendmicro.96html.com",
       "confidence": "high",
-      "reason": "Listed in a table of observed IOCs",
+      "reason": "Listed in a structured IOC list as attacker-controlled infrastructure",
       "first_seen": "2026-10-08T18:06:48+00:00",
       "last_seen": "2026-10-08T18:06:48+00:00",
       "source_count": 1,
@@ -3257,13 +4100,30 @@
           "pub_date": "2026-10-08T18:06:48+00:00"
         }
       ],
-      "tags": []
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Ethereal Panda"
+        },
+        {
+          "type": "apt_group",
+          "value": "Flax Typhoon"
+        },
+        {
+          "type": "apt_group",
+          "value": "Red Juliett"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2014-6278"
+        }
+      ]
     },
     {
       "type": "domain",
       "value": "82262.careers.96html.com",
       "confidence": "high",
-      "reason": "Listed in a table of observed IOCs",
+      "reason": "Listed in a structured IOC list as attacker-controlled infrastructure",
       "first_seen": "2026-10-08T18:06:48+00:00",
       "last_seen": "2026-10-08T18:06:48+00:00",
       "source_count": 1,
@@ -3274,13 +4134,30 @@
           "pub_date": "2026-10-08T18:06:48+00:00"
         }
       ],
-      "tags": []
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Ethereal Panda"
+        },
+        {
+          "type": "apt_group",
+          "value": "Flax Typhoon"
+        },
+        {
+          "type": "apt_group",
+          "value": "Red Juliett"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2014-6278"
+        }
+      ]
     },
     {
       "type": "domain",
       "value": "82262.careers.trendmicro.96html.com",
       "confidence": "high",
-      "reason": "Listed in a table of observed IOCs",
+      "reason": "Listed in a structured IOC list as attacker-controlled infrastructure",
       "first_seen": "2026-10-08T18:06:48+00:00",
       "last_seen": "2026-10-08T18:06:48+00:00",
       "source_count": 1,
@@ -3291,13 +4168,30 @@
           "pub_date": "2026-10-08T18:06:48+00:00"
         }
       ],
-      "tags": []
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Ethereal Panda"
+        },
+        {
+          "type": "apt_group",
+          "value": "Flax Typhoon"
+        },
+        {
+          "type": "apt_group",
+          "value": "Red Juliett"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2014-6278"
+        }
+      ]
     },
     {
       "type": "domain",
       "value": "85005.careers.96html.com",
       "confidence": "high",
-      "reason": "Listed in a table of observed IOCs",
+      "reason": "Listed in a structured IOC list as attacker-controlled infrastructure",
       "first_seen": "2026-10-08T18:06:48+00:00",
       "last_seen": "2026-10-08T18:06:48+00:00",
       "source_count": 1,
@@ -3308,13 +4202,30 @@
           "pub_date": "2026-10-08T18:06:48+00:00"
         }
       ],
-      "tags": []
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Ethereal Panda"
+        },
+        {
+          "type": "apt_group",
+          "value": "Flax Typhoon"
+        },
+        {
+          "type": "apt_group",
+          "value": "Red Juliett"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2014-6278"
+        }
+      ]
     },
     {
       "type": "domain",
       "value": "85005.careers.trendmicro.96html.com",
       "confidence": "high",
-      "reason": "Listed in a table of observed IOCs",
+      "reason": "Listed in a structured IOC list as attacker-controlled infrastructure",
       "first_seen": "2026-10-08T18:06:48+00:00",
       "last_seen": "2026-10-08T18:06:48+00:00",
       "source_count": 1,
@@ -3325,13 +4236,30 @@
           "pub_date": "2026-10-08T18:06:48+00:00"
         }
       ],
-      "tags": []
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Ethereal Panda"
+        },
+        {
+          "type": "apt_group",
+          "value": "Flax Typhoon"
+        },
+        {
+          "type": "apt_group",
+          "value": "Red Juliett"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2014-6278"
+        }
+      ]
     },
     {
       "type": "domain",
       "value": "85005.trendmicro.96html.com",
       "confidence": "high",
-      "reason": "Listed in a table of observed IOCs",
+      "reason": "Listed in a structured IOC list as attacker-controlled infrastructure",
       "first_seen": "2026-10-08T18:06:48+00:00",
       "last_seen": "2026-10-08T18:06:48+00:00",
       "source_count": 1,
@@ -3342,13 +4270,30 @@
           "pub_date": "2026-10-08T18:06:48+00:00"
         }
       ],
-      "tags": []
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Ethereal Panda"
+        },
+        {
+          "type": "apt_group",
+          "value": "Flax Typhoon"
+        },
+        {
+          "type": "apt_group",
+          "value": "Red Juliett"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2014-6278"
+        }
+      ]
     },
     {
       "type": "domain",
       "value": "90174.careers.96html.com",
       "confidence": "high",
-      "reason": "Listed in a table of observed IOCs",
+      "reason": "Listed in a structured IOC list as attacker-controlled infrastructure",
       "first_seen": "2026-10-08T18:06:48+00:00",
       "last_seen": "2026-10-08T18:06:48+00:00",
       "source_count": 1,
@@ -3359,13 +4304,30 @@
           "pub_date": "2026-10-08T18:06:48+00:00"
         }
       ],
-      "tags": []
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Ethereal Panda"
+        },
+        {
+          "type": "apt_group",
+          "value": "Flax Typhoon"
+        },
+        {
+          "type": "apt_group",
+          "value": "Red Juliett"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2014-6278"
+        }
+      ]
     },
     {
       "type": "domain",
       "value": "90174.careers.trendmicro.96html.com",
       "confidence": "high",
-      "reason": "Domain appears to be attacker-controlled infrastructure based on naming pattern and context.",
+      "reason": "Listed in a structured IOC list as attacker-controlled infrastructure",
       "first_seen": "2026-10-08T18:06:48+00:00",
       "last_seen": "2026-10-08T18:06:48+00:00",
       "source_count": 1,
@@ -3376,13 +4338,30 @@
           "pub_date": "2026-10-08T18:06:48+00:00"
         }
       ],
-      "tags": []
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Ethereal Panda"
+        },
+        {
+          "type": "apt_group",
+          "value": "Flax Typhoon"
+        },
+        {
+          "type": "apt_group",
+          "value": "Red Juliett"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2014-6278"
+        }
+      ]
     },
     {
       "type": "domain",
       "value": "96976.careers.96html.com",
       "confidence": "high",
-      "reason": "Domain appears to be attacker-controlled infrastructure based on naming pattern and context.",
+      "reason": "Listed in a structured IOC list as attacker-controlled infrastructure",
       "first_seen": "2026-10-08T18:06:48+00:00",
       "last_seen": "2026-10-08T18:06:48+00:00",
       "source_count": 1,
@@ -3393,13 +4372,30 @@
           "pub_date": "2026-10-08T18:06:48+00:00"
         }
       ],
-      "tags": []
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Ethereal Panda"
+        },
+        {
+          "type": "apt_group",
+          "value": "Flax Typhoon"
+        },
+        {
+          "type": "apt_group",
+          "value": "Red Juliett"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2014-6278"
+        }
+      ]
     },
     {
       "type": "domain",
       "value": "96976.trendmicro.96html.com",
       "confidence": "high",
-      "reason": "Domain appears to be attacker-controlled infrastructure based on naming pattern and context.",
+      "reason": "Listed in a structured IOC list as attacker-controlled infrastructure",
       "first_seen": "2026-10-08T18:06:48+00:00",
       "last_seen": "2026-10-08T18:06:48+00:00",
       "source_count": 1,
@@ -3410,30 +4406,30 @@
           "pub_date": "2026-10-08T18:06:48+00:00"
         }
       ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "bbs.sunmoon.website",
-      "confidence": "high",
-      "reason": "Domain appears to be attacker-controlled infrastructure based on naming pattern and context.",
-      "first_seen": "2026-10-08T18:06:48+00:00",
-      "last_seen": "2026-10-08T18:06:48+00:00",
-      "source_count": 1,
-      "sources": [
+      "tags": [
         {
-          "source": "Cisa",
-          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
-          "pub_date": "2026-10-08T18:06:48+00:00"
+          "type": "apt_group",
+          "value": "Ethereal Panda"
+        },
+        {
+          "type": "apt_group",
+          "value": "Flax Typhoon"
+        },
+        {
+          "type": "apt_group",
+          "value": "Red Juliett"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2014-6278"
         }
-      ],
-      "tags": []
+      ]
     },
     {
       "type": "domain",
       "value": "careers.trendmicro.96html.com",
       "confidence": "high",
-      "reason": "Domain appears to be attacker-controlled infrastructure based on naming pattern and context.",
+      "reason": "Listed in a structured IOC list as attacker-controlled infrastructure",
       "first_seen": "2026-10-08T18:06:48+00:00",
       "last_seen": "2026-10-08T18:06:48+00:00",
       "source_count": 1,
@@ -3444,47 +4440,30 @@
           "pub_date": "2026-10-08T18:06:48+00:00"
         }
       ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "cktime.ooguy.com",
-      "confidence": "high",
-      "reason": "Domain appears to be attacker-controlled infrastructure based on naming pattern and context.",
-      "first_seen": "2026-10-08T18:06:48+00:00",
-      "last_seen": "2026-10-08T18:06:48+00:00",
-      "source_count": 1,
-      "sources": [
+      "tags": [
         {
-          "source": "Cisa",
-          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
-          "pub_date": "2026-10-08T18:06:48+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "csrfproxy.studiocloud.xyz",
-      "confidence": "high",
-      "reason": "Domain appears to be attacker-controlled infrastructure based on naming pattern and context.",
-      "first_seen": "2026-10-08T18:06:48+00:00",
-      "last_seen": "2026-10-08T18:06:48+00:00",
-      "source_count": 1,
-      "sources": [
+          "type": "apt_group",
+          "value": "Ethereal Panda"
+        },
         {
-          "source": "Cisa",
-          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
-          "pub_date": "2026-10-08T18:06:48+00:00"
+          "type": "apt_group",
+          "value": "Flax Typhoon"
+        },
+        {
+          "type": "apt_group",
+          "value": "Red Juliett"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2014-6278"
         }
-      ],
-      "tags": []
+      ]
     },
     {
       "type": "domain",
       "value": "dc-29465b27aa45.96html.com",
       "confidence": "high",
-      "reason": "Domain appears to be attacker-controlled infrastructure based on naming pattern and context.",
+      "reason": "Listed in a structured IOC list as attacker-controlled infrastructure",
       "first_seen": "2026-10-08T18:06:48+00:00",
       "last_seen": "2026-10-08T18:06:48+00:00",
       "source_count": 1,
@@ -3495,13 +4474,30 @@
           "pub_date": "2026-10-08T18:06:48+00:00"
         }
       ],
-      "tags": []
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Ethereal Panda"
+        },
+        {
+          "type": "apt_group",
+          "value": "Flax Typhoon"
+        },
+        {
+          "type": "apt_group",
+          "value": "Red Juliett"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2014-6278"
+        }
+      ]
     },
     {
       "type": "domain",
       "value": "dc-4fe9871cb224.96html.com",
       "confidence": "high",
-      "reason": "Domain appears to be attacker-controlled infrastructure based on naming pattern and context.",
+      "reason": "Listed in a structured IOC list as attacker-controlled infrastructure",
       "first_seen": "2026-10-08T18:06:48+00:00",
       "last_seen": "2026-10-08T18:06:48+00:00",
       "source_count": 1,
@@ -3512,13 +4508,30 @@
           "pub_date": "2026-10-08T18:06:48+00:00"
         }
       ],
-      "tags": []
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Ethereal Panda"
+        },
+        {
+          "type": "apt_group",
+          "value": "Flax Typhoon"
+        },
+        {
+          "type": "apt_group",
+          "value": "Red Juliett"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2014-6278"
+        }
+      ]
     },
     {
       "type": "domain",
       "value": "dc-582fc0f46da9.96html.com",
       "confidence": "high",
-      "reason": "Domain appears to be attacker-controlled infrastructure based on naming pattern and context.",
+      "reason": "Listed in a structured IOC list as attacker-controlled infrastructure",
       "first_seen": "2026-10-08T18:06:48+00:00",
       "last_seen": "2026-10-08T18:06:48+00:00",
       "source_count": 1,
@@ -3529,13 +4542,30 @@
           "pub_date": "2026-10-08T18:06:48+00:00"
         }
       ],
-      "tags": []
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Ethereal Panda"
+        },
+        {
+          "type": "apt_group",
+          "value": "Flax Typhoon"
+        },
+        {
+          "type": "apt_group",
+          "value": "Red Juliett"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2014-6278"
+        }
+      ]
     },
     {
       "type": "domain",
       "value": "dc-843d98722400.96html.com",
       "confidence": "high",
-      "reason": "Domain appears to be attacker-controlled infrastructure based on naming pattern and context.",
+      "reason": "Listed in a structured IOC list as attacker-controlled infrastructure",
       "first_seen": "2026-10-08T18:06:48+00:00",
       "last_seen": "2026-10-08T18:06:48+00:00",
       "source_count": 1,
@@ -3546,13 +4576,30 @@
           "pub_date": "2026-10-08T18:06:48+00:00"
         }
       ],
-      "tags": []
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Ethereal Panda"
+        },
+        {
+          "type": "apt_group",
+          "value": "Flax Typhoon"
+        },
+        {
+          "type": "apt_group",
+          "value": "Red Juliett"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2014-6278"
+        }
+      ]
     },
     {
       "type": "domain",
       "value": "dc-bb503834b7dc.96html.com",
       "confidence": "high",
-      "reason": "Domain appears to be attacker-controlled infrastructure based on naming pattern and context.",
+      "reason": "Listed in a structured IOC list as attacker-controlled infrastructure",
       "first_seen": "2026-10-08T18:06:48+00:00",
       "last_seen": "2026-10-08T18:06:48+00:00",
       "source_count": 1,
@@ -3563,13 +4610,30 @@
           "pub_date": "2026-10-08T18:06:48+00:00"
         }
       ],
-      "tags": []
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Ethereal Panda"
+        },
+        {
+          "type": "apt_group",
+          "value": "Flax Typhoon"
+        },
+        {
+          "type": "apt_group",
+          "value": "Red Juliett"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2014-6278"
+        }
+      ]
     },
     {
       "type": "domain",
       "value": "dc-c11a983d7f83.96html.com",
       "confidence": "high",
-      "reason": "Domain appears to be attacker-controlled infrastructure based on naming pattern and context.",
+      "reason": "Listed in a structured IOC list as attacker-controlled infrastructure",
       "first_seen": "2026-10-08T18:06:48+00:00",
       "last_seen": "2026-10-08T18:06:48+00:00",
       "source_count": 1,
@@ -3580,13 +4644,30 @@
           "pub_date": "2026-10-08T18:06:48+00:00"
         }
       ],
-      "tags": []
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Ethereal Panda"
+        },
+        {
+          "type": "apt_group",
+          "value": "Flax Typhoon"
+        },
+        {
+          "type": "apt_group",
+          "value": "Red Juliett"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2014-6278"
+        }
+      ]
     },
     {
       "type": "domain",
       "value": "dns.studiocloud.xyz",
       "confidence": "high",
-      "reason": "Domain appears to be attacker-controlled infrastructure based on naming pattern and context.",
+      "reason": "Attributed to attacker infrastructure by FBI",
       "first_seen": "2026-10-08T18:06:48+00:00",
       "last_seen": "2026-10-08T18:06:48+00:00",
       "source_count": 1,
@@ -3597,13 +4678,30 @@
           "pub_date": "2026-10-08T18:06:48+00:00"
         }
       ],
-      "tags": []
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Ethereal Panda"
+        },
+        {
+          "type": "apt_group",
+          "value": "Flax Typhoon"
+        },
+        {
+          "type": "apt_group",
+          "value": "Red Juliett"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2014-6278"
+        }
+      ]
     },
     {
       "type": "domain",
-      "value": "etechhosting.twimg.co.uk",
+      "value": "gate.sinica.edu.tw.checkapi.cf",
       "confidence": "high",
-      "reason": "Domain appears to be attacker-controlled infrastructure based on naming pattern and context.",
+      "reason": "Suspicious lookalike domain listed in IOC table",
       "first_seen": "2026-10-08T18:06:48+00:00",
       "last_seen": "2026-10-08T18:06:48+00:00",
       "source_count": 1,
@@ -3614,13 +4712,30 @@
           "pub_date": "2026-10-08T18:06:48+00:00"
         }
       ],
-      "tags": []
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Ethereal Panda"
+        },
+        {
+          "type": "apt_group",
+          "value": "Flax Typhoon"
+        },
+        {
+          "type": "apt_group",
+          "value": "Red Juliett"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2014-6278"
+        }
+      ]
     },
     {
       "type": "domain",
-      "value": "hook.studiocloud.xyz",
+      "value": "halloween.checkapi.cf",
       "confidence": "high",
-      "reason": "Domain appears to be attacker-controlled infrastructure based on naming pattern and context.",
+      "reason": "Suspicious lookalike domain listed in IOC table",
       "first_seen": "2026-10-08T18:06:48+00:00",
       "last_seen": "2026-10-08T18:06:48+00:00",
       "source_count": 1,
@@ -3631,47 +4746,30 @@
           "pub_date": "2026-10-08T18:06:48+00:00"
         }
       ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "imap.sunmoon.website",
-      "confidence": "high",
-      "reason": "Domain appears to be attacker-controlled infrastructure based on naming pattern and context.",
-      "first_seen": "2026-10-08T18:06:48+00:00",
-      "last_seen": "2026-10-08T18:06:48+00:00",
-      "source_count": 1,
-      "sources": [
+      "tags": [
         {
-          "source": "Cisa",
-          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
-          "pub_date": "2026-10-08T18:06:48+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "iplc-hk.hmbcloud.com",
-      "confidence": "high",
-      "reason": "Domain appears to be attacker-controlled infrastructure based on naming pattern and context.",
-      "first_seen": "2026-10-08T18:06:48+00:00",
-      "last_seen": "2026-10-08T18:06:48+00:00",
-      "source_count": 1,
-      "sources": [
+          "type": "apt_group",
+          "value": "Ethereal Panda"
+        },
         {
-          "source": "Cisa",
-          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
-          "pub_date": "2026-10-08T18:06:48+00:00"
+          "type": "apt_group",
+          "value": "Flax Typhoon"
+        },
+        {
+          "type": "apt_group",
+          "value": "Red Juliett"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2014-6278"
         }
-      ],
-      "tags": []
+      ]
     },
     {
       "type": "domain",
       "value": "javacheck.ooguy.com",
       "confidence": "high",
-      "reason": "Domain used in malicious infrastructure, indicating attacker control.",
+      "reason": "Used by attackers for SoftEther connections",
       "first_seen": "2026-10-08T18:06:48+00:00",
       "last_seen": "2026-10-08T18:06:48+00:00",
       "source_count": 1,
@@ -3682,13 +4780,30 @@
           "pub_date": "2026-10-08T18:06:48+00:00"
         }
       ],
-      "tags": []
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Ethereal Panda"
+        },
+        {
+          "type": "apt_group",
+          "value": "Flax Typhoon"
+        },
+        {
+          "type": "apt_group",
+          "value": "Red Juliett"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2014-6278"
+        }
+      ]
     },
     {
       "type": "domain",
       "value": "javaupdate.giize.com",
       "confidence": "high",
-      "reason": "Domain used in malicious infrastructure, indicating attacker control.",
+      "reason": "Used by attackers for SoftEther connections",
       "first_seen": "2026-10-08T18:06:48+00:00",
       "last_seen": "2026-10-08T18:06:48+00:00",
       "source_count": 1,
@@ -3699,64 +4814,30 @@
           "pub_date": "2026-10-08T18:06:48+00:00"
         }
       ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "live.studiocloud.xyz",
-      "confidence": "high",
-      "reason": "Domain appears to be attacker-controlled infrastructure based on naming pattern and context.",
-      "first_seen": "2026-10-08T18:06:48+00:00",
-      "last_seen": "2026-10-08T18:06:48+00:00",
-      "source_count": 1,
-      "sources": [
+      "tags": [
         {
-          "source": "Cisa",
-          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
-          "pub_date": "2026-10-08T18:06:48+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "mail.bailbonding.info",
-      "confidence": "high",
-      "reason": "Domain appears to be attacker-controlled infrastructure based on naming pattern and context.",
-      "first_seen": "2026-10-08T18:06:48+00:00",
-      "last_seen": "2026-10-08T18:06:48+00:00",
-      "source_count": 1,
-      "sources": [
+          "type": "apt_group",
+          "value": "Ethereal Panda"
+        },
         {
-          "source": "Cisa",
-          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
-          "pub_date": "2026-10-08T18:06:48+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "mail.sunmoon.website",
-      "confidence": "high",
-      "reason": "Domain appears to be attacker-controlled infrastructure based on naming pattern and context.",
-      "first_seen": "2026-10-08T18:06:48+00:00",
-      "last_seen": "2026-10-08T18:06:48+00:00",
-      "source_count": 1,
-      "sources": [
+          "type": "apt_group",
+          "value": "Flax Typhoon"
+        },
         {
-          "source": "Cisa",
-          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
-          "pub_date": "2026-10-08T18:06:48+00:00"
+          "type": "apt_group",
+          "value": "Red Juliett"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2014-6278"
         }
-      ],
-      "tags": []
+      ]
     },
     {
       "type": "domain",
       "value": "natcloudservice.com",
       "confidence": "high",
-      "reason": "Domain used as main C2 for bot, indicating attacker control.",
+      "reason": "Main C2 domain for bot activity",
       "first_seen": "2026-10-08T18:06:48+00:00",
       "last_seen": "2026-10-08T18:06:48+00:00",
       "source_count": 1,
@@ -3767,81 +4848,30 @@
           "pub_date": "2026-10-08T18:06:48+00:00"
         }
       ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "ns1.honey1314520.com",
-      "confidence": "high",
-      "reason": "Domain appears to be attacker-controlled infrastructure based on naming pattern and context.",
-      "first_seen": "2026-10-08T18:06:48+00:00",
-      "last_seen": "2026-10-08T18:06:48+00:00",
-      "source_count": 1,
-      "sources": [
+      "tags": [
         {
-          "source": "Cisa",
-          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
-          "pub_date": "2026-10-08T18:06:48+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "random.cktime.ooguy.com",
-      "confidence": "high",
-      "reason": "Domain appears to be attacker-controlled infrastructure based on naming pattern and context.",
-      "first_seen": "2026-10-08T18:06:48+00:00",
-      "last_seen": "2026-10-08T18:06:48+00:00",
-      "source_count": 1,
-      "sources": [
+          "type": "apt_group",
+          "value": "Ethereal Panda"
+        },
         {
-          "source": "Cisa",
-          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
-          "pub_date": "2026-10-08T18:06:48+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "s3crts.softether.net",
-      "confidence": "high",
-      "reason": "Domain appears to be attacker-controlled infrastructure based on naming pattern and context.",
-      "first_seen": "2026-10-08T18:06:48+00:00",
-      "last_seen": "2026-10-08T18:06:48+00:00",
-      "source_count": 1,
-      "sources": [
+          "type": "apt_group",
+          "value": "Flax Typhoon"
+        },
         {
-          "source": "Cisa",
-          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
-          "pub_date": "2026-10-08T18:06:48+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "smtp.sunmoon.website",
-      "confidence": "high",
-      "reason": "Domain appears to be attacker-controlled infrastructure based on naming pattern and context.",
-      "first_seen": "2026-10-08T18:06:48+00:00",
-      "last_seen": "2026-10-08T18:06:48+00:00",
-      "source_count": 1,
-      "sources": [
+          "type": "apt_group",
+          "value": "Red Juliett"
+        },
         {
-          "source": "Cisa",
-          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
-          "pub_date": "2026-10-08T18:06:48+00:00"
+          "type": "cve",
+          "value": "CVE-2014-6278"
         }
-      ],
-      "tags": []
+      ]
     },
     {
       "type": "domain",
       "value": "trendmicro.96html.com",
       "confidence": "high",
-      "reason": "Listed as part of observed threat activity",
+      "reason": "Listed in a structured IOC list as attacker-controlled infrastructure",
       "first_seen": "2026-10-08T18:06:48+00:00",
       "last_seen": "2026-10-08T18:06:48+00:00",
       "source_count": 1,
@@ -3852,13 +4882,30 @@
           "pub_date": "2026-10-08T18:06:48+00:00"
         }
       ],
-      "tags": []
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Ethereal Panda"
+        },
+        {
+          "type": "apt_group",
+          "value": "Flax Typhoon"
+        },
+        {
+          "type": "apt_group",
+          "value": "Red Juliett"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2014-6278"
+        }
+      ]
     },
     {
       "type": "domain",
-      "value": "txt.studiocloud.xyz",
+      "value": "upgrate.checkapi.cf",
       "confidence": "high",
-      "reason": "Listed as part of observed threat activity",
+      "reason": "Suspicious lookalike domain listed in IOC table",
       "first_seen": "2026-10-08T18:06:48+00:00",
       "last_seen": "2026-10-08T18:06:48+00:00",
       "source_count": 1,
@@ -3869,13 +4916,30 @@
           "pub_date": "2026-10-08T18:06:48+00:00"
         }
       ],
-      "tags": []
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Ethereal Panda"
+        },
+        {
+          "type": "apt_group",
+          "value": "Flax Typhoon"
+        },
+        {
+          "type": "apt_group",
+          "value": "Red Juliett"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2014-6278"
+        }
+      ]
     },
     {
       "type": "domain",
       "value": "upl.natcloudservice.com",
       "confidence": "high",
-      "reason": "Main C2 domain for the bot",
+      "reason": "Used for communication with main C2 domain",
       "first_seen": "2026-10-08T18:06:48+00:00",
       "last_seen": "2026-10-08T18:06:48+00:00",
       "source_count": 1,
@@ -3886,47 +4950,30 @@
           "pub_date": "2026-10-08T18:06:48+00:00"
         }
       ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "vpn328433596.softether.net",
-      "confidence": "high",
-      "reason": "Listed as part of observed threat activity",
-      "first_seen": "2026-10-08T18:06:48+00:00",
-      "last_seen": "2026-10-08T18:06:48+00:00",
-      "source_count": 1,
-      "sources": [
+      "tags": [
         {
-          "source": "Cisa",
-          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
-          "pub_date": "2026-10-08T18:06:48+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "vpn614174689.softether.net",
-      "confidence": "high",
-      "reason": "Listed as part of observed threat activity",
-      "first_seen": "2026-10-08T18:06:48+00:00",
-      "last_seen": "2026-10-08T18:06:48+00:00",
-      "source_count": 1,
-      "sources": [
+          "type": "apt_group",
+          "value": "Ethereal Panda"
+        },
         {
-          "source": "Cisa",
-          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
-          "pub_date": "2026-10-08T18:06:48+00:00"
+          "type": "apt_group",
+          "value": "Flax Typhoon"
+        },
+        {
+          "type": "apt_group",
+          "value": "Red Juliett"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2014-6278"
         }
-      ],
-      "tags": []
+      ]
     },
     {
       "type": "domain",
       "value": "vpn677190427.softether.net",
       "confidence": "high",
-      "reason": "Listed as part of observed threat activity",
+      "reason": "Listed in a table of domains attributed to threat activity and obfuscation network hosts",
       "first_seen": "2026-10-08T18:06:48+00:00",
       "last_seen": "2026-10-08T18:06:48+00:00",
       "source_count": 1,
@@ -3937,13 +4984,30 @@
           "pub_date": "2026-10-08T18:06:48+00:00"
         }
       ],
-      "tags": []
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Ethereal Panda"
+        },
+        {
+          "type": "apt_group",
+          "value": "Flax Typhoon"
+        },
+        {
+          "type": "apt_group",
+          "value": "Red Juliett"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2014-6278"
+        }
+      ]
     },
     {
       "type": "domain",
       "value": "vpn718535264.softether.net",
       "confidence": "high",
-      "reason": "Listed as part of observed threat activity",
+      "reason": "Listed in a table of domains attributed to threat activity and obfuscation network hosts",
       "first_seen": "2026-10-08T18:06:48+00:00",
       "last_seen": "2026-10-08T18:06:48+00:00",
       "source_count": 1,
@@ -3954,13 +5018,30 @@
           "pub_date": "2026-10-08T18:06:48+00:00"
         }
       ],
-      "tags": []
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Ethereal Panda"
+        },
+        {
+          "type": "apt_group",
+          "value": "Flax Typhoon"
+        },
+        {
+          "type": "apt_group",
+          "value": "Red Juliett"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2014-6278"
+        }
+      ]
     },
     {
       "type": "domain",
       "value": "vpn823494147.softether.net",
       "confidence": "high",
-      "reason": "Listed as part of observed threat activity",
+      "reason": "Listed in a table of domains attributed to threat activity and obfuscation network hosts",
       "first_seen": "2026-10-08T18:06:48+00:00",
       "last_seen": "2026-10-08T18:06:48+00:00",
       "source_count": 1,
@@ -3971,13 +5052,30 @@
           "pub_date": "2026-10-08T18:06:48+00:00"
         }
       ],
-      "tags": []
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Ethereal Panda"
+        },
+        {
+          "type": "apt_group",
+          "value": "Flax Typhoon"
+        },
+        {
+          "type": "apt_group",
+          "value": "Red Juliett"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2014-6278"
+        }
+      ]
     },
     {
       "type": "domain",
       "value": "wanfang.accesscam.org",
       "confidence": "high",
-      "reason": "Listed as part of observed threat activity",
+      "reason": "Listed in a table of domains attributed to threat activity and obfuscation network hosts",
       "first_seen": "2026-10-08T18:06:48+00:00",
       "last_seen": "2026-10-08T18:06:48+00:00",
       "source_count": 1,
@@ -3988,13 +5086,30 @@
           "pub_date": "2026-10-08T18:06:48+00:00"
         }
       ],
-      "tags": []
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Ethereal Panda"
+        },
+        {
+          "type": "apt_group",
+          "value": "Flax Typhoon"
+        },
+        {
+          "type": "apt_group",
+          "value": "Red Juliett"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2014-6278"
+        }
+      ]
     },
     {
       "type": "domain",
       "value": "webdisk.bailbonding.info",
       "confidence": "high",
-      "reason": "Listed as part of observed threat activity",
+      "reason": "Listed in a table of domains attributed to threat activity and obfuscation network hosts",
       "first_seen": "2026-10-08T18:06:48+00:00",
       "last_seen": "2026-10-08T18:06:48+00:00",
       "source_count": 1,
@@ -4005,13 +5120,30 @@
           "pub_date": "2026-10-08T18:06:48+00:00"
         }
       ],
-      "tags": []
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Ethereal Panda"
+        },
+        {
+          "type": "apt_group",
+          "value": "Flax Typhoon"
+        },
+        {
+          "type": "apt_group",
+          "value": "Red Juliett"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2014-6278"
+        }
+      ]
     },
     {
       "type": "domain",
       "value": "webmail.studiocloud.xyz",
       "confidence": "high",
-      "reason": "Listed as part of observed threat activity",
+      "reason": "Listed in a table of domains attributed to threat activity and obfuscation network hosts",
       "first_seen": "2026-10-08T18:06:48+00:00",
       "last_seen": "2026-10-08T18:06:48+00:00",
       "source_count": 1,
@@ -4022,13 +5154,30 @@
           "pub_date": "2026-10-08T18:06:48+00:00"
         }
       ],
-      "tags": []
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Ethereal Panda"
+        },
+        {
+          "type": "apt_group",
+          "value": "Flax Typhoon"
+        },
+        {
+          "type": "apt_group",
+          "value": "Red Juliett"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2014-6278"
+        }
+      ]
     },
     {
       "type": "domain",
       "value": "wss.studiocloud.xyz",
       "confidence": "high",
-      "reason": "Listed as part of observed threat activity",
+      "reason": "Listed in a table of domains attributed to threat activity and obfuscation network hosts",
       "first_seen": "2026-10-08T18:06:48+00:00",
       "last_seen": "2026-10-08T18:06:48+00:00",
       "source_count": 1,
@@ -4039,13 +5188,64 @@
           "pub_date": "2026-10-08T18:06:48+00:00"
         }
       ],
-      "tags": []
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Ethereal Panda"
+        },
+        {
+          "type": "apt_group",
+          "value": "Flax Typhoon"
+        },
+        {
+          "type": "apt_group",
+          "value": "Red Juliett"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2014-6278"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "xassxxdns.alitagotest.cf",
+      "confidence": "high",
+      "reason": "Listed in a table of domains attributed to threat activity and obfuscation network hosts",
+      "first_seen": "2026-10-08T18:06:48+00:00",
+      "last_seen": "2026-10-08T18:06:48+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cisa",
+          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
+          "pub_date": "2026-10-08T18:06:48+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Ethereal Panda"
+        },
+        {
+          "type": "apt_group",
+          "value": "Flax Typhoon"
+        },
+        {
+          "type": "apt_group",
+          "value": "Red Juliett"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2014-6278"
+        }
+      ]
     },
     {
       "type": "domain",
       "value": "ximmd.sexytube0.com",
       "confidence": "high",
-      "reason": "Listed as part of observed threat activity",
+      "reason": "Listed in a table of domains attributed to threat activity and obfuscation network hosts",
       "first_seen": "2026-10-08T18:06:48+00:00",
       "last_seen": "2026-10-08T18:06:48+00:00",
       "source_count": 1,
@@ -4056,13 +5256,30 @@
           "pub_date": "2026-10-08T18:06:48+00:00"
         }
       ],
-      "tags": []
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Ethereal Panda"
+        },
+        {
+          "type": "apt_group",
+          "value": "Flax Typhoon"
+        },
+        {
+          "type": "apt_group",
+          "value": "Red Juliett"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2014-6278"
+        }
+      ]
     },
     {
       "type": "domain",
       "value": "zerogravity1986.softether.net",
       "confidence": "high",
-      "reason": "Listed as part of observed threat activity",
+      "reason": "Listed in a table of domains attributed to threat activity and obfuscation network hosts",
       "first_seen": "2026-10-08T18:06:48+00:00",
       "last_seen": "2026-10-08T18:06:48+00:00",
       "source_count": 1,
@@ -4073,7 +5290,24 @@
           "pub_date": "2026-10-08T18:06:48+00:00"
         }
       ],
-      "tags": []
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Ethereal Panda"
+        },
+        {
+          "type": "apt_group",
+          "value": "Flax Typhoon"
+        },
+        {
+          "type": "apt_group",
+          "value": "Red Juliett"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2014-6278"
+        }
+      ]
     },
     {
       "type": "domain",
@@ -7954,108 +9188,6 @@
         }
       ],
       "tags": []
-    },
-    {
-      "type": "ipv4",
-      "value": "118.145.196.225",
-      "confidence": "high",
-      "reason": "Listed as a download source for malware by the attacker",
-      "first_seen": "2026-10-06T15:01:27.216140+00:00",
-      "last_seen": "2026-10-06T15:01:27.216140+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.fortinet.com",
-          "url": "https://www.fortinet.com/blog/threat-research/clingstun-linux-backdoor-abuses-public-stun-infrastructure",
-          "pub_date": "2026-10-06T15:01:27.21614+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "cve",
-          "value": "CVE-2021-35394"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2022-36553"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2023-1389"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2024-10915"
-        }
-      ]
-    },
-    {
-      "type": "ipv4",
-      "value": "124.163.212.119",
-      "confidence": "high",
-      "reason": "Listed as a download source for malware by the attacker",
-      "first_seen": "2026-10-06T15:01:27.216140+00:00",
-      "last_seen": "2026-10-06T15:01:27.216140+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.fortinet.com",
-          "url": "https://www.fortinet.com/blog/threat-research/clingstun-linux-backdoor-abuses-public-stun-infrastructure",
-          "pub_date": "2026-10-06T15:01:27.21614+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "cve",
-          "value": "CVE-2021-35394"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2022-36553"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2023-1389"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2024-10915"
-        }
-      ]
-    },
-    {
-      "type": "ipv4",
-      "value": "222.223.152.97",
-      "confidence": "high",
-      "reason": "Listed as a download source for malware by the attacker",
-      "first_seen": "2026-10-06T15:01:27.216140+00:00",
-      "last_seen": "2026-10-06T15:01:27.216140+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.fortinet.com",
-          "url": "https://www.fortinet.com/blog/threat-research/clingstun-linux-backdoor-abuses-public-stun-infrastructure",
-          "pub_date": "2026-10-06T15:01:27.21614+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "cve",
-          "value": "CVE-2021-35394"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2022-36553"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2023-1389"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2024-10915"
-        }
-      ]
     },
     {
       "type": "domain",
@@ -18128,125 +19260,6 @@
           "source": "Redpacketsecurity",
           "url": "https://www.redpacketsecurity.com/mythic-c2-detected-154-198-49-31-port-7443/",
           "pub_date": "2026-09-13T05:02:04+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "log.gitclone.org",
-      "confidence": "high",
-      "reason": "Used for payload delivery in a malicious campaign",
-      "first_seen": "2026-09-12T12:45:25+00:00",
-      "last_seen": "2026-09-12T12:45:25+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Techtimes",
-          "url": "https://www.techtimes.com/articles/327383/20260912/jfrog-artifactory-hacked-24-day-campaign-rust-backdoors-survive-patching.htm",
-          "pub_date": "2026-09-12T12:45:25+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "ipv4",
-      "value": "64.207.232.6",
-      "confidence": "high",
-      "reason": "C2 communications observed to this IP",
-      "first_seen": "2026-09-12T12:45:25+00:00",
-      "last_seen": "2026-09-12T12:45:25+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Techtimes",
-          "url": "https://www.techtimes.com/articles/327383/20260912/jfrog-artifactory-hacked-24-day-campaign-rust-backdoors-survive-patching.htm",
-          "pub_date": "2026-09-12T12:45:25+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "gopdallas2026.com",
-      "confidence": "high",
-      "reason": "Identified as a fake website impersonating a legitimate domain",
-      "first_seen": "2026-09-12T08:15:02+00:00",
-      "last_seen": "2026-09-12T08:15:02+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Cybermagazine",
-          "url": "https://cybermagazine.com/news/this-weeks-top-five-stories-in-cybersecurity-cyber-news-today-top-stories",
-          "pub_date": "2026-09-12T08:15:02+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "add-passkey.com",
-      "confidence": "high",
-      "reason": "Used in phishing attacks with malicious intent",
-      "first_seen": "2026-09-11T17:45:03+00:00",
-      "last_seen": "2026-09-11T17:45:03+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Bleepingcomputer",
-          "url": "https://www.bleepingcomputer.com/news/security/passkey-themed-phishing-attacks-lead-to-microsoft-365-data-theft/",
-          "pub_date": "2026-09-11T17:45:03+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "integratedsso.com",
-      "confidence": "high",
-      "reason": "Used in phishing attacks to capture credentials",
-      "first_seen": "2026-09-11T17:45:03+00:00",
-      "last_seen": "2026-09-11T17:45:03+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Bleepingcomputer",
-          "url": "https://www.bleepingcomputer.com/news/security/passkey-themed-phishing-attacks-lead-to-microsoft-365-data-theft/",
-          "pub_date": "2026-09-11T17:45:03+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "secure-passkey.com",
-      "confidence": "high",
-      "reason": "Used in phishing campaigns to capture credentials",
-      "first_seen": "2026-09-11T17:45:03+00:00",
-      "last_seen": "2026-09-11T17:45:03+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Bleepingcomputer",
-          "url": "https://www.bleepingcomputer.com/news/security/passkey-themed-phishing-attacks-lead-to-microsoft-365-data-theft/",
-          "pub_date": "2026-09-11T17:45:03+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "setupmypasskey.com",
-      "confidence": "high",
-      "reason": "Used in phishing campaigns to capture credentials",
-      "first_seen": "2026-09-11T17:45:03+00:00",
-      "last_seen": "2026-09-11T17:45:03+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Bleepingcomputer",
-          "url": "https://www.bleepingcomputer.com/news/security/passkey-themed-phishing-attacks-lead-to-microsoft-365-data-theft/",
-          "pub_date": "2026-09-11T17:45:03+00:00"
         }
       ],
       "tags": []
