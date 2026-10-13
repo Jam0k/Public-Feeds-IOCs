@@ -1,7 +1,7 @@
 {
   "feed": "threatcluster-public-iocs",
   "version": 1,
-  "generated_at": "2026-10-12T15:20:08Z",
+  "generated_at": "2026-10-13T14:08:43Z",
   "filters": {
     "confidence": "high",
     "window_days": 30,
@@ -11,8 +11,741 @@
       "domain"
     ]
   },
-  "count": 770,
+  "count": 782,
   "iocs": [
+    {
+      "type": "domain",
+      "value": "agent2.sh",
+      "confidence": "high",
+      "reason": "Described as part of a multi-stage payload chain used by attackers",
+      "first_seen": "2026-10-13T14:02:49.639910+00:00",
+      "last_seen": "2026-10-13T14:02:49.639910+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.microsoft.com",
+          "url": "https://www.microsoft.com/en-us/security/blog/2026/09/30/unauthenticated-command-injection-on-internet-facing-mail-servers-tracking-cve-2026-73570/",
+          "pub_date": "2026-10-13T14:02:49.63991+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "bypass.eu.org",
+      "confidence": "high",
+      "reason": "Described as campaign-associated infrastructure used by attackers",
+      "first_seen": "2026-10-13T14:02:49.639910+00:00",
+      "last_seen": "2026-10-13T14:02:49.639910+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.microsoft.com",
+          "url": "https://www.microsoft.com/en-us/security/blog/2026/09/30/unauthenticated-command-injection-on-internet-facing-mail-servers-tracking-cve-2026-73570/",
+          "pub_date": "2026-10-13T14:02:49.63991+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "cdn.gotoiphone.com",
+      "confidence": "high",
+      "reason": "Used for C2 communication with the implant",
+      "first_seen": "2026-10-13T11:01:05.263596+00:00",
+      "last_seen": "2026-10-13T11:01:05.263596+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.iverify.com",
+          "url": "https://www.iverify.com/blog/darksword-variant-threat-research",
+          "pub_date": "2026-10-13T11:01:05.263596+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "Coruna"
+        },
+        {
+          "type": "malware",
+          "value": "DarkSword"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "js.gotoiphone.com",
+      "confidence": "high",
+      "reason": "Used for C2 communication with the implant",
+      "first_seen": "2026-10-13T11:01:05.263596+00:00",
+      "last_seen": "2026-10-13T11:01:05.263596+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.iverify.com",
+          "url": "https://www.iverify.com/blog/darksword-variant-threat-research",
+          "pub_date": "2026-10-13T11:01:05.263596+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "Coruna"
+        },
+        {
+          "type": "malware",
+          "value": "DarkSword"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "mzpo30.cam",
+      "confidence": "high",
+      "reason": "Used for C2 communication with the implant",
+      "first_seen": "2026-10-13T11:01:05.263596+00:00",
+      "last_seen": "2026-10-13T11:01:05.263596+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.iverify.com",
+          "url": "https://www.iverify.com/blog/darksword-variant-threat-research",
+          "pub_date": "2026-10-13T11:01:05.263596+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "Coruna"
+        },
+        {
+          "type": "malware",
+          "value": "DarkSword"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "0aa0cf0637d66c0d.com",
+      "confidence": "high",
+      "reason": "Listed as a proxyware control host used by attackers",
+      "first_seen": "2026-10-13T07:01:51.448275+00:00",
+      "last_seen": "2026-10-13T07:01:51.448275+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.bitdefender.com",
+          "url": "https://www.bitdefender.com/en-us/blog/labs/midnight-mimosa-malware",
+          "pub_date": "2026-10-13T07:01:51.448275+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Midnight Mimosa"
+        },
+        {
+          "type": "industry",
+          "value": "Technology"
+        },
+        {
+          "type": "malware",
+          "value": "Android.Phantom"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "442fe7151fb1e9b5.com",
+      "confidence": "high",
+      "reason": "Listed as a proxyware control host used by attackers",
+      "first_seen": "2026-10-13T07:01:51.448275+00:00",
+      "last_seen": "2026-10-13T07:01:51.448275+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.bitdefender.com",
+          "url": "https://www.bitdefender.com/en-us/blog/labs/midnight-mimosa-malware",
+          "pub_date": "2026-10-13T07:01:51.448275+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Midnight Mimosa"
+        },
+        {
+          "type": "industry",
+          "value": "Technology"
+        },
+        {
+          "type": "malware",
+          "value": "Android.Phantom"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "5.ahd187.com",
+      "confidence": "high",
+      "reason": "Listed as part of shared infrastructure used by malware operators",
+      "first_seen": "2026-10-13T07:01:51.448275+00:00",
+      "last_seen": "2026-10-13T07:01:51.448275+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.bitdefender.com",
+          "url": "https://www.bitdefender.com/en-us/blog/labs/midnight-mimosa-malware",
+          "pub_date": "2026-10-13T07:01:51.448275+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Midnight Mimosa"
+        },
+        {
+          "type": "industry",
+          "value": "Technology"
+        },
+        {
+          "type": "malware",
+          "value": "Android.Phantom"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "aa86a52a98162b7d.com",
+      "confidence": "high",
+      "reason": "Listed as a proxyware control host used by attackers",
+      "first_seen": "2026-10-13T07:01:51.448275+00:00",
+      "last_seen": "2026-10-13T07:01:51.448275+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.bitdefender.com",
+          "url": "https://www.bitdefender.com/en-us/blog/labs/midnight-mimosa-malware",
+          "pub_date": "2026-10-13T07:01:51.448275+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Midnight Mimosa"
+        },
+        {
+          "type": "industry",
+          "value": "Technology"
+        },
+        {
+          "type": "malware",
+          "value": "Android.Phantom"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "api.weatherlive.world",
+      "confidence": "high",
+      "reason": "Used as a command channel for malware control",
+      "first_seen": "2026-10-08T15:28:24+00:00",
+      "last_seen": "2026-10-13T07:01:51.448275+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "www.bitdefender.com",
+          "url": "https://www.bitdefender.com/en-us/blog/labs/midnight-mimosa-malware",
+          "pub_date": "2026-10-13T07:01:51.448275+00:00"
+        },
+        {
+          "source": "Hackread",
+          "url": "https://hackread.com/midnight-mimosa-malware-preinstalled-android-phones/",
+          "pub_date": "2026-10-08T15:28:24+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Midnight Mimosa"
+        },
+        {
+          "type": "industry",
+          "value": "Technology"
+        },
+        {
+          "type": "malware",
+          "value": "Android.Phantom"
+        },
+        {
+          "type": "malware",
+          "value": "Midnight Mimosa"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "cgb.jingongbuxiao.com",
+      "confidence": "high",
+      "reason": "Listed as part of shared infrastructure used by malware operators",
+      "first_seen": "2026-10-13T07:01:51.448275+00:00",
+      "last_seen": "2026-10-13T07:01:51.448275+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.bitdefender.com",
+          "url": "https://www.bitdefender.com/en-us/blog/labs/midnight-mimosa-malware",
+          "pub_date": "2026-10-13T07:01:51.448275+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Midnight Mimosa"
+        },
+        {
+          "type": "industry",
+          "value": "Technology"
+        },
+        {
+          "type": "malware",
+          "value": "Android.Phantom"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "fyapi.freeflightbird.com",
+      "confidence": "high",
+      "reason": "Listed as part of shared infrastructure used by malware operators",
+      "first_seen": "2026-10-13T07:01:51.448275+00:00",
+      "last_seen": "2026-10-13T07:01:51.448275+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.bitdefender.com",
+          "url": "https://www.bitdefender.com/en-us/blog/labs/midnight-mimosa-malware",
+          "pub_date": "2026-10-13T07:01:51.448275+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Midnight Mimosa"
+        },
+        {
+          "type": "industry",
+          "value": "Technology"
+        },
+        {
+          "type": "malware",
+          "value": "Android.Phantom"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "newsadapi.zhuifengzhe.top",
+      "confidence": "high",
+      "reason": "Listed as part of shared infrastructure used by malware operators",
+      "first_seen": "2026-10-13T07:01:51.448275+00:00",
+      "last_seen": "2026-10-13T07:01:51.448275+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.bitdefender.com",
+          "url": "https://www.bitdefender.com/en-us/blog/labs/midnight-mimosa-malware",
+          "pub_date": "2026-10-13T07:01:51.448275+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Midnight Mimosa"
+        },
+        {
+          "type": "industry",
+          "value": "Technology"
+        },
+        {
+          "type": "malware",
+          "value": "Android.Phantom"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "oss.showtimetool.com",
+      "confidence": "high",
+      "reason": "Used as a CDN for serving malicious payloads",
+      "first_seen": "2026-10-13T07:01:51.448275+00:00",
+      "last_seen": "2026-10-13T07:01:51.448275+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.bitdefender.com",
+          "url": "https://www.bitdefender.com/en-us/blog/labs/midnight-mimosa-malware",
+          "pub_date": "2026-10-13T07:01:51.448275+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Midnight Mimosa"
+        },
+        {
+          "type": "industry",
+          "value": "Technology"
+        },
+        {
+          "type": "malware",
+          "value": "Android.Phantom"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "v46wd6uramzkmeeo.in",
+      "confidence": "high",
+      "reason": "Listed as a proxyware control host used by attackers",
+      "first_seen": "2026-10-13T07:01:51.448275+00:00",
+      "last_seen": "2026-10-13T07:01:51.448275+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.bitdefender.com",
+          "url": "https://www.bitdefender.com/en-us/blog/labs/midnight-mimosa-malware",
+          "pub_date": "2026-10-13T07:01:51.448275+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Midnight Mimosa"
+        },
+        {
+          "type": "industry",
+          "value": "Technology"
+        },
+        {
+          "type": "malware",
+          "value": "Android.Phantom"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "weatherlive.world",
+      "confidence": "high",
+      "reason": "Used as a telemetry beacon for malware",
+      "first_seen": "2026-10-13T07:01:51.448275+00:00",
+      "last_seen": "2026-10-13T07:01:51.448275+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.bitdefender.com",
+          "url": "https://www.bitdefender.com/en-us/blog/labs/midnight-mimosa-malware",
+          "pub_date": "2026-10-13T07:01:51.448275+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Midnight Mimosa"
+        },
+        {
+          "type": "industry",
+          "value": "Technology"
+        },
+        {
+          "type": "malware",
+          "value": "Android.Phantom"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "zhuifengzhe.top",
+      "confidence": "high",
+      "reason": "Listed as part of shared infrastructure used by malware operators",
+      "first_seen": "2026-10-13T07:01:51.448275+00:00",
+      "last_seen": "2026-10-13T07:01:51.448275+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.bitdefender.com",
+          "url": "https://www.bitdefender.com/en-us/blog/labs/midnight-mimosa-malware",
+          "pub_date": "2026-10-13T07:01:51.448275+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Midnight Mimosa"
+        },
+        {
+          "type": "industry",
+          "value": "Technology"
+        },
+        {
+          "type": "malware",
+          "value": "Android.Phantom"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "freepressfront.com",
+      "confidence": "high",
+      "reason": "Part of a network of domains used for influence operations",
+      "first_seen": "2026-10-12T20:02:07.907502+00:00",
+      "last_seen": "2026-10-12T20:02:07.907502+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "carnegieendowment.org",
+          "url": "https://carnegieendowment.org/research/2020/06/the-challenges-of-countering-influence-operations",
+          "pub_date": "2026-10-12T20:02:07.907502+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "free-speechfront.info",
+      "confidence": "high",
+      "reason": "Domain used to host misleading content as part of influence operations",
+      "first_seen": "2026-10-12T20:02:07.907502+00:00",
+      "last_seen": "2026-10-12T20:02:07.907502+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "carnegieendowment.org",
+          "url": "https://carnegieendowment.org/research/2020/06/the-challenges-of-countering-influence-operations",
+          "pub_date": "2026-10-12T20:02:07.907502+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "free-speechfront.net",
+      "confidence": "high",
+      "reason": "Domain used to amplify misleading content in influence operations",
+      "first_seen": "2026-10-12T20:02:07.907502+00:00",
+      "last_seen": "2026-10-12T20:02:07.907502+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "carnegieendowment.org",
+          "url": "https://carnegieendowment.org/research/2020/06/the-challenges-of-countering-influence-operations",
+          "pub_date": "2026-10-12T20:02:07.907502+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "free-speechtime.com",
+      "confidence": "high",
+      "reason": "Domain used by a content mill for influence operations",
+      "first_seen": "2026-10-12T20:02:07.907502+00:00",
+      "last_seen": "2026-10-12T20:02:07.907502+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "carnegieendowment.org",
+          "url": "https://carnegieendowment.org/research/2020/06/the-challenges-of-countering-influence-operations",
+          "pub_date": "2026-10-12T20:02:07.907502+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "freespeech-time.com",
+      "confidence": "high",
+      "reason": "Domain used by a content mill for influence operations",
+      "first_seen": "2026-10-12T20:02:07.907502+00:00",
+      "last_seen": "2026-10-12T20:02:07.907502+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "carnegieendowment.org",
+          "url": "https://carnegieendowment.org/research/2020/06/the-challenges-of-countering-influence-operations",
+          "pub_date": "2026-10-12T20:02:07.907502+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "freespeechtime.net",
+      "confidence": "high",
+      "reason": "Domain used by a content mill for influence operations",
+      "first_seen": "2026-10-12T20:02:07.907502+00:00",
+      "last_seen": "2026-10-12T20:02:07.907502+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "carnegieendowment.org",
+          "url": "https://carnegieendowment.org/research/2020/06/the-challenges-of-countering-influence-operations",
+          "pub_date": "2026-10-12T20:02:07.907502+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "i-supportisrael.com",
+      "confidence": "high",
+      "reason": "Domain part of a network used for influence operations",
+      "first_seen": "2026-10-12T20:02:07.907502+00:00",
+      "last_seen": "2026-10-12T20:02:07.907502+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "carnegieendowment.org",
+          "url": "https://carnegieendowment.org/research/2020/06/the-challenges-of-countering-influence-operations",
+          "pub_date": "2026-10-12T20:02:07.907502+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "politicaldiscussion.net",
+      "confidence": "high",
+      "reason": "Domain used as part of influence operations",
+      "first_seen": "2026-10-12T20:02:07.907502+00:00",
+      "last_seen": "2026-10-12T20:02:07.907502+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "carnegieendowment.org",
+          "url": "https://carnegieendowment.org/research/2020/06/the-challenges-of-countering-influence-operations",
+          "pub_date": "2026-10-12T20:02:07.907502+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "politicsonline.net",
+      "confidence": "high",
+      "reason": "Domain used by a content mill for influence operations",
+      "first_seen": "2026-10-12T20:02:07.907502+00:00",
+      "last_seen": "2026-10-12T20:02:07.907502+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "carnegieendowment.org",
+          "url": "https://carnegieendowment.org/research/2020/06/the-challenges-of-countering-influence-operations",
+          "pub_date": "2026-10-12T20:02:07.907502+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "speech-front.net",
+      "confidence": "high",
+      "reason": "Domain used to cloak sources of misleading content",
+      "first_seen": "2026-10-12T20:02:07.907502+00:00",
+      "last_seen": "2026-10-12T20:02:07.907502+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "carnegieendowment.org",
+          "url": "https://carnegieendowment.org/research/2020/06/the-challenges-of-countering-influence-operations",
+          "pub_date": "2026-10-12T20:02:07.907502+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "thepolitics.online",
+      "confidence": "high",
+      "reason": "Domain used by a content mill for influence operations",
+      "first_seen": "2026-10-12T20:02:07.907502+00:00",
+      "last_seen": "2026-10-12T20:02:07.907502+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "carnegieendowment.org",
+          "url": "https://carnegieendowment.org/research/2020/06/the-challenges-of-countering-influence-operations",
+          "pub_date": "2026-10-12T20:02:07.907502+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "thetruthvoice.net",
+      "confidence": "high",
+      "reason": "Domain part of a network used for influence operations",
+      "first_seen": "2026-10-12T20:02:07.907502+00:00",
+      "last_seen": "2026-10-12T20:02:07.907502+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "carnegieendowment.org",
+          "url": "https://carnegieendowment.org/research/2020/06/the-challenges-of-countering-influence-operations",
+          "pub_date": "2026-10-12T20:02:07.907502+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "truthvoice.net",
+      "confidence": "high",
+      "reason": "Domain part of a network used for influence operations",
+      "first_seen": "2026-10-12T20:02:07.907502+00:00",
+      "last_seen": "2026-10-12T20:02:07.907502+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "carnegieendowment.org",
+          "url": "https://carnegieendowment.org/research/2020/06/the-challenges-of-countering-influence-operations",
+          "pub_date": "2026-10-12T20:02:07.907502+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "ipv4",
+      "value": "61.18.208.27",
+      "confidence": "high",
+      "reason": "Communicates with VulcanRAT207.A as a C2 server",
+      "first_seen": "2026-10-08T06:42:10+00:00",
+      "last_seen": "2026-10-12T14:53:04+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "The420.In",
+          "url": "https://the420.in/whatsapp-vulcanrat-windows-malware-system-access-cyber-attack/",
+          "pub_date": "2026-10-12T14:53:04+00:00"
+        },
+        {
+          "source": "Morphisec",
+          "url": "https://www.morphisec.com/blog/copy-of-how-to-stop-ransomware-before-execution/",
+          "pub_date": "2026-10-08T06:42:10+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "VulcanRAT207.A"
+        },
+        {
+          "type": "malware",
+          "value": "RomulusLoader"
+        }
+      ]
+    },
     {
       "type": "domain",
       "value": "malwarescan.xyz",
@@ -320,375 +1053,6 @@
       ]
     },
     {
-      "type": "domain",
-      "value": "0aa0cf0637d66c0d.com",
-      "confidence": "high",
-      "reason": "Listed as a proxyware control host used by attackers",
-      "first_seen": "2026-10-12T12:11:03.074984+00:00",
-      "last_seen": "2026-10-12T12:11:03.074984+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.bitdefender.com",
-          "url": "https://www.bitdefender.com/en-us/blog/labs/midnight-mimosa-malware",
-          "pub_date": "2026-10-12T12:11:03.074984+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Midnight Mimosa"
-        },
-        {
-          "type": "industry",
-          "value": "Technology"
-        },
-        {
-          "type": "malware",
-          "value": "Android.Phantom"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "442fe7151fb1e9b5.com",
-      "confidence": "high",
-      "reason": "Listed as a proxyware control host used by attackers",
-      "first_seen": "2026-10-12T12:11:03.074984+00:00",
-      "last_seen": "2026-10-12T12:11:03.074984+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.bitdefender.com",
-          "url": "https://www.bitdefender.com/en-us/blog/labs/midnight-mimosa-malware",
-          "pub_date": "2026-10-12T12:11:03.074984+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Midnight Mimosa"
-        },
-        {
-          "type": "industry",
-          "value": "Technology"
-        },
-        {
-          "type": "malware",
-          "value": "Android.Phantom"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "5.ahd187.com",
-      "confidence": "high",
-      "reason": "Listed as part of shared infrastructure used by malware operators",
-      "first_seen": "2026-10-12T12:11:03.074984+00:00",
-      "last_seen": "2026-10-12T12:11:03.074984+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.bitdefender.com",
-          "url": "https://www.bitdefender.com/en-us/blog/labs/midnight-mimosa-malware",
-          "pub_date": "2026-10-12T12:11:03.074984+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Midnight Mimosa"
-        },
-        {
-          "type": "industry",
-          "value": "Technology"
-        },
-        {
-          "type": "malware",
-          "value": "Android.Phantom"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "aa86a52a98162b7d.com",
-      "confidence": "high",
-      "reason": "Listed as a proxyware control host used by attackers",
-      "first_seen": "2026-10-12T12:11:03.074984+00:00",
-      "last_seen": "2026-10-12T12:11:03.074984+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.bitdefender.com",
-          "url": "https://www.bitdefender.com/en-us/blog/labs/midnight-mimosa-malware",
-          "pub_date": "2026-10-12T12:11:03.074984+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Midnight Mimosa"
-        },
-        {
-          "type": "industry",
-          "value": "Technology"
-        },
-        {
-          "type": "malware",
-          "value": "Android.Phantom"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "api.weatherlive.world",
-      "confidence": "high",
-      "reason": "Used as a command channel for malware control",
-      "first_seen": "2026-10-08T15:28:24+00:00",
-      "last_seen": "2026-10-12T12:11:03.074984+00:00",
-      "source_count": 2,
-      "sources": [
-        {
-          "source": "www.bitdefender.com",
-          "url": "https://www.bitdefender.com/en-us/blog/labs/midnight-mimosa-malware",
-          "pub_date": "2026-10-12T12:11:03.074984+00:00"
-        },
-        {
-          "source": "Hackread",
-          "url": "https://hackread.com/midnight-mimosa-malware-preinstalled-android-phones/",
-          "pub_date": "2026-10-08T15:28:24+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Midnight Mimosa"
-        },
-        {
-          "type": "industry",
-          "value": "Technology"
-        },
-        {
-          "type": "malware",
-          "value": "Android.Phantom"
-        },
-        {
-          "type": "malware",
-          "value": "Midnight Mimosa"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "cgb.jingongbuxiao.com",
-      "confidence": "high",
-      "reason": "Listed as part of shared infrastructure used by malware operators",
-      "first_seen": "2026-10-12T12:11:03.074984+00:00",
-      "last_seen": "2026-10-12T12:11:03.074984+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.bitdefender.com",
-          "url": "https://www.bitdefender.com/en-us/blog/labs/midnight-mimosa-malware",
-          "pub_date": "2026-10-12T12:11:03.074984+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Midnight Mimosa"
-        },
-        {
-          "type": "industry",
-          "value": "Technology"
-        },
-        {
-          "type": "malware",
-          "value": "Android.Phantom"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "fyapi.freeflightbird.com",
-      "confidence": "high",
-      "reason": "Listed as part of shared infrastructure used by malware operators",
-      "first_seen": "2026-10-12T12:11:03.074984+00:00",
-      "last_seen": "2026-10-12T12:11:03.074984+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.bitdefender.com",
-          "url": "https://www.bitdefender.com/en-us/blog/labs/midnight-mimosa-malware",
-          "pub_date": "2026-10-12T12:11:03.074984+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Midnight Mimosa"
-        },
-        {
-          "type": "industry",
-          "value": "Technology"
-        },
-        {
-          "type": "malware",
-          "value": "Android.Phantom"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "newsadapi.zhuifengzhe.top",
-      "confidence": "high",
-      "reason": "Listed as part of shared infrastructure used by malware operators",
-      "first_seen": "2026-10-12T12:11:03.074984+00:00",
-      "last_seen": "2026-10-12T12:11:03.074984+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.bitdefender.com",
-          "url": "https://www.bitdefender.com/en-us/blog/labs/midnight-mimosa-malware",
-          "pub_date": "2026-10-12T12:11:03.074984+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Midnight Mimosa"
-        },
-        {
-          "type": "industry",
-          "value": "Technology"
-        },
-        {
-          "type": "malware",
-          "value": "Android.Phantom"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "oss.showtimetool.com",
-      "confidence": "high",
-      "reason": "Used as a CDN for serving malicious payloads",
-      "first_seen": "2026-10-12T12:11:03.074984+00:00",
-      "last_seen": "2026-10-12T12:11:03.074984+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.bitdefender.com",
-          "url": "https://www.bitdefender.com/en-us/blog/labs/midnight-mimosa-malware",
-          "pub_date": "2026-10-12T12:11:03.074984+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Midnight Mimosa"
-        },
-        {
-          "type": "industry",
-          "value": "Technology"
-        },
-        {
-          "type": "malware",
-          "value": "Android.Phantom"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "v46wd6uramzkmeeo.in",
-      "confidence": "high",
-      "reason": "Listed as a proxyware control host used by attackers",
-      "first_seen": "2026-10-12T12:11:03.074984+00:00",
-      "last_seen": "2026-10-12T12:11:03.074984+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.bitdefender.com",
-          "url": "https://www.bitdefender.com/en-us/blog/labs/midnight-mimosa-malware",
-          "pub_date": "2026-10-12T12:11:03.074984+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Midnight Mimosa"
-        },
-        {
-          "type": "industry",
-          "value": "Technology"
-        },
-        {
-          "type": "malware",
-          "value": "Android.Phantom"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "weatherlive.world",
-      "confidence": "high",
-      "reason": "Used as a telemetry beacon for malware",
-      "first_seen": "2026-10-12T12:11:03.074984+00:00",
-      "last_seen": "2026-10-12T12:11:03.074984+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.bitdefender.com",
-          "url": "https://www.bitdefender.com/en-us/blog/labs/midnight-mimosa-malware",
-          "pub_date": "2026-10-12T12:11:03.074984+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Midnight Mimosa"
-        },
-        {
-          "type": "industry",
-          "value": "Technology"
-        },
-        {
-          "type": "malware",
-          "value": "Android.Phantom"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "zhuifengzhe.top",
-      "confidence": "high",
-      "reason": "Listed as part of shared infrastructure used by malware operators",
-      "first_seen": "2026-10-12T12:11:03.074984+00:00",
-      "last_seen": "2026-10-12T12:11:03.074984+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.bitdefender.com",
-          "url": "https://www.bitdefender.com/en-us/blog/labs/midnight-mimosa-malware",
-          "pub_date": "2026-10-12T12:11:03.074984+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Midnight Mimosa"
-        },
-        {
-          "type": "industry",
-          "value": "Technology"
-        },
-        {
-          "type": "malware",
-          "value": "Android.Phantom"
-        }
-      ]
-    },
-    {
       "type": "ipv4",
       "value": "79.130.26.202",
       "confidence": "high",
@@ -704,84 +1068,6 @@
         }
       ],
       "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "cdn.gotoiphone.com",
-      "confidence": "high",
-      "reason": "Used for C2 communication with the implant",
-      "first_seen": "2026-10-11T21:30:49.285151+00:00",
-      "last_seen": "2026-10-11T21:30:49.285151+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.iverify.com",
-          "url": "https://www.iverify.com/blog/darksword-variant-threat-research",
-          "pub_date": "2026-10-11T21:30:49.285151+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "malware",
-          "value": "Coruna"
-        },
-        {
-          "type": "malware",
-          "value": "DarkSword"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "js.gotoiphone.com",
-      "confidence": "high",
-      "reason": "Used for C2 communication with the implant",
-      "first_seen": "2026-10-11T21:30:49.285151+00:00",
-      "last_seen": "2026-10-11T21:30:49.285151+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.iverify.com",
-          "url": "https://www.iverify.com/blog/darksword-variant-threat-research",
-          "pub_date": "2026-10-11T21:30:49.285151+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "malware",
-          "value": "Coruna"
-        },
-        {
-          "type": "malware",
-          "value": "DarkSword"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "mzpo30.cam",
-      "confidence": "high",
-      "reason": "Used for C2 communication with the implant",
-      "first_seen": "2026-10-11T21:30:49.285151+00:00",
-      "last_seen": "2026-10-11T21:30:49.285151+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.iverify.com",
-          "url": "https://www.iverify.com/blog/darksword-variant-threat-research",
-          "pub_date": "2026-10-11T21:30:49.285151+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "malware",
-          "value": "Coruna"
-        },
-        {
-          "type": "malware",
-          "value": "DarkSword"
-        }
-      ]
     },
     {
       "type": "ipv4",
@@ -6338,23 +6624,6 @@
       "tags": []
     },
     {
-      "type": "ipv4",
-      "value": "61.18.208.27",
-      "confidence": "high",
-      "reason": "Communicates with a remote access trojan",
-      "first_seen": "2026-10-08T06:42:10+00:00",
-      "last_seen": "2026-10-08T06:42:10+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Morphisec",
-          "url": "https://www.morphisec.com/blog/copy-of-how-to-stop-ransomware-before-execution/",
-          "pub_date": "2026-10-08T06:42:10+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
       "type": "domain",
       "value": "api.nebulaai.dev",
       "confidence": "high",
@@ -9844,40 +10113,6 @@
           "source": "Cloudsek",
           "url": "https://www.cloudsek.com/blog/caught-in-4k-the-gentlemen-files",
           "pub_date": "2026-10-05T11:10:47+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "agent2.sh",
-      "confidence": "high",
-      "reason": "Described as part of a multi-stage payload chain used by attackers",
-      "first_seen": "2026-10-05T10:30:37.105742+00:00",
-      "last_seen": "2026-10-05T10:30:37.105742+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.microsoft.com",
-          "url": "https://www.microsoft.com/en-us/security/blog/2026/09/30/unauthenticated-command-injection-on-internet-facing-mail-servers-tracking-cve-2026-73570/",
-          "pub_date": "2026-10-05T10:30:37.105742+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "bypass.eu.org",
-      "confidence": "high",
-      "reason": "Described as campaign-associated infrastructure used by attackers",
-      "first_seen": "2026-10-05T10:30:37.105742+00:00",
-      "last_seen": "2026-10-05T10:30:37.105742+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.microsoft.com",
-          "url": "https://www.microsoft.com/en-us/security/blog/2026/09/30/unauthenticated-command-injection-on-internet-facing-mail-servers-tracking-cve-2026-73570/",
-          "pub_date": "2026-10-05T10:30:37.105742+00:00"
         }
       ],
       "tags": []
@@ -19243,23 +19478,6 @@
           "source": "News.Ycombinator",
           "url": "https://dreamstation.systems/personal/tesla.html",
           "pub_date": "2026-09-13T18:03:09+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "ipv4",
-      "value": "154.198.49.31",
-      "confidence": "high",
-      "reason": "IP address hosting a Mythic management portal",
-      "first_seen": "2026-09-13T05:02:04+00:00",
-      "last_seen": "2026-09-13T05:02:04+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Redpacketsecurity",
-          "url": "https://www.redpacketsecurity.com/mythic-c2-detected-154-198-49-31-port-7443/",
-          "pub_date": "2026-09-13T05:02:04+00:00"
         }
       ],
       "tags": []

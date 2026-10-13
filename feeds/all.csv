@@ -1,4 +1,35 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason
+domain,agent2.sh,high,2026-10-13T14:02:49.639910+00:00,2026-10-13T14:02:49.639910+00:00,1,www.microsoft.com:2026-10-13,Described as part of a multi-stage payload chain used by attackers
+domain,bypass.eu.org,high,2026-10-13T14:02:49.639910+00:00,2026-10-13T14:02:49.639910+00:00,1,www.microsoft.com:2026-10-13,Described as campaign-associated infrastructure used by attackers
+domain,cdn.gotoiphone.com,high,2026-10-13T11:01:05.263596+00:00,2026-10-13T11:01:05.263596+00:00,1,www.iverify.com:2026-10-13,Used for C2 communication with the implant
+domain,js.gotoiphone.com,high,2026-10-13T11:01:05.263596+00:00,2026-10-13T11:01:05.263596+00:00,1,www.iverify.com:2026-10-13,Used for C2 communication with the implant
+domain,mzpo30.cam,high,2026-10-13T11:01:05.263596+00:00,2026-10-13T11:01:05.263596+00:00,1,www.iverify.com:2026-10-13,Used for C2 communication with the implant
+domain,0aa0cf0637d66c0d.com,high,2026-10-13T07:01:51.448275+00:00,2026-10-13T07:01:51.448275+00:00,1,www.bitdefender.com:2026-10-13,Listed as a proxyware control host used by attackers
+domain,442fe7151fb1e9b5.com,high,2026-10-13T07:01:51.448275+00:00,2026-10-13T07:01:51.448275+00:00,1,www.bitdefender.com:2026-10-13,Listed as a proxyware control host used by attackers
+domain,5.ahd187.com,high,2026-10-13T07:01:51.448275+00:00,2026-10-13T07:01:51.448275+00:00,1,www.bitdefender.com:2026-10-13,Listed as part of shared infrastructure used by malware operators
+domain,aa86a52a98162b7d.com,high,2026-10-13T07:01:51.448275+00:00,2026-10-13T07:01:51.448275+00:00,1,www.bitdefender.com:2026-10-13,Listed as a proxyware control host used by attackers
+domain,api.weatherlive.world,high,2026-10-08T15:28:24+00:00,2026-10-13T07:01:51.448275+00:00,2,www.bitdefender.com:2026-10-13|Hackread:2026-10-08,Used as a command channel for malware control
+domain,cgb.jingongbuxiao.com,high,2026-10-13T07:01:51.448275+00:00,2026-10-13T07:01:51.448275+00:00,1,www.bitdefender.com:2026-10-13,Listed as part of shared infrastructure used by malware operators
+domain,fyapi.freeflightbird.com,high,2026-10-13T07:01:51.448275+00:00,2026-10-13T07:01:51.448275+00:00,1,www.bitdefender.com:2026-10-13,Listed as part of shared infrastructure used by malware operators
+domain,newsadapi.zhuifengzhe.top,high,2026-10-13T07:01:51.448275+00:00,2026-10-13T07:01:51.448275+00:00,1,www.bitdefender.com:2026-10-13,Listed as part of shared infrastructure used by malware operators
+domain,oss.showtimetool.com,high,2026-10-13T07:01:51.448275+00:00,2026-10-13T07:01:51.448275+00:00,1,www.bitdefender.com:2026-10-13,Used as a CDN for serving malicious payloads
+domain,v46wd6uramzkmeeo.in,high,2026-10-13T07:01:51.448275+00:00,2026-10-13T07:01:51.448275+00:00,1,www.bitdefender.com:2026-10-13,Listed as a proxyware control host used by attackers
+domain,weatherlive.world,high,2026-10-13T07:01:51.448275+00:00,2026-10-13T07:01:51.448275+00:00,1,www.bitdefender.com:2026-10-13,Used as a telemetry beacon for malware
+domain,zhuifengzhe.top,high,2026-10-13T07:01:51.448275+00:00,2026-10-13T07:01:51.448275+00:00,1,www.bitdefender.com:2026-10-13,Listed as part of shared infrastructure used by malware operators
+domain,freepressfront.com,high,2026-10-12T20:02:07.907502+00:00,2026-10-12T20:02:07.907502+00:00,1,carnegieendowment.org:2026-10-12,Part of a network of domains used for influence operations
+domain,free-speechfront.info,high,2026-10-12T20:02:07.907502+00:00,2026-10-12T20:02:07.907502+00:00,1,carnegieendowment.org:2026-10-12,Domain used to host misleading content as part of influence operations
+domain,free-speechfront.net,high,2026-10-12T20:02:07.907502+00:00,2026-10-12T20:02:07.907502+00:00,1,carnegieendowment.org:2026-10-12,Domain used to amplify misleading content in influence operations
+domain,free-speechtime.com,high,2026-10-12T20:02:07.907502+00:00,2026-10-12T20:02:07.907502+00:00,1,carnegieendowment.org:2026-10-12,Domain used by a content mill for influence operations
+domain,freespeech-time.com,high,2026-10-12T20:02:07.907502+00:00,2026-10-12T20:02:07.907502+00:00,1,carnegieendowment.org:2026-10-12,Domain used by a content mill for influence operations
+domain,freespeechtime.net,high,2026-10-12T20:02:07.907502+00:00,2026-10-12T20:02:07.907502+00:00,1,carnegieendowment.org:2026-10-12,Domain used by a content mill for influence operations
+domain,i-supportisrael.com,high,2026-10-12T20:02:07.907502+00:00,2026-10-12T20:02:07.907502+00:00,1,carnegieendowment.org:2026-10-12,Domain part of a network used for influence operations
+domain,politicaldiscussion.net,high,2026-10-12T20:02:07.907502+00:00,2026-10-12T20:02:07.907502+00:00,1,carnegieendowment.org:2026-10-12,Domain used as part of influence operations
+domain,politicsonline.net,high,2026-10-12T20:02:07.907502+00:00,2026-10-12T20:02:07.907502+00:00,1,carnegieendowment.org:2026-10-12,Domain used by a content mill for influence operations
+domain,speech-front.net,high,2026-10-12T20:02:07.907502+00:00,2026-10-12T20:02:07.907502+00:00,1,carnegieendowment.org:2026-10-12,Domain used to cloak sources of misleading content
+domain,thepolitics.online,high,2026-10-12T20:02:07.907502+00:00,2026-10-12T20:02:07.907502+00:00,1,carnegieendowment.org:2026-10-12,Domain used by a content mill for influence operations
+domain,thetruthvoice.net,high,2026-10-12T20:02:07.907502+00:00,2026-10-12T20:02:07.907502+00:00,1,carnegieendowment.org:2026-10-12,Domain part of a network used for influence operations
+domain,truthvoice.net,high,2026-10-12T20:02:07.907502+00:00,2026-10-12T20:02:07.907502+00:00,1,carnegieendowment.org:2026-10-12,Domain part of a network used for influence operations
+ipv4,61.18.208.27,high,2026-10-08T06:42:10+00:00,2026-10-12T14:53:04+00:00,2,The420.In:2026-10-12|Morphisec:2026-10-08,Communicates with VulcanRAT207.A as a C2 server
 domain,malwarescan.xyz,high,2026-10-12T13:01:33.020113+00:00,2026-10-12T13:01:33.020113+00:00,1,www.lumen.com:2026-10-12,Domain registered and likely operated by the attacker for malicious purposes
 ipv4,103.249.201.108,high,2026-10-12T13:01:33.020113+00:00,2026-10-12T13:01:33.020113+00:00,1,www.lumen.com:2026-10-12,Listed as a C2 IP address associated with the campaign
 ipv4,120.224.114.212,high,2026-10-12T13:01:33.020113+00:00,2026-10-12T13:01:33.020113+00:00,1,www.lumen.com:2026-10-12,Listed as additional infrastructure used during the campaign
@@ -8,22 +39,7 @@ ipv4,191.37.28.160,high,2026-10-12T13:01:33.020113+00:00,2026-10-12T13:01:33.020
 ipv4,89.39.253.46,high,2026-10-12T13:01:33.020113+00:00,2026-10-12T13:01:33.020113+00:00,1,www.lumen.com:2026-10-12,Listed as additional infrastructure used during the campaign
 ipv4,92.119.164.50,high,2026-10-12T13:01:33.020113+00:00,2026-10-12T13:01:33.020113+00:00,1,www.lumen.com:2026-10-12,Listed as a C2 IP address associated with the campaign
 ipv4,92.119.165.74,high,2026-10-12T13:01:33.020113+00:00,2026-10-12T13:01:33.020113+00:00,1,www.lumen.com:2026-10-12,Listed as additional infrastructure used during the campaign
-domain,0aa0cf0637d66c0d.com,high,2026-10-12T12:11:03.074984+00:00,2026-10-12T12:11:03.074984+00:00,1,www.bitdefender.com:2026-10-12,Listed as a proxyware control host used by attackers
-domain,442fe7151fb1e9b5.com,high,2026-10-12T12:11:03.074984+00:00,2026-10-12T12:11:03.074984+00:00,1,www.bitdefender.com:2026-10-12,Listed as a proxyware control host used by attackers
-domain,5.ahd187.com,high,2026-10-12T12:11:03.074984+00:00,2026-10-12T12:11:03.074984+00:00,1,www.bitdefender.com:2026-10-12,Listed as part of shared infrastructure used by malware operators
-domain,aa86a52a98162b7d.com,high,2026-10-12T12:11:03.074984+00:00,2026-10-12T12:11:03.074984+00:00,1,www.bitdefender.com:2026-10-12,Listed as a proxyware control host used by attackers
-domain,api.weatherlive.world,high,2026-10-08T15:28:24+00:00,2026-10-12T12:11:03.074984+00:00,2,www.bitdefender.com:2026-10-12|Hackread:2026-10-08,Used as a command channel for malware control
-domain,cgb.jingongbuxiao.com,high,2026-10-12T12:11:03.074984+00:00,2026-10-12T12:11:03.074984+00:00,1,www.bitdefender.com:2026-10-12,Listed as part of shared infrastructure used by malware operators
-domain,fyapi.freeflightbird.com,high,2026-10-12T12:11:03.074984+00:00,2026-10-12T12:11:03.074984+00:00,1,www.bitdefender.com:2026-10-12,Listed as part of shared infrastructure used by malware operators
-domain,newsadapi.zhuifengzhe.top,high,2026-10-12T12:11:03.074984+00:00,2026-10-12T12:11:03.074984+00:00,1,www.bitdefender.com:2026-10-12,Listed as part of shared infrastructure used by malware operators
-domain,oss.showtimetool.com,high,2026-10-12T12:11:03.074984+00:00,2026-10-12T12:11:03.074984+00:00,1,www.bitdefender.com:2026-10-12,Used as a CDN for serving malicious payloads
-domain,v46wd6uramzkmeeo.in,high,2026-10-12T12:11:03.074984+00:00,2026-10-12T12:11:03.074984+00:00,1,www.bitdefender.com:2026-10-12,Listed as a proxyware control host used by attackers
-domain,weatherlive.world,high,2026-10-12T12:11:03.074984+00:00,2026-10-12T12:11:03.074984+00:00,1,www.bitdefender.com:2026-10-12,Used as a telemetry beacon for malware
-domain,zhuifengzhe.top,high,2026-10-12T12:11:03.074984+00:00,2026-10-12T12:11:03.074984+00:00,1,www.bitdefender.com:2026-10-12,Listed as part of shared infrastructure used by malware operators
 ipv4,79.130.26.202,high,2026-10-12T10:00:21.401837+00:00,2026-10-12T10:00:21.401837+00:00,1,www.rapid7.com:2026-10-12,Listed as a threat actor source IP in a campaign
-domain,cdn.gotoiphone.com,high,2026-10-11T21:30:49.285151+00:00,2026-10-11T21:30:49.285151+00:00,1,www.iverify.com:2026-10-11,Used for C2 communication with the implant
-domain,js.gotoiphone.com,high,2026-10-11T21:30:49.285151+00:00,2026-10-11T21:30:49.285151+00:00,1,www.iverify.com:2026-10-11,Used for C2 communication with the implant
-domain,mzpo30.cam,high,2026-10-11T21:30:49.285151+00:00,2026-10-11T21:30:49.285151+00:00,1,www.iverify.com:2026-10-11,Used for C2 communication with the implant
 ipv4,118.145.196.225,high,2026-10-11T16:02:05.609563+00:00,2026-10-11T16:02:05.609563+00:00,1,www.fortinet.com:2026-10-11,Listed as a download source for malware by the attacker
 ipv4,124.163.212.119,high,2026-10-11T16:02:05.609563+00:00,2026-10-11T16:02:05.609563+00:00,1,www.fortinet.com:2026-10-11,Listed as a download source for malware by the attacker
 ipv4,222.223.152.97,high,2026-10-11T16:02:05.609563+00:00,2026-10-11T16:02:05.609563+00:00,1,www.fortinet.com:2026-10-11,Listed as a download source for malware by the attacker
@@ -221,7 +237,6 @@ domain,springbunnhopes.online,high,2026-10-08T08:40:19+00:00,2026-10-08T08:40:19
 domain,welceastming.website,high,2026-10-08T08:40:19+00:00,2026-10-08T08:40:19+00:00,1,Premiumtimesng:2026-10-08,Phishing domain linked to a fraudulent website
 ipv4,38.60.157.86,high,2026-10-07T12:49:01+00:00,2026-10-08T07:57:29+00:00,2,Heise.De:2026-10-08|Bleepingcomputer:2026-10-07,Listed as an IP address from which exploit attempts originated
 domain,teams-online.com,high,2026-10-08T06:44:17+00:00,2026-10-08T06:44:17+00:00,1,Cybersecuritynews:2026-10-08,Phishing domain impersonating Microsoft Teams
-ipv4,61.18.208.27,high,2026-10-08T06:42:10+00:00,2026-10-08T06:42:10+00:00,1,Morphisec:2026-10-08,Communicates with a remote access trojan
 domain,api.nebulaai.dev,high,2026-10-08T00:00:00+00:00,2026-10-08T00:00:00+00:00,1,Cloudsek:2026-10-08,"Domain used in malware campaign, indicating attacker control."
 ipv4,65.87.7.132,high,2026-10-08T00:00:00+00:00,2026-10-08T00:00:00+00:00,1,Cloudsek:2026-10-08,Configured to communicate with a remote-access tool
 domain,accessdest.strangled.net,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,securelist.com:2026-10-07,Listed in a structured IOC list as attacker-controlled infrastructure
@@ -341,8 +356,6 @@ domain,finger.linkeders.net,high,2026-10-05T13:48:11+00:00,2026-10-05T13:48:11+0
 domain,linkeders.net,high,2026-10-05T13:48:11+00:00,2026-10-05T13:48:11+00:00,1,Huntress:2026-10-05,Used in an obfuscated command for malicious activity
 ipv4,66.179.30.155,high,2026-10-05T11:10:47+00:00,2026-10-05T11:10:47+00:00,1,Cloudsek:2026-10-05,Used as a publication and archive node by attackers
 ipv4,66.203.124.135,high,2026-10-05T11:10:47+00:00,2026-10-05T11:10:47+00:00,1,Cloudsek:2026-10-05,Used as a final exfiltration destination by attackers
-domain,agent2.sh,high,2026-10-05T10:30:37.105742+00:00,2026-10-05T10:30:37.105742+00:00,1,www.microsoft.com:2026-10-05,Described as part of a multi-stage payload chain used by attackers
-domain,bypass.eu.org,high,2026-10-05T10:30:37.105742+00:00,2026-10-05T10:30:37.105742+00:00,1,www.microsoft.com:2026-10-05,Described as campaign-associated infrastructure used by attackers
 ipv4,195.64.128.106,high,2026-10-05T02:54:00+00:00,2026-10-05T02:54:00+00:00,1,Malware-Traffic-Analysis:2026-10-05,Listed as C2 traffic for CNCmachineRMS RAT
 ipv4,45.138.12.177,high,2026-10-05T00:00:00+00:00,2026-10-05T00:00:00+00:00,1,Safedep:2026-10-05,Used as a reverse shell endpoint by malicious gems
 ipv4,213.209.159.55,high,2026-10-04T22:10:13+00:00,2026-10-04T22:10:13+00:00,1,Bleepingcomputer:2026-10-04,IP address used to download a payload in an attack sequence
@@ -768,4 +781,3 @@ domain,noah-ssh.com.cn,high,2026-09-14T06:55:22+00:00,2026-09-14T06:55:22+00:00,
 domain,org-bcut.com.cn,high,2026-09-14T06:55:22+00:00,2026-09-14T06:55:22+00:00,1,Bloglab.360:2026-09-14,"Domain used in a malicious campaign, likely attacker-controlled"
 domain,assetnote-callback.com,high,2026-09-13T18:03:09+00:00,2026-09-13T18:03:09+00:00,1,News.Ycombinator:2026-09-13,Domain used for callback attempts in scanning activity
 domain,canary.assetnotessrf.com,high,2026-09-13T18:03:09+00:00,2026-09-13T18:03:09+00:00,1,News.Ycombinator:2026-09-13,Domain used for SSRF detection in scanning activity
-ipv4,154.198.49.31,high,2026-09-13T05:02:04+00:00,2026-09-13T05:02:04+00:00,1,Redpacketsecurity:2026-09-13,IP address hosting a Mythic management portal
