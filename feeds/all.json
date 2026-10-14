@@ -1,7 +1,7 @@
 {
   "feed": "threatcluster-public-iocs",
   "version": 1,
-  "generated_at": "2026-10-13T14:08:43Z",
+  "generated_at": "2026-10-14T11:49:02Z",
   "filters": {
     "confidence": "high",
     "window_days": 30,
@@ -11,8 +11,302 @@
       "domain"
     ]
   },
-  "count": 782,
+  "count": 788,
   "iocs": [
+    {
+      "type": "domain",
+      "value": "cbc-comerica.com-e2.es",
+      "confidence": "high",
+      "reason": "Domain is part of a cluster used by Omegatech for phishing, indicating attacker control.",
+      "first_seen": "2026-10-14T07:43:37.912387+00:00",
+      "last_seen": "2026-10-14T07:43:37.912387+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.netcraft.com",
+          "url": "https://www.netcraft.com/blog/h1-phishing-landscape-report-financial-sector",
+          "pub_date": "2026-10-14T07:43:37.912387+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Golden Chollima"
+        },
+        {
+          "type": "apt_group",
+          "value": "Labyrinth Chollima"
+        },
+        {
+          "type": "apt_group",
+          "value": "Pressure Chollima"
+        },
+        {
+          "type": "campaign",
+          "value": "Darcula Campaign"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "c3lestial.fun",
+      "confidence": "high",
+      "reason": "Domain linked to malware branding and updates, likely attacker-controlled.",
+      "first_seen": "2026-10-14T05:46:19+00:00",
+      "last_seen": "2026-10-14T05:46:19+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Securityaffairs.Co",
+          "url": "https://securityaffairs.com/200910/malware/how-a-leaked-builder-of-xworm-turned-a-remote-access-trojan-into-a-surveillance-kit.html",
+          "pub_date": "2026-10-14T05:46:19+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "industry",
+          "value": "Financial Services"
+        },
+        {
+          "type": "malware",
+          "value": "XWorm"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "108.165.147.64",
+      "confidence": "high",
+      "reason": "Identified as a host used by the attacker for malicious operations",
+      "first_seen": "2026-10-13T17:33:11+00:00",
+      "last_seen": "2026-10-14T05:31:00.004463+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "www.volexity.com",
+          "url": "https://www.volexity.com/blog/2026/10/13/a-series-of-unauthenticated-events-chained-exploitation-of-ivanti-connect-secure-zero-days/",
+          "pub_date": "2026-10-14T05:31:00.004463+00:00"
+        },
+        {
+          "source": "Feeds.Feedburner",
+          "url": "https://thehackernews.com/2026/10/attacker-chains-three-ivanti-connect.html",
+          "pub_date": "2026-10-13T17:33:11+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2026-104935"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-106042"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-109412"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "myaccountoptions.com",
+      "confidence": "high",
+      "reason": "Used in phishing campaigns with target-specific subdomains",
+      "first_seen": "2026-10-13T21:33:44.216910+00:00",
+      "last_seen": "2026-10-13T21:33:44.216910+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "reliaquest.com",
+          "url": "https://reliaquest.com/blog/threat-spotlight-whats-trending-top-cyber-attacker-techniques-june-2026-august-2026",
+          "pub_date": "2026-10-13T21:33:44.21691+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Helix"
+        },
+        {
+          "type": "apt_group",
+          "value": "ShinyHunters"
+        },
+        {
+          "type": "campaign",
+          "value": "BlackFile"
+        },
+        {
+          "type": "campaign",
+          "value": "Redact"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "report.com",
+      "confidence": "high",
+      "reason": "Used in phishing campaigns with target-specific subdomains",
+      "first_seen": "2026-10-13T21:33:44.216910+00:00",
+      "last_seen": "2026-10-13T21:33:44.216910+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "reliaquest.com",
+          "url": "https://reliaquest.com/blog/threat-spotlight-whats-trending-top-cyber-attacker-techniques-june-2026-august-2026",
+          "pub_date": "2026-10-13T21:33:44.21691+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Helix"
+        },
+        {
+          "type": "apt_group",
+          "value": "ShinyHunters"
+        },
+        {
+          "type": "campaign",
+          "value": "BlackFile"
+        },
+        {
+          "type": "campaign",
+          "value": "Redact"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "firebox-ssl.com",
+      "confidence": "high",
+      "reason": "Domain hosting malicious credential-stealing application",
+      "first_seen": "2026-10-13T21:32:17.966241+00:00",
+      "last_seen": "2026-10-13T21:32:17.966241+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.watchguard.com",
+          "url": "https://www.watchguard.com/wgrd-security-hub/secplicity-blog/ongoing-widespread-credential-harvesting-campaign-targets-vpn",
+          "pub_date": "2026-10-13T21:32:17.966241+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "BumbleBee"
+        },
+        {
+          "type": "ransomware_group",
+          "value": "Akira"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "house-connection.pro",
+      "confidence": "high",
+      "reason": "Domain used in credential-harvesting campaign",
+      "first_seen": "2026-10-13T21:32:17.966241+00:00",
+      "last_seen": "2026-10-13T21:32:17.966241+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.watchguard.com",
+          "url": "https://www.watchguard.com/wgrd-security-hub/secplicity-blog/ongoing-widespread-credential-harvesting-campaign-targets-vpn",
+          "pub_date": "2026-10-13T21:32:17.966241+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "BumbleBee"
+        },
+        {
+          "type": "ransomware_group",
+          "value": "Akira"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "watchguard-vpn.com",
+      "confidence": "high",
+      "reason": "Domain hosting malicious WatchGuard applications",
+      "first_seen": "2026-10-13T21:00:10+00:00",
+      "last_seen": "2026-10-13T21:32:17.966241+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "www.watchguard.com",
+          "url": "https://www.watchguard.com/wgrd-security-hub/secplicity-blog/ongoing-widespread-credential-harvesting-campaign-targets-vpn",
+          "pub_date": "2026-10-13T21:32:17.966241+00:00"
+        },
+        {
+          "source": "Huntress",
+          "url": "https://www.huntress.com/blog/fake-watchguard-vpn-credential-phishing",
+          "pub_date": "2026-10-13T21:00:10+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Storm-2561"
+        },
+        {
+          "type": "malware",
+          "value": "BumbleBee"
+        },
+        {
+          "type": "ransomware_group",
+          "value": "Akira"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "watchguard-ssl.online",
+      "confidence": "high",
+      "reason": "Domain used as a credential collection endpoint",
+      "first_seen": "2026-10-13T21:00:10+00:00",
+      "last_seen": "2026-10-13T21:00:10+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Huntress",
+          "url": "https://www.huntress.com/blog/fake-watchguard-vpn-credential-phishing",
+          "pub_date": "2026-10-13T21:00:10+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Storm-2561"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "158.94.209.19",
+      "confidence": "high",
+      "reason": "IP address resolving to credential collection domain",
+      "first_seen": "2026-10-13T21:00:10+00:00",
+      "last_seen": "2026-10-13T21:00:10+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Huntress",
+          "url": "https://www.huntress.com/blog/fake-watchguard-vpn-credential-phishing",
+          "pub_date": "2026-10-13T21:00:10+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Storm-2561"
+        }
+      ]
+    },
     {
       "type": "domain",
       "value": "agent2.sh",
@@ -43,6 +337,23 @@
           "source": "www.microsoft.com",
           "url": "https://www.microsoft.com/en-us/security/blog/2026/09/30/unauthenticated-command-injection-on-internet-facing-mail-servers-tracking-cve-2026-73570/",
           "pub_date": "2026-10-13T14:02:49.63991+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "ipv4",
+      "value": "193.178.159.129",
+      "confidence": "high",
+      "reason": "Listed as a C2 server for second-stage bot communication",
+      "first_seen": "2026-10-13T11:53:10.900000+00:00",
+      "last_seen": "2026-10-13T11:53:10.900000+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Blog.Virustotal",
+          "url": "https://blog.virustotal.com/2026/10/introducing-macos-mirage.html.html",
+          "pub_date": "2026-10-13T11:53:10.9+00:00"
         }
       ],
       "tags": []
@@ -124,6 +435,40 @@
           "value": "DarkSword"
         }
       ]
+    },
+    {
+      "type": "domain",
+      "value": "agdx53.cc",
+      "confidence": "high",
+      "reason": "Reported as a command-and-control domain for DarkSword malware",
+      "first_seen": "2026-10-13T08:51:36+00:00",
+      "last_seen": "2026-10-13T08:51:36+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Esecurityplanet",
+          "url": "https://www.esecurityplanet.com/threats/news-darksword-iphone-keychain-wallet-theft/",
+          "pub_date": "2026-10-13T08:51:36+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "ecomtrack.io",
+      "confidence": "high",
+      "reason": "Re-registered by attackers to deliver DarkSword malware",
+      "first_seen": "2026-10-13T08:51:36+00:00",
+      "last_seen": "2026-10-13T08:51:36+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Esecurityplanet",
+          "url": "https://www.esecurityplanet.com/threats/news-darksword-iphone-keychain-wallet-theft/",
+          "pub_date": "2026-10-13T08:51:36+00:00"
+        }
+      ],
+      "tags": []
     },
     {
       "type": "domain",
@@ -9491,40 +9836,6 @@
         }
       ],
       "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "cbc-comerica.com-e2.es",
-      "confidence": "high",
-      "reason": "Domain is part of a cluster used by Omegatech for phishing, indicating attacker control.",
-      "first_seen": "2026-10-06T12:10:50.663938+00:00",
-      "last_seen": "2026-10-06T12:10:50.663938+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.netcraft.com",
-          "url": "https://www.netcraft.com/blog/h1-phishing-landscape-report-financial-sector",
-          "pub_date": "2026-10-06T12:10:50.663938+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Golden Chollima"
-        },
-        {
-          "type": "apt_group",
-          "value": "Labyrinth Chollima"
-        },
-        {
-          "type": "apt_group",
-          "value": "Pressure Chollima"
-        },
-        {
-          "type": "campaign",
-          "value": "Darcula Campaign"
-        }
-      ]
     },
     {
       "type": "domain",
@@ -19370,117 +19681,6 @@
           "value": "ZigClipper"
         }
       ]
-    },
-    {
-      "type": "domain",
-      "value": "trsb.top",
-      "confidence": "high",
-      "reason": "Referenced as part of the phishing kit's infrastructure",
-      "first_seen": "2026-09-14T09:04:16+00:00",
-      "last_seen": "2026-09-14T09:04:16+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Group-Ib",
-          "url": "https://www.group-ib.com/blog/smishing-triad-outsider-jwr/",
-          "pub_date": "2026-09-14T09:04:16+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Smishing Triad"
-        },
-        {
-          "type": "malware",
-          "value": "JWR"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "gg-steelseries.com.cn",
-      "confidence": "high",
-      "reason": "Domain used in a malicious campaign, likely attacker-controlled",
-      "first_seen": "2026-09-14T06:55:22+00:00",
-      "last_seen": "2026-09-14T06:55:22+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Bloglab.360",
-          "url": "https://blog.netlab.360.com/yin-hu-yun-duan-sheng-si-bo-cong-wu-tiao-jian-fan-hui-dao-hei-ming-dan-ji-zhi/",
-          "pub_date": "2026-09-14T06:55:22+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "noah-ssh.com.cn",
-      "confidence": "high",
-      "reason": "Domain used in a malicious campaign, likely attacker-controlled",
-      "first_seen": "2026-09-14T06:55:22+00:00",
-      "last_seen": "2026-09-14T06:55:22+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Bloglab.360",
-          "url": "https://blog.netlab.360.com/yin-hu-yun-duan-sheng-si-bo-cong-wu-tiao-jian-fan-hui-dao-hei-ming-dan-ji-zhi/",
-          "pub_date": "2026-09-14T06:55:22+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "org-bcut.com.cn",
-      "confidence": "high",
-      "reason": "Domain used in a malicious campaign, likely attacker-controlled",
-      "first_seen": "2026-09-14T06:55:22+00:00",
-      "last_seen": "2026-09-14T06:55:22+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Bloglab.360",
-          "url": "https://blog.netlab.360.com/yin-hu-yun-duan-sheng-si-bo-cong-wu-tiao-jian-fan-hui-dao-hei-ming-dan-ji-zhi/",
-          "pub_date": "2026-09-14T06:55:22+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "assetnote-callback.com",
-      "confidence": "high",
-      "reason": "Domain used for callback attempts in scanning activity",
-      "first_seen": "2026-09-13T18:03:09+00:00",
-      "last_seen": "2026-09-13T18:03:09+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "News.Ycombinator",
-          "url": "https://dreamstation.systems/personal/tesla.html",
-          "pub_date": "2026-09-13T18:03:09+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "canary.assetnotessrf.com",
-      "confidence": "high",
-      "reason": "Domain used for SSRF detection in scanning activity",
-      "first_seen": "2026-09-13T18:03:09+00:00",
-      "last_seen": "2026-09-13T18:03:09+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "News.Ycombinator",
-          "url": "https://dreamstation.systems/personal/tesla.html",
-          "pub_date": "2026-09-13T18:03:09+00:00"
-        }
-      ],
-      "tags": []
     }
   ],
   "license": "CC-BY 4.0 \u2014 attribute ThreatCluster (https://threatcluster.io)",

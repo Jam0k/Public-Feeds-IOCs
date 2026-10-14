@@ -1,9 +1,22 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason
+domain,cbc-comerica.com-e2.es,high,2026-10-14T07:43:37.912387+00:00,2026-10-14T07:43:37.912387+00:00,1,www.netcraft.com:2026-10-14,"Domain is part of a cluster used by Omegatech for phishing, indicating attacker control."
+domain,c3lestial.fun,high,2026-10-14T05:46:19+00:00,2026-10-14T05:46:19+00:00,1,Securityaffairs.Co:2026-10-14,"Domain linked to malware branding and updates, likely attacker-controlled."
+ipv4,108.165.147.64,high,2026-10-13T17:33:11+00:00,2026-10-14T05:31:00.004463+00:00,2,www.volexity.com:2026-10-14|Feeds.Feedburner:2026-10-13,Identified as a host used by the attacker for malicious operations
+domain,myaccountoptions.com,high,2026-10-13T21:33:44.216910+00:00,2026-10-13T21:33:44.216910+00:00,1,reliaquest.com:2026-10-13,Used in phishing campaigns with target-specific subdomains
+domain,report.com,high,2026-10-13T21:33:44.216910+00:00,2026-10-13T21:33:44.216910+00:00,1,reliaquest.com:2026-10-13,Used in phishing campaigns with target-specific subdomains
+domain,firebox-ssl.com,high,2026-10-13T21:32:17.966241+00:00,2026-10-13T21:32:17.966241+00:00,1,www.watchguard.com:2026-10-13,Domain hosting malicious credential-stealing application
+domain,house-connection.pro,high,2026-10-13T21:32:17.966241+00:00,2026-10-13T21:32:17.966241+00:00,1,www.watchguard.com:2026-10-13,Domain used in credential-harvesting campaign
+domain,watchguard-vpn.com,high,2026-10-13T21:00:10+00:00,2026-10-13T21:32:17.966241+00:00,2,www.watchguard.com:2026-10-13|Huntress:2026-10-13,Domain hosting malicious WatchGuard applications
+domain,watchguard-ssl.online,high,2026-10-13T21:00:10+00:00,2026-10-13T21:00:10+00:00,1,Huntress:2026-10-13,Domain used as a credential collection endpoint
+ipv4,158.94.209.19,high,2026-10-13T21:00:10+00:00,2026-10-13T21:00:10+00:00,1,Huntress:2026-10-13,IP address resolving to credential collection domain
 domain,agent2.sh,high,2026-10-13T14:02:49.639910+00:00,2026-10-13T14:02:49.639910+00:00,1,www.microsoft.com:2026-10-13,Described as part of a multi-stage payload chain used by attackers
 domain,bypass.eu.org,high,2026-10-13T14:02:49.639910+00:00,2026-10-13T14:02:49.639910+00:00,1,www.microsoft.com:2026-10-13,Described as campaign-associated infrastructure used by attackers
+ipv4,193.178.159.129,high,2026-10-13T11:53:10.900000+00:00,2026-10-13T11:53:10.900000+00:00,1,Blog.Virustotal:2026-10-13,Listed as a C2 server for second-stage bot communication
 domain,cdn.gotoiphone.com,high,2026-10-13T11:01:05.263596+00:00,2026-10-13T11:01:05.263596+00:00,1,www.iverify.com:2026-10-13,Used for C2 communication with the implant
 domain,js.gotoiphone.com,high,2026-10-13T11:01:05.263596+00:00,2026-10-13T11:01:05.263596+00:00,1,www.iverify.com:2026-10-13,Used for C2 communication with the implant
 domain,mzpo30.cam,high,2026-10-13T11:01:05.263596+00:00,2026-10-13T11:01:05.263596+00:00,1,www.iverify.com:2026-10-13,Used for C2 communication with the implant
+domain,agdx53.cc,high,2026-10-13T08:51:36+00:00,2026-10-13T08:51:36+00:00,1,Esecurityplanet:2026-10-13,Reported as a command-and-control domain for DarkSword malware
+domain,ecomtrack.io,high,2026-10-13T08:51:36+00:00,2026-10-13T08:51:36+00:00,1,Esecurityplanet:2026-10-13,Re-registered by attackers to deliver DarkSword malware
 domain,0aa0cf0637d66c0d.com,high,2026-10-13T07:01:51.448275+00:00,2026-10-13T07:01:51.448275+00:00,1,www.bitdefender.com:2026-10-13,Listed as a proxyware control host used by attackers
 domain,442fe7151fb1e9b5.com,high,2026-10-13T07:01:51.448275+00:00,2026-10-13T07:01:51.448275+00:00,1,www.bitdefender.com:2026-10-13,Listed as a proxyware control host used by attackers
 domain,5.ahd187.com,high,2026-10-13T07:01:51.448275+00:00,2026-10-13T07:01:51.448275+00:00,1,www.bitdefender.com:2026-10-13,Listed as part of shared infrastructure used by malware operators
@@ -334,7 +347,6 @@ ipv4,185.177.72.38,high,2026-10-06T23:29:39+00:00,2026-10-06T23:29:39+00:00,1,F5
 domain,mx.zxopfds.com,high,2026-10-06T18:38:42+00:00,2026-10-06T18:38:42+00:00,1,Thehackernews:2026-10-06,Domain used as a C2 server for AVERAT malware
 domain,museads.ai,high,2026-10-06T13:25:57+00:00,2026-10-06T13:25:57+00:00,1,Thehackernews:2026-10-06,Domain used for phishing attacks with browser-in-the-browser trick
 domain,cdnzona.discloud.app,high,2026-10-06T12:21:43.114381+00:00,2026-10-06T12:21:43.114381+00:00,1,checkmarx.com:2026-10-06,Used to host malicious payloads
-domain,cbc-comerica.com-e2.es,high,2026-10-06T12:10:50.663938+00:00,2026-10-06T12:10:50.663938+00:00,1,www.netcraft.com:2026-10-06,"Domain is part of a cluster used by Omegatech for phishing, indicating attacker control."
 domain,asdfafadafg.online,high,2026-10-06T10:05:56+00:00,2026-10-06T10:05:56+00:00,1,Unit42.Paloaltonetworks:2026-10-06,Domain used to test phishing infrastructure
 domain,portal.sharjahairport.cloud,high,2026-10-06T10:05:56+00:00,2026-10-06T10:05:56+00:00,1,Unit42.Paloaltonetworks:2026-10-06,Domain used in malicious infrastructure targeting UAE aviation sector
 ipv4,38.180.136.127,high,2026-10-06T10:05:56+00:00,2026-10-06T10:05:56+00:00,1,Unit42.Paloaltonetworks:2026-10-06,Used as a secondary IP for phishing infrastructure
@@ -775,9 +787,3 @@ domain,proof.gitprogram.com,high,2026-09-14T15:31:05+00:00,2026-09-14T15:31:05+0
 domain,xyz0102.gitprogram.com,high,2026-09-14T15:31:05+00:00,2026-09-14T15:31:05+00:00,1,Krypt3Ia.Wordpress:2026-09-14,Domain used to host malicious Chrome extension
 domain,trump2026.org,high,2026-09-14T15:07:10+00:00,2026-09-14T15:07:10+00:00,1,Ibtimes:2026-09-14,"Domain used in a cryptocurrency scam, likely attacker-controlled"
 ipv4,77.91.65.13,high,2026-09-14T14:37:33+00:00,2026-09-14T14:37:33+00:00,1,Infostealers:2026-09-14,Connected directly by malicious PE
-domain,trsb.top,high,2026-09-14T09:04:16+00:00,2026-09-14T09:04:16+00:00,1,Group-Ib:2026-09-14,Referenced as part of the phishing kit's infrastructure
-domain,gg-steelseries.com.cn,high,2026-09-14T06:55:22+00:00,2026-09-14T06:55:22+00:00,1,Bloglab.360:2026-09-14,"Domain used in a malicious campaign, likely attacker-controlled"
-domain,noah-ssh.com.cn,high,2026-09-14T06:55:22+00:00,2026-09-14T06:55:22+00:00,1,Bloglab.360:2026-09-14,"Domain used in a malicious campaign, likely attacker-controlled"
-domain,org-bcut.com.cn,high,2026-09-14T06:55:22+00:00,2026-09-14T06:55:22+00:00,1,Bloglab.360:2026-09-14,"Domain used in a malicious campaign, likely attacker-controlled"
-domain,assetnote-callback.com,high,2026-09-13T18:03:09+00:00,2026-09-13T18:03:09+00:00,1,News.Ycombinator:2026-09-13,Domain used for callback attempts in scanning activity
-domain,canary.assetnotessrf.com,high,2026-09-13T18:03:09+00:00,2026-09-13T18:03:09+00:00,1,News.Ycombinator:2026-09-13,Domain used for SSRF detection in scanning activity

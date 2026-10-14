@@ -1,7 +1,17 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason
+domain,myaccountoptions.com,high,2026-10-13T21:33:44.216910+00:00,2026-10-13T21:33:44.216910+00:00,1,,Used in phishing campaigns with target-specific subdomains
+domain,report.com,high,2026-10-13T21:33:44.216910+00:00,2026-10-13T21:33:44.216910+00:00,1,,Used in phishing campaigns with target-specific subdomains
+domain,firebox-ssl.com,high,2026-10-13T21:32:17.966241+00:00,2026-10-13T21:32:17.966241+00:00,1,,Domain hosting malicious credential-stealing application
+domain,house-connection.pro,high,2026-10-13T21:32:17.966241+00:00,2026-10-13T21:32:17.966241+00:00,1,,Domain used in credential-harvesting campaign
+domain,watchguard-vpn.com,high,2026-10-13T21:00:10+00:00,2026-10-13T21:32:17.966241+00:00,2,,Domain hosting malicious WatchGuard applications
+domain,watchguard-ssl.online,high,2026-10-13T21:00:10+00:00,2026-10-13T21:00:10+00:00,1,,Domain used as a credential collection endpoint
+domain,agent2.sh,high,2026-09-30T21:13:41.814200+00:00,2026-10-13T14:02:49.639910+00:00,1,,Described as part of a multi-stage payload chain used by attackers
+domain,bypass.eu.org,high,2026-09-30T21:13:41.814200+00:00,2026-10-13T14:02:49.639910+00:00,1,,Described as campaign-associated infrastructure used by attackers
 domain,cdn.gotoiphone.com,high,2026-10-09T00:04:17.966518+00:00,2026-10-13T11:01:05.263596+00:00,1,,Used for C2 communication with the implant
 domain,js.gotoiphone.com,high,2026-10-09T00:04:17.966518+00:00,2026-10-13T11:01:05.263596+00:00,1,,Used for C2 communication with the implant
 domain,mzpo30.cam,high,2026-10-09T00:04:17.966518+00:00,2026-10-13T11:01:05.263596+00:00,1,,Used for C2 communication with the implant
+domain,agdx53.cc,high,2026-10-13T08:51:36+00:00,2026-10-13T08:51:36+00:00,1,,Reported as a command-and-control domain for DarkSword malware
+domain,ecomtrack.io,high,2026-10-13T08:51:36+00:00,2026-10-13T08:51:36+00:00,1,,Re-registered by attackers to deliver DarkSword malware
 domain,0aa0cf0637d66c0d.com,high,2026-10-08T17:13:23.883934+00:00,2026-10-13T07:01:51.448275+00:00,1,,Listed as a proxyware control host used by attackers
 domain,442fe7151fb1e9b5.com,high,2026-10-08T17:13:23.883934+00:00,2026-10-13T07:01:51.448275+00:00,1,,Listed as a proxyware control host used by attackers
 domain,5.ahd187.com,high,2026-10-08T17:13:23.883934+00:00,2026-10-13T07:01:51.448275+00:00,1,,Listed as part of shared infrastructure used by malware operators
@@ -278,8 +288,6 @@ domain,prime-amazonfr.com,high,2026-10-05T13:59:12+00:00,2026-10-05T13:59:12+00:
 domain,finger.linkeders.net,high,2026-10-05T13:48:11+00:00,2026-10-05T13:48:11+00:00,1,,Used in an obfuscated command for malicious activity
 domain,linkeders.net,high,2026-10-05T13:48:11+00:00,2026-10-05T13:48:11+00:00,1,,Used in an obfuscated command for malicious activity
 domain,uyagsdusa4.wpg7mmci3k.lol,high,2026-10-05T11:42:24.149541+00:00,2026-10-05T11:42:24.149541+00:00,1,,Listed as a dubious URL used by scammers to trick victims into providing sensitive information
-domain,agent2.sh,high,2026-09-30T21:13:41.814200+00:00,2026-10-05T10:30:37.105742+00:00,1,,Described as part of a multi-stage payload chain used by attackers
-domain,bypass.eu.org,high,2026-09-30T21:13:41.814200+00:00,2026-10-05T10:30:37.105742+00:00,1,,Described as campaign-associated infrastructure used by attackers
 domain,account.drive-google-com.tk,high,2026-10-01T17:40:37.656673+00:00,2026-10-02T16:30:51.440394+00:00,1,,Listed as previously reported UNK_SweetSpecter domain used for C2 communications
 domain,account.gommask.online,high,2026-10-01T17:40:37.656673+00:00,2026-10-02T16:30:51.440394+00:00,1,,Identified as a new C2 domain for UNK_SweetSpecter
 domain,lowtpills.com,high,2026-10-02T16:27:54+00:00,2026-10-02T16:27:54+00:00,1,,Used in a vulnerability exploitation scenario
