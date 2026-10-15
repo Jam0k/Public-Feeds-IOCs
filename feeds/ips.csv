@@ -1,6 +1,9 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason
-ipv4,108.165.147.64,high,2026-10-13T17:33:11+00:00,2026-10-14T05:31:00.004463+00:00,2,www.volexity.com:2026-10-14|Feeds.Feedburner:2026-10-13,Identified as a host used by the attacker for malicious operations
-ipv4,158.94.209.19,high,2026-10-13T21:00:10+00:00,2026-10-13T21:00:10+00:00,1,Huntress:2026-10-13,IP address resolving to credential collection domain
+ipv4,108.165.147.64,high,2026-10-13T17:33:11+00:00,2026-10-14T23:00:56.125414+00:00,4,www.volexity.com:2026-10-14|Ccb.Belgium.Be:2026-10-14|Rescana:2026-10-14|Feeds.Feedburner:2026-10-13,Identified as a host used by the attacker for operations
+ipv4,23.240.77.233,high,2026-10-14T22:42:29+00:00,2026-10-14T22:42:29+00:00,1,Unit42.Paloaltonetworks:2026-10-14,Used as external staging infrastructure by attackers for unauthorized access.
+ipv4,47.18.167.159,high,2026-10-14T22:42:29+00:00,2026-10-14T22:42:29+00:00,1,Unit42.Paloaltonetworks:2026-10-14,Used as external staging infrastructure by attackers for unauthorized access.
+ipv4,139.28.18.122,high,2026-10-14T20:05:01.148615+00:00,2026-10-14T20:05:01.148615+00:00,1,github.com:2026-10-14,IP address used in successful hacks on Nextcloud servers
+ipv4,158.94.209.19,high,2026-10-13T21:00:10+00:00,2026-10-13T21:00:10+00:00,1,Huntress:2026-10-13,IP address resolving to a credential collection endpoint.
 ipv4,193.178.159.129,high,2026-10-13T11:53:10.900000+00:00,2026-10-13T11:53:10.900000+00:00,1,Blog.Virustotal:2026-10-13,Listed as a C2 server for second-stage bot communication
 ipv4,61.18.208.27,high,2026-10-08T06:42:10+00:00,2026-10-12T14:53:04+00:00,2,The420.In:2026-10-12|Morphisec:2026-10-08,Communicates with VulcanRAT207.A as a C2 server
 ipv4,103.249.201.108,high,2026-10-12T13:01:33.020113+00:00,2026-10-12T13:01:33.020113+00:00,1,www.lumen.com:2026-10-12,Listed as a C2 IP address associated with the campaign
@@ -175,14 +178,3 @@ ipv4,89.208.97.165,high,2026-09-16T07:00:42.026578+00:00,2026-09-16T07:00:42.026
 ipv4,23.148.228.253,high,2026-09-16T05:02:01+00:00,2026-09-16T05:02:01+00:00,1,Redpacketsecurity:2026-09-16,Exposed Mythic C2 management interface
 ipv4,150.251.113.223,high,2026-09-15T14:55:03+00:00,2026-09-15T14:55:03+00:00,1,Socprime:2026-09-15,Identified as a C2 IP used by the attacker
 ipv4,206.166.251.164,high,2026-09-15T12:32:07.447809+00:00,2026-09-15T12:32:07.447809+00:00,1,www.volexity.com:2026-09-15,Hosts cloud.shinewrist.net serving PowerShell staging payloads
-ipv4,62.60.135.34,high,2026-09-14T20:32:11.162627+00:00,2026-09-14T20:32:11.162627+00:00,1,www.labs.greynoise.io:2026-09-14,Listed as a staging IP address for malicious activity.
-ipv4,74.93.203.1,high,2026-09-14T20:32:11.162627+00:00,2026-09-14T20:32:11.162627+00:00,1,www.labs.greynoise.io:2026-09-14,Listed as an IP address involved in malicious activity.
-ipv4,114.10.43.203,high,2026-09-14T18:49:14+00:00,2026-09-14T18:49:14+00:00,1,Wordfence:2026-09-14,Listed as an IP address actively engaged in attacks.
-ipv4,187.75.114.36,high,2026-09-14T18:49:14+00:00,2026-09-14T18:49:14+00:00,1,Wordfence:2026-09-14,Listed as an IP address actively engaged in attacks.
-ipv4,23.137.105.214,high,2026-09-14T18:49:14+00:00,2026-09-14T18:49:14+00:00,1,Wordfence:2026-09-14,Listed as an IP address actively engaged in attacks.
-ipv4,23.180.120.140,high,2026-09-14T18:49:14+00:00,2026-09-14T18:49:14+00:00,1,Wordfence:2026-09-14,Listed as an IP address actively engaged in attacks.
-ipv4,31.59.129.150,high,2026-09-14T18:49:14+00:00,2026-09-14T18:49:14+00:00,1,Wordfence:2026-09-14,Listed as an IP address actively engaged in attacks.
-ipv4,37.114.144.209,high,2026-09-14T18:49:14+00:00,2026-09-14T18:49:14+00:00,1,Wordfence:2026-09-14,Listed as an IP address actively engaged in attacks.
-ipv4,92.241.13.140,high,2026-09-14T18:49:14+00:00,2026-09-14T18:49:14+00:00,1,Wordfence:2026-09-14,Listed as an IP address actively engaged in attacks.
-ipv4,92.241.13.213,high,2026-09-14T18:49:14+00:00,2026-09-14T18:49:14+00:00,1,Wordfence:2026-09-14,Listed as an IP address actively engaged in attacks.
-ipv4,77.91.65.13,high,2026-09-14T14:37:33+00:00,2026-09-14T14:37:33+00:00,1,Infostealers:2026-09-14,Connected directly by malicious PE

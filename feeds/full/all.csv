@@ -1,5 +1,178 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason
-ipv4,108.165.147.64,high,2026-10-13T17:33:11+00:00,2026-10-14T05:31:00.004463+00:00,2,,Identified as a host used by the attacker for malicious operations
+domain,jewishchoice.org,high,2026-10-15T04:00:26.803340+00:00,2026-10-15T04:00:26.803340+00:00,1,,Described as a fraudulent domain created by attackers.
+domain,mailchimp-sso.com,high,2026-10-15T03:03:57.529353+00:00,2026-10-15T03:03:57.529353+00:00,1,,Used in a phishing attack to capture credentials
+domain,ossapi.haoeryu.top,high,2026-10-14T16:09:56.765992+00:00,2026-10-15T00:00:50.122327+00:00,1,,Domain used as object-storage endpoint for phishing kit
+ipv4,108.165.147.64,high,2026-10-13T17:33:11+00:00,2026-10-14T23:00:56.125414+00:00,4,,Identified as a host used by the attacker for operations
+ipv4,23.240.77.233,high,2026-10-14T22:42:29+00:00,2026-10-14T22:42:29+00:00,1,,Used as external staging infrastructure by attackers for unauthorized access.
+ipv4,47.18.167.159,high,2026-10-14T22:42:29+00:00,2026-10-14T22:42:29+00:00,1,,Used as external staging infrastructure by attackers for unauthorized access.
+domain,olvx.cc,high,2026-10-14T22:00:40.216805+00:00,2026-10-14T22:00:40.216805+00:00,1,,"Domain associated with an underground marketplace selling tools for online fraud, indicating attacker control."
+ipv4,139.28.18.122,high,2026-10-14T20:05:01.148615+00:00,2026-10-14T20:05:01.148615+00:00,1,,IP address used in successful hacks on Nextcloud servers
+sha256,4b9fbd0663fbfd6028fc216ed18e0d6ef3ae498a7fdc97083e4b0ce3cec40562,high,2026-10-14T18:23:55+00:00,2026-10-14T20:05:01.148615+00:00,2,,SHA-256 hash of a malicious shell script used in attacks
+domain,backend-production-6d75.up.railway.app,high,2026-10-06T20:41:31.677664+00:00,2026-10-14T19:10:35.230490+00:00,1,,Used in phishing infrastructure
+domain,1dwsd1dedf.kumamoto-city.jp,high,2026-10-14T18:10:32.644329+00:00,2026-10-14T18:10:32.644329+00:00,1,,Domain used in phishing campaigns as part of CoFish_ws kit
+domain,9aiolnhtdi.kumamoto-city.jp,high,2026-10-14T18:10:32.644329+00:00,2026-10-14T18:10:32.644329+00:00,1,,Domain used in phishing campaigns as part of CoGUI kit
+domain,bcuxktpfkz.kumamoto-city.jp,high,2026-10-14T18:10:32.644329+00:00,2026-10-14T18:10:32.644329+00:00,1,,Domain used in phishing campaigns as part of CoAceV kit
+domain,kenandy.shop,high,2026-10-14T18:10:32.644329+00:00,2026-10-14T18:10:32.644329+00:00,1,,Domain used in CoGUI phishing campaigns
+domain,lygyaou.com,high,2026-10-14T18:10:32.644329+00:00,2026-10-14T18:10:32.644329+00:00,1,,Domain used in CoGUI phishing campaigns
+domain,new-app-haixing.com,high,2026-10-14T18:10:32.644329+00:00,2026-10-14T18:10:32.644329+00:00,1,,Domain used in CoFish_ws phishing campaigns
+domain,paidy.farradae.com,high,2026-10-14T18:10:32.644329+00:00,2026-10-14T18:10:32.644329+00:00,1,,Domain used in CoAceV phishing campaigns
+domain,ylhgkj.com,high,2026-10-14T18:10:32.644329+00:00,2026-10-14T18:10:32.644329+00:00,1,,Domain used in CoAceV phishing campaigns
+domain,apcoatfine.cfd,high,2026-10-14T16:09:56.281706+00:00,2026-10-14T16:09:56.281706+00:00,1,,Domain part of the APCOA parking-fine phishing cluster
+domain,ekosova.gov-eg.my.id,high,2026-10-14T16:09:56.281706+00:00,2026-10-14T16:09:56.281706+00:00,1,,Fake 'Digital Egypt' traffic-fine page
+domain,malowzx.sbs,high,2026-10-14T16:09:56.281706+00:00,2026-10-14T16:09:56.281706+00:00,1,,Domain identified in newly-registered-domain feeds for phishing
+domain,my.id,high,2026-10-14T16:09:56.281706+00:00,2026-10-14T16:09:56.281706+00:00,1,,Used in a phishing campaign as a fake government portal.
+domain,q-parkfine.cfd,high,2026-10-14T16:09:56.281706+00:00,2026-10-14T16:09:56.281706+00:00,1,,Domain part of the Q-Park parking-fine phishing cluster
+domain,evrryday.com,high,2026-10-14T16:09:54.980926+00:00,2026-10-14T16:09:54.980926+00:00,1,,Domain used for CoGUI phishing landing page
+domain,ezdrivema.com-kpy.win,high,2026-10-14T16:09:54.980926+00:00,2026-10-14T16:09:54.980926+00:00,1,,Domain used for Darcula phishing landing page
+domain,kzongfd.bo5wfb0f9.top,high,2026-10-14T16:09:54.980926+00:00,2026-10-14T16:09:54.980926+00:00,1,,Domain used for CoGUI phishing landing page
+domain,sunpass.com-tyjr.cc,high,2026-10-14T16:09:54.980926+00:00,2026-10-14T16:09:54.980926+00:00,1,,Domain used for Darcula phishing landing page
+domain,uhlkg.cn,high,2026-10-14T16:09:54.980926+00:00,2026-10-14T16:09:54.980926+00:00,1,,Domain used for CoGUI phishing landing page
+domain,zjkso.cn,high,2026-10-14T16:09:54.980926+00:00,2026-10-14T16:09:54.980926+00:00,1,,Domain used for CoGUI phishing landing page
+domain,examp1e.com,high,2026-10-14T15:15:45+00:00,2026-10-14T15:15:45+00:00,1,,Described as a phishing domain used to capture credentials.
+sha1,00bf14e8153778835f95b9255ae1658e37819f8d,high,2026-10-14T15:02:37.397197+00:00,2026-10-14T15:02:37.397197+00:00,1,,Listed as a malware sample in a threat report
+sha1,0135f8420c61babee43625dbba2a23ef9a12477d,high,2026-10-14T15:02:37.397197+00:00,2026-10-14T15:02:37.397197+00:00,1,,Listed as a malware sample in a threat report
+sha1,0279a25ee68fc23e91a353fbcd28f71c21e691fc,high,2026-10-14T15:02:37.397197+00:00,2026-10-14T15:02:37.397197+00:00,1,,Listed as a malware sample in a threat report
+sha1,04f2504f7f00f65e001709650affb90a86404e74,high,2026-10-14T15:02:37.397197+00:00,2026-10-14T15:02:37.397197+00:00,1,,Listed as a malware sample in a threat report
+sha1,11b0b620d0f0c4269a191d4ad9fd2042fb5e9d6c,high,2026-10-14T15:02:37.397197+00:00,2026-10-14T15:02:37.397197+00:00,1,,Listed as a malware sample in a threat report
+sha1,16bd4dc2befb4f64aaecf74818a347cd1a02c30d,high,2026-10-14T15:02:37.397197+00:00,2026-10-14T15:02:37.397197+00:00,1,,Listed as a malware sample in a threat report
+sha1,2cf77e48cf5699aac449c91552804e17edb04a71,high,2026-10-14T15:02:37.397197+00:00,2026-10-14T15:02:37.397197+00:00,1,,Listed as a malware sample in a threat report
+sha1,46bcac8ced15bf5bc1f2d9e463508273da6fa8e8,high,2026-10-14T15:02:37.397197+00:00,2026-10-14T15:02:37.397197+00:00,1,,Listed as a malware sample in a threat report
+sha1,471e1de3e1a7b0506f6492371a687cde4e278ed8,high,2026-10-14T15:02:37.397197+00:00,2026-10-14T15:02:37.397197+00:00,1,,Listed as a malware sample in a threat report
+sha1,488066ea37be17a8103d414c2593c7abb108ae95,high,2026-10-14T15:02:37.397197+00:00,2026-10-14T15:02:37.397197+00:00,1,,Listed as a malware sample in a threat report
+sha1,4d1426c0e04056396f8526a42afbb42f869db85b,high,2026-10-14T15:02:37.397197+00:00,2026-10-14T15:02:37.397197+00:00,1,,Listed as a malware sample in a threat report
+sha1,4e98b193d5539bf1ded86a6ddea696288f0a1a3e,high,2026-10-14T15:02:37.397197+00:00,2026-10-14T15:02:37.397197+00:00,1,,Listed as a malware sample in a threat report
+sha1,55d214fa9aa4d17cdd222f7deb4c5ec7e71ed4be,high,2026-10-14T15:02:37.397197+00:00,2026-10-14T15:02:37.397197+00:00,1,,Listed as a malware sample in a threat report
+sha1,5731274d1e7f0131e055ec34530f05ee603ef03b,high,2026-10-14T15:02:37.397197+00:00,2026-10-14T15:02:37.397197+00:00,1,,Listed as a malware sample in a threat report
+sha1,5e6254ebcf8ea518716c6090658b89960f425ab3,high,2026-10-14T15:02:37.397197+00:00,2026-10-14T15:02:37.397197+00:00,1,,Listed as a malware sample in a threat report
+sha1,7006ff7361522f36a25fabd9b91cf755c42c8cd7,high,2026-10-14T15:02:37.397197+00:00,2026-10-14T15:02:37.397197+00:00,1,,Listed as a malware sample in a threat report
+sha1,84fcc10fef6409c9f50d56bf4f17070b51149841,high,2026-10-14T15:02:37.397197+00:00,2026-10-14T15:02:37.397197+00:00,1,,Listed as a malware sample in a threat report
+sha1,85bb5a95db5b088b3e2f2c9f308b91d21d81e04d,high,2026-10-14T15:02:37.397197+00:00,2026-10-14T15:02:37.397197+00:00,1,,Listed as a malware sample in a threat report
+sha1,97bab01611d34ae97c368bd2c852f155b7286134,high,2026-10-14T15:02:37.397197+00:00,2026-10-14T15:02:37.397197+00:00,1,,Listed as a malware sample in a threat report
+sha1,9f4826cff6196b4a84fd9243fd6e6879c220b274,high,2026-10-14T15:02:37.397197+00:00,2026-10-14T15:02:37.397197+00:00,1,,Listed as a malware sample in a threat report
+sha1,b8ddc728483f1fe251d6ab64b401f297d993be39,high,2026-10-14T15:02:37.397197+00:00,2026-10-14T15:02:37.397197+00:00,1,,Listed as a SHA-1 hash of a malware sample in a threat report
+sha1,bcb1fd11b6b2f5046d4e5e8f714a8968d8a5d91d,high,2026-10-14T15:02:37.397197+00:00,2026-10-14T15:02:37.397197+00:00,1,,Listed as a SHA-1 hash of a malware sample in a threat report
+sha1,c02dd4d05a75e038c633d7d62669f2e1484f4b76,high,2026-10-14T15:02:37.397197+00:00,2026-10-14T15:02:37.397197+00:00,1,,Listed as a SHA-1 hash of a malware sample in a threat report
+sha1,c805c64a9e22f7ae3dea79f9215c60cdf32d87b8,high,2026-10-14T15:02:37.397197+00:00,2026-10-14T15:02:37.397197+00:00,1,,Listed as a SHA-1 hash of a malware sample in a threat report
+sha1,ca12e8975097d1591cda08d095d4af09b05da83f,high,2026-10-14T15:02:37.397197+00:00,2026-10-14T15:02:37.397197+00:00,1,,Listed as a SHA-1 hash of a malware sample in a threat report
+sha1,d840b0b3039be6cce673e6e07da5bd5e76628434,high,2026-10-14T15:02:37.397197+00:00,2026-10-14T15:02:37.397197+00:00,1,,Listed as a SHA-1 hash of a malware sample in a threat report
+sha1,dcb2d87b51de33f6d5fe53f777ad678c0af88a68,high,2026-10-14T15:02:37.397197+00:00,2026-10-14T15:02:37.397197+00:00,1,,Listed as a SHA-1 hash of a malware sample in a threat report
+sha1,ded2a5d2a7ebf3af1dc392c1af1e4b31fdc7cabc,high,2026-10-14T15:02:37.397197+00:00,2026-10-14T15:02:37.397197+00:00,1,,Listed as a SHA-1 hash of a malware sample in a threat report
+sha1,f385da641f2e506766a42dde81bb0fab13f845ee,high,2026-10-14T15:02:37.397197+00:00,2026-10-14T15:02:37.397197+00:00,1,,Listed as a SHA-1 hash of a malware sample in a threat report
+sha1,fb3db25d5dfe21e3c457756b8bd865c560323527,high,2026-10-14T15:02:37.397197+00:00,2026-10-14T15:02:37.397197+00:00,1,,Listed as a SHA-1 hash of a malware sample in a threat report
+sha1,fbbf624503001a981095356d1bd26bbf206a0df2,high,2026-10-14T15:02:37.397197+00:00,2026-10-14T15:02:37.397197+00:00,1,,Listed as a SHA-1 hash of a malware sample in a threat report
+md5,0f092bfc9f9adaf93750df4ae3cdc0f7,high,2026-10-14T15:02:35.565163+00:00,2026-10-14T15:02:35.565163+00:00,1,,Listed as an MD5 hash of a malware sample in a threat report
+md5,10b315fb7d8ba8d69337f04ed3891e75,high,2026-10-14T15:02:35.565163+00:00,2026-10-14T15:02:35.565163+00:00,1,,Listed as an MD5 hash of a malware sample in a threat report
+md5,11ed3f8c1a8fce3794b650bbdf09c265,high,2026-10-14T15:02:35.565163+00:00,2026-10-14T15:02:35.565163+00:00,1,,Listed as an MD5 hash of a malware sample in a threat report
+md5,20c9ca66d2844edb94a623e77accaa5f,high,2026-10-14T15:02:35.565163+00:00,2026-10-14T15:02:35.565163+00:00,1,,Listed as an MD5 hash of a malware sample in a threat report
+md5,322837acdcedc952587e7be9886ddffd,high,2026-10-14T15:02:35.565163+00:00,2026-10-14T15:02:35.565163+00:00,1,,Listed as an MD5 hash of a malware sample in a threat report
+md5,403876977dfb4ab2e2c15ad4b29423ff,high,2026-10-14T15:02:35.565163+00:00,2026-10-14T15:02:35.565163+00:00,1,,Listed as an MD5 hash of a malware sample in a threat report
+md5,4452290e674ab521fa0941d45cc6b22f,high,2026-10-14T15:02:35.565163+00:00,2026-10-14T15:02:35.565163+00:00,1,,Listed as an MD5 hash of a malware sample in a threat report
+md5,447cf4a077f17096ca16a29333b7a046,high,2026-10-14T15:02:35.565163+00:00,2026-10-14T15:02:35.565163+00:00,1,,Listed as an MD5 hash of a malware sample in a threat report
+md5,45a857603e0e72174452fd073ad373de,high,2026-10-14T15:02:35.565163+00:00,2026-10-14T15:02:35.565163+00:00,1,,Listed as an MD5 hash of a malware sample in a threat report
+md5,47870ff98164155f088062c95c448783,high,2026-10-14T15:02:35.565163+00:00,2026-10-14T15:02:35.565163+00:00,1,,Listed as an MD5 hash of a malware sample in a threat report
+md5,485a08c6ff6a8b05fab42facc0225035,high,2026-10-14T15:02:35.565163+00:00,2026-10-14T15:02:35.565163+00:00,1,,Listed as an MD5 hash of a malware sample in a threat report
+md5,51aa89452a9e57f646ab64be6217788e,high,2026-10-14T15:02:35.565163+00:00,2026-10-14T15:02:35.565163+00:00,1,,Listed as an MD5 hash of a malware sample in a threat report
+md5,5d6b920fd8f3b5a3a8c9dead25e3a255,high,2026-10-14T15:02:35.565163+00:00,2026-10-14T15:02:35.565163+00:00,1,,Listed as an MD5 hash of a malware sample in a threat report
+md5,66357e47bbc2ec5694e2c5de9cc3b9c6,high,2026-10-14T15:02:35.565163+00:00,2026-10-14T15:02:35.565163+00:00,1,,Listed as an MD5 hash of a malware sample in a threat report
+md5,67340dba1c379a84df88e639608de310,high,2026-10-14T15:02:35.565163+00:00,2026-10-14T15:02:35.565163+00:00,1,,Listed as an MD5 hash of a malware sample in a threat report
+md5,6b567779bbc95b9e151c6a6132606dfe,high,2026-10-14T15:02:35.565163+00:00,2026-10-14T15:02:35.565163+00:00,1,,Listed as an MD5 hash of a malware sample in a threat report
+md5,778d491e9742199b558e84a27c559612,high,2026-10-14T15:02:35.565163+00:00,2026-10-14T15:02:35.565163+00:00,1,,Listed as an MD5 hash of a malware sample in a threat report
+md5,796c232286743b95fed38d9d5c74f879,high,2026-10-14T15:02:35.565163+00:00,2026-10-14T15:02:35.565163+00:00,1,,Listed as an MD5 hash of a malware sample in a threat report
+md5,8674100d43231294b6562717a9ab3a07,high,2026-10-14T15:02:35.565163+00:00,2026-10-14T15:02:35.565163+00:00,1,,Listed as an MD5 hash of a malware sample in a threat report
+md5,92c6d7fb1118d2e276dd4ad878db37f6,high,2026-10-14T15:02:35.565163+00:00,2026-10-14T15:02:35.565163+00:00,1,,Listed as an MD5 hash of a malware sample in a threat report
+md5,956cefc9a1759078ccf75b192db10ced,high,2026-10-14T15:02:35.565163+00:00,2026-10-14T15:02:35.565163+00:00,1,,Listed as an MD5 hash of a malware sample in a threat report
+md5,9be1cccd8e6ff0bd2ad7868a7c1308c0,high,2026-10-14T15:02:35.565163+00:00,2026-10-14T15:02:35.565163+00:00,1,,Listed as an MD5 hash of a malware sample in a threat report
+md5,a80bbd753c07512b31ab04bd5e3324c2,high,2026-10-14T15:02:35.565163+00:00,2026-10-14T15:02:35.565163+00:00,1,,Listed as an MD5 hash of a malware sample in a threat report
+md5,b38160fc836ad42f1753a0873c844925,high,2026-10-14T15:02:35.565163+00:00,2026-10-14T15:02:35.565163+00:00,1,,Listed as an MD5 hash of a malware sample in a threat report
+md5,bcd52718195416b47c3538a89b62c305,high,2026-10-14T15:02:35.565163+00:00,2026-10-14T15:02:35.565163+00:00,1,,Listed as an MD5 hash of a malware sample in a threat report
+md5,c49dbf390e876e926a338ea07ac5d4a7,high,2026-10-14T15:02:35.565163+00:00,2026-10-14T15:02:35.565163+00:00,1,,Listed as an MD5 hash of a malware sample in a threat report
+md5,d09f792e5ea9f1239f3454fd1ce7893c,high,2026-10-14T15:02:35.565163+00:00,2026-10-14T15:02:35.565163+00:00,1,,Listed as an MD5 hash of a malware sample in a threat report
+md5,d1986646b9be824414845f8e98c7961b,high,2026-10-14T15:02:35.565163+00:00,2026-10-14T15:02:35.565163+00:00,1,,Listed as an MD5 hash of a malware sample in a threat report
+md5,d3e1043cf5382e97685340760c9d3d61,high,2026-10-14T15:02:35.565163+00:00,2026-10-14T15:02:35.565163+00:00,1,,Listed as an MD5 hash of a malware sample in a threat report
+md5,d83b31fe5f0144468aad4619c2418ac8,high,2026-10-14T15:02:35.565163+00:00,2026-10-14T15:02:35.565163+00:00,1,,Listed as an MD5 hash of a malware sample in a threat report
+md5,daf4f59224cc7c5e94c924f43a76f300,high,2026-10-14T15:02:35.565163+00:00,2026-10-14T15:02:35.565163+00:00,1,,Listed as an MD5 hash of a malware sample in a threat report
+md5,e59752ffc116388dd863fc2e30e4aaea,high,2026-10-14T15:02:35.565163+00:00,2026-10-14T15:02:35.565163+00:00,1,,Listed as an MD5 hash of a malware sample in a threat report
+md5,edb0c08f8b6bb179b4395d8a95619d07,high,2026-10-14T15:02:35.565163+00:00,2026-10-14T15:02:35.565163+00:00,1,,Listed as an MD5 hash of a malware sample in a threat report
+md5,fd59dd7bb54210a99c1ed677bbfc03a8,high,2026-10-14T15:02:35.565163+00:00,2026-10-14T15:02:35.565163+00:00,1,,Listed as an MD5 hash of a malware sample in a threat report
+sha1,0b6e1df37ba89d3d35b4b18afc0ffeb46644ff76,high,2026-10-14T15:02:35.565163+00:00,2026-10-14T15:02:35.565163+00:00,1,,Listed as a malware sample in a threat report
+sha1,0be035e2d7180a908566a6bdaa907ed74b08b790,high,2026-10-14T15:02:35.565163+00:00,2026-10-14T15:02:35.565163+00:00,1,,Listed as a malware sample in a threat report
+sha1,15e710a107830b193124a6d2bbc785b9383262a9,high,2026-10-14T15:02:35.565163+00:00,2026-10-14T15:02:35.565163+00:00,1,,Listed as a malware sample in a threat report
+sha1,19357154ff3e43c968fd09f61db1e6e8084384fa,high,2026-10-14T15:02:35.565163+00:00,2026-10-14T15:02:35.565163+00:00,1,,Listed as a malware sample in a threat report
+sha1,23f388aced4b1732744cbd5fca1a24b8a82c01a9,high,2026-10-14T15:02:35.565163+00:00,2026-10-14T15:02:35.565163+00:00,1,,Listed as a malware sample in a threat report
+sha1,245b78c615c57abaf46235f184a727587c882b69,high,2026-10-14T15:02:35.565163+00:00,2026-10-14T15:02:35.565163+00:00,1,,Listed as a malware sample in a threat report
+sha1,292c3602eb0213c9a0123fdaae522830de3fad95,high,2026-10-14T15:02:35.565163+00:00,2026-10-14T15:02:35.565163+00:00,1,,Listed as a malware sample in a threat report
+sha1,4040bb7e4ebc98c22bda98680b207ec89767b759,high,2026-10-14T15:02:35.565163+00:00,2026-10-14T15:02:35.565163+00:00,1,,Listed as a malware sample in a threat report
+sha1,459b17c42017cfdfc7eb804b5c0ee52aa6035d78,high,2026-10-14T15:02:35.565163+00:00,2026-10-14T15:02:35.565163+00:00,1,,Listed as a malware sample in a threat report
+sha1,4a572e67a799ebbb2b9d7260aedb780e3005be51,high,2026-10-14T15:02:35.565163+00:00,2026-10-14T15:02:35.565163+00:00,1,,Listed as a malware sample in a threat report
+sha1,53baccf15963dc85447cc822ec95ef8ed0326ac6,high,2026-10-14T15:02:35.565163+00:00,2026-10-14T15:02:35.565163+00:00,1,,Listed as a malware sample in a threat report
+sha1,5a368354696d06319a050071f48bc6767d92b49a,high,2026-10-14T15:02:35.565163+00:00,2026-10-14T15:02:35.565163+00:00,1,,Listed as a malware sample in a threat report
+sha1,6161aa9d9888472647a9792eead944bfc678c920,high,2026-10-14T15:02:35.565163+00:00,2026-10-14T15:02:35.565163+00:00,1,,Listed as a malware sample in a threat report
+sha1,66271b2536481a6b2a3ae21412ce5ef50a692cfa,high,2026-10-14T15:02:35.565163+00:00,2026-10-14T15:02:35.565163+00:00,1,,Listed as a malware sample in a threat report
+sha1,752678274224bf9fef83843e44820f6bcd738758,high,2026-10-14T15:02:35.565163+00:00,2026-10-14T15:02:35.565163+00:00,1,,Listed as a malware sample in a threat report
+sha1,7bb6e4a1ede35867ce5c57b5668f6aacae025b81,high,2026-10-14T15:02:35.565163+00:00,2026-10-14T15:02:35.565163+00:00,1,,Listed as a malware sample in a threat report
+sha1,902b27a5fd2e5f17e5340e350afa037549ce9faa,high,2026-10-14T15:02:35.565163+00:00,2026-10-14T15:02:35.565163+00:00,1,,Listed as a malware sample in a threat report
+sha1,90f1e9fb5845f985cd0995c75e0746a8e47cf8e9,high,2026-10-14T15:02:35.565163+00:00,2026-10-14T15:02:35.565163+00:00,1,,Listed as a malware sample in a threat report
+sha1,98059a86b681b0b8a09a95def3ef874c531b1d66,high,2026-10-14T15:02:35.565163+00:00,2026-10-14T15:02:35.565163+00:00,1,,Listed as a malware sample in a threat report
+sha1,98f1a215cd87e08d33f0d2ba13020661e629c6b8,high,2026-10-14T15:02:35.565163+00:00,2026-10-14T15:02:35.565163+00:00,1,,Listed as a malware sample in a threat report
+sha1,9902917a3af585e695141caf347a2f19a065a7df,high,2026-10-14T15:02:35.565163+00:00,2026-10-14T15:02:35.565163+00:00,1,,Listed as a malware sample in a threat report
+sha1,a0de69ab52dc997ff19a18b7a6827e2beeac63bc,high,2026-10-14T15:02:35.565163+00:00,2026-10-14T15:02:35.565163+00:00,1,,Listed as a malware sample in a threat report
+sha1,aa494696a413b652e667cbbb7ccee35a68b45c87,high,2026-10-14T15:02:35.565163+00:00,2026-10-14T15:02:35.565163+00:00,1,,Listed as a SHA-1 hash of a malware sample in a threat report
+sha1,bc9314760071a4aef12e503104478059808e7047,high,2026-10-14T15:02:35.565163+00:00,2026-10-14T15:02:35.565163+00:00,1,,Listed as a SHA-1 hash of a malware sample in a threat report
+sha1,c1b7547da13b7c78cd6c5c354af945b2eff767c9,high,2026-10-14T15:02:35.565163+00:00,2026-10-14T15:02:35.565163+00:00,1,,Listed as a SHA-1 hash of a malware sample in a threat report
+sha1,c56991857a9c09e25f3dd56066b4a322cc5c03d9,high,2026-10-14T15:02:35.565163+00:00,2026-10-14T15:02:35.565163+00:00,1,,Listed as a SHA-1 hash of a malware sample in a threat report
+sha1,cac58134db8bb3c6b0d8f21957cadb9110fa3727,high,2026-10-14T15:02:35.565163+00:00,2026-10-14T15:02:35.565163+00:00,1,,Listed as a SHA-1 hash of a malware sample in a threat report
+sha1,ce9db7dbf3368757c232aa960bbfa7b83278618d,high,2026-10-14T15:02:35.565163+00:00,2026-10-14T15:02:35.565163+00:00,1,,Listed as a SHA-1 hash of a malware sample in a threat report
+sha1,da6635def86b50a5de25f148426f68d3d8ab450a,high,2026-10-14T15:02:35.565163+00:00,2026-10-14T15:02:35.565163+00:00,1,,Listed as a SHA-1 hash of a malware sample in a threat report
+sha1,e2f191b251ba5c57cdbb5a6d3bfab57957900fcf,high,2026-10-14T15:02:35.565163+00:00,2026-10-14T15:02:35.565163+00:00,1,,Listed as a SHA-1 hash of a malware sample in a threat report
+sha1,f8d87d5b251671af624c3eaf7ac5cc42a0acadd0,high,2026-10-14T15:02:35.565163+00:00,2026-10-14T15:02:35.565163+00:00,1,,Listed as a SHA-1 hash of a malware sample in a threat report
+sha1,f918e5f50bb3b73a732bc9cb3595bff2ea7b761f,high,2026-10-14T15:02:35.565163+00:00,2026-10-14T15:02:35.565163+00:00,1,,Listed as a SHA-1 hash of a malware sample in a threat report
+sha256,00466d76832193b3f8be186d00e48005b460d6895798a67bc1c21e4655cb2e62,high,2026-10-14T15:02:35.565163+00:00,2026-10-14T15:02:35.565163+00:00,1,,Listed as a malware sample in a threat report
+sha256,009406c1c7c0b289a25d44dfaa8364633d9b71df5f3c7a65deec1ef00a8c2ebb,high,2026-10-14T15:02:35.565163+00:00,2026-10-14T15:02:35.565163+00:00,1,,Listed as a malware sample in a threat report
+sha256,046f11a6c561e46e6bf199ab7f50e74a4d2aaead68cdbd6ce44b37b5b4964758,high,2026-10-14T15:02:35.565163+00:00,2026-10-14T15:02:35.565163+00:00,1,,Listed as a malware sample in a threat report
+sha256,0767806f5734dca1553cae6a835c24a6d92abd678928b64f70dbd8811ed44aca,high,2026-10-14T15:02:35.565163+00:00,2026-10-14T15:02:35.565163+00:00,1,,Listed as a malware sample in a threat report
+sha256,0dfbc54a5a88f27e52807873c20872bc6bf92b822de90545492081c4e4f96778,high,2026-10-14T15:02:35.565163+00:00,2026-10-14T15:02:35.565163+00:00,1,,Listed as a malware sample in a threat report
+sha256,0fc624aa9656a8bc21731bfc47fd7780da38a7e8ad7baf1529ccd70a5bb07852,high,2026-10-14T15:02:35.565163+00:00,2026-10-14T15:02:35.565163+00:00,1,,Listed as a malware sample in a threat report
+sha256,29314f3cd73b81eda7bd90c66f659235e6bb900e499c9cc7057d10a9083a0b94,high,2026-10-14T15:02:35.565163+00:00,2026-10-14T15:02:35.565163+00:00,1,,Listed as a malware sample in a threat report
+sha256,296599df29f4ffa9bf753ff9440032d912969d0bab6e3208ab88b350f9a83605,high,2026-10-14T15:02:35.565163+00:00,2026-10-14T15:02:35.565163+00:00,1,,Listed as a malware sample in a threat report
+sha256,352f9cd4c14c1002d6c8d902cbca4e96d03a8bb243b33dd192a2260fe66091a1,high,2026-10-14T15:02:35.565163+00:00,2026-10-14T15:02:35.565163+00:00,1,,Listed as a malware sample in a threat report
+sha256,358411a3b4a327805d629612b1b64357efe5389e56ddae9128ababbc8a2357a1,high,2026-10-14T15:02:35.565163+00:00,2026-10-14T15:02:35.565163+00:00,1,,Listed as a malware sample in a threat report
+sha256,3f94b20cb7f4ff55207660649ebbb02679c991fe03efbcb0bd3840fc7f0bd527,high,2026-10-14T15:02:35.565163+00:00,2026-10-14T15:02:35.565163+00:00,1,,Listed as a malware sample in a threat report
+sha256,4c8eddeab2d40178712685d09da5187b996389fba62c7f9b9635b07060b1e013,high,2026-10-14T15:02:35.565163+00:00,2026-10-14T15:02:35.565163+00:00,1,,Listed as a malware sample in a threat report
+sha256,4f237b5aa3ff4fc4e3014f693c27a1cba94fc24f3a6054c28d090592343c06a2,high,2026-10-14T15:02:35.565163+00:00,2026-10-14T15:02:35.565163+00:00,1,,Listed as a malware sample in a threat report
+sha256,5e66256adbf973f6ab2252c14d6f0d8da2d326f52f6433bcf3a7cd7c60ae8f01,high,2026-10-14T15:02:35.565163+00:00,2026-10-14T15:02:35.565163+00:00,1,,Listed as a malware sample in a threat report
+sha256,65da1696d36da254779a028b881a1890b0b037e7eee8ea0a9446c8bb0729c1cf,high,2026-10-14T15:02:35.565163+00:00,2026-10-14T15:02:35.565163+00:00,1,,Listed as a malware sample in a threat report
+sha256,69bb729ff354cd9651f99a05f74f3ea20d483dc8e6e5838e4dd48858fd500d29,high,2026-10-14T15:02:35.565163+00:00,2026-10-14T15:02:35.565163+00:00,1,,Listed as a malware sample in a threat report
+sha256,80721e6b2d6168cf17b41d2f1ab0f1e6e3bf4db585754109f3b7ff9931ae9e5b,high,2026-10-14T15:02:35.565163+00:00,2026-10-14T15:02:35.565163+00:00,1,,Listed as a malware sample in a threat report
+sha256,8391c182588b79697337e401a6424c12b3d707c00c15a17ec59059deedb0e2c4,high,2026-10-14T15:02:35.565163+00:00,2026-10-14T15:02:35.565163+00:00,1,,Listed as a malware sample in a threat report
+sha256,85295ab44d0903a2cf4cbdcae55129a40cf5f7fb7210a304fa91a86929fd2cd9,high,2026-10-14T15:02:35.565163+00:00,2026-10-14T15:02:35.565163+00:00,1,,Listed as a malware sample in a threat report
+sha256,8ec159179d49b44849febe7ed522c8fb836d5658ef868db41d2181fb4b1cbd3f,high,2026-10-14T15:02:35.565163+00:00,2026-10-14T15:02:35.565163+00:00,1,,Listed as a malware sample in a threat report
+sha256,98275bfe968d5998230bdf18de1be795b5ad42bd82b5ecb1405b00afba6f533d,high,2026-10-14T15:02:35.565163+00:00,2026-10-14T15:02:35.565163+00:00,1,,Listed as a malware sample in a threat report
+sha256,9c086f242120be7a9e57e06b75d8ef6f051a77c6339deaeb574e80ee69590111,high,2026-10-14T15:02:35.565163+00:00,2026-10-14T15:02:35.565163+00:00,1,,Listed as a malware sample in a threat report
+sha256,9cd10a2d9db9cf1c5b3454c323fd148f5a322b4100f35e0a73ed4632038631cc,high,2026-10-14T15:02:35.565163+00:00,2026-10-14T15:02:35.565163+00:00,1,,Listed as a malware sample in a threat report
+sha256,a4ea3462bd5aedccc783d18d24589018c257b2a6e092164c01de067a8e3cd649,high,2026-10-14T15:02:35.565163+00:00,2026-10-14T15:02:35.565163+00:00,1,,Listed as a malware sample in a threat report
+sha256,b144229fb62799aa23537eaf0ce267b1445a182c28f4679e8f8234eeb5e603f3,high,2026-10-14T15:02:35.565163+00:00,2026-10-14T15:02:35.565163+00:00,1,,Listed as a malware sample in a threat report
+sha256,c5a9be4055e5f00bf3f2e6c57ba1b796157a74406657fd554d69491868cd5925,high,2026-10-14T15:02:35.565163+00:00,2026-10-14T15:02:35.565163+00:00,1,,Listed as a malware sample in a threat report
+sha256,c9db4f661a86286ad47ad92dfb544b702dca8ffe1641e276b42bec4cde7ba9b4,high,2026-10-14T15:02:35.565163+00:00,2026-10-14T15:02:35.565163+00:00,1,,Listed as a malware sample in a threat report
+sha256,cb78495bee37e768ef4566aa1c2cfb5478bae779127430f90c3da75e407350b8,high,2026-10-14T15:02:35.565163+00:00,2026-10-14T15:02:35.565163+00:00,1,,Listed as a malware sample in a threat report
+sha256,df75defc7bde078faefcb2c1c32f16c141337a1583bd0bc14f6d93c135d34289,high,2026-10-14T15:02:35.565163+00:00,2026-10-14T15:02:35.565163+00:00,1,,Listed as a malware sample in a threat report
+sha256,e152322530819d196fb411a0cb12cf4bcc94975b400a17b95f0fc2e28f6493e5,high,2026-10-14T15:02:35.565163+00:00,2026-10-14T15:02:35.565163+00:00,1,,Listed as a malware sample in a threat report
+sha256,e2d4d030542a44a8d4cc8b97da7b26487570dda432a736766dd2ab6d57a3b787,high,2026-10-14T15:02:35.565163+00:00,2026-10-14T15:02:35.565163+00:00,1,,Listed as a malware sample in a threat report
+sha256,fd7fe71185a70f281545a815fce9837453450bb29031954dd2301fe4da99250d,high,2026-10-14T15:02:35.565163+00:00,2026-10-14T15:02:35.565163+00:00,1,,Listed as a malware sample in a threat report
+domain,amlbot-clear.com,high,2026-10-14T14:07:13.436321+00:00,2026-10-14T14:07:13.436321+00:00,1,,Listed as an IOC in the context of phishing and scam websites.
+domain,audittrust.shop,high,2026-10-14T14:07:13.436321+00:00,2026-10-14T14:07:13.436321+00:00,1,,Listed as an IOC in the context of phishing and scam websites.
+domain,bitget-aml.com,high,2026-10-14T14:07:13.436321+00:00,2026-10-14T14:07:13.436321+00:00,1,,Listed as an IOC in the context of phishing and scam websites.
+domain,swapstoken.app,high,2026-10-14T14:07:13.436321+00:00,2026-10-14T14:07:13.436321+00:00,1,,Listed as an IOC in the context of phishing and scam websites.
+md5,6401646e701f5f47518ecef48a308a36,high,2026-10-14T14:02:31.736623+00:00,2026-10-14T14:02:31.736623+00:00,1,,Listed in a table of IOCs related to threat actor exploitation
+md5,2deb724a709b0b892248405323350e9b,high,2026-10-14T13:59:36+00:00,2026-10-14T13:59:36+00:00,1,,Listed as an MD5 hash of a malware sample in a threat report
+md5,62e3e85eca78a0cd7e6669e9f33d936d,high,2026-10-14T13:59:36+00:00,2026-10-14T13:59:36+00:00,1,,Listed as an MD5 hash of a malware sample in a threat report
+md5,c66858718d883bcfb9ce2c19b59f96c9,high,2026-10-14T13:59:36+00:00,2026-10-14T13:59:36+00:00,1,,Listed as an MD5 hash of a malware sample in a threat report
+md5,eeb52cb95113a131c2c7713c17872da6,high,2026-10-14T13:59:36+00:00,2026-10-14T13:59:36+00:00,1,,Listed as an MD5 hash of a malware sample in a threat report
+sha1,e10361a11f8a7f232ac3cb2125c1875a0a69a3e4,high,2026-10-14T13:09:21+00:00,2026-10-14T13:09:21+00:00,1,,Listed as a SHA-1 hash of a malware sample in a threat report
+domain,com.koishort.app,high,2026-10-14T11:09:28+00:00,2026-10-14T11:09:28+00:00,1,,Listed as a dropper app delivering the Hirudo malware
+domain,com.zoyatv.app,high,2026-10-14T11:09:28+00:00,2026-10-14T11:09:28+00:00,1,,Listed as a dropper app delivering the Hirudo malware
+domain,watchguard-ssl.online,high,2026-10-13T21:00:10+00:00,2026-10-14T10:56:00+00:00,2,,Domain used as a credential collection endpoint.
+domain,cbc-comerica.com-e2.es,high,2026-10-06T12:10:50.663938+00:00,2026-10-14T07:43:37.912387+00:00,1,,"Domain is part of a cluster used by Omegatech for phishing, indicating attacker control."
+domain,c3lestial.fun,high,2026-10-14T05:46:19+00:00,2026-10-14T05:46:19+00:00,1,,"Domain linked to malware branding and updates, likely attacker-controlled."
 sha256,0b3c31c851f3c1c0fa38f3719de5e600d89a817a3186cbc09d7d5315e1cbf561,high,2026-10-13T22:32:06.290843+00:00,2026-10-13T22:32:06.290843+00:00,1,,Listed in a malware analysis as a payload hash
 sha256,142bf55220fc1bf0f612ba03986768b663d819b14f49af004329342bd64f319f,high,2026-10-13T22:32:06.290843+00:00,2026-10-13T22:32:06.290843+00:00,1,,Listed in a malware analysis as a payload hash
 sha256,1b9f686134f23408d04759fac16730e325ad934d66ace57a71e845a839b4382d,high,2026-10-13T22:32:06.290843+00:00,2026-10-13T22:32:06.290843+00:00,1,,Listed in a malware analysis as a payload hash
@@ -107,15 +280,14 @@ md5,f85016e8cc6b509a9fba1ccd1dc88da1,high,2026-10-13T22:32:04.345781+00:00,2026-
 md5,fa87911771a52e3c1ffb1c39da59540c,high,2026-10-13T22:32:04.345781+00:00,2026-10-13T22:32:04.345781+00:00,1,,"Listed in a table of IoCs, indicating it is a malware file hash"
 domain,myaccountoptions.com,high,2026-10-13T21:33:44.216910+00:00,2026-10-13T21:33:44.216910+00:00,1,,Used in phishing campaigns with target-specific subdomains
 domain,report.com,high,2026-10-13T21:33:44.216910+00:00,2026-10-13T21:33:44.216910+00:00,1,,Used in phishing campaigns with target-specific subdomains
-domain,firebox-ssl.com,high,2026-10-13T21:32:17.966241+00:00,2026-10-13T21:32:17.966241+00:00,1,,Domain hosting malicious credential-stealing application
-domain,house-connection.pro,high,2026-10-13T21:32:17.966241+00:00,2026-10-13T21:32:17.966241+00:00,1,,Domain used in credential-harvesting campaign
-domain,watchguard-vpn.com,high,2026-10-13T21:00:10+00:00,2026-10-13T21:32:17.966241+00:00,2,,Domain hosting malicious WatchGuard applications
-md5,53b461a0eb4a18d76ad7e687a71d3334,high,2026-10-13T21:32:17.966241+00:00,2026-10-13T21:32:17.966241+00:00,1,,MD5 hash of a malicious ZIP file
-md5,85b0472aa928d61fc338b99832bd1fbd,high,2026-10-13T21:32:17.966241+00:00,2026-10-13T21:32:17.966241+00:00,1,,MD5 hash of a malicious ZIP file
-md5,9f0126592145772a25c5b5c00469414d,high,2026-10-13T21:32:17.966241+00:00,2026-10-13T21:32:17.966241+00:00,1,,MD5 hash of a malicious .NET executable
-md5,ec6212c853cbbdc02b5158b4fb3548fb,high,2026-10-13T21:32:17.966241+00:00,2026-10-13T21:32:17.966241+00:00,1,,MD5 hash of a malicious executable
-domain,watchguard-ssl.online,high,2026-10-13T21:00:10+00:00,2026-10-13T21:00:10+00:00,1,,Domain used as a credential collection endpoint
-ipv4,158.94.209.19,high,2026-10-13T21:00:10+00:00,2026-10-13T21:00:10+00:00,1,,IP address resolving to credential collection domain
+domain,firebox-ssl.com,high,2026-10-13T21:32:17.966241+00:00,2026-10-13T21:32:17.966241+00:00,1,,Domain hosting malicious credential-stealing application.
+domain,house-connection.pro,high,2026-10-13T21:32:17.966241+00:00,2026-10-13T21:32:17.966241+00:00,1,,Domain involved in credential-harvesting campaign.
+domain,watchguard-vpn.com,high,2026-10-13T21:00:10+00:00,2026-10-13T21:32:17.966241+00:00,2,,Domain hosting malicious WatchGuard applications.
+md5,53b461a0eb4a18d76ad7e687a71d3334,high,2026-10-13T21:32:17.966241+00:00,2026-10-13T21:32:17.966241+00:00,1,,MD5 hash of a malicious ZIP file hosted on GitHub.
+md5,85b0472aa928d61fc338b99832bd1fbd,high,2026-10-13T21:32:17.966241+00:00,2026-10-13T21:32:17.966241+00:00,1,,MD5 hash of a malicious ZIP file.
+md5,9f0126592145772a25c5b5c00469414d,high,2026-10-13T21:32:17.966241+00:00,2026-10-13T21:32:17.966241+00:00,1,,MD5 hash of a malicious .NET executable.
+md5,ec6212c853cbbdc02b5158b4fb3548fb,high,2026-10-13T21:32:17.966241+00:00,2026-10-13T21:32:17.966241+00:00,1,,MD5 hash of a malicious executable spoofing a VPN client.
+ipv4,158.94.209.19,high,2026-10-13T21:00:10+00:00,2026-10-13T21:00:10+00:00,1,,IP address resolving to a credential collection endpoint.
 sha256,7131e9cb1bdeb272ae7e26f2877087fd5da8716ef7c08e0fc0bf1359e278df8e,high,2026-10-13T19:00:36.156454+00:00,2026-10-13T19:00:36.156454+00:00,1,,Listed as a malware sample hash in a threat report.
 sha256,7676788d88c2194b8d5c048decfbe06550798ce342af54f8975bc26422d10c53,high,2026-10-13T19:00:36.156454+00:00,2026-10-13T19:00:36.156454+00:00,1,,Listed as a malware sample hash in a threat report.
 sha256,6175161f6fa075711e55b1f0db7d346357ce5593b1e3b48fc30cd85aaad81576,high,2026-10-13T19:00:30.693806+00:00,2026-10-13T19:00:30.693806+00:00,1,,Listed as a malware sample hash in a threat report.
@@ -621,7 +793,6 @@ domain,dnshook.site,high,2026-10-08T15:14:15.038119+00:00,2026-10-08T15:14:15.03
 domain,my-secret.dnshook.site,high,2026-10-08T15:14:15.038119+00:00,2026-10-08T15:14:15.038119+00:00,1,,Subdomain used for data exfiltration via DNS tunneling
 sha256,974b69782fdf5d67b97cfd508465939e44ee10798dbcc1e82b92d78776bad938,high,2026-10-01T06:30:21.250034+00:00,2026-10-08T15:01:01.070092+00:00,1,,Listed as a payload-hosting infrastructure file hash
 sha256,e9fe43968c6c0955300e3bc4d7fb0b05a18570b4733aaf4f5c6f7f09be5a242c,high,2026-10-01T06:30:21.250034+00:00,2026-10-08T15:01:01.070092+00:00,1,,Listed as a payload-hosting infrastructure file hash
-domain,backend-production-6d75.up.railway.app,high,2026-10-06T20:41:31.677664+00:00,2026-10-08T14:01:39.081761+00:00,1,,Used in phishing infrastructure
 domain,joinmatchy.com,high,2026-10-08T12:46:27+00:00,2026-10-08T14:01:31.398120+00:00,2,,Domain used to host a fake collaboration platform as part of a phishing scheme
 domain,iseekaigogo.com,high,2026-10-08T00:00:00+00:00,2026-10-08T13:30:27+00:00,6,,Listed as a hardcoded command-and-control domain used by the malware
 sha256,25a0735d0db7dc40e5d45ce42d9c106067e6a66e184d967cfecfab17c3bcb5ef,high,2026-10-08T02:54:50.050000+00:00,2026-10-08T13:30:27+00:00,4,,SHA-256 hash of a malicious file used in the attack
@@ -828,7 +999,6 @@ sha256,ffd9f58e5fe8502249c67cad0123ceeeaa6e9f69b4ec9f9e21511809849eb8fc,high,202
 domain,museads.ai,high,2026-10-06T13:25:57+00:00,2026-10-06T13:25:57+00:00,1,,Domain used for phishing attacks with browser-in-the-browser trick
 sha256,d00833318a04caa019c6f95dcb3598ad947d405010bfb2f3cbd04530a00bc3a4,high,2026-10-06T13:00:00+00:00,2026-10-06T13:00:00+00:00,1,,"Listed as a hash of svchost.exe, a malicious executable"
 domain,cdnzona.discloud.app,high,2026-10-06T12:21:43.114381+00:00,2026-10-06T12:21:43.114381+00:00,1,,Used to host malicious payloads
-domain,cbc-comerica.com-e2.es,high,2026-10-06T12:10:50.663938+00:00,2026-10-06T12:10:50.663938+00:00,1,,"Domain is part of a cluster used by Omegatech for phishing, indicating attacker control."
 domain,asdfafadafg.online,high,2026-10-06T10:05:56+00:00,2026-10-06T10:05:56+00:00,1,,Domain used to test phishing infrastructure
 domain,portal.sharjahairport.cloud,high,2026-10-06T10:05:56+00:00,2026-10-06T10:05:56+00:00,1,,Domain used in malicious infrastructure targeting UAE aviation sector
 ipv4,38.180.136.127,high,2026-10-06T10:05:56+00:00,2026-10-06T10:05:56+00:00,1,,Used as a secondary IP for phishing infrastructure
