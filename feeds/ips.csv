@@ -1,8 +1,16 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason
-ipv4,108.165.147.64,high,2026-10-13T17:33:11+00:00,2026-10-14T23:00:56.125414+00:00,4,www.volexity.com:2026-10-14|Ccb.Belgium.Be:2026-10-14|Rescana:2026-10-14|Feeds.Feedburner:2026-10-13,Identified as a host used by the attacker for operations
-ipv4,23.240.77.233,high,2026-10-14T22:42:29+00:00,2026-10-14T22:42:29+00:00,1,Unit42.Paloaltonetworks:2026-10-14,Used as external staging infrastructure by attackers for unauthorized access.
-ipv4,47.18.167.159,high,2026-10-14T22:42:29+00:00,2026-10-14T22:42:29+00:00,1,Unit42.Paloaltonetworks:2026-10-14,Used as external staging infrastructure by attackers for unauthorized access.
+ipv4,108.165.147.64,high,2026-10-13T17:33:11+00:00,2026-10-16T10:01:47.585800+00:00,4,www.volexity.com:2026-10-16|Ccb.Belgium.Be:2026-10-14|Rescana:2026-10-14|Feeds.Feedburner:2026-10-13,Identified as a host used by the attacker for operations
+ipv4,2.59.134.215,high,2026-10-16T08:01:09.321258+00:00,2026-10-16T08:01:09.321258+00:00,1,www.group-ib.com:2026-10-16,Listed as a secondary C2 server in the IOC section
+ipv4,23.240.77.233,high,2026-10-14T22:42:29+00:00,2026-10-16T05:04:36+00:00,2,Thehackernews:2026-10-16|Unit42.Paloaltonetworks:2026-10-14,Identified as known external staging infrastructure used by attackers
+ipv4,176.123.26.67,high,2026-10-15T17:03:24.342786+00:00,2026-10-15T17:03:24.342786+00:00,1,citizenlab.ca:2026-10-15,Listed as an IP address associated with Candiru's infrastructure
+ipv4,185.25.50.194,high,2026-10-15T17:03:24.342786+00:00,2026-10-15T17:03:24.342786+00:00,1,citizenlab.ca:2026-10-15,Associated with CHAINSHOT exploit kit linked to Candiru
+ipv4,69.28.67.162,high,2026-10-15T17:03:24.342786+00:00,2026-10-15T17:03:24.342786+00:00,1,citizenlab.ca:2026-10-15,Listed as an IP address associated with Candiru's infrastructure
+ipv4,78.128.113.14,high,2026-10-15T15:12:24.931033+00:00,2026-10-15T15:12:24.931033+00:00,1,www.godaddy.com:2026-10-15,Used for plugin installations in malicious campaigns
+ipv4,91.196.33.144,high,2026-10-15T15:12:22.476814+00:00,2026-10-15T15:12:22.476814+00:00,1,www.infoblox.com:2026-10-15,Resolved from hotcname.help used in tech support scams
+ipv4,47.18.167.159,high,2026-10-14T22:42:29+00:00,2026-10-14T22:42:29+00:00,1,Unit42.Paloaltonetworks:2026-10-14,Identified as known external staging infrastructure used by attackers
 ipv4,139.28.18.122,high,2026-10-14T20:05:01.148615+00:00,2026-10-14T20:05:01.148615+00:00,1,github.com:2026-10-14,IP address used in successful hacks on Nextcloud servers
+ipv4,138.124.123.87,high,2026-09-30T12:35:09+00:00,2026-10-14T13:59:36+00:00,1,Darktrace:2026-10-14,Listed as part of a malware delivery operation
+ipv4,77.110.127.205,high,2026-10-14T13:59:36+00:00,2026-10-14T13:59:36+00:00,1,Darktrace:2026-10-14,Involved in unusual C2 communication
 ipv4,158.94.209.19,high,2026-10-13T21:00:10+00:00,2026-10-13T21:00:10+00:00,1,Huntress:2026-10-13,IP address resolving to a credential collection endpoint.
 ipv4,193.178.159.129,high,2026-10-13T11:53:10.900000+00:00,2026-10-13T11:53:10.900000+00:00,1,Blog.Virustotal:2026-10-13,Listed as a C2 server for second-stage bot communication
 ipv4,61.18.208.27,high,2026-10-08T06:42:10+00:00,2026-10-12T14:53:04+00:00,2,The420.In:2026-10-12|Morphisec:2026-10-08,Communicates with VulcanRAT207.A as a C2 server
@@ -122,7 +130,6 @@ ipv4,45.141.21.130,high,2026-10-01T04:35:34+00:00,2026-10-01T04:35:34+00:00,1,Th
 ipv4,64.94.85.67,high,2026-10-01T04:35:34+00:00,2026-10-01T04:35:34+00:00,1,Thehackernews:2026-10-01,Listed as a source of payload retrieval in a threat report
 ipv4,96.62.224.81,high,2026-09-30T14:31:15+00:00,2026-09-30T14:31:15+00:00,1,Techtimes:2026-09-30,Listed as a server IP in a ClickFix attack
 ipv4,103.27.110.220,high,2026-09-30T14:13:51+00:00,2026-09-30T14:13:51+00:00,1,Blog.Talosintelligence:2026-09-30,Historical IP serving Antino payloads
-ipv4,138.124.123.87,high,2026-09-30T12:35:09+00:00,2026-09-30T12:35:09+00:00,1,Darktrace:2026-09-30,Listed as part of a malware delivery operation
 ipv4,185.177.239.241,high,2026-09-30T10:41:36+00:00,2026-09-30T10:41:36+00:00,1,Bloglab.360:2026-09-30,Listed as an IP used in attacks
 ipv4,104.234.65.75,high,2026-09-30T00:00:00+00:00,2026-09-30T00:00:00+00:00,1,Cloudsek:2026-09-30,Listed as a payload host in a threat report
 ipv4,45.137.198.133,high,2026-09-30T00:00:00+00:00,2026-09-30T00:00:00+00:00,1,Safedep:2026-09-30,Listed as part of a C2 infrastructure in a threat report
@@ -173,8 +180,3 @@ ipv4,139.28.85.223,high,2026-09-17T10:14:31+00:00,2026-09-17T10:14:31+00:00,1,It
 ipv4,210.1.231.13,high,2026-09-16T21:33:59.611872+00:00,2026-09-16T21:33:59.611872+00:00,1,www.lumen.com:2026-09-16,Associated with attacker-controlled domain turbo.c2iznja.com
 ipv4,94.102.49.125,high,2026-09-16T18:44:04+00:00,2026-09-16T18:44:04+00:00,1,Isc.Sans.Edu:2026-09-16,Identified as a source IP for malicious scans
 ipv4,5.252.177.210,high,2026-09-16T14:15:51+00:00,2026-09-16T14:15:51+00:00,1,Socprime:2026-09-16,Identified as a C2 server for RUSTGate malware
-ipv4,213.165.63.49,high,2026-09-16T07:00:42.026578+00:00,2026-09-16T07:00:42.026578+00:00,1,hunt.io:2026-09-16,Used for scanning and exploitation against routers and cameras
-ipv4,89.208.97.165,high,2026-09-16T07:00:42.026578+00:00,2026-09-16T07:00:42.026578+00:00,1,hunt.io:2026-09-16,Open directory containing files for compromising Ukrainian sites
-ipv4,23.148.228.253,high,2026-09-16T05:02:01+00:00,2026-09-16T05:02:01+00:00,1,Redpacketsecurity:2026-09-16,Exposed Mythic C2 management interface
-ipv4,150.251.113.223,high,2026-09-15T14:55:03+00:00,2026-09-15T14:55:03+00:00,1,Socprime:2026-09-15,Identified as a C2 IP used by the attacker
-ipv4,206.166.251.164,high,2026-09-15T12:32:07.447809+00:00,2026-09-15T12:32:07.447809+00:00,1,www.volexity.com:2026-09-15,Hosts cloud.shinewrist.net serving PowerShell staging payloads

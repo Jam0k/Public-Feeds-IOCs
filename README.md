@@ -237,17 +237,17 @@ the indicator and we'll review and remove it.
 ## Current feed
 
 <!--STATS-->
-_Last updated: 2026-10-15 11:25 UTC_
+_Last updated: 2026-10-16 11:20 UTC_
 
-**801 network indicators** · **1056 hashes** · **68 wallets** · 30-day window
+**827 network indicators** · **1098 hashes** · **68 wallets** · 30-day window
 
 | Type | Last 30 days | All time |
 |---|---|---|
-| sha256 | 538 | 1794 |
-| domain | 622 | 1454 |
-| md5 | 403 | 1393 |
-| ipv4 | 179 | 466 |
-| sha1 | 115 | 325 |
+| sha256 | 576 | 1848 |
+| domain | 646 | 1503 |
+| md5 | 406 | 1401 |
+| ipv4 | 181 | 472 |
+| sha1 | 116 | 326 |
 | eth | 49 | 147 |
 | btc | 19 | 22 |
 | xmr | 0 | 3 |
