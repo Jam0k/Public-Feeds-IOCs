@@ -1,14 +1,18 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason
-ipv4,108.165.147.64,high,2026-10-13T17:33:11+00:00,2026-10-15T22:01:57.017551+00:00,4,,Identified as a host used by the attacker for operations
-ipv4,2.59.134.215,high,2026-10-15T14:11:34.584315+00:00,2026-10-15T19:11:46.826647+00:00,1,,Listed as a secondary C2 server in the IOC section
-ipv4,176.123.26.67,high,2026-10-15T17:03:24.342786+00:00,2026-10-15T17:03:24.342786+00:00,1,,IP address associated with Candiru infrastructure
-ipv4,185.25.50.194,high,2026-10-15T17:03:24.342786+00:00,2026-10-15T17:03:24.342786+00:00,1,,IP address associated with Candiru infrastructure
-ipv4,69.28.67.162,high,2026-10-15T17:03:24.342786+00:00,2026-10-15T17:03:24.342786+00:00,1,,IP address associated with Candiru infrastructure
+ipv4,176.123.26.67,high,2026-10-15T17:03:24.342786+00:00,2026-10-16T19:31:23.681851+00:00,1,,Listed as an IP address associated with Candiru's infrastructure
+ipv4,185.25.50.194,high,2026-10-15T17:03:24.342786+00:00,2026-10-16T19:31:23.681851+00:00,1,,Associated with CHAINSHOT exploit kit linked to Candiru
+ipv4,69.28.67.162,high,2026-10-15T17:03:24.342786+00:00,2026-10-16T19:31:23.681851+00:00,1,,Listed as an IP address associated with Candiru's infrastructure
+ipv4,49.207.56.74,high,2026-05-31T17:03:12.300063+00:00,2026-10-16T12:01:13.068620+00:00,2,,Referenced as the source of exploitation attempts in the article.
+ipv4,185.21.136.6,high,2026-10-16T10:31:51+00:00,2026-10-16T10:31:51+00:00,1,,Listed as part of attacker infrastructure in a threat report
+ipv4,198.23.185.234,high,2026-10-16T10:31:51+00:00,2026-10-16T10:31:51+00:00,1,,Listed as part of attacker infrastructure in a threat report
+ipv4,108.165.147.64,high,2026-10-13T17:33:11+00:00,2026-10-16T10:01:47.585800+00:00,4,,Identified as a host used by the attacker for operations
+ipv4,2.59.134.215,high,2026-10-15T14:11:34.584315+00:00,2026-10-16T08:01:09.321258+00:00,1,,Listed as a secondary C2 server in the IOC section
+ipv4,23.240.77.233,high,2026-10-14T22:42:29+00:00,2026-10-16T05:04:36+00:00,2,,Identified as known external staging infrastructure used by attackers
 ipv4,78.128.113.14,high,2026-10-15T15:12:24.931033+00:00,2026-10-15T15:12:24.931033+00:00,1,,Used for plugin installations in malicious campaigns
 ipv4,91.196.33.144,high,2026-10-15T15:12:22.476814+00:00,2026-10-15T15:12:22.476814+00:00,1,,Resolved from hotcname.help used in tech support scams
-ipv4,23.240.77.233,high,2026-10-14T22:42:29+00:00,2026-10-14T22:42:29+00:00,1,,Used as external staging infrastructure by attackers for unauthorized access.
-ipv4,47.18.167.159,high,2026-10-14T22:42:29+00:00,2026-10-14T22:42:29+00:00,1,,Used as external staging infrastructure by attackers for unauthorized access.
+ipv4,47.18.167.159,high,2026-10-14T22:42:29+00:00,2026-10-14T22:42:29+00:00,1,,Identified as known external staging infrastructure used by attackers
 ipv4,139.28.18.122,high,2026-10-14T20:05:01.148615+00:00,2026-10-14T20:05:01.148615+00:00,1,,IP address used in successful hacks on Nextcloud servers
+ipv4,193.124.203.226,high,2026-10-14T15:02:37.397197+00:00,2026-10-14T15:02:37.397197+00:00,1,,IP address listed among others in a context suggesting attacker-controlled infrastructure.
 ipv4,138.124.123.87,high,2026-09-30T12:35:09+00:00,2026-10-14T13:59:36+00:00,1,,Used in suspicious WebDAV communication for malware delivery
 ipv4,77.110.127.205,high,2026-07-20T15:43:55+00:00,2026-10-14T13:59:36+00:00,2,,Involved in unusual C2 communication
 ipv4,158.94.209.19,high,2026-10-13T21:00:10+00:00,2026-10-13T21:00:10+00:00,1,,IP address resolving to a credential collection endpoint.
@@ -402,7 +406,6 @@ ipv4,124.89.89.153,high,2026-06-11T16:04:23+00:00,2026-06-11T16:04:23+00:00,1,,L
 ipv4,171.25.193.81,high,2026-06-11T16:04:23+00:00,2026-06-11T16:04:23+00:00,1,,Listed as IP infrastructure linked to UNC5221 activity cluster
 ipv4,194.48.199.121,high,2026-06-11T16:04:23+00:00,2026-06-11T16:04:23+00:00,1,,Listed in a YARA rule as part of attacker infrastructure
 ipv4,176.120.22.24,high,2026-06-11T14:00:00+00:00,2026-06-11T14:00:00+00:00,1,,Identified as hosting the public clearnet mirror of the ShinyHunters DLS
-ipv4,49.207.56.74,high,2026-05-31T17:03:12.300063+00:00,2026-06-09T22:07:51.981158+00:00,2,,Explicitly identified as the source of exploitation attempts by the attacker
 ipv4,136.0.141.112,high,2026-06-09T13:53:35+00:00,2026-06-09T13:53:35+00:00,1,,Listed as a known C2 IP in a threat report
 ipv4,136.0.141.138,high,2026-06-09T13:53:35+00:00,2026-06-09T13:53:35+00:00,1,,Listed as a known C2 IP in a threat report
 ipv4,136.0.141.41,high,2026-06-09T13:53:35+00:00,2026-06-09T13:53:35+00:00,1,,Listed as a known C2 IP in a threat report

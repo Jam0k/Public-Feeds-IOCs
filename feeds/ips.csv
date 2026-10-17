@@ -1,14 +1,18 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason
+ipv4,176.123.26.67,high,2026-10-16T19:31:23.681851+00:00,2026-10-16T19:31:23.681851+00:00,1,citizenlab.ca:2026-10-16,Listed as an IP address associated with Candiru's infrastructure
+ipv4,185.25.50.194,high,2026-10-16T19:31:23.681851+00:00,2026-10-16T19:31:23.681851+00:00,1,citizenlab.ca:2026-10-16,Associated with CHAINSHOT exploit kit linked to Candiru
+ipv4,69.28.67.162,high,2026-10-16T19:31:23.681851+00:00,2026-10-16T19:31:23.681851+00:00,1,citizenlab.ca:2026-10-16,Listed as an IP address associated with Candiru's infrastructure
+ipv4,49.207.56.74,high,2026-10-16T12:01:13.068620+00:00,2026-10-16T12:01:13.068620+00:00,1,www.sysdig.com:2026-10-16,Referenced as the source of exploitation attempts in the article.
+ipv4,185.21.136.6,high,2026-10-16T10:31:51+00:00,2026-10-16T10:31:51+00:00,1,Bloglab.360:2026-10-16,Listed as part of attacker infrastructure in a threat report
+ipv4,198.23.185.234,high,2026-10-16T10:31:51+00:00,2026-10-16T10:31:51+00:00,1,Bloglab.360:2026-10-16,Listed as part of attacker infrastructure in a threat report
 ipv4,108.165.147.64,high,2026-10-13T17:33:11+00:00,2026-10-16T10:01:47.585800+00:00,4,www.volexity.com:2026-10-16|Ccb.Belgium.Be:2026-10-14|Rescana:2026-10-14|Feeds.Feedburner:2026-10-13,Identified as a host used by the attacker for operations
 ipv4,2.59.134.215,high,2026-10-16T08:01:09.321258+00:00,2026-10-16T08:01:09.321258+00:00,1,www.group-ib.com:2026-10-16,Listed as a secondary C2 server in the IOC section
 ipv4,23.240.77.233,high,2026-10-14T22:42:29+00:00,2026-10-16T05:04:36+00:00,2,Thehackernews:2026-10-16|Unit42.Paloaltonetworks:2026-10-14,Identified as known external staging infrastructure used by attackers
-ipv4,176.123.26.67,high,2026-10-15T17:03:24.342786+00:00,2026-10-15T17:03:24.342786+00:00,1,citizenlab.ca:2026-10-15,Listed as an IP address associated with Candiru's infrastructure
-ipv4,185.25.50.194,high,2026-10-15T17:03:24.342786+00:00,2026-10-15T17:03:24.342786+00:00,1,citizenlab.ca:2026-10-15,Associated with CHAINSHOT exploit kit linked to Candiru
-ipv4,69.28.67.162,high,2026-10-15T17:03:24.342786+00:00,2026-10-15T17:03:24.342786+00:00,1,citizenlab.ca:2026-10-15,Listed as an IP address associated with Candiru's infrastructure
 ipv4,78.128.113.14,high,2026-10-15T15:12:24.931033+00:00,2026-10-15T15:12:24.931033+00:00,1,www.godaddy.com:2026-10-15,Used for plugin installations in malicious campaigns
 ipv4,91.196.33.144,high,2026-10-15T15:12:22.476814+00:00,2026-10-15T15:12:22.476814+00:00,1,www.infoblox.com:2026-10-15,Resolved from hotcname.help used in tech support scams
 ipv4,47.18.167.159,high,2026-10-14T22:42:29+00:00,2026-10-14T22:42:29+00:00,1,Unit42.Paloaltonetworks:2026-10-14,Identified as known external staging infrastructure used by attackers
 ipv4,139.28.18.122,high,2026-10-14T20:05:01.148615+00:00,2026-10-14T20:05:01.148615+00:00,1,github.com:2026-10-14,IP address used in successful hacks on Nextcloud servers
+ipv4,193.124.203.226,high,2026-10-14T15:02:37.397197+00:00,2026-10-14T15:02:37.397197+00:00,1,www.group-ib.com:2026-10-14,IP address listed among others in a context suggesting attacker-controlled infrastructure.
 ipv4,138.124.123.87,high,2026-09-30T12:35:09+00:00,2026-10-14T13:59:36+00:00,1,Darktrace:2026-10-14,Listed as part of a malware delivery operation
 ipv4,77.110.127.205,high,2026-10-14T13:59:36+00:00,2026-10-14T13:59:36+00:00,1,Darktrace:2026-10-14,Involved in unusual C2 communication
 ipv4,158.94.209.19,high,2026-10-13T21:00:10+00:00,2026-10-13T21:00:10+00:00,1,Huntress:2026-10-13,IP address resolving to a credential collection endpoint.
@@ -176,7 +180,3 @@ ipv4,50.71.100.164,high,2026-09-17T16:10:35+00:00,2026-09-17T16:10:35+00:00,1,Cy
 ipv4,88.247.129.12,high,2026-09-17T16:10:35+00:00,2026-09-17T16:10:35+00:00,1,Cyfirma:2026-09-17,Listed in a YARA rule as an IP address associated with APT31
 ipv4,89.31.228.228,high,2026-09-17T16:10:35+00:00,2026-09-17T16:10:35+00:00,1,Cyfirma:2026-09-17,Listed in a YARA rule as an IP address associated with APT31
 ipv4,208.64.33.90,high,2026-09-17T16:05:22.520791+00:00,2026-09-17T16:05:22.520791+00:00,1,securelist.com:2026-09-17,Listed as second-stage C2 server
-ipv4,139.28.85.223,high,2026-09-17T10:14:31+00:00,2026-09-17T10:14:31+00:00,1,Itweb.Co.Za:2026-09-17,Identified as the origin of a phishing email
-ipv4,210.1.231.13,high,2026-09-16T21:33:59.611872+00:00,2026-09-16T21:33:59.611872+00:00,1,www.lumen.com:2026-09-16,Associated with attacker-controlled domain turbo.c2iznja.com
-ipv4,94.102.49.125,high,2026-09-16T18:44:04+00:00,2026-09-16T18:44:04+00:00,1,Isc.Sans.Edu:2026-09-16,Identified as a source IP for malicious scans
-ipv4,5.252.177.210,high,2026-09-16T14:15:51+00:00,2026-09-16T14:15:51+00:00,1,Socprime:2026-09-16,Identified as a C2 server for RUSTGate malware
