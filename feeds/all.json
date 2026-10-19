@@ -1,7 +1,7 @@
 {
   "feed": "threatcluster-public-iocs",
   "version": 1,
-  "generated_at": "2026-10-18T11:01:04Z",
+  "generated_at": "2026-10-19T13:09:57Z",
   "filters": {
     "confidence": "high",
     "window_days": 30,
@@ -11,8 +11,606 @@
       "domain"
     ]
   },
-  "count": 803,
+  "count": 801,
   "iocs": [
+    {
+      "type": "domain",
+      "value": "9i6pokerdepot.com",
+      "confidence": "high",
+      "reason": "Used as a sending domain in a phishing campaign",
+      "first_seen": "2026-10-19T06:10:31.007169+00:00",
+      "last_seen": "2026-10-19T06:10:31.007169+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.microsoft.com",
+          "url": "https://www.microsoft.com/en-us/security/blog/2026/07/23/email-threat-landscape-q2-2026-trends-and-insights",
+          "pub_date": "2026-10-19T06:10:31.007169+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "proxystream.st",
+      "confidence": "high",
+      "reason": "Referenced as part of command-line arguments in an attack context.",
+      "first_seen": "2026-10-18T19:45:05+00:00",
+      "last_seen": "2026-10-18T19:45:05+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cordcuttersnews",
+          "url": "https://cordcuttersnews.com/plex-media-server-owners-urged-to-update-immediately-after-in-the-wild-exploitation-of-older-installations-turns-your-computer-into-a-zombie/",
+          "pub_date": "2026-10-18T19:45:05+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2026-96652"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-96654"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-96655"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-96656"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "cn.druid.mtrtb.com",
+      "confidence": "high",
+      "reason": "Endpoint on Discover-Tech's website used for ad bidding data",
+      "first_seen": "2026-10-15T12:11:48.548042+00:00",
+      "last_seen": "2026-10-18T14:30:37.759146+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "citizenlab.ca",
+          "url": "https://citizenlab.ca/research/how-discover-tech-turned-targeted-ads-into-a-pipeline-for-spyware/?ref=ppc.land",
+          "pub_date": "2026-10-18T14:30:37.759146+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "AdFection"
+        },
+        {
+          "type": "apt_group",
+          "value": "Bindecy"
+        },
+        {
+          "type": "apt_group",
+          "value": "Candiru"
+        },
+        {
+          "type": "apt_group",
+          "value": "DARK Cartographer"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "events-ui.discover-tech.io",
+      "confidence": "high",
+      "reason": "Domain associated with Discover-Tech's app used for malicious activities",
+      "first_seen": "2026-10-15T12:11:48.548042+00:00",
+      "last_seen": "2026-10-18T14:30:37.759146+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "citizenlab.ca",
+          "url": "https://citizenlab.ca/research/how-discover-tech-turned-targeted-ads-into-a-pipeline-for-spyware/?ref=ppc.land",
+          "pub_date": "2026-10-18T14:30:37.759146+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "AdFection"
+        },
+        {
+          "type": "apt_group",
+          "value": "Bindecy"
+        },
+        {
+          "type": "apt_group",
+          "value": "Candiru"
+        },
+        {
+          "type": "apt_group",
+          "value": "DARK Cartographer"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "fearevolve.com",
+      "confidence": "high",
+      "reason": "Identified as a C&C server used in the attack",
+      "first_seen": "2026-10-15T12:11:48.548042+00:00",
+      "last_seen": "2026-10-18T14:30:37.759146+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "citizenlab.ca",
+          "url": "https://citizenlab.ca/research/how-discover-tech-turned-targeted-ads-into-a-pipeline-for-spyware/?ref=ppc.land",
+          "pub_date": "2026-10-18T14:30:37.759146+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "AdFection"
+        },
+        {
+          "type": "apt_group",
+          "value": "Bindecy"
+        },
+        {
+          "type": "apt_group",
+          "value": "Candiru"
+        },
+        {
+          "type": "apt_group",
+          "value": "DARK Cartographer"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "insightenterprisells.com",
+      "confidence": "high",
+      "reason": "Identified as a C&C server used in the attack",
+      "first_seen": "2026-10-15T12:11:48.548042+00:00",
+      "last_seen": "2026-10-18T14:30:37.759146+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "citizenlab.ca",
+          "url": "https://citizenlab.ca/research/how-discover-tech-turned-targeted-ads-into-a-pipeline-for-spyware/?ref=ppc.land",
+          "pub_date": "2026-10-18T14:30:37.759146+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "AdFection"
+        },
+        {
+          "type": "apt_group",
+          "value": "Bindecy"
+        },
+        {
+          "type": "apt_group",
+          "value": "Candiru"
+        },
+        {
+          "type": "apt_group",
+          "value": "DARK Cartographer"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "jobmarcher.com",
+      "confidence": "high",
+      "reason": "Identified as a C&C server used in the attack",
+      "first_seen": "2026-10-15T12:11:48.548042+00:00",
+      "last_seen": "2026-10-18T14:30:37.759146+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "citizenlab.ca",
+          "url": "https://citizenlab.ca/research/how-discover-tech-turned-targeted-ads-into-a-pipeline-for-spyware/?ref=ppc.land",
+          "pub_date": "2026-10-18T14:30:37.759146+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "AdFection"
+        },
+        {
+          "type": "apt_group",
+          "value": "Bindecy"
+        },
+        {
+          "type": "apt_group",
+          "value": "Candiru"
+        },
+        {
+          "type": "apt_group",
+          "value": "DARK Cartographer"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "keyadapter.com",
+      "confidence": "high",
+      "reason": "Identified as a Candiru validator server",
+      "first_seen": "2026-10-15T12:11:48.548042+00:00",
+      "last_seen": "2026-10-18T14:30:37.759146+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "citizenlab.ca",
+          "url": "https://citizenlab.ca/research/how-discover-tech-turned-targeted-ads-into-a-pipeline-for-spyware/?ref=ppc.land",
+          "pub_date": "2026-10-18T14:30:37.759146+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "AdFection"
+        },
+        {
+          "type": "apt_group",
+          "value": "Bindecy"
+        },
+        {
+          "type": "apt_group",
+          "value": "Candiru"
+        },
+        {
+          "type": "apt_group",
+          "value": "DARK Cartographer"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "mtrtb.com",
+      "confidence": "high",
+      "reason": "Domain associated with Discover-Tech's ad bidding data",
+      "first_seen": "2026-10-15T12:11:48.548042+00:00",
+      "last_seen": "2026-10-18T14:30:37.759146+00:00",
+      "source_count": 4,
+      "sources": [
+        {
+          "source": "citizenlab.ca",
+          "url": "https://citizenlab.ca/research/how-discover-tech-turned-targeted-ads-into-a-pipeline-for-spyware/?ref=ppc.land",
+          "pub_date": "2026-10-18T14:30:37.759146+00:00"
+        },
+        {
+          "source": "Ppc.Land",
+          "url": "https://ppc.land/google-drops-ad-vendor-it-listed-since-2020-after-45-device-spyware-attack/",
+          "pub_date": "2026-10-18T13:36:04+00:00"
+        },
+        {
+          "source": "Cyberkendra",
+          "url": "https://www.cyberkendra.com/2026/10/adfection-discover-tech-candiru-spyware-ads.html",
+          "pub_date": "2026-10-15T16:50:24+00:00"
+        },
+        {
+          "source": "Thehackernews",
+          "url": "https://thehackernews.com/2026/10/citizen-lab-traces-zero-click-candiru.html",
+          "pub_date": "2026-10-15T16:04:30+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "AdFection"
+        },
+        {
+          "type": "apt_group",
+          "value": "Candiru"
+        },
+        {
+          "type": "apt_group",
+          "value": "DARK Cartographer"
+        },
+        {
+          "type": "malware",
+          "value": "Candiru"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "plasticbells.com",
+      "confidence": "high",
+      "reason": "Identified as a C&C server used in the attack",
+      "first_seen": "2026-10-15T12:11:48.548042+00:00",
+      "last_seen": "2026-10-18T14:30:37.759146+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "citizenlab.ca",
+          "url": "https://citizenlab.ca/research/how-discover-tech-turned-targeted-ads-into-a-pipeline-for-spyware/?ref=ppc.land",
+          "pub_date": "2026-10-18T14:30:37.759146+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "AdFection"
+        },
+        {
+          "type": "apt_group",
+          "value": "Bindecy"
+        },
+        {
+          "type": "apt_group",
+          "value": "Candiru"
+        },
+        {
+          "type": "apt_group",
+          "value": "DARK Cartographer"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "ppv2.mtrtb.com",
+      "confidence": "high",
+      "reason": "Domain associated with Discover-Tech's Infinite FIFO feature",
+      "first_seen": "2026-10-15T12:11:48.548042+00:00",
+      "last_seen": "2026-10-18T14:30:37.759146+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "citizenlab.ca",
+          "url": "https://citizenlab.ca/research/how-discover-tech-turned-targeted-ads-into-a-pipeline-for-spyware/?ref=ppc.land",
+          "pub_date": "2026-10-18T14:30:37.759146+00:00"
+        },
+        {
+          "source": "Ppc.Land",
+          "url": "https://ppc.land/google-drops-ad-vendor-it-listed-since-2020-after-45-device-spyware-attack/",
+          "pub_date": "2026-10-18T13:36:04+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "AdFection"
+        },
+        {
+          "type": "apt_group",
+          "value": "Bindecy"
+        },
+        {
+          "type": "apt_group",
+          "value": "Candiru"
+        },
+        {
+          "type": "apt_group",
+          "value": "DARK Cartographer"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "sharethere.net",
+      "confidence": "high",
+      "reason": "Identified as a Candiru validator server",
+      "first_seen": "2026-10-15T12:11:48.548042+00:00",
+      "last_seen": "2026-10-18T14:30:37.759146+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "citizenlab.ca",
+          "url": "https://citizenlab.ca/research/how-discover-tech-turned-targeted-ads-into-a-pipeline-for-spyware/?ref=ppc.land",
+          "pub_date": "2026-10-18T14:30:37.759146+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "AdFection"
+        },
+        {
+          "type": "apt_group",
+          "value": "Bindecy"
+        },
+        {
+          "type": "apt_group",
+          "value": "Candiru"
+        },
+        {
+          "type": "apt_group",
+          "value": "DARK Cartographer"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "dtech.adtimizer.co",
+      "confidence": "high",
+      "reason": "Subdomain used within Discover-Tech's infrastructure, indicating attacker control",
+      "first_seen": "2026-10-18T13:36:04+00:00",
+      "last_seen": "2026-10-18T13:36:04+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Ppc.Land",
+          "url": "https://ppc.land/google-drops-ad-vendor-it-listed-since-2020-after-45-device-spyware-attack/",
+          "pub_date": "2026-10-18T13:36:04+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "AdFection"
+        },
+        {
+          "type": "campaign",
+          "value": "Controlium"
+        },
+        {
+          "type": "campaign",
+          "value": "SourTrade"
+        },
+        {
+          "type": "malware",
+          "value": "Candiru"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "mydsp.io",
+      "confidence": "high",
+      "reason": "Domain used by Discover-Tech for malicious ad operations",
+      "first_seen": "2026-10-18T13:36:04+00:00",
+      "last_seen": "2026-10-18T13:36:04+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Ppc.Land",
+          "url": "https://ppc.land/google-drops-ad-vendor-it-listed-since-2020-after-45-device-spyware-attack/",
+          "pub_date": "2026-10-18T13:36:04+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "AdFection"
+        },
+        {
+          "type": "campaign",
+          "value": "Controlium"
+        },
+        {
+          "type": "campaign",
+          "value": "SourTrade"
+        },
+        {
+          "type": "malware",
+          "value": "Candiru"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "myipinfo.io",
+      "confidence": "high",
+      "reason": "Domain used by Discover-Tech for malicious ad operations",
+      "first_seen": "2026-10-18T13:36:04+00:00",
+      "last_seen": "2026-10-18T13:36:04+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Ppc.Land",
+          "url": "https://ppc.land/google-drops-ad-vendor-it-listed-since-2020-after-45-device-spyware-attack/",
+          "pub_date": "2026-10-18T13:36:04+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "AdFection"
+        },
+        {
+          "type": "campaign",
+          "value": "Controlium"
+        },
+        {
+          "type": "campaign",
+          "value": "SourTrade"
+        },
+        {
+          "type": "malware",
+          "value": "Candiru"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "tracker.mtrtb.com",
+      "confidence": "high",
+      "reason": "Subdomain used by Discover-Tech for malicious ad operations",
+      "first_seen": "2026-10-18T13:36:04+00:00",
+      "last_seen": "2026-10-18T13:36:04+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Ppc.Land",
+          "url": "https://ppc.land/google-drops-ad-vendor-it-listed-since-2020-after-45-device-spyware-attack/",
+          "pub_date": "2026-10-18T13:36:04+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "AdFection"
+        },
+        {
+          "type": "campaign",
+          "value": "Controlium"
+        },
+        {
+          "type": "campaign",
+          "value": "SourTrade"
+        },
+        {
+          "type": "malware",
+          "value": "Candiru"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "tracookiepixel.xyz",
+      "confidence": "high",
+      "reason": "Domain involved in Discover-Tech's tracking operations",
+      "first_seen": "2026-10-18T13:36:04+00:00",
+      "last_seen": "2026-10-18T13:36:04+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Ppc.Land",
+          "url": "https://ppc.land/google-drops-ad-vendor-it-listed-since-2020-after-45-device-spyware-attack/",
+          "pub_date": "2026-10-18T13:36:04+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "AdFection"
+        },
+        {
+          "type": "campaign",
+          "value": "Controlium"
+        },
+        {
+          "type": "campaign",
+          "value": "SourTrade"
+        },
+        {
+          "type": "malware",
+          "value": "Candiru"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "xn--pple-43d.com",
+      "confidence": "high",
+      "reason": "Punycode domain used to impersonate apple.com with Cyrillic lookalikes, indicating attacker-controlled infrastructure.",
+      "first_seen": "2026-10-18T12:10:16+00:00",
+      "last_seen": "2026-10-18T12:10:16+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Tomshardware",
+          "url": "https://www.tomshardware.com/tech-industry/cyber-security/typo-squatting-attacks-with-major-domains-are-still-viable-corner-cases-with-cyrillic-characters-still-evade-the-best-checks",
+          "pub_date": "2026-10-18T12:10:16+00:00"
+        }
+      ],
+      "tags": []
+    },
     {
       "type": "domain",
       "value": "jewishchoice.org",
@@ -2510,50 +3108,6 @@
     },
     {
       "type": "domain",
-      "value": "mtrtb.com",
-      "confidence": "high",
-      "reason": "Part of Discover-Tech's infrastructure for ad bidding data",
-      "first_seen": "2026-10-15T12:11:48.548042+00:00",
-      "last_seen": "2026-10-15T16:50:24+00:00",
-      "source_count": 3,
-      "sources": [
-        {
-          "source": "Cyberkendra",
-          "url": "https://www.cyberkendra.com/2026/10/adfection-discover-tech-candiru-spyware-ads.html",
-          "pub_date": "2026-10-15T16:50:24+00:00"
-        },
-        {
-          "source": "Thehackernews",
-          "url": "https://thehackernews.com/2026/10/citizen-lab-traces-zero-click-candiru.html",
-          "pub_date": "2026-10-15T16:04:30+00:00"
-        },
-        {
-          "source": "citizenlab.ca",
-          "url": "https://citizenlab.ca/research/how-discover-tech-turned-targeted-ads-into-a-pipeline-for-spyware/",
-          "pub_date": "2026-10-15T12:11:48.548042+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Candiru"
-        },
-        {
-          "type": "apt_group",
-          "value": "DARK Cartographer"
-        },
-        {
-          "type": "campaign",
-          "value": "AdFection"
-        },
-        {
-          "type": "malware",
-          "value": "Candiru"
-        }
-      ]
-    },
-    {
-      "type": "domain",
       "value": "777traffget.site",
       "confidence": "high",
       "reason": "Listed as historical C2 infrastructure for malware",
@@ -3339,204 +3893,6 @@
         {
           "type": "campaign",
           "value": "Help TDS"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "cn.druid.mtrtb.com",
-      "confidence": "high",
-      "reason": "Part of Discover-Tech's infrastructure for ad bidding data",
-      "first_seen": "2026-10-15T12:11:48.548042+00:00",
-      "last_seen": "2026-10-15T12:11:48.548042+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "citizenlab.ca",
-          "url": "https://citizenlab.ca/research/how-discover-tech-turned-targeted-ads-into-a-pipeline-for-spyware/",
-          "pub_date": "2026-10-15T12:11:48.548042+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "AdFection"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "events-ui.discover-tech.io",
-      "confidence": "high",
-      "reason": "Part of Discover-Tech's infrastructure for app deployment",
-      "first_seen": "2026-10-15T12:11:48.548042+00:00",
-      "last_seen": "2026-10-15T12:11:48.548042+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "citizenlab.ca",
-          "url": "https://citizenlab.ca/research/how-discover-tech-turned-targeted-ads-into-a-pipeline-for-spyware/",
-          "pub_date": "2026-10-15T12:11:48.548042+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "AdFection"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "fearevolve.com",
-      "confidence": "high",
-      "reason": "Listed as a C&C server used in the attack",
-      "first_seen": "2026-10-15T12:11:48.548042+00:00",
-      "last_seen": "2026-10-15T12:11:48.548042+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "citizenlab.ca",
-          "url": "https://citizenlab.ca/research/how-discover-tech-turned-targeted-ads-into-a-pipeline-for-spyware/",
-          "pub_date": "2026-10-15T12:11:48.548042+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "AdFection"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "insightenterprisells.com",
-      "confidence": "high",
-      "reason": "Listed as a C&C server used in the attack",
-      "first_seen": "2026-10-15T12:11:48.548042+00:00",
-      "last_seen": "2026-10-15T12:11:48.548042+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "citizenlab.ca",
-          "url": "https://citizenlab.ca/research/how-discover-tech-turned-targeted-ads-into-a-pipeline-for-spyware/",
-          "pub_date": "2026-10-15T12:11:48.548042+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "AdFection"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "jobmarcher.com",
-      "confidence": "high",
-      "reason": "Listed as a C&C server used in the attack",
-      "first_seen": "2026-10-15T12:11:48.548042+00:00",
-      "last_seen": "2026-10-15T12:11:48.548042+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "citizenlab.ca",
-          "url": "https://citizenlab.ca/research/how-discover-tech-turned-targeted-ads-into-a-pipeline-for-spyware/",
-          "pub_date": "2026-10-15T12:11:48.548042+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "AdFection"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "keyadapter.com",
-      "confidence": "high",
-      "reason": "Listed as a validator server used by Candiru",
-      "first_seen": "2026-10-15T12:11:48.548042+00:00",
-      "last_seen": "2026-10-15T12:11:48.548042+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "citizenlab.ca",
-          "url": "https://citizenlab.ca/research/how-discover-tech-turned-targeted-ads-into-a-pipeline-for-spyware/",
-          "pub_date": "2026-10-15T12:11:48.548042+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "AdFection"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "plasticbells.com",
-      "confidence": "high",
-      "reason": "Listed as a C&C server used in the attack",
-      "first_seen": "2026-10-15T12:11:48.548042+00:00",
-      "last_seen": "2026-10-15T12:11:48.548042+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "citizenlab.ca",
-          "url": "https://citizenlab.ca/research/how-discover-tech-turned-targeted-ads-into-a-pipeline-for-spyware/",
-          "pub_date": "2026-10-15T12:11:48.548042+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "AdFection"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "ppv2.mtrtb.com",
-      "confidence": "high",
-      "reason": "Part of Discover-Tech's infrastructure for ad bidding data",
-      "first_seen": "2026-10-15T12:11:48.548042+00:00",
-      "last_seen": "2026-10-15T12:11:48.548042+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "citizenlab.ca",
-          "url": "https://citizenlab.ca/research/how-discover-tech-turned-targeted-ads-into-a-pipeline-for-spyware/",
-          "pub_date": "2026-10-15T12:11:48.548042+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "AdFection"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "sharethere.net",
-      "confidence": "high",
-      "reason": "Listed as a validator server used by Candiru",
-      "first_seen": "2026-10-15T12:11:48.548042+00:00",
-      "last_seen": "2026-10-15T12:11:48.548042+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "citizenlab.ca",
-          "url": "https://citizenlab.ca/research/how-discover-tech-turned-targeted-ads-into-a-pipeline-for-spyware/",
-          "pub_date": "2026-10-15T12:11:48.548042+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "AdFection"
         }
       ]
     },
@@ -20490,236 +20846,6 @@
           "value": "Hospitality"
         }
       ]
-    },
-    {
-      "type": "ipv4",
-      "value": "95.158.131.141",
-      "confidence": "high",
-      "reason": "Exposed Mythic C2 management interface",
-      "first_seen": "2026-09-19T05:01:06+00:00",
-      "last_seen": "2026-09-19T05:01:06+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Redpacketsecurity",
-          "url": "https://www.redpacketsecurity.com/mythic-c2-detected-95-158-131-141-port-7443/",
-          "pub_date": "2026-09-19T05:01:06+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "rce.ee",
-      "confidence": "high",
-      "reason": "Domain used to proxy an instance for exploit demonstration, suggesting attacker control",
-      "first_seen": "2026-09-18T19:12:10+00:00",
-      "last_seen": "2026-09-18T19:12:10+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Thenewstack",
-          "url": "https://thenewstack.io/claude-exploits-openai-forum/",
-          "pub_date": "2026-09-18T19:12:10+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "HEIF Heist"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-32882"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "bpost.be-pakje-ontvangen-nl-recevoir-colis-fr.my.id",
-      "confidence": "high",
-      "reason": "Described as a fake bpost site used in a phishing campaign.",
-      "first_seen": "2026-09-18T16:46:57+00:00",
-      "last_seen": "2026-09-18T16:46:57+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Malwarebytes",
-          "url": "https://www.malwarebytes.com/blog/scams/2026/09/fake-parcel-delivery-messages-steal-your-card-and-bank-details",
-          "pub_date": "2026-09-18T16:46:57+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "qr.paps.jp",
-      "confidence": "high",
-      "reason": "Used in a phishing campaign to redirect to a fake site",
-      "first_seen": "2026-09-18T16:46:57+00:00",
-      "last_seen": "2026-09-18T16:46:57+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Malwarebytes",
-          "url": "https://www.malwarebytes.com/blog/scams/2026/09/fake-parcel-delivery-messages-steal-your-card-and-bank-details",
-          "pub_date": "2026-09-18T16:46:57+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "ipv4",
-      "value": "172.86.93.139",
-      "confidence": "high",
-      "reason": "Listed as a command and control address used by the threat actor",
-      "first_seen": "2026-09-18T16:31:07.760690+00:00",
-      "last_seen": "2026-09-18T16:31:07.760690+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "gitlab-com.gitlab.io",
-          "url": "https://gitlab-com.gitlab.io/gl-security/security-tech-notes/threat-intelligence-tech-notes/north-korean-malware-sept-2025/",
-          "pub_date": "2026-09-18T16:31:07.76069+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Contagious Interview"
-        },
-        {
-          "type": "apt_group",
-          "value": "Famous Chollima"
-        },
-        {
-          "type": "industry",
-          "value": "Retail"
-        },
-        {
-          "type": "malware",
-          "value": "BeaverTail"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "indiatodays.org",
-      "confidence": "high",
-      "reason": "Impersonating a legitimate media organization, likely attacker-registered",
-      "first_seen": "2026-09-18T15:54:22+00:00",
-      "last_seen": "2026-09-18T15:54:22+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Thehackernews",
-          "url": "https://thehackernews.com/2026/09/transparent-tribe-deploys-new-rust.html",
-          "pub_date": "2026-09-18T15:54:22+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "APT36"
-        },
-        {
-          "type": "apt_group",
-          "value": "Earth Karkaddan"
-        },
-        {
-          "type": "apt_group",
-          "value": "Transparent Tribe"
-        },
-        {
-          "type": "campaign",
-          "value": "Gopher Strike"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "theprints.org",
-      "confidence": "high",
-      "reason": "Impersonating a legitimate media organization, likely attacker-registered",
-      "first_seen": "2026-09-18T15:54:22+00:00",
-      "last_seen": "2026-09-18T15:54:22+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Thehackernews",
-          "url": "https://thehackernews.com/2026/09/transparent-tribe-deploys-new-rust.html",
-          "pub_date": "2026-09-18T15:54:22+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "APT36"
-        },
-        {
-          "type": "apt_group",
-          "value": "Earth Karkaddan"
-        },
-        {
-          "type": "apt_group",
-          "value": "Transparent Tribe"
-        },
-        {
-          "type": "campaign",
-          "value": "Gopher Strike"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "francais.news-pravda.com",
-      "confidence": "high",
-      "reason": "Part of a network of sites used for disinformation.",
-      "first_seen": "2026-09-18T11:37:54+00:00",
-      "last_seen": "2026-09-18T11:37:54+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Kyivpost",
-          "url": "https://www.kyivpost.com/post/84831",
-          "pub_date": "2026-09-18T11:37:54+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "fr.news-pravda.com",
-      "confidence": "high",
-      "reason": "Part of a network of sites used for disinformation.",
-      "first_seen": "2026-09-18T11:37:54+00:00",
-      "last_seen": "2026-09-18T11:37:54+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Kyivpost",
-          "url": "https://www.kyivpost.com/post/84831",
-          "pub_date": "2026-09-18T11:37:54+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "9527db6e1a.nxcli.io",
-      "confidence": "high",
-      "reason": "Domain used in phishing email as a fake sender address, indicating attacker control.",
-      "first_seen": "2026-09-18T11:08:09+00:00",
-      "last_seen": "2026-09-18T11:08:09+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Itpro",
-          "url": "https://www.itpro.com/security/phishing/fake-chatgpt-billing-email-targets-work-and-home-users",
-          "pub_date": "2026-09-18T11:08:09+00:00"
-        }
-      ],
-      "tags": []
     }
   ],
   "license": "CC-BY 4.0 \u2014 attribute ThreatCluster (https://threatcluster.io)",

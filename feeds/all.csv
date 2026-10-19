@@ -1,4 +1,22 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason
+domain,9i6pokerdepot.com,high,2026-10-19T06:10:31.007169+00:00,2026-10-19T06:10:31.007169+00:00,1,www.microsoft.com:2026-10-19,Used as a sending domain in a phishing campaign
+domain,proxystream.st,high,2026-10-18T19:45:05+00:00,2026-10-18T19:45:05+00:00,1,Cordcuttersnews:2026-10-18,Referenced as part of command-line arguments in an attack context.
+domain,cn.druid.mtrtb.com,high,2026-10-15T12:11:48.548042+00:00,2026-10-18T14:30:37.759146+00:00,1,citizenlab.ca:2026-10-18,Endpoint on Discover-Tech's website used for ad bidding data
+domain,events-ui.discover-tech.io,high,2026-10-15T12:11:48.548042+00:00,2026-10-18T14:30:37.759146+00:00,1,citizenlab.ca:2026-10-18,Domain associated with Discover-Tech's app used for malicious activities
+domain,fearevolve.com,high,2026-10-15T12:11:48.548042+00:00,2026-10-18T14:30:37.759146+00:00,1,citizenlab.ca:2026-10-18,Identified as a C&C server used in the attack
+domain,insightenterprisells.com,high,2026-10-15T12:11:48.548042+00:00,2026-10-18T14:30:37.759146+00:00,1,citizenlab.ca:2026-10-18,Identified as a C&C server used in the attack
+domain,jobmarcher.com,high,2026-10-15T12:11:48.548042+00:00,2026-10-18T14:30:37.759146+00:00,1,citizenlab.ca:2026-10-18,Identified as a C&C server used in the attack
+domain,keyadapter.com,high,2026-10-15T12:11:48.548042+00:00,2026-10-18T14:30:37.759146+00:00,1,citizenlab.ca:2026-10-18,Identified as a Candiru validator server
+domain,mtrtb.com,high,2026-10-15T12:11:48.548042+00:00,2026-10-18T14:30:37.759146+00:00,4,citizenlab.ca:2026-10-18|Ppc.Land:2026-10-18|Cyberkendra:2026-10-15|Thehackernews:2026-10-15,Domain associated with Discover-Tech's ad bidding data
+domain,plasticbells.com,high,2026-10-15T12:11:48.548042+00:00,2026-10-18T14:30:37.759146+00:00,1,citizenlab.ca:2026-10-18,Identified as a C&C server used in the attack
+domain,ppv2.mtrtb.com,high,2026-10-15T12:11:48.548042+00:00,2026-10-18T14:30:37.759146+00:00,2,citizenlab.ca:2026-10-18|Ppc.Land:2026-10-18,Domain associated with Discover-Tech's Infinite FIFO feature
+domain,sharethere.net,high,2026-10-15T12:11:48.548042+00:00,2026-10-18T14:30:37.759146+00:00,1,citizenlab.ca:2026-10-18,Identified as a Candiru validator server
+domain,dtech.adtimizer.co,high,2026-10-18T13:36:04+00:00,2026-10-18T13:36:04+00:00,1,Ppc.Land:2026-10-18,"Subdomain used within Discover-Tech's infrastructure, indicating attacker control"
+domain,mydsp.io,high,2026-10-18T13:36:04+00:00,2026-10-18T13:36:04+00:00,1,Ppc.Land:2026-10-18,Domain used by Discover-Tech for malicious ad operations
+domain,myipinfo.io,high,2026-10-18T13:36:04+00:00,2026-10-18T13:36:04+00:00,1,Ppc.Land:2026-10-18,Domain used by Discover-Tech for malicious ad operations
+domain,tracker.mtrtb.com,high,2026-10-18T13:36:04+00:00,2026-10-18T13:36:04+00:00,1,Ppc.Land:2026-10-18,Subdomain used by Discover-Tech for malicious ad operations
+domain,tracookiepixel.xyz,high,2026-10-18T13:36:04+00:00,2026-10-18T13:36:04+00:00,1,Ppc.Land:2026-10-18,Domain involved in Discover-Tech's tracking operations
+domain,xn--pple-43d.com,high,2026-10-18T12:10:16+00:00,2026-10-18T12:10:16+00:00,1,Tomshardware:2026-10-18,"Punycode domain used to impersonate apple.com with Cyrillic lookalikes, indicating attacker-controlled infrastructure."
 domain,jewishchoice.org,high,2026-10-15T10:02:30+00:00,2026-10-17T20:02:25.870566+00:00,2,www.microsoft.com:2026-10-17|Redpacketsecurity:2026-10-15,Described as a fraudulent domain created by attackers.
 domain,beenetprotect.com,high,2026-10-17T16:17:16+00:00,2026-10-17T16:17:16+00:00,1,News.Lavx.Hu:2026-10-17,Used as a command server in malware.
 domain,rank1cdn.com,high,2026-10-17T03:41:48+00:00,2026-10-17T12:32:41.699659+00:00,2,rankmath.com:2026-10-17|Wordfence:2026-10-17,Domain identified as malicious and recommended to be blocked to prevent malware activity
@@ -100,7 +118,6 @@ domain,sunpass.com-tyjr.cc,high,2026-10-15T17:11:30.137373+00:00,2026-10-15T17:1
 domain,uhlkg.cn,high,2026-10-15T17:11:30.137373+00:00,2026-10-15T17:11:30.137373+00:00,1,www.proofpoint.com:2026-10-15,Domain used in phishing campaigns as part of attacker-controlled infrastructure.
 domain,zjkso.cn,high,2026-10-15T17:11:30.137373+00:00,2026-10-15T17:11:30.137373+00:00,1,www.proofpoint.com:2026-10-15,Domain used in phishing campaigns as part of attacker-controlled infrastructure.
 domain,ossapi.haoeryu.top,high,2026-10-15T17:11:28.685738+00:00,2026-10-15T17:11:28.685738+00:00,1,www.resecurity.com:2026-10-15,Domain used for storing content related to phishing kit.
-domain,mtrtb.com,high,2026-10-15T12:11:48.548042+00:00,2026-10-15T16:50:24+00:00,3,Cyberkendra:2026-10-15|Thehackernews:2026-10-15|citizenlab.ca:2026-10-15,Part of Discover-Tech's infrastructure for ad bidding data
 domain,777traffget.site,high,2026-10-15T15:12:24.931033+00:00,2026-10-15T15:12:24.931033+00:00,1,www.godaddy.com:2026-10-15,Listed as historical C2 infrastructure for malware
 domain,cartoonmines.com,high,2026-10-15T15:12:24.931033+00:00,2026-10-15T15:12:24.931033+00:00,1,www.godaddy.com:2026-10-15,Used in redirect scripts for malicious traffic
 domain,distie.shop,high,2026-10-15T15:12:24.931033+00:00,2026-10-15T15:12:24.931033+00:00,1,www.godaddy.com:2026-10-15,Listed as historical C2 infrastructure for malware
@@ -126,15 +143,6 @@ domain,trixsolvesxa.shop,high,2026-10-15T15:12:22.476814+00:00,2026-10-15T15:12:
 domain,usa.on1xvpn.com,high,2026-10-15T15:12:22.476814+00:00,2026-10-15T15:12:22.476814+00:00,1,www.infoblox.com:2026-10-15,Hotejka On1x VPN endpoint
 domain,zylvantrexor.lol,high,2026-10-15T15:12:22.476814+00:00,2026-10-15T15:12:22.476814+00:00,1,www.infoblox.com:2026-10-15,Listed as a Hotejka affiliate domain
 ipv4,91.196.33.144,high,2026-10-15T15:12:22.476814+00:00,2026-10-15T15:12:22.476814+00:00,1,www.infoblox.com:2026-10-15,Resolved from hotcname.help used in tech support scams
-domain,cn.druid.mtrtb.com,high,2026-10-15T12:11:48.548042+00:00,2026-10-15T12:11:48.548042+00:00,1,citizenlab.ca:2026-10-15,Part of Discover-Tech's infrastructure for ad bidding data
-domain,events-ui.discover-tech.io,high,2026-10-15T12:11:48.548042+00:00,2026-10-15T12:11:48.548042+00:00,1,citizenlab.ca:2026-10-15,Part of Discover-Tech's infrastructure for app deployment
-domain,fearevolve.com,high,2026-10-15T12:11:48.548042+00:00,2026-10-15T12:11:48.548042+00:00,1,citizenlab.ca:2026-10-15,Listed as a C&C server used in the attack
-domain,insightenterprisells.com,high,2026-10-15T12:11:48.548042+00:00,2026-10-15T12:11:48.548042+00:00,1,citizenlab.ca:2026-10-15,Listed as a C&C server used in the attack
-domain,jobmarcher.com,high,2026-10-15T12:11:48.548042+00:00,2026-10-15T12:11:48.548042+00:00,1,citizenlab.ca:2026-10-15,Listed as a C&C server used in the attack
-domain,keyadapter.com,high,2026-10-15T12:11:48.548042+00:00,2026-10-15T12:11:48.548042+00:00,1,citizenlab.ca:2026-10-15,Listed as a validator server used by Candiru
-domain,plasticbells.com,high,2026-10-15T12:11:48.548042+00:00,2026-10-15T12:11:48.548042+00:00,1,citizenlab.ca:2026-10-15,Listed as a C&C server used in the attack
-domain,ppv2.mtrtb.com,high,2026-10-15T12:11:48.548042+00:00,2026-10-15T12:11:48.548042+00:00,1,citizenlab.ca:2026-10-15,Part of Discover-Tech's infrastructure for ad bidding data
-domain,sharethere.net,high,2026-10-15T12:11:48.548042+00:00,2026-10-15T12:11:48.548042+00:00,1,citizenlab.ca:2026-10-15,Listed as a validator server used by Candiru
 domain,dobeqnesmot.cc,high,2026-10-15T10:13:11+00:00,2026-10-15T10:13:11+00:00,1,Security:2026-10-15,Listed as a gate URL for Infostealer.Aoki
 domain,neihite.cc,high,2026-10-15T10:13:11+00:00,2026-10-15T10:13:11+00:00,1,Security:2026-10-15,Listed as a gate URL for Infostealer.Aoki
 domain,mailchimp-sso.com,high,2026-10-15T03:03:57.529353+00:00,2026-10-15T03:03:57.529353+00:00,1,www.troyhunt.com:2026-10-15,Used in a phishing attack to capture credentials
@@ -792,13 +800,3 @@ domain,toria.app,high,2026-09-21T04:20:50+00:00,2026-09-21T04:20:50+00:00,1,Hack
 ipv4,109.94.171.225,high,2026-09-21T04:20:50+00:00,2026-09-21T04:20:50+00:00,1,Hackernoon:2026-09-21,IP address used for data exfiltration
 domain,interac-transfers.ca,high,2026-09-20T14:28:35+00:00,2026-09-20T14:28:35+00:00,1,Ca.Finance.Yahoo:2026-09-20,Used in scams to impersonate a legitimate service
 domain,www-account-booking.com,high,2026-09-20T10:32:24.433292+00:00,2026-09-20T10:32:24.433292+00:00,1,www.bleepingcomputer.com:2026-09-20,Malicious lookalike domain registered by attackers for phishing
-ipv4,95.158.131.141,high,2026-09-19T05:01:06+00:00,2026-09-19T05:01:06+00:00,1,Redpacketsecurity:2026-09-19,Exposed Mythic C2 management interface
-domain,rce.ee,high,2026-09-18T19:12:10+00:00,2026-09-18T19:12:10+00:00,1,Thenewstack:2026-09-18,"Domain used to proxy an instance for exploit demonstration, suggesting attacker control"
-domain,bpost.be-pakje-ontvangen-nl-recevoir-colis-fr.my.id,high,2026-09-18T16:46:57+00:00,2026-09-18T16:46:57+00:00,1,Malwarebytes:2026-09-18,Described as a fake bpost site used in a phishing campaign.
-domain,qr.paps.jp,high,2026-09-18T16:46:57+00:00,2026-09-18T16:46:57+00:00,1,Malwarebytes:2026-09-18,Used in a phishing campaign to redirect to a fake site
-ipv4,172.86.93.139,high,2026-09-18T16:31:07.760690+00:00,2026-09-18T16:31:07.760690+00:00,1,gitlab-com.gitlab.io:2026-09-18,Listed as a command and control address used by the threat actor
-domain,indiatodays.org,high,2026-09-18T15:54:22+00:00,2026-09-18T15:54:22+00:00,1,Thehackernews:2026-09-18,"Impersonating a legitimate media organization, likely attacker-registered"
-domain,theprints.org,high,2026-09-18T15:54:22+00:00,2026-09-18T15:54:22+00:00,1,Thehackernews:2026-09-18,"Impersonating a legitimate media organization, likely attacker-registered"
-domain,francais.news-pravda.com,high,2026-09-18T11:37:54+00:00,2026-09-18T11:37:54+00:00,1,Kyivpost:2026-09-18,Part of a network of sites used for disinformation.
-domain,fr.news-pravda.com,high,2026-09-18T11:37:54+00:00,2026-09-18T11:37:54+00:00,1,Kyivpost:2026-09-18,Part of a network of sites used for disinformation.
-domain,9527db6e1a.nxcli.io,high,2026-09-18T11:08:09+00:00,2026-09-18T11:08:09+00:00,1,Itpro:2026-09-18,"Domain used in phishing email as a fake sender address, indicating attacker control."

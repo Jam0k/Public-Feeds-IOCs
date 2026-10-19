@@ -1,4 +1,22 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason
+domain,9i6pokerdepot.com,high,2026-09-08T13:01:18.371466+00:00,2026-10-19T06:10:31.007169+00:00,1,,Used as a sending domain in a phishing campaign
+domain,proxystream.st,high,2026-10-18T19:45:05+00:00,2026-10-18T19:45:05+00:00,1,,Referenced as part of command-line arguments in an attack context.
+domain,cn.druid.mtrtb.com,high,2026-10-15T12:11:48.548042+00:00,2026-10-18T14:30:37.759146+00:00,1,,Endpoint on Discover-Tech's website used for ad bidding data
+domain,events-ui.discover-tech.io,high,2026-10-15T12:11:48.548042+00:00,2026-10-18T14:30:37.759146+00:00,1,,Domain associated with Discover-Tech's app used for malicious activities
+domain,fearevolve.com,high,2026-10-15T12:11:48.548042+00:00,2026-10-18T14:30:37.759146+00:00,1,,Identified as a C&C server used in the attack
+domain,insightenterprisells.com,high,2026-10-15T12:11:48.548042+00:00,2026-10-18T14:30:37.759146+00:00,1,,Identified as a C&C server used in the attack
+domain,jobmarcher.com,high,2026-10-15T12:11:48.548042+00:00,2026-10-18T14:30:37.759146+00:00,1,,Identified as a C&C server used in the attack
+domain,keyadapter.com,high,2026-10-15T12:11:48.548042+00:00,2026-10-18T14:30:37.759146+00:00,1,,Identified as a Candiru validator server
+domain,mtrtb.com,high,2026-10-15T12:11:48.548042+00:00,2026-10-18T14:30:37.759146+00:00,4,,Domain associated with Discover-Tech's ad bidding data
+domain,plasticbells.com,high,2026-10-15T12:11:48.548042+00:00,2026-10-18T14:30:37.759146+00:00,1,,Identified as a C&C server used in the attack
+domain,ppv2.mtrtb.com,high,2026-10-15T12:11:48.548042+00:00,2026-10-18T14:30:37.759146+00:00,2,,Domain associated with Discover-Tech's Infinite FIFO feature
+domain,sharethere.net,high,2026-10-15T12:11:48.548042+00:00,2026-10-18T14:30:37.759146+00:00,1,,Identified as a Candiru validator server
+domain,dtech.adtimizer.co,high,2026-10-18T13:36:04+00:00,2026-10-18T13:36:04+00:00,1,,"Subdomain used within Discover-Tech's infrastructure, indicating attacker control"
+domain,mydsp.io,high,2026-10-18T13:36:04+00:00,2026-10-18T13:36:04+00:00,1,,Domain used by Discover-Tech for malicious ad operations
+domain,myipinfo.io,high,2026-10-18T13:36:04+00:00,2026-10-18T13:36:04+00:00,1,,Domain used by Discover-Tech for malicious ad operations
+domain,tracker.mtrtb.com,high,2026-10-18T13:36:04+00:00,2026-10-18T13:36:04+00:00,1,,Subdomain used by Discover-Tech for malicious ad operations
+domain,tracookiepixel.xyz,high,2026-10-18T13:36:04+00:00,2026-10-18T13:36:04+00:00,1,,Domain involved in Discover-Tech's tracking operations
+domain,xn--pple-43d.com,high,2026-10-18T12:10:16+00:00,2026-10-18T12:10:16+00:00,1,,"Punycode domain used to impersonate apple.com with Cyrillic lookalikes, indicating attacker-controlled infrastructure."
 domain,jewishchoice.org,high,2026-10-15T04:00:26.803340+00:00,2026-10-17T20:02:25.870566+00:00,2,,Described as a fraudulent domain created by attackers.
 domain,beenetprotect.com,high,2026-10-17T16:17:16+00:00,2026-10-17T16:17:16+00:00,1,,Used as a command server in malware.
 domain,rank1cdn.com,high,2026-10-17T03:41:48+00:00,2026-10-17T12:32:41.699659+00:00,2,,Domain identified as malicious and recommended to be blocked to prevent malware activity
@@ -91,7 +109,6 @@ domain,sunpass.com-tyjr.cc,high,2026-10-14T16:09:54.980926+00:00,2026-10-15T17:1
 domain,uhlkg.cn,high,2026-10-14T16:09:54.980926+00:00,2026-10-15T17:11:30.137373+00:00,1,,Domain used in phishing campaigns as part of attacker-controlled infrastructure.
 domain,zjkso.cn,high,2026-10-14T16:09:54.980926+00:00,2026-10-15T17:11:30.137373+00:00,1,,Domain used in phishing campaigns as part of attacker-controlled infrastructure.
 domain,ossapi.haoeryu.top,high,2026-10-14T16:09:56.765992+00:00,2026-10-15T17:11:28.685738+00:00,1,,Domain used for storing content related to phishing kit.
-domain,mtrtb.com,high,2026-10-15T12:11:48.548042+00:00,2026-10-15T16:50:24+00:00,3,,Part of Discover-Tech's infrastructure for ad bidding data
 domain,777traffget.site,high,2026-10-15T15:12:24.931033+00:00,2026-10-15T15:12:24.931033+00:00,1,,Listed as historical C2 infrastructure for malware
 domain,cartoonmines.com,high,2026-10-15T15:12:24.931033+00:00,2026-10-15T15:12:24.931033+00:00,1,,Used in redirect scripts for malicious traffic
 domain,distie.shop,high,2026-10-15T15:12:24.931033+00:00,2026-10-15T15:12:24.931033+00:00,1,,Listed as historical C2 infrastructure for malware
@@ -115,15 +132,6 @@ domain,roi777.online,high,2026-10-15T15:12:22.476814+00:00,2026-10-15T15:12:22.4
 domain,trixsolvesxa.shop,high,2026-10-15T15:12:22.476814+00:00,2026-10-15T15:12:22.476814+00:00,1,,Listed as a Hotejka affiliate domain
 domain,usa.on1xvpn.com,high,2026-10-15T15:12:22.476814+00:00,2026-10-15T15:12:22.476814+00:00,1,,Hotejka On1x VPN endpoint
 domain,zylvantrexor.lol,high,2026-10-15T15:12:22.476814+00:00,2026-10-15T15:12:22.476814+00:00,1,,Listed as a Hotejka affiliate domain
-domain,cn.druid.mtrtb.com,high,2026-10-15T12:11:48.548042+00:00,2026-10-15T12:11:48.548042+00:00,1,,Part of Discover-Tech's infrastructure for ad bidding data
-domain,events-ui.discover-tech.io,high,2026-10-15T12:11:48.548042+00:00,2026-10-15T12:11:48.548042+00:00,1,,Part of Discover-Tech's infrastructure for app deployment
-domain,fearevolve.com,high,2026-10-15T12:11:48.548042+00:00,2026-10-15T12:11:48.548042+00:00,1,,Listed as a C&C server used in the attack
-domain,insightenterprisells.com,high,2026-10-15T12:11:48.548042+00:00,2026-10-15T12:11:48.548042+00:00,1,,Listed as a C&C server used in the attack
-domain,jobmarcher.com,high,2026-10-15T12:11:48.548042+00:00,2026-10-15T12:11:48.548042+00:00,1,,Listed as a C&C server used in the attack
-domain,keyadapter.com,high,2026-10-15T12:11:48.548042+00:00,2026-10-15T12:11:48.548042+00:00,1,,Listed as a validator server used by Candiru
-domain,plasticbells.com,high,2026-10-15T12:11:48.548042+00:00,2026-10-15T12:11:48.548042+00:00,1,,Listed as a C&C server used in the attack
-domain,ppv2.mtrtb.com,high,2026-10-15T12:11:48.548042+00:00,2026-10-15T12:11:48.548042+00:00,1,,Part of Discover-Tech's infrastructure for ad bidding data
-domain,sharethere.net,high,2026-10-15T12:11:48.548042+00:00,2026-10-15T12:11:48.548042+00:00,1,,Listed as a validator server used by Candiru
 domain,sincereaccertain.com,high,2026-10-15T12:11:48.548042+00:00,2026-10-15T12:11:48.548042+00:00,1,,Linked to Discover-Tech ads and infrastructure
 domain,dobeqnesmot.cc,high,2026-10-15T10:13:11+00:00,2026-10-15T10:13:11+00:00,1,,Listed as a gate URL for Infostealer.Aoki
 domain,neihite.cc,high,2026-10-15T10:13:11+00:00,2026-10-15T10:13:11+00:00,1,,Listed as a gate URL for Infostealer.Aoki
@@ -938,7 +946,6 @@ domain,5yotmxcc54l9xda.ru,high,2026-09-09T05:43:12+00:00,2026-09-09T05:43:12+00:
 domain,ejntin6hkjt7gj2.ru,high,2026-09-09T05:43:12+00:00,2026-09-09T05:43:12+00:00,1,,Used in XCSSET malware campaign
 domain,qdgs232i-q.ru,high,2026-09-09T05:43:12+00:00,2026-09-09T05:43:12+00:00,1,,Used as a C2 domain in a malware campaign
 domain,niestools.com,high,2026-09-04T11:00:15+00:00,2026-09-08T16:58:55+00:00,2,,Described as private infrastructure used by attackers
-domain,9i6pokerdepot.com,high,2026-09-08T13:01:18.371466+00:00,2026-09-08T13:01:18.371466+00:00,1,,Used as a sending domain in a phishing campaign
 domain,hagaseca.com,high,2026-09-08T11:18:18.463595+00:00,2026-09-08T11:18:18.463595+00:00,1,,Dedicated domain used by THost9 as attacker infrastructure
 domain,pleasedonthackmyserver.com,high,2026-09-08T11:18:18.463595+00:00,2026-09-08T11:18:18.463595+00:00,1,,Subdomain used by THost4 as part of attacker infrastructure
 domain,jenniferwelsh.com,high,2026-09-08T10:17:00.157905+00:00,2026-09-08T10:17:00.157905+00:00,1,,Domain used for hosting malicious payloads as per context
