@@ -1,35 +1,77 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason
-sha256,53ac4e570f6d95181ca96c906fb46691f5eac0daf7eabe245804c59803b3be94,high,2026-10-19T02:02:55.706732+00:00,2026-10-19T02:02:55.706732+00:00,1,,Listed as a hash of a malicious file in the context.
+sha256,2d3c618b21a7e2f8bcd735da188e44a7609ff3f204832dd0781cd09e4388c9db,high,2026-10-20T03:02:19.067056+00:00,2026-10-20T03:02:19.067056+00:00,1,,Listed as a malicious file hash in a threat report
+sha256,5712ef510481f15fe8b18fdd10b73026d57cb3d9d151878a692358b99a464441,high,2026-10-20T03:02:19.067056+00:00,2026-10-20T03:02:19.067056+00:00,1,,Listed as a malicious file hash in a threat report
+sha256,68938fb428f2bcfef4ede62f7b29cd0f15f37ed59e94462c099f2ca64e36baa7,high,2026-10-20T03:02:19.067056+00:00,2026-10-20T03:02:19.067056+00:00,1,,Listed as a malicious file hash in a threat report
+sha256,b20f39fc00d242e706b6c30367ad811c676e0575050a4ec2f30104b696944b49,high,2026-10-20T03:02:19.067056+00:00,2026-10-20T03:02:19.067056+00:00,1,,Listed as a malicious file hash in a threat report
+sha256,e546b10aee5edc754da4f9b0baace00392257121911f630145078eafad1e6bd9,high,2026-10-20T03:02:19.067056+00:00,2026-10-20T03:02:19.067056+00:00,1,,Listed as a malicious file hash in a threat report
+md5,01e077f41c42710c07820d85fff21c63,high,2026-10-15T15:12:24.931033+00:00,2026-10-19T22:38:04.235893+00:00,1,,Used in C2 endpoint URL for Help TDS
+md5,153d4f720470d9e7a3e895c70153e7cd,high,2026-10-15T15:12:24.931033+00:00,2026-10-19T22:38:04.235893+00:00,1,,Used in C2 endpoint URL for Help TDS
+md5,57ae14f08ba34083309153a81162b2f3,high,2026-10-15T15:12:24.931033+00:00,2026-10-19T22:38:04.235893+00:00,1,,Used in C2 endpoint URL for Help TDS
+md5,738dd3a8d3649a9131aafdde64b25464,high,2026-10-15T15:12:24.931033+00:00,2026-10-19T22:38:04.235893+00:00,1,,Used in C2 endpoint URL for Help TDS
+sha256,1a4d97a45193e058dd07b0d3aa45bf5eda42fffa409cb0b41f1bd53d1bf416b8,high,2026-10-15T15:12:24.931033+00:00,2026-10-19T22:38:04.235893+00:00,1,,Listed as Help TDS campaign malware sample
+sha256,4a8710c179debc56e78f2743826cb0482f3c499c887f6cc1df82cee9c8a6a33e,high,2026-10-15T15:12:24.931033+00:00,2026-10-19T22:38:04.235893+00:00,1,,Listed as Help TDS campaign malware sample
+sha256,54a44443c717f705e47aa0edd10704d024c2d02db1bae9bfaf6f42db91c7c1c0,high,2026-10-15T15:12:24.931033+00:00,2026-10-19T22:38:04.235893+00:00,1,,Listed as Help TDS campaign malware sample
+sha256,89a3bdfe7072f226134dec05f1281508bdfc106f9a1c8afcc477d19ef9b9a1ea,high,2026-10-15T15:12:24.931033+00:00,2026-10-19T22:38:04.235893+00:00,1,,Listed as Help TDS campaign malware sample
+sha256,b3d0517a360b283c671bcbb8c09f517e9aa5a4c402c4d2c029059db55fc6601c,high,2026-10-15T15:12:24.931033+00:00,2026-10-19T22:38:04.235893+00:00,1,,Listed as Help TDS campaign malware sample
+sha256,e889b2a46312291db487da925dea5844c386e8e439b2f87a2f798544e0a7c4f0,high,2026-10-15T15:12:24.931033+00:00,2026-10-19T22:38:04.235893+00:00,1,,Listed as Help TDS campaign malware sample
+sha256,11e576df44e9c9eef72b9f5b699291bcdb200a19130778ec231e5b0987b913ad,high,2026-10-16T19:33:45.256068+00:00,2026-10-19T21:31:29.601518+00:00,1,,Listed as a malicious file hash for the CROSSROAD Loader.
+sha256,14b31918075e6130b9123158743db0a81e2d7bfcf6d39731ee7d9200a98cd591,high,2026-10-16T19:33:45.256068+00:00,2026-10-19T21:31:29.601518+00:00,1,,Listed as a malicious file hash for NitroPromotion.exe.
+sha256,4b4d25b3501519476f9a62a88a781e4f446f669280eb5e98c6b96eb6d3743431,high,2026-10-16T19:33:45.256068+00:00,2026-10-19T21:31:29.601518+00:00,1,,Listed as a malicious file hash for metadata.dat (ChaCha20 Payload).
+sha256,4c0a75e0f62ddc0bb350c224fe996f3b2ab08dcb0d288231c61ffe9406c7045b,high,2026-10-16T19:33:45.256068+00:00,2026-10-19T21:31:29.601518+00:00,1,,Listed as a malicious file hash for config.zip (Python Bytecode Archive).
+sha256,5837bc26a73cfb46ffd466cf889f03ce2f6a48f1f3fd42ec8be22189d51cab1e,high,2026-10-16T19:33:45.256068+00:00,2026-10-19T21:31:29.601518+00:00,1,,Listed as a malicious file hash for BlkScrDl.dll.
+sha256,6670ab3f0434a42f33416f8354150b1701e7615f3cfa2f1635e54f8df0f6eec7,high,2026-10-16T19:33:45.256068+00:00,2026-10-19T21:31:29.601518+00:00,1,,Listed as a malicious file hash for upgrade-now.zip (May 20 CROSSROAD Archive).
+sha256,7b252be444dee2fb2a57043a823dc5b5e1fae970aea91ee2c8339aa70329969d,high,2026-10-16T19:33:45.256068+00:00,2026-10-19T21:31:29.601518+00:00,1,,Listed as a malicious file hash for abe.exe (Secondary Payload).
+sha256,8c8090aca8ddb1cf968d2b810457e0cfce97c03cd721f70d2eca7f37f2681fc4,high,2026-10-16T19:33:45.256068+00:00,2026-10-19T21:31:29.601518+00:00,1,,Listed as a malicious file hash for Eztwain4.dll (ADAPTAGENT Helper DLL).
+sha256,8fbaa74b27dc1e89abfc694e834378746f0ad37a688098c5f8f511410157c8b8,high,2026-10-16T19:33:45.256068+00:00,2026-10-19T21:31:29.601518+00:00,1,,Listed as a malicious file hash for RuntimeComponent.dll (Custom PocketPy Engine).
+sha256,9a58e8f49edf5644e5728f74cf36f560d3d486fa51db4db69d927963c7aca450,high,2026-10-16T19:33:45.256068+00:00,2026-10-19T21:31:29.601518+00:00,1,,Listed as a malicious file hash for upgrade-now.exe (July 16 CROSSROAD Loader).
+sha256,9ed503c6a9a3a493fb859401e9ed469eed77ab9927341964d6dbfbfa6255aeba,high,2026-10-16T19:33:45.256068+00:00,2026-10-19T21:31:29.601518+00:00,1,,Listed as a malicious file hash for upgrade-now.zip (July 20 CROSSROAD Archive).
+sha256,b360b6db0c2b668317edc1504a7c39ef047f0d925c8f113b521f6724c157ae21,high,2026-10-16T19:33:45.256068+00:00,2026-10-19T21:31:29.601518+00:00,1,,Listed as a malicious file hash for upgrade-now.exe (July 20 CROSSROAD Loader).
+sha256,d167bc898e856da8a4003cb4dfc7de55fea109eee3cd64fc8999710314109464,high,2026-10-16T19:33:45.256068+00:00,2026-10-19T21:31:29.601518+00:00,1,,Listed as a malicious file hash for component.zip / en.zip (SHINYROAD Package).
+sha1,0dcc38fc90eca38810805bb03b9f6bb44945bbc0,high,2026-10-12T10:09:46.207923+00:00,2026-10-19T21:00:44.215892+00:00,1,,Listed as a malicious Hugging Face model file.
+sha1,1733506c584dd6801accf7f58dc92a4a1285db1f,high,2026-10-12T10:09:46.207923+00:00,2026-10-19T21:00:44.215892+00:00,1,,Listed as a malicious Hugging Face model file.
+sha1,79601f536b1b351c695507bf37236139f42201b0,high,2026-10-12T10:09:46.207923+00:00,2026-10-19T21:00:44.215892+00:00,1,,Listed as a malicious Hugging Face model file.
+sha1,85c898c5db096635a21a9e8b5be0a58648205b47,high,2026-10-12T10:09:46.207923+00:00,2026-10-19T21:00:44.215892+00:00,1,,Listed as a malicious Hugging Face model file.
+sha256,2385b29489cd9e35f92c072780f903ae2e517ed422eae67246ae50a5cc738a0e,high,2026-10-19T21:00:42.918974+00:00,2026-10-19T21:00:42.918974+00:00,1,,Listed as a malicious binary hash in a threat report
+sha256,0290c2baa363eac72ef2b6891bef1c9c8b4774d5b95d14f4871bde6094fdacde,high,2026-10-19T20:02:56+00:00,2026-10-19T20:02:56+00:00,1,,Listed as a malware file hash in a campaign report
+sha256,1821a58e2a851acd1a608a77ce2f77817a0b7b6ef344b9889c8f8728e62969ec,high,2026-10-19T20:02:56+00:00,2026-10-19T20:02:56+00:00,1,,Listed as a malware file hash in a campaign report
+sha256,2cdf3f2a3f10f0e12f00f2267907d44796107ab4aececdac520bba13e012b47a,high,2026-10-19T20:02:56+00:00,2026-10-19T20:02:56+00:00,1,,Listed as a malware file hash in a campaign report
+sha256,43dc88fd18501be3dbd6d7f1755e77386d081dd41cef82bc514d39991ae69c49,high,2026-10-19T20:02:56+00:00,2026-10-19T20:02:56+00:00,1,,Listed as a malware file hash in a campaign report
+sha256,54ca7b2da87852a5d1fd7bde644027f84557db4d45fbb25cb2d135a3497d8d5c,high,2026-10-19T20:02:56+00:00,2026-10-19T20:02:56+00:00,1,,Confirmed SHA-256 hash of a malware file observed in the campaign
+sha256,99a7fb44d1502938a40b3f663f4e5771b5cf741bcbaec58d7dda0b5066b5a0a5,high,2026-10-19T20:02:56+00:00,2026-10-19T20:02:56+00:00,1,,Confirmed SHA-256 hash of a malware file observed in the campaign
+sha256,56a892d80096a9db4ca473a9c3109729c60a5ba901d6ba65948bdb1f4a6fb186,high,2026-10-19T15:48:23+00:00,2026-10-19T15:48:23+00:00,1,,Listed as a malicious file hash in a threat report
+sha256,6774bfed99da38cec82e721de4bd64a67db7840efadcc71e7df02eb6f0a03c44,high,2026-10-19T15:48:23+00:00,2026-10-19T15:48:23+00:00,1,,Listed as a malicious file hash in a threat report
+sha256,8e8b9532ce40eacfe1b4cf2b11241878b70b910aabd90b453b1460df19b51a4d,high,2026-10-19T15:48:23+00:00,2026-10-19T15:48:23+00:00,1,,Listed as a malicious file hash in a threat report
+sha256,a0ba4e1ad622d9c3d950b4156d4430812d05bee216ab22c3804a9f7a80535556,high,2026-10-19T15:48:23+00:00,2026-10-19T15:48:23+00:00,1,,Listed as a malicious file hash in a threat report
+sha256,eaf0086237879bbaac00a5874c0e2ff84deede1ba10e6b706e2288fd3a31cdde,high,2026-10-19T15:48:23+00:00,2026-10-19T15:48:23+00:00,1,,Listed as a malicious file hash in a threat report
+sha256,ffe052fc50271e7739d458b155df790438776032bfd125b974735e1dd9c0b138,high,2026-10-19T15:48:23+00:00,2026-10-19T15:48:23+00:00,1,,Listed as a malicious file hash in a threat report
+sha256,2e5a56beb63f21d9347310412ae6efb29fd3db2d3a3fc0798865a29a3c578d35,high,2026-08-13T15:08:04.938762+00:00,2026-10-19T15:16:44+00:00,2,,SHA-256 hash identified as a GHOSTBLADE malware sample.
+sha256,68c20885a3e234c9eb1e4f87a7013298923646f9c50dfdad97a9e35d989119f8,high,2026-10-19T14:05:31.295867+00:00,2026-10-19T14:05:31.295867+00:00,1,,Listed as a malicious script hash in a threat report
+sha256,6b159fd26f574345a095aed40e27b73c3a22d35c7de5464436810d9cd89223f2,high,2026-10-19T14:05:31.295867+00:00,2026-10-19T14:05:31.295867+00:00,1,,Listed as a malicious script hash in a threat report
+sha256,e6bdd7e782ef2fbf42209509993811a63ae19f1580d2453b8324b87db5ad1449,high,2026-10-19T14:05:31.295867+00:00,2026-10-19T14:05:31.295867+00:00,1,,Listed as a malicious script hash in a threat report
+sha256,127ae4cad80b6605157ca2a1feada8a235e16aacc5d2119337a98115a4e13274,high,2026-10-16T10:31:51+00:00,2026-10-19T13:35:56.267043+00:00,2,,SHA256 hash of a macOS Rust executable used in malicious activity
+sha256,20f0a401676292d4ae34932e61f34afa97bcfc47ee517cda2afeb7222264a193,high,2026-10-16T10:31:51+00:00,2026-10-19T13:35:56.267043+00:00,2,,SHA256 hash of a macOS ARM64 Bun executable used in malicious activity
+sha256,42a760b15fea7c9af718ee45386c1c3ea1bec9e30c95d16c287bcc8b2efdc72e,high,2026-10-16T10:31:51+00:00,2026-10-19T13:35:56.267043+00:00,2,,SHA256 hash of a macOS ARM64 Bun executable used in malicious activity
+sha256,5ee7145061f05779f7f6f9b72e216713d17d53e183a92f408bfbbc44f2bfb95d,high,2026-10-16T10:31:51+00:00,2026-10-19T13:35:56.267043+00:00,2,,SHA256 hash of a Windows Bun executable used in malicious activity
+sha256,68f5a00eafa8ecebf5d93328e0fec23b24d6f91808c8384db002946a13656c71,high,2026-10-19T13:35:56.267043+00:00,2026-10-19T13:35:56.267043+00:00,1,,SHA256 hash of a Python second-stage loader used in malicious activity
+sha256,985829083f3937df6c82419216f7697afae0caac8efca6257a756066fe2c0abb,high,2026-10-16T10:31:51+00:00,2026-10-19T13:35:56.267043+00:00,2,,SHA256 hash of a Windows Bun executable used in malicious activity
+sha256,a50cdb508d13884630945a98eea0615b866d938eb0a16c5d958e6c8c181a6df8,high,2026-10-19T13:35:56.267043+00:00,2026-10-19T13:35:56.267043+00:00,1,,SHA256 hash of a macOS Rust executable used in malicious activity
+sha256,ed5cb4af1d2cb067b8d23783ebf05d70278728462ba4f1bf29da0a3a41efc35e,high,2026-10-19T13:35:56.267043+00:00,2026-10-19T13:35:56.267043+00:00,1,,SHA256 hash of an encrypted third-stage payload used in malicious activity
+sha256,ee8cd9aba420f1b26b5d43e5bcdd6025a277b4946bb5daf76ab45c0e5f7ecd0b,high,2026-10-19T13:35:56.267043+00:00,2026-10-19T13:35:56.267043+00:00,1,,SHA256 hash of a Python second-stage loader used in malicious activity
+md5,41e66c27fc6202f332e8e0a33aa5f519,high,2026-10-19T08:44:39+00:00,2026-10-19T08:44:39+00:00,1,,Listed as a malicious file hash in a threat report
+md5,b97643bd45522efe9eea175d897787d3,high,2026-10-19T08:44:39+00:00,2026-10-19T08:44:39+00:00,1,,Listed as a malicious file hash in a threat report
+sha256,53ac4e570f6d95181ca96c906fb46691f5eac0daf7eabe245804c59803b3be94,high,2026-10-19T02:02:55.706732+00:00,2026-10-19T02:02:55.706732+00:00,1,,Hash of a malicious file used in the attack.
 sha256,a0dc80a37eb7e2716c02a94adc8df9baedec192a77bde31669faed228d9ff526,high,2026-10-19T00:41:00.584259+00:00,2026-10-19T00:41:00.584259+00:00,1,,Listed as an IOC in the context of a ransomware incident.
 sha256,255869de85e2a171993fc5eb8a556d873a1b8966e040f6f55926f2fa2d595cc8,high,2026-10-15T12:11:48.548042+00:00,2026-10-18T14:30:37.759146+00:00,2,,SHA256 hash of a Candiru spyware sample
 sha256,09d4607941e458f6dbb6be17825641d863c0b37c185027984e137d8a67e919d8,high,2026-10-18T12:59:30+00:00,2026-10-18T12:59:30+00:00,1,,"Detected by a YARA rule in a VirusTotal retrohunt, indicating malware."
 sha256,3310c1a9bfe6115e49d8ac372cef5f460850da05138340107e66b958a6b5bca6,high,2026-10-18T12:59:30+00:00,2026-10-18T12:59:30+00:00,1,,"Detected by a YARA rule in a VirusTotal retrohunt, indicating malware."
-sha256,11e576df44e9c9eef72b9f5b699291bcdb200a19130778ec231e5b0987b913ad,high,2026-10-16T19:33:45.256068+00:00,2026-10-16T19:33:45.256068+00:00,1,,Listed as a malicious file hash for the CROSSROAD Loader.
-sha256,14b31918075e6130b9123158743db0a81e2d7bfcf6d39731ee7d9200a98cd591,high,2026-10-16T19:33:45.256068+00:00,2026-10-16T19:33:45.256068+00:00,1,,Listed as a malicious file hash for NitroPromotion.exe.
-sha256,4b4d25b3501519476f9a62a88a781e4f446f669280eb5e98c6b96eb6d3743431,high,2026-10-16T19:33:45.256068+00:00,2026-10-16T19:33:45.256068+00:00,1,,Listed as a malicious file hash for metadata.dat (ChaCha20 Payload).
-sha256,4c0a75e0f62ddc0bb350c224fe996f3b2ab08dcb0d288231c61ffe9406c7045b,high,2026-10-16T19:33:45.256068+00:00,2026-10-16T19:33:45.256068+00:00,1,,Listed as a malicious file hash for config.zip (Python Bytecode Archive).
-sha256,5837bc26a73cfb46ffd466cf889f03ce2f6a48f1f3fd42ec8be22189d51cab1e,high,2026-10-16T19:33:45.256068+00:00,2026-10-16T19:33:45.256068+00:00,1,,Listed as a malicious file hash for BlkScrDl.dll.
-sha256,6670ab3f0434a42f33416f8354150b1701e7615f3cfa2f1635e54f8df0f6eec7,high,2026-10-16T19:33:45.256068+00:00,2026-10-16T19:33:45.256068+00:00,1,,Listed as a malicious file hash for upgrade-now.zip (May 20 CROSSROAD Archive).
-sha256,7b252be444dee2fb2a57043a823dc5b5e1fae970aea91ee2c8339aa70329969d,high,2026-10-16T19:33:45.256068+00:00,2026-10-16T19:33:45.256068+00:00,1,,Listed as a malicious file hash for abe.exe (Secondary Payload).
-sha256,8c8090aca8ddb1cf968d2b810457e0cfce97c03cd721f70d2eca7f37f2681fc4,high,2026-10-16T19:33:45.256068+00:00,2026-10-16T19:33:45.256068+00:00,1,,Listed as a malicious file hash for Eztwain4.dll (ADAPTAGENT Helper DLL).
-sha256,8fbaa74b27dc1e89abfc694e834378746f0ad37a688098c5f8f511410157c8b8,high,2026-10-16T19:33:45.256068+00:00,2026-10-16T19:33:45.256068+00:00,1,,Listed as a malicious file hash for RuntimeComponent.dll (Custom PocketPy Engine).
-sha256,9a58e8f49edf5644e5728f74cf36f560d3d486fa51db4db69d927963c7aca450,high,2026-10-16T19:33:45.256068+00:00,2026-10-16T19:33:45.256068+00:00,1,,Listed as a malicious file hash for upgrade-now.exe (July 16 CROSSROAD Loader).
-sha256,9ed503c6a9a3a493fb859401e9ed469eed77ab9927341964d6dbfbfa6255aeba,high,2026-10-16T19:33:45.256068+00:00,2026-10-16T19:33:45.256068+00:00,1,,Listed as a malicious file hash for upgrade-now.zip (July 20 CROSSROAD Archive).
-sha256,b360b6db0c2b668317edc1504a7c39ef047f0d925c8f113b521f6724c157ae21,high,2026-10-16T19:33:45.256068+00:00,2026-10-16T19:33:45.256068+00:00,1,,Listed as a malicious file hash for upgrade-now.exe (July 20 CROSSROAD Loader).
-sha256,d167bc898e856da8a4003cb4dfc7de55fea109eee3cd64fc8999710314109464,high,2026-10-16T19:33:45.256068+00:00,2026-10-16T19:33:45.256068+00:00,1,,Listed as a malicious file hash for component.zip / en.zip (SHINYROAD Package).
 sha256,d7cfa659d224928e7b72c806dcf2169594d993ecf6422e6efcdcf251190f2e7c,high,2026-10-16T19:33:45.256068+00:00,2026-10-16T19:33:45.256068+00:00,1,,Listed as a malicious file hash in a threat report
 sha256,1e672d038cebc619d93186418fa98f6499dbdb9cfdfac54f366c61a4a4ee4362,high,2026-10-16T13:35:15+00:00,2026-10-16T13:35:15+00:00,1,,Listed as a malicious file hash in a threat report
 sha256,006510ce1da2b7410376f0788c19e55616eb4bcc30072d25b7d0871dc32aa11c,high,2026-10-16T10:31:51+00:00,2026-10-16T10:31:51+00:00,1,,Listed as a malicious file hash in a threat report
 sha256,0d727a4ef1178e767afdd0080ba1ebda0f24ac52b639f0501021affd8f88d26a,high,2026-10-16T10:31:51+00:00,2026-10-16T10:31:51+00:00,1,,Listed as a malicious file hash in a threat report
-sha256,127ae4cad80b6605157ca2a1feada8a235e16aacc5d2119337a98115a4e13274,high,2026-10-16T10:31:51+00:00,2026-10-16T10:31:51+00:00,1,,Listed as a malicious file hash in a threat report
-sha256,20f0a401676292d4ae34932e61f34afa97bcfc47ee517cda2afeb7222264a193,high,2026-10-16T10:31:51+00:00,2026-10-16T10:31:51+00:00,1,,Listed as a malicious file hash in a threat report
-sha256,42a760b15fea7c9af718ee45386c1c3ea1bec9e30c95d16c287bcc8b2efdc72e,high,2026-10-16T10:31:51+00:00,2026-10-16T10:31:51+00:00,1,,Listed as a malicious file hash in a threat report
-sha256,5ee7145061f05779f7f6f9b72e216713d17d53e183a92f408bfbbc44f2bfb95d,high,2026-10-16T10:31:51+00:00,2026-10-16T10:31:51+00:00,1,,Listed as a malicious file hash in a threat report
 sha256,63959ef6309cd01b5d3c7262a3a41394dca2db2dc74bd030a517b7e23a2c3fef,high,2026-10-16T10:31:51+00:00,2026-10-16T10:31:51+00:00,1,,Listed as a malicious file hash in a threat report
 sha256,77c8266935bc040c992ab70abd402bd203b9c12e7548c80b84fd21308c250f0e,high,2026-10-16T10:31:51+00:00,2026-10-16T10:31:51+00:00,1,,Listed as a malicious file hash in a threat report
 sha256,77cc246272f2af21b64bbc6c6173d57affee97eb0ccf747d89492d06d4c52865,high,2026-10-16T10:31:51+00:00,2026-10-16T10:31:51+00:00,1,,Listed as a malicious file hash in a threat report
 sha256,882b1aa5432509df9b1ac29b6f987a5dd70c8f46009237de956275a58536f470,high,2026-10-16T10:31:51+00:00,2026-10-16T10:31:51+00:00,1,,Listed as a malicious file hash in a threat report
-sha256,985829083f3937df6c82419216f7697afae0caac8efca6257a756066fe2c0abb,high,2026-10-16T10:31:51+00:00,2026-10-16T10:31:51+00:00,1,,Listed as a malicious file hash in a threat report
 sha256,e86f7ba0413a3a4b1d7e1a275b3d1ef62345c9d3fd761635ff188119b8122c85,high,2026-10-16T10:31:51+00:00,2026-10-16T10:31:51+00:00,1,,Listed as a malicious file hash in a threat report
 sha256,1b3c95cf2a030df15d1474af2ae96bfe9a6ed160319c1a8782237206035d82c7,high,2026-10-15T19:11:46.826647+00:00,2026-10-16T08:01:09.321258+00:00,1,,Listed as malware sample
 sha256,22255c3c488d4c92ea3567d1032e7a7c790a22cde989a8f0eb257c2d6d811ed4,high,2026-10-15T19:11:46.826647+00:00,2026-10-16T08:01:09.321258+00:00,1,,Listed as malware sample
@@ -187,16 +229,6 @@ sha1,ff49a673aac7c53a31e5aec7c6ea3f6aac010b05,high,2026-10-15T17:54:56+00:00,202
 sha256,becef815900330a003675673d1b0bdc907d8c2ab3d6779079a3ad246ad6125c2,high,2026-10-15T17:54:56+00:00,2026-10-15T17:54:56+00:00,1,,Listed as analyzed malware sample
 sha256,65f0a95b24e30305146346cbc2452cfabadab9e1ca35053e1134b67c38919577,high,2026-10-15T17:14:14.761759+00:00,2026-10-15T17:14:14.761759+00:00,1,,SHA-256 hash of a worm used in the attack
 sha256,a84bd81adecaf93be6fe963765bf1686f6b6bcefac1b8a6124bc2841053fd265,high,2026-10-15T17:14:14.761759+00:00,2026-10-15T17:14:14.761759+00:00,1,,Listed as a typosquat package
-md5,01e077f41c42710c07820d85fff21c63,high,2026-10-15T15:12:24.931033+00:00,2026-10-15T15:12:24.931033+00:00,1,,Used in C2 endpoint URL for Help TDS
-md5,153d4f720470d9e7a3e895c70153e7cd,high,2026-10-15T15:12:24.931033+00:00,2026-10-15T15:12:24.931033+00:00,1,,Used in C2 endpoint URL for Help TDS
-md5,57ae14f08ba34083309153a81162b2f3,high,2026-10-15T15:12:24.931033+00:00,2026-10-15T15:12:24.931033+00:00,1,,Used in C2 endpoint URL for Help TDS
-md5,738dd3a8d3649a9131aafdde64b25464,high,2026-10-15T15:12:24.931033+00:00,2026-10-15T15:12:24.931033+00:00,1,,Used in C2 endpoint URL for Help TDS
-sha256,1a4d97a45193e058dd07b0d3aa45bf5eda42fffa409cb0b41f1bd53d1bf416b8,high,2026-10-15T15:12:24.931033+00:00,2026-10-15T15:12:24.931033+00:00,1,,Listed as Help TDS campaign malware sample
-sha256,4a8710c179debc56e78f2743826cb0482f3c499c887f6cc1df82cee9c8a6a33e,high,2026-10-15T15:12:24.931033+00:00,2026-10-15T15:12:24.931033+00:00,1,,Listed as Help TDS campaign malware sample
-sha256,54a44443c717f705e47aa0edd10704d024c2d02db1bae9bfaf6f42db91c7c1c0,high,2026-10-15T15:12:24.931033+00:00,2026-10-15T15:12:24.931033+00:00,1,,Listed as Help TDS campaign malware sample
-sha256,89a3bdfe7072f226134dec05f1281508bdfc106f9a1c8afcc477d19ef9b9a1ea,high,2026-10-15T15:12:24.931033+00:00,2026-10-15T15:12:24.931033+00:00,1,,Listed as Help TDS campaign malware sample
-sha256,b3d0517a360b283c671bcbb8c09f517e9aa5a4c402c4d2c029059db55fc6601c,high,2026-10-15T15:12:24.931033+00:00,2026-10-15T15:12:24.931033+00:00,1,,Listed as Help TDS campaign malware sample
-sha256,e889b2a46312291db487da925dea5844c386e8e439b2f87a2f798544e0a7c4f0,high,2026-10-15T15:12:24.931033+00:00,2026-10-15T15:12:24.931033+00:00,1,,Listed as Help TDS campaign malware sample
 sha256,039240551f88b0064b2615dffdc1321b1e7c58e3f617ac138a65a6d59400b331,high,2026-10-15T10:13:11+00:00,2026-10-15T10:13:11+00:00,1,,Listed as Infostealer.Aoki malware sample
 sha256,07bc2e3a1d14743cc44f1dc4c78d15d0f2b458b39fb48422b13df40fc662ba21,high,2026-10-15T10:13:11+00:00,2026-10-15T10:13:11+00:00,1,,Listed as Infostealer.Aoki malware sample
 sha256,0adc8e83b2416c275b1283916d70568faddeb6d718eb45f9addfb0938db245b3,high,2026-10-15T10:13:11+00:00,2026-10-15T10:13:11+00:00,1,,Listed as Infostealer.Aoki malware sample
@@ -490,10 +522,6 @@ sha256,d737637ee5f121d11a6f3295bf0d51b06218812b5ec04fe9ea484921e905a207,high,202
 sha256,d9ab6cfa60cc75785e31ca9b5a31dae1c33022bdb90cb382ef3ca823c627590d,high,2026-10-12T22:01:13.867245+00:00,2026-10-12T22:01:13.867245+00:00,1,,Listed as a Lumma Stealer payload URL.
 sha256,e726d3324ca8b9a8da4d317c5d749dd0ad58fd447a2eb5eee75ef14824339cd5,high,2026-10-12T22:01:13.867245+00:00,2026-10-12T22:01:13.867245+00:00,1,,Listed as a suspected AsyncRAT C2 server.
 sha256,6fab94577364beec314afae3b082dd680933f08a8349b9f35b92667e8231b501,high,2026-10-07T16:33:59.128067+00:00,2026-10-12T13:01:33.020113+00:00,1,,SHA256 hash of a PoeLLM malware sample
-sha1,0dcc38fc90eca38810805bb03b9f6bb44945bbc0,high,2026-10-12T10:09:46.207923+00:00,2026-10-12T10:09:46.207923+00:00,1,,Listed as a malicious Hugging Face model file.
-sha1,1733506c584dd6801accf7f58dc92a4a1285db1f,high,2026-10-12T10:09:46.207923+00:00,2026-10-12T10:09:46.207923+00:00,1,,Listed as a malicious Hugging Face model file.
-sha1,79601f536b1b351c695507bf37236139f42201b0,high,2026-10-12T10:09:46.207923+00:00,2026-10-12T10:09:46.207923+00:00,1,,Listed as a malicious Hugging Face model file.
-sha1,85c898c5db096635a21a9e8b5be0a58648205b47,high,2026-10-12T10:09:46.207923+00:00,2026-10-12T10:09:46.207923+00:00,1,,Listed as a malicious Hugging Face model file.
 sha256,bacddaa7168afc28ae53a3cabb93becef60051b1250482ecd0c804e7d110c32b,high,2026-10-11T21:30:32.301370+00:00,2026-10-11T21:30:32.301370+00:00,1,,Identified as a malware sample related to Vidar Stealer
 sha256,5c4e263546fb21f8fe8732789a5b6583eaa8ae11ebeef099462a7c9bf50e022d,high,2026-10-05T16:30:57.752378+00:00,2026-10-11T16:02:05.609563+00:00,1,,SHA256 hash listed among malware samples
 sha256,dfba6008a2c828a9cb62342aec53006ae05a60cb8d4c41c3fa216fd727e8c6a3,high,2026-10-05T16:30:57.752378+00:00,2026-10-11T16:02:05.609563+00:00,1,,SHA256 hash listed among malware samples
@@ -1867,7 +1895,6 @@ md5,c0218ece73d9046e25293fbef71bc70c,high,2026-03-05T14:23:07+00:00,2026-08-13T2
 sha256,b59d049c3907273b6f4f9f1eacb69361c0d8367be56ba0d8cd8d9672b40c62f4,high,2026-08-13T16:29:06+00:00,2026-08-13T16:29:06+00:00,1,,Listed among hashes associated with malicious activity
 sha256,ce9e136c693da525d27a60dde053a367ff0df8e95201b51fd1a3b19acc50cac6,high,2026-08-13T16:29:06+00:00,2026-08-13T16:29:06+00:00,1,,Listed as a hash for a malicious DLL.
 sha256,90d78c79fed001f3568b4d4bc7618bd91258c0a8425c9d2d278f7ffa4c9a557a,high,2026-08-13T15:17:43+00:00,2026-08-13T15:17:43+00:00,1,,Listed as Umbral Stealer
-sha256,2e5a56beb63f21d9347310412ae6efb29fd3db2d3a3fc0798865a29a3c578d35,high,2026-08-13T15:08:04.938762+00:00,2026-08-13T15:08:04.938762+00:00,1,,Listed as malware sample in threat report
 sha256,4c0886349e9d348569fffe1b7a31e474d514508bf0cd6f1e5dd99c2a73525e4d,high,2026-08-13T14:41:03+00:00,2026-08-13T14:41:03+00:00,1,,Hash listed among malware samples
 sha256,1774e15e8eb96eb89bc03cb4768fc0620e10c09c5f795297f36dcc2aa5d9dd94,high,2026-08-13T12:20:26+00:00,2026-08-13T12:20:26+00:00,1,,Listed as a dropper in a malware analysis
 sha256,2323b55ea743c813e48689318e8ed54ae838cf9e8a2adbfc2488ea8a36dd0126,high,2026-08-13T12:20:26+00:00,2026-08-13T12:20:26+00:00,1,,Listed as a dropper in a malware analysis

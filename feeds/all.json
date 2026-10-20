@@ -1,7 +1,7 @@
 {
   "feed": "threatcluster-public-iocs",
   "version": 1,
-  "generated_at": "2026-10-19T13:09:57Z",
+  "generated_at": "2026-10-20T11:33:11Z",
   "filters": {
     "confidence": "high",
     "window_days": 30,
@@ -11,34 +11,98 @@
       "domain"
     ]
   },
-  "count": 801,
+  "count": 830,
   "iocs": [
     {
-      "type": "domain",
-      "value": "9i6pokerdepot.com",
+      "type": "ipv4",
+      "value": "108.165.147.64",
       "confidence": "high",
-      "reason": "Used as a sending domain in a phishing campaign",
-      "first_seen": "2026-10-19T06:10:31.007169+00:00",
-      "last_seen": "2026-10-19T06:10:31.007169+00:00",
-      "source_count": 1,
+      "reason": "Identified as a host used by the attacker for operations",
+      "first_seen": "2026-10-13T17:33:11+00:00",
+      "last_seen": "2026-10-20T06:43:30.105344+00:00",
+      "source_count": 4,
       "sources": [
         {
-          "source": "www.microsoft.com",
-          "url": "https://www.microsoft.com/en-us/security/blog/2026/07/23/email-threat-landscape-q2-2026-trends-and-insights",
-          "pub_date": "2026-10-19T06:10:31.007169+00:00"
+          "source": "www.volexity.com",
+          "url": "https://www.volexity.com/blog/2026/10/13/a-series-of-unauthenticated-events-chained-exploitation-of-ivanti-connect-secure-zero-days/",
+          "pub_date": "2026-10-20T06:43:30.105344+00:00"
+        },
+        {
+          "source": "Ccb.Belgium.Be",
+          "url": "https://ccb.belgium.be/advisories/warning-actively-exploited-zero-day-vulnerability-ivanti-connect-secure-allows-remote",
+          "pub_date": "2026-10-14T16:28:35+00:00"
+        },
+        {
+          "source": "Rescana",
+          "url": "https://www.rescana.com/post/ivanti-connect-secure-zero-day-exploit-chain-enables-root-level-rce-and-credential-theft-on-fully-patched-vpn-appliances",
+          "pub_date": "2026-10-14T07:31:12+00:00"
+        },
+        {
+          "source": "Feeds.Feedburner",
+          "url": "https://thehackernews.com/2026/10/attacker-chains-three-ivanti-connect.html",
+          "pub_date": "2026-10-13T17:33:11+00:00"
         }
       ],
-      "tags": []
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2026-104935"
+        },
+        {
+          "type": "campaign",
+          "value": "Chained Exploitation Of Ivanti Connect Secure Zero-Days"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-106042"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-109412"
+        }
+      ]
+    },
+    {
+      "type": "ipv6",
+      "value": "2a09:bac5:4e21:2e3c::49b:9",
+      "confidence": "high",
+      "reason": "Listed as a source address for malicious requests",
+      "first_seen": "2026-10-19T20:02:56+00:00",
+      "last_seen": "2026-10-20T03:02:44.775826+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "wordpress.org",
+          "url": "https://wordpress.org/support/topic/unauthorised-updraftcentral-key-used-to-install-malware-plugins/",
+          "pub_date": "2026-10-20T03:02:44.775826+00:00"
+        },
+        {
+          "source": "Wordfence",
+          "url": "https://www.wordfence.com/blog/2026/10/updraftcentral-connection-key-compromise/",
+          "pub_date": "2026-10-19T20:02:56+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2026-10795"
+        }
+      ]
     },
     {
       "type": "domain",
       "value": "proxystream.st",
       "confidence": "high",
-      "reason": "Referenced as part of command-line arguments in an attack context.",
+      "reason": "Associated with malicious activity and used in attacks",
       "first_seen": "2026-10-18T19:45:05+00:00",
-      "last_seen": "2026-10-18T19:45:05+00:00",
-      "source_count": 1,
+      "last_seen": "2026-10-20T03:02:19.067056+00:00",
+      "source_count": 2,
       "sources": [
+        {
+          "source": "www.boredhackerblog.info",
+          "url": "https://www.boredhackerblog.info/2026/10/plex-vulnerabilities-being-exploited-in.html",
+          "pub_date": "2026-10-20T03:02:19.067056+00:00"
+        },
         {
           "source": "Cordcuttersnews",
           "url": "https://cordcuttersnews.com/plex-media-server-owners-urged-to-update-immediately-after-in-the-wild-exploitation-of-older-installations-turns-your-computer-into-a-zombie/",
@@ -63,6 +127,1499 @@
           "value": "CVE-2026-96656"
         }
       ]
+    },
+    {
+      "type": "ipv4",
+      "value": "217.60.194.116",
+      "confidence": "high",
+      "reason": "Source of malicious file downloads",
+      "first_seen": "2026-10-19T17:34:34+00:00",
+      "last_seen": "2026-10-20T03:02:19.067056+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "www.boredhackerblog.info",
+          "url": "https://www.boredhackerblog.info/2026/10/plex-vulnerabilities-being-exploited-in.html",
+          "pub_date": "2026-10-20T03:02:19.067056+00:00"
+        },
+        {
+          "source": "Thehackernews",
+          "url": "https://thehackernews.com/2026/10/hackers-exploit-plex2shell-flaws-to.html",
+          "pub_date": "2026-10-19T17:34:34+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2026-96651"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-96652"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-96654"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-96655"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "cdn.gotoiphone.com",
+      "confidence": "high",
+      "reason": "Used for C2 communication with the implant",
+      "first_seen": "2026-10-20T01:05:43.294149+00:00",
+      "last_seen": "2026-10-20T01:05:43.294149+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.iverify.com",
+          "url": "https://www.iverify.com/blog/darksword-variant-threat-research",
+          "pub_date": "2026-10-20T01:05:43.294149+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "Coruna"
+        },
+        {
+          "type": "malware",
+          "value": "DarkSword"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "js.gotoiphone.com",
+      "confidence": "high",
+      "reason": "Used for C2 communication with the implant",
+      "first_seen": "2026-10-20T01:05:43.294149+00:00",
+      "last_seen": "2026-10-20T01:05:43.294149+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.iverify.com",
+          "url": "https://www.iverify.com/blog/darksword-variant-threat-research",
+          "pub_date": "2026-10-20T01:05:43.294149+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "Coruna"
+        },
+        {
+          "type": "malware",
+          "value": "DarkSword"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "mzpo30.cam",
+      "confidence": "high",
+      "reason": "Used for C2 communication with the implant",
+      "first_seen": "2026-10-20T01:05:43.294149+00:00",
+      "last_seen": "2026-10-20T01:05:43.294149+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.iverify.com",
+          "url": "https://www.iverify.com/blog/darksword-variant-threat-research",
+          "pub_date": "2026-10-20T01:05:43.294149+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "Coruna"
+        },
+        {
+          "type": "malware",
+          "value": "DarkSword"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "777traffget.site",
+      "confidence": "high",
+      "reason": "Listed as historical C2 infrastructure for malware",
+      "first_seen": "2026-10-19T22:38:04.235893+00:00",
+      "last_seen": "2026-10-19T22:38:04.235893+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.godaddy.com",
+          "url": "https://www.godaddy.com/resources/news/help-tds-malicious-plugins-redirect-tech-support-scams",
+          "pub_date": "2026-10-19T22:38:04.235893+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Help TDS"
+        },
+        {
+          "type": "malware",
+          "value": "Crypper"
+        },
+        {
+          "type": "malware",
+          "value": "DollyWay"
+        },
+        {
+          "type": "malware",
+          "value": "Woocommerce_inputs"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "cartoonmines.com",
+      "confidence": "high",
+      "reason": "Used in redirect scripts for malicious traffic",
+      "first_seen": "2026-10-19T22:38:04.235893+00:00",
+      "last_seen": "2026-10-19T22:38:04.235893+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.godaddy.com",
+          "url": "https://www.godaddy.com/resources/news/help-tds-malicious-plugins-redirect-tech-support-scams",
+          "pub_date": "2026-10-19T22:38:04.235893+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Help TDS"
+        },
+        {
+          "type": "malware",
+          "value": "Crypper"
+        },
+        {
+          "type": "malware",
+          "value": "DollyWay"
+        },
+        {
+          "type": "malware",
+          "value": "Woocommerce_inputs"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "distie.shop",
+      "confidence": "high",
+      "reason": "Listed as historical C2 infrastructure for malware",
+      "first_seen": "2026-10-19T22:38:04.235893+00:00",
+      "last_seen": "2026-10-19T22:38:04.235893+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.godaddy.com",
+          "url": "https://www.godaddy.com/resources/news/help-tds-malicious-plugins-redirect-tech-support-scams",
+          "pub_date": "2026-10-19T22:38:04.235893+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Help TDS"
+        },
+        {
+          "type": "malware",
+          "value": "Crypper"
+        },
+        {
+          "type": "malware",
+          "value": "DollyWay"
+        },
+        {
+          "type": "malware",
+          "value": "Woocommerce_inputs"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "fped8.org",
+      "confidence": "high",
+      "reason": "Associated with historical SEO spam doorway malware",
+      "first_seen": "2026-10-19T22:38:04.235893+00:00",
+      "last_seen": "2026-10-19T22:38:04.235893+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.godaddy.com",
+          "url": "https://www.godaddy.com/resources/news/help-tds-malicious-plugins-redirect-tech-support-scams",
+          "pub_date": "2026-10-19T22:38:04.235893+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Help TDS"
+        },
+        {
+          "type": "malware",
+          "value": "Crypper"
+        },
+        {
+          "type": "malware",
+          "value": "DollyWay"
+        },
+        {
+          "type": "malware",
+          "value": "Woocommerce_inputs"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "gadbets.site",
+      "confidence": "high",
+      "reason": "Used in tech support scam operations",
+      "first_seen": "2026-10-19T22:38:04.235893+00:00",
+      "last_seen": "2026-10-19T22:38:04.235893+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.godaddy.com",
+          "url": "https://www.godaddy.com/resources/news/help-tds-malicious-plugins-redirect-tech-support-scams",
+          "pub_date": "2026-10-19T22:38:04.235893+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Help TDS"
+        },
+        {
+          "type": "malware",
+          "value": "Crypper"
+        },
+        {
+          "type": "malware",
+          "value": "DollyWay"
+        },
+        {
+          "type": "malware",
+          "value": "Woocommerce_inputs"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "hjce0ou6.aparticult.my.id",
+      "confidence": "high",
+      "reason": "Used as a redirect URL in Help TDS campaigns",
+      "first_seen": "2026-10-19T22:38:04.235893+00:00",
+      "last_seen": "2026-10-19T22:38:04.235893+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.godaddy.com",
+          "url": "https://www.godaddy.com/resources/news/help-tds-malicious-plugins-redirect-tech-support-scams",
+          "pub_date": "2026-10-19T22:38:04.235893+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Help TDS"
+        },
+        {
+          "type": "malware",
+          "value": "Crypper"
+        },
+        {
+          "type": "malware",
+          "value": "DollyWay"
+        },
+        {
+          "type": "malware",
+          "value": "Woocommerce_inputs"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "misunderstanding.salahaaakal.my.id",
+      "confidence": "high",
+      "reason": "Used in tech support scam operations",
+      "first_seen": "2026-10-19T22:38:04.235893+00:00",
+      "last_seen": "2026-10-19T22:38:04.235893+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.godaddy.com",
+          "url": "https://www.godaddy.com/resources/news/help-tds-malicious-plugins-redirect-tech-support-scams",
+          "pub_date": "2026-10-19T22:38:04.235893+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Help TDS"
+        },
+        {
+          "type": "malware",
+          "value": "Crypper"
+        },
+        {
+          "type": "malware",
+          "value": "DollyWay"
+        },
+        {
+          "type": "malware",
+          "value": "Woocommerce_inputs"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "pinkfels.shop",
+      "confidence": "high",
+      "reason": "Fallback C2 URL for Help TDS",
+      "first_seen": "2026-10-15T15:12:22.476814+00:00",
+      "last_seen": "2026-10-19T22:38:04.235893+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "www.godaddy.com",
+          "url": "https://www.godaddy.com/resources/news/help-tds-malicious-plugins-redirect-tech-support-scams",
+          "pub_date": "2026-10-19T22:38:04.235893+00:00"
+        },
+        {
+          "source": "www.infoblox.com",
+          "url": "https://www.infoblox.com/blog/threat-intelligence/inside-help-tds-hotejka-cloudflare-pages-and-predictive-detection/",
+          "pub_date": "2026-10-15T15:12:22.476814+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Help TDS"
+        },
+        {
+          "type": "campaign",
+          "value": "Disposable TDS"
+        },
+        {
+          "type": "malware",
+          "value": "Crypper"
+        },
+        {
+          "type": "malware",
+          "value": "DollyWay"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "radiant.growsier.shop",
+      "confidence": "high",
+      "reason": "Used in tech support scam operations",
+      "first_seen": "2026-10-19T22:38:04.235893+00:00",
+      "last_seen": "2026-10-19T22:38:04.235893+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.godaddy.com",
+          "url": "https://www.godaddy.com/resources/news/help-tds-malicious-plugins-redirect-tech-support-scams",
+          "pub_date": "2026-10-19T22:38:04.235893+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Help TDS"
+        },
+        {
+          "type": "malware",
+          "value": "Crypper"
+        },
+        {
+          "type": "malware",
+          "value": "DollyWay"
+        },
+        {
+          "type": "malware",
+          "value": "Woocommerce_inputs"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "roi777.com",
+      "confidence": "high",
+      "reason": "Used for malicious activities and C2 nodes",
+      "first_seen": "2026-10-15T14:11:36+00:00",
+      "last_seen": "2026-10-19T22:38:04.235893+00:00",
+      "source_count": 3,
+      "sources": [
+        {
+          "source": "www.godaddy.com",
+          "url": "https://www.godaddy.com/resources/news/help-tds-malicious-plugins-redirect-tech-support-scams",
+          "pub_date": "2026-10-19T22:38:04.235893+00:00"
+        },
+        {
+          "source": "www.infoblox.com",
+          "url": "https://www.infoblox.com/blog/threat-intelligence/inside-help-tds-hotejka-cloudflare-pages-and-predictive-detection/",
+          "pub_date": "2026-10-15T15:12:22.476814+00:00"
+        },
+        {
+          "source": "Thehackernews",
+          "url": "https://thehackernews.com/2026/10/help-tds-linked-to-hotejka-as-20000.html",
+          "pub_date": "2026-10-15T14:11:36+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Help TDS"
+        },
+        {
+          "type": "campaign",
+          "value": "Disposable TDS"
+        },
+        {
+          "type": "campaign",
+          "value": "Operation Prowli"
+        },
+        {
+          "type": "malware",
+          "value": "Crypper"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "roi-traffic.icu",
+      "confidence": "high",
+      "reason": "Used for C2 nodes in historical Help TDS infrastructure",
+      "first_seen": "2026-10-15T15:12:22.476814+00:00",
+      "last_seen": "2026-10-19T22:38:04.235893+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "www.godaddy.com",
+          "url": "https://www.godaddy.com/resources/news/help-tds-malicious-plugins-redirect-tech-support-scams",
+          "pub_date": "2026-10-19T22:38:04.235893+00:00"
+        },
+        {
+          "source": "www.infoblox.com",
+          "url": "https://www.infoblox.com/blog/threat-intelligence/inside-help-tds-hotejka-cloudflare-pages-and-predictive-detection/",
+          "pub_date": "2026-10-15T15:12:22.476814+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Help TDS"
+        },
+        {
+          "type": "campaign",
+          "value": "Disposable TDS"
+        },
+        {
+          "type": "malware",
+          "value": "Crypper"
+        },
+        {
+          "type": "malware",
+          "value": "DollyWay"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "splittous.com",
+      "confidence": "high",
+      "reason": "Used in redirect scripts for malicious traffic",
+      "first_seen": "2026-10-19T22:38:04.235893+00:00",
+      "last_seen": "2026-10-19T22:38:04.235893+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.godaddy.com",
+          "url": "https://www.godaddy.com/resources/news/help-tds-malicious-plugins-redirect-tech-support-scams",
+          "pub_date": "2026-10-19T22:38:04.235893+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Help TDS"
+        },
+        {
+          "type": "malware",
+          "value": "Crypper"
+        },
+        {
+          "type": "malware",
+          "value": "DollyWay"
+        },
+        {
+          "type": "malware",
+          "value": "Woocommerce_inputs"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "starbuck.xyz",
+      "confidence": "high",
+      "reason": "Used in redirect scripts for malicious traffic",
+      "first_seen": "2026-10-19T22:38:04.235893+00:00",
+      "last_seen": "2026-10-19T22:38:04.235893+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.godaddy.com",
+          "url": "https://www.godaddy.com/resources/news/help-tds-malicious-plugins-redirect-tech-support-scams",
+          "pub_date": "2026-10-19T22:38:04.235893+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Help TDS"
+        },
+        {
+          "type": "malware",
+          "value": "Crypper"
+        },
+        {
+          "type": "malware",
+          "value": "DollyWay"
+        },
+        {
+          "type": "malware",
+          "value": "Woocommerce_inputs"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "traffic-redirect.site",
+      "confidence": "high",
+      "reason": "Listed as historical C2 infrastructure for malware",
+      "first_seen": "2026-10-19T22:38:04.235893+00:00",
+      "last_seen": "2026-10-19T22:38:04.235893+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.godaddy.com",
+          "url": "https://www.godaddy.com/resources/news/help-tds-malicious-plugins-redirect-tech-support-scams",
+          "pub_date": "2026-10-19T22:38:04.235893+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Help TDS"
+        },
+        {
+          "type": "malware",
+          "value": "Crypper"
+        },
+        {
+          "type": "malware",
+          "value": "DollyWay"
+        },
+        {
+          "type": "malware",
+          "value": "Woocommerce_inputs"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "78.128.113.14",
+      "confidence": "high",
+      "reason": "Used for plugin installations in malicious campaigns",
+      "first_seen": "2026-10-19T22:38:04.235893+00:00",
+      "last_seen": "2026-10-19T22:38:04.235893+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.godaddy.com",
+          "url": "https://www.godaddy.com/resources/news/help-tds-malicious-plugins-redirect-tech-support-scams",
+          "pub_date": "2026-10-19T22:38:04.235893+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Help TDS"
+        },
+        {
+          "type": "malware",
+          "value": "Crypper"
+        },
+        {
+          "type": "malware",
+          "value": "DollyWay"
+        },
+        {
+          "type": "malware",
+          "value": "Woocommerce_inputs"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "aomei.storage-data.com",
+      "confidence": "high",
+      "reason": "Identified as a dedicated, vendor-themed domain used by the threat actor for payload delivery.",
+      "first_seen": "2026-10-16T16:43:39+00:00",
+      "last_seen": "2026-10-19T21:31:29.601518+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "cloud.google.com",
+          "url": "https://cloud.google.com/blog/topics/threat-intelligence/investigating-ephemeral-supply-chain-tampering",
+          "pub_date": "2026-10-19T21:31:29.601518+00:00"
+        },
+        {
+          "source": "Thehackernews",
+          "url": "https://thehackernews.com/2026/10/attackers-tampered-with-aomei.html",
+          "pub_date": "2026-10-16T16:43:39+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "UNC7017"
+        },
+        {
+          "type": "industry",
+          "value": "Higher Education"
+        },
+        {
+          "type": "industry",
+          "value": "Telecommunications"
+        },
+        {
+          "type": "campaign",
+          "value": "Short Burst Supply Chain Tampering"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "promotion.storage-data.com",
+      "confidence": "high",
+      "reason": "Used by the threat actor to redirect downloads during tampering windows.",
+      "first_seen": "2026-10-16T16:43:39+00:00",
+      "last_seen": "2026-10-19T21:31:29.601518+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "cloud.google.com",
+          "url": "https://cloud.google.com/blog/topics/threat-intelligence/investigating-ephemeral-supply-chain-tampering",
+          "pub_date": "2026-10-19T21:31:29.601518+00:00"
+        },
+        {
+          "source": "Thehackernews",
+          "url": "https://thehackernews.com/2026/10/attackers-tampered-with-aomei.html",
+          "pub_date": "2026-10-16T16:43:39+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "UNC7017"
+        },
+        {
+          "type": "industry",
+          "value": "Higher Education"
+        },
+        {
+          "type": "industry",
+          "value": "Telecommunications"
+        },
+        {
+          "type": "campaign",
+          "value": "Short Burst Supply Chain Tampering"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "storage-data.com",
+      "confidence": "high",
+      "reason": "Part of the dedicated domain infrastructure used by the threat actor.",
+      "first_seen": "2026-10-16T16:43:39+00:00",
+      "last_seen": "2026-10-19T21:31:29.601518+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "cloud.google.com",
+          "url": "https://cloud.google.com/blog/topics/threat-intelligence/investigating-ephemeral-supply-chain-tampering",
+          "pub_date": "2026-10-19T21:31:29.601518+00:00"
+        },
+        {
+          "source": "Thehackernews",
+          "url": "https://thehackernews.com/2026/10/attackers-tampered-with-aomei.html",
+          "pub_date": "2026-10-16T16:43:39+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "UNC7017"
+        },
+        {
+          "type": "industry",
+          "value": "Higher Education"
+        },
+        {
+          "type": "industry",
+          "value": "Telecommunications"
+        },
+        {
+          "type": "campaign",
+          "value": "Short Burst Supply Chain Tampering"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "rank1cdn.com",
+      "confidence": "high",
+      "reason": "Domain identified as malicious and recommended to be blocked to prevent malware activity",
+      "first_seen": "2026-10-17T03:41:48+00:00",
+      "last_seen": "2026-10-19T21:31:27.659102+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "rankmath.com",
+          "url": "https://rankmath.com/kb/pro-3-0-123-security-incident/",
+          "pub_date": "2026-10-19T21:31:27.659102+00:00"
+        },
+        {
+          "source": "Wordfence",
+          "url": "https://www.wordfence.com/blog/2026/10/rank-math-seo-pro-3-0-123-malware/",
+          "pub_date": "2026-10-17T03:41:48+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "wp-mail.net",
+      "confidence": "high",
+      "reason": "Domain used in malicious email addresses for unauthorized administrator accounts",
+      "first_seen": "2026-10-17T03:41:48+00:00",
+      "last_seen": "2026-10-19T21:31:27.659102+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "rankmath.com",
+          "url": "https://rankmath.com/kb/pro-3-0-123-security-incident/",
+          "pub_date": "2026-10-19T21:31:27.659102+00:00"
+        },
+        {
+          "source": "Wordfence",
+          "url": "https://www.wordfence.com/blog/2026/10/rank-math-seo-pro-3-0-123-malware/",
+          "pub_date": "2026-10-17T03:41:48+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "wizardexpensive.com",
+      "confidence": "high",
+      "reason": "Domain listed as part of the attacker's infrastructure to be blocked",
+      "first_seen": "2026-10-19T19:14:50.999217+00:00",
+      "last_seen": "2026-10-19T19:14:50.999217+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "productcert.siemens.com",
+          "url": "https://productcert.siemens.com/news/2026/10/19/active-exploitation-of-cve-2026-110936-in-siemens-software-center",
+          "pub_date": "2026-10-19T19:14:50.999217+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "ClickFix"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-110936"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "2.27.248.127",
+      "confidence": "high",
+      "reason": "IP address listed as part of the attacker's infrastructure to be blocked",
+      "first_seen": "2026-10-19T19:14:50.999217+00:00",
+      "last_seen": "2026-10-19T19:14:50.999217+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "productcert.siemens.com",
+          "url": "https://productcert.siemens.com/news/2026/10/19/active-exploitation-of-cve-2026-110936-in-siemens-software-center",
+          "pub_date": "2026-10-19T19:14:50.999217+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "ClickFix"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-110936"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "96.62.218.59",
+      "confidence": "high",
+      "reason": "IP address listed as part of the attacker's infrastructure to be blocked",
+      "first_seen": "2026-10-19T19:14:50.999217+00:00",
+      "last_seen": "2026-10-19T19:14:50.999217+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "productcert.siemens.com",
+          "url": "https://productcert.siemens.com/news/2026/10/19/active-exploitation-of-cve-2026-110936-in-siemens-software-center",
+          "pub_date": "2026-10-19T19:14:50.999217+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "ClickFix"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-110936"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "global.relay.proxystream.st",
+      "confidence": "high",
+      "reason": "Flagged in connection with a botnet and associated with malicious activity",
+      "first_seen": "2026-10-19T17:34:34+00:00",
+      "last_seen": "2026-10-19T17:34:34+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Thehackernews",
+          "url": "https://thehackernews.com/2026/10/hackers-exploit-plex2shell-flaws-to.html",
+          "pub_date": "2026-10-19T17:34:34+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2026-96651"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-96652"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-96654"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-96655"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "ota.proxystream.st",
+      "confidence": "high",
+      "reason": "Used as a mining server for malicious activity",
+      "first_seen": "2026-10-19T17:34:34+00:00",
+      "last_seen": "2026-10-19T17:34:34+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Thehackernews",
+          "url": "https://thehackernews.com/2026/10/hackers-exploit-plex2shell-flaws-to.html",
+          "pub_date": "2026-10-19T17:34:34+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2026-96651"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-96652"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-96654"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-96655"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "17447d.sh",
+      "confidence": "high",
+      "reason": "Listed as a stage server in a threat report",
+      "first_seen": "2026-10-19T15:48:23+00:00",
+      "last_seen": "2026-10-19T15:48:23+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Rapid7",
+          "url": "https://www.rapid7.com/blog/post/ra-netscaler-intrusions-chaining-cve-2026-88771-and-cve-2026-88779/",
+          "pub_date": "2026-10-19T15:48:23+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "1.sh",
+      "confidence": "high",
+      "reason": "Listed as a stage server in a threat report",
+      "first_seen": "2026-10-19T15:48:23+00:00",
+      "last_seen": "2026-10-19T15:48:23+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Rapid7",
+          "url": "https://www.rapid7.com/blog/post/ra-netscaler-intrusions-chaining-cve-2026-88771-and-cve-2026-88779/",
+          "pub_date": "2026-10-19T15:48:23+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "2.sh",
+      "confidence": "high",
+      "reason": "Listed as a stage server in a threat report",
+      "first_seen": "2026-10-19T15:48:23+00:00",
+      "last_seen": "2026-10-19T15:48:23+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Rapid7",
+          "url": "https://www.rapid7.com/blog/post/ra-netscaler-intrusions-chaining-cve-2026-88771-and-cve-2026-88779/",
+          "pub_date": "2026-10-19T15:48:23+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "agent.pl",
+      "confidence": "high",
+      "reason": "Listed as part of a malicious infrastructure in a threat report",
+      "first_seen": "2026-10-19T15:48:23+00:00",
+      "last_seen": "2026-10-19T15:48:23+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Rapid7",
+          "url": "https://www.rapid7.com/blog/post/ra-netscaler-intrusions-chaining-cve-2026-88771-and-cve-2026-88779/",
+          "pub_date": "2026-10-19T15:48:23+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "api.my-github.com",
+      "confidence": "high",
+      "reason": "Listed as suspicious infrastructure associated with a campaign",
+      "first_seen": "2026-10-19T14:05:31.040619+00:00",
+      "last_seen": "2026-10-19T14:05:31.040619+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "opensourcemalware.com",
+          "url": "https://opensourcemalware.com/blog/ghostaction-attack-escalates",
+          "pub_date": "2026-10-19T14:05:31.040619+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "ghassets.my-github.com",
+      "confidence": "high",
+      "reason": "Part of a suspicious infrastructure associated with GitHub impersonation.",
+      "first_seen": "2026-10-19T14:05:31.040619+00:00",
+      "last_seen": "2026-10-19T14:05:31.040619+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "opensourcemalware.com",
+          "url": "https://opensourcemalware.com/blog/ghostaction-attack-escalates",
+          "pub_date": "2026-10-19T14:05:31.040619+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "gh.my-github.com",
+      "confidence": "high",
+      "reason": "Part of a suspicious infrastructure associated with GitHub impersonation.",
+      "first_seen": "2026-10-19T14:05:31.040619+00:00",
+      "last_seen": "2026-10-19T14:05:31.040619+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "opensourcemalware.com",
+          "url": "https://opensourcemalware.com/blog/ghostaction-attack-escalates",
+          "pub_date": "2026-10-19T14:05:31.040619+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "github.my-github.com",
+      "confidence": "high",
+      "reason": "Part of a suspicious infrastructure associated with GitHub impersonation.",
+      "first_seen": "2026-10-19T14:05:31.040619+00:00",
+      "last_seen": "2026-10-19T14:05:31.040619+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "opensourcemalware.com",
+          "url": "https://opensourcemalware.com/blog/ghostaction-attack-escalates",
+          "pub_date": "2026-10-19T14:05:31.040619+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "gitlab.my-gitlab.com",
+      "confidence": "high",
+      "reason": "Described as hosting a GitLab service on suspicious infrastructure.",
+      "first_seen": "2026-10-19T14:05:31.040619+00:00",
+      "last_seen": "2026-10-19T14:05:31.040619+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "opensourcemalware.com",
+          "url": "https://opensourcemalware.com/blog/ghostaction-attack-escalates",
+          "pub_date": "2026-10-19T14:05:31.040619+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "vigilantcyber.top",
+      "confidence": "high",
+      "reason": "Associated with malicious infrastructure and phishing activities.",
+      "first_seen": "2026-10-19T14:05:31.040619+00:00",
+      "last_seen": "2026-10-19T14:05:31.040619+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "opensourcemalware.com",
+          "url": "https://opensourcemalware.com/blog/ghostaction-attack-escalates",
+          "pub_date": "2026-10-19T14:05:31.040619+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "ipv4",
+      "value": "45.139.104.115",
+      "confidence": "high",
+      "reason": "Listed as a malicious IP in a threat report",
+      "first_seen": "2026-10-19T14:05:31.040619+00:00",
+      "last_seen": "2026-10-19T14:05:31.040619+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "opensourcemalware.com",
+          "url": "https://opensourcemalware.com/blog/ghostaction-attack-escalates",
+          "pub_date": "2026-10-19T14:05:31.040619+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "shinywire.com",
+      "confidence": "high",
+      "reason": "Described as a victim extortion website operated by ShinyHunters.",
+      "first_seen": "2026-10-19T13:48:56+00:00",
+      "last_seen": "2026-10-19T13:48:56+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Krebsonsecurity",
+          "url": "https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/",
+          "pub_date": "2026-10-19T13:48:56+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "0auth-chromium.com",
+      "confidence": "high",
+      "reason": "Domain used to retrieve and execute a malicious PowerShell script",
+      "first_seen": "2026-10-19T10:34:26+00:00",
+      "last_seen": "2026-10-19T13:35:56.267043+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "www.elastic.co",
+          "url": "https://www.elastic.co/security-labs/threat-command/apex-accelerator-malicious-npm-packages",
+          "pub_date": "2026-10-19T13:35:56.267043+00:00"
+        },
+        {
+          "source": "Thehackernews",
+          "url": "https://thehackernews.com/2026/10/fake-web3-accelerator-uses-npm-packages.html",
+          "pub_date": "2026-10-19T10:34:26+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "CloudSyncD"
+        },
+        {
+          "type": "campaign",
+          "value": "Apex Accelerator"
+        },
+        {
+          "type": "malware",
+          "value": "Atomic Stealer"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "arenapex.cloud",
+      "confidence": "high",
+      "reason": "Historical domain used for script-download in malicious infrastructure",
+      "first_seen": "2026-10-19T13:35:56.267043+00:00",
+      "last_seen": "2026-10-19T13:35:56.267043+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.elastic.co",
+          "url": "https://www.elastic.co/security-labs/threat-command/apex-accelerator-malicious-npm-packages",
+          "pub_date": "2026-10-19T13:35:56.267043+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "CloudSyncD"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "ccmihr.com",
+      "confidence": "high",
+      "reason": "Domain used as a C2 server responding with tasks for malware",
+      "first_seen": "2026-10-19T10:34:26+00:00",
+      "last_seen": "2026-10-19T13:35:56.267043+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "www.elastic.co",
+          "url": "https://www.elastic.co/security-labs/threat-command/apex-accelerator-malicious-npm-packages",
+          "pub_date": "2026-10-19T13:35:56.267043+00:00"
+        },
+        {
+          "source": "Thehackernews",
+          "url": "https://thehackernews.com/2026/10/fake-web3-accelerator-uses-npm-packages.html",
+          "pub_date": "2026-10-19T10:34:26+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "CloudSyncD"
+        },
+        {
+          "type": "campaign",
+          "value": "Apex Accelerator"
+        },
+        {
+          "type": "malware",
+          "value": "Atomic Stealer"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "cloudmain365duo.top",
+      "confidence": "high",
+      "reason": "Domain used as a script-download host in malicious infrastructure",
+      "first_seen": "2026-10-19T13:35:56.267043+00:00",
+      "last_seen": "2026-10-19T13:35:56.267043+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.elastic.co",
+          "url": "https://www.elastic.co/security-labs/threat-command/apex-accelerator-malicious-npm-packages",
+          "pub_date": "2026-10-19T13:35:56.267043+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "CloudSyncD"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "ehegisnightmare.icu",
+      "confidence": "high",
+      "reason": "Domain used to download and execute a malicious payload",
+      "first_seen": "2026-10-19T10:34:26+00:00",
+      "last_seen": "2026-10-19T13:35:56.267043+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "www.elastic.co",
+          "url": "https://www.elastic.co/security-labs/threat-command/apex-accelerator-malicious-npm-packages",
+          "pub_date": "2026-10-19T13:35:56.267043+00:00"
+        },
+        {
+          "source": "Thehackernews",
+          "url": "https://thehackernews.com/2026/10/fake-web3-accelerator-uses-npm-packages.html",
+          "pub_date": "2026-10-19T10:34:26+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "CloudSyncD"
+        },
+        {
+          "type": "campaign",
+          "value": "Apex Accelerator"
+        },
+        {
+          "type": "malware",
+          "value": "Atomic Stealer"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "main.router-apex.com",
+      "confidence": "high",
+      "reason": "Domain used as a script-download host in malicious infrastructure",
+      "first_seen": "2026-10-19T13:35:56.267043+00:00",
+      "last_seen": "2026-10-19T13:35:56.267043+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.elastic.co",
+          "url": "https://www.elastic.co/security-labs/threat-command/apex-accelerator-malicious-npm-packages",
+          "pub_date": "2026-10-19T13:35:56.267043+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "CloudSyncD"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "update.apex-arena-router.com",
+      "confidence": "high",
+      "reason": "Domain used as a script-download host in malicious infrastructure",
+      "first_seen": "2026-10-19T13:35:56.267043+00:00",
+      "last_seen": "2026-10-19T13:35:56.267043+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.elastic.co",
+          "url": "https://www.elastic.co/security-labs/threat-command/apex-accelerator-malicious-npm-packages",
+          "pub_date": "2026-10-19T13:35:56.267043+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "CloudSyncD"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "vrf.apexaccs.org",
+      "confidence": "high",
+      "reason": "Domain used to obtain commands from attacker's C2 server",
+      "first_seen": "2026-10-16T10:31:51+00:00",
+      "last_seen": "2026-10-19T13:35:56.267043+00:00",
+      "source_count": 3,
+      "sources": [
+        {
+          "source": "www.elastic.co",
+          "url": "https://www.elastic.co/security-labs/threat-command/apex-accelerator-malicious-npm-packages",
+          "pub_date": "2026-10-19T13:35:56.267043+00:00"
+        },
+        {
+          "source": "Thehackernews",
+          "url": "https://thehackernews.com/2026/10/fake-web3-accelerator-uses-npm-packages.html",
+          "pub_date": "2026-10-19T10:34:26+00:00"
+        },
+        {
+          "source": "Bloglab.360",
+          "url": "https://blog.netlab.360.com/aian-quan-zhuan-ti-zhou-bao-9/",
+          "pub_date": "2026-10-16T10:31:51+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "CloudSyncD"
+        },
+        {
+          "type": "campaign",
+          "value": "Apex Accelerator"
+        },
+        {
+          "type": "malware",
+          "value": "Atomic Stealer"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "my-github.com",
+      "confidence": "high",
+      "reason": "Registered by the threat actor for phishing and data exfiltration.",
+      "first_seen": "2026-10-19T13:09:39+00:00",
+      "last_seen": "2026-10-19T13:09:39+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Thehackernews",
+          "url": "https://thehackernews.com/2026/10/ghostaction-attackers-plant-credential.html",
+          "pub_date": "2026-10-19T13:09:39+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "my-gitlab.com",
+      "confidence": "high",
+      "reason": "Registered by the threat actor for phishing and data exfiltration.",
+      "first_seen": "2026-10-19T13:09:39+00:00",
+      "last_seen": "2026-10-19T13:09:39+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Thehackernews",
+          "url": "https://thehackernews.com/2026/10/ghostaction-attackers-plant-credential.html",
+          "pub_date": "2026-10-19T13:09:39+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "amgen.teams-cloud.live",
+      "confidence": "high",
+      "reason": "Listed as a phishing domain in a threat report",
+      "first_seen": "2026-10-19T12:42:05+00:00",
+      "last_seen": "2026-10-19T12:42:05+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Pasqualepillitteri.It",
+          "url": "https://pasqualepillitteri.it/en/news/25606/researcher-urges-blocking-teams-cloud-live-fake-microsoft-teams-login",
+          "pub_date": "2026-10-19T12:42:05+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "companyname.suspicious-domain.live",
+      "confidence": "high",
+      "reason": "Described as a phishing domain with a suspicious subdomain.",
+      "first_seen": "2026-10-19T12:42:05+00:00",
+      "last_seen": "2026-10-19T12:42:05+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Pasqualepillitteri.It",
+          "url": "https://pasqualepillitteri.it/en/news/25606/researcher-urges-blocking-teams-cloud-live-fake-microsoft-teams-login",
+          "pub_date": "2026-10-19T12:42:05+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "teams-cloud.live",
+      "confidence": "high",
+      "reason": "Described as a phishing domain impersonating Microsoft Teams.",
+      "first_seen": "2026-10-19T12:42:05+00:00",
+      "last_seen": "2026-10-19T12:42:05+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Pasqualepillitteri.It",
+          "url": "https://pasqualepillitteri.it/en/news/25606/researcher-urges-blocking-teams-cloud-live-fake-microsoft-teams-login",
+          "pub_date": "2026-10-19T12:42:05+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "9i6pokerdepot.com",
+      "confidence": "high",
+      "reason": "Used as a sending domain in a phishing campaign",
+      "first_seen": "2026-10-19T06:10:31.007169+00:00",
+      "last_seen": "2026-10-19T06:10:31.007169+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.microsoft.com",
+          "url": "https://www.microsoft.com/en-us/security/blog/2026/07/23/email-threat-landscape-q2-2026-trends-and-insights",
+          "pub_date": "2026-10-19T06:10:31.007169+00:00"
+        }
+      ],
+      "tags": []
     },
     {
       "type": "domain",
@@ -669,50 +2226,6 @@
     },
     {
       "type": "domain",
-      "value": "rank1cdn.com",
-      "confidence": "high",
-      "reason": "Domain identified as malicious and recommended to be blocked to prevent malware activity",
-      "first_seen": "2026-10-17T03:41:48+00:00",
-      "last_seen": "2026-10-17T12:32:41.699659+00:00",
-      "source_count": 2,
-      "sources": [
-        {
-          "source": "rankmath.com",
-          "url": "https://rankmath.com/kb/pro-3-0-123-security-incident/",
-          "pub_date": "2026-10-17T12:32:41.699659+00:00"
-        },
-        {
-          "source": "Wordfence",
-          "url": "https://www.wordfence.com/blog/2026/10/rank-math-seo-pro-3-0-123-malware/",
-          "pub_date": "2026-10-17T03:41:48+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "wp-mail.net",
-      "confidence": "high",
-      "reason": "Domain used in malicious email addresses for unauthorized administrator accounts",
-      "first_seen": "2026-10-17T03:41:48+00:00",
-      "last_seen": "2026-10-17T12:32:41.699659+00:00",
-      "source_count": 2,
-      "sources": [
-        {
-          "source": "rankmath.com",
-          "url": "https://rankmath.com/kb/pro-3-0-123-security-incident/",
-          "pub_date": "2026-10-17T12:32:41.699659+00:00"
-        },
-        {
-          "source": "Wordfence",
-          "url": "https://www.wordfence.com/blog/2026/10/rank-math-seo-pro-3-0-123-malware/",
-          "pub_date": "2026-10-17T03:41:48+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
       "value": "adv.realsh.xyz",
       "confidence": "high",
       "reason": "Used in a fake 'AI crypto quant trading' site.",
@@ -863,84 +2376,6 @@
         }
       ],
       "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "cdn.gotoiphone.com",
-      "confidence": "high",
-      "reason": "Used for C2 communication with the implant",
-      "first_seen": "2026-10-17T10:31:15.858199+00:00",
-      "last_seen": "2026-10-17T10:31:15.858199+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.iverify.com",
-          "url": "https://www.iverify.com/blog/darksword-variant-threat-research",
-          "pub_date": "2026-10-17T10:31:15.858199+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "malware",
-          "value": "Coruna"
-        },
-        {
-          "type": "malware",
-          "value": "DarkSword"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "js.gotoiphone.com",
-      "confidence": "high",
-      "reason": "Used for C2 communication with the implant",
-      "first_seen": "2026-10-17T10:31:15.858199+00:00",
-      "last_seen": "2026-10-17T10:31:15.858199+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.iverify.com",
-          "url": "https://www.iverify.com/blog/darksword-variant-threat-research",
-          "pub_date": "2026-10-17T10:31:15.858199+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "malware",
-          "value": "Coruna"
-        },
-        {
-          "type": "malware",
-          "value": "DarkSword"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "mzpo30.cam",
-      "confidence": "high",
-      "reason": "Used for C2 communication with the implant",
-      "first_seen": "2026-10-17T10:31:15.858199+00:00",
-      "last_seen": "2026-10-17T10:31:15.858199+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.iverify.com",
-          "url": "https://www.iverify.com/blog/darksword-variant-threat-research",
-          "pub_date": "2026-10-17T10:31:15.858199+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "malware",
-          "value": "Coruna"
-        },
-        {
-          "type": "malware",
-          "value": "DarkSword"
-        }
-      ]
     },
     {
       "type": "domain",
@@ -1202,123 +2637,6 @@
         }
       ],
       "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "aomei.storage-data.com",
-      "confidence": "high",
-      "reason": "Identified as a dedicated, vendor-themed domain used by the threat actor for payload delivery.",
-      "first_seen": "2026-10-16T16:43:39+00:00",
-      "last_seen": "2026-10-16T19:33:45.256068+00:00",
-      "source_count": 2,
-      "sources": [
-        {
-          "source": "cloud.google.com",
-          "url": "https://cloud.google.com/blog/topics/threat-intelligence/investigating-ephemeral-supply-chain-tampering",
-          "pub_date": "2026-10-16T19:33:45.256068+00:00"
-        },
-        {
-          "source": "Thehackernews",
-          "url": "https://thehackernews.com/2026/10/attackers-tampered-with-aomei.html",
-          "pub_date": "2026-10-16T16:43:39+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "UNC7017"
-        },
-        {
-          "type": "industry",
-          "value": "Higher Education"
-        },
-        {
-          "type": "industry",
-          "value": "Telecommunications"
-        },
-        {
-          "type": "campaign",
-          "value": "Short Burst Supply Chain Tampering"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "promotion.storage-data.com",
-      "confidence": "high",
-      "reason": "Used by the threat actor to redirect downloads during tampering windows.",
-      "first_seen": "2026-10-16T16:43:39+00:00",
-      "last_seen": "2026-10-16T19:33:45.256068+00:00",
-      "source_count": 2,
-      "sources": [
-        {
-          "source": "cloud.google.com",
-          "url": "https://cloud.google.com/blog/topics/threat-intelligence/investigating-ephemeral-supply-chain-tampering",
-          "pub_date": "2026-10-16T19:33:45.256068+00:00"
-        },
-        {
-          "source": "Thehackernews",
-          "url": "https://thehackernews.com/2026/10/attackers-tampered-with-aomei.html",
-          "pub_date": "2026-10-16T16:43:39+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "UNC7017"
-        },
-        {
-          "type": "industry",
-          "value": "Higher Education"
-        },
-        {
-          "type": "industry",
-          "value": "Telecommunications"
-        },
-        {
-          "type": "campaign",
-          "value": "Short Burst Supply Chain Tampering"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "storage-data.com",
-      "confidence": "high",
-      "reason": "Part of the dedicated domain infrastructure used by the threat actor.",
-      "first_seen": "2026-10-16T16:43:39+00:00",
-      "last_seen": "2026-10-16T19:33:45.256068+00:00",
-      "source_count": 2,
-      "sources": [
-        {
-          "source": "cloud.google.com",
-          "url": "https://cloud.google.com/blog/topics/threat-intelligence/investigating-ephemeral-supply-chain-tampering",
-          "pub_date": "2026-10-16T19:33:45.256068+00:00"
-        },
-        {
-          "source": "Thehackernews",
-          "url": "https://thehackernews.com/2026/10/attackers-tampered-with-aomei.html",
-          "pub_date": "2026-10-16T16:43:39+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "UNC7017"
-        },
-        {
-          "type": "industry",
-          "value": "Higher Education"
-        },
-        {
-          "type": "industry",
-          "value": "Telecommunications"
-        },
-        {
-          "type": "campaign",
-          "value": "Short Burst Supply Chain Tampering"
-        }
-      ]
     },
     {
       "type": "domain",
@@ -1935,7 +3253,7 @@
       "type": "domain",
       "value": "account-notif.com",
       "confidence": "high",
-      "reason": "Used in phishing email impersonating a legitimate service",
+      "reason": "Domain used in phishing email impersonating Claude, indicating attacker control.",
       "first_seen": "2026-10-16T13:00:47+00:00",
       "last_seen": "2026-10-16T13:00:47+00:00",
       "source_count": 1,
@@ -1946,7 +3264,20 @@
           "pub_date": "2026-10-16T13:00:47+00:00"
         }
       ],
-      "tags": []
+      "tags": [
+        {
+          "type": "industry",
+          "value": "Banking"
+        },
+        {
+          "type": "industry",
+          "value": "Social Networks"
+        },
+        {
+          "type": "industry",
+          "value": "Technology"
+        }
+      ]
     },
     {
       "type": "domain",
@@ -1991,23 +3322,6 @@
           "value": "CVE-2026-33017"
         }
       ]
-    },
-    {
-      "type": "domain",
-      "value": "apexaccs.org",
-      "confidence": "high",
-      "reason": "Listed as part of attacker infrastructure in a threat report",
-      "first_seen": "2026-10-16T10:31:51+00:00",
-      "last_seen": "2026-10-16T10:31:51+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Bloglab.360",
-          "url": "https://blog.netlab.360.com/aian-quan-zhuan-ti-zhou-bao-9/",
-          "pub_date": "2026-10-16T10:31:51+00:00"
-        }
-      ],
-      "tags": []
     },
     {
       "type": "domain",
@@ -2231,23 +3545,6 @@
       "tags": []
     },
     {
-      "type": "domain",
-      "value": "vrf.apexaccs.org",
-      "confidence": "high",
-      "reason": "Part of a malicious campaign involving AI development chain hijacking.",
-      "first_seen": "2026-10-16T10:31:51+00:00",
-      "last_seen": "2026-10-16T10:31:51+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Bloglab.360",
-          "url": "https://blog.netlab.360.com/aian-quan-zhuan-ti-zhou-bao-9/",
-          "pub_date": "2026-10-16T10:31:51+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
       "type": "ipv4",
       "value": "185.21.136.6",
       "confidence": "high",
@@ -2280,55 +3577,6 @@
         }
       ],
       "tags": []
-    },
-    {
-      "type": "ipv4",
-      "value": "108.165.147.64",
-      "confidence": "high",
-      "reason": "Identified as a host used by the attacker for operations",
-      "first_seen": "2026-10-13T17:33:11+00:00",
-      "last_seen": "2026-10-16T10:01:47.585800+00:00",
-      "source_count": 4,
-      "sources": [
-        {
-          "source": "www.volexity.com",
-          "url": "https://www.volexity.com/blog/2026/10/13/a-series-of-unauthenticated-events-chained-exploitation-of-ivanti-connect-secure-zero-days/",
-          "pub_date": "2026-10-16T10:01:47.5858+00:00"
-        },
-        {
-          "source": "Ccb.Belgium.Be",
-          "url": "https://ccb.belgium.be/advisories/warning-actively-exploited-zero-day-vulnerability-ivanti-connect-secure-allows-remote",
-          "pub_date": "2026-10-14T16:28:35+00:00"
-        },
-        {
-          "source": "Rescana",
-          "url": "https://www.rescana.com/post/ivanti-connect-secure-zero-day-exploit-chain-enables-root-level-rce-and-credential-theft-on-fully-patched-vpn-appliances",
-          "pub_date": "2026-10-14T07:31:12+00:00"
-        },
-        {
-          "source": "Feeds.Feedburner",
-          "url": "https://thehackernews.com/2026/10/attacker-chains-three-ivanti-connect.html",
-          "pub_date": "2026-10-13T17:33:11+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "cve",
-          "value": "CVE-2026-104935"
-        },
-        {
-          "type": "campaign",
-          "value": "Chained Exploitation Of Ivanti Connect Secure Zero-Days"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-106042"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-109412"
-        }
-      ]
     },
     {
       "type": "ipv4",
@@ -3103,536 +4351,6 @@
         {
           "type": "industry",
           "value": "Transportation"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "777traffget.site",
-      "confidence": "high",
-      "reason": "Listed as historical C2 infrastructure for malware",
-      "first_seen": "2026-10-15T15:12:24.931033+00:00",
-      "last_seen": "2026-10-15T15:12:24.931033+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.godaddy.com",
-          "url": "https://www.godaddy.com/resources/news/help-tds-malicious-plugins-redirect-tech-support-scams",
-          "pub_date": "2026-10-15T15:12:24.931033+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Help TDS"
-        },
-        {
-          "type": "malware",
-          "value": "Crypper"
-        },
-        {
-          "type": "malware",
-          "value": "DollyWay"
-        },
-        {
-          "type": "malware",
-          "value": "Woocommerce_inputs"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "cartoonmines.com",
-      "confidence": "high",
-      "reason": "Used in redirect scripts for malicious traffic",
-      "first_seen": "2026-10-15T15:12:24.931033+00:00",
-      "last_seen": "2026-10-15T15:12:24.931033+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.godaddy.com",
-          "url": "https://www.godaddy.com/resources/news/help-tds-malicious-plugins-redirect-tech-support-scams",
-          "pub_date": "2026-10-15T15:12:24.931033+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Help TDS"
-        },
-        {
-          "type": "malware",
-          "value": "Crypper"
-        },
-        {
-          "type": "malware",
-          "value": "DollyWay"
-        },
-        {
-          "type": "malware",
-          "value": "Woocommerce_inputs"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "distie.shop",
-      "confidence": "high",
-      "reason": "Listed as historical C2 infrastructure for malware",
-      "first_seen": "2026-10-15T15:12:24.931033+00:00",
-      "last_seen": "2026-10-15T15:12:24.931033+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.godaddy.com",
-          "url": "https://www.godaddy.com/resources/news/help-tds-malicious-plugins-redirect-tech-support-scams",
-          "pub_date": "2026-10-15T15:12:24.931033+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Help TDS"
-        },
-        {
-          "type": "malware",
-          "value": "Crypper"
-        },
-        {
-          "type": "malware",
-          "value": "DollyWay"
-        },
-        {
-          "type": "malware",
-          "value": "Woocommerce_inputs"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "fped8.org",
-      "confidence": "high",
-      "reason": "Associated with historical SEO spam doorway malware",
-      "first_seen": "2026-10-15T15:12:24.931033+00:00",
-      "last_seen": "2026-10-15T15:12:24.931033+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.godaddy.com",
-          "url": "https://www.godaddy.com/resources/news/help-tds-malicious-plugins-redirect-tech-support-scams",
-          "pub_date": "2026-10-15T15:12:24.931033+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Help TDS"
-        },
-        {
-          "type": "malware",
-          "value": "Crypper"
-        },
-        {
-          "type": "malware",
-          "value": "DollyWay"
-        },
-        {
-          "type": "malware",
-          "value": "Woocommerce_inputs"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "gadbets.site",
-      "confidence": "high",
-      "reason": "Used in tech support scam operations",
-      "first_seen": "2026-10-15T15:12:24.931033+00:00",
-      "last_seen": "2026-10-15T15:12:24.931033+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.godaddy.com",
-          "url": "https://www.godaddy.com/resources/news/help-tds-malicious-plugins-redirect-tech-support-scams",
-          "pub_date": "2026-10-15T15:12:24.931033+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Help TDS"
-        },
-        {
-          "type": "malware",
-          "value": "Crypper"
-        },
-        {
-          "type": "malware",
-          "value": "DollyWay"
-        },
-        {
-          "type": "malware",
-          "value": "Woocommerce_inputs"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "hjce0ou6.aparticult.my.id",
-      "confidence": "high",
-      "reason": "Used as a redirect URL in Help TDS campaigns",
-      "first_seen": "2026-10-15T15:12:24.931033+00:00",
-      "last_seen": "2026-10-15T15:12:24.931033+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.godaddy.com",
-          "url": "https://www.godaddy.com/resources/news/help-tds-malicious-plugins-redirect-tech-support-scams",
-          "pub_date": "2026-10-15T15:12:24.931033+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Help TDS"
-        },
-        {
-          "type": "malware",
-          "value": "Crypper"
-        },
-        {
-          "type": "malware",
-          "value": "DollyWay"
-        },
-        {
-          "type": "malware",
-          "value": "Woocommerce_inputs"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "misunderstanding.salahaaakal.my.id",
-      "confidence": "high",
-      "reason": "Used in tech support scam operations",
-      "first_seen": "2026-10-15T15:12:24.931033+00:00",
-      "last_seen": "2026-10-15T15:12:24.931033+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.godaddy.com",
-          "url": "https://www.godaddy.com/resources/news/help-tds-malicious-plugins-redirect-tech-support-scams",
-          "pub_date": "2026-10-15T15:12:24.931033+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Help TDS"
-        },
-        {
-          "type": "malware",
-          "value": "Crypper"
-        },
-        {
-          "type": "malware",
-          "value": "DollyWay"
-        },
-        {
-          "type": "malware",
-          "value": "Woocommerce_inputs"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "pinkfels.shop",
-      "confidence": "high",
-      "reason": "Fallback C2 URL for Help TDS",
-      "first_seen": "2026-10-15T15:12:22.476814+00:00",
-      "last_seen": "2026-10-15T15:12:24.931033+00:00",
-      "source_count": 2,
-      "sources": [
-        {
-          "source": "www.godaddy.com",
-          "url": "https://www.godaddy.com/resources/news/help-tds-malicious-plugins-redirect-tech-support-scams",
-          "pub_date": "2026-10-15T15:12:24.931033+00:00"
-        },
-        {
-          "source": "www.infoblox.com",
-          "url": "https://www.infoblox.com/blog/threat-intelligence/inside-help-tds-hotejka-cloudflare-pages-and-predictive-detection/",
-          "pub_date": "2026-10-15T15:12:22.476814+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Help TDS"
-        },
-        {
-          "type": "campaign",
-          "value": "Disposable TDS"
-        },
-        {
-          "type": "malware",
-          "value": "Crypper"
-        },
-        {
-          "type": "malware",
-          "value": "DollyWay"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "radiant.growsier.shop",
-      "confidence": "high",
-      "reason": "Used in tech support scam operations",
-      "first_seen": "2026-10-15T15:12:24.931033+00:00",
-      "last_seen": "2026-10-15T15:12:24.931033+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.godaddy.com",
-          "url": "https://www.godaddy.com/resources/news/help-tds-malicious-plugins-redirect-tech-support-scams",
-          "pub_date": "2026-10-15T15:12:24.931033+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Help TDS"
-        },
-        {
-          "type": "malware",
-          "value": "Crypper"
-        },
-        {
-          "type": "malware",
-          "value": "DollyWay"
-        },
-        {
-          "type": "malware",
-          "value": "Woocommerce_inputs"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "roi777.com",
-      "confidence": "high",
-      "reason": "Used for malicious activities and C2 nodes",
-      "first_seen": "2026-10-15T14:11:36+00:00",
-      "last_seen": "2026-10-15T15:12:24.931033+00:00",
-      "source_count": 3,
-      "sources": [
-        {
-          "source": "www.godaddy.com",
-          "url": "https://www.godaddy.com/resources/news/help-tds-malicious-plugins-redirect-tech-support-scams",
-          "pub_date": "2026-10-15T15:12:24.931033+00:00"
-        },
-        {
-          "source": "www.infoblox.com",
-          "url": "https://www.infoblox.com/blog/threat-intelligence/inside-help-tds-hotejka-cloudflare-pages-and-predictive-detection/",
-          "pub_date": "2026-10-15T15:12:22.476814+00:00"
-        },
-        {
-          "source": "Thehackernews",
-          "url": "https://thehackernews.com/2026/10/help-tds-linked-to-hotejka-as-20000.html",
-          "pub_date": "2026-10-15T14:11:36+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Help TDS"
-        },
-        {
-          "type": "campaign",
-          "value": "Disposable TDS"
-        },
-        {
-          "type": "campaign",
-          "value": "Operation Prowli"
-        },
-        {
-          "type": "malware",
-          "value": "Crypper"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "roi-traffic.icu",
-      "confidence": "high",
-      "reason": "Used for C2 nodes in historical Help TDS infrastructure",
-      "first_seen": "2026-10-15T15:12:22.476814+00:00",
-      "last_seen": "2026-10-15T15:12:24.931033+00:00",
-      "source_count": 2,
-      "sources": [
-        {
-          "source": "www.godaddy.com",
-          "url": "https://www.godaddy.com/resources/news/help-tds-malicious-plugins-redirect-tech-support-scams",
-          "pub_date": "2026-10-15T15:12:24.931033+00:00"
-        },
-        {
-          "source": "www.infoblox.com",
-          "url": "https://www.infoblox.com/blog/threat-intelligence/inside-help-tds-hotejka-cloudflare-pages-and-predictive-detection/",
-          "pub_date": "2026-10-15T15:12:22.476814+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Help TDS"
-        },
-        {
-          "type": "campaign",
-          "value": "Disposable TDS"
-        },
-        {
-          "type": "malware",
-          "value": "Crypper"
-        },
-        {
-          "type": "malware",
-          "value": "DollyWay"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "splittous.com",
-      "confidence": "high",
-      "reason": "Used in redirect scripts for malicious traffic",
-      "first_seen": "2026-10-15T15:12:24.931033+00:00",
-      "last_seen": "2026-10-15T15:12:24.931033+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.godaddy.com",
-          "url": "https://www.godaddy.com/resources/news/help-tds-malicious-plugins-redirect-tech-support-scams",
-          "pub_date": "2026-10-15T15:12:24.931033+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Help TDS"
-        },
-        {
-          "type": "malware",
-          "value": "Crypper"
-        },
-        {
-          "type": "malware",
-          "value": "DollyWay"
-        },
-        {
-          "type": "malware",
-          "value": "Woocommerce_inputs"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "starbuck.xyz",
-      "confidence": "high",
-      "reason": "Used in redirect scripts for malicious traffic",
-      "first_seen": "2026-10-15T15:12:24.931033+00:00",
-      "last_seen": "2026-10-15T15:12:24.931033+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.godaddy.com",
-          "url": "https://www.godaddy.com/resources/news/help-tds-malicious-plugins-redirect-tech-support-scams",
-          "pub_date": "2026-10-15T15:12:24.931033+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Help TDS"
-        },
-        {
-          "type": "malware",
-          "value": "Crypper"
-        },
-        {
-          "type": "malware",
-          "value": "DollyWay"
-        },
-        {
-          "type": "malware",
-          "value": "Woocommerce_inputs"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "traffic-redirect.site",
-      "confidence": "high",
-      "reason": "Listed as historical C2 infrastructure for malware",
-      "first_seen": "2026-10-15T15:12:24.931033+00:00",
-      "last_seen": "2026-10-15T15:12:24.931033+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.godaddy.com",
-          "url": "https://www.godaddy.com/resources/news/help-tds-malicious-plugins-redirect-tech-support-scams",
-          "pub_date": "2026-10-15T15:12:24.931033+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Help TDS"
-        },
-        {
-          "type": "malware",
-          "value": "Crypper"
-        },
-        {
-          "type": "malware",
-          "value": "DollyWay"
-        },
-        {
-          "type": "malware",
-          "value": "Woocommerce_inputs"
-        }
-      ]
-    },
-    {
-      "type": "ipv4",
-      "value": "78.128.113.14",
-      "confidence": "high",
-      "reason": "Used for plugin installations in malicious campaigns",
-      "first_seen": "2026-10-15T15:12:24.931033+00:00",
-      "last_seen": "2026-10-15T15:12:24.931033+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.godaddy.com",
-          "url": "https://www.godaddy.com/resources/news/help-tds-malicious-plugins-redirect-tech-support-scams",
-          "pub_date": "2026-10-15T15:12:24.931033+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Help TDS"
-        },
-        {
-          "type": "malware",
-          "value": "Crypper"
-        },
-        {
-          "type": "malware",
-          "value": "DollyWay"
-        },
-        {
-          "type": "malware",
-          "value": "Woocommerce_inputs"
         }
       ]
     },
@@ -20816,36 +21534,6 @@
         }
       ],
       "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "www-account-booking.com",
-      "confidence": "high",
-      "reason": "Malicious lookalike domain registered by attackers for phishing",
-      "first_seen": "2026-09-20T10:32:24.433292+00:00",
-      "last_seen": "2026-09-20T10:32:24.433292+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.bleepingcomputer.com",
-          "url": "https://www.bleepingcomputer.com/news/security/bookingcom-phishing-campaign-uses-sneaky-character-to-trick-you/",
-          "pub_date": "2026-09-20T10:32:24.433292+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Booking.com Phishing Campaign"
-        },
-        {
-          "type": "campaign",
-          "value": "Intuit Phishing Campaign"
-        },
-        {
-          "type": "industry",
-          "value": "Hospitality"
-        }
-      ]
     }
   ],
   "license": "CC-BY 4.0 \u2014 attribute ThreatCluster (https://threatcluster.io)",

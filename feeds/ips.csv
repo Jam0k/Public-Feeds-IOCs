@@ -1,14 +1,19 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason
+ipv4,108.165.147.64,high,2026-10-13T17:33:11+00:00,2026-10-20T06:43:30.105344+00:00,4,www.volexity.com:2026-10-20|Ccb.Belgium.Be:2026-10-14|Rescana:2026-10-14|Feeds.Feedburner:2026-10-13,Identified as a host used by the attacker for operations
+ipv6,2a09:bac5:4e21:2e3c::49b:9,high,2026-10-19T20:02:56+00:00,2026-10-20T03:02:44.775826+00:00,2,wordpress.org:2026-10-20|Wordfence:2026-10-19,Listed as a source address for malicious requests
+ipv4,217.60.194.116,high,2026-10-19T17:34:34+00:00,2026-10-20T03:02:19.067056+00:00,2,www.boredhackerblog.info:2026-10-20|Thehackernews:2026-10-19,Source of malicious file downloads
+ipv4,78.128.113.14,high,2026-10-19T22:38:04.235893+00:00,2026-10-19T22:38:04.235893+00:00,1,www.godaddy.com:2026-10-19,Used for plugin installations in malicious campaigns
+ipv4,2.27.248.127,high,2026-10-19T19:14:50.999217+00:00,2026-10-19T19:14:50.999217+00:00,1,productcert.siemens.com:2026-10-19,IP address listed as part of the attacker's infrastructure to be blocked
+ipv4,96.62.218.59,high,2026-10-19T19:14:50.999217+00:00,2026-10-19T19:14:50.999217+00:00,1,productcert.siemens.com:2026-10-19,IP address listed as part of the attacker's infrastructure to be blocked
+ipv4,45.139.104.115,high,2026-10-19T14:05:31.040619+00:00,2026-10-19T14:05:31.040619+00:00,1,opensourcemalware.com:2026-10-19,Listed as a malicious IP in a threat report
 ipv4,176.123.26.67,high,2026-10-16T19:31:23.681851+00:00,2026-10-16T19:31:23.681851+00:00,1,citizenlab.ca:2026-10-16,Listed as an IP address associated with Candiru's infrastructure
 ipv4,185.25.50.194,high,2026-10-16T19:31:23.681851+00:00,2026-10-16T19:31:23.681851+00:00,1,citizenlab.ca:2026-10-16,Associated with CHAINSHOT exploit kit linked to Candiru
 ipv4,69.28.67.162,high,2026-10-16T19:31:23.681851+00:00,2026-10-16T19:31:23.681851+00:00,1,citizenlab.ca:2026-10-16,Listed as an IP address associated with Candiru's infrastructure
 ipv4,49.207.56.74,high,2026-10-16T12:01:13.068620+00:00,2026-10-16T12:01:13.068620+00:00,1,www.sysdig.com:2026-10-16,Referenced as the source of exploitation attempts in the article.
 ipv4,185.21.136.6,high,2026-10-16T10:31:51+00:00,2026-10-16T10:31:51+00:00,1,Bloglab.360:2026-10-16,Listed as part of attacker infrastructure in a threat report
 ipv4,198.23.185.234,high,2026-10-16T10:31:51+00:00,2026-10-16T10:31:51+00:00,1,Bloglab.360:2026-10-16,Listed as part of attacker infrastructure in a threat report
-ipv4,108.165.147.64,high,2026-10-13T17:33:11+00:00,2026-10-16T10:01:47.585800+00:00,4,www.volexity.com:2026-10-16|Ccb.Belgium.Be:2026-10-14|Rescana:2026-10-14|Feeds.Feedburner:2026-10-13,Identified as a host used by the attacker for operations
 ipv4,2.59.134.215,high,2026-10-16T08:01:09.321258+00:00,2026-10-16T08:01:09.321258+00:00,1,www.group-ib.com:2026-10-16,Listed as a secondary C2 server in the IOC section
 ipv4,23.240.77.233,high,2026-10-14T22:42:29+00:00,2026-10-16T05:04:36+00:00,2,Thehackernews:2026-10-16|Unit42.Paloaltonetworks:2026-10-14,Identified as known external staging infrastructure used by attackers
-ipv4,78.128.113.14,high,2026-10-15T15:12:24.931033+00:00,2026-10-15T15:12:24.931033+00:00,1,www.godaddy.com:2026-10-15,Used for plugin installations in malicious campaigns
 ipv4,91.196.33.144,high,2026-10-15T15:12:22.476814+00:00,2026-10-15T15:12:22.476814+00:00,1,www.infoblox.com:2026-10-15,Resolved from hotcname.help used in tech support scams
 ipv4,47.18.167.159,high,2026-10-14T22:42:29+00:00,2026-10-14T22:42:29+00:00,1,Unit42.Paloaltonetworks:2026-10-14,Identified as known external staging infrastructure used by attackers
 ipv4,139.28.18.122,high,2026-10-14T20:05:01.148615+00:00,2026-10-14T20:05:01.148615+00:00,1,github.com:2026-10-14,IP address used in successful hacks on Nextcloud servers
