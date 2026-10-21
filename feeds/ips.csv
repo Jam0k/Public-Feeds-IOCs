@@ -1,10 +1,16 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason
+ipv4,185.225.226.62,high,2026-10-20T22:00:38.188496+00:00,2026-10-20T22:00:38.188496+00:00,1,lists.torproject.org:2026-10-20,IP address used by attacker to log in to the management server
+ipv4,212.73.134.136,high,2026-10-20T21:22:02+00:00,2026-10-20T21:22:02+00:00,1,Wiz:2026-10-20,Used as a source IP for phishing activity
+ipv4,217.60.194.116,high,2026-10-19T17:34:34+00:00,2026-10-20T18:32:11.740836+00:00,2,www.boredhackerblog.info:2026-10-20|Thehackernews:2026-10-19,Source of malicious file downloads
+ipv4,2.27.248.127,high,2026-10-19T19:14:50.999217+00:00,2026-10-20T12:27:36+00:00,3,Helpnetsecurity:2026-10-20|Thehackernews:2026-10-20|productcert.siemens.com:2026-10-19,IP address listed as part of attacker infrastructure to be blocked
+ipv4,194.87.108.217,high,2026-10-20T11:06:25+00:00,2026-10-20T11:06:25+00:00,1,Thehackernews:2026-10-20,Listed as a LegionRelay C2 server used in attacks
+ipv4,91.149.221.118,high,2026-10-20T11:06:25+00:00,2026-10-20T11:06:25+00:00,1,Thehackernews:2026-10-20,Listed as a LegionRelay C2 server used in attacks
+ipv4,91.149.221.123,high,2026-10-20T11:06:25+00:00,2026-10-20T11:06:25+00:00,1,Thehackernews:2026-10-20,Listed as a LegionRelay C2 server used in attacks
+ipv4,96.62.218.59,high,2026-10-19T19:14:50.999217+00:00,2026-10-20T07:11:45+00:00,2,Thehackernews:2026-10-20|productcert.siemens.com:2026-10-19,IP address listed as part of attacker infrastructure to be blocked
 ipv4,108.165.147.64,high,2026-10-13T17:33:11+00:00,2026-10-20T06:43:30.105344+00:00,4,www.volexity.com:2026-10-20|Ccb.Belgium.Be:2026-10-14|Rescana:2026-10-14|Feeds.Feedburner:2026-10-13,Identified as a host used by the attacker for operations
 ipv6,2a09:bac5:4e21:2e3c::49b:9,high,2026-10-19T20:02:56+00:00,2026-10-20T03:02:44.775826+00:00,2,wordpress.org:2026-10-20|Wordfence:2026-10-19,Listed as a source address for malicious requests
-ipv4,217.60.194.116,high,2026-10-19T17:34:34+00:00,2026-10-20T03:02:19.067056+00:00,2,www.boredhackerblog.info:2026-10-20|Thehackernews:2026-10-19,Source of malicious file downloads
+ipv4,176.65.139.228,high,2026-10-19T23:53:48+00:00,2026-10-19T23:53:48+00:00,1,Cybernewsai:2026-10-19,Listed as part of an attacker's scanning infrastructure
 ipv4,78.128.113.14,high,2026-10-19T22:38:04.235893+00:00,2026-10-19T22:38:04.235893+00:00,1,www.godaddy.com:2026-10-19,Used for plugin installations in malicious campaigns
-ipv4,2.27.248.127,high,2026-10-19T19:14:50.999217+00:00,2026-10-19T19:14:50.999217+00:00,1,productcert.siemens.com:2026-10-19,IP address listed as part of the attacker's infrastructure to be blocked
-ipv4,96.62.218.59,high,2026-10-19T19:14:50.999217+00:00,2026-10-19T19:14:50.999217+00:00,1,productcert.siemens.com:2026-10-19,IP address listed as part of the attacker's infrastructure to be blocked
 ipv4,45.139.104.115,high,2026-10-19T14:05:31.040619+00:00,2026-10-19T14:05:31.040619+00:00,1,opensourcemalware.com:2026-10-19,Listed as a malicious IP in a threat report
 ipv4,176.123.26.67,high,2026-10-16T19:31:23.681851+00:00,2026-10-16T19:31:23.681851+00:00,1,citizenlab.ca:2026-10-16,Listed as an IP address associated with Candiru's infrastructure
 ipv4,185.25.50.194,high,2026-10-16T19:31:23.681851+00:00,2026-10-16T19:31:23.681851+00:00,1,citizenlab.ca:2026-10-16,Associated with CHAINSHOT exploit kit linked to Candiru
@@ -160,4 +166,3 @@ ipv4,189.141.53.203,high,2026-09-22T05:01:55+00:00,2026-09-22T05:01:55+00:00,1,R
 ipv4,176.53.159.66,high,2026-09-21T11:02:57.464783+00:00,2026-09-21T11:02:57.464783+00:00,1,adamnet.works:2026-09-21,Used for malicious delivery and teardown operations
 ipv4,45.94.47.204,high,2026-09-21T11:02:57.464783+00:00,2026-09-21T11:02:57.464783+00:00,1,adamnet.works:2026-09-21,Used for malicious task service enrollment
 ipv4,62.60.226.69,high,2026-09-21T11:02:57.464783+00:00,2026-09-21T11:02:57.464783+00:00,1,adamnet.works:2026-09-21,Used as a provisioning cluster for malicious operations
-ipv4,109.94.171.225,high,2026-09-21T04:20:50+00:00,2026-09-21T04:20:50+00:00,1,Hackernoon:2026-09-21,IP address used for data exfiltration

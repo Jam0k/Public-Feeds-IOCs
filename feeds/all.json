@@ -1,7 +1,7 @@
 {
   "feed": "threatcluster-public-iocs",
   "version": 1,
-  "generated_at": "2026-10-20T11:33:11Z",
+  "generated_at": "2026-10-21T11:45:52Z",
   "filters": {
     "confidence": "high",
     "window_days": 30,
@@ -11,8 +11,435 @@
       "domain"
     ]
   },
-  "count": 830,
+  "count": 829,
   "iocs": [
+    {
+      "type": "domain",
+      "value": "pavpal.com",
+      "confidence": "high",
+      "reason": "Identified as a typosquatted domain used for phishing, mimicking paypal.com",
+      "first_seen": "2026-10-21T09:31:42.550611+00:00",
+      "last_seen": "2026-10-21T09:31:42.550611+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.staysafeonline.org",
+          "url": "https://www.staysafeonline.org/articles/phishing",
+          "pub_date": "2026-10-21T09:31:42.550611+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "ipv4",
+      "value": "185.225.226.62",
+      "confidence": "high",
+      "reason": "IP address used by attacker to log in to the management server",
+      "first_seen": "2026-10-20T22:00:38.188496+00:00",
+      "last_seen": "2026-10-20T22:00:38.188496+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "lists.torproject.org",
+          "url": "https://lists.torproject.org/mailman3/hyperkitty/list/tor-relays@lists.torproject.org/thread/QHRD6YOX6RZRDR7NCHNDO7GLCEA6VFM6/",
+          "pub_date": "2026-10-20T22:00:38.188496+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2026-44343"
+        },
+        {
+          "type": "malware",
+          "value": "Ebury"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "212.73.134.136",
+      "confidence": "high",
+      "reason": "Used as a source IP for phishing activity",
+      "first_seen": "2026-10-20T21:22:02+00:00",
+      "last_seen": "2026-10-20T21:22:02+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Wiz",
+          "url": "https://www.wiz.io/blog/from-phishing-to-llmjacking",
+          "pub_date": "2026-10-20T21:22:02+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "proxystream.st",
+      "confidence": "high",
+      "reason": "Associated with malicious activity and used in attacks",
+      "first_seen": "2026-10-18T19:45:05+00:00",
+      "last_seen": "2026-10-20T18:32:11.740836+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "www.boredhackerblog.info",
+          "url": "https://www.boredhackerblog.info/2026/10/plex-vulnerabilities-being-exploited-in.html",
+          "pub_date": "2026-10-20T18:32:11.740836+00:00"
+        },
+        {
+          "source": "Cordcuttersnews",
+          "url": "https://cordcuttersnews.com/plex-media-server-owners-urged-to-update-immediately-after-in-the-wild-exploitation-of-older-installations-turns-your-computer-into-a-zombie/",
+          "pub_date": "2026-10-18T19:45:05+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2026-96652"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-96654"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-96655"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-96656"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "217.60.194.116",
+      "confidence": "high",
+      "reason": "Source of malicious file downloads",
+      "first_seen": "2026-10-19T17:34:34+00:00",
+      "last_seen": "2026-10-20T18:32:11.740836+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "www.boredhackerblog.info",
+          "url": "https://www.boredhackerblog.info/2026/10/plex-vulnerabilities-being-exploited-in.html",
+          "pub_date": "2026-10-20T18:32:11.740836+00:00"
+        },
+        {
+          "source": "Thehackernews",
+          "url": "https://thehackernews.com/2026/10/hackers-exploit-plex2shell-flaws-to.html",
+          "pub_date": "2026-10-19T17:34:34+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2026-96651"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-96652"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-96654"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-96655"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "pwnedhost.com",
+      "confidence": "high",
+      "reason": "Domain used in a SQL injection attack payload",
+      "first_seen": "2026-10-20T17:04:12+00:00",
+      "last_seen": "2026-10-20T17:04:12+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cxsecurity",
+          "url": "https://cxsecurity.com/issue/WLB-2026100005",
+          "pub_date": "2026-10-20T17:04:12+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "msauth.biz",
+      "confidence": "high",
+      "reason": "Newly registered domain used for phishing, controlled by attacker",
+      "first_seen": "2026-10-20T16:10:18.668520+00:00",
+      "last_seen": "2026-10-20T16:10:18.668520+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "ocean.security",
+          "url": "https://ocean.security/resources/blog/frame-io-phishing-aitm-share-link",
+          "pub_date": "2026-10-20T16:10:18.66852+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Phantom Preview"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "stateglobe.com",
+      "confidence": "high",
+      "reason": "Domain created for an experiment with fake statistics",
+      "first_seen": "2026-10-20T13:06:22+00:00",
+      "last_seen": "2026-10-20T13:06:22+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "News.Ycombinator",
+          "url": "https://peec.ai/blog/publish-stats-get-cited-the-tactic-that-put-my-data-all-over-the-web",
+          "pub_date": "2026-10-20T13:06:22+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "sale-budget-9f21c8a3.cf.metaaiusercontent.com",
+      "confidence": "high",
+      "reason": "Domain used in phishing links with conversation names",
+      "first_seen": "2026-10-20T12:33:13+00:00",
+      "last_seen": "2026-10-20T12:33:13+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Arstechnica",
+          "url": "https://arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations/",
+          "pub_date": "2026-10-20T12:33:13+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "ipv4",
+      "value": "2.27.248.127",
+      "confidence": "high",
+      "reason": "IP address listed as part of attacker infrastructure to be blocked",
+      "first_seen": "2026-10-19T19:14:50.999217+00:00",
+      "last_seen": "2026-10-20T12:27:36+00:00",
+      "source_count": 3,
+      "sources": [
+        {
+          "source": "Helpnetsecurity",
+          "url": "https://www.helpnetsecurity.com/2026/10/20/exploitation-siemens-software-center-vulnerability-cve-2026-110936/",
+          "pub_date": "2026-10-20T12:27:36+00:00"
+        },
+        {
+          "source": "Thehackernews",
+          "url": "https://thehackernews.com/2026/10/clickfix-attackers-exploit-siemens.html",
+          "pub_date": "2026-10-20T07:11:45+00:00"
+        },
+        {
+          "source": "productcert.siemens.com",
+          "url": "https://productcert.siemens.com/news/2026/10/19/active-exploitation-of-cve-2026-110936-in-siemens-software-center",
+          "pub_date": "2026-10-19T19:14:50.999217+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2026-110936"
+        },
+        {
+          "type": "campaign",
+          "value": "ClickFix"
+        },
+        {
+          "type": "campaign",
+          "value": "ClickFix Campaign"
+        },
+        {
+          "type": "malware",
+          "value": "Legion Loader"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "194.87.108.217",
+      "confidence": "high",
+      "reason": "Listed as a LegionRelay C2 server used in attacks",
+      "first_seen": "2026-10-20T11:06:25+00:00",
+      "last_seen": "2026-10-20T11:06:25+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Thehackernews",
+          "url": "https://thehackernews.com/2026/10/russian-apt28-breaches-nato-naval.html",
+          "pub_date": "2026-10-20T11:06:25+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "APT28"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-21509"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-8496"
+        },
+        {
+          "type": "industry",
+          "value": "Government"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "91.149.221.118",
+      "confidence": "high",
+      "reason": "Listed as a LegionRelay C2 server used in attacks",
+      "first_seen": "2026-10-20T11:06:25+00:00",
+      "last_seen": "2026-10-20T11:06:25+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Thehackernews",
+          "url": "https://thehackernews.com/2026/10/russian-apt28-breaches-nato-naval.html",
+          "pub_date": "2026-10-20T11:06:25+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "APT28"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-21509"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-8496"
+        },
+        {
+          "type": "industry",
+          "value": "Government"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "91.149.221.123",
+      "confidence": "high",
+      "reason": "Listed as a LegionRelay C2 server used in attacks",
+      "first_seen": "2026-10-20T11:06:25+00:00",
+      "last_seen": "2026-10-20T11:06:25+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Thehackernews",
+          "url": "https://thehackernews.com/2026/10/russian-apt28-breaches-nato-naval.html",
+          "pub_date": "2026-10-20T11:06:25+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "APT28"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-21509"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-8496"
+        },
+        {
+          "type": "industry",
+          "value": "Government"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "wizardexpensive.com",
+      "confidence": "high",
+      "reason": "Domain listed as part of attacker infrastructure to be blocked",
+      "first_seen": "2026-10-19T19:14:50.999217+00:00",
+      "last_seen": "2026-10-20T07:11:45+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "Thehackernews",
+          "url": "https://thehackernews.com/2026/10/clickfix-attackers-exploit-siemens.html",
+          "pub_date": "2026-10-20T07:11:45+00:00"
+        },
+        {
+          "source": "productcert.siemens.com",
+          "url": "https://productcert.siemens.com/news/2026/10/19/active-exploitation-of-cve-2026-110936-in-siemens-software-center",
+          "pub_date": "2026-10-19T19:14:50.999217+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "ClickFix"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-110936"
+        },
+        {
+          "type": "malware",
+          "value": "Legion Loader"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "96.62.218.59",
+      "confidence": "high",
+      "reason": "IP address listed as part of attacker infrastructure to be blocked",
+      "first_seen": "2026-10-19T19:14:50.999217+00:00",
+      "last_seen": "2026-10-20T07:11:45+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "Thehackernews",
+          "url": "https://thehackernews.com/2026/10/clickfix-attackers-exploit-siemens.html",
+          "pub_date": "2026-10-20T07:11:45+00:00"
+        },
+        {
+          "source": "productcert.siemens.com",
+          "url": "https://productcert.siemens.com/news/2026/10/19/active-exploitation-of-cve-2026-110936-in-siemens-software-center",
+          "pub_date": "2026-10-19T19:14:50.999217+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "ClickFix"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-110936"
+        },
+        {
+          "type": "malware",
+          "value": "Legion Loader"
+        }
+      ]
+    },
     {
       "type": "ipv4",
       "value": "108.165.147.64",
@@ -86,84 +513,6 @@
         {
           "type": "cve",
           "value": "CVE-2026-10795"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "proxystream.st",
-      "confidence": "high",
-      "reason": "Associated with malicious activity and used in attacks",
-      "first_seen": "2026-10-18T19:45:05+00:00",
-      "last_seen": "2026-10-20T03:02:19.067056+00:00",
-      "source_count": 2,
-      "sources": [
-        {
-          "source": "www.boredhackerblog.info",
-          "url": "https://www.boredhackerblog.info/2026/10/plex-vulnerabilities-being-exploited-in.html",
-          "pub_date": "2026-10-20T03:02:19.067056+00:00"
-        },
-        {
-          "source": "Cordcuttersnews",
-          "url": "https://cordcuttersnews.com/plex-media-server-owners-urged-to-update-immediately-after-in-the-wild-exploitation-of-older-installations-turns-your-computer-into-a-zombie/",
-          "pub_date": "2026-10-18T19:45:05+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "cve",
-          "value": "CVE-2026-96652"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-96654"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-96655"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-96656"
-        }
-      ]
-    },
-    {
-      "type": "ipv4",
-      "value": "217.60.194.116",
-      "confidence": "high",
-      "reason": "Source of malicious file downloads",
-      "first_seen": "2026-10-19T17:34:34+00:00",
-      "last_seen": "2026-10-20T03:02:19.067056+00:00",
-      "source_count": 2,
-      "sources": [
-        {
-          "source": "www.boredhackerblog.info",
-          "url": "https://www.boredhackerblog.info/2026/10/plex-vulnerabilities-being-exploited-in.html",
-          "pub_date": "2026-10-20T03:02:19.067056+00:00"
-        },
-        {
-          "source": "Thehackernews",
-          "url": "https://thehackernews.com/2026/10/hackers-exploit-plex2shell-flaws-to.html",
-          "pub_date": "2026-10-19T17:34:34+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "cve",
-          "value": "CVE-2026-96651"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-96652"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-96654"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-96655"
         }
       ]
     },
@@ -244,6 +593,40 @@
           "value": "DarkSword"
         }
       ]
+    },
+    {
+      "type": "domain",
+      "value": "buildwithknexus.xyz",
+      "confidence": "high",
+      "reason": "Used to host a malicious script",
+      "first_seen": "2026-10-20T00:00:00+00:00",
+      "last_seen": "2026-10-20T00:00:00+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Safedep",
+          "url": "https://safedep.io/hugo-paper-mevn-cli-forged-commit-preinstall-dropper",
+          "pub_date": "2026-10-20T00:00:00+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "ipv4",
+      "value": "176.65.139.228",
+      "confidence": "high",
+      "reason": "Listed as part of an attacker's scanning infrastructure",
+      "first_seen": "2026-10-19T23:53:48+00:00",
+      "last_seen": "2026-10-19T23:53:48+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cybernewsai",
+          "url": "https://www.cybernewsai.com/blog/plex2shell-how-to-detect-patch-plex-media-server-rce",
+          "pub_date": "2026-10-19T23:53:48+00:00"
+        }
+      ],
+      "tags": []
     },
     {
       "type": "domain",
@@ -935,84 +1318,6 @@
         }
       ],
       "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "wizardexpensive.com",
-      "confidence": "high",
-      "reason": "Domain listed as part of the attacker's infrastructure to be blocked",
-      "first_seen": "2026-10-19T19:14:50.999217+00:00",
-      "last_seen": "2026-10-19T19:14:50.999217+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "productcert.siemens.com",
-          "url": "https://productcert.siemens.com/news/2026/10/19/active-exploitation-of-cve-2026-110936-in-siemens-software-center",
-          "pub_date": "2026-10-19T19:14:50.999217+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "ClickFix"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-110936"
-        }
-      ]
-    },
-    {
-      "type": "ipv4",
-      "value": "2.27.248.127",
-      "confidence": "high",
-      "reason": "IP address listed as part of the attacker's infrastructure to be blocked",
-      "first_seen": "2026-10-19T19:14:50.999217+00:00",
-      "last_seen": "2026-10-19T19:14:50.999217+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "productcert.siemens.com",
-          "url": "https://productcert.siemens.com/news/2026/10/19/active-exploitation-of-cve-2026-110936-in-siemens-software-center",
-          "pub_date": "2026-10-19T19:14:50.999217+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "ClickFix"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-110936"
-        }
-      ]
-    },
-    {
-      "type": "ipv4",
-      "value": "96.62.218.59",
-      "confidence": "high",
-      "reason": "IP address listed as part of the attacker's infrastructure to be blocked",
-      "first_seen": "2026-10-19T19:14:50.999217+00:00",
-      "last_seen": "2026-10-19T19:14:50.999217+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "productcert.siemens.com",
-          "url": "https://productcert.siemens.com/news/2026/10/19/active-exploitation-of-cve-2026-110936-in-siemens-software-center",
-          "pub_date": "2026-10-19T19:14:50.999217+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "ClickFix"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-110936"
-        }
-      ]
     },
     {
       "type": "domain",
@@ -3601,6 +3906,45 @@
       ]
     },
     {
+      "type": "domain",
+      "value": "easyllms.xyz",
+      "confidence": "high",
+      "reason": "Domain used to deliver malware payload in a multi-stage infection chain",
+      "first_seen": "2026-10-15T18:49:33+00:00",
+      "last_seen": "2026-10-16T06:55:26+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "News.Lavx.Hu",
+          "url": "https://news.lavx.hu/article/weekly-threat-roundup-ransomware-hits-vpns-ai-credentials-targeted-and-a-self-healing-wordpress-backdoor",
+          "pub_date": "2026-10-16T06:55:26+00:00"
+        },
+        {
+          "source": "Thehackernews",
+          "url": "https://thehackernews.com/2026/10/threatsday-adobe-rce-dns-wallet-theft.html",
+          "pub_date": "2026-10-15T18:49:33+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2026-0257"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-101337"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-101338"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-101339"
+        }
+      ]
+    },
+    {
       "type": "ipv4",
       "value": "23.240.77.233",
       "confidence": "high",
@@ -4126,23 +4470,6 @@
           "value": "Government"
         }
       ]
-    },
-    {
-      "type": "domain",
-      "value": "easyllms.xyz",
-      "confidence": "high",
-      "reason": "Used as a C2 server for BotHelper RAT",
-      "first_seen": "2026-10-15T18:49:33+00:00",
-      "last_seen": "2026-10-15T18:49:33+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Thehackernews",
-          "url": "https://thehackernews.com/2026/10/threatsday-adobe-rce-dns-wallet-theft.html",
-          "pub_date": "2026-10-15T18:49:33+00:00"
-        }
-      ],
-      "tags": []
     },
     {
       "type": "domain",
@@ -20518,19 +20845,14 @@
       "value": "goorkan.info",
       "confidence": "high",
       "reason": "Domain promoted by hacked traffic sign, linked to a campaign targeting Iranian dissidents, suggesting attacker control.",
-      "first_seen": "2026-09-21T04:54:33+00:00",
+      "first_seen": "2026-09-22T17:02:08.153305+00:00",
       "last_seen": "2026-09-22T17:02:08.153305+00:00",
-      "source_count": 2,
+      "source_count": 1,
       "sources": [
         {
           "source": "www.aol.com",
           "url": "https://www.aol.com/articles/iranian-dissidents-claim-chilling-sign-212251000.html",
           "pub_date": "2026-09-22T17:02:08.153305+00:00"
-        },
-        {
-          "source": "Nypost",
-          "url": "https://nypost.com/2026/09/20/us-news/los-angeles-405-freeway-sign-hacked-with-threats-targeting-iranian-dissidents/",
-          "pub_date": "2026-09-21T04:54:33+00:00"
         }
       ],
       "tags": []
@@ -21313,227 +21635,6 @@
           "value": "Homebrew Campaign"
         }
       ]
-    },
-    {
-      "type": "domain",
-      "value": "apple03cloudstore.com",
-      "confidence": "high",
-      "reason": "Used for hosting malicious payloads as part of an attack.",
-      "first_seen": "2026-09-21T04:20:50+00:00",
-      "last_seen": "2026-09-21T04:20:50+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Hackernoon",
-          "url": "https://hackernoon.com/downloading-zoom-or-brave-could-be-new-mac-malware-sonoma-in-disguise",
-          "pub_date": "2026-09-21T04:20:50+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "appstore.com.mx",
-      "confidence": "high",
-      "reason": "Used for hosting malicious payloads as part of an attack.",
-      "first_seen": "2026-09-21T04:20:50+00:00",
-      "last_seen": "2026-09-21T04:20:50+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Hackernoon",
-          "url": "https://hackernoon.com/downloading-zoom-or-brave-could-be-new-mac-malware-sonoma-in-disguise",
-          "pub_date": "2026-09-21T04:20:50+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "brave.apple03cloudstore.com",
-      "confidence": "high",
-      "reason": "Listed as part of a campaign's C2 infrastructure.",
-      "first_seen": "2026-09-21T04:20:50+00:00",
-      "last_seen": "2026-09-21T04:20:50+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Hackernoon",
-          "url": "https://hackernoon.com/downloading-zoom-or-brave-could-be-new-mac-malware-sonoma-in-disguise",
-          "pub_date": "2026-09-21T04:20:50+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "cavepay.apple03cloudstore.com",
-      "confidence": "high",
-      "reason": "Listed as part of a campaign's C2 infrastructure.",
-      "first_seen": "2026-09-21T04:20:50+00:00",
-      "last_seen": "2026-09-21T04:20:50+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Hackernoon",
-          "url": "https://hackernoon.com/downloading-zoom-or-brave-could-be-new-mac-malware-sonoma-in-disguise",
-          "pub_date": "2026-09-21T04:20:50+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "crystalflip.apple03cloudstore.com",
-      "confidence": "high",
-      "reason": "Used for DeFi/gaming lure staging",
-      "first_seen": "2026-09-21T04:20:50+00:00",
-      "last_seen": "2026-09-21T04:20:50+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Hackernoon",
-          "url": "https://hackernoon.com/downloading-zoom-or-brave-could-be-new-mac-malware-sonoma-in-disguise",
-          "pub_date": "2026-09-21T04:20:50+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "docsend.appstore.com.mx",
-      "confidence": "high",
-      "reason": "Used for hosting malicious files",
-      "first_seen": "2026-09-21T04:20:50+00:00",
-      "last_seen": "2026-09-21T04:20:50+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Hackernoon",
-          "url": "https://hackernoon.com/downloading-zoom-or-brave-could-be-new-mac-malware-sonoma-in-disguise",
-          "pub_date": "2026-09-21T04:20:50+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "loader.app",
-      "confidence": "high",
-      "reason": "Used as a payload host in a malware campaign",
-      "first_seen": "2026-09-21T04:20:50+00:00",
-      "last_seen": "2026-09-21T04:20:50+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Hackernoon",
-          "url": "https://hackernoon.com/downloading-zoom-or-brave-could-be-new-mac-malware-sonoma-in-disguise",
-          "pub_date": "2026-09-21T04:20:50+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "slack.apple03cloudstore.com",
-      "confidence": "high",
-      "reason": "Used for hosting malicious scripts",
-      "first_seen": "2026-09-21T04:20:50+00:00",
-      "last_seen": "2026-09-21T04:20:50+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Hackernoon",
-          "url": "https://hackernoon.com/downloading-zoom-or-brave-could-be-new-mac-malware-sonoma-in-disguise",
-          "pub_date": "2026-09-21T04:20:50+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "streamyard.appstore.com.mx",
-      "confidence": "high",
-      "reason": "Used to host a malicious installer script",
-      "first_seen": "2026-09-21T04:20:50+00:00",
-      "last_seen": "2026-09-21T04:20:50+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Hackernoon",
-          "url": "https://hackernoon.com/downloading-zoom-or-brave-could-be-new-mac-malware-sonoma-in-disguise",
-          "pub_date": "2026-09-21T04:20:50+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "streamyardinstaller.app",
-      "confidence": "high",
-      "reason": "Used as a fake installer in a malware campaign",
-      "first_seen": "2026-09-21T04:20:50+00:00",
-      "last_seen": "2026-09-21T04:20:50+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Hackernoon",
-          "url": "https://hackernoon.com/downloading-zoom-or-brave-could-be-new-mac-malware-sonoma-in-disguise",
-          "pub_date": "2026-09-21T04:20:50+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "toria.app",
-      "confidence": "high",
-      "reason": "Used in a malware campaign as a payload host",
-      "first_seen": "2026-09-21T04:20:50+00:00",
-      "last_seen": "2026-09-21T04:20:50+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Hackernoon",
-          "url": "https://hackernoon.com/downloading-zoom-or-brave-could-be-new-mac-malware-sonoma-in-disguise",
-          "pub_date": "2026-09-21T04:20:50+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "ipv4",
-      "value": "109.94.171.225",
-      "confidence": "high",
-      "reason": "IP address used for data exfiltration",
-      "first_seen": "2026-09-21T04:20:50+00:00",
-      "last_seen": "2026-09-21T04:20:50+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Hackernoon",
-          "url": "https://hackernoon.com/downloading-zoom-or-brave-could-be-new-mac-malware-sonoma-in-disguise",
-          "pub_date": "2026-09-21T04:20:50+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "interac-transfers.ca",
-      "confidence": "high",
-      "reason": "Used in scams to impersonate a legitimate service",
-      "first_seen": "2026-09-20T14:28:35+00:00",
-      "last_seen": "2026-09-20T14:28:35+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Ca.Finance.Yahoo",
-          "url": "https://ca.finance.yahoo.com/news/ottawa-woman-lost-1-000-133000968.html",
-          "pub_date": "2026-09-20T14:28:35+00:00"
-        }
-      ],
-      "tags": []
     }
   ],
   "license": "CC-BY 4.0 \u2014 attribute ThreatCluster (https://threatcluster.io)",
