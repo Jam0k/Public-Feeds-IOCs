@@ -1,10 +1,42 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason
+domain,litellm.dev,high,2026-10-21T17:08:52+00:00,2026-10-21T23:16:31+00:00,4,,Domain used as exfiltration endpoint in attack
+domain,www.litellm.dev,high,2026-10-21T13:41:48.036000+00:00,2026-10-21T23:16:31+00:00,2,,Domain used as exfiltration endpoint in attack
+domain,wizardexpensive.com,high,2026-10-19T19:14:50.999217+00:00,2026-10-21T19:01:41.433743+00:00,2,,Domain listed as part of attacker infrastructure to be blocked
+domain,9i6pokerdepot.com,high,2026-09-08T13:01:18.371466+00:00,2026-10-21T16:39:04.731367+00:00,1,,Used as a sending domain in a phishing campaign
+domain,fine-work-team.com,high,2026-07-28T14:25:36+00:00,2026-10-21T15:00:29.781307+00:00,3,,Domain used in a PowerShell command to download and execute a payload
+domain,linkedinsig.com,high,2026-10-21T15:00:29.781307+00:00,2026-10-21T15:00:29.781307+00:00,1,,Domain used in a command to execute a payload
+domain,wirelesswebdevice.com,high,2026-10-21T15:00:29.781307+00:00,2026-10-21T15:00:29.781307+00:00,1,,Domain used in a PowerShell command to download and execute a script
+domain,simba.sg-recharge.cfd,high,2026-10-21T14:46:49+00:00,2026-10-21T14:46:49+00:00,1,,Phishing domain impersonating a legitimate site
+domain,simba.sg-recharge.cyou,high,2026-10-21T14:46:49+00:00,2026-10-21T14:46:49+00:00,1,,Phishing domain impersonating a legitimate site
+domain,amazonyt.com,high,2026-10-21T13:42:42+00:00,2026-10-21T13:42:42+00:00,1,,Hosted site impersonating Amazon services
+domain,youtubechannelverification.com,high,2026-10-21T13:42:42+00:00,2026-10-21T13:42:42+00:00,1,,Used in a phishing scheme to collect credentials
+domain,grillmasterchef.com,high,2026-10-21T13:03:40+00:00,2026-10-21T13:03:40+00:00,1,,Used for C2 and payload delivery
+domain,grillrecipespro.com,high,2026-10-21T13:03:40+00:00,2026-10-21T13:03:40+00:00,1,,Used for attacker-controlled communications
+domain,homelygrill.com,high,2026-10-21T13:03:40+00:00,2026-10-21T13:03:40+00:00,1,,Used for exfiltration after initial check-in
+domain,kiriosyka.com,high,2026-10-21T13:03:40+00:00,2026-10-21T13:03:40+00:00,1,,Used for malware delivery
+domain,liokida.com,high,2026-10-21T13:03:40+00:00,2026-10-21T13:03:40+00:00,1,,Origin of malware communication
+domain,orders-amazon-com.advancedfences.com,high,2026-10-21T13:03:40+00:00,2026-10-21T13:03:40+00:00,1,,Used in a phishing campaign with a fake Amazon login page
+domain,perfectgrillrecipes.com,high,2026-10-21T13:03:40+00:00,2026-10-21T13:03:40+00:00,1,,Used as a C2 address for malware communication
+domain,thegrilljournal.com,high,2026-10-21T13:03:40+00:00,2026-10-21T13:03:40+00:00,1,,Used for exfiltration in malware communication
+domain,orders-amazon.com.advancedfences.com,high,2026-10-21T13:00:00+00:00,2026-10-21T13:00:00+00:00,1,,Used in a phishing campaign with a fake Amazon login page
+domain,dc.cathaypacifice.com,high,2026-10-20T19:30:52+00:00,2026-10-21T12:05:00+00:00,2,,Listed as a C2 server contacted by the payload
+domain,net.dpworldto.com,high,2026-10-20T19:30:52+00:00,2026-10-21T12:05:00+00:00,2,,Listed as a C2 server contacted by the payload
+domain,auto.skypool.xyz,high,2026-10-21T10:19:46+00:00,2026-10-21T10:19:46+00:00,1,,"Listed as a domain used for malicious activities, likely attacker-controlled."
+domain,pavpal.com,high,2026-10-21T09:31:42.550611+00:00,2026-10-21T09:31:42.550611+00:00,1,,"Identified as a typosquatted domain used for phishing, mimicking paypal.com"
+domain,secure-account-help.co,high,2026-10-21T08:02:13+00:00,2026-10-21T08:02:13+00:00,1,,Phishing domain used to collect credentials
+domain,zkorman.com,high,2026-10-21T08:02:03.636000+00:00,2026-10-21T08:02:03.636000+00:00,1,,Used in malicious skills for external registration
+domain,cubedesign.co.kr,high,2026-10-21T02:31:30.861288+00:00,2026-10-21T02:31:30.861288+00:00,1,,Identified as a hardcoded C2 server for Cubridge malware
+domain,fp-news.co.kr,high,2026-10-21T02:31:30.861288+00:00,2026-10-21T02:31:30.861288+00:00,1,,Listed as a C2 server for Cubridge malware
+domain,javadevhouse.co.kr,high,2026-10-21T02:31:30.861288+00:00,2026-10-21T02:31:30.861288+00:00,1,,Used to host malicious JavaScript linked to phishing emails
+domain,k-wbc.co.kr,high,2026-10-21T02:31:30.861288+00:00,2026-10-21T02:31:30.861288+00:00,1,,Listed as a C2 server for ClientHub malware
+domain,pythonapischool.com,high,2026-10-21T02:31:30.861288+00:00,2026-10-21T02:31:30.861288+00:00,1,,Used to host malicious JavaScript linked to phishing emails
+domain,rcsh.co.kr,high,2026-10-21T02:31:30.861288+00:00,2026-10-21T02:31:30.861288+00:00,1,,Listed as a C2 server for ClientHub malware
+domain,www.ksog.org,high,2026-10-21T02:31:30.861288+00:00,2026-10-21T02:31:30.861288+00:00,1,,Listed as a C2 server for ClientHub malware
 domain,proxystream.st,high,2026-10-18T19:45:05+00:00,2026-10-20T18:32:11.740836+00:00,2,,Associated with malicious activity and used in attacks
 domain,pwnedhost.com,high,2026-10-20T17:04:12+00:00,2026-10-20T17:04:12+00:00,1,,Domain used in a SQL injection attack payload
 domain,msauth.biz,high,2026-10-20T16:10:18.668520+00:00,2026-10-20T16:10:18.668520+00:00,1,,"Newly registered domain used for phishing, controlled by attacker"
 domain,stateglobe.com,high,2026-10-20T13:06:22+00:00,2026-10-20T13:06:22+00:00,1,,Domain created for an experiment with fake statistics
 domain,sale-budget-9f21c8a3.cf.metaaiusercontent.com,high,2026-10-20T12:33:13+00:00,2026-10-20T12:33:13+00:00,1,,Domain used in phishing links with conversation names
-domain,wizardexpensive.com,high,2026-10-19T19:14:50.999217+00:00,2026-10-20T07:11:45+00:00,2,,Domain listed as part of attacker infrastructure to be blocked
 domain,cdn.gotoiphone.com,high,2026-10-09T00:04:17.966518+00:00,2026-10-20T01:05:43.294149+00:00,1,,Used for C2 communication with the implant
 domain,js.gotoiphone.com,high,2026-10-09T00:04:17.966518+00:00,2026-10-20T01:05:43.294149+00:00,1,,Used for C2 communication with the implant
 domain,mzpo30.cam,high,2026-10-09T00:04:17.966518+00:00,2026-10-20T01:05:43.294149+00:00,1,,Used for C2 communication with the implant
@@ -54,7 +86,6 @@ domain,my-gitlab.com,high,2026-10-19T13:09:39+00:00,2026-10-19T13:09:39+00:00,1,
 domain,amgen.teams-cloud.live,high,2026-10-19T12:42:05+00:00,2026-10-19T12:42:05+00:00,1,,Listed as a phishing domain in a threat report
 domain,companyname.suspicious-domain.live,high,2026-10-19T12:42:05+00:00,2026-10-19T12:42:05+00:00,1,,Described as a phishing domain with a suspicious subdomain.
 domain,teams-cloud.live,high,2026-10-19T12:42:05+00:00,2026-10-19T12:42:05+00:00,1,,Described as a phishing domain impersonating Microsoft Teams.
-domain,9i6pokerdepot.com,high,2026-09-08T13:01:18.371466+00:00,2026-10-19T06:10:31.007169+00:00,1,,Used as a sending domain in a phishing campaign
 domain,cn.druid.mtrtb.com,high,2026-10-15T12:11:48.548042+00:00,2026-10-18T14:30:37.759146+00:00,1,,Endpoint on Discover-Tech's website used for ad bidding data
 domain,events-ui.discover-tech.io,high,2026-10-15T12:11:48.548042+00:00,2026-10-18T14:30:37.759146+00:00,1,,Domain associated with Discover-Tech's app used for malicious activities
 domain,fearevolve.com,high,2026-10-15T12:11:48.548042+00:00,2026-10-18T14:30:37.759146+00:00,1,,Identified as a C&C server used in the attack
@@ -128,6 +159,7 @@ domain,setup-code.com,high,2026-10-16T10:31:51+00:00,2026-10-16T10:31:51+00:00,1
 domain,solidmonpe.com,high,2026-10-16T10:31:51+00:00,2026-10-16T10:31:51+00:00,1,,Listed as part of attacker infrastructure in threat reports.
 domain,token.apexaccs.org,high,2026-10-16T10:31:51+00:00,2026-10-16T10:31:51+00:00,1,,Part of a malicious campaign involving AI development chain hijacking.
 domain,use-code.com,high,2026-10-16T10:31:51+00:00,2026-10-16T10:31:51+00:00,1,,Used in phishing and malicious installation chains.
+domain,easyllms.xyz,high,2026-10-15T18:49:33+00:00,2026-10-16T06:55:26+00:00,2,,Domain used to deliver malware payload in a multi-stage infection chain
 domain,0aa0cf0637d66c0d.com,high,2026-10-08T17:13:23.883934+00:00,2026-10-16T01:01:47.133590+00:00,1,,Listed as a proxyware control host used by attackers
 domain,442fe7151fb1e9b5.com,high,2026-10-08T17:13:23.883934+00:00,2026-10-16T01:01:47.133590+00:00,1,,Listed as a proxyware control host used by attackers
 domain,5.ahd187.com,high,2026-10-08T17:13:23.883934+00:00,2026-10-16T01:01:47.133590+00:00,1,,Listed as part of shared infrastructure used by malware operators
@@ -146,7 +178,6 @@ domain,guessgooseberries.com,high,2026-10-16T00:17:45+00:00,2026-10-16T00:17:45+
 domain,topsmagnificentgrade.com,high,2026-10-16T00:17:45+00:00,2026-10-16T00:17:45+00:00,1,,Used as a C2 domain in malicious campaigns.
 domain,westbeavers.com,high,2026-10-16T00:17:45+00:00,2026-10-16T00:17:45+00:00,1,,Used as a C2 domain in malicious campaigns.
 domain,wibu-bau-bawang.online,high,2026-10-15T22:09:40+00:00,2026-10-15T22:09:40+00:00,1,,Listed as a C2 server for SysGoRAT malware
-domain,easyllms.xyz,high,2026-10-15T18:49:33+00:00,2026-10-15T18:49:33+00:00,1,,Used as a C2 server for BotHelper RAT
 domain,evrryday.com,high,2026-10-14T16:09:54.980926+00:00,2026-10-15T17:11:30.137373+00:00,1,,Domain used in phishing campaigns as part of attacker-controlled infrastructure.
 domain,ezdrivema.com-kpy.win,high,2026-10-14T16:09:54.980926+00:00,2026-10-15T17:11:30.137373+00:00,1,,Domain used in phishing campaigns as part of attacker-controlled infrastructure.
 domain,kzongfd.bo5wfb0f9.top,high,2026-10-14T16:09:54.980926+00:00,2026-10-15T17:11:30.137373+00:00,1,,Domain used in phishing campaigns as part of attacker-controlled infrastructure.
@@ -1105,7 +1136,6 @@ domain,dosportal.app,high,2026-08-31T18:26:30+00:00,2026-08-31T18:26:30+00:00,1,
 domain,js-mirror.com,high,2026-08-31T13:05:38.820639+00:00,2026-08-31T13:05:38.820639+00:00,1,,Domain used for suspicious outbound traffic
 domain,npm-cache.com,high,2026-08-31T13:05:38.820639+00:00,2026-08-31T13:05:38.820639+00:00,1,,Domain used in a supply chain attack
 domain,pypi-get.com,high,2026-08-31T13:05:38.820639+00:00,2026-08-31T13:05:38.820639+00:00,1,,Domain used in a supply chain attack
-domain,fine-work-team.com,high,2026-07-28T14:25:36+00:00,2026-08-31T12:34:31.263942+00:00,2,,Listed as a delivery URL for a malicious script
 domain,snake.zooparkko.com,high,2026-08-31T12:34:31.263942+00:00,2026-08-31T12:34:31.263942+00:00,1,,Used for data exfiltration in a ClickFix attack
 domain,timelevel12.com,high,2026-08-31T12:34:31.263942+00:00,2026-08-31T12:34:31.263942+00:00,1,,Listed as a delivery URL for a malicious script
 domain,san-sid.com,high,2026-08-31T10:00:36+00:00,2026-08-31T10:00:36+00:00,1,,Domain hosting obfuscated PowerShell payload used as RAT dropper

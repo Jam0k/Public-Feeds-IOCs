@@ -1,7 +1,7 @@
 {
   "feed": "threatcluster-public-iocs",
   "version": 1,
-  "generated_at": "2026-10-21T11:45:52Z",
+  "generated_at": "2026-10-22T11:48:50Z",
   "filters": {
     "confidence": "high",
     "window_days": 30,
@@ -11,8 +11,691 @@
       "domain"
     ]
   },
-  "count": 829,
+  "count": 834,
   "iocs": [
+    {
+      "type": "domain",
+      "value": "litellm.dev",
+      "confidence": "high",
+      "reason": "Listed as an exfiltration endpoint controlled by attackers",
+      "first_seen": "2026-10-21T17:08:52+00:00",
+      "last_seen": "2026-10-22T08:28:48+00:00",
+      "source_count": 4,
+      "sources": [
+        {
+          "source": "Thehackernews",
+          "url": "https://thehackernews.com/2026/10/litellm-suspects-github-token-leak-in.html",
+          "pub_date": "2026-10-22T08:28:48+00:00"
+        },
+        {
+          "source": "Rescana",
+          "url": "https://www.rescana.com/post/litellm-1-107-0-supply-chain-compromise-october-2026",
+          "pub_date": "2026-10-21T23:16:31+00:00"
+        },
+        {
+          "source": "www.stepsecurity.io",
+          "url": "https://www.stepsecurity.io/blog/litellm-1-107-0-compromised-pypi-backdoored-wheels-credential-stealer",
+          "pub_date": "2026-10-21T19:12:27.440949+00:00"
+        },
+        {
+          "source": "Ox.Security",
+          "url": "https://www.ox.security/blog/litellm-1-107-0-compromised-with-a-rat-infostealer",
+          "pub_date": "2026-10-21T17:08:52+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "TeamPCP"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "www.litellm.dev",
+      "confidence": "high",
+      "reason": "Listed as an exfiltration endpoint controlled by attackers",
+      "first_seen": "2026-10-21T13:41:48.036000+00:00",
+      "last_seen": "2026-10-21T23:16:31+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "Rescana",
+          "url": "https://www.rescana.com/post/litellm-1-107-0-supply-chain-compromise-october-2026",
+          "pub_date": "2026-10-21T23:16:31+00:00"
+        },
+        {
+          "source": "Socket.Dev",
+          "url": "https://socket.dev/blog/litellm-compromise?utm_medium=feed",
+          "pub_date": "2026-10-21T13:41:48.036+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "ipv4",
+      "value": "168.100.8.57",
+      "confidence": "high",
+      "reason": "Source IP address seen checking stolen AWS credentials",
+      "first_seen": "2026-10-21T23:16:31+00:00",
+      "last_seen": "2026-10-21T23:16:31+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Rescana",
+          "url": "https://www.rescana.com/post/litellm-1-107-0-supply-chain-compromise-october-2026",
+          "pub_date": "2026-10-21T23:16:31+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "wizardexpensive.com",
+      "confidence": "high",
+      "reason": "Domain listed as part of attacker infrastructure to be blocked",
+      "first_seen": "2026-10-20T07:11:45+00:00",
+      "last_seen": "2026-10-21T19:01:41.433743+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "productcert.siemens.com",
+          "url": "https://productcert.siemens.com/news/2026/10/19/active-exploitation-of-cve-2026-110936-in-siemens-software-center",
+          "pub_date": "2026-10-21T19:01:41.433743+00:00"
+        },
+        {
+          "source": "Thehackernews",
+          "url": "https://thehackernews.com/2026/10/clickfix-attackers-exploit-siemens.html",
+          "pub_date": "2026-10-20T07:11:45+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "ClickFix"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-110936"
+        },
+        {
+          "type": "malware",
+          "value": "Legion Loader"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "2.27.248.127",
+      "confidence": "high",
+      "reason": "IP address listed as part of attacker infrastructure to be blocked",
+      "first_seen": "2026-10-20T07:11:45+00:00",
+      "last_seen": "2026-10-21T19:01:41.433743+00:00",
+      "source_count": 3,
+      "sources": [
+        {
+          "source": "productcert.siemens.com",
+          "url": "https://productcert.siemens.com/news/2026/10/19/active-exploitation-of-cve-2026-110936-in-siemens-software-center",
+          "pub_date": "2026-10-21T19:01:41.433743+00:00"
+        },
+        {
+          "source": "Helpnetsecurity",
+          "url": "https://www.helpnetsecurity.com/2026/10/20/exploitation-siemens-software-center-vulnerability-cve-2026-110936/",
+          "pub_date": "2026-10-20T12:27:36+00:00"
+        },
+        {
+          "source": "Thehackernews",
+          "url": "https://thehackernews.com/2026/10/clickfix-attackers-exploit-siemens.html",
+          "pub_date": "2026-10-20T07:11:45+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2026-110936"
+        },
+        {
+          "type": "campaign",
+          "value": "ClickFix"
+        },
+        {
+          "type": "campaign",
+          "value": "ClickFix Campaign"
+        },
+        {
+          "type": "malware",
+          "value": "Legion Loader"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "96.62.218.59",
+      "confidence": "high",
+      "reason": "IP address listed as part of attacker infrastructure to be blocked",
+      "first_seen": "2026-10-20T07:11:45+00:00",
+      "last_seen": "2026-10-21T19:01:41.433743+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "productcert.siemens.com",
+          "url": "https://productcert.siemens.com/news/2026/10/19/active-exploitation-of-cve-2026-110936-in-siemens-software-center",
+          "pub_date": "2026-10-21T19:01:41.433743+00:00"
+        },
+        {
+          "source": "Thehackernews",
+          "url": "https://thehackernews.com/2026/10/clickfix-attackers-exploit-siemens.html",
+          "pub_date": "2026-10-20T07:11:45+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "ClickFix"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-110936"
+        },
+        {
+          "type": "malware",
+          "value": "Legion Loader"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "9i6pokerdepot.com",
+      "confidence": "high",
+      "reason": "Used as a sending domain in a phishing campaign",
+      "first_seen": "2026-10-21T16:39:04.731367+00:00",
+      "last_seen": "2026-10-21T16:39:04.731367+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.microsoft.com",
+          "url": "https://www.microsoft.com/en-us/security/blog/2026/07/23/email-threat-landscape-q2-2026-trends-and-insights",
+          "pub_date": "2026-10-21T16:39:04.731367+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "fine-work-team.com",
+      "confidence": "high",
+      "reason": "Domain used in a PowerShell command to download and execute a payload",
+      "first_seen": "2026-10-21T15:00:29.781307+00:00",
+      "last_seen": "2026-10-21T15:00:29.781307+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "pushsecurity.com",
+          "url": "https://pushsecurity.com/blog/the-state-of-clickfix-by-detection-data",
+          "pub_date": "2026-10-21T15:00:29.781307+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "EtherHiding"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-26980"
+        },
+        {
+          "type": "malware",
+          "value": "SocGholish"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "linkedinsig.com",
+      "confidence": "high",
+      "reason": "Domain used in a command to execute a payload",
+      "first_seen": "2026-10-21T15:00:29.781307+00:00",
+      "last_seen": "2026-10-21T15:00:29.781307+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "pushsecurity.com",
+          "url": "https://pushsecurity.com/blog/the-state-of-clickfix-by-detection-data",
+          "pub_date": "2026-10-21T15:00:29.781307+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "EtherHiding"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-26980"
+        },
+        {
+          "type": "malware",
+          "value": "SocGholish"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "wirelesswebdevice.com",
+      "confidence": "high",
+      "reason": "Domain used in a PowerShell command to download and execute a script",
+      "first_seen": "2026-10-21T15:00:29.781307+00:00",
+      "last_seen": "2026-10-21T15:00:29.781307+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "pushsecurity.com",
+          "url": "https://pushsecurity.com/blog/the-state-of-clickfix-by-detection-data",
+          "pub_date": "2026-10-21T15:00:29.781307+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "EtherHiding"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-26980"
+        },
+        {
+          "type": "malware",
+          "value": "SocGholish"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "simba.sg-recharge.cfd",
+      "confidence": "high",
+      "reason": "Phishing domain impersonating a legitimate site",
+      "first_seen": "2026-10-21T14:46:49+00:00",
+      "last_seen": "2026-10-21T14:46:49+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Straitstimes",
+          "url": "https://www.straitstimes.com/singapore/at-least-83000-lost-in-phishing-scams-linked-to-fake-simba-websites-since-march-police",
+          "pub_date": "2026-10-21T14:46:49+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "simba.sg-recharge.cyou",
+      "confidence": "high",
+      "reason": "Phishing domain impersonating a legitimate site",
+      "first_seen": "2026-10-21T14:46:49+00:00",
+      "last_seen": "2026-10-21T14:46:49+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Straitstimes",
+          "url": "https://www.straitstimes.com/singapore/at-least-83000-lost-in-phishing-scams-linked-to-fake-simba-websites-since-march-police",
+          "pub_date": "2026-10-21T14:46:49+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "amazonyt.com",
+      "confidence": "high",
+      "reason": "Hosted site impersonating Amazon services",
+      "first_seen": "2026-10-21T13:42:42+00:00",
+      "last_seen": "2026-10-21T13:42:42+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Malwarebytes",
+          "url": "https://www.malwarebytes.com/blog/threat-intel/2026/10/fake-amazon-music-x-youtube-deal-lures-creators-into-a-google-login-trap",
+          "pub_date": "2026-10-21T13:42:42+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "youtubechannelverification.com",
+      "confidence": "high",
+      "reason": "Used in a phishing scheme to collect credentials",
+      "first_seen": "2026-10-21T13:42:42+00:00",
+      "last_seen": "2026-10-21T13:42:42+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Malwarebytes",
+          "url": "https://www.malwarebytes.com/blog/threat-intel/2026/10/fake-amazon-music-x-youtube-deal-lures-creators-into-a-google-login-trap",
+          "pub_date": "2026-10-21T13:42:42+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "grillmasterchef.com",
+      "confidence": "high",
+      "reason": "Used for C2 and payload delivery",
+      "first_seen": "2026-10-21T13:03:40+00:00",
+      "last_seen": "2026-10-21T13:03:40+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Huntress",
+          "url": "https://www.huntress.com/blog/amazon-clickfix-finger",
+          "pub_date": "2026-10-21T13:03:40+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "grillrecipespro.com",
+      "confidence": "high",
+      "reason": "Used for attacker-controlled communications",
+      "first_seen": "2026-10-21T13:03:40+00:00",
+      "last_seen": "2026-10-21T13:03:40+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Huntress",
+          "url": "https://www.huntress.com/blog/amazon-clickfix-finger",
+          "pub_date": "2026-10-21T13:03:40+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "homelygrill.com",
+      "confidence": "high",
+      "reason": "Used for exfiltration after initial check-in",
+      "first_seen": "2026-10-21T13:03:40+00:00",
+      "last_seen": "2026-10-21T13:03:40+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Huntress",
+          "url": "https://www.huntress.com/blog/amazon-clickfix-finger",
+          "pub_date": "2026-10-21T13:03:40+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "kiriosyka.com",
+      "confidence": "high",
+      "reason": "Used for malware delivery",
+      "first_seen": "2026-10-21T13:03:40+00:00",
+      "last_seen": "2026-10-21T13:03:40+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Huntress",
+          "url": "https://www.huntress.com/blog/amazon-clickfix-finger",
+          "pub_date": "2026-10-21T13:03:40+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "liokida.com",
+      "confidence": "high",
+      "reason": "Origin of malware communication",
+      "first_seen": "2026-10-21T13:03:40+00:00",
+      "last_seen": "2026-10-21T13:03:40+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Huntress",
+          "url": "https://www.huntress.com/blog/amazon-clickfix-finger",
+          "pub_date": "2026-10-21T13:03:40+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "orders-amazon-com.advancedfences.com",
+      "confidence": "high",
+      "reason": "Used in a phishing campaign with a fake Amazon login page",
+      "first_seen": "2026-10-21T13:03:40+00:00",
+      "last_seen": "2026-10-21T13:03:40+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Huntress",
+          "url": "https://www.huntress.com/blog/amazon-clickfix-finger",
+          "pub_date": "2026-10-21T13:03:40+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "perfectgrillrecipes.com",
+      "confidence": "high",
+      "reason": "Used as a C2 address for malware communication",
+      "first_seen": "2026-10-21T13:03:40+00:00",
+      "last_seen": "2026-10-21T13:03:40+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Huntress",
+          "url": "https://www.huntress.com/blog/amazon-clickfix-finger",
+          "pub_date": "2026-10-21T13:03:40+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "thegrilljournal.com",
+      "confidence": "high",
+      "reason": "Used for exfiltration in malware communication",
+      "first_seen": "2026-10-21T13:03:40+00:00",
+      "last_seen": "2026-10-21T13:03:40+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Huntress",
+          "url": "https://www.huntress.com/blog/amazon-clickfix-finger",
+          "pub_date": "2026-10-21T13:03:40+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "ipv4",
+      "value": "167.148.201.106",
+      "confidence": "high",
+      "reason": "C2 traffic generated by NetSupport Client software",
+      "first_seen": "2026-10-21T13:03:40+00:00",
+      "last_seen": "2026-10-21T13:03:40+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Huntress",
+          "url": "https://www.huntress.com/blog/amazon-clickfix-finger",
+          "pub_date": "2026-10-21T13:03:40+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "orders-amazon.com.advancedfences.com",
+      "confidence": "high",
+      "reason": "Used in a phishing campaign with a fake Amazon login page",
+      "first_seen": "2026-10-21T13:00:00+00:00",
+      "last_seen": "2026-10-21T13:00:00+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Darkreading",
+          "url": "https://www.darkreading.com/cyberattacks-data-breaches/decades-old-windows-utility-modern-clickfix-attack",
+          "pub_date": "2026-10-21T13:00:00+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "dc.cathaypacifice.com",
+      "confidence": "high",
+      "reason": "Listed as a C2 server contacted by the payload",
+      "first_seen": "2026-10-20T19:30:52+00:00",
+      "last_seen": "2026-10-21T12:05:00+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "Thehackernews",
+          "url": "https://thehackernews.com/2026/10/china-aligned-bronze-sandcastle-abuses.html",
+          "pub_date": "2026-10-21T12:05:00+00:00"
+        },
+        {
+          "source": "Sophos",
+          "url": "https://www.sophos.com/en-us/blog/bronze-sandcastle-deploys-modified-meterpreter-shells",
+          "pub_date": "2026-10-20T19:30:52+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "APT41"
+        },
+        {
+          "type": "apt_group",
+          "value": "Bronze Atlas"
+        },
+        {
+          "type": "apt_group",
+          "value": "Bronze President"
+        },
+        {
+          "type": "apt_group",
+          "value": "Bronze Sandcastle"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "net.dpworldto.com",
+      "confidence": "high",
+      "reason": "Listed as a C2 server contacted by the payload",
+      "first_seen": "2026-10-20T19:30:52+00:00",
+      "last_seen": "2026-10-21T12:05:00+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "Thehackernews",
+          "url": "https://thehackernews.com/2026/10/china-aligned-bronze-sandcastle-abuses.html",
+          "pub_date": "2026-10-21T12:05:00+00:00"
+        },
+        {
+          "source": "Sophos",
+          "url": "https://www.sophos.com/en-us/blog/bronze-sandcastle-deploys-modified-meterpreter-shells",
+          "pub_date": "2026-10-20T19:30:52+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "APT41"
+        },
+        {
+          "type": "apt_group",
+          "value": "Bronze Atlas"
+        },
+        {
+          "type": "apt_group",
+          "value": "Bronze President"
+        },
+        {
+          "type": "apt_group",
+          "value": "Bronze Sandcastle"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "79.130.26.202",
+      "confidence": "high",
+      "reason": "Listed as a threat actor source IP in a campaign",
+      "first_seen": "2026-10-21T11:32:04.373928+00:00",
+      "last_seen": "2026-10-21T11:32:04.373928+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.rapid7.com",
+          "url": "https://www.rapid7.com/blog/post/etr-rapid7-observed-exploitation-of-pan-os-globalprotect-authentication-bypass-vulnerability-cve-2026-0257/",
+          "pub_date": "2026-10-21T11:32:04.373928+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "ipv4",
+      "value": "185.225.226.62",
+      "confidence": "high",
+      "reason": "IP address used by attacker to log into the management server",
+      "first_seen": "2026-10-20T22:00:38.188496+00:00",
+      "last_seen": "2026-10-21T10:30:27+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "Thehackernews",
+          "url": "https://thehackernews.com/2026/10/attackers-hijacked-over-300-tor-exit.html",
+          "pub_date": "2026-10-21T10:30:27+00:00"
+        },
+        {
+          "source": "lists.torproject.org",
+          "url": "https://lists.torproject.org/mailman3/hyperkitty/list/tor-relays@lists.torproject.org/thread/QHRD6YOX6RZRDR7NCHNDO7GLCEA6VFM6/",
+          "pub_date": "2026-10-20T22:00:38.188496+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "Ebury"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-44343"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "auto.skypool.xyz",
+      "confidence": "high",
+      "reason": "Listed as a domain used for malicious activities, likely attacker-controlled.",
+      "first_seen": "2026-10-21T10:19:46+00:00",
+      "last_seen": "2026-10-21T10:19:46+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Security",
+          "url": "https://www.security.com/blog-post/ai-llmjacking-skynet",
+          "pub_date": "2026-10-21T10:19:46+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "XMRig"
+        }
+      ]
+    },
     {
       "type": "domain",
       "value": "pavpal.com",
@@ -31,28 +714,291 @@
       "tags": []
     },
     {
-      "type": "ipv4",
-      "value": "185.225.226.62",
+      "type": "domain",
+      "value": "secure-account-help.co",
       "confidence": "high",
-      "reason": "IP address used by attacker to log in to the management server",
-      "first_seen": "2026-10-20T22:00:38.188496+00:00",
-      "last_seen": "2026-10-20T22:00:38.188496+00:00",
+      "reason": "Phishing domain used to collect credentials",
+      "first_seen": "2026-10-21T08:02:13+00:00",
+      "last_seen": "2026-10-21T08:02:13+00:00",
       "source_count": 1,
       "sources": [
         {
-          "source": "lists.torproject.org",
-          "url": "https://lists.torproject.org/mailman3/hyperkitty/list/tor-relays@lists.torproject.org/thread/QHRD6YOX6RZRDR7NCHNDO7GLCEA6VFM6/",
-          "pub_date": "2026-10-20T22:00:38.188496+00:00"
+          "source": "Collegian",
+          "url": "https://collegian.com/sponsored/2026/10/how-to-avoid-phishing-scams-fake-logins-resets-levelup-login/",
+          "pub_date": "2026-10-21T08:02:13+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "zkorman.com",
+      "confidence": "high",
+      "reason": "Used in malicious skills for external registration",
+      "first_seen": "2026-10-21T08:02:03.636000+00:00",
+      "last_seen": "2026-10-21T08:02:03.636000+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Blog.Virustotal",
+          "url": "https://blog.virustotal.com/2026/10/how-some-malicious-ai-skills-hide.html",
+          "pub_date": "2026-10-21T08:02:03.636+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "ipv4",
+      "value": "162.33.177.177",
+      "confidence": "high",
+      "reason": "Communicating with a persistent NodeJS service registered by the attacker",
+      "first_seen": "2026-10-21T04:13:31+00:00",
+      "last_seen": "2026-10-21T04:13:31+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Github",
+          "url": "https://github.com/ovh/ovhcloud-cli/security/advisories/GHSA-862f-55f5-vmvw",
+          "pub_date": "2026-10-21T04:13:31+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "cubedesign.co.kr",
+      "confidence": "high",
+      "reason": "Identified as a hardcoded C2 server for Cubridge malware",
+      "first_seen": "2026-10-21T02:31:30.861288+00:00",
+      "last_seen": "2026-10-21T02:31:30.861288+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "securelist.com",
+          "url": "https://securelist.com/lazarus-operation-flashhole/121541/",
+          "pub_date": "2026-10-21T02:31:30.861288+00:00"
         }
       ],
       "tags": [
         {
-          "type": "cve",
-          "value": "CVE-2026-44343"
+          "type": "apt_group",
+          "value": "Lazarus Group"
         },
         {
-          "type": "malware",
-          "value": "Ebury"
+          "type": "campaign",
+          "value": "Operation FlashHole"
+        },
+        {
+          "type": "campaign",
+          "value": "Operation SyncHole"
+        },
+        {
+          "type": "industry",
+          "value": "Construction"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "fp-news.co.kr",
+      "confidence": "high",
+      "reason": "Listed as a C2 server for Cubridge malware",
+      "first_seen": "2026-10-21T02:31:30.861288+00:00",
+      "last_seen": "2026-10-21T02:31:30.861288+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "securelist.com",
+          "url": "https://securelist.com/lazarus-operation-flashhole/121541/",
+          "pub_date": "2026-10-21T02:31:30.861288+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Lazarus Group"
+        },
+        {
+          "type": "campaign",
+          "value": "Operation FlashHole"
+        },
+        {
+          "type": "campaign",
+          "value": "Operation SyncHole"
+        },
+        {
+          "type": "industry",
+          "value": "Construction"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "javadevhouse.co.kr",
+      "confidence": "high",
+      "reason": "Used to host malicious JavaScript linked to phishing emails",
+      "first_seen": "2026-10-21T02:31:30.861288+00:00",
+      "last_seen": "2026-10-21T02:31:30.861288+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "securelist.com",
+          "url": "https://securelist.com/lazarus-operation-flashhole/121541/",
+          "pub_date": "2026-10-21T02:31:30.861288+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Lazarus Group"
+        },
+        {
+          "type": "campaign",
+          "value": "Operation FlashHole"
+        },
+        {
+          "type": "campaign",
+          "value": "Operation SyncHole"
+        },
+        {
+          "type": "industry",
+          "value": "Construction"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "k-wbc.co.kr",
+      "confidence": "high",
+      "reason": "Listed as a C2 server for ClientHub malware",
+      "first_seen": "2026-10-21T02:31:30.861288+00:00",
+      "last_seen": "2026-10-21T02:31:30.861288+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "securelist.com",
+          "url": "https://securelist.com/lazarus-operation-flashhole/121541/",
+          "pub_date": "2026-10-21T02:31:30.861288+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Lazarus Group"
+        },
+        {
+          "type": "campaign",
+          "value": "Operation FlashHole"
+        },
+        {
+          "type": "campaign",
+          "value": "Operation SyncHole"
+        },
+        {
+          "type": "industry",
+          "value": "Construction"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "pythonapischool.com",
+      "confidence": "high",
+      "reason": "Used to host malicious JavaScript linked to phishing emails",
+      "first_seen": "2026-10-21T02:31:30.861288+00:00",
+      "last_seen": "2026-10-21T02:31:30.861288+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "securelist.com",
+          "url": "https://securelist.com/lazarus-operation-flashhole/121541/",
+          "pub_date": "2026-10-21T02:31:30.861288+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Lazarus Group"
+        },
+        {
+          "type": "campaign",
+          "value": "Operation FlashHole"
+        },
+        {
+          "type": "campaign",
+          "value": "Operation SyncHole"
+        },
+        {
+          "type": "industry",
+          "value": "Construction"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "rcsh.co.kr",
+      "confidence": "high",
+      "reason": "Listed as a C2 server for ClientHub malware",
+      "first_seen": "2026-10-21T02:31:30.861288+00:00",
+      "last_seen": "2026-10-21T02:31:30.861288+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "securelist.com",
+          "url": "https://securelist.com/lazarus-operation-flashhole/121541/",
+          "pub_date": "2026-10-21T02:31:30.861288+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Lazarus Group"
+        },
+        {
+          "type": "campaign",
+          "value": "Operation FlashHole"
+        },
+        {
+          "type": "campaign",
+          "value": "Operation SyncHole"
+        },
+        {
+          "type": "industry",
+          "value": "Construction"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "www.ksog.org",
+      "confidence": "high",
+      "reason": "Listed as a C2 server for ClientHub malware",
+      "first_seen": "2026-10-21T02:31:30.861288+00:00",
+      "last_seen": "2026-10-21T02:31:30.861288+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "securelist.com",
+          "url": "https://securelist.com/lazarus-operation-flashhole/121541/",
+          "pub_date": "2026-10-21T02:31:30.861288+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Lazarus Group"
+        },
+        {
+          "type": "campaign",
+          "value": "Operation FlashHole"
+        },
+        {
+          "type": "campaign",
+          "value": "Operation SyncHole"
+        },
+        {
+          "type": "industry",
+          "value": "Construction"
         }
       ]
     },
@@ -208,67 +1154,6 @@
       "tags": []
     },
     {
-      "type": "domain",
-      "value": "sale-budget-9f21c8a3.cf.metaaiusercontent.com",
-      "confidence": "high",
-      "reason": "Domain used in phishing links with conversation names",
-      "first_seen": "2026-10-20T12:33:13+00:00",
-      "last_seen": "2026-10-20T12:33:13+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Arstechnica",
-          "url": "https://arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations/",
-          "pub_date": "2026-10-20T12:33:13+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "ipv4",
-      "value": "2.27.248.127",
-      "confidence": "high",
-      "reason": "IP address listed as part of attacker infrastructure to be blocked",
-      "first_seen": "2026-10-19T19:14:50.999217+00:00",
-      "last_seen": "2026-10-20T12:27:36+00:00",
-      "source_count": 3,
-      "sources": [
-        {
-          "source": "Helpnetsecurity",
-          "url": "https://www.helpnetsecurity.com/2026/10/20/exploitation-siemens-software-center-vulnerability-cve-2026-110936/",
-          "pub_date": "2026-10-20T12:27:36+00:00"
-        },
-        {
-          "source": "Thehackernews",
-          "url": "https://thehackernews.com/2026/10/clickfix-attackers-exploit-siemens.html",
-          "pub_date": "2026-10-20T07:11:45+00:00"
-        },
-        {
-          "source": "productcert.siemens.com",
-          "url": "https://productcert.siemens.com/news/2026/10/19/active-exploitation-of-cve-2026-110936-in-siemens-software-center",
-          "pub_date": "2026-10-19T19:14:50.999217+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "cve",
-          "value": "CVE-2026-110936"
-        },
-        {
-          "type": "campaign",
-          "value": "ClickFix"
-        },
-        {
-          "type": "campaign",
-          "value": "ClickFix Campaign"
-        },
-        {
-          "type": "malware",
-          "value": "Legion Loader"
-        }
-      ]
-    },
-    {
       "type": "ipv4",
       "value": "194.87.108.217",
       "confidence": "high",
@@ -367,76 +1252,6 @@
         {
           "type": "industry",
           "value": "Government"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "wizardexpensive.com",
-      "confidence": "high",
-      "reason": "Domain listed as part of attacker infrastructure to be blocked",
-      "first_seen": "2026-10-19T19:14:50.999217+00:00",
-      "last_seen": "2026-10-20T07:11:45+00:00",
-      "source_count": 2,
-      "sources": [
-        {
-          "source": "Thehackernews",
-          "url": "https://thehackernews.com/2026/10/clickfix-attackers-exploit-siemens.html",
-          "pub_date": "2026-10-20T07:11:45+00:00"
-        },
-        {
-          "source": "productcert.siemens.com",
-          "url": "https://productcert.siemens.com/news/2026/10/19/active-exploitation-of-cve-2026-110936-in-siemens-software-center",
-          "pub_date": "2026-10-19T19:14:50.999217+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "ClickFix"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-110936"
-        },
-        {
-          "type": "malware",
-          "value": "Legion Loader"
-        }
-      ]
-    },
-    {
-      "type": "ipv4",
-      "value": "96.62.218.59",
-      "confidence": "high",
-      "reason": "IP address listed as part of attacker infrastructure to be blocked",
-      "first_seen": "2026-10-19T19:14:50.999217+00:00",
-      "last_seen": "2026-10-20T07:11:45+00:00",
-      "source_count": 2,
-      "sources": [
-        {
-          "source": "Thehackernews",
-          "url": "https://thehackernews.com/2026/10/clickfix-attackers-exploit-siemens.html",
-          "pub_date": "2026-10-20T07:11:45+00:00"
-        },
-        {
-          "source": "productcert.siemens.com",
-          "url": "https://productcert.siemens.com/news/2026/10/19/active-exploitation-of-cve-2026-110936-in-siemens-software-center",
-          "pub_date": "2026-10-19T19:14:50.999217+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "ClickFix"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-110936"
-        },
-        {
-          "type": "malware",
-          "value": "Legion Loader"
         }
       ]
     },
@@ -1905,23 +2720,6 @@
           "source": "Pasqualepillitteri.It",
           "url": "https://pasqualepillitteri.it/en/news/25606/researcher-urges-blocking-teams-cloud-live-fake-microsoft-teams-login",
           "pub_date": "2026-10-19T12:42:05+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "9i6pokerdepot.com",
-      "confidence": "high",
-      "reason": "Used as a sending domain in a phishing campaign",
-      "first_seen": "2026-10-19T06:10:31.007169+00:00",
-      "last_seen": "2026-10-19T06:10:31.007169+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.microsoft.com",
-          "url": "https://www.microsoft.com/en-us/security/blog/2026/07/23/email-threat-landscape-q2-2026-trends-and-insights",
-          "pub_date": "2026-10-19T06:10:31.007169+00:00"
         }
       ],
       "tags": []
@@ -6882,23 +7680,6 @@
           "value": "CVE-2026-10520"
         }
       ]
-    },
-    {
-      "type": "ipv4",
-      "value": "79.130.26.202",
-      "confidence": "high",
-      "reason": "Listed as a threat actor source IP in a campaign",
-      "first_seen": "2026-10-12T10:00:21.401837+00:00",
-      "last_seen": "2026-10-12T10:00:21.401837+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.rapid7.com",
-          "url": "https://www.rapid7.com/blog/post/etr-rapid7-observed-exploitation-of-pan-os-globalprotect-authentication-bypass-vulnerability-cve-2026-0257/",
-          "pub_date": "2026-10-12T10:00:21.401837+00:00"
-        }
-      ],
-      "tags": []
     },
     {
       "type": "ipv4",
@@ -20897,742 +21678,6 @@
         {
           "type": "malware",
           "value": "Graphalgo"
-        }
-      ]
-    },
-    {
-      "type": "ipv4",
-      "value": "96.9.125.52",
-      "confidence": "high",
-      "reason": "Hosts a domain impersonating China Digital Times",
-      "first_seen": "2026-09-22T10:31:16+00:00",
-      "last_seen": "2026-09-22T10:31:16+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Gbhackers",
-          "url": "https://gbhackers.com/apt-exploits-chrome-and-windows/",
-          "pub_date": "2026-09-22T10:31:16+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "istatlmenus.com",
-      "confidence": "high",
-      "reason": "Domain used as traffic director in a malicious campaign, controlled by attackers",
-      "first_seen": "2026-09-22T08:37:39.780623+00:00",
-      "last_seen": "2026-09-22T08:37:39.780623+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.diariobitcoin.com",
-          "url": "https://www.diariobitcoin.com/estafas/repositorios-falsos-de-lastpass-distribuyen-el-infostealer-rapuncel-en-github/",
-          "pub_date": "2026-09-22T08:37:39.780623+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "malware",
-          "value": "BoryptGrab"
-        },
-        {
-          "type": "malware",
-          "value": "Rapuncel"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "boiseno.club",
-      "confidence": "high",
-      "reason": "Listed as related to a supply-chain attack.",
-      "first_seen": "2026-09-22T07:54:45+00:00",
-      "last_seen": "2026-09-22T07:54:45+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Rescana",
-          "url": "https://www.rescana.com/post/brevo-cdn-clickfix-supply-chain",
-          "pub_date": "2026-09-22T07:54:45+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "glegchner.com",
-      "confidence": "high",
-      "reason": "Used as a C2 server",
-      "first_seen": "2026-09-22T07:54:45+00:00",
-      "last_seen": "2026-09-22T07:54:45+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Rescana",
-          "url": "https://www.rescana.com/post/brevo-cdn-clickfix-supply-chain",
-          "pub_date": "2026-09-22T07:54:45+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "ipv4",
-      "value": "189.141.53.203",
-      "confidence": "high",
-      "reason": "Exposed Mythic C2 management interface",
-      "first_seen": "2026-09-22T05:01:55+00:00",
-      "last_seen": "2026-09-22T05:01:55+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Redpacketsecurity",
-          "url": "https://www.redpacketsecurity.com/mythic-c2-detected-189-141-53-203-port-7443/",
-          "pub_date": "2026-09-22T05:01:55+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "bedotiq.net",
-      "confidence": "high",
-      "reason": "Identified as a C2 server used by the malware",
-      "first_seen": "2026-09-21T23:31:21+00:00",
-      "last_seen": "2026-09-21T23:31:21+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Hackread",
-          "url": "https://hackread.com/clickfix-chainscript-rat-fake-spotify-teams-installers/",
-          "pub_date": "2026-09-21T23:31:21+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Adversary Pursuit Group"
-        },
-        {
-          "type": "campaign",
-          "value": "ClickFix"
-        },
-        {
-          "type": "malware",
-          "value": "ChainScript"
-        },
-        {
-          "type": "malware",
-          "value": "EtherRAT"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "shift-api-control.com",
-      "confidence": "high",
-      "reason": "Identified as a C2 server used by the malware",
-      "first_seen": "2026-09-21T23:31:21+00:00",
-      "last_seen": "2026-09-21T23:31:21+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Hackread",
-          "url": "https://hackread.com/clickfix-chainscript-rat-fake-spotify-teams-installers/",
-          "pub_date": "2026-09-21T23:31:21+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Adversary Pursuit Group"
-        },
-        {
-          "type": "campaign",
-          "value": "ClickFix"
-        },
-        {
-          "type": "malware",
-          "value": "ChainScript"
-        },
-        {
-          "type": "malware",
-          "value": "EtherRAT"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "phones.it",
-      "confidence": "high",
-      "reason": "Domain with suspicious TLD likely registered by attacker for malicious purposes",
-      "first_seen": "2026-09-21T21:03:59.851622+00:00",
-      "last_seen": "2026-09-21T21:03:59.851622+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "research.jfrog.com",
-          "url": "https://research.jfrog.com/post/equation-of-compromise/",
-          "pub_date": "2026-09-21T21:03:59.851622+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "repositories.it",
-      "confidence": "high",
-      "reason": "Domain with suspicious TLD likely registered by attacker for malicious purposes",
-      "first_seen": "2026-09-21T21:03:59.851622+00:00",
-      "last_seen": "2026-09-21T21:03:59.851622+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "research.jfrog.com",
-          "url": "https://research.jfrog.com/post/equation-of-compromise/",
-          "pub_date": "2026-09-21T21:03:59.851622+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "api.telegram.org.it",
-      "confidence": "high",
-      "reason": "Domain with suspicious TLD likely registered by attacker for malicious purposes",
-      "first_seen": "2026-09-21T18:33:44+00:00",
-      "last_seen": "2026-09-21T18:33:44+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "News.Ycombinator",
-          "url": "https://safedep.io/mathmain-encrypted-loader/",
-          "pub_date": "2026-09-21T18:33:44+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "malware",
-          "value": "Mathmain"
-        },
-        {
-          "type": "malware",
-          "value": "Mathsbase"
-        },
-        {
-          "type": "malware",
-          "value": "Math-universe"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "diffiehellman.it",
-      "confidence": "high",
-      "reason": "Domain with suspicious TLD likely registered by attacker for malicious purposes",
-      "first_seen": "2026-09-21T18:33:44+00:00",
-      "last_seen": "2026-09-21T18:33:44+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "News.Ycombinator",
-          "url": "https://safedep.io/mathmain-encrypted-loader/",
-          "pub_date": "2026-09-21T18:33:44+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "malware",
-          "value": "Mathmain"
-        },
-        {
-          "type": "malware",
-          "value": "Mathsbase"
-        },
-        {
-          "type": "malware",
-          "value": "Math-universe"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "ethers.it",
-      "confidence": "high",
-      "reason": "Domain with suspicious TLD likely registered by attacker for malicious purposes",
-      "first_seen": "2026-09-21T18:33:44+00:00",
-      "last_seen": "2026-09-21T18:33:44+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "News.Ycombinator",
-          "url": "https://safedep.io/mathmain-encrypted-loader/",
-          "pub_date": "2026-09-21T18:33:44+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "malware",
-          "value": "Mathmain"
-        },
-        {
-          "type": "malware",
-          "value": "Mathsbase"
-        },
-        {
-          "type": "malware",
-          "value": "Math-universe"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "execsync.it",
-      "confidence": "high",
-      "reason": "Domain with suspicious TLD likely registered by attacker for malicious purposes",
-      "first_seen": "2026-09-21T18:33:44+00:00",
-      "last_seen": "2026-09-21T18:33:44+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "News.Ycombinator",
-          "url": "https://safedep.io/mathmain-encrypted-loader/",
-          "pub_date": "2026-09-21T18:33:44+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "malware",
-          "value": "Mathmain"
-        },
-        {
-          "type": "malware",
-          "value": "Mathsbase"
-        },
-        {
-          "type": "malware",
-          "value": "Math-universe"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "fs.it",
-      "confidence": "high",
-      "reason": "Domain with suspicious TLD likely registered by attacker for malicious purposes",
-      "first_seen": "2026-09-21T18:33:44+00:00",
-      "last_seen": "2026-09-21T18:33:44+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "News.Ycombinator",
-          "url": "https://safedep.io/mathmain-encrypted-loader/",
-          "pub_date": "2026-09-21T18:33:44+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "malware",
-          "value": "Mathmain"
-        },
-        {
-          "type": "malware",
-          "value": "Mathsbase"
-        },
-        {
-          "type": "malware",
-          "value": "Math-universe"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "graph.js.it",
-      "confidence": "high",
-      "reason": "Domain with suspicious TLD likely registered by attacker for malicious purposes",
-      "first_seen": "2026-09-21T18:33:44+00:00",
-      "last_seen": "2026-09-21T18:33:44+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "News.Ycombinator",
-          "url": "https://safedep.io/mathmain-encrypted-loader/",
-          "pub_date": "2026-09-21T18:33:44+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "malware",
-          "value": "Mathmain"
-        },
-        {
-          "type": "malware",
-          "value": "Mathsbase"
-        },
-        {
-          "type": "malware",
-          "value": "Math-universe"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "analysis-id-lfg.info",
-      "confidence": "high",
-      "reason": "Listed as a C2 domain for ErrTraffic malware",
-      "first_seen": "2026-09-21T18:01:30.115223+00:00",
-      "last_seen": "2026-09-21T18:01:30.115223+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.sekoia.com",
-          "url": "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework",
-          "pub_date": "2026-09-21T18:01:30.115223+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "malware",
-          "value": "ErrTraffic"
-        },
-        {
-          "type": "malware",
-          "value": "Exvicy"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "claude.ai.download-app.us",
-      "confidence": "high",
-      "reason": "Redirects users to malicious content.",
-      "first_seen": "2026-09-21T15:38:12.879049+00:00",
-      "last_seen": "2026-09-21T15:38:12.879049+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.huntress.com",
-          "url": "https://www.huntress.com/blog/fakeagent-claude-desktop-malvertising-ends-in-dotnet-rat",
-          "pub_date": "2026-09-21T15:38:12.879049+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "FakeAgent"
-        },
-        {
-          "type": "malware",
-          "value": "SectopRAT"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "attachmentsharingdrive.xyz",
-      "confidence": "high",
-      "reason": "Domain used as C2 infrastructure in the campaign",
-      "first_seen": "2026-09-21T14:20:02+00:00",
-      "last_seen": "2026-09-21T15:00:57.908655+00:00",
-      "source_count": 2,
-      "sources": [
-        {
-          "source": "www.securonix.com",
-          "url": "https://www.securonix.com/blog/task-stomp-powershell-backdoor-document-theft-remote-access",
-          "pub_date": "2026-09-21T15:00:57.908655+00:00"
-        },
-        {
-          "source": "Thehackernews",
-          "url": "https://thehackernews.com/2026/09/taskstomp-powershell-backdoor-steals.html",
-          "pub_date": "2026-09-21T14:20:02+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Task#stomp"
-        },
-        {
-          "type": "industry",
-          "value": "Government"
-        },
-        {
-          "type": "malware",
-          "value": "Task#stomp"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "corecloudfileshare.xyz",
-      "confidence": "high",
-      "reason": "Domain used as C2 infrastructure in the campaign",
-      "first_seen": "2026-09-21T14:20:02+00:00",
-      "last_seen": "2026-09-21T15:00:57.908655+00:00",
-      "source_count": 2,
-      "sources": [
-        {
-          "source": "www.securonix.com",
-          "url": "https://www.securonix.com/blog/task-stomp-powershell-backdoor-document-theft-remote-access",
-          "pub_date": "2026-09-21T15:00:57.908655+00:00"
-        },
-        {
-          "source": "Thehackernews",
-          "url": "https://thehackernews.com/2026/09/taskstomp-powershell-backdoor-steals.html",
-          "pub_date": "2026-09-21T14:20:02+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Task#stomp"
-        },
-        {
-          "type": "industry",
-          "value": "Government"
-        },
-        {
-          "type": "malware",
-          "value": "Task#stomp"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "throughoutes.net",
-      "confidence": "high",
-      "reason": "Communicated with a PowerShell implant",
-      "first_seen": "2026-09-21T13:05:04+00:00",
-      "last_seen": "2026-09-21T13:05:04+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Huntress",
-          "url": "https://www.huntress.com/blog/two-inc-ransom-notes",
-          "pub_date": "2026-09-21T13:05:04+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "votesmith2026.co",
-      "confidence": "high",
-      "reason": "Described as a slightly altered URL used in malicious election scams",
-      "first_seen": "2026-09-21T12:05:07.773455+00:00",
-      "last_seen": "2026-09-21T12:05:07.773455+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.doppel.com",
-          "url": "https://www.doppel.com/blog/voter-election-scam",
-          "pub_date": "2026-09-21T12:05:07.773455+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "drivinguber.com",
-      "confidence": "high",
-      "reason": "Used as a primary health probe in the malware's execution pipeline",
-      "first_seen": "2026-09-21T11:02:59.974624+00:00",
-      "last_seen": "2026-09-21T11:02:59.974624+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.seqrite.com",
-          "url": "https://www.seqrite.com/blog/macsync-the-evasive-macos-stealer-exploiting-clickfix-lures/",
-          "pub_date": "2026-09-21T11:02:59.974624+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "ClickFix"
-        },
-        {
-          "type": "malware",
-          "value": "LummaC2"
-        },
-        {
-          "type": "malware",
-          "value": "Mac.C Stealer"
-        },
-        {
-          "type": "malware",
-          "value": "MacSync"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "newsinweb.com",
-      "confidence": "high",
-      "reason": "Used in fallback rotation for C2 communication",
-      "first_seen": "2026-09-21T11:02:59.974624+00:00",
-      "last_seen": "2026-09-21T11:02:59.974624+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.seqrite.com",
-          "url": "https://www.seqrite.com/blog/macsync-the-evasive-macos-stealer-exploiting-clickfix-lures/",
-          "pub_date": "2026-09-21T11:02:59.974624+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "ClickFix"
-        },
-        {
-          "type": "malware",
-          "value": "LummaC2"
-        },
-        {
-          "type": "malware",
-          "value": "Mac.C Stealer"
-        },
-        {
-          "type": "malware",
-          "value": "MacSync"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "mpasvw.com",
-      "confidence": "high",
-      "reason": "Used for data exfiltration in the article",
-      "first_seen": "2026-09-21T11:02:57.464783+00:00",
-      "last_seen": "2026-09-21T11:02:57.464783+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "adamnet.works",
-          "url": "https://adamnet.works/blog/hbo-max-ads-exposed-the-pasteswitch-clickfix-operation/index.html",
-          "pub_date": "2026-09-21T11:02:57.464783+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Claude-themed Delivery"
-        },
-        {
-          "type": "campaign",
-          "value": "Codex Campaign"
-        },
-        {
-          "type": "campaign",
-          "value": "HBO Max Campaign"
-        },
-        {
-          "type": "campaign",
-          "value": "Homebrew Campaign"
-        }
-      ]
-    },
-    {
-      "type": "ipv4",
-      "value": "176.53.159.66",
-      "confidence": "high",
-      "reason": "Used for malicious delivery and teardown operations",
-      "first_seen": "2026-09-21T11:02:57.464783+00:00",
-      "last_seen": "2026-09-21T11:02:57.464783+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "adamnet.works",
-          "url": "https://adamnet.works/blog/hbo-max-ads-exposed-the-pasteswitch-clickfix-operation/index.html",
-          "pub_date": "2026-09-21T11:02:57.464783+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Claude-themed Delivery"
-        },
-        {
-          "type": "campaign",
-          "value": "Codex Campaign"
-        },
-        {
-          "type": "campaign",
-          "value": "HBO Max Campaign"
-        },
-        {
-          "type": "campaign",
-          "value": "Homebrew Campaign"
-        }
-      ]
-    },
-    {
-      "type": "ipv4",
-      "value": "45.94.47.204",
-      "confidence": "high",
-      "reason": "Used for malicious task service enrollment",
-      "first_seen": "2026-09-21T11:02:57.464783+00:00",
-      "last_seen": "2026-09-21T11:02:57.464783+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "adamnet.works",
-          "url": "https://adamnet.works/blog/hbo-max-ads-exposed-the-pasteswitch-clickfix-operation/index.html",
-          "pub_date": "2026-09-21T11:02:57.464783+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Claude-themed Delivery"
-        },
-        {
-          "type": "campaign",
-          "value": "Codex Campaign"
-        },
-        {
-          "type": "campaign",
-          "value": "HBO Max Campaign"
-        },
-        {
-          "type": "campaign",
-          "value": "Homebrew Campaign"
-        }
-      ]
-    },
-    {
-      "type": "ipv4",
-      "value": "62.60.226.69",
-      "confidence": "high",
-      "reason": "Used as a provisioning cluster for malicious operations",
-      "first_seen": "2026-09-21T11:02:57.464783+00:00",
-      "last_seen": "2026-09-21T11:02:57.464783+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "adamnet.works",
-          "url": "https://adamnet.works/blog/hbo-max-ads-exposed-the-pasteswitch-clickfix-operation/index.html",
-          "pub_date": "2026-09-21T11:02:57.464783+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Claude-themed Delivery"
-        },
-        {
-          "type": "campaign",
-          "value": "Codex Campaign"
-        },
-        {
-          "type": "campaign",
-          "value": "HBO Max Campaign"
-        },
-        {
-          "type": "campaign",
-          "value": "Homebrew Campaign"
         }
       ]
     }
