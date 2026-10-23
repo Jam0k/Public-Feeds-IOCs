@@ -1,14 +1,116 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason
+domain,breachforums.st,high,2026-10-09T17:01:55.081127+00:00,2026-10-23T03:31:16.070149+00:00,2,,Domain used to operate a cybercrime marketplace as described in the article
+ipv4,38.54.50.151,high,2026-10-22T17:18:22+00:00,2026-10-22T23:44:11+00:00,4,,IP address linked to ongoing exploitation attempts
+sha256,cc4cc20b558096855c5d492f7a79b160a809355798be2b824525c98964450492,high,2026-10-22T19:36:43.233060+00:00,2026-10-22T19:36:43.233060+00:00,1,,Listed as an example malicious URL hash.
+sha256,dee6494e69c6e7289cf3f332e2867662958fa82f819615597e88c16c967a25a9,high,2026-10-22T19:36:43.233060+00:00,2026-10-22T19:36:43.233060+00:00,1,,Listed as an example malicious URL hash.
+sha256,e89f48a7351c01cbf2f8e31c65a67f76a5ead689bb11e9d4918090a165d4425f,high,2026-10-22T19:36:43.233060+00:00,2026-10-22T19:36:43.233060+00:00,1,,Listed as an example malicious URL hash.
+domain,bnt2.live,high,2026-10-22T19:36:42.065904+00:00,2026-10-22T19:36:42.065904+00:00,1,,Described as an actor-controlled URL shortener used for credential harvesting
+domain,gettogether.quest,high,2026-10-22T19:36:42.065904+00:00,2026-10-22T19:36:42.065904+00:00,1,,Used in a TA453 campaign to deliver threatening messages
+domain,nco2.live,high,2026-10-22T19:36:42.065904+00:00,2026-10-22T19:36:42.065904+00:00,1,,Described as an actor-controlled URL shortener used for credential harvesting
+domain,office-updates.info,high,2026-10-22T19:36:42.065904+00:00,2026-10-22T19:36:42.065904+00:00,1,,Used to download malicious templates in a TA453 campaign
+domain,profilepic.site,high,2026-10-22T19:36:42.065904+00:00,2026-10-22T19:36:42.065904+00:00,1,,Attributed to TA453 based on registration similarities
+ipv4,66.29.153.90,high,2026-10-22T19:36:42.065904+00:00,2026-10-22T19:36:42.065904+00:00,1,,Resolved to by attacker-controlled domain gettogether.quest
+sha256,a8c062846411d3fb8ceb0b2fe34389c4910a4887cd39552d30e6a03a02f4cc78,high,2026-10-22T19:36:42.065904+00:00,2026-10-22T19:36:42.065904+00:00,1,,SHA256 hash of a malicious document used in a TA453 campaign
+ipv4,92.118.112.100,high,2026-10-22T11:32:08.829801+00:00,2026-10-22T18:45:20+00:00,2,,IP address associated with attacker-controlled scanning and exploitation attempts
+sha256,0c5486f06620e26e316f4b33f318b0d646d5e1133789331aa2fed012360d1486,high,2026-10-22T11:32:08.829801+00:00,2026-10-22T18:45:20+00:00,2,,Listed as an IOC in a threat report
+sha256,267a3c8ed021a0a52c29bf076617a0dfd5cd5285202b8d0bd9ad0712110ccae8,high,2026-10-22T18:45:20+00:00,2026-10-22T18:45:20+00:00,1,,Listed in a structured IOC list as a malware sample hash.
+sha256,e2529d4afa39ae4db2eb05d5176317c906289abf09660c75bdeec43e54c55aa3,high,2026-10-22T18:45:20+00:00,2026-10-22T18:45:20+00:00,1,,Listed as an IOC in a threat report
+ipv4,91.231.182.187,high,2026-10-22T18:31:10.890874+00:00,2026-10-22T18:31:10.890874+00:00,1,,C&C server in payloads downloaded by PteroPaste
+ipv4,210.242.76.32,high,2026-10-22T17:49:54+00:00,2026-10-22T17:49:54+00:00,1,,Listed as an IP used in exploitation attempts.
+ipv4,211.20.144.116,high,2026-10-22T17:49:54+00:00,2026-10-22T17:49:54+00:00,1,,Listed as an IP used in exploitation attempts.
+sha256,0457414c4504b70115798eee9c8384a8bf9e793461ffb2e0661a6dcc6ed4809f,high,2026-09-29T15:11:58.200693+00:00,2026-10-22T16:30:51.700994+00:00,1,,Identified as a patched DLL used in the attack
+sha256,14e3376befd4b7b52de0757b6264da294ac6b0f9e4ff51cb9bc5b19b243fe335,high,2026-09-29T15:11:58.200693+00:00,2026-10-22T16:30:51.700994+00:00,1,,Identified as an obfuscated ClickFix stager used in the attack
+sha256,20c7befc174a61117770535e809046c75e93c71284bf1a9c6cd532f55b315f53,high,2026-09-29T15:11:58.200693+00:00,2026-10-22T16:30:51.700994+00:00,1,,Identified as a decoded payload used in the attack
+sha256,3cd1484cc5bf10e22d79784beba58a75d7b126c46efb5e1a85d6aab884447621,high,2026-09-29T15:11:58.200693+00:00,2026-10-22T16:30:51.700994+00:00,1,,Identified as a loader DLL used in the attack
+sha256,54c94f85ba6e950903d5ff42c0971c5a9d0741596be26e06afe7d60ec38edf31,high,2026-09-29T15:11:58.200693+00:00,2026-10-22T16:30:51.700994+00:00,1,,Identified as an audio file carrying the encrypted loader
+sha256,9c615db040b88c18ce6b96f30d08797045b7d506f940bea452dc7a6992fdbb8d,high,2026-09-29T15:11:58.200693+00:00,2026-10-22T16:30:51.700994+00:00,1,,Identified as a malicious helper DLL used in the attack
+sha256,a27cafb84876a3374ef4aba1062345def6cd0b029eaf8e0dc44fa24fc943f3c6,high,2026-09-29T15:11:58.200693+00:00,2026-10-22T16:30:51.700994+00:00,1,,Identified as a network helper DLL used in the attack
+sha256,ab65bbfc505dbe1cebe6021fb36e2011f6aa1d64f5d87cee1cbee3fc2a0c7907,high,2026-09-29T15:11:58.200693+00:00,2026-10-22T16:30:51.700994+00:00,1,,Identified as a decoded payload used in the attack
+sha256,b59a21a8d4c0c11a9ecbbdbe2a2938499c99c5ebb210c9c6db9683c7ad19f4c4,high,2026-09-29T15:11:58.200693+00:00,2026-10-22T16:30:51.700994+00:00,1,,Identified as an alloc/exec helper DLL used in the attack
+sha256,b77575413c0f97eaf31e4a44c884c1ecdc0049ec89916ceb0bf3aaaedc0442fe,high,2026-09-29T15:11:58.200693+00:00,2026-10-22T16:30:51.700994+00:00,1,,Identified as a DLL used to decode and run the loader
+sha256,c4603646701069ebdeabc96f74e1f947355ace8575560986d8393fcc6b88d0b7,high,2026-09-29T15:11:58.200693+00:00,2026-10-22T16:30:51.700994+00:00,1,,Identified as a ClickFix stager used in the attack
+sha256,d3fda1e6cf886fd530bf62e2d16c39ad23ed12a2c933fc211f1f4876ceaa033e,high,2026-09-29T15:11:58.200693+00:00,2026-10-22T16:30:51.700994+00:00,1,,Identified as a NuGet package carrying the encrypted loader
+sha256,d5acf44658f0dce90bd160f15d8e07a96938c81661d87dc7e9cb0107863bfb90,high,2026-09-29T15:11:58.200693+00:00,2026-10-22T16:30:51.700994+00:00,1,,Identified as an encrypted archive containing the persistence script and RAT
+sha256,e614b7d5a7a363fb1b355a87e2e8d9e8a05bbbca08f2cee3d606bdb5015ac53b,high,2026-09-29T15:11:58.200693+00:00,2026-10-22T16:30:51.700994+00:00,1,,Identified as an encrypted archive holding the persistence script and RAT
+sha256,eff5d63ddf1813962f0d8ad1250cea5486c8bb5dd27c3f432b43957a33e43764,high,2026-09-29T15:11:58.200693+00:00,2026-10-22T16:30:51.700994+00:00,1,,Identified as a malicious native DLL used in the attack
+domain,nulled.it,high,2026-10-22T15:01:04.253606+00:00,2026-10-22T15:01:04.253606+00:00,1,,Domain associated with a cybercrime forum operated by attackers
+domain,nulled.lol,high,2026-10-22T15:01:04.253606+00:00,2026-10-22T15:01:04.253606+00:00,1,,Domain associated with a cybercrime forum operated by attackers
+domain,starkrdp.io,high,2026-10-22T15:01:04.253606+00:00,2026-10-22T15:01:04.253606+00:00,1,,Domain used for anonymity services advertised on cybercrime forums
+sha1,05846D5B1D37EE2D716140DE4F4F984CF1E631D1,high,2026-10-22T15:01:00.194911+00:00,2026-10-22T15:01:00.194911+00:00,1,,Listed as a BlackLotus installer
+sha1,06AF3016ACCDB3DFE1C23657BF1BF91C13BAA757,high,2026-10-22T15:01:00.194911+00:00,2026-10-22T15:01:00.194911+00:00,1,,Listed as a BlackLotus HTTP downloader
+sha1,0C0E78BF97116E781DDE0E00A1CD0C29E68D623D,high,2026-10-22T15:01:00.194911+00:00,2026-10-22T15:01:00.194911+00:00,1,,Listed as a BlackLotus HTTP downloader
+sha1,111C4998F3264617A7A9D9BF662D4B1577445B20,high,2026-10-22T15:01:00.194911+00:00,2026-10-22T15:01:00.194911+00:00,1,,Listed as a BlackLotus HTTP downloader
+sha1,16B12CEA54360AA42E1120E82C1E9BC0371CB635,high,2026-10-22T15:01:00.194911+00:00,2026-10-22T15:01:00.194911+00:00,1,,Listed as a BlackLotus installer
+sha1,17FA047C1F979B180644906FE9265F21AF5B0509,high,2026-10-22T15:01:00.194911+00:00,2026-10-22T15:01:00.194911+00:00,1,,Listed as a BlackLotus kernel driver
+sha1,1F3799FED3CF43254FE30DCDFDB8DC02D82E662B,high,2026-10-22T15:01:00.194911+00:00,2026-10-22T15:01:00.194911+00:00,1,,Listed as a BlackLotus kernel driver
+sha1,2CE056AE323B0380B0E87225EA0AE087A33CD316,high,2026-10-22T15:01:00.194911+00:00,2026-10-22T15:01:00.194911+00:00,1,,Listed as a BlackLotus UEFI bootkit
+sha1,45701A83DEC1DC71A48268C9D6D205F31D9E7FFB,high,2026-10-22T15:01:00.194911+00:00,2026-10-22T15:01:00.194911+00:00,1,,Listed as a BlackLotus installer
+sha1,4B882748FAF2C6C360884C6812DD5BCBCE75EBFF,high,2026-10-22T15:01:00.194911+00:00,2026-10-22T15:01:00.194911+00:00,1,,Listed as a BlackLotus kernel driver
+sha1,5A0074203ABD5DEB464BA0A79E14B7541A033216,high,2026-10-22T15:01:00.194911+00:00,2026-10-22T15:01:00.194911+00:00,1,,Listed as a BlackLotus UEFI bootkit
+sha1,5DC9CBD75ABD830E83641A0265BFFDDD2F602815,high,2026-10-22T15:01:00.194911+00:00,2026-10-22T15:01:00.194911+00:00,1,,Listed as a BlackLotus UEFI bootkit
+sha1,6D8CEE28DA8BCF25A4D232FEB0810452ACADA11D,high,2026-10-22T15:01:00.194911+00:00,2026-10-22T15:01:00.194911+00:00,1,,Listed as a BlackLotus HTTP downloader
+sha1,71559C3E2F3950D4EE016F24CA54DA17D28B9D82,high,2026-10-22T15:01:00.194911+00:00,2026-10-22T15:01:00.194911+00:00,1,,Listed as a BlackLotus Boot Configuration Data store
+sha1,74FF58FCE8F19083D16DF0109DC91D78C94342FA,high,2026-10-22T15:01:00.194911+00:00,2026-10-22T15:01:00.194911+00:00,1,,Listed as a BlackLotus HTTP downloader
+sha1,91F832F46E4C38ECC9335460D46F6F71352CFFED,high,2026-10-22T15:01:00.194911+00:00,2026-10-22T15:01:00.194911+00:00,1,,Listed as a BlackLotus kernel driver
+sha1,97AEC21042DF47D39AC212761729C6BE484D064D,high,2026-10-22T15:01:00.194911+00:00,2026-10-22T15:01:00.194911+00:00,1,,Listed as a BlackLotus UEFI bootkit
+sha1,994DC79255AEB662A672A1814280DE73D405617A,high,2026-10-22T15:01:00.194911+00:00,2026-10-22T15:01:00.194911+00:00,1,,Listed as a BlackLotus kernel driver
+sha1,A5A530A91100ED5F07A5D74698B15C646DD44E16,high,2026-10-22T15:01:00.194911+00:00,2026-10-22T15:01:00.194911+00:00,1,,Listed as a BlackLotus installer
+sha1,ACC74217CBE3F2E727A826B34BDE482DCAE15BE6,high,2026-10-22T15:01:00.194911+00:00,2026-10-22T15:01:00.194911+00:00,1,,Listed as a BlackLotus HTTP downloader
+sha1,ADCEEC18FF009BED635D168E0B116E72096F18D2,high,2026-10-22T15:01:00.194911+00:00,2026-10-22T15:01:00.194911+00:00,1,,Listed as a BlackLotus UEFI bootkit
+sha1,D82539BFC2CC7CB504BE74AC74DF696B13DB486A,high,2026-10-22T15:01:00.194911+00:00,2026-10-22T15:01:00.194911+00:00,1,,Listed as a BlackLotus installer
+sha1,DAE7E7C4EEC2AC0DC7963C44A5A4F47D930C5508,high,2026-10-22T15:01:00.194911+00:00,2026-10-22T15:01:00.194911+00:00,1,,Listed as a BlackLotus installer
+sha1,DBC064F757C69EC43517EFF496146B43CBA949D1,high,2026-10-22T15:01:00.194911+00:00,2026-10-22T15:01:00.194911+00:00,1,,Listed as a BlackLotus UEFI bootkit
+sha1,FFF4F28287677CAABC60C8AB36786C370226588D,high,2026-10-22T15:01:00.194911+00:00,2026-10-22T15:01:00.194911+00:00,1,,Listed as a BlackLotus kernel driver
+domain,my-github.com,high,2026-10-19T13:09:39+00:00,2026-10-22T14:08:12+00:00,2,,Domain used in phishing campaign as a GitHub-themed lookalike
+ipv4,193.32.204.199,high,2026-10-07T13:03:38+00:00,2026-10-22T14:08:12+00:00,2,,IP address used for exfiltrating data in a malicious campaign
+domain,oskeysetup.com,high,2026-10-22T14:02:12+00:00,2026-10-22T14:02:12+00:00,1,,Domain used for phishing and adversary-in-the-middle attacks
+domain,fegrs.adidasabc.com,high,2026-10-22T13:53:58+00:00,2026-10-22T13:53:58+00:00,1,,Domain used as C2 endpoint in a malware operation
+sha256,bdfccc6ab3e592f6cfc47f6deb910950666fa47b5f87c6a08af7096d90e59d0f,high,2026-10-22T13:53:58+00:00,2026-10-22T13:53:58+00:00,1,,Hash associated with a malicious Android package in intrusion logs.
+domain,litellm.dev,high,2026-10-21T17:08:52+00:00,2026-10-22T13:10:28+00:00,5,,Listed as an exfiltration endpoint and attacker-controlled domain
+ipv4,185.238.2.195,high,2026-10-22T13:04:01+00:00,2026-10-22T13:04:01+00:00,1,,Listed as an AiTM relay used by attackers.
+ipv4,192.159.99.172,high,2026-10-22T13:04:01+00:00,2026-10-22T13:04:01+00:00,1,,Listed as a 1337 Services address used in attacks.
+ipv4,45.83.31.44,high,2026-10-22T13:04:01+00:00,2026-10-22T13:04:01+00:00,1,,Listed as a 1337 Services address used in attacks.
+ipv4,193.148.56.97,high,2026-10-22T13:00:02+00:00,2026-10-22T13:00:02+00:00,1,,Listed as a C2 address used by Stadia malware.
+ipv4,91.92.43.45,high,2026-10-22T13:00:02+00:00,2026-10-22T13:00:02+00:00,1,,Listed as a C2 address used by Stadia malware.
+ipv4,93.152.213.215,high,2026-10-22T13:00:02+00:00,2026-10-22T13:00:02+00:00,1,,Listed as a C2 address used by Stadia malware.
+md5,028afae8b5e9953e1cd84a003c42fd85,high,2026-10-22T13:00:02+00:00,2026-10-22T13:00:02+00:00,1,,Listed as a malware sample hash in the context of StealC.
+md5,7739a8d0d101ca82b93bbd0acdb6d9af,high,2026-10-22T13:00:02+00:00,2026-10-22T13:00:02+00:00,1,,Listed as a malware sample hash in the context of StealC.
+sha1,1ba76d2029744cc6e2f7209c96a696b32962b1f1,high,2026-10-22T13:00:02+00:00,2026-10-22T13:00:02+00:00,1,,Listed as a malware sample hash in the context of StealC.
+sha256,0e5337a4cc8ebc772bc50f6e79befd1e8efad3410022e050d08d5269733c4ea4,high,2026-10-22T13:00:02+00:00,2026-10-22T13:00:02+00:00,1,,Listed as a malware sample hash in the context of StealC v3.5 builds.
+sha256,ea928494fd30d88b98141d39a502a4324889fb732e74b44bfee12c72137dd73e,high,2026-10-22T13:00:02+00:00,2026-10-22T13:00:02+00:00,1,,Listed as a malware sample hash in the context of StealC.
+domain,mosaichealthsolutions.com,high,2026-10-22T12:59:53+00:00,2026-10-22T12:59:53+00:00,1,,Described as an attacker-controlled domain for credential harvesting
+domain,thebesthomehealth.com,high,2026-10-22T12:59:53+00:00,2026-10-22T12:59:53+00:00,1,,Described as an attacker-controlled domain for credential harvesting
+domain,godofthunder.st,high,2026-10-22T11:32:08.829801+00:00,2026-10-22T11:32:08.829801+00:00,1,,Listed as a command and control domain
+domain,hackattackkaboom.botlesscucks.st,high,2026-10-22T11:32:08.829801+00:00,2026-10-22T11:32:08.829801+00:00,1,,Used as a staging host for second-stage payloads
+domain,hik.gettingheadfromduckysmom.st,high,2026-10-22T11:32:08.829801+00:00,2026-10-22T11:32:08.829801+00:00,1,,Listed in the configuration as part of attacker infrastructure
+domain,rootkit.net.cn,high,2026-10-22T11:32:08.829801+00:00,2026-10-22T11:32:08.829801+00:00,1,,Associated with a web shell used by attackers
+domain,thunder.godofthunder.st,high,2026-10-22T11:32:08.829801+00:00,2026-10-22T11:32:08.829801+00:00,1,,Listed as a command and control domain
+domain,z-cg.com,high,2026-10-22T11:32:08.829801+00:00,2026-10-22T11:32:08.829801+00:00,1,,Associated with a web shell used by attackers
+ipv4,117.55.202.115,high,2026-10-22T11:32:08.829801+00:00,2026-10-22T11:32:08.829801+00:00,1,,Used as a staging host for second-stage payloads
+ipv4,134.154.64.199,high,2026-10-22T11:32:08.829801+00:00,2026-10-22T11:32:08.829801+00:00,1,,Derived command and control address
+ipv4,150.251.112.208,high,2026-10-22T11:32:08.829801+00:00,2026-10-22T11:32:08.829801+00:00,1,,Listed as a C2 server in the binary
+ipv4,185.5.70.233,high,2026-10-22T11:32:08.829801+00:00,2026-10-22T11:32:08.829801+00:00,1,,Used in conjunction with attacker infrastructure
+ipv4,64.199.134.154,high,2026-10-22T11:32:08.829801+00:00,2026-10-22T11:32:08.829801+00:00,1,,Related to command and control infrastructure
+md5,b61a098fc62a2c2696e196dca78da71a,high,2026-10-22T11:32:08.829801+00:00,2026-10-22T11:32:08.829801+00:00,1,,MD5 hash of a malicious binary
+sha256,17758cf05e3376f8448dff926564e038b763b4a46668455e2ccb5ac0839e629c,high,2026-10-22T11:32:08.829801+00:00,2026-10-22T11:32:08.829801+00:00,1,,SHA-256 hash of a malicious web shell
+sha256,43898a0a53bbd25d31ad9f5018ed3182be98a66109b22c9cab545a9fc447992a,high,2026-10-22T11:32:08.829801+00:00,2026-10-22T11:32:08.829801+00:00,1,,SHA-256 hash of a malicious tool
+sha256,7133612558a5d0f257ca6bdb4f765453af9465bc5298acdcf33b5761b8c59aac,high,2026-10-22T11:32:08.829801+00:00,2026-10-22T11:32:08.829801+00:00,1,,SHA-256 hash of a malicious binary
+sha256,7bc41ed79a9ae909927a9e40701736460a8cb70fca16ce1510e58677aca764b6,high,2026-10-22T11:32:08.829801+00:00,2026-10-22T11:32:08.829801+00:00,1,,Listed as a second-stage binary hash in the context of PHP2Shell exploitation.
+sha256,dd98bf48899aa385035352688357742c73ddc5e47ec4ecc7d7b74c53c2e3ca3d,high,2026-10-22T11:32:08.829801+00:00,2026-10-22T11:32:08.829801+00:00,1,,SHA-256 hash of a malicious file
+ipv4,211.240.117.200,high,2026-10-22T11:32:08.326901+00:00,2026-10-22T11:32:08.326901+00:00,1,,Listed as an IP making suspicious requests.
+domain,www.archivetj.com,high,2026-10-22T07:59:42+00:00,2026-10-22T07:59:42+00:00,1,,Identified as a C2 server used by the malware
 sha256,6a89401cbf53902e8374fbf3b424a77bb5e5f8c437176232eab7c3237d10ecbe,high,2026-10-22T01:34:54.756275+00:00,2026-10-22T01:34:54.756275+00:00,1,,Compromised package identified as malicious
-domain,litellm.dev,high,2026-10-21T17:08:52+00:00,2026-10-21T23:16:31+00:00,4,,Domain used as exfiltration endpoint in attack
-domain,www.litellm.dev,high,2026-10-21T13:41:48.036000+00:00,2026-10-21T23:16:31+00:00,2,,Domain used as exfiltration endpoint in attack
-ipv4,168.100.8.57,high,2026-10-21T23:16:31+00:00,2026-10-21T23:16:31+00:00,1,,IP address used for checking stolen AWS credentials
-sha256,07fabea33dfc2b127e865c03112dfc76936334b29028ec05cdd355af2385dc04,high,2026-10-21T23:16:31+00:00,2026-10-21T23:16:31+00:00,1,,SHA-256 hash of compromised Docker image
-sha256,1bbcb1443bc962e45f5aad53fe3d2c30600e0379715fb6c664cdd3ac126c339e,high,2026-10-21T13:41:48.036000+00:00,2026-10-21T23:16:31+00:00,3,,SHA-256 hash of compromised Docker image
-sha256,35f2cec3a14bb297e08bfab56c1fc377432bc4071aaf71978fdff043a5d91e79,high,2026-10-21T23:16:31+00:00,2026-10-21T23:16:31+00:00,1,,SHA-256 hash of compromised Docker image
-sha256,7294b90f868c5c38c99b83021c7ba46f9b439e95f8e32964c925c7d2563a03f7,high,2026-10-21T23:16:31+00:00,2026-10-21T23:16:31+00:00,1,,SHA-256 hash of compromised Docker image
+domain,aaa-emudhra.we-have-a-problem.com,high,2026-10-22T00:00:00+00:00,2026-10-22T00:00:00+00:00,1,,Domain used for testing certificate validation.
+domain,aiarmor.website,high,2026-10-22T00:00:00+00:00,2026-10-22T00:00:00+00:00,1,,Listed as a fallback endpoint for data exfiltration.
+domain,www.litellm.dev,high,2026-10-21T13:41:48.036000+00:00,2026-10-21T23:16:31+00:00,2,,Listed as an exfiltration endpoint and attacker-controlled domain
+ipv4,168.100.8.57,high,2026-10-21T23:16:31+00:00,2026-10-21T23:16:31+00:00,1,,Source IP address seen checking stolen AWS credentials
+sha256,07fabea33dfc2b127e865c03112dfc76936334b29028ec05cdd355af2385dc04,high,2026-10-21T23:16:31+00:00,2026-10-21T23:16:31+00:00,1,,SHA-256 hash of a malicious file in the compromised package
+sha256,1bbcb1443bc962e45f5aad53fe3d2c30600e0379715fb6c664cdd3ac126c339e,high,2026-10-21T13:41:48.036000+00:00,2026-10-21T23:16:31+00:00,3,,SHA-256 hash of a malicious file in the compromised package
+sha256,35f2cec3a14bb297e08bfab56c1fc377432bc4071aaf71978fdff043a5d91e79,high,2026-10-21T23:16:31+00:00,2026-10-21T23:16:31+00:00,1,,SHA-256 hash of a malicious file in the compromised package
+sha256,7294b90f868c5c38c99b83021c7ba46f9b439e95f8e32964c925c7d2563a03f7,high,2026-10-21T23:16:31+00:00,2026-10-21T23:16:31+00:00,1,,SHA-256 hash of a malicious file in the compromised package
 sha256,a0dc80a37eb7e2716c02a94adc8df9baedec192a77bde31669faed228d9ff526,high,2026-10-19T00:41:00.584259+00:00,2026-10-21T21:32:41.020167+00:00,1,,SHA256 hash listed as an IOC related to ransomware activity
-sha256,bd1aeee419ea36da9aa2b657288da4101887be468f020ac63d22ba6ed84a3ea5,high,2026-10-21T13:41:48.036000+00:00,2026-10-21T19:12:27.440949+00:00,2,,SHA-256 hash of compromised Docker image
+domain,ytstvmovies.xyz,high,2026-10-21T20:25:59+00:00,2026-10-21T20:25:59+00:00,1,,Domain used for distributing pirated content and potentially malicious ads
+sha256,bd1aeee419ea36da9aa2b657288da4101887be468f020ac63d22ba6ed84a3ea5,high,2026-10-21T13:41:48.036000+00:00,2026-10-21T19:12:27.440949+00:00,2,,SHA-256 hash of a malicious file in the compromised package
 domain,wizardexpensive.com,high,2026-10-19T19:14:50.999217+00:00,2026-10-21T19:01:41.433743+00:00,2,,Domain listed as part of attacker infrastructure to be blocked
 ipv4,2.27.248.127,high,2026-10-19T19:14:50.999217+00:00,2026-10-21T19:01:41.433743+00:00,3,,IP address listed as part of attacker infrastructure to be blocked
 ipv4,96.62.218.59,high,2026-10-19T19:14:50.999217+00:00,2026-10-21T19:01:41.433743+00:00,2,,IP address listed as part of attacker infrastructure to be blocked
@@ -36,17 +138,20 @@ domain,simba.sg-recharge.cfd,high,2026-10-21T14:46:49+00:00,2026-10-21T14:46:49+
 domain,simba.sg-recharge.cyou,high,2026-10-21T14:46:49+00:00,2026-10-21T14:46:49+00:00,1,,Phishing domain impersonating a legitimate site
 domain,amazonyt.com,high,2026-10-21T13:42:42+00:00,2026-10-21T13:42:42+00:00,1,,Hosted site impersonating Amazon services
 domain,youtubechannelverification.com,high,2026-10-21T13:42:42+00:00,2026-10-21T13:42:42+00:00,1,,Used in a phishing scheme to collect credentials
-sha256,56b74573eed6e4aafe4b50603dbe7853e0345f188c8e44a09f1098caf1f4bcdf,high,2026-10-21T13:41:48.036000+00:00,2026-10-21T13:41:48.036000+00:00,1,,SHA-256 hash of compromised Docker image
-sha256,7598727f209d717041db37f7dca271d3a7d328a279890e0e1d55375729aeb86d,high,2026-10-21T13:39:30+00:00,2026-10-21T13:41:48.036000+00:00,2,,SHA-256 hash of compromised wheel file
-sha256,0aaf7ba346d41ef2f40390436738b001180d5a1c03aa093f121078a9969d9a1a,high,2026-10-21T13:39:30+00:00,2026-10-21T13:39:30+00:00,1,,SHA-256 hash of compromised wheel file
-sha256,12d4ccc5c6f8d35cf4f2cf233b7f3e418e863e657d81ff5f5fc9e210005b9484,high,2026-10-21T13:39:30+00:00,2026-10-21T13:39:30+00:00,1,,SHA-256 hash of compromised wheel file
-sha256,1bbce8caa94f01c0aaa0b7ddae51553a8a32e1ce53d96d44fe583272aff7ad00,high,2026-10-21T13:39:30+00:00,2026-10-21T13:39:30+00:00,1,,SHA-256 hash of compromised wheel file
-sha256,34bef04fe88ac9d0aae0475630b1738681d15b94f233ac8aa46eacf5968305fa,high,2026-10-21T13:39:30+00:00,2026-10-21T13:39:30+00:00,1,,SHA-256 hash of compromised file
-sha256,462d0c9f67ca522d9e0e4acd245e90b36ce0d5353604a66bb7c43a1ec4a6fcf7,high,2026-10-21T13:39:30+00:00,2026-10-21T13:39:30+00:00,1,,SHA-256 hash of compromised wheel file
-sha256,668169d35b87bf51324080390b1b1c5ab12bd335cfe5f1a99e3689abd5e02ae6,high,2026-10-21T13:39:30+00:00,2026-10-21T13:39:30+00:00,1,,SHA-256 hash of compromised wheel file
-sha256,7f191632e7320705d154b85204f1ae546b543acbd7e8861229b76f5042b92bdb,high,2026-10-21T13:39:30+00:00,2026-10-21T13:39:30+00:00,1,,SHA-256 hash of compromised file
-sha256,9dd0a3926f96a37eb86cf1ee2310d9be93139cc4ebef3ef9e2efe9531390be25,high,2026-10-21T13:39:30+00:00,2026-10-21T13:39:30+00:00,1,,SHA-256 hash of compromised file
-sha256,c2e32d0ce2548aa662c18bf5001911a79fe5b30cf8357132275add02fdcde054,high,2026-10-21T13:39:30+00:00,2026-10-21T13:39:30+00:00,1,,SHA-256 hash of compromised wheel file
+sha256,03ac2a8b752605d1d7710979c17ff18b03dd978203ba23ba97fd8ce3d6f897ea,high,2026-10-21T13:41:48.036000+00:00,2026-10-21T13:41:48.036000+00:00,1,,SHA-256 hash of a malicious file in the compromised package
+sha256,56b74573eed6e4aafe4b50603dbe7853e0345f188c8e44a09f1098caf1f4bcdf,high,2026-10-21T13:41:48.036000+00:00,2026-10-21T13:41:48.036000+00:00,1,,SHA-256 hash of a malicious file in the compromised package
+sha256,7598727f209d717041db37f7dca271d3a7d328a279890e0e1d55375729aeb86d,high,2026-10-21T13:39:30+00:00,2026-10-21T13:41:48.036000+00:00,2,,SHA-256 hash of a malicious file in the compromised package
+sha256,84dc8c82c0a4a4a62552ef826b49fcc86d1a5c4a5d0f2c06665723f93d129d7d,high,2026-10-21T13:41:48.036000+00:00,2026-10-21T13:41:48.036000+00:00,1,,SHA-256 hash of a malicious file in the compromised package
+sha256,b6122440d0d9cb1eb1ade9933f49214da8c31288de7710c076c2680dfa528465,high,2026-10-21T13:41:48.036000+00:00,2026-10-21T13:41:48.036000+00:00,1,,SHA-256 hash of a malicious file in the compromised package
+sha256,0aaf7ba346d41ef2f40390436738b001180d5a1c03aa093f121078a9969d9a1a,high,2026-10-21T13:39:30+00:00,2026-10-21T13:39:30+00:00,1,,SHA-256 hash of a malicious file in the compromised package
+sha256,12d4ccc5c6f8d35cf4f2cf233b7f3e418e863e657d81ff5f5fc9e210005b9484,high,2026-10-21T13:39:30+00:00,2026-10-21T13:39:30+00:00,1,,SHA-256 hash of a malicious file in the compromised package
+sha256,1bbce8caa94f01c0aaa0b7ddae51553a8a32e1ce53d96d44fe583272aff7ad00,high,2026-10-21T13:39:30+00:00,2026-10-21T13:39:30+00:00,1,,SHA-256 hash of a malicious file in the compromised package
+sha256,34bef04fe88ac9d0aae0475630b1738681d15b94f233ac8aa46eacf5968305fa,high,2026-10-21T13:39:30+00:00,2026-10-21T13:39:30+00:00,1,,SHA-256 hash of a malicious file in the compromised package
+sha256,462d0c9f67ca522d9e0e4acd245e90b36ce0d5353604a66bb7c43a1ec4a6fcf7,high,2026-10-21T13:39:30+00:00,2026-10-21T13:39:30+00:00,1,,SHA-256 hash of a malicious file in the compromised package
+sha256,668169d35b87bf51324080390b1b1c5ab12bd335cfe5f1a99e3689abd5e02ae6,high,2026-10-21T13:39:30+00:00,2026-10-21T13:39:30+00:00,1,,SHA-256 hash of a malicious file in the compromised package
+sha256,7f191632e7320705d154b85204f1ae546b543acbd7e8861229b76f5042b92bdb,high,2026-10-21T13:39:30+00:00,2026-10-21T13:39:30+00:00,1,,SHA-256 hash of a malicious file in the compromised package
+sha256,9dd0a3926f96a37eb86cf1ee2310d9be93139cc4ebef3ef9e2efe9531390be25,high,2026-10-21T13:39:30+00:00,2026-10-21T13:39:30+00:00,1,,SHA-256 hash of a malicious file in the compromised package
+sha256,c2e32d0ce2548aa662c18bf5001911a79fe5b30cf8357132275add02fdcde054,high,2026-10-21T13:39:30+00:00,2026-10-21T13:39:30+00:00,1,,SHA-256 hash of a malicious file in the compromised package
 sha256,f4ffef4204880031a6a532ff5c1b5686e6a301c365f492071c1d462fa5b6b4a0,high,2026-10-21T13:12:06+00:00,2026-10-21T13:12:06+00:00,1,,Listed as a malicious PoC binary
 domain,grillmasterchef.com,high,2026-10-21T13:03:40+00:00,2026-10-21T13:03:40+00:00,1,,Used for C2 and payload delivery
 domain,grillrecipespro.com,high,2026-10-21T13:03:40+00:00,2026-10-21T13:03:40+00:00,1,,Used for attacker-controlled communications
@@ -239,7 +344,6 @@ sha256,985829083f3937df6c82419216f7697afae0caac8efca6257a756066fe2c0abb,high,202
 sha256,a50cdb508d13884630945a98eea0615b866d938eb0a16c5d958e6c8c181a6df8,high,2026-10-19T13:35:56.267043+00:00,2026-10-19T13:35:56.267043+00:00,1,,SHA256 hash of a macOS Rust executable used in malicious activity
 sha256,ed5cb4af1d2cb067b8d23783ebf05d70278728462ba4f1bf29da0a3a41efc35e,high,2026-10-19T13:35:56.267043+00:00,2026-10-19T13:35:56.267043+00:00,1,,SHA256 hash of an encrypted third-stage payload used in malicious activity
 sha256,ee8cd9aba420f1b26b5d43e5bcdd6025a277b4946bb5daf76ab45c0e5f7ecd0b,high,2026-10-19T13:35:56.267043+00:00,2026-10-19T13:35:56.267043+00:00,1,,SHA256 hash of a Python second-stage loader used in malicious activity
-domain,my-github.com,high,2026-10-19T13:09:39+00:00,2026-10-19T13:09:39+00:00,1,,Registered by the threat actor for phishing and data exfiltration.
 domain,my-gitlab.com,high,2026-10-19T13:09:39+00:00,2026-10-19T13:09:39+00:00,1,,Registered by the threat actor for phishing and data exfiltration.
 domain,amgen.teams-cloud.live,high,2026-10-19T12:42:05+00:00,2026-10-19T12:42:05+00:00,1,,Listed as a phishing domain in a threat report
 domain,companyname.suspicious-domain.live,high,2026-10-19T12:42:05+00:00,2026-10-19T12:42:05+00:00,1,,Described as a phishing domain with a suspicious subdomain.
@@ -859,21 +963,6 @@ ipv4,193.178.159.129,high,2026-10-13T11:53:10.900000+00:00,2026-10-13T11:53:10.9
 sha256,be77bca22f078d57058535ddcf26a39a752a8df030392cb45ba6a60e06651878,high,2026-10-13T11:53:10.900000+00:00,2026-10-13T11:53:10.900000+00:00,1,,Listed in a malware analysis as a credential-phishing sample hash
 domain,agdx53.cc,high,2026-10-13T08:51:36+00:00,2026-10-13T08:51:36+00:00,1,,Reported as a command-and-control domain for DarkSword malware
 domain,ecomtrack.io,high,2026-10-13T08:51:36+00:00,2026-10-13T08:51:36+00:00,1,,Re-registered by attackers to deliver DarkSword malware
-sha256,0457414c4504b70115798eee9c8384a8bf9e793461ffb2e0661a6dcc6ed4809f,high,2026-09-29T15:11:58.200693+00:00,2026-10-13T02:00:29.731146+00:00,1,,Identified as a patched DLL used in the attack
-sha256,14e3376befd4b7b52de0757b6264da294ac6b0f9e4ff51cb9bc5b19b243fe335,high,2026-09-29T15:11:58.200693+00:00,2026-10-13T02:00:29.731146+00:00,1,,Identified as an obfuscated ClickFix stager used in the attack
-sha256,20c7befc174a61117770535e809046c75e93c71284bf1a9c6cd532f55b315f53,high,2026-09-29T15:11:58.200693+00:00,2026-10-13T02:00:29.731146+00:00,1,,Identified as a decoded payload used in the attack
-sha256,3cd1484cc5bf10e22d79784beba58a75d7b126c46efb5e1a85d6aab884447621,high,2026-09-29T15:11:58.200693+00:00,2026-10-13T02:00:29.731146+00:00,1,,Identified as a loader DLL used in the attack
-sha256,54c94f85ba6e950903d5ff42c0971c5a9d0741596be26e06afe7d60ec38edf31,high,2026-09-29T15:11:58.200693+00:00,2026-10-13T02:00:29.731146+00:00,1,,Identified as an audio file carrying the encrypted loader
-sha256,9c615db040b88c18ce6b96f30d08797045b7d506f940bea452dc7a6992fdbb8d,high,2026-09-29T15:11:58.200693+00:00,2026-10-13T02:00:29.731146+00:00,1,,Identified as a malicious helper DLL used in the attack
-sha256,a27cafb84876a3374ef4aba1062345def6cd0b029eaf8e0dc44fa24fc943f3c6,high,2026-09-29T15:11:58.200693+00:00,2026-10-13T02:00:29.731146+00:00,1,,Identified as a network helper DLL used in the attack
-sha256,ab65bbfc505dbe1cebe6021fb36e2011f6aa1d64f5d87cee1cbee3fc2a0c7907,high,2026-09-29T15:11:58.200693+00:00,2026-10-13T02:00:29.731146+00:00,1,,Identified as a decoded payload used in the attack
-sha256,b59a21a8d4c0c11a9ecbbdbe2a2938499c99c5ebb210c9c6db9683c7ad19f4c4,high,2026-09-29T15:11:58.200693+00:00,2026-10-13T02:00:29.731146+00:00,1,,Identified as an alloc/exec helper DLL used in the attack
-sha256,b77575413c0f97eaf31e4a44c884c1ecdc0049ec89916ceb0bf3aaaedc0442fe,high,2026-09-29T15:11:58.200693+00:00,2026-10-13T02:00:29.731146+00:00,1,,Identified as a DLL used to decode and run the loader
-sha256,c4603646701069ebdeabc96f74e1f947355ace8575560986d8393fcc6b88d0b7,high,2026-09-29T15:11:58.200693+00:00,2026-10-13T02:00:29.731146+00:00,1,,Identified as a ClickFix stager used in the attack
-sha256,d3fda1e6cf886fd530bf62e2d16c39ad23ed12a2c933fc211f1f4876ceaa033e,high,2026-09-29T15:11:58.200693+00:00,2026-10-13T02:00:29.731146+00:00,1,,Identified as a NuGet package carrying the encrypted loader
-sha256,d5acf44658f0dce90bd160f15d8e07a96938c81661d87dc7e9cb0107863bfb90,high,2026-09-29T15:11:58.200693+00:00,2026-10-13T02:00:29.731146+00:00,1,,Identified as an encrypted archive containing the persistence script and RAT
-sha256,e614b7d5a7a363fb1b355a87e2e8d9e8a05bbbca08f2cee3d606bdb5015ac53b,high,2026-09-29T15:11:58.200693+00:00,2026-10-13T02:00:29.731146+00:00,1,,Identified as an encrypted archive holding the persistence script and RAT
-sha256,eff5d63ddf1813962f0d8ad1250cea5486c8bb5dd27c3f432b43957a33e43764,high,2026-09-29T15:11:58.200693+00:00,2026-10-13T02:00:29.731146+00:00,1,,Identified as a malicious native DLL used in the attack
 sha256,5d5b4f259ef3b3d20f6ef1a63def6dee9326efe2b7b7b7e474008aa978f1f19b,high,2026-10-12T22:01:13.867245+00:00,2026-10-12T22:01:13.867245+00:00,1,,Listed as a suspected AsyncRAT C2 server.
 sha256,d737637ee5f121d11a6f3295bf0d51b06218812b5ec04fe9ea484921e905a207,high,2026-10-12T22:01:13.867245+00:00,2026-10-12T22:01:13.867245+00:00,1,,Listed as a suspected AsyncRAT C2 server.
 sha256,d9ab6cfa60cc75785e31ca9b5a31dae1c33022bdb90cb382ef3ca823c627590d,high,2026-10-12T22:01:13.867245+00:00,2026-10-12T22:01:13.867245+00:00,1,,Listed as a Lumma Stealer payload URL.
@@ -970,7 +1059,6 @@ ipv4,59.46.4.119,high,2026-10-09T18:00:23.022990+00:00,2026-10-09T18:00:23.02299
 sha1,1334417664270db20af705f422878c53c8378203,high,2026-10-09T18:00:23.022990+00:00,2026-10-09T18:00:23.022990+00:00,1,,Listed as a payload module hash for a malicious toolkit
 sha256,864d68e64618d6bfc26d75d6f780ae0b7bfed3698cc8333818ed32519e560d1f,high,2026-10-09T18:00:23.022990+00:00,2026-10-09T18:00:23.022990+00:00,1,,Unique body hash for a C2 control panel
 domain,breachforums.hn,high,2026-10-09T17:01:55.081127+00:00,2026-10-09T17:01:55.081127+00:00,1,,Described as a freshly registered domain used for disinformation by attackers
-domain,breachforums.st,high,2026-10-09T17:01:55.081127+00:00,2026-10-09T17:01:55.081127+00:00,1,,Described as a domain controlled by attackers to redirect users
 domain,raid.lol,high,2026-10-09T17:01:55.081127+00:00,2026-10-09T17:01:55.081127+00:00,1,,Described as a domain used by attackers for illegal activities
 domain,rf.ws,high,2026-10-09T17:01:55.081127+00:00,2026-10-09T17:01:55.081127+00:00,1,,Described as a domain used by attackers for illegal activities
 ipv4,23.148.212.237,high,2026-10-09T16:29:55+00:00,2026-10-09T16:29:55+00:00,1,,Serves as an analysis workspace for exploit development
@@ -1377,7 +1465,6 @@ domain,openpediatrics.site,high,2026-10-07T13:04:03+00:00,2026-10-07T13:04:03+00
 sha256,5956f9afb3ba610c38b2cfda88dd15be98783963769a12020c93ce05e749b3c3,high,2026-10-07T13:04:03+00:00,2026-10-07T13:04:03+00:00,1,,SHA256 hash listed as an initial rogue ScreenConnect client.
 domain,carte-avantage.com,high,2026-10-07T13:03:38+00:00,2026-10-07T13:03:38+00:00,1,,Used as an exfiltration endpoint by attackers
 ipv4,170.39.218.2,high,2026-10-07T13:03:38+00:00,2026-10-07T13:03:38+00:00,1,,Listed as an endpoint used by attackers.
-ipv4,193.32.204.199,high,2026-10-07T13:03:38+00:00,2026-10-07T13:03:38+00:00,1,,Listed as an exfiltration endpoint used by attackers.
 domain,account-sams-club.com,high,2026-09-27T07:30:52+00:00,2026-10-07T12:02:35.647461+00:00,2,,Domain resolves to a phishing site used for brand impersonation
 domain,ibraq-perfumes.com,high,2026-09-27T09:02:32.908946+00:00,2026-10-07T12:02:35.647461+00:00,1,,Domain resolves to a phishing site used for brand impersonation
 domain,namshi-uae.com,high,2026-09-27T09:02:32.908946+00:00,2026-10-07T12:02:35.647461+00:00,1,,Domain resolves to a phishing site used for brand impersonation

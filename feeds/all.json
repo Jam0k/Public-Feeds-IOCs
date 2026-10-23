@@ -1,7 +1,7 @@
 {
   "feed": "threatcluster-public-iocs",
   "version": 1,
-  "generated_at": "2026-10-22T11:48:50Z",
+  "generated_at": "2026-10-23T11:35:48Z",
   "filters": {
     "confidence": "high",
     "window_days": 30,
@@ -11,17 +11,27 @@
       "domain"
     ]
   },
-  "count": 834,
+  "count": 894,
   "iocs": [
     {
       "type": "domain",
       "value": "litellm.dev",
       "confidence": "high",
-      "reason": "Listed as an exfiltration endpoint controlled by attackers",
+      "reason": "Listed as an exfiltration endpoint and attacker-controlled domain",
       "first_seen": "2026-10-21T17:08:52+00:00",
-      "last_seen": "2026-10-22T08:28:48+00:00",
-      "source_count": 4,
+      "last_seen": "2026-10-23T09:30:43.929819+00:00",
+      "source_count": 5,
       "sources": [
+        {
+          "source": "www.stepsecurity.io",
+          "url": "https://www.stepsecurity.io/blog/litellm-1-107-0-compromised-pypi-backdoored-wheels-credential-stealer",
+          "pub_date": "2026-10-23T09:30:43.929819+00:00"
+        },
+        {
+          "source": "Helpnetsecurity",
+          "url": "https://www.helpnetsecurity.com/2026/10/22/litellm-compromised-supply-chain-attack-pypi-docker/",
+          "pub_date": "2026-10-22T13:10:28+00:00"
+        },
         {
           "source": "Thehackernews",
           "url": "https://thehackernews.com/2026/10/litellm-suspects-github-token-leak-in.html",
@@ -31,11 +41,6 @@
           "source": "Rescana",
           "url": "https://www.rescana.com/post/litellm-1-107-0-supply-chain-compromise-october-2026",
           "pub_date": "2026-10-21T23:16:31+00:00"
-        },
-        {
-          "source": "www.stepsecurity.io",
-          "url": "https://www.stepsecurity.io/blog/litellm-1-107-0-compromised-pypi-backdoored-wheels-credential-stealer",
-          "pub_date": "2026-10-21T19:12:27.440949+00:00"
         },
         {
           "source": "Ox.Security",
@@ -52,9 +57,2248 @@
     },
     {
       "type": "domain",
+      "value": "26edd0a4.ddns.net",
+      "confidence": "high",
+      "reason": "Domain resolved to a C2 server used by the threat actor",
+      "first_seen": "2026-10-23T07:30:31.639609+00:00",
+      "last_seen": "2026-10-23T07:30:31.639609+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.safebreach.com",
+          "url": "https://www.safebreach.com/blog/prince-of-persia-part-ii",
+          "pub_date": "2026-10-23T07:30:31.639609+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2025-8088"
+        },
+        {
+          "type": "malware",
+          "value": "Foudre"
+        },
+        {
+          "type": "malware",
+          "value": "StormKitty"
+        },
+        {
+          "type": "malware",
+          "value": "Tonnerre"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "dnsbroadcaster.lat",
+      "confidence": "high",
+      "reason": "Domain resolved to a C2 server used by the threat actor",
+      "first_seen": "2026-10-23T07:30:31.639609+00:00",
+      "last_seen": "2026-10-23T07:30:31.639609+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.safebreach.com",
+          "url": "https://www.safebreach.com/blog/prince-of-persia-part-ii",
+          "pub_date": "2026-10-23T07:30:31.639609+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2025-8088"
+        },
+        {
+          "type": "malware",
+          "value": "Foudre"
+        },
+        {
+          "type": "malware",
+          "value": "StormKitty"
+        },
+        {
+          "type": "malware",
+          "value": "Tonnerre"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "ejjnhkucbw.ix.tc",
+      "confidence": "high",
+      "reason": "Domain registered and used as a C2 server by the threat actor",
+      "first_seen": "2026-10-23T07:30:31.639609+00:00",
+      "last_seen": "2026-10-23T07:30:31.639609+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.safebreach.com",
+          "url": "https://www.safebreach.com/blog/prince-of-persia-part-ii",
+          "pub_date": "2026-10-23T07:30:31.639609+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2025-8088"
+        },
+        {
+          "type": "malware",
+          "value": "Foudre"
+        },
+        {
+          "type": "malware",
+          "value": "StormKitty"
+        },
+        {
+          "type": "malware",
+          "value": "Tonnerre"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "f13.ddnsking.com",
+      "confidence": "high",
+      "reason": "Domain registered and used as a C2 server by the threat actor",
+      "first_seen": "2026-10-23T07:30:31.639609+00:00",
+      "last_seen": "2026-10-23T07:30:31.639609+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.safebreach.com",
+          "url": "https://www.safebreach.com/blog/prince-of-persia-part-ii",
+          "pub_date": "2026-10-23T07:30:31.639609+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2025-8088"
+        },
+        {
+          "type": "malware",
+          "value": "Foudre"
+        },
+        {
+          "type": "malware",
+          "value": "StormKitty"
+        },
+        {
+          "type": "malware",
+          "value": "Tonnerre"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "joqoqwtu.privatedns.org",
+      "confidence": "high",
+      "reason": "Domain registered and used as a C2 server by the threat actor",
+      "first_seen": "2026-10-23T07:30:31.639609+00:00",
+      "last_seen": "2026-10-23T07:30:31.639609+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.safebreach.com",
+          "url": "https://www.safebreach.com/blog/prince-of-persia-part-ii",
+          "pub_date": "2026-10-23T07:30:31.639609+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2025-8088"
+        },
+        {
+          "type": "malware",
+          "value": "Foudre"
+        },
+        {
+          "type": "malware",
+          "value": "StormKitty"
+        },
+        {
+          "type": "malware",
+          "value": "Tonnerre"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "kbbpissmqs.conningstone.net",
+      "confidence": "high",
+      "reason": "Domain used as a C2 server by the threat actor",
+      "first_seen": "2026-10-23T07:30:31.639609+00:00",
+      "last_seen": "2026-10-23T07:30:31.639609+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.safebreach.com",
+          "url": "https://www.safebreach.com/blog/prince-of-persia-part-ii",
+          "pub_date": "2026-10-23T07:30:31.639609+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2025-8088"
+        },
+        {
+          "type": "malware",
+          "value": "Foudre"
+        },
+        {
+          "type": "malware",
+          "value": "StormKitty"
+        },
+        {
+          "type": "malware",
+          "value": "Tonnerre"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "kbbpissmqs.hbmc.net",
+      "confidence": "high",
+      "reason": "Domain used as a C2 server by the threat actor",
+      "first_seen": "2026-10-23T07:30:31.639609+00:00",
+      "last_seen": "2026-10-23T07:30:31.639609+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.safebreach.com",
+          "url": "https://www.safebreach.com/blog/prince-of-persia-part-ii",
+          "pub_date": "2026-10-23T07:30:31.639609+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2025-8088"
+        },
+        {
+          "type": "malware",
+          "value": "Foudre"
+        },
+        {
+          "type": "malware",
+          "value": "StormKitty"
+        },
+        {
+          "type": "malware",
+          "value": "Tonnerre"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "klnptruu.space",
+      "confidence": "high",
+      "reason": "Domain registered and used as a C2 server by the threat actor",
+      "first_seen": "2026-10-23T07:30:31.639609+00:00",
+      "last_seen": "2026-10-23T07:30:31.639609+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.safebreach.com",
+          "url": "https://www.safebreach.com/blog/prince-of-persia-part-ii",
+          "pub_date": "2026-10-23T07:30:31.639609+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2025-8088"
+        },
+        {
+          "type": "malware",
+          "value": "Foudre"
+        },
+        {
+          "type": "malware",
+          "value": "StormKitty"
+        },
+        {
+          "type": "malware",
+          "value": "Tonnerre"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "lklptttt.space",
+      "confidence": "high",
+      "reason": "Domain resolved to a C2 server used by the threat actor",
+      "first_seen": "2026-10-23T07:30:31.639609+00:00",
+      "last_seen": "2026-10-23T07:30:31.639609+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.safebreach.com",
+          "url": "https://www.safebreach.com/blog/prince-of-persia-part-ii",
+          "pub_date": "2026-10-23T07:30:31.639609+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2025-8088"
+        },
+        {
+          "type": "malware",
+          "value": "Foudre"
+        },
+        {
+          "type": "malware",
+          "value": "StormKitty"
+        },
+        {
+          "type": "malware",
+          "value": "Tonnerre"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "noonrpxv.privatedns.org",
+      "confidence": "high",
+      "reason": "Domain resolved to a C2 server used by the threat actor",
+      "first_seen": "2026-10-23T07:30:31.639609+00:00",
+      "last_seen": "2026-10-23T07:30:31.639609+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.safebreach.com",
+          "url": "https://www.safebreach.com/blog/prince-of-persia-part-ii",
+          "pub_date": "2026-10-23T07:30:31.639609+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2025-8088"
+        },
+        {
+          "type": "malware",
+          "value": "Foudre"
+        },
+        {
+          "type": "malware",
+          "value": "StormKitty"
+        },
+        {
+          "type": "malware",
+          "value": "Tonnerre"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "onnmuoru.privatedns.org",
+      "confidence": "high",
+      "reason": "Domain resolved to a C2 server used by the threat actor",
+      "first_seen": "2026-10-23T07:30:31.639609+00:00",
+      "last_seen": "2026-10-23T07:30:31.639609+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.safebreach.com",
+          "url": "https://www.safebreach.com/blog/prince-of-persia-part-ii",
+          "pub_date": "2026-10-23T07:30:31.639609+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2025-8088"
+        },
+        {
+          "type": "malware",
+          "value": "Foudre"
+        },
+        {
+          "type": "malware",
+          "value": "StormKitty"
+        },
+        {
+          "type": "malware",
+          "value": "Tonnerre"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "phantomsoftwares.site",
+      "confidence": "high",
+      "reason": "Domain used to host malware files",
+      "first_seen": "2026-10-23T07:30:31.639609+00:00",
+      "last_seen": "2026-10-23T07:30:31.639609+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.safebreach.com",
+          "url": "https://www.safebreach.com/blog/prince-of-persia-part-ii",
+          "pub_date": "2026-10-23T07:30:31.639609+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2025-8088"
+        },
+        {
+          "type": "malware",
+          "value": "Foudre"
+        },
+        {
+          "type": "malware",
+          "value": "StormKitty"
+        },
+        {
+          "type": "malware",
+          "value": "Tonnerre"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "querylist.online",
+      "confidence": "high",
+      "reason": "Domain used to download files from a C2 server",
+      "first_seen": "2026-10-23T07:30:31.639609+00:00",
+      "last_seen": "2026-10-23T07:30:31.639609+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.safebreach.com",
+          "url": "https://www.safebreach.com/blog/prince-of-persia-part-ii",
+          "pub_date": "2026-10-23T07:30:31.639609+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2025-8088"
+        },
+        {
+          "type": "malware",
+          "value": "Foudre"
+        },
+        {
+          "type": "malware",
+          "value": "StormKitty"
+        },
+        {
+          "type": "malware",
+          "value": "Tonnerre"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "skttxrdwucbw.conningstone.net",
+      "confidence": "high",
+      "reason": "Domain used as a C2 server by the threat actor",
+      "first_seen": "2026-10-23T07:30:31.639609+00:00",
+      "last_seen": "2026-10-23T07:30:31.639609+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.safebreach.com",
+          "url": "https://www.safebreach.com/blog/prince-of-persia-part-ii",
+          "pub_date": "2026-10-23T07:30:31.639609+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2025-8088"
+        },
+        {
+          "type": "malware",
+          "value": "Foudre"
+        },
+        {
+          "type": "malware",
+          "value": "StormKitty"
+        },
+        {
+          "type": "malware",
+          "value": "Tonnerre"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "skttxrdwucbw.hbmc.net",
+      "confidence": "high",
+      "reason": "Domain used as a C2 server by the threat actor",
+      "first_seen": "2026-10-23T07:30:31.639609+00:00",
+      "last_seen": "2026-10-23T07:30:31.639609+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.safebreach.com",
+          "url": "https://www.safebreach.com/blog/prince-of-persia-part-ii",
+          "pub_date": "2026-10-23T07:30:31.639609+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2025-8088"
+        },
+        {
+          "type": "malware",
+          "value": "Foudre"
+        },
+        {
+          "type": "malware",
+          "value": "StormKitty"
+        },
+        {
+          "type": "malware",
+          "value": "Tonnerre"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "szzqwggurg.conningstone.net",
+      "confidence": "high",
+      "reason": "Domain used as a C2 server by the threat actor",
+      "first_seen": "2026-10-23T07:30:31.639609+00:00",
+      "last_seen": "2026-10-23T07:30:31.639609+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.safebreach.com",
+          "url": "https://www.safebreach.com/blog/prince-of-persia-part-ii",
+          "pub_date": "2026-10-23T07:30:31.639609+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2025-8088"
+        },
+        {
+          "type": "malware",
+          "value": "Foudre"
+        },
+        {
+          "type": "malware",
+          "value": "StormKitty"
+        },
+        {
+          "type": "malware",
+          "value": "Tonnerre"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "szzqwggurg.hbmc.net",
+      "confidence": "high",
+      "reason": "Domain used as a C2 server by the threat actor",
+      "first_seen": "2026-10-23T07:30:31.639609+00:00",
+      "last_seen": "2026-10-23T07:30:31.639609+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.safebreach.com",
+          "url": "https://www.safebreach.com/blog/prince-of-persia-part-ii",
+          "pub_date": "2026-10-23T07:30:31.639609+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2025-8088"
+        },
+        {
+          "type": "malware",
+          "value": "Foudre"
+        },
+        {
+          "type": "malware",
+          "value": "StormKitty"
+        },
+        {
+          "type": "malware",
+          "value": "Tonnerre"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "t13.ddnsking.com",
+      "confidence": "high",
+      "reason": "Domain registered and used as a C2 server by the threat actor",
+      "first_seen": "2026-10-23T07:30:31.639609+00:00",
+      "last_seen": "2026-10-23T07:30:31.639609+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.safebreach.com",
+          "url": "https://www.safebreach.com/blog/prince-of-persia-part-ii",
+          "pub_date": "2026-10-23T07:30:31.639609+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2025-8088"
+        },
+        {
+          "type": "malware",
+          "value": "Foudre"
+        },
+        {
+          "type": "malware",
+          "value": "StormKitty"
+        },
+        {
+          "type": "malware",
+          "value": "Tonnerre"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "tegfxbnk.site",
+      "confidence": "high",
+      "reason": "Domain resolved to a C2 server used by the threat actor",
+      "first_seen": "2026-10-23T07:30:31.639609+00:00",
+      "last_seen": "2026-10-23T07:30:31.639609+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.safebreach.com",
+          "url": "https://www.safebreach.com/blog/prince-of-persia-part-ii",
+          "pub_date": "2026-10-23T07:30:31.639609+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2025-8088"
+        },
+        {
+          "type": "malware",
+          "value": "Foudre"
+        },
+        {
+          "type": "malware",
+          "value": "StormKitty"
+        },
+        {
+          "type": "malware",
+          "value": "Tonnerre"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "ttdl3.dynu.net",
+      "confidence": "high",
+      "reason": "Domain resolved to a C2 server used by the threat actor",
+      "first_seen": "2026-10-23T07:30:31.639609+00:00",
+      "last_seen": "2026-10-23T07:30:31.639609+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.safebreach.com",
+          "url": "https://www.safebreach.com/blog/prince-of-persia-part-ii",
+          "pub_date": "2026-10-23T07:30:31.639609+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2025-8088"
+        },
+        {
+          "type": "malware",
+          "value": "Foudre"
+        },
+        {
+          "type": "malware",
+          "value": "StormKitty"
+        },
+        {
+          "type": "malware",
+          "value": "Tonnerre"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "uiavuflyjqodj.conningstone.net",
+      "confidence": "high",
+      "reason": "Domain used as a C2 server by the threat actor",
+      "first_seen": "2026-10-23T07:30:31.639609+00:00",
+      "last_seen": "2026-10-23T07:30:31.639609+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.safebreach.com",
+          "url": "https://www.safebreach.com/blog/prince-of-persia-part-ii",
+          "pub_date": "2026-10-23T07:30:31.639609+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2025-8088"
+        },
+        {
+          "type": "malware",
+          "value": "Foudre"
+        },
+        {
+          "type": "malware",
+          "value": "StormKitty"
+        },
+        {
+          "type": "malware",
+          "value": "Tonnerre"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "uiavuflyjqodj.hbmc.net",
+      "confidence": "high",
+      "reason": "Domain used as a C2 server by the threat actor",
+      "first_seen": "2026-10-23T07:30:31.639609+00:00",
+      "last_seen": "2026-10-23T07:30:31.639609+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.safebreach.com",
+          "url": "https://www.safebreach.com/blog/prince-of-persia-part-ii",
+          "pub_date": "2026-10-23T07:30:31.639609+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2025-8088"
+        },
+        {
+          "type": "malware",
+          "value": "Foudre"
+        },
+        {
+          "type": "malware",
+          "value": "StormKitty"
+        },
+        {
+          "type": "malware",
+          "value": "Tonnerre"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "vssmqppaup.conningstone.net",
+      "confidence": "high",
+      "reason": "Domain used as a C2 server by the threat actor",
+      "first_seen": "2026-10-23T07:30:31.639609+00:00",
+      "last_seen": "2026-10-23T07:30:31.639609+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.safebreach.com",
+          "url": "https://www.safebreach.com/blog/prince-of-persia-part-ii",
+          "pub_date": "2026-10-23T07:30:31.639609+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2025-8088"
+        },
+        {
+          "type": "malware",
+          "value": "Foudre"
+        },
+        {
+          "type": "malware",
+          "value": "StormKitty"
+        },
+        {
+          "type": "malware",
+          "value": "Tonnerre"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "vssmqppaup.hbmc.net",
+      "confidence": "high",
+      "reason": "Domain used as a C2 server by the threat actor",
+      "first_seen": "2026-10-23T07:30:31.639609+00:00",
+      "last_seen": "2026-10-23T07:30:31.639609+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.safebreach.com",
+          "url": "https://www.safebreach.com/blog/prince-of-persia-part-ii",
+          "pub_date": "2026-10-23T07:30:31.639609+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2025-8088"
+        },
+        {
+          "type": "malware",
+          "value": "Foudre"
+        },
+        {
+          "type": "malware",
+          "value": "StormKitty"
+        },
+        {
+          "type": "malware",
+          "value": "Tonnerre"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "vtykvjbmhkpah.hbmc.net",
+      "confidence": "high",
+      "reason": "Domain used as a C2 server by the threat actor",
+      "first_seen": "2026-10-23T07:30:31.639609+00:00",
+      "last_seen": "2026-10-23T07:30:31.639609+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.safebreach.com",
+          "url": "https://www.safebreach.com/blog/prince-of-persia-part-ii",
+          "pub_date": "2026-10-23T07:30:31.639609+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2025-8088"
+        },
+        {
+          "type": "malware",
+          "value": "Foudre"
+        },
+        {
+          "type": "malware",
+          "value": "StormKitty"
+        },
+        {
+          "type": "malware",
+          "value": "Tonnerre"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "191.101.130.244",
+      "confidence": "high",
+      "reason": "IP used as an RDP server by the attacker",
+      "first_seen": "2026-10-23T07:30:31.639609+00:00",
+      "last_seen": "2026-10-23T07:30:31.639609+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.safebreach.com",
+          "url": "https://www.safebreach.com/blog/prince-of-persia-part-ii",
+          "pub_date": "2026-10-23T07:30:31.639609+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2025-8088"
+        },
+        {
+          "type": "malware",
+          "value": "Foudre"
+        },
+        {
+          "type": "malware",
+          "value": "StormKitty"
+        },
+        {
+          "type": "malware",
+          "value": "Tonnerre"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "45.80.148.195",
+      "confidence": "high",
+      "reason": "IP used as a C2 server by the threat actor",
+      "first_seen": "2026-10-23T07:30:31.639609+00:00",
+      "last_seen": "2026-10-23T07:30:31.639609+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.safebreach.com",
+          "url": "https://www.safebreach.com/blog/prince-of-persia-part-ii",
+          "pub_date": "2026-10-23T07:30:31.639609+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2025-8088"
+        },
+        {
+          "type": "malware",
+          "value": "Foudre"
+        },
+        {
+          "type": "malware",
+          "value": "StormKitty"
+        },
+        {
+          "type": "malware",
+          "value": "Tonnerre"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "45.80.148.249",
+      "confidence": "high",
+      "reason": "IP used as a C2 server by the threat actor",
+      "first_seen": "2026-10-23T07:30:31.639609+00:00",
+      "last_seen": "2026-10-23T07:30:31.639609+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.safebreach.com",
+          "url": "https://www.safebreach.com/blog/prince-of-persia-part-ii",
+          "pub_date": "2026-10-23T07:30:31.639609+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2025-8088"
+        },
+        {
+          "type": "malware",
+          "value": "Foudre"
+        },
+        {
+          "type": "malware",
+          "value": "StormKitty"
+        },
+        {
+          "type": "malware",
+          "value": "Tonnerre"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "45.80.149.100",
+      "confidence": "high",
+      "reason": "IP used as a C2 server by the threat actor",
+      "first_seen": "2026-10-23T07:30:31.639609+00:00",
+      "last_seen": "2026-10-23T07:30:31.639609+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.safebreach.com",
+          "url": "https://www.safebreach.com/blog/prince-of-persia-part-ii",
+          "pub_date": "2026-10-23T07:30:31.639609+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2025-8088"
+        },
+        {
+          "type": "malware",
+          "value": "Foudre"
+        },
+        {
+          "type": "malware",
+          "value": "StormKitty"
+        },
+        {
+          "type": "malware",
+          "value": "Tonnerre"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "45.80.149.3",
+      "confidence": "high",
+      "reason": "IP used as a C2 server by the threat actor",
+      "first_seen": "2026-10-23T07:30:31.639609+00:00",
+      "last_seen": "2026-10-23T07:30:31.639609+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.safebreach.com",
+          "url": "https://www.safebreach.com/blog/prince-of-persia-part-ii",
+          "pub_date": "2026-10-23T07:30:31.639609+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2025-8088"
+        },
+        {
+          "type": "malware",
+          "value": "Foudre"
+        },
+        {
+          "type": "malware",
+          "value": "StormKitty"
+        },
+        {
+          "type": "malware",
+          "value": "Tonnerre"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "breachforums.st",
+      "confidence": "high",
+      "reason": "Described as a domain controlled by attackers to redirect users",
+      "first_seen": "2026-10-09T17:01:55.081127+00:00",
+      "last_seen": "2026-10-23T03:31:16.070149+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "techcrunch.com",
+          "url": "https://techcrunch.com/2024/05/15/fbi-seizes-hacking-forum-breachforums-again/",
+          "pub_date": "2026-10-23T03:31:16.070149+00:00"
+        },
+        {
+          "source": "www.sekoia.com",
+          "url": "https://www.sekoia.com/blog/gotta-breach-em-all-the-journey-of-shinyhunters",
+          "pub_date": "2026-10-09T17:01:55.081127+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2026-35273"
+        },
+        {
+          "type": "industry",
+          "value": "Education"
+        },
+        {
+          "type": "industry",
+          "value": "Financial"
+        },
+        {
+          "type": "industry",
+          "value": "Healthcare"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "38.54.50.151",
+      "confidence": "high",
+      "reason": "IP address linked to ongoing exploitation attempts",
+      "first_seen": "2026-10-22T17:18:22+00:00",
+      "last_seen": "2026-10-22T23:44:11+00:00",
+      "source_count": 4,
+      "sources": [
+        {
+          "source": "Scworld",
+          "url": "https://www.scworld.com/brief/arista-networks-patches-actively-exploited-zero-day-vulnerability-in-velocloud-orchestrator",
+          "pub_date": "2026-10-22T23:44:11+00:00"
+        },
+        {
+          "source": "X",
+          "url": "https://x.com/DailyDarkWeb/status/2113365371248144517",
+          "pub_date": "2026-10-22T20:54:14+00:00"
+        },
+        {
+          "source": "Mezha",
+          "url": "https://mezha.net/eng/news/mezha-aaf566c15f04cb1c53d35e47_arista_patches_actively/",
+          "pub_date": "2026-10-22T17:55:22+00:00"
+        },
+        {
+          "source": "Bleepingcomputer",
+          "url": "https://www.bleepingcomputer.com/news/security/arista-patches-new-velocloud-orchestrator-zero-day-exploited-in-attacks/",
+          "pub_date": "2026-10-22T17:18:22+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2026-114625"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-16812"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-7473"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-93952"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "bnt2.live",
+      "confidence": "high",
+      "reason": "Described as an actor-controlled URL shortener used for credential harvesting",
+      "first_seen": "2026-10-22T19:36:42.065904+00:00",
+      "last_seen": "2026-10-22T19:36:42.065904+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.proofpoint.com",
+          "url": "https://www.proofpoint.com/us/blog/threat-insight/ta453-refuses-be-bound-expectations",
+          "pub_date": "2026-10-22T19:36:42.065904+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "APT42"
+        },
+        {
+          "type": "apt_group",
+          "value": "Charming Kitten"
+        },
+        {
+          "type": "apt_group",
+          "value": "Phosphorus"
+        },
+        {
+          "type": "apt_group",
+          "value": "TA453"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "gettogether.quest",
+      "confidence": "high",
+      "reason": "Used in a TA453 campaign to deliver threatening messages",
+      "first_seen": "2026-10-22T19:36:42.065904+00:00",
+      "last_seen": "2026-10-22T19:36:42.065904+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.proofpoint.com",
+          "url": "https://www.proofpoint.com/us/blog/threat-insight/ta453-refuses-be-bound-expectations",
+          "pub_date": "2026-10-22T19:36:42.065904+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "APT42"
+        },
+        {
+          "type": "apt_group",
+          "value": "Charming Kitten"
+        },
+        {
+          "type": "apt_group",
+          "value": "Phosphorus"
+        },
+        {
+          "type": "apt_group",
+          "value": "TA453"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "nco2.live",
+      "confidence": "high",
+      "reason": "Described as an actor-controlled URL shortener used for credential harvesting",
+      "first_seen": "2026-10-22T19:36:42.065904+00:00",
+      "last_seen": "2026-10-22T19:36:42.065904+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.proofpoint.com",
+          "url": "https://www.proofpoint.com/us/blog/threat-insight/ta453-refuses-be-bound-expectations",
+          "pub_date": "2026-10-22T19:36:42.065904+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "APT42"
+        },
+        {
+          "type": "apt_group",
+          "value": "Charming Kitten"
+        },
+        {
+          "type": "apt_group",
+          "value": "Phosphorus"
+        },
+        {
+          "type": "apt_group",
+          "value": "TA453"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "office-updates.info",
+      "confidence": "high",
+      "reason": "Used to download malicious templates in a TA453 campaign",
+      "first_seen": "2026-10-22T19:36:42.065904+00:00",
+      "last_seen": "2026-10-22T19:36:42.065904+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.proofpoint.com",
+          "url": "https://www.proofpoint.com/us/blog/threat-insight/ta453-refuses-be-bound-expectations",
+          "pub_date": "2026-10-22T19:36:42.065904+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "APT42"
+        },
+        {
+          "type": "apt_group",
+          "value": "Charming Kitten"
+        },
+        {
+          "type": "apt_group",
+          "value": "Phosphorus"
+        },
+        {
+          "type": "apt_group",
+          "value": "TA453"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "profilepic.site",
+      "confidence": "high",
+      "reason": "Attributed to TA453 based on registration similarities",
+      "first_seen": "2026-10-22T19:36:42.065904+00:00",
+      "last_seen": "2026-10-22T19:36:42.065904+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.proofpoint.com",
+          "url": "https://www.proofpoint.com/us/blog/threat-insight/ta453-refuses-be-bound-expectations",
+          "pub_date": "2026-10-22T19:36:42.065904+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "APT42"
+        },
+        {
+          "type": "apt_group",
+          "value": "Charming Kitten"
+        },
+        {
+          "type": "apt_group",
+          "value": "Phosphorus"
+        },
+        {
+          "type": "apt_group",
+          "value": "TA453"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "66.29.153.90",
+      "confidence": "high",
+      "reason": "Resolved to by attacker-controlled domain gettogether.quest",
+      "first_seen": "2026-10-22T19:36:42.065904+00:00",
+      "last_seen": "2026-10-22T19:36:42.065904+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.proofpoint.com",
+          "url": "https://www.proofpoint.com/us/blog/threat-insight/ta453-refuses-be-bound-expectations",
+          "pub_date": "2026-10-22T19:36:42.065904+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "APT42"
+        },
+        {
+          "type": "apt_group",
+          "value": "Charming Kitten"
+        },
+        {
+          "type": "apt_group",
+          "value": "Phosphorus"
+        },
+        {
+          "type": "apt_group",
+          "value": "TA453"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "92.118.112.100",
+      "confidence": "high",
+      "reason": "IP address associated with attacker-controlled scanning and exploitation attempts",
+      "first_seen": "2026-10-22T11:32:08.829801+00:00",
+      "last_seen": "2026-10-22T18:45:20+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "Arcticwolf",
+          "url": "https://arcticwolf.com/resources/blog/php2shell-critical-php-vulnerabilities-enable-unauthenticated-remote-code-execution/",
+          "pub_date": "2026-10-22T18:45:20+00:00"
+        },
+        {
+          "source": "ellio.tech",
+          "url": "https://ellio.tech/en/blog/php2shell-what-we-observed-and-what-to-do/",
+          "pub_date": "2026-10-22T11:32:08.829801+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2026-109618"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-109619"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2025-55182"
+        },
+        {
+          "type": "malware",
+          "value": "Mirai"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "91.231.182.187",
+      "confidence": "high",
+      "reason": "C&C server in payloads downloaded by PteroPaste",
+      "first_seen": "2026-10-22T18:31:10.890874+00:00",
+      "last_seen": "2026-10-22T18:31:10.890874+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.welivesecurity.com",
+          "url": "https://www.welivesecurity.com/en/eset-research/gamaredon-x-turla-collab/",
+          "pub_date": "2026-10-22T18:31:10.890874+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Gamaredon"
+        },
+        {
+          "type": "apt_group",
+          "value": "InvisiMole"
+        },
+        {
+          "type": "apt_group",
+          "value": "Turla"
+        },
+        {
+          "type": "campaign",
+          "value": "SpiceyHoney"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "210.242.76.32",
+      "confidence": "high",
+      "reason": "Listed as an IP used in exploitation attempts.",
+      "first_seen": "2026-10-22T17:49:54+00:00",
+      "last_seen": "2026-10-22T17:49:54+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Thehackernews",
+          "url": "https://thehackernews.com/2026/10/threatsday-ai-secrets-leak-pingcap.html",
+          "pub_date": "2026-10-22T17:49:54+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "ipv4",
+      "value": "211.20.144.116",
+      "confidence": "high",
+      "reason": "Listed as an IP used in exploitation attempts.",
+      "first_seen": "2026-10-22T17:49:54+00:00",
+      "last_seen": "2026-10-22T17:49:54+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Thehackernews",
+          "url": "https://thehackernews.com/2026/10/threatsday-ai-secrets-leak-pingcap.html",
+          "pub_date": "2026-10-22T17:49:54+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "nulled.it",
+      "confidence": "high",
+      "reason": "Domain associated with a cybercrime forum operated by attackers",
+      "first_seen": "2026-10-22T15:01:04.253606+00:00",
+      "last_seen": "2026-10-22T15:01:04.253606+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "krebsonsecurity.com",
+          "url": "https://krebsonsecurity.com/2025/02/whos-behind-the-seized-forums-cracked-nulled/",
+          "pub_date": "2026-10-22T15:01:04.253606+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Operation Talent"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "nulled.lol",
+      "confidence": "high",
+      "reason": "Domain associated with a cybercrime forum operated by attackers",
+      "first_seen": "2026-10-22T15:01:04.253606+00:00",
+      "last_seen": "2026-10-22T15:01:04.253606+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "krebsonsecurity.com",
+          "url": "https://krebsonsecurity.com/2025/02/whos-behind-the-seized-forums-cracked-nulled/",
+          "pub_date": "2026-10-22T15:01:04.253606+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Operation Talent"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "starkrdp.io",
+      "confidence": "high",
+      "reason": "Domain used for anonymity services advertised on cybercrime forums",
+      "first_seen": "2026-10-22T15:01:04.253606+00:00",
+      "last_seen": "2026-10-22T15:01:04.253606+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "krebsonsecurity.com",
+          "url": "https://krebsonsecurity.com/2025/02/whos-behind-the-seized-forums-cracked-nulled/",
+          "pub_date": "2026-10-22T15:01:04.253606+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Operation Talent"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "my-github.com",
+      "confidence": "high",
+      "reason": "Domain used in phishing campaign as a GitHub-themed lookalike",
+      "first_seen": "2026-10-19T13:09:39+00:00",
+      "last_seen": "2026-10-22T14:08:12+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "News.Ycombinator",
+          "url": "https://pwn.watch/",
+          "pub_date": "2026-10-22T14:08:12+00:00"
+        },
+        {
+          "source": "Thehackernews",
+          "url": "https://thehackernews.com/2026/10/ghostaction-attackers-plant-credential.html",
+          "pub_date": "2026-10-19T13:09:39+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2025-61624"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-0322"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-102489"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-102490"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "193.32.204.199",
+      "confidence": "high",
+      "reason": "IP address used for exfiltrating data in a malicious campaign",
+      "first_seen": "2026-10-07T13:03:38+00:00",
+      "last_seen": "2026-10-22T14:08:12+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "News.Ycombinator",
+          "url": "https://pwn.watch/",
+          "pub_date": "2026-10-22T14:08:12+00:00"
+        },
+        {
+          "source": "Blog.Gitguardian",
+          "url": "https://blog.gitguardian.com/ghostaction-github-actions-supply-chain-attack-returns/",
+          "pub_date": "2026-10-07T13:03:38+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2025-61624"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-0322"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-102489"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-102490"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "oskeysetup.com",
+      "confidence": "high",
+      "reason": "Domain used for phishing and adversary-in-the-middle attacks",
+      "first_seen": "2026-10-22T14:02:12+00:00",
+      "last_seen": "2026-10-22T14:02:12+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Bleepingcomputer",
+          "url": "https://www.bleepingcomputer.com/news/security/machine-speed-attacks-require-machine-speed-detection-and-response/",
+          "pub_date": "2026-10-22T14:02:12+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "fegrs.adidasabc.com",
+      "confidence": "high",
+      "reason": "Domain used as C2 endpoint in a malware operation",
+      "first_seen": "2026-10-22T13:53:58+00:00",
+      "last_seen": "2026-10-22T13:53:58+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Zimperium",
+          "url": "https://zimperium.com/blog/beyond-the-sandbox-leveraging-android-intrusion-logs-to-expose-advanced-threats",
+          "pub_date": "2026-10-22T13:53:58+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "ipv4",
+      "value": "185.238.2.195",
+      "confidence": "high",
+      "reason": "Listed as an AiTM relay used by attackers.",
+      "first_seen": "2026-10-22T13:04:01+00:00",
+      "last_seen": "2026-10-22T13:04:01+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Huntress",
+          "url": "https://www.huntress.com/blog/token-replay-spray",
+          "pub_date": "2026-10-22T13:04:01+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "ipv4",
+      "value": "192.159.99.172",
+      "confidence": "high",
+      "reason": "Listed as a 1337 Services address used in attacks.",
+      "first_seen": "2026-10-22T13:04:01+00:00",
+      "last_seen": "2026-10-22T13:04:01+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Huntress",
+          "url": "https://www.huntress.com/blog/token-replay-spray",
+          "pub_date": "2026-10-22T13:04:01+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "ipv4",
+      "value": "45.83.31.44",
+      "confidence": "high",
+      "reason": "Listed as a 1337 Services address used in attacks.",
+      "first_seen": "2026-10-22T13:04:01+00:00",
+      "last_seen": "2026-10-22T13:04:01+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Huntress",
+          "url": "https://www.huntress.com/blog/token-replay-spray",
+          "pub_date": "2026-10-22T13:04:01+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "ipv4",
+      "value": "193.148.56.97",
+      "confidence": "high",
+      "reason": "Listed as a C2 address used by Stadia malware.",
+      "first_seen": "2026-10-22T13:00:02+00:00",
+      "last_seen": "2026-10-22T13:00:02+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Varonis",
+          "url": "https://www.varonis.com/blog/stealc-returns",
+          "pub_date": "2026-10-22T13:00:02+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "ipv4",
+      "value": "91.92.43.45",
+      "confidence": "high",
+      "reason": "Listed as a C2 address used by Stadia malware.",
+      "first_seen": "2026-10-22T13:00:02+00:00",
+      "last_seen": "2026-10-22T13:00:02+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Varonis",
+          "url": "https://www.varonis.com/blog/stealc-returns",
+          "pub_date": "2026-10-22T13:00:02+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "ipv4",
+      "value": "93.152.213.215",
+      "confidence": "high",
+      "reason": "Listed as a C2 address used by Stadia malware.",
+      "first_seen": "2026-10-22T13:00:02+00:00",
+      "last_seen": "2026-10-22T13:00:02+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Varonis",
+          "url": "https://www.varonis.com/blog/stealc-returns",
+          "pub_date": "2026-10-22T13:00:02+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "mosaichealthsolutions.com",
+      "confidence": "high",
+      "reason": "Described as an attacker-controlled domain for credential harvesting",
+      "first_seen": "2026-10-22T12:59:53+00:00",
+      "last_seen": "2026-10-22T12:59:53+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Esecurityplanet",
+          "url": "https://www.esecurityplanet.com/fr/threats/iranian-cyber-espionage-proofpoint-uncovers-unk_smudgedserpent/",
+          "pub_date": "2026-10-22T12:59:53+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Charming Kitten"
+        },
+        {
+          "type": "apt_group",
+          "value": "MuddyWater"
+        },
+        {
+          "type": "apt_group",
+          "value": "Smoke Sandstorm"
+        },
+        {
+          "type": "campaign",
+          "value": "UNK_SmudgedSerpent"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "thebesthomehealth.com",
+      "confidence": "high",
+      "reason": "Described as an attacker-controlled domain for credential harvesting",
+      "first_seen": "2026-10-22T12:59:53+00:00",
+      "last_seen": "2026-10-22T12:59:53+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Esecurityplanet",
+          "url": "https://www.esecurityplanet.com/fr/threats/iranian-cyber-espionage-proofpoint-uncovers-unk_smudgedserpent/",
+          "pub_date": "2026-10-22T12:59:53+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Charming Kitten"
+        },
+        {
+          "type": "apt_group",
+          "value": "MuddyWater"
+        },
+        {
+          "type": "apt_group",
+          "value": "Smoke Sandstorm"
+        },
+        {
+          "type": "campaign",
+          "value": "UNK_SmudgedSerpent"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "godofthunder.st",
+      "confidence": "high",
+      "reason": "Listed as a command and control domain",
+      "first_seen": "2026-10-22T11:32:08.829801+00:00",
+      "last_seen": "2026-10-22T11:32:08.829801+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "ellio.tech",
+          "url": "https://ellio.tech/en/blog/php2shell-what-we-observed-and-what-to-do/",
+          "pub_date": "2026-10-22T11:32:08.829801+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2025-55182"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-109618"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-109619"
+        },
+        {
+          "type": "malware",
+          "value": "Mirai"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "hackattackkaboom.botlesscucks.st",
+      "confidence": "high",
+      "reason": "Used as a staging host for second-stage payloads",
+      "first_seen": "2026-10-22T11:32:08.829801+00:00",
+      "last_seen": "2026-10-22T11:32:08.829801+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "ellio.tech",
+          "url": "https://ellio.tech/en/blog/php2shell-what-we-observed-and-what-to-do/",
+          "pub_date": "2026-10-22T11:32:08.829801+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2025-55182"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-109618"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-109619"
+        },
+        {
+          "type": "malware",
+          "value": "Mirai"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "hik.gettingheadfromduckysmom.st",
+      "confidence": "high",
+      "reason": "Listed in the configuration as part of attacker infrastructure",
+      "first_seen": "2026-10-22T11:32:08.829801+00:00",
+      "last_seen": "2026-10-22T11:32:08.829801+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "ellio.tech",
+          "url": "https://ellio.tech/en/blog/php2shell-what-we-observed-and-what-to-do/",
+          "pub_date": "2026-10-22T11:32:08.829801+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2025-55182"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-109618"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-109619"
+        },
+        {
+          "type": "malware",
+          "value": "Mirai"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "rootkit.net.cn",
+      "confidence": "high",
+      "reason": "Associated with a web shell used by attackers",
+      "first_seen": "2026-10-22T11:32:08.829801+00:00",
+      "last_seen": "2026-10-22T11:32:08.829801+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "ellio.tech",
+          "url": "https://ellio.tech/en/blog/php2shell-what-we-observed-and-what-to-do/",
+          "pub_date": "2026-10-22T11:32:08.829801+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2025-55182"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-109618"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-109619"
+        },
+        {
+          "type": "malware",
+          "value": "Mirai"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "thunder.godofthunder.st",
+      "confidence": "high",
+      "reason": "Listed as a command and control domain",
+      "first_seen": "2026-10-22T11:32:08.829801+00:00",
+      "last_seen": "2026-10-22T11:32:08.829801+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "ellio.tech",
+          "url": "https://ellio.tech/en/blog/php2shell-what-we-observed-and-what-to-do/",
+          "pub_date": "2026-10-22T11:32:08.829801+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2025-55182"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-109618"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-109619"
+        },
+        {
+          "type": "malware",
+          "value": "Mirai"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "z-cg.com",
+      "confidence": "high",
+      "reason": "Associated with a web shell used by attackers",
+      "first_seen": "2026-10-22T11:32:08.829801+00:00",
+      "last_seen": "2026-10-22T11:32:08.829801+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "ellio.tech",
+          "url": "https://ellio.tech/en/blog/php2shell-what-we-observed-and-what-to-do/",
+          "pub_date": "2026-10-22T11:32:08.829801+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2025-55182"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-109618"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-109619"
+        },
+        {
+          "type": "malware",
+          "value": "Mirai"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "117.55.202.115",
+      "confidence": "high",
+      "reason": "Used as a staging host for second-stage payloads",
+      "first_seen": "2026-10-22T11:32:08.829801+00:00",
+      "last_seen": "2026-10-22T11:32:08.829801+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "ellio.tech",
+          "url": "https://ellio.tech/en/blog/php2shell-what-we-observed-and-what-to-do/",
+          "pub_date": "2026-10-22T11:32:08.829801+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2025-55182"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-109618"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-109619"
+        },
+        {
+          "type": "malware",
+          "value": "Mirai"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "134.154.64.199",
+      "confidence": "high",
+      "reason": "Derived command and control address",
+      "first_seen": "2026-10-22T11:32:08.829801+00:00",
+      "last_seen": "2026-10-22T11:32:08.829801+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "ellio.tech",
+          "url": "https://ellio.tech/en/blog/php2shell-what-we-observed-and-what-to-do/",
+          "pub_date": "2026-10-22T11:32:08.829801+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2025-55182"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-109618"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-109619"
+        },
+        {
+          "type": "malware",
+          "value": "Mirai"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "150.251.112.208",
+      "confidence": "high",
+      "reason": "Listed as a C2 server in the binary",
+      "first_seen": "2026-10-22T11:32:08.829801+00:00",
+      "last_seen": "2026-10-22T11:32:08.829801+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "ellio.tech",
+          "url": "https://ellio.tech/en/blog/php2shell-what-we-observed-and-what-to-do/",
+          "pub_date": "2026-10-22T11:32:08.829801+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2025-55182"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-109618"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-109619"
+        },
+        {
+          "type": "malware",
+          "value": "Mirai"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "185.5.70.233",
+      "confidence": "high",
+      "reason": "Used in conjunction with attacker infrastructure",
+      "first_seen": "2026-10-22T11:32:08.829801+00:00",
+      "last_seen": "2026-10-22T11:32:08.829801+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "ellio.tech",
+          "url": "https://ellio.tech/en/blog/php2shell-what-we-observed-and-what-to-do/",
+          "pub_date": "2026-10-22T11:32:08.829801+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2025-55182"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-109618"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-109619"
+        },
+        {
+          "type": "malware",
+          "value": "Mirai"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "64.199.134.154",
+      "confidence": "high",
+      "reason": "Related to command and control infrastructure",
+      "first_seen": "2026-10-22T11:32:08.829801+00:00",
+      "last_seen": "2026-10-22T11:32:08.829801+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "ellio.tech",
+          "url": "https://ellio.tech/en/blog/php2shell-what-we-observed-and-what-to-do/",
+          "pub_date": "2026-10-22T11:32:08.829801+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2025-55182"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-109618"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-109619"
+        },
+        {
+          "type": "malware",
+          "value": "Mirai"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "211.240.117.200",
+      "confidence": "high",
+      "reason": "Listed as an IP making suspicious requests.",
+      "first_seen": "2026-10-22T11:32:08.326901+00:00",
+      "last_seen": "2026-10-22T11:32:08.326901+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "beelzebub.ai",
+          "url": "https://beelzebub.ai/blog/php2shell-in-the-wild-beelzebub-honeypot",
+          "pub_date": "2026-10-22T11:32:08.326901+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2026-109618"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-109619"
+        },
+        {
+          "type": "malware",
+          "value": "PHP2Shell"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "www.archivetj.com",
+      "confidence": "high",
+      "reason": "Identified as a C2 server used by the malware",
+      "first_seen": "2026-10-22T07:59:42+00:00",
+      "last_seen": "2026-10-22T07:59:42+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Securelist",
+          "url": "https://securelist.com/uefi-bootkit-blackx/121539/",
+          "pub_date": "2026-10-22T07:59:42+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "APT41"
+        },
+        {
+          "type": "malware",
+          "value": "BlackLotus"
+        },
+        {
+          "type": "malware",
+          "value": "BlackX"
+        },
+        {
+          "type": "malware",
+          "value": "OxiDLLRunner"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "aaa-emudhra.we-have-a-problem.com",
+      "confidence": "high",
+      "reason": "Domain used for testing certificate validation.",
+      "first_seen": "2026-10-22T00:00:00+00:00",
+      "last_seen": "2026-10-22T00:00:00+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Safedep",
+          "url": "https://safedep.io/emudhra-ca-key-compromise",
+          "pub_date": "2026-10-22T00:00:00+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "aiarmor.website",
+      "confidence": "high",
+      "reason": "Listed as a fallback endpoint for data exfiltration.",
+      "first_seen": "2026-10-22T00:00:00+00:00",
+      "last_seen": "2026-10-22T00:00:00+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Safedep",
+          "url": "https://safedep.io/testmetest-npm-worm-miasma-variant",
+          "pub_date": "2026-10-22T00:00:00+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
       "value": "www.litellm.dev",
       "confidence": "high",
-      "reason": "Listed as an exfiltration endpoint controlled by attackers",
+      "reason": "Listed as an exfiltration endpoint and attacker-controlled domain",
       "first_seen": "2026-10-21T13:41:48.036000+00:00",
       "last_seen": "2026-10-21T23:16:31+00:00",
       "source_count": 2,
@@ -85,6 +2329,23 @@
           "source": "Rescana",
           "url": "https://www.rescana.com/post/litellm-1-107-0-supply-chain-compromise-october-2026",
           "pub_date": "2026-10-21T23:16:31+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "ytstvmovies.xyz",
+      "confidence": "high",
+      "reason": "Domain used for distributing pirated content and potentially malicious ads",
+      "first_seen": "2026-10-21T20:25:59+00:00",
+      "last_seen": "2026-10-21T20:25:59+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "News.Trendmicro",
+          "url": "https://trendlife.com/en-us/blog/2026/10/21/searching-for-free-movie-downloads-could-put-your-security-at-risk",
+          "pub_date": "2026-10-21T20:25:59+00:00"
         }
       ],
       "tags": []
@@ -2638,23 +4899,6 @@
           "value": "Atomic Stealer"
         }
       ]
-    },
-    {
-      "type": "domain",
-      "value": "my-github.com",
-      "confidence": "high",
-      "reason": "Registered by the threat actor for phishing and data exfiltration.",
-      "first_seen": "2026-10-19T13:09:39+00:00",
-      "last_seen": "2026-10-19T13:09:39+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Thehackernews",
-          "url": "https://thehackernews.com/2026/10/ghostaction-attackers-plant-credential.html",
-          "pub_date": "2026-10-19T13:09:39+00:00"
-        }
-      ],
-      "tags": []
     },
     {
       "type": "domain",
@@ -8832,40 +11076,6 @@
       "value": "breachforums.hn",
       "confidence": "high",
       "reason": "Described as a freshly registered domain used for disinformation by attackers",
-      "first_seen": "2026-10-09T17:01:55.081127+00:00",
-      "last_seen": "2026-10-09T17:01:55.081127+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.sekoia.com",
-          "url": "https://www.sekoia.com/blog/gotta-breach-em-all-the-journey-of-shinyhunters",
-          "pub_date": "2026-10-09T17:01:55.081127+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "cve",
-          "value": "CVE-2026-35273"
-        },
-        {
-          "type": "industry",
-          "value": "Education"
-        },
-        {
-          "type": "industry",
-          "value": "Financial"
-        },
-        {
-          "type": "industry",
-          "value": "Healthcare"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "breachforums.st",
-      "confidence": "high",
-      "reason": "Described as a domain controlled by attackers to redirect users",
       "first_seen": "2026-10-09T17:01:55.081127+00:00",
       "last_seen": "2026-10-09T17:01:55.081127+00:00",
       "source_count": 1,
@@ -15589,23 +17799,6 @@
       "tags": []
     },
     {
-      "type": "ipv4",
-      "value": "193.32.204.199",
-      "confidence": "high",
-      "reason": "Listed as an exfiltration endpoint used by attackers.",
-      "first_seen": "2026-10-07T13:03:38+00:00",
-      "last_seen": "2026-10-07T13:03:38+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Blog.Gitguardian",
-          "url": "https://blog.gitguardian.com/ghostaction-github-actions-supply-chain-attack-returns/",
-          "pub_date": "2026-10-07T13:03:38+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
       "type": "domain",
       "value": "account-sams-club.com",
       "confidence": "high",
@@ -21349,37 +23542,32 @@
       "value": "gocommunity.io",
       "confidence": "high",
       "reason": "Domain used to distribute Go malware via Terraform providers and Go Modules",
-      "first_seen": "2026-09-22T15:17:55+00:00",
+      "first_seen": "2026-09-23T18:07:17+00:00",
       "last_seen": "2026-09-23T18:07:17+00:00",
-      "source_count": 2,
+      "source_count": 1,
       "sources": [
         {
           "source": "Thehackernews",
           "url": "https://thehackernews.com/2026/09/attackers-use-malicious-terraform.html",
           "pub_date": "2026-09-23T18:07:17+00:00"
-        },
-        {
-          "source": "Aikido.Dev",
-          "url": "https://www.aikido.dev/blog/graphalgo-terraform-go-modules",
-          "pub_date": "2026-09-22T15:17:55+00:00"
         }
       ],
       "tags": [
-        {
-          "type": "malware",
-          "value": "Graphalgo"
-        },
         {
           "type": "campaign",
           "value": "Contagious Interview"
         },
         {
           "type": "campaign",
-          "value": "Graphalgo Campaign"
+          "value": "PolinRider"
         },
         {
           "type": "campaign",
-          "value": "PolinRider"
+          "value": "TraderTraitor"
+        },
+        {
+          "type": "malware",
+          "value": "Ghappier"
         }
       ]
     },
@@ -21467,219 +23655,6 @@
         }
       ],
       "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "bnbnhura.top",
-      "confidence": "high",
-      "reason": "Described as a C2 domain used in RemControl campaigns.",
-      "first_seen": "2026-09-23T08:50:25+00:00",
-      "last_seen": "2026-09-23T08:50:25+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Group-Ib",
-          "url": "https://www.group-ib.com/blog/remcontrol-android-banking-trojan/",
-          "pub_date": "2026-09-23T08:50:25+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "definatelynoone.com",
-      "confidence": "high",
-      "reason": "Used for operator panel servers",
-      "first_seen": "2026-09-23T08:50:25+00:00",
-      "last_seen": "2026-09-23T08:50:25+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Group-Ib",
-          "url": "https://www.group-ib.com/blog/remcontrol-android-banking-trojan/",
-          "pub_date": "2026-09-23T08:50:25+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "tvtap-hd.app",
-      "confidence": "high",
-      "reason": "Registered on the same day as a related domain for distributing a dropper, indicating attacker control.",
-      "first_seen": "2026-09-23T08:50:25+00:00",
-      "last_seen": "2026-09-23T08:50:25+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Group-Ib",
-          "url": "https://www.group-ib.com/blog/remcontrol-android-banking-trojan/",
-          "pub_date": "2026-09-23T08:50:25+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "tvtap-liveapp.com",
-      "confidence": "high",
-      "reason": "Registered on the same day as a related domain for distributing a dropper, indicating attacker control.",
-      "first_seen": "2026-09-23T08:50:25+00:00",
-      "last_seen": "2026-09-23T08:50:25+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Group-Ib",
-          "url": "https://www.group-ib.com/blog/remcontrol-android-banking-trojan/",
-          "pub_date": "2026-09-23T08:50:25+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "techroboticslabmade.com",
-      "confidence": "high",
-      "reason": "Listed as Central C2 / MailVault platform",
-      "first_seen": "2026-09-22T23:35:45.683500+00:00",
-      "last_seen": "2026-09-22T23:35:45.683500+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "abnormal.ai",
-          "url": "https://abnormal.ai/blog/eviltokens-oauth-device-codes-bec-operations",
-          "pub_date": "2026-09-22T23:35:45.6835+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "effectivecpmnetwork.com",
-      "confidence": "high",
-      "reason": "Linked to adware tracking",
-      "first_seen": "2026-09-22T22:12:48+00:00",
-      "last_seen": "2026-09-22T22:12:48+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Huntress",
-          "url": "https://www.huntress.com/blog/darkme-rat-abandons-exploits",
-          "pub_date": "2026-09-22T22:12:48+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "EvilNum"
-        },
-        {
-          "type": "apt_group",
-          "value": "Water Hydra"
-        },
-        {
-          "type": "campaign",
-          "value": "Operation DarkCasino"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2023-38831"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "viewdocument.live",
-      "confidence": "high",
-      "reason": "Domain registered and used for serving malicious payloads, indicating attacker control.",
-      "first_seen": "2026-09-22T22:12:48+00:00",
-      "last_seen": "2026-09-22T22:12:48+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Huntress",
-          "url": "https://www.huntress.com/blog/darkme-rat-abandons-exploits",
-          "pub_date": "2026-09-22T22:12:48+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "EvilNum"
-        },
-        {
-          "type": "apt_group",
-          "value": "Water Hydra"
-        },
-        {
-          "type": "campaign",
-          "value": "Operation DarkCasino"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2023-38831"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "goorkan.info",
-      "confidence": "high",
-      "reason": "Domain promoted by hacked traffic sign, linked to a campaign targeting Iranian dissidents, suggesting attacker control.",
-      "first_seen": "2026-09-22T17:02:08.153305+00:00",
-      "last_seen": "2026-09-22T17:02:08.153305+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.aol.com",
-          "url": "https://www.aol.com/articles/iranian-dissidents-claim-chilling-sign-212251000.html",
-          "pub_date": "2026-09-22T17:02:08.153305+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "crownsmark.uk",
-      "confidence": "high",
-      "reason": "Domain used in a scam email, likely attacker-controlled.",
-      "first_seen": "2026-09-22T16:06:06.732366+00:00",
-      "last_seen": "2026-09-22T16:06:06.732366+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.systemscloud.co.uk",
-          "url": "https://www.systemscloud.co.uk/post/the-trademark-scam-email-targeting-uk-business-owners-what-to-look-for",
-          "pub_date": "2026-09-22T16:06:06.732366+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "gogets.dev",
-      "confidence": "high",
-      "reason": "Domain used to distribute Go malware via Go Modules",
-      "first_seen": "2026-09-22T15:17:55+00:00",
-      "last_seen": "2026-09-22T15:17:55+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Aikido.Dev",
-          "url": "https://www.aikido.dev/blog/graphalgo-terraform-go-modules",
-          "pub_date": "2026-09-22T15:17:55+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Graphalgo Campaign"
-        },
-        {
-          "type": "malware",
-          "value": "Graphalgo"
-        }
-      ]
     }
   ],
   "license": "CC-BY 4.0 \u2014 attribute ThreatCluster (https://threatcluster.io)",

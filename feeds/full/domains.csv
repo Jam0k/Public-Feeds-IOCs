@@ -1,6 +1,30 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason
-domain,litellm.dev,high,2026-10-21T17:08:52+00:00,2026-10-21T23:16:31+00:00,4,,Domain used as exfiltration endpoint in attack
-domain,www.litellm.dev,high,2026-10-21T13:41:48.036000+00:00,2026-10-21T23:16:31+00:00,2,,Domain used as exfiltration endpoint in attack
+domain,breachforums.st,high,2026-10-09T17:01:55.081127+00:00,2026-10-23T03:31:16.070149+00:00,2,,Domain used to operate a cybercrime marketplace as described in the article
+domain,bnt2.live,high,2026-10-22T19:36:42.065904+00:00,2026-10-22T19:36:42.065904+00:00,1,,Described as an actor-controlled URL shortener used for credential harvesting
+domain,gettogether.quest,high,2026-10-22T19:36:42.065904+00:00,2026-10-22T19:36:42.065904+00:00,1,,Used in a TA453 campaign to deliver threatening messages
+domain,nco2.live,high,2026-10-22T19:36:42.065904+00:00,2026-10-22T19:36:42.065904+00:00,1,,Described as an actor-controlled URL shortener used for credential harvesting
+domain,office-updates.info,high,2026-10-22T19:36:42.065904+00:00,2026-10-22T19:36:42.065904+00:00,1,,Used to download malicious templates in a TA453 campaign
+domain,profilepic.site,high,2026-10-22T19:36:42.065904+00:00,2026-10-22T19:36:42.065904+00:00,1,,Attributed to TA453 based on registration similarities
+domain,nulled.it,high,2026-10-22T15:01:04.253606+00:00,2026-10-22T15:01:04.253606+00:00,1,,Domain associated with a cybercrime forum operated by attackers
+domain,nulled.lol,high,2026-10-22T15:01:04.253606+00:00,2026-10-22T15:01:04.253606+00:00,1,,Domain associated with a cybercrime forum operated by attackers
+domain,starkrdp.io,high,2026-10-22T15:01:04.253606+00:00,2026-10-22T15:01:04.253606+00:00,1,,Domain used for anonymity services advertised on cybercrime forums
+domain,my-github.com,high,2026-10-19T13:09:39+00:00,2026-10-22T14:08:12+00:00,2,,Domain used in phishing campaign as a GitHub-themed lookalike
+domain,oskeysetup.com,high,2026-10-22T14:02:12+00:00,2026-10-22T14:02:12+00:00,1,,Domain used for phishing and adversary-in-the-middle attacks
+domain,fegrs.adidasabc.com,high,2026-10-22T13:53:58+00:00,2026-10-22T13:53:58+00:00,1,,Domain used as C2 endpoint in a malware operation
+domain,litellm.dev,high,2026-10-21T17:08:52+00:00,2026-10-22T13:10:28+00:00,5,,Listed as an exfiltration endpoint and attacker-controlled domain
+domain,mosaichealthsolutions.com,high,2026-10-22T12:59:53+00:00,2026-10-22T12:59:53+00:00,1,,Described as an attacker-controlled domain for credential harvesting
+domain,thebesthomehealth.com,high,2026-10-22T12:59:53+00:00,2026-10-22T12:59:53+00:00,1,,Described as an attacker-controlled domain for credential harvesting
+domain,godofthunder.st,high,2026-10-22T11:32:08.829801+00:00,2026-10-22T11:32:08.829801+00:00,1,,Listed as a command and control domain
+domain,hackattackkaboom.botlesscucks.st,high,2026-10-22T11:32:08.829801+00:00,2026-10-22T11:32:08.829801+00:00,1,,Used as a staging host for second-stage payloads
+domain,hik.gettingheadfromduckysmom.st,high,2026-10-22T11:32:08.829801+00:00,2026-10-22T11:32:08.829801+00:00,1,,Listed in the configuration as part of attacker infrastructure
+domain,rootkit.net.cn,high,2026-10-22T11:32:08.829801+00:00,2026-10-22T11:32:08.829801+00:00,1,,Associated with a web shell used by attackers
+domain,thunder.godofthunder.st,high,2026-10-22T11:32:08.829801+00:00,2026-10-22T11:32:08.829801+00:00,1,,Listed as a command and control domain
+domain,z-cg.com,high,2026-10-22T11:32:08.829801+00:00,2026-10-22T11:32:08.829801+00:00,1,,Associated with a web shell used by attackers
+domain,www.archivetj.com,high,2026-10-22T07:59:42+00:00,2026-10-22T07:59:42+00:00,1,,Identified as a C2 server used by the malware
+domain,aaa-emudhra.we-have-a-problem.com,high,2026-10-22T00:00:00+00:00,2026-10-22T00:00:00+00:00,1,,Domain used for testing certificate validation.
+domain,aiarmor.website,high,2026-10-22T00:00:00+00:00,2026-10-22T00:00:00+00:00,1,,Listed as a fallback endpoint for data exfiltration.
+domain,www.litellm.dev,high,2026-10-21T13:41:48.036000+00:00,2026-10-21T23:16:31+00:00,2,,Listed as an exfiltration endpoint and attacker-controlled domain
+domain,ytstvmovies.xyz,high,2026-10-21T20:25:59+00:00,2026-10-21T20:25:59+00:00,1,,Domain used for distributing pirated content and potentially malicious ads
 domain,wizardexpensive.com,high,2026-10-19T19:14:50.999217+00:00,2026-10-21T19:01:41.433743+00:00,2,,Domain listed as part of attacker infrastructure to be blocked
 domain,9i6pokerdepot.com,high,2026-09-08T13:01:18.371466+00:00,2026-10-21T16:39:04.731367+00:00,1,,Used as a sending domain in a phishing campaign
 domain,fine-work-team.com,high,2026-07-28T14:25:36+00:00,2026-10-21T15:00:29.781307+00:00,3,,Domain used in a PowerShell command to download and execute a payload
@@ -81,7 +105,6 @@ domain,ehegisnightmare.icu,high,2026-10-19T10:34:26+00:00,2026-10-19T13:35:56.26
 domain,main.router-apex.com,high,2026-10-19T13:35:56.267043+00:00,2026-10-19T13:35:56.267043+00:00,1,,Domain used as a script-download host in malicious infrastructure
 domain,update.apex-arena-router.com,high,2026-10-19T13:35:56.267043+00:00,2026-10-19T13:35:56.267043+00:00,1,,Domain used as a script-download host in malicious infrastructure
 domain,vrf.apexaccs.org,high,2026-10-16T10:31:51+00:00,2026-10-19T13:35:56.267043+00:00,3,,Domain used to obtain commands from attacker's C2 server
-domain,my-github.com,high,2026-10-19T13:09:39+00:00,2026-10-19T13:09:39+00:00,1,,Registered by the threat actor for phishing and data exfiltration.
 domain,my-gitlab.com,high,2026-10-19T13:09:39+00:00,2026-10-19T13:09:39+00:00,1,,Registered by the threat actor for phishing and data exfiltration.
 domain,amgen.teams-cloud.live,high,2026-10-19T12:42:05+00:00,2026-10-19T12:42:05+00:00,1,,Listed as a phishing domain in a threat report
 domain,companyname.suspicious-domain.live,high,2026-10-19T12:42:05+00:00,2026-10-19T12:42:05+00:00,1,,Described as a phishing domain with a suspicious subdomain.
@@ -285,7 +308,6 @@ domain,manager.g.northlab.cn,high,2026-10-09T18:00:23.022990+00:00,2026-10-09T18
 domain,northlab.cn,high,2026-10-09T18:00:23.022990+00:00,2026-10-09T18:00:23.022990+00:00,1,,Tied to an operator's lab domain with self-signed certificates
 domain,siekeltd.com,high,2026-10-09T18:00:23.022990+00:00,2026-10-09T18:00:23.022990+00:00,1,,Listed as payload and C2 in a targeted campaign
 domain,breachforums.hn,high,2026-10-09T17:01:55.081127+00:00,2026-10-09T17:01:55.081127+00:00,1,,Described as a freshly registered domain used for disinformation by attackers
-domain,breachforums.st,high,2026-10-09T17:01:55.081127+00:00,2026-10-09T17:01:55.081127+00:00,1,,Described as a domain controlled by attackers to redirect users
 domain,raid.lol,high,2026-10-09T17:01:55.081127+00:00,2026-10-09T17:01:55.081127+00:00,1,,Described as a domain used by attackers for illegal activities
 domain,rf.ws,high,2026-10-09T17:01:55.081127+00:00,2026-10-09T17:01:55.081127+00:00,1,,Described as a domain used by attackers for illegal activities
 domain,avittti.com,high,2026-10-09T12:04:28+00:00,2026-10-09T12:04:28+00:00,1,,Part of a phishing flow impersonating legitimate services
