@@ -1,5 +1,28 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason
-domain,litellm.dev,high,2026-10-21T17:08:52+00:00,2026-10-23T09:30:43.929819+00:00,5,www.stepsecurity.io:2026-10-23|Helpnetsecurity:2026-10-22|Thehackernews:2026-10-22|Rescana:2026-10-21|Ox.Security:2026-10-21,Listed as an exfiltration endpoint and attacker-controlled domain
+domain,muzpan.com,high,2026-10-23T15:09:38+00:00,2026-10-23T21:32:21.253490+00:00,2,www.federalregister.gov:2026-10-23|Mondaq:2026-10-23,Domain used by attacker-controlled VPN infrastructure to disguise connections.
+domain,sodkamus.com,high,2026-10-23T15:09:38+00:00,2026-10-23T21:32:21.253490+00:00,2,www.federalregister.gov:2026-10-23|Mondaq:2026-10-23,Domain used by attacker-controlled VPN infrastructure to disguise connections.
+domain,popcorntimeupd.xyz,high,2026-10-23T20:00:35.210658+00:00,2026-10-23T20:55:05+00:00,3,Bleepingcomputer:2026-10-23|Cyberinsider:2026-10-23|labs.eye.security:2026-10-23,"Domain previously used by the updater of a vulnerable software, indicating attacker control."
+domain,agent2.sh,high,2026-10-23T19:31:50.527393+00:00,2026-10-23T19:31:50.527393+00:00,1,www.microsoft.com:2026-10-23,Described as part of a multi-stage payload chain used by attackers
+domain,bypass.eu.org,high,2026-10-23T19:31:50.527393+00:00,2026-10-23T19:31:50.527393+00:00,1,www.microsoft.com:2026-10-23,Described as campaign-associated infrastructure used by attackers
+domain,whitearmor.cc,high,2026-10-23T19:19:21+00:00,2026-10-23T19:19:21+00:00,1,Redpacketsecurity:2026-10-23,Listed as a clearnet domain established by the Whitearmor group
+domain,archivetj.com,high,2026-10-23T18:50:13+00:00,2026-10-23T18:50:13+00:00,1,Thehackernews:2026-10-23,Used for command-and-control communication
+domain,check.foquh.icu,high,2026-10-23T18:45:08+00:00,2026-10-23T18:45:08+00:00,1,2-Spyware:2026-10-23,Used to download and execute malicious code
+domain,agent.afahimsa.top,high,2026-10-23T14:34:31.423520+00:00,2026-10-23T14:34:31.423520+00:00,1,www.group-ib.com:2026-10-23,Domain hosting MeshAgents for C2 operations
+domain,alknene.shop,high,2026-10-23T14:34:31.423520+00:00,2026-10-23T14:34:31.423520+00:00,1,www.group-ib.com:2026-10-23,Domain resolved to C2 infrastructure
+domain,mesh.buttruyen.com,high,2026-10-23T14:34:31.423520+00:00,2026-10-23T14:34:31.423520+00:00,1,www.group-ib.com:2026-10-23,MeshCentral server used for C2 operations
+domain,meshcentral.girydsfsggvb.com,high,2026-10-23T14:34:31.423520+00:00,2026-10-23T14:34:31.423520+00:00,1,www.group-ib.com:2026-10-23,Listed in IOC section as attacker infrastructure
+domain,sthyjk.com,high,2026-10-23T14:34:31.423520+00:00,2026-10-23T14:34:31.423520+00:00,1,www.group-ib.com:2026-10-23,Domain used to retrieve malicious agents
+domain,litellm.dev,high,2026-10-21T17:08:52+00:00,2026-10-23T12:00:40.720071+00:00,5,www.stepsecurity.io:2026-10-23|Helpnetsecurity:2026-10-22|Thehackernews:2026-10-22|Rescana:2026-10-21|Ox.Security:2026-10-21,Listed as an exfiltration endpoint and attacker-controlled domain
+domain,hackattackkaboom.botlesscucks.st,high,2026-10-22T11:32:08.829801+00:00,2026-10-23T11:31:38.104751+00:00,2,cowrai.com:2026-10-23|ellio.tech:2026-10-22,Listed as a backup domain in the bot's C2 configuration
+domain,hik.gettingheadfromduckysmom.st,high,2026-10-22T11:32:08.829801+00:00,2026-10-23T11:31:38.104751+00:00,2,cowrai.com:2026-10-23|ellio.tech:2026-10-22,Listed as a backup domain in the bot's C2 configuration
+domain,thunder.godofthunder.st,high,2026-10-22T11:32:08.829801+00:00,2026-10-23T11:31:38.104751+00:00,3,cowrai.com:2026-10-23|Thehackernews:2026-10-23|ellio.tech:2026-10-22,Listed as a command and control domain
+domain,dev.kinopoisksu.com,high,2026-10-23T11:01:21.955683+00:00,2026-10-23T11:01:21.955683+00:00,1,securelist.com:2026-10-23,"Listed under ScrambleCross domains, indicating attacker control"
+domain,holdmem.dbhubspi.com,high,2026-10-23T11:01:21.955683+00:00,2026-10-23T11:01:21.955683+00:00,1,securelist.com:2026-10-23,"Listed under Microcin domains, indicating attacker control"
+domain,mb.glbaitech.com,high,2026-10-23T11:01:21.955683+00:00,2026-10-23T11:01:21.955683+00:00,1,securelist.com:2026-10-23,Described as a C&C URL for MoonBounce malware
+domain,m.necemarket.com,high,2026-10-23T11:01:21.955683+00:00,2026-10-23T11:01:21.955683+00:00,1,securelist.com:2026-10-23,"Listed under Microcin domains, indicating attacker control"
+domain,ns.glbaitech.com,high,2026-10-23T11:01:21.955683+00:00,2026-10-23T11:01:21.955683+00:00,1,securelist.com:2026-10-23,"Listed under ScrambleCross domains, indicating attacker control"
+domain,st.kinopoisksu.com,high,2026-10-23T11:01:21.955683+00:00,2026-10-23T11:01:21.955683+00:00,1,securelist.com:2026-10-23,"Listed under ScrambleCross domains, indicating attacker control"
+domain,www.archivetj.com,high,2026-10-22T07:59:42+00:00,2026-10-23T10:46:29+00:00,2,Techtimes:2026-10-23|Securelist:2026-10-22,Described as a command-and-control domain for malicious payloads
 domain,26edd0a4.ddns.net,high,2026-10-23T07:30:31.639609+00:00,2026-10-23T07:30:31.639609+00:00,1,www.safebreach.com:2026-10-23,Domain resolved to a C2 server used by the threat actor
 domain,dnsbroadcaster.lat,high,2026-10-23T07:30:31.639609+00:00,2026-10-23T07:30:31.639609+00:00,1,www.safebreach.com:2026-10-23,Domain resolved to a C2 server used by the threat actor
 domain,ejjnhkucbw.ix.tc,high,2026-10-23T07:30:31.639609+00:00,2026-10-23T07:30:31.639609+00:00,1,www.safebreach.com:2026-10-23,Domain registered and used as a C2 server by the threat actor
@@ -25,6 +48,13 @@ domain,uiavuflyjqodj.hbmc.net,high,2026-10-23T07:30:31.639609+00:00,2026-10-23T0
 domain,vssmqppaup.conningstone.net,high,2026-10-23T07:30:31.639609+00:00,2026-10-23T07:30:31.639609+00:00,1,www.safebreach.com:2026-10-23,Domain used as a C2 server by the threat actor
 domain,vssmqppaup.hbmc.net,high,2026-10-23T07:30:31.639609+00:00,2026-10-23T07:30:31.639609+00:00,1,www.safebreach.com:2026-10-23,Domain used as a C2 server by the threat actor
 domain,vtykvjbmhkpah.hbmc.net,high,2026-10-23T07:30:31.639609+00:00,2026-10-23T07:30:31.639609+00:00,1,www.safebreach.com:2026-10-23,Domain used as a C2 server by the threat actor
+domain,choclatey.org,high,2026-10-23T07:19:06+00:00,2026-10-23T07:19:06+00:00,1,Zscaler:2026-10-23,Typosquatted domain impersonating Chocolatey
+domain,community.choclatey.org,high,2026-10-23T07:19:06+00:00,2026-10-23T07:19:06+00:00,1,Zscaler:2026-10-23,Used in malicious campaign related to Chocolatey
+domain,datamons.org,high,2026-10-23T07:19:06+00:00,2026-10-23T07:19:06+00:00,1,Zscaler:2026-10-23,Used as a C2 server by threat actor
+domain,niceer.net,high,2026-10-23T07:19:06+00:00,2026-10-23T07:19:06+00:00,1,Zscaler:2026-10-23,Identified as a C2 domain used in a malicious campaign
+domain,supertrap.net,high,2026-10-23T07:19:06+00:00,2026-10-23T07:19:06+00:00,1,Zscaler:2026-10-23,Identified as a C2 domain used in a malicious campaign
+domain,workerstats.net,high,2026-10-23T07:19:06+00:00,2026-10-23T07:19:06+00:00,1,Zscaler:2026-10-23,Identified as a C2 domain used in a malicious campaign
+domain,rat.ironrat.de5.net,high,2026-10-23T04:11:38+00:00,2026-10-23T04:11:38+00:00,1,Cyfirma:2026-10-23,Listed as part of malicious infrastructure to be blocked
 domain,breachforums.st,high,2026-10-09T17:01:55.081127+00:00,2026-10-23T03:31:16.070149+00:00,2,techcrunch.com:2026-10-23|www.sekoia.com:2026-10-09,Described as a domain controlled by attackers to redirect users
 domain,bnt2.live,high,2026-10-22T19:36:42.065904+00:00,2026-10-22T19:36:42.065904+00:00,1,www.proofpoint.com:2026-10-22,Described as an actor-controlled URL shortener used for credential harvesting
 domain,gettogether.quest,high,2026-10-22T19:36:42.065904+00:00,2026-10-22T19:36:42.065904+00:00,1,www.proofpoint.com:2026-10-22,Used in a TA453 campaign to deliver threatening messages
@@ -34,18 +64,14 @@ domain,profilepic.site,high,2026-10-22T19:36:42.065904+00:00,2026-10-22T19:36:42
 domain,nulled.it,high,2026-10-22T15:01:04.253606+00:00,2026-10-22T15:01:04.253606+00:00,1,krebsonsecurity.com:2026-10-22,Domain associated with a cybercrime forum operated by attackers
 domain,nulled.lol,high,2026-10-22T15:01:04.253606+00:00,2026-10-22T15:01:04.253606+00:00,1,krebsonsecurity.com:2026-10-22,Domain associated with a cybercrime forum operated by attackers
 domain,starkrdp.io,high,2026-10-22T15:01:04.253606+00:00,2026-10-22T15:01:04.253606+00:00,1,krebsonsecurity.com:2026-10-22,Domain used for anonymity services advertised on cybercrime forums
-domain,my-github.com,high,2026-10-19T13:09:39+00:00,2026-10-22T14:08:12+00:00,2,News.Ycombinator:2026-10-22|Thehackernews:2026-10-19,Domain used in phishing campaign as a GitHub-themed lookalike
+domain,my-github.com,high,2026-10-19T13:09:39+00:00,2026-10-22T14:08:12+00:00,2,News.Ycombinator:2026-10-22|Thehackernews:2026-10-19,Registered by the threat actor for phishing and data exfiltration.
 domain,oskeysetup.com,high,2026-10-22T14:02:12+00:00,2026-10-22T14:02:12+00:00,1,Bleepingcomputer:2026-10-22,Domain used for phishing and adversary-in-the-middle attacks
 domain,fegrs.adidasabc.com,high,2026-10-22T13:53:58+00:00,2026-10-22T13:53:58+00:00,1,Zimperium:2026-10-22,Domain used as C2 endpoint in a malware operation
 domain,mosaichealthsolutions.com,high,2026-10-22T12:59:53+00:00,2026-10-22T12:59:53+00:00,1,Esecurityplanet:2026-10-22,Described as an attacker-controlled domain for credential harvesting
 domain,thebesthomehealth.com,high,2026-10-22T12:59:53+00:00,2026-10-22T12:59:53+00:00,1,Esecurityplanet:2026-10-22,Described as an attacker-controlled domain for credential harvesting
 domain,godofthunder.st,high,2026-10-22T11:32:08.829801+00:00,2026-10-22T11:32:08.829801+00:00,1,ellio.tech:2026-10-22,Listed as a command and control domain
-domain,hackattackkaboom.botlesscucks.st,high,2026-10-22T11:32:08.829801+00:00,2026-10-22T11:32:08.829801+00:00,1,ellio.tech:2026-10-22,Used as a staging host for second-stage payloads
-domain,hik.gettingheadfromduckysmom.st,high,2026-10-22T11:32:08.829801+00:00,2026-10-22T11:32:08.829801+00:00,1,ellio.tech:2026-10-22,Listed in the configuration as part of attacker infrastructure
 domain,rootkit.net.cn,high,2026-10-22T11:32:08.829801+00:00,2026-10-22T11:32:08.829801+00:00,1,ellio.tech:2026-10-22,Associated with a web shell used by attackers
-domain,thunder.godofthunder.st,high,2026-10-22T11:32:08.829801+00:00,2026-10-22T11:32:08.829801+00:00,1,ellio.tech:2026-10-22,Listed as a command and control domain
 domain,z-cg.com,high,2026-10-22T11:32:08.829801+00:00,2026-10-22T11:32:08.829801+00:00,1,ellio.tech:2026-10-22,Associated with a web shell used by attackers
-domain,www.archivetj.com,high,2026-10-22T07:59:42+00:00,2026-10-22T07:59:42+00:00,1,Securelist:2026-10-22,Identified as a C2 server used by the malware
 domain,aaa-emudhra.we-have-a-problem.com,high,2026-10-22T00:00:00+00:00,2026-10-22T00:00:00+00:00,1,Safedep:2026-10-22,Domain used for testing certificate validation.
 domain,aiarmor.website,high,2026-10-22T00:00:00+00:00,2026-10-22T00:00:00+00:00,1,Safedep:2026-10-22,Listed as a fallback endpoint for data exfiltration.
 domain,www.litellm.dev,high,2026-10-21T13:41:48.036000+00:00,2026-10-21T23:16:31+00:00,2,Rescana:2026-10-21|Socket.Dev:2026-10-21,Listed as an exfiltration endpoint and attacker-controlled domain
@@ -281,8 +307,6 @@ domain,report.com,high,2026-10-13T21:33:44.216910+00:00,2026-10-13T21:33:44.2169
 domain,firebox-ssl.com,high,2026-10-13T21:32:17.966241+00:00,2026-10-13T21:32:17.966241+00:00,1,www.watchguard.com:2026-10-13,Domain hosting malicious credential-stealing application.
 domain,house-connection.pro,high,2026-10-13T21:32:17.966241+00:00,2026-10-13T21:32:17.966241+00:00,1,www.watchguard.com:2026-10-13,Domain involved in credential-harvesting campaign.
 domain,watchguard-vpn.com,high,2026-10-13T21:00:10+00:00,2026-10-13T21:32:17.966241+00:00,2,www.watchguard.com:2026-10-13|Huntress:2026-10-13,Domain hosting malicious WatchGuard applications.
-domain,agent2.sh,high,2026-10-13T14:02:49.639910+00:00,2026-10-13T14:02:49.639910+00:00,1,www.microsoft.com:2026-10-13,Described as part of a multi-stage payload chain used by attackers
-domain,bypass.eu.org,high,2026-10-13T14:02:49.639910+00:00,2026-10-13T14:02:49.639910+00:00,1,www.microsoft.com:2026-10-13,Described as campaign-associated infrastructure used by attackers
 domain,agdx53.cc,high,2026-10-13T08:51:36+00:00,2026-10-13T08:51:36+00:00,1,Esecurityplanet:2026-10-13,Reported as a command-and-control domain for DarkSword malware
 domain,ecomtrack.io,high,2026-10-13T08:51:36+00:00,2026-10-13T08:51:36+00:00,1,Esecurityplanet:2026-10-13,Re-registered by attackers to deliver DarkSword malware
 domain,freepressfront.com,high,2026-10-12T20:02:07.907502+00:00,2026-10-12T20:02:07.907502+00:00,1,carnegieendowment.org:2026-10-12,Part of a network of domains used for influence operations
@@ -692,16 +716,3 @@ domain,yasomawork.space,high,2026-09-24T13:12:11.081376+00:00,2026-09-24T13:12:1
 domain,playgoogle.logisticstkwcargo.com,high,2026-09-24T12:09:27+00:00,2026-09-24T13:12:08.828530+00:00,3,haveibeensquatted.com:2026-09-24|News.Lavx.Hu:2026-09-24|Thehackernews:2026-09-24,Domain appears to be a typosquat or lookalike used for phishing or malware delivery.
 domain,toria.apple03cloudstore.com,high,2026-09-24T10:12:52+00:00,2026-09-24T10:12:52+00:00,1,Securelist:2026-09-24,Used to host malicious payloads
 domain,waaako.appstore.com.mx,high,2026-09-24T10:12:52+00:00,2026-09-24T10:12:52+00:00,1,Securelist:2026-09-24,Listed among URLs used for distributing malicious scripts and payloads.
-domain,cacheoutattack.com,high,2026-09-24T04:31:27.990972+00:00,2026-09-24T04:31:27.990972+00:00,1,en.wikipedia.org:2026-09-24,Domain associated with the CacheOut attack
-domain,indirector.cpusec.org,high,2026-09-24T04:31:27.990972+00:00,2026-09-24T04:31:27.990972+00:00,1,en.wikipedia.org:2026-09-24,Domain associated with the Indirector attack
-domain,lviattack.eu,high,2026-09-24T04:31:27.990972+00:00,2026-09-24T04:31:27.990972+00:00,1,en.wikipedia.org:2026-09-24,Domain associated with the Load Value Injection attack
-domain,mdsattacks.com,high,2026-09-24T04:31:27.990972+00:00,2026-09-24T04:31:27.990972+00:00,1,en.wikipedia.org:2026-09-24,Domain associated with Microarchitectural Data Sampling attacks
-domain,meltdownattack.com,high,2026-09-24T04:31:27.990972+00:00,2026-09-24T04:31:27.990972+00:00,1,en.wikipedia.org:2026-09-24,Domain associated with the Meltdown attack
-domain,zombieloadattack.com,high,2026-09-24T04:31:27.990972+00:00,2026-09-24T04:31:27.990972+00:00,1,en.wikipedia.org:2026-09-24,Domain associated with the ZombieLoad attack
-domain,elxxvvx.xyz,high,2026-09-24T03:17:57+00:00,2026-09-24T03:17:57+00:00,1,Bleepingcomputer:2026-09-24,Referenced as a site distributing a PowerShell script for malware delivery.
-domain,gocommunity.io,high,2026-09-23T18:07:17+00:00,2026-09-23T18:07:17+00:00,1,Thehackernews:2026-09-23,Domain used to distribute Go malware via Terraform providers and Go Modules
-domain,tradeyourevents.com,high,2026-09-23T15:27:39+00:00,2026-09-23T15:27:39+00:00,1,Central.Xero:2026-09-23,Used in phishing emails impersonating Xero
-domain,xerocareers.com,high,2026-09-23T15:27:39+00:00,2026-09-23T15:27:39+00:00,1,Central.Xero:2026-09-23,Used in a fake job offer scam email
-domain,brokeapt.com,high,2026-09-23T14:43:17.455423+00:00,2026-09-23T14:43:17.455423+00:00,1,www.microsoft.com:2026-09-23,Identified as a C2 domain for Vidar infostealer.
-domain,dash.awaydouble.org,high,2026-09-23T14:43:17.455423+00:00,2026-09-23T14:43:17.455423+00:00,1,www.microsoft.com:2026-09-23,Used for credential harvesting
-domain,servicing.pureplantcravings.com,high,2026-09-23T14:43:17.455423+00:00,2026-09-23T14:43:17.455423+00:00,1,www.microsoft.com:2026-09-23,Used in a phishing campaign for credential harvesting

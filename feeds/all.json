@@ -1,7 +1,7 @@
 {
   "feed": "threatcluster-public-iocs",
   "version": 1,
-  "generated_at": "2026-10-23T11:35:48Z",
+  "generated_at": "2026-10-24T10:56:46Z",
   "filters": {
     "confidence": "high",
     "window_days": 30,
@@ -11,21 +11,888 @@
       "domain"
     ]
   },
-  "count": 894,
+  "count": 936,
   "iocs": [
+    {
+      "type": "ipv4",
+      "value": "199.91.221.39",
+      "confidence": "high",
+      "reason": "Used by attacker to change workflow source in a GitHub attack",
+      "first_seen": "2026-10-24T00:55:25+00:00",
+      "last_seen": "2026-10-24T00:55:25+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Docs.Litellm.Ai",
+          "url": "https://docs.litellm.ai/blog/security-incident-oct-21-2026-attack-chain",
+          "pub_date": "2026-10-24T00:55:25+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "ipv4",
+      "value": "69.48.229.143",
+      "confidence": "high",
+      "reason": "Used by attacker to call API with stolen credentials",
+      "first_seen": "2026-10-24T00:55:25+00:00",
+      "last_seen": "2026-10-24T00:55:25+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Docs.Litellm.Ai",
+          "url": "https://docs.litellm.ai/blog/security-incident-oct-21-2026-attack-chain",
+          "pub_date": "2026-10-24T00:55:25+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "muzpan.com",
+      "confidence": "high",
+      "reason": "Domain used by attacker-controlled VPN infrastructure to disguise connections.",
+      "first_seen": "2026-10-23T15:09:38+00:00",
+      "last_seen": "2026-10-23T21:32:21.253490+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "www.federalregister.gov",
+          "url": "https://www.federalregister.gov/documents/2026/10/05/2026-20371/proposal-of-special-measure-prohibiting-the-transmittal-of-funds-regarding-transactions-involving",
+          "pub_date": "2026-10-23T21:32:21.25349+00:00"
+        },
+        {
+          "source": "Mondaq",
+          "url": "https://www.mondaq.com/unitedstates/money-laundering/1858686/targeting-iran-finance-treasury-sanctions-russia-linked-sanctions-evasion-a7-network",
+          "pub_date": "2026-10-23T15:09:38+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Operation Economic Outcast"
+        },
+        {
+          "type": "industry",
+          "value": "Financial"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "sodkamus.com",
+      "confidence": "high",
+      "reason": "Domain used by attacker-controlled VPN infrastructure to disguise connections.",
+      "first_seen": "2026-10-23T15:09:38+00:00",
+      "last_seen": "2026-10-23T21:32:21.253490+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "www.federalregister.gov",
+          "url": "https://www.federalregister.gov/documents/2026/10/05/2026-20371/proposal-of-special-measure-prohibiting-the-transmittal-of-funds-regarding-transactions-involving",
+          "pub_date": "2026-10-23T21:32:21.25349+00:00"
+        },
+        {
+          "source": "Mondaq",
+          "url": "https://www.mondaq.com/unitedstates/money-laundering/1858686/targeting-iran-finance-treasury-sanctions-russia-linked-sanctions-evasion-a7-network",
+          "pub_date": "2026-10-23T15:09:38+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Operation Economic Outcast"
+        },
+        {
+          "type": "industry",
+          "value": "Financial"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "popcorntimeupd.xyz",
+      "confidence": "high",
+      "reason": "Domain previously used by the updater of a vulnerable software, indicating attacker control.",
+      "first_seen": "2026-10-23T20:00:35.210658+00:00",
+      "last_seen": "2026-10-23T20:55:05+00:00",
+      "source_count": 3,
+      "sources": [
+        {
+          "source": "Bleepingcomputer",
+          "url": "https://www.bleepingcomputer.com/news/security/abandoned-popcorn-time-app-exposed-millions-of-device-to-rce-attacks/",
+          "pub_date": "2026-10-23T20:55:05+00:00"
+        },
+        {
+          "source": "Cyberinsider",
+          "url": "https://cyberinsider.com/popcorn-time-updater-flaw-exposed-millions-of-devices-to-hijacking/",
+          "pub_date": "2026-10-23T20:16:12+00:00"
+        },
+        {
+          "source": "labs.eye.security",
+          "url": "https://labs.eye.security/operation-ixim-preventing-a-botnet-of-millions-of-popcorn-time-users/",
+          "pub_date": "2026-10-23T20:00:35.210658+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2026-30612"
+        },
+        {
+          "type": "campaign",
+          "value": "Operation IXIM"
+        },
+        {
+          "type": "campaign",
+          "value": "Operation Ladybird"
+        },
+        {
+          "type": "malware",
+          "value": "Emotet"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "agent2.sh",
+      "confidence": "high",
+      "reason": "Described as part of a multi-stage payload chain used by attackers",
+      "first_seen": "2026-10-23T19:31:50.527393+00:00",
+      "last_seen": "2026-10-23T19:31:50.527393+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.microsoft.com",
+          "url": "https://www.microsoft.com/en-us/security/blog/2026/09/30/unauthenticated-command-injection-on-internet-facing-mail-servers-tracking-cve-2026-73570/",
+          "pub_date": "2026-10-23T19:31:50.527393+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "bypass.eu.org",
+      "confidence": "high",
+      "reason": "Described as campaign-associated infrastructure used by attackers",
+      "first_seen": "2026-10-23T19:31:50.527393+00:00",
+      "last_seen": "2026-10-23T19:31:50.527393+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.microsoft.com",
+          "url": "https://www.microsoft.com/en-us/security/blog/2026/09/30/unauthenticated-command-injection-on-internet-facing-mail-servers-tracking-cve-2026-73570/",
+          "pub_date": "2026-10-23T19:31:50.527393+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "whitearmor.cc",
+      "confidence": "high",
+      "reason": "Listed as a clearnet domain established by the Whitearmor group",
+      "first_seen": "2026-10-23T19:19:21+00:00",
+      "last_seen": "2026-10-23T19:19:21+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Redpacketsecurity",
+          "url": "https://www.redpacketsecurity.com/whitearmor-ransomware-victim-whitearmor-cc/",
+          "pub_date": "2026-10-23T19:19:21+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "ipv4",
+      "value": "45.227.254.43",
+      "confidence": "high",
+      "reason": "Identified as an exposed command-and-control server used by attackers.",
+      "first_seen": "2026-10-23T17:50:47+00:00",
+      "last_seen": "2026-10-23T18:56:09+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "Socprime",
+          "url": "https://socprime.com/active-threats/inc-and-the-gentlemen-ransomware-expose-ai-powered-attack-infrastructure/",
+          "pub_date": "2026-10-23T18:56:09+00:00"
+        },
+        {
+          "source": "Thehackernews",
+          "url": "https://thehackernews.com/2026/10/exposed-infrastructure-reveals-how.html",
+          "pub_date": "2026-10-23T17:50:47+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "ransomware_group",
+          "value": "INC"
+        },
+        {
+          "type": "ransomware_group",
+          "value": "The Gentlemen"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2024-57727"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-15409"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "archivetj.com",
+      "confidence": "high",
+      "reason": "Used for command-and-control communication",
+      "first_seen": "2026-10-23T18:50:13+00:00",
+      "last_seen": "2026-10-23T18:50:13+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Thehackernews",
+          "url": "https://thehackernews.com/2026/10/blackx-uefi-bootkit-bypasses-secure.html",
+          "pub_date": "2026-10-23T18:50:13+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "ipv4",
+      "value": "92.118.112.100",
+      "confidence": "high",
+      "reason": "IP address associated with attacker-controlled scanning and exploitation attempts",
+      "first_seen": "2026-10-22T11:32:08.829801+00:00",
+      "last_seen": "2026-10-23T18:49:51+00:00",
+      "source_count": 4,
+      "sources": [
+        {
+          "source": "Sploitus",
+          "url": "https://sploitus.com/exploit?id=D57E903B-A042-5D9D-AE06-7F89B3DB11FA&utm_source=rss&utm_medium=rss",
+          "pub_date": "2026-10-23T18:49:51+00:00"
+        },
+        {
+          "source": "Thehackernews",
+          "url": "https://thehackernews.com/2026/10/php2shell-exploit-attempts-hit-millions.html",
+          "pub_date": "2026-10-23T07:45:06+00:00"
+        },
+        {
+          "source": "Arcticwolf",
+          "url": "https://arcticwolf.com/resources/blog/php2shell-critical-php-vulnerabilities-enable-unauthenticated-remote-code-execution/",
+          "pub_date": "2026-10-22T18:45:20+00:00"
+        },
+        {
+          "source": "ellio.tech",
+          "url": "https://ellio.tech/en/blog/php2shell-what-we-observed-and-what-to-do/",
+          "pub_date": "2026-10-22T11:32:08.829801+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2026-109618"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-109619"
+        },
+        {
+          "type": "malware",
+          "value": "Mirai"
+        },
+        {
+          "type": "malware",
+          "value": "Potassium"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "check.foquh.icu",
+      "confidence": "high",
+      "reason": "Used to download and execute malicious code",
+      "first_seen": "2026-10-23T18:45:08+00:00",
+      "last_seen": "2026-10-23T18:45:08+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "2-Spyware",
+          "url": "https://www.2-spyware.com/remove-lumma-stealer.html",
+          "pub_date": "2026-10-23T18:45:08+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "ipv4",
+      "value": "191.96.225.125",
+      "confidence": "high",
+      "reason": "Listed as Overlord RAT infrastructure",
+      "first_seen": "2026-10-23T17:31:31+00:00",
+      "last_seen": "2026-10-23T17:31:31+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Hackread",
+          "url": "https://hackread.com/overlord-rat-fake-legal-notices-infect-windows-pcs/",
+          "pub_date": "2026-10-23T17:31:31+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "ipv4",
+      "value": "45.158.8.213",
+      "confidence": "high",
+      "reason": "Associated with Overlord RAT infrastructure",
+      "first_seen": "2026-10-23T17:31:31+00:00",
+      "last_seen": "2026-10-23T17:31:31+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Hackread",
+          "url": "https://hackread.com/overlord-rat-fake-legal-notices-infect-windows-pcs/",
+          "pub_date": "2026-10-23T17:31:31+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "agent.afahimsa.top",
+      "confidence": "high",
+      "reason": "Domain hosting MeshAgents for C2 operations",
+      "first_seen": "2026-10-23T14:34:31.423520+00:00",
+      "last_seen": "2026-10-23T14:34:31.423520+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.group-ib.com",
+          "url": "https://www.group-ib.com/blog/stray-cat-network-edge/",
+          "pub_date": "2026-10-23T14:34:31.42352+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2019-6693"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2021-42278"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2021-42287"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2025-64446"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "alknene.shop",
+      "confidence": "high",
+      "reason": "Domain resolved to C2 infrastructure",
+      "first_seen": "2026-10-23T14:34:31.423520+00:00",
+      "last_seen": "2026-10-23T14:34:31.423520+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.group-ib.com",
+          "url": "https://www.group-ib.com/blog/stray-cat-network-edge/",
+          "pub_date": "2026-10-23T14:34:31.42352+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2019-6693"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2021-42278"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2021-42287"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2025-64446"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "mesh.buttruyen.com",
+      "confidence": "high",
+      "reason": "MeshCentral server used for C2 operations",
+      "first_seen": "2026-10-23T14:34:31.423520+00:00",
+      "last_seen": "2026-10-23T14:34:31.423520+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.group-ib.com",
+          "url": "https://www.group-ib.com/blog/stray-cat-network-edge/",
+          "pub_date": "2026-10-23T14:34:31.42352+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2019-6693"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2021-42278"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2021-42287"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2025-64446"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "meshcentral.girydsfsggvb.com",
+      "confidence": "high",
+      "reason": "Listed in IOC section as attacker infrastructure",
+      "first_seen": "2026-10-23T14:34:31.423520+00:00",
+      "last_seen": "2026-10-23T14:34:31.423520+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.group-ib.com",
+          "url": "https://www.group-ib.com/blog/stray-cat-network-edge/",
+          "pub_date": "2026-10-23T14:34:31.42352+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2019-6693"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2021-42278"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2021-42287"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2025-64446"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "sthyjk.com",
+      "confidence": "high",
+      "reason": "Domain used to retrieve malicious agents",
+      "first_seen": "2026-10-23T14:34:31.423520+00:00",
+      "last_seen": "2026-10-23T14:34:31.423520+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.group-ib.com",
+          "url": "https://www.group-ib.com/blog/stray-cat-network-edge/",
+          "pub_date": "2026-10-23T14:34:31.42352+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2019-6693"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2021-42278"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2021-42287"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2025-64446"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "162.33.178.213",
+      "confidence": "high",
+      "reason": "IP used to host and deliver malicious agents",
+      "first_seen": "2026-10-23T14:34:31.423520+00:00",
+      "last_seen": "2026-10-23T14:34:31.423520+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.group-ib.com",
+          "url": "https://www.group-ib.com/blog/stray-cat-network-edge/",
+          "pub_date": "2026-10-23T14:34:31.42352+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2019-6693"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2021-42278"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2021-42287"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2025-64446"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "193.149.187.81",
+      "confidence": "high",
+      "reason": "IP used for hosting malicious payload",
+      "first_seen": "2026-10-23T14:34:31.423520+00:00",
+      "last_seen": "2026-10-23T14:34:31.423520+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.group-ib.com",
+          "url": "https://www.group-ib.com/blog/stray-cat-network-edge/",
+          "pub_date": "2026-10-23T14:34:31.42352+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2019-6693"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2021-42278"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2021-42287"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2025-64446"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "64.94.85.14",
+      "confidence": "high",
+      "reason": "IP hosting C2 infrastructure",
+      "first_seen": "2026-10-23T14:34:31.423520+00:00",
+      "last_seen": "2026-10-23T14:34:31.423520+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.group-ib.com",
+          "url": "https://www.group-ib.com/blog/stray-cat-network-edge/",
+          "pub_date": "2026-10-23T14:34:31.42352+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2019-6693"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2021-42278"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2021-42287"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2025-64446"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "102.210.149.166",
+      "confidence": "high",
+      "reason": "Listed as staging infrastructure for php2shell",
+      "first_seen": "2026-10-23T14:01:51.563234+00:00",
+      "last_seen": "2026-10-23T14:01:51.563234+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "hunt.io",
+          "url": "https://hunt.io/blog/php2shell-cve-2026-109618-109619-open-directories",
+          "pub_date": "2026-10-23T14:01:51.563234+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2025-32975"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2025-55182"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-109618"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-109619"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "104.219.251.31",
+      "confidence": "high",
+      "reason": "Listed as staging infrastructure for php2shell",
+      "first_seen": "2026-10-23T14:01:51.563234+00:00",
+      "last_seen": "2026-10-23T14:01:51.563234+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "hunt.io",
+          "url": "https://hunt.io/blog/php2shell-cve-2026-109618-109619-open-directories",
+          "pub_date": "2026-10-23T14:01:51.563234+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2025-32975"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2025-55182"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-109618"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-109619"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "122.10.110.72",
+      "confidence": "high",
+      "reason": "Listed as staging infrastructure for php2shell",
+      "first_seen": "2026-10-23T14:01:51.563234+00:00",
+      "last_seen": "2026-10-23T14:01:51.563234+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "hunt.io",
+          "url": "https://hunt.io/blog/php2shell-cve-2026-109618-109619-open-directories",
+          "pub_date": "2026-10-23T14:01:51.563234+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2025-32975"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2025-55182"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-109618"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-109619"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "122.10.17.49",
+      "confidence": "high",
+      "reason": "Listed as staging infrastructure for php2shell",
+      "first_seen": "2026-10-23T14:01:51.563234+00:00",
+      "last_seen": "2026-10-23T14:01:51.563234+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "hunt.io",
+          "url": "https://hunt.io/blog/php2shell-cve-2026-109618-109619-open-directories",
+          "pub_date": "2026-10-23T14:01:51.563234+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2025-32975"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2025-55182"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-109618"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-109619"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "206.188.197.105",
+      "confidence": "high",
+      "reason": "Identified as an attacker-controlled server hosting exploit tooling",
+      "first_seen": "2026-10-23T07:45:06+00:00",
+      "last_seen": "2026-10-23T14:01:51.563234+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "hunt.io",
+          "url": "https://hunt.io/blog/php2shell-cve-2026-109618-109619-open-directories",
+          "pub_date": "2026-10-23T14:01:51.563234+00:00"
+        },
+        {
+          "source": "Thehackernews",
+          "url": "https://thehackernews.com/2026/10/php2shell-exploit-attempts-hit-millions.html",
+          "pub_date": "2026-10-23T07:45:06+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2026-109618"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-109619"
+        },
+        {
+          "type": "malware",
+          "value": "Mirai"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2025-32975"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "41.223.30.7",
+      "confidence": "high",
+      "reason": "Listed as holding PHP2Shell-related tooling",
+      "first_seen": "2026-10-23T07:45:06+00:00",
+      "last_seen": "2026-10-23T14:01:51.563234+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "hunt.io",
+          "url": "https://hunt.io/blog/php2shell-cve-2026-109618-109619-open-directories",
+          "pub_date": "2026-10-23T14:01:51.563234+00:00"
+        },
+        {
+          "source": "Thehackernews",
+          "url": "https://thehackernews.com/2026/10/php2shell-exploit-attempts-hit-millions.html",
+          "pub_date": "2026-10-23T07:45:06+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2026-109618"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-109619"
+        },
+        {
+          "type": "malware",
+          "value": "Mirai"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2025-32975"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "58.221.60.160",
+      "confidence": "high",
+      "reason": "Listed as staging infrastructure for php2shell",
+      "first_seen": "2026-10-23T14:01:51.563234+00:00",
+      "last_seen": "2026-10-23T14:01:51.563234+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "hunt.io",
+          "url": "https://hunt.io/blog/php2shell-cve-2026-109618-109619-open-directories",
+          "pub_date": "2026-10-23T14:01:51.563234+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2025-32975"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2025-55182"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-109618"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-109619"
+        }
+      ]
+    },
     {
       "type": "domain",
       "value": "litellm.dev",
       "confidence": "high",
       "reason": "Listed as an exfiltration endpoint and attacker-controlled domain",
       "first_seen": "2026-10-21T17:08:52+00:00",
-      "last_seen": "2026-10-23T09:30:43.929819+00:00",
+      "last_seen": "2026-10-23T12:00:40.720071+00:00",
       "source_count": 5,
       "sources": [
         {
           "source": "www.stepsecurity.io",
           "url": "https://www.stepsecurity.io/blog/litellm-1-107-0-compromised-pypi-backdoored-wheels-credential-stealer",
-          "pub_date": "2026-10-23T09:30:43.929819+00:00"
+          "pub_date": "2026-10-23T12:00:40.720071+00:00"
         },
         {
           "source": "Helpnetsecurity",
@@ -52,6 +919,711 @@
         {
           "type": "campaign",
           "value": "TeamPCP"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "hackattackkaboom.botlesscucks.st",
+      "confidence": "high",
+      "reason": "Listed as a backup domain in the bot's C2 configuration",
+      "first_seen": "2026-10-22T11:32:08.829801+00:00",
+      "last_seen": "2026-10-23T11:31:38.104751+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "cowrai.com",
+          "url": "https://cowrai.com/research/php2shell-godofthunder/",
+          "pub_date": "2026-10-23T11:31:38.104751+00:00"
+        },
+        {
+          "source": "ellio.tech",
+          "url": "https://ellio.tech/en/blog/php2shell-what-we-observed-and-what-to-do/",
+          "pub_date": "2026-10-22T11:32:08.829801+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2026-109618"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-109619"
+        },
+        {
+          "type": "malware",
+          "value": "Mirai"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2025-55182"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "hik.gettingheadfromduckysmom.st",
+      "confidence": "high",
+      "reason": "Listed as a backup domain in the bot's C2 configuration",
+      "first_seen": "2026-10-22T11:32:08.829801+00:00",
+      "last_seen": "2026-10-23T11:31:38.104751+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "cowrai.com",
+          "url": "https://cowrai.com/research/php2shell-godofthunder/",
+          "pub_date": "2026-10-23T11:31:38.104751+00:00"
+        },
+        {
+          "source": "ellio.tech",
+          "url": "https://ellio.tech/en/blog/php2shell-what-we-observed-and-what-to-do/",
+          "pub_date": "2026-10-22T11:32:08.829801+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2026-109618"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-109619"
+        },
+        {
+          "type": "malware",
+          "value": "Mirai"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2025-55182"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "thunder.godofthunder.st",
+      "confidence": "high",
+      "reason": "Listed as a command and control domain",
+      "first_seen": "2026-10-22T11:32:08.829801+00:00",
+      "last_seen": "2026-10-23T11:31:38.104751+00:00",
+      "source_count": 3,
+      "sources": [
+        {
+          "source": "cowrai.com",
+          "url": "https://cowrai.com/research/php2shell-godofthunder/",
+          "pub_date": "2026-10-23T11:31:38.104751+00:00"
+        },
+        {
+          "source": "Thehackernews",
+          "url": "https://thehackernews.com/2026/10/php2shell-exploit-attempts-hit-millions.html",
+          "pub_date": "2026-10-23T07:45:06+00:00"
+        },
+        {
+          "source": "ellio.tech",
+          "url": "https://ellio.tech/en/blog/php2shell-what-we-observed-and-what-to-do/",
+          "pub_date": "2026-10-22T11:32:08.829801+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2026-109618"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-109619"
+        },
+        {
+          "type": "malware",
+          "value": "Mirai"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2025-55182"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "dev.kinopoisksu.com",
+      "confidence": "high",
+      "reason": "Listed under ScrambleCross domains, indicating attacker control",
+      "first_seen": "2026-10-23T11:01:21.955683+00:00",
+      "last_seen": "2026-10-23T11:01:21.955683+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "securelist.com",
+          "url": "https://securelist.com/moonbounce-the-dark-side-of-uefi-firmware/105468/",
+          "pub_date": "2026-10-23T11:01:21.955683+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "APT41"
+        },
+        {
+          "type": "industry",
+          "value": "Government"
+        },
+        {
+          "type": "malware",
+          "value": "GhostEmperor"
+        },
+        {
+          "type": "malware",
+          "value": "Go Implant"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "holdmem.dbhubspi.com",
+      "confidence": "high",
+      "reason": "Listed under Microcin domains, indicating attacker control",
+      "first_seen": "2026-10-23T11:01:21.955683+00:00",
+      "last_seen": "2026-10-23T11:01:21.955683+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "securelist.com",
+          "url": "https://securelist.com/moonbounce-the-dark-side-of-uefi-firmware/105468/",
+          "pub_date": "2026-10-23T11:01:21.955683+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "APT41"
+        },
+        {
+          "type": "industry",
+          "value": "Government"
+        },
+        {
+          "type": "malware",
+          "value": "GhostEmperor"
+        },
+        {
+          "type": "malware",
+          "value": "Go Implant"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "mb.glbaitech.com",
+      "confidence": "high",
+      "reason": "Described as a C&C URL for MoonBounce malware",
+      "first_seen": "2026-10-23T11:01:21.955683+00:00",
+      "last_seen": "2026-10-23T11:01:21.955683+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "securelist.com",
+          "url": "https://securelist.com/moonbounce-the-dark-side-of-uefi-firmware/105468/",
+          "pub_date": "2026-10-23T11:01:21.955683+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "APT41"
+        },
+        {
+          "type": "industry",
+          "value": "Government"
+        },
+        {
+          "type": "malware",
+          "value": "GhostEmperor"
+        },
+        {
+          "type": "malware",
+          "value": "Go Implant"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "m.necemarket.com",
+      "confidence": "high",
+      "reason": "Listed under Microcin domains, indicating attacker control",
+      "first_seen": "2026-10-23T11:01:21.955683+00:00",
+      "last_seen": "2026-10-23T11:01:21.955683+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "securelist.com",
+          "url": "https://securelist.com/moonbounce-the-dark-side-of-uefi-firmware/105468/",
+          "pub_date": "2026-10-23T11:01:21.955683+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "APT41"
+        },
+        {
+          "type": "industry",
+          "value": "Government"
+        },
+        {
+          "type": "malware",
+          "value": "GhostEmperor"
+        },
+        {
+          "type": "malware",
+          "value": "Go Implant"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "ns.glbaitech.com",
+      "confidence": "high",
+      "reason": "Listed under ScrambleCross domains, indicating attacker control",
+      "first_seen": "2026-10-23T11:01:21.955683+00:00",
+      "last_seen": "2026-10-23T11:01:21.955683+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "securelist.com",
+          "url": "https://securelist.com/moonbounce-the-dark-side-of-uefi-firmware/105468/",
+          "pub_date": "2026-10-23T11:01:21.955683+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "APT41"
+        },
+        {
+          "type": "industry",
+          "value": "Government"
+        },
+        {
+          "type": "malware",
+          "value": "GhostEmperor"
+        },
+        {
+          "type": "malware",
+          "value": "Go Implant"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "st.kinopoisksu.com",
+      "confidence": "high",
+      "reason": "Listed under ScrambleCross domains, indicating attacker control",
+      "first_seen": "2026-10-23T11:01:21.955683+00:00",
+      "last_seen": "2026-10-23T11:01:21.955683+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "securelist.com",
+          "url": "https://securelist.com/moonbounce-the-dark-side-of-uefi-firmware/105468/",
+          "pub_date": "2026-10-23T11:01:21.955683+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "APT41"
+        },
+        {
+          "type": "industry",
+          "value": "Government"
+        },
+        {
+          "type": "malware",
+          "value": "GhostEmperor"
+        },
+        {
+          "type": "malware",
+          "value": "Go Implant"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "193.29.57.161",
+      "confidence": "high",
+      "reason": "Listed under ScrambleCross IPs, indicating attacker control",
+      "first_seen": "2026-10-23T11:01:21.955683+00:00",
+      "last_seen": "2026-10-23T11:01:21.955683+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "securelist.com",
+          "url": "https://securelist.com/moonbounce-the-dark-side-of-uefi-firmware/105468/",
+          "pub_date": "2026-10-23T11:01:21.955683+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "APT41"
+        },
+        {
+          "type": "industry",
+          "value": "Government"
+        },
+        {
+          "type": "malware",
+          "value": "GhostEmperor"
+        },
+        {
+          "type": "malware",
+          "value": "Go Implant"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "45.128.132.6",
+      "confidence": "high",
+      "reason": "Listed under Go malware IPs, indicating attacker control",
+      "first_seen": "2026-10-23T11:01:21.955683+00:00",
+      "last_seen": "2026-10-23T11:01:21.955683+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "securelist.com",
+          "url": "https://securelist.com/moonbounce-the-dark-side-of-uefi-firmware/105468/",
+          "pub_date": "2026-10-23T11:01:21.955683+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "APT41"
+        },
+        {
+          "type": "industry",
+          "value": "Government"
+        },
+        {
+          "type": "malware",
+          "value": "GhostEmperor"
+        },
+        {
+          "type": "malware",
+          "value": "Go Implant"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "45.128.135.15",
+      "confidence": "high",
+      "reason": "Listed under Go malware IPs, indicating attacker control",
+      "first_seen": "2026-10-23T11:01:21.955683+00:00",
+      "last_seen": "2026-10-23T11:01:21.955683+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "securelist.com",
+          "url": "https://securelist.com/moonbounce-the-dark-side-of-uefi-firmware/105468/",
+          "pub_date": "2026-10-23T11:01:21.955683+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "APT41"
+        },
+        {
+          "type": "industry",
+          "value": "Government"
+        },
+        {
+          "type": "malware",
+          "value": "GhostEmperor"
+        },
+        {
+          "type": "malware",
+          "value": "Go Implant"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "5.188.108.22",
+      "confidence": "high",
+      "reason": "Listed under Go malware IPs, indicating attacker control",
+      "first_seen": "2026-10-23T11:01:21.955683+00:00",
+      "last_seen": "2026-10-23T11:01:21.955683+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "securelist.com",
+          "url": "https://securelist.com/moonbounce-the-dark-side-of-uefi-firmware/105468/",
+          "pub_date": "2026-10-23T11:01:21.955683+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "APT41"
+        },
+        {
+          "type": "industry",
+          "value": "Government"
+        },
+        {
+          "type": "malware",
+          "value": "GhostEmperor"
+        },
+        {
+          "type": "malware",
+          "value": "Go Implant"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "5.188.108.228",
+      "confidence": "high",
+      "reason": "Listed under Go malware IPs, indicating attacker control",
+      "first_seen": "2026-10-23T11:01:21.955683+00:00",
+      "last_seen": "2026-10-23T11:01:21.955683+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "securelist.com",
+          "url": "https://securelist.com/moonbounce-the-dark-side-of-uefi-firmware/105468/",
+          "pub_date": "2026-10-23T11:01:21.955683+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "APT41"
+        },
+        {
+          "type": "industry",
+          "value": "Government"
+        },
+        {
+          "type": "malware",
+          "value": "GhostEmperor"
+        },
+        {
+          "type": "malware",
+          "value": "Go Implant"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "5.188.93.132",
+      "confidence": "high",
+      "reason": "Listed under Go malware IPs, indicating attacker control",
+      "first_seen": "2026-10-23T11:01:21.955683+00:00",
+      "last_seen": "2026-10-23T11:01:21.955683+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "securelist.com",
+          "url": "https://securelist.com/moonbounce-the-dark-side-of-uefi-firmware/105468/",
+          "pub_date": "2026-10-23T11:01:21.955683+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "APT41"
+        },
+        {
+          "type": "industry",
+          "value": "Government"
+        },
+        {
+          "type": "malware",
+          "value": "GhostEmperor"
+        },
+        {
+          "type": "malware",
+          "value": "Go Implant"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "5.189.222.33",
+      "confidence": "high",
+      "reason": "Listed under Go malware IPs, indicating attacker control",
+      "first_seen": "2026-10-23T11:01:21.955683+00:00",
+      "last_seen": "2026-10-23T11:01:21.955683+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "securelist.com",
+          "url": "https://securelist.com/moonbounce-the-dark-side-of-uefi-firmware/105468/",
+          "pub_date": "2026-10-23T11:01:21.955683+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "APT41"
+        },
+        {
+          "type": "industry",
+          "value": "Government"
+        },
+        {
+          "type": "malware",
+          "value": "GhostEmperor"
+        },
+        {
+          "type": "malware",
+          "value": "Go Implant"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "92.223.105.246",
+      "confidence": "high",
+      "reason": "Listed under Go malware IPs, indicating attacker control",
+      "first_seen": "2026-10-23T11:01:21.955683+00:00",
+      "last_seen": "2026-10-23T11:01:21.955683+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "securelist.com",
+          "url": "https://securelist.com/moonbounce-the-dark-side-of-uefi-firmware/105468/",
+          "pub_date": "2026-10-23T11:01:21.955683+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "APT41"
+        },
+        {
+          "type": "industry",
+          "value": "Government"
+        },
+        {
+          "type": "malware",
+          "value": "GhostEmperor"
+        },
+        {
+          "type": "malware",
+          "value": "Go Implant"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "92.38.178.246",
+      "confidence": "high",
+      "reason": "Listed under ScrambleCross IPs, indicating attacker control",
+      "first_seen": "2026-10-23T11:01:21.955683+00:00",
+      "last_seen": "2026-10-23T11:01:21.955683+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "securelist.com",
+          "url": "https://securelist.com/moonbounce-the-dark-side-of-uefi-firmware/105468/",
+          "pub_date": "2026-10-23T11:01:21.955683+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "APT41"
+        },
+        {
+          "type": "industry",
+          "value": "Government"
+        },
+        {
+          "type": "malware",
+          "value": "GhostEmperor"
+        },
+        {
+          "type": "malware",
+          "value": "Go Implant"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "www.archivetj.com",
+      "confidence": "high",
+      "reason": "Described as a command-and-control domain for malicious payloads",
+      "first_seen": "2026-10-22T07:59:42+00:00",
+      "last_seen": "2026-10-23T10:46:29+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "Techtimes",
+          "url": "https://www.techtimes.com/articles/329414/20261023/chinese-hackers-breached-diplomatic-networks-microsoft-baton-drop-enforcement-never-deployed.htm",
+          "pub_date": "2026-10-23T10:46:29+00:00"
+        },
+        {
+          "source": "Securelist",
+          "url": "https://securelist.com/uefi-bootkit-blackx/121539/",
+          "pub_date": "2026-10-22T07:59:42+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "APT41"
+        },
+        {
+          "type": "malware",
+          "value": "BlackLotus"
+        },
+        {
+          "type": "malware",
+          "value": "BlackX"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2022-21894"
+        }
+      ]
+    },
+    {
+      "type": "ipv6",
+      "value": "2409:40d2:204e:4be:2a1f:f9c9:a055:e00b",
+      "confidence": "high",
+      "reason": "Listed as attempting to exploit PHP2Shell vulnerabilities",
+      "first_seen": "2026-10-23T07:45:06+00:00",
+      "last_seen": "2026-10-23T07:45:06+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Thehackernews",
+          "url": "https://thehackernews.com/2026/10/php2shell-exploit-attempts-hit-millions.html",
+          "pub_date": "2026-10-23T07:45:06+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2026-109618"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-109619"
+        },
+        {
+          "type": "malware",
+          "value": "Mirai"
+        },
+        {
+          "type": "malware",
+          "value": "Potassium"
         }
       ]
     },
@@ -1077,6 +2649,227 @@
     },
     {
       "type": "domain",
+      "value": "choclatey.org",
+      "confidence": "high",
+      "reason": "Typosquatted domain impersonating Chocolatey",
+      "first_seen": "2026-10-23T07:19:06+00:00",
+      "last_seen": "2026-10-23T07:19:06+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Zscaler",
+          "url": "https://www.zscaler.com/blogs/security-research/seo-poisoning-campaign-delivers-new-armorsteal-malware",
+          "pub_date": "2026-10-23T07:19:06+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "community.choclatey.org",
+      "confidence": "high",
+      "reason": "Used in malicious campaign related to Chocolatey",
+      "first_seen": "2026-10-23T07:19:06+00:00",
+      "last_seen": "2026-10-23T07:19:06+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Zscaler",
+          "url": "https://www.zscaler.com/blogs/security-research/seo-poisoning-campaign-delivers-new-armorsteal-malware",
+          "pub_date": "2026-10-23T07:19:06+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "datamons.org",
+      "confidence": "high",
+      "reason": "Used as a C2 server by threat actor",
+      "first_seen": "2026-10-23T07:19:06+00:00",
+      "last_seen": "2026-10-23T07:19:06+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Zscaler",
+          "url": "https://www.zscaler.com/blogs/security-research/seo-poisoning-campaign-delivers-new-armorsteal-malware",
+          "pub_date": "2026-10-23T07:19:06+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "niceer.net",
+      "confidence": "high",
+      "reason": "Identified as a C2 domain used in a malicious campaign",
+      "first_seen": "2026-10-23T07:19:06+00:00",
+      "last_seen": "2026-10-23T07:19:06+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Zscaler",
+          "url": "https://www.zscaler.com/blogs/security-research/seo-poisoning-campaign-delivers-new-armorsteal-malware",
+          "pub_date": "2026-10-23T07:19:06+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "supertrap.net",
+      "confidence": "high",
+      "reason": "Identified as a C2 domain used in a malicious campaign",
+      "first_seen": "2026-10-23T07:19:06+00:00",
+      "last_seen": "2026-10-23T07:19:06+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Zscaler",
+          "url": "https://www.zscaler.com/blogs/security-research/seo-poisoning-campaign-delivers-new-armorsteal-malware",
+          "pub_date": "2026-10-23T07:19:06+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "workerstats.net",
+      "confidence": "high",
+      "reason": "Identified as a C2 domain used in a malicious campaign",
+      "first_seen": "2026-10-23T07:19:06+00:00",
+      "last_seen": "2026-10-23T07:19:06+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Zscaler",
+          "url": "https://www.zscaler.com/blogs/security-research/seo-poisoning-campaign-delivers-new-armorsteal-malware",
+          "pub_date": "2026-10-23T07:19:06+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "ipv4",
+      "value": "186.2.175.183",
+      "confidence": "high",
+      "reason": "Listed as a C2 server for Armorsteal",
+      "first_seen": "2026-10-23T07:19:06+00:00",
+      "last_seen": "2026-10-23T07:19:06+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Zscaler",
+          "url": "https://www.zscaler.com/blogs/security-research/seo-poisoning-campaign-delivers-new-armorsteal-malware",
+          "pub_date": "2026-10-23T07:19:06+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "ipv4",
+      "value": "209.99.186.187",
+      "confidence": "high",
+      "reason": "Listed as hosting fake Chocolatey website, part of attacker infrastructure",
+      "first_seen": "2026-10-23T07:19:06+00:00",
+      "last_seen": "2026-10-23T07:19:06+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Zscaler",
+          "url": "https://www.zscaler.com/blogs/security-research/seo-poisoning-campaign-delivers-new-armorsteal-malware",
+          "pub_date": "2026-10-23T07:19:06+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "ipv4",
+      "value": "82.153.135.80",
+      "confidence": "high",
+      "reason": "Used to host fake Chocolatey and Massgrave lure websites",
+      "first_seen": "2026-10-23T07:19:06+00:00",
+      "last_seen": "2026-10-23T07:19:06+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Zscaler",
+          "url": "https://www.zscaler.com/blogs/security-research/seo-poisoning-campaign-delivers-new-armorsteal-malware",
+          "pub_date": "2026-10-23T07:19:06+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "rat.ironrat.de5.net",
+      "confidence": "high",
+      "reason": "Listed as part of malicious infrastructure to be blocked",
+      "first_seen": "2026-10-23T04:11:38+00:00",
+      "last_seen": "2026-10-23T04:11:38+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cyfirma",
+          "url": "https://www.cyfirma.com/news/weekly-intelligence-report-23-oct-2026/",
+          "pub_date": "2026-10-23T04:11:38+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "ipv4",
+      "value": "154.37.213.27",
+      "confidence": "high",
+      "reason": "Listed in a YARA rule as exploit hosting infrastructure",
+      "first_seen": "2026-10-23T04:11:38+00:00",
+      "last_seen": "2026-10-23T04:11:38+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cyfirma",
+          "url": "https://www.cyfirma.com/news/weekly-intelligence-report-23-oct-2026/",
+          "pub_date": "2026-10-23T04:11:38+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "ipv4",
+      "value": "170.231.237.214",
+      "confidence": "high",
+      "reason": "Listed in a YARA rule as exploit hosting infrastructure",
+      "first_seen": "2026-10-23T04:11:38+00:00",
+      "last_seen": "2026-10-23T04:11:38+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cyfirma",
+          "url": "https://www.cyfirma.com/news/weekly-intelligence-report-23-oct-2026/",
+          "pub_date": "2026-10-23T04:11:38+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "ipv4",
+      "value": "196.189.236.67",
+      "confidence": "high",
+      "reason": "Listed in a YARA rule as exploit hosting infrastructure",
+      "first_seen": "2026-10-23T04:11:38+00:00",
+      "last_seen": "2026-10-23T04:11:38+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cyfirma",
+          "url": "https://www.cyfirma.com/news/weekly-intelligence-report-23-oct-2026/",
+          "pub_date": "2026-10-23T04:11:38+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
       "value": "breachforums.st",
       "confidence": "high",
       "reason": "Described as a domain controlled by attackers to redirect users",
@@ -1118,7 +2911,7 @@
       "type": "ipv4",
       "value": "38.54.50.151",
       "confidence": "high",
-      "reason": "IP address linked to ongoing exploitation attempts",
+      "reason": "Listed as a source IP for attacks",
       "first_seen": "2026-10-22T17:18:22+00:00",
       "last_seen": "2026-10-22T23:44:11+00:00",
       "source_count": 4,
@@ -1369,45 +3162,6 @@
     },
     {
       "type": "ipv4",
-      "value": "92.118.112.100",
-      "confidence": "high",
-      "reason": "IP address associated with attacker-controlled scanning and exploitation attempts",
-      "first_seen": "2026-10-22T11:32:08.829801+00:00",
-      "last_seen": "2026-10-22T18:45:20+00:00",
-      "source_count": 2,
-      "sources": [
-        {
-          "source": "Arcticwolf",
-          "url": "https://arcticwolf.com/resources/blog/php2shell-critical-php-vulnerabilities-enable-unauthenticated-remote-code-execution/",
-          "pub_date": "2026-10-22T18:45:20+00:00"
-        },
-        {
-          "source": "ellio.tech",
-          "url": "https://ellio.tech/en/blog/php2shell-what-we-observed-and-what-to-do/",
-          "pub_date": "2026-10-22T11:32:08.829801+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "cve",
-          "value": "CVE-2026-109618"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-109619"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2025-55182"
-        },
-        {
-          "type": "malware",
-          "value": "Mirai"
-        }
-      ]
-    },
-    {
-      "type": "ipv4",
       "value": "91.231.182.187",
       "confidence": "high",
       "reason": "C&C server in payloads downloaded by PteroPaste",
@@ -1544,7 +3298,7 @@
       "type": "domain",
       "value": "my-github.com",
       "confidence": "high",
-      "reason": "Domain used in phishing campaign as a GitHub-themed lookalike",
+      "reason": "Registered by the threat actor for phishing and data exfiltration.",
       "first_seen": "2026-10-19T13:09:39+00:00",
       "last_seen": "2026-10-22T14:08:12+00:00",
       "source_count": 2,
@@ -1583,7 +3337,7 @@
       "type": "ipv4",
       "value": "193.32.204.199",
       "confidence": "high",
-      "reason": "IP address used for exfiltrating data in a malicious campaign",
+      "reason": "Listed as an exfiltration endpoint used by attackers.",
       "first_seen": "2026-10-07T13:03:38+00:00",
       "last_seen": "2026-10-22T14:08:12+00:00",
       "source_count": 2,
@@ -1858,111 +3612,9 @@
     },
     {
       "type": "domain",
-      "value": "hackattackkaboom.botlesscucks.st",
-      "confidence": "high",
-      "reason": "Used as a staging host for second-stage payloads",
-      "first_seen": "2026-10-22T11:32:08.829801+00:00",
-      "last_seen": "2026-10-22T11:32:08.829801+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "ellio.tech",
-          "url": "https://ellio.tech/en/blog/php2shell-what-we-observed-and-what-to-do/",
-          "pub_date": "2026-10-22T11:32:08.829801+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "cve",
-          "value": "CVE-2025-55182"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-109618"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-109619"
-        },
-        {
-          "type": "malware",
-          "value": "Mirai"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "hik.gettingheadfromduckysmom.st",
-      "confidence": "high",
-      "reason": "Listed in the configuration as part of attacker infrastructure",
-      "first_seen": "2026-10-22T11:32:08.829801+00:00",
-      "last_seen": "2026-10-22T11:32:08.829801+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "ellio.tech",
-          "url": "https://ellio.tech/en/blog/php2shell-what-we-observed-and-what-to-do/",
-          "pub_date": "2026-10-22T11:32:08.829801+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "cve",
-          "value": "CVE-2025-55182"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-109618"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-109619"
-        },
-        {
-          "type": "malware",
-          "value": "Mirai"
-        }
-      ]
-    },
-    {
-      "type": "domain",
       "value": "rootkit.net.cn",
       "confidence": "high",
       "reason": "Associated with a web shell used by attackers",
-      "first_seen": "2026-10-22T11:32:08.829801+00:00",
-      "last_seen": "2026-10-22T11:32:08.829801+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "ellio.tech",
-          "url": "https://ellio.tech/en/blog/php2shell-what-we-observed-and-what-to-do/",
-          "pub_date": "2026-10-22T11:32:08.829801+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "cve",
-          "value": "CVE-2025-55182"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-109618"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-109619"
-        },
-        {
-          "type": "malware",
-          "value": "Mirai"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "thunder.godofthunder.st",
-      "confidence": "high",
-      "reason": "Listed as a command and control domain",
       "first_seen": "2026-10-22T11:32:08.829801+00:00",
       "last_seen": "2026-10-22T11:32:08.829801+00:00",
       "source_count": 1,
@@ -2223,40 +3875,6 @@
         {
           "type": "malware",
           "value": "PHP2Shell"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "www.archivetj.com",
-      "confidence": "high",
-      "reason": "Identified as a C2 server used by the malware",
-      "first_seen": "2026-10-22T07:59:42+00:00",
-      "last_seen": "2026-10-22T07:59:42+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Securelist",
-          "url": "https://securelist.com/uefi-bootkit-blackx/121539/",
-          "pub_date": "2026-10-22T07:59:42+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "APT41"
-        },
-        {
-          "type": "malware",
-          "value": "BlackLotus"
-        },
-        {
-          "type": "malware",
-          "value": "BlackX"
-        },
-        {
-          "type": "malware",
-          "value": "OxiDLLRunner"
         }
       ]
     },
@@ -9281,40 +10899,6 @@
           "value": "Storm-2561"
         }
       ]
-    },
-    {
-      "type": "domain",
-      "value": "agent2.sh",
-      "confidence": "high",
-      "reason": "Described as part of a multi-stage payload chain used by attackers",
-      "first_seen": "2026-10-13T14:02:49.639910+00:00",
-      "last_seen": "2026-10-13T14:02:49.639910+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.microsoft.com",
-          "url": "https://www.microsoft.com/en-us/security/blog/2026/09/30/unauthenticated-command-injection-on-internet-facing-mail-servers-tracking-cve-2026-73570/",
-          "pub_date": "2026-10-13T14:02:49.63991+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "bypass.eu.org",
-      "confidence": "high",
-      "reason": "Described as campaign-associated infrastructure used by attackers",
-      "first_seen": "2026-10-13T14:02:49.639910+00:00",
-      "last_seen": "2026-10-13T14:02:49.639910+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.microsoft.com",
-          "url": "https://www.microsoft.com/en-us/security/blog/2026/09/30/unauthenticated-command-injection-on-internet-facing-mail-servers-tracking-cve-2026-73570/",
-          "pub_date": "2026-10-13T14:02:49.63991+00:00"
-        }
-      ],
-      "tags": []
     },
     {
       "type": "ipv4",
@@ -23312,346 +24896,6 @@
           "source": "Securelist",
           "url": "https://securelist.com/macsync-new-version/121383/",
           "pub_date": "2026-09-24T10:12:52+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "cacheoutattack.com",
-      "confidence": "high",
-      "reason": "Domain associated with the CacheOut attack",
-      "first_seen": "2026-09-24T04:31:27.990972+00:00",
-      "last_seen": "2026-09-24T04:31:27.990972+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "en.wikipedia.org",
-          "url": "https://en.wikipedia.org/wiki/Transient_execution_CPU_vulnerability",
-          "pub_date": "2026-09-24T04:31:27.990972+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "cve",
-          "value": "CVE-2020-12965"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2021-0086"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2021-0089"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2021-26341"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "indirector.cpusec.org",
-      "confidence": "high",
-      "reason": "Domain associated with the Indirector attack",
-      "first_seen": "2026-09-24T04:31:27.990972+00:00",
-      "last_seen": "2026-09-24T04:31:27.990972+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "en.wikipedia.org",
-          "url": "https://en.wikipedia.org/wiki/Transient_execution_CPU_vulnerability",
-          "pub_date": "2026-09-24T04:31:27.990972+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "cve",
-          "value": "CVE-2020-12965"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2021-0086"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2021-0089"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2021-26341"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "lviattack.eu",
-      "confidence": "high",
-      "reason": "Domain associated with the Load Value Injection attack",
-      "first_seen": "2026-09-24T04:31:27.990972+00:00",
-      "last_seen": "2026-09-24T04:31:27.990972+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "en.wikipedia.org",
-          "url": "https://en.wikipedia.org/wiki/Transient_execution_CPU_vulnerability",
-          "pub_date": "2026-09-24T04:31:27.990972+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "cve",
-          "value": "CVE-2020-12965"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2021-0086"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2021-0089"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2021-26341"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "mdsattacks.com",
-      "confidence": "high",
-      "reason": "Domain associated with Microarchitectural Data Sampling attacks",
-      "first_seen": "2026-09-24T04:31:27.990972+00:00",
-      "last_seen": "2026-09-24T04:31:27.990972+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "en.wikipedia.org",
-          "url": "https://en.wikipedia.org/wiki/Transient_execution_CPU_vulnerability",
-          "pub_date": "2026-09-24T04:31:27.990972+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "cve",
-          "value": "CVE-2020-12965"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2021-0086"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2021-0089"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2021-26341"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "meltdownattack.com",
-      "confidence": "high",
-      "reason": "Domain associated with the Meltdown attack",
-      "first_seen": "2026-09-24T04:31:27.990972+00:00",
-      "last_seen": "2026-09-24T04:31:27.990972+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "en.wikipedia.org",
-          "url": "https://en.wikipedia.org/wiki/Transient_execution_CPU_vulnerability",
-          "pub_date": "2026-09-24T04:31:27.990972+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "cve",
-          "value": "CVE-2020-12965"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2021-0086"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2021-0089"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2021-26341"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "zombieloadattack.com",
-      "confidence": "high",
-      "reason": "Domain associated with the ZombieLoad attack",
-      "first_seen": "2026-09-24T04:31:27.990972+00:00",
-      "last_seen": "2026-09-24T04:31:27.990972+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "en.wikipedia.org",
-          "url": "https://en.wikipedia.org/wiki/Transient_execution_CPU_vulnerability",
-          "pub_date": "2026-09-24T04:31:27.990972+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "cve",
-          "value": "CVE-2020-12965"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2021-0086"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2021-0089"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2021-26341"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "elxxvvx.xyz",
-      "confidence": "high",
-      "reason": "Referenced as a site distributing a PowerShell script for malware delivery.",
-      "first_seen": "2026-09-24T03:17:57+00:00",
-      "last_seen": "2026-09-24T03:17:57+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Bleepingcomputer",
-          "url": "https://www.bleepingcomputer.com/news/security/placeholder-domain-used-in-dev-docs-now-serves-clickfix-attacks/",
-          "pub_date": "2026-09-24T03:17:57+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "gocommunity.io",
-      "confidence": "high",
-      "reason": "Domain used to distribute Go malware via Terraform providers and Go Modules",
-      "first_seen": "2026-09-23T18:07:17+00:00",
-      "last_seen": "2026-09-23T18:07:17+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Thehackernews",
-          "url": "https://thehackernews.com/2026/09/attackers-use-malicious-terraform.html",
-          "pub_date": "2026-09-23T18:07:17+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Contagious Interview"
-        },
-        {
-          "type": "campaign",
-          "value": "PolinRider"
-        },
-        {
-          "type": "campaign",
-          "value": "TraderTraitor"
-        },
-        {
-          "type": "malware",
-          "value": "Ghappier"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "tradeyourevents.com",
-      "confidence": "high",
-      "reason": "Used in phishing emails impersonating Xero",
-      "first_seen": "2026-09-23T15:27:39+00:00",
-      "last_seen": "2026-09-23T15:27:39+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Central.Xero",
-          "url": "https://central.xero.com/s/article/Security-noticeboard",
-          "pub_date": "2026-09-23T15:27:39+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "xerocareers.com",
-      "confidence": "high",
-      "reason": "Used in a fake job offer scam email",
-      "first_seen": "2026-09-23T15:27:39+00:00",
-      "last_seen": "2026-09-23T15:27:39+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Central.Xero",
-          "url": "https://central.xero.com/s/article/Security-noticeboard",
-          "pub_date": "2026-09-23T15:27:39+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "brokeapt.com",
-      "confidence": "high",
-      "reason": "Identified as a C2 domain for Vidar infostealer.",
-      "first_seen": "2026-09-23T14:43:17.455423+00:00",
-      "last_seen": "2026-09-23T14:43:17.455423+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.microsoft.com",
-          "url": "https://www.microsoft.com/en-us/security/blog/2026/06/08/ai-brands-as-bait-how-threat-actors-are-using-the-ai-hype-in-social-engineering",
-          "pub_date": "2026-09-23T14:43:17.455423+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "dash.awaydouble.org",
-      "confidence": "high",
-      "reason": "Used for credential harvesting",
-      "first_seen": "2026-09-23T14:43:17.455423+00:00",
-      "last_seen": "2026-09-23T14:43:17.455423+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.microsoft.com",
-          "url": "https://www.microsoft.com/en-us/security/blog/2026/06/08/ai-brands-as-bait-how-threat-actors-are-using-the-ai-hype-in-social-engineering",
-          "pub_date": "2026-09-23T14:43:17.455423+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "servicing.pureplantcravings.com",
-      "confidence": "high",
-      "reason": "Used in a phishing campaign for credential harvesting",
-      "first_seen": "2026-09-23T14:43:17.455423+00:00",
-      "last_seen": "2026-09-23T14:43:17.455423+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.microsoft.com",
-          "url": "https://www.microsoft.com/en-us/security/blog/2026/06/08/ai-brands-as-bait-how-threat-actors-are-using-the-ai-hype-in-social-engineering",
-          "pub_date": "2026-09-23T14:43:17.455423+00:00"
         }
       ],
       "tags": []

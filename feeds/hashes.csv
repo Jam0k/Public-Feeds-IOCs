@@ -1,18 +1,119 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason
-sha256,bd1aeee419ea36da9aa2b657288da4101887be468f020ac63d22ba6ed84a3ea5,high,2026-10-21T13:41:48.036000+00:00,2026-10-23T09:30:43.929819+00:00,2,www.stepsecurity.io:2026-10-23|Socket.Dev:2026-10-21,SHA-256 hash of a malicious file in the compromised package
+md5,b61a098fc62a2c2696e196dca78da71a,high,2026-10-22T11:32:08.829801+00:00,2026-10-23T18:49:51+00:00,2,Sploitus:2026-10-23|ellio.tech:2026-10-22,Listed as a hash of a Mirai-variant loader
+sha1,c472dab4ff7c16782a8037f988d4daa6d4bdb343,high,2026-10-23T18:49:51+00:00,2026-10-23T18:49:51+00:00,1,Sploitus:2026-10-23,Listed as a hash of a Mirai-variant loader
+sha256,0c5486f06620e26e316f4b33f318b0d646d5e1133789331aa2fed012360d1486,high,2026-10-22T11:32:08.829801+00:00,2026-10-23T18:49:51+00:00,4,Sploitus:2026-10-23|cowrai.com:2026-10-23|Arcticwolf:2026-10-22|ellio.tech:2026-10-22,Listed as a hash of a Mirai-variant loader
+sha256,17758cf05e3376f8448dff926564e038b763b4a46668455e2ccb5ac0839e629c,high,2026-10-22T11:32:08.829801+00:00,2026-10-23T18:49:51+00:00,2,Sploitus:2026-10-23|ellio.tech:2026-10-22,Listed as a hash of a Chinese IIS web shell
+sha256,7133612558a5d0f257ca6bdb4f765453af9465bc5298acdcf33b5761b8c59aac,high,2026-10-22T11:32:08.829801+00:00,2026-10-23T18:49:51+00:00,2,Sploitus:2026-10-23|ellio.tech:2026-10-22,Listed as a hash of a DDoS booter
+sha256,dd98bf48899aa385035352688357742c73ddc5e47ec4ecc7d7b74c53c2e3ca3d,high,2026-10-22T11:32:08.829801+00:00,2026-10-23T18:49:51+00:00,2,Sploitus:2026-10-23|ellio.tech:2026-10-22,Listed as a hash of a Go remote-access agent
+md5,032473db4d66748eab524effe57a661d,high,2026-10-23T14:34:31.423520+00:00,2026-10-23T14:34:31.423520+00:00,1,www.group-ib.com:2026-10-23,Listed as a file hash in IOC section
+md5,0dc1af7cfd336a7f075228defc730082,high,2026-10-23T14:34:31.423520+00:00,2026-10-23T14:34:31.423520+00:00,1,www.group-ib.com:2026-10-23,Listed as a file hash in IOC section
+md5,13367fbba4344de87de418ab17de76f0,high,2026-10-23T14:34:31.423520+00:00,2026-10-23T14:34:31.423520+00:00,1,www.group-ib.com:2026-10-23,Listed as a file hash in IOC section
+md5,197f2621c80da7974c56d2ff1921e994,high,2026-10-23T14:34:31.423520+00:00,2026-10-23T14:34:31.423520+00:00,1,www.group-ib.com:2026-10-23,Listed as a file hash in IOC section
+md5,20dc8f1b8a313336c14e03bcb71ff6c8,high,2026-10-23T14:34:31.423520+00:00,2026-10-23T14:34:31.423520+00:00,1,www.group-ib.com:2026-10-23,Listed as a file hash in IOC section
+md5,5318f29ef434341d989d543b14fd2a48,high,2026-10-23T14:34:31.423520+00:00,2026-10-23T14:34:31.423520+00:00,1,www.group-ib.com:2026-10-23,Listed as a file hash in IOC section
+md5,6f5d18157425aa9697913ae1310f588f,high,2026-10-23T14:34:31.423520+00:00,2026-10-23T14:34:31.423520+00:00,1,www.group-ib.com:2026-10-23,Listed as a file hash in IOC section
+sha1,6546801898d0b32f5050f49c5302f0366d630cc9,high,2026-10-23T14:34:31.423520+00:00,2026-10-23T14:34:31.423520+00:00,1,www.group-ib.com:2026-10-23,Listed as a file hash in IOC section
+sha1,b39cf70a0194d32e00d7812c29ae1d6add77b823,high,2026-10-23T14:34:31.423520+00:00,2026-10-23T14:34:31.423520+00:00,1,www.group-ib.com:2026-10-23,Listed as a file hash in IOC section
+sha1,b686a811ad89671fbdb448d65f79488d2e562265,high,2026-10-23T14:34:31.423520+00:00,2026-10-23T14:34:31.423520+00:00,1,www.group-ib.com:2026-10-23,Listed as a file hash in IOC section
+sha1,bfd864ec0e6bd912f932e4f3ed80687736ee16e8,high,2026-10-23T14:34:31.423520+00:00,2026-10-23T14:34:31.423520+00:00,1,www.group-ib.com:2026-10-23,Listed as a file hash in IOC section
+sha1,e2c96e603323d8fc7c08678b793d56554faa6914,high,2026-10-23T14:34:31.423520+00:00,2026-10-23T14:34:31.423520+00:00,1,www.group-ib.com:2026-10-23,Listed as a file hash in IOC section
+sha1,e47a2b7ca6a8c009962871dbb667d128ad6b6162,high,2026-10-23T14:34:31.423520+00:00,2026-10-23T14:34:31.423520+00:00,1,www.group-ib.com:2026-10-23,Listed as a file hash in IOC section
+sha1,f05daaf66b200672d679a5ced8b67d4b48a4906e,high,2026-10-23T14:34:31.423520+00:00,2026-10-23T14:34:31.423520+00:00,1,www.group-ib.com:2026-10-23,Listed as a file hash in IOC section
+sha256,158215c7371e868f3d0c7fd2e92f05026a8678a3635629d89bd6042ee543278a,high,2026-10-23T14:34:31.423520+00:00,2026-10-23T14:34:31.423520+00:00,1,www.group-ib.com:2026-10-23,Listed in a table of IOCs related to MeshAgent payload hosting
+sha256,1d1b76d30a69aa39b224053481483156f82dde026edd6f5d964f6e03f5f04a6d,high,2026-10-23T14:34:31.423520+00:00,2026-10-23T14:34:31.423520+00:00,1,www.group-ib.com:2026-10-23,Listed in a table of IOCs related to MeshAgent payload hosting
+sha256,39c4decc4881ec02a47cd01c0fd8c3030527b466124ad03c6f99cfaa0ba0b72e,high,2026-10-23T14:34:31.423520+00:00,2026-10-23T14:34:31.423520+00:00,1,www.group-ib.com:2026-10-23,Listed in a table of IOCs related to MeshAgent payload hosting
+sha256,4db6bea4c1e4bce5020039def4087a073f4753a6b297b2832c19c10423ac842d,high,2026-10-23T14:34:31.423520+00:00,2026-10-23T14:34:31.423520+00:00,1,www.group-ib.com:2026-10-23,Listed in a table of IOCs related to MeshAgent payload hosting
+sha256,552d0096f60c36a35c6096b3e4b38d743c29f8c56f3862fa3b7ef06c932e2a21,high,2026-10-23T14:34:31.423520+00:00,2026-10-23T14:34:31.423520+00:00,1,www.group-ib.com:2026-10-23,Listed in a table of IOCs related to MeshAgent payload hosting
+sha256,808145ec3351569083fda27a910ebdf9e054e8ca42e40c021af5d6712c2ab87c,high,2026-10-23T14:34:31.423520+00:00,2026-10-23T14:34:31.423520+00:00,1,www.group-ib.com:2026-10-23,Listed as a file hash in IOC section
+sha256,f9e95af4cda14dd5596c452a1a698f60412a7b2a9540321ee2a10b3bcbbd2a0e,high,2026-10-23T14:34:31.423520+00:00,2026-10-23T14:34:31.423520+00:00,1,www.group-ib.com:2026-10-23,Listed in a table of IOCs related to MeshAgent payload hosting
+sha256,bd1aeee419ea36da9aa2b657288da4101887be468f020ac63d22ba6ed84a3ea5,high,2026-10-21T13:41:48.036000+00:00,2026-10-23T12:00:40.720071+00:00,2,www.stepsecurity.io:2026-10-23|Socket.Dev:2026-10-21,SHA-256 hash of a malicious file in the compromised package
+sha256,4d02f14d109458cb0d696b65456918fcd724ca385aa30c688f08554c8899938c,high,2026-10-23T11:31:38.104751+00:00,2026-10-23T11:31:38.104751+00:00,1,cowrai.com:2026-10-23,SHA-256 hash of a loader for the DDoS bot
+md5,0603C8AAECBDC523CBD3495E93AFB20C,high,2026-10-23T11:01:21.955683+00:00,2026-10-23T11:01:21.955683+00:00,1,securelist.com:2026-10-23,Listed as a hash for StealthMutant malware
+md5,45E862964EF4EFDEA181F3927D20E96D,high,2026-10-23T11:01:21.955683+00:00,2026-10-23T11:01:21.955683+00:00,1,securelist.com:2026-10-23,Listed as a hash for xTalker Rootkit
+md5,4BC82105403974AA24BF02CFB66B8F7C,high,2026-10-23T11:01:21.955683+00:00,2026-10-23T11:01:21.955683+00:00,1,securelist.com:2026-10-23,Listed as a hash for xTalker Rootkit
+md5,4D5EB9F6F501B4F6EDF981A3C6C4D6FA,high,2026-10-23T11:01:21.955683+00:00,2026-10-23T11:01:21.955683+00:00,1,securelist.com:2026-10-23,Listed as a hash for StealthVector malware
+md5,4E4388D7967E0433D400C60475974D50,high,2026-10-23T11:01:21.955683+00:00,2026-10-23T11:01:21.955683+00:00,1,securelist.com:2026-10-23,Listed as a hash for Mimikat_SSP malware
+md5,4EF90CEEF2CC9FF3121B34A9891BB28D,high,2026-10-23T11:01:21.955683+00:00,2026-10-23T11:01:21.955683+00:00,1,securelist.com:2026-10-23,Listed as a hash for InstallUtil Launcher
+md5,50FF717A8E3106DDBF00FB42212879C5,high,2026-10-23T11:01:21.955683+00:00,2026-10-23T11:01:21.955683+00:00,1,securelist.com:2026-10-23,Listed as a hash for Go Implant malware
+md5,5F1C7602688E67F299F5BD533FA07880,high,2026-10-23T11:01:21.955683+00:00,2026-10-23T11:01:21.955683+00:00,1,securelist.com:2026-10-23,Listed as a hash for xTalker Rootkit
+md5,5F9020983A61446A77AF1976247C443D,high,2026-10-23T11:01:21.955683+00:00,2026-10-23T11:01:21.955683+00:00,1,securelist.com:2026-10-23,Listed as a hash for StealthMutant malware
+md5,5FE6CE9C48D0AE98EC2CA1EC9759AAD9,high,2026-10-23T11:01:21.955683+00:00,2026-10-23T11:01:21.955683+00:00,1,securelist.com:2026-10-23,Listed as a hash for Microcin malware
+md5,899608DE6B59C63B4AE219C3C13502F5,high,2026-10-23T11:01:21.955683+00:00,2026-10-23T11:01:21.955683+00:00,1,securelist.com:2026-10-23,Listed as a hash for InstallUtil Launcher
+md5,8C7598061D1E8741B8389A80BFD8B8F5,high,2026-10-23T11:01:21.955683+00:00,2026-10-23T11:01:21.955683+00:00,1,securelist.com:2026-10-23,Listed as a hash for Microcin malware
+md5,97EF7B8FCDCB0C0D9FBB93D0F7E6E3B6,high,2026-10-23T11:01:21.955683+00:00,2026-10-23T11:01:21.955683+00:00,1,securelist.com:2026-10-23,Listed as a hash for Mimikat_SSP malware
+md5,C3B153347AED27435A18E789D8B67E0A,high,2026-10-23T11:01:21.955683+00:00,2026-10-23T11:01:21.955683+00:00,1,securelist.com:2026-10-23,Listed as a hash for StealthVector malware
+md5,C9B250099E2DD27BB4170836AC480FE0,high,2026-10-23T11:01:21.955683+00:00,2026-10-23T11:01:21.955683+00:00,1,securelist.com:2026-10-23,Listed as a hash for Go Implant malware
+md5,CFF2772C44F6F86661AB0A4FFBF86833,high,2026-10-23T11:01:21.955683+00:00,2026-10-23T11:01:21.955683+00:00,1,securelist.com:2026-10-23,Listed as a hash for InstallUtil Launcher
+md5,D94962550B90DDB3F80F62BD96BD9858,high,2026-10-23T11:01:21.955683+00:00,2026-10-23T11:01:21.955683+00:00,1,securelist.com:2026-10-23,Listed as a hash for Malicious CORE_DXE
+md5,D98614600775781673B6DF397CC4F476,high,2026-10-23T11:01:21.955683+00:00,2026-10-23T11:01:21.955683+00:00,1,securelist.com:2026-10-23,Listed as a hash for Go Implant malware
+md5,E7155C355C90DC113476DDCF765B187D,high,2026-10-23T11:01:21.955683+00:00,2026-10-23T11:01:21.955683+00:00,1,securelist.com:2026-10-23,Listed as a hash for StealthVector malware
+md5,F9F9D6FB3CB94B1CDF9E437141B59E16,high,2026-10-23T11:01:21.955683+00:00,2026-10-23T11:01:21.955683+00:00,1,securelist.com:2026-10-23,Listed as a hash for Microcin malware
+sha1,05846D5B1D37EE2D716140DE4F4F984CF1E631D1,high,2026-10-23T11:01:20.633054+00:00,2026-10-23T11:01:20.633054+00:00,1,www.welivesecurity.com:2026-10-23,Listed as a hash for BlackLotus installer
+sha1,06AF3016ACCDB3DFE1C23657BF1BF91C13BAA757,high,2026-10-23T11:01:20.633054+00:00,2026-10-23T11:01:20.633054+00:00,1,www.welivesecurity.com:2026-10-23,Listed as a hash for BlackLotus HTTP downloader
+sha1,0C0E78BF97116E781DDE0E00A1CD0C29E68D623D,high,2026-10-23T11:01:20.633054+00:00,2026-10-23T11:01:20.633054+00:00,1,www.welivesecurity.com:2026-10-23,Listed as a hash for BlackLotus HTTP downloader
+sha1,111C4998F3264617A7A9D9BF662D4B1577445B20,high,2026-10-23T11:01:20.633054+00:00,2026-10-23T11:01:20.633054+00:00,1,www.welivesecurity.com:2026-10-23,Listed as a hash for BlackLotus HTTP downloader
+sha1,16B12CEA54360AA42E1120E82C1E9BC0371CB635,high,2026-10-23T11:01:20.633054+00:00,2026-10-23T11:01:20.633054+00:00,1,www.welivesecurity.com:2026-10-23,Listed as a hash for BlackLotus installer
+sha1,17FA047C1F979B180644906FE9265F21AF5B0509,high,2026-10-23T11:01:20.633054+00:00,2026-10-23T11:01:20.633054+00:00,1,www.welivesecurity.com:2026-10-23,Listed as a hash for BlackLotus kernel driver
+sha1,1F3799FED3CF43254FE30DCDFDB8DC02D82E662B,high,2026-10-23T11:01:20.633054+00:00,2026-10-23T11:01:20.633054+00:00,1,www.welivesecurity.com:2026-10-23,Listed as a hash for BlackLotus kernel driver
+sha1,2CE056AE323B0380B0E87225EA0AE087A33CD316,high,2026-10-23T11:01:20.633054+00:00,2026-10-23T11:01:20.633054+00:00,1,www.welivesecurity.com:2026-10-23,Listed as a hash for BlackLotus UEFI bootkit
+sha1,45701A83DEC1DC71A48268C9D6D205F31D9E7FFB,high,2026-10-23T11:01:20.633054+00:00,2026-10-23T11:01:20.633054+00:00,1,www.welivesecurity.com:2026-10-23,Listed as a hash for BlackLotus installer
+sha1,4B882748FAF2C6C360884C6812DD5BCBCE75EBFF,high,2026-10-23T11:01:20.633054+00:00,2026-10-23T11:01:20.633054+00:00,1,www.welivesecurity.com:2026-10-23,Listed as a hash for BlackLotus kernel driver
+sha1,5A0074203ABD5DEB464BA0A79E14B7541A033216,high,2026-10-23T11:01:20.633054+00:00,2026-10-23T11:01:20.633054+00:00,1,www.welivesecurity.com:2026-10-23,Listed as a hash for BlackLotus UEFI bootkit
+sha1,5DC9CBD75ABD830E83641A0265BFFDDD2F602815,high,2026-10-23T11:01:20.633054+00:00,2026-10-23T11:01:20.633054+00:00,1,www.welivesecurity.com:2026-10-23,Listed as a hash for BlackLotus UEFI bootkit
+sha1,6D8CEE28DA8BCF25A4D232FEB0810452ACADA11D,high,2026-10-23T11:01:20.633054+00:00,2026-10-23T11:01:20.633054+00:00,1,www.welivesecurity.com:2026-10-23,Listed as a hash for BlackLotus HTTP downloader
+sha1,71559C3E2F3950D4EE016F24CA54DA17D28B9D82,high,2026-10-23T11:01:20.633054+00:00,2026-10-23T11:01:20.633054+00:00,1,www.welivesecurity.com:2026-10-23,Listed as a hash for BlackLotus Boot Configuration Data
+sha1,74FF58FCE8F19083D16DF0109DC91D78C94342FA,high,2026-10-23T11:01:20.633054+00:00,2026-10-23T11:01:20.633054+00:00,1,www.welivesecurity.com:2026-10-23,Listed as a hash for BlackLotus HTTP downloader
+sha1,91F832F46E4C38ECC9335460D46F6F71352CFFED,high,2026-10-23T11:01:20.633054+00:00,2026-10-23T11:01:20.633054+00:00,1,www.welivesecurity.com:2026-10-23,Listed as a hash for BlackLotus kernel driver
+sha1,97AEC21042DF47D39AC212761729C6BE484D064D,high,2026-10-23T11:01:20.633054+00:00,2026-10-23T11:01:20.633054+00:00,1,www.welivesecurity.com:2026-10-23,Listed as a hash for BlackLotus UEFI bootkit
+sha1,994DC79255AEB662A672A1814280DE73D405617A,high,2026-10-23T11:01:20.633054+00:00,2026-10-23T11:01:20.633054+00:00,1,www.welivesecurity.com:2026-10-23,Listed as a hash for BlackLotus kernel driver
+sha1,A5A530A91100ED5F07A5D74698B15C646DD44E16,high,2026-10-23T11:01:20.633054+00:00,2026-10-23T11:01:20.633054+00:00,1,www.welivesecurity.com:2026-10-23,Listed as a hash for BlackLotus installer
+sha1,ACC74217CBE3F2E727A826B34BDE482DCAE15BE6,high,2026-10-23T11:01:20.633054+00:00,2026-10-23T11:01:20.633054+00:00,1,www.welivesecurity.com:2026-10-23,Listed as a hash for BlackLotus HTTP downloader
+sha1,ADCEEC18FF009BED635D168E0B116E72096F18D2,high,2026-10-23T11:01:20.633054+00:00,2026-10-23T11:01:20.633054+00:00,1,www.welivesecurity.com:2026-10-23,Listed as a hash for BlackLotus UEFI bootkit
+sha1,D82539BFC2CC7CB504BE74AC74DF696B13DB486A,high,2026-10-23T11:01:20.633054+00:00,2026-10-23T11:01:20.633054+00:00,1,www.welivesecurity.com:2026-10-23,Listed as a hash for BlackLotus installer
+sha1,DAE7E7C4EEC2AC0DC7963C44A5A4F47D930C5508,high,2026-10-23T11:01:20.633054+00:00,2026-10-23T11:01:20.633054+00:00,1,www.welivesecurity.com:2026-10-23,Listed as a hash for BlackLotus installer
+sha1,DBC064F757C69EC43517EFF496146B43CBA949D1,high,2026-10-23T11:01:20.633054+00:00,2026-10-23T11:01:20.633054+00:00,1,www.welivesecurity.com:2026-10-23,Listed as a hash for BlackLotus UEFI bootkit
+sha1,FFF4F28287677CAABC60C8AB36786C370226588D,high,2026-10-23T11:01:20.633054+00:00,2026-10-23T11:01:20.633054+00:00,1,www.welivesecurity.com:2026-10-23,Listed as a hash for BlackLotus kernel driver
+sha256,0bfc11c6ba57fdaa8b865555d80d8f7d7b1d0f41a23a277885198b3113c945d9,high,2026-10-23T07:30:31.639609+00:00,2026-10-23T07:30:31.639609+00:00,1,www.safebreach.com:2026-10-23,Listed in a table of IOCs related to Foudre malware
+sha256,12847dc6dfd86603e8f0085ae561b4b2e3089e5414e49628f7c411483c7b5ce8,high,2026-10-23T07:30:31.639609+00:00,2026-10-23T07:30:31.639609+00:00,1,www.safebreach.com:2026-10-23,Listed in a table of IOCs related to Foudre malware
+sha256,15dd41ec1bdaabb741e8cc6481e0a98831798ac4e93c2513cdbd00c51241ffb7,high,2026-10-23T07:30:31.639609+00:00,2026-10-23T07:30:31.639609+00:00,1,www.safebreach.com:2026-10-23,Listed in a table of IOCs related to Foudre malware
+sha256,30c20ada243b7e476e006dec94876bdeece4f8aca12a4cb6cf962c80f1a6ee3c,high,2026-10-23T07:30:31.639609+00:00,2026-10-23T07:30:31.639609+00:00,1,www.safebreach.com:2026-10-23,Listed in a table of IOCs related to Foudre malware
 sha256,34692cabe9e9ba584ec2b8947a7aad4f787d10a3da56886e52d05d0675fe7b01,high,2026-10-23T07:30:31.639609+00:00,2026-10-23T07:30:31.639609+00:00,1,www.safebreach.com:2026-10-23,Hash of a malicious file uploaded to VirusTotal
 sha256,4398063cd50c77b8d28f15c35b5948165b356f33dd7c4504eeac0c328fe97487,high,2026-10-23T07:30:31.639609+00:00,2026-10-23T07:30:31.639609+00:00,1,www.safebreach.com:2026-10-23,Hash of a malicious file uploaded to VirusTotal
+sha256,43ccc2620229d88d5a6ca2b064da0554ec3c3cc29a097e7a2d97283257cfae69,high,2026-10-23T07:30:31.639609+00:00,2026-10-23T07:30:31.639609+00:00,1,www.safebreach.com:2026-10-23,Listed in a table of IOCs related to Foudre malware
 sha256,44fc9e306763774b50b61fc7487aa1d219aa288aefa201119c7bc278e17600a8,high,2026-10-23T07:30:31.639609+00:00,2026-10-23T07:30:31.639609+00:00,1,www.safebreach.com:2026-10-23,Hash of a malicious file used in an exploit
 sha256,52abb57bf6f9db815b3ddf6241e21d4096f36eb998bb51e728bbe68c0f8e8e15,high,2026-10-23T07:30:31.639609+00:00,2026-10-23T07:30:31.639609+00:00,1,www.safebreach.com:2026-10-23,Hash of a malicious file used in an exploit
+sha256,52e3a856548825ec0a3d6630e881ff4f79d2a11bc3420a73d42e161fabed53d9,high,2026-10-23T07:30:31.639609+00:00,2026-10-23T07:30:31.639609+00:00,1,www.safebreach.com:2026-10-23,Listed in a table of IOCs related to Foudre malware
+sha256,5ad83f9fad87273593f9df73761de211a704e6e10984fde113a6435cc83c1e58,high,2026-10-23T07:30:31.639609+00:00,2026-10-23T07:30:31.639609+00:00,1,www.safebreach.com:2026-10-23,Listed in a table of IOCs related to Foudre malware
+sha256,5db4ed7d07ab028ab6ceba8efec5f667d86a419020d2a8c86e90a3125aa31bb9,high,2026-10-23T07:30:31.639609+00:00,2026-10-23T07:30:31.639609+00:00,1,www.safebreach.com:2026-10-23,Listed as a file masquerading as a doc file but actually an SFX file
+sha256,6f976a685ae838a7062fb4f152c6c77c42168b78b9aadd4278ec1c19f9bc1055,high,2026-10-23T07:30:31.639609+00:00,2026-10-23T07:30:31.639609+00:00,1,www.safebreach.com:2026-10-23,Listed in a table of IOCs related to Foudre malware
 sha256,8DB20544F280955ED3EF3C42DC8423E3000E244FC7C8F0E3A7567FA48F7A15D9,high,2026-10-23T07:30:31.639609+00:00,2026-10-23T07:30:31.639609+00:00,1,www.safebreach.com:2026-10-23,Hash of a malicious file used in an exploit
 sha256,ae2005c3fe8ab3b96ab712c5543651431c25fa4f42f828e22bf3ae414cf663c1,high,2026-10-23T07:30:31.639609+00:00,2026-10-23T07:30:31.639609+00:00,1,www.safebreach.com:2026-10-23,Hash of a malicious file uploaded to VirusTotal
 sha256,B937024B7484B26D09BA8130CC4AB04600DC18C976BB0C7724A063F1FC6F0D77,high,2026-10-23T07:30:31.639609+00:00,2026-10-23T07:30:31.639609+00:00,1,www.safebreach.com:2026-10-23,Hash of a malicious file used in an exploit
 sha256,C8583FDDF668808E31F993FF6BCFC6F8BA8B4C2C0C4EA51D4CCC6F5D311B6C90,high,2026-10-23T07:30:31.639609+00:00,2026-10-23T07:30:31.639609+00:00,1,www.safebreach.com:2026-10-23,Hash of a malicious file used in an exploit
+sha256,cb6ed0dd5dbc2e34ae36dd22b9522f7eec94bbfda2dcda7425736656279f8cdf,high,2026-10-23T07:30:31.639609+00:00,2026-10-23T07:30:31.639609+00:00,1,www.safebreach.com:2026-10-23,Listed in a table of IOCs related to Foudre malware
+sha256,cf64bf78ce570f8085110defc8ec32ff4f01c7359723510b9d1923fd93d12240,high,2026-10-23T07:30:31.639609+00:00,2026-10-23T07:30:31.639609+00:00,1,www.safebreach.com:2026-10-23,Listed in a table of IOCs related to Foudre malware
+sha256,d3d8b79f86f152338aabeadfaf35ba2e43f82aa4bfa29ff70b59702b455fa6a6,high,2026-10-23T07:30:31.639609+00:00,2026-10-23T07:30:31.639609+00:00,1,www.safebreach.com:2026-10-23,Listed in a table of IOCs related to Foudre malware
+sha256,d9dfc8a8e3e259a517a91e2e91e3a1d6ef1d5b0886e6729bf897d6ef1b2de722,high,2026-10-23T07:30:31.639609+00:00,2026-10-23T07:30:31.639609+00:00,1,www.safebreach.com:2026-10-23,Listed in a table of IOCs related to Foudre malware
+sha256,f54cfe296186644d0fed271c469af1ef9b6156affe9e030e7b83b8de097eb1e7,high,2026-10-23T07:30:31.639609+00:00,2026-10-23T07:30:31.639609+00:00,1,www.safebreach.com:2026-10-23,Listed in a table of IOCs related to Foudre malware
+sha256,fa95a09e538b8c186a3239e3ff80ec9054b50aab80c624e75563ace4e60e31da,high,2026-10-23T07:30:31.639609+00:00,2026-10-23T07:30:31.639609+00:00,1,www.safebreach.com:2026-10-23,Listed in a table of IOCs related to Foudre malware
+sha256,fbb2ac0d07b84068aa35376cc994039f9fc1d2341643bc2bf268d65ab11ecbe3,high,2026-10-23T07:30:31.639609+00:00,2026-10-23T07:30:31.639609+00:00,1,www.safebreach.com:2026-10-23,Listed in a table of IOCs related to Foudre malware
+sha256,04d2828155ed2a276cfd3c97d4f966d328391dd818e04e773212cd601e49fa74,high,2026-10-23T07:19:06+00:00,2026-10-23T07:19:06+00:00,1,Zscaler:2026-10-23,Listed in a table of IOCs related to Armorsteal malware
+sha256,0ea99fbbe29af6f797e3866ed5f822c7a5d3e9cdb990a8c382a715069f156499,high,2026-10-23T07:19:06+00:00,2026-10-23T07:19:06+00:00,1,Zscaler:2026-10-23,Listed in a table of IOCs related to Armorsteal malware
+sha256,237ba698d7dc8936c43e0e78e7644002375e51e8baf9b3a7d4e18683f871ee31,high,2026-10-23T07:19:06+00:00,2026-10-23T07:19:06+00:00,1,Zscaler:2026-10-23,Listed in a table of IOCs related to Armorsteal malware
+sha256,3e3b62a9836697d978cbb620dc8af8f6eefdf8cb73fc30d16bb394d1c58f4c97,high,2026-10-23T07:19:06+00:00,2026-10-23T07:19:06+00:00,1,Zscaler:2026-10-23,Listed in a table of IOCs related to Armorsteal malware
+sha256,5410c2f239c3649928383c4478dea182f90b21f5b258081fec07e9d297ae4b1c,high,2026-10-23T07:19:06+00:00,2026-10-23T07:19:06+00:00,1,Zscaler:2026-10-23,Listed in a table of IOCs related to Armorsteal malware
+sha256,56f05c4fb1c25c04e0dde60e2e5e41ac164a6dc53688d0f9eb52a55f82106389,high,2026-10-23T07:19:06+00:00,2026-10-23T07:19:06+00:00,1,Zscaler:2026-10-23,Listed in a table of IOCs related to Armorsteal malware
+sha256,8fb7aaf2b9270b8b75f6844aaefd5242b4f926fb89cba10fff3d9b908a769788,high,2026-10-23T07:19:06+00:00,2026-10-23T07:19:06+00:00,1,Zscaler:2026-10-23,Listed in a table of IOCs related to Armorsteal malware
+sha256,be0329d0795dd62ae587faf97e704bb36413e5c98ddd8fe575f5077db3c84e5f,high,2026-10-23T07:19:06+00:00,2026-10-23T07:19:06+00:00,1,Zscaler:2026-10-23,Listed in a table of IOCs related to Armorsteal malware
+sha256,f3846ec2a6ff0a27d9ef2b9bf7908743b81d295ef29344acfb96ff83fff994f9,high,2026-10-23T07:19:06+00:00,2026-10-23T07:19:06+00:00,1,Zscaler:2026-10-23,Listed in a table of IOCs related to Armorsteal malware
+sha256,fb1181160e9f10ce1eb5e5dc9bc23e1498a39110ee9ea361fd150454cb01b292,high,2026-10-23T07:19:06+00:00,2026-10-23T07:19:06+00:00,1,Zscaler:2026-10-23,Listed in a table of IOCs related to Armorsteal malware
+md5,069f2134a0ef7d7c30b1c607d2386c19,high,2026-10-23T04:11:38+00:00,2026-10-23T04:11:38+00:00,1,Cyfirma:2026-10-23,Listed in a YARA rule for IronRAT malware detection
+sha1,0921c29f459c03aa2ad7ac9b4482e7bf4c84214d,high,2026-10-23T04:11:38+00:00,2026-10-23T04:11:38+00:00,1,Cyfirma:2026-10-23,Listed in a YARA rule for IronRAT malware detection
+sha256,47a9e572a1062abd16b0a0df256ba0c4b6b4660125844ca8ddbf22714f6beb30,high,2026-10-23T04:11:38+00:00,2026-10-23T04:11:38+00:00,1,Cyfirma:2026-10-23,Listed in a YARA rule for IronRAT malware detection
 sha256,cc4cc20b558096855c5d492f7a79b160a809355798be2b824525c98964450492,high,2026-10-22T19:36:43.233060+00:00,2026-10-22T19:36:43.233060+00:00,1,www.proofpoint.com:2026-10-22,Listed as an example malicious URL hash.
 sha256,dee6494e69c6e7289cf3f332e2867662958fa82f819615597e88c16c967a25a9,high,2026-10-22T19:36:43.233060+00:00,2026-10-22T19:36:43.233060+00:00,1,www.proofpoint.com:2026-10-22,Listed as an example malicious URL hash.
 sha256,e89f48a7351c01cbf2f8e31c65a67f76a5ead689bb11e9d4918090a165d4425f,high,2026-10-22T19:36:43.233060+00:00,2026-10-22T19:36:43.233060+00:00,1,www.proofpoint.com:2026-10-22,Listed as an example malicious URL hash.
 sha256,a8c062846411d3fb8ceb0b2fe34389c4910a4887cd39552d30e6a03a02f4cc78,high,2026-10-22T19:36:42.065904+00:00,2026-10-22T19:36:42.065904+00:00,1,www.proofpoint.com:2026-10-22,SHA256 hash of a malicious document used in a TA453 campaign
-sha256,0c5486f06620e26e316f4b33f318b0d646d5e1133789331aa2fed012360d1486,high,2026-10-22T11:32:08.829801+00:00,2026-10-22T18:45:20+00:00,2,Arcticwolf:2026-10-22|ellio.tech:2026-10-22,Listed as an IOC in a threat report
 sha256,267a3c8ed021a0a52c29bf076617a0dfd5cd5285202b8d0bd9ad0712110ccae8,high,2026-10-22T18:45:20+00:00,2026-10-22T18:45:20+00:00,1,Arcticwolf:2026-10-22,Listed in a structured IOC list as a malware sample hash.
 sha256,e2529d4afa39ae4db2eb05d5176317c906289abf09660c75bdeec43e54c55aa3,high,2026-10-22T18:45:20+00:00,2026-10-22T18:45:20+00:00,1,Arcticwolf:2026-10-22,Listed as an IOC in a threat report
 sha256,0457414c4504b70115798eee9c8384a8bf9e793461ffb2e0661a6dcc6ed4809f,high,2026-10-22T16:30:51.700994+00:00,2026-10-22T16:30:51.700994+00:00,1,www.huntress.com:2026-10-22,Identified as a patched DLL used in the attack
@@ -30,43 +131,15 @@ sha256,d3fda1e6cf886fd530bf62e2d16c39ad23ed12a2c933fc211f1f4876ceaa033e,high,202
 sha256,d5acf44658f0dce90bd160f15d8e07a96938c81661d87dc7e9cb0107863bfb90,high,2026-10-22T16:30:51.700994+00:00,2026-10-22T16:30:51.700994+00:00,1,www.huntress.com:2026-10-22,Identified as an encrypted archive containing the persistence script and RAT
 sha256,e614b7d5a7a363fb1b355a87e2e8d9e8a05bbbca08f2cee3d606bdb5015ac53b,high,2026-10-22T16:30:51.700994+00:00,2026-10-22T16:30:51.700994+00:00,1,www.huntress.com:2026-10-22,Identified as an encrypted archive holding the persistence script and RAT
 sha256,eff5d63ddf1813962f0d8ad1250cea5486c8bb5dd27c3f432b43957a33e43764,high,2026-10-22T16:30:51.700994+00:00,2026-10-22T16:30:51.700994+00:00,1,www.huntress.com:2026-10-22,Identified as a malicious native DLL used in the attack
-sha1,05846D5B1D37EE2D716140DE4F4F984CF1E631D1,high,2026-10-22T15:01:00.194911+00:00,2026-10-22T15:01:00.194911+00:00,1,www.welivesecurity.com:2026-10-22,Listed as a BlackLotus installer
-sha1,06AF3016ACCDB3DFE1C23657BF1BF91C13BAA757,high,2026-10-22T15:01:00.194911+00:00,2026-10-22T15:01:00.194911+00:00,1,www.welivesecurity.com:2026-10-22,Listed as a BlackLotus HTTP downloader
-sha1,0C0E78BF97116E781DDE0E00A1CD0C29E68D623D,high,2026-10-22T15:01:00.194911+00:00,2026-10-22T15:01:00.194911+00:00,1,www.welivesecurity.com:2026-10-22,Listed as a BlackLotus HTTP downloader
-sha1,111C4998F3264617A7A9D9BF662D4B1577445B20,high,2026-10-22T15:01:00.194911+00:00,2026-10-22T15:01:00.194911+00:00,1,www.welivesecurity.com:2026-10-22,Listed as a BlackLotus HTTP downloader
-sha1,16B12CEA54360AA42E1120E82C1E9BC0371CB635,high,2026-10-22T15:01:00.194911+00:00,2026-10-22T15:01:00.194911+00:00,1,www.welivesecurity.com:2026-10-22,Listed as a BlackLotus installer
-sha1,17FA047C1F979B180644906FE9265F21AF5B0509,high,2026-10-22T15:01:00.194911+00:00,2026-10-22T15:01:00.194911+00:00,1,www.welivesecurity.com:2026-10-22,Listed as a BlackLotus kernel driver
-sha1,1F3799FED3CF43254FE30DCDFDB8DC02D82E662B,high,2026-10-22T15:01:00.194911+00:00,2026-10-22T15:01:00.194911+00:00,1,www.welivesecurity.com:2026-10-22,Listed as a BlackLotus kernel driver
-sha1,2CE056AE323B0380B0E87225EA0AE087A33CD316,high,2026-10-22T15:01:00.194911+00:00,2026-10-22T15:01:00.194911+00:00,1,www.welivesecurity.com:2026-10-22,Listed as a BlackLotus UEFI bootkit
-sha1,45701A83DEC1DC71A48268C9D6D205F31D9E7FFB,high,2026-10-22T15:01:00.194911+00:00,2026-10-22T15:01:00.194911+00:00,1,www.welivesecurity.com:2026-10-22,Listed as a BlackLotus installer
-sha1,4B882748FAF2C6C360884C6812DD5BCBCE75EBFF,high,2026-10-22T15:01:00.194911+00:00,2026-10-22T15:01:00.194911+00:00,1,www.welivesecurity.com:2026-10-22,Listed as a BlackLotus kernel driver
-sha1,5A0074203ABD5DEB464BA0A79E14B7541A033216,high,2026-10-22T15:01:00.194911+00:00,2026-10-22T15:01:00.194911+00:00,1,www.welivesecurity.com:2026-10-22,Listed as a BlackLotus UEFI bootkit
-sha1,5DC9CBD75ABD830E83641A0265BFFDDD2F602815,high,2026-10-22T15:01:00.194911+00:00,2026-10-22T15:01:00.194911+00:00,1,www.welivesecurity.com:2026-10-22,Listed as a BlackLotus UEFI bootkit
-sha1,6D8CEE28DA8BCF25A4D232FEB0810452ACADA11D,high,2026-10-22T15:01:00.194911+00:00,2026-10-22T15:01:00.194911+00:00,1,www.welivesecurity.com:2026-10-22,Listed as a BlackLotus HTTP downloader
-sha1,71559C3E2F3950D4EE016F24CA54DA17D28B9D82,high,2026-10-22T15:01:00.194911+00:00,2026-10-22T15:01:00.194911+00:00,1,www.welivesecurity.com:2026-10-22,Listed as a BlackLotus Boot Configuration Data store
-sha1,74FF58FCE8F19083D16DF0109DC91D78C94342FA,high,2026-10-22T15:01:00.194911+00:00,2026-10-22T15:01:00.194911+00:00,1,www.welivesecurity.com:2026-10-22,Listed as a BlackLotus HTTP downloader
-sha1,91F832F46E4C38ECC9335460D46F6F71352CFFED,high,2026-10-22T15:01:00.194911+00:00,2026-10-22T15:01:00.194911+00:00,1,www.welivesecurity.com:2026-10-22,Listed as a BlackLotus kernel driver
-sha1,97AEC21042DF47D39AC212761729C6BE484D064D,high,2026-10-22T15:01:00.194911+00:00,2026-10-22T15:01:00.194911+00:00,1,www.welivesecurity.com:2026-10-22,Listed as a BlackLotus UEFI bootkit
-sha1,994DC79255AEB662A672A1814280DE73D405617A,high,2026-10-22T15:01:00.194911+00:00,2026-10-22T15:01:00.194911+00:00,1,www.welivesecurity.com:2026-10-22,Listed as a BlackLotus kernel driver
-sha1,A5A530A91100ED5F07A5D74698B15C646DD44E16,high,2026-10-22T15:01:00.194911+00:00,2026-10-22T15:01:00.194911+00:00,1,www.welivesecurity.com:2026-10-22,Listed as a BlackLotus installer
-sha1,ACC74217CBE3F2E727A826B34BDE482DCAE15BE6,high,2026-10-22T15:01:00.194911+00:00,2026-10-22T15:01:00.194911+00:00,1,www.welivesecurity.com:2026-10-22,Listed as a BlackLotus HTTP downloader
-sha1,ADCEEC18FF009BED635D168E0B116E72096F18D2,high,2026-10-22T15:01:00.194911+00:00,2026-10-22T15:01:00.194911+00:00,1,www.welivesecurity.com:2026-10-22,Listed as a BlackLotus UEFI bootkit
-sha1,D82539BFC2CC7CB504BE74AC74DF696B13DB486A,high,2026-10-22T15:01:00.194911+00:00,2026-10-22T15:01:00.194911+00:00,1,www.welivesecurity.com:2026-10-22,Listed as a BlackLotus installer
-sha1,DAE7E7C4EEC2AC0DC7963C44A5A4F47D930C5508,high,2026-10-22T15:01:00.194911+00:00,2026-10-22T15:01:00.194911+00:00,1,www.welivesecurity.com:2026-10-22,Listed as a BlackLotus installer
-sha1,DBC064F757C69EC43517EFF496146B43CBA949D1,high,2026-10-22T15:01:00.194911+00:00,2026-10-22T15:01:00.194911+00:00,1,www.welivesecurity.com:2026-10-22,Listed as a BlackLotus UEFI bootkit
-sha1,FFF4F28287677CAABC60C8AB36786C370226588D,high,2026-10-22T15:01:00.194911+00:00,2026-10-22T15:01:00.194911+00:00,1,www.welivesecurity.com:2026-10-22,Listed as a BlackLotus kernel driver
 sha256,bdfccc6ab3e592f6cfc47f6deb910950666fa47b5f87c6a08af7096d90e59d0f,high,2026-10-22T13:53:58+00:00,2026-10-22T13:53:58+00:00,1,Zimperium:2026-10-22,Hash associated with a malicious Android package in intrusion logs.
 md5,028afae8b5e9953e1cd84a003c42fd85,high,2026-10-22T13:00:02+00:00,2026-10-22T13:00:02+00:00,1,Varonis:2026-10-22,Listed as a malware sample hash in the context of StealC.
 md5,7739a8d0d101ca82b93bbd0acdb6d9af,high,2026-10-22T13:00:02+00:00,2026-10-22T13:00:02+00:00,1,Varonis:2026-10-22,Listed as a malware sample hash in the context of StealC.
 sha1,1ba76d2029744cc6e2f7209c96a696b32962b1f1,high,2026-10-22T13:00:02+00:00,2026-10-22T13:00:02+00:00,1,Varonis:2026-10-22,Listed as a malware sample hash in the context of StealC.
 sha256,0e5337a4cc8ebc772bc50f6e79befd1e8efad3410022e050d08d5269733c4ea4,high,2026-10-22T13:00:02+00:00,2026-10-22T13:00:02+00:00,1,Varonis:2026-10-22,Listed as a malware sample hash in the context of StealC v3.5 builds.
 sha256,ea928494fd30d88b98141d39a502a4324889fb732e74b44bfee12c72137dd73e,high,2026-10-22T13:00:02+00:00,2026-10-22T13:00:02+00:00,1,Varonis:2026-10-22,Listed as a malware sample hash in the context of StealC.
-md5,b61a098fc62a2c2696e196dca78da71a,high,2026-10-22T11:32:08.829801+00:00,2026-10-22T11:32:08.829801+00:00,1,ellio.tech:2026-10-22,MD5 hash of a malicious binary
-sha256,17758cf05e3376f8448dff926564e038b763b4a46668455e2ccb5ac0839e629c,high,2026-10-22T11:32:08.829801+00:00,2026-10-22T11:32:08.829801+00:00,1,ellio.tech:2026-10-22,SHA-256 hash of a malicious web shell
 sha256,43898a0a53bbd25d31ad9f5018ed3182be98a66109b22c9cab545a9fc447992a,high,2026-10-22T11:32:08.829801+00:00,2026-10-22T11:32:08.829801+00:00,1,ellio.tech:2026-10-22,SHA-256 hash of a malicious tool
-sha256,7133612558a5d0f257ca6bdb4f765453af9465bc5298acdcf33b5761b8c59aac,high,2026-10-22T11:32:08.829801+00:00,2026-10-22T11:32:08.829801+00:00,1,ellio.tech:2026-10-22,SHA-256 hash of a malicious binary
 sha256,7bc41ed79a9ae909927a9e40701736460a8cb70fca16ce1510e58677aca764b6,high,2026-10-22T11:32:08.829801+00:00,2026-10-22T11:32:08.829801+00:00,1,ellio.tech:2026-10-22,Listed as a second-stage binary hash in the context of PHP2Shell exploitation.
-sha256,dd98bf48899aa385035352688357742c73ddc5e47ec4ecc7d7b74c53c2e3ca3d,high,2026-10-22T11:32:08.829801+00:00,2026-10-22T11:32:08.829801+00:00,1,ellio.tech:2026-10-22,SHA-256 hash of a malicious file
+md5,AF8A983B9ADA07EAE1259BF2953ABD40,high,2026-10-22T07:59:42+00:00,2026-10-22T07:59:42+00:00,1,Securelist:2026-10-22,Listed as a hash for a malicious DLL
 sha256,07fabea33dfc2b127e865c03112dfc76936334b29028ec05cdd355af2385dc04,high,2026-10-21T23:16:31+00:00,2026-10-21T23:16:31+00:00,1,Rescana:2026-10-21,SHA-256 hash of a malicious file in the compromised package
 sha256,1bbcb1443bc962e45f5aad53fe3d2c30600e0379715fb6c664cdd3ac126c339e,high,2026-10-21T13:41:48.036000+00:00,2026-10-21T23:16:31+00:00,3,Rescana:2026-10-21|docs.litellm.ai:2026-10-21|Socket.Dev:2026-10-21,SHA-256 hash of a malicious file in the compromised package
 sha256,35f2cec3a14bb297e08bfab56c1fc377432bc4071aaf71978fdff043a5d91e79,high,2026-10-21T23:16:31+00:00,2026-10-21T23:16:31+00:00,1,Rescana:2026-10-21,SHA-256 hash of a malicious file in the compromised package
@@ -1160,25 +1233,3 @@ sha256,cfa1997682e4ed41bc691ba848d845abbe0b75ec97e640c2b015b4d1624a108a,high,202
 sha1,03ac191b235b3a867539720070a5e6ca1108b4f2,high,2026-09-24T17:38:49.232655+00:00,2026-09-24T17:38:49.232655+00:00,1,www.group-ib.com:2026-09-24,SHA1 hash of the Lumma Infostealer malware sample
 sha256,06f434695f93d7fd11eeff71358ff69fed79d310a66d993bbcc4ff979c117c90,high,2026-09-24T14:57:10+00:00,2026-09-24T14:57:10+00:00,1,Arcticwolf:2026-09-24,SHA-256 hash of the final payload identified as Psychedelic Stealer
 sha256,61954bab16df91e7a1c940a2bdd5a5cf3c61b529a7c75a5ff21ac78f15c61a86,high,2026-09-24T13:12:08.828530+00:00,2026-09-24T13:12:08.828530+00:00,1,haveibeensquatted.com:2026-09-24,SHA-256 hash of a malicious APK used in the campaign.
-md5,00d12d842596bf5ee1805effb4571d30,high,2026-09-24T10:12:52+00:00,2026-09-24T10:12:52+00:00,1,Securelist:2026-09-24,MD5 hash of a stage six script in a malware campaign
-md5,26a0f7cdb9f7dc5ace9a40af825b1538,high,2026-09-24T10:12:52+00:00,2026-09-24T10:12:52+00:00,1,Securelist:2026-09-24,MD5 hash of a stage one loader in a malware campaign
-md5,2d69812584269699fade26622e6490c5,high,2026-09-24T10:12:52+00:00,2026-09-24T10:12:52+00:00,1,Securelist:2026-09-24,MD5 hash of a stage one loader in a malware campaign
-md5,3ded1d71a822b53b12c3b67bcaf633f5,high,2026-09-24T10:12:52+00:00,2026-09-24T10:12:52+00:00,1,Securelist:2026-09-24,MD5 hash of a malicious calendar in a malware campaign
-md5,3deeed48fd38f22e369f5c3092bd68a1,high,2026-09-24T10:12:52+00:00,2026-09-24T10:12:52+00:00,1,Securelist:2026-09-24,MD5 hash of a stage four dropper in a malware campaign
-md5,4203ec932bfcc0907f91732440d6d997,high,2026-09-24T10:12:52+00:00,2026-09-24T10:12:52+00:00,1,Securelist:2026-09-24,MD5 hash of a stage three dropper in a malware campaign
-md5,6791dad263cac6d63ebba6a4b57e7d71,high,2026-09-24T10:12:52+00:00,2026-09-24T10:12:52+00:00,1,Securelist:2026-09-24,MD5 hash of a stage one loader in a malware campaign
-md5,7212229c85852c3bffaf9740002b2f39,high,2026-09-24T10:12:52+00:00,2026-09-24T10:12:52+00:00,1,Securelist:2026-09-24,MD5 hash of an auxiliary script in a malware campaign
-md5,781ce50001d4b449600afa347c9b0208,high,2026-09-24T10:12:52+00:00,2026-09-24T10:12:52+00:00,1,Securelist:2026-09-24,MD5 hash of a stage three dropper in a malware campaign
-md5,7df1049cbd56c0bfa4a3364a379b4c2c,high,2026-09-24T10:12:52+00:00,2026-09-24T10:12:52+00:00,1,Securelist:2026-09-24,MD5 hash of a stage one loader in a malware campaign
-md5,8dc8561349d144d4661bc66f2ec49f9f,high,2026-09-24T10:12:52+00:00,2026-09-24T10:12:52+00:00,1,Securelist:2026-09-24,MD5 hash of an auxiliary autorun tool in a malware campaign
-md5,8e84b01d5ac9624f0b181ade0e737193,high,2026-09-24T10:12:52+00:00,2026-09-24T10:12:52+00:00,1,Securelist:2026-09-24,MD5 hash of a stage three dropper in a malware campaign
-md5,980e2134679bc0c609f7659882883d77,high,2026-09-24T10:12:52+00:00,2026-09-24T10:12:52+00:00,1,Securelist:2026-09-24,MD5 hash of a stage three dropper in a malware campaign
-md5,9a0043d900a9ac78c886c59c9a328fd0,high,2026-09-24T10:12:52+00:00,2026-09-24T10:12:52+00:00,1,Securelist:2026-09-24,MD5 hash of a stage six script in a malware campaign
-md5,9f15fe9c4415cd668334339f705b94d8,high,2026-09-24T10:12:52+00:00,2026-09-24T10:12:52+00:00,1,Securelist:2026-09-24,MD5 hash of a stage one loader in a malware campaign
-md5,c53d0ea45dbc622afb7f16ea3eec78bc,high,2026-09-24T10:12:52+00:00,2026-09-24T10:12:52+00:00,1,Securelist:2026-09-24,MD5 hash of an infostealer in a malware campaign
-md5,eb760d5c88f13f7ee0f8f86ba3407123,high,2026-09-24T10:12:52+00:00,2026-09-24T10:12:52+00:00,1,Securelist:2026-09-24,MD5 hash of a stage three dropper in a malware campaign
-md5,f97d24212fa6a21be0c4d211e10f044c,high,2026-09-24T10:12:52+00:00,2026-09-24T10:12:52+00:00,1,Securelist:2026-09-24,MD5 hash of a stage five script in a malware campaign
-md5,f9f70096aabb4d22a6657014f4853a53,high,2026-09-24T10:12:52+00:00,2026-09-24T10:12:52+00:00,1,Securelist:2026-09-24,Listed as a stage three dropper in the malware analysis.
-md5,fb90887592655a8c989e443c640167aa,high,2026-09-24T10:12:52+00:00,2026-09-24T10:12:52+00:00,1,Securelist:2026-09-24,Listed as a stage one loader in the malware analysis.
-md5,fc3ba5ed282d77127efd0b0f2403531b,high,2026-09-24T10:12:52+00:00,2026-09-24T10:12:52+00:00,1,Securelist:2026-09-24,Listed as a backdoor in the malware analysis.
-sha256,5455341ed1bbe75a664fca2dd0794c508e1874f75360253a7ff5bc119bc92d80,high,2026-09-23T14:43:17.455423+00:00,2026-09-23T14:43:17.455423+00:00,1,www.microsoft.com:2026-09-23,Listed as a loader executable hash downloading Vidar stealer
