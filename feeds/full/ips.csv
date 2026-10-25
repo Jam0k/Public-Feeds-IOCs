@@ -1,13 +1,21 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason
+ipv4,103.249.201.108,high,2026-10-07T16:33:59.128067+00:00,2026-10-24T17:31:46.441754+00:00,1,,Listed as a C2 IP address associated with the campaign
+ipv4,120.224.114.212,high,2026-10-07T16:33:59.128067+00:00,2026-10-24T17:31:46.441754+00:00,1,,Listed as additional infrastructure used during the campaign
+ipv4,136.148.69.233,high,2026-10-07T16:33:59.128067+00:00,2026-10-24T17:31:46.441754+00:00,1,,Listed as additional infrastructure used during the campaign
+ipv4,185.132.53.158,high,2026-10-07T16:33:59.128067+00:00,2026-10-24T17:31:46.441754+00:00,1,,Listed as additional infrastructure used during the campaign
+ipv4,191.37.28.160,high,2026-10-07T16:33:59.128067+00:00,2026-10-24T17:31:46.441754+00:00,1,,Listed as additional infrastructure used during the campaign
+ipv4,89.39.253.46,high,2026-10-07T16:33:59.128067+00:00,2026-10-24T17:31:46.441754+00:00,1,,Listed as additional infrastructure used during the campaign
+ipv4,92.119.164.50,high,2026-10-07T16:33:59.128067+00:00,2026-10-24T17:31:46.441754+00:00,1,,Listed as a C2 IP address associated with the campaign
+ipv4,92.119.165.74,high,2026-10-07T16:33:59.128067+00:00,2026-10-24T17:31:46.441754+00:00,1,,Listed as additional infrastructure used during the campaign
+ipv4,162.33.178.213,high,2026-10-23T14:34:31.423520+00:00,2026-10-24T15:35:22.094108+00:00,1,,IP used to host and deliver malicious agents
+ipv4,193.149.187.81,high,2026-10-23T14:34:31.423520+00:00,2026-10-24T15:35:22.094108+00:00,1,,IP used for hosting malicious payload
+ipv4,64.94.85.14,high,2026-10-23T14:34:31.423520+00:00,2026-10-24T15:35:22.094108+00:00,1,,IP hosting C2 infrastructure
+ipv4,45.227.254.43,high,2026-10-23T17:50:47+00:00,2026-10-24T10:39:08+00:00,3,,Identified as an exposed command-and-control server used by the ransomware groups
 ipv4,199.91.221.39,high,2026-10-24T00:55:25+00:00,2026-10-24T00:55:25+00:00,1,,Used by attacker to change workflow source in a GitHub attack
 ipv4,69.48.229.143,high,2026-10-24T00:55:25+00:00,2026-10-24T00:55:25+00:00,1,,Used by attacker to call API with stolen credentials
-ipv4,45.227.254.43,high,2026-10-23T17:50:47+00:00,2026-10-23T18:56:09+00:00,2,,Identified as an exposed command-and-control server used by attackers.
 ipv4,92.118.112.100,high,2026-10-22T11:32:08.829801+00:00,2026-10-23T18:49:51+00:00,4,,Listed as a defanged string in a vendor publication
 ipv4,191.96.225.125,high,2026-10-23T17:31:31+00:00,2026-10-23T17:31:31+00:00,1,,Listed as Overlord RAT infrastructure
 ipv4,45.158.8.213,high,2026-10-23T17:31:31+00:00,2026-10-23T17:31:31+00:00,1,,Associated with Overlord RAT infrastructure
-ipv4,162.33.178.213,high,2026-10-23T14:34:31.423520+00:00,2026-10-23T14:34:31.423520+00:00,1,,IP used to host and deliver malicious agents
-ipv4,193.149.187.81,high,2026-10-23T14:34:31.423520+00:00,2026-10-23T14:34:31.423520+00:00,1,,IP used for hosting malicious payload
-ipv4,64.94.85.14,high,2026-10-23T14:34:31.423520+00:00,2026-10-23T14:34:31.423520+00:00,1,,IP hosting C2 infrastructure
 ipv4,102.210.149.166,high,2026-10-23T14:01:51.563234+00:00,2026-10-23T14:01:51.563234+00:00,1,,Listed as staging infrastructure for php2shell
 ipv4,104.219.251.31,high,2026-10-23T14:01:51.563234+00:00,2026-10-23T14:01:51.563234+00:00,1,,Listed as staging infrastructure for php2shell
 ipv4,122.10.110.72,high,2026-10-23T14:01:51.563234+00:00,2026-10-23T14:01:51.563234+00:00,1,,Listed as staging infrastructure for php2shell
@@ -88,14 +96,6 @@ ipv4,77.110.127.205,high,2026-07-20T15:43:55+00:00,2026-10-14T13:59:36+00:00,2,,
 ipv4,158.94.209.19,high,2026-10-13T21:00:10+00:00,2026-10-13T21:00:10+00:00,1,,IP address resolving to a credential collection endpoint.
 ipv4,193.178.159.129,high,2026-10-13T11:53:10.900000+00:00,2026-10-13T11:53:10.900000+00:00,1,,Listed as a C2 server for second-stage bot communication
 ipv4,61.18.208.27,high,2026-10-08T06:42:10+00:00,2026-10-12T14:53:04+00:00,2,,Communicates with VulcanRAT207.A as a C2 server
-ipv4,103.249.201.108,high,2026-10-07T16:33:59.128067+00:00,2026-10-12T13:01:33.020113+00:00,1,,Listed as a C2 IP address associated with the campaign
-ipv4,120.224.114.212,high,2026-10-07T16:33:59.128067+00:00,2026-10-12T13:01:33.020113+00:00,1,,Listed as additional infrastructure used during the campaign
-ipv4,136.148.69.233,high,2026-10-07T16:33:59.128067+00:00,2026-10-12T13:01:33.020113+00:00,1,,Listed as additional infrastructure used during the campaign
-ipv4,185.132.53.158,high,2026-10-07T16:33:59.128067+00:00,2026-10-12T13:01:33.020113+00:00,1,,Listed as additional infrastructure used during the campaign
-ipv4,191.37.28.160,high,2026-10-07T16:33:59.128067+00:00,2026-10-12T13:01:33.020113+00:00,1,,Listed as additional infrastructure used during the campaign
-ipv4,89.39.253.46,high,2026-10-07T16:33:59.128067+00:00,2026-10-12T13:01:33.020113+00:00,1,,Listed as additional infrastructure used during the campaign
-ipv4,92.119.164.50,high,2026-10-07T16:33:59.128067+00:00,2026-10-12T13:01:33.020113+00:00,1,,Listed as a C2 IP address associated with the campaign
-ipv4,92.119.165.74,high,2026-10-07T16:33:59.128067+00:00,2026-10-12T13:01:33.020113+00:00,1,,Listed as additional infrastructure used during the campaign
 ipv4,118.145.196.225,high,2026-10-05T16:30:57.752378+00:00,2026-10-11T16:02:05.609563+00:00,1,,Listed as a download source for malware by the attacker
 ipv4,124.163.212.119,high,2026-10-05T16:30:57.752378+00:00,2026-10-11T16:02:05.609563+00:00,1,,Listed as a download source for malware by the attacker
 ipv4,222.223.152.97,high,2026-10-05T16:30:57.752378+00:00,2026-10-11T16:02:05.609563+00:00,1,,Listed as a download source for malware by the attacker

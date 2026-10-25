@@ -1,53 +1,93 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason
+domain,jakang.freewebhostmost.com,high,2026-10-24T20:35:12.567952+00:00,2026-10-24T20:35:12.567952+00:00,1,,Phishing page hosting domain identified in the article
+sha256,03d3e9c54028780d2ff15c654d7a7e70973453d2fae8bdeebf5d9dbb10ff2eab,high,2026-10-24T20:35:12.567952+00:00,2026-10-24T20:35:12.567952+00:00,1,,Listed as a SHA256 hash of a malicious JavaScript sample
+sha256,3f0b95f96a8f28631eb9ce6d0f40b47220b44f4892e171ede78ba78bd9e293ef,high,2026-10-24T20:35:12.567952+00:00,2026-10-24T20:35:12.567952+00:00,1,,Listed as a SHA256 hash of malicious JavaScript samples
+sha256,4f1eb707f863265403152a7159f805b5557131c568353b48c013cad9ffb5ae5f,high,2026-10-24T20:35:12.567952+00:00,2026-10-24T20:35:12.567952+00:00,1,,Listed as a SHA256 hash of a malicious JavaScript sample
+domain,malwarescan.xyz,high,2026-10-07T16:33:59.128067+00:00,2026-10-24T17:31:46.441754+00:00,1,,Domain registered and likely operated by the attacker for malicious purposes
+ipv4,103.249.201.108,high,2026-10-07T16:33:59.128067+00:00,2026-10-24T17:31:46.441754+00:00,1,,Listed as a C2 IP address associated with the campaign
+ipv4,120.224.114.212,high,2026-10-07T16:33:59.128067+00:00,2026-10-24T17:31:46.441754+00:00,1,,Listed as additional infrastructure used during the campaign
+ipv4,136.148.69.233,high,2026-10-07T16:33:59.128067+00:00,2026-10-24T17:31:46.441754+00:00,1,,Listed as additional infrastructure used during the campaign
+ipv4,185.132.53.158,high,2026-10-07T16:33:59.128067+00:00,2026-10-24T17:31:46.441754+00:00,1,,Listed as additional infrastructure used during the campaign
+ipv4,191.37.28.160,high,2026-10-07T16:33:59.128067+00:00,2026-10-24T17:31:46.441754+00:00,1,,Listed as additional infrastructure used during the campaign
+ipv4,89.39.253.46,high,2026-10-07T16:33:59.128067+00:00,2026-10-24T17:31:46.441754+00:00,1,,Listed as additional infrastructure used during the campaign
+ipv4,92.119.164.50,high,2026-10-07T16:33:59.128067+00:00,2026-10-24T17:31:46.441754+00:00,1,,Listed as a C2 IP address associated with the campaign
+ipv4,92.119.165.74,high,2026-10-07T16:33:59.128067+00:00,2026-10-24T17:31:46.441754+00:00,1,,Listed as additional infrastructure used during the campaign
+sha256,6fab94577364beec314afae3b082dd680933f08a8349b9f35b92667e8231b501,high,2026-10-07T16:33:59.128067+00:00,2026-10-24T17:31:46.441754+00:00,1,,SHA256 hash of a PoeLLM malware sample
+domain,0auth-chromium.com,high,2026-10-19T10:34:26+00:00,2026-10-24T16:30:31.227425+00:00,2,,Domain used to retrieve and execute a malicious PowerShell script
+domain,arenapex.cloud,high,2026-10-19T13:35:56.267043+00:00,2026-10-24T16:30:31.227425+00:00,1,,Historical domain used for script-download in malicious infrastructure
+domain,ccmihr.com,high,2026-10-19T10:34:26+00:00,2026-10-24T16:30:31.227425+00:00,2,,Domain used as a C2 server responding with tasks for malware
+domain,cloudmain365duo.top,high,2026-10-19T13:35:56.267043+00:00,2026-10-24T16:30:31.227425+00:00,1,,Domain used as a script-download host in malicious infrastructure
+domain,ehegisnightmare.icu,high,2026-10-19T10:34:26+00:00,2026-10-24T16:30:31.227425+00:00,2,,Domain used to download and execute a malicious payload
+domain,main.router-apex.com,high,2026-10-19T13:35:56.267043+00:00,2026-10-24T16:30:31.227425+00:00,1,,Domain used as a script-download host in malicious infrastructure
+domain,update.apex-arena-router.com,high,2026-10-19T13:35:56.267043+00:00,2026-10-24T16:30:31.227425+00:00,1,,Domain used as a script-download host in malicious infrastructure
+domain,vrf.apexaccs.org,high,2026-10-16T10:31:51+00:00,2026-10-24T16:30:31.227425+00:00,3,,Domain used to obtain commands from attacker's C2 server
+sha256,127ae4cad80b6605157ca2a1feada8a235e16aacc5d2119337a98115a4e13274,high,2026-10-16T10:31:51+00:00,2026-10-24T16:30:31.227425+00:00,2,,SHA256 hash of a macOS Rust executable used in malicious activity
+sha256,20f0a401676292d4ae34932e61f34afa97bcfc47ee517cda2afeb7222264a193,high,2026-10-16T10:31:51+00:00,2026-10-24T16:30:31.227425+00:00,2,,SHA256 hash of a macOS ARM64 Bun executable used in malicious activity
+sha256,42a760b15fea7c9af718ee45386c1c3ea1bec9e30c95d16c287bcc8b2efdc72e,high,2026-10-16T10:31:51+00:00,2026-10-24T16:30:31.227425+00:00,2,,SHA256 hash of a macOS ARM64 Bun executable used in malicious activity
+sha256,5ee7145061f05779f7f6f9b72e216713d17d53e183a92f408bfbbc44f2bfb95d,high,2026-10-16T10:31:51+00:00,2026-10-24T16:30:31.227425+00:00,2,,SHA256 hash of a Windows Bun executable used in malicious activity
+sha256,68f5a00eafa8ecebf5d93328e0fec23b24d6f91808c8384db002946a13656c71,high,2026-10-19T13:35:56.267043+00:00,2026-10-24T16:30:31.227425+00:00,1,,SHA256 hash of a Python second-stage loader used in malicious activity
+sha256,985829083f3937df6c82419216f7697afae0caac8efca6257a756066fe2c0abb,high,2026-10-16T10:31:51+00:00,2026-10-24T16:30:31.227425+00:00,2,,SHA256 hash of a Windows Bun executable used in malicious activity
+sha256,a50cdb508d13884630945a98eea0615b866d938eb0a16c5d958e6c8c181a6df8,high,2026-10-19T13:35:56.267043+00:00,2026-10-24T16:30:31.227425+00:00,1,,SHA256 hash of a macOS Rust executable used in malicious activity
+sha256,ed5cb4af1d2cb067b8d23783ebf05d70278728462ba4f1bf29da0a3a41efc35e,high,2026-10-19T13:35:56.267043+00:00,2026-10-24T16:30:31.227425+00:00,1,,SHA256 hash of an encrypted third-stage payload used in malicious activity
+sha256,ee8cd9aba420f1b26b5d43e5bcdd6025a277b4946bb5daf76ab45c0e5f7ecd0b,high,2026-10-19T13:35:56.267043+00:00,2026-10-24T16:30:31.227425+00:00,1,,SHA256 hash of a Python second-stage loader used in malicious activity
+domain,agent.afahimsa.top,high,2026-10-23T14:34:31.423520+00:00,2026-10-24T15:35:22.094108+00:00,1,,Domain hosting MeshAgents for C2 operations
+domain,alknene.shop,high,2026-10-23T14:34:31.423520+00:00,2026-10-24T15:35:22.094108+00:00,1,,Domain resolved to C2 infrastructure
+domain,mesh.buttruyen.com,high,2026-10-23T14:34:31.423520+00:00,2026-10-24T15:35:22.094108+00:00,1,,MeshCentral server used for C2 operations
+domain,meshcentral.girydsfsggvb.com,high,2026-10-23T14:34:31.423520+00:00,2026-10-24T15:35:22.094108+00:00,1,,Listed in IOC section as attacker infrastructure
+domain,sthyjk.com,high,2026-10-23T14:34:31.423520+00:00,2026-10-24T15:35:22.094108+00:00,1,,Domain used to retrieve malicious agents
+ipv4,162.33.178.213,high,2026-10-23T14:34:31.423520+00:00,2026-10-24T15:35:22.094108+00:00,1,,IP used to host and deliver malicious agents
+ipv4,193.149.187.81,high,2026-10-23T14:34:31.423520+00:00,2026-10-24T15:35:22.094108+00:00,1,,IP used for hosting malicious payload
+ipv4,64.94.85.14,high,2026-10-23T14:34:31.423520+00:00,2026-10-24T15:35:22.094108+00:00,1,,IP hosting C2 infrastructure
+md5,032473db4d66748eab524effe57a661d,high,2026-10-23T14:34:31.423520+00:00,2026-10-24T15:35:22.094108+00:00,1,,Listed as a file hash in IOC section
+md5,0dc1af7cfd336a7f075228defc730082,high,2026-10-23T14:34:31.423520+00:00,2026-10-24T15:35:22.094108+00:00,1,,Listed as a file hash in IOC section
+md5,13367fbba4344de87de418ab17de76f0,high,2026-10-23T14:34:31.423520+00:00,2026-10-24T15:35:22.094108+00:00,1,,Listed as a file hash in IOC section
+md5,197f2621c80da7974c56d2ff1921e994,high,2026-10-23T14:34:31.423520+00:00,2026-10-24T15:35:22.094108+00:00,1,,Listed as a file hash in IOC section
+md5,20dc8f1b8a313336c14e03bcb71ff6c8,high,2026-10-23T14:34:31.423520+00:00,2026-10-24T15:35:22.094108+00:00,1,,Listed as a file hash in IOC section
+md5,5318f29ef434341d989d543b14fd2a48,high,2026-10-23T14:34:31.423520+00:00,2026-10-24T15:35:22.094108+00:00,1,,Listed as a file hash in IOC section
+md5,6f5d18157425aa9697913ae1310f588f,high,2026-10-23T14:34:31.423520+00:00,2026-10-24T15:35:22.094108+00:00,1,,Listed as a file hash in IOC section
+sha1,6546801898d0b32f5050f49c5302f0366d630cc9,high,2026-10-23T14:34:31.423520+00:00,2026-10-24T15:35:22.094108+00:00,1,,Listed as a file hash in IOC section
+sha1,b39cf70a0194d32e00d7812c29ae1d6add77b823,high,2026-10-23T14:34:31.423520+00:00,2026-10-24T15:35:22.094108+00:00,1,,Listed as a file hash in IOC section
+sha1,b686a811ad89671fbdb448d65f79488d2e562265,high,2026-10-23T14:34:31.423520+00:00,2026-10-24T15:35:22.094108+00:00,1,,Listed as a file hash in IOC section
+sha1,bfd864ec0e6bd912f932e4f3ed80687736ee16e8,high,2026-10-23T14:34:31.423520+00:00,2026-10-24T15:35:22.094108+00:00,1,,Listed as a file hash in IOC section
+sha1,e2c96e603323d8fc7c08678b793d56554faa6914,high,2026-10-23T14:34:31.423520+00:00,2026-10-24T15:35:22.094108+00:00,1,,Listed as a file hash in IOC section
+sha1,e47a2b7ca6a8c009962871dbb667d128ad6b6162,high,2026-10-23T14:34:31.423520+00:00,2026-10-24T15:35:22.094108+00:00,1,,Listed as a file hash in IOC section
+sha1,f05daaf66b200672d679a5ced8b67d4b48a4906e,high,2026-10-23T14:34:31.423520+00:00,2026-10-24T15:35:22.094108+00:00,1,,Listed as a file hash in IOC section
+sha256,158215c7371e868f3d0c7fd2e92f05026a8678a3635629d89bd6042ee543278a,high,2026-10-23T14:34:31.423520+00:00,2026-10-24T15:35:22.094108+00:00,1,,Listed in a table of IOCs related to MeshAgent payload hosting
+sha256,1d1b76d30a69aa39b224053481483156f82dde026edd6f5d964f6e03f5f04a6d,high,2026-10-23T14:34:31.423520+00:00,2026-10-24T15:35:22.094108+00:00,1,,Listed in a table of IOCs related to MeshAgent payload hosting
+sha256,39c4decc4881ec02a47cd01c0fd8c3030527b466124ad03c6f99cfaa0ba0b72e,high,2026-10-23T14:34:31.423520+00:00,2026-10-24T15:35:22.094108+00:00,1,,Listed in a table of IOCs related to MeshAgent payload hosting
+sha256,4db6bea4c1e4bce5020039def4087a073f4753a6b297b2832c19c10423ac842d,high,2026-10-23T14:34:31.423520+00:00,2026-10-24T15:35:22.094108+00:00,1,,Listed in a table of IOCs related to MeshAgent payload hosting
+sha256,552d0096f60c36a35c6096b3e4b38d743c29f8c56f3862fa3b7ef06c932e2a21,high,2026-10-23T14:34:31.423520+00:00,2026-10-24T15:35:22.094108+00:00,1,,Listed in a table of IOCs related to MeshAgent payload hosting
+sha256,808145ec3351569083fda27a910ebdf9e054e8ca42e40c021af5d6712c2ab87c,high,2026-10-23T14:34:31.423520+00:00,2026-10-24T15:35:22.094108+00:00,1,,Listed as a file hash in IOC section
+sha256,f9e95af4cda14dd5596c452a1a698f60412a7b2a9540321ee2a10b3bcbbd2a0e,high,2026-10-23T14:34:31.423520+00:00,2026-10-24T15:35:22.094108+00:00,1,,Listed in a table of IOCs related to MeshAgent payload hosting
+ipv4,45.227.254.43,high,2026-10-23T17:50:47+00:00,2026-10-24T10:39:08+00:00,3,,Identified as an exposed command-and-control server used by the ransomware groups
+domain,popcorntimeupd.xyz,high,2026-10-23T20:00:35.210658+00:00,2026-10-24T09:05:07+00:00,4,,Domain was unregistered and then used by attackers to exploit vulnerable software
+domain,bband1.afafb.com,high,2026-10-24T02:43:43+00:00,2026-10-24T02:43:43+00:00,1,,Domain used by an app to fetch rules and traits
+domain,bbios1.afafb.com,high,2026-10-24T02:43:43+00:00,2026-10-24T02:43:43+00:00,1,,Domain used by an app to fetch rules and traits
 ipv4,199.91.221.39,high,2026-10-24T00:55:25+00:00,2026-10-24T00:55:25+00:00,1,,Used by attacker to change workflow source in a GitHub attack
 ipv4,69.48.229.143,high,2026-10-24T00:55:25+00:00,2026-10-24T00:55:25+00:00,1,,Used by attacker to call API with stolen credentials
+domain,c85grt98sd.com,high,2026-10-24T00:00:00+00:00,2026-10-24T00:00:00+00:00,1,,Domain used in a campaign to load scripts on compromised stores
+domain,deepveindrilling.com,high,2026-10-24T00:00:00+00:00,2026-10-24T00:00:00+00:00,1,,Domain used by a criminal group to compromise online stores
+domain,hdfdsi84j3h.top,high,2026-10-24T00:00:00+00:00,2026-10-24T00:00:00+00:00,1,,Domain used in a campaign to load scripts on compromised stores
+domain,lanhd6549tdhse.top,high,2026-10-24T00:00:00+00:00,2026-10-24T00:00:00+00:00,1,,Domain used in a campaign to load scripts on compromised stores
+domain,leqdger.click,high,2026-10-24T00:00:00+00:00,2026-10-24T00:00:00+00:00,1,,Domain used in a campaign to load scripts on compromised stores
+domain,manulfie.click,high,2026-10-24T00:00:00+00:00,2026-10-24T00:00:00+00:00,1,,Domain used in a campaign to load scripts on compromised stores
+domain,neswnsssn.click,high,2026-10-24T00:00:00+00:00,2026-10-24T00:00:00+00:00,1,,Domain used in a campaign to load scripts on compromised stores
 domain,muzpan.com,high,2026-10-23T15:09:38+00:00,2026-10-23T21:32:21.253490+00:00,2,,Domain used by attacker-controlled VPN infrastructure to disguise connections.
 domain,sodkamus.com,high,2026-10-23T15:09:38+00:00,2026-10-23T21:32:21.253490+00:00,2,,Domain used by attacker-controlled VPN infrastructure to disguise connections.
-domain,popcorntimeupd.xyz,high,2026-10-23T20:00:35.210658+00:00,2026-10-23T20:55:05+00:00,3,,"Domain previously used by the updater of a vulnerable software, indicating attacker control."
 domain,agent2.sh,high,2026-09-30T21:13:41.814200+00:00,2026-10-23T19:31:50.527393+00:00,1,,Described as part of a multi-stage payload chain used by attackers
 domain,bypass.eu.org,high,2026-09-30T21:13:41.814200+00:00,2026-10-23T19:31:50.527393+00:00,1,,Described as campaign-associated infrastructure used by attackers
 domain,whitearmor.cc,high,2026-10-23T19:19:21+00:00,2026-10-23T19:19:21+00:00,1,,Listed as a clearnet domain established by the Whitearmor group
-ipv4,45.227.254.43,high,2026-10-23T17:50:47+00:00,2026-10-23T18:56:09+00:00,2,,Identified as an exposed command-and-control server used by attackers.
 domain,archivetj.com,high,2026-10-23T18:50:13+00:00,2026-10-23T18:50:13+00:00,1,,Used for command-and-control communication
 ipv4,92.118.112.100,high,2026-10-22T11:32:08.829801+00:00,2026-10-23T18:49:51+00:00,4,,Listed as a defanged string in a vendor publication
 md5,b61a098fc62a2c2696e196dca78da71a,high,2026-10-22T11:32:08.829801+00:00,2026-10-23T18:49:51+00:00,2,,Listed as a hash of a Mirai-variant loader
 sha1,c472dab4ff7c16782a8037f988d4daa6d4bdb343,high,2026-10-23T18:49:51+00:00,2026-10-23T18:49:51+00:00,1,,Listed as a hash of a Mirai-variant loader
-sha256,0c5486f06620e26e316f4b33f318b0d646d5e1133789331aa2fed012360d1486,high,2026-10-22T11:32:08.829801+00:00,2026-10-23T18:49:51+00:00,4,,Listed as a hash of a Mirai-variant loader
+sha256,0c5486f06620e26e316f4b33f318b0d646d5e1133789331aa2fed012360d1486,high,2026-10-22T11:32:08.829801+00:00,2026-10-23T18:49:51+00:00,5,,Listed as a hash of a Mirai-variant loader
 sha256,17758cf05e3376f8448dff926564e038b763b4a46668455e2ccb5ac0839e629c,high,2026-10-22T11:32:08.829801+00:00,2026-10-23T18:49:51+00:00,2,,Listed as a hash of a Chinese IIS web shell
 sha256,7133612558a5d0f257ca6bdb4f765453af9465bc5298acdcf33b5761b8c59aac,high,2026-10-22T11:32:08.829801+00:00,2026-10-23T18:49:51+00:00,2,,Listed as a hash of a DDoS booter
 sha256,dd98bf48899aa385035352688357742c73ddc5e47ec4ecc7d7b74c53c2e3ca3d,high,2026-10-22T11:32:08.829801+00:00,2026-10-23T18:49:51+00:00,2,,Listed as a hash of a Go remote-access agent
 domain,check.foquh.icu,high,2026-10-23T18:45:08+00:00,2026-10-23T18:45:08+00:00,1,,Used to download and execute malicious code
 ipv4,191.96.225.125,high,2026-10-23T17:31:31+00:00,2026-10-23T17:31:31+00:00,1,,Listed as Overlord RAT infrastructure
 ipv4,45.158.8.213,high,2026-10-23T17:31:31+00:00,2026-10-23T17:31:31+00:00,1,,Associated with Overlord RAT infrastructure
-domain,agent.afahimsa.top,high,2026-10-23T14:34:31.423520+00:00,2026-10-23T14:34:31.423520+00:00,1,,Domain hosting MeshAgents for C2 operations
-domain,alknene.shop,high,2026-10-23T14:34:31.423520+00:00,2026-10-23T14:34:31.423520+00:00,1,,Domain resolved to C2 infrastructure
-domain,mesh.buttruyen.com,high,2026-10-23T14:34:31.423520+00:00,2026-10-23T14:34:31.423520+00:00,1,,MeshCentral server used for C2 operations
-domain,meshcentral.girydsfsggvb.com,high,2026-10-23T14:34:31.423520+00:00,2026-10-23T14:34:31.423520+00:00,1,,Listed in IOC section as attacker infrastructure
-domain,sthyjk.com,high,2026-10-23T14:34:31.423520+00:00,2026-10-23T14:34:31.423520+00:00,1,,Domain used to retrieve malicious agents
-ipv4,162.33.178.213,high,2026-10-23T14:34:31.423520+00:00,2026-10-23T14:34:31.423520+00:00,1,,IP used to host and deliver malicious agents
-ipv4,193.149.187.81,high,2026-10-23T14:34:31.423520+00:00,2026-10-23T14:34:31.423520+00:00,1,,IP used for hosting malicious payload
-ipv4,64.94.85.14,high,2026-10-23T14:34:31.423520+00:00,2026-10-23T14:34:31.423520+00:00,1,,IP hosting C2 infrastructure
-md5,032473db4d66748eab524effe57a661d,high,2026-10-23T14:34:31.423520+00:00,2026-10-23T14:34:31.423520+00:00,1,,Listed as a file hash in IOC section
-md5,0dc1af7cfd336a7f075228defc730082,high,2026-10-23T14:34:31.423520+00:00,2026-10-23T14:34:31.423520+00:00,1,,Listed as a file hash in IOC section
-md5,13367fbba4344de87de418ab17de76f0,high,2026-10-23T14:34:31.423520+00:00,2026-10-23T14:34:31.423520+00:00,1,,Listed as a file hash in IOC section
-md5,197f2621c80da7974c56d2ff1921e994,high,2026-10-23T14:34:31.423520+00:00,2026-10-23T14:34:31.423520+00:00,1,,Listed as a file hash in IOC section
-md5,20dc8f1b8a313336c14e03bcb71ff6c8,high,2026-10-23T14:34:31.423520+00:00,2026-10-23T14:34:31.423520+00:00,1,,Listed as a file hash in IOC section
-md5,5318f29ef434341d989d543b14fd2a48,high,2026-10-23T14:34:31.423520+00:00,2026-10-23T14:34:31.423520+00:00,1,,Listed as a file hash in IOC section
-md5,6f5d18157425aa9697913ae1310f588f,high,2026-10-23T14:34:31.423520+00:00,2026-10-23T14:34:31.423520+00:00,1,,Listed as a file hash in IOC section
-sha1,6546801898d0b32f5050f49c5302f0366d630cc9,high,2026-10-23T14:34:31.423520+00:00,2026-10-23T14:34:31.423520+00:00,1,,Listed as a file hash in IOC section
-sha1,b39cf70a0194d32e00d7812c29ae1d6add77b823,high,2026-10-23T14:34:31.423520+00:00,2026-10-23T14:34:31.423520+00:00,1,,Listed as a file hash in IOC section
-sha1,b686a811ad89671fbdb448d65f79488d2e562265,high,2026-10-23T14:34:31.423520+00:00,2026-10-23T14:34:31.423520+00:00,1,,Listed as a file hash in IOC section
-sha1,bfd864ec0e6bd912f932e4f3ed80687736ee16e8,high,2026-10-23T14:34:31.423520+00:00,2026-10-23T14:34:31.423520+00:00,1,,Listed as a file hash in IOC section
-sha1,e2c96e603323d8fc7c08678b793d56554faa6914,high,2026-10-23T14:34:31.423520+00:00,2026-10-23T14:34:31.423520+00:00,1,,Listed as a file hash in IOC section
-sha1,e47a2b7ca6a8c009962871dbb667d128ad6b6162,high,2026-10-23T14:34:31.423520+00:00,2026-10-23T14:34:31.423520+00:00,1,,Listed as a file hash in IOC section
-sha1,f05daaf66b200672d679a5ced8b67d4b48a4906e,high,2026-10-23T14:34:31.423520+00:00,2026-10-23T14:34:31.423520+00:00,1,,Listed as a file hash in IOC section
-sha256,158215c7371e868f3d0c7fd2e92f05026a8678a3635629d89bd6042ee543278a,high,2026-10-23T14:34:31.423520+00:00,2026-10-23T14:34:31.423520+00:00,1,,Listed in a table of IOCs related to MeshAgent payload hosting
-sha256,1d1b76d30a69aa39b224053481483156f82dde026edd6f5d964f6e03f5f04a6d,high,2026-10-23T14:34:31.423520+00:00,2026-10-23T14:34:31.423520+00:00,1,,Listed in a table of IOCs related to MeshAgent payload hosting
-sha256,39c4decc4881ec02a47cd01c0fd8c3030527b466124ad03c6f99cfaa0ba0b72e,high,2026-10-23T14:34:31.423520+00:00,2026-10-23T14:34:31.423520+00:00,1,,Listed in a table of IOCs related to MeshAgent payload hosting
-sha256,4db6bea4c1e4bce5020039def4087a073f4753a6b297b2832c19c10423ac842d,high,2026-10-23T14:34:31.423520+00:00,2026-10-23T14:34:31.423520+00:00,1,,Listed in a table of IOCs related to MeshAgent payload hosting
-sha256,552d0096f60c36a35c6096b3e4b38d743c29f8c56f3862fa3b7ef06c932e2a21,high,2026-10-23T14:34:31.423520+00:00,2026-10-23T14:34:31.423520+00:00,1,,Listed in a table of IOCs related to MeshAgent payload hosting
-sha256,808145ec3351569083fda27a910ebdf9e054e8ca42e40c021af5d6712c2ab87c,high,2026-10-23T14:34:31.423520+00:00,2026-10-23T14:34:31.423520+00:00,1,,Listed as a file hash in IOC section
-sha256,f9e95af4cda14dd5596c452a1a698f60412a7b2a9540321ee2a10b3bcbbd2a0e,high,2026-10-23T14:34:31.423520+00:00,2026-10-23T14:34:31.423520+00:00,1,,Listed in a table of IOCs related to MeshAgent payload hosting
 ipv4,102.210.149.166,high,2026-10-23T14:01:51.563234+00:00,2026-10-23T14:01:51.563234+00:00,1,,Listed as staging infrastructure for php2shell
 ipv4,104.219.251.31,high,2026-10-23T14:01:51.563234+00:00,2026-10-23T14:01:51.563234+00:00,1,,Listed as staging infrastructure for php2shell
 ipv4,122.10.110.72,high,2026-10-23T14:01:51.563234+00:00,2026-10-23T14:01:51.563234+00:00,1,,Listed as staging infrastructure for php2shell
@@ -495,23 +535,6 @@ domain,gitlab.my-gitlab.com,high,2026-10-19T14:05:31.040619+00:00,2026-10-19T14:
 domain,vigilantcyber.top,high,2026-10-19T14:05:31.040619+00:00,2026-10-19T14:05:31.040619+00:00,1,,Associated with malicious infrastructure and phishing activities.
 ipv4,45.139.104.115,high,2026-10-19T14:05:31.040619+00:00,2026-10-19T14:05:31.040619+00:00,1,,Listed as a malicious IP in a threat report
 domain,shinywire.com,high,2026-10-19T13:48:56+00:00,2026-10-19T13:48:56+00:00,1,,Described as a victim extortion website operated by ShinyHunters.
-domain,0auth-chromium.com,high,2026-10-19T10:34:26+00:00,2026-10-19T13:35:56.267043+00:00,2,,Domain used to retrieve and execute a malicious PowerShell script
-domain,arenapex.cloud,high,2026-10-19T13:35:56.267043+00:00,2026-10-19T13:35:56.267043+00:00,1,,Historical domain used for script-download in malicious infrastructure
-domain,ccmihr.com,high,2026-10-19T10:34:26+00:00,2026-10-19T13:35:56.267043+00:00,2,,Domain used as a C2 server responding with tasks for malware
-domain,cloudmain365duo.top,high,2026-10-19T13:35:56.267043+00:00,2026-10-19T13:35:56.267043+00:00,1,,Domain used as a script-download host in malicious infrastructure
-domain,ehegisnightmare.icu,high,2026-10-19T10:34:26+00:00,2026-10-19T13:35:56.267043+00:00,2,,Domain used to download and execute a malicious payload
-domain,main.router-apex.com,high,2026-10-19T13:35:56.267043+00:00,2026-10-19T13:35:56.267043+00:00,1,,Domain used as a script-download host in malicious infrastructure
-domain,update.apex-arena-router.com,high,2026-10-19T13:35:56.267043+00:00,2026-10-19T13:35:56.267043+00:00,1,,Domain used as a script-download host in malicious infrastructure
-domain,vrf.apexaccs.org,high,2026-10-16T10:31:51+00:00,2026-10-19T13:35:56.267043+00:00,3,,Domain used to obtain commands from attacker's C2 server
-sha256,127ae4cad80b6605157ca2a1feada8a235e16aacc5d2119337a98115a4e13274,high,2026-10-16T10:31:51+00:00,2026-10-19T13:35:56.267043+00:00,2,,SHA256 hash of a macOS Rust executable used in malicious activity
-sha256,20f0a401676292d4ae34932e61f34afa97bcfc47ee517cda2afeb7222264a193,high,2026-10-16T10:31:51+00:00,2026-10-19T13:35:56.267043+00:00,2,,SHA256 hash of a macOS ARM64 Bun executable used in malicious activity
-sha256,42a760b15fea7c9af718ee45386c1c3ea1bec9e30c95d16c287bcc8b2efdc72e,high,2026-10-16T10:31:51+00:00,2026-10-19T13:35:56.267043+00:00,2,,SHA256 hash of a macOS ARM64 Bun executable used in malicious activity
-sha256,5ee7145061f05779f7f6f9b72e216713d17d53e183a92f408bfbbc44f2bfb95d,high,2026-10-16T10:31:51+00:00,2026-10-19T13:35:56.267043+00:00,2,,SHA256 hash of a Windows Bun executable used in malicious activity
-sha256,68f5a00eafa8ecebf5d93328e0fec23b24d6f91808c8384db002946a13656c71,high,2026-10-19T13:35:56.267043+00:00,2026-10-19T13:35:56.267043+00:00,1,,SHA256 hash of a Python second-stage loader used in malicious activity
-sha256,985829083f3937df6c82419216f7697afae0caac8efca6257a756066fe2c0abb,high,2026-10-16T10:31:51+00:00,2026-10-19T13:35:56.267043+00:00,2,,SHA256 hash of a Windows Bun executable used in malicious activity
-sha256,a50cdb508d13884630945a98eea0615b866d938eb0a16c5d958e6c8c181a6df8,high,2026-10-19T13:35:56.267043+00:00,2026-10-19T13:35:56.267043+00:00,1,,SHA256 hash of a macOS Rust executable used in malicious activity
-sha256,ed5cb4af1d2cb067b8d23783ebf05d70278728462ba4f1bf29da0a3a41efc35e,high,2026-10-19T13:35:56.267043+00:00,2026-10-19T13:35:56.267043+00:00,1,,SHA256 hash of an encrypted third-stage payload used in malicious activity
-sha256,ee8cd9aba420f1b26b5d43e5bcdd6025a277b4946bb5daf76ab45c0e5f7ecd0b,high,2026-10-19T13:35:56.267043+00:00,2026-10-19T13:35:56.267043+00:00,1,,SHA256 hash of a Python second-stage loader used in malicious activity
 domain,my-gitlab.com,high,2026-10-19T13:09:39+00:00,2026-10-19T13:09:39+00:00,1,,Registered by the threat actor for phishing and data exfiltration.
 domain,amgen.teams-cloud.live,high,2026-10-19T12:42:05+00:00,2026-10-19T12:42:05+00:00,1,,Listed as a phishing domain in a threat report
 domain,companyname.suspicious-domain.live,high,2026-10-19T12:42:05+00:00,2026-10-19T12:42:05+00:00,1,,Described as a phishing domain with a suspicious subdomain.
@@ -1147,16 +1170,6 @@ domain,thepolitics.online,high,2026-10-12T20:02:07.907502+00:00,2026-10-12T20:02
 domain,thetruthvoice.net,high,2026-10-12T20:02:07.907502+00:00,2026-10-12T20:02:07.907502+00:00,1,,Domain part of a network used for influence operations
 domain,truthvoice.net,high,2026-10-12T20:02:07.907502+00:00,2026-10-12T20:02:07.907502+00:00,1,,Domain part of a network used for influence operations
 ipv4,61.18.208.27,high,2026-10-08T06:42:10+00:00,2026-10-12T14:53:04+00:00,2,,Communicates with VulcanRAT207.A as a C2 server
-domain,malwarescan.xyz,high,2026-10-07T16:33:59.128067+00:00,2026-10-12T13:01:33.020113+00:00,1,,Domain registered and likely operated by the attacker for malicious purposes
-ipv4,103.249.201.108,high,2026-10-07T16:33:59.128067+00:00,2026-10-12T13:01:33.020113+00:00,1,,Listed as a C2 IP address associated with the campaign
-ipv4,120.224.114.212,high,2026-10-07T16:33:59.128067+00:00,2026-10-12T13:01:33.020113+00:00,1,,Listed as additional infrastructure used during the campaign
-ipv4,136.148.69.233,high,2026-10-07T16:33:59.128067+00:00,2026-10-12T13:01:33.020113+00:00,1,,Listed as additional infrastructure used during the campaign
-ipv4,185.132.53.158,high,2026-10-07T16:33:59.128067+00:00,2026-10-12T13:01:33.020113+00:00,1,,Listed as additional infrastructure used during the campaign
-ipv4,191.37.28.160,high,2026-10-07T16:33:59.128067+00:00,2026-10-12T13:01:33.020113+00:00,1,,Listed as additional infrastructure used during the campaign
-ipv4,89.39.253.46,high,2026-10-07T16:33:59.128067+00:00,2026-10-12T13:01:33.020113+00:00,1,,Listed as additional infrastructure used during the campaign
-ipv4,92.119.164.50,high,2026-10-07T16:33:59.128067+00:00,2026-10-12T13:01:33.020113+00:00,1,,Listed as a C2 IP address associated with the campaign
-ipv4,92.119.165.74,high,2026-10-07T16:33:59.128067+00:00,2026-10-12T13:01:33.020113+00:00,1,,Listed as additional infrastructure used during the campaign
-sha256,6fab94577364beec314afae3b082dd680933f08a8349b9f35b92667e8231b501,high,2026-10-07T16:33:59.128067+00:00,2026-10-12T13:01:33.020113+00:00,1,,SHA256 hash of a PoeLLM malware sample
 sha256,bacddaa7168afc28ae53a3cabb93becef60051b1250482ecd0c804e7d110c32b,high,2026-10-11T21:30:32.301370+00:00,2026-10-11T21:30:32.301370+00:00,1,,Identified as a malware sample related to Vidar Stealer
 ipv4,118.145.196.225,high,2026-10-05T16:30:57.752378+00:00,2026-10-11T16:02:05.609563+00:00,1,,Listed as a download source for malware by the attacker
 ipv4,124.163.212.119,high,2026-10-05T16:30:57.752378+00:00,2026-10-11T16:02:05.609563+00:00,1,,Listed as a download source for malware by the attacker

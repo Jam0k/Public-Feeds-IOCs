@@ -1,17 +1,36 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason
+domain,jakang.freewebhostmost.com,high,2026-10-24T20:35:12.567952+00:00,2026-10-24T20:35:12.567952+00:00,1,,Phishing page hosting domain identified in the article
+domain,malwarescan.xyz,high,2026-10-07T16:33:59.128067+00:00,2026-10-24T17:31:46.441754+00:00,1,,Domain registered and likely operated by the attacker for malicious purposes
+domain,0auth-chromium.com,high,2026-10-19T10:34:26+00:00,2026-10-24T16:30:31.227425+00:00,2,,Domain used to retrieve and execute a malicious PowerShell script
+domain,arenapex.cloud,high,2026-10-19T13:35:56.267043+00:00,2026-10-24T16:30:31.227425+00:00,1,,Historical domain used for script-download in malicious infrastructure
+domain,ccmihr.com,high,2026-10-19T10:34:26+00:00,2026-10-24T16:30:31.227425+00:00,2,,Domain used as a C2 server responding with tasks for malware
+domain,cloudmain365duo.top,high,2026-10-19T13:35:56.267043+00:00,2026-10-24T16:30:31.227425+00:00,1,,Domain used as a script-download host in malicious infrastructure
+domain,ehegisnightmare.icu,high,2026-10-19T10:34:26+00:00,2026-10-24T16:30:31.227425+00:00,2,,Domain used to download and execute a malicious payload
+domain,main.router-apex.com,high,2026-10-19T13:35:56.267043+00:00,2026-10-24T16:30:31.227425+00:00,1,,Domain used as a script-download host in malicious infrastructure
+domain,update.apex-arena-router.com,high,2026-10-19T13:35:56.267043+00:00,2026-10-24T16:30:31.227425+00:00,1,,Domain used as a script-download host in malicious infrastructure
+domain,vrf.apexaccs.org,high,2026-10-16T10:31:51+00:00,2026-10-24T16:30:31.227425+00:00,3,,Domain used to obtain commands from attacker's C2 server
+domain,agent.afahimsa.top,high,2026-10-23T14:34:31.423520+00:00,2026-10-24T15:35:22.094108+00:00,1,,Domain hosting MeshAgents for C2 operations
+domain,alknene.shop,high,2026-10-23T14:34:31.423520+00:00,2026-10-24T15:35:22.094108+00:00,1,,Domain resolved to C2 infrastructure
+domain,mesh.buttruyen.com,high,2026-10-23T14:34:31.423520+00:00,2026-10-24T15:35:22.094108+00:00,1,,MeshCentral server used for C2 operations
+domain,meshcentral.girydsfsggvb.com,high,2026-10-23T14:34:31.423520+00:00,2026-10-24T15:35:22.094108+00:00,1,,Listed in IOC section as attacker infrastructure
+domain,sthyjk.com,high,2026-10-23T14:34:31.423520+00:00,2026-10-24T15:35:22.094108+00:00,1,,Domain used to retrieve malicious agents
+domain,popcorntimeupd.xyz,high,2026-10-23T20:00:35.210658+00:00,2026-10-24T09:05:07+00:00,4,,Domain was unregistered and then used by attackers to exploit vulnerable software
+domain,bband1.afafb.com,high,2026-10-24T02:43:43+00:00,2026-10-24T02:43:43+00:00,1,,Domain used by an app to fetch rules and traits
+domain,bbios1.afafb.com,high,2026-10-24T02:43:43+00:00,2026-10-24T02:43:43+00:00,1,,Domain used by an app to fetch rules and traits
+domain,c85grt98sd.com,high,2026-10-24T00:00:00+00:00,2026-10-24T00:00:00+00:00,1,,Domain used in a campaign to load scripts on compromised stores
+domain,deepveindrilling.com,high,2026-10-24T00:00:00+00:00,2026-10-24T00:00:00+00:00,1,,Domain used by a criminal group to compromise online stores
+domain,hdfdsi84j3h.top,high,2026-10-24T00:00:00+00:00,2026-10-24T00:00:00+00:00,1,,Domain used in a campaign to load scripts on compromised stores
+domain,lanhd6549tdhse.top,high,2026-10-24T00:00:00+00:00,2026-10-24T00:00:00+00:00,1,,Domain used in a campaign to load scripts on compromised stores
+domain,leqdger.click,high,2026-10-24T00:00:00+00:00,2026-10-24T00:00:00+00:00,1,,Domain used in a campaign to load scripts on compromised stores
+domain,manulfie.click,high,2026-10-24T00:00:00+00:00,2026-10-24T00:00:00+00:00,1,,Domain used in a campaign to load scripts on compromised stores
+domain,neswnsssn.click,high,2026-10-24T00:00:00+00:00,2026-10-24T00:00:00+00:00,1,,Domain used in a campaign to load scripts on compromised stores
 domain,muzpan.com,high,2026-10-23T15:09:38+00:00,2026-10-23T21:32:21.253490+00:00,2,,Domain used by attacker-controlled VPN infrastructure to disguise connections.
 domain,sodkamus.com,high,2026-10-23T15:09:38+00:00,2026-10-23T21:32:21.253490+00:00,2,,Domain used by attacker-controlled VPN infrastructure to disguise connections.
-domain,popcorntimeupd.xyz,high,2026-10-23T20:00:35.210658+00:00,2026-10-23T20:55:05+00:00,3,,"Domain previously used by the updater of a vulnerable software, indicating attacker control."
 domain,agent2.sh,high,2026-09-30T21:13:41.814200+00:00,2026-10-23T19:31:50.527393+00:00,1,,Described as part of a multi-stage payload chain used by attackers
 domain,bypass.eu.org,high,2026-09-30T21:13:41.814200+00:00,2026-10-23T19:31:50.527393+00:00,1,,Described as campaign-associated infrastructure used by attackers
 domain,whitearmor.cc,high,2026-10-23T19:19:21+00:00,2026-10-23T19:19:21+00:00,1,,Listed as a clearnet domain established by the Whitearmor group
 domain,archivetj.com,high,2026-10-23T18:50:13+00:00,2026-10-23T18:50:13+00:00,1,,Used for command-and-control communication
 domain,check.foquh.icu,high,2026-10-23T18:45:08+00:00,2026-10-23T18:45:08+00:00,1,,Used to download and execute malicious code
-domain,agent.afahimsa.top,high,2026-10-23T14:34:31.423520+00:00,2026-10-23T14:34:31.423520+00:00,1,,Domain hosting MeshAgents for C2 operations
-domain,alknene.shop,high,2026-10-23T14:34:31.423520+00:00,2026-10-23T14:34:31.423520+00:00,1,,Domain resolved to C2 infrastructure
-domain,mesh.buttruyen.com,high,2026-10-23T14:34:31.423520+00:00,2026-10-23T14:34:31.423520+00:00,1,,MeshCentral server used for C2 operations
-domain,meshcentral.girydsfsggvb.com,high,2026-10-23T14:34:31.423520+00:00,2026-10-23T14:34:31.423520+00:00,1,,Listed in IOC section as attacker infrastructure
-domain,sthyjk.com,high,2026-10-23T14:34:31.423520+00:00,2026-10-23T14:34:31.423520+00:00,1,,Domain used to retrieve malicious agents
 domain,litellm.dev,high,2026-10-21T17:08:52+00:00,2026-10-23T12:00:40.720071+00:00,5,,Listed as an exfiltration endpoint and attacker-controlled domain
 domain,hackattackkaboom.botlesscucks.st,high,2026-10-22T11:32:08.829801+00:00,2026-10-23T11:31:38.104751+00:00,2,,Listed as a backup domain in the bot's C2 configuration
 domain,hik.gettingheadfromduckysmom.st,high,2026-10-22T11:32:08.829801+00:00,2026-10-23T11:31:38.104751+00:00,2,,Listed as a backup domain in the bot's C2 configuration
@@ -148,14 +167,6 @@ domain,github.my-github.com,high,2026-10-19T14:05:31.040619+00:00,2026-10-19T14:
 domain,gitlab.my-gitlab.com,high,2026-10-19T14:05:31.040619+00:00,2026-10-19T14:05:31.040619+00:00,1,,Described as hosting a GitLab service on suspicious infrastructure.
 domain,vigilantcyber.top,high,2026-10-19T14:05:31.040619+00:00,2026-10-19T14:05:31.040619+00:00,1,,Associated with malicious infrastructure and phishing activities.
 domain,shinywire.com,high,2026-10-19T13:48:56+00:00,2026-10-19T13:48:56+00:00,1,,Described as a victim extortion website operated by ShinyHunters.
-domain,0auth-chromium.com,high,2026-10-19T10:34:26+00:00,2026-10-19T13:35:56.267043+00:00,2,,Domain used to retrieve and execute a malicious PowerShell script
-domain,arenapex.cloud,high,2026-10-19T13:35:56.267043+00:00,2026-10-19T13:35:56.267043+00:00,1,,Historical domain used for script-download in malicious infrastructure
-domain,ccmihr.com,high,2026-10-19T10:34:26+00:00,2026-10-19T13:35:56.267043+00:00,2,,Domain used as a C2 server responding with tasks for malware
-domain,cloudmain365duo.top,high,2026-10-19T13:35:56.267043+00:00,2026-10-19T13:35:56.267043+00:00,1,,Domain used as a script-download host in malicious infrastructure
-domain,ehegisnightmare.icu,high,2026-10-19T10:34:26+00:00,2026-10-19T13:35:56.267043+00:00,2,,Domain used to download and execute a malicious payload
-domain,main.router-apex.com,high,2026-10-19T13:35:56.267043+00:00,2026-10-19T13:35:56.267043+00:00,1,,Domain used as a script-download host in malicious infrastructure
-domain,update.apex-arena-router.com,high,2026-10-19T13:35:56.267043+00:00,2026-10-19T13:35:56.267043+00:00,1,,Domain used as a script-download host in malicious infrastructure
-domain,vrf.apexaccs.org,high,2026-10-16T10:31:51+00:00,2026-10-19T13:35:56.267043+00:00,3,,Domain used to obtain commands from attacker's C2 server
 domain,my-gitlab.com,high,2026-10-19T13:09:39+00:00,2026-10-19T13:09:39+00:00,1,,Registered by the threat actor for phishing and data exfiltration.
 domain,amgen.teams-cloud.live,high,2026-10-19T12:42:05+00:00,2026-10-19T12:42:05+00:00,1,,Listed as a phishing domain in a threat report
 domain,companyname.suspicious-domain.live,high,2026-10-19T12:42:05+00:00,2026-10-19T12:42:05+00:00,1,,Described as a phishing domain with a suspicious subdomain.
@@ -326,7 +337,6 @@ domain,speech-front.net,high,2026-10-12T20:02:07.907502+00:00,2026-10-12T20:02:0
 domain,thepolitics.online,high,2026-10-12T20:02:07.907502+00:00,2026-10-12T20:02:07.907502+00:00,1,,Domain used by a content mill for influence operations
 domain,thetruthvoice.net,high,2026-10-12T20:02:07.907502+00:00,2026-10-12T20:02:07.907502+00:00,1,,Domain part of a network used for influence operations
 domain,truthvoice.net,high,2026-10-12T20:02:07.907502+00:00,2026-10-12T20:02:07.907502+00:00,1,,Domain part of a network used for influence operations
-domain,malwarescan.xyz,high,2026-10-07T16:33:59.128067+00:00,2026-10-12T13:01:33.020113+00:00,1,,Domain registered and likely operated by the attacker for malicious purposes
 domain,c0cc.cc,high,2026-10-08T17:20:13+00:00,2026-10-11T13:37:33+00:00,4,,Seized domain used by attackers for unauthorized access to stolen data
 domain,audit-coldcard.com,high,2026-10-11T12:09:50.126997+00:00,2026-10-11T12:09:50.126997+00:00,1,,Purpose-built phishing site using Coinkite's advisory language
 domain,coldcard-audit.com,high,2026-10-11T12:09:50.126997+00:00,2026-10-11T12:09:50.126997+00:00,1,,Registered as part of a phishing campaign targeting Coldcard users

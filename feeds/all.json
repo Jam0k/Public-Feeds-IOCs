@@ -1,7 +1,7 @@
 {
   "feed": "threatcluster-public-iocs",
   "version": 1,
-  "generated_at": "2026-10-24T10:56:46Z",
+  "generated_at": "2026-10-25T11:23:46Z",
   "filters": {
     "confidence": "high",
     "window_days": 30,
@@ -11,8 +11,972 @@
       "domain"
     ]
   },
-  "count": 936,
+  "count": 925,
   "iocs": [
+    {
+      "type": "domain",
+      "value": "malwarescan.xyz",
+      "confidence": "high",
+      "reason": "Domain registered and likely operated by the attacker for malicious purposes",
+      "first_seen": "2026-10-25T10:00:46.226969+00:00",
+      "last_seen": "2026-10-25T10:00:46.226969+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.lumen.com",
+          "url": "https://www.lumen.com/blog/en-us/canto-incognito-tracking-the-poellm-malware",
+          "pub_date": "2026-10-25T10:00:46.226969+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "PoeLLM Campaign"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2018-21027"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2018-21028"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-10520"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "103.249.201.108",
+      "confidence": "high",
+      "reason": "Listed as a C2 IP address associated with the campaign",
+      "first_seen": "2026-10-25T10:00:46.226969+00:00",
+      "last_seen": "2026-10-25T10:00:46.226969+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.lumen.com",
+          "url": "https://www.lumen.com/blog/en-us/canto-incognito-tracking-the-poellm-malware",
+          "pub_date": "2026-10-25T10:00:46.226969+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "PoeLLM Campaign"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2018-21027"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2018-21028"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-10520"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "120.224.114.212",
+      "confidence": "high",
+      "reason": "Listed as additional infrastructure used during the campaign",
+      "first_seen": "2026-10-25T10:00:46.226969+00:00",
+      "last_seen": "2026-10-25T10:00:46.226969+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.lumen.com",
+          "url": "https://www.lumen.com/blog/en-us/canto-incognito-tracking-the-poellm-malware",
+          "pub_date": "2026-10-25T10:00:46.226969+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "PoeLLM Campaign"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2018-21027"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2018-21028"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-10520"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "136.148.69.233",
+      "confidence": "high",
+      "reason": "Listed as additional infrastructure used during the campaign",
+      "first_seen": "2026-10-25T10:00:46.226969+00:00",
+      "last_seen": "2026-10-25T10:00:46.226969+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.lumen.com",
+          "url": "https://www.lumen.com/blog/en-us/canto-incognito-tracking-the-poellm-malware",
+          "pub_date": "2026-10-25T10:00:46.226969+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "PoeLLM Campaign"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2018-21027"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2018-21028"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-10520"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "185.132.53.158",
+      "confidence": "high",
+      "reason": "Listed as additional infrastructure used during the campaign",
+      "first_seen": "2026-10-25T10:00:46.226969+00:00",
+      "last_seen": "2026-10-25T10:00:46.226969+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.lumen.com",
+          "url": "https://www.lumen.com/blog/en-us/canto-incognito-tracking-the-poellm-malware",
+          "pub_date": "2026-10-25T10:00:46.226969+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "PoeLLM Campaign"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2018-21027"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2018-21028"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-10520"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "191.37.28.160",
+      "confidence": "high",
+      "reason": "Listed as additional infrastructure used during the campaign",
+      "first_seen": "2026-10-25T10:00:46.226969+00:00",
+      "last_seen": "2026-10-25T10:00:46.226969+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.lumen.com",
+          "url": "https://www.lumen.com/blog/en-us/canto-incognito-tracking-the-poellm-malware",
+          "pub_date": "2026-10-25T10:00:46.226969+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "PoeLLM Campaign"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2018-21027"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2018-21028"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-10520"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "89.39.253.46",
+      "confidence": "high",
+      "reason": "Listed as additional infrastructure used during the campaign",
+      "first_seen": "2026-10-25T10:00:46.226969+00:00",
+      "last_seen": "2026-10-25T10:00:46.226969+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.lumen.com",
+          "url": "https://www.lumen.com/blog/en-us/canto-incognito-tracking-the-poellm-malware",
+          "pub_date": "2026-10-25T10:00:46.226969+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "PoeLLM Campaign"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2018-21027"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2018-21028"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-10520"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "92.119.164.50",
+      "confidence": "high",
+      "reason": "Listed as a C2 IP address associated with the campaign",
+      "first_seen": "2026-10-25T10:00:46.226969+00:00",
+      "last_seen": "2026-10-25T10:00:46.226969+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.lumen.com",
+          "url": "https://www.lumen.com/blog/en-us/canto-incognito-tracking-the-poellm-malware",
+          "pub_date": "2026-10-25T10:00:46.226969+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "PoeLLM Campaign"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2018-21027"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2018-21028"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-10520"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "92.119.165.74",
+      "confidence": "high",
+      "reason": "Listed as additional infrastructure used during the campaign",
+      "first_seen": "2026-10-25T10:00:46.226969+00:00",
+      "last_seen": "2026-10-25T10:00:46.226969+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.lumen.com",
+          "url": "https://www.lumen.com/blog/en-us/canto-incognito-tracking-the-poellm-malware",
+          "pub_date": "2026-10-25T10:00:46.226969+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "PoeLLM Campaign"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2018-21027"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2018-21028"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-10520"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "jakang.freewebhostmost.com",
+      "confidence": "high",
+      "reason": "Phishing page hosting domain identified in the article",
+      "first_seen": "2026-10-24T20:35:12.567952+00:00",
+      "last_seen": "2026-10-24T20:35:12.567952+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "unit42.paloaltonetworks.com",
+          "url": "https://unit42.paloaltonetworks.com/using-llms-obfuscate-malicious-javascript/",
+          "pub_date": "2026-10-24T20:35:12.567952+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "FraudGPT"
+        },
+        {
+          "type": "malware",
+          "value": "WormGPT"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "0auth-chromium.com",
+      "confidence": "high",
+      "reason": "Domain used to retrieve and execute a malicious PowerShell script",
+      "first_seen": "2026-10-19T10:34:26+00:00",
+      "last_seen": "2026-10-24T16:30:31.227425+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "www.elastic.co",
+          "url": "https://www.elastic.co/security-labs/threat-command/apex-accelerator-malicious-npm-packages",
+          "pub_date": "2026-10-24T16:30:31.227425+00:00"
+        },
+        {
+          "source": "Thehackernews",
+          "url": "https://thehackernews.com/2026/10/fake-web3-accelerator-uses-npm-packages.html",
+          "pub_date": "2026-10-19T10:34:26+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "CloudSyncD"
+        },
+        {
+          "type": "campaign",
+          "value": "Apex Accelerator"
+        },
+        {
+          "type": "malware",
+          "value": "Atomic Stealer"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "arenapex.cloud",
+      "confidence": "high",
+      "reason": "Historical domain used for script-download in malicious infrastructure",
+      "first_seen": "2026-10-24T16:30:31.227425+00:00",
+      "last_seen": "2026-10-24T16:30:31.227425+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.elastic.co",
+          "url": "https://www.elastic.co/security-labs/threat-command/apex-accelerator-malicious-npm-packages",
+          "pub_date": "2026-10-24T16:30:31.227425+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "CloudSyncD"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "ccmihr.com",
+      "confidence": "high",
+      "reason": "Domain used as a C2 server responding with tasks for malware",
+      "first_seen": "2026-10-19T10:34:26+00:00",
+      "last_seen": "2026-10-24T16:30:31.227425+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "www.elastic.co",
+          "url": "https://www.elastic.co/security-labs/threat-command/apex-accelerator-malicious-npm-packages",
+          "pub_date": "2026-10-24T16:30:31.227425+00:00"
+        },
+        {
+          "source": "Thehackernews",
+          "url": "https://thehackernews.com/2026/10/fake-web3-accelerator-uses-npm-packages.html",
+          "pub_date": "2026-10-19T10:34:26+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "CloudSyncD"
+        },
+        {
+          "type": "campaign",
+          "value": "Apex Accelerator"
+        },
+        {
+          "type": "malware",
+          "value": "Atomic Stealer"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "cloudmain365duo.top",
+      "confidence": "high",
+      "reason": "Domain used as a script-download host in malicious infrastructure",
+      "first_seen": "2026-10-24T16:30:31.227425+00:00",
+      "last_seen": "2026-10-24T16:30:31.227425+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.elastic.co",
+          "url": "https://www.elastic.co/security-labs/threat-command/apex-accelerator-malicious-npm-packages",
+          "pub_date": "2026-10-24T16:30:31.227425+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "CloudSyncD"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "ehegisnightmare.icu",
+      "confidence": "high",
+      "reason": "Domain used to download and execute a malicious payload",
+      "first_seen": "2026-10-19T10:34:26+00:00",
+      "last_seen": "2026-10-24T16:30:31.227425+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "www.elastic.co",
+          "url": "https://www.elastic.co/security-labs/threat-command/apex-accelerator-malicious-npm-packages",
+          "pub_date": "2026-10-24T16:30:31.227425+00:00"
+        },
+        {
+          "source": "Thehackernews",
+          "url": "https://thehackernews.com/2026/10/fake-web3-accelerator-uses-npm-packages.html",
+          "pub_date": "2026-10-19T10:34:26+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "CloudSyncD"
+        },
+        {
+          "type": "campaign",
+          "value": "Apex Accelerator"
+        },
+        {
+          "type": "malware",
+          "value": "Atomic Stealer"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "main.router-apex.com",
+      "confidence": "high",
+      "reason": "Domain used as a script-download host in malicious infrastructure",
+      "first_seen": "2026-10-24T16:30:31.227425+00:00",
+      "last_seen": "2026-10-24T16:30:31.227425+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.elastic.co",
+          "url": "https://www.elastic.co/security-labs/threat-command/apex-accelerator-malicious-npm-packages",
+          "pub_date": "2026-10-24T16:30:31.227425+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "CloudSyncD"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "update.apex-arena-router.com",
+      "confidence": "high",
+      "reason": "Domain used as a script-download host in malicious infrastructure",
+      "first_seen": "2026-10-24T16:30:31.227425+00:00",
+      "last_seen": "2026-10-24T16:30:31.227425+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.elastic.co",
+          "url": "https://www.elastic.co/security-labs/threat-command/apex-accelerator-malicious-npm-packages",
+          "pub_date": "2026-10-24T16:30:31.227425+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "CloudSyncD"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "vrf.apexaccs.org",
+      "confidence": "high",
+      "reason": "Domain used to obtain commands from attacker's C2 server",
+      "first_seen": "2026-10-16T10:31:51+00:00",
+      "last_seen": "2026-10-24T16:30:31.227425+00:00",
+      "source_count": 3,
+      "sources": [
+        {
+          "source": "www.elastic.co",
+          "url": "https://www.elastic.co/security-labs/threat-command/apex-accelerator-malicious-npm-packages",
+          "pub_date": "2026-10-24T16:30:31.227425+00:00"
+        },
+        {
+          "source": "Thehackernews",
+          "url": "https://thehackernews.com/2026/10/fake-web3-accelerator-uses-npm-packages.html",
+          "pub_date": "2026-10-19T10:34:26+00:00"
+        },
+        {
+          "source": "Bloglab.360",
+          "url": "https://blog.netlab.360.com/aian-quan-zhuan-ti-zhou-bao-9/",
+          "pub_date": "2026-10-16T10:31:51+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "CloudSyncD"
+        },
+        {
+          "type": "campaign",
+          "value": "Apex Accelerator"
+        },
+        {
+          "type": "malware",
+          "value": "Atomic Stealer"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "agent.afahimsa.top",
+      "confidence": "high",
+      "reason": "Domain hosting MeshAgents for C2 operations",
+      "first_seen": "2026-10-24T15:35:22.094108+00:00",
+      "last_seen": "2026-10-24T15:35:22.094108+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.group-ib.com",
+          "url": "https://www.group-ib.com/blog/stray-cat-network-edge/",
+          "pub_date": "2026-10-24T15:35:22.094108+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2019-6693"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2021-42278"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2021-42287"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2025-64446"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "alknene.shop",
+      "confidence": "high",
+      "reason": "Domain resolved to C2 infrastructure",
+      "first_seen": "2026-10-24T15:35:22.094108+00:00",
+      "last_seen": "2026-10-24T15:35:22.094108+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.group-ib.com",
+          "url": "https://www.group-ib.com/blog/stray-cat-network-edge/",
+          "pub_date": "2026-10-24T15:35:22.094108+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2019-6693"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2021-42278"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2021-42287"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2025-64446"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "mesh.buttruyen.com",
+      "confidence": "high",
+      "reason": "MeshCentral server used for C2 operations",
+      "first_seen": "2026-10-24T15:35:22.094108+00:00",
+      "last_seen": "2026-10-24T15:35:22.094108+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.group-ib.com",
+          "url": "https://www.group-ib.com/blog/stray-cat-network-edge/",
+          "pub_date": "2026-10-24T15:35:22.094108+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2019-6693"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2021-42278"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2021-42287"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2025-64446"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "meshcentral.girydsfsggvb.com",
+      "confidence": "high",
+      "reason": "Listed in IOC section as attacker infrastructure",
+      "first_seen": "2026-10-24T15:35:22.094108+00:00",
+      "last_seen": "2026-10-24T15:35:22.094108+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.group-ib.com",
+          "url": "https://www.group-ib.com/blog/stray-cat-network-edge/",
+          "pub_date": "2026-10-24T15:35:22.094108+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2019-6693"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2021-42278"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2021-42287"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2025-64446"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "sthyjk.com",
+      "confidence": "high",
+      "reason": "Domain used to retrieve malicious agents",
+      "first_seen": "2026-10-24T15:35:22.094108+00:00",
+      "last_seen": "2026-10-24T15:35:22.094108+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.group-ib.com",
+          "url": "https://www.group-ib.com/blog/stray-cat-network-edge/",
+          "pub_date": "2026-10-24T15:35:22.094108+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2019-6693"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2021-42278"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2021-42287"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2025-64446"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "162.33.178.213",
+      "confidence": "high",
+      "reason": "IP used to host and deliver malicious agents",
+      "first_seen": "2026-10-24T15:35:22.094108+00:00",
+      "last_seen": "2026-10-24T15:35:22.094108+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.group-ib.com",
+          "url": "https://www.group-ib.com/blog/stray-cat-network-edge/",
+          "pub_date": "2026-10-24T15:35:22.094108+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2019-6693"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2021-42278"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2021-42287"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2025-64446"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "193.149.187.81",
+      "confidence": "high",
+      "reason": "IP used for hosting malicious payload",
+      "first_seen": "2026-10-24T15:35:22.094108+00:00",
+      "last_seen": "2026-10-24T15:35:22.094108+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.group-ib.com",
+          "url": "https://www.group-ib.com/blog/stray-cat-network-edge/",
+          "pub_date": "2026-10-24T15:35:22.094108+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2019-6693"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2021-42278"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2021-42287"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2025-64446"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "64.94.85.14",
+      "confidence": "high",
+      "reason": "IP hosting C2 infrastructure",
+      "first_seen": "2026-10-24T15:35:22.094108+00:00",
+      "last_seen": "2026-10-24T15:35:22.094108+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.group-ib.com",
+          "url": "https://www.group-ib.com/blog/stray-cat-network-edge/",
+          "pub_date": "2026-10-24T15:35:22.094108+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2019-6693"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2021-42278"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2021-42287"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2025-64446"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "45.227.254.43",
+      "confidence": "high",
+      "reason": "Identified as an exposed command-and-control server used by the ransomware groups",
+      "first_seen": "2026-10-23T17:50:47+00:00",
+      "last_seen": "2026-10-24T10:39:08+00:00",
+      "source_count": 3,
+      "sources": [
+        {
+          "source": "News.Lavx.Hu",
+          "url": "https://news.lavx.hu/article/exposed-infrastructure-reveals-ai-driven-ransomware-intrusions-by-inc-and-the-gentlemen-affiliates",
+          "pub_date": "2026-10-24T10:39:08+00:00"
+        },
+        {
+          "source": "Socprime",
+          "url": "https://socprime.com/active-threats/inc-and-the-gentlemen-ransomware-expose-ai-powered-attack-infrastructure/",
+          "pub_date": "2026-10-23T18:56:09+00:00"
+        },
+        {
+          "source": "Thehackernews",
+          "url": "https://thehackernews.com/2026/10/exposed-infrastructure-reveals-how.html",
+          "pub_date": "2026-10-23T17:50:47+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "ransomware_group",
+          "value": "INC"
+        },
+        {
+          "type": "ransomware_group",
+          "value": "The Gentlemen"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2024-57727"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-15409"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "popcorntimeupd.xyz",
+      "confidence": "high",
+      "reason": "Domain was unregistered and then used by attackers to exploit vulnerable software",
+      "first_seen": "2026-10-23T20:00:35.210658+00:00",
+      "last_seen": "2026-10-24T09:05:07+00:00",
+      "source_count": 4,
+      "sources": [
+        {
+          "source": "Thehackernews",
+          "url": "https://thehackernews.com/2026/10/researchers-push-over-2-million-updates.html",
+          "pub_date": "2026-10-24T09:05:07+00:00"
+        },
+        {
+          "source": "Bleepingcomputer",
+          "url": "https://www.bleepingcomputer.com/news/security/abandoned-popcorn-time-app-exposed-millions-of-device-to-rce-attacks/",
+          "pub_date": "2026-10-23T20:55:05+00:00"
+        },
+        {
+          "source": "Cyberinsider",
+          "url": "https://cyberinsider.com/popcorn-time-updater-flaw-exposed-millions-of-devices-to-hijacking/",
+          "pub_date": "2026-10-23T20:16:12+00:00"
+        },
+        {
+          "source": "labs.eye.security",
+          "url": "https://labs.eye.security/operation-ixim-preventing-a-botnet-of-millions-of-popcorn-time-users/",
+          "pub_date": "2026-10-23T20:00:35.210658+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2026-30612"
+        },
+        {
+          "type": "campaign",
+          "value": "Operation IXIM"
+        },
+        {
+          "type": "campaign",
+          "value": "Operation Ladybird"
+        },
+        {
+          "type": "malware",
+          "value": "Emotet"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "bband1.afafb.com",
+      "confidence": "high",
+      "reason": "Domain used by an app to fetch rules and traits",
+      "first_seen": "2026-10-24T02:43:43+00:00",
+      "last_seen": "2026-10-24T02:43:43+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "News.Ycombinator",
+          "url": "https://ayoships.com/breakdowns/block-blast",
+          "pub_date": "2026-10-24T02:43:43+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "bbios1.afafb.com",
+      "confidence": "high",
+      "reason": "Domain used by an app to fetch rules and traits",
+      "first_seen": "2026-10-24T02:43:43+00:00",
+      "last_seen": "2026-10-24T02:43:43+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "News.Ycombinator",
+          "url": "https://ayoships.com/breakdowns/block-blast",
+          "pub_date": "2026-10-24T02:43:43+00:00"
+        }
+      ],
+      "tags": []
+    },
     {
       "type": "ipv4",
       "value": "199.91.221.39",
@@ -43,6 +1007,125 @@
           "source": "Docs.Litellm.Ai",
           "url": "https://docs.litellm.ai/blog/security-incident-oct-21-2026-attack-chain",
           "pub_date": "2026-10-24T00:55:25+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "c85grt98sd.com",
+      "confidence": "high",
+      "reason": "Domain used in a campaign to load scripts on compromised stores",
+      "first_seen": "2026-10-24T00:00:00+00:00",
+      "last_seen": "2026-10-24T00:00:00+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Sansec",
+          "url": "https://sansec.io/research/magento-cms-block-loader-deepveindrilling",
+          "pub_date": "2026-10-24T00:00:00+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "deepveindrilling.com",
+      "confidence": "high",
+      "reason": "Domain used by a criminal group to compromise online stores",
+      "first_seen": "2026-10-24T00:00:00+00:00",
+      "last_seen": "2026-10-24T00:00:00+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Sansec",
+          "url": "https://sansec.io/research/magento-cms-block-loader-deepveindrilling",
+          "pub_date": "2026-10-24T00:00:00+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "hdfdsi84j3h.top",
+      "confidence": "high",
+      "reason": "Domain used in a campaign to load scripts on compromised stores",
+      "first_seen": "2026-10-24T00:00:00+00:00",
+      "last_seen": "2026-10-24T00:00:00+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Sansec",
+          "url": "https://sansec.io/research/magento-cms-block-loader-deepveindrilling",
+          "pub_date": "2026-10-24T00:00:00+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "lanhd6549tdhse.top",
+      "confidence": "high",
+      "reason": "Domain used in a campaign to load scripts on compromised stores",
+      "first_seen": "2026-10-24T00:00:00+00:00",
+      "last_seen": "2026-10-24T00:00:00+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Sansec",
+          "url": "https://sansec.io/research/magento-cms-block-loader-deepveindrilling",
+          "pub_date": "2026-10-24T00:00:00+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "leqdger.click",
+      "confidence": "high",
+      "reason": "Domain used in a campaign to load scripts on compromised stores",
+      "first_seen": "2026-10-24T00:00:00+00:00",
+      "last_seen": "2026-10-24T00:00:00+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Sansec",
+          "url": "https://sansec.io/research/magento-cms-block-loader-deepveindrilling",
+          "pub_date": "2026-10-24T00:00:00+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "manulfie.click",
+      "confidence": "high",
+      "reason": "Domain used in a campaign to load scripts on compromised stores",
+      "first_seen": "2026-10-24T00:00:00+00:00",
+      "last_seen": "2026-10-24T00:00:00+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Sansec",
+          "url": "https://sansec.io/research/magento-cms-block-loader-deepveindrilling",
+          "pub_date": "2026-10-24T00:00:00+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "neswnsssn.click",
+      "confidence": "high",
+      "reason": "Domain used in a campaign to load scripts on compromised stores",
+      "first_seen": "2026-10-24T00:00:00+00:00",
+      "last_seen": "2026-10-24T00:00:00+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Sansec",
+          "url": "https://sansec.io/research/magento-cms-block-loader-deepveindrilling",
+          "pub_date": "2026-10-24T00:00:00+00:00"
         }
       ],
       "tags": []
@@ -111,50 +1194,6 @@
     },
     {
       "type": "domain",
-      "value": "popcorntimeupd.xyz",
-      "confidence": "high",
-      "reason": "Domain previously used by the updater of a vulnerable software, indicating attacker control.",
-      "first_seen": "2026-10-23T20:00:35.210658+00:00",
-      "last_seen": "2026-10-23T20:55:05+00:00",
-      "source_count": 3,
-      "sources": [
-        {
-          "source": "Bleepingcomputer",
-          "url": "https://www.bleepingcomputer.com/news/security/abandoned-popcorn-time-app-exposed-millions-of-device-to-rce-attacks/",
-          "pub_date": "2026-10-23T20:55:05+00:00"
-        },
-        {
-          "source": "Cyberinsider",
-          "url": "https://cyberinsider.com/popcorn-time-updater-flaw-exposed-millions-of-devices-to-hijacking/",
-          "pub_date": "2026-10-23T20:16:12+00:00"
-        },
-        {
-          "source": "labs.eye.security",
-          "url": "https://labs.eye.security/operation-ixim-preventing-a-botnet-of-millions-of-popcorn-time-users/",
-          "pub_date": "2026-10-23T20:00:35.210658+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "cve",
-          "value": "CVE-2026-30612"
-        },
-        {
-          "type": "campaign",
-          "value": "Operation IXIM"
-        },
-        {
-          "type": "campaign",
-          "value": "Operation Ladybird"
-        },
-        {
-          "type": "malware",
-          "value": "Emotet"
-        }
-      ]
-    },
-    {
-      "type": "domain",
       "value": "agent2.sh",
       "confidence": "high",
       "reason": "Described as part of a multi-stage payload chain used by attackers",
@@ -203,45 +1242,6 @@
         }
       ],
       "tags": []
-    },
-    {
-      "type": "ipv4",
-      "value": "45.227.254.43",
-      "confidence": "high",
-      "reason": "Identified as an exposed command-and-control server used by attackers.",
-      "first_seen": "2026-10-23T17:50:47+00:00",
-      "last_seen": "2026-10-23T18:56:09+00:00",
-      "source_count": 2,
-      "sources": [
-        {
-          "source": "Socprime",
-          "url": "https://socprime.com/active-threats/inc-and-the-gentlemen-ransomware-expose-ai-powered-attack-infrastructure/",
-          "pub_date": "2026-10-23T18:56:09+00:00"
-        },
-        {
-          "source": "Thehackernews",
-          "url": "https://thehackernews.com/2026/10/exposed-infrastructure-reveals-how.html",
-          "pub_date": "2026-10-23T17:50:47+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "ransomware_group",
-          "value": "INC"
-        },
-        {
-          "type": "ransomware_group",
-          "value": "The Gentlemen"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2024-57727"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-15409"
-        }
-      ]
     },
     {
       "type": "domain",
@@ -359,278 +1359,6 @@
         }
       ],
       "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "agent.afahimsa.top",
-      "confidence": "high",
-      "reason": "Domain hosting MeshAgents for C2 operations",
-      "first_seen": "2026-10-23T14:34:31.423520+00:00",
-      "last_seen": "2026-10-23T14:34:31.423520+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.group-ib.com",
-          "url": "https://www.group-ib.com/blog/stray-cat-network-edge/",
-          "pub_date": "2026-10-23T14:34:31.42352+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "cve",
-          "value": "CVE-2019-6693"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2021-42278"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2021-42287"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2025-64446"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "alknene.shop",
-      "confidence": "high",
-      "reason": "Domain resolved to C2 infrastructure",
-      "first_seen": "2026-10-23T14:34:31.423520+00:00",
-      "last_seen": "2026-10-23T14:34:31.423520+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.group-ib.com",
-          "url": "https://www.group-ib.com/blog/stray-cat-network-edge/",
-          "pub_date": "2026-10-23T14:34:31.42352+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "cve",
-          "value": "CVE-2019-6693"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2021-42278"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2021-42287"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2025-64446"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "mesh.buttruyen.com",
-      "confidence": "high",
-      "reason": "MeshCentral server used for C2 operations",
-      "first_seen": "2026-10-23T14:34:31.423520+00:00",
-      "last_seen": "2026-10-23T14:34:31.423520+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.group-ib.com",
-          "url": "https://www.group-ib.com/blog/stray-cat-network-edge/",
-          "pub_date": "2026-10-23T14:34:31.42352+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "cve",
-          "value": "CVE-2019-6693"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2021-42278"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2021-42287"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2025-64446"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "meshcentral.girydsfsggvb.com",
-      "confidence": "high",
-      "reason": "Listed in IOC section as attacker infrastructure",
-      "first_seen": "2026-10-23T14:34:31.423520+00:00",
-      "last_seen": "2026-10-23T14:34:31.423520+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.group-ib.com",
-          "url": "https://www.group-ib.com/blog/stray-cat-network-edge/",
-          "pub_date": "2026-10-23T14:34:31.42352+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "cve",
-          "value": "CVE-2019-6693"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2021-42278"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2021-42287"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2025-64446"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "sthyjk.com",
-      "confidence": "high",
-      "reason": "Domain used to retrieve malicious agents",
-      "first_seen": "2026-10-23T14:34:31.423520+00:00",
-      "last_seen": "2026-10-23T14:34:31.423520+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.group-ib.com",
-          "url": "https://www.group-ib.com/blog/stray-cat-network-edge/",
-          "pub_date": "2026-10-23T14:34:31.42352+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "cve",
-          "value": "CVE-2019-6693"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2021-42278"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2021-42287"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2025-64446"
-        }
-      ]
-    },
-    {
-      "type": "ipv4",
-      "value": "162.33.178.213",
-      "confidence": "high",
-      "reason": "IP used to host and deliver malicious agents",
-      "first_seen": "2026-10-23T14:34:31.423520+00:00",
-      "last_seen": "2026-10-23T14:34:31.423520+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.group-ib.com",
-          "url": "https://www.group-ib.com/blog/stray-cat-network-edge/",
-          "pub_date": "2026-10-23T14:34:31.42352+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "cve",
-          "value": "CVE-2019-6693"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2021-42278"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2021-42287"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2025-64446"
-        }
-      ]
-    },
-    {
-      "type": "ipv4",
-      "value": "193.149.187.81",
-      "confidence": "high",
-      "reason": "IP used for hosting malicious payload",
-      "first_seen": "2026-10-23T14:34:31.423520+00:00",
-      "last_seen": "2026-10-23T14:34:31.423520+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.group-ib.com",
-          "url": "https://www.group-ib.com/blog/stray-cat-network-edge/",
-          "pub_date": "2026-10-23T14:34:31.42352+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "cve",
-          "value": "CVE-2019-6693"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2021-42278"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2021-42287"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2025-64446"
-        }
-      ]
-    },
-    {
-      "type": "ipv4",
-      "value": "64.94.85.14",
-      "confidence": "high",
-      "reason": "IP hosting C2 infrastructure",
-      "first_seen": "2026-10-23T14:34:31.423520+00:00",
-      "last_seen": "2026-10-23T14:34:31.423520+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.group-ib.com",
-          "url": "https://www.group-ib.com/blog/stray-cat-network-edge/",
-          "pub_date": "2026-10-23T14:34:31.42352+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "cve",
-          "value": "CVE-2019-6693"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2021-42278"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2021-42287"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2025-64446"
-        }
-      ]
     },
     {
       "type": "ipv4",
@@ -6287,239 +7015,6 @@
     },
     {
       "type": "domain",
-      "value": "0auth-chromium.com",
-      "confidence": "high",
-      "reason": "Domain used to retrieve and execute a malicious PowerShell script",
-      "first_seen": "2026-10-19T10:34:26+00:00",
-      "last_seen": "2026-10-19T13:35:56.267043+00:00",
-      "source_count": 2,
-      "sources": [
-        {
-          "source": "www.elastic.co",
-          "url": "https://www.elastic.co/security-labs/threat-command/apex-accelerator-malicious-npm-packages",
-          "pub_date": "2026-10-19T13:35:56.267043+00:00"
-        },
-        {
-          "source": "Thehackernews",
-          "url": "https://thehackernews.com/2026/10/fake-web3-accelerator-uses-npm-packages.html",
-          "pub_date": "2026-10-19T10:34:26+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "malware",
-          "value": "CloudSyncD"
-        },
-        {
-          "type": "campaign",
-          "value": "Apex Accelerator"
-        },
-        {
-          "type": "malware",
-          "value": "Atomic Stealer"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "arenapex.cloud",
-      "confidence": "high",
-      "reason": "Historical domain used for script-download in malicious infrastructure",
-      "first_seen": "2026-10-19T13:35:56.267043+00:00",
-      "last_seen": "2026-10-19T13:35:56.267043+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.elastic.co",
-          "url": "https://www.elastic.co/security-labs/threat-command/apex-accelerator-malicious-npm-packages",
-          "pub_date": "2026-10-19T13:35:56.267043+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "malware",
-          "value": "CloudSyncD"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "ccmihr.com",
-      "confidence": "high",
-      "reason": "Domain used as a C2 server responding with tasks for malware",
-      "first_seen": "2026-10-19T10:34:26+00:00",
-      "last_seen": "2026-10-19T13:35:56.267043+00:00",
-      "source_count": 2,
-      "sources": [
-        {
-          "source": "www.elastic.co",
-          "url": "https://www.elastic.co/security-labs/threat-command/apex-accelerator-malicious-npm-packages",
-          "pub_date": "2026-10-19T13:35:56.267043+00:00"
-        },
-        {
-          "source": "Thehackernews",
-          "url": "https://thehackernews.com/2026/10/fake-web3-accelerator-uses-npm-packages.html",
-          "pub_date": "2026-10-19T10:34:26+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "malware",
-          "value": "CloudSyncD"
-        },
-        {
-          "type": "campaign",
-          "value": "Apex Accelerator"
-        },
-        {
-          "type": "malware",
-          "value": "Atomic Stealer"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "cloudmain365duo.top",
-      "confidence": "high",
-      "reason": "Domain used as a script-download host in malicious infrastructure",
-      "first_seen": "2026-10-19T13:35:56.267043+00:00",
-      "last_seen": "2026-10-19T13:35:56.267043+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.elastic.co",
-          "url": "https://www.elastic.co/security-labs/threat-command/apex-accelerator-malicious-npm-packages",
-          "pub_date": "2026-10-19T13:35:56.267043+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "malware",
-          "value": "CloudSyncD"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "ehegisnightmare.icu",
-      "confidence": "high",
-      "reason": "Domain used to download and execute a malicious payload",
-      "first_seen": "2026-10-19T10:34:26+00:00",
-      "last_seen": "2026-10-19T13:35:56.267043+00:00",
-      "source_count": 2,
-      "sources": [
-        {
-          "source": "www.elastic.co",
-          "url": "https://www.elastic.co/security-labs/threat-command/apex-accelerator-malicious-npm-packages",
-          "pub_date": "2026-10-19T13:35:56.267043+00:00"
-        },
-        {
-          "source": "Thehackernews",
-          "url": "https://thehackernews.com/2026/10/fake-web3-accelerator-uses-npm-packages.html",
-          "pub_date": "2026-10-19T10:34:26+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "malware",
-          "value": "CloudSyncD"
-        },
-        {
-          "type": "campaign",
-          "value": "Apex Accelerator"
-        },
-        {
-          "type": "malware",
-          "value": "Atomic Stealer"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "main.router-apex.com",
-      "confidence": "high",
-      "reason": "Domain used as a script-download host in malicious infrastructure",
-      "first_seen": "2026-10-19T13:35:56.267043+00:00",
-      "last_seen": "2026-10-19T13:35:56.267043+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.elastic.co",
-          "url": "https://www.elastic.co/security-labs/threat-command/apex-accelerator-malicious-npm-packages",
-          "pub_date": "2026-10-19T13:35:56.267043+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "malware",
-          "value": "CloudSyncD"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "update.apex-arena-router.com",
-      "confidence": "high",
-      "reason": "Domain used as a script-download host in malicious infrastructure",
-      "first_seen": "2026-10-19T13:35:56.267043+00:00",
-      "last_seen": "2026-10-19T13:35:56.267043+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.elastic.co",
-          "url": "https://www.elastic.co/security-labs/threat-command/apex-accelerator-malicious-npm-packages",
-          "pub_date": "2026-10-19T13:35:56.267043+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "malware",
-          "value": "CloudSyncD"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "vrf.apexaccs.org",
-      "confidence": "high",
-      "reason": "Domain used to obtain commands from attacker's C2 server",
-      "first_seen": "2026-10-16T10:31:51+00:00",
-      "last_seen": "2026-10-19T13:35:56.267043+00:00",
-      "source_count": 3,
-      "sources": [
-        {
-          "source": "www.elastic.co",
-          "url": "https://www.elastic.co/security-labs/threat-command/apex-accelerator-malicious-npm-packages",
-          "pub_date": "2026-10-19T13:35:56.267043+00:00"
-        },
-        {
-          "source": "Thehackernews",
-          "url": "https://thehackernews.com/2026/10/fake-web3-accelerator-uses-npm-packages.html",
-          "pub_date": "2026-10-19T10:34:26+00:00"
-        },
-        {
-          "source": "Bloglab.360",
-          "url": "https://blog.netlab.360.com/aian-quan-zhuan-ti-zhou-bao-9/",
-          "pub_date": "2026-10-16T10:31:51+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "malware",
-          "value": "CloudSyncD"
-        },
-        {
-          "type": "campaign",
-          "value": "Apex Accelerator"
-        },
-        {
-          "type": "malware",
-          "value": "Atomic Stealer"
-        }
-      ]
-    },
-    {
-      "type": "domain",
       "value": "my-gitlab.com",
       "confidence": "high",
       "reason": "Registered by the threat actor for phishing and data exfiltration.",
@@ -11200,312 +11695,6 @@
         {
           "type": "malware",
           "value": "RomulusLoader"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "malwarescan.xyz",
-      "confidence": "high",
-      "reason": "Domain registered and likely operated by the attacker for malicious purposes",
-      "first_seen": "2026-10-12T13:01:33.020113+00:00",
-      "last_seen": "2026-10-12T13:01:33.020113+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.lumen.com",
-          "url": "https://www.lumen.com/blog/en-us/canto-incognito-tracking-the-poellm-malware",
-          "pub_date": "2026-10-12T13:01:33.020113+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "PoeLLM Campaign"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2018-21027"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2018-21028"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-10520"
-        }
-      ]
-    },
-    {
-      "type": "ipv4",
-      "value": "103.249.201.108",
-      "confidence": "high",
-      "reason": "Listed as a C2 IP address associated with the campaign",
-      "first_seen": "2026-10-12T13:01:33.020113+00:00",
-      "last_seen": "2026-10-12T13:01:33.020113+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.lumen.com",
-          "url": "https://www.lumen.com/blog/en-us/canto-incognito-tracking-the-poellm-malware",
-          "pub_date": "2026-10-12T13:01:33.020113+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "PoeLLM Campaign"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2018-21027"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2018-21028"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-10520"
-        }
-      ]
-    },
-    {
-      "type": "ipv4",
-      "value": "120.224.114.212",
-      "confidence": "high",
-      "reason": "Listed as additional infrastructure used during the campaign",
-      "first_seen": "2026-10-12T13:01:33.020113+00:00",
-      "last_seen": "2026-10-12T13:01:33.020113+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.lumen.com",
-          "url": "https://www.lumen.com/blog/en-us/canto-incognito-tracking-the-poellm-malware",
-          "pub_date": "2026-10-12T13:01:33.020113+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "PoeLLM Campaign"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2018-21027"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2018-21028"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-10520"
-        }
-      ]
-    },
-    {
-      "type": "ipv4",
-      "value": "136.148.69.233",
-      "confidence": "high",
-      "reason": "Listed as additional infrastructure used during the campaign",
-      "first_seen": "2026-10-12T13:01:33.020113+00:00",
-      "last_seen": "2026-10-12T13:01:33.020113+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.lumen.com",
-          "url": "https://www.lumen.com/blog/en-us/canto-incognito-tracking-the-poellm-malware",
-          "pub_date": "2026-10-12T13:01:33.020113+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "PoeLLM Campaign"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2018-21027"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2018-21028"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-10520"
-        }
-      ]
-    },
-    {
-      "type": "ipv4",
-      "value": "185.132.53.158",
-      "confidence": "high",
-      "reason": "Listed as additional infrastructure used during the campaign",
-      "first_seen": "2026-10-12T13:01:33.020113+00:00",
-      "last_seen": "2026-10-12T13:01:33.020113+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.lumen.com",
-          "url": "https://www.lumen.com/blog/en-us/canto-incognito-tracking-the-poellm-malware",
-          "pub_date": "2026-10-12T13:01:33.020113+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "PoeLLM Campaign"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2018-21027"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2018-21028"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-10520"
-        }
-      ]
-    },
-    {
-      "type": "ipv4",
-      "value": "191.37.28.160",
-      "confidence": "high",
-      "reason": "Listed as additional infrastructure used during the campaign",
-      "first_seen": "2026-10-12T13:01:33.020113+00:00",
-      "last_seen": "2026-10-12T13:01:33.020113+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.lumen.com",
-          "url": "https://www.lumen.com/blog/en-us/canto-incognito-tracking-the-poellm-malware",
-          "pub_date": "2026-10-12T13:01:33.020113+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "PoeLLM Campaign"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2018-21027"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2018-21028"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-10520"
-        }
-      ]
-    },
-    {
-      "type": "ipv4",
-      "value": "89.39.253.46",
-      "confidence": "high",
-      "reason": "Listed as additional infrastructure used during the campaign",
-      "first_seen": "2026-10-12T13:01:33.020113+00:00",
-      "last_seen": "2026-10-12T13:01:33.020113+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.lumen.com",
-          "url": "https://www.lumen.com/blog/en-us/canto-incognito-tracking-the-poellm-malware",
-          "pub_date": "2026-10-12T13:01:33.020113+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "PoeLLM Campaign"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2018-21027"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2018-21028"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-10520"
-        }
-      ]
-    },
-    {
-      "type": "ipv4",
-      "value": "92.119.164.50",
-      "confidence": "high",
-      "reason": "Listed as a C2 IP address associated with the campaign",
-      "first_seen": "2026-10-12T13:01:33.020113+00:00",
-      "last_seen": "2026-10-12T13:01:33.020113+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.lumen.com",
-          "url": "https://www.lumen.com/blog/en-us/canto-incognito-tracking-the-poellm-malware",
-          "pub_date": "2026-10-12T13:01:33.020113+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "PoeLLM Campaign"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2018-21027"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2018-21028"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-10520"
-        }
-      ]
-    },
-    {
-      "type": "ipv4",
-      "value": "92.119.165.74",
-      "confidence": "high",
-      "reason": "Listed as additional infrastructure used during the campaign",
-      "first_seen": "2026-10-12T13:01:33.020113+00:00",
-      "last_seen": "2026-10-12T13:01:33.020113+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.lumen.com",
-          "url": "https://www.lumen.com/blog/en-us/canto-incognito-tracking-the-poellm-malware",
-          "pub_date": "2026-10-12T13:01:33.020113+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "PoeLLM Campaign"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2018-21027"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2018-21028"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-10520"
         }
       ]
     },
@@ -24397,508 +24586,6 @@
           "value": "Lumma Stealer"
         }
       ]
-    },
-    {
-      "type": "domain",
-      "value": "1cvvts.cyou",
-      "confidence": "high",
-      "reason": "Part of a coordinated domain cluster suggesting attacker-controlled infrastructure",
-      "first_seen": "2026-09-25T11:06:36.553165+00:00",
-      "last_seen": "2026-09-25T11:06:36.553165+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "efficientip.com",
-          "url": "https://efficientip.com/blog/aliexpress-phishing-campaign-dns/",
-          "pub_date": "2026-09-25T11:06:36.553165+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "AliExpress Phishing Campaign"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "2nftgz.cyou",
-      "confidence": "high",
-      "reason": "Part of a coordinated domain cluster suggesting attacker-controlled infrastructure",
-      "first_seen": "2026-09-25T11:06:36.553165+00:00",
-      "last_seen": "2026-09-25T11:06:36.553165+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "efficientip.com",
-          "url": "https://efficientip.com/blog/aliexpress-phishing-campaign-dns/",
-          "pub_date": "2026-09-25T11:06:36.553165+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "AliExpress Phishing Campaign"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "3gftdw.cyou",
-      "confidence": "high",
-      "reason": "Part of a coordinated domain cluster suggesting attacker-controlled infrastructure",
-      "first_seen": "2026-09-25T11:06:36.553165+00:00",
-      "last_seen": "2026-09-25T11:06:36.553165+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "efficientip.com",
-          "url": "https://efficientip.com/blog/aliexpress-phishing-campaign-dns/",
-          "pub_date": "2026-09-25T11:06:36.553165+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "AliExpress Phishing Campaign"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "3hfllr.cyou",
-      "confidence": "high",
-      "reason": "Part of a coordinated domain cluster suggesting attacker-controlled infrastructure",
-      "first_seen": "2026-09-25T11:06:36.553165+00:00",
-      "last_seen": "2026-09-25T11:06:36.553165+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "efficientip.com",
-          "url": "https://efficientip.com/blog/aliexpress-phishing-campaign-dns/",
-          "pub_date": "2026-09-25T11:06:36.553165+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "AliExpress Phishing Campaign"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "5kcivu.cyou",
-      "confidence": "high",
-      "reason": "Part of a coordinated domain cluster suggesting attacker-controlled infrastructure",
-      "first_seen": "2026-09-25T11:06:36.553165+00:00",
-      "last_seen": "2026-09-25T11:06:36.553165+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "efficientip.com",
-          "url": "https://efficientip.com/blog/aliexpress-phishing-campaign-dns/",
-          "pub_date": "2026-09-25T11:06:36.553165+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "AliExpress Phishing Campaign"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "5kvicu.cyou",
-      "confidence": "high",
-      "reason": "Part of a coordinated domain cluster suggesting attacker-controlled infrastructure",
-      "first_seen": "2026-09-25T11:06:36.553165+00:00",
-      "last_seen": "2026-09-25T11:06:36.553165+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "efficientip.com",
-          "url": "https://efficientip.com/blog/aliexpress-phishing-campaign-dns/",
-          "pub_date": "2026-09-25T11:06:36.553165+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "AliExpress Phishing Campaign"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "6nygmf.cyou",
-      "confidence": "high",
-      "reason": "Part of a coordinated domain cluster suggesting attacker-controlled infrastructure",
-      "first_seen": "2026-09-25T11:06:36.553165+00:00",
-      "last_seen": "2026-09-25T11:06:36.553165+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "efficientip.com",
-          "url": "https://efficientip.com/blog/aliexpress-phishing-campaign-dns/",
-          "pub_date": "2026-09-25T11:06:36.553165+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "AliExpress Phishing Campaign"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "7cbuyw.cyou",
-      "confidence": "high",
-      "reason": "Part of a coordinated domain cluster suggesting attacker-controlled infrastructure",
-      "first_seen": "2026-09-25T11:06:36.553165+00:00",
-      "last_seen": "2026-09-25T11:06:36.553165+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "efficientip.com",
-          "url": "https://efficientip.com/blog/aliexpress-phishing-campaign-dns/",
-          "pub_date": "2026-09-25T11:06:36.553165+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "AliExpress Phishing Campaign"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "9fkjsk.cyou",
-      "confidence": "high",
-      "reason": "Part of a coordinated domain cluster suggesting attacker-controlled infrastructure",
-      "first_seen": "2026-09-25T11:06:36.553165+00:00",
-      "last_seen": "2026-09-25T11:06:36.553165+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "efficientip.com",
-          "url": "https://efficientip.com/blog/aliexpress-phishing-campaign-dns/",
-          "pub_date": "2026-09-25T11:06:36.553165+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "AliExpress Phishing Campaign"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "9rqqca.cyou",
-      "confidence": "high",
-      "reason": "Part of a coordinated domain cluster suggesting attacker-controlled infrastructure",
-      "first_seen": "2026-09-25T11:06:36.553165+00:00",
-      "last_seen": "2026-09-25T11:06:36.553165+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "efficientip.com",
-          "url": "https://efficientip.com/blog/aliexpress-phishing-campaign-dns/",
-          "pub_date": "2026-09-25T11:06:36.553165+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "AliExpress Phishing Campaign"
-        }
-      ]
-    },
-    {
-      "type": "ipv4",
-      "value": "46.8.9.223",
-      "confidence": "high",
-      "reason": "Part of a coordinated domain cluster with DGA-style domains",
-      "first_seen": "2026-09-25T11:06:36.553165+00:00",
-      "last_seen": "2026-09-25T11:06:36.553165+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "efficientip.com",
-          "url": "https://efficientip.com/blog/aliexpress-phishing-campaign-dns/",
-          "pub_date": "2026-09-25T11:06:36.553165+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "AliExpress Phishing Campaign"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "fsputnik.com",
-      "confidence": "high",
-      "reason": "Used to host malicious scripts",
-      "first_seen": "2026-09-24T14:57:10+00:00",
-      "last_seen": "2026-09-24T14:57:10+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Arcticwolf",
-          "url": "https://arcticwolf.com/resources/blog/psychedelic-stealer-fake-clickfix-captcha-targets-ukraine/",
-          "pub_date": "2026-09-24T14:57:10+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "malware",
-          "value": "Psychedelic Stealer"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "ernigr-esfilc.com",
-      "confidence": "high",
-      "reason": "Used as an iframe domain in a phishing campaign, indicating attacker control.",
-      "first_seen": "2026-09-24T13:12:11.081376+00:00",
-      "last_seen": "2026-09-24T13:12:11.081376+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "haveibeensquatted.com",
-          "url": "https://haveibeensquatted.com/blog/diesel-vortex-inside-the-russian-cybercrime-group-targeting-us-eu-freight",
-          "pub_date": "2026-09-24T13:12:11.081376+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Diesel Vortex"
-        },
-        {
-          "type": "industry",
-          "value": "Logistics"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "lpanel-bckaoplsks.top",
-      "confidence": "high",
-      "reason": "Appears in referrer entries recording victim traffic, indicating attacker control.",
-      "first_seen": "2026-09-24T13:12:11.081376+00:00",
-      "last_seen": "2026-09-24T13:12:11.081376+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "haveibeensquatted.com",
-          "url": "https://haveibeensquatted.com/blog/diesel-vortex-inside-the-russian-cybercrime-group-targeting-us-eu-freight",
-          "pub_date": "2026-09-24T13:12:11.081376+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Diesel Vortex"
-        },
-        {
-          "type": "industry",
-          "value": "Logistics"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "lpanel-bumaepxuje-iframe.top",
-      "confidence": "high",
-      "reason": "Identified as an active secondary domain used by attackers.",
-      "first_seen": "2026-09-24T13:12:11.081376+00:00",
-      "last_seen": "2026-09-24T13:12:11.081376+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "haveibeensquatted.com",
-          "url": "https://haveibeensquatted.com/blog/diesel-vortex-inside-the-russian-cybercrime-group-targeting-us-eu-freight",
-          "pub_date": "2026-09-24T13:12:11.081376+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Diesel Vortex"
-        },
-        {
-          "type": "industry",
-          "value": "Logistics"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "lpanel-bumaepxuje.top",
-      "confidence": "high",
-      "reason": "Configured as the panel hostname in the attacker's codebase.",
-      "first_seen": "2026-09-24T13:12:11.081376+00:00",
-      "last_seen": "2026-09-24T13:12:11.081376+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "haveibeensquatted.com",
-          "url": "https://haveibeensquatted.com/blog/diesel-vortex-inside-the-russian-cybercrime-group-targeting-us-eu-freight",
-          "pub_date": "2026-09-24T13:12:11.081376+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Diesel Vortex"
-        },
-        {
-          "type": "industry",
-          "value": "Logistics"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "yasomawork.space",
-      "confidence": "high",
-      "reason": "Referenced in the admin panel footer, indicating attacker control.",
-      "first_seen": "2026-09-24T13:12:11.081376+00:00",
-      "last_seen": "2026-09-24T13:12:11.081376+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "haveibeensquatted.com",
-          "url": "https://haveibeensquatted.com/blog/diesel-vortex-inside-the-russian-cybercrime-group-targeting-us-eu-freight",
-          "pub_date": "2026-09-24T13:12:11.081376+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Diesel Vortex"
-        },
-        {
-          "type": "industry",
-          "value": "Logistics"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "playgoogle.logisticstkwcargo.com",
-      "confidence": "high",
-      "reason": "Domain appears to be a typosquat or lookalike used for phishing or malware delivery.",
-      "first_seen": "2026-09-24T12:09:27+00:00",
-      "last_seen": "2026-09-24T13:12:08.828530+00:00",
-      "source_count": 3,
-      "sources": [
-        {
-          "source": "haveibeensquatted.com",
-          "url": "https://haveibeensquatted.com/blog/inside-corp-mdm-android-spyware-targeting-logisitics",
-          "pub_date": "2026-09-24T13:12:08.82853+00:00"
-        },
-        {
-          "source": "News.Lavx.Hu",
-          "url": "https://news.lavx.hu/article/corp-mdm-spyware-targets-logistics-firms-steals-new-sms-and-redirects-calls",
-          "pub_date": "2026-09-24T12:40:33+00:00"
-        },
-        {
-          "source": "Thehackernews",
-          "url": "https://thehackernews.com/2026/09/corp-mdm-spyware-targets-logistics.html",
-          "pub_date": "2026-09-24T12:09:27+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "malware",
-          "value": "Corp MDM"
-        },
-        {
-          "type": "campaign",
-          "value": "Diesel Vortex"
-        },
-        {
-          "type": "campaign",
-          "value": "Global Profit"
-        },
-        {
-          "type": "campaign",
-          "value": "MC Profit Always"
-        }
-      ]
-    },
-    {
-      "type": "ipv4",
-      "value": "194.87.89.30",
-      "confidence": "high",
-      "reason": "Used to download AnyDesk RMM by threat actor",
-      "first_seen": "2026-09-24T13:03:24+00:00",
-      "last_seen": "2026-09-24T13:03:24+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Huntress",
-          "url": "https://www.huntress.com/blog/threat-actor-compiles-cryptominer",
-          "pub_date": "2026-09-24T13:03:24+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "cve",
-          "value": "CVE-2024-7399"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2025-4632"
-        },
-        {
-          "type": "malware",
-          "value": "SilentXMRMiner"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "toria.apple03cloudstore.com",
-      "confidence": "high",
-      "reason": "Used to host malicious payloads",
-      "first_seen": "2026-09-24T10:12:52+00:00",
-      "last_seen": "2026-09-24T10:12:52+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Securelist",
-          "url": "https://securelist.com/macsync-new-version/121383/",
-          "pub_date": "2026-09-24T10:12:52+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "waaako.appstore.com.mx",
-      "confidence": "high",
-      "reason": "Listed among URLs used for distributing malicious scripts and payloads.",
-      "first_seen": "2026-09-24T10:12:52+00:00",
-      "last_seen": "2026-09-24T10:12:52+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Securelist",
-          "url": "https://securelist.com/macsync-new-version/121383/",
-          "pub_date": "2026-09-24T10:12:52+00:00"
-        }
-      ],
-      "tags": []
     }
   ],
   "license": "CC-BY 4.0 \u2014 attribute ThreatCluster (https://threatcluster.io)",
