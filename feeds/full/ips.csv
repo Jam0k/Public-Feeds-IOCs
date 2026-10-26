@@ -1,12 +1,14 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason
-ipv4,103.249.201.108,high,2026-10-07T16:33:59.128067+00:00,2026-10-24T17:31:46.441754+00:00,1,,Listed as a C2 IP address associated with the campaign
-ipv4,120.224.114.212,high,2026-10-07T16:33:59.128067+00:00,2026-10-24T17:31:46.441754+00:00,1,,Listed as additional infrastructure used during the campaign
-ipv4,136.148.69.233,high,2026-10-07T16:33:59.128067+00:00,2026-10-24T17:31:46.441754+00:00,1,,Listed as additional infrastructure used during the campaign
-ipv4,185.132.53.158,high,2026-10-07T16:33:59.128067+00:00,2026-10-24T17:31:46.441754+00:00,1,,Listed as additional infrastructure used during the campaign
-ipv4,191.37.28.160,high,2026-10-07T16:33:59.128067+00:00,2026-10-24T17:31:46.441754+00:00,1,,Listed as additional infrastructure used during the campaign
-ipv4,89.39.253.46,high,2026-10-07T16:33:59.128067+00:00,2026-10-24T17:31:46.441754+00:00,1,,Listed as additional infrastructure used during the campaign
-ipv4,92.119.164.50,high,2026-10-07T16:33:59.128067+00:00,2026-10-24T17:31:46.441754+00:00,1,,Listed as a C2 IP address associated with the campaign
-ipv4,92.119.165.74,high,2026-10-07T16:33:59.128067+00:00,2026-10-24T17:31:46.441754+00:00,1,,Listed as additional infrastructure used during the campaign
+ipv4,217.60.194.116,high,2026-10-19T14:32:23.768220+00:00,2026-10-25T20:32:13.039275+00:00,2,,Source of malicious file downloads
+ipv4,185.17.0.52,high,2026-10-25T15:30:36.879000+00:00,2026-10-25T15:30:36.879000+00:00,1,,"IP address used to host and distribute malware, including Amadey and RedLine"
+ipv4,103.249.201.108,high,2026-10-07T16:33:59.128067+00:00,2026-10-25T10:00:46.226969+00:00,1,,Listed as a C2 IP address associated with the campaign
+ipv4,120.224.114.212,high,2026-10-07T16:33:59.128067+00:00,2026-10-25T10:00:46.226969+00:00,1,,Listed as additional infrastructure used during the campaign
+ipv4,136.148.69.233,high,2026-10-07T16:33:59.128067+00:00,2026-10-25T10:00:46.226969+00:00,1,,Listed as additional infrastructure used during the campaign
+ipv4,185.132.53.158,high,2026-10-07T16:33:59.128067+00:00,2026-10-25T10:00:46.226969+00:00,1,,Listed as additional infrastructure used during the campaign
+ipv4,191.37.28.160,high,2026-10-07T16:33:59.128067+00:00,2026-10-25T10:00:46.226969+00:00,1,,Listed as additional infrastructure used during the campaign
+ipv4,89.39.253.46,high,2026-10-07T16:33:59.128067+00:00,2026-10-25T10:00:46.226969+00:00,1,,Listed as additional infrastructure used during the campaign
+ipv4,92.119.164.50,high,2026-10-07T16:33:59.128067+00:00,2026-10-25T10:00:46.226969+00:00,1,,Listed as a C2 IP address associated with the campaign
+ipv4,92.119.165.74,high,2026-10-07T16:33:59.128067+00:00,2026-10-25T10:00:46.226969+00:00,1,,Listed as additional infrastructure used during the campaign
 ipv4,162.33.178.213,high,2026-10-23T14:34:31.423520+00:00,2026-10-24T15:35:22.094108+00:00,1,,IP used to host and deliver malicious agents
 ipv4,193.149.187.81,high,2026-10-23T14:34:31.423520+00:00,2026-10-24T15:35:22.094108+00:00,1,,IP used for hosting malicious payload
 ipv4,64.94.85.14,high,2026-10-23T14:34:31.423520+00:00,2026-10-24T15:35:22.094108+00:00,1,,IP hosting C2 infrastructure
@@ -70,7 +72,6 @@ ipv4,79.130.26.202,high,2026-06-02T16:03:37.599888+00:00,2026-10-21T11:32:04.373
 ipv4,185.225.226.62,high,2026-10-20T22:00:38.188496+00:00,2026-10-21T10:30:27+00:00,2,,IP address used by attacker to log into the management server
 ipv4,162.33.177.177,high,2026-10-21T04:13:31+00:00,2026-10-21T04:13:31+00:00,1,,Communicating with a persistent NodeJS service registered by the attacker
 ipv4,212.73.134.136,high,2026-10-20T21:22:02+00:00,2026-10-20T21:22:02+00:00,1,,Used as a source IP for phishing activity
-ipv4,217.60.194.116,high,2026-10-19T14:32:23.768220+00:00,2026-10-20T18:32:11.740836+00:00,2,,Source of malicious file downloads
 ipv4,194.87.108.217,high,2026-10-20T11:06:25+00:00,2026-10-20T11:06:25+00:00,1,,Listed as a LegionRelay C2 server used in attacks
 ipv4,91.149.221.118,high,2026-10-20T11:06:25+00:00,2026-10-20T11:06:25+00:00,1,,Listed as a LegionRelay C2 server used in attacks
 ipv4,91.149.221.123,high,2026-10-20T11:06:25+00:00,2026-10-20T11:06:25+00:00,1,,Listed as a LegionRelay C2 server used in attacks
