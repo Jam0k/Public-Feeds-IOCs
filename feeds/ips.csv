@@ -1,4 +1,7 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason
+ipv4,94.154.43.7,high,2026-10-26T18:38:14+00:00,2026-10-26T18:38:14+00:00,1,Cyberkendra:2026-10-26,"Rated as malicious with high confidence by ELLIO, linked to mass exploitation"
+ipv4,64.95.10.223,high,2026-10-26T18:30:29.359684+00:00,2026-10-26T18:30:29.359684+00:00,1,www.welivesecurity.com:2026-10-26,Listed as MATCHBOIL C&C IP
+ipv4,64.95.13.210,high,2026-10-26T18:30:29.359684+00:00,2026-10-26T18:30:29.359684+00:00,1,www.welivesecurity.com:2026-10-26,Listed as MATCHBOIL C&C IP
 ipv4,217.60.194.116,high,2026-10-19T17:34:34+00:00,2026-10-25T20:32:13.039275+00:00,2,www.boredhackerblog.info:2026-10-25|Thehackernews:2026-10-19,Source of malicious file downloads
 ipv4,185.17.0.52,high,2026-10-25T15:30:36.879000+00:00,2026-10-25T15:30:36.879000+00:00,1,asec.ahnlab.com:2026-10-25,"IP address used to host and distribute malware, including Amadey and RedLine"
 ipv4,103.249.201.108,high,2026-10-25T10:00:46.226969+00:00,2026-10-25T10:00:46.226969+00:00,1,www.lumen.com:2026-10-25,Listed as a C2 IP address associated with the campaign
@@ -49,15 +52,15 @@ ipv4,196.189.236.67,high,2026-10-23T04:11:38+00:00,2026-10-23T04:11:38+00:00,1,C
 ipv4,38.54.50.151,high,2026-10-22T17:18:22+00:00,2026-10-22T23:44:11+00:00,4,Scworld:2026-10-22|X:2026-10-22|Mezha:2026-10-22|Bleepingcomputer:2026-10-22,Listed as a source IP for attacks
 ipv4,66.29.153.90,high,2026-10-22T19:36:42.065904+00:00,2026-10-22T19:36:42.065904+00:00,1,www.proofpoint.com:2026-10-22,Resolved to by attacker-controlled domain gettogether.quest
 ipv4,91.231.182.187,high,2026-10-22T18:31:10.890874+00:00,2026-10-22T18:31:10.890874+00:00,1,www.welivesecurity.com:2026-10-22,C&C server in payloads downloaded by PteroPaste
-ipv4,210.242.76.32,high,2026-10-22T17:49:54+00:00,2026-10-22T17:49:54+00:00,1,Thehackernews:2026-10-22,Listed as an IP used in exploitation attempts.
-ipv4,211.20.144.116,high,2026-10-22T17:49:54+00:00,2026-10-22T17:49:54+00:00,1,Thehackernews:2026-10-22,Listed as an IP used in exploitation attempts.
+ipv4,210.242.76.32,high,2026-10-22T17:49:54+00:00,2026-10-22T17:49:54+00:00,1,Thehackernews:2026-10-22,IP address used in exploitation attempts originating from Taiwan.
+ipv4,211.20.144.116,high,2026-10-22T17:49:54+00:00,2026-10-22T17:49:54+00:00,1,Thehackernews:2026-10-22,IP address used in exploitation attempts originating from Taiwan.
 ipv4,193.32.204.199,high,2026-10-07T13:03:38+00:00,2026-10-22T14:08:12+00:00,2,News.Ycombinator:2026-10-22|Blog.Gitguardian:2026-10-07,Listed as an exfiltration endpoint used by attackers.
 ipv4,185.238.2.195,high,2026-10-22T13:04:01+00:00,2026-10-22T13:04:01+00:00,1,Huntress:2026-10-22,Listed as an AiTM relay used by attackers.
 ipv4,192.159.99.172,high,2026-10-22T13:04:01+00:00,2026-10-22T13:04:01+00:00,1,Huntress:2026-10-22,Listed as a 1337 Services address used in attacks.
 ipv4,45.83.31.44,high,2026-10-22T13:04:01+00:00,2026-10-22T13:04:01+00:00,1,Huntress:2026-10-22,Listed as a 1337 Services address used in attacks.
-ipv4,193.148.56.97,high,2026-10-22T13:00:02+00:00,2026-10-22T13:00:02+00:00,1,Varonis:2026-10-22,Listed as a C2 address used by Stadia malware.
-ipv4,91.92.43.45,high,2026-10-22T13:00:02+00:00,2026-10-22T13:00:02+00:00,1,Varonis:2026-10-22,Listed as a C2 address used by Stadia malware.
-ipv4,93.152.213.215,high,2026-10-22T13:00:02+00:00,2026-10-22T13:00:02+00:00,1,Varonis:2026-10-22,Listed as a C2 address used by Stadia malware.
+ipv4,193.148.56.97,high,2026-10-22T13:00:02+00:00,2026-10-22T13:00:02+00:00,1,Varonis:2026-10-22,Listed as a C2 address used by Stadia RAT
+ipv4,91.92.43.45,high,2026-10-22T13:00:02+00:00,2026-10-22T13:00:02+00:00,1,Varonis:2026-10-22,Listed as a C2 address used by Stadia RAT
+ipv4,93.152.213.215,high,2026-10-22T13:00:02+00:00,2026-10-22T13:00:02+00:00,1,Varonis:2026-10-22,Listed as a C2 address used by Stadia RAT
 ipv4,117.55.202.115,high,2026-10-22T11:32:08.829801+00:00,2026-10-22T11:32:08.829801+00:00,1,ellio.tech:2026-10-22,Used as a staging host for second-stage payloads
 ipv4,134.154.64.199,high,2026-10-22T11:32:08.829801+00:00,2026-10-22T11:32:08.829801+00:00,1,ellio.tech:2026-10-22,Derived command and control address
 ipv4,150.251.112.208,high,2026-10-22T11:32:08.829801+00:00,2026-10-22T11:32:08.829801+00:00,1,ellio.tech:2026-10-22,Listed as a C2 server in the binary
@@ -104,8 +107,6 @@ ipv4,195.16.74.138,high,2026-10-10T05:02:45.293755+00:00,2026-10-10T05:02:45.293
 ipv4,2.56.126.151,high,2026-10-10T05:02:45.293755+00:00,2026-10-10T05:02:45.293755+00:00,1,www.elastic.co:2026-10-10,IP address associated with attacker-controlled domain
 ipv4,2.56.126.157,high,2026-10-10T05:02:45.293755+00:00,2026-10-10T05:02:45.293755+00:00,1,www.elastic.co:2026-10-10,IP address associated with attacker-controlled domain
 ipv4,2.56.126.188,high,2026-10-10T05:02:45.293755+00:00,2026-10-10T05:02:45.293755+00:00,1,www.elastic.co:2026-10-10,IP address associated with attacker-controlled domain
-ipv4,64.95.10.223,high,2026-10-09T23:03:35.788859+00:00,2026-10-09T23:03:35.788859+00:00,1,www.welivesecurity.com:2026-10-09,Listed as MATCHBOIL C&C IP
-ipv4,64.95.13.210,high,2026-10-09T23:03:35.788859+00:00,2026-10-09T23:03:35.788859+00:00,1,www.welivesecurity.com:2026-10-09,Listed as MATCHBOIL C&C IP
 ipv4,112.213.108.85,high,2026-10-09T18:00:23.022990+00:00,2026-10-09T18:00:23.022990+00:00,1,censys.com:2026-10-09,Listed as a live production server for C2
 ipv4,14.128.47.81,high,2026-10-09T18:00:23.022990+00:00,2026-10-09T18:00:23.022990+00:00,1,censys.com:2026-10-09,Listed as part of a C2 control panel fleet
 ipv4,154.217.250.206,high,2026-10-09T18:00:23.022990+00:00,2026-10-09T18:00:23.022990+00:00,1,censys.com:2026-10-09,Listed as serving a C2 Control Panel
