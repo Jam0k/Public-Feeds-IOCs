@@ -1,4 +1,7 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason
+ipv4,43.228.157.68,high,2026-10-28T02:58:27+00:00,2026-10-28T06:31:20.619550+00:00,2,www.infoworld.com:2026-10-28|Csoonline:2026-10-28,Reported as a server used in exploitation infrastructure
+ipv4,103.151.172.95,high,2026-10-27T13:32:48+00:00,2026-10-27T13:32:48+00:00,1,Wiz:2026-10-27,Used in an exploit attempt against a honeypot.
+ipv4,85.11.187.35,high,2026-10-27T13:32:48+00:00,2026-10-27T13:32:48+00:00,1,Wiz:2026-10-27,Used in an exploitation attempt.
 ipv4,94.154.43.7,high,2026-10-26T18:38:14+00:00,2026-10-26T18:38:14+00:00,1,Cyberkendra:2026-10-26,"Rated as malicious with high confidence by ELLIO, linked to mass exploitation"
 ipv4,64.95.10.223,high,2026-10-26T18:30:29.359684+00:00,2026-10-26T18:30:29.359684+00:00,1,www.welivesecurity.com:2026-10-26,Listed as MATCHBOIL C&C IP
 ipv4,64.95.13.210,high,2026-10-26T18:30:29.359684+00:00,2026-10-26T18:30:29.359684+00:00,1,www.welivesecurity.com:2026-10-26,Listed as MATCHBOIL C&C IP
@@ -213,7 +216,3 @@ ipv4,172.94.9.194,high,2026-09-29T05:01:43+00:00,2026-09-29T05:01:43+00:00,1,Red
 ipv4,193.201.185.90,high,2026-09-29T05:01:43+00:00,2026-09-29T05:01:43+00:00,1,Redpacketsecurity:2026-09-29,Exposed Mythic C2 portal
 ipv4,69.48.229.140,high,2026-09-29T00:00:00+00:00,2026-09-29T00:00:00+00:00,1,Cloudsek:2026-09-29,Used as a C2 server for malicious npm packages.
 ipv4,134.122.155.135,high,2026-09-28T17:51:54+00:00,2026-09-28T17:51:54+00:00,1,Cyberkendra:2026-09-28,IP address used for C2 communications
-ipv4,2.56.10.86,high,2026-09-28T05:19:24+00:00,2026-09-28T05:19:24+00:00,1,Cyfirma:2026-09-28,Listed in an IOC section likely indicating attacker-controlled infrastructure
-ipv4,46.30.188.13,high,2026-09-28T05:19:24+00:00,2026-09-28T05:19:24+00:00,1,Cyfirma:2026-09-28,Listed in an IOC section likely indicating attacker-controlled infrastructure
-ipv4,206.82.6.22,high,2026-09-27T15:00:00+00:00,2026-09-27T15:00:00+00:00,1,Asec.Ahnlab:2026-09-27,Used for reverse shell connections
-ipv4,65.98.5.158,high,2026-09-27T15:00:00+00:00,2026-09-27T15:00:00+00:00,1,Asec.Ahnlab:2026-09-27,Hosts a list of targets for a WordPress scanner

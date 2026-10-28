@@ -1,23 +1,41 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason
+domain,lanhd6549tdhse.top,high,2026-10-24T00:00:00+00:00,2026-10-28T07:31:19.901894+00:00,5,sansec.io:2026-10-28|Securityaffairs.Co:2026-10-26|Thehackernews:2026-10-26|Securityweek:2026-10-26|Sansec:2026-10-24,Described as a freshly registered domain used to inject malicious JavaScript
+ipv4,43.228.157.68,high,2026-10-28T02:58:27+00:00,2026-10-28T06:31:20.619550+00:00,2,www.infoworld.com:2026-10-28|Csoonline:2026-10-28,Reported as a server used in exploitation infrastructure
+domain,aiarmor.website,high,2026-10-22T00:00:00+00:00,2026-10-28T06:31:18.999798+00:00,2,research.jfrog.com:2026-10-28|Safedep:2026-10-22,Listed as a fallback endpoint for data exfiltration.
+domain,virtualine.net,high,2026-10-27T21:54:44+00:00,2026-10-27T21:54:44+00:00,1,Chainalysis:2026-10-27,Used as a bulletproof hosting provider for criminal activities
+domain,1x0.is,high,2026-10-27T21:12:06.561606+00:00,2026-10-27T21:12:06.561606+00:00,1,sansec.io:2026-10-27,"Domain used to exfiltrate card details from compromised checkouts, indicating attacker control."
+domain,anl.is,high,2026-10-27T21:12:06.561606+00:00,2026-10-27T21:12:06.561606+00:00,1,sansec.io:2026-10-27,"Listed as an exfiltration endpoint used by the attackers, indicating attacker control."
+domain,snf.is,high,2026-10-27T21:12:06.561606+00:00,2026-10-27T21:12:06.561606+00:00,1,sansec.io:2026-10-27,"Listed as an exfiltration endpoint used by the attackers, indicating attacker control."
+domain,adacompliantsigns.online,high,2026-10-27T18:20:10+00:00,2026-10-27T18:20:10+00:00,1,Censys:2026-10-27,Part of a phishing campaign infrastructure.
+domain,chapalasrealtor.com,high,2026-10-27T18:20:10+00:00,2026-10-27T18:20:10+00:00,1,Censys:2026-10-27,Part of a phishing campaign infrastructure.
+domain,cobblestonecafe.us,high,2026-10-27T18:20:10+00:00,2026-10-27T18:20:10+00:00,1,Censys:2026-10-27,Used as part of a malicious campaign infrastructure.
+domain,harborhouseplumbing.us,high,2026-10-27T18:20:10+00:00,2026-10-27T18:20:10+00:00,1,Censys:2026-10-27,Used as part of a malicious campaign infrastructure.
+domain,met.macroteams.site,high,2026-10-27T18:20:10+00:00,2026-10-27T18:20:10+00:00,1,Censys:2026-10-27,Part of a phishing campaign infrastructure.
+domain,novalineyoga.us,high,2026-10-27T18:20:10+00:00,2026-10-27T18:20:10+00:00,1,Censys:2026-10-27,Domain with subdomains pointing to a C2 IP
+domain,reviewscene.com,high,2026-10-27T18:20:10+00:00,2026-10-27T18:20:10+00:00,1,Censys:2026-10-27,Hosted on an IP associated with C2 infrastructure
+domain,com.ucreator.tg,high,2026-10-26T10:54:17+00:00,2026-10-27T17:37:34.713593+00:00,3,www.0x0v1.com:2026-10-27|cybernoz.com:2026-10-27|Thehackernews:2026-10-26,Part of the uCreator platform framework and command handlers
+domain,hpncallback.gold5play.com,high,2026-10-26T10:54:17+00:00,2026-10-27T17:37:34.713593+00:00,4,www.0x0v1.com:2026-10-27|cybernoz.com:2026-10-27|News.Lavx.Hu:2026-10-26|Thehackernews:2026-10-26,Listed as a callback domain for C2 and payload delivery
+domain,hpncallback.qianxunlbs.com,high,2026-10-26T10:54:17+00:00,2026-10-27T17:37:34.713593+00:00,4,www.0x0v1.com:2026-10-27|cybernoz.com:2026-10-27|News.Lavx.Hu:2026-10-26|Thehackernews:2026-10-26,Listed as a callback domain for C2 and payload delivery
+domain,hw.android.videoflow.cn,high,2026-10-26T10:54:17+00:00,2026-10-27T17:37:34.713593+00:00,4,www.0x0v1.com:2026-10-27|cybernoz.com:2026-10-27|News.Lavx.Hu:2026-10-26|Thehackernews:2026-10-26,Used for version uploads in the attack infrastructure
+domain,qianxuncc.cn,high,2026-10-26T13:11:01+00:00,2026-10-27T17:37:34.713593+00:00,2,www.0x0v1.com:2026-10-27|Securityaffairs:2026-10-26,Associated with C2 infrastructure
+domain,qianxunlbs.com,high,2026-10-27T17:37:34.713593+00:00,2026-10-27T17:37:34.713593+00:00,1,www.0x0v1.com:2026-10-27,Listed as a callback domain for C2 and payload delivery
+domain,telegram-apk.uzyzx.com,high,2026-10-26T10:54:17+00:00,2026-10-27T17:37:34.713593+00:00,5,www.0x0v1.com:2026-10-27|cybernoz.com:2026-10-27|News.Lavx.Hu:2026-10-26|Securityaffairs:2026-10-26|Thehackernews:2026-10-26,Used as a distribution host for repackaged applications
+domain,ucreater.com,high,2026-10-26T13:11:01+00:00,2026-10-27T17:37:34.713593+00:00,2,www.0x0v1.com:2026-10-27|Securityaffairs:2026-10-26,Linked to the uCreator brand and infrastructure
+domain,uzyzx.com,high,2026-10-27T17:37:34.713593+00:00,2026-10-27T17:37:34.713593+00:00,1,www.0x0v1.com:2026-10-27,Used as a distribution host for repackaged applications
+domain,videoflow.cn,high,2026-10-26T13:11:01+00:00,2026-10-27T17:37:34.713593+00:00,2,www.0x0v1.com:2026-10-27|Securityaffairs:2026-10-26,Associated with C2 infrastructure
+domain,coinbase.bonto.io,high,2026-10-27T17:28:33.184000+00:00,2026-10-27T17:28:33.184000+00:00,1,Socket.Dev:2026-10-27,Used as an exfiltration host in a malicious campaign.
+domain,claude.ai.download-app.us,high,2026-10-27T16:00:30.870663+00:00,2026-10-27T16:00:30.870663+00:00,1,www.huntress.com:2026-10-27,Redirects users to malicious content.
+domain,bitchassbecerra.com,high,2026-10-27T15:00:35.448658+00:00,2026-10-27T15:00:35.448658+00:00,1,www.cnn.com:2026-10-27,Campaign website created for political purposes.
+ipv4,103.151.172.95,high,2026-10-27T13:32:48+00:00,2026-10-27T13:32:48+00:00,1,Wiz:2026-10-27,Used in an exploit attempt against a honeypot.
+ipv4,85.11.187.35,high,2026-10-27T13:32:48+00:00,2026-10-27T13:32:48+00:00,1,Wiz:2026-10-27,Used in an exploitation attempt.
+domain,dedyn.io,high,2026-10-27T13:03:27+00:00,2026-10-27T13:03:27+00:00,1,Research.Checkpoint:2026-10-27,Used as a dynamic DNS for attacker-controlled infrastructure.
 domain,9i6pokerdepot.com,high,2026-10-27T06:31:11.483608+00:00,2026-10-27T06:31:11.483608+00:00,1,www.microsoft.com:2026-10-27,Used as a sending domain in a phishing campaign
-domain,com.ucreator.tg,high,2026-10-26T10:54:17+00:00,2026-10-27T01:18:32.504810+00:00,3,cybernoz.com:2026-10-27|www.0x0v1.com:2026-10-26|Thehackernews:2026-10-26,Part of the uCreator platform framework and command handlers
-domain,hpncallback.gold5play.com,high,2026-10-26T10:54:17+00:00,2026-10-27T01:18:32.504810+00:00,4,cybernoz.com:2026-10-27|www.0x0v1.com:2026-10-26|News.Lavx.Hu:2026-10-26|Thehackernews:2026-10-26,Listed as a callback domain for C2 and payload delivery
-domain,hpncallback.qianxunlbs.com,high,2026-10-26T10:54:17+00:00,2026-10-27T01:18:32.504810+00:00,4,cybernoz.com:2026-10-27|www.0x0v1.com:2026-10-26|News.Lavx.Hu:2026-10-26|Thehackernews:2026-10-26,Listed as a callback domain for C2 and payload delivery
-domain,hw.android.videoflow.cn,high,2026-10-26T10:54:17+00:00,2026-10-27T01:18:32.504810+00:00,4,cybernoz.com:2026-10-27|www.0x0v1.com:2026-10-26|News.Lavx.Hu:2026-10-26|Thehackernews:2026-10-26,Used for version uploads in the attack infrastructure
-domain,telegram-apk.uzyzx.com,high,2026-10-26T10:54:17+00:00,2026-10-27T01:18:32.504810+00:00,5,cybernoz.com:2026-10-27|www.0x0v1.com:2026-10-26|News.Lavx.Hu:2026-10-26|Securityaffairs:2026-10-26|Thehackernews:2026-10-26,Used as a distribution host for repackaged applications
 domain,c85grt98sd.com,high,2026-10-24T00:00:00+00:00,2026-10-26T20:41:22+00:00,2,Securityaffairs.Co:2026-10-26|Sansec:2026-10-24,Listed as a loader domain used in the campaign
-domain,deepveindrilling.com,high,2026-10-24T00:00:00+00:00,2026-10-26T20:41:22+00:00,4,Securityaffairs.Co:2026-10-26|Thehackernews:2026-10-26|Securityweek:2026-10-26|Sansec:2026-10-24,Identified as the newest domain used by the criminal group
 domain,hdfdsi84j3h.top,high,2026-10-24T00:00:00+00:00,2026-10-26T20:41:22+00:00,2,Securityaffairs.Co:2026-10-26|Sansec:2026-10-24,Listed as a loader domain used in the campaign
-domain,lanhd6549tdhse.top,high,2026-10-24T00:00:00+00:00,2026-10-26T20:41:22+00:00,4,Securityaffairs.Co:2026-10-26|Thehackernews:2026-10-26|Securityweek:2026-10-26|Sansec:2026-10-24,Listed as a loader domain used in the campaign
 domain,leqdger.click,high,2026-10-24T00:00:00+00:00,2026-10-26T20:41:22+00:00,2,Securityaffairs.Co:2026-10-26|Sansec:2026-10-24,Misspelling of a legitimate brand used in the campaign
 domain,manulfie.click,high,2026-10-24T00:00:00+00:00,2026-10-26T20:41:22+00:00,4,Securityaffairs.Co:2026-10-26|Thehackernews:2026-10-26|Securityweek:2026-10-26|Sansec:2026-10-24,Listed as a loader domain used in the campaign
 domain,neswnsssn.click,high,2026-10-24T00:00:00+00:00,2026-10-26T20:41:22+00:00,4,Securityaffairs.Co:2026-10-26|Thehackernews:2026-10-26|Securityweek:2026-10-26|Sansec:2026-10-24,Listed as a loader domain used in the campaign
 domain,additionalver.com,high,2026-10-24T00:00:00+00:00,2026-10-26T20:35:05+00:00,3,Thehackernews:2026-10-26|Securityweek:2026-10-26|Sansec:2026-10-24,Listed as a loader domain used in the campaign
-domain,qianxuncc.cn,high,2026-10-26T13:11:01+00:00,2026-10-26T19:01:04.086935+00:00,2,www.0x0v1.com:2026-10-26|Securityaffairs:2026-10-26,Associated with C2 infrastructure
-domain,qianxunlbs.com,high,2026-10-26T19:01:04.086935+00:00,2026-10-26T19:01:04.086935+00:00,1,www.0x0v1.com:2026-10-26,Listed as a callback domain for C2 and payload delivery
-domain,ucreater.com,high,2026-10-26T13:11:01+00:00,2026-10-26T19:01:04.086935+00:00,2,www.0x0v1.com:2026-10-26|Securityaffairs:2026-10-26,Linked to the uCreator brand and infrastructure
-domain,uzyzx.com,high,2026-10-26T19:01:04.086935+00:00,2026-10-26T19:01:04.086935+00:00,1,www.0x0v1.com:2026-10-26,Used as a distribution host for repackaged applications
-domain,videoflow.cn,high,2026-10-26T13:11:01+00:00,2026-10-26T19:01:04.086935+00:00,2,www.0x0v1.com:2026-10-26|Securityaffairs:2026-10-26,Associated with C2 infrastructure
 ipv4,94.154.43.7,high,2026-10-26T18:38:14+00:00,2026-10-26T18:38:14+00:00,1,Cyberkendra:2026-10-26,"Rated as malicious with high confidence by ELLIO, linked to mass exploitation"
 ipv4,64.95.10.223,high,2026-10-26T18:30:29.359684+00:00,2026-10-26T18:30:29.359684+00:00,1,www.welivesecurity.com:2026-10-26,Listed as MATCHBOIL C&C IP
 ipv4,64.95.13.210,high,2026-10-26T18:30:29.359684+00:00,2026-10-26T18:30:29.359684+00:00,1,www.welivesecurity.com:2026-10-26,Listed as MATCHBOIL C&C IP
@@ -177,7 +195,6 @@ ipv4,185.5.70.233,high,2026-10-22T11:32:08.829801+00:00,2026-10-22T11:32:08.8298
 ipv4,64.199.134.154,high,2026-10-22T11:32:08.829801+00:00,2026-10-22T11:32:08.829801+00:00,1,ellio.tech:2026-10-22,Related to command and control infrastructure
 ipv4,211.240.117.200,high,2026-10-22T11:32:08.326901+00:00,2026-10-22T11:32:08.326901+00:00,1,beelzebub.ai:2026-10-22,Listed as an IP making suspicious requests.
 domain,aaa-emudhra.we-have-a-problem.com,high,2026-10-22T00:00:00+00:00,2026-10-22T00:00:00+00:00,1,Safedep:2026-10-22,Domain used for testing certificate validation.
-domain,aiarmor.website,high,2026-10-22T00:00:00+00:00,2026-10-22T00:00:00+00:00,1,Safedep:2026-10-22,Listed as a fallback endpoint for data exfiltration.
 domain,www.litellm.dev,high,2026-10-21T13:41:48.036000+00:00,2026-10-21T23:16:31+00:00,2,Rescana:2026-10-21|Socket.Dev:2026-10-21,Listed as an exfiltration endpoint and attacker-controlled domain
 ipv4,168.100.8.57,high,2026-10-21T23:16:31+00:00,2026-10-21T23:16:31+00:00,1,Rescana:2026-10-21,Source IP address seen checking stolen AWS credentials
 domain,ytstvmovies.xyz,high,2026-10-21T20:25:59+00:00,2026-10-21T20:25:59+00:00,1,News.Trendmicro:2026-10-21,Domain used for distributing pirated content and potentially malicious ads
@@ -920,9 +937,3 @@ ipv4,134.122.155.135,high,2026-09-28T17:51:54+00:00,2026-09-28T17:51:54+00:00,1,
 domain,admin.rathat.live,high,2026-09-28T17:38:33+00:00,2026-09-28T17:38:33+00:00,1,Thehackernews:2026-09-28,Used as a C2 server in a threat campaign
 domain,dramaspoolcoa.com,high,2026-09-28T17:38:33+00:00,2026-09-28T17:38:33+00:00,1,Thehackernews:2026-09-28,Used as a download link for malware
 domain,rathat.me,high,2026-09-28T17:38:33+00:00,2026-09-28T17:38:33+00:00,1,Thehackernews:2026-09-28,Used as a download link for malware
-domain,lapsus.ar.io,high,2026-09-28T11:42:42.129736+00:00,2026-09-28T11:42:42.129736+00:00,1,www.cloudskope.com:2026-09-28,Described as an attacker-controlled domain used in a cyberattack
-domain,t.m-kosche.com,high,2026-09-28T06:26:24+00:00,2026-09-28T06:26:24+00:00,1,Rescana:2026-09-28,Used for credential harvesting in supply chain attacks
-ipv4,2.56.10.86,high,2026-09-28T05:19:24+00:00,2026-09-28T05:19:24+00:00,1,Cyfirma:2026-09-28,Listed in an IOC section likely indicating attacker-controlled infrastructure
-ipv4,46.30.188.13,high,2026-09-28T05:19:24+00:00,2026-09-28T05:19:24+00:00,1,Cyfirma:2026-09-28,Listed in an IOC section likely indicating attacker-controlled infrastructure
-ipv4,206.82.6.22,high,2026-09-27T15:00:00+00:00,2026-09-27T15:00:00+00:00,1,Asec.Ahnlab:2026-09-27,Used for reverse shell connections
-ipv4,65.98.5.158,high,2026-09-27T15:00:00+00:00,2026-09-27T15:00:00+00:00,1,Asec.Ahnlab:2026-09-27,Hosts a list of targets for a WordPress scanner
