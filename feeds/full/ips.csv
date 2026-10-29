@@ -1,5 +1,12 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason
+ipv4,45.139.104.115,high,2026-10-19T14:05:31.040619+00:00,2026-10-28T22:30:29.446826+00:00,2,,"IP address used as an exfiltration endpoint in the attack campaign, indicating attacker control."
+ipv4,16.5.0.225,high,2026-10-28T12:00:04+00:00,2026-10-28T12:00:04+00:00,1,,Identified as staging mirrors for attacker infrastructure
+ipv4,16.5.0.226,high,2026-10-28T12:00:04+00:00,2026-10-28T12:00:04+00:00,1,,Identified as staging mirrors for attacker infrastructure
+ipv4,176.98.182.21,high,2026-10-28T12:00:04+00:00,2026-10-28T12:00:04+00:00,1,,Listed as part of malicious infrastructure to be blocked
+ipv4,45.90.13.11,high,2026-10-28T12:00:04+00:00,2026-10-28T12:00:04+00:00,1,,Listed as part of malicious infrastructure to be blocked
+ipv4,45.90.13.169,high,2026-10-28T12:00:04+00:00,2026-10-28T12:00:04+00:00,1,,Listed as part of malicious infrastructure to be blocked
 ipv4,43.228.157.68,high,2026-10-28T02:58:27+00:00,2026-10-28T06:31:20.619550+00:00,2,,Reported as a server used in exploitation infrastructure
+ipv4,189.249.195.244,high,2026-10-28T06:01:28+00:00,2026-10-28T06:01:28+00:00,1,,Identified as a Mythic-branded C2 interface
 ipv4,103.151.172.95,high,2026-10-27T13:32:48+00:00,2026-10-27T13:32:48+00:00,1,,Used in an exploit attempt against a honeypot.
 ipv4,85.11.187.35,high,2026-10-27T13:32:48+00:00,2026-10-27T13:32:48+00:00,1,,Used in an exploitation attempt.
 ipv4,94.154.43.7,high,2026-10-26T18:38:14+00:00,2026-10-26T18:38:14+00:00,1,,"Rated as malicious with high confidence by ELLIO, linked to mass exploitation"
@@ -85,7 +92,6 @@ ipv4,108.165.147.64,high,2026-10-13T17:33:11+00:00,2026-10-20T06:43:30.105344+00
 ipv6,2a09:bac5:4e21:2e3c::49b:9,high,2026-10-19T20:02:56+00:00,2026-10-20T03:02:44.775826+00:00,2,,Listed as a source address for malicious requests
 ipv4,176.65.139.228,high,2026-10-19T23:53:48+00:00,2026-10-19T23:53:48+00:00,1,,Listed as part of an attacker's scanning infrastructure
 ipv4,78.128.113.14,high,2026-10-15T15:12:24.931033+00:00,2026-10-19T22:38:04.235893+00:00,1,,Used for plugin installations in malicious campaigns
-ipv4,45.139.104.115,high,2026-10-19T14:05:31.040619+00:00,2026-10-19T14:05:31.040619+00:00,1,,Listed as a malicious IP in a threat report
 ipv4,176.123.26.67,high,2026-10-15T17:03:24.342786+00:00,2026-10-16T19:31:23.681851+00:00,1,,Listed as an IP address associated with Candiru's infrastructure
 ipv4,185.25.50.194,high,2026-10-15T17:03:24.342786+00:00,2026-10-16T19:31:23.681851+00:00,1,,Associated with CHAINSHOT exploit kit linked to Candiru
 ipv4,69.28.67.162,high,2026-10-15T17:03:24.342786+00:00,2026-10-16T19:31:23.681851+00:00,1,,Listed as an IP address associated with Candiru's infrastructure

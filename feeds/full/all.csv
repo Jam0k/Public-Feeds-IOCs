@@ -1,5 +1,49 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason
-domain,virtualine.net,high,2026-10-27T21:54:44+00:00,2026-10-28T11:41:01+00:00,2,,Seized domain used by Virtualine for bulletproof hosting facilitating criminal activity
+domain,virtualine.net,high,2026-10-27T21:54:44+00:00,2026-10-29T08:07:18+00:00,5,,Domain seized by FBI as part of disrupting Virtualine's criminal operations
+domain,kndr.su,high,2026-10-29T04:34:32.960823+00:00,2026-10-29T04:34:32.960823+00:00,1,,Described as an online labour-brokering platform operated by the attacker
+domain,kosoyed.online,high,2026-10-29T00:31:32.441034+00:00,2026-10-29T00:31:32.441034+00:00,1,,Registered by attackers as a fallback C2 domain
+domain,kosoyed.ru,high,2026-10-29T00:31:32.441034+00:00,2026-10-29T00:31:32.441034+00:00,1,,Registered by attackers as a fallback C2 domain
+domain,my.thispc.net,high,2026-10-28T13:30:25.206813+00:00,2026-10-28T23:32:32.473890+00:00,1,,Domain used for C2 beaconing in the phishing campaign
+domain,carte-avantage.com,high,2026-10-07T13:03:38+00:00,2026-10-28T22:30:29.446826+00:00,2,,"Used as an exfiltration endpoint in the attack campaign, indicating attacker control."
+ipv4,45.139.104.115,high,2026-10-19T14:05:31.040619+00:00,2026-10-28T22:30:29.446826+00:00,2,,"IP address used as an exfiltration endpoint in the attack campaign, indicating attacker control."
+domain,servicepipe.ru,high,2026-10-28T17:13:29+00:00,2026-10-28T17:13:29+00:00,1,,Domain associated with malicious traffic control systems
+domain,servicepipe.tech,high,2026-10-28T17:13:29+00:00,2026-10-28T17:13:29+00:00,1,,Domain associated with malicious traffic control systems
+domain,armenia.pravda-news.com,high,2026-10-28T17:05:24.941114+00:00,2026-10-28T17:05:24.941114+00:00,1,,"Domain used by Portal Kombat to disseminate pro-Russian content, likely attacker-controlled"
+domain,api-com.cfd,high,2026-10-28T16:35:36.211876+00:00,2026-10-28T16:35:36.211876+00:00,1,,"Returned a 403 Forbidden response, indicating potential malicious use"
+domain,js-static.cfd,high,2026-10-28T16:35:36.211876+00:00,2026-10-28T16:35:36.211876+00:00,1,,Domain hosting a fake verification page
+domain,com.ucreator.tg,high,2026-10-26T10:54:17+00:00,2026-10-28T15:03:38.999660+00:00,3,,Part of the uCreator platform framework and command handlers
+domain,hpncallback.gold5play.com,high,2026-10-26T10:54:17+00:00,2026-10-28T15:03:38.999660+00:00,4,,Listed as a callback domain for C2 and payload delivery
+domain,hpncallback.qianxunlbs.com,high,2026-10-26T10:54:17+00:00,2026-10-28T15:03:38.999660+00:00,4,,Listed as a callback domain for C2 and payload delivery
+domain,hw.android.videoflow.cn,high,2026-10-26T10:54:17+00:00,2026-10-28T15:03:38.999660+00:00,4,,Used for version uploads in the attack infrastructure
+domain,qianxuncc.cn,high,2026-10-26T11:30:55.904251+00:00,2026-10-28T15:03:38.999660+00:00,2,,Associated with C2 infrastructure
+domain,qianxunlbs.com,high,2026-10-26T11:30:55.904251+00:00,2026-10-28T15:03:38.999660+00:00,1,,Listed as a callback domain for C2 and payload delivery
+domain,telegram-apk.uzyzx.com,high,2026-10-26T10:54:17+00:00,2026-10-28T15:03:38.999660+00:00,5,,Used as a distribution host for repackaged applications
+domain,ucreater.com,high,2026-10-26T11:30:55.904251+00:00,2026-10-28T15:03:38.999660+00:00,2,,Linked to the uCreator brand and infrastructure
+domain,uzyzx.com,high,2026-10-26T11:30:55.904251+00:00,2026-10-28T15:03:38.999660+00:00,1,,Used as a distribution host for repackaged applications
+domain,videoflow.cn,high,2026-10-26T11:30:55.904251+00:00,2026-10-28T15:03:38.999660+00:00,2,,Associated with C2 infrastructure
+domain,onverinusinesscommunicationscente.org,high,2026-10-28T13:45:32+00:00,2026-10-28T13:45:32+00:00,1,,Identified as attacker-controlled domain in phishing campaign
+domain,pravda-news.com,high,2026-10-28T13:31:31+00:00,2026-10-28T13:31:31+00:00,1,,"Part of the Pravda network used for coordinated pro-Russian content dissemination, likely attacker-controlled"
+domain,thispc.net,high,2026-10-28T13:30:25.206813+00:00,2026-10-28T13:30:25.206813+00:00,1,,Parent domain of attacker-controlled subdomain used for C2 beaconing
+domain,relay.pronconetydesire.online,high,2026-10-28T13:01:56+00:00,2026-10-28T13:01:56+00:00,1,,Domain used for malicious ScreenConnect instance
+domain,cardcpp.online,high,2026-10-28T13:01:45.875215+00:00,2026-10-28T13:01:45.875215+00:00,1,,Identified as distributing MiningDropper malware
+domain,dkfootwearstore.shop,high,2026-10-28T13:01:45.875215+00:00,2026-10-28T13:01:45.875215+00:00,1,,Identified as distributing MiningDropper malware
+domain,free-secure.com,high,2026-10-28T13:01:45.875215+00:00,2026-10-28T13:01:45.875215+00:00,1,,Identified as distributing MiningDropper malware
+domain,getchaiian.short.gy,high,2026-10-28T13:01:45.875215+00:00,2026-10-28T13:01:45.875215+00:00,1,,Identified as distributing MiningDropper malware
+domain,protectcc.online,high,2026-10-28T13:01:45.875215+00:00,2026-10-28T13:01:45.875215+00:00,1,,Identified as distributing MiningDropper malware
+domain,www.kavoutai.com,high,2026-10-28T13:01:45.875215+00:00,2026-10-28T13:01:45.875215+00:00,1,,Identified as distributing MiningDropper malware
+sha256,58a94f889547db8b2327a62e03fb2cce3bda716278d645ee8094178ecda2e9e6,high,2026-10-28T13:01:45.875215+00:00,2026-10-28T13:01:45.875215+00:00,1,,Hash of a malicious APK distributed via a phishing site
+domain,access.uasecurity.org,high,2026-10-28T13:01:43.585029+00:00,2026-10-28T13:01:43.585029+00:00,1,,Listed in a MITRE ATT&CK rule as part of GhostGrab malware infrastructure
+domain,kychelp.live,high,2026-10-28T13:01:43.585029+00:00,2026-10-28T13:01:43.585029+00:00,1,,Listed in a MITRE ATT&CK rule as part of GhostGrab malware infrastructure
+sha256,29c60e17d43f7268431929836c1b72df60d3b7643ed177f858a9d9bbab207783,high,2026-10-28T13:01:43.585029+00:00,2026-10-28T13:01:43.585029+00:00,1,,Listed as a hash of GhostGrab malware sample
+sha256,eae2c1f80b6d57285952b6e3da558d4c588a9972ee45ebd31c725772fe15edb3,high,2026-10-28T13:01:43.585029+00:00,2026-10-28T13:01:43.585029+00:00,1,,Listed as a hash of GhostGrab malware sample
+sha256,98991cd9557116b7942925d9c96378b224ad12e2746ac383752b261c31e02a1f,high,2026-10-28T13:01:38.205057+00:00,2026-10-28T13:01:38.205057+00:00,1,,Listed as a hash of GhostBat RAT malware sample
+sha256,d3bfcb0fc5cb22a4ba033a38d0cf402bf82bbbc2ab6c8c7481096edd0ccf1563,high,2026-10-28T13:01:38.205057+00:00,2026-10-28T13:01:38.205057+00:00,1,,Listed as a hash of a malicious sample using a native library
+domain,fd6.eu,high,2026-10-28T12:00:04+00:00,2026-10-28T12:00:04+00:00,1,,Listed as malicious infrastructure to be blocked
+ipv4,16.5.0.225,high,2026-10-28T12:00:04+00:00,2026-10-28T12:00:04+00:00,1,,Identified as staging mirrors for attacker infrastructure
+ipv4,16.5.0.226,high,2026-10-28T12:00:04+00:00,2026-10-28T12:00:04+00:00,1,,Identified as staging mirrors for attacker infrastructure
+ipv4,176.98.182.21,high,2026-10-28T12:00:04+00:00,2026-10-28T12:00:04+00:00,1,,Listed as part of malicious infrastructure to be blocked
+ipv4,45.90.13.11,high,2026-10-28T12:00:04+00:00,2026-10-28T12:00:04+00:00,1,,Listed as part of malicious infrastructure to be blocked
+ipv4,45.90.13.169,high,2026-10-28T12:00:04+00:00,2026-10-28T12:00:04+00:00,1,,Listed as part of malicious infrastructure to be blocked
 domain,virtualine.org,high,2026-10-28T11:41:01+00:00,2026-10-28T11:41:01+00:00,1,,"Domain used by Virtualine to post an open letter disputing allegations, indicating attacker control"
 domain,lanhd6549tdhse.top,high,2026-10-24T00:00:00+00:00,2026-10-28T07:31:19.901894+00:00,5,,Described as a freshly registered domain used to inject malicious JavaScript
 md5,4009d3fa8132195a2dab4dfa3affc8d2,high,2026-10-28T07:31:18.530615+00:00,2026-10-28T07:31:18.530615+00:00,1,,Listed as a hardcoded MD5 hash used for authentication in a malicious payload
@@ -12,6 +56,19 @@ sha256,8506042b383ab46545c27a402eb2dc973696a93af71181b175b1d87972843a43,high,202
 sha256,a516dd7867af83f8be0cc3e926fdfd964097f0e7665596b05fe5234be7e2b5e9,high,2026-10-28T06:31:18.999798+00:00,2026-10-28T06:31:18.999798+00:00,1,,Listed as a SHA-256 hash of a malicious payload in the article
 sha256,ccfd769acc024edc409ef879198d2a2398beee60930f2b3f2771ded1e14e0c57,high,2026-10-28T06:31:18.999798+00:00,2026-10-28T06:31:18.999798+00:00,1,,Listed as a SHA-256 hash of a malicious payload in the article
 sha256,e3cb383615fc70bce9b5bcd1c7a394132b50483daaf231a04ee90d4690962c73,high,2026-10-28T06:31:18.999798+00:00,2026-10-28T06:31:18.999798+00:00,1,,Listed as a SHA-256 hash of a malicious tool in the article
+ipv4,189.249.195.244,high,2026-10-28T06:01:28+00:00,2026-10-28T06:01:28+00:00,1,,Identified as a Mythic-branded C2 interface
+domain,wikileaks2.site,high,2026-10-28T03:33:15+00:00,2026-10-28T03:33:15+00:00,1,,Domain used for publishing stolen data
+sha256,011dcd84bc7b8faa8c32020f3530be599d213888c0e8b750b95595f8ff331756,high,2026-10-28T03:33:15+00:00,2026-10-28T03:33:15+00:00,1,,Listed in a table of IOCs as a malware sample hash
+sha256,24a24c5fe9a5dc242b2908d020f890ed5b3afe8146fade4e3ab8a07d19007b6d,high,2026-10-28T03:33:15+00:00,2026-10-28T03:33:15+00:00,1,,Listed in a table of IOCs as a malware sample hash
+sha256,43672ef1384888922c13838f695da58f8cb9b8ad47ce896b3b7151e7edd18afb,high,2026-10-28T03:33:15+00:00,2026-10-28T03:33:15+00:00,1,,Listed in a table of IOCs as a malware sample hash
+sha256,4f8efbfe1f94dc7c6d5547c836e56ed56b1b3c33d324bd8619b8108c572b5ca6,high,2026-10-28T03:33:15+00:00,2026-10-28T03:33:15+00:00,1,,Listed in a table of IOCs as a malware sample hash
+sha256,516927b55038c1702bc8a6a0262a39d5fe45f4b07527fdc42415533a9665264a,high,2026-10-28T03:33:15+00:00,2026-10-28T03:33:15+00:00,1,,Listed in a table of IOCs as a malware sample hash
+sha256,54f36b39e5bcee15acc530d70c173f26a1e1d7a62e866181d8a68309b4660928,high,2026-10-28T03:33:15+00:00,2026-10-28T03:33:15+00:00,1,,Listed in a table of IOCs as a malware sample hash
+sha256,61820172ff5440c9e4f48695cc3551638306d06214cf72df41740dd08d734104,high,2026-10-28T03:33:15+00:00,2026-10-28T03:33:15+00:00,1,,Listed in a table of IOCs as a malware sample hash
+sha256,62fd30a7841f36b389af9cf4b3230c666bf620d9f57eb3bf73a06fe86d0917ff,high,2026-10-28T03:33:15+00:00,2026-10-28T03:33:15+00:00,1,,Listed in a table of IOCs as a malware sample hash
+sha256,bd1cf7823cabbac2ea7b45f2d7c9dfcd6b9a24714b6d40377bdef82b9c88021b,high,2026-10-28T03:33:15+00:00,2026-10-28T03:33:15+00:00,1,,Listed in a table of IOCs as a malware sample hash
+sha256,e76fb9cf2da75e963e4d00b48500f59fa6a0e7d21915b8c54ca3d83c52b9d43b,high,2026-10-28T03:33:15+00:00,2026-10-28T03:33:15+00:00,1,,Listed in a table of IOCs as a malware sample hash
+sha256,e81e9a3a8baca74a5c73bb5d0904cd7ac145e330c4d4993bfd671f3396402416,high,2026-10-28T03:33:15+00:00,2026-10-28T03:33:15+00:00,1,,Listed in a table of IOCs as a malware sample hash
 md5,831252E7FA9BD6FA174715647EBCE516,high,2026-10-28T02:05:20.830424+00:00,2026-10-28T02:05:20.830424+00:00,1,,Listed as a malicious file hash used in DLL hijacking
 md5,E83F331BD1EC115524EBFF7043795BBE,high,2026-10-28T02:05:20.830424+00:00,2026-10-28T02:05:20.830424+00:00,1,,Listed as a malicious file hash used in DLL hijacking
 md5,EA2882B05F8C11A285426F90859F23C6,high,2026-10-28T02:05:20.830424+00:00,2026-10-28T02:05:20.830424+00:00,1,,Listed as a malicious file hash used in DLL hijacking
@@ -29,24 +86,14 @@ domain,harborhouseplumbing.us,high,2026-10-27T18:20:10+00:00,2026-10-27T18:20:10
 domain,met.macroteams.site,high,2026-10-27T18:20:10+00:00,2026-10-27T18:20:10+00:00,1,,Part of a phishing campaign infrastructure.
 domain,novalineyoga.us,high,2026-10-27T18:20:10+00:00,2026-10-27T18:20:10+00:00,1,,Domain with subdomains pointing to a C2 IP
 domain,reviewscene.com,high,2026-10-27T18:20:10+00:00,2026-10-27T18:20:10+00:00,1,,Hosted on an IP associated with C2 infrastructure
-domain,com.ucreator.tg,high,2026-10-26T10:54:17+00:00,2026-10-27T17:37:34.713593+00:00,3,,Part of the uCreator platform framework and command handlers
-domain,hpncallback.gold5play.com,high,2026-10-26T10:54:17+00:00,2026-10-27T17:37:34.713593+00:00,4,,Listed as a callback domain for C2 and payload delivery
-domain,hpncallback.qianxunlbs.com,high,2026-10-26T10:54:17+00:00,2026-10-27T17:37:34.713593+00:00,4,,Listed as a callback domain for C2 and payload delivery
-domain,hw.android.videoflow.cn,high,2026-10-26T10:54:17+00:00,2026-10-27T17:37:34.713593+00:00,4,,Used for version uploads in the attack infrastructure
-domain,qianxuncc.cn,high,2026-10-26T11:30:55.904251+00:00,2026-10-27T17:37:34.713593+00:00,2,,Associated with C2 infrastructure
-domain,qianxunlbs.com,high,2026-10-26T11:30:55.904251+00:00,2026-10-27T17:37:34.713593+00:00,1,,Listed as a callback domain for C2 and payload delivery
-domain,telegram-apk.uzyzx.com,high,2026-10-26T10:54:17+00:00,2026-10-27T17:37:34.713593+00:00,5,,Used as a distribution host for repackaged applications
-domain,ucreater.com,high,2026-10-26T11:30:55.904251+00:00,2026-10-27T17:37:34.713593+00:00,2,,Linked to the uCreator brand and infrastructure
-domain,uzyzx.com,high,2026-10-26T11:30:55.904251+00:00,2026-10-27T17:37:34.713593+00:00,1,,Used as a distribution host for repackaged applications
-domain,videoflow.cn,high,2026-10-26T11:30:55.904251+00:00,2026-10-27T17:37:34.713593+00:00,2,,Associated with C2 infrastructure
-domain,coinbase.bonto.io,high,2026-10-27T17:28:33.184000+00:00,2026-10-27T17:28:33.184000+00:00,1,,Used as an exfiltration host in a malicious campaign.
+domain,coinbase.bonto.io,high,2026-10-27T17:28:33.184000+00:00,2026-10-27T17:28:33.184000+00:00,1,,Subdomain used as an exfiltration host
 md5,30b17a249a34fdf5d2be64b3dfcc8494,high,2026-10-27T17:28:33.184000+00:00,2026-10-27T17:28:33.184000+00:00,1,,Used as a throwaway AMO developer account for malicious extensions.
 md5,3efb89873d4c425c012cd1cb1736629a,high,2026-10-27T17:28:33.184000+00:00,2026-10-27T17:28:33.184000+00:00,1,,Used as a throwaway AMO developer account for malicious extensions.
 md5,ca2bf8b1ba371a1426c1049d9dad8168,high,2026-10-27T17:28:33.184000+00:00,2026-10-27T17:28:33.184000+00:00,1,,Used as a throwaway AMO developer account for malicious extensions.
-sha256,311c49974f28d33947b8b74d78b48f51855eacac182d519a4fe1daa6af7f30e9,high,2026-10-27T17:28:33.184000+00:00,2026-10-27T17:28:33.184000+00:00,1,,SHA256 hash for Phantom impersonator XPI
-sha256,999bccd41188a238a50d05b5aca8e35af45d107f32d7443389313816f0cb226a,high,2026-10-27T17:28:33.184000+00:00,2026-10-27T17:28:33.184000+00:00,1,,Phantom second-stage payload
-sha256,e688bff5df32f209b4ebb882985e3ad19ddee68666405c39ff523307068a8611,high,2026-10-27T17:28:33.184000+00:00,2026-10-27T17:28:33.184000+00:00,1,,Bitget impersonator XPI
-sha256,fd7b138f4fba003db332a4eee833e84491bf7ffec5a3d91f7451d7b95aabcf6a,high,2026-10-27T17:28:33.184000+00:00,2026-10-27T17:28:33.184000+00:00,1,,Jupiter impersonator XPI
+sha256,311c49974f28d33947b8b74d78b48f51855eacac182d519a4fe1daa6af7f30e9,high,2026-10-27T17:28:33.184000+00:00,2026-10-27T17:28:33.184000+00:00,1,,SHA-256 hash of a malicious Firefox extension
+sha256,999bccd41188a238a50d05b5aca8e35af45d107f32d7443389313816f0cb226a,high,2026-10-27T17:28:33.184000+00:00,2026-10-27T17:28:33.184000+00:00,1,,SHA-256 hash of a second-stage payload
+sha256,e688bff5df32f209b4ebb882985e3ad19ddee68666405c39ff523307068a8611,high,2026-10-27T17:28:33.184000+00:00,2026-10-27T17:28:33.184000+00:00,1,,SHA-256 hash of a malicious Firefox extension
+sha256,fd7b138f4fba003db332a4eee833e84491bf7ffec5a3d91f7451d7b95aabcf6a,high,2026-10-27T17:28:33.184000+00:00,2026-10-27T17:28:33.184000+00:00,1,,SHA-256 hash of a malicious Firefox extension
 domain,claude.ai.download-app.us,high,2026-07-22T20:08:20+00:00,2026-10-27T16:00:30.870663+00:00,2,,Redirects users to malicious content.
 sha256,1fe3646d27d286db8123297e06ae7badf3e26f352a04f91b6d82c28869a91664,high,2026-07-22T20:08:20+00:00,2026-10-27T16:00:30.870663+00:00,2,,Listed as SHA256 hash of malware payload.
 sha256,26bae4d7012bf59847ab4036a065419c3d4ca47e020479f55b3b2c6d0d21394a,high,2026-07-22T20:08:20+00:00,2026-10-27T16:00:30.870663+00:00,2,,Listed as SHA256 hash of malware payload.
@@ -58,6 +105,9 @@ sha256,4930cc4e7e3e258bf2815793f0e5698bdd45adfae8e052bb1dc4c05c6689ade6,high,202
 sha256,5c2ceaec797dfa79e81cde6d765898ee8102357e280fa322db6e5a4b0ce3fc4a,high,2026-10-27T13:12:16.498000+00:00,2026-10-27T13:12:16.498000+00:00,1,,Hash associated with a malicious Windows shortcut
 sha256,77da8a02d71078564409863c358a544e981b9643c8f50c1daabc5d5d176e3c75,high,2026-10-27T13:12:16.498000+00:00,2026-10-27T13:12:16.498000+00:00,1,,Hash associated with a malicious Windows shortcut
 domain,dedyn.io,high,2026-10-27T13:03:27+00:00,2026-10-27T13:03:27+00:00,1,,Used as a dynamic DNS for attacker-controlled infrastructure.
+sha256,1fb4af4862643dcab1459872f723f574f1a588855b020916b600df5c20681144,high,2026-10-27T13:02:02+00:00,2026-10-27T13:02:02+00:00,1,,"Listed as a file dropped in users' AppData folder path, indicating malicious intent."
+sha256,70b2345302264c41504d59e6a63d6d908969740424b42b7373f10b4c8d74c87a,high,2026-10-27T13:02:02+00:00,2026-10-27T13:02:02+00:00,1,,"Listed as a file dropped in users' AppData folder path, indicating malicious intent."
+sha256,8f8e88c54a9c56174974711eff99b4beb79536642fcca1902acdc3d4b1fd1035,high,2026-10-27T13:02:02+00:00,2026-10-27T13:02:02+00:00,1,,"Listed as a file dropped in users' AppData folder path, indicating malicious intent."
 domain,9i6pokerdepot.com,high,2026-09-08T13:01:18.371466+00:00,2026-10-27T06:31:11.483608+00:00,1,,Used as a sending domain in a phishing campaign
 sha256,7fcbdaaecd4419e2930927844f3b772668204737a4e7602a2290c991c93c5c4b,high,2026-10-27T02:11:37.611586+00:00,2026-10-27T02:11:37.611586+00:00,1,,Hash of a malicious payload used in an attack.
 sha256,063930af6a4aad06d8f8aab43226bf6dcddd2c79aa505894ee95876cf9254543,high,2026-10-20T10:11:03+00:00,2026-10-27T01:21:25.385264+00:00,2,,Listed as a Hookedge VBS launcher
@@ -652,7 +702,6 @@ domain,gh.my-github.com,high,2026-10-19T14:05:31.040619+00:00,2026-10-19T14:05:3
 domain,github.my-github.com,high,2026-10-19T14:05:31.040619+00:00,2026-10-19T14:05:31.040619+00:00,1,,Part of a suspicious infrastructure associated with GitHub impersonation.
 domain,gitlab.my-gitlab.com,high,2026-10-19T14:05:31.040619+00:00,2026-10-19T14:05:31.040619+00:00,1,,Described as hosting a GitLab service on suspicious infrastructure.
 domain,vigilantcyber.top,high,2026-10-19T14:05:31.040619+00:00,2026-10-19T14:05:31.040619+00:00,1,,Associated with malicious infrastructure and phishing activities.
-ipv4,45.139.104.115,high,2026-10-19T14:05:31.040619+00:00,2026-10-19T14:05:31.040619+00:00,1,,Listed as a malicious IP in a threat report
 domain,shinywire.com,high,2026-10-19T13:48:56+00:00,2026-10-19T13:48:56+00:00,1,,Described as a victim extortion website operated by ShinyHunters.
 domain,my-gitlab.com,high,2026-10-19T13:09:39+00:00,2026-10-19T13:09:39+00:00,1,,Registered by the threat actor for phishing and data exfiltration.
 domain,amgen.teams-cloud.live,high,2026-10-19T12:42:05+00:00,2026-10-19T12:42:05+00:00,1,,Listed as a phishing domain in a threat report
@@ -1755,7 +1804,6 @@ ipv4,154.202.59.169,high,2026-10-07T13:51:21+00:00,2026-10-07T13:51:21+00:00,1,,
 domain,check.vykyn.click,high,2026-10-07T13:04:03+00:00,2026-10-07T13:04:03+00:00,1,,Domain used for redirecting visitors as part of attacker-controlled operations.
 domain,openpediatrics.site,high,2026-10-07T13:04:03+00:00,2026-10-07T13:04:03+00:00,1,,Domain used for attacker-controlled operations and fingerprinting victims.
 sha256,5956f9afb3ba610c38b2cfda88dd15be98783963769a12020c93ce05e749b3c3,high,2026-10-07T13:04:03+00:00,2026-10-07T13:04:03+00:00,1,,SHA256 hash listed as an initial rogue ScreenConnect client.
-domain,carte-avantage.com,high,2026-10-07T13:03:38+00:00,2026-10-07T13:03:38+00:00,1,,Used as an exfiltration endpoint by attackers
 ipv4,170.39.218.2,high,2026-10-07T13:03:38+00:00,2026-10-07T13:03:38+00:00,1,,Listed as an endpoint used by attackers.
 domain,account-sams-club.com,high,2026-09-27T07:30:52+00:00,2026-10-07T12:02:35.647461+00:00,2,,Domain resolves to a phishing site used for brand impersonation
 domain,ibraq-perfumes.com,high,2026-09-27T09:02:32.908946+00:00,2026-10-07T12:02:35.647461+00:00,1,,Domain resolves to a phishing site used for brand impersonation

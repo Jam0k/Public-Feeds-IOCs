@@ -1,8 +1,49 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason
+domain,virtualine.net,high,2026-10-27T21:54:44+00:00,2026-10-29T08:07:18+00:00,5,Thecyberexpress:2026-10-29|Trmlabs:2026-10-28|Therecord.Media:2026-10-28|Helpnetsecurity:2026-10-28|Chainalysis:2026-10-27,Domain seized by FBI as part of disrupting Virtualine's criminal operations
+domain,kndr.su,high,2026-10-29T04:34:32.960823+00:00,2026-10-29T04:34:32.960823+00:00,1,globalrightscompliance.org:2026-10-29,Described as an online labour-brokering platform operated by the attacker
+domain,kosoyed.online,high,2026-10-29T00:31:32.441034+00:00,2026-10-29T00:31:32.441034+00:00,1,www.picussecurity.com:2026-10-29,Registered by attackers as a fallback C2 domain
+domain,kosoyed.ru,high,2026-10-29T00:31:32.441034+00:00,2026-10-29T00:31:32.441034+00:00,1,www.picussecurity.com:2026-10-29,Registered by attackers as a fallback C2 domain
+domain,my.thispc.net,high,2026-10-28T23:32:32.473890+00:00,2026-10-28T23:32:32.473890+00:00,1,www.threatdown.com:2026-10-28,Domain used for C2 beaconing in the phishing campaign
+domain,carte-avantage.com,high,2026-10-07T13:03:38+00:00,2026-10-28T22:30:29.446826+00:00,2,blog.gitguardian.com:2026-10-28|Blog.Gitguardian:2026-10-07,Used as an exfiltration endpoint by attackers
+ipv4,45.139.104.115,high,2026-10-19T14:05:31.040619+00:00,2026-10-28T22:30:29.446826+00:00,2,blog.gitguardian.com:2026-10-28|opensourcemalware.com:2026-10-19,"IP address used as an exfiltration endpoint in the attack campaign, indicating attacker control."
+domain,servicepipe.ru,high,2026-10-28T17:13:29+00:00,2026-10-28T17:13:29+00:00,1,News.Ycombinator:2026-10-28,Domain associated with malicious traffic control systems
+domain,servicepipe.tech,high,2026-10-28T17:13:29+00:00,2026-10-28T17:13:29+00:00,1,News.Ycombinator:2026-10-28,Domain associated with malicious traffic control systems
+domain,armenia.pravda-news.com,high,2026-10-28T17:05:24.941114+00:00,2026-10-28T17:05:24.941114+00:00,1,international.canada.ca:2026-10-28,"Domain used by Portal Kombat to disseminate pro-Russian content, likely attacker-controlled"
+domain,api-com.cfd,high,2026-10-28T16:35:36.211876+00:00,2026-10-28T16:35:36.211876+00:00,1,isc.sans.edu:2026-10-28,"Returned a 403 Forbidden response, indicating potential malicious use"
+domain,js-static.cfd,high,2026-10-28T16:35:36.211876+00:00,2026-10-28T16:35:36.211876+00:00,1,isc.sans.edu:2026-10-28,Domain hosting a fake verification page
+domain,com.ucreator.tg,high,2026-10-26T10:54:17+00:00,2026-10-28T15:03:38.999660+00:00,3,www.0x0v1.com:2026-10-28|cybernoz.com:2026-10-27|Thehackernews:2026-10-26,Part of the uCreator platform framework and command handlers
+domain,hpncallback.gold5play.com,high,2026-10-26T10:54:17+00:00,2026-10-28T15:03:38.999660+00:00,4,www.0x0v1.com:2026-10-28|cybernoz.com:2026-10-27|News.Lavx.Hu:2026-10-26|Thehackernews:2026-10-26,Listed as a callback domain for C2 and payload delivery
+domain,hpncallback.qianxunlbs.com,high,2026-10-26T10:54:17+00:00,2026-10-28T15:03:38.999660+00:00,4,www.0x0v1.com:2026-10-28|cybernoz.com:2026-10-27|News.Lavx.Hu:2026-10-26|Thehackernews:2026-10-26,Listed as a callback domain for C2 and payload delivery
+domain,hw.android.videoflow.cn,high,2026-10-26T10:54:17+00:00,2026-10-28T15:03:38.999660+00:00,4,www.0x0v1.com:2026-10-28|cybernoz.com:2026-10-27|News.Lavx.Hu:2026-10-26|Thehackernews:2026-10-26,Used for version uploads in the attack infrastructure
+domain,qianxuncc.cn,high,2026-10-26T13:11:01+00:00,2026-10-28T15:03:38.999660+00:00,2,www.0x0v1.com:2026-10-28|Securityaffairs:2026-10-26,Associated with C2 infrastructure
+domain,qianxunlbs.com,high,2026-10-28T15:03:38.999660+00:00,2026-10-28T15:03:38.999660+00:00,1,www.0x0v1.com:2026-10-28,Listed as a callback domain for C2 and payload delivery
+domain,telegram-apk.uzyzx.com,high,2026-10-26T10:54:17+00:00,2026-10-28T15:03:38.999660+00:00,5,www.0x0v1.com:2026-10-28|cybernoz.com:2026-10-27|News.Lavx.Hu:2026-10-26|Securityaffairs:2026-10-26|Thehackernews:2026-10-26,Used as a distribution host for repackaged applications
+domain,ucreater.com,high,2026-10-26T13:11:01+00:00,2026-10-28T15:03:38.999660+00:00,2,www.0x0v1.com:2026-10-28|Securityaffairs:2026-10-26,Linked to the uCreator brand and infrastructure
+domain,uzyzx.com,high,2026-10-28T15:03:38.999660+00:00,2026-10-28T15:03:38.999660+00:00,1,www.0x0v1.com:2026-10-28,Used as a distribution host for repackaged applications
+domain,videoflow.cn,high,2026-10-26T13:11:01+00:00,2026-10-28T15:03:38.999660+00:00,2,www.0x0v1.com:2026-10-28|Securityaffairs:2026-10-26,Associated with C2 infrastructure
+domain,onverinusinesscommunicationscente.org,high,2026-10-28T13:45:32+00:00,2026-10-28T13:45:32+00:00,1,Nordvpn:2026-10-28,Identified as attacker-controlled domain in phishing campaign
+domain,pravda-news.com,high,2026-10-28T13:31:31+00:00,2026-10-28T13:31:31+00:00,1,Pan.Am:2026-10-28,"Part of the Pravda network used for coordinated pro-Russian content dissemination, likely attacker-controlled"
+domain,relay.pronconetydesire.online,high,2026-10-28T13:01:56+00:00,2026-10-28T13:01:56+00:00,1,Huntress:2026-10-28,Domain used for malicious ScreenConnect instance
+domain,cardcpp.online,high,2026-10-28T13:01:45.875215+00:00,2026-10-28T13:01:45.875215+00:00,1,cyble.com:2026-10-28,Identified as distributing MiningDropper malware
+domain,dkfootwearstore.shop,high,2026-10-28T13:01:45.875215+00:00,2026-10-28T13:01:45.875215+00:00,1,cyble.com:2026-10-28,Identified as distributing MiningDropper malware
+domain,free-secure.com,high,2026-10-28T13:01:45.875215+00:00,2026-10-28T13:01:45.875215+00:00,1,cyble.com:2026-10-28,Identified as distributing MiningDropper malware
+domain,getchaiian.short.gy,high,2026-10-28T13:01:45.875215+00:00,2026-10-28T13:01:45.875215+00:00,1,cyble.com:2026-10-28,Identified as distributing MiningDropper malware
+domain,protectcc.online,high,2026-10-28T13:01:45.875215+00:00,2026-10-28T13:01:45.875215+00:00,1,cyble.com:2026-10-28,Identified as distributing MiningDropper malware
+domain,www.kavoutai.com,high,2026-10-28T13:01:45.875215+00:00,2026-10-28T13:01:45.875215+00:00,1,cyble.com:2026-10-28,Identified as distributing MiningDropper malware
+domain,access.uasecurity.org,high,2026-10-28T13:01:43.585029+00:00,2026-10-28T13:01:43.585029+00:00,1,www.cyfirma.com:2026-10-28,Listed in a MITRE ATT&CK rule as part of GhostGrab malware infrastructure
+domain,kychelp.live,high,2026-10-28T13:01:43.585029+00:00,2026-10-28T13:01:43.585029+00:00,1,www.cyfirma.com:2026-10-28,Listed in a MITRE ATT&CK rule as part of GhostGrab malware infrastructure
+domain,fd6.eu,high,2026-10-28T12:00:04+00:00,2026-10-28T12:00:04+00:00,1,Cloudsek:2026-10-28,Listed as malicious infrastructure to be blocked
+ipv4,16.5.0.225,high,2026-10-28T12:00:04+00:00,2026-10-28T12:00:04+00:00,1,Cloudsek:2026-10-28,Identified as staging mirrors for attacker infrastructure
+ipv4,16.5.0.226,high,2026-10-28T12:00:04+00:00,2026-10-28T12:00:04+00:00,1,Cloudsek:2026-10-28,Identified as staging mirrors for attacker infrastructure
+ipv4,176.98.182.21,high,2026-10-28T12:00:04+00:00,2026-10-28T12:00:04+00:00,1,Cloudsek:2026-10-28,Listed as part of malicious infrastructure to be blocked
+ipv4,45.90.13.11,high,2026-10-28T12:00:04+00:00,2026-10-28T12:00:04+00:00,1,Cloudsek:2026-10-28,Listed as part of malicious infrastructure to be blocked
+ipv4,45.90.13.169,high,2026-10-28T12:00:04+00:00,2026-10-28T12:00:04+00:00,1,Cloudsek:2026-10-28,Listed as part of malicious infrastructure to be blocked
+domain,virtualine.org,high,2026-10-28T11:41:01+00:00,2026-10-28T11:41:01+00:00,1,Helpnetsecurity:2026-10-28,"Domain used by Virtualine to post an open letter disputing allegations, indicating attacker control"
 domain,lanhd6549tdhse.top,high,2026-10-24T00:00:00+00:00,2026-10-28T07:31:19.901894+00:00,5,sansec.io:2026-10-28|Securityaffairs.Co:2026-10-26|Thehackernews:2026-10-26|Securityweek:2026-10-26|Sansec:2026-10-24,Described as a freshly registered domain used to inject malicious JavaScript
 ipv4,43.228.157.68,high,2026-10-28T02:58:27+00:00,2026-10-28T06:31:20.619550+00:00,2,www.infoworld.com:2026-10-28|Csoonline:2026-10-28,Reported as a server used in exploitation infrastructure
 domain,aiarmor.website,high,2026-10-22T00:00:00+00:00,2026-10-28T06:31:18.999798+00:00,2,research.jfrog.com:2026-10-28|Safedep:2026-10-22,Listed as a fallback endpoint for data exfiltration.
-domain,virtualine.net,high,2026-10-27T21:54:44+00:00,2026-10-27T21:54:44+00:00,1,Chainalysis:2026-10-27,Used as a bulletproof hosting provider for criminal activities
+ipv4,189.249.195.244,high,2026-10-28T06:01:28+00:00,2026-10-28T06:01:28+00:00,1,Redpacketsecurity:2026-10-28,Identified as a Mythic-branded C2 interface
+domain,wikileaks2.site,high,2026-10-28T03:33:15+00:00,2026-10-28T03:33:15+00:00,1,Acronis:2026-10-28,Domain used for publishing stolen data
 domain,1x0.is,high,2026-10-27T21:12:06.561606+00:00,2026-10-27T21:12:06.561606+00:00,1,sansec.io:2026-10-27,"Domain used to exfiltrate card details from compromised checkouts, indicating attacker control."
 domain,anl.is,high,2026-10-27T21:12:06.561606+00:00,2026-10-27T21:12:06.561606+00:00,1,sansec.io:2026-10-27,"Listed as an exfiltration endpoint used by the attackers, indicating attacker control."
 domain,snf.is,high,2026-10-27T21:12:06.561606+00:00,2026-10-27T21:12:06.561606+00:00,1,sansec.io:2026-10-27,"Listed as an exfiltration endpoint used by the attackers, indicating attacker control."
@@ -13,17 +54,7 @@ domain,harborhouseplumbing.us,high,2026-10-27T18:20:10+00:00,2026-10-27T18:20:10
 domain,met.macroteams.site,high,2026-10-27T18:20:10+00:00,2026-10-27T18:20:10+00:00,1,Censys:2026-10-27,Part of a phishing campaign infrastructure.
 domain,novalineyoga.us,high,2026-10-27T18:20:10+00:00,2026-10-27T18:20:10+00:00,1,Censys:2026-10-27,Domain with subdomains pointing to a C2 IP
 domain,reviewscene.com,high,2026-10-27T18:20:10+00:00,2026-10-27T18:20:10+00:00,1,Censys:2026-10-27,Hosted on an IP associated with C2 infrastructure
-domain,com.ucreator.tg,high,2026-10-26T10:54:17+00:00,2026-10-27T17:37:34.713593+00:00,3,www.0x0v1.com:2026-10-27|cybernoz.com:2026-10-27|Thehackernews:2026-10-26,Part of the uCreator platform framework and command handlers
-domain,hpncallback.gold5play.com,high,2026-10-26T10:54:17+00:00,2026-10-27T17:37:34.713593+00:00,4,www.0x0v1.com:2026-10-27|cybernoz.com:2026-10-27|News.Lavx.Hu:2026-10-26|Thehackernews:2026-10-26,Listed as a callback domain for C2 and payload delivery
-domain,hpncallback.qianxunlbs.com,high,2026-10-26T10:54:17+00:00,2026-10-27T17:37:34.713593+00:00,4,www.0x0v1.com:2026-10-27|cybernoz.com:2026-10-27|News.Lavx.Hu:2026-10-26|Thehackernews:2026-10-26,Listed as a callback domain for C2 and payload delivery
-domain,hw.android.videoflow.cn,high,2026-10-26T10:54:17+00:00,2026-10-27T17:37:34.713593+00:00,4,www.0x0v1.com:2026-10-27|cybernoz.com:2026-10-27|News.Lavx.Hu:2026-10-26|Thehackernews:2026-10-26,Used for version uploads in the attack infrastructure
-domain,qianxuncc.cn,high,2026-10-26T13:11:01+00:00,2026-10-27T17:37:34.713593+00:00,2,www.0x0v1.com:2026-10-27|Securityaffairs:2026-10-26,Associated with C2 infrastructure
-domain,qianxunlbs.com,high,2026-10-27T17:37:34.713593+00:00,2026-10-27T17:37:34.713593+00:00,1,www.0x0v1.com:2026-10-27,Listed as a callback domain for C2 and payload delivery
-domain,telegram-apk.uzyzx.com,high,2026-10-26T10:54:17+00:00,2026-10-27T17:37:34.713593+00:00,5,www.0x0v1.com:2026-10-27|cybernoz.com:2026-10-27|News.Lavx.Hu:2026-10-26|Securityaffairs:2026-10-26|Thehackernews:2026-10-26,Used as a distribution host for repackaged applications
-domain,ucreater.com,high,2026-10-26T13:11:01+00:00,2026-10-27T17:37:34.713593+00:00,2,www.0x0v1.com:2026-10-27|Securityaffairs:2026-10-26,Linked to the uCreator brand and infrastructure
-domain,uzyzx.com,high,2026-10-27T17:37:34.713593+00:00,2026-10-27T17:37:34.713593+00:00,1,www.0x0v1.com:2026-10-27,Used as a distribution host for repackaged applications
-domain,videoflow.cn,high,2026-10-26T13:11:01+00:00,2026-10-27T17:37:34.713593+00:00,2,www.0x0v1.com:2026-10-27|Securityaffairs:2026-10-26,Associated with C2 infrastructure
-domain,coinbase.bonto.io,high,2026-10-27T17:28:33.184000+00:00,2026-10-27T17:28:33.184000+00:00,1,Socket.Dev:2026-10-27,Used as an exfiltration host in a malicious campaign.
+domain,coinbase.bonto.io,high,2026-10-27T17:28:33.184000+00:00,2026-10-27T17:28:33.184000+00:00,1,Socket.Dev:2026-10-27,Subdomain used as an exfiltration host
 domain,claude.ai.download-app.us,high,2026-10-27T16:00:30.870663+00:00,2026-10-27T16:00:30.870663+00:00,1,www.huntress.com:2026-10-27,Redirects users to malicious content.
 domain,bitchassbecerra.com,high,2026-10-27T15:00:35.448658+00:00,2026-10-27T15:00:35.448658+00:00,1,www.cnn.com:2026-10-27,Campaign website created for political purposes.
 ipv4,103.151.172.95,high,2026-10-27T13:32:48+00:00,2026-10-27T13:32:48+00:00,1,Wiz:2026-10-27,Used in an exploit attempt against a honeypot.
@@ -280,7 +311,6 @@ domain,gh.my-github.com,high,2026-10-19T14:05:31.040619+00:00,2026-10-19T14:05:3
 domain,github.my-github.com,high,2026-10-19T14:05:31.040619+00:00,2026-10-19T14:05:31.040619+00:00,1,opensourcemalware.com:2026-10-19,Part of a suspicious infrastructure associated with GitHub impersonation.
 domain,gitlab.my-gitlab.com,high,2026-10-19T14:05:31.040619+00:00,2026-10-19T14:05:31.040619+00:00,1,opensourcemalware.com:2026-10-19,Described as hosting a GitLab service on suspicious infrastructure.
 domain,vigilantcyber.top,high,2026-10-19T14:05:31.040619+00:00,2026-10-19T14:05:31.040619+00:00,1,opensourcemalware.com:2026-10-19,Associated with malicious infrastructure and phishing activities.
-ipv4,45.139.104.115,high,2026-10-19T14:05:31.040619+00:00,2026-10-19T14:05:31.040619+00:00,1,opensourcemalware.com:2026-10-19,Listed as a malicious IP in a threat report
 domain,shinywire.com,high,2026-10-19T13:48:56+00:00,2026-10-19T13:48:56+00:00,1,Krebsonsecurity:2026-10-19,Described as a victim extortion website operated by ShinyHunters.
 domain,my-gitlab.com,high,2026-10-19T13:09:39+00:00,2026-10-19T13:09:39+00:00,1,Thehackernews:2026-10-19,Registered by the threat actor for phishing and data exfiltration.
 domain,amgen.teams-cloud.live,high,2026-10-19T12:42:05+00:00,2026-10-19T12:42:05+00:00,1,Pasqualepillitteri.It:2026-10-19,Listed as a phishing domain in a threat report
@@ -732,7 +762,6 @@ ipv4,103.27.186.156,high,2026-10-07T13:51:21+00:00,2026-10-07T13:51:21+00:00,1,S
 ipv4,154.202.59.169,high,2026-10-07T13:51:21+00:00,2026-10-07T13:51:21+00:00,1,Securityaffairs:2026-10-07,Listed as a proxy node used by threat actors.
 domain,check.vykyn.click,high,2026-10-07T13:04:03+00:00,2026-10-07T13:04:03+00:00,1,Huntress:2026-10-07,Domain used for redirecting visitors as part of attacker-controlled operations.
 domain,openpediatrics.site,high,2026-10-07T13:04:03+00:00,2026-10-07T13:04:03+00:00,1,Huntress:2026-10-07,Domain used for attacker-controlled operations and fingerprinting victims.
-domain,carte-avantage.com,high,2026-10-07T13:03:38+00:00,2026-10-07T13:03:38+00:00,1,Blog.Gitguardian:2026-10-07,Used as an exfiltration endpoint by attackers
 ipv4,170.39.218.2,high,2026-10-07T13:03:38+00:00,2026-10-07T13:03:38+00:00,1,Blog.Gitguardian:2026-10-07,Listed as an endpoint used by attackers.
 domain,account-sams-club.com,high,2026-10-07T12:02:35.647461+00:00,2026-10-07T12:02:35.647461+00:00,1,www.ontinue.com:2026-10-07,Domain resolves to a phishing site used for brand impersonation
 domain,ibraq-perfumes.com,high,2026-10-07T12:02:35.647461+00:00,2026-10-07T12:02:35.647461+00:00,1,www.ontinue.com:2026-10-07,Domain resolves to a phishing site used for brand impersonation
@@ -925,15 +954,3 @@ domain,secure-dns-hub.com,high,2026-09-29T17:20:08+00:00,2026-09-29T17:20:08+00:
 ipv4,103.160.59.97,high,2026-09-29T17:20:08+00:00,2026-09-29T17:20:08+00:00,1,Thehackernews:2026-09-29,Listed as an indicator in Microsoft's report
 domain,instances.httpworkbench.com,high,2026-09-29T15:01:35+00:00,2026-09-29T15:01:35+00:00,1,Helpnetsecurity:2026-09-29,Used for DNS lookups indicating compromise
 domain,fortuneprimeglobalirts.com,high,2026-09-29T13:35:42.723827+00:00,2026-09-29T13:35:42.723827+00:00,1,www.justice.gov:2026-09-29,Domain associated with fraudulent investment platform
-domain,corp.tripswithengine.com,high,2026-09-28T15:13:20+00:00,2026-09-29T10:02:50+00:00,4,Redpacketsecurity:2026-09-29|Thehackernews:2026-09-28|Cyberkendra:2026-09-28|Microsoft:2026-09-28,Identified as a C2 host in the malware's configuration
-domain,cloud.cmatgldn.click,high,2026-09-29T09:56:49+00:00,2026-09-29T09:56:49+00:00,1,Blog.Malwarebytes:2026-09-29,Listed as an ad click and conversion tracker used by attackers
-domain,pnmrud.cc,high,2026-09-29T09:56:49+00:00,2026-09-29T09:56:49+00:00,1,Blog.Malwarebytes:2026-09-29,Listed as a command-and-control server
-ipv4,172.94.9.194,high,2026-09-29T05:01:43+00:00,2026-09-29T05:01:43+00:00,1,Redpacketsecurity:2026-09-29,IP address hosting a Mythic C2 portal
-ipv4,193.201.185.90,high,2026-09-29T05:01:43+00:00,2026-09-29T05:01:43+00:00,1,Redpacketsecurity:2026-09-29,Exposed Mythic C2 portal
-ipv4,69.48.229.140,high,2026-09-29T00:00:00+00:00,2026-09-29T00:00:00+00:00,1,Cloudsek:2026-09-29,Used as a C2 server for malicious npm packages.
-domain,redseaaxis.com,high,2026-09-28T18:46:11+00:00,2026-09-28T18:46:11+00:00,1,Hornreview:2026-09-28,Described as a network of websites for influence operations
-domain,q-vpn.com,high,2026-09-28T17:54:14+00:00,2026-09-28T17:54:14+00:00,1,Circleid:2026-09-28,Described as weaponized to distribute malware
-ipv4,134.122.155.135,high,2026-09-28T17:51:54+00:00,2026-09-28T17:51:54+00:00,1,Cyberkendra:2026-09-28,IP address used for C2 communications
-domain,admin.rathat.live,high,2026-09-28T17:38:33+00:00,2026-09-28T17:38:33+00:00,1,Thehackernews:2026-09-28,Used as a C2 server in a threat campaign
-domain,dramaspoolcoa.com,high,2026-09-28T17:38:33+00:00,2026-09-28T17:38:33+00:00,1,Thehackernews:2026-09-28,Used as a download link for malware
-domain,rathat.me,high,2026-09-28T17:38:33+00:00,2026-09-28T17:38:33+00:00,1,Thehackernews:2026-09-28,Used as a download link for malware
