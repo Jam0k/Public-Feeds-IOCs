@@ -1,4 +1,9 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason
+ipv4,13.163.205.35,high,2026-10-29T19:50:25+00:00,2026-10-29T19:50:25+00:00,1,Thehackernews:2026-10-29,IP address where stolen data was left open on the internet
+ipv4,94.154.43.163,high,2026-10-29T16:07:42+00:00,2026-10-29T16:07:42+00:00,1,Bitsight:2026-10-29,Associated with malicious activity and listed on Spamhaus ASN-DROP
+ipv4,180.178.50.158,high,2026-10-29T15:40:51.693483+00:00,2026-10-29T15:40:51.693483+00:00,1,safedep.io:2026-10-29,IP address used for C2 infrastructure.
+ipv4,5.255.61.234,high,2026-10-29T13:00:00+00:00,2026-10-29T13:00:00+00:00,1,Zimperium:2026-10-29,Linked to malicious infrastructure through historical DNS records
+ipv4,87.120.196.120,high,2026-10-29T10:05:07+00:00,2026-10-29T10:05:07+00:00,1,Blog.Talosintelligence:2026-10-29,IP address hosts the NIK C2 framework controlled by the threat actor.
 ipv4,45.139.104.115,high,2026-10-19T14:05:31.040619+00:00,2026-10-28T22:30:29.446826+00:00,2,blog.gitguardian.com:2026-10-28|opensourcemalware.com:2026-10-19,"IP address used as an exfiltration endpoint in the attack campaign, indicating attacker control."
 ipv4,16.5.0.225,high,2026-10-28T12:00:04+00:00,2026-10-28T12:00:04+00:00,1,Cloudsek:2026-10-28,Identified as staging mirrors for attacker infrastructure
 ipv4,16.5.0.226,high,2026-10-28T12:00:04+00:00,2026-10-28T12:00:04+00:00,1,Cloudsek:2026-10-28,Identified as staging mirrors for attacker infrastructure
@@ -213,8 +218,3 @@ ipv4,45.141.21.130,high,2026-10-01T04:35:34+00:00,2026-10-01T04:35:34+00:00,1,Th
 ipv4,64.94.85.67,high,2026-10-01T04:35:34+00:00,2026-10-01T04:35:34+00:00,1,Thehackernews:2026-10-01,Listed as a source of payload retrieval in a threat report
 ipv4,96.62.224.81,high,2026-09-30T14:31:15+00:00,2026-09-30T14:31:15+00:00,1,Techtimes:2026-09-30,Listed as a server IP in a ClickFix attack
 ipv4,103.27.110.220,high,2026-09-30T14:13:51+00:00,2026-09-30T14:13:51+00:00,1,Blog.Talosintelligence:2026-09-30,Historical IP serving Antino payloads
-ipv4,185.177.239.241,high,2026-09-30T10:41:36+00:00,2026-09-30T10:41:36+00:00,1,Bloglab.360:2026-09-30,Listed as an IP used in attacks
-ipv4,104.234.65.75,high,2026-09-30T00:00:00+00:00,2026-09-30T00:00:00+00:00,1,Cloudsek:2026-09-30,Listed as a payload host in a threat report
-ipv4,45.137.198.133,high,2026-09-30T00:00:00+00:00,2026-09-30T00:00:00+00:00,1,Safedep:2026-09-30,Listed as part of a C2 infrastructure in a threat report
-ipv4,89.125.66.183,high,2026-09-29T18:30:57.944399+00:00,2026-09-29T18:30:57.944399+00:00,1,dslua.org:2026-09-29,Used as a WebDAV server by attackers
-ipv4,103.160.59.97,high,2026-09-29T17:20:08+00:00,2026-09-29T17:20:08+00:00,1,Thehackernews:2026-09-29,Listed as an indicator in Microsoft's report

@@ -1,7 +1,7 @@
 {
   "feed": "threatcluster-public-iocs",
   "version": 1,
-  "generated_at": "2026-10-29T12:57:24Z",
+  "generated_at": "2026-10-30T12:51:40Z",
   "filters": {
     "confidence": "high",
     "window_days": 30,
@@ -11,8 +11,697 @@
       "domain"
     ]
   },
-  "count": 955,
+  "count": 957,
   "iocs": [
+    {
+      "type": "domain",
+      "value": "betasignaltradingviewai.app",
+      "confidence": "high",
+      "reason": "Domain used in a campaign to lure traders with fake TradingView videos, indicating attacker control.",
+      "first_seen": "2026-10-29T22:39:27.698522+00:00",
+      "last_seen": "2026-10-29T22:39:27.698522+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.air.security",
+          "url": "https://www.air.security/blog-posts/solanacry",
+          "pub_date": "2026-10-29T22:39:27.698522+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "ClickFix Campaigns"
+        },
+        {
+          "type": "malware",
+          "value": "NetSupport Manager"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "developer-update.app",
+      "confidence": "high",
+      "reason": "Domain used for payload delivery in a malicious campaign, indicating attacker control.",
+      "first_seen": "2026-10-29T22:09:24+00:00",
+      "last_seen": "2026-10-29T22:39:27.698522+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "www.air.security",
+          "url": "https://www.air.security/blog-posts/solanacry",
+          "pub_date": "2026-10-29T22:39:27.698522+00:00"
+        },
+        {
+          "source": "Bleepingcomputer",
+          "url": "https://www.bleepingcomputer.com/news/security/hugging-face-malware-campaign-returns-to-hijack-gpus-for-crypto-mining/",
+          "pub_date": "2026-10-29T22:09:24+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "ClickFix Campaigns"
+        },
+        {
+          "type": "malware",
+          "value": "NetSupport Manager"
+        },
+        {
+          "type": "malware",
+          "value": "NetSupport RAT"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "maxwintodaybtc.com",
+      "confidence": "high",
+      "reason": "Specified as a C2 server in the attacker's configuration file, indicating attacker control.",
+      "first_seen": "2026-10-29T22:09:24+00:00",
+      "last_seen": "2026-10-29T22:39:27.698522+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "www.air.security",
+          "url": "https://www.air.security/blog-posts/solanacry",
+          "pub_date": "2026-10-29T22:39:27.698522+00:00"
+        },
+        {
+          "source": "Bleepingcomputer",
+          "url": "https://www.bleepingcomputer.com/news/security/hugging-face-malware-campaign-returns-to-hijack-gpus-for-crypto-mining/",
+          "pub_date": "2026-10-29T22:09:24+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "ClickFix Campaigns"
+        },
+        {
+          "type": "malware",
+          "value": "NetSupport Manager"
+        },
+        {
+          "type": "malware",
+          "value": "NetSupport RAT"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "goo.gle-access-eventregister.icu",
+      "confidence": "high",
+      "reason": "Phishing domain mimicking Google login page",
+      "first_seen": "2026-10-29T22:34:58.991537+00:00",
+      "last_seen": "2026-10-29T22:34:58.991537+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "cofense.com",
+          "url": "https://cofense.com/blog/would-your-employees-join-a-fake-anthropic-ai-preview",
+          "pub_date": "2026-10-29T22:34:58.991537+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Anthropic AI Preview Campaign"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "us968web-zoom.us",
+      "confidence": "high",
+      "reason": "Phishing domain mimicking Zoom meeting page",
+      "first_seen": "2026-10-29T22:34:58.991537+00:00",
+      "last_seen": "2026-10-29T22:34:58.991537+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "cofense.com",
+          "url": "https://cofense.com/blog/would-your-employees-join-a-fake-anthropic-ai-preview",
+          "pub_date": "2026-10-29T22:34:58.991537+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Anthropic AI Preview Campaign"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "13.163.205.35",
+      "confidence": "high",
+      "reason": "IP address where stolen data was left open on the internet",
+      "first_seen": "2026-10-29T19:50:25+00:00",
+      "last_seen": "2026-10-29T19:50:25+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Thehackernews",
+          "url": "https://thehackernews.com/2026/10/threatsday-critical-firewall-flaws.html",
+          "pub_date": "2026-10-29T19:50:25+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "ipv4",
+      "value": "94.154.43.163",
+      "confidence": "high",
+      "reason": "Associated with malicious activity and listed on Spamhaus ASN-DROP",
+      "first_seen": "2026-10-29T16:07:42+00:00",
+      "last_seen": "2026-10-29T16:07:42+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Bitsight",
+          "url": "https://www.bitsight.com/blog/php2shell-scanning-exploitation-patching",
+          "pub_date": "2026-10-29T16:07:42+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "l1ewsu3yjkqeroy.xyz",
+      "confidence": "high",
+      "reason": "Configured as a C2 sync endpoint for telemetry.",
+      "first_seen": "2026-10-29T15:40:51.693483+00:00",
+      "last_seen": "2026-10-29T15:40:51.693483+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "safedep.io",
+          "url": "https://safedep.io/art-template-npm-supply-chain-compromise/",
+          "pub_date": "2026-10-29T15:40:51.693483+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2024-23222"
+        },
+        {
+          "type": "malware",
+          "value": "Coruna Exploit Kit"
+        },
+        {
+          "type": "malware",
+          "value": "Plasmagrid"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "utaq.cfww.shop",
+      "confidence": "high",
+      "reason": "Domain used for exploit modules and C2 infrastructure.",
+      "first_seen": "2026-10-29T15:40:51.693483+00:00",
+      "last_seen": "2026-10-29T15:40:51.693483+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "safedep.io",
+          "url": "https://safedep.io/art-template-npm-supply-chain-compromise/",
+          "pub_date": "2026-10-29T15:40:51.693483+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2024-23222"
+        },
+        {
+          "type": "malware",
+          "value": "Coruna Exploit Kit"
+        },
+        {
+          "type": "malware",
+          "value": "Plasmagrid"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "180.178.50.158",
+      "confidence": "high",
+      "reason": "IP address used for C2 infrastructure.",
+      "first_seen": "2026-10-29T15:40:51.693483+00:00",
+      "last_seen": "2026-10-29T15:40:51.693483+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "safedep.io",
+          "url": "https://safedep.io/art-template-npm-supply-chain-compromise/",
+          "pub_date": "2026-10-29T15:40:51.693483+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2024-23222"
+        },
+        {
+          "type": "malware",
+          "value": "Coruna Exploit Kit"
+        },
+        {
+          "type": "malware",
+          "value": "Plasmagrid"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "coinbase.bonto.io",
+      "confidence": "high",
+      "reason": "Subdomain used for exfiltration by malicious Firefox extensions",
+      "first_seen": "2026-10-27T17:28:33.184000+00:00",
+      "last_seen": "2026-10-29T14:12:13+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "Malwarebytes",
+          "url": "https://www.malwarebytes.com/blog/news/2026/10/malicious-firefox-extensions-impersonate-popular-crypto-wallets",
+          "pub_date": "2026-10-29T14:12:13+00:00"
+        },
+        {
+          "source": "Socket.Dev",
+          "url": "https://socket.dev/blog/firefox-wallet-impersonators?utm_medium=feed",
+          "pub_date": "2026-10-27T17:28:33.184+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "3x3br.eu.cc",
+      "confidence": "high",
+      "reason": "Domain used in social engineering tactics to direct users to exploit environments.",
+      "first_seen": "2026-10-29T13:00:00+00:00",
+      "last_seen": "2026-10-29T13:38:14+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Zimperium",
+          "url": "https://zimperium.com/blog/inside-coruna-and-darksword-chains-from-web-lures-to-ios-exploitation?hs_amp=true",
+          "pub_date": "2026-10-29T13:38:14+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2022-48503"
+        },
+        {
+          "type": "malware",
+          "value": "Coruna"
+        },
+        {
+          "type": "malware",
+          "value": "DarkSword"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "66wc.eu.cc",
+      "confidence": "high",
+      "reason": "Domain used for tracking and configuration in the Coruna campaign.",
+      "first_seen": "2026-10-29T13:00:00+00:00",
+      "last_seen": "2026-10-29T13:38:14+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Zimperium",
+          "url": "https://zimperium.com/blog/inside-coruna-and-darksword-chains-from-web-lures-to-ios-exploitation?hs_amp=true",
+          "pub_date": "2026-10-29T13:38:14+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2022-48503"
+        },
+        {
+          "type": "malware",
+          "value": "Coruna"
+        },
+        {
+          "type": "malware",
+          "value": "DarkSword"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "ax.xoovo.top",
+      "confidence": "high",
+      "reason": "Domain used to load attack code in a hidden frame while displaying legitimate content.",
+      "first_seen": "2026-10-29T13:00:00+00:00",
+      "last_seen": "2026-10-29T13:38:14+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Zimperium",
+          "url": "https://zimperium.com/blog/inside-coruna-and-darksword-chains-from-web-lures-to-ios-exploitation?hs_amp=true",
+          "pub_date": "2026-10-29T13:38:14+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2022-48503"
+        },
+        {
+          "type": "malware",
+          "value": "Coruna"
+        },
+        {
+          "type": "malware",
+          "value": "DarkSword"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "ccsigen321qc.com",
+      "confidence": "high",
+      "reason": "Configured as a C2 endpoint for command and control traffic.",
+      "first_seen": "2026-10-29T13:00:00+00:00",
+      "last_seen": "2026-10-29T13:38:14+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Zimperium",
+          "url": "https://zimperium.com/blog/inside-coruna-and-darksword-chains-from-web-lures-to-ios-exploitation?hs_amp=true",
+          "pub_date": "2026-10-29T13:38:14+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2022-48503"
+        },
+        {
+          "type": "malware",
+          "value": "Coruna"
+        },
+        {
+          "type": "malware",
+          "value": "DarkSword"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "echomint.buzz",
+      "confidence": "high",
+      "reason": "Domain used to hide exploit framework behind a decoy service.",
+      "first_seen": "2026-10-29T13:00:00+00:00",
+      "last_seen": "2026-10-29T13:38:14+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Zimperium",
+          "url": "https://zimperium.com/blog/inside-coruna-and-darksword-chains-from-web-lures-to-ios-exploitation?hs_amp=true",
+          "pub_date": "2026-10-29T13:38:14+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2022-48503"
+        },
+        {
+          "type": "malware",
+          "value": "Coruna"
+        },
+        {
+          "type": "malware",
+          "value": "DarkSword"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "jiaoyou.eu.cc",
+      "confidence": "high",
+      "reason": "Domain variant used in attack chain configurations.",
+      "first_seen": "2026-10-29T13:00:00+00:00",
+      "last_seen": "2026-10-29T13:38:14+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Zimperium",
+          "url": "https://zimperium.com/blog/inside-coruna-and-darksword-chains-from-web-lures-to-ios-exploitation?hs_amp=true",
+          "pub_date": "2026-10-29T13:38:14+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2022-48503"
+        },
+        {
+          "type": "malware",
+          "value": "Coruna"
+        },
+        {
+          "type": "malware",
+          "value": "DarkSword"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "melatibiru.win",
+      "confidence": "high",
+      "reason": "Domain used to distribute DarkSword-derived exploit scripts.",
+      "first_seen": "2026-10-29T13:00:00+00:00",
+      "last_seen": "2026-10-29T13:38:14+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Zimperium",
+          "url": "https://zimperium.com/blog/inside-coruna-and-darksword-chains-from-web-lures-to-ios-exploitation?hs_amp=true",
+          "pub_date": "2026-10-29T13:38:14+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2022-48503"
+        },
+        {
+          "type": "malware",
+          "value": "Coruna"
+        },
+        {
+          "type": "malware",
+          "value": "DarkSword"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "ssc.vever3eds.com",
+      "confidence": "high",
+      "reason": "Central staging host for exploit scripts.",
+      "first_seen": "2026-10-29T13:00:00+00:00",
+      "last_seen": "2026-10-29T13:38:14+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Zimperium",
+          "url": "https://zimperium.com/blog/inside-coruna-and-darksword-chains-from-web-lures-to-ios-exploitation?hs_amp=true",
+          "pub_date": "2026-10-29T13:38:14+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2022-48503"
+        },
+        {
+          "type": "malware",
+          "value": "Coruna"
+        },
+        {
+          "type": "malware",
+          "value": "DarkSword"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "vrgrt4t33.com",
+      "confidence": "high",
+      "reason": "Domain used for telemetry transmission in the attack chain.",
+      "first_seen": "2026-10-29T13:00:00+00:00",
+      "last_seen": "2026-10-29T13:38:14+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Zimperium",
+          "url": "https://zimperium.com/blog/inside-coruna-and-darksword-chains-from-web-lures-to-ios-exploitation?hs_amp=true",
+          "pub_date": "2026-10-29T13:38:14+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2022-48503"
+        },
+        {
+          "type": "malware",
+          "value": "Coruna"
+        },
+        {
+          "type": "malware",
+          "value": "DarkSword"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "xxtg1.eu.cc",
+      "confidence": "high",
+      "reason": "Domain used for tracking and configuration in the Coruna campaign.",
+      "first_seen": "2026-10-29T13:00:00+00:00",
+      "last_seen": "2026-10-29T13:38:14+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Zimperium",
+          "url": "https://zimperium.com/blog/inside-coruna-and-darksword-chains-from-web-lures-to-ios-exploitation?hs_amp=true",
+          "pub_date": "2026-10-29T13:38:14+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2022-48503"
+        },
+        {
+          "type": "malware",
+          "value": "Coruna"
+        },
+        {
+          "type": "malware",
+          "value": "DarkSword"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "5.255.61.234",
+      "confidence": "high",
+      "reason": "Linked to malicious infrastructure through historical DNS records",
+      "first_seen": "2026-10-29T13:00:00+00:00",
+      "last_seen": "2026-10-29T13:00:00+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Zimperium",
+          "url": "https://zimperium.com/blog/inside-coruna-and-darksword-chains-from-web-lures-to-ios-exploitation",
+          "pub_date": "2026-10-29T13:00:00+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2022-48503"
+        },
+        {
+          "type": "malware",
+          "value": "Coruna"
+        },
+        {
+          "type": "malware",
+          "value": "DarkSword"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "kndr.su",
+      "confidence": "high",
+      "reason": "Described as an online labour-brokering platform operated by the attacker",
+      "first_seen": "2026-10-29T04:34:32.960823+00:00",
+      "last_seen": "2026-10-29T12:28:19+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "Aljazeera",
+          "url": "https://www.aljazeera.com/economy/2026/10/29/north-koreans-being-recruited-into-forced-labour-in-russia-report-says",
+          "pub_date": "2026-10-29T12:28:19+00:00"
+        },
+        {
+          "source": "globalrightscompliance.org",
+          "url": "https://globalrightscompliance.org/new-report-reveals-north-korean-workers-are-on-sale-to-russian-companies-in-escalating-state-sponsored-forced-labour-programme/",
+          "pub_date": "2026-10-29T04:34:32.960823+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "industry",
+          "value": "Agriculture"
+        },
+        {
+          "type": "industry",
+          "value": "Construction"
+        },
+        {
+          "type": "industry",
+          "value": "Industry"
+        },
+        {
+          "type": "industry",
+          "value": "IT"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "total-sitevv.lol",
+      "confidence": "high",
+      "reason": "Domain resolves to an active NIK C2 server hosted by the threat actor.",
+      "first_seen": "2026-10-29T10:05:07+00:00",
+      "last_seen": "2026-10-29T10:05:07+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Blog.Talosintelligence",
+          "url": "https://blog.talosintelligence.com/nik-c2-new-ai-enabled-framework/",
+          "pub_date": "2026-10-29T10:05:07+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "ipv4",
+      "value": "87.120.196.120",
+      "confidence": "high",
+      "reason": "IP address hosts the NIK C2 framework controlled by the threat actor.",
+      "first_seen": "2026-10-29T10:05:07+00:00",
+      "last_seen": "2026-10-29T10:05:07+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Blog.Talosintelligence",
+          "url": "https://blog.talosintelligence.com/nik-c2-new-ai-enabled-framework/",
+          "pub_date": "2026-10-29T10:05:07+00:00"
+        }
+      ],
+      "tags": []
+    },
     {
       "type": "domain",
       "value": "virtualine.net",
@@ -69,17 +758,17 @@
     },
     {
       "type": "domain",
-      "value": "kndr.su",
+      "value": "shopcredit.xyz",
       "confidence": "high",
-      "reason": "Described as an online labour-brokering platform operated by the attacker",
-      "first_seen": "2026-10-29T04:34:32.960823+00:00",
-      "last_seen": "2026-10-29T04:34:32.960823+00:00",
+      "reason": "Flagged as a phishing URL in a fraudulent recruitment scam",
+      "first_seen": "2026-10-29T03:52:51+00:00",
+      "last_seen": "2026-10-29T03:52:51+00:00",
       "source_count": 1,
       "sources": [
         {
-          "source": "globalrightscompliance.org",
-          "url": "https://globalrightscompliance.org/new-report-reveals-north-korean-workers-are-on-sale-to-russian-companies-in-escalating-state-sponsored-forced-labour-programme/",
-          "pub_date": "2026-10-29T04:34:32.960823+00:00"
+          "source": "Tribune.Ph",
+          "url": "https://tribune.net.ph/2026/10/29/bucor-warns-public-against-fake-recruitment-post-phishing-link",
+          "pub_date": "2026-10-29T03:52:51+00:00"
         }
       ],
       "tags": []
@@ -151,6 +840,40 @@
           "value": "GammaSteel Campaigns"
         }
       ]
+    },
+    {
+      "type": "domain",
+      "value": "clickksy.icu",
+      "confidence": "high",
+      "reason": "Used to host malicious Adobe Acrobat Reader-themed lure",
+      "first_seen": "2026-10-29T00:00:00+00:00",
+      "last_seen": "2026-10-29T00:00:00+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cloudsek",
+          "url": "https://www.cloudsek.com/blog/fake-adobe-acrobat-lures-deliver-screenconnect-remote-access-clients",
+          "pub_date": "2026-10-29T00:00:00+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "motormotif.com",
+      "confidence": "high",
+      "reason": "Used in a phishing redirection path",
+      "first_seen": "2026-10-29T00:00:00+00:00",
+      "last_seen": "2026-10-29T00:00:00+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cloudsek",
+          "url": "https://www.cloudsek.com/blog/fake-adobe-acrobat-lures-deliver-screenconnect-remote-access-clients",
+          "pub_date": "2026-10-29T00:00:00+00:00"
+        }
+      ],
+      "tags": []
     },
     {
       "type": "domain",
@@ -238,34 +961,17 @@
     },
     {
       "type": "domain",
-      "value": "servicepipe.ru",
+      "value": "hackertehuur.com",
       "confidence": "high",
-      "reason": "Domain associated with malicious traffic control systems",
-      "first_seen": "2026-10-28T17:13:29+00:00",
-      "last_seen": "2026-10-28T17:13:29+00:00",
+      "reason": "Advertised as a service for hiring hackers on the dark web",
+      "first_seen": "2026-10-28T20:37:44+00:00",
+      "last_seen": "2026-10-28T20:37:44+00:00",
       "source_count": 1,
       "sources": [
         {
-          "source": "News.Ycombinator",
-          "url": "https://nullpt.rs/fingerprinting-bioweapons",
-          "pub_date": "2026-10-28T17:13:29+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "servicepipe.tech",
-      "confidence": "high",
-      "reason": "Domain associated with malicious traffic control systems",
-      "first_seen": "2026-10-28T17:13:29+00:00",
-      "last_seen": "2026-10-28T17:13:29+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "News.Ycombinator",
-          "url": "https://nullpt.rs/fingerprinting-bioweapons",
-          "pub_date": "2026-10-28T17:13:29+00:00"
+          "source": "Hireaphonehacker",
+          "url": "https://hireaphonehacker.com/product/hire-a-dark-web-hacker/",
+          "pub_date": "2026-10-28T20:37:44+00:00"
         }
       ],
       "tags": []
@@ -1473,23 +2179,6 @@
           "source": "Censys",
           "url": "https://censys.com/blog/censys-ai-agents-automate-investigations-and-amplify-your-threat-intel/",
           "pub_date": "2026-10-27T18:20:10+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "coinbase.bonto.io",
-      "confidence": "high",
-      "reason": "Subdomain used as an exfiltration host",
-      "first_seen": "2026-10-27T17:28:33.184000+00:00",
-      "last_seen": "2026-10-27T17:28:33.184000+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Socket.Dev",
-          "url": "https://socket.dev/blog/firefox-wallet-impersonators?utm_medium=feed",
-          "pub_date": "2026-10-27T17:28:33.184+00:00"
         }
       ],
       "tags": []
@@ -25168,663 +25857,6 @@
         {
           "type": "malware",
           "value": "Antino"
-        }
-      ]
-    },
-    {
-      "type": "ipv4",
-      "value": "185.177.239.241",
-      "confidence": "high",
-      "reason": "Listed as an IP used in attacks",
-      "first_seen": "2026-09-30T10:41:36+00:00",
-      "last_seen": "2026-09-30T10:41:36+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Bloglab.360",
-          "url": "https://blog.netlab.360.com/aian-quan-zhuan-ti-zhou-bao-8/",
-          "pub_date": "2026-09-30T10:41:36+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "api.imghippo.com",
-      "confidence": "high",
-      "reason": "Shared payload URL associated with the MALFEX campaign",
-      "first_seen": "2026-09-30T00:00:00+00:00",
-      "last_seen": "2026-09-30T00:00:00+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Cloudsek",
-          "url": "https://www.cloudsek.com/blog/malfex-malicious-npm-postinstall-supply-chain-campaign",
-          "pub_date": "2026-09-30T00:00:00+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "malware",
-          "value": "Movinlike"
-        },
-        {
-          "type": "malware",
-          "value": "Overlord"
-        }
-      ]
-    },
-    {
-      "type": "ipv4",
-      "value": "104.234.65.75",
-      "confidence": "high",
-      "reason": "Listed as a payload host in a threat report",
-      "first_seen": "2026-09-30T00:00:00+00:00",
-      "last_seen": "2026-09-30T00:00:00+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Cloudsek",
-          "url": "https://www.cloudsek.com/blog/malfex-malicious-npm-postinstall-supply-chain-campaign",
-          "pub_date": "2026-09-30T00:00:00+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "malware",
-          "value": "Movinlike"
-        },
-        {
-          "type": "malware",
-          "value": "Overlord"
-        }
-      ]
-    },
-    {
-      "type": "ipv4",
-      "value": "45.137.198.133",
-      "confidence": "high",
-      "reason": "Listed as part of a C2 infrastructure in a threat report",
-      "first_seen": "2026-09-30T00:00:00+00:00",
-      "last_seen": "2026-09-30T00:00:00+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Safedep",
-          "url": "https://safedep.io/polinrider-ethereum-c2-github-repositories",
-          "pub_date": "2026-09-30T00:00:00+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "docupdatedd.org",
-      "confidence": "high",
-      "reason": "Used in phishing emails impersonating a religious organization",
-      "first_seen": "2026-09-29T22:37:04+00:00",
-      "last_seen": "2026-09-29T22:37:04+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Brethren",
-          "url": "https://www.brethren.org/news/2026/fraudulent-email-prompts-reminder/",
-          "pub_date": "2026-09-29T22:37:04+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "d5b74r04.na1.hubspotlinksfree.com",
-      "confidence": "high",
-      "reason": "Listed as part of Star Blizzard's domain infrastructure used in campaigns",
-      "first_seen": "2026-09-29T20:30:31.342952+00:00",
-      "last_seen": "2026-09-29T20:30:31.342952+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.microsoft.com",
-          "url": "https://www.microsoft.com/en-us/security/blog/2023/12/07/star-blizzard-increases-sophistication-and-evasion-in-ongoing-attacks/",
-          "pub_date": "2026-09-29T20:30:31.342952+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Star Blizzard"
-        },
-        {
-          "type": "industry",
-          "value": "Academia"
-        },
-        {
-          "type": "industry",
-          "value": "Information Security"
-        },
-        {
-          "type": "malware",
-          "value": "Evilginx"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "djr6t104.eu1.hubspotlinksfree.com",
-      "confidence": "high",
-      "reason": "Listed as part of Star Blizzard's domain infrastructure used in campaigns",
-      "first_seen": "2026-09-29T20:30:31.342952+00:00",
-      "last_seen": "2026-09-29T20:30:31.342952+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.microsoft.com",
-          "url": "https://www.microsoft.com/en-us/security/blog/2023/12/07/star-blizzard-increases-sophistication-and-evasion-in-ongoing-attacks/",
-          "pub_date": "2026-09-29T20:30:31.342952+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Star Blizzard"
-        },
-        {
-          "type": "industry",
-          "value": "Academia"
-        },
-        {
-          "type": "industry",
-          "value": "Information Security"
-        },
-        {
-          "type": "malware",
-          "value": "Evilginx"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "djrzf704.eu1.hubspotlinksfree.com",
-      "confidence": "high",
-      "reason": "Listed as part of Star Blizzard's domain infrastructure used in campaigns",
-      "first_seen": "2026-09-29T20:30:31.342952+00:00",
-      "last_seen": "2026-09-29T20:30:31.342952+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.microsoft.com",
-          "url": "https://www.microsoft.com/en-us/security/blog/2023/12/07/star-blizzard-increases-sophistication-and-evasion-in-ongoing-attacks/",
-          "pub_date": "2026-09-29T20:30:31.342952+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Star Blizzard"
-        },
-        {
-          "type": "industry",
-          "value": "Academia"
-        },
-        {
-          "type": "industry",
-          "value": "Information Security"
-        },
-        {
-          "type": "malware",
-          "value": "Evilginx"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "djs36c04.eu1.hubspotlinksfree.com",
-      "confidence": "high",
-      "reason": "Listed as part of Star Blizzard's domain infrastructure used in campaigns",
-      "first_seen": "2026-09-29T20:30:31.342952+00:00",
-      "last_seen": "2026-09-29T20:30:31.342952+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.microsoft.com",
-          "url": "https://www.microsoft.com/en-us/security/blog/2023/12/07/star-blizzard-increases-sophistication-and-evasion-in-ongoing-attacks/",
-          "pub_date": "2026-09-29T20:30:31.342952+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Star Blizzard"
-        },
-        {
-          "type": "industry",
-          "value": "Academia"
-        },
-        {
-          "type": "industry",
-          "value": "Information Security"
-        },
-        {
-          "type": "malware",
-          "value": "Evilginx"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "djs53104.eu1.hubspotlinksfree.com",
-      "confidence": "high",
-      "reason": "Listed as part of Star Blizzard's domain infrastructure used in campaigns",
-      "first_seen": "2026-09-29T20:30:31.342952+00:00",
-      "last_seen": "2026-09-29T20:30:31.342952+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.microsoft.com",
-          "url": "https://www.microsoft.com/en-us/security/blog/2023/12/07/star-blizzard-increases-sophistication-and-evasion-in-ongoing-attacks/",
-          "pub_date": "2026-09-29T20:30:31.342952+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Star Blizzard"
-        },
-        {
-          "type": "industry",
-          "value": "Academia"
-        },
-        {
-          "type": "industry",
-          "value": "Information Security"
-        },
-        {
-          "type": "malware",
-          "value": "Evilginx"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "djskzh04.eu1.hubspotlinksfree.com",
-      "confidence": "high",
-      "reason": "Listed as part of Star Blizzard's domain infrastructure used in campaigns",
-      "first_seen": "2026-09-29T20:30:31.342952+00:00",
-      "last_seen": "2026-09-29T20:30:31.342952+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.microsoft.com",
-          "url": "https://www.microsoft.com/en-us/security/blog/2023/12/07/star-blizzard-increases-sophistication-and-evasion-in-ongoing-attacks/",
-          "pub_date": "2026-09-29T20:30:31.342952+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Star Blizzard"
-        },
-        {
-          "type": "industry",
-          "value": "Academia"
-        },
-        {
-          "type": "industry",
-          "value": "Information Security"
-        },
-        {
-          "type": "malware",
-          "value": "Evilginx"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "djslws04.eu1.hubspotlinksfree.com",
-      "confidence": "high",
-      "reason": "Listed as part of Star Blizzard's domain infrastructure used in campaigns",
-      "first_seen": "2026-09-29T20:30:31.342952+00:00",
-      "last_seen": "2026-09-29T20:30:31.342952+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.microsoft.com",
-          "url": "https://www.microsoft.com/en-us/security/blog/2023/12/07/star-blizzard-increases-sophistication-and-evasion-in-ongoing-attacks/",
-          "pub_date": "2026-09-29T20:30:31.342952+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Star Blizzard"
-        },
-        {
-          "type": "industry",
-          "value": "Academia"
-        },
-        {
-          "type": "industry",
-          "value": "Information Security"
-        },
-        {
-          "type": "malware",
-          "value": "Evilginx"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "djt47x04.eu1.hubspotlinksfree.com",
-      "confidence": "high",
-      "reason": "Listed as part of Star Blizzard's domain infrastructure used in campaigns",
-      "first_seen": "2026-09-29T20:30:31.342952+00:00",
-      "last_seen": "2026-09-29T20:30:31.342952+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.microsoft.com",
-          "url": "https://www.microsoft.com/en-us/security/blog/2023/12/07/star-blizzard-increases-sophistication-and-evasion-in-ongoing-attacks/",
-          "pub_date": "2026-09-29T20:30:31.342952+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Star Blizzard"
-        },
-        {
-          "type": "industry",
-          "value": "Academia"
-        },
-        {
-          "type": "industry",
-          "value": "Information Security"
-        },
-        {
-          "type": "malware",
-          "value": "Evilginx"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "djvcl404.eu1.hubspotlinksfree.com",
-      "confidence": "high",
-      "reason": "Listed as part of Star Blizzard's domain infrastructure used in campaigns",
-      "first_seen": "2026-09-29T20:30:31.342952+00:00",
-      "last_seen": "2026-09-29T20:30:31.342952+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.microsoft.com",
-          "url": "https://www.microsoft.com/en-us/security/blog/2023/12/07/star-blizzard-increases-sophistication-and-evasion-in-ongoing-attacks/",
-          "pub_date": "2026-09-29T20:30:31.342952+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Star Blizzard"
-        },
-        {
-          "type": "industry",
-          "value": "Academia"
-        },
-        {
-          "type": "industry",
-          "value": "Information Security"
-        },
-        {
-          "type": "malware",
-          "value": "Evilginx"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "djvxqp04.eu1.hubspotlinksfree.com",
-      "confidence": "high",
-      "reason": "Listed as part of Star Blizzard's domain infrastructure used in campaigns",
-      "first_seen": "2026-09-29T20:30:31.342952+00:00",
-      "last_seen": "2026-09-29T20:30:31.342952+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.microsoft.com",
-          "url": "https://www.microsoft.com/en-us/security/blog/2023/12/07/star-blizzard-increases-sophistication-and-evasion-in-ongoing-attacks/",
-          "pub_date": "2026-09-29T20:30:31.342952+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Star Blizzard"
-        },
-        {
-          "type": "industry",
-          "value": "Academia"
-        },
-        {
-          "type": "industry",
-          "value": "Information Security"
-        },
-        {
-          "type": "malware",
-          "value": "Evilginx"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "vidmemax.com",
-      "confidence": "high",
-      "reason": "Resolved to an actor-controlled VPS",
-      "first_seen": "2026-09-29T20:30:31.342952+00:00",
-      "last_seen": "2026-09-29T20:30:31.342952+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.microsoft.com",
-          "url": "https://www.microsoft.com/en-us/security/blog/2023/12/07/star-blizzard-increases-sophistication-and-evasion-in-ongoing-attacks/",
-          "pub_date": "2026-09-29T20:30:31.342952+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Star Blizzard"
-        },
-        {
-          "type": "industry",
-          "value": "Academia"
-        },
-        {
-          "type": "industry",
-          "value": "Information Security"
-        },
-        {
-          "type": "malware",
-          "value": "Evilginx"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "ydjjja.clicks.mlsend.com",
-      "confidence": "high",
-      "reason": "Listed as part of Star Blizzard's MailerLite campaign domain",
-      "first_seen": "2026-09-29T20:30:31.342952+00:00",
-      "last_seen": "2026-09-29T20:30:31.342952+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.microsoft.com",
-          "url": "https://www.microsoft.com/en-us/security/blog/2023/12/07/star-blizzard-increases-sophistication-and-evasion-in-ongoing-attacks/",
-          "pub_date": "2026-09-29T20:30:31.342952+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Star Blizzard"
-        },
-        {
-          "type": "industry",
-          "value": "Academia"
-        },
-        {
-          "type": "industry",
-          "value": "Information Security"
-        },
-        {
-          "type": "malware",
-          "value": "Evilginx"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "account.microsoft.com.in",
-      "confidence": "high",
-      "reason": "Domain appears to be a typosquat of a legitimate Microsoft domain, likely attacker-controlled.",
-      "first_seen": "2026-09-29T19:36:13.331454+00:00",
-      "last_seen": "2026-09-29T19:36:13.331454+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "support.microsoft.com",
-          "url": "https://support.microsoft.com/en-us/microsoft-copilot/privacy-faq-for-microsoft-copilot",
-          "pub_date": "2026-09-29T19:36:13.331454+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "ipv4",
-      "value": "89.125.66.183",
-      "confidence": "high",
-      "reason": "Used as a WebDAV server by attackers",
-      "first_seen": "2026-09-29T18:30:57.944399+00:00",
-      "last_seen": "2026-09-29T18:30:57.944399+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "dslua.org",
-          "url": "https://dslua.org/publications/spearphishing-via-fake-urc-2026-invitations-targets-ukrainian-csos/",
-          "pub_date": "2026-09-29T18:30:57.944399+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "industry",
-          "value": "Government"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "secure-dns-hub.com",
-      "confidence": "high",
-      "reason": "Listed as an indicator in Microsoft's report",
-      "first_seen": "2026-09-29T17:20:08+00:00",
-      "last_seen": "2026-09-29T17:20:08+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Thehackernews",
-          "url": "https://thehackernews.com/2026/09/russias-star-blizzard-targets-100.html",
-          "pub_date": "2026-09-29T17:20:08+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Star Blizzard"
-        },
-        {
-          "type": "malware",
-          "value": "Baitswitch"
-        },
-        {
-          "type": "malware",
-          "value": "CosmicPulse"
-        },
-        {
-          "type": "malware",
-          "value": "DarkSword"
-        }
-      ]
-    },
-    {
-      "type": "ipv4",
-      "value": "103.160.59.97",
-      "confidence": "high",
-      "reason": "Listed as an indicator in Microsoft's report",
-      "first_seen": "2026-09-29T17:20:08+00:00",
-      "last_seen": "2026-09-29T17:20:08+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Thehackernews",
-          "url": "https://thehackernews.com/2026/09/russias-star-blizzard-targets-100.html",
-          "pub_date": "2026-09-29T17:20:08+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Star Blizzard"
-        },
-        {
-          "type": "malware",
-          "value": "Baitswitch"
-        },
-        {
-          "type": "malware",
-          "value": "CosmicPulse"
-        },
-        {
-          "type": "malware",
-          "value": "DarkSword"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "instances.httpworkbench.com",
-      "confidence": "high",
-      "reason": "Used for DNS lookups indicating compromise",
-      "first_seen": "2026-09-29T15:01:35+00:00",
-      "last_seen": "2026-09-29T15:01:35+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Helpnetsecurity",
-          "url": "https://www.helpnetsecurity.com/2026/09/29/netscaler-zero-day-exploitation-escalates-into-mass-attacks-cve-2026-88771/",
-          "pub_date": "2026-09-29T15:01:35+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "fortuneprimeglobalirts.com",
-      "confidence": "high",
-      "reason": "Domain associated with fraudulent investment platform",
-      "first_seen": "2026-09-29T13:35:42.723827+00:00",
-      "last_seen": "2026-09-29T13:35:42.723827+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.justice.gov",
-          "url": "https://www.justice.gov/opa/pr/scam-center-strike-force-takes-major-actions-against-southeast-asian-scam-centers-targeting",
-          "pub_date": "2026-09-29T13:35:42.723827+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Scam Center Strike Force"
         }
       ]
     }
