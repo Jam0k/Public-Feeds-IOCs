@@ -1,7 +1,7 @@
 {
   "feed": "threatcluster-public-iocs",
   "version": 1,
-  "generated_at": "2026-10-30T12:51:40Z",
+  "generated_at": "2026-10-31T12:23:49Z",
   "filters": {
     "confidence": "high",
     "window_days": 30,
@@ -11,17 +11,773 @@
       "domain"
     ]
   },
-  "count": 957,
+  "count": 1044,
   "iocs": [
+    {
+      "type": "domain",
+      "value": "atlascore-panel.net",
+      "confidence": "high",
+      "reason": "Domain used by AtlasCore administrators for hosting affiliate program panels",
+      "first_seen": "2026-10-31T04:33:12.221801+00:00",
+      "last_seen": "2026-10-31T04:33:12.221801+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.recordedfuture.com",
+          "url": "https://www.recordedfuture.com/research/prediction-markets-traffer-teams",
+          "pub_date": "2026-10-31T04:33:12.221801+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "bravioar.com",
+      "confidence": "high",
+      "reason": "Domain hosted casino-, exchange-, and prediction-market-related content linked to AtlasCore",
+      "first_seen": "2026-10-31T04:33:12.221801+00:00",
+      "last_seen": "2026-10-31T04:33:12.221801+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.recordedfuture.com",
+          "url": "https://www.recordedfuture.com/research/prediction-markets-traffer-teams",
+          "pub_date": "2026-10-31T04:33:12.221801+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "btwoteam.xyz",
+      "confidence": "high",
+      "reason": "Domain resolves to IP associated with Magnetic Team's administrative panel",
+      "first_seen": "2026-10-31T04:33:12.221801+00:00",
+      "last_seen": "2026-10-31T04:33:12.221801+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.recordedfuture.com",
+          "url": "https://www.recordedfuture.com/research/prediction-markets-traffer-teams",
+          "pub_date": "2026-10-31T04:33:12.221801+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "casino.atlascore-panel.net",
+      "confidence": "high",
+      "reason": "Subdomain used for hosting casino-related content by AtlasCore",
+      "first_seen": "2026-10-31T04:33:12.221801+00:00",
+      "last_seen": "2026-10-31T04:33:12.221801+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.recordedfuture.com",
+          "url": "https://www.recordedfuture.com/research/prediction-markets-traffer-teams",
+          "pub_date": "2026-10-31T04:33:12.221801+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "crossbook.xyz",
+      "confidence": "high",
+      "reason": "Domain hosted on IP associated with Magnetic Team's infrastructure",
+      "first_seen": "2026-10-31T04:33:12.221801+00:00",
+      "last_seen": "2026-10-31T04:33:12.221801+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.recordedfuture.com",
+          "url": "https://www.recordedfuture.com/research/prediction-markets-traffer-teams",
+          "pub_date": "2026-10-31T04:33:12.221801+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "docs.atlascore-panel.net",
+      "confidence": "high",
+      "reason": "Subdomain used for hosting manuals by AtlasCore",
+      "first_seen": "2026-10-31T04:33:12.221801+00:00",
+      "last_seen": "2026-10-31T04:33:12.221801+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.recordedfuture.com",
+          "url": "https://www.recordedfuture.com/research/prediction-markets-traffer-teams",
+          "pub_date": "2026-10-31T04:33:12.221801+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "event-x.cc",
+      "confidence": "high",
+      "reason": "Domain used for marketing and associated with fraudulent offers",
+      "first_seen": "2026-10-31T04:33:12.221801+00:00",
+      "last_seen": "2026-10-31T04:33:12.221801+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.recordedfuture.com",
+          "url": "https://www.recordedfuture.com/research/prediction-markets-traffer-teams",
+          "pub_date": "2026-10-31T04:33:12.221801+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "fortexp.live",
+      "confidence": "high",
+      "reason": "Domain linked to fraudulent prediction market operations",
+      "first_seen": "2026-10-31T04:33:12.221801+00:00",
+      "last_seen": "2026-10-31T04:33:12.221801+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.recordedfuture.com",
+          "url": "https://www.recordedfuture.com/research/prediction-markets-traffer-teams",
+          "pub_date": "2026-10-31T04:33:12.221801+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "fortvet.cc",
+      "confidence": "high",
+      "reason": "Domain associated with fraudulent prediction market operations",
+      "first_seen": "2026-10-31T04:33:12.221801+00:00",
+      "last_seen": "2026-10-31T04:33:12.221801+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.recordedfuture.com",
+          "url": "https://www.recordedfuture.com/research/prediction-markets-traffer-teams",
+          "pub_date": "2026-10-31T04:33:12.221801+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "futaryx.com",
+      "confidence": "high",
+      "reason": "Domain linked to fraudulent prediction market operations",
+      "first_seen": "2026-10-31T04:33:12.221801+00:00",
+      "last_seen": "2026-10-31T04:33:12.221801+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.recordedfuture.com",
+          "url": "https://www.recordedfuture.com/research/prediction-markets-traffer-teams",
+          "pub_date": "2026-10-31T04:33:12.221801+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "kiro-cheap.pro",
+      "confidence": "high",
+      "reason": "Domain associated with fraudulent prediction market operations",
+      "first_seen": "2026-10-31T04:33:12.221801+00:00",
+      "last_seen": "2026-10-31T04:33:12.221801+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.recordedfuture.com",
+          "url": "https://www.recordedfuture.com/research/prediction-markets-traffer-teams",
+          "pub_date": "2026-10-31T04:33:12.221801+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "magnetic-panel.space",
+      "confidence": "high",
+      "reason": "Domain used for managing campaigns by Magnetic Team",
+      "first_seen": "2026-10-31T04:33:12.221801+00:00",
+      "last_seen": "2026-10-31T04:33:12.221801+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.recordedfuture.com",
+          "url": "https://www.recordedfuture.com/research/prediction-markets-traffer-teams",
+          "pub_date": "2026-10-31T04:33:12.221801+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "polyfucker.space",
+      "confidence": "high",
+      "reason": "Domain used for hosting admin panel for PolyFucked offer",
+      "first_seen": "2026-10-31T04:33:12.221801+00:00",
+      "last_seen": "2026-10-31T04:33:12.221801+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.recordedfuture.com",
+          "url": "https://www.recordedfuture.com/research/prediction-markets-traffer-teams",
+          "pub_date": "2026-10-31T04:33:12.221801+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "polymarket.atlascore-panel.net",
+      "confidence": "high",
+      "reason": "Subdomain used for hosting prediction market content by AtlasCore",
+      "first_seen": "2026-10-31T04:33:12.221801+00:00",
+      "last_seen": "2026-10-31T04:33:12.221801+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.recordedfuture.com",
+          "url": "https://www.recordedfuture.com/research/prediction-markets-traffer-teams",
+          "pub_date": "2026-10-31T04:33:12.221801+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "prdct.cc",
+      "confidence": "high",
+      "reason": "Domain used as shared infrastructure by AtlasCore",
+      "first_seen": "2026-10-31T04:33:12.221801+00:00",
+      "last_seen": "2026-10-31T04:33:12.221801+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.recordedfuture.com",
+          "url": "https://www.recordedfuture.com/research/prediction-markets-traffer-teams",
+          "pub_date": "2026-10-31T04:33:12.221801+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "pred.co",
+      "confidence": "high",
+      "reason": "Domain linked to fraudulent prediction market operations",
+      "first_seen": "2026-10-31T04:33:12.221801+00:00",
+      "last_seen": "2026-10-31T04:33:12.221801+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.recordedfuture.com",
+          "url": "https://www.recordedfuture.com/research/prediction-markets-traffer-teams",
+          "pub_date": "2026-10-31T04:33:12.221801+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "predicate.cc",
+      "confidence": "high",
+      "reason": "Domain used as shared infrastructure by AtlasCore",
+      "first_seen": "2026-10-31T04:33:12.221801+00:00",
+      "last_seen": "2026-10-31T04:33:12.221801+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.recordedfuture.com",
+          "url": "https://www.recordedfuture.com/research/prediction-markets-traffer-teams",
+          "pub_date": "2026-10-31T04:33:12.221801+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "predicate.club",
+      "confidence": "high",
+      "reason": "Domain hosted casino-, exchange-, and prediction-market-related content",
+      "first_seen": "2026-10-31T04:33:12.221801+00:00",
+      "last_seen": "2026-10-31T04:33:12.221801+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.recordedfuture.com",
+          "url": "https://www.recordedfuture.com/research/prediction-markets-traffer-teams",
+          "pub_date": "2026-10-31T04:33:12.221801+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "predicate.live",
+      "confidence": "high",
+      "reason": "Domain used as shared infrastructure by AtlasCore",
+      "first_seen": "2026-10-31T04:33:12.221801+00:00",
+      "last_seen": "2026-10-31T04:33:12.221801+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.recordedfuture.com",
+          "url": "https://www.recordedfuture.com/research/prediction-markets-traffer-teams",
+          "pub_date": "2026-10-31T04:33:12.221801+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "predicate.world",
+      "confidence": "high",
+      "reason": "Domain used as shared infrastructure by AtlasCore",
+      "first_seen": "2026-10-31T04:33:12.221801+00:00",
+      "last_seen": "2026-10-31T04:33:12.221801+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.recordedfuture.com",
+          "url": "https://www.recordedfuture.com/research/prediction-markets-traffer-teams",
+          "pub_date": "2026-10-31T04:33:12.221801+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "predictedby.cc",
+      "confidence": "high",
+      "reason": "Domain used as shared infrastructure by AtlasCore",
+      "first_seen": "2026-10-31T04:33:12.221801+00:00",
+      "last_seen": "2026-10-31T04:33:12.221801+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.recordedfuture.com",
+          "url": "https://www.recordedfuture.com/research/prediction-markets-traffer-teams",
+          "pub_date": "2026-10-31T04:33:12.221801+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "predictum.app",
+      "confidence": "high",
+      "reason": "Domain linked to fraudulent prediction market operations",
+      "first_seen": "2026-10-31T04:33:12.221801+00:00",
+      "last_seen": "2026-10-31T04:33:12.221801+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.recordedfuture.com",
+          "url": "https://www.recordedfuture.com/research/prediction-markets-traffer-teams",
+          "pub_date": "2026-10-31T04:33:12.221801+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "predictum.cc",
+      "confidence": "high",
+      "reason": "Domain linked to fraudulent prediction market operations",
+      "first_seen": "2026-10-31T04:33:12.221801+00:00",
+      "last_seen": "2026-10-31T04:33:12.221801+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.recordedfuture.com",
+          "url": "https://www.recordedfuture.com/research/prediction-markets-traffer-teams",
+          "pub_date": "2026-10-31T04:33:12.221801+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "rqwrujarser.icu",
+      "confidence": "high",
+      "reason": "Domain hosted casino-, exchange-, and prediction-market-related content",
+      "first_seen": "2026-10-31T04:33:12.221801+00:00",
+      "last_seen": "2026-10-31T04:33:12.221801+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.recordedfuture.com",
+          "url": "https://www.recordedfuture.com/research/prediction-markets-traffer-teams",
+          "pub_date": "2026-10-31T04:33:12.221801+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "speculor.net",
+      "confidence": "high",
+      "reason": "Domain hosted casino-, exchange-, and prediction-market-related content",
+      "first_seen": "2026-10-31T04:33:12.221801+00:00",
+      "last_seen": "2026-10-31T04:33:12.221801+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.recordedfuture.com",
+          "url": "https://www.recordedfuture.com/research/prediction-markets-traffer-teams",
+          "pub_date": "2026-10-31T04:33:12.221801+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "tradingai.fun",
+      "confidence": "high",
+      "reason": "Domain hosted on IP associated with Magnetic Team's infrastructure",
+      "first_seen": "2026-10-31T04:33:12.221801+00:00",
+      "last_seen": "2026-10-31T04:33:12.221801+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.recordedfuture.com",
+          "url": "https://www.recordedfuture.com/research/prediction-markets-traffer-teams",
+          "pub_date": "2026-10-31T04:33:12.221801+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "wettora.com",
+      "confidence": "high",
+      "reason": "Domain hosted casino-, exchange-, and prediction-market-related content",
+      "first_seen": "2026-10-31T04:33:12.221801+00:00",
+      "last_seen": "2026-10-31T04:33:12.221801+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.recordedfuture.com",
+          "url": "https://www.recordedfuture.com/research/prediction-markets-traffer-teams",
+          "pub_date": "2026-10-31T04:33:12.221801+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "winzo.live",
+      "confidence": "high",
+      "reason": "Domain hosted casino-, exchange-, and prediction-market-related content",
+      "first_seen": "2026-10-31T04:33:12.221801+00:00",
+      "last_seen": "2026-10-31T04:33:12.221801+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.recordedfuture.com",
+          "url": "https://www.recordedfuture.com/research/prediction-markets-traffer-teams",
+          "pub_date": "2026-10-31T04:33:12.221801+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "ipv4",
+      "value": "192.162.199.243",
+      "confidence": "high",
+      "reason": "IP address hosted domains linked to fraudulent operations",
+      "first_seen": "2026-10-31T04:33:12.221801+00:00",
+      "last_seen": "2026-10-31T04:33:12.221801+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.recordedfuture.com",
+          "url": "https://www.recordedfuture.com/research/prediction-markets-traffer-teams",
+          "pub_date": "2026-10-31T04:33:12.221801+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "ipv4",
+      "value": "192.64.119.163",
+      "confidence": "high",
+      "reason": "IP address associated with Magnetic Team's infrastructure",
+      "first_seen": "2026-10-31T04:33:12.221801+00:00",
+      "last_seen": "2026-10-31T04:33:12.221801+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.recordedfuture.com",
+          "url": "https://www.recordedfuture.com/research/prediction-markets-traffer-teams",
+          "pub_date": "2026-10-31T04:33:12.221801+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "ipv4",
+      "value": "31.76.10.48",
+      "confidence": "high",
+      "reason": "IP address associated with Magnetic Team's infrastructure",
+      "first_seen": "2026-10-31T04:33:12.221801+00:00",
+      "last_seen": "2026-10-31T04:33:12.221801+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.recordedfuture.com",
+          "url": "https://www.recordedfuture.com/research/prediction-markets-traffer-teams",
+          "pub_date": "2026-10-31T04:33:12.221801+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "ipv4",
+      "value": "31.77.159.194",
+      "confidence": "high",
+      "reason": "IP address associated with Magnetic Team's infrastructure",
+      "first_seen": "2026-10-31T04:33:12.221801+00:00",
+      "last_seen": "2026-10-31T04:33:12.221801+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.recordedfuture.com",
+          "url": "https://www.recordedfuture.com/research/prediction-markets-traffer-teams",
+          "pub_date": "2026-10-31T04:33:12.221801+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "ipv4",
+      "value": "81.90.17.100",
+      "confidence": "high",
+      "reason": "IP address linked to fraudulent prediction market operations",
+      "first_seen": "2026-10-31T04:33:12.221801+00:00",
+      "last_seen": "2026-10-31T04:33:12.221801+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.recordedfuture.com",
+          "url": "https://www.recordedfuture.com/research/prediction-markets-traffer-teams",
+          "pub_date": "2026-10-31T04:33:12.221801+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "ipv4",
+      "value": "87.120.165.193",
+      "confidence": "high",
+      "reason": "IP address associated with Magnetic Team's infrastructure",
+      "first_seen": "2026-10-31T04:33:12.221801+00:00",
+      "last_seen": "2026-10-31T04:33:12.221801+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.recordedfuture.com",
+          "url": "https://www.recordedfuture.com/research/prediction-markets-traffer-teams",
+          "pub_date": "2026-10-31T04:33:12.221801+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "ipv4",
+      "value": "108.165.147.64",
+      "confidence": "high",
+      "reason": "Identified as a host used by the attacker for operations",
+      "first_seen": "2026-10-13T17:33:11+00:00",
+      "last_seen": "2026-10-31T04:04:02.515808+00:00",
+      "source_count": 4,
+      "sources": [
+        {
+          "source": "www.volexity.com",
+          "url": "https://www.volexity.com/blog/2026/10/13/a-series-of-unauthenticated-events-chained-exploitation-of-ivanti-connect-secure-zero-days/",
+          "pub_date": "2026-10-31T04:04:02.515808+00:00"
+        },
+        {
+          "source": "Ccb.Belgium.Be",
+          "url": "https://ccb.belgium.be/advisories/warning-actively-exploited-zero-day-vulnerability-ivanti-connect-secure-allows-remote",
+          "pub_date": "2026-10-14T16:28:35+00:00"
+        },
+        {
+          "source": "Rescana",
+          "url": "https://www.rescana.com/post/ivanti-connect-secure-zero-day-exploit-chain-enables-root-level-rce-and-credential-theft-on-fully-patched-vpn-appliances",
+          "pub_date": "2026-10-14T07:31:12+00:00"
+        },
+        {
+          "source": "Feeds.Feedburner",
+          "url": "https://thehackernews.com/2026/10/attacker-chains-three-ivanti-connect.html",
+          "pub_date": "2026-10-13T17:33:11+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2026-104935"
+        },
+        {
+          "type": "campaign",
+          "value": "Chained Exploitation Of Ivanti Connect Secure Zero-Days"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-106042"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-109412"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "artex.nhhh.de",
+      "confidence": "high",
+      "reason": "Hosted a page related to autonomous penetration testing.",
+      "first_seen": "2026-10-30T23:02:29+00:00",
+      "last_seen": "2026-10-30T23:02:29+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Wiz",
+          "url": "https://www.wiz.io/blog/black-october-for-ai-developer-platforms",
+          "pub_date": "2026-10-30T23:02:29+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "direct.465415.xyz",
+      "confidence": "high",
+      "reason": "Tied to a site used for LLM resale operations.",
+      "first_seen": "2026-10-30T23:02:29+00:00",
+      "last_seen": "2026-10-30T23:02:29+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Wiz",
+          "url": "https://www.wiz.io/blog/black-october-for-ai-developer-platforms",
+          "pub_date": "2026-10-30T23:02:29+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "llm-routing.com",
+      "confidence": "high",
+      "reason": "Listed as an active site advertising discounted access to frontier models, tied to malicious activity.",
+      "first_seen": "2026-10-30T23:02:29+00:00",
+      "last_seen": "2026-10-30T23:02:29+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Wiz",
+          "url": "https://www.wiz.io/blog/black-october-for-ai-developer-platforms",
+          "pub_date": "2026-10-30T23:02:29+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "s3.xingjiabiapi.org",
+      "confidence": "high",
+      "reason": "Subdomain tied to a resale operation leveraging stolen keys.",
+      "first_seen": "2026-10-30T23:02:29+00:00",
+      "last_seen": "2026-10-30T23:02:29+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Wiz",
+          "url": "https://www.wiz.io/blog/black-october-for-ai-developer-platforms",
+          "pub_date": "2026-10-30T23:02:29+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "xingjiabiapi.org",
+      "confidence": "high",
+      "reason": "Described as a resale operation leveraging stolen keys.",
+      "first_seen": "2026-10-30T23:02:29+00:00",
+      "last_seen": "2026-10-30T23:02:29+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Wiz",
+          "url": "https://www.wiz.io/blog/black-october-for-ai-developer-platforms",
+          "pub_date": "2026-10-30T23:02:29+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "ipv4",
+      "value": "38.246.114.118",
+      "confidence": "high",
+      "reason": "Linked to a resale operation for stolen keys.",
+      "first_seen": "2026-10-30T23:02:29+00:00",
+      "last_seen": "2026-10-30T23:02:29+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Wiz",
+          "url": "https://www.wiz.io/blog/black-october-for-ai-developer-platforms",
+          "pub_date": "2026-10-30T23:02:29+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "ipv4",
+      "value": "130.94.67.235",
+      "confidence": "high",
+      "reason": "Exposed IP address for a custom heap exploit.",
+      "first_seen": "2026-10-30T17:50:37+00:00",
+      "last_seen": "2026-10-30T17:50:37+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/Malware/comments/1xjmb2a/php2shell_exploit_toolkits_and_a_panos/",
+          "pub_date": "2026-10-30T17:50:37+00:00"
+        }
+      ],
+      "tags": []
+    },
     {
       "type": "domain",
       "value": "betasignaltradingviewai.app",
       "confidence": "high",
       "reason": "Domain used in a campaign to lure traders with fake TradingView videos, indicating attacker control.",
       "first_seen": "2026-10-29T22:39:27.698522+00:00",
-      "last_seen": "2026-10-29T22:39:27.698522+00:00",
-      "source_count": 1,
+      "last_seen": "2026-10-30T16:01:04.709172+00:00",
+      "source_count": 3,
       "sources": [
+        {
+          "source": "www.fortian.com.au",
+          "url": "https://www.fortian.com.au/blog/the-indicator-you-didnt-backtest-fake-tradingview-videos-driving-infostealers.html",
+          "pub_date": "2026-10-30T16:01:04.709172+00:00"
+        },
+        {
+          "source": "air-security-asdfoingeroi3234dsfds.webflow.io",
+          "url": "https://air-security-asdfoingeroi3234dsfds.webflow.io/blog-posts/solanacry",
+          "pub_date": "2026-10-30T16:01:03.448711+00:00"
+        },
         {
           "source": "www.air.security",
           "url": "https://www.air.security/blog-posts/solanacry",
@@ -36,6 +792,108 @@
         {
           "type": "malware",
           "value": "NetSupport Manager"
+        },
+        {
+          "type": "campaign",
+          "value": "TradingView Campaign"
+        },
+        {
+          "type": "malware",
+          "value": "HijackLoader"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "79.43.178.226",
+      "confidence": "high",
+      "reason": "Used as a C2 server by the attacker",
+      "first_seen": "2026-10-30T16:01:04.709172+00:00",
+      "last_seen": "2026-10-30T16:01:04.709172+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.fortian.com.au",
+          "url": "https://www.fortian.com.au/blog/the-indicator-you-didnt-backtest-fake-tradingview-videos-driving-infostealers.html",
+          "pub_date": "2026-10-30T16:01:04.709172+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "HijackLoader"
+        },
+        {
+          "type": "malware",
+          "value": "NetSupport RAT"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "45.94.47.224",
+      "confidence": "high",
+      "reason": "Configured as a C2 server in the attacker's setup",
+      "first_seen": "2026-10-30T16:01:04.505393+00:00",
+      "last_seen": "2026-10-30T16:01:04.505393+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.esentire.com",
+          "url": "https://www.esentire.com/blog/evalusion-campaign-delivers-amatera-stealer-and-netsupport-rat",
+          "pub_date": "2026-10-30T16:01:04.505393+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Evalusion Campaign"
+        },
+        {
+          "type": "campaign",
+          "value": "Kaseya MSP Breach"
+        },
+        {
+          "type": "malware",
+          "value": "ACR Stealer"
+        },
+        {
+          "type": "malware",
+          "value": "Amatera Stealer"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "87.120.219.26",
+      "confidence": "high",
+      "reason": "Identified as a C2 server in the attacker's configuration",
+      "first_seen": "2026-10-30T16:01:04.505393+00:00",
+      "last_seen": "2026-10-30T16:01:04.505393+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.esentire.com",
+          "url": "https://www.esentire.com/blog/evalusion-campaign-delivers-amatera-stealer-and-netsupport-rat",
+          "pub_date": "2026-10-30T16:01:04.505393+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Evalusion Campaign"
+        },
+        {
+          "type": "campaign",
+          "value": "Kaseya MSP Breach"
+        },
+        {
+          "type": "malware",
+          "value": "ACR Stealer"
+        },
+        {
+          "type": "malware",
+          "value": "Amatera Stealer"
         }
       ]
     },
@@ -45,9 +903,19 @@
       "confidence": "high",
       "reason": "Domain used for payload delivery in a malicious campaign, indicating attacker control.",
       "first_seen": "2026-10-29T22:09:24+00:00",
-      "last_seen": "2026-10-29T22:39:27.698522+00:00",
-      "source_count": 2,
+      "last_seen": "2026-10-30T16:01:03.448711+00:00",
+      "source_count": 4,
       "sources": [
+        {
+          "source": "air-security-asdfoingeroi3234dsfds.webflow.io",
+          "url": "https://air-security-asdfoingeroi3234dsfds.webflow.io/blog-posts/solanacry",
+          "pub_date": "2026-10-30T16:01:03.448711+00:00"
+        },
+        {
+          "source": "Hackread",
+          "url": "https://hackread.com/fake-github-repo-ai-coding-agents-solanacry-malware/",
+          "pub_date": "2026-10-30T14:12:28+00:00"
+        },
         {
           "source": "www.air.security",
           "url": "https://www.air.security/blog-posts/solanacry",
@@ -71,6 +939,10 @@
         {
           "type": "malware",
           "value": "NetSupport RAT"
+        },
+        {
+          "type": "campaign",
+          "value": "TradingView AI-signal Content Campaign"
         }
       ]
     },
@@ -78,11 +950,21 @@
       "type": "domain",
       "value": "maxwintodaybtc.com",
       "confidence": "high",
-      "reason": "Specified as a C2 server in the attacker's configuration file, indicating attacker control.",
+      "reason": "Specified as a C2 server in the attacker's configuration",
       "first_seen": "2026-10-29T22:09:24+00:00",
-      "last_seen": "2026-10-29T22:39:27.698522+00:00",
-      "source_count": 2,
+      "last_seen": "2026-10-30T16:01:03.448711+00:00",
+      "source_count": 4,
       "sources": [
+        {
+          "source": "air-security-asdfoingeroi3234dsfds.webflow.io",
+          "url": "https://air-security-asdfoingeroi3234dsfds.webflow.io/blog-posts/solanacry",
+          "pub_date": "2026-10-30T16:01:03.448711+00:00"
+        },
+        {
+          "source": "Hackread",
+          "url": "https://hackread.com/fake-github-repo-ai-coding-agents-solanacry-malware/",
+          "pub_date": "2026-10-30T14:12:28+00:00"
+        },
         {
           "source": "www.air.security",
           "url": "https://www.air.security/blog-posts/solanacry",
@@ -106,6 +988,1125 @@
         {
           "type": "malware",
           "value": "NetSupport RAT"
+        },
+        {
+          "type": "campaign",
+          "value": "TradingView AI-signal Content Campaign"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "trainer.io",
+      "confidence": "high",
+      "reason": "Described as a fake site distributing malicious files.",
+      "first_seen": "2026-10-30T14:38:21+00:00",
+      "last_seen": "2026-10-30T14:38:21+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/Malware/comments/1xjh4w9/fling_trainer_fake_website/",
+          "pub_date": "2026-10-30T14:38:21+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "apkder.com",
+      "confidence": "high",
+      "reason": "Domain used for hosting fraudulent mobile applications",
+      "first_seen": "2026-10-30T14:04:09.963653+00:00",
+      "last_seen": "2026-10-30T14:04:09.963653+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.hkma.gov.hk",
+          "url": "https://www.hkma.gov.hk/eng/smart-consumers/beware-of-fraudsters",
+          "pub_date": "2026-10-30T14:04:09.963653+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "bank.boeahk.com",
+      "confidence": "high",
+      "reason": "Listed as a fraudulent website used in phishing scams",
+      "first_seen": "2026-10-30T14:04:09.963653+00:00",
+      "last_seen": "2026-10-30T14:04:09.963653+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.hkma.gov.hk",
+          "url": "https://www.hkma.gov.hk/eng/smart-consumers/beware-of-fraudsters",
+          "pub_date": "2026-10-30T14:04:09.963653+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "bank-heurosas.com",
+      "confidence": "high",
+      "reason": "Listed as a fraudulent website used in phishing scams",
+      "first_seen": "2026-10-30T14:04:09.963653+00:00",
+      "last_seen": "2026-10-30T14:04:09.963653+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.hkma.gov.hk",
+          "url": "https://www.hkma.gov.hk/eng/smart-consumers/beware-of-fraudsters",
+          "pub_date": "2026-10-30T14:04:09.963653+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "boc.tearwhereh.cfd",
+      "confidence": "high",
+      "reason": "Domain used for fraudulent banking login screens",
+      "first_seen": "2026-10-30T14:04:09.963653+00:00",
+      "last_seen": "2026-10-30T14:04:09.963653+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.hkma.gov.hk",
+          "url": "https://www.hkma.gov.hk/eng/smart-consumers/beware-of-fraudsters",
+          "pub_date": "2026-10-30T14:04:09.963653+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "carousell.casoruese.cc",
+      "confidence": "high",
+      "reason": "Domain used for fraudulent banking login screens",
+      "first_seen": "2026-10-30T14:04:09.963653+00:00",
+      "last_seen": "2026-10-30T14:04:09.963653+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.hkma.gov.hk",
+          "url": "https://www.hkma.gov.hk/eng/smart-consumers/beware-of-fraudsters",
+          "pub_date": "2026-10-30T14:04:09.963653+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "carousell.market-receive.bond",
+      "confidence": "high",
+      "reason": "Domain used for fraudulent banking login screens",
+      "first_seen": "2026-10-30T14:04:09.963653+00:00",
+      "last_seen": "2026-10-30T14:04:09.963653+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.hkma.gov.hk",
+          "url": "https://www.hkma.gov.hk/eng/smart-consumers/beware-of-fraudsters",
+          "pub_date": "2026-10-30T14:04:09.963653+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "carousell.market-receive.club",
+      "confidence": "high",
+      "reason": "Domain used for fraudulent banking login screens",
+      "first_seen": "2026-10-30T14:04:09.963653+00:00",
+      "last_seen": "2026-10-30T14:04:09.963653+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.hkma.gov.hk",
+          "url": "https://www.hkma.gov.hk/eng/smart-consumers/beware-of-fraudsters",
+          "pub_date": "2026-10-30T14:04:09.963653+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "carousell.market-receive.sbs",
+      "confidence": "high",
+      "reason": "Domain used for fraudulent banking login screens",
+      "first_seen": "2026-10-30T14:04:09.963653+00:00",
+      "last_seen": "2026-10-30T14:04:09.963653+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.hkma.gov.hk",
+          "url": "https://www.hkma.gov.hk/eng/smart-consumers/beware-of-fraudsters",
+          "pub_date": "2026-10-30T14:04:09.963653+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "carousell.market-receive.xyz",
+      "confidence": "high",
+      "reason": "Domain used for fraudulent banking login screens",
+      "first_seen": "2026-10-30T14:04:09.963653+00:00",
+      "last_seen": "2026-10-30T14:04:09.963653+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.hkma.gov.hk",
+          "url": "https://www.hkma.gov.hk/eng/smart-consumers/beware-of-fraudsters",
+          "pub_date": "2026-10-30T14:04:09.963653+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "carousell.money-quick.cfd",
+      "confidence": "high",
+      "reason": "Domain used for fraudulent banking login screens",
+      "first_seen": "2026-10-30T14:04:09.963653+00:00",
+      "last_seen": "2026-10-30T14:04:09.963653+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.hkma.gov.hk",
+          "url": "https://www.hkma.gov.hk/eng/smart-consumers/beware-of-fraudsters",
+          "pub_date": "2026-10-30T14:04:09.963653+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "carousell.money-quick.cyou",
+      "confidence": "high",
+      "reason": "Domain used for fraudulent banking login screens",
+      "first_seen": "2026-10-30T14:04:09.963653+00:00",
+      "last_seen": "2026-10-30T14:04:09.963653+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.hkma.gov.hk",
+          "url": "https://www.hkma.gov.hk/eng/smart-consumers/beware-of-fraudsters",
+          "pub_date": "2026-10-30T14:04:09.963653+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "carousell.money-quick.me",
+      "confidence": "high",
+      "reason": "Domain used for fraudulent banking login screens",
+      "first_seen": "2026-10-30T14:04:09.963653+00:00",
+      "last_seen": "2026-10-30T14:04:09.963653+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.hkma.gov.hk",
+          "url": "https://www.hkma.gov.hk/eng/smart-consumers/beware-of-fraudsters",
+          "pub_date": "2026-10-30T14:04:09.963653+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "carousell.money-receive.digital",
+      "confidence": "high",
+      "reason": "Domain used for fraudulent banking login screens",
+      "first_seen": "2026-10-30T14:04:09.963653+00:00",
+      "last_seen": "2026-10-30T14:04:09.963653+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.hkma.gov.hk",
+          "url": "https://www.hkma.gov.hk/eng/smart-consumers/beware-of-fraudsters",
+          "pub_date": "2026-10-30T14:04:09.963653+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "carousell.money-receive.fun",
+      "confidence": "high",
+      "reason": "Domain used for fraudulent banking login screens",
+      "first_seen": "2026-10-30T14:04:09.963653+00:00",
+      "last_seen": "2026-10-30T14:04:09.963653+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.hkma.gov.hk",
+          "url": "https://www.hkma.gov.hk/eng/smart-consumers/beware-of-fraudsters",
+          "pub_date": "2026-10-30T14:04:09.963653+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "carousell.money-receive.info",
+      "confidence": "high",
+      "reason": "Domain used for fraudulent banking login screens",
+      "first_seen": "2026-10-30T14:04:09.963653+00:00",
+      "last_seen": "2026-10-30T14:04:09.963653+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.hkma.gov.hk",
+          "url": "https://www.hkma.gov.hk/eng/smart-consumers/beware-of-fraudsters",
+          "pub_date": "2026-10-30T14:04:09.963653+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "carousell.quick-market.asia",
+      "confidence": "high",
+      "reason": "Domain used for fraudulent banking login screens",
+      "first_seen": "2026-10-30T14:04:09.963653+00:00",
+      "last_seen": "2026-10-30T14:04:09.963653+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.hkma.gov.hk",
+          "url": "https://www.hkma.gov.hk/eng/smart-consumers/beware-of-fraudsters",
+          "pub_date": "2026-10-30T14:04:09.963653+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "carousell.quick-market.cc",
+      "confidence": "high",
+      "reason": "Domain used for fraudulent banking login screens",
+      "first_seen": "2026-10-30T14:04:09.963653+00:00",
+      "last_seen": "2026-10-30T14:04:09.963653+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.hkma.gov.hk",
+          "url": "https://www.hkma.gov.hk/eng/smart-consumers/beware-of-fraudsters",
+          "pub_date": "2026-10-30T14:04:09.963653+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "carousell.quick-market.sbs",
+      "confidence": "high",
+      "reason": "Domain used for fraudulent banking login screens",
+      "first_seen": "2026-10-30T14:04:09.963653+00:00",
+      "last_seen": "2026-10-30T14:04:09.963653+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.hkma.gov.hk",
+          "url": "https://www.hkma.gov.hk/eng/smart-consumers/beware-of-fraudsters",
+          "pub_date": "2026-10-30T14:04:09.963653+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "carousell.quick-money.shop",
+      "confidence": "high",
+      "reason": "Domain used for fraudulent banking login screens",
+      "first_seen": "2026-10-30T14:04:09.963653+00:00",
+      "last_seen": "2026-10-30T14:04:09.963653+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.hkma.gov.hk",
+          "url": "https://www.hkma.gov.hk/eng/smart-consumers/beware-of-fraudsters",
+          "pub_date": "2026-10-30T14:04:09.963653+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "carousell.quick-shop.cyou",
+      "confidence": "high",
+      "reason": "Domain used for fraudulent banking login screens",
+      "first_seen": "2026-10-30T14:04:09.963653+00:00",
+      "last_seen": "2026-10-30T14:04:09.963653+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.hkma.gov.hk",
+          "url": "https://www.hkma.gov.hk/eng/smart-consumers/beware-of-fraudsters",
+          "pub_date": "2026-10-30T14:04:09.963653+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "carousell.quick-shop.shop",
+      "confidence": "high",
+      "reason": "Domain used for fraudulent banking login screens",
+      "first_seen": "2026-10-30T14:04:09.963653+00:00",
+      "last_seen": "2026-10-30T14:04:09.963653+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.hkma.gov.hk",
+          "url": "https://www.hkma.gov.hk/eng/smart-consumers/beware-of-fraudsters",
+          "pub_date": "2026-10-30T14:04:09.963653+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "carousellref.market-receive.bond",
+      "confidence": "high",
+      "reason": "Domain used for fraudulent banking login screens",
+      "first_seen": "2026-10-30T14:04:09.963653+00:00",
+      "last_seen": "2026-10-30T14:04:09.963653+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.hkma.gov.hk",
+          "url": "https://www.hkma.gov.hk/eng/smart-consumers/beware-of-fraudsters",
+          "pub_date": "2026-10-30T14:04:09.963653+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "carousellref.money-receive.fun",
+      "confidence": "high",
+      "reason": "Domain used for fraudulent banking login screens",
+      "first_seen": "2026-10-30T14:04:09.963653+00:00",
+      "last_seen": "2026-10-30T14:04:09.963653+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.hkma.gov.hk",
+          "url": "https://www.hkma.gov.hk/eng/smart-consumers/beware-of-fraudsters",
+          "pub_date": "2026-10-30T14:04:09.963653+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "carousellref.quick-market.cc",
+      "confidence": "high",
+      "reason": "Domain used for fraudulent banking login screens",
+      "first_seen": "2026-10-30T14:04:09.963653+00:00",
+      "last_seen": "2026-10-30T14:04:09.963653+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.hkma.gov.hk",
+          "url": "https://www.hkma.gov.hk/eng/smart-consumers/beware-of-fraudsters",
+          "pub_date": "2026-10-30T14:04:09.963653+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "carousellref.quick-shop.shop",
+      "confidence": "high",
+      "reason": "Domain used for fraudulent banking login screens",
+      "first_seen": "2026-10-30T14:04:09.963653+00:00",
+      "last_seen": "2026-10-30T14:04:09.963653+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.hkma.gov.hk",
+          "url": "https://www.hkma.gov.hk/eng/smart-consumers/beware-of-fraudsters",
+          "pub_date": "2026-10-30T14:04:09.963653+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "carousellref.shop-alipay.lat",
+      "confidence": "high",
+      "reason": "Domain used for fraudulent banking login screens",
+      "first_seen": "2026-10-30T14:04:09.963653+00:00",
+      "last_seen": "2026-10-30T14:04:09.963653+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.hkma.gov.hk",
+          "url": "https://www.hkma.gov.hk/eng/smart-consumers/beware-of-fraudsters",
+          "pub_date": "2026-10-30T14:04:09.963653+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "carousell.service-shop.click",
+      "confidence": "high",
+      "reason": "Domain used for fraudulent banking login screens",
+      "first_seen": "2026-10-30T14:04:09.963653+00:00",
+      "last_seen": "2026-10-30T14:04:09.963653+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.hkma.gov.hk",
+          "url": "https://www.hkma.gov.hk/eng/smart-consumers/beware-of-fraudsters",
+          "pub_date": "2026-10-30T14:04:09.963653+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "carousell.service-shop.sbs",
+      "confidence": "high",
+      "reason": "Domain used for fraudulent banking login screens",
+      "first_seen": "2026-10-30T14:04:09.963653+00:00",
+      "last_seen": "2026-10-30T14:04:09.963653+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.hkma.gov.hk",
+          "url": "https://www.hkma.gov.hk/eng/smart-consumers/beware-of-fraudsters",
+          "pub_date": "2026-10-30T14:04:09.963653+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "carousell.service-shop.top",
+      "confidence": "high",
+      "reason": "Domain used for fraudulent banking login screens",
+      "first_seen": "2026-10-30T14:04:09.963653+00:00",
+      "last_seen": "2026-10-30T14:04:09.963653+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.hkma.gov.hk",
+          "url": "https://www.hkma.gov.hk/eng/smart-consumers/beware-of-fraudsters",
+          "pub_date": "2026-10-30T14:04:09.963653+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "carousell.shop-alipay.click",
+      "confidence": "high",
+      "reason": "Domain used for fraudulent banking login screens",
+      "first_seen": "2026-10-30T14:04:09.963653+00:00",
+      "last_seen": "2026-10-30T14:04:09.963653+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.hkma.gov.hk",
+          "url": "https://www.hkma.gov.hk/eng/smart-consumers/beware-of-fraudsters",
+          "pub_date": "2026-10-30T14:04:09.963653+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "carousell.shop-oniine.sbs",
+      "confidence": "high",
+      "reason": "Domain used for fraudulent banking login screens",
+      "first_seen": "2026-10-30T14:04:09.963653+00:00",
+      "last_seen": "2026-10-30T14:04:09.963653+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.hkma.gov.hk",
+          "url": "https://www.hkma.gov.hk/eng/smart-consumers/beware-of-fraudsters",
+          "pub_date": "2026-10-30T14:04:09.963653+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "carousell.shop-pay.bond",
+      "confidence": "high",
+      "reason": "Domain used for fraudulent banking login screens",
+      "first_seen": "2026-10-30T14:04:09.963653+00:00",
+      "last_seen": "2026-10-30T14:04:09.963653+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.hkma.gov.hk",
+          "url": "https://www.hkma.gov.hk/eng/smart-consumers/beware-of-fraudsters",
+          "pub_date": "2026-10-30T14:04:09.963653+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "carousell.shop-pay.cyou",
+      "confidence": "high",
+      "reason": "Domain used for fraudulent banking login screens",
+      "first_seen": "2026-10-30T14:04:09.963653+00:00",
+      "last_seen": "2026-10-30T14:04:09.963653+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.hkma.gov.hk",
+          "url": "https://www.hkma.gov.hk/eng/smart-consumers/beware-of-fraudsters",
+          "pub_date": "2026-10-30T14:04:09.963653+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "carousell.shop-service.cyou",
+      "confidence": "high",
+      "reason": "Domain used for fraudulent banking login screens",
+      "first_seen": "2026-10-30T14:04:09.963653+00:00",
+      "last_seen": "2026-10-30T14:04:09.963653+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.hkma.gov.hk",
+          "url": "https://www.hkma.gov.hk/eng/smart-consumers/beware-of-fraudsters",
+          "pub_date": "2026-10-30T14:04:09.963653+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "carousell.shopservice.cyou",
+      "confidence": "high",
+      "reason": "Domain used for fraudulent banking login screens",
+      "first_seen": "2026-10-30T14:04:09.963653+00:00",
+      "last_seen": "2026-10-30T14:04:09.963653+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.hkma.gov.hk",
+          "url": "https://www.hkma.gov.hk/eng/smart-consumers/beware-of-fraudsters",
+          "pub_date": "2026-10-30T14:04:09.963653+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "carousell.shop-service.top",
+      "confidence": "high",
+      "reason": "Domain used for fraudulent banking login screens",
+      "first_seen": "2026-10-30T14:04:09.963653+00:00",
+      "last_seen": "2026-10-30T14:04:09.963653+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.hkma.gov.hk",
+          "url": "https://www.hkma.gov.hk/eng/smart-consumers/beware-of-fraudsters",
+          "pub_date": "2026-10-30T14:04:09.963653+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "com.bankofsingapore.digital",
+      "confidence": "high",
+      "reason": "Domain used for fraudulent mobile applications",
+      "first_seen": "2026-10-30T14:04:09.963653+00:00",
+      "last_seen": "2026-10-30T14:04:09.963653+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.hkma.gov.hk",
+          "url": "https://www.hkma.gov.hk/eng/smart-consumers/beware-of-fraudsters",
+          "pub_date": "2026-10-30T14:04:09.963653+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "juliusbarassetsmanagement.com",
+      "confidence": "high",
+      "reason": "Domain used for fraudulent websites",
+      "first_seen": "2026-10-30T14:04:09.963653+00:00",
+      "last_seen": "2026-10-30T14:04:09.963653+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.hkma.gov.hk",
+          "url": "https://www.hkma.gov.hk/eng/smart-consumers/beware-of-fraudsters",
+          "pub_date": "2026-10-30T14:04:09.963653+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "misonla.com",
+      "confidence": "high",
+      "reason": "Domain used for phishing emails",
+      "first_seen": "2026-10-30T14:04:09.963653+00:00",
+      "last_seen": "2026-10-30T14:04:09.963653+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.hkma.gov.hk",
+          "url": "https://www.hkma.gov.hk/eng/smart-consumers/beware-of-fraudsters",
+          "pub_date": "2026-10-30T14:04:09.963653+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "shop-service.icu",
+      "confidence": "high",
+      "reason": "Domain used for fraudulent banking login screens",
+      "first_seen": "2026-10-30T14:04:09.963653+00:00",
+      "last_seen": "2026-10-30T14:04:09.963653+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.hkma.gov.hk",
+          "url": "https://www.hkma.gov.hk/eng/smart-consumers/beware-of-fraudsters",
+          "pub_date": "2026-10-30T14:04:09.963653+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "uat.byjuliusbaer.top",
+      "confidence": "high",
+      "reason": "Domain used for fraudulent websites",
+      "first_seen": "2026-10-30T14:04:09.963653+00:00",
+      "last_seen": "2026-10-30T14:04:09.963653+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.hkma.gov.hk",
+          "url": "https://www.hkma.gov.hk/eng/smart-consumers/beware-of-fraudsters",
+          "pub_date": "2026-10-30T14:04:09.963653+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "ziv7do56.llttbwx.top",
+      "confidence": "high",
+      "reason": "Domain used for fraudulent websites",
+      "first_seen": "2026-10-30T14:04:09.963653+00:00",
+      "last_seen": "2026-10-30T14:04:09.963653+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.hkma.gov.hk",
+          "url": "https://www.hkma.gov.hk/eng/smart-consumers/beware-of-fraudsters",
+          "pub_date": "2026-10-30T14:04:09.963653+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "aideck.net",
+      "confidence": "high",
+      "reason": "Used as a C2 server for Manuscrypt malware",
+      "first_seen": "2026-10-30T12:00:43.950153+00:00",
+      "last_seen": "2026-10-30T12:00:43.950153+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.cisa.gov",
+          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-108a",
+          "pub_date": "2026-10-30T12:00:43.950153+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "APT38"
+        },
+        {
+          "type": "apt_group",
+          "value": "BlueNoroff"
+        },
+        {
+          "type": "apt_group",
+          "value": "Lazarus Group"
+        },
+        {
+          "type": "apt_group",
+          "value": "Stardust Chollima"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "dafnefonseca.com",
+      "confidence": "high",
+      "reason": "Listed as a C2 endpoint for malware",
+      "first_seen": "2026-10-30T12:00:43.950153+00:00",
+      "last_seen": "2026-10-30T12:00:43.950153+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.cisa.gov",
+          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-108a",
+          "pub_date": "2026-10-30T12:00:43.950153+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "APT38"
+        },
+        {
+          "type": "apt_group",
+          "value": "BlueNoroff"
+        },
+        {
+          "type": "apt_group",
+          "value": "Lazarus Group"
+        },
+        {
+          "type": "apt_group",
+          "value": "Stardust Chollima"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "greenvideo.nl",
+      "confidence": "high",
+      "reason": "Listed as a C2 endpoint for malware",
+      "first_seen": "2026-10-30T12:00:43.950153+00:00",
+      "last_seen": "2026-10-30T12:00:43.950153+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.cisa.gov",
+          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-108a",
+          "pub_date": "2026-10-30T12:00:43.950153+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "APT38"
+        },
+        {
+          "type": "apt_group",
+          "value": "BlueNoroff"
+        },
+        {
+          "type": "apt_group",
+          "value": "Lazarus Group"
+        },
+        {
+          "type": "apt_group",
+          "value": "Stardust Chollima"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "infodigitalnew.com",
+      "confidence": "high",
+      "reason": "Listed as a C2 endpoint for malware",
+      "first_seen": "2026-10-30T12:00:43.950153+00:00",
+      "last_seen": "2026-10-30T12:00:43.950153+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.cisa.gov",
+          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-108a",
+          "pub_date": "2026-10-30T12:00:43.950153+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "APT38"
+        },
+        {
+          "type": "apt_group",
+          "value": "BlueNoroff"
+        },
+        {
+          "type": "apt_group",
+          "value": "Lazarus Group"
+        },
+        {
+          "type": "apt_group",
+          "value": "Stardust Chollima"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "sche-eg.org",
+      "confidence": "high",
+      "reason": "Listed as a C2 endpoint for malware",
+      "first_seen": "2026-10-30T12:00:43.950153+00:00",
+      "last_seen": "2026-10-30T12:00:43.950153+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.cisa.gov",
+          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-108a",
+          "pub_date": "2026-10-30T12:00:43.950153+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "APT38"
+        },
+        {
+          "type": "apt_group",
+          "value": "BlueNoroff"
+        },
+        {
+          "type": "apt_group",
+          "value": "Lazarus Group"
+        },
+        {
+          "type": "apt_group",
+          "value": "Stardust Chollima"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "45.14.227.58",
+      "confidence": "high",
+      "reason": "Associated with DAFOM malware",
+      "first_seen": "2026-10-30T12:00:43.950153+00:00",
+      "last_seen": "2026-10-30T12:00:43.950153+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.cisa.gov",
+          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-108a",
+          "pub_date": "2026-10-30T12:00:43.950153+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "APT38"
+        },
+        {
+          "type": "apt_group",
+          "value": "BlueNoroff"
+        },
+        {
+          "type": "apt_group",
+          "value": "Lazarus Group"
+        },
+        {
+          "type": "apt_group",
+          "value": "Stardust Chollima"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "cancelcardprotection.online",
+      "confidence": "high",
+      "reason": "Used in phishing campaigns targeting bank customers",
+      "first_seen": "2026-10-30T11:13:57+00:00",
+      "last_seen": "2026-10-30T11:13:57+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Bloglab.360",
+          "url": "https://blog.netlab.360.com/jin-rong-xing-ye-wang-luo-an-quan-jian-ce-yue-bao-202610/",
+          "pub_date": "2026-10-30T11:13:57+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "cancelcpservice.in",
+      "confidence": "high",
+      "reason": "Used in phishing campaigns targeting bank customers",
+      "first_seen": "2026-10-30T11:13:57+00:00",
+      "last_seen": "2026-10-30T11:13:57+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Bloglab.360",
+          "url": "https://blog.netlab.360.com/jin-rong-xing-ye-wang-luo-an-quan-jian-ce-yue-bao-202610/",
+          "pub_date": "2026-10-30T11:13:57+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "cardprotections.in",
+      "confidence": "high",
+      "reason": "Used in phishing campaigns targeting bank customers",
+      "first_seen": "2026-10-30T11:13:57+00:00",
+      "last_seen": "2026-10-30T11:13:57+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Bloglab.360",
+          "url": "https://blog.netlab.360.com/jin-rong-xing-ye-wang-luo-an-quan-jian-ce-yue-bao-202610/",
+          "pub_date": "2026-10-30T11:13:57+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "install-update.xyz",
+      "confidence": "high",
+      "reason": "Used in phishing campaigns targeting bank customers",
+      "first_seen": "2026-10-30T11:13:57+00:00",
+      "last_seen": "2026-10-30T11:13:57+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Bloglab.360",
+          "url": "https://blog.netlab.360.com/jin-rong-xing-ye-wang-luo-an-quan-jian-ce-yue-bao-202610/",
+          "pub_date": "2026-10-30T11:13:57+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "udeskqlobal.com",
+      "confidence": "high",
+      "reason": "Used to load malicious scripts",
+      "first_seen": "2026-10-30T11:13:57+00:00",
+      "last_seen": "2026-10-30T11:13:57+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Bloglab.360",
+          "url": "https://blog.netlab.360.com/jin-rong-xing-ye-wang-luo-an-quan-jian-ce-yue-bao-202610/",
+          "pub_date": "2026-10-30T11:13:57+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "ipv4",
+      "value": "144.31.244.184",
+      "confidence": "high",
+      "reason": "Listed as part of C2 infrastructure",
+      "first_seen": "2026-10-30T11:13:57+00:00",
+      "last_seen": "2026-10-30T11:13:57+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Bloglab.360",
+          "url": "https://blog.netlab.360.com/jin-rong-xing-ye-wang-luo-an-quan-jian-ce-yue-bao-202610/",
+          "pub_date": "2026-10-30T11:13:57+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "ipv4",
+      "value": "46.151.182.28",
+      "confidence": "high",
+      "reason": "Listed as part of C2 infrastructure",
+      "first_seen": "2026-10-30T11:13:57+00:00",
+      "last_seen": "2026-10-30T11:13:57+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Bloglab.360",
+          "url": "https://blog.netlab.360.com/jin-rong-xing-ye-wang-luo-an-quan-jian-ce-yue-bao-202610/",
+          "pub_date": "2026-10-30T11:13:57+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "ipv4",
+      "value": "78.159.156.74",
+      "confidence": "high",
+      "reason": "Listed as an IP address used in a phishing campaign.",
+      "first_seen": "2026-10-30T11:13:57+00:00",
+      "last_seen": "2026-10-30T11:13:57+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Bloglab.360",
+          "url": "https://blog.netlab.360.com/jin-rong-xing-ye-wang-luo-an-quan-jian-ce-yue-bao-202610/",
+          "pub_date": "2026-10-30T11:13:57+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "aiok.me",
+      "confidence": "high",
+      "reason": "Listed as part of attacker-controlled infrastructure redirecting traffic",
+      "first_seen": "2026-10-30T09:56:23+00:00",
+      "last_seen": "2026-10-30T09:56:23+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Bloglab.360",
+          "url": "https://blog.netlab.360.com/aian-quan-zhuan-ti-zhou-bao-11/",
+          "pub_date": "2026-10-30T09:56:23+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2026-41940"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "chat.nuoda.vip",
+      "confidence": "high",
+      "reason": "Part of attacker-controlled infrastructure redirecting traffic",
+      "first_seen": "2026-10-30T09:56:23+00:00",
+      "last_seen": "2026-10-30T09:56:23+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Bloglab.360",
+          "url": "https://blog.netlab.360.com/aian-quan-zhuan-ti-zhou-bao-11/",
+          "pub_date": "2026-10-30T09:56:23+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2026-41940"
         }
       ]
     },
@@ -115,9 +2116,14 @@
       "confidence": "high",
       "reason": "Phishing domain mimicking Google login page",
       "first_seen": "2026-10-29T22:34:58.991537+00:00",
-      "last_seen": "2026-10-29T22:34:58.991537+00:00",
-      "source_count": 1,
+      "last_seen": "2026-10-30T09:56:23+00:00",
+      "source_count": 2,
       "sources": [
+        {
+          "source": "Bloglab.360",
+          "url": "https://blog.netlab.360.com/aian-quan-zhuan-ti-zhou-bao-11/",
+          "pub_date": "2026-10-30T09:56:23+00:00"
+        },
         {
           "source": "cofense.com",
           "url": "https://cofense.com/blog/would-your-employees-join-a-fake-anthropic-ai-preview",
@@ -128,6 +2134,81 @@
         {
           "type": "campaign",
           "value": "Anthropic AI Preview Campaign"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-41940"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "nuoda.vip",
+      "confidence": "high",
+      "reason": "Part of attacker-controlled infrastructure redirecting traffic",
+      "first_seen": "2026-10-30T09:56:23+00:00",
+      "last_seen": "2026-10-30T09:56:23+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Bloglab.360",
+          "url": "https://blog.netlab.360.com/aian-quan-zhuan-ti-zhou-bao-11/",
+          "pub_date": "2026-10-30T09:56:23+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2026-41940"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "sorryios.io",
+      "confidence": "high",
+      "reason": "Part of attacker-controlled infrastructure redirecting traffic",
+      "first_seen": "2026-10-30T09:56:23+00:00",
+      "last_seen": "2026-10-30T09:56:23+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Bloglab.360",
+          "url": "https://blog.netlab.360.com/aian-quan-zhuan-ti-zhou-bao-11/",
+          "pub_date": "2026-10-30T09:56:23+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2026-41940"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "total-sitevv.lol",
+      "confidence": "high",
+      "reason": "Domain resolves to an active NIK C2 server hosted by the threat actor.",
+      "first_seen": "2026-10-29T10:05:07+00:00",
+      "last_seen": "2026-10-30T09:56:23+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "Bloglab.360",
+          "url": "https://blog.netlab.360.com/aian-quan-zhuan-ti-zhou-bao-11/",
+          "pub_date": "2026-10-30T09:56:23+00:00"
+        },
+        {
+          "source": "Blog.Talosintelligence",
+          "url": "https://blog.talosintelligence.com/nik-c2-new-ai-enabled-framework/",
+          "pub_date": "2026-10-29T10:05:07+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2026-41940"
         }
       ]
     },
@@ -137,9 +2218,14 @@
       "confidence": "high",
       "reason": "Phishing domain mimicking Zoom meeting page",
       "first_seen": "2026-10-29T22:34:58.991537+00:00",
-      "last_seen": "2026-10-29T22:34:58.991537+00:00",
-      "source_count": 1,
+      "last_seen": "2026-10-30T09:56:23+00:00",
+      "source_count": 2,
       "sources": [
+        {
+          "source": "Bloglab.360",
+          "url": "https://blog.netlab.360.com/aian-quan-zhuan-ti-zhou-bao-11/",
+          "pub_date": "2026-10-30T09:56:23+00:00"
+        },
         {
           "source": "cofense.com",
           "url": "https://cofense.com/blog/would-your-employees-join-a-fake-anthropic-ai-preview",
@@ -150,8 +2236,176 @@
         {
           "type": "campaign",
           "value": "Anthropic AI Preview Campaign"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-41940"
         }
       ]
+    },
+    {
+      "type": "domain",
+      "value": "vibe.aiok.me",
+      "confidence": "high",
+      "reason": "Part of attacker-controlled infrastructure redirecting traffic",
+      "first_seen": "2026-10-30T09:56:23+00:00",
+      "last_seen": "2026-10-30T09:56:23+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Bloglab.360",
+          "url": "https://blog.netlab.360.com/aian-quan-zhuan-ti-zhou-bao-11/",
+          "pub_date": "2026-10-30T09:56:23+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2026-41940"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "43.228.157.68",
+      "confidence": "high",
+      "reason": "Listed as part of C2 infrastructure",
+      "first_seen": "2026-10-28T02:58:27+00:00",
+      "last_seen": "2026-10-30T09:56:23+00:00",
+      "source_count": 3,
+      "sources": [
+        {
+          "source": "Bloglab.360",
+          "url": "https://blog.netlab.360.com/aian-quan-zhuan-ti-zhou-bao-11/",
+          "pub_date": "2026-10-30T09:56:23+00:00"
+        },
+        {
+          "source": "www.infoworld.com",
+          "url": "https://www.infoworld.com/article/4241474/attackers-compromised-42-github-repositories-by-using-files-too-large-to-be-searched.html",
+          "pub_date": "2026-10-28T06:31:20.61955+00:00"
+        },
+        {
+          "source": "Csoonline",
+          "url": "https://www.csoonline.com/article/4241496/attackers-compromised-42-github-repositories-by-using-files-too-large-to-be-searched-2.html",
+          "pub_date": "2026-10-28T02:58:27+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2026-41940"
+        },
+        {
+          "type": "malware",
+          "value": "Miasma"
+        },
+        {
+          "type": "malware",
+          "value": "Miasma-family"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "13slist.com",
+      "confidence": "high",
+      "reason": "Listed in a YARA rule for detecting threat activity.",
+      "first_seen": "2026-10-30T05:45:56+00:00",
+      "last_seen": "2026-10-30T05:45:56+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cyfirma",
+          "url": "https://www.cyfirma.com/news/weekly-intelligence-report-30-oct-2026/",
+          "pub_date": "2026-10-30T05:45:56+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "arabtechmessenger.net",
+      "confidence": "high",
+      "reason": "Listed in a YARA rule for detecting threat activity.",
+      "first_seen": "2026-10-30T05:45:56+00:00",
+      "last_seen": "2026-10-30T05:45:56+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cyfirma",
+          "url": "https://www.cyfirma.com/news/weekly-intelligence-report-30-oct-2026/",
+          "pub_date": "2026-10-30T05:45:56+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "communityrespondalarm.com",
+      "confidence": "high",
+      "reason": "Listed in a YARA rule for detecting threat activity.",
+      "first_seen": "2026-10-30T05:45:56+00:00",
+      "last_seen": "2026-10-30T05:45:56+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cyfirma",
+          "url": "https://www.cyfirma.com/news/weekly-intelligence-report-30-oct-2026/",
+          "pub_date": "2026-10-30T05:45:56+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "rapidcomments.com",
+      "confidence": "high",
+      "reason": "Listed in a YARA rule as a domain associated with threat activity.",
+      "first_seen": "2026-10-30T05:45:56+00:00",
+      "last_seen": "2026-10-30T05:45:56+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cyfirma",
+          "url": "https://www.cyfirma.com/news/weekly-intelligence-report-30-oct-2026/",
+          "pub_date": "2026-10-30T05:45:56+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "zimbrasoft.com.ua",
+      "confidence": "high",
+      "reason": "Listed in a YARA rule as a domain associated with threat activity.",
+      "first_seen": "2026-10-30T05:45:56+00:00",
+      "last_seen": "2026-10-30T05:45:56+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cyfirma",
+          "url": "https://www.cyfirma.com/news/weekly-intelligence-report-30-oct-2026/",
+          "pub_date": "2026-10-30T05:45:56+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "ipv4",
+      "value": "185.237.166.55",
+      "confidence": "high",
+      "reason": "Listed in a YARA rule for detecting threat activity.",
+      "first_seen": "2026-10-30T05:45:56+00:00",
+      "last_seen": "2026-10-30T05:45:56+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cyfirma",
+          "url": "https://www.cyfirma.com/news/weekly-intelligence-report-30-oct-2026/",
+          "pub_date": "2026-10-30T05:45:56+00:00"
+        }
+      ],
+      "tags": []
     },
     {
       "type": "ipv4",
@@ -667,23 +2921,6 @@
           "value": "IT"
         }
       ]
-    },
-    {
-      "type": "domain",
-      "value": "total-sitevv.lol",
-      "confidence": "high",
-      "reason": "Domain resolves to an active NIK C2 server hosted by the threat actor.",
-      "first_seen": "2026-10-29T10:05:07+00:00",
-      "last_seen": "2026-10-29T10:05:07+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Blog.Talosintelligence",
-          "url": "https://blog.talosintelligence.com/nik-c2-new-ai-enabled-framework/",
-          "pub_date": "2026-10-29T10:05:07+00:00"
-        }
-      ],
-      "tags": []
     },
     {
       "type": "ipv4",
@@ -1887,41 +4124,6 @@
         {
           "type": "campaign",
           "value": "PolyShell Mass Attack"
-        }
-      ]
-    },
-    {
-      "type": "ipv4",
-      "value": "43.228.157.68",
-      "confidence": "high",
-      "reason": "Reported as a server used in exploitation infrastructure",
-      "first_seen": "2026-10-28T02:58:27+00:00",
-      "last_seen": "2026-10-28T06:31:20.619550+00:00",
-      "source_count": 2,
-      "sources": [
-        {
-          "source": "www.infoworld.com",
-          "url": "https://www.infoworld.com/article/4241474/attackers-compromised-42-github-repositories-by-using-files-too-large-to-be-searched.html",
-          "pub_date": "2026-10-28T06:31:20.61955+00:00"
-        },
-        {
-          "source": "Csoonline",
-          "url": "https://www.csoonline.com/article/4241496/attackers-compromised-42-github-repositories-by-using-files-too-large-to-be-searched-2.html",
-          "pub_date": "2026-10-28T02:58:27+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "cve",
-          "value": "CVE-2026-41940"
-        },
-        {
-          "type": "malware",
-          "value": "Miasma"
-        },
-        {
-          "type": "malware",
-          "value": "Miasma-family"
         }
       ]
     },
@@ -8554,55 +10756,6 @@
       ]
     },
     {
-      "type": "ipv4",
-      "value": "108.165.147.64",
-      "confidence": "high",
-      "reason": "Identified as a host used by the attacker for operations",
-      "first_seen": "2026-10-13T17:33:11+00:00",
-      "last_seen": "2026-10-20T06:43:30.105344+00:00",
-      "source_count": 4,
-      "sources": [
-        {
-          "source": "www.volexity.com",
-          "url": "https://www.volexity.com/blog/2026/10/13/a-series-of-unauthenticated-events-chained-exploitation-of-ivanti-connect-secure-zero-days/",
-          "pub_date": "2026-10-20T06:43:30.105344+00:00"
-        },
-        {
-          "source": "Ccb.Belgium.Be",
-          "url": "https://ccb.belgium.be/advisories/warning-actively-exploited-zero-day-vulnerability-ivanti-connect-secure-allows-remote",
-          "pub_date": "2026-10-14T16:28:35+00:00"
-        },
-        {
-          "source": "Rescana",
-          "url": "https://www.rescana.com/post/ivanti-connect-secure-zero-day-exploit-chain-enables-root-level-rce-and-credential-theft-on-fully-patched-vpn-appliances",
-          "pub_date": "2026-10-14T07:31:12+00:00"
-        },
-        {
-          "source": "Feeds.Feedburner",
-          "url": "https://thehackernews.com/2026/10/attacker-chains-three-ivanti-connect.html",
-          "pub_date": "2026-10-13T17:33:11+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "cve",
-          "value": "CVE-2026-104935"
-        },
-        {
-          "type": "campaign",
-          "value": "Chained Exploitation Of Ivanti Connect Secure Zero-Days"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-106042"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-109412"
-        }
-      ]
-    },
-    {
       "type": "ipv6",
       "value": "2a09:bac5:4e21:2e3c::49b:9",
       "confidence": "high",
@@ -13692,7 +15845,7 @@
       "value": "hf98x4d.site",
       "confidence": "high",
       "reason": "Algorithmically generated domain used for C2 activity",
-      "first_seen": "2026-09-30T12:35:09+00:00",
+      "first_seen": "2026-10-14T13:59:36+00:00",
       "last_seen": "2026-10-14T13:59:36+00:00",
       "source_count": 1,
       "sources": [
@@ -13713,8 +15866,8 @@
       "type": "ipv4",
       "value": "138.124.123.87",
       "confidence": "high",
-      "reason": "Listed as part of a malware delivery operation",
-      "first_seen": "2026-09-30T12:35:09+00:00",
+      "reason": "Used in suspicious WebDAV communication for malware delivery",
+      "first_seen": "2026-10-14T13:59:36+00:00",
       "last_seen": "2026-10-14T13:59:36+00:00",
       "source_count": 1,
       "sources": [
@@ -23489,9 +25642,9 @@
       "value": "driftshare.co",
       "confidence": "high",
       "reason": "Used as a first-stage domain in a phishing campaign by TA419",
-      "first_seen": "2026-10-01T09:00:00+00:00",
+      "first_seen": "2026-10-01T17:10:27+00:00",
       "last_seen": "2026-10-02T06:57:52+00:00",
-      "source_count": 3,
+      "source_count": 2,
       "sources": [
         {
           "source": "Crnasia",
@@ -23502,21 +25655,12 @@
           "source": "News.Lavx.Hu",
           "url": "https://news.lavx.hu/article/chinese-espionage-group-ta419-spoofed-anthropic-executive-and-former-white-house-official-in-ai-phishing-campaign",
           "pub_date": "2026-10-01T17:10:27+00:00"
-        },
-        {
-          "source": "Proofpoint",
-          "url": "https://www.proofpoint.com/us/blog/threat-insight/hallucinating-credibility-china-aligned-ta419-impersonates-its-way-us-ai-policy",
-          "pub_date": "2026-10-01T09:00:00+00:00"
         }
       ],
       "tags": [
         {
           "type": "apt_group",
           "value": "TA419"
-        },
-        {
-          "type": "industry",
-          "value": "Government"
         },
         {
           "type": "malware",
@@ -23529,9 +25673,9 @@
       "value": "globalfileshareplatform.com",
       "confidence": "high",
       "reason": "Used as a second-stage domain in a phishing campaign by TA419",
-      "first_seen": "2026-10-01T09:00:00+00:00",
+      "first_seen": "2026-10-01T17:10:27+00:00",
       "last_seen": "2026-10-02T06:57:52+00:00",
-      "source_count": 3,
+      "source_count": 2,
       "sources": [
         {
           "source": "Crnasia",
@@ -23542,21 +25686,12 @@
           "source": "News.Lavx.Hu",
           "url": "https://news.lavx.hu/article/chinese-espionage-group-ta419-spoofed-anthropic-executive-and-former-white-house-official-in-ai-phishing-campaign",
           "pub_date": "2026-10-01T17:10:27+00:00"
-        },
-        {
-          "source": "Proofpoint",
-          "url": "https://www.proofpoint.com/us/blog/threat-insight/hallucinating-credibility-china-aligned-ta419-impersonates-its-way-us-ai-policy",
-          "pub_date": "2026-10-01T09:00:00+00:00"
         }
       ],
       "tags": [
         {
           "type": "apt_group",
           "value": "TA419"
-        },
-        {
-          "type": "industry",
-          "value": "Government"
         },
         {
           "type": "malware",
@@ -23731,30 +25866,17 @@
       "value": "microsoft-flash.com",
       "confidence": "high",
       "reason": "Listed among domains related to Antino-related samples",
-      "first_seen": "2026-09-30T14:13:51+00:00",
+      "first_seen": "2026-10-01T19:31:07.432240+00:00",
       "last_seen": "2026-10-01T19:31:07.432240+00:00",
-      "source_count": 2,
+      "source_count": 1,
       "sources": [
         {
           "source": "www.security.com",
           "url": "https://www.security.com/threat-intelligence/jewelbug-crypto-fraud-espionage",
           "pub_date": "2026-10-01T19:31:07.43224+00:00"
-        },
-        {
-          "source": "Blog.Talosintelligence",
-          "url": "https://blog.talosintelligence.com/china-nexus-uat-11587-targets-government-and-policy-organizations-across-asia-with-antino-backdoor/",
-          "pub_date": "2026-09-30T14:13:51+00:00"
         }
       ],
       "tags": [
-        {
-          "type": "industry",
-          "value": "Government"
-        },
-        {
-          "type": "malware",
-          "value": "Antino"
-        },
         {
           "type": "apt_group",
           "value": "Cl-sta-0049"
@@ -23762,6 +25884,14 @@
         {
           "type": "apt_group",
           "value": "Earth Alux"
+        },
+        {
+          "type": "apt_group",
+          "value": "Jewelbug"
+        },
+        {
+          "type": "apt_group",
+          "value": "Ref7707"
         }
       ]
     },
@@ -23770,30 +25900,17 @@
       "value": "pub-abfa7742e315485a98a5fafd6dbfb68e.r2.dev",
       "confidence": "high",
       "reason": "Listed among domains related to Antino-related samples",
-      "first_seen": "2026-09-30T14:13:51+00:00",
+      "first_seen": "2026-10-01T19:31:07.432240+00:00",
       "last_seen": "2026-10-01T19:31:07.432240+00:00",
-      "source_count": 2,
+      "source_count": 1,
       "sources": [
         {
           "source": "www.security.com",
           "url": "https://www.security.com/threat-intelligence/jewelbug-crypto-fraud-espionage",
           "pub_date": "2026-10-01T19:31:07.43224+00:00"
-        },
-        {
-          "source": "Blog.Talosintelligence",
-          "url": "https://blog.talosintelligence.com/china-nexus-uat-11587-targets-government-and-policy-organizations-across-asia-with-antino-backdoor/",
-          "pub_date": "2026-09-30T14:13:51+00:00"
         }
       ],
       "tags": [
-        {
-          "type": "industry",
-          "value": "Government"
-        },
-        {
-          "type": "malware",
-          "value": "Antino"
-        },
         {
           "type": "apt_group",
           "value": "Cl-sta-0049"
@@ -23801,6 +25918,14 @@
         {
           "type": "apt_group",
           "value": "Earth Alux"
+        },
+        {
+          "type": "apt_group",
+          "value": "Jewelbug"
+        },
+        {
+          "type": "apt_group",
+          "value": "Ref7707"
         }
       ]
     },
@@ -25067,29 +27192,20 @@
       "value": "onecloudfilesync.com",
       "confidence": "high",
       "reason": "Used as a second-stage AitM phishing domain",
-      "first_seen": "2026-10-01T09:00:00+00:00",
+      "first_seen": "2026-10-01T17:10:27+00:00",
       "last_seen": "2026-10-01T17:10:27+00:00",
-      "source_count": 2,
+      "source_count": 1,
       "sources": [
         {
           "source": "News.Lavx.Hu",
           "url": "https://news.lavx.hu/article/chinese-espionage-group-ta419-spoofed-anthropic-executive-and-former-white-house-official-in-ai-phishing-campaign",
           "pub_date": "2026-10-01T17:10:27+00:00"
-        },
-        {
-          "source": "Proofpoint",
-          "url": "https://www.proofpoint.com/us/blog/threat-insight/hallucinating-credibility-china-aligned-ta419-impersonates-its-way-us-ai-policy",
-          "pub_date": "2026-10-01T09:00:00+00:00"
         }
       ],
       "tags": [
         {
           "type": "apt_group",
           "value": "TA419"
-        },
-        {
-          "type": "industry",
-          "value": "Government"
         }
       ]
     },
@@ -25211,654 +27327,6 @@
         }
       ],
       "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "chestergreenfarming.com",
-      "confidence": "high",
-      "reason": "Identified as a C2 for a RAT delivered in a campaign.",
-      "first_seen": "2026-10-01T10:31:57+00:00",
-      "last_seen": "2026-10-01T10:31:57+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "X",
-          "url": "https://x.com/vxunderground/status/2105548045542736119",
-          "pub_date": "2026-10-01T10:31:57+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "gomescareerplans.com",
-      "confidence": "high",
-      "reason": "Used as a C2 register in a malware campaign.",
-      "first_seen": "2026-10-01T10:31:57+00:00",
-      "last_seen": "2026-10-01T10:31:57+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "X",
-          "url": "https://x.com/vxunderground/status/2105548045542736119",
-          "pub_date": "2026-10-01T10:31:57+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "ipv4",
-      "value": "31.217.177.172",
-      "confidence": "high",
-      "reason": "Listed as a peer IP address associated with a ransomware group",
-      "first_seen": "2026-10-01T09:00:24+00:00",
-      "last_seen": "2026-10-01T09:00:24+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Maltego",
-          "url": "https://www.maltego.com/blog/maltego-ctf-championship-qualifier-a-challenge-walkthrough/",
-          "pub_date": "2026-10-01T09:00:24+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "fileswiftonline.cloud",
-      "confidence": "high",
-      "reason": "Used as a second-stage AitM phishing domain",
-      "first_seen": "2026-10-01T09:00:00+00:00",
-      "last_seen": "2026-10-01T09:00:00+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Proofpoint",
-          "url": "https://www.proofpoint.com/us/blog/threat-insight/hallucinating-credibility-china-aligned-ta419-impersonates-its-way-us-ai-policy",
-          "pub_date": "2026-10-01T09:00:00+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "TA419"
-        },
-        {
-          "type": "industry",
-          "value": "Government"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "publicsharefile.cloud",
-      "confidence": "high",
-      "reason": "Used as a second-stage AitM phishing domain",
-      "first_seen": "2026-10-01T09:00:00+00:00",
-      "last_seen": "2026-10-01T09:00:00+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Proofpoint",
-          "url": "https://www.proofpoint.com/us/blog/threat-insight/hallucinating-credibility-china-aligned-ta419-impersonates-its-way-us-ai-policy",
-          "pub_date": "2026-10-01T09:00:00+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "TA419"
-        },
-        {
-          "type": "industry",
-          "value": "Government"
-        }
-      ]
-    },
-    {
-      "type": "ipv4",
-      "value": "23.27.143.20",
-      "confidence": "high",
-      "reason": "Listed as a source of payload retrieval in a threat report",
-      "first_seen": "2026-10-01T04:35:34+00:00",
-      "last_seen": "2026-10-01T04:35:34+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Thehackernews",
-          "url": "https://thehackernews.com/2026/10/citrix-netscaler-post-exploitation.html",
-          "pub_date": "2026-10-01T04:35:34+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "ipv4",
-      "value": "31.56.197.72",
-      "confidence": "high",
-      "reason": "Listed as a source of payload retrieval in a threat report",
-      "first_seen": "2026-10-01T04:35:34+00:00",
-      "last_seen": "2026-10-01T04:35:34+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Thehackernews",
-          "url": "https://thehackernews.com/2026/10/citrix-netscaler-post-exploitation.html",
-          "pub_date": "2026-10-01T04:35:34+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "ipv4",
-      "value": "45.141.21.130",
-      "confidence": "high",
-      "reason": "Listed as a reverse shell target in a threat report",
-      "first_seen": "2026-10-01T04:35:34+00:00",
-      "last_seen": "2026-10-01T04:35:34+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Thehackernews",
-          "url": "https://thehackernews.com/2026/10/citrix-netscaler-post-exploitation.html",
-          "pub_date": "2026-10-01T04:35:34+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "ipv4",
-      "value": "64.94.85.67",
-      "confidence": "high",
-      "reason": "Listed as a source of payload retrieval in a threat report",
-      "first_seen": "2026-10-01T04:35:34+00:00",
-      "last_seen": "2026-10-01T04:35:34+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Thehackernews",
-          "url": "https://thehackernews.com/2026/10/citrix-netscaler-post-exploitation.html",
-          "pub_date": "2026-10-01T04:35:34+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "claudecode-developers.squarespace.com",
-      "confidence": "high",
-      "reason": "Listed as part of the attacker's phishing infrastructure",
-      "first_seen": "2026-09-30T17:00:25.403246+00:00",
-      "last_seen": "2026-09-30T17:00:25.403246+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "pushsecurity.com",
-          "url": "https://pushsecurity.com/blog/installfix",
-          "pub_date": "2026-09-30T17:00:25.403246+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "ClickFix"
-        },
-        {
-          "type": "campaign",
-          "value": "InstallFix"
-        },
-        {
-          "type": "malware",
-          "value": "ACR Stealer"
-        },
-        {
-          "type": "malware",
-          "value": "Amatera Stealer"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "claude-code-docs-dvlr2jpuuw.edgeone.app",
-      "confidence": "high",
-      "reason": "Listed as part of the attacker's phishing infrastructure",
-      "first_seen": "2026-09-30T17:00:25.403246+00:00",
-      "last_seen": "2026-09-30T17:00:25.403246+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "pushsecurity.com",
-          "url": "https://pushsecurity.com/blog/installfix",
-          "pub_date": "2026-09-30T17:00:25.403246+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "ClickFix"
-        },
-        {
-          "type": "campaign",
-          "value": "InstallFix"
-        },
-        {
-          "type": "malware",
-          "value": "ACR Stealer"
-        },
-        {
-          "type": "malware",
-          "value": "Amatera Stealer"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "claude-code-install.squarespace.com",
-      "confidence": "high",
-      "reason": "Listed as part of the attacker's phishing infrastructure",
-      "first_seen": "2026-09-30T17:00:25.403246+00:00",
-      "last_seen": "2026-09-30T17:00:25.403246+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "pushsecurity.com",
-          "url": "https://pushsecurity.com/blog/installfix",
-          "pub_date": "2026-09-30T17:00:25.403246+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "ClickFix"
-        },
-        {
-          "type": "campaign",
-          "value": "InstallFix"
-        },
-        {
-          "type": "malware",
-          "value": "ACR Stealer"
-        },
-        {
-          "type": "malware",
-          "value": "Amatera Stealer"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "claude-code-macos.com",
-      "confidence": "high",
-      "reason": "Listed as part of the attacker's phishing infrastructure",
-      "first_seen": "2026-09-30T17:00:25.403246+00:00",
-      "last_seen": "2026-09-30T17:00:25.403246+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "pushsecurity.com",
-          "url": "https://pushsecurity.com/blog/installfix",
-          "pub_date": "2026-09-30T17:00:25.403246+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "ClickFix"
-        },
-        {
-          "type": "campaign",
-          "value": "InstallFix"
-        },
-        {
-          "type": "malware",
-          "value": "ACR Stealer"
-        },
-        {
-          "type": "malware",
-          "value": "Amatera Stealer"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "claude-code-update.squarespace.com",
-      "confidence": "high",
-      "reason": "Listed as part of the attacker's phishing infrastructure",
-      "first_seen": "2026-09-30T17:00:25.403246+00:00",
-      "last_seen": "2026-09-30T17:00:25.403246+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "pushsecurity.com",
-          "url": "https://pushsecurity.com/blog/installfix",
-          "pub_date": "2026-09-30T17:00:25.403246+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "ClickFix"
-        },
-        {
-          "type": "campaign",
-          "value": "InstallFix"
-        },
-        {
-          "type": "malware",
-          "value": "ACR Stealer"
-        },
-        {
-          "type": "malware",
-          "value": "Amatera Stealer"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "claudecodeupdate.squarespace.com",
-      "confidence": "high",
-      "reason": "Listed as part of the attacker's phishing infrastructure",
-      "first_seen": "2026-09-30T17:00:25.403246+00:00",
-      "last_seen": "2026-09-30T17:00:25.403246+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "pushsecurity.com",
-          "url": "https://pushsecurity.com/blog/installfix",
-          "pub_date": "2026-09-30T17:00:25.403246+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "ClickFix"
-        },
-        {
-          "type": "campaign",
-          "value": "InstallFix"
-        },
-        {
-          "type": "malware",
-          "value": "ACR Stealer"
-        },
-        {
-          "type": "malware",
-          "value": "Amatera Stealer"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "claude.update-version.com",
-      "confidence": "high",
-      "reason": "Listed as a domain hosting malicious payload",
-      "first_seen": "2026-09-30T17:00:25.403246+00:00",
-      "last_seen": "2026-09-30T17:00:25.403246+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "pushsecurity.com",
-          "url": "https://pushsecurity.com/blog/installfix",
-          "pub_date": "2026-09-30T17:00:25.403246+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "ClickFix"
-        },
-        {
-          "type": "campaign",
-          "value": "InstallFix"
-        },
-        {
-          "type": "malware",
-          "value": "ACR Stealer"
-        },
-        {
-          "type": "malware",
-          "value": "Amatera Stealer"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "claulastver.squarespace.com",
-      "confidence": "high",
-      "reason": "Listed as part of the attacker's phishing infrastructure",
-      "first_seen": "2026-09-30T17:00:25.403246+00:00",
-      "last_seen": "2026-09-30T17:00:25.403246+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "pushsecurity.com",
-          "url": "https://pushsecurity.com/blog/installfix",
-          "pub_date": "2026-09-30T17:00:25.403246+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "ClickFix"
-        },
-        {
-          "type": "campaign",
-          "value": "InstallFix"
-        },
-        {
-          "type": "malware",
-          "value": "ACR Stealer"
-        },
-        {
-          "type": "malware",
-          "value": "Amatera Stealer"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "notebooklm-version-upd.squarespace.com",
-      "confidence": "high",
-      "reason": "Listed as part of the attacker's phishing infrastructure",
-      "first_seen": "2026-09-30T17:00:25.403246+00:00",
-      "last_seen": "2026-09-30T17:00:25.403246+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "pushsecurity.com",
-          "url": "https://pushsecurity.com/blog/installfix",
-          "pub_date": "2026-09-30T17:00:25.403246+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "ClickFix"
-        },
-        {
-          "type": "campaign",
-          "value": "InstallFix"
-        },
-        {
-          "type": "malware",
-          "value": "ACR Stealer"
-        },
-        {
-          "type": "malware",
-          "value": "Amatera Stealer"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "driverupdate.sbs",
-      "confidence": "high",
-      "reason": "Used to deliver a malicious ISO file in a phishing attack",
-      "first_seen": "2026-09-30T15:44:45+00:00",
-      "last_seen": "2026-09-30T15:44:45+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Hackread",
-          "url": "https://hackread.com/global-group-ransomware-winmerge-deploy-encryptor/",
-          "pub_date": "2026-09-30T15:44:45+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "globalsupportupdate.top",
-      "confidence": "high",
-      "reason": "Used to retrieve a ransomware encryptor",
-      "first_seen": "2026-09-30T15:44:45+00:00",
-      "last_seen": "2026-09-30T15:44:45+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Hackread",
-          "url": "https://hackread.com/global-group-ransomware-winmerge-deploy-encryptor/",
-          "pub_date": "2026-09-30T15:44:45+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "ipv4",
-      "value": "96.62.224.81",
-      "confidence": "high",
-      "reason": "Listed as a server IP in a ClickFix attack",
-      "first_seen": "2026-09-30T14:31:15+00:00",
-      "last_seen": "2026-09-30T14:31:15+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Techtimes",
-          "url": "https://www.techtimes.com/articles/328282/20260930/fake-chatgpt-model-real-chatgptcom-delivers-8-stage-rat-via-clickfix.htm",
-          "pub_date": "2026-09-30T14:31:15+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "pub-0173d1566dcd4fd49fa25f11f14bfe4c.r2.dev",
-      "confidence": "high",
-      "reason": "Used as a Cloudflare R2 staging domain by attackers",
-      "first_seen": "2026-09-30T14:13:51+00:00",
-      "last_seen": "2026-09-30T14:13:51+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Blog.Talosintelligence",
-          "url": "https://blog.talosintelligence.com/china-nexus-uat-11587-targets-government-and-policy-organizations-across-asia-with-antino-backdoor/",
-          "pub_date": "2026-09-30T14:13:51+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "UAT-11587"
-        },
-        {
-          "type": "industry",
-          "value": "Government"
-        },
-        {
-          "type": "malware",
-          "value": "Antino"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "wps-cn.com",
-      "confidence": "high",
-      "reason": "Used to deliver Antino builds, indicating attacker control",
-      "first_seen": "2026-09-30T14:13:51+00:00",
-      "last_seen": "2026-09-30T14:13:51+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Blog.Talosintelligence",
-          "url": "https://blog.talosintelligence.com/china-nexus-uat-11587-targets-government-and-policy-organizations-across-asia-with-antino-backdoor/",
-          "pub_date": "2026-09-30T14:13:51+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "UAT-11587"
-        },
-        {
-          "type": "industry",
-          "value": "Government"
-        },
-        {
-          "type": "malware",
-          "value": "Antino"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "www.wps-cn.com",
-      "confidence": "high",
-      "reason": "Used to deliver Antino builds, indicating attacker control",
-      "first_seen": "2026-09-30T14:13:51+00:00",
-      "last_seen": "2026-09-30T14:13:51+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Blog.Talosintelligence",
-          "url": "https://blog.talosintelligence.com/china-nexus-uat-11587-targets-government-and-policy-organizations-across-asia-with-antino-backdoor/",
-          "pub_date": "2026-09-30T14:13:51+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "UAT-11587"
-        },
-        {
-          "type": "industry",
-          "value": "Government"
-        },
-        {
-          "type": "malware",
-          "value": "Antino"
-        }
-      ]
-    },
-    {
-      "type": "ipv4",
-      "value": "103.27.110.220",
-      "confidence": "high",
-      "reason": "Historical IP serving Antino payloads",
-      "first_seen": "2026-09-30T14:13:51+00:00",
-      "last_seen": "2026-09-30T14:13:51+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Blog.Talosintelligence",
-          "url": "https://blog.talosintelligence.com/china-nexus-uat-11587-targets-government-and-policy-organizations-across-asia-with-antino-backdoor/",
-          "pub_date": "2026-09-30T14:13:51+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "UAT-11587"
-        },
-        {
-          "type": "industry",
-          "value": "Government"
-        },
-        {
-          "type": "malware",
-          "value": "Antino"
-        }
-      ]
     }
   ],
   "license": "CC-BY 4.0 \u2014 attribute ThreatCluster (https://threatcluster.io)",

@@ -1,4 +1,22 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason
+ipv4,192.162.199.243,high,2026-10-31T04:33:12.221801+00:00,2026-10-31T04:33:12.221801+00:00,1,,IP address hosted domains linked to fraudulent operations
+ipv4,192.64.119.163,high,2026-10-31T04:33:12.221801+00:00,2026-10-31T04:33:12.221801+00:00,1,,IP address associated with Magnetic Team's infrastructure
+ipv4,31.76.10.48,high,2026-10-31T04:33:12.221801+00:00,2026-10-31T04:33:12.221801+00:00,1,,IP address associated with Magnetic Team's infrastructure
+ipv4,31.77.159.194,high,2026-10-31T04:33:12.221801+00:00,2026-10-31T04:33:12.221801+00:00,1,,IP address associated with Magnetic Team's infrastructure
+ipv4,81.90.17.100,high,2026-10-31T04:33:12.221801+00:00,2026-10-31T04:33:12.221801+00:00,1,,IP address linked to fraudulent prediction market operations
+ipv4,87.120.165.193,high,2026-10-31T04:33:12.221801+00:00,2026-10-31T04:33:12.221801+00:00,1,,IP address associated with Magnetic Team's infrastructure
+ipv4,108.165.147.64,high,2026-10-13T17:33:11+00:00,2026-10-31T04:04:02.515808+00:00,4,,Identified as a host used by the attacker for operations
+ipv4,38.246.114.118,high,2026-10-30T23:02:29+00:00,2026-10-30T23:02:29+00:00,1,,Linked to a resale operation for stolen keys.
+ipv4,130.94.67.235,high,2026-10-30T17:50:37+00:00,2026-10-30T17:50:37+00:00,1,,Exposed IP address for a custom heap exploit.
+ipv4,79.43.178.226,high,2026-10-30T16:01:04.709172+00:00,2026-10-30T16:01:04.709172+00:00,1,,Used as a C2 server by the attacker
+ipv4,45.94.47.224,high,2026-10-30T16:01:04.505393+00:00,2026-10-30T16:01:04.505393+00:00,1,,Configured as a C2 server in the attacker's setup
+ipv4,87.120.219.26,high,2026-10-30T16:01:04.505393+00:00,2026-10-30T16:01:04.505393+00:00,1,,Identified as a C2 server in the attacker's configuration
+ipv4,45.14.227.58,high,2026-10-30T12:00:43.950153+00:00,2026-10-30T12:00:43.950153+00:00,1,,Associated with DAFOM malware
+ipv4,144.31.244.184,high,2026-10-30T11:13:57+00:00,2026-10-30T11:13:57+00:00,1,,Listed as part of C2 infrastructure
+ipv4,46.151.182.28,high,2026-10-30T11:13:57+00:00,2026-10-30T11:13:57+00:00,1,,Listed as part of C2 infrastructure
+ipv4,78.159.156.74,high,2026-10-30T11:13:57+00:00,2026-10-30T11:13:57+00:00,1,,Listed as an IP address used in a phishing campaign.
+ipv4,43.228.157.68,high,2026-10-28T02:58:27+00:00,2026-10-30T09:56:23+00:00,3,,Listed as part of C2 infrastructure
+ipv4,185.237.166.55,high,2026-10-30T05:45:56+00:00,2026-10-30T05:45:56+00:00,1,,Listed in a YARA rule for detecting threat activity.
 ipv4,13.163.205.35,high,2026-10-29T19:50:25+00:00,2026-10-29T19:50:25+00:00,1,,IP address where stolen data was left open on the internet
 ipv4,94.154.43.163,high,2026-10-29T16:07:42+00:00,2026-10-29T16:07:42+00:00,1,,Associated with malicious activity and listed on Spamhaus ASN-DROP
 ipv4,180.178.50.158,high,2026-10-29T15:40:51.693483+00:00,2026-10-29T15:40:51.693483+00:00,1,,IP address used for C2 infrastructure.
@@ -10,7 +28,6 @@ ipv4,16.5.0.226,high,2026-10-28T12:00:04+00:00,2026-10-28T12:00:04+00:00,1,,Iden
 ipv4,176.98.182.21,high,2026-10-28T12:00:04+00:00,2026-10-28T12:00:04+00:00,1,,Listed as part of malicious infrastructure to be blocked
 ipv4,45.90.13.11,high,2026-10-28T12:00:04+00:00,2026-10-28T12:00:04+00:00,1,,Listed as part of malicious infrastructure to be blocked
 ipv4,45.90.13.169,high,2026-10-28T12:00:04+00:00,2026-10-28T12:00:04+00:00,1,,Listed as part of malicious infrastructure to be blocked
-ipv4,43.228.157.68,high,2026-10-28T02:58:27+00:00,2026-10-28T06:31:20.619550+00:00,2,,Reported as a server used in exploitation infrastructure
 ipv4,189.249.195.244,high,2026-10-28T06:01:28+00:00,2026-10-28T06:01:28+00:00,1,,Identified as a Mythic-branded C2 interface
 ipv4,103.151.172.95,high,2026-10-27T13:32:48+00:00,2026-10-27T13:32:48+00:00,1,,Used in an exploit attempt against a honeypot.
 ipv4,85.11.187.35,high,2026-10-27T13:32:48+00:00,2026-10-27T13:32:48+00:00,1,,Used in an exploitation attempt.
@@ -93,7 +110,6 @@ ipv4,212.73.134.136,high,2026-10-20T21:22:02+00:00,2026-10-20T21:22:02+00:00,1,,
 ipv4,194.87.108.217,high,2026-10-20T11:06:25+00:00,2026-10-20T11:06:25+00:00,1,,Listed as a LegionRelay C2 server used in attacks
 ipv4,91.149.221.118,high,2026-10-20T11:06:25+00:00,2026-10-20T11:06:25+00:00,1,,Listed as a LegionRelay C2 server used in attacks
 ipv4,91.149.221.123,high,2026-10-20T11:06:25+00:00,2026-10-20T11:06:25+00:00,1,,Listed as a LegionRelay C2 server used in attacks
-ipv4,108.165.147.64,high,2026-10-13T17:33:11+00:00,2026-10-20T06:43:30.105344+00:00,4,,Identified as a host used by the attacker for operations
 ipv6,2a09:bac5:4e21:2e3c::49b:9,high,2026-10-19T20:02:56+00:00,2026-10-20T03:02:44.775826+00:00,2,,Listed as a source address for malicious requests
 ipv4,176.65.139.228,high,2026-10-19T23:53:48+00:00,2026-10-19T23:53:48+00:00,1,,Listed as part of an attacker's scanning infrastructure
 ipv4,78.128.113.14,high,2026-10-15T15:12:24.931033+00:00,2026-10-19T22:38:04.235893+00:00,1,,Used for plugin installations in malicious campaigns

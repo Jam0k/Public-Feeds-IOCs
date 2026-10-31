@@ -1,4 +1,22 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason
+ipv4,192.162.199.243,high,2026-10-31T04:33:12.221801+00:00,2026-10-31T04:33:12.221801+00:00,1,www.recordedfuture.com:2026-10-31,IP address hosted domains linked to fraudulent operations
+ipv4,192.64.119.163,high,2026-10-31T04:33:12.221801+00:00,2026-10-31T04:33:12.221801+00:00,1,www.recordedfuture.com:2026-10-31,IP address associated with Magnetic Team's infrastructure
+ipv4,31.76.10.48,high,2026-10-31T04:33:12.221801+00:00,2026-10-31T04:33:12.221801+00:00,1,www.recordedfuture.com:2026-10-31,IP address associated with Magnetic Team's infrastructure
+ipv4,31.77.159.194,high,2026-10-31T04:33:12.221801+00:00,2026-10-31T04:33:12.221801+00:00,1,www.recordedfuture.com:2026-10-31,IP address associated with Magnetic Team's infrastructure
+ipv4,81.90.17.100,high,2026-10-31T04:33:12.221801+00:00,2026-10-31T04:33:12.221801+00:00,1,www.recordedfuture.com:2026-10-31,IP address linked to fraudulent prediction market operations
+ipv4,87.120.165.193,high,2026-10-31T04:33:12.221801+00:00,2026-10-31T04:33:12.221801+00:00,1,www.recordedfuture.com:2026-10-31,IP address associated with Magnetic Team's infrastructure
+ipv4,108.165.147.64,high,2026-10-13T17:33:11+00:00,2026-10-31T04:04:02.515808+00:00,4,www.volexity.com:2026-10-31|Ccb.Belgium.Be:2026-10-14|Rescana:2026-10-14|Feeds.Feedburner:2026-10-13,Identified as a host used by the attacker for operations
+ipv4,38.246.114.118,high,2026-10-30T23:02:29+00:00,2026-10-30T23:02:29+00:00,1,Wiz:2026-10-30,Linked to a resale operation for stolen keys.
+ipv4,130.94.67.235,high,2026-10-30T17:50:37+00:00,2026-10-30T17:50:37+00:00,1,Reddit:2026-10-30,Exposed IP address for a custom heap exploit.
+ipv4,79.43.178.226,high,2026-10-30T16:01:04.709172+00:00,2026-10-30T16:01:04.709172+00:00,1,www.fortian.com.au:2026-10-30,Used as a C2 server by the attacker
+ipv4,45.94.47.224,high,2026-10-30T16:01:04.505393+00:00,2026-10-30T16:01:04.505393+00:00,1,www.esentire.com:2026-10-30,Configured as a C2 server in the attacker's setup
+ipv4,87.120.219.26,high,2026-10-30T16:01:04.505393+00:00,2026-10-30T16:01:04.505393+00:00,1,www.esentire.com:2026-10-30,Identified as a C2 server in the attacker's configuration
+ipv4,45.14.227.58,high,2026-10-30T12:00:43.950153+00:00,2026-10-30T12:00:43.950153+00:00,1,www.cisa.gov:2026-10-30,Associated with DAFOM malware
+ipv4,144.31.244.184,high,2026-10-30T11:13:57+00:00,2026-10-30T11:13:57+00:00,1,Bloglab.360:2026-10-30,Listed as part of C2 infrastructure
+ipv4,46.151.182.28,high,2026-10-30T11:13:57+00:00,2026-10-30T11:13:57+00:00,1,Bloglab.360:2026-10-30,Listed as part of C2 infrastructure
+ipv4,78.159.156.74,high,2026-10-30T11:13:57+00:00,2026-10-30T11:13:57+00:00,1,Bloglab.360:2026-10-30,Listed as an IP address used in a phishing campaign.
+ipv4,43.228.157.68,high,2026-10-28T02:58:27+00:00,2026-10-30T09:56:23+00:00,3,Bloglab.360:2026-10-30|www.infoworld.com:2026-10-28|Csoonline:2026-10-28,Listed as part of C2 infrastructure
+ipv4,185.237.166.55,high,2026-10-30T05:45:56+00:00,2026-10-30T05:45:56+00:00,1,Cyfirma:2026-10-30,Listed in a YARA rule for detecting threat activity.
 ipv4,13.163.205.35,high,2026-10-29T19:50:25+00:00,2026-10-29T19:50:25+00:00,1,Thehackernews:2026-10-29,IP address where stolen data was left open on the internet
 ipv4,94.154.43.163,high,2026-10-29T16:07:42+00:00,2026-10-29T16:07:42+00:00,1,Bitsight:2026-10-29,Associated with malicious activity and listed on Spamhaus ASN-DROP
 ipv4,180.178.50.158,high,2026-10-29T15:40:51.693483+00:00,2026-10-29T15:40:51.693483+00:00,1,safedep.io:2026-10-29,IP address used for C2 infrastructure.
@@ -10,7 +28,6 @@ ipv4,16.5.0.226,high,2026-10-28T12:00:04+00:00,2026-10-28T12:00:04+00:00,1,Cloud
 ipv4,176.98.182.21,high,2026-10-28T12:00:04+00:00,2026-10-28T12:00:04+00:00,1,Cloudsek:2026-10-28,Listed as part of malicious infrastructure to be blocked
 ipv4,45.90.13.11,high,2026-10-28T12:00:04+00:00,2026-10-28T12:00:04+00:00,1,Cloudsek:2026-10-28,Listed as part of malicious infrastructure to be blocked
 ipv4,45.90.13.169,high,2026-10-28T12:00:04+00:00,2026-10-28T12:00:04+00:00,1,Cloudsek:2026-10-28,Listed as part of malicious infrastructure to be blocked
-ipv4,43.228.157.68,high,2026-10-28T02:58:27+00:00,2026-10-28T06:31:20.619550+00:00,2,www.infoworld.com:2026-10-28|Csoonline:2026-10-28,Reported as a server used in exploitation infrastructure
 ipv4,189.249.195.244,high,2026-10-28T06:01:28+00:00,2026-10-28T06:01:28+00:00,1,Redpacketsecurity:2026-10-28,Identified as a Mythic-branded C2 interface
 ipv4,103.151.172.95,high,2026-10-27T13:32:48+00:00,2026-10-27T13:32:48+00:00,1,Wiz:2026-10-27,Used in an exploit attempt against a honeypot.
 ipv4,85.11.187.35,high,2026-10-27T13:32:48+00:00,2026-10-27T13:32:48+00:00,1,Wiz:2026-10-27,Used in an exploitation attempt.
@@ -93,7 +110,6 @@ ipv4,212.73.134.136,high,2026-10-20T21:22:02+00:00,2026-10-20T21:22:02+00:00,1,W
 ipv4,194.87.108.217,high,2026-10-20T11:06:25+00:00,2026-10-20T11:06:25+00:00,1,Thehackernews:2026-10-20,Listed as a LegionRelay C2 server used in attacks
 ipv4,91.149.221.118,high,2026-10-20T11:06:25+00:00,2026-10-20T11:06:25+00:00,1,Thehackernews:2026-10-20,Listed as a LegionRelay C2 server used in attacks
 ipv4,91.149.221.123,high,2026-10-20T11:06:25+00:00,2026-10-20T11:06:25+00:00,1,Thehackernews:2026-10-20,Listed as a LegionRelay C2 server used in attacks
-ipv4,108.165.147.64,high,2026-10-13T17:33:11+00:00,2026-10-20T06:43:30.105344+00:00,4,www.volexity.com:2026-10-20|Ccb.Belgium.Be:2026-10-14|Rescana:2026-10-14|Feeds.Feedburner:2026-10-13,Identified as a host used by the attacker for operations
 ipv6,2a09:bac5:4e21:2e3c::49b:9,high,2026-10-19T20:02:56+00:00,2026-10-20T03:02:44.775826+00:00,2,wordpress.org:2026-10-20|Wordfence:2026-10-19,Listed as a source address for malicious requests
 ipv4,176.65.139.228,high,2026-10-19T23:53:48+00:00,2026-10-19T23:53:48+00:00,1,Cybernewsai:2026-10-19,Listed as part of an attacker's scanning infrastructure
 ipv4,78.128.113.14,high,2026-10-19T22:38:04.235893+00:00,2026-10-19T22:38:04.235893+00:00,1,www.godaddy.com:2026-10-19,Used for plugin installations in malicious campaigns
@@ -109,7 +125,7 @@ ipv4,91.196.33.144,high,2026-10-15T15:12:22.476814+00:00,2026-10-15T15:12:22.476
 ipv4,47.18.167.159,high,2026-10-14T22:42:29+00:00,2026-10-14T22:42:29+00:00,1,Unit42.Paloaltonetworks:2026-10-14,Identified as known external staging infrastructure used by attackers
 ipv4,139.28.18.122,high,2026-10-14T20:05:01.148615+00:00,2026-10-14T20:05:01.148615+00:00,1,github.com:2026-10-14,IP address used in successful hacks on Nextcloud servers
 ipv4,193.124.203.226,high,2026-10-14T15:02:37.397197+00:00,2026-10-14T15:02:37.397197+00:00,1,www.group-ib.com:2026-10-14,IP address listed among others in a context suggesting attacker-controlled infrastructure.
-ipv4,138.124.123.87,high,2026-09-30T12:35:09+00:00,2026-10-14T13:59:36+00:00,1,Darktrace:2026-10-14,Listed as part of a malware delivery operation
+ipv4,138.124.123.87,high,2026-10-14T13:59:36+00:00,2026-10-14T13:59:36+00:00,1,Darktrace:2026-10-14,Used in suspicious WebDAV communication for malware delivery
 ipv4,77.110.127.205,high,2026-10-14T13:59:36+00:00,2026-10-14T13:59:36+00:00,1,Darktrace:2026-10-14,Involved in unusual C2 communication
 ipv4,158.94.209.19,high,2026-10-13T21:00:10+00:00,2026-10-13T21:00:10+00:00,1,Huntress:2026-10-13,IP address resolving to a credential collection endpoint.
 ipv4,193.178.159.129,high,2026-10-13T11:53:10.900000+00:00,2026-10-13T11:53:10.900000+00:00,1,Blog.Virustotal:2026-10-13,Listed as a C2 server for second-stage bot communication
@@ -211,10 +227,3 @@ ipv4,43.242.203.115,high,2026-10-02T16:30:51.440394+00:00,2026-10-02T16:30:51.44
 ipv4,79.141.169.187,high,2026-10-01T22:42:49+00:00,2026-10-02T10:12:19+00:00,4,Linkedin:2026-10-02|Forkast.News:2026-10-02|Thehackernews:2026-10-02|Bleepingcomputer:2026-10-01,Identified as an external server used by attackers for data exfiltration
 ipv4,36.106.166.96,high,2026-10-01T17:06:20+00:00,2026-10-01T17:06:20+00:00,1,Cyfirma:2026-10-01,Listed as a threat intelligence IOC
 ipv4,36.106.166.97,high,2026-10-01T17:06:20+00:00,2026-10-01T17:06:20+00:00,1,Cyfirma:2026-10-01,Listed as a threat intelligence IOC
-ipv4,31.217.177.172,high,2026-10-01T09:00:24+00:00,2026-10-01T09:00:24+00:00,1,Maltego:2026-10-01,Listed as a peer IP address associated with a ransomware group
-ipv4,23.27.143.20,high,2026-10-01T04:35:34+00:00,2026-10-01T04:35:34+00:00,1,Thehackernews:2026-10-01,Listed as a source of payload retrieval in a threat report
-ipv4,31.56.197.72,high,2026-10-01T04:35:34+00:00,2026-10-01T04:35:34+00:00,1,Thehackernews:2026-10-01,Listed as a source of payload retrieval in a threat report
-ipv4,45.141.21.130,high,2026-10-01T04:35:34+00:00,2026-10-01T04:35:34+00:00,1,Thehackernews:2026-10-01,Listed as a reverse shell target in a threat report
-ipv4,64.94.85.67,high,2026-10-01T04:35:34+00:00,2026-10-01T04:35:34+00:00,1,Thehackernews:2026-10-01,Listed as a source of payload retrieval in a threat report
-ipv4,96.62.224.81,high,2026-09-30T14:31:15+00:00,2026-09-30T14:31:15+00:00,1,Techtimes:2026-09-30,Listed as a server IP in a ClickFix attack
-ipv4,103.27.110.220,high,2026-09-30T14:13:51+00:00,2026-09-30T14:13:51+00:00,1,Blog.Talosintelligence:2026-09-30,Historical IP serving Antino payloads
