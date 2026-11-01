@@ -1,4 +1,13 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason
+domain,account-confirm.top,high,2026-10-31T23:01:08.987598+00:00,2026-10-31T23:01:08.987598+00:00,1,,Listed as a malicious domain used in attacks within the Shopify ecosystem
+domain,billing-confirm.top,high,2026-10-31T23:01:08.987598+00:00,2026-10-31T23:01:08.987598+00:00,1,,Listed as a malicious domain used in attacks within the Shopify ecosystem
+domain,checkout-guard.top,high,2026-10-31T23:01:08.987598+00:00,2026-10-31T23:01:08.987598+00:00,1,,Identified as a malicious domain in the investigation
+domain,checkout-secure.top,high,2026-10-31T23:01:08.987598+00:00,2026-10-31T23:01:08.987598+00:00,1,,Listed as a malicious domain used in attacks within the Shopify ecosystem
+domain,apexdefi.xyz,high,2026-10-31T16:26:27+00:00,2026-10-31T18:42:45+00:00,2,,"Listed as serving the drainer kit, indicating attacker control"
+domain,fluxbeam.xyz,high,2026-10-31T16:26:27+00:00,2026-10-31T18:42:45+00:00,2,,"Listed as serving the drainer kit, indicating attacker control"
+domain,stakepoint.app,high,2026-10-31T16:26:27+00:00,2026-10-31T18:42:45+00:00,2,,"Listed as serving the drainer kit, indicating attacker control"
+domain,supswap.xyz,high,2026-10-31T16:26:27+00:00,2026-10-31T18:42:45+00:00,2,,"Listed as serving the drainer kit, indicating attacker control"
+domain,quectel.us,high,2026-10-31T05:06:08+00:00,2026-10-31T05:06:08+00:00,1,,"Registered by a Telit employee and used to redirect traffic to a disparaging page, indicating attacker control."
 domain,atlascore-panel.net,high,2026-10-31T04:33:12.221801+00:00,2026-10-31T04:33:12.221801+00:00,1,,Domain used by AtlasCore administrators for hosting affiliate program panels
 domain,bravioar.com,high,2026-10-31T04:33:12.221801+00:00,2026-10-31T04:33:12.221801+00:00,1,,"Domain hosted casino-, exchange-, and prediction-market-related content linked to AtlasCore"
 domain,btwoteam.xyz,high,2026-10-31T04:33:12.221801+00:00,2026-10-31T04:33:12.221801+00:00,1,,Domain resolves to IP associated with Magnetic Team's administrative panel
@@ -27,11 +36,11 @@ domain,speculor.net,high,2026-10-31T04:33:12.221801+00:00,2026-10-31T04:33:12.22
 domain,tradingai.fun,high,2026-10-31T04:33:12.221801+00:00,2026-10-31T04:33:12.221801+00:00,1,,Domain hosted on IP associated with Magnetic Team's infrastructure
 domain,wettora.com,high,2026-10-31T04:33:12.221801+00:00,2026-10-31T04:33:12.221801+00:00,1,,"Domain hosted casino-, exchange-, and prediction-market-related content"
 domain,winzo.live,high,2026-10-31T04:33:12.221801+00:00,2026-10-31T04:33:12.221801+00:00,1,,"Domain hosted casino-, exchange-, and prediction-market-related content"
-domain,artex.nhhh.de,high,2026-10-30T23:02:29+00:00,2026-10-30T23:02:29+00:00,1,,Hosted a page related to autonomous penetration testing.
-domain,direct.465415.xyz,high,2026-10-30T23:02:29+00:00,2026-10-30T23:02:29+00:00,1,,Tied to a site used for LLM resale operations.
-domain,llm-routing.com,high,2026-10-30T23:02:29+00:00,2026-10-30T23:02:29+00:00,1,,"Listed as an active site advertising discounted access to frontier models, tied to malicious activity."
-domain,s3.xingjiabiapi.org,high,2026-10-30T23:02:29+00:00,2026-10-30T23:02:29+00:00,1,,Subdomain tied to a resale operation leveraging stolen keys.
-domain,xingjiabiapi.org,high,2026-10-30T23:02:29+00:00,2026-10-30T23:02:29+00:00,1,,Described as a resale operation leveraging stolen keys.
+domain,artex.nhhh.de,high,2026-10-30T23:02:29+00:00,2026-10-30T23:02:29+00:00,1,,Subdomain used to host a penetration testing console linked to attacker activity.
+domain,direct.465415.xyz,high,2026-10-30T23:02:29+00:00,2026-10-30T23:02:29+00:00,1,,Domain tied via passive DNS to attacker-controlled infrastructure.
+domain,llm-routing.com,high,2026-10-30T23:02:29+00:00,2026-10-30T23:02:29+00:00,1,,Domain used for LLM resale linked to attacker infrastructure.
+domain,s3.xingjiabiapi.org,high,2026-10-30T23:02:29+00:00,2026-10-30T23:02:29+00:00,1,,Subdomain used for conducting unauthorized key checks linked to attacker activity.
+domain,xingjiabiapi.org,high,2026-10-30T23:02:29+00:00,2026-10-30T23:02:29+00:00,1,,Domain associated with resale operation leveraging stolen keys.
 domain,betasignaltradingviewai.app,high,2026-10-29T22:39:27.698522+00:00,2026-10-30T16:01:04.709172+00:00,3,,Used in a phishing campaign with a fake TradingView AI signal
 domain,developer-update.app,high,2026-10-29T22:09:24+00:00,2026-10-30T16:01:03.448711+00:00,4,,Used to deliver a malicious payload via PowerShell
 domain,maxwintodaybtc.com,high,2026-10-29T22:09:24+00:00,2026-10-30T16:01:03.448711+00:00,4,,Specified as a C2 server in the attacker's configuration

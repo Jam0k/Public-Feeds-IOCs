@@ -1,7 +1,7 @@
 {
   "feed": "threatcluster-public-iocs",
   "version": 1,
-  "generated_at": "2026-10-31T12:23:49Z",
+  "generated_at": "2026-11-01T13:18:52Z",
   "filters": {
     "confidence": "high",
     "window_days": 30,
@@ -11,8 +11,282 @@
       "domain"
     ]
   },
-  "count": 1044,
+  "count": 959,
   "iocs": [
+    {
+      "type": "domain",
+      "value": "account-confirm.top",
+      "confidence": "high",
+      "reason": "Listed as a malicious domain used in attacks within the Shopify ecosystem",
+      "first_seen": "2026-10-31T23:01:08.987598+00:00",
+      "last_seen": "2026-10-31T23:01:08.987598+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.getswym.com",
+          "url": "https://www.getswym.com/resources/wishlist-plus-incident-faq",
+          "pub_date": "2026-10-31T23:01:08.987598+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "billing-confirm.top",
+      "confidence": "high",
+      "reason": "Listed as a malicious domain used in attacks within the Shopify ecosystem",
+      "first_seen": "2026-10-31T23:01:08.987598+00:00",
+      "last_seen": "2026-10-31T23:01:08.987598+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.getswym.com",
+          "url": "https://www.getswym.com/resources/wishlist-plus-incident-faq",
+          "pub_date": "2026-10-31T23:01:08.987598+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "checkout-guard.top",
+      "confidence": "high",
+      "reason": "Identified as a malicious domain in the investigation",
+      "first_seen": "2026-10-31T23:01:08.987598+00:00",
+      "last_seen": "2026-10-31T23:01:08.987598+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.getswym.com",
+          "url": "https://www.getswym.com/resources/wishlist-plus-incident-faq",
+          "pub_date": "2026-10-31T23:01:08.987598+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "checkout-secure.top",
+      "confidence": "high",
+      "reason": "Listed as a malicious domain used in attacks within the Shopify ecosystem",
+      "first_seen": "2026-10-31T23:01:08.987598+00:00",
+      "last_seen": "2026-10-31T23:01:08.987598+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.getswym.com",
+          "url": "https://www.getswym.com/resources/wishlist-plus-incident-faq",
+          "pub_date": "2026-10-31T23:01:08.987598+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "ipv4",
+      "value": "108.165.147.64",
+      "confidence": "high",
+      "reason": "Identified as a host used by the attacker for operations",
+      "first_seen": "2026-10-13T17:33:11+00:00",
+      "last_seen": "2026-10-31T20:30:51.184710+00:00",
+      "source_count": 4,
+      "sources": [
+        {
+          "source": "www.volexity.com",
+          "url": "https://www.volexity.com/blog/2026/10/13/a-series-of-unauthenticated-events-chained-exploitation-of-ivanti-connect-secure-zero-days/",
+          "pub_date": "2026-10-31T20:30:51.18471+00:00"
+        },
+        {
+          "source": "Ccb.Belgium.Be",
+          "url": "https://ccb.belgium.be/advisories/warning-actively-exploited-zero-day-vulnerability-ivanti-connect-secure-allows-remote",
+          "pub_date": "2026-10-14T16:28:35+00:00"
+        },
+        {
+          "source": "Rescana",
+          "url": "https://www.rescana.com/post/ivanti-connect-secure-zero-day-exploit-chain-enables-root-level-rce-and-credential-theft-on-fully-patched-vpn-appliances",
+          "pub_date": "2026-10-14T07:31:12+00:00"
+        },
+        {
+          "source": "Feeds.Feedburner",
+          "url": "https://thehackernews.com/2026/10/attacker-chains-three-ivanti-connect.html",
+          "pub_date": "2026-10-13T17:33:11+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2026-104935"
+        },
+        {
+          "type": "campaign",
+          "value": "Chained Exploitation Of Ivanti Connect Secure Zero-Days"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-106042"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-109412"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "apexdefi.xyz",
+      "confidence": "high",
+      "reason": "Listed as serving the drainer kit, indicating attacker control",
+      "first_seen": "2026-10-31T16:26:27+00:00",
+      "last_seen": "2026-10-31T18:42:45+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "Kucoin",
+          "url": "https://www.kucoin.com/news/flash/step-drainer-attack-spreads-to-10-more-websites-including-stonkfun-and-pickle-finance",
+          "pub_date": "2026-10-31T18:42:45+00:00"
+        },
+        {
+          "source": "Finance.Biggo",
+          "url": "https://finance.biggo.com/news/1ac397c0-7010-4cf5-a1f6-0483d68edc74",
+          "pub_date": "2026-10-31T16:26:27+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "industry",
+          "value": "Financial"
+        },
+        {
+          "type": "malware",
+          "value": "Step Drainer"
+        },
+        {
+          "type": "malware",
+          "value": "StepDrainer"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "fluxbeam.xyz",
+      "confidence": "high",
+      "reason": "Listed as serving the drainer kit, indicating attacker control",
+      "first_seen": "2026-10-31T16:26:27+00:00",
+      "last_seen": "2026-10-31T18:42:45+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "Kucoin",
+          "url": "https://www.kucoin.com/news/flash/step-drainer-attack-spreads-to-10-more-websites-including-stonkfun-and-pickle-finance",
+          "pub_date": "2026-10-31T18:42:45+00:00"
+        },
+        {
+          "source": "Finance.Biggo",
+          "url": "https://finance.biggo.com/news/1ac397c0-7010-4cf5-a1f6-0483d68edc74",
+          "pub_date": "2026-10-31T16:26:27+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "industry",
+          "value": "Financial"
+        },
+        {
+          "type": "malware",
+          "value": "Step Drainer"
+        },
+        {
+          "type": "malware",
+          "value": "StepDrainer"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "stakepoint.app",
+      "confidence": "high",
+      "reason": "Listed as serving the drainer kit, indicating attacker control",
+      "first_seen": "2026-10-31T16:26:27+00:00",
+      "last_seen": "2026-10-31T18:42:45+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "Kucoin",
+          "url": "https://www.kucoin.com/news/flash/step-drainer-attack-spreads-to-10-more-websites-including-stonkfun-and-pickle-finance",
+          "pub_date": "2026-10-31T18:42:45+00:00"
+        },
+        {
+          "source": "Finance.Biggo",
+          "url": "https://finance.biggo.com/news/1ac397c0-7010-4cf5-a1f6-0483d68edc74",
+          "pub_date": "2026-10-31T16:26:27+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "industry",
+          "value": "Financial"
+        },
+        {
+          "type": "malware",
+          "value": "Step Drainer"
+        },
+        {
+          "type": "malware",
+          "value": "StepDrainer"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "supswap.xyz",
+      "confidence": "high",
+      "reason": "Listed as serving the drainer kit, indicating attacker control",
+      "first_seen": "2026-10-31T16:26:27+00:00",
+      "last_seen": "2026-10-31T18:42:45+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "Kucoin",
+          "url": "https://www.kucoin.com/news/flash/step-drainer-attack-spreads-to-10-more-websites-including-stonkfun-and-pickle-finance",
+          "pub_date": "2026-10-31T18:42:45+00:00"
+        },
+        {
+          "source": "Finance.Biggo",
+          "url": "https://finance.biggo.com/news/1ac397c0-7010-4cf5-a1f6-0483d68edc74",
+          "pub_date": "2026-10-31T16:26:27+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "industry",
+          "value": "Financial"
+        },
+        {
+          "type": "malware",
+          "value": "Step Drainer"
+        },
+        {
+          "type": "malware",
+          "value": "StepDrainer"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "quectel.us",
+      "confidence": "high",
+      "reason": "Registered by a Telit employee and used to redirect traffic to a disparaging page, indicating attacker control.",
+      "first_seen": "2026-10-31T05:06:08+00:00",
+      "last_seen": "2026-10-31T05:06:08+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Kfgo",
+          "url": "https://kfgo.com/2026/10/30/chinese-wireless-firm-quectel-accuses-telit-of-smear-campaign-in-us-lawsuit/",
+          "pub_date": "2026-10-31T05:06:08+00:00"
+        }
+      ],
+      "tags": []
+    },
     {
       "type": "domain",
       "value": "atlascore-panel.net",
@@ -592,76 +866,32 @@
       "tags": []
     },
     {
-      "type": "ipv4",
-      "value": "108.165.147.64",
+      "type": "domain",
+      "value": "artex.nhhh.de",
       "confidence": "high",
-      "reason": "Identified as a host used by the attacker for operations",
-      "first_seen": "2026-10-13T17:33:11+00:00",
-      "last_seen": "2026-10-31T04:04:02.515808+00:00",
-      "source_count": 4,
+      "reason": "Subdomain used to host a penetration testing console linked to attacker activity.",
+      "first_seen": "2026-10-30T23:02:29+00:00",
+      "last_seen": "2026-10-30T23:02:29+00:00",
+      "source_count": 1,
       "sources": [
         {
-          "source": "www.volexity.com",
-          "url": "https://www.volexity.com/blog/2026/10/13/a-series-of-unauthenticated-events-chained-exploitation-of-ivanti-connect-secure-zero-days/",
-          "pub_date": "2026-10-31T04:04:02.515808+00:00"
-        },
-        {
-          "source": "Ccb.Belgium.Be",
-          "url": "https://ccb.belgium.be/advisories/warning-actively-exploited-zero-day-vulnerability-ivanti-connect-secure-allows-remote",
-          "pub_date": "2026-10-14T16:28:35+00:00"
-        },
-        {
-          "source": "Rescana",
-          "url": "https://www.rescana.com/post/ivanti-connect-secure-zero-day-exploit-chain-enables-root-level-rce-and-credential-theft-on-fully-patched-vpn-appliances",
-          "pub_date": "2026-10-14T07:31:12+00:00"
-        },
-        {
-          "source": "Feeds.Feedburner",
-          "url": "https://thehackernews.com/2026/10/attacker-chains-three-ivanti-connect.html",
-          "pub_date": "2026-10-13T17:33:11+00:00"
+          "source": "Wiz",
+          "url": "https://www.wiz.io/blog/black-october-for-ai-developer-platforms",
+          "pub_date": "2026-10-30T23:02:29+00:00"
         }
       ],
       "tags": [
         {
-          "type": "cve",
-          "value": "CVE-2026-104935"
-        },
-        {
           "type": "campaign",
-          "value": "Chained Exploitation Of Ivanti Connect Secure Zero-Days"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-106042"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-109412"
+          "value": "Mini-Shai Hulud Campaign"
         }
       ]
     },
     {
       "type": "domain",
-      "value": "artex.nhhh.de",
-      "confidence": "high",
-      "reason": "Hosted a page related to autonomous penetration testing.",
-      "first_seen": "2026-10-30T23:02:29+00:00",
-      "last_seen": "2026-10-30T23:02:29+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Wiz",
-          "url": "https://www.wiz.io/blog/black-october-for-ai-developer-platforms",
-          "pub_date": "2026-10-30T23:02:29+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
       "value": "direct.465415.xyz",
       "confidence": "high",
-      "reason": "Tied to a site used for LLM resale operations.",
+      "reason": "Domain tied via passive DNS to attacker-controlled infrastructure.",
       "first_seen": "2026-10-30T23:02:29+00:00",
       "last_seen": "2026-10-30T23:02:29+00:00",
       "source_count": 1,
@@ -672,13 +902,18 @@
           "pub_date": "2026-10-30T23:02:29+00:00"
         }
       ],
-      "tags": []
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Mini-Shai Hulud Campaign"
+        }
+      ]
     },
     {
       "type": "domain",
       "value": "llm-routing.com",
       "confidence": "high",
-      "reason": "Listed as an active site advertising discounted access to frontier models, tied to malicious activity.",
+      "reason": "Domain used for LLM resale linked to attacker infrastructure.",
       "first_seen": "2026-10-30T23:02:29+00:00",
       "last_seen": "2026-10-30T23:02:29+00:00",
       "source_count": 1,
@@ -689,13 +924,18 @@
           "pub_date": "2026-10-30T23:02:29+00:00"
         }
       ],
-      "tags": []
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Mini-Shai Hulud Campaign"
+        }
+      ]
     },
     {
       "type": "domain",
       "value": "s3.xingjiabiapi.org",
       "confidence": "high",
-      "reason": "Subdomain tied to a resale operation leveraging stolen keys.",
+      "reason": "Subdomain used for conducting unauthorized key checks linked to attacker activity.",
       "first_seen": "2026-10-30T23:02:29+00:00",
       "last_seen": "2026-10-30T23:02:29+00:00",
       "source_count": 1,
@@ -706,13 +946,18 @@
           "pub_date": "2026-10-30T23:02:29+00:00"
         }
       ],
-      "tags": []
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Mini-Shai Hulud Campaign"
+        }
+      ]
     },
     {
       "type": "domain",
       "value": "xingjiabiapi.org",
       "confidence": "high",
-      "reason": "Described as a resale operation leveraging stolen keys.",
+      "reason": "Domain associated with resale operation leveraging stolen keys.",
       "first_seen": "2026-10-30T23:02:29+00:00",
       "last_seen": "2026-10-30T23:02:29+00:00",
       "source_count": 1,
@@ -723,13 +968,18 @@
           "pub_date": "2026-10-30T23:02:29+00:00"
         }
       ],
-      "tags": []
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Mini-Shai Hulud Campaign"
+        }
+      ]
     },
     {
       "type": "ipv4",
       "value": "38.246.114.118",
       "confidence": "high",
-      "reason": "Linked to a resale operation for stolen keys.",
+      "reason": "IP address conducting unauthorized key checks linked to attacker activity.",
       "first_seen": "2026-10-30T23:02:29+00:00",
       "last_seen": "2026-10-30T23:02:29+00:00",
       "source_count": 1,
@@ -740,7 +990,12 @@
           "pub_date": "2026-10-30T23:02:29+00:00"
         }
       ],
-      "tags": []
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Mini-Shai Hulud Campaign"
+        }
+      ]
     },
     {
       "type": "ipv4",
@@ -24587,23 +24842,6 @@
       ]
     },
     {
-      "type": "domain",
-      "value": "xcai.pro",
-      "confidence": "high",
-      "reason": "Used as an LLM API proxy by attackers",
-      "first_seen": "2026-10-07T05:00:00+00:00",
-      "last_seen": "2026-10-07T05:00:00+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Crowdstrike",
-          "url": "https://www.crowdstrike.com/en-us/blog/unknown-threat-actor-uses-artex-to-target-south-korean-finance/",
-          "pub_date": "2026-10-07T05:00:00+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
       "type": "ipv4",
       "value": "38.244.50.120",
       "confidence": "high",
@@ -25570,1763 +25808,6 @@
           "value": "Poper Blocker"
         }
       ]
-    },
-    {
-      "type": "ipv4",
-      "value": "79.141.169.187",
-      "confidence": "high",
-      "reason": "Identified as an external server used by attackers for data exfiltration",
-      "first_seen": "2026-10-01T22:42:49+00:00",
-      "last_seen": "2026-10-02T10:12:19+00:00",
-      "source_count": 4,
-      "sources": [
-        {
-          "source": "Linkedin",
-          "url": "https://www.linkedin.com/pulse/fortinet-warns-fortimail-zero-day-attacks-critical-g9jje",
-          "pub_date": "2026-10-02T10:12:19+00:00"
-        },
-        {
-          "source": "Forkast.News",
-          "url": "https://forkast.news/fortimails-encryption-feature-was-supposed-to-protect-email-it-became-the-attack-vector/",
-          "pub_date": "2026-10-02T08:57:12+00:00"
-        },
-        {
-          "source": "Thehackernews",
-          "url": "https://thehackernews.com/2026/10/critical-fortimail-zero-day-flaw.html",
-          "pub_date": "2026-10-02T05:49:50+00:00"
-        },
-        {
-          "source": "Bleepingcomputer",
-          "url": "https://www.bleepingcomputer.com/news/security/fortinet-warns-of-critical-fortimail-flaw-exploited-in-zero-day-attacks/",
-          "pub_date": "2026-10-01T22:42:49+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "cve",
-          "value": "CVE-2026-104286"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-76504"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-85102"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-88771"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "presaie-roaringkitty.com",
-      "confidence": "high",
-      "reason": "Domain used by attackers to lure victims into a cryptocurrency scam.",
-      "first_seen": "2026-10-02T09:29:56+00:00",
-      "last_seen": "2026-10-02T09:29:56+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Bleepingcomputer",
-          "url": "https://www.bleepingcomputer.com/news/security/microsofts-x-account-hacked-in-crypto-token-pump-and-dump-scheme/",
-          "pub_date": "2026-10-02T09:29:56+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "driftshare.co",
-      "confidence": "high",
-      "reason": "Used as a first-stage domain in a phishing campaign by TA419",
-      "first_seen": "2026-10-01T17:10:27+00:00",
-      "last_seen": "2026-10-02T06:57:52+00:00",
-      "source_count": 2,
-      "sources": [
-        {
-          "source": "Crnasia",
-          "url": "https://www.crnasia.com/news/2026/cybersecurity/china-aligned-ta419-targets-us-ai-policy-experts-in-phishing",
-          "pub_date": "2026-10-02T06:57:52+00:00"
-        },
-        {
-          "source": "News.Lavx.Hu",
-          "url": "https://news.lavx.hu/article/chinese-espionage-group-ta419-spoofed-anthropic-executive-and-former-white-house-official-in-ai-phishing-campaign",
-          "pub_date": "2026-10-01T17:10:27+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "TA419"
-        },
-        {
-          "type": "malware",
-          "value": "Frameless BitB"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "globalfileshareplatform.com",
-      "confidence": "high",
-      "reason": "Used as a second-stage domain in a phishing campaign by TA419",
-      "first_seen": "2026-10-01T17:10:27+00:00",
-      "last_seen": "2026-10-02T06:57:52+00:00",
-      "source_count": 2,
-      "sources": [
-        {
-          "source": "Crnasia",
-          "url": "https://www.crnasia.com/news/2026/cybersecurity/china-aligned-ta419-targets-us-ai-policy-experts-in-phishing",
-          "pub_date": "2026-10-02T06:57:52+00:00"
-        },
-        {
-          "source": "News.Lavx.Hu",
-          "url": "https://news.lavx.hu/article/chinese-espionage-group-ta419-spoofed-anthropic-executive-and-former-white-house-official-in-ai-phishing-campaign",
-          "pub_date": "2026-10-01T17:10:27+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "TA419"
-        },
-        {
-          "type": "malware",
-          "value": "Frameless BitB"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "fingercakes4sale.store",
-      "confidence": "high",
-      "reason": "Domain contacted by malware for executing threat actor-controlled content",
-      "first_seen": "2026-10-02T03:44:40.584000+00:00",
-      "last_seen": "2026-10-02T03:44:40.584000+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Socket.Dev",
-          "url": "https://socket.dev/blog/glassworm-vscode-themes?utm_medium=feed",
-          "pub_date": "2026-10-02T03:44:40.584+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "malware",
-          "value": "Cosmic Nebula Themes"
-        },
-        {
-          "type": "malware",
-          "value": "GlassWorm"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "amazonprime-support.com",
-      "confidence": "high",
-      "reason": "Classified as a malicious domain targeting Amazon Prime brand.",
-      "first_seen": "2026-10-01T22:23:34+00:00",
-      "last_seen": "2026-10-01T22:23:34+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Blog.Checkpoint",
-          "url": "https://blog.checkpoint.com/research/amazon-prime-big-deal-days-2026-as-shopping-activity-surges-so-do-cyber-threats/",
-          "pub_date": "2026-10-01T22:23:34+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "amazonprimewindows.com",
-      "confidence": "high",
-      "reason": "Classified as a malicious domain targeting Amazon Prime brand.",
-      "first_seen": "2026-10-01T22:23:34+00:00",
-      "last_seen": "2026-10-01T22:23:34+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Blog.Checkpoint",
-          "url": "https://blog.checkpoint.com/research/amazon-prime-big-deal-days-2026-as-shopping-activity-surges-so-do-cyber-threats/",
-          "pub_date": "2026-10-01T22:23:34+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "primevideoamazon.com",
-      "confidence": "high",
-      "reason": "Classified as a malicious domain targeting Amazon Prime brand.",
-      "first_seen": "2026-10-01T22:23:34+00:00",
-      "last_seen": "2026-10-01T22:23:34+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Blog.Checkpoint",
-          "url": "https://blog.checkpoint.com/research/amazon-prime-big-deal-days-2026-as-shopping-activity-surges-so-do-cyber-threats/",
-          "pub_date": "2026-10-01T22:23:34+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "videoamazonprime.com",
-      "confidence": "high",
-      "reason": "Listed as a malicious domain targeting the Amazon Prime brand",
-      "first_seen": "2026-10-01T22:23:34+00:00",
-      "last_seen": "2026-10-01T22:23:34+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Blog.Checkpoint",
-          "url": "https://blog.checkpoint.com/research/amazon-prime-big-deal-days-2026-as-shopping-activity-surges-so-do-cyber-threats/",
-          "pub_date": "2026-10-01T22:23:34+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "fonts.chrorne.com",
-      "confidence": "high",
-      "reason": "Listed among domains related to Antino-related samples",
-      "first_seen": "2026-10-01T19:31:07.432240+00:00",
-      "last_seen": "2026-10-01T19:31:07.432240+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.security.com",
-          "url": "https://www.security.com/threat-intelligence/jewelbug-crypto-fraud-espionage",
-          "pub_date": "2026-10-01T19:31:07.43224+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Cl-sta-0049"
-        },
-        {
-          "type": "apt_group",
-          "value": "Earth Alux"
-        },
-        {
-          "type": "apt_group",
-          "value": "Jewelbug"
-        },
-        {
-          "type": "apt_group",
-          "value": "Ref7707"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "fonts.tarotfree101.top",
-      "confidence": "high",
-      "reason": "Listed among domains related to Antino-related samples",
-      "first_seen": "2026-10-01T19:31:07.432240+00:00",
-      "last_seen": "2026-10-01T19:31:07.432240+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.security.com",
-          "url": "https://www.security.com/threat-intelligence/jewelbug-crypto-fraud-espionage",
-          "pub_date": "2026-10-01T19:31:07.43224+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Cl-sta-0049"
-        },
-        {
-          "type": "apt_group",
-          "value": "Earth Alux"
-        },
-        {
-          "type": "apt_group",
-          "value": "Jewelbug"
-        },
-        {
-          "type": "apt_group",
-          "value": "Ref7707"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "microsoft-flash.com",
-      "confidence": "high",
-      "reason": "Listed among domains related to Antino-related samples",
-      "first_seen": "2026-10-01T19:31:07.432240+00:00",
-      "last_seen": "2026-10-01T19:31:07.432240+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.security.com",
-          "url": "https://www.security.com/threat-intelligence/jewelbug-crypto-fraud-espionage",
-          "pub_date": "2026-10-01T19:31:07.43224+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Cl-sta-0049"
-        },
-        {
-          "type": "apt_group",
-          "value": "Earth Alux"
-        },
-        {
-          "type": "apt_group",
-          "value": "Jewelbug"
-        },
-        {
-          "type": "apt_group",
-          "value": "Ref7707"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "pub-abfa7742e315485a98a5fafd6dbfb68e.r2.dev",
-      "confidence": "high",
-      "reason": "Listed among domains related to Antino-related samples",
-      "first_seen": "2026-10-01T19:31:07.432240+00:00",
-      "last_seen": "2026-10-01T19:31:07.432240+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.security.com",
-          "url": "https://www.security.com/threat-intelligence/jewelbug-crypto-fraud-espionage",
-          "pub_date": "2026-10-01T19:31:07.43224+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Cl-sta-0049"
-        },
-        {
-          "type": "apt_group",
-          "value": "Earth Alux"
-        },
-        {
-          "type": "apt_group",
-          "value": "Jewelbug"
-        },
-        {
-          "type": "apt_group",
-          "value": "Ref7707"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "robot.avbliud.com",
-      "confidence": "high",
-      "reason": "Listed among domains related to Antino-related samples",
-      "first_seen": "2026-10-01T19:31:07.432240+00:00",
-      "last_seen": "2026-10-01T19:31:07.432240+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.security.com",
-          "url": "https://www.security.com/threat-intelligence/jewelbug-crypto-fraud-espionage",
-          "pub_date": "2026-10-01T19:31:07.43224+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Cl-sta-0049"
-        },
-        {
-          "type": "apt_group",
-          "value": "Earth Alux"
-        },
-        {
-          "type": "apt_group",
-          "value": "Jewelbug"
-        },
-        {
-          "type": "apt_group",
-          "value": "Ref7707"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "www.f1ash.org.cn",
-      "confidence": "high",
-      "reason": "Listed among domains related to Antino-related samples",
-      "first_seen": "2026-10-01T19:31:07.432240+00:00",
-      "last_seen": "2026-10-01T19:31:07.432240+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.security.com",
-          "url": "https://www.security.com/threat-intelligence/jewelbug-crypto-fraud-espionage",
-          "pub_date": "2026-10-01T19:31:07.43224+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Cl-sta-0049"
-        },
-        {
-          "type": "apt_group",
-          "value": "Earth Alux"
-        },
-        {
-          "type": "apt_group",
-          "value": "Jewelbug"
-        },
-        {
-          "type": "apt_group",
-          "value": "Ref7707"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "sitemufl06qs0r4o.xyz",
-      "confidence": "high",
-      "reason": "Listed in an IOC table as part of phishing and scam infrastructure",
-      "first_seen": "2026-10-01T17:40:23+00:00",
-      "last_seen": "2026-10-01T17:40:23+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Malwarebytes",
-          "url": "https://www.malwarebytes.com/blog/threat-intel/2026/10/fake-xstocks-pendle-and-other-sites-bait-crypto-users-with-rewards-votes",
-          "pub_date": "2026-10-01T17:40:23+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "sitemui6m6bbj1bd.xyz",
-      "confidence": "high",
-      "reason": "Listed in an IOC table as part of phishing and scam infrastructure",
-      "first_seen": "2026-10-01T17:40:23+00:00",
-      "last_seen": "2026-10-01T17:40:23+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Malwarebytes",
-          "url": "https://www.malwarebytes.com/blog/threat-intel/2026/10/fake-xstocks-pendle-and-other-sites-bait-crypto-users-with-rewards-votes",
-          "pub_date": "2026-10-01T17:40:23+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "sitemui8go6g99bb.xyz",
-      "confidence": "high",
-      "reason": "Listed in an IOC table as part of phishing and scam infrastructure",
-      "first_seen": "2026-10-01T17:40:23+00:00",
-      "last_seen": "2026-10-01T17:40:23+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Malwarebytes",
-          "url": "https://www.malwarebytes.com/blog/threat-intel/2026/10/fake-xstocks-pendle-and-other-sites-bait-crypto-users-with-rewards-votes",
-          "pub_date": "2026-10-01T17:40:23+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "sitemuicitd4jrtr.xyz",
-      "confidence": "high",
-      "reason": "Listed in an IOC table as part of phishing and scam infrastructure",
-      "first_seen": "2026-10-01T17:40:23+00:00",
-      "last_seen": "2026-10-01T17:40:23+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Malwarebytes",
-          "url": "https://www.malwarebytes.com/blog/threat-intel/2026/10/fake-xstocks-pendle-and-other-sites-bait-crypto-users-with-rewards-votes",
-          "pub_date": "2026-10-01T17:40:23+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "sitemuidkr38kji0.xyz",
-      "confidence": "high",
-      "reason": "Listed in an IOC table as part of phishing and scam infrastructure",
-      "first_seen": "2026-10-01T17:40:23+00:00",
-      "last_seen": "2026-10-01T17:40:23+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Malwarebytes",
-          "url": "https://www.malwarebytes.com/blog/threat-intel/2026/10/fake-xstocks-pendle-and-other-sites-bait-crypto-users-with-rewards-votes",
-          "pub_date": "2026-10-01T17:40:23+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "sitemuidlij5urd0.xyz",
-      "confidence": "high",
-      "reason": "Listed in an IOC table as part of phishing and scam infrastructure",
-      "first_seen": "2026-10-01T17:40:23+00:00",
-      "last_seen": "2026-10-01T17:40:23+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Malwarebytes",
-          "url": "https://www.malwarebytes.com/blog/threat-intel/2026/10/fake-xstocks-pendle-and-other-sites-bait-crypto-users-with-rewards-votes",
-          "pub_date": "2026-10-01T17:40:23+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "sitemuif3pa5k4eh.xyz",
-      "confidence": "high",
-      "reason": "Listed in an IOC table as part of phishing and scam infrastructure",
-      "first_seen": "2026-10-01T17:40:23+00:00",
-      "last_seen": "2026-10-01T17:40:23+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Malwarebytes",
-          "url": "https://www.malwarebytes.com/blog/threat-intel/2026/10/fake-xstocks-pendle-and-other-sites-bait-crypto-users-with-rewards-votes",
-          "pub_date": "2026-10-01T17:40:23+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "sitemuife3h91vjj.xyz",
-      "confidence": "high",
-      "reason": "Listed in an IOC table as part of phishing and scam infrastructure",
-      "first_seen": "2026-10-01T17:40:23+00:00",
-      "last_seen": "2026-10-01T17:40:23+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Malwarebytes",
-          "url": "https://www.malwarebytes.com/blog/threat-intel/2026/10/fake-xstocks-pendle-and-other-sites-bait-crypto-users-with-rewards-votes",
-          "pub_date": "2026-10-01T17:40:23+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "sitemuioeefbyh3i.xyz",
-      "confidence": "high",
-      "reason": "Listed in an IOC table as part of phishing and scam infrastructure",
-      "first_seen": "2026-10-01T17:40:23+00:00",
-      "last_seen": "2026-10-01T17:40:23+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Malwarebytes",
-          "url": "https://www.malwarebytes.com/blog/threat-intel/2026/10/fake-xstocks-pendle-and-other-sites-bait-crypto-users-with-rewards-votes",
-          "pub_date": "2026-10-01T17:40:23+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "sitemuioi7005ekb.xyz",
-      "confidence": "high",
-      "reason": "Listed in an IOC table as part of phishing and scam infrastructure",
-      "first_seen": "2026-10-01T17:40:23+00:00",
-      "last_seen": "2026-10-01T17:40:23+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Malwarebytes",
-          "url": "https://www.malwarebytes.com/blog/threat-intel/2026/10/fake-xstocks-pendle-and-other-sites-bait-crypto-users-with-rewards-votes",
-          "pub_date": "2026-10-01T17:40:23+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "sitemuizkhpdbjnv.xyz",
-      "confidence": "high",
-      "reason": "Listed in an IOC table as part of phishing and scam infrastructure",
-      "first_seen": "2026-10-01T17:40:23+00:00",
-      "last_seen": "2026-10-01T17:40:23+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Malwarebytes",
-          "url": "https://www.malwarebytes.com/blog/threat-intel/2026/10/fake-xstocks-pendle-and-other-sites-bait-crypto-users-with-rewards-votes",
-          "pub_date": "2026-10-01T17:40:23+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "sitemuj1xencnin8.xyz",
-      "confidence": "high",
-      "reason": "Listed in an IOC table as part of phishing and scam infrastructure",
-      "first_seen": "2026-10-01T17:40:23+00:00",
-      "last_seen": "2026-10-01T17:40:23+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Malwarebytes",
-          "url": "https://www.malwarebytes.com/blog/threat-intel/2026/10/fake-xstocks-pendle-and-other-sites-bait-crypto-users-with-rewards-votes",
-          "pub_date": "2026-10-01T17:40:23+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "sitemuj7lzbasipw.xyz",
-      "confidence": "high",
-      "reason": "Listed in an IOC table as part of phishing and scam infrastructure",
-      "first_seen": "2026-10-01T17:40:23+00:00",
-      "last_seen": "2026-10-01T17:40:23+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Malwarebytes",
-          "url": "https://www.malwarebytes.com/blog/threat-intel/2026/10/fake-xstocks-pendle-and-other-sites-bait-crypto-users-with-rewards-votes",
-          "pub_date": "2026-10-01T17:40:23+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "sitemujbcz1nas1x.xyz",
-      "confidence": "high",
-      "reason": "Listed in an IOC table as part of phishing and scam infrastructure",
-      "first_seen": "2026-10-01T17:40:23+00:00",
-      "last_seen": "2026-10-01T17:40:23+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Malwarebytes",
-          "url": "https://www.malwarebytes.com/blog/threat-intel/2026/10/fake-xstocks-pendle-and-other-sites-bait-crypto-users-with-rewards-votes",
-          "pub_date": "2026-10-01T17:40:23+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "sitemujdi54aitrf.xyz",
-      "confidence": "high",
-      "reason": "Listed in an IOC table as part of phishing and scam infrastructure",
-      "first_seen": "2026-10-01T17:40:23+00:00",
-      "last_seen": "2026-10-01T17:40:23+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Malwarebytes",
-          "url": "https://www.malwarebytes.com/blog/threat-intel/2026/10/fake-xstocks-pendle-and-other-sites-bait-crypto-users-with-rewards-votes",
-          "pub_date": "2026-10-01T17:40:23+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "sitemujejvp4tp0x.xyz",
-      "confidence": "high",
-      "reason": "Listed in an IOC table as part of phishing and scam infrastructure",
-      "first_seen": "2026-10-01T17:40:23+00:00",
-      "last_seen": "2026-10-01T17:40:23+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Malwarebytes",
-          "url": "https://www.malwarebytes.com/blog/threat-intel/2026/10/fake-xstocks-pendle-and-other-sites-bait-crypto-users-with-rewards-votes",
-          "pub_date": "2026-10-01T17:40:23+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "sitemujffobdhxgj.xyz",
-      "confidence": "high",
-      "reason": "Listed in an IOC table as part of phishing and scam infrastructure",
-      "first_seen": "2026-10-01T17:40:23+00:00",
-      "last_seen": "2026-10-01T17:40:23+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Malwarebytes",
-          "url": "https://www.malwarebytes.com/blog/threat-intel/2026/10/fake-xstocks-pendle-and-other-sites-bait-crypto-users-with-rewards-votes",
-          "pub_date": "2026-10-01T17:40:23+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "sitemuji07m137aw.xyz",
-      "confidence": "high",
-      "reason": "Listed in an IOC table as part of phishing and scam infrastructure",
-      "first_seen": "2026-10-01T17:40:23+00:00",
-      "last_seen": "2026-10-01T17:40:23+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Malwarebytes",
-          "url": "https://www.malwarebytes.com/blog/threat-intel/2026/10/fake-xstocks-pendle-and-other-sites-bait-crypto-users-with-rewards-votes",
-          "pub_date": "2026-10-01T17:40:23+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "sitemujoqrmsm0et.xyz",
-      "confidence": "high",
-      "reason": "Listed in an IOC table as part of phishing and scam infrastructure",
-      "first_seen": "2026-10-01T17:40:23+00:00",
-      "last_seen": "2026-10-01T17:40:23+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Malwarebytes",
-          "url": "https://www.malwarebytes.com/blog/threat-intel/2026/10/fake-xstocks-pendle-and-other-sites-bait-crypto-users-with-rewards-votes",
-          "pub_date": "2026-10-01T17:40:23+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "sitemujrfn7witew.xyz",
-      "confidence": "high",
-      "reason": "Listed in an IOC table as part of phishing and scam infrastructure",
-      "first_seen": "2026-10-01T17:40:23+00:00",
-      "last_seen": "2026-10-01T17:40:23+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Malwarebytes",
-          "url": "https://www.malwarebytes.com/blog/threat-intel/2026/10/fake-xstocks-pendle-and-other-sites-bait-crypto-users-with-rewards-votes",
-          "pub_date": "2026-10-01T17:40:23+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "sitemujsm7brhwh0.xyz",
-      "confidence": "high",
-      "reason": "Listed in an IOC table as part of phishing and scam infrastructure",
-      "first_seen": "2026-10-01T17:40:23+00:00",
-      "last_seen": "2026-10-01T17:40:23+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Malwarebytes",
-          "url": "https://www.malwarebytes.com/blog/threat-intel/2026/10/fake-xstocks-pendle-and-other-sites-bait-crypto-users-with-rewards-votes",
-          "pub_date": "2026-10-01T17:40:23+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "sitemujtcvh5q9fj.xyz",
-      "confidence": "high",
-      "reason": "Listed in an IOC table as part of phishing and scam infrastructure",
-      "first_seen": "2026-10-01T17:40:23+00:00",
-      "last_seen": "2026-10-01T17:40:23+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Malwarebytes",
-          "url": "https://www.malwarebytes.com/blog/threat-intel/2026/10/fake-xstocks-pendle-and-other-sites-bait-crypto-users-with-rewards-votes",
-          "pub_date": "2026-10-01T17:40:23+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "sitemujtd8ingh2b.xyz",
-      "confidence": "high",
-      "reason": "Listed in an IOC table as part of phishing and scam infrastructure",
-      "first_seen": "2026-10-01T17:40:23+00:00",
-      "last_seen": "2026-10-01T17:40:23+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Malwarebytes",
-          "url": "https://www.malwarebytes.com/blog/threat-intel/2026/10/fake-xstocks-pendle-and-other-sites-bait-crypto-users-with-rewards-votes",
-          "pub_date": "2026-10-01T17:40:23+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "sitemujtdkvy6c7n.xyz",
-      "confidence": "high",
-      "reason": "Listed in an IOC table as part of phishing and scam infrastructure",
-      "first_seen": "2026-10-01T17:40:23+00:00",
-      "last_seen": "2026-10-01T17:40:23+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Malwarebytes",
-          "url": "https://www.malwarebytes.com/blog/threat-intel/2026/10/fake-xstocks-pendle-and-other-sites-bait-crypto-users-with-rewards-votes",
-          "pub_date": "2026-10-01T17:40:23+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "sitemujufht1ntj4.xyz",
-      "confidence": "high",
-      "reason": "Listed in an IOC table as part of phishing and scam infrastructure",
-      "first_seen": "2026-10-01T17:40:23+00:00",
-      "last_seen": "2026-10-01T17:40:23+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Malwarebytes",
-          "url": "https://www.malwarebytes.com/blog/threat-intel/2026/10/fake-xstocks-pendle-and-other-sites-bait-crypto-users-with-rewards-votes",
-          "pub_date": "2026-10-01T17:40:23+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "sitemujufs1975v4.xyz",
-      "confidence": "high",
-      "reason": "Listed in an IOC table as part of phishing and scam infrastructure",
-      "first_seen": "2026-10-01T17:40:23+00:00",
-      "last_seen": "2026-10-01T17:40:23+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Malwarebytes",
-          "url": "https://www.malwarebytes.com/blog/threat-intel/2026/10/fake-xstocks-pendle-and-other-sites-bait-crypto-users-with-rewards-votes",
-          "pub_date": "2026-10-01T17:40:23+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "sitemujug76lkyke.xyz",
-      "confidence": "high",
-      "reason": "Listed in an IOC table as part of phishing and scam infrastructure",
-      "first_seen": "2026-10-01T17:40:23+00:00",
-      "last_seen": "2026-10-01T17:40:23+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Malwarebytes",
-          "url": "https://www.malwarebytes.com/blog/threat-intel/2026/10/fake-xstocks-pendle-and-other-sites-bait-crypto-users-with-rewards-votes",
-          "pub_date": "2026-10-01T17:40:23+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "sitemujumvtmjaf1.xyz",
-      "confidence": "high",
-      "reason": "Listed in an IOC table as part of phishing and scam infrastructure",
-      "first_seen": "2026-10-01T17:40:23+00:00",
-      "last_seen": "2026-10-01T17:40:23+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Malwarebytes",
-          "url": "https://www.malwarebytes.com/blog/threat-intel/2026/10/fake-xstocks-pendle-and-other-sites-bait-crypto-users-with-rewards-votes",
-          "pub_date": "2026-10-01T17:40:23+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "sitemujuncdlpnng.xyz",
-      "confidence": "high",
-      "reason": "Listed in an IOC table as part of phishing and scam infrastructure",
-      "first_seen": "2026-10-01T17:40:23+00:00",
-      "last_seen": "2026-10-01T17:40:23+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Malwarebytes",
-          "url": "https://www.malwarebytes.com/blog/threat-intel/2026/10/fake-xstocks-pendle-and-other-sites-bait-crypto-users-with-rewards-votes",
-          "pub_date": "2026-10-01T17:40:23+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "sitemujuno47vpud.xyz",
-      "confidence": "high",
-      "reason": "Listed in an IOC table as part of phishing and scam infrastructure",
-      "first_seen": "2026-10-01T17:40:23+00:00",
-      "last_seen": "2026-10-01T17:40:23+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Malwarebytes",
-          "url": "https://www.malwarebytes.com/blog/threat-intel/2026/10/fake-xstocks-pendle-and-other-sites-bait-crypto-users-with-rewards-votes",
-          "pub_date": "2026-10-01T17:40:23+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "sitemujunzgjapds.xyz",
-      "confidence": "high",
-      "reason": "Listed in an IOC table as part of phishing and scam infrastructure",
-      "first_seen": "2026-10-01T17:40:23+00:00",
-      "last_seen": "2026-10-01T17:40:23+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Malwarebytes",
-          "url": "https://www.malwarebytes.com/blog/threat-intel/2026/10/fake-xstocks-pendle-and-other-sites-bait-crypto-users-with-rewards-votes",
-          "pub_date": "2026-10-01T17:40:23+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "sitemujw19idqe01.xyz",
-      "confidence": "high",
-      "reason": "Listed in an IOC table as part of phishing and scam infrastructure",
-      "first_seen": "2026-10-01T17:40:23+00:00",
-      "last_seen": "2026-10-01T17:40:23+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Malwarebytes",
-          "url": "https://www.malwarebytes.com/blog/threat-intel/2026/10/fake-xstocks-pendle-and-other-sites-bait-crypto-users-with-rewards-votes",
-          "pub_date": "2026-10-01T17:40:23+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "sitemujw1uspghl1.xyz",
-      "confidence": "high",
-      "reason": "Listed in an IOC table as part of phishing and scam infrastructure",
-      "first_seen": "2026-10-01T17:40:23+00:00",
-      "last_seen": "2026-10-01T17:40:23+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Malwarebytes",
-          "url": "https://www.malwarebytes.com/blog/threat-intel/2026/10/fake-xstocks-pendle-and-other-sites-bait-crypto-users-with-rewards-votes",
-          "pub_date": "2026-10-01T17:40:23+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "sitemujwcvm5ufu8.xyz",
-      "confidence": "high",
-      "reason": "Listed in an IOC table as part of phishing and scam infrastructure",
-      "first_seen": "2026-10-01T17:40:23+00:00",
-      "last_seen": "2026-10-01T17:40:23+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Malwarebytes",
-          "url": "https://www.malwarebytes.com/blog/threat-intel/2026/10/fake-xstocks-pendle-and-other-sites-bait-crypto-users-with-rewards-votes",
-          "pub_date": "2026-10-01T17:40:23+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "sitemujxjlv2lmhh.xyz",
-      "confidence": "high",
-      "reason": "Listed in an IOC table as part of phishing and scam infrastructure",
-      "first_seen": "2026-10-01T17:40:23+00:00",
-      "last_seen": "2026-10-01T17:40:23+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Malwarebytes",
-          "url": "https://www.malwarebytes.com/blog/threat-intel/2026/10/fake-xstocks-pendle-and-other-sites-bait-crypto-users-with-rewards-votes",
-          "pub_date": "2026-10-01T17:40:23+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "sitemuk3jcm1olr8.xyz",
-      "confidence": "high",
-      "reason": "Listed in an IOC table as part of phishing and scam infrastructure",
-      "first_seen": "2026-10-01T17:40:23+00:00",
-      "last_seen": "2026-10-01T17:40:23+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Malwarebytes",
-          "url": "https://www.malwarebytes.com/blog/threat-intel/2026/10/fake-xstocks-pendle-and-other-sites-bait-crypto-users-with-rewards-votes",
-          "pub_date": "2026-10-01T17:40:23+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "sitemuk3jpe1eph7.xyz",
-      "confidence": "high",
-      "reason": "Listed in an IOC table as part of phishing and scam infrastructure",
-      "first_seen": "2026-10-01T17:40:23+00:00",
-      "last_seen": "2026-10-01T17:40:23+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Malwarebytes",
-          "url": "https://www.malwarebytes.com/blog/threat-intel/2026/10/fake-xstocks-pendle-and-other-sites-bait-crypto-users-with-rewards-votes",
-          "pub_date": "2026-10-01T17:40:23+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "sitemuk3z1hh2tvn.xyz",
-      "confidence": "high",
-      "reason": "Listed in an IOC table as part of phishing and scam infrastructure",
-      "first_seen": "2026-10-01T17:40:23+00:00",
-      "last_seen": "2026-10-01T17:40:23+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Malwarebytes",
-          "url": "https://www.malwarebytes.com/blog/threat-intel/2026/10/fake-xstocks-pendle-and-other-sites-bait-crypto-users-with-rewards-votes",
-          "pub_date": "2026-10-01T17:40:23+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "sitemuk3zjrr2ufy.xyz",
-      "confidence": "high",
-      "reason": "Listed in an IOC table as part of phishing and scam infrastructure",
-      "first_seen": "2026-10-01T17:40:23+00:00",
-      "last_seen": "2026-10-01T17:40:23+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Malwarebytes",
-          "url": "https://www.malwarebytes.com/blog/threat-intel/2026/10/fake-xstocks-pendle-and-other-sites-bait-crypto-users-with-rewards-votes",
-          "pub_date": "2026-10-01T17:40:23+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "sitemuk3zu5776gi.xyz",
-      "confidence": "high",
-      "reason": "Listed in an IOC table as part of phishing and scam infrastructure",
-      "first_seen": "2026-10-01T17:40:23+00:00",
-      "last_seen": "2026-10-01T17:40:23+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Malwarebytes",
-          "url": "https://www.malwarebytes.com/blog/threat-intel/2026/10/fake-xstocks-pendle-and-other-sites-bait-crypto-users-with-rewards-votes",
-          "pub_date": "2026-10-01T17:40:23+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "sitemuk6zd201nsw.xyz",
-      "confidence": "high",
-      "reason": "Listed in an IOC table as part of phishing and scam infrastructure",
-      "first_seen": "2026-10-01T17:40:23+00:00",
-      "last_seen": "2026-10-01T17:40:23+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Malwarebytes",
-          "url": "https://www.malwarebytes.com/blog/threat-intel/2026/10/fake-xstocks-pendle-and-other-sites-bait-crypto-users-with-rewards-votes",
-          "pub_date": "2026-10-01T17:40:23+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "sitemuk7f31386dx.xyz",
-      "confidence": "high",
-      "reason": "Listed in an IOC table as part of phishing and scam infrastructure",
-      "first_seen": "2026-10-01T17:40:23+00:00",
-      "last_seen": "2026-10-01T17:40:23+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Malwarebytes",
-          "url": "https://www.malwarebytes.com/blog/threat-intel/2026/10/fake-xstocks-pendle-and-other-sites-bait-crypto-users-with-rewards-votes",
-          "pub_date": "2026-10-01T17:40:23+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "sitemuk7fi1dcrp4.xyz",
-      "confidence": "high",
-      "reason": "Listed in an IOC table as part of phishing and scam infrastructure",
-      "first_seen": "2026-10-01T17:40:23+00:00",
-      "last_seen": "2026-10-01T17:40:23+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Malwarebytes",
-          "url": "https://www.malwarebytes.com/blog/threat-intel/2026/10/fake-xstocks-pendle-and-other-sites-bait-crypto-users-with-rewards-votes",
-          "pub_date": "2026-10-01T17:40:23+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "sitemuk7fvnvihra.xyz",
-      "confidence": "high",
-      "reason": "Listed in an IOC table as part of phishing and scam infrastructure",
-      "first_seen": "2026-10-01T17:40:23+00:00",
-      "last_seen": "2026-10-01T17:40:23+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Malwarebytes",
-          "url": "https://www.malwarebytes.com/blog/threat-intel/2026/10/fake-xstocks-pendle-and-other-sites-bait-crypto-users-with-rewards-votes",
-          "pub_date": "2026-10-01T17:40:23+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "sitemuk7xbyszpzj.xyz",
-      "confidence": "high",
-      "reason": "Listed in an IOC table as part of phishing and scam infrastructure",
-      "first_seen": "2026-10-01T17:40:23+00:00",
-      "last_seen": "2026-10-01T17:40:23+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Malwarebytes",
-          "url": "https://www.malwarebytes.com/blog/threat-intel/2026/10/fake-xstocks-pendle-and-other-sites-bait-crypto-users-with-rewards-votes",
-          "pub_date": "2026-10-01T17:40:23+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "sitemuk7y434m4om.xyz",
-      "confidence": "high",
-      "reason": "Listed in an IOC table as part of phishing and scam infrastructure",
-      "first_seen": "2026-10-01T17:40:23+00:00",
-      "last_seen": "2026-10-01T17:40:23+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Malwarebytes",
-          "url": "https://www.malwarebytes.com/blog/threat-intel/2026/10/fake-xstocks-pendle-and-other-sites-bait-crypto-users-with-rewards-votes",
-          "pub_date": "2026-10-01T17:40:23+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "sitemuk7yi5eqn74.xyz",
-      "confidence": "high",
-      "reason": "Listed in an IOC table as part of phishing and scam infrastructure",
-      "first_seen": "2026-10-01T17:40:23+00:00",
-      "last_seen": "2026-10-01T17:40:23+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Malwarebytes",
-          "url": "https://www.malwarebytes.com/blog/threat-intel/2026/10/fake-xstocks-pendle-and-other-sites-bait-crypto-users-with-rewards-votes",
-          "pub_date": "2026-10-01T17:40:23+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "sitemuk7ys6db9qj.xyz",
-      "confidence": "high",
-      "reason": "Listed in an IOC table as part of phishing and scam infrastructure",
-      "first_seen": "2026-10-01T17:40:23+00:00",
-      "last_seen": "2026-10-01T17:40:23+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Malwarebytes",
-          "url": "https://www.malwarebytes.com/blog/threat-intel/2026/10/fake-xstocks-pendle-and-other-sites-bait-crypto-users-with-rewards-votes",
-          "pub_date": "2026-10-01T17:40:23+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "sitemuk9ayiwadjz.xyz",
-      "confidence": "high",
-      "reason": "Listed in an IOC table as part of phishing and scam infrastructure",
-      "first_seen": "2026-10-01T17:40:23+00:00",
-      "last_seen": "2026-10-01T17:40:23+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Malwarebytes",
-          "url": "https://www.malwarebytes.com/blog/threat-intel/2026/10/fake-xstocks-pendle-and-other-sites-bait-crypto-users-with-rewards-votes",
-          "pub_date": "2026-10-01T17:40:23+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "sitemuk9c4oppeco.xyz",
-      "confidence": "high",
-      "reason": "Listed in an IOC table as part of phishing and scam infrastructure",
-      "first_seen": "2026-10-01T17:40:23+00:00",
-      "last_seen": "2026-10-01T17:40:23+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Malwarebytes",
-          "url": "https://www.malwarebytes.com/blog/threat-intel/2026/10/fake-xstocks-pendle-and-other-sites-bait-crypto-users-with-rewards-votes",
-          "pub_date": "2026-10-01T17:40:23+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "sitemukh5awm67rj.xyz",
-      "confidence": "high",
-      "reason": "Listed in an IOC table as part of phishing and scam infrastructure",
-      "first_seen": "2026-10-01T17:40:23+00:00",
-      "last_seen": "2026-10-01T17:40:23+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Malwarebytes",
-          "url": "https://www.malwarebytes.com/blog/threat-intel/2026/10/fake-xstocks-pendle-and-other-sites-bait-crypto-users-with-rewards-votes",
-          "pub_date": "2026-10-01T17:40:23+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "sitemukpy2hpmpwv.xyz",
-      "confidence": "high",
-      "reason": "Listed in an IOC table as part of phishing and scam infrastructure",
-      "first_seen": "2026-10-01T17:40:23+00:00",
-      "last_seen": "2026-10-01T17:40:23+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Malwarebytes",
-          "url": "https://www.malwarebytes.com/blog/threat-intel/2026/10/fake-xstocks-pendle-and-other-sites-bait-crypto-users-with-rewards-votes",
-          "pub_date": "2026-10-01T17:40:23+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "sitemukrod1am6ez.xyz",
-      "confidence": "high",
-      "reason": "Listed in an IOC table as part of phishing and scam infrastructure",
-      "first_seen": "2026-10-01T17:40:23+00:00",
-      "last_seen": "2026-10-01T17:40:23+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Malwarebytes",
-          "url": "https://www.malwarebytes.com/blog/threat-intel/2026/10/fake-xstocks-pendle-and-other-sites-bait-crypto-users-with-rewards-votes",
-          "pub_date": "2026-10-01T17:40:23+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "sitemukvxv7j5hmv.xyz",
-      "confidence": "high",
-      "reason": "Listed in an IOC table as part of phishing and scam infrastructure",
-      "first_seen": "2026-10-01T17:40:23+00:00",
-      "last_seen": "2026-10-01T17:40:23+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Malwarebytes",
-          "url": "https://www.malwarebytes.com/blog/threat-intel/2026/10/fake-xstocks-pendle-and-other-sites-bait-crypto-users-with-rewards-votes",
-          "pub_date": "2026-10-01T17:40:23+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "sitemukvy7wudsqb.xyz",
-      "confidence": "high",
-      "reason": "Listed in an IOC table as part of phishing and scam infrastructure",
-      "first_seen": "2026-10-01T17:40:23+00:00",
-      "last_seen": "2026-10-01T17:40:23+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Malwarebytes",
-          "url": "https://www.malwarebytes.com/blog/threat-intel/2026/10/fake-xstocks-pendle-and-other-sites-bait-crypto-users-with-rewards-votes",
-          "pub_date": "2026-10-01T17:40:23+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "sitemukww7ivnaji.xyz",
-      "confidence": "high",
-      "reason": "Listed in an IOC table as part of phishing and scam infrastructure",
-      "first_seen": "2026-10-01T17:40:23+00:00",
-      "last_seen": "2026-10-01T17:40:23+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Malwarebytes",
-          "url": "https://www.malwarebytes.com/blog/threat-intel/2026/10/fake-xstocks-pendle-and-other-sites-bait-crypto-users-with-rewards-votes",
-          "pub_date": "2026-10-01T17:40:23+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "sitemukwxih8302f.xyz",
-      "confidence": "high",
-      "reason": "Listed in an IOC table as part of phishing and scam infrastructure",
-      "first_seen": "2026-10-01T17:40:23+00:00",
-      "last_seen": "2026-10-01T17:40:23+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Malwarebytes",
-          "url": "https://www.malwarebytes.com/blog/threat-intel/2026/10/fake-xstocks-pendle-and-other-sites-bait-crypto-users-with-rewards-votes",
-          "pub_date": "2026-10-01T17:40:23+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "sitemul94tcv4l80.xyz",
-      "confidence": "high",
-      "reason": "Listed in an IOC table as part of phishing and scam infrastructure",
-      "first_seen": "2026-10-01T17:40:23+00:00",
-      "last_seen": "2026-10-01T17:40:23+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Malwarebytes",
-          "url": "https://www.malwarebytes.com/blog/threat-intel/2026/10/fake-xstocks-pendle-and-other-sites-bait-crypto-users-with-rewards-votes",
-          "pub_date": "2026-10-01T17:40:23+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "sitemul95f18sowo.xyz",
-      "confidence": "high",
-      "reason": "Listed in an IOC table as part of phishing and scam infrastructure",
-      "first_seen": "2026-10-01T17:40:23+00:00",
-      "last_seen": "2026-10-01T17:40:23+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Malwarebytes",
-          "url": "https://www.malwarebytes.com/blog/threat-intel/2026/10/fake-xstocks-pendle-and-other-sites-bait-crypto-users-with-rewards-votes",
-          "pub_date": "2026-10-01T17:40:23+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "sitemul95pxqgmm8.xyz",
-      "confidence": "high",
-      "reason": "Listed in an IOC table as part of phishing and scam infrastructure",
-      "first_seen": "2026-10-01T17:40:23+00:00",
-      "last_seen": "2026-10-01T17:40:23+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Malwarebytes",
-          "url": "https://www.malwarebytes.com/blog/threat-intel/2026/10/fake-xstocks-pendle-and-other-sites-bait-crypto-users-with-rewards-votes",
-          "pub_date": "2026-10-01T17:40:23+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "sitemulaay8dbm66.xyz",
-      "confidence": "high",
-      "reason": "Listed in an IOC table as part of phishing and scam infrastructure",
-      "first_seen": "2026-10-01T17:40:23+00:00",
-      "last_seen": "2026-10-01T17:40:23+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Malwarebytes",
-          "url": "https://www.malwarebytes.com/blog/threat-intel/2026/10/fake-xstocks-pendle-and-other-sites-bait-crypto-users-with-rewards-votes",
-          "pub_date": "2026-10-01T17:40:23+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "sitemulaucnbmnrd.xyz",
-      "confidence": "high",
-      "reason": "Listed in an IOC table as part of phishing and scam infrastructure",
-      "first_seen": "2026-10-01T17:40:23+00:00",
-      "last_seen": "2026-10-01T17:40:23+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Malwarebytes",
-          "url": "https://www.malwarebytes.com/blog/threat-intel/2026/10/fake-xstocks-pendle-and-other-sites-bait-crypto-users-with-rewards-votes",
-          "pub_date": "2026-10-01T17:40:23+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "sitemulffos1qryn.xyz",
-      "confidence": "high",
-      "reason": "Listed in an IOC table as part of phishing and scam infrastructure",
-      "first_seen": "2026-10-01T17:40:23+00:00",
-      "last_seen": "2026-10-01T17:40:23+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Malwarebytes",
-          "url": "https://www.malwarebytes.com/blog/threat-intel/2026/10/fake-xstocks-pendle-and-other-sites-bait-crypto-users-with-rewards-votes",
-          "pub_date": "2026-10-01T17:40:23+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "sitemuli8pd7qi9z.xyz",
-      "confidence": "high",
-      "reason": "Listed in an IOC table as part of phishing and scam infrastructure",
-      "first_seen": "2026-10-01T17:40:23+00:00",
-      "last_seen": "2026-10-01T17:40:23+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Malwarebytes",
-          "url": "https://www.malwarebytes.com/blog/threat-intel/2026/10/fake-xstocks-pendle-and-other-sites-bait-crypto-users-with-rewards-votes",
-          "pub_date": "2026-10-01T17:40:23+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "sitemulpmt6if530.xyz",
-      "confidence": "high",
-      "reason": "Listed in an IOC table as part of phishing and scam infrastructure",
-      "first_seen": "2026-10-01T17:40:23+00:00",
-      "last_seen": "2026-10-01T17:40:23+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Malwarebytes",
-          "url": "https://www.malwarebytes.com/blog/threat-intel/2026/10/fake-xstocks-pendle-and-other-sites-bait-crypto-users-with-rewards-votes",
-          "pub_date": "2026-10-01T17:40:23+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "sitemulpnff7964j.xyz",
-      "confidence": "high",
-      "reason": "Listed in an IOC table as part of phishing and scam infrastructure",
-      "first_seen": "2026-10-01T17:40:23+00:00",
-      "last_seen": "2026-10-01T17:40:23+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Malwarebytes",
-          "url": "https://www.malwarebytes.com/blog/threat-intel/2026/10/fake-xstocks-pendle-and-other-sites-bait-crypto-users-with-rewards-votes",
-          "pub_date": "2026-10-01T17:40:23+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "sitemulpo7jkntfz.xyz",
-      "confidence": "high",
-      "reason": "Listed in an IOC table as part of phishing and scam infrastructure",
-      "first_seen": "2026-10-01T17:40:23+00:00",
-      "last_seen": "2026-10-01T17:40:23+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Malwarebytes",
-          "url": "https://www.malwarebytes.com/blog/threat-intel/2026/10/fake-xstocks-pendle-and-other-sites-bait-crypto-users-with-rewards-votes",
-          "pub_date": "2026-10-01T17:40:23+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "sitemulr9d1dg77r.xyz",
-      "confidence": "high",
-      "reason": "Listed in an IOC table as part of phishing and scam infrastructure",
-      "first_seen": "2026-10-01T17:40:23+00:00",
-      "last_seen": "2026-10-01T17:40:23+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Malwarebytes",
-          "url": "https://www.malwarebytes.com/blog/threat-intel/2026/10/fake-xstocks-pendle-and-other-sites-bait-crypto-users-with-rewards-votes",
-          "pub_date": "2026-10-01T17:40:23+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "sitemuls00qrsh0k.xyz",
-      "confidence": "high",
-      "reason": "Listed in an IOC table as part of phishing and scam infrastructure",
-      "first_seen": "2026-10-01T17:40:23+00:00",
-      "last_seen": "2026-10-01T17:40:23+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Malwarebytes",
-          "url": "https://www.malwarebytes.com/blog/threat-intel/2026/10/fake-xstocks-pendle-and-other-sites-bait-crypto-users-with-rewards-votes",
-          "pub_date": "2026-10-01T17:40:23+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "sitemulszq4rm2yn.xyz",
-      "confidence": "high",
-      "reason": "Listed in an IOC table as part of phishing and scam infrastructure",
-      "first_seen": "2026-10-01T17:40:23+00:00",
-      "last_seen": "2026-10-01T17:40:23+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Malwarebytes",
-          "url": "https://www.malwarebytes.com/blog/threat-intel/2026/10/fake-xstocks-pendle-and-other-sites-bait-crypto-users-with-rewards-votes",
-          "pub_date": "2026-10-01T17:40:23+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "onecloudfilesync.com",
-      "confidence": "high",
-      "reason": "Used as a second-stage AitM phishing domain",
-      "first_seen": "2026-10-01T17:10:27+00:00",
-      "last_seen": "2026-10-01T17:10:27+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "News.Lavx.Hu",
-          "url": "https://news.lavx.hu/article/chinese-espionage-group-ta419-spoofed-anthropic-executive-and-former-white-house-official-in-ai-phishing-campaign",
-          "pub_date": "2026-10-01T17:10:27+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "TA419"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "5jiyuz.frost-echo.in.net",
-      "confidence": "high",
-      "reason": "Listed in a threat intelligence IOC detection rule.",
-      "first_seen": "2026-10-01T17:06:20+00:00",
-      "last_seen": "2026-10-01T17:06:20+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Cyfirma",
-          "url": "https://www.cyfirma.com/news/weekly-intelligence-report-1-oct-2026/",
-          "pub_date": "2026-10-01T17:06:20+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "5jkl8ae8ph.ucarecd.net",
-      "confidence": "high",
-      "reason": "Listed in a threat intelligence IOC detection rule.",
-      "first_seen": "2026-10-01T17:06:20+00:00",
-      "last_seen": "2026-10-01T17:06:20+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Cyfirma",
-          "url": "https://www.cyfirma.com/news/weekly-intelligence-report-1-oct-2026/",
-          "pub_date": "2026-10-01T17:06:20+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "altra-chaussure.fr",
-      "confidence": "high",
-      "reason": "Listed in a threat intelligence IOC detection rule.",
-      "first_seen": "2026-10-01T17:06:20+00:00",
-      "last_seen": "2026-10-01T17:06:20+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Cyfirma",
-          "url": "https://www.cyfirma.com/news/weekly-intelligence-report-1-oct-2026/",
-          "pub_date": "2026-10-01T17:06:20+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "altra-paris.fr",
-      "confidence": "high",
-      "reason": "Listed in a threat intelligence IOC detection rule.",
-      "first_seen": "2026-10-01T17:06:20+00:00",
-      "last_seen": "2026-10-01T17:06:20+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Cyfirma",
-          "url": "https://www.cyfirma.com/news/weekly-intelligence-report-1-oct-2026/",
-          "pub_date": "2026-10-01T17:06:20+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "wss.scriptlab.cc",
-      "confidence": "high",
-      "reason": "Used in a malware configuration as a C2 endpoint",
-      "first_seen": "2026-10-01T17:06:20+00:00",
-      "last_seen": "2026-10-01T17:06:20+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Cyfirma",
-          "url": "https://www.cyfirma.com/news/weekly-intelligence-report-1-oct-2026/",
-          "pub_date": "2026-10-01T17:06:20+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "ipv4",
-      "value": "36.106.166.96",
-      "confidence": "high",
-      "reason": "Listed as a threat intelligence IOC",
-      "first_seen": "2026-10-01T17:06:20+00:00",
-      "last_seen": "2026-10-01T17:06:20+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Cyfirma",
-          "url": "https://www.cyfirma.com/news/weekly-intelligence-report-1-oct-2026/",
-          "pub_date": "2026-10-01T17:06:20+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "ipv4",
-      "value": "36.106.166.97",
-      "confidence": "high",
-      "reason": "Listed as a threat intelligence IOC",
-      "first_seen": "2026-10-01T17:06:20+00:00",
-      "last_seen": "2026-10-01T17:06:20+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Cyfirma",
-          "url": "https://www.cyfirma.com/news/weekly-intelligence-report-1-oct-2026/",
-          "pub_date": "2026-10-01T17:06:20+00:00"
-        }
-      ],
-      "tags": []
     }
   ],
   "license": "CC-BY 4.0 \u2014 attribute ThreatCluster (https://threatcluster.io)",

@@ -1,4 +1,13 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason
+domain,account-confirm.top,high,2026-10-31T23:01:08.987598+00:00,2026-10-31T23:01:08.987598+00:00,1,www.getswym.com:2026-10-31,Listed as a malicious domain used in attacks within the Shopify ecosystem
+domain,billing-confirm.top,high,2026-10-31T23:01:08.987598+00:00,2026-10-31T23:01:08.987598+00:00,1,www.getswym.com:2026-10-31,Listed as a malicious domain used in attacks within the Shopify ecosystem
+domain,checkout-guard.top,high,2026-10-31T23:01:08.987598+00:00,2026-10-31T23:01:08.987598+00:00,1,www.getswym.com:2026-10-31,Identified as a malicious domain in the investigation
+domain,checkout-secure.top,high,2026-10-31T23:01:08.987598+00:00,2026-10-31T23:01:08.987598+00:00,1,www.getswym.com:2026-10-31,Listed as a malicious domain used in attacks within the Shopify ecosystem
+domain,apexdefi.xyz,high,2026-10-31T16:26:27+00:00,2026-10-31T18:42:45+00:00,2,Kucoin:2026-10-31|Finance.Biggo:2026-10-31,"Listed as serving the drainer kit, indicating attacker control"
+domain,fluxbeam.xyz,high,2026-10-31T16:26:27+00:00,2026-10-31T18:42:45+00:00,2,Kucoin:2026-10-31|Finance.Biggo:2026-10-31,"Listed as serving the drainer kit, indicating attacker control"
+domain,stakepoint.app,high,2026-10-31T16:26:27+00:00,2026-10-31T18:42:45+00:00,2,Kucoin:2026-10-31|Finance.Biggo:2026-10-31,"Listed as serving the drainer kit, indicating attacker control"
+domain,supswap.xyz,high,2026-10-31T16:26:27+00:00,2026-10-31T18:42:45+00:00,2,Kucoin:2026-10-31|Finance.Biggo:2026-10-31,"Listed as serving the drainer kit, indicating attacker control"
+domain,quectel.us,high,2026-10-31T05:06:08+00:00,2026-10-31T05:06:08+00:00,1,Kfgo:2026-10-31,"Registered by a Telit employee and used to redirect traffic to a disparaging page, indicating attacker control."
 domain,atlascore-panel.net,high,2026-10-31T04:33:12.221801+00:00,2026-10-31T04:33:12.221801+00:00,1,www.recordedfuture.com:2026-10-31,Domain used by AtlasCore administrators for hosting affiliate program panels
 domain,bravioar.com,high,2026-10-31T04:33:12.221801+00:00,2026-10-31T04:33:12.221801+00:00,1,www.recordedfuture.com:2026-10-31,"Domain hosted casino-, exchange-, and prediction-market-related content linked to AtlasCore"
 domain,btwoteam.xyz,high,2026-10-31T04:33:12.221801+00:00,2026-10-31T04:33:12.221801+00:00,1,www.recordedfuture.com:2026-10-31,Domain resolves to IP associated with Magnetic Team's administrative panel
@@ -27,11 +36,11 @@ domain,speculor.net,high,2026-10-31T04:33:12.221801+00:00,2026-10-31T04:33:12.22
 domain,tradingai.fun,high,2026-10-31T04:33:12.221801+00:00,2026-10-31T04:33:12.221801+00:00,1,www.recordedfuture.com:2026-10-31,Domain hosted on IP associated with Magnetic Team's infrastructure
 domain,wettora.com,high,2026-10-31T04:33:12.221801+00:00,2026-10-31T04:33:12.221801+00:00,1,www.recordedfuture.com:2026-10-31,"Domain hosted casino-, exchange-, and prediction-market-related content"
 domain,winzo.live,high,2026-10-31T04:33:12.221801+00:00,2026-10-31T04:33:12.221801+00:00,1,www.recordedfuture.com:2026-10-31,"Domain hosted casino-, exchange-, and prediction-market-related content"
-domain,artex.nhhh.de,high,2026-10-30T23:02:29+00:00,2026-10-30T23:02:29+00:00,1,Wiz:2026-10-30,Hosted a page related to autonomous penetration testing.
-domain,direct.465415.xyz,high,2026-10-30T23:02:29+00:00,2026-10-30T23:02:29+00:00,1,Wiz:2026-10-30,Tied to a site used for LLM resale operations.
-domain,llm-routing.com,high,2026-10-30T23:02:29+00:00,2026-10-30T23:02:29+00:00,1,Wiz:2026-10-30,"Listed as an active site advertising discounted access to frontier models, tied to malicious activity."
-domain,s3.xingjiabiapi.org,high,2026-10-30T23:02:29+00:00,2026-10-30T23:02:29+00:00,1,Wiz:2026-10-30,Subdomain tied to a resale operation leveraging stolen keys.
-domain,xingjiabiapi.org,high,2026-10-30T23:02:29+00:00,2026-10-30T23:02:29+00:00,1,Wiz:2026-10-30,Described as a resale operation leveraging stolen keys.
+domain,artex.nhhh.de,high,2026-10-30T23:02:29+00:00,2026-10-30T23:02:29+00:00,1,Wiz:2026-10-30,Subdomain used to host a penetration testing console linked to attacker activity.
+domain,direct.465415.xyz,high,2026-10-30T23:02:29+00:00,2026-10-30T23:02:29+00:00,1,Wiz:2026-10-30,Domain tied via passive DNS to attacker-controlled infrastructure.
+domain,llm-routing.com,high,2026-10-30T23:02:29+00:00,2026-10-30T23:02:29+00:00,1,Wiz:2026-10-30,Domain used for LLM resale linked to attacker infrastructure.
+domain,s3.xingjiabiapi.org,high,2026-10-30T23:02:29+00:00,2026-10-30T23:02:29+00:00,1,Wiz:2026-10-30,Subdomain used for conducting unauthorized key checks linked to attacker activity.
+domain,xingjiabiapi.org,high,2026-10-30T23:02:29+00:00,2026-10-30T23:02:29+00:00,1,Wiz:2026-10-30,Domain associated with resale operation leveraging stolen keys.
 domain,betasignaltradingviewai.app,high,2026-10-29T22:39:27.698522+00:00,2026-10-30T16:01:04.709172+00:00,3,www.fortian.com.au:2026-10-30|air-security-asdfoingeroi3234dsfds.webflow.io:2026-10-30|www.air.security:2026-10-29,"Domain used in a campaign to lure traders with fake TradingView videos, indicating attacker control."
 domain,developer-update.app,high,2026-10-29T22:09:24+00:00,2026-10-30T16:01:03.448711+00:00,4,air-security-asdfoingeroi3234dsfds.webflow.io:2026-10-30|Hackread:2026-10-30|www.air.security:2026-10-29|Bleepingcomputer:2026-10-29,"Domain used for payload delivery in a malicious campaign, indicating attacker control."
 domain,maxwintodaybtc.com,high,2026-10-29T22:09:24+00:00,2026-10-30T16:01:03.448711+00:00,4,air-security-asdfoingeroi3234dsfds.webflow.io:2026-10-30|Hackread:2026-10-30|www.air.security:2026-10-29|Bleepingcomputer:2026-10-29,Specified as a C2 server in the attacker's configuration
@@ -703,7 +712,6 @@ domain,gov-by.com,high,2026-10-07T08:32:26+00:00,2026-10-07T08:32:26+00:00,1,Gbh
 domain,p7cp.org,high,2026-10-07T08:32:26+00:00,2026-10-07T08:32:26+00:00,1,Gbhackers:2026-10-07,"Domain used in malicious infrastructure, indicating attacker control."
 domain,w3a01.net,high,2026-10-07T08:32:26+00:00,2026-10-07T08:32:26+00:00,1,Gbhackers:2026-10-07,Listed as part of observed threat activity
 domain,www.hookphish.com,high,2026-10-07T08:18:23+00:00,2026-10-07T08:18:23+00:00,1,Rescana:2026-10-07,Listed as an indicator for ransomware detection
-domain,xcai.pro,high,2026-10-07T05:00:00+00:00,2026-10-07T05:00:00+00:00,1,Crowdstrike:2026-10-07,Used as an LLM API proxy by attackers
 domain,imgcdn1.com,high,2026-10-06T08:59:43+00:00,2026-10-07T02:25:48+00:00,3,X:2026-10-07|Bleepingcomputer:2026-10-06|Patchstack:2026-10-06,Domain used to deliver JavaScript payloads in WordPress XSS attacks
 domain,mx.zxopfds.com,high,2026-10-06T18:38:42+00:00,2026-10-06T18:38:42+00:00,1,Thehackernews:2026-10-06,Domain used as a C2 server for AVERAT malware
 domain,museads.ai,high,2026-10-06T13:25:57+00:00,2026-10-06T13:25:57+00:00,1,Thehackernews:2026-10-06,Domain used for phishing attacks with browser-in-the-browser trick
@@ -725,93 +733,3 @@ domain,account.drive-google-com.tk,high,2026-10-02T16:30:51.440394+00:00,2026-10
 domain,account.gommask.online,high,2026-10-02T16:30:51.440394+00:00,2026-10-02T16:30:51.440394+00:00,1,www.proofpoint.com:2026-10-02,Identified as a new C2 domain for UNK_SweetSpecter
 domain,lowtpills.com,high,2026-10-02T16:27:54+00:00,2026-10-02T16:27:54+00:00,1,Darkreading:2026-10-02,Used in a vulnerability exploitation scenario
 domain,pbapi.xyz,high,2026-10-02T14:41:46.380979+00:00,2026-10-02T14:41:46.380979+00:00,1,amibeingpwned.com:2026-10-02,Described as a command-and-control channel used by the extension
-domain,presaie-roaringkitty.com,high,2026-10-02T09:29:56+00:00,2026-10-02T09:29:56+00:00,1,Bleepingcomputer:2026-10-02,Domain used by attackers to lure victims into a cryptocurrency scam.
-domain,driftshare.co,high,2026-10-01T17:10:27+00:00,2026-10-02T06:57:52+00:00,2,Crnasia:2026-10-02|News.Lavx.Hu:2026-10-01,Used as a first-stage domain in a phishing campaign by TA419
-domain,globalfileshareplatform.com,high,2026-10-01T17:10:27+00:00,2026-10-02T06:57:52+00:00,2,Crnasia:2026-10-02|News.Lavx.Hu:2026-10-01,Used as a second-stage domain in a phishing campaign by TA419
-domain,fingercakes4sale.store,high,2026-10-02T03:44:40.584000+00:00,2026-10-02T03:44:40.584000+00:00,1,Socket.Dev:2026-10-02,Domain contacted by malware for executing threat actor-controlled content
-domain,amazonprime-support.com,high,2026-10-01T22:23:34+00:00,2026-10-01T22:23:34+00:00,1,Blog.Checkpoint:2026-10-01,Classified as a malicious domain targeting Amazon Prime brand.
-domain,amazonprimewindows.com,high,2026-10-01T22:23:34+00:00,2026-10-01T22:23:34+00:00,1,Blog.Checkpoint:2026-10-01,Classified as a malicious domain targeting Amazon Prime brand.
-domain,primevideoamazon.com,high,2026-10-01T22:23:34+00:00,2026-10-01T22:23:34+00:00,1,Blog.Checkpoint:2026-10-01,Classified as a malicious domain targeting Amazon Prime brand.
-domain,videoamazonprime.com,high,2026-10-01T22:23:34+00:00,2026-10-01T22:23:34+00:00,1,Blog.Checkpoint:2026-10-01,Listed as a malicious domain targeting the Amazon Prime brand
-domain,fonts.chrorne.com,high,2026-10-01T19:31:07.432240+00:00,2026-10-01T19:31:07.432240+00:00,1,www.security.com:2026-10-01,Listed among domains related to Antino-related samples
-domain,fonts.tarotfree101.top,high,2026-10-01T19:31:07.432240+00:00,2026-10-01T19:31:07.432240+00:00,1,www.security.com:2026-10-01,Listed among domains related to Antino-related samples
-domain,microsoft-flash.com,high,2026-10-01T19:31:07.432240+00:00,2026-10-01T19:31:07.432240+00:00,1,www.security.com:2026-10-01,Listed among domains related to Antino-related samples
-domain,pub-abfa7742e315485a98a5fafd6dbfb68e.r2.dev,high,2026-10-01T19:31:07.432240+00:00,2026-10-01T19:31:07.432240+00:00,1,www.security.com:2026-10-01,Listed among domains related to Antino-related samples
-domain,robot.avbliud.com,high,2026-10-01T19:31:07.432240+00:00,2026-10-01T19:31:07.432240+00:00,1,www.security.com:2026-10-01,Listed among domains related to Antino-related samples
-domain,www.f1ash.org.cn,high,2026-10-01T19:31:07.432240+00:00,2026-10-01T19:31:07.432240+00:00,1,www.security.com:2026-10-01,Listed among domains related to Antino-related samples
-domain,sitemufl06qs0r4o.xyz,high,2026-10-01T17:40:23+00:00,2026-10-01T17:40:23+00:00,1,Malwarebytes:2026-10-01,Listed in an IOC table as part of phishing and scam infrastructure
-domain,sitemui6m6bbj1bd.xyz,high,2026-10-01T17:40:23+00:00,2026-10-01T17:40:23+00:00,1,Malwarebytes:2026-10-01,Listed in an IOC table as part of phishing and scam infrastructure
-domain,sitemui8go6g99bb.xyz,high,2026-10-01T17:40:23+00:00,2026-10-01T17:40:23+00:00,1,Malwarebytes:2026-10-01,Listed in an IOC table as part of phishing and scam infrastructure
-domain,sitemuicitd4jrtr.xyz,high,2026-10-01T17:40:23+00:00,2026-10-01T17:40:23+00:00,1,Malwarebytes:2026-10-01,Listed in an IOC table as part of phishing and scam infrastructure
-domain,sitemuidkr38kji0.xyz,high,2026-10-01T17:40:23+00:00,2026-10-01T17:40:23+00:00,1,Malwarebytes:2026-10-01,Listed in an IOC table as part of phishing and scam infrastructure
-domain,sitemuidlij5urd0.xyz,high,2026-10-01T17:40:23+00:00,2026-10-01T17:40:23+00:00,1,Malwarebytes:2026-10-01,Listed in an IOC table as part of phishing and scam infrastructure
-domain,sitemuif3pa5k4eh.xyz,high,2026-10-01T17:40:23+00:00,2026-10-01T17:40:23+00:00,1,Malwarebytes:2026-10-01,Listed in an IOC table as part of phishing and scam infrastructure
-domain,sitemuife3h91vjj.xyz,high,2026-10-01T17:40:23+00:00,2026-10-01T17:40:23+00:00,1,Malwarebytes:2026-10-01,Listed in an IOC table as part of phishing and scam infrastructure
-domain,sitemuioeefbyh3i.xyz,high,2026-10-01T17:40:23+00:00,2026-10-01T17:40:23+00:00,1,Malwarebytes:2026-10-01,Listed in an IOC table as part of phishing and scam infrastructure
-domain,sitemuioi7005ekb.xyz,high,2026-10-01T17:40:23+00:00,2026-10-01T17:40:23+00:00,1,Malwarebytes:2026-10-01,Listed in an IOC table as part of phishing and scam infrastructure
-domain,sitemuizkhpdbjnv.xyz,high,2026-10-01T17:40:23+00:00,2026-10-01T17:40:23+00:00,1,Malwarebytes:2026-10-01,Listed in an IOC table as part of phishing and scam infrastructure
-domain,sitemuj1xencnin8.xyz,high,2026-10-01T17:40:23+00:00,2026-10-01T17:40:23+00:00,1,Malwarebytes:2026-10-01,Listed in an IOC table as part of phishing and scam infrastructure
-domain,sitemuj7lzbasipw.xyz,high,2026-10-01T17:40:23+00:00,2026-10-01T17:40:23+00:00,1,Malwarebytes:2026-10-01,Listed in an IOC table as part of phishing and scam infrastructure
-domain,sitemujbcz1nas1x.xyz,high,2026-10-01T17:40:23+00:00,2026-10-01T17:40:23+00:00,1,Malwarebytes:2026-10-01,Listed in an IOC table as part of phishing and scam infrastructure
-domain,sitemujdi54aitrf.xyz,high,2026-10-01T17:40:23+00:00,2026-10-01T17:40:23+00:00,1,Malwarebytes:2026-10-01,Listed in an IOC table as part of phishing and scam infrastructure
-domain,sitemujejvp4tp0x.xyz,high,2026-10-01T17:40:23+00:00,2026-10-01T17:40:23+00:00,1,Malwarebytes:2026-10-01,Listed in an IOC table as part of phishing and scam infrastructure
-domain,sitemujffobdhxgj.xyz,high,2026-10-01T17:40:23+00:00,2026-10-01T17:40:23+00:00,1,Malwarebytes:2026-10-01,Listed in an IOC table as part of phishing and scam infrastructure
-domain,sitemuji07m137aw.xyz,high,2026-10-01T17:40:23+00:00,2026-10-01T17:40:23+00:00,1,Malwarebytes:2026-10-01,Listed in an IOC table as part of phishing and scam infrastructure
-domain,sitemujoqrmsm0et.xyz,high,2026-10-01T17:40:23+00:00,2026-10-01T17:40:23+00:00,1,Malwarebytes:2026-10-01,Listed in an IOC table as part of phishing and scam infrastructure
-domain,sitemujrfn7witew.xyz,high,2026-10-01T17:40:23+00:00,2026-10-01T17:40:23+00:00,1,Malwarebytes:2026-10-01,Listed in an IOC table as part of phishing and scam infrastructure
-domain,sitemujsm7brhwh0.xyz,high,2026-10-01T17:40:23+00:00,2026-10-01T17:40:23+00:00,1,Malwarebytes:2026-10-01,Listed in an IOC table as part of phishing and scam infrastructure
-domain,sitemujtcvh5q9fj.xyz,high,2026-10-01T17:40:23+00:00,2026-10-01T17:40:23+00:00,1,Malwarebytes:2026-10-01,Listed in an IOC table as part of phishing and scam infrastructure
-domain,sitemujtd8ingh2b.xyz,high,2026-10-01T17:40:23+00:00,2026-10-01T17:40:23+00:00,1,Malwarebytes:2026-10-01,Listed in an IOC table as part of phishing and scam infrastructure
-domain,sitemujtdkvy6c7n.xyz,high,2026-10-01T17:40:23+00:00,2026-10-01T17:40:23+00:00,1,Malwarebytes:2026-10-01,Listed in an IOC table as part of phishing and scam infrastructure
-domain,sitemujufht1ntj4.xyz,high,2026-10-01T17:40:23+00:00,2026-10-01T17:40:23+00:00,1,Malwarebytes:2026-10-01,Listed in an IOC table as part of phishing and scam infrastructure
-domain,sitemujufs1975v4.xyz,high,2026-10-01T17:40:23+00:00,2026-10-01T17:40:23+00:00,1,Malwarebytes:2026-10-01,Listed in an IOC table as part of phishing and scam infrastructure
-domain,sitemujug76lkyke.xyz,high,2026-10-01T17:40:23+00:00,2026-10-01T17:40:23+00:00,1,Malwarebytes:2026-10-01,Listed in an IOC table as part of phishing and scam infrastructure
-domain,sitemujumvtmjaf1.xyz,high,2026-10-01T17:40:23+00:00,2026-10-01T17:40:23+00:00,1,Malwarebytes:2026-10-01,Listed in an IOC table as part of phishing and scam infrastructure
-domain,sitemujuncdlpnng.xyz,high,2026-10-01T17:40:23+00:00,2026-10-01T17:40:23+00:00,1,Malwarebytes:2026-10-01,Listed in an IOC table as part of phishing and scam infrastructure
-domain,sitemujuno47vpud.xyz,high,2026-10-01T17:40:23+00:00,2026-10-01T17:40:23+00:00,1,Malwarebytes:2026-10-01,Listed in an IOC table as part of phishing and scam infrastructure
-domain,sitemujunzgjapds.xyz,high,2026-10-01T17:40:23+00:00,2026-10-01T17:40:23+00:00,1,Malwarebytes:2026-10-01,Listed in an IOC table as part of phishing and scam infrastructure
-domain,sitemujw19idqe01.xyz,high,2026-10-01T17:40:23+00:00,2026-10-01T17:40:23+00:00,1,Malwarebytes:2026-10-01,Listed in an IOC table as part of phishing and scam infrastructure
-domain,sitemujw1uspghl1.xyz,high,2026-10-01T17:40:23+00:00,2026-10-01T17:40:23+00:00,1,Malwarebytes:2026-10-01,Listed in an IOC table as part of phishing and scam infrastructure
-domain,sitemujwcvm5ufu8.xyz,high,2026-10-01T17:40:23+00:00,2026-10-01T17:40:23+00:00,1,Malwarebytes:2026-10-01,Listed in an IOC table as part of phishing and scam infrastructure
-domain,sitemujxjlv2lmhh.xyz,high,2026-10-01T17:40:23+00:00,2026-10-01T17:40:23+00:00,1,Malwarebytes:2026-10-01,Listed in an IOC table as part of phishing and scam infrastructure
-domain,sitemuk3jcm1olr8.xyz,high,2026-10-01T17:40:23+00:00,2026-10-01T17:40:23+00:00,1,Malwarebytes:2026-10-01,Listed in an IOC table as part of phishing and scam infrastructure
-domain,sitemuk3jpe1eph7.xyz,high,2026-10-01T17:40:23+00:00,2026-10-01T17:40:23+00:00,1,Malwarebytes:2026-10-01,Listed in an IOC table as part of phishing and scam infrastructure
-domain,sitemuk3z1hh2tvn.xyz,high,2026-10-01T17:40:23+00:00,2026-10-01T17:40:23+00:00,1,Malwarebytes:2026-10-01,Listed in an IOC table as part of phishing and scam infrastructure
-domain,sitemuk3zjrr2ufy.xyz,high,2026-10-01T17:40:23+00:00,2026-10-01T17:40:23+00:00,1,Malwarebytes:2026-10-01,Listed in an IOC table as part of phishing and scam infrastructure
-domain,sitemuk3zu5776gi.xyz,high,2026-10-01T17:40:23+00:00,2026-10-01T17:40:23+00:00,1,Malwarebytes:2026-10-01,Listed in an IOC table as part of phishing and scam infrastructure
-domain,sitemuk6zd201nsw.xyz,high,2026-10-01T17:40:23+00:00,2026-10-01T17:40:23+00:00,1,Malwarebytes:2026-10-01,Listed in an IOC table as part of phishing and scam infrastructure
-domain,sitemuk7f31386dx.xyz,high,2026-10-01T17:40:23+00:00,2026-10-01T17:40:23+00:00,1,Malwarebytes:2026-10-01,Listed in an IOC table as part of phishing and scam infrastructure
-domain,sitemuk7fi1dcrp4.xyz,high,2026-10-01T17:40:23+00:00,2026-10-01T17:40:23+00:00,1,Malwarebytes:2026-10-01,Listed in an IOC table as part of phishing and scam infrastructure
-domain,sitemuk7fvnvihra.xyz,high,2026-10-01T17:40:23+00:00,2026-10-01T17:40:23+00:00,1,Malwarebytes:2026-10-01,Listed in an IOC table as part of phishing and scam infrastructure
-domain,sitemuk7xbyszpzj.xyz,high,2026-10-01T17:40:23+00:00,2026-10-01T17:40:23+00:00,1,Malwarebytes:2026-10-01,Listed in an IOC table as part of phishing and scam infrastructure
-domain,sitemuk7y434m4om.xyz,high,2026-10-01T17:40:23+00:00,2026-10-01T17:40:23+00:00,1,Malwarebytes:2026-10-01,Listed in an IOC table as part of phishing and scam infrastructure
-domain,sitemuk7yi5eqn74.xyz,high,2026-10-01T17:40:23+00:00,2026-10-01T17:40:23+00:00,1,Malwarebytes:2026-10-01,Listed in an IOC table as part of phishing and scam infrastructure
-domain,sitemuk7ys6db9qj.xyz,high,2026-10-01T17:40:23+00:00,2026-10-01T17:40:23+00:00,1,Malwarebytes:2026-10-01,Listed in an IOC table as part of phishing and scam infrastructure
-domain,sitemuk9ayiwadjz.xyz,high,2026-10-01T17:40:23+00:00,2026-10-01T17:40:23+00:00,1,Malwarebytes:2026-10-01,Listed in an IOC table as part of phishing and scam infrastructure
-domain,sitemuk9c4oppeco.xyz,high,2026-10-01T17:40:23+00:00,2026-10-01T17:40:23+00:00,1,Malwarebytes:2026-10-01,Listed in an IOC table as part of phishing and scam infrastructure
-domain,sitemukh5awm67rj.xyz,high,2026-10-01T17:40:23+00:00,2026-10-01T17:40:23+00:00,1,Malwarebytes:2026-10-01,Listed in an IOC table as part of phishing and scam infrastructure
-domain,sitemukpy2hpmpwv.xyz,high,2026-10-01T17:40:23+00:00,2026-10-01T17:40:23+00:00,1,Malwarebytes:2026-10-01,Listed in an IOC table as part of phishing and scam infrastructure
-domain,sitemukrod1am6ez.xyz,high,2026-10-01T17:40:23+00:00,2026-10-01T17:40:23+00:00,1,Malwarebytes:2026-10-01,Listed in an IOC table as part of phishing and scam infrastructure
-domain,sitemukvxv7j5hmv.xyz,high,2026-10-01T17:40:23+00:00,2026-10-01T17:40:23+00:00,1,Malwarebytes:2026-10-01,Listed in an IOC table as part of phishing and scam infrastructure
-domain,sitemukvy7wudsqb.xyz,high,2026-10-01T17:40:23+00:00,2026-10-01T17:40:23+00:00,1,Malwarebytes:2026-10-01,Listed in an IOC table as part of phishing and scam infrastructure
-domain,sitemukww7ivnaji.xyz,high,2026-10-01T17:40:23+00:00,2026-10-01T17:40:23+00:00,1,Malwarebytes:2026-10-01,Listed in an IOC table as part of phishing and scam infrastructure
-domain,sitemukwxih8302f.xyz,high,2026-10-01T17:40:23+00:00,2026-10-01T17:40:23+00:00,1,Malwarebytes:2026-10-01,Listed in an IOC table as part of phishing and scam infrastructure
-domain,sitemul94tcv4l80.xyz,high,2026-10-01T17:40:23+00:00,2026-10-01T17:40:23+00:00,1,Malwarebytes:2026-10-01,Listed in an IOC table as part of phishing and scam infrastructure
-domain,sitemul95f18sowo.xyz,high,2026-10-01T17:40:23+00:00,2026-10-01T17:40:23+00:00,1,Malwarebytes:2026-10-01,Listed in an IOC table as part of phishing and scam infrastructure
-domain,sitemul95pxqgmm8.xyz,high,2026-10-01T17:40:23+00:00,2026-10-01T17:40:23+00:00,1,Malwarebytes:2026-10-01,Listed in an IOC table as part of phishing and scam infrastructure
-domain,sitemulaay8dbm66.xyz,high,2026-10-01T17:40:23+00:00,2026-10-01T17:40:23+00:00,1,Malwarebytes:2026-10-01,Listed in an IOC table as part of phishing and scam infrastructure
-domain,sitemulaucnbmnrd.xyz,high,2026-10-01T17:40:23+00:00,2026-10-01T17:40:23+00:00,1,Malwarebytes:2026-10-01,Listed in an IOC table as part of phishing and scam infrastructure
-domain,sitemulffos1qryn.xyz,high,2026-10-01T17:40:23+00:00,2026-10-01T17:40:23+00:00,1,Malwarebytes:2026-10-01,Listed in an IOC table as part of phishing and scam infrastructure
-domain,sitemuli8pd7qi9z.xyz,high,2026-10-01T17:40:23+00:00,2026-10-01T17:40:23+00:00,1,Malwarebytes:2026-10-01,Listed in an IOC table as part of phishing and scam infrastructure
-domain,sitemulpmt6if530.xyz,high,2026-10-01T17:40:23+00:00,2026-10-01T17:40:23+00:00,1,Malwarebytes:2026-10-01,Listed in an IOC table as part of phishing and scam infrastructure
-domain,sitemulpnff7964j.xyz,high,2026-10-01T17:40:23+00:00,2026-10-01T17:40:23+00:00,1,Malwarebytes:2026-10-01,Listed in an IOC table as part of phishing and scam infrastructure
-domain,sitemulpo7jkntfz.xyz,high,2026-10-01T17:40:23+00:00,2026-10-01T17:40:23+00:00,1,Malwarebytes:2026-10-01,Listed in an IOC table as part of phishing and scam infrastructure
-domain,sitemulr9d1dg77r.xyz,high,2026-10-01T17:40:23+00:00,2026-10-01T17:40:23+00:00,1,Malwarebytes:2026-10-01,Listed in an IOC table as part of phishing and scam infrastructure
-domain,sitemuls00qrsh0k.xyz,high,2026-10-01T17:40:23+00:00,2026-10-01T17:40:23+00:00,1,Malwarebytes:2026-10-01,Listed in an IOC table as part of phishing and scam infrastructure
-domain,sitemulszq4rm2yn.xyz,high,2026-10-01T17:40:23+00:00,2026-10-01T17:40:23+00:00,1,Malwarebytes:2026-10-01,Listed in an IOC table as part of phishing and scam infrastructure
-domain,onecloudfilesync.com,high,2026-10-01T17:10:27+00:00,2026-10-01T17:10:27+00:00,1,News.Lavx.Hu:2026-10-01,Used as a second-stage AitM phishing domain
-domain,5jiyuz.frost-echo.in.net,high,2026-10-01T17:06:20+00:00,2026-10-01T17:06:20+00:00,1,Cyfirma:2026-10-01,Listed in a threat intelligence IOC detection rule.
-domain,5jkl8ae8ph.ucarecd.net,high,2026-10-01T17:06:20+00:00,2026-10-01T17:06:20+00:00,1,Cyfirma:2026-10-01,Listed in a threat intelligence IOC detection rule.
-domain,altra-chaussure.fr,high,2026-10-01T17:06:20+00:00,2026-10-01T17:06:20+00:00,1,Cyfirma:2026-10-01,Listed in a threat intelligence IOC detection rule.
-domain,altra-paris.fr,high,2026-10-01T17:06:20+00:00,2026-10-01T17:06:20+00:00,1,Cyfirma:2026-10-01,Listed in a threat intelligence IOC detection rule.
-domain,wss.scriptlab.cc,high,2026-10-01T17:06:20+00:00,2026-10-01T17:06:20+00:00,1,Cyfirma:2026-10-01,Used in a malware configuration as a C2 endpoint
