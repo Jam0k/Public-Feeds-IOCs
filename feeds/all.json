@@ -1,7 +1,7 @@
 {
   "feed": "threatcluster-public-iocs",
   "version": 1,
-  "generated_at": "2026-11-01T13:18:52Z",
+  "generated_at": "2026-11-02T15:45:53Z",
   "filters": {
     "confidence": "high",
     "window_days": 30,
@@ -11,8 +11,945 @@
       "domain"
     ]
   },
-  "count": 959,
+  "count": 968,
   "iocs": [
+    {
+      "type": "domain",
+      "value": "clickksy.icu",
+      "confidence": "high",
+      "reason": "Domain used in a campaign with Adobe-themed lures, registered by attackers.",
+      "first_seen": "2026-10-29T00:00:00+00:00",
+      "last_seen": "2026-11-02T11:19:02+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "Hackread",
+          "url": "https://hackread.com/hackers-remote-access-tool-fake-adobe-acrobat-pages/",
+          "pub_date": "2026-11-02T11:19:02+00:00"
+        },
+        {
+          "source": "Cloudsek",
+          "url": "https://www.cloudsek.com/blog/fake-adobe-acrobat-lures-deliver-screenconnect-remote-access-clients",
+          "pub_date": "2026-10-29T00:00:00+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "aideck.net",
+      "confidence": "high",
+      "reason": "Used as a C2 server for Manuscrypt malware",
+      "first_seen": "2026-11-02T10:07:30.919290+00:00",
+      "last_seen": "2026-11-02T10:07:30.919290+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.cisa.gov",
+          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-108a",
+          "pub_date": "2026-11-02T10:07:30.91929+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "APT38"
+        },
+        {
+          "type": "apt_group",
+          "value": "BlueNoroff"
+        },
+        {
+          "type": "apt_group",
+          "value": "Lazarus Group"
+        },
+        {
+          "type": "apt_group",
+          "value": "Stardust Chollima"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "dafnefonseca.com",
+      "confidence": "high",
+      "reason": "Listed as a C2 endpoint for malware",
+      "first_seen": "2026-11-02T10:07:30.919290+00:00",
+      "last_seen": "2026-11-02T10:07:30.919290+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.cisa.gov",
+          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-108a",
+          "pub_date": "2026-11-02T10:07:30.91929+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "APT38"
+        },
+        {
+          "type": "apt_group",
+          "value": "BlueNoroff"
+        },
+        {
+          "type": "apt_group",
+          "value": "Lazarus Group"
+        },
+        {
+          "type": "apt_group",
+          "value": "Stardust Chollima"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "greenvideo.nl",
+      "confidence": "high",
+      "reason": "Listed as a C2 endpoint for malware",
+      "first_seen": "2026-11-02T10:07:30.919290+00:00",
+      "last_seen": "2026-11-02T10:07:30.919290+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.cisa.gov",
+          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-108a",
+          "pub_date": "2026-11-02T10:07:30.91929+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "APT38"
+        },
+        {
+          "type": "apt_group",
+          "value": "BlueNoroff"
+        },
+        {
+          "type": "apt_group",
+          "value": "Lazarus Group"
+        },
+        {
+          "type": "apt_group",
+          "value": "Stardust Chollima"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "infodigitalnew.com",
+      "confidence": "high",
+      "reason": "Listed as a C2 endpoint for malware",
+      "first_seen": "2026-11-02T10:07:30.919290+00:00",
+      "last_seen": "2026-11-02T10:07:30.919290+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.cisa.gov",
+          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-108a",
+          "pub_date": "2026-11-02T10:07:30.91929+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "APT38"
+        },
+        {
+          "type": "apt_group",
+          "value": "BlueNoroff"
+        },
+        {
+          "type": "apt_group",
+          "value": "Lazarus Group"
+        },
+        {
+          "type": "apt_group",
+          "value": "Stardust Chollima"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "sche-eg.org",
+      "confidence": "high",
+      "reason": "Listed as a C2 endpoint for malware",
+      "first_seen": "2026-11-02T10:07:30.919290+00:00",
+      "last_seen": "2026-11-02T10:07:30.919290+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.cisa.gov",
+          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-108a",
+          "pub_date": "2026-11-02T10:07:30.91929+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "APT38"
+        },
+        {
+          "type": "apt_group",
+          "value": "BlueNoroff"
+        },
+        {
+          "type": "apt_group",
+          "value": "Lazarus Group"
+        },
+        {
+          "type": "apt_group",
+          "value": "Stardust Chollima"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "45.14.227.58",
+      "confidence": "high",
+      "reason": "Associated with DAFOM malware",
+      "first_seen": "2026-11-02T10:07:30.919290+00:00",
+      "last_seen": "2026-11-02T10:07:30.919290+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.cisa.gov",
+          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-108a",
+          "pub_date": "2026-11-02T10:07:30.91929+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "APT38"
+        },
+        {
+          "type": "apt_group",
+          "value": "BlueNoroff"
+        },
+        {
+          "type": "apt_group",
+          "value": "Lazarus Group"
+        },
+        {
+          "type": "apt_group",
+          "value": "Stardust Chollima"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "108.165.147.64",
+      "confidence": "high",
+      "reason": "Identified as a host used by the attacker for operations",
+      "first_seen": "2026-10-13T17:33:11+00:00",
+      "last_seen": "2026-11-02T10:06:11.096915+00:00",
+      "source_count": 4,
+      "sources": [
+        {
+          "source": "www.volexity.com",
+          "url": "https://www.volexity.com/blog/2026/10/13/a-series-of-unauthenticated-events-chained-exploitation-of-ivanti-connect-secure-zero-days/",
+          "pub_date": "2026-11-02T10:06:11.096915+00:00"
+        },
+        {
+          "source": "Ccb.Belgium.Be",
+          "url": "https://ccb.belgium.be/advisories/warning-actively-exploited-zero-day-vulnerability-ivanti-connect-secure-allows-remote",
+          "pub_date": "2026-10-14T16:28:35+00:00"
+        },
+        {
+          "source": "Rescana",
+          "url": "https://www.rescana.com/post/ivanti-connect-secure-zero-day-exploit-chain-enables-root-level-rce-and-credential-theft-on-fully-patched-vpn-appliances",
+          "pub_date": "2026-10-14T07:31:12+00:00"
+        },
+        {
+          "source": "Feeds.Feedburner",
+          "url": "https://thehackernews.com/2026/10/attacker-chains-three-ivanti-connect.html",
+          "pub_date": "2026-10-13T17:33:11+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2026-104935"
+        },
+        {
+          "type": "campaign",
+          "value": "Chained Exploitation Of Ivanti Connect Secure Zero-Days"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-106042"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-109412"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "my.thispc.net",
+      "confidence": "high",
+      "reason": "Domain used for C2 beaconing in the phishing campaign",
+      "first_seen": "2026-11-02T03:35:22.150017+00:00",
+      "last_seen": "2026-11-02T03:35:22.150017+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.threatdown.com",
+          "url": "https://www.threatdown.com/blog/fake-court-adr-phishing-lodarat/",
+          "pub_date": "2026-11-02T03:35:22.150017+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "COURT-2026"
+        },
+        {
+          "type": "campaign",
+          "value": "Court-adr"
+        },
+        {
+          "type": "malware",
+          "value": "LodaRAT"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "com.ucreator.tg",
+      "confidence": "high",
+      "reason": "Part of the uCreator platform framework and command handlers",
+      "first_seen": "2026-10-26T10:54:17+00:00",
+      "last_seen": "2026-11-01T18:33:22.053338+00:00",
+      "source_count": 3,
+      "sources": [
+        {
+          "source": "www.0x0v1.com",
+          "url": "https://www.0x0v1.com/ucreator-virtualization-based-android-spyware-platform-targeting-wechat-telegram-and-other-messaging-apps/",
+          "pub_date": "2026-11-01T18:33:22.053338+00:00"
+        },
+        {
+          "source": "cybernoz.com",
+          "url": "https://cybernoz.com/ucreator-android-spyware-can-steal-telegram-2fa-passwords-and-clone-wechat-accounts/",
+          "pub_date": "2026-10-27T01:18:32.50481+00:00"
+        },
+        {
+          "source": "Thehackernews",
+          "url": "https://thehackernews.com/2026/10/ucreator-android-spyware-can-steal.html",
+          "pub_date": "2026-10-26T10:54:17+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "Baohuo"
+        },
+        {
+          "type": "malware",
+          "value": "FjordPhantom"
+        },
+        {
+          "type": "malware",
+          "value": "GodFather"
+        },
+        {
+          "type": "malware",
+          "value": "uCreator"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "hpncallback.gold5play.com",
+      "confidence": "high",
+      "reason": "Listed as a callback domain for C2 and payload delivery",
+      "first_seen": "2026-10-26T10:54:17+00:00",
+      "last_seen": "2026-11-01T18:33:22.053338+00:00",
+      "source_count": 4,
+      "sources": [
+        {
+          "source": "www.0x0v1.com",
+          "url": "https://www.0x0v1.com/ucreator-virtualization-based-android-spyware-platform-targeting-wechat-telegram-and-other-messaging-apps/",
+          "pub_date": "2026-11-01T18:33:22.053338+00:00"
+        },
+        {
+          "source": "cybernoz.com",
+          "url": "https://cybernoz.com/ucreator-android-spyware-can-steal-telegram-2fa-passwords-and-clone-wechat-accounts/",
+          "pub_date": "2026-10-27T01:18:32.50481+00:00"
+        },
+        {
+          "source": "News.Lavx.Hu",
+          "url": "https://news.lavx.hu/article/android-spyware-kit-ucreator-hijacks-telegram-2fa-clones-wechat-accounts",
+          "pub_date": "2026-10-26T16:42:52+00:00"
+        },
+        {
+          "source": "Thehackernews",
+          "url": "https://thehackernews.com/2026/10/ucreator-android-spyware-can-steal.html",
+          "pub_date": "2026-10-26T10:54:17+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "Baohuo"
+        },
+        {
+          "type": "malware",
+          "value": "uCreator"
+        },
+        {
+          "type": "malware",
+          "value": "FjordPhantom"
+        },
+        {
+          "type": "malware",
+          "value": "GodFather"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "hpncallback.qianxunlbs.com",
+      "confidence": "high",
+      "reason": "Listed as a callback domain for C2 and payload delivery",
+      "first_seen": "2026-10-26T10:54:17+00:00",
+      "last_seen": "2026-11-01T18:33:22.053338+00:00",
+      "source_count": 4,
+      "sources": [
+        {
+          "source": "www.0x0v1.com",
+          "url": "https://www.0x0v1.com/ucreator-virtualization-based-android-spyware-platform-targeting-wechat-telegram-and-other-messaging-apps/",
+          "pub_date": "2026-11-01T18:33:22.053338+00:00"
+        },
+        {
+          "source": "cybernoz.com",
+          "url": "https://cybernoz.com/ucreator-android-spyware-can-steal-telegram-2fa-passwords-and-clone-wechat-accounts/",
+          "pub_date": "2026-10-27T01:18:32.50481+00:00"
+        },
+        {
+          "source": "News.Lavx.Hu",
+          "url": "https://news.lavx.hu/article/android-spyware-kit-ucreator-hijacks-telegram-2fa-clones-wechat-accounts",
+          "pub_date": "2026-10-26T16:42:52+00:00"
+        },
+        {
+          "source": "Thehackernews",
+          "url": "https://thehackernews.com/2026/10/ucreator-android-spyware-can-steal.html",
+          "pub_date": "2026-10-26T10:54:17+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "Baohuo"
+        },
+        {
+          "type": "malware",
+          "value": "uCreator"
+        },
+        {
+          "type": "malware",
+          "value": "FjordPhantom"
+        },
+        {
+          "type": "malware",
+          "value": "GodFather"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "hw.android.videoflow.cn",
+      "confidence": "high",
+      "reason": "Used for version uploads in the attack infrastructure",
+      "first_seen": "2026-10-26T10:54:17+00:00",
+      "last_seen": "2026-11-01T18:33:22.053338+00:00",
+      "source_count": 4,
+      "sources": [
+        {
+          "source": "www.0x0v1.com",
+          "url": "https://www.0x0v1.com/ucreator-virtualization-based-android-spyware-platform-targeting-wechat-telegram-and-other-messaging-apps/",
+          "pub_date": "2026-11-01T18:33:22.053338+00:00"
+        },
+        {
+          "source": "cybernoz.com",
+          "url": "https://cybernoz.com/ucreator-android-spyware-can-steal-telegram-2fa-passwords-and-clone-wechat-accounts/",
+          "pub_date": "2026-10-27T01:18:32.50481+00:00"
+        },
+        {
+          "source": "News.Lavx.Hu",
+          "url": "https://news.lavx.hu/article/android-spyware-kit-ucreator-hijacks-telegram-2fa-clones-wechat-accounts",
+          "pub_date": "2026-10-26T16:42:52+00:00"
+        },
+        {
+          "source": "Thehackernews",
+          "url": "https://thehackernews.com/2026/10/ucreator-android-spyware-can-steal.html",
+          "pub_date": "2026-10-26T10:54:17+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "Baohuo"
+        },
+        {
+          "type": "malware",
+          "value": "uCreator"
+        },
+        {
+          "type": "malware",
+          "value": "FjordPhantom"
+        },
+        {
+          "type": "malware",
+          "value": "GodFather"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "qianxuncc.cn",
+      "confidence": "high",
+      "reason": "Associated with C2 infrastructure",
+      "first_seen": "2026-10-26T13:11:01+00:00",
+      "last_seen": "2026-11-01T18:33:22.053338+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "www.0x0v1.com",
+          "url": "https://www.0x0v1.com/ucreator-virtualization-based-android-spyware-platform-targeting-wechat-telegram-and-other-messaging-apps/",
+          "pub_date": "2026-11-01T18:33:22.053338+00:00"
+        },
+        {
+          "source": "Securityaffairs",
+          "url": "https://securityaffairs.com/201764/malware/researchers-uncover-rentable-android-spyware-ucreater-targeting-wechat-and-telegram.html",
+          "pub_date": "2026-10-26T13:11:01+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "uCreater"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "qianxunlbs.com",
+      "confidence": "high",
+      "reason": "Listed as a callback domain for C2 and payload delivery",
+      "first_seen": "2026-11-01T18:33:22.053338+00:00",
+      "last_seen": "2026-11-01T18:33:22.053338+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.0x0v1.com",
+          "url": "https://www.0x0v1.com/ucreator-virtualization-based-android-spyware-platform-targeting-wechat-telegram-and-other-messaging-apps/",
+          "pub_date": "2026-11-01T18:33:22.053338+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "telegram-apk.uzyzx.com",
+      "confidence": "high",
+      "reason": "Used as a distribution host for repackaged applications",
+      "first_seen": "2026-10-26T10:54:17+00:00",
+      "last_seen": "2026-11-01T18:33:22.053338+00:00",
+      "source_count": 5,
+      "sources": [
+        {
+          "source": "www.0x0v1.com",
+          "url": "https://www.0x0v1.com/ucreator-virtualization-based-android-spyware-platform-targeting-wechat-telegram-and-other-messaging-apps/",
+          "pub_date": "2026-11-01T18:33:22.053338+00:00"
+        },
+        {
+          "source": "cybernoz.com",
+          "url": "https://cybernoz.com/ucreator-android-spyware-can-steal-telegram-2fa-passwords-and-clone-wechat-accounts/",
+          "pub_date": "2026-10-27T01:18:32.50481+00:00"
+        },
+        {
+          "source": "News.Lavx.Hu",
+          "url": "https://news.lavx.hu/article/android-spyware-kit-ucreator-hijacks-telegram-2fa-clones-wechat-accounts",
+          "pub_date": "2026-10-26T16:42:52+00:00"
+        },
+        {
+          "source": "Securityaffairs",
+          "url": "https://securityaffairs.com/201764/malware/researchers-uncover-rentable-android-spyware-ucreater-targeting-wechat-and-telegram.html",
+          "pub_date": "2026-10-26T13:11:01+00:00"
+        },
+        {
+          "source": "Thehackernews",
+          "url": "https://thehackernews.com/2026/10/ucreator-android-spyware-can-steal.html",
+          "pub_date": "2026-10-26T10:54:17+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "Baohuo"
+        },
+        {
+          "type": "malware",
+          "value": "uCreator"
+        },
+        {
+          "type": "malware",
+          "value": "FjordPhantom"
+        },
+        {
+          "type": "malware",
+          "value": "GodFather"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "ucreater.com",
+      "confidence": "high",
+      "reason": "Linked to the uCreator brand and infrastructure",
+      "first_seen": "2026-10-26T13:11:01+00:00",
+      "last_seen": "2026-11-01T18:33:22.053338+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "www.0x0v1.com",
+          "url": "https://www.0x0v1.com/ucreator-virtualization-based-android-spyware-platform-targeting-wechat-telegram-and-other-messaging-apps/",
+          "pub_date": "2026-11-01T18:33:22.053338+00:00"
+        },
+        {
+          "source": "Securityaffairs",
+          "url": "https://securityaffairs.com/201764/malware/researchers-uncover-rentable-android-spyware-ucreater-targeting-wechat-and-telegram.html",
+          "pub_date": "2026-10-26T13:11:01+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "uCreater"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "uzyzx.com",
+      "confidence": "high",
+      "reason": "Used as a distribution host for repackaged applications",
+      "first_seen": "2026-11-01T18:33:22.053338+00:00",
+      "last_seen": "2026-11-01T18:33:22.053338+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.0x0v1.com",
+          "url": "https://www.0x0v1.com/ucreator-virtualization-based-android-spyware-platform-targeting-wechat-telegram-and-other-messaging-apps/",
+          "pub_date": "2026-11-01T18:33:22.053338+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "videoflow.cn",
+      "confidence": "high",
+      "reason": "Associated with C2 infrastructure",
+      "first_seen": "2026-10-26T13:11:01+00:00",
+      "last_seen": "2026-11-01T18:33:22.053338+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "www.0x0v1.com",
+          "url": "https://www.0x0v1.com/ucreator-virtualization-based-android-spyware-platform-targeting-wechat-telegram-and-other-messaging-apps/",
+          "pub_date": "2026-11-01T18:33:22.053338+00:00"
+        },
+        {
+          "source": "Securityaffairs",
+          "url": "https://securityaffairs.com/201764/malware/researchers-uncover-rentable-android-spyware-ucreater-targeting-wechat-and-telegram.html",
+          "pub_date": "2026-10-26T13:11:01+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "uCreater"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "plantabird.com",
+      "confidence": "high",
+      "reason": "Used in a phishing scam as reported",
+      "first_seen": "2026-11-01T15:02:33+00:00",
+      "last_seen": "2026-11-01T15:02:33+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Chroniclelive",
+          "url": "https://www.chroniclelive.co.uk/news/north-east-news/durham-county-council-issues-do-34846789",
+          "pub_date": "2026-11-01T15:02:33+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "511mma.ru",
+      "confidence": "high",
+      "reason": "Listed as part of a C2 infrastructure for XLoader",
+      "first_seen": "2026-11-01T12:41:22+00:00",
+      "last_seen": "2026-11-01T12:41:22+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Morphisec",
+          "url": "https://www.morphisec.com/blog/from-business-emails-to-xloader-an-order-lure-that-led-to-in-memory-injection/",
+          "pub_date": "2026-11-01T12:41:22+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "bagolone.it",
+      "confidence": "high",
+      "reason": "Listed as part of a C2 infrastructure for XLoader",
+      "first_seen": "2026-11-01T12:41:22+00:00",
+      "last_seen": "2026-11-01T12:41:22+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Morphisec",
+          "url": "https://www.morphisec.com/blog/from-business-emails-to-xloader-an-order-lure-that-led-to-in-memory-injection/",
+          "pub_date": "2026-11-01T12:41:22+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "eolienzaer.com",
+      "confidence": "high",
+      "reason": "Listed as part of a C2 infrastructure for XLoader",
+      "first_seen": "2026-11-01T12:41:22+00:00",
+      "last_seen": "2026-11-01T12:41:22+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Morphisec",
+          "url": "https://www.morphisec.com/blog/from-business-emails-to-xloader-an-order-lure-that-led-to-in-memory-injection/",
+          "pub_date": "2026-11-01T12:41:22+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "grandseosite91.shop",
+      "confidence": "high",
+      "reason": "Listed as part of a C2 infrastructure for XLoader",
+      "first_seen": "2026-11-01T12:41:22+00:00",
+      "last_seen": "2026-11-01T12:41:22+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Morphisec",
+          "url": "https://www.morphisec.com/blog/from-business-emails-to-xloader-an-order-lure-that-led-to-in-memory-injection/",
+          "pub_date": "2026-11-01T12:41:22+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "hahashoe.com",
+      "confidence": "high",
+      "reason": "Listed as part of a C2 infrastructure for XLoader",
+      "first_seen": "2026-11-01T12:41:22+00:00",
+      "last_seen": "2026-11-01T12:41:22+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Morphisec",
+          "url": "https://www.morphisec.com/blog/from-business-emails-to-xloader-an-order-lure-that-led-to-in-memory-injection/",
+          "pub_date": "2026-11-01T12:41:22+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "iqos-one.com",
+      "confidence": "high",
+      "reason": "Listed as part of a C2 infrastructure for XLoader",
+      "first_seen": "2026-11-01T12:41:22+00:00",
+      "last_seen": "2026-11-01T12:41:22+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Morphisec",
+          "url": "https://www.morphisec.com/blog/from-business-emails-to-xloader-an-order-lure-that-led-to-in-memory-injection/",
+          "pub_date": "2026-11-01T12:41:22+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "komplek.id",
+      "confidence": "high",
+      "reason": "Listed as part of a C2 infrastructure for XLoader",
+      "first_seen": "2026-11-01T12:41:22+00:00",
+      "last_seen": "2026-11-01T12:41:22+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Morphisec",
+          "url": "https://www.morphisec.com/blog/from-business-emails-to-xloader-an-order-lure-that-led-to-in-memory-injection/",
+          "pub_date": "2026-11-01T12:41:22+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "moreultras.store",
+      "confidence": "high",
+      "reason": "Listed as part of a C2 infrastructure for XLoader",
+      "first_seen": "2026-11-01T12:41:22+00:00",
+      "last_seen": "2026-11-01T12:41:22+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Morphisec",
+          "url": "https://www.morphisec.com/blog/from-business-emails-to-xloader-an-order-lure-that-led-to-in-memory-injection/",
+          "pub_date": "2026-11-01T12:41:22+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "offon33fv.club",
+      "confidence": "high",
+      "reason": "Listed as part of a C2 infrastructure for XLoader",
+      "first_seen": "2026-11-01T12:41:22+00:00",
+      "last_seen": "2026-11-01T12:41:22+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Morphisec",
+          "url": "https://www.morphisec.com/blog/from-business-emails-to-xloader-an-order-lure-that-led-to-in-memory-injection/",
+          "pub_date": "2026-11-01T12:41:22+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "revelintravel.com",
+      "confidence": "high",
+      "reason": "Listed as part of a C2 infrastructure for XLoader",
+      "first_seen": "2026-11-01T12:41:22+00:00",
+      "last_seen": "2026-11-01T12:41:22+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Morphisec",
+          "url": "https://www.morphisec.com/blog/from-business-emails-to-xloader-an-order-lure-that-led-to-in-memory-injection/",
+          "pub_date": "2026-11-01T12:41:22+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "snvipvn.com",
+      "confidence": "high",
+      "reason": "Listed as part of a C2 infrastructure for XLoader",
+      "first_seen": "2026-11-01T12:41:22+00:00",
+      "last_seen": "2026-11-01T12:41:22+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Morphisec",
+          "url": "https://www.morphisec.com/blog/from-business-emails-to-xloader-an-order-lure-that-led-to-in-memory-injection/",
+          "pub_date": "2026-11-01T12:41:22+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "sonhero.top",
+      "confidence": "high",
+      "reason": "Listed as part of a C2 infrastructure for XLoader",
+      "first_seen": "2026-11-01T12:41:22+00:00",
+      "last_seen": "2026-11-01T12:41:22+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Morphisec",
+          "url": "https://www.morphisec.com/blog/from-business-emails-to-xloader-an-order-lure-that-led-to-in-memory-injection/",
+          "pub_date": "2026-11-01T12:41:22+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "tomatox.com.tw",
+      "confidence": "high",
+      "reason": "Listed as part of a C2 infrastructure for XLoader",
+      "first_seen": "2026-11-01T12:41:22+00:00",
+      "last_seen": "2026-11-01T12:41:22+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Morphisec",
+          "url": "https://www.morphisec.com/blog/from-business-emails-to-xloader-an-order-lure-that-led-to-in-memory-injection/",
+          "pub_date": "2026-11-01T12:41:22+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "www.990match.com",
+      "confidence": "high",
+      "reason": "Listed as part of a C2 infrastructure for XLoader",
+      "first_seen": "2026-11-01T12:41:22+00:00",
+      "last_seen": "2026-11-01T12:41:22+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Morphisec",
+          "url": "https://www.morphisec.com/blog/from-business-emails-to-xloader-an-order-lure-that-led-to-in-memory-injection/",
+          "pub_date": "2026-11-01T12:41:22+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "openaigpt4v.com",
+      "confidence": "high",
+      "reason": "Identified as a C2 server for malicious activity",
+      "first_seen": "2026-11-01T07:02:58+00:00",
+      "last_seen": "2026-11-01T07:02:58+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Thehackernews",
+          "url": "https://thehackernews.com/2026/11/netamloader-malware-targets-government.html",
+          "pub_date": "2026-11-01T07:02:58+00:00"
+        }
+      ],
+      "tags": []
+    },
     {
       "type": "domain",
       "value": "account-confirm.top",
@@ -80,55 +1017,6 @@
         }
       ],
       "tags": []
-    },
-    {
-      "type": "ipv4",
-      "value": "108.165.147.64",
-      "confidence": "high",
-      "reason": "Identified as a host used by the attacker for operations",
-      "first_seen": "2026-10-13T17:33:11+00:00",
-      "last_seen": "2026-10-31T20:30:51.184710+00:00",
-      "source_count": 4,
-      "sources": [
-        {
-          "source": "www.volexity.com",
-          "url": "https://www.volexity.com/blog/2026/10/13/a-series-of-unauthenticated-events-chained-exploitation-of-ivanti-connect-secure-zero-days/",
-          "pub_date": "2026-10-31T20:30:51.18471+00:00"
-        },
-        {
-          "source": "Ccb.Belgium.Be",
-          "url": "https://ccb.belgium.be/advisories/warning-actively-exploited-zero-day-vulnerability-ivanti-connect-secure-allows-remote",
-          "pub_date": "2026-10-14T16:28:35+00:00"
-        },
-        {
-          "source": "Rescana",
-          "url": "https://www.rescana.com/post/ivanti-connect-secure-zero-day-exploit-chain-enables-root-level-rce-and-credential-theft-on-fully-patched-vpn-appliances",
-          "pub_date": "2026-10-14T07:31:12+00:00"
-        },
-        {
-          "source": "Feeds.Feedburner",
-          "url": "https://thehackernews.com/2026/10/attacker-chains-three-ivanti-connect.html",
-          "pub_date": "2026-10-13T17:33:11+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "cve",
-          "value": "CVE-2026-104935"
-        },
-        {
-          "type": "campaign",
-          "value": "Chained Exploitation Of Ivanti Connect Secure Zero-Days"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-106042"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-109412"
-        }
-      ]
     },
     {
       "type": "domain",
@@ -1983,210 +2871,6 @@
     },
     {
       "type": "domain",
-      "value": "aideck.net",
-      "confidence": "high",
-      "reason": "Used as a C2 server for Manuscrypt malware",
-      "first_seen": "2026-10-30T12:00:43.950153+00:00",
-      "last_seen": "2026-10-30T12:00:43.950153+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.cisa.gov",
-          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-108a",
-          "pub_date": "2026-10-30T12:00:43.950153+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "APT38"
-        },
-        {
-          "type": "apt_group",
-          "value": "BlueNoroff"
-        },
-        {
-          "type": "apt_group",
-          "value": "Lazarus Group"
-        },
-        {
-          "type": "apt_group",
-          "value": "Stardust Chollima"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "dafnefonseca.com",
-      "confidence": "high",
-      "reason": "Listed as a C2 endpoint for malware",
-      "first_seen": "2026-10-30T12:00:43.950153+00:00",
-      "last_seen": "2026-10-30T12:00:43.950153+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.cisa.gov",
-          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-108a",
-          "pub_date": "2026-10-30T12:00:43.950153+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "APT38"
-        },
-        {
-          "type": "apt_group",
-          "value": "BlueNoroff"
-        },
-        {
-          "type": "apt_group",
-          "value": "Lazarus Group"
-        },
-        {
-          "type": "apt_group",
-          "value": "Stardust Chollima"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "greenvideo.nl",
-      "confidence": "high",
-      "reason": "Listed as a C2 endpoint for malware",
-      "first_seen": "2026-10-30T12:00:43.950153+00:00",
-      "last_seen": "2026-10-30T12:00:43.950153+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.cisa.gov",
-          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-108a",
-          "pub_date": "2026-10-30T12:00:43.950153+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "APT38"
-        },
-        {
-          "type": "apt_group",
-          "value": "BlueNoroff"
-        },
-        {
-          "type": "apt_group",
-          "value": "Lazarus Group"
-        },
-        {
-          "type": "apt_group",
-          "value": "Stardust Chollima"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "infodigitalnew.com",
-      "confidence": "high",
-      "reason": "Listed as a C2 endpoint for malware",
-      "first_seen": "2026-10-30T12:00:43.950153+00:00",
-      "last_seen": "2026-10-30T12:00:43.950153+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.cisa.gov",
-          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-108a",
-          "pub_date": "2026-10-30T12:00:43.950153+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "APT38"
-        },
-        {
-          "type": "apt_group",
-          "value": "BlueNoroff"
-        },
-        {
-          "type": "apt_group",
-          "value": "Lazarus Group"
-        },
-        {
-          "type": "apt_group",
-          "value": "Stardust Chollima"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "sche-eg.org",
-      "confidence": "high",
-      "reason": "Listed as a C2 endpoint for malware",
-      "first_seen": "2026-10-30T12:00:43.950153+00:00",
-      "last_seen": "2026-10-30T12:00:43.950153+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.cisa.gov",
-          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-108a",
-          "pub_date": "2026-10-30T12:00:43.950153+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "APT38"
-        },
-        {
-          "type": "apt_group",
-          "value": "BlueNoroff"
-        },
-        {
-          "type": "apt_group",
-          "value": "Lazarus Group"
-        },
-        {
-          "type": "apt_group",
-          "value": "Stardust Chollima"
-        }
-      ]
-    },
-    {
-      "type": "ipv4",
-      "value": "45.14.227.58",
-      "confidence": "high",
-      "reason": "Associated with DAFOM malware",
-      "first_seen": "2026-10-30T12:00:43.950153+00:00",
-      "last_seen": "2026-10-30T12:00:43.950153+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.cisa.gov",
-          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-108a",
-          "pub_date": "2026-10-30T12:00:43.950153+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "APT38"
-        },
-        {
-          "type": "apt_group",
-          "value": "BlueNoroff"
-        },
-        {
-          "type": "apt_group",
-          "value": "Lazarus Group"
-        },
-        {
-          "type": "apt_group",
-          "value": "Stardust Chollima"
-        }
-      ]
-    },
-    {
-      "type": "domain",
       "value": "cancelcardprotection.online",
       "confidence": "high",
       "reason": "Used in phishing campaigns targeting bank customers",
@@ -3335,70 +4019,6 @@
     },
     {
       "type": "domain",
-      "value": "clickksy.icu",
-      "confidence": "high",
-      "reason": "Used to host malicious Adobe Acrobat Reader-themed lure",
-      "first_seen": "2026-10-29T00:00:00+00:00",
-      "last_seen": "2026-10-29T00:00:00+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Cloudsek",
-          "url": "https://www.cloudsek.com/blog/fake-adobe-acrobat-lures-deliver-screenconnect-remote-access-clients",
-          "pub_date": "2026-10-29T00:00:00+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "motormotif.com",
-      "confidence": "high",
-      "reason": "Used in a phishing redirection path",
-      "first_seen": "2026-10-29T00:00:00+00:00",
-      "last_seen": "2026-10-29T00:00:00+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Cloudsek",
-          "url": "https://www.cloudsek.com/blog/fake-adobe-acrobat-lures-deliver-screenconnect-remote-access-clients",
-          "pub_date": "2026-10-29T00:00:00+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "my.thispc.net",
-      "confidence": "high",
-      "reason": "Domain used for C2 beaconing in the phishing campaign",
-      "first_seen": "2026-10-28T23:32:32.473890+00:00",
-      "last_seen": "2026-10-28T23:32:32.473890+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.threatdown.com",
-          "url": "https://www.threatdown.com/blog/fake-court-adr-phishing-lodarat/",
-          "pub_date": "2026-10-28T23:32:32.47389+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "COURT-2026"
-        },
-        {
-          "type": "campaign",
-          "value": "Court-adr"
-        },
-        {
-          "type": "malware",
-          "value": "LodaRAT"
-        }
-      ]
-    },
-    {
-      "type": "domain",
       "value": "carte-avantage.com",
       "confidence": "high",
       "reason": "Used as an exfiltration endpoint by attackers",
@@ -3531,366 +4151,6 @@
         }
       ],
       "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "com.ucreator.tg",
-      "confidence": "high",
-      "reason": "Part of the uCreator platform framework and command handlers",
-      "first_seen": "2026-10-26T10:54:17+00:00",
-      "last_seen": "2026-10-28T15:03:38.999660+00:00",
-      "source_count": 3,
-      "sources": [
-        {
-          "source": "www.0x0v1.com",
-          "url": "https://www.0x0v1.com/ucreator-virtualization-based-android-spyware-platform-targeting-wechat-telegram-and-other-messaging-apps/",
-          "pub_date": "2026-10-28T15:03:38.99966+00:00"
-        },
-        {
-          "source": "cybernoz.com",
-          "url": "https://cybernoz.com/ucreator-android-spyware-can-steal-telegram-2fa-passwords-and-clone-wechat-accounts/",
-          "pub_date": "2026-10-27T01:18:32.50481+00:00"
-        },
-        {
-          "source": "Thehackernews",
-          "url": "https://thehackernews.com/2026/10/ucreator-android-spyware-can-steal.html",
-          "pub_date": "2026-10-26T10:54:17+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "malware",
-          "value": "Baohuo"
-        },
-        {
-          "type": "malware",
-          "value": "FjordPhantom"
-        },
-        {
-          "type": "malware",
-          "value": "GodFather"
-        },
-        {
-          "type": "malware",
-          "value": "uCreator"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "hpncallback.gold5play.com",
-      "confidence": "high",
-      "reason": "Listed as a callback domain for C2 and payload delivery",
-      "first_seen": "2026-10-26T10:54:17+00:00",
-      "last_seen": "2026-10-28T15:03:38.999660+00:00",
-      "source_count": 4,
-      "sources": [
-        {
-          "source": "www.0x0v1.com",
-          "url": "https://www.0x0v1.com/ucreator-virtualization-based-android-spyware-platform-targeting-wechat-telegram-and-other-messaging-apps/",
-          "pub_date": "2026-10-28T15:03:38.99966+00:00"
-        },
-        {
-          "source": "cybernoz.com",
-          "url": "https://cybernoz.com/ucreator-android-spyware-can-steal-telegram-2fa-passwords-and-clone-wechat-accounts/",
-          "pub_date": "2026-10-27T01:18:32.50481+00:00"
-        },
-        {
-          "source": "News.Lavx.Hu",
-          "url": "https://news.lavx.hu/article/android-spyware-kit-ucreator-hijacks-telegram-2fa-clones-wechat-accounts",
-          "pub_date": "2026-10-26T16:42:52+00:00"
-        },
-        {
-          "source": "Thehackernews",
-          "url": "https://thehackernews.com/2026/10/ucreator-android-spyware-can-steal.html",
-          "pub_date": "2026-10-26T10:54:17+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "malware",
-          "value": "Baohuo"
-        },
-        {
-          "type": "malware",
-          "value": "uCreator"
-        },
-        {
-          "type": "malware",
-          "value": "FjordPhantom"
-        },
-        {
-          "type": "malware",
-          "value": "GodFather"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "hpncallback.qianxunlbs.com",
-      "confidence": "high",
-      "reason": "Listed as a callback domain for C2 and payload delivery",
-      "first_seen": "2026-10-26T10:54:17+00:00",
-      "last_seen": "2026-10-28T15:03:38.999660+00:00",
-      "source_count": 4,
-      "sources": [
-        {
-          "source": "www.0x0v1.com",
-          "url": "https://www.0x0v1.com/ucreator-virtualization-based-android-spyware-platform-targeting-wechat-telegram-and-other-messaging-apps/",
-          "pub_date": "2026-10-28T15:03:38.99966+00:00"
-        },
-        {
-          "source": "cybernoz.com",
-          "url": "https://cybernoz.com/ucreator-android-spyware-can-steal-telegram-2fa-passwords-and-clone-wechat-accounts/",
-          "pub_date": "2026-10-27T01:18:32.50481+00:00"
-        },
-        {
-          "source": "News.Lavx.Hu",
-          "url": "https://news.lavx.hu/article/android-spyware-kit-ucreator-hijacks-telegram-2fa-clones-wechat-accounts",
-          "pub_date": "2026-10-26T16:42:52+00:00"
-        },
-        {
-          "source": "Thehackernews",
-          "url": "https://thehackernews.com/2026/10/ucreator-android-spyware-can-steal.html",
-          "pub_date": "2026-10-26T10:54:17+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "malware",
-          "value": "Baohuo"
-        },
-        {
-          "type": "malware",
-          "value": "uCreator"
-        },
-        {
-          "type": "malware",
-          "value": "FjordPhantom"
-        },
-        {
-          "type": "malware",
-          "value": "GodFather"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "hw.android.videoflow.cn",
-      "confidence": "high",
-      "reason": "Used for version uploads in the attack infrastructure",
-      "first_seen": "2026-10-26T10:54:17+00:00",
-      "last_seen": "2026-10-28T15:03:38.999660+00:00",
-      "source_count": 4,
-      "sources": [
-        {
-          "source": "www.0x0v1.com",
-          "url": "https://www.0x0v1.com/ucreator-virtualization-based-android-spyware-platform-targeting-wechat-telegram-and-other-messaging-apps/",
-          "pub_date": "2026-10-28T15:03:38.99966+00:00"
-        },
-        {
-          "source": "cybernoz.com",
-          "url": "https://cybernoz.com/ucreator-android-spyware-can-steal-telegram-2fa-passwords-and-clone-wechat-accounts/",
-          "pub_date": "2026-10-27T01:18:32.50481+00:00"
-        },
-        {
-          "source": "News.Lavx.Hu",
-          "url": "https://news.lavx.hu/article/android-spyware-kit-ucreator-hijacks-telegram-2fa-clones-wechat-accounts",
-          "pub_date": "2026-10-26T16:42:52+00:00"
-        },
-        {
-          "source": "Thehackernews",
-          "url": "https://thehackernews.com/2026/10/ucreator-android-spyware-can-steal.html",
-          "pub_date": "2026-10-26T10:54:17+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "malware",
-          "value": "Baohuo"
-        },
-        {
-          "type": "malware",
-          "value": "uCreator"
-        },
-        {
-          "type": "malware",
-          "value": "FjordPhantom"
-        },
-        {
-          "type": "malware",
-          "value": "GodFather"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "qianxuncc.cn",
-      "confidence": "high",
-      "reason": "Associated with C2 infrastructure",
-      "first_seen": "2026-10-26T13:11:01+00:00",
-      "last_seen": "2026-10-28T15:03:38.999660+00:00",
-      "source_count": 2,
-      "sources": [
-        {
-          "source": "www.0x0v1.com",
-          "url": "https://www.0x0v1.com/ucreator-virtualization-based-android-spyware-platform-targeting-wechat-telegram-and-other-messaging-apps/",
-          "pub_date": "2026-10-28T15:03:38.99966+00:00"
-        },
-        {
-          "source": "Securityaffairs",
-          "url": "https://securityaffairs.com/201764/malware/researchers-uncover-rentable-android-spyware-ucreater-targeting-wechat-and-telegram.html",
-          "pub_date": "2026-10-26T13:11:01+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "malware",
-          "value": "uCreater"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "qianxunlbs.com",
-      "confidence": "high",
-      "reason": "Listed as a callback domain for C2 and payload delivery",
-      "first_seen": "2026-10-28T15:03:38.999660+00:00",
-      "last_seen": "2026-10-28T15:03:38.999660+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.0x0v1.com",
-          "url": "https://www.0x0v1.com/ucreator-virtualization-based-android-spyware-platform-targeting-wechat-telegram-and-other-messaging-apps/",
-          "pub_date": "2026-10-28T15:03:38.99966+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "telegram-apk.uzyzx.com",
-      "confidence": "high",
-      "reason": "Used as a distribution host for repackaged applications",
-      "first_seen": "2026-10-26T10:54:17+00:00",
-      "last_seen": "2026-10-28T15:03:38.999660+00:00",
-      "source_count": 5,
-      "sources": [
-        {
-          "source": "www.0x0v1.com",
-          "url": "https://www.0x0v1.com/ucreator-virtualization-based-android-spyware-platform-targeting-wechat-telegram-and-other-messaging-apps/",
-          "pub_date": "2026-10-28T15:03:38.99966+00:00"
-        },
-        {
-          "source": "cybernoz.com",
-          "url": "https://cybernoz.com/ucreator-android-spyware-can-steal-telegram-2fa-passwords-and-clone-wechat-accounts/",
-          "pub_date": "2026-10-27T01:18:32.50481+00:00"
-        },
-        {
-          "source": "News.Lavx.Hu",
-          "url": "https://news.lavx.hu/article/android-spyware-kit-ucreator-hijacks-telegram-2fa-clones-wechat-accounts",
-          "pub_date": "2026-10-26T16:42:52+00:00"
-        },
-        {
-          "source": "Securityaffairs",
-          "url": "https://securityaffairs.com/201764/malware/researchers-uncover-rentable-android-spyware-ucreater-targeting-wechat-and-telegram.html",
-          "pub_date": "2026-10-26T13:11:01+00:00"
-        },
-        {
-          "source": "Thehackernews",
-          "url": "https://thehackernews.com/2026/10/ucreator-android-spyware-can-steal.html",
-          "pub_date": "2026-10-26T10:54:17+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "malware",
-          "value": "Baohuo"
-        },
-        {
-          "type": "malware",
-          "value": "uCreator"
-        },
-        {
-          "type": "malware",
-          "value": "FjordPhantom"
-        },
-        {
-          "type": "malware",
-          "value": "GodFather"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "ucreater.com",
-      "confidence": "high",
-      "reason": "Linked to the uCreator brand and infrastructure",
-      "first_seen": "2026-10-26T13:11:01+00:00",
-      "last_seen": "2026-10-28T15:03:38.999660+00:00",
-      "source_count": 2,
-      "sources": [
-        {
-          "source": "www.0x0v1.com",
-          "url": "https://www.0x0v1.com/ucreator-virtualization-based-android-spyware-platform-targeting-wechat-telegram-and-other-messaging-apps/",
-          "pub_date": "2026-10-28T15:03:38.99966+00:00"
-        },
-        {
-          "source": "Securityaffairs",
-          "url": "https://securityaffairs.com/201764/malware/researchers-uncover-rentable-android-spyware-ucreater-targeting-wechat-and-telegram.html",
-          "pub_date": "2026-10-26T13:11:01+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "malware",
-          "value": "uCreater"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "uzyzx.com",
-      "confidence": "high",
-      "reason": "Used as a distribution host for repackaged applications",
-      "first_seen": "2026-10-28T15:03:38.999660+00:00",
-      "last_seen": "2026-10-28T15:03:38.999660+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.0x0v1.com",
-          "url": "https://www.0x0v1.com/ucreator-virtualization-based-android-spyware-platform-targeting-wechat-telegram-and-other-messaging-apps/",
-          "pub_date": "2026-10-28T15:03:38.99966+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "videoflow.cn",
-      "confidence": "high",
-      "reason": "Associated with C2 infrastructure",
-      "first_seen": "2026-10-26T13:11:01+00:00",
-      "last_seen": "2026-10-28T15:03:38.999660+00:00",
-      "source_count": 2,
-      "sources": [
-        {
-          "source": "www.0x0v1.com",
-          "url": "https://www.0x0v1.com/ucreator-virtualization-based-android-spyware-platform-targeting-wechat-telegram-and-other-messaging-apps/",
-          "pub_date": "2026-10-28T15:03:38.99966+00:00"
-        },
-        {
-          "source": "Securityaffairs",
-          "url": "https://securityaffairs.com/201764/malware/researchers-uncover-rentable-android-spyware-ucreater-targeting-wechat-and-telegram.html",
-          "pub_date": "2026-10-26T13:11:01+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "malware",
-          "value": "uCreater"
-        }
-      ]
     },
     {
       "type": "domain",
@@ -25631,181 +25891,6 @@
         {
           "type": "cve",
           "value": "CVE-2026-88779"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "account.drive-google-com.tk",
-      "confidence": "high",
-      "reason": "Listed as previously reported UNK_SweetSpecter domain used for C2 communications",
-      "first_seen": "2026-10-02T16:30:51.440394+00:00",
-      "last_seen": "2026-10-02T16:30:51.440394+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.proofpoint.com",
-          "url": "https://www.proofpoint.com/us/blog/threat-insight/security-brief-artificial-sweetener-sugargh0st-rat-used-target-american",
-          "pub_date": "2026-10-02T16:30:51.440394+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "SugarGh0st RAT Campaign"
-        },
-        {
-          "type": "industry",
-          "value": "Government"
-        },
-        {
-          "type": "malware",
-          "value": "Gh0stRAT"
-        },
-        {
-          "type": "malware",
-          "value": "SugarGh0st RAT"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "account.gommask.online",
-      "confidence": "high",
-      "reason": "Identified as a new C2 domain for UNK_SweetSpecter",
-      "first_seen": "2026-10-02T16:30:51.440394+00:00",
-      "last_seen": "2026-10-02T16:30:51.440394+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.proofpoint.com",
-          "url": "https://www.proofpoint.com/us/blog/threat-insight/security-brief-artificial-sweetener-sugargh0st-rat-used-target-american",
-          "pub_date": "2026-10-02T16:30:51.440394+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "SugarGh0st RAT Campaign"
-        },
-        {
-          "type": "industry",
-          "value": "Government"
-        },
-        {
-          "type": "malware",
-          "value": "Gh0stRAT"
-        },
-        {
-          "type": "malware",
-          "value": "SugarGh0st RAT"
-        }
-      ]
-    },
-    {
-      "type": "ipv4",
-      "value": "103.148.245.235",
-      "confidence": "high",
-      "reason": "Shared hosting with UNK_SweetSpecter C2 domains",
-      "first_seen": "2026-10-02T16:30:51.440394+00:00",
-      "last_seen": "2026-10-02T16:30:51.440394+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.proofpoint.com",
-          "url": "https://www.proofpoint.com/us/blog/threat-insight/security-brief-artificial-sweetener-sugargh0st-rat-used-target-american",
-          "pub_date": "2026-10-02T16:30:51.440394+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "SugarGh0st RAT Campaign"
-        },
-        {
-          "type": "industry",
-          "value": "Government"
-        },
-        {
-          "type": "malware",
-          "value": "Gh0stRAT"
-        },
-        {
-          "type": "malware",
-          "value": "SugarGh0st RAT"
-        }
-      ]
-    },
-    {
-      "type": "ipv4",
-      "value": "43.242.203.115",
-      "confidence": "high",
-      "reason": "Hosting the new C2 domain for UNK_SweetSpecter",
-      "first_seen": "2026-10-02T16:30:51.440394+00:00",
-      "last_seen": "2026-10-02T16:30:51.440394+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.proofpoint.com",
-          "url": "https://www.proofpoint.com/us/blog/threat-insight/security-brief-artificial-sweetener-sugargh0st-rat-used-target-american",
-          "pub_date": "2026-10-02T16:30:51.440394+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "SugarGh0st RAT Campaign"
-        },
-        {
-          "type": "industry",
-          "value": "Government"
-        },
-        {
-          "type": "malware",
-          "value": "Gh0stRAT"
-        },
-        {
-          "type": "malware",
-          "value": "SugarGh0st RAT"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "lowtpills.com",
-      "confidence": "high",
-      "reason": "Used in a vulnerability exploitation scenario",
-      "first_seen": "2026-10-02T16:27:54+00:00",
-      "last_seen": "2026-10-02T16:27:54+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Darkreading",
-          "url": "https://www.darkreading.com/cybersecurity-operations/swift-banking-govt-middleware-rce",
-          "pub_date": "2026-10-02T16:27:54+00:00"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "type": "domain",
-      "value": "pbapi.xyz",
-      "confidence": "high",
-      "reason": "Described as a command-and-control channel used by the extension",
-      "first_seen": "2026-10-02T14:41:46.380979+00:00",
-      "last_seen": "2026-10-02T14:41:46.380979+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "amibeingpwned.com",
-          "url": "https://amibeingpwned.com/blog/poper-blocker-the-adblocker-that-spies-on-you",
-          "pub_date": "2026-10-02T14:41:46.380979+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "malware",
-          "value": "Poper Blocker"
         }
       ]
     }

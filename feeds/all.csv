@@ -1,9 +1,43 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason
+domain,clickksy.icu,high,2026-10-29T00:00:00+00:00,2026-11-02T11:19:02+00:00,2,Hackread:2026-11-02|Cloudsek:2026-10-29,"Domain used in a campaign with Adobe-themed lures, registered by attackers."
+domain,aideck.net,high,2026-11-02T10:07:30.919290+00:00,2026-11-02T10:07:30.919290+00:00,1,www.cisa.gov:2026-11-02,Used as a C2 server for Manuscrypt malware
+domain,dafnefonseca.com,high,2026-11-02T10:07:30.919290+00:00,2026-11-02T10:07:30.919290+00:00,1,www.cisa.gov:2026-11-02,Listed as a C2 endpoint for malware
+domain,greenvideo.nl,high,2026-11-02T10:07:30.919290+00:00,2026-11-02T10:07:30.919290+00:00,1,www.cisa.gov:2026-11-02,Listed as a C2 endpoint for malware
+domain,infodigitalnew.com,high,2026-11-02T10:07:30.919290+00:00,2026-11-02T10:07:30.919290+00:00,1,www.cisa.gov:2026-11-02,Listed as a C2 endpoint for malware
+domain,sche-eg.org,high,2026-11-02T10:07:30.919290+00:00,2026-11-02T10:07:30.919290+00:00,1,www.cisa.gov:2026-11-02,Listed as a C2 endpoint for malware
+ipv4,45.14.227.58,high,2026-11-02T10:07:30.919290+00:00,2026-11-02T10:07:30.919290+00:00,1,www.cisa.gov:2026-11-02,Associated with DAFOM malware
+ipv4,108.165.147.64,high,2026-10-13T17:33:11+00:00,2026-11-02T10:06:11.096915+00:00,4,www.volexity.com:2026-11-02|Ccb.Belgium.Be:2026-10-14|Rescana:2026-10-14|Feeds.Feedburner:2026-10-13,Identified as a host used by the attacker for operations
+domain,my.thispc.net,high,2026-11-02T03:35:22.150017+00:00,2026-11-02T03:35:22.150017+00:00,1,www.threatdown.com:2026-11-02,Domain used for C2 beaconing in the phishing campaign
+domain,com.ucreator.tg,high,2026-10-26T10:54:17+00:00,2026-11-01T18:33:22.053338+00:00,3,www.0x0v1.com:2026-11-01|cybernoz.com:2026-10-27|Thehackernews:2026-10-26,Part of the uCreator platform framework and command handlers
+domain,hpncallback.gold5play.com,high,2026-10-26T10:54:17+00:00,2026-11-01T18:33:22.053338+00:00,4,www.0x0v1.com:2026-11-01|cybernoz.com:2026-10-27|News.Lavx.Hu:2026-10-26|Thehackernews:2026-10-26,Listed as a callback domain for C2 and payload delivery
+domain,hpncallback.qianxunlbs.com,high,2026-10-26T10:54:17+00:00,2026-11-01T18:33:22.053338+00:00,4,www.0x0v1.com:2026-11-01|cybernoz.com:2026-10-27|News.Lavx.Hu:2026-10-26|Thehackernews:2026-10-26,Listed as a callback domain for C2 and payload delivery
+domain,hw.android.videoflow.cn,high,2026-10-26T10:54:17+00:00,2026-11-01T18:33:22.053338+00:00,4,www.0x0v1.com:2026-11-01|cybernoz.com:2026-10-27|News.Lavx.Hu:2026-10-26|Thehackernews:2026-10-26,Used for version uploads in the attack infrastructure
+domain,qianxuncc.cn,high,2026-10-26T13:11:01+00:00,2026-11-01T18:33:22.053338+00:00,2,www.0x0v1.com:2026-11-01|Securityaffairs:2026-10-26,Associated with C2 infrastructure
+domain,qianxunlbs.com,high,2026-11-01T18:33:22.053338+00:00,2026-11-01T18:33:22.053338+00:00,1,www.0x0v1.com:2026-11-01,Listed as a callback domain for C2 and payload delivery
+domain,telegram-apk.uzyzx.com,high,2026-10-26T10:54:17+00:00,2026-11-01T18:33:22.053338+00:00,5,www.0x0v1.com:2026-11-01|cybernoz.com:2026-10-27|News.Lavx.Hu:2026-10-26|Securityaffairs:2026-10-26|Thehackernews:2026-10-26,Used as a distribution host for repackaged applications
+domain,ucreater.com,high,2026-10-26T13:11:01+00:00,2026-11-01T18:33:22.053338+00:00,2,www.0x0v1.com:2026-11-01|Securityaffairs:2026-10-26,Linked to the uCreator brand and infrastructure
+domain,uzyzx.com,high,2026-11-01T18:33:22.053338+00:00,2026-11-01T18:33:22.053338+00:00,1,www.0x0v1.com:2026-11-01,Used as a distribution host for repackaged applications
+domain,videoflow.cn,high,2026-10-26T13:11:01+00:00,2026-11-01T18:33:22.053338+00:00,2,www.0x0v1.com:2026-11-01|Securityaffairs:2026-10-26,Associated with C2 infrastructure
+domain,plantabird.com,high,2026-11-01T15:02:33+00:00,2026-11-01T15:02:33+00:00,1,Chroniclelive:2026-11-01,Used in a phishing scam as reported
+domain,511mma.ru,high,2026-11-01T12:41:22+00:00,2026-11-01T12:41:22+00:00,1,Morphisec:2026-11-01,Listed as part of a C2 infrastructure for XLoader
+domain,bagolone.it,high,2026-11-01T12:41:22+00:00,2026-11-01T12:41:22+00:00,1,Morphisec:2026-11-01,Listed as part of a C2 infrastructure for XLoader
+domain,eolienzaer.com,high,2026-11-01T12:41:22+00:00,2026-11-01T12:41:22+00:00,1,Morphisec:2026-11-01,Listed as part of a C2 infrastructure for XLoader
+domain,grandseosite91.shop,high,2026-11-01T12:41:22+00:00,2026-11-01T12:41:22+00:00,1,Morphisec:2026-11-01,Listed as part of a C2 infrastructure for XLoader
+domain,hahashoe.com,high,2026-11-01T12:41:22+00:00,2026-11-01T12:41:22+00:00,1,Morphisec:2026-11-01,Listed as part of a C2 infrastructure for XLoader
+domain,iqos-one.com,high,2026-11-01T12:41:22+00:00,2026-11-01T12:41:22+00:00,1,Morphisec:2026-11-01,Listed as part of a C2 infrastructure for XLoader
+domain,komplek.id,high,2026-11-01T12:41:22+00:00,2026-11-01T12:41:22+00:00,1,Morphisec:2026-11-01,Listed as part of a C2 infrastructure for XLoader
+domain,moreultras.store,high,2026-11-01T12:41:22+00:00,2026-11-01T12:41:22+00:00,1,Morphisec:2026-11-01,Listed as part of a C2 infrastructure for XLoader
+domain,offon33fv.club,high,2026-11-01T12:41:22+00:00,2026-11-01T12:41:22+00:00,1,Morphisec:2026-11-01,Listed as part of a C2 infrastructure for XLoader
+domain,revelintravel.com,high,2026-11-01T12:41:22+00:00,2026-11-01T12:41:22+00:00,1,Morphisec:2026-11-01,Listed as part of a C2 infrastructure for XLoader
+domain,snvipvn.com,high,2026-11-01T12:41:22+00:00,2026-11-01T12:41:22+00:00,1,Morphisec:2026-11-01,Listed as part of a C2 infrastructure for XLoader
+domain,sonhero.top,high,2026-11-01T12:41:22+00:00,2026-11-01T12:41:22+00:00,1,Morphisec:2026-11-01,Listed as part of a C2 infrastructure for XLoader
+domain,tomatox.com.tw,high,2026-11-01T12:41:22+00:00,2026-11-01T12:41:22+00:00,1,Morphisec:2026-11-01,Listed as part of a C2 infrastructure for XLoader
+domain,www.990match.com,high,2026-11-01T12:41:22+00:00,2026-11-01T12:41:22+00:00,1,Morphisec:2026-11-01,Listed as part of a C2 infrastructure for XLoader
+domain,openaigpt4v.com,high,2026-11-01T07:02:58+00:00,2026-11-01T07:02:58+00:00,1,Thehackernews:2026-11-01,Identified as a C2 server for malicious activity
 domain,account-confirm.top,high,2026-10-31T23:01:08.987598+00:00,2026-10-31T23:01:08.987598+00:00,1,www.getswym.com:2026-10-31,Listed as a malicious domain used in attacks within the Shopify ecosystem
 domain,billing-confirm.top,high,2026-10-31T23:01:08.987598+00:00,2026-10-31T23:01:08.987598+00:00,1,www.getswym.com:2026-10-31,Listed as a malicious domain used in attacks within the Shopify ecosystem
 domain,checkout-guard.top,high,2026-10-31T23:01:08.987598+00:00,2026-10-31T23:01:08.987598+00:00,1,www.getswym.com:2026-10-31,Identified as a malicious domain in the investigation
 domain,checkout-secure.top,high,2026-10-31T23:01:08.987598+00:00,2026-10-31T23:01:08.987598+00:00,1,www.getswym.com:2026-10-31,Listed as a malicious domain used in attacks within the Shopify ecosystem
-ipv4,108.165.147.64,high,2026-10-13T17:33:11+00:00,2026-10-31T20:30:51.184710+00:00,4,www.volexity.com:2026-10-31|Ccb.Belgium.Be:2026-10-14|Rescana:2026-10-14|Feeds.Feedburner:2026-10-13,Identified as a host used by the attacker for operations
 domain,apexdefi.xyz,high,2026-10-31T16:26:27+00:00,2026-10-31T18:42:45+00:00,2,Kucoin:2026-10-31|Finance.Biggo:2026-10-31,"Listed as serving the drainer kit, indicating attacker control"
 domain,fluxbeam.xyz,high,2026-10-31T16:26:27+00:00,2026-10-31T18:42:45+00:00,2,Kucoin:2026-10-31|Finance.Biggo:2026-10-31,"Listed as serving the drainer kit, indicating attacker control"
 domain,stakepoint.app,high,2026-10-31T16:26:27+00:00,2026-10-31T18:42:45+00:00,2,Kucoin:2026-10-31|Finance.Biggo:2026-10-31,"Listed as serving the drainer kit, indicating attacker control"
@@ -99,12 +133,6 @@ domain,misonla.com,high,2026-10-30T14:04:09.963653+00:00,2026-10-30T14:04:09.963
 domain,shop-service.icu,high,2026-10-30T14:04:09.963653+00:00,2026-10-30T14:04:09.963653+00:00,1,www.hkma.gov.hk:2026-10-30,Domain used for fraudulent banking login screens
 domain,uat.byjuliusbaer.top,high,2026-10-30T14:04:09.963653+00:00,2026-10-30T14:04:09.963653+00:00,1,www.hkma.gov.hk:2026-10-30,Domain used for fraudulent websites
 domain,ziv7do56.llttbwx.top,high,2026-10-30T14:04:09.963653+00:00,2026-10-30T14:04:09.963653+00:00,1,www.hkma.gov.hk:2026-10-30,Domain used for fraudulent websites
-domain,aideck.net,high,2026-10-30T12:00:43.950153+00:00,2026-10-30T12:00:43.950153+00:00,1,www.cisa.gov:2026-10-30,Used as a C2 server for Manuscrypt malware
-domain,dafnefonseca.com,high,2026-10-30T12:00:43.950153+00:00,2026-10-30T12:00:43.950153+00:00,1,www.cisa.gov:2026-10-30,Listed as a C2 endpoint for malware
-domain,greenvideo.nl,high,2026-10-30T12:00:43.950153+00:00,2026-10-30T12:00:43.950153+00:00,1,www.cisa.gov:2026-10-30,Listed as a C2 endpoint for malware
-domain,infodigitalnew.com,high,2026-10-30T12:00:43.950153+00:00,2026-10-30T12:00:43.950153+00:00,1,www.cisa.gov:2026-10-30,Listed as a C2 endpoint for malware
-domain,sche-eg.org,high,2026-10-30T12:00:43.950153+00:00,2026-10-30T12:00:43.950153+00:00,1,www.cisa.gov:2026-10-30,Listed as a C2 endpoint for malware
-ipv4,45.14.227.58,high,2026-10-30T12:00:43.950153+00:00,2026-10-30T12:00:43.950153+00:00,1,www.cisa.gov:2026-10-30,Associated with DAFOM malware
 domain,cancelcardprotection.online,high,2026-10-30T11:13:57+00:00,2026-10-30T11:13:57+00:00,1,Bloglab.360:2026-10-30,Used in phishing campaigns targeting bank customers
 domain,cancelcpservice.in,high,2026-10-30T11:13:57+00:00,2026-10-30T11:13:57+00:00,1,Bloglab.360:2026-10-30,Used in phishing campaigns targeting bank customers
 domain,cardprotections.in,high,2026-10-30T11:13:57+00:00,2026-10-30T11:13:57+00:00,1,Bloglab.360:2026-10-30,Used in phishing campaigns targeting bank customers
@@ -151,25 +179,12 @@ domain,virtualine.net,high,2026-10-27T21:54:44+00:00,2026-10-29T08:07:18+00:00,5
 domain,shopcredit.xyz,high,2026-10-29T03:52:51+00:00,2026-10-29T03:52:51+00:00,1,Tribune.Ph:2026-10-29,Flagged as a phishing URL in a fraudulent recruitment scam
 domain,kosoyed.online,high,2026-10-29T00:31:32.441034+00:00,2026-10-29T00:31:32.441034+00:00,1,www.picussecurity.com:2026-10-29,Registered by attackers as a fallback C2 domain
 domain,kosoyed.ru,high,2026-10-29T00:31:32.441034+00:00,2026-10-29T00:31:32.441034+00:00,1,www.picussecurity.com:2026-10-29,Registered by attackers as a fallback C2 domain
-domain,clickksy.icu,high,2026-10-29T00:00:00+00:00,2026-10-29T00:00:00+00:00,1,Cloudsek:2026-10-29,Used to host malicious Adobe Acrobat Reader-themed lure
-domain,motormotif.com,high,2026-10-29T00:00:00+00:00,2026-10-29T00:00:00+00:00,1,Cloudsek:2026-10-29,Used in a phishing redirection path
-domain,my.thispc.net,high,2026-10-28T23:32:32.473890+00:00,2026-10-28T23:32:32.473890+00:00,1,www.threatdown.com:2026-10-28,Domain used for C2 beaconing in the phishing campaign
 domain,carte-avantage.com,high,2026-10-07T13:03:38+00:00,2026-10-28T22:30:29.446826+00:00,2,blog.gitguardian.com:2026-10-28|Blog.Gitguardian:2026-10-07,Used as an exfiltration endpoint by attackers
 ipv4,45.139.104.115,high,2026-10-19T14:05:31.040619+00:00,2026-10-28T22:30:29.446826+00:00,2,blog.gitguardian.com:2026-10-28|opensourcemalware.com:2026-10-19,"IP address used as an exfiltration endpoint in the attack campaign, indicating attacker control."
 domain,hackertehuur.com,high,2026-10-28T20:37:44+00:00,2026-10-28T20:37:44+00:00,1,Hireaphonehacker:2026-10-28,Advertised as a service for hiring hackers on the dark web
 domain,armenia.pravda-news.com,high,2026-10-28T17:05:24.941114+00:00,2026-10-28T17:05:24.941114+00:00,1,international.canada.ca:2026-10-28,"Domain used by Portal Kombat to disseminate pro-Russian content, likely attacker-controlled"
 domain,api-com.cfd,high,2026-10-28T16:35:36.211876+00:00,2026-10-28T16:35:36.211876+00:00,1,isc.sans.edu:2026-10-28,"Returned a 403 Forbidden response, indicating potential malicious use"
 domain,js-static.cfd,high,2026-10-28T16:35:36.211876+00:00,2026-10-28T16:35:36.211876+00:00,1,isc.sans.edu:2026-10-28,Domain hosting a fake verification page
-domain,com.ucreator.tg,high,2026-10-26T10:54:17+00:00,2026-10-28T15:03:38.999660+00:00,3,www.0x0v1.com:2026-10-28|cybernoz.com:2026-10-27|Thehackernews:2026-10-26,Part of the uCreator platform framework and command handlers
-domain,hpncallback.gold5play.com,high,2026-10-26T10:54:17+00:00,2026-10-28T15:03:38.999660+00:00,4,www.0x0v1.com:2026-10-28|cybernoz.com:2026-10-27|News.Lavx.Hu:2026-10-26|Thehackernews:2026-10-26,Listed as a callback domain for C2 and payload delivery
-domain,hpncallback.qianxunlbs.com,high,2026-10-26T10:54:17+00:00,2026-10-28T15:03:38.999660+00:00,4,www.0x0v1.com:2026-10-28|cybernoz.com:2026-10-27|News.Lavx.Hu:2026-10-26|Thehackernews:2026-10-26,Listed as a callback domain for C2 and payload delivery
-domain,hw.android.videoflow.cn,high,2026-10-26T10:54:17+00:00,2026-10-28T15:03:38.999660+00:00,4,www.0x0v1.com:2026-10-28|cybernoz.com:2026-10-27|News.Lavx.Hu:2026-10-26|Thehackernews:2026-10-26,Used for version uploads in the attack infrastructure
-domain,qianxuncc.cn,high,2026-10-26T13:11:01+00:00,2026-10-28T15:03:38.999660+00:00,2,www.0x0v1.com:2026-10-28|Securityaffairs:2026-10-26,Associated with C2 infrastructure
-domain,qianxunlbs.com,high,2026-10-28T15:03:38.999660+00:00,2026-10-28T15:03:38.999660+00:00,1,www.0x0v1.com:2026-10-28,Listed as a callback domain for C2 and payload delivery
-domain,telegram-apk.uzyzx.com,high,2026-10-26T10:54:17+00:00,2026-10-28T15:03:38.999660+00:00,5,www.0x0v1.com:2026-10-28|cybernoz.com:2026-10-27|News.Lavx.Hu:2026-10-26|Securityaffairs:2026-10-26|Thehackernews:2026-10-26,Used as a distribution host for repackaged applications
-domain,ucreater.com,high,2026-10-26T13:11:01+00:00,2026-10-28T15:03:38.999660+00:00,2,www.0x0v1.com:2026-10-28|Securityaffairs:2026-10-26,Linked to the uCreator brand and infrastructure
-domain,uzyzx.com,high,2026-10-28T15:03:38.999660+00:00,2026-10-28T15:03:38.999660+00:00,1,www.0x0v1.com:2026-10-28,Used as a distribution host for repackaged applications
-domain,videoflow.cn,high,2026-10-26T13:11:01+00:00,2026-10-28T15:03:38.999660+00:00,2,www.0x0v1.com:2026-10-28|Securityaffairs:2026-10-26,Associated with C2 infrastructure
 domain,onverinusinesscommunicationscente.org,high,2026-10-28T13:45:32+00:00,2026-10-28T13:45:32+00:00,1,Nordvpn:2026-10-28,Identified as attacker-controlled domain in phishing campaign
 domain,pravda-news.com,high,2026-10-28T13:31:31+00:00,2026-10-28T13:31:31+00:00,1,Pan.Am:2026-10-28,"Part of the Pravda network used for coordinated pro-Russian content dissemination, likely attacker-controlled"
 domain,relay.pronconetydesire.online,high,2026-10-28T13:01:56+00:00,2026-10-28T13:01:56+00:00,1,Huntress:2026-10-28,Domain used for malicious ScreenConnect instance
@@ -952,9 +967,3 @@ ipv4,66.203.124.135,high,2026-10-05T11:10:47+00:00,2026-10-05T11:10:47+00:00,1,C
 ipv4,195.64.128.106,high,2026-10-05T02:54:00+00:00,2026-10-05T02:54:00+00:00,1,Malware-Traffic-Analysis:2026-10-05,Listed as C2 traffic for CNCmachineRMS RAT
 ipv4,45.138.12.177,high,2026-10-05T00:00:00+00:00,2026-10-05T00:00:00+00:00,1,Safedep:2026-10-05,Used as a reverse shell endpoint by malicious gems
 ipv4,213.209.159.55,high,2026-10-04T22:10:13+00:00,2026-10-04T22:10:13+00:00,1,Bleepingcomputer:2026-10-04,IP address used to download a payload in an attack sequence
-domain,account.drive-google-com.tk,high,2026-10-02T16:30:51.440394+00:00,2026-10-02T16:30:51.440394+00:00,1,www.proofpoint.com:2026-10-02,Listed as previously reported UNK_SweetSpecter domain used for C2 communications
-domain,account.gommask.online,high,2026-10-02T16:30:51.440394+00:00,2026-10-02T16:30:51.440394+00:00,1,www.proofpoint.com:2026-10-02,Identified as a new C2 domain for UNK_SweetSpecter
-ipv4,103.148.245.235,high,2026-10-02T16:30:51.440394+00:00,2026-10-02T16:30:51.440394+00:00,1,www.proofpoint.com:2026-10-02,Shared hosting with UNK_SweetSpecter C2 domains
-ipv4,43.242.203.115,high,2026-10-02T16:30:51.440394+00:00,2026-10-02T16:30:51.440394+00:00,1,www.proofpoint.com:2026-10-02,Hosting the new C2 domain for UNK_SweetSpecter
-domain,lowtpills.com,high,2026-10-02T16:27:54+00:00,2026-10-02T16:27:54+00:00,1,Darkreading:2026-10-02,Used in a vulnerability exploitation scenario
-domain,pbapi.xyz,high,2026-10-02T14:41:46.380979+00:00,2026-10-02T14:41:46.380979+00:00,1,amibeingpwned.com:2026-10-02,Described as a command-and-control channel used by the extension
