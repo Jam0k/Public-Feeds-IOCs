@@ -1,4 +1,10 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason
+ipv4,142.111.194.73,high,2026-11-03T12:31:18.389273+00:00,2026-11-03T12:31:18.389273+00:00,1,www.welivesecurity.com:2026-11-03,Identified as BeautyStealer exfiltration server.
+ipv4,219.134.163.210,high,2026-11-02T14:28:46+00:00,2026-11-02T21:30:50.094224+00:00,4,www.anrdoezrs.net:2026-11-02|Sqmagazine:2026-11-02|synthient.com:2026-11-02|Cloud.Google:2026-11-02,Used as a host for MQTT broker in the campaign
+ipv4,219.134.163.211,high,2026-11-02T14:28:46+00:00,2026-11-02T21:30:50.094224+00:00,2,www.anrdoezrs.net:2026-11-02|Cloud.Google:2026-11-02,Used as a host for MQTT broker in the campaign
+ipv4,195.16.74.137,high,2026-11-02T17:02:17.201143+00:00,2026-11-02T17:02:17.201143+00:00,1,www.group-ib.com:2026-11-02,Listed as a C2 IP address.
+ipv4,195.16.74.138,high,2026-10-10T05:02:45.293755+00:00,2026-11-02T17:02:17.201143+00:00,2,www.group-ib.com:2026-11-02|www.elastic.co:2026-10-10,IP address associated with attacker-controlled domain
+ipv4,2.56.126.151,high,2026-10-10T05:02:45.293755+00:00,2026-11-02T17:02:17.201143+00:00,2,www.group-ib.com:2026-11-02|www.elastic.co:2026-10-10,IP address associated with attacker-controlled domain
 ipv4,45.14.227.58,high,2026-11-02T10:07:30.919290+00:00,2026-11-02T10:07:30.919290+00:00,1,www.cisa.gov:2026-11-02,Associated with DAFOM malware
 ipv4,108.165.147.64,high,2026-10-13T17:33:11+00:00,2026-11-02T10:06:11.096915+00:00,4,www.volexity.com:2026-11-02|Ccb.Belgium.Be:2026-10-14|Rescana:2026-10-14|Feeds.Feedburner:2026-10-13,Identified as a host used by the attacker for operations
 ipv4,192.162.199.243,high,2026-10-31T04:33:12.221801+00:00,2026-10-31T04:33:12.221801+00:00,1,www.recordedfuture.com:2026-10-31,IP address hosted domains linked to fraudulent operations
@@ -15,7 +21,6 @@ ipv4,87.120.219.26,high,2026-10-30T16:01:04.505393+00:00,2026-10-30T16:01:04.505
 ipv4,144.31.244.184,high,2026-10-30T11:13:57+00:00,2026-10-30T11:13:57+00:00,1,Bloglab.360:2026-10-30,Listed as part of C2 infrastructure
 ipv4,46.151.182.28,high,2026-10-30T11:13:57+00:00,2026-10-30T11:13:57+00:00,1,Bloglab.360:2026-10-30,Listed as part of C2 infrastructure
 ipv4,78.159.156.74,high,2026-10-30T11:13:57+00:00,2026-10-30T11:13:57+00:00,1,Bloglab.360:2026-10-30,Listed as an IP address used in a phishing campaign.
-ipv4,43.228.157.68,high,2026-10-28T02:58:27+00:00,2026-10-30T09:56:23+00:00,3,Bloglab.360:2026-10-30|www.infoworld.com:2026-10-28|Csoonline:2026-10-28,Listed as part of C2 infrastructure
 ipv4,185.237.166.55,high,2026-10-30T05:45:56+00:00,2026-10-30T05:45:56+00:00,1,Cyfirma:2026-10-30,Listed in a YARA rule for detecting threat activity.
 ipv4,13.163.205.35,high,2026-10-29T19:50:25+00:00,2026-10-29T19:50:25+00:00,1,Thehackernews:2026-10-29,IP address where stolen data was left open on the internet
 ipv4,94.154.43.163,high,2026-10-29T16:07:42+00:00,2026-10-29T16:07:42+00:00,1,Bitsight:2026-10-29,Associated with malicious activity and listed on Spamhaus ASN-DROP
@@ -28,6 +33,7 @@ ipv4,16.5.0.226,high,2026-10-28T12:00:04+00:00,2026-10-28T12:00:04+00:00,1,Cloud
 ipv4,176.98.182.21,high,2026-10-28T12:00:04+00:00,2026-10-28T12:00:04+00:00,1,Cloudsek:2026-10-28,Listed as part of malicious infrastructure to be blocked
 ipv4,45.90.13.11,high,2026-10-28T12:00:04+00:00,2026-10-28T12:00:04+00:00,1,Cloudsek:2026-10-28,Listed as part of malicious infrastructure to be blocked
 ipv4,45.90.13.169,high,2026-10-28T12:00:04+00:00,2026-10-28T12:00:04+00:00,1,Cloudsek:2026-10-28,Listed as part of malicious infrastructure to be blocked
+ipv4,43.228.157.68,high,2026-10-28T02:58:27+00:00,2026-10-28T06:31:20.619550+00:00,2,www.infoworld.com:2026-10-28|Csoonline:2026-10-28,Reported as a server used in exploitation infrastructure
 ipv4,189.249.195.244,high,2026-10-28T06:01:28+00:00,2026-10-28T06:01:28+00:00,1,Redpacketsecurity:2026-10-28,Identified as a Mythic-branded C2 interface
 ipv4,103.151.172.95,high,2026-10-27T13:32:48+00:00,2026-10-27T13:32:48+00:00,1,Wiz:2026-10-27,Used in an exploit attempt against a honeypot.
 ipv4,85.11.187.35,high,2026-10-27T13:32:48+00:00,2026-10-27T13:32:48+00:00,1,Wiz:2026-10-27,Used in an exploitation attempt.
@@ -133,8 +139,6 @@ ipv4,61.18.208.27,high,2026-10-08T06:42:10+00:00,2026-10-12T14:53:04+00:00,2,The
 ipv4,118.145.196.225,high,2026-10-11T16:02:05.609563+00:00,2026-10-11T16:02:05.609563+00:00,1,www.fortinet.com:2026-10-11,Listed as a download source for malware by the attacker
 ipv4,124.163.212.119,high,2026-10-11T16:02:05.609563+00:00,2026-10-11T16:02:05.609563+00:00,1,www.fortinet.com:2026-10-11,Listed as a download source for malware by the attacker
 ipv4,222.223.152.97,high,2026-10-11T16:02:05.609563+00:00,2026-10-11T16:02:05.609563+00:00,1,www.fortinet.com:2026-10-11,Listed as a download source for malware by the attacker
-ipv4,195.16.74.138,high,2026-10-10T05:02:45.293755+00:00,2026-10-10T05:02:45.293755+00:00,1,www.elastic.co:2026-10-10,IP address associated with attacker-controlled domain
-ipv4,2.56.126.151,high,2026-10-10T05:02:45.293755+00:00,2026-10-10T05:02:45.293755+00:00,1,www.elastic.co:2026-10-10,IP address associated with attacker-controlled domain
 ipv4,2.56.126.157,high,2026-10-10T05:02:45.293755+00:00,2026-10-10T05:02:45.293755+00:00,1,www.elastic.co:2026-10-10,IP address associated with attacker-controlled domain
 ipv4,2.56.126.188,high,2026-10-10T05:02:45.293755+00:00,2026-10-10T05:02:45.293755+00:00,1,www.elastic.co:2026-10-10,IP address associated with attacker-controlled domain
 ipv4,112.213.108.85,high,2026-10-09T18:00:23.022990+00:00,2026-10-09T18:00:23.022990+00:00,1,censys.com:2026-10-09,Listed as a live production server for C2

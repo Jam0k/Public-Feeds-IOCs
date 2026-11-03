@@ -1,7 +1,7 @@
 {
   "feed": "threatcluster-public-iocs",
   "version": 1,
-  "generated_at": "2026-11-02T15:45:53Z",
+  "generated_at": "2026-11-03T14:09:29Z",
   "filters": {
     "confidence": "high",
     "window_days": 30,
@@ -11,8 +11,1467 @@
       "domain"
     ]
   },
-  "count": 968,
+  "count": 1000,
   "iocs": [
+    {
+      "type": "domain",
+      "value": "psw.agent.ma",
+      "confidence": "high",
+      "reason": "Listed in a comprehensive list of IoCs and samples related to the campaign.",
+      "first_seen": "2026-11-03T12:31:18.389273+00:00",
+      "last_seen": "2026-11-03T12:31:18.389273+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.welivesecurity.com",
+          "url": "https://www.welivesecurity.com/en/eset-research/gorbag-orcs-border-harvesting-intelligence-ukraine/",
+          "pub_date": "2026-11-03T12:31:18.389273+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Gorbag"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2025-8088"
+        },
+        {
+          "type": "industry",
+          "value": "Defense"
+        },
+        {
+          "type": "industry",
+          "value": "Government"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "142.111.194.73",
+      "confidence": "high",
+      "reason": "Identified as BeautyStealer exfiltration server.",
+      "first_seen": "2026-11-03T12:31:18.389273+00:00",
+      "last_seen": "2026-11-03T12:31:18.389273+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.welivesecurity.com",
+          "url": "https://www.welivesecurity.com/en/eset-research/gorbag-orcs-border-harvesting-intelligence-ukraine/",
+          "pub_date": "2026-11-03T12:31:18.389273+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Gorbag"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2025-8088"
+        },
+        {
+          "type": "industry",
+          "value": "Defense"
+        },
+        {
+          "type": "industry",
+          "value": "Government"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "analysis.shixunsuda.com",
+      "confidence": "high",
+      "reason": "Listed as a command and control server for XCPE",
+      "first_seen": "2026-11-02T14:28:46+00:00",
+      "last_seen": "2026-11-02T21:30:50.094224+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "www.anrdoezrs.net",
+          "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet",
+          "pub_date": "2026-11-02T21:30:50.094224+00:00"
+        },
+        {
+          "source": "Cloud.Google",
+          "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet/",
+          "pub_date": "2026-11-02T14:28:46+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "XCPE"
+        },
+        {
+          "type": "campaign",
+          "value": "XCPE Botnet"
+        },
+        {
+          "type": "industry",
+          "value": "Technology"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "anyevonline.com",
+      "confidence": "high",
+      "reason": "Used for initial bootstrap, registration, and configuration by malware",
+      "first_seen": "2026-11-02T14:28:46+00:00",
+      "last_seen": "2026-11-02T21:30:50.094224+00:00",
+      "source_count": 4,
+      "sources": [
+        {
+          "source": "www.anrdoezrs.net",
+          "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet",
+          "pub_date": "2026-11-02T21:30:50.094224+00:00"
+        },
+        {
+          "source": "Bleepingcomputer",
+          "url": "https://www.bleepingcomputer.com/news/security/google-disrupts-million-device-xcpe-android-malware-botnet-bans-tv-box-maker/",
+          "pub_date": "2026-11-02T18:38:39+00:00"
+        },
+        {
+          "source": "synthient.com",
+          "url": "https://synthient.com/blog/the-internals-of-a-badbox-operation",
+          "pub_date": "2026-11-02T16:37:45.131093+00:00"
+        },
+        {
+          "source": "Cloud.Google",
+          "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet/",
+          "pub_date": "2026-11-02T14:28:46+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "XCPE"
+        },
+        {
+          "type": "industry",
+          "value": "Technology"
+        },
+        {
+          "type": "campaign",
+          "value": "Kimwolf Campaign"
+        },
+        {
+          "type": "campaign",
+          "value": "XCPE Botnet"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "collection.shixunsuda.com",
+      "confidence": "high",
+      "reason": "Listed as a command and control server for XCPE",
+      "first_seen": "2026-11-02T14:28:46+00:00",
+      "last_seen": "2026-11-02T21:30:50.094224+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "www.anrdoezrs.net",
+          "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet",
+          "pub_date": "2026-11-02T21:30:50.094224+00:00"
+        },
+        {
+          "source": "Cloud.Google",
+          "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet/",
+          "pub_date": "2026-11-02T14:28:46+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "XCPE"
+        },
+        {
+          "type": "campaign",
+          "value": "XCPE Botnet"
+        },
+        {
+          "type": "industry",
+          "value": "Technology"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "edisajalsjfdfh.shop",
+      "confidence": "high",
+      "reason": "Listed as part of the command and control infrastructure",
+      "first_seen": "2026-11-02T14:28:46+00:00",
+      "last_seen": "2026-11-02T21:30:50.094224+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "www.anrdoezrs.net",
+          "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet",
+          "pub_date": "2026-11-02T21:30:50.094224+00:00"
+        },
+        {
+          "source": "Cloud.Google",
+          "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet/",
+          "pub_date": "2026-11-02T14:28:46+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "XCPE"
+        },
+        {
+          "type": "campaign",
+          "value": "XCPE Botnet"
+        },
+        {
+          "type": "industry",
+          "value": "Technology"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "geo-loadbalanced.com",
+      "confidence": "high",
+      "reason": "Listed as part of the command and control infrastructure",
+      "first_seen": "2026-11-02T14:28:46+00:00",
+      "last_seen": "2026-11-02T21:30:50.094224+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "www.anrdoezrs.net",
+          "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet",
+          "pub_date": "2026-11-02T21:30:50.094224+00:00"
+        },
+        {
+          "source": "Cloud.Google",
+          "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet/",
+          "pub_date": "2026-11-02T14:28:46+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "XCPE"
+        },
+        {
+          "type": "campaign",
+          "value": "XCPE Botnet"
+        },
+        {
+          "type": "industry",
+          "value": "Technology"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "haimnsgsjhansj.shop",
+      "confidence": "high",
+      "reason": "Listed as part of the command and control infrastructure",
+      "first_seen": "2026-11-02T14:28:46+00:00",
+      "last_seen": "2026-11-02T21:30:50.094224+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "www.anrdoezrs.net",
+          "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet",
+          "pub_date": "2026-11-02T21:30:50.094224+00:00"
+        },
+        {
+          "source": "Cloud.Google",
+          "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet/",
+          "pub_date": "2026-11-02T14:28:46+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "XCPE"
+        },
+        {
+          "type": "campaign",
+          "value": "XCPE Botnet"
+        },
+        {
+          "type": "industry",
+          "value": "Technology"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "hiddeninplainsight.top",
+      "confidence": "high",
+      "reason": "Listed as part of the command and control infrastructure",
+      "first_seen": "2026-11-02T14:28:46+00:00",
+      "last_seen": "2026-11-02T21:30:50.094224+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "www.anrdoezrs.net",
+          "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet",
+          "pub_date": "2026-11-02T21:30:50.094224+00:00"
+        },
+        {
+          "source": "Cloud.Google",
+          "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet/",
+          "pub_date": "2026-11-02T14:28:46+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "XCPE"
+        },
+        {
+          "type": "campaign",
+          "value": "XCPE Botnet"
+        },
+        {
+          "type": "industry",
+          "value": "Technology"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "ishuoabh3years.online",
+      "confidence": "high",
+      "reason": "Listed as part of the command and control infrastructure",
+      "first_seen": "2026-11-02T14:28:46+00:00",
+      "last_seen": "2026-11-02T21:30:50.094224+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "www.anrdoezrs.net",
+          "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet",
+          "pub_date": "2026-11-02T21:30:50.094224+00:00"
+        },
+        {
+          "source": "Cloud.Google",
+          "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet/",
+          "pub_date": "2026-11-02T14:28:46+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "XCPE"
+        },
+        {
+          "type": "campaign",
+          "value": "XCPE Botnet"
+        },
+        {
+          "type": "industry",
+          "value": "Technology"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "jaguar-distributor.logreporter.com",
+      "confidence": "high",
+      "reason": "Listed as part of the command and control infrastructure",
+      "first_seen": "2026-11-02T14:28:46+00:00",
+      "last_seen": "2026-11-02T21:30:50.094224+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "www.anrdoezrs.net",
+          "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet",
+          "pub_date": "2026-11-02T21:30:50.094224+00:00"
+        },
+        {
+          "source": "Cloud.Google",
+          "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet/",
+          "pub_date": "2026-11-02T14:28:46+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "XCPE"
+        },
+        {
+          "type": "campaign",
+          "value": "XCPE Botnet"
+        },
+        {
+          "type": "industry",
+          "value": "Technology"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "jaguar-distributor.syslogcollector.com",
+      "confidence": "high",
+      "reason": "Listed as part of the command and control infrastructure",
+      "first_seen": "2026-11-02T14:28:46+00:00",
+      "last_seen": "2026-11-02T21:30:50.094224+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "www.anrdoezrs.net",
+          "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet",
+          "pub_date": "2026-11-02T21:30:50.094224+00:00"
+        },
+        {
+          "source": "Cloud.Google",
+          "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet/",
+          "pub_date": "2026-11-02T14:28:46+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "XCPE"
+        },
+        {
+          "type": "campaign",
+          "value": "XCPE Botnet"
+        },
+        {
+          "type": "industry",
+          "value": "Technology"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "219.134.163.210",
+      "confidence": "high",
+      "reason": "Used as a host for MQTT broker in the campaign",
+      "first_seen": "2026-11-02T14:28:46+00:00",
+      "last_seen": "2026-11-02T21:30:50.094224+00:00",
+      "source_count": 4,
+      "sources": [
+        {
+          "source": "www.anrdoezrs.net",
+          "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet",
+          "pub_date": "2026-11-02T21:30:50.094224+00:00"
+        },
+        {
+          "source": "Sqmagazine",
+          "url": "https://sqmagazine.co.uk/google-videostrong-xcpe-backdoor-tv-box-botnet/",
+          "pub_date": "2026-11-02T18:29:00+00:00"
+        },
+        {
+          "source": "synthient.com",
+          "url": "https://synthient.com/blog/the-internals-of-a-badbox-operation",
+          "pub_date": "2026-11-02T16:37:45.131093+00:00"
+        },
+        {
+          "source": "Cloud.Google",
+          "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet/",
+          "pub_date": "2026-11-02T14:28:46+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "industry",
+          "value": "Technology"
+        },
+        {
+          "type": "malware",
+          "value": "XCPE"
+        },
+        {
+          "type": "campaign",
+          "value": "Kimwolf Campaign"
+        },
+        {
+          "type": "campaign",
+          "value": "XCPE Botnet"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "219.134.163.211",
+      "confidence": "high",
+      "reason": "Used as a host for MQTT broker in the campaign",
+      "first_seen": "2026-11-02T14:28:46+00:00",
+      "last_seen": "2026-11-02T21:30:50.094224+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "www.anrdoezrs.net",
+          "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet",
+          "pub_date": "2026-11-02T21:30:50.094224+00:00"
+        },
+        {
+          "source": "Cloud.Google",
+          "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet/",
+          "pub_date": "2026-11-02T14:28:46+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "XCPE"
+        },
+        {
+          "type": "campaign",
+          "value": "XCPE Botnet"
+        },
+        {
+          "type": "industry",
+          "value": "Technology"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "file.anyevonline.com",
+      "confidence": "high",
+      "reason": "Hosts backdoors and other malicious files",
+      "first_seen": "2026-11-02T16:37:45.131093+00:00",
+      "last_seen": "2026-11-02T18:38:39+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "Bleepingcomputer",
+          "url": "https://www.bleepingcomputer.com/news/security/google-disrupts-million-device-xcpe-android-malware-botnet-bans-tv-box-maker/",
+          "pub_date": "2026-11-02T18:38:39+00:00"
+        },
+        {
+          "source": "synthient.com",
+          "url": "https://synthient.com/blog/the-internals-of-a-badbox-operation",
+          "pub_date": "2026-11-02T16:37:45.131093+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Kimwolf Campaign"
+        },
+        {
+          "type": "industry",
+          "value": "Technology"
+        },
+        {
+          "type": "malware",
+          "value": "AppSalt/Honeygain"
+        },
+        {
+          "type": "malware",
+          "value": "APSolo"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "mqtt.anyevonline.com",
+      "confidence": "high",
+      "reason": "Used as the main administrator panel for operators",
+      "first_seen": "2026-11-02T16:37:45.131093+00:00",
+      "last_seen": "2026-11-02T18:38:39+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "Bleepingcomputer",
+          "url": "https://www.bleepingcomputer.com/news/security/google-disrupts-million-device-xcpe-android-malware-botnet-bans-tv-box-maker/",
+          "pub_date": "2026-11-02T18:38:39+00:00"
+        },
+        {
+          "source": "synthient.com",
+          "url": "https://synthient.com/blog/the-internals-of-a-badbox-operation",
+          "pub_date": "2026-11-02T16:37:45.131093+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Kimwolf Campaign"
+        },
+        {
+          "type": "industry",
+          "value": "Technology"
+        },
+        {
+          "type": "malware",
+          "value": "AppSalt/Honeygain"
+        },
+        {
+          "type": "malware",
+          "value": "APSolo"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "felixfuturenext.com",
+      "confidence": "high",
+      "reason": "Domain used in phishing and malware attacks",
+      "first_seen": "2026-11-02T18:00:29.118178+00:00",
+      "last_seen": "2026-11-02T18:00:29.118178+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.fortinet.com",
+          "url": "https://www.fortinet.com/blog/threat-research/bitter-expands-its-arsenal-with-paprat",
+          "pub_date": "2026-11-02T18:00:29.118178+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Bitter"
+        },
+        {
+          "type": "industry",
+          "value": "Energy"
+        },
+        {
+          "type": "industry",
+          "value": "Engineering"
+        },
+        {
+          "type": "industry",
+          "value": "Government"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "gomescareerplans.com",
+      "confidence": "high",
+      "reason": "Domain used in attack chain for malware delivery",
+      "first_seen": "2026-11-02T18:00:29.118178+00:00",
+      "last_seen": "2026-11-02T18:00:29.118178+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.fortinet.com",
+          "url": "https://www.fortinet.com/blog/threat-research/bitter-expands-its-arsenal-with-paprat",
+          "pub_date": "2026-11-02T18:00:29.118178+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Bitter"
+        },
+        {
+          "type": "industry",
+          "value": "Energy"
+        },
+        {
+          "type": "industry",
+          "value": "Engineering"
+        },
+        {
+          "type": "industry",
+          "value": "Government"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "goodnfortunes.com",
+      "confidence": "high",
+      "reason": "Domain used for data exfiltration in attack chain",
+      "first_seen": "2026-11-02T18:00:29.118178+00:00",
+      "last_seen": "2026-11-02T18:00:29.118178+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.fortinet.com",
+          "url": "https://www.fortinet.com/blog/threat-research/bitter-expands-its-arsenal-with-paprat",
+          "pub_date": "2026-11-02T18:00:29.118178+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Bitter"
+        },
+        {
+          "type": "industry",
+          "value": "Energy"
+        },
+        {
+          "type": "industry",
+          "value": "Engineering"
+        },
+        {
+          "type": "industry",
+          "value": "Government"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "rivingtonclarks.com",
+      "confidence": "high",
+      "reason": "Domain used as C2 panel for PapRAT",
+      "first_seen": "2026-11-02T18:00:29.118178+00:00",
+      "last_seen": "2026-11-02T18:00:29.118178+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.fortinet.com",
+          "url": "https://www.fortinet.com/blog/threat-research/bitter-expands-its-arsenal-with-paprat",
+          "pub_date": "2026-11-02T18:00:29.118178+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Bitter"
+        },
+        {
+          "type": "industry",
+          "value": "Energy"
+        },
+        {
+          "type": "industry",
+          "value": "Engineering"
+        },
+        {
+          "type": "industry",
+          "value": "Government"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "techtalkhelp.com",
+      "confidence": "high",
+      "reason": "Domain used for staging and command updates",
+      "first_seen": "2026-11-02T18:00:29.118178+00:00",
+      "last_seen": "2026-11-02T18:00:29.118178+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.fortinet.com",
+          "url": "https://www.fortinet.com/blog/threat-research/bitter-expands-its-arsenal-with-paprat",
+          "pub_date": "2026-11-02T18:00:29.118178+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Bitter"
+        },
+        {
+          "type": "industry",
+          "value": "Energy"
+        },
+        {
+          "type": "industry",
+          "value": "Engineering"
+        },
+        {
+          "type": "industry",
+          "value": "Government"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "www.chestergreenfarming.com",
+      "confidence": "high",
+      "reason": "Domain used as decoded C2 server",
+      "first_seen": "2026-11-02T18:00:29.118178+00:00",
+      "last_seen": "2026-11-02T18:00:29.118178+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.fortinet.com",
+          "url": "https://www.fortinet.com/blog/threat-research/bitter-expands-its-arsenal-with-paprat",
+          "pub_date": "2026-11-02T18:00:29.118178+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Bitter"
+        },
+        {
+          "type": "industry",
+          "value": "Energy"
+        },
+        {
+          "type": "industry",
+          "value": "Engineering"
+        },
+        {
+          "type": "industry",
+          "value": "Government"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "www.rivingtonclarks.com",
+      "confidence": "high",
+      "reason": "Domain used as C2 URL for PapRAT",
+      "first_seen": "2026-11-02T18:00:29.118178+00:00",
+      "last_seen": "2026-11-02T18:00:29.118178+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.fortinet.com",
+          "url": "https://www.fortinet.com/blog/threat-research/bitter-expands-its-arsenal-with-paprat",
+          "pub_date": "2026-11-02T18:00:29.118178+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Bitter"
+        },
+        {
+          "type": "industry",
+          "value": "Energy"
+        },
+        {
+          "type": "industry",
+          "value": "Engineering"
+        },
+        {
+          "type": "industry",
+          "value": "Government"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "arthurshelby.click",
+      "confidence": "high",
+      "reason": "Domain used for C2 registration and subdomain generation by malware",
+      "first_seen": "2026-10-10T05:02:45.293755+00:00",
+      "last_seen": "2026-11-02T17:02:17.201143+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "www.group-ib.com",
+          "url": "https://www.group-ib.com/masked-actors/darkblinders/",
+          "pub_date": "2026-11-02T17:02:17.201143+00:00"
+        },
+        {
+          "source": "www.elastic.co",
+          "url": "https://www.elastic.co/security-labs/threat-command/the-shelby-strategy",
+          "pub_date": "2026-10-10T05:02:45.293755+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "industry",
+          "value": "Aviation"
+        },
+        {
+          "type": "industry",
+          "value": "Telecommunications"
+        },
+        {
+          "type": "malware",
+          "value": "Shelby"
+        },
+        {
+          "type": "malware",
+          "value": "SHELBYC2"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "korektell.com",
+      "confidence": "high",
+      "reason": "Used in campaigns to compromise carriers with region-specific infrastructure.",
+      "first_seen": "2026-11-02T17:02:17.201143+00:00",
+      "last_seen": "2026-11-02T17:02:17.201143+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.group-ib.com",
+          "url": "https://www.group-ib.com/masked-actors/darkblinders/",
+          "pub_date": "2026-11-02T17:02:17.201143+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "industry",
+          "value": "Aviation"
+        },
+        {
+          "type": "industry",
+          "value": "Telecommunications"
+        },
+        {
+          "type": "malware",
+          "value": "SHELBYC2"
+        },
+        {
+          "type": "malware",
+          "value": "Shelbyloader"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "newroztelecom.digital",
+      "confidence": "high",
+      "reason": "Part of the supporting network infrastructure for C2 operations.",
+      "first_seen": "2026-11-02T17:02:17.201143+00:00",
+      "last_seen": "2026-11-02T17:02:17.201143+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.group-ib.com",
+          "url": "https://www.group-ib.com/masked-actors/darkblinders/",
+          "pub_date": "2026-11-02T17:02:17.201143+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "industry",
+          "value": "Aviation"
+        },
+        {
+          "type": "industry",
+          "value": "Telecommunications"
+        },
+        {
+          "type": "malware",
+          "value": "SHELBYC2"
+        },
+        {
+          "type": "malware",
+          "value": "Shelbyloader"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "ns2.arthurshelby.click",
+      "confidence": "high",
+      "reason": "Nameserver associated with attacker-controlled domains.",
+      "first_seen": "2026-11-02T17:02:17.201143+00:00",
+      "last_seen": "2026-11-02T17:02:17.201143+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.group-ib.com",
+          "url": "https://www.group-ib.com/masked-actors/darkblinders/",
+          "pub_date": "2026-11-02T17:02:17.201143+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "industry",
+          "value": "Aviation"
+        },
+        {
+          "type": "industry",
+          "value": "Telecommunications"
+        },
+        {
+          "type": "malware",
+          "value": "SHELBYC2"
+        },
+        {
+          "type": "malware",
+          "value": "Shelbyloader"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "ns2.speed-test.click",
+      "confidence": "high",
+      "reason": "Nameserver associated with attacker-controlled domains.",
+      "first_seen": "2026-11-02T17:02:17.201143+00:00",
+      "last_seen": "2026-11-02T17:02:17.201143+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.group-ib.com",
+          "url": "https://www.group-ib.com/masked-actors/darkblinders/",
+          "pub_date": "2026-11-02T17:02:17.201143+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "industry",
+          "value": "Aviation"
+        },
+        {
+          "type": "industry",
+          "value": "Telecommunications"
+        },
+        {
+          "type": "malware",
+          "value": "SHELBYC2"
+        },
+        {
+          "type": "malware",
+          "value": "Shelbyloader"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "speed-test.click",
+      "confidence": "high",
+      "reason": "Listed as part of the supporting network infrastructure for C2 operations.",
+      "first_seen": "2026-11-02T17:02:17.201143+00:00",
+      "last_seen": "2026-11-02T17:02:17.201143+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.group-ib.com",
+          "url": "https://www.group-ib.com/masked-actors/darkblinders/",
+          "pub_date": "2026-11-02T17:02:17.201143+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "industry",
+          "value": "Aviation"
+        },
+        {
+          "type": "industry",
+          "value": "Telecommunications"
+        },
+        {
+          "type": "malware",
+          "value": "SHELBYC2"
+        },
+        {
+          "type": "malware",
+          "value": "Shelbyloader"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "195.16.74.137",
+      "confidence": "high",
+      "reason": "Listed as a C2 IP address.",
+      "first_seen": "2026-11-02T17:02:17.201143+00:00",
+      "last_seen": "2026-11-02T17:02:17.201143+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.group-ib.com",
+          "url": "https://www.group-ib.com/masked-actors/darkblinders/",
+          "pub_date": "2026-11-02T17:02:17.201143+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "industry",
+          "value": "Aviation"
+        },
+        {
+          "type": "industry",
+          "value": "Telecommunications"
+        },
+        {
+          "type": "malware",
+          "value": "SHELBYC2"
+        },
+        {
+          "type": "malware",
+          "value": "Shelbyloader"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "195.16.74.138",
+      "confidence": "high",
+      "reason": "IP address associated with attacker-controlled domain",
+      "first_seen": "2026-10-10T05:02:45.293755+00:00",
+      "last_seen": "2026-11-02T17:02:17.201143+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "www.group-ib.com",
+          "url": "https://www.group-ib.com/masked-actors/darkblinders/",
+          "pub_date": "2026-11-02T17:02:17.201143+00:00"
+        },
+        {
+          "source": "www.elastic.co",
+          "url": "https://www.elastic.co/security-labs/threat-command/the-shelby-strategy",
+          "pub_date": "2026-10-10T05:02:45.293755+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "industry",
+          "value": "Aviation"
+        },
+        {
+          "type": "industry",
+          "value": "Telecommunications"
+        },
+        {
+          "type": "malware",
+          "value": "Shelby"
+        },
+        {
+          "type": "malware",
+          "value": "SHELBYC2"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "2.56.126.151",
+      "confidence": "high",
+      "reason": "IP address associated with attacker-controlled domain",
+      "first_seen": "2026-10-10T05:02:45.293755+00:00",
+      "last_seen": "2026-11-02T17:02:17.201143+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "www.group-ib.com",
+          "url": "https://www.group-ib.com/masked-actors/darkblinders/",
+          "pub_date": "2026-11-02T17:02:17.201143+00:00"
+        },
+        {
+          "source": "www.elastic.co",
+          "url": "https://www.elastic.co/security-labs/threat-command/the-shelby-strategy",
+          "pub_date": "2026-10-10T05:02:45.293755+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "industry",
+          "value": "Aviation"
+        },
+        {
+          "type": "industry",
+          "value": "Telecommunications"
+        },
+        {
+          "type": "malware",
+          "value": "Shelby"
+        },
+        {
+          "type": "malware",
+          "value": "SHELBYC2"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "meetingapp.site",
+      "confidence": "high",
+      "reason": "Associated with command-and-control infrastructure for malware.",
+      "first_seen": "2026-11-02T17:02:16.210021+00:00",
+      "last_seen": "2026-11-02T17:02:16.210021+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "dreamgroup.com",
+          "url": "https://dreamgroup.com/blog/darkblinders-inside-an-active-espionage-campaign",
+          "pub_date": "2026-11-02T17:02:16.210021+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "APT34"
+        },
+        {
+          "type": "apt_group",
+          "value": "DarkBlinders"
+        },
+        {
+          "type": "apt_group",
+          "value": "Dust Specter"
+        },
+        {
+          "type": "apt_group",
+          "value": "UNC5795"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "starkmeet.com",
+      "confidence": "high",
+      "reason": "Used for fake videoconferencing application leading to malware execution.",
+      "first_seen": "2026-11-02T17:02:16.210021+00:00",
+      "last_seen": "2026-11-02T17:02:16.210021+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "dreamgroup.com",
+          "url": "https://dreamgroup.com/blog/darkblinders-inside-an-active-espionage-campaign",
+          "pub_date": "2026-11-02T17:02:16.210021+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "APT34"
+        },
+        {
+          "type": "apt_group",
+          "value": "DarkBlinders"
+        },
+        {
+          "type": "apt_group",
+          "value": "Dust Specter"
+        },
+        {
+          "type": "apt_group",
+          "value": "UNC5795"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "extstb.anyevonline.com",
+      "confidence": "high",
+      "reason": "Used for device information collection and task distribution",
+      "first_seen": "2026-11-02T16:37:45.131093+00:00",
+      "last_seen": "2026-11-02T16:37:45.131093+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "synthient.com",
+          "url": "https://synthient.com/blog/the-internals-of-a-badbox-operation",
+          "pub_date": "2026-11-02T16:37:45.131093+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Kimwolf Campaign"
+        },
+        {
+          "type": "industry",
+          "value": "Technology"
+        },
+        {
+          "type": "malware",
+          "value": "APSolo"
+        },
+        {
+          "type": "malware",
+          "value": "BWM"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "jet-night.com",
+      "confidence": "high",
+      "reason": "Domain used by attackers to route stolen API keys and incur fraudulent charges",
+      "first_seen": "2026-11-02T16:26:30+00:00",
+      "last_seen": "2026-11-02T16:26:30+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cloud.Google",
+          "url": "https://cloud.google.com/blog/topics/threat-intelligence/llmjacking-monetizing-compromised-cloud-models/",
+          "pub_date": "2026-11-02T16:26:30+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "UNC6993"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-40217"
+        },
+        {
+          "type": "industry",
+          "value": "Financial"
+        },
+        {
+          "type": "industry",
+          "value": "Retail"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "mfakuwait.online",
+      "confidence": "high",
+      "reason": "Used for credential phishing and malware delivery.",
+      "first_seen": "2026-11-02T15:16:06+00:00",
+      "last_seen": "2026-11-02T15:16:06+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Thehackernews",
+          "url": "https://thehackernews.com/2026/11/darkblinders-compromises-israeli-target.html",
+          "pub_date": "2026-11-02T15:16:06+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "APT34"
+        },
+        {
+          "type": "apt_group",
+          "value": "DarkBlinders"
+        },
+        {
+          "type": "campaign",
+          "value": "Blinder Tunnel"
+        },
+        {
+          "type": "industry",
+          "value": "Government"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "moelcloud.online",
+      "confidence": "high",
+      "reason": "Used for credential phishing and malware delivery.",
+      "first_seen": "2026-11-02T15:16:06+00:00",
+      "last_seen": "2026-11-02T15:16:06+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Thehackernews",
+          "url": "https://thehackernews.com/2026/11/darkblinders-compromises-israeli-target.html",
+          "pub_date": "2026-11-02T15:16:06+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "APT34"
+        },
+        {
+          "type": "apt_group",
+          "value": "DarkBlinders"
+        },
+        {
+          "type": "campaign",
+          "value": "Blinder Tunnel"
+        },
+        {
+          "type": "industry",
+          "value": "Government"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "stark-meet.com",
+      "confidence": "high",
+      "reason": "Domain used for a fake videoconferencing application delivering malware.",
+      "first_seen": "2026-11-02T15:16:06+00:00",
+      "last_seen": "2026-11-02T15:16:06+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Thehackernews",
+          "url": "https://thehackernews.com/2026/11/darkblinders-compromises-israeli-target.html",
+          "pub_date": "2026-11-02T15:16:06+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "APT34"
+        },
+        {
+          "type": "apt_group",
+          "value": "DarkBlinders"
+        },
+        {
+          "type": "campaign",
+          "value": "Blinder Tunnel"
+        },
+        {
+          "type": "industry",
+          "value": "Government"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "stark-meet.online",
+      "confidence": "high",
+      "reason": "Domain used for a fake videoconferencing application delivering malware.",
+      "first_seen": "2026-11-02T15:16:06+00:00",
+      "last_seen": "2026-11-02T15:16:06+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Thehackernews",
+          "url": "https://thehackernews.com/2026/11/darkblinders-compromises-israeli-target.html",
+          "pub_date": "2026-11-02T15:16:06+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "APT34"
+        },
+        {
+          "type": "apt_group",
+          "value": "DarkBlinders"
+        },
+        {
+          "type": "campaign",
+          "value": "Blinder Tunnel"
+        },
+        {
+          "type": "industry",
+          "value": "Government"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "stark-meet.website",
+      "confidence": "high",
+      "reason": "Domain used for a fake videoconferencing application delivering malware.",
+      "first_seen": "2026-11-02T15:16:06+00:00",
+      "last_seen": "2026-11-02T15:16:06+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Thehackernews",
+          "url": "https://thehackernews.com/2026/11/darkblinders-compromises-israeli-target.html",
+          "pub_date": "2026-11-02T15:16:06+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "APT34"
+        },
+        {
+          "type": "apt_group",
+          "value": "DarkBlinders"
+        },
+        {
+          "type": "campaign",
+          "value": "Blinder Tunnel"
+        },
+        {
+          "type": "industry",
+          "value": "Government"
+        }
+      ]
+    },
     {
       "type": "domain",
       "value": "clickksy.icu",
@@ -3007,245 +4466,6 @@
     },
     {
       "type": "domain",
-      "value": "aiok.me",
-      "confidence": "high",
-      "reason": "Listed as part of attacker-controlled infrastructure redirecting traffic",
-      "first_seen": "2026-10-30T09:56:23+00:00",
-      "last_seen": "2026-10-30T09:56:23+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Bloglab.360",
-          "url": "https://blog.netlab.360.com/aian-quan-zhuan-ti-zhou-bao-11/",
-          "pub_date": "2026-10-30T09:56:23+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "cve",
-          "value": "CVE-2026-41940"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "chat.nuoda.vip",
-      "confidence": "high",
-      "reason": "Part of attacker-controlled infrastructure redirecting traffic",
-      "first_seen": "2026-10-30T09:56:23+00:00",
-      "last_seen": "2026-10-30T09:56:23+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Bloglab.360",
-          "url": "https://blog.netlab.360.com/aian-quan-zhuan-ti-zhou-bao-11/",
-          "pub_date": "2026-10-30T09:56:23+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "cve",
-          "value": "CVE-2026-41940"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "goo.gle-access-eventregister.icu",
-      "confidence": "high",
-      "reason": "Phishing domain mimicking Google login page",
-      "first_seen": "2026-10-29T22:34:58.991537+00:00",
-      "last_seen": "2026-10-30T09:56:23+00:00",
-      "source_count": 2,
-      "sources": [
-        {
-          "source": "Bloglab.360",
-          "url": "https://blog.netlab.360.com/aian-quan-zhuan-ti-zhou-bao-11/",
-          "pub_date": "2026-10-30T09:56:23+00:00"
-        },
-        {
-          "source": "cofense.com",
-          "url": "https://cofense.com/blog/would-your-employees-join-a-fake-anthropic-ai-preview",
-          "pub_date": "2026-10-29T22:34:58.991537+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Anthropic AI Preview Campaign"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-41940"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "nuoda.vip",
-      "confidence": "high",
-      "reason": "Part of attacker-controlled infrastructure redirecting traffic",
-      "first_seen": "2026-10-30T09:56:23+00:00",
-      "last_seen": "2026-10-30T09:56:23+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Bloglab.360",
-          "url": "https://blog.netlab.360.com/aian-quan-zhuan-ti-zhou-bao-11/",
-          "pub_date": "2026-10-30T09:56:23+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "cve",
-          "value": "CVE-2026-41940"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "sorryios.io",
-      "confidence": "high",
-      "reason": "Part of attacker-controlled infrastructure redirecting traffic",
-      "first_seen": "2026-10-30T09:56:23+00:00",
-      "last_seen": "2026-10-30T09:56:23+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Bloglab.360",
-          "url": "https://blog.netlab.360.com/aian-quan-zhuan-ti-zhou-bao-11/",
-          "pub_date": "2026-10-30T09:56:23+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "cve",
-          "value": "CVE-2026-41940"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "total-sitevv.lol",
-      "confidence": "high",
-      "reason": "Domain resolves to an active NIK C2 server hosted by the threat actor.",
-      "first_seen": "2026-10-29T10:05:07+00:00",
-      "last_seen": "2026-10-30T09:56:23+00:00",
-      "source_count": 2,
-      "sources": [
-        {
-          "source": "Bloglab.360",
-          "url": "https://blog.netlab.360.com/aian-quan-zhuan-ti-zhou-bao-11/",
-          "pub_date": "2026-10-30T09:56:23+00:00"
-        },
-        {
-          "source": "Blog.Talosintelligence",
-          "url": "https://blog.talosintelligence.com/nik-c2-new-ai-enabled-framework/",
-          "pub_date": "2026-10-29T10:05:07+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "cve",
-          "value": "CVE-2026-41940"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "us968web-zoom.us",
-      "confidence": "high",
-      "reason": "Phishing domain mimicking Zoom meeting page",
-      "first_seen": "2026-10-29T22:34:58.991537+00:00",
-      "last_seen": "2026-10-30T09:56:23+00:00",
-      "source_count": 2,
-      "sources": [
-        {
-          "source": "Bloglab.360",
-          "url": "https://blog.netlab.360.com/aian-quan-zhuan-ti-zhou-bao-11/",
-          "pub_date": "2026-10-30T09:56:23+00:00"
-        },
-        {
-          "source": "cofense.com",
-          "url": "https://cofense.com/blog/would-your-employees-join-a-fake-anthropic-ai-preview",
-          "pub_date": "2026-10-29T22:34:58.991537+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Anthropic AI Preview Campaign"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-41940"
-        }
-      ]
-    },
-    {
-      "type": "domain",
-      "value": "vibe.aiok.me",
-      "confidence": "high",
-      "reason": "Part of attacker-controlled infrastructure redirecting traffic",
-      "first_seen": "2026-10-30T09:56:23+00:00",
-      "last_seen": "2026-10-30T09:56:23+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Bloglab.360",
-          "url": "https://blog.netlab.360.com/aian-quan-zhuan-ti-zhou-bao-11/",
-          "pub_date": "2026-10-30T09:56:23+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "cve",
-          "value": "CVE-2026-41940"
-        }
-      ]
-    },
-    {
-      "type": "ipv4",
-      "value": "43.228.157.68",
-      "confidence": "high",
-      "reason": "Listed as part of C2 infrastructure",
-      "first_seen": "2026-10-28T02:58:27+00:00",
-      "last_seen": "2026-10-30T09:56:23+00:00",
-      "source_count": 3,
-      "sources": [
-        {
-          "source": "Bloglab.360",
-          "url": "https://blog.netlab.360.com/aian-quan-zhuan-ti-zhou-bao-11/",
-          "pub_date": "2026-10-30T09:56:23+00:00"
-        },
-        {
-          "source": "www.infoworld.com",
-          "url": "https://www.infoworld.com/article/4241474/attackers-compromised-42-github-repositories-by-using-files-too-large-to-be-searched.html",
-          "pub_date": "2026-10-28T06:31:20.61955+00:00"
-        },
-        {
-          "source": "Csoonline",
-          "url": "https://www.csoonline.com/article/4241496/attackers-compromised-42-github-repositories-by-using-files-too-large-to-be-searched-2.html",
-          "pub_date": "2026-10-28T02:58:27+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "cve",
-          "value": "CVE-2026-41940"
-        },
-        {
-          "type": "malware",
-          "value": "Miasma"
-        },
-        {
-          "type": "malware",
-          "value": "Miasma-family"
-        }
-      ]
-    },
-    {
-      "type": "domain",
       "value": "13slist.com",
       "confidence": "high",
       "reason": "Listed in a YARA rule for detecting threat activity.",
@@ -3345,6 +4565,50 @@
         }
       ],
       "tags": []
+    },
+    {
+      "type": "domain",
+      "value": "goo.gle-access-eventregister.icu",
+      "confidence": "high",
+      "reason": "Phishing domain mimicking Google login page",
+      "first_seen": "2026-10-29T22:34:58.991537+00:00",
+      "last_seen": "2026-10-29T22:34:58.991537+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "cofense.com",
+          "url": "https://cofense.com/blog/would-your-employees-join-a-fake-anthropic-ai-preview",
+          "pub_date": "2026-10-29T22:34:58.991537+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Anthropic AI Preview Campaign"
+        }
+      ]
+    },
+    {
+      "type": "domain",
+      "value": "us968web-zoom.us",
+      "confidence": "high",
+      "reason": "Phishing domain mimicking Zoom meeting page",
+      "first_seen": "2026-10-29T22:34:58.991537+00:00",
+      "last_seen": "2026-10-29T22:34:58.991537+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "cofense.com",
+          "url": "https://cofense.com/blog/would-your-employees-join-a-fake-anthropic-ai-preview",
+          "pub_date": "2026-10-29T22:34:58.991537+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Anthropic AI Preview Campaign"
+        }
+      ]
     },
     {
       "type": "ipv4",
@@ -3862,6 +5126,23 @@
       ]
     },
     {
+      "type": "domain",
+      "value": "total-sitevv.lol",
+      "confidence": "high",
+      "reason": "Domain resolves to an active NIK C2 server hosted by the threat actor.",
+      "first_seen": "2026-10-29T10:05:07+00:00",
+      "last_seen": "2026-10-29T10:05:07+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Blog.Talosintelligence",
+          "url": "https://blog.talosintelligence.com/nik-c2-new-ai-enabled-framework/",
+          "pub_date": "2026-10-29T10:05:07+00:00"
+        }
+      ],
+      "tags": []
+    },
+    {
       "type": "ipv4",
       "value": "87.120.196.120",
       "confidence": "high",
@@ -4070,23 +5351,6 @@
           "value": "GhostAction Campaign 3"
         }
       ]
-    },
-    {
-      "type": "domain",
-      "value": "hackertehuur.com",
-      "confidence": "high",
-      "reason": "Advertised as a service for hiring hackers on the dark web",
-      "first_seen": "2026-10-28T20:37:44+00:00",
-      "last_seen": "2026-10-28T20:37:44+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Hireaphonehacker",
-          "url": "https://hireaphonehacker.com/product/hire-a-dark-web-hacker/",
-          "pub_date": "2026-10-28T20:37:44+00:00"
-        }
-      ],
-      "tags": []
     },
     {
       "type": "domain",
@@ -4639,6 +5903,41 @@
         {
           "type": "campaign",
           "value": "PolyShell Mass Attack"
+        }
+      ]
+    },
+    {
+      "type": "ipv4",
+      "value": "43.228.157.68",
+      "confidence": "high",
+      "reason": "Reported as a server used in exploitation infrastructure",
+      "first_seen": "2026-10-28T02:58:27+00:00",
+      "last_seen": "2026-10-28T06:31:20.619550+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "www.infoworld.com",
+          "url": "https://www.infoworld.com/article/4241474/attackers-compromised-42-github-repositories-by-using-files-too-large-to-be-searched.html",
+          "pub_date": "2026-10-28T06:31:20.61955+00:00"
+        },
+        {
+          "source": "Csoonline",
+          "url": "https://www.csoonline.com/article/4241496/attackers-compromised-42-github-repositories-by-using-files-too-large-to-be-searched-2.html",
+          "pub_date": "2026-10-28T02:58:27+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2026-41940"
+        },
+        {
+          "type": "malware",
+          "value": "Miasma"
+        },
+        {
+          "type": "malware",
+          "value": "Miasma-family"
         }
       ]
     },
@@ -17368,75 +18667,9 @@
     },
     {
       "type": "domain",
-      "value": "arthurshelby.click",
-      "confidence": "high",
-      "reason": "Domain used for C2 registration and subdomain generation by malware",
-      "first_seen": "2026-10-10T05:02:45.293755+00:00",
-      "last_seen": "2026-10-10T05:02:45.293755+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.elastic.co",
-          "url": "https://www.elastic.co/security-labs/threat-command/the-shelby-strategy",
-          "pub_date": "2026-10-10T05:02:45.293755+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "malware",
-          "value": "Shelby"
-        }
-      ]
-    },
-    {
-      "type": "domain",
       "value": "s.grldiyrsmvsggojzmi4wmyi.inevyrcfknfvit2qfvcvinjriffe6ib6hyqdambqgaydambahy7cama.arthurshelby.click",
       "confidence": "high",
       "reason": "Subdomain used for C2 registration by malware",
-      "first_seen": "2026-10-10T05:02:45.293755+00:00",
-      "last_seen": "2026-10-10T05:02:45.293755+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.elastic.co",
-          "url": "https://www.elastic.co/security-labs/threat-command/the-shelby-strategy",
-          "pub_date": "2026-10-10T05:02:45.293755+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "malware",
-          "value": "Shelby"
-        }
-      ]
-    },
-    {
-      "type": "ipv4",
-      "value": "195.16.74.138",
-      "confidence": "high",
-      "reason": "IP address associated with attacker-controlled domain",
-      "first_seen": "2026-10-10T05:02:45.293755+00:00",
-      "last_seen": "2026-10-10T05:02:45.293755+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.elastic.co",
-          "url": "https://www.elastic.co/security-labs/threat-command/the-shelby-strategy",
-          "pub_date": "2026-10-10T05:02:45.293755+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "malware",
-          "value": "Shelby"
-        }
-      ]
-    },
-    {
-      "type": "ipv4",
-      "value": "2.56.126.151",
-      "confidence": "high",
-      "reason": "IP address associated with attacker-controlled domain",
       "first_seen": "2026-10-10T05:02:45.293755+00:00",
       "last_seen": "2026-10-10T05:02:45.293755+00:00",
       "source_count": 1,

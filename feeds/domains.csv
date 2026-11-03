@@ -1,4 +1,39 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason
+domain,psw.agent.ma,high,2026-11-03T12:31:18.389273+00:00,2026-11-03T12:31:18.389273+00:00,1,www.welivesecurity.com:2026-11-03,Listed in a comprehensive list of IoCs and samples related to the campaign.
+domain,analysis.shixunsuda.com,high,2026-11-02T14:28:46+00:00,2026-11-02T21:30:50.094224+00:00,2,www.anrdoezrs.net:2026-11-02|Cloud.Google:2026-11-02,Listed as a command and control server for XCPE
+domain,anyevonline.com,high,2026-11-02T14:28:46+00:00,2026-11-02T21:30:50.094224+00:00,4,www.anrdoezrs.net:2026-11-02|Bleepingcomputer:2026-11-02|synthient.com:2026-11-02|Cloud.Google:2026-11-02,"Used for initial bootstrap, registration, and configuration by malware"
+domain,collection.shixunsuda.com,high,2026-11-02T14:28:46+00:00,2026-11-02T21:30:50.094224+00:00,2,www.anrdoezrs.net:2026-11-02|Cloud.Google:2026-11-02,Listed as a command and control server for XCPE
+domain,edisajalsjfdfh.shop,high,2026-11-02T14:28:46+00:00,2026-11-02T21:30:50.094224+00:00,2,www.anrdoezrs.net:2026-11-02|Cloud.Google:2026-11-02,Listed as part of the command and control infrastructure
+domain,geo-loadbalanced.com,high,2026-11-02T14:28:46+00:00,2026-11-02T21:30:50.094224+00:00,2,www.anrdoezrs.net:2026-11-02|Cloud.Google:2026-11-02,Listed as part of the command and control infrastructure
+domain,haimnsgsjhansj.shop,high,2026-11-02T14:28:46+00:00,2026-11-02T21:30:50.094224+00:00,2,www.anrdoezrs.net:2026-11-02|Cloud.Google:2026-11-02,Listed as part of the command and control infrastructure
+domain,hiddeninplainsight.top,high,2026-11-02T14:28:46+00:00,2026-11-02T21:30:50.094224+00:00,2,www.anrdoezrs.net:2026-11-02|Cloud.Google:2026-11-02,Listed as part of the command and control infrastructure
+domain,ishuoabh3years.online,high,2026-11-02T14:28:46+00:00,2026-11-02T21:30:50.094224+00:00,2,www.anrdoezrs.net:2026-11-02|Cloud.Google:2026-11-02,Listed as part of the command and control infrastructure
+domain,jaguar-distributor.logreporter.com,high,2026-11-02T14:28:46+00:00,2026-11-02T21:30:50.094224+00:00,2,www.anrdoezrs.net:2026-11-02|Cloud.Google:2026-11-02,Listed as part of the command and control infrastructure
+domain,jaguar-distributor.syslogcollector.com,high,2026-11-02T14:28:46+00:00,2026-11-02T21:30:50.094224+00:00,2,www.anrdoezrs.net:2026-11-02|Cloud.Google:2026-11-02,Listed as part of the command and control infrastructure
+domain,file.anyevonline.com,high,2026-11-02T16:37:45.131093+00:00,2026-11-02T18:38:39+00:00,2,Bleepingcomputer:2026-11-02|synthient.com:2026-11-02,Hosts backdoors and other malicious files
+domain,mqtt.anyevonline.com,high,2026-11-02T16:37:45.131093+00:00,2026-11-02T18:38:39+00:00,2,Bleepingcomputer:2026-11-02|synthient.com:2026-11-02,Used as the main administrator panel for operators
+domain,felixfuturenext.com,high,2026-11-02T18:00:29.118178+00:00,2026-11-02T18:00:29.118178+00:00,1,www.fortinet.com:2026-11-02,Domain used in phishing and malware attacks
+domain,gomescareerplans.com,high,2026-11-02T18:00:29.118178+00:00,2026-11-02T18:00:29.118178+00:00,1,www.fortinet.com:2026-11-02,Domain used in attack chain for malware delivery
+domain,goodnfortunes.com,high,2026-11-02T18:00:29.118178+00:00,2026-11-02T18:00:29.118178+00:00,1,www.fortinet.com:2026-11-02,Domain used for data exfiltration in attack chain
+domain,rivingtonclarks.com,high,2026-11-02T18:00:29.118178+00:00,2026-11-02T18:00:29.118178+00:00,1,www.fortinet.com:2026-11-02,Domain used as C2 panel for PapRAT
+domain,techtalkhelp.com,high,2026-11-02T18:00:29.118178+00:00,2026-11-02T18:00:29.118178+00:00,1,www.fortinet.com:2026-11-02,Domain used for staging and command updates
+domain,www.chestergreenfarming.com,high,2026-11-02T18:00:29.118178+00:00,2026-11-02T18:00:29.118178+00:00,1,www.fortinet.com:2026-11-02,Domain used as decoded C2 server
+domain,www.rivingtonclarks.com,high,2026-11-02T18:00:29.118178+00:00,2026-11-02T18:00:29.118178+00:00,1,www.fortinet.com:2026-11-02,Domain used as C2 URL for PapRAT
+domain,arthurshelby.click,high,2026-10-10T05:02:45.293755+00:00,2026-11-02T17:02:17.201143+00:00,2,www.group-ib.com:2026-11-02|www.elastic.co:2026-10-10,Domain used for C2 registration and subdomain generation by malware
+domain,korektell.com,high,2026-11-02T17:02:17.201143+00:00,2026-11-02T17:02:17.201143+00:00,1,www.group-ib.com:2026-11-02,Used in campaigns to compromise carriers with region-specific infrastructure.
+domain,newroztelecom.digital,high,2026-11-02T17:02:17.201143+00:00,2026-11-02T17:02:17.201143+00:00,1,www.group-ib.com:2026-11-02,Part of the supporting network infrastructure for C2 operations.
+domain,ns2.arthurshelby.click,high,2026-11-02T17:02:17.201143+00:00,2026-11-02T17:02:17.201143+00:00,1,www.group-ib.com:2026-11-02,Nameserver associated with attacker-controlled domains.
+domain,ns2.speed-test.click,high,2026-11-02T17:02:17.201143+00:00,2026-11-02T17:02:17.201143+00:00,1,www.group-ib.com:2026-11-02,Nameserver associated with attacker-controlled domains.
+domain,speed-test.click,high,2026-11-02T17:02:17.201143+00:00,2026-11-02T17:02:17.201143+00:00,1,www.group-ib.com:2026-11-02,Listed as part of the supporting network infrastructure for C2 operations.
+domain,meetingapp.site,high,2026-11-02T17:02:16.210021+00:00,2026-11-02T17:02:16.210021+00:00,1,dreamgroup.com:2026-11-02,Associated with command-and-control infrastructure for malware.
+domain,starkmeet.com,high,2026-11-02T17:02:16.210021+00:00,2026-11-02T17:02:16.210021+00:00,1,dreamgroup.com:2026-11-02,Used for fake videoconferencing application leading to malware execution.
+domain,extstb.anyevonline.com,high,2026-11-02T16:37:45.131093+00:00,2026-11-02T16:37:45.131093+00:00,1,synthient.com:2026-11-02,Used for device information collection and task distribution
+domain,jet-night.com,high,2026-11-02T16:26:30+00:00,2026-11-02T16:26:30+00:00,1,Cloud.Google:2026-11-02,Domain used by attackers to route stolen API keys and incur fraudulent charges
+domain,mfakuwait.online,high,2026-11-02T15:16:06+00:00,2026-11-02T15:16:06+00:00,1,Thehackernews:2026-11-02,Used for credential phishing and malware delivery.
+domain,moelcloud.online,high,2026-11-02T15:16:06+00:00,2026-11-02T15:16:06+00:00,1,Thehackernews:2026-11-02,Used for credential phishing and malware delivery.
+domain,stark-meet.com,high,2026-11-02T15:16:06+00:00,2026-11-02T15:16:06+00:00,1,Thehackernews:2026-11-02,Domain used for a fake videoconferencing application delivering malware.
+domain,stark-meet.online,high,2026-11-02T15:16:06+00:00,2026-11-02T15:16:06+00:00,1,Thehackernews:2026-11-02,Domain used for a fake videoconferencing application delivering malware.
+domain,stark-meet.website,high,2026-11-02T15:16:06+00:00,2026-11-02T15:16:06+00:00,1,Thehackernews:2026-11-02,Domain used for a fake videoconferencing application delivering malware.
 domain,clickksy.icu,high,2026-10-29T00:00:00+00:00,2026-11-02T11:19:02+00:00,2,Hackread:2026-11-02|Cloudsek:2026-10-29,"Domain used in a campaign with Adobe-themed lures, registered by attackers."
 domain,aideck.net,high,2026-11-02T10:07:30.919290+00:00,2026-11-02T10:07:30.919290+00:00,1,www.cisa.gov:2026-11-02,Used as a C2 server for Manuscrypt malware
 domain,dafnefonseca.com,high,2026-11-02T10:07:30.919290+00:00,2026-11-02T10:07:30.919290+00:00,1,www.cisa.gov:2026-11-02,Listed as a C2 endpoint for malware
@@ -125,19 +160,13 @@ domain,cancelcpservice.in,high,2026-10-30T11:13:57+00:00,2026-10-30T11:13:57+00:
 domain,cardprotections.in,high,2026-10-30T11:13:57+00:00,2026-10-30T11:13:57+00:00,1,Bloglab.360:2026-10-30,Used in phishing campaigns targeting bank customers
 domain,install-update.xyz,high,2026-10-30T11:13:57+00:00,2026-10-30T11:13:57+00:00,1,Bloglab.360:2026-10-30,Used in phishing campaigns targeting bank customers
 domain,udeskqlobal.com,high,2026-10-30T11:13:57+00:00,2026-10-30T11:13:57+00:00,1,Bloglab.360:2026-10-30,Used to load malicious scripts
-domain,aiok.me,high,2026-10-30T09:56:23+00:00,2026-10-30T09:56:23+00:00,1,Bloglab.360:2026-10-30,Listed as part of attacker-controlled infrastructure redirecting traffic
-domain,chat.nuoda.vip,high,2026-10-30T09:56:23+00:00,2026-10-30T09:56:23+00:00,1,Bloglab.360:2026-10-30,Part of attacker-controlled infrastructure redirecting traffic
-domain,goo.gle-access-eventregister.icu,high,2026-10-29T22:34:58.991537+00:00,2026-10-30T09:56:23+00:00,2,Bloglab.360:2026-10-30|cofense.com:2026-10-29,Phishing domain mimicking Google login page
-domain,nuoda.vip,high,2026-10-30T09:56:23+00:00,2026-10-30T09:56:23+00:00,1,Bloglab.360:2026-10-30,Part of attacker-controlled infrastructure redirecting traffic
-domain,sorryios.io,high,2026-10-30T09:56:23+00:00,2026-10-30T09:56:23+00:00,1,Bloglab.360:2026-10-30,Part of attacker-controlled infrastructure redirecting traffic
-domain,total-sitevv.lol,high,2026-10-29T10:05:07+00:00,2026-10-30T09:56:23+00:00,2,Bloglab.360:2026-10-30|Blog.Talosintelligence:2026-10-29,Domain resolves to an active NIK C2 server hosted by the threat actor.
-domain,us968web-zoom.us,high,2026-10-29T22:34:58.991537+00:00,2026-10-30T09:56:23+00:00,2,Bloglab.360:2026-10-30|cofense.com:2026-10-29,Phishing domain mimicking Zoom meeting page
-domain,vibe.aiok.me,high,2026-10-30T09:56:23+00:00,2026-10-30T09:56:23+00:00,1,Bloglab.360:2026-10-30,Part of attacker-controlled infrastructure redirecting traffic
 domain,13slist.com,high,2026-10-30T05:45:56+00:00,2026-10-30T05:45:56+00:00,1,Cyfirma:2026-10-30,Listed in a YARA rule for detecting threat activity.
 domain,arabtechmessenger.net,high,2026-10-30T05:45:56+00:00,2026-10-30T05:45:56+00:00,1,Cyfirma:2026-10-30,Listed in a YARA rule for detecting threat activity.
 domain,communityrespondalarm.com,high,2026-10-30T05:45:56+00:00,2026-10-30T05:45:56+00:00,1,Cyfirma:2026-10-30,Listed in a YARA rule for detecting threat activity.
 domain,rapidcomments.com,high,2026-10-30T05:45:56+00:00,2026-10-30T05:45:56+00:00,1,Cyfirma:2026-10-30,Listed in a YARA rule as a domain associated with threat activity.
 domain,zimbrasoft.com.ua,high,2026-10-30T05:45:56+00:00,2026-10-30T05:45:56+00:00,1,Cyfirma:2026-10-30,Listed in a YARA rule as a domain associated with threat activity.
+domain,goo.gle-access-eventregister.icu,high,2026-10-29T22:34:58.991537+00:00,2026-10-29T22:34:58.991537+00:00,1,cofense.com:2026-10-29,Phishing domain mimicking Google login page
+domain,us968web-zoom.us,high,2026-10-29T22:34:58.991537+00:00,2026-10-29T22:34:58.991537+00:00,1,cofense.com:2026-10-29,Phishing domain mimicking Zoom meeting page
 domain,l1ewsu3yjkqeroy.xyz,high,2026-10-29T15:40:51.693483+00:00,2026-10-29T15:40:51.693483+00:00,1,safedep.io:2026-10-29,Configured as a C2 sync endpoint for telemetry.
 domain,utaq.cfww.shop,high,2026-10-29T15:40:51.693483+00:00,2026-10-29T15:40:51.693483+00:00,1,safedep.io:2026-10-29,Domain used for exploit modules and C2 infrastructure.
 domain,coinbase.bonto.io,high,2026-10-27T17:28:33.184000+00:00,2026-10-29T14:12:13+00:00,2,Malwarebytes:2026-10-29|Socket.Dev:2026-10-27,Subdomain used for exfiltration by malicious Firefox extensions
@@ -152,12 +181,12 @@ domain,ssc.vever3eds.com,high,2026-10-29T13:00:00+00:00,2026-10-29T13:38:14+00:0
 domain,vrgrt4t33.com,high,2026-10-29T13:00:00+00:00,2026-10-29T13:38:14+00:00,1,Zimperium:2026-10-29,Domain used for telemetry transmission in the attack chain.
 domain,xxtg1.eu.cc,high,2026-10-29T13:00:00+00:00,2026-10-29T13:38:14+00:00,1,Zimperium:2026-10-29,Domain used for tracking and configuration in the Coruna campaign.
 domain,kndr.su,high,2026-10-29T04:34:32.960823+00:00,2026-10-29T12:28:19+00:00,2,Aljazeera:2026-10-29|globalrightscompliance.org:2026-10-29,Described as an online labour-brokering platform operated by the attacker
+domain,total-sitevv.lol,high,2026-10-29T10:05:07+00:00,2026-10-29T10:05:07+00:00,1,Blog.Talosintelligence:2026-10-29,Domain resolves to an active NIK C2 server hosted by the threat actor.
 domain,virtualine.net,high,2026-10-27T21:54:44+00:00,2026-10-29T08:07:18+00:00,5,Thecyberexpress:2026-10-29|Trmlabs:2026-10-28|Therecord.Media:2026-10-28|Helpnetsecurity:2026-10-28|Chainalysis:2026-10-27,Domain seized by FBI as part of disrupting Virtualine's criminal operations
 domain,shopcredit.xyz,high,2026-10-29T03:52:51+00:00,2026-10-29T03:52:51+00:00,1,Tribune.Ph:2026-10-29,Flagged as a phishing URL in a fraudulent recruitment scam
 domain,kosoyed.online,high,2026-10-29T00:31:32.441034+00:00,2026-10-29T00:31:32.441034+00:00,1,www.picussecurity.com:2026-10-29,Registered by attackers as a fallback C2 domain
 domain,kosoyed.ru,high,2026-10-29T00:31:32.441034+00:00,2026-10-29T00:31:32.441034+00:00,1,www.picussecurity.com:2026-10-29,Registered by attackers as a fallback C2 domain
 domain,carte-avantage.com,high,2026-10-07T13:03:38+00:00,2026-10-28T22:30:29.446826+00:00,2,blog.gitguardian.com:2026-10-28|Blog.Gitguardian:2026-10-07,Used as an exfiltration endpoint by attackers
-domain,hackertehuur.com,high,2026-10-28T20:37:44+00:00,2026-10-28T20:37:44+00:00,1,Hireaphonehacker:2026-10-28,Advertised as a service for hiring hackers on the dark web
 domain,armenia.pravda-news.com,high,2026-10-28T17:05:24.941114+00:00,2026-10-28T17:05:24.941114+00:00,1,international.canada.ca:2026-10-28,"Domain used by Portal Kombat to disseminate pro-Russian content, likely attacker-controlled"
 domain,api-com.cfd,high,2026-10-28T16:35:36.211876+00:00,2026-10-28T16:35:36.211876+00:00,1,isc.sans.edu:2026-10-28,"Returned a 403 Forbidden response, indicating potential malicious use"
 domain,js-static.cfd,high,2026-10-28T16:35:36.211876+00:00,2026-10-28T16:35:36.211876+00:00,1,isc.sans.edu:2026-10-28,Domain hosting a fake verification page
@@ -537,7 +566,6 @@ domain,coldcardswallet.info,high,2026-10-11T12:09:50.126997+00:00,2026-10-11T12:
 domain,coldcardwallet.info,high,2026-10-11T12:09:50.126997+00:00,2026-10-11T12:09:50.126997+00:00,1,unclone.io:2026-10-11,Registered for phishing using Coinkite's incident response vocabulary
 domain,migrate.coldcardwallet.io,high,2026-10-11T10:56:35+00:00,2026-10-11T11:17:54+00:00,2,Tradingview:2026-10-11|Cryptobriefing:2026-10-11,Used in a phishing post on Coldcard's official account
 domain,cablewireltd.site,high,2026-10-11T06:46:26+00:00,2026-10-11T06:46:26+00:00,1,2-Spyware:2026-10-11,Identified as a source for malware delivery
-domain,arthurshelby.click,high,2026-10-10T05:02:45.293755+00:00,2026-10-10T05:02:45.293755+00:00,1,www.elastic.co:2026-10-10,Domain used for C2 registration and subdomain generation by malware
 domain,s.grldiyrsmvsggojzmi4wmyi.inevyrcfknfvit2qfvcvinjriffe6ib6hyqdambqgaydambahy7cama.arthurshelby.click,high,2026-10-10T05:02:45.293755+00:00,2026-10-10T05:02:45.293755+00:00,1,www.elastic.co:2026-10-10,Subdomain used for C2 registration by malware
 domain,lake-90.com,high,2026-10-09T22:12:56.295984+00:00,2026-10-09T22:12:56.295984+00:00,1,pushsecurity.com:2026-10-09,"Domain used to host and deliver payload, indicating attacker control"
 domain,claude-desk-code.com,high,2026-10-09T20:31:37+00:00,2026-10-09T20:31:37+00:00,1,Bleepingcomputer:2026-10-09,Used as a phishing destination in a campaign
