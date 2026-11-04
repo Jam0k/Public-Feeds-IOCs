@@ -1,15 +1,52 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason
-domain,psw.agent.ma,high,2026-11-03T12:31:18.389273+00:00,2026-11-03T12:31:18.389273+00:00,1,www.welivesecurity.com:2026-11-03,Listed in a comprehensive list of IoCs and samples related to the campaign.
-domain,analysis.shixunsuda.com,high,2026-11-02T14:28:46+00:00,2026-11-02T21:30:50.094224+00:00,2,www.anrdoezrs.net:2026-11-02|Cloud.Google:2026-11-02,Listed as a command and control server for XCPE
-domain,anyevonline.com,high,2026-11-02T14:28:46+00:00,2026-11-02T21:30:50.094224+00:00,4,www.anrdoezrs.net:2026-11-02|Bleepingcomputer:2026-11-02|synthient.com:2026-11-02|Cloud.Google:2026-11-02,"Used for initial bootstrap, registration, and configuration by malware"
-domain,collection.shixunsuda.com,high,2026-11-02T14:28:46+00:00,2026-11-02T21:30:50.094224+00:00,2,www.anrdoezrs.net:2026-11-02|Cloud.Google:2026-11-02,Listed as a command and control server for XCPE
-domain,edisajalsjfdfh.shop,high,2026-11-02T14:28:46+00:00,2026-11-02T21:30:50.094224+00:00,2,www.anrdoezrs.net:2026-11-02|Cloud.Google:2026-11-02,Listed as part of the command and control infrastructure
-domain,geo-loadbalanced.com,high,2026-11-02T14:28:46+00:00,2026-11-02T21:30:50.094224+00:00,2,www.anrdoezrs.net:2026-11-02|Cloud.Google:2026-11-02,Listed as part of the command and control infrastructure
-domain,haimnsgsjhansj.shop,high,2026-11-02T14:28:46+00:00,2026-11-02T21:30:50.094224+00:00,2,www.anrdoezrs.net:2026-11-02|Cloud.Google:2026-11-02,Listed as part of the command and control infrastructure
-domain,hiddeninplainsight.top,high,2026-11-02T14:28:46+00:00,2026-11-02T21:30:50.094224+00:00,2,www.anrdoezrs.net:2026-11-02|Cloud.Google:2026-11-02,Listed as part of the command and control infrastructure
-domain,ishuoabh3years.online,high,2026-11-02T14:28:46+00:00,2026-11-02T21:30:50.094224+00:00,2,www.anrdoezrs.net:2026-11-02|Cloud.Google:2026-11-02,Listed as part of the command and control infrastructure
-domain,jaguar-distributor.logreporter.com,high,2026-11-02T14:28:46+00:00,2026-11-02T21:30:50.094224+00:00,2,www.anrdoezrs.net:2026-11-02|Cloud.Google:2026-11-02,Listed as part of the command and control infrastructure
-domain,jaguar-distributor.syslogcollector.com,high,2026-11-02T14:28:46+00:00,2026-11-02T21:30:50.094224+00:00,2,www.anrdoezrs.net:2026-11-02|Cloud.Google:2026-11-02,Listed as part of the command and control infrastructure
+domain,ad-track.live,high,2026-11-04T17:22:27+00:00,2026-11-04T17:22:27+00:00,1,F5:2026-11-04,Listed as part of spyware-related domains
+domain,analytics.insightjs.com,high,2026-11-04T03:08:03.338852+00:00,2026-11-04T03:33:48+00:00,2,Invenglobal:2026-11-04|gist.github.com:2026-11-04,Domain associated with the agent stage of the malware
+domain,insightjs.com,high,2026-11-04T03:08:03.338852+00:00,2026-11-04T03:33:48+00:00,2,Invenglobal:2026-11-04|gist.github.com:2026-11-04,Domain used for malware communication
+domain,insightjs.org,high,2026-11-04T03:08:03.338852+00:00,2026-11-04T03:33:48+00:00,2,Invenglobal:2026-11-04|gist.github.com:2026-11-04,Domain used as a fallback for malware communication
+domain,scigovjudicial.com,high,2026-11-04T01:04:30+00:00,2026-11-04T01:04:30+00:00,1,Scconline:2026-11-04,"Identified as a fraudulent domain used for phishing, impersonating the Supreme Court of India."
+domain,atlascore-panel.net,high,2026-11-03T22:08:07.499011+00:00,2026-11-03T22:08:07.499011+00:00,1,www.recordedfuture.com:2026-11-03,Domain used by AtlasCore administrators for hosting affiliate program panels
+domain,bravioar.com,high,2026-11-03T22:08:07.499011+00:00,2026-11-03T22:08:07.499011+00:00,1,www.recordedfuture.com:2026-11-03,"Domain hosted casino-, exchange-, and prediction-market-related content linked to AtlasCore"
+domain,btwoteam.xyz,high,2026-11-03T22:08:07.499011+00:00,2026-11-03T22:08:07.499011+00:00,1,www.recordedfuture.com:2026-11-03,Domain resolves to IP associated with Magnetic Team's administrative panel
+domain,casino.atlascore-panel.net,high,2026-11-03T22:08:07.499011+00:00,2026-11-03T22:08:07.499011+00:00,1,www.recordedfuture.com:2026-11-03,Subdomain used for hosting casino-related content by AtlasCore
+domain,crossbook.xyz,high,2026-11-03T22:08:07.499011+00:00,2026-11-03T22:08:07.499011+00:00,1,www.recordedfuture.com:2026-11-03,Domain hosted on IP associated with Magnetic Team's infrastructure
+domain,docs.atlascore-panel.net,high,2026-11-03T22:08:07.499011+00:00,2026-11-03T22:08:07.499011+00:00,1,www.recordedfuture.com:2026-11-03,Subdomain used for hosting manuals by AtlasCore
+domain,event-x.cc,high,2026-11-03T22:08:07.499011+00:00,2026-11-03T22:08:07.499011+00:00,1,www.recordedfuture.com:2026-11-03,Domain used for marketing and associated with fraudulent offers
+domain,fortexp.live,high,2026-11-03T22:08:07.499011+00:00,2026-11-03T22:08:07.499011+00:00,1,www.recordedfuture.com:2026-11-03,Domain linked to fraudulent prediction market operations
+domain,fortvet.cc,high,2026-11-03T22:08:07.499011+00:00,2026-11-03T22:08:07.499011+00:00,1,www.recordedfuture.com:2026-11-03,Domain associated with fraudulent prediction market operations
+domain,futaryx.com,high,2026-11-03T22:08:07.499011+00:00,2026-11-03T22:08:07.499011+00:00,1,www.recordedfuture.com:2026-11-03,Domain linked to fraudulent prediction market operations
+domain,kiro-cheap.pro,high,2026-11-03T22:08:07.499011+00:00,2026-11-03T22:08:07.499011+00:00,1,www.recordedfuture.com:2026-11-03,Domain associated with fraudulent prediction market operations
+domain,magnetic-panel.space,high,2026-11-03T22:08:07.499011+00:00,2026-11-03T22:08:07.499011+00:00,1,www.recordedfuture.com:2026-11-03,Domain used for managing campaigns by Magnetic Team
+domain,polyfucker.space,high,2026-11-03T22:08:07.499011+00:00,2026-11-03T22:08:07.499011+00:00,1,www.recordedfuture.com:2026-11-03,Domain used for hosting admin panel for PolyFucked offer
+domain,polymarket.atlascore-panel.net,high,2026-11-03T22:08:07.499011+00:00,2026-11-03T22:08:07.499011+00:00,1,www.recordedfuture.com:2026-11-03,Subdomain used for hosting prediction market content by AtlasCore
+domain,prdct.cc,high,2026-11-03T22:08:07.499011+00:00,2026-11-03T22:08:07.499011+00:00,1,www.recordedfuture.com:2026-11-03,Domain used as shared infrastructure by AtlasCore
+domain,pred.co,high,2026-11-03T22:08:07.499011+00:00,2026-11-03T22:08:07.499011+00:00,1,www.recordedfuture.com:2026-11-03,Domain linked to fraudulent prediction market operations
+domain,predicate.cc,high,2026-11-03T22:08:07.499011+00:00,2026-11-03T22:08:07.499011+00:00,1,www.recordedfuture.com:2026-11-03,Domain used as shared infrastructure by AtlasCore
+domain,predicate.club,high,2026-11-03T22:08:07.499011+00:00,2026-11-03T22:08:07.499011+00:00,1,www.recordedfuture.com:2026-11-03,"Domain hosted casino-, exchange-, and prediction-market-related content"
+domain,predicate.live,high,2026-11-03T22:08:07.499011+00:00,2026-11-03T22:08:07.499011+00:00,1,www.recordedfuture.com:2026-11-03,Domain used as shared infrastructure by AtlasCore
+domain,predicate.world,high,2026-11-03T22:08:07.499011+00:00,2026-11-03T22:08:07.499011+00:00,1,www.recordedfuture.com:2026-11-03,Domain used as shared infrastructure by AtlasCore
+domain,predictedby.cc,high,2026-11-03T22:08:07.499011+00:00,2026-11-03T22:08:07.499011+00:00,1,www.recordedfuture.com:2026-11-03,Domain used as shared infrastructure by AtlasCore
+domain,predictum.app,high,2026-11-03T22:08:07.499011+00:00,2026-11-03T22:08:07.499011+00:00,1,www.recordedfuture.com:2026-11-03,Domain linked to fraudulent prediction market operations
+domain,predictum.cc,high,2026-11-03T22:08:07.499011+00:00,2026-11-03T22:08:07.499011+00:00,1,www.recordedfuture.com:2026-11-03,Domain linked to fraudulent prediction market operations
+domain,rqwrujarser.icu,high,2026-11-03T22:08:07.499011+00:00,2026-11-03T22:08:07.499011+00:00,1,www.recordedfuture.com:2026-11-03,"Domain hosted casino-, exchange-, and prediction-market-related content"
+domain,speculor.net,high,2026-11-03T22:08:07.499011+00:00,2026-11-03T22:08:07.499011+00:00,1,www.recordedfuture.com:2026-11-03,"Domain hosted casino-, exchange-, and prediction-market-related content"
+domain,tradingai.fun,high,2026-11-03T22:08:07.499011+00:00,2026-11-03T22:08:07.499011+00:00,1,www.recordedfuture.com:2026-11-03,Domain hosted on IP associated with Magnetic Team's infrastructure
+domain,wettora.com,high,2026-11-03T22:08:07.499011+00:00,2026-11-03T22:08:07.499011+00:00,1,www.recordedfuture.com:2026-11-03,"Domain hosted casino-, exchange-, and prediction-market-related content"
+domain,winzo.live,high,2026-11-03T22:08:07.499011+00:00,2026-11-03T22:08:07.499011+00:00,1,www.recordedfuture.com:2026-11-03,"Domain hosted casino-, exchange-, and prediction-market-related content"
+domain,dohadirt.com,high,2026-11-03T20:37:14.440262+00:00,2026-11-03T20:37:14.440262+00:00,1,thegreatreplacement.dysinfluence.com:2026-11-03,Domain tied to a disinformation campaign operation
+domain,shameqatar.com,high,2026-11-03T20:37:14.440262+00:00,2026-11-03T20:37:14.440262+00:00,1,thegreatreplacement.dysinfluence.com:2026-11-03,Domain used in a coordinated disinformation campaign against Qatar
+domain,analysis.shixunsuda.com,high,2026-11-02T14:28:46+00:00,2026-11-03T16:32:00.743212+00:00,2,www.anrdoezrs.net:2026-11-03|Cloud.Google:2026-11-02,Listed as a command and control server for XCPE
+domain,anyevonline.com,high,2026-11-02T14:28:46+00:00,2026-11-03T16:32:00.743212+00:00,4,www.anrdoezrs.net:2026-11-03|Bleepingcomputer:2026-11-02|synthient.com:2026-11-02|Cloud.Google:2026-11-02,"Used for initial bootstrap, registration, and configuration by malware"
+domain,collection.shixunsuda.com,high,2026-11-02T14:28:46+00:00,2026-11-03T16:32:00.743212+00:00,2,www.anrdoezrs.net:2026-11-03|Cloud.Google:2026-11-02,Listed as a command and control server for XCPE
+domain,edisajalsjfdfh.shop,high,2026-11-02T14:28:46+00:00,2026-11-03T16:32:00.743212+00:00,2,www.anrdoezrs.net:2026-11-03|Cloud.Google:2026-11-02,Listed as part of the command and control infrastructure
+domain,geo-loadbalanced.com,high,2026-11-02T14:28:46+00:00,2026-11-03T16:32:00.743212+00:00,2,www.anrdoezrs.net:2026-11-03|Cloud.Google:2026-11-02,Listed as part of the command and control infrastructure
+domain,haimnsgsjhansj.shop,high,2026-11-02T14:28:46+00:00,2026-11-03T16:32:00.743212+00:00,2,www.anrdoezrs.net:2026-11-03|Cloud.Google:2026-11-02,Listed as part of the command and control infrastructure
+domain,hiddeninplainsight.top,high,2026-11-02T14:28:46+00:00,2026-11-03T16:32:00.743212+00:00,2,www.anrdoezrs.net:2026-11-03|Cloud.Google:2026-11-02,Listed as part of the command and control infrastructure
+domain,ishuoabh3years.online,high,2026-11-02T14:28:46+00:00,2026-11-03T16:32:00.743212+00:00,2,www.anrdoezrs.net:2026-11-03|Cloud.Google:2026-11-02,Listed as part of the command and control infrastructure
+domain,jaguar-distributor.logreporter.com,high,2026-11-02T14:28:46+00:00,2026-11-03T16:32:00.743212+00:00,2,www.anrdoezrs.net:2026-11-03|Cloud.Google:2026-11-02,Listed as part of the command and control infrastructure
+domain,jaguar-distributor.syslogcollector.com,high,2026-11-02T14:28:46+00:00,2026-11-03T16:32:00.743212+00:00,2,www.anrdoezrs.net:2026-11-03|Cloud.Google:2026-11-02,Listed as part of the command and control infrastructure
+domain,jet-night.com,high,2026-11-02T16:26:30+00:00,2026-11-03T15:41:53+00:00,2,Thehackernews:2026-11-03|Cloud.Google:2026-11-02,Domain used by attackers to route stolen API keys and incur fraudulent charges
+domain,zz.aiapi2025.top,high,2026-11-03T13:57:04+00:00,2026-11-03T13:57:04+00:00,1,Research.Checkpoint:2026-11-03,Listed as protected infrastructure by attackers
+domain,icagllmbt.space,high,2026-11-03T00:00:00+00:00,2026-11-03T00:00:00+00:00,1,Safedep:2026-11-03,Registered by attacker for malware delivery
 domain,file.anyevonline.com,high,2026-11-02T16:37:45.131093+00:00,2026-11-02T18:38:39+00:00,2,Bleepingcomputer:2026-11-02|synthient.com:2026-11-02,Hosts backdoors and other malicious files
 domain,mqtt.anyevonline.com,high,2026-11-02T16:37:45.131093+00:00,2026-11-02T18:38:39+00:00,2,Bleepingcomputer:2026-11-02|synthient.com:2026-11-02,Used as the main administrator panel for operators
 domain,felixfuturenext.com,high,2026-11-02T18:00:29.118178+00:00,2026-11-02T18:00:29.118178+00:00,1,www.fortinet.com:2026-11-02,Domain used in phishing and malware attacks
@@ -28,7 +65,6 @@ domain,speed-test.click,high,2026-11-02T17:02:17.201143+00:00,2026-11-02T17:02:1
 domain,meetingapp.site,high,2026-11-02T17:02:16.210021+00:00,2026-11-02T17:02:16.210021+00:00,1,dreamgroup.com:2026-11-02,Associated with command-and-control infrastructure for malware.
 domain,starkmeet.com,high,2026-11-02T17:02:16.210021+00:00,2026-11-02T17:02:16.210021+00:00,1,dreamgroup.com:2026-11-02,Used for fake videoconferencing application leading to malware execution.
 domain,extstb.anyevonline.com,high,2026-11-02T16:37:45.131093+00:00,2026-11-02T16:37:45.131093+00:00,1,synthient.com:2026-11-02,Used for device information collection and task distribution
-domain,jet-night.com,high,2026-11-02T16:26:30+00:00,2026-11-02T16:26:30+00:00,1,Cloud.Google:2026-11-02,Domain used by attackers to route stolen API keys and incur fraudulent charges
 domain,mfakuwait.online,high,2026-11-02T15:16:06+00:00,2026-11-02T15:16:06+00:00,1,Thehackernews:2026-11-02,Used for credential phishing and malware delivery.
 domain,moelcloud.online,high,2026-11-02T15:16:06+00:00,2026-11-02T15:16:06+00:00,1,Thehackernews:2026-11-02,Used for credential phishing and malware delivery.
 domain,stark-meet.com,high,2026-11-02T15:16:06+00:00,2026-11-02T15:16:06+00:00,1,Thehackernews:2026-11-02,Domain used for a fake videoconferencing application delivering malware.
@@ -76,34 +112,6 @@ domain,fluxbeam.xyz,high,2026-10-31T16:26:27+00:00,2026-10-31T18:42:45+00:00,2,K
 domain,stakepoint.app,high,2026-10-31T16:26:27+00:00,2026-10-31T18:42:45+00:00,2,Kucoin:2026-10-31|Finance.Biggo:2026-10-31,"Listed as serving the drainer kit, indicating attacker control"
 domain,supswap.xyz,high,2026-10-31T16:26:27+00:00,2026-10-31T18:42:45+00:00,2,Kucoin:2026-10-31|Finance.Biggo:2026-10-31,"Listed as serving the drainer kit, indicating attacker control"
 domain,quectel.us,high,2026-10-31T05:06:08+00:00,2026-10-31T05:06:08+00:00,1,Kfgo:2026-10-31,"Registered by a Telit employee and used to redirect traffic to a disparaging page, indicating attacker control."
-domain,atlascore-panel.net,high,2026-10-31T04:33:12.221801+00:00,2026-10-31T04:33:12.221801+00:00,1,www.recordedfuture.com:2026-10-31,Domain used by AtlasCore administrators for hosting affiliate program panels
-domain,bravioar.com,high,2026-10-31T04:33:12.221801+00:00,2026-10-31T04:33:12.221801+00:00,1,www.recordedfuture.com:2026-10-31,"Domain hosted casino-, exchange-, and prediction-market-related content linked to AtlasCore"
-domain,btwoteam.xyz,high,2026-10-31T04:33:12.221801+00:00,2026-10-31T04:33:12.221801+00:00,1,www.recordedfuture.com:2026-10-31,Domain resolves to IP associated with Magnetic Team's administrative panel
-domain,casino.atlascore-panel.net,high,2026-10-31T04:33:12.221801+00:00,2026-10-31T04:33:12.221801+00:00,1,www.recordedfuture.com:2026-10-31,Subdomain used for hosting casino-related content by AtlasCore
-domain,crossbook.xyz,high,2026-10-31T04:33:12.221801+00:00,2026-10-31T04:33:12.221801+00:00,1,www.recordedfuture.com:2026-10-31,Domain hosted on IP associated with Magnetic Team's infrastructure
-domain,docs.atlascore-panel.net,high,2026-10-31T04:33:12.221801+00:00,2026-10-31T04:33:12.221801+00:00,1,www.recordedfuture.com:2026-10-31,Subdomain used for hosting manuals by AtlasCore
-domain,event-x.cc,high,2026-10-31T04:33:12.221801+00:00,2026-10-31T04:33:12.221801+00:00,1,www.recordedfuture.com:2026-10-31,Domain used for marketing and associated with fraudulent offers
-domain,fortexp.live,high,2026-10-31T04:33:12.221801+00:00,2026-10-31T04:33:12.221801+00:00,1,www.recordedfuture.com:2026-10-31,Domain linked to fraudulent prediction market operations
-domain,fortvet.cc,high,2026-10-31T04:33:12.221801+00:00,2026-10-31T04:33:12.221801+00:00,1,www.recordedfuture.com:2026-10-31,Domain associated with fraudulent prediction market operations
-domain,futaryx.com,high,2026-10-31T04:33:12.221801+00:00,2026-10-31T04:33:12.221801+00:00,1,www.recordedfuture.com:2026-10-31,Domain linked to fraudulent prediction market operations
-domain,kiro-cheap.pro,high,2026-10-31T04:33:12.221801+00:00,2026-10-31T04:33:12.221801+00:00,1,www.recordedfuture.com:2026-10-31,Domain associated with fraudulent prediction market operations
-domain,magnetic-panel.space,high,2026-10-31T04:33:12.221801+00:00,2026-10-31T04:33:12.221801+00:00,1,www.recordedfuture.com:2026-10-31,Domain used for managing campaigns by Magnetic Team
-domain,polyfucker.space,high,2026-10-31T04:33:12.221801+00:00,2026-10-31T04:33:12.221801+00:00,1,www.recordedfuture.com:2026-10-31,Domain used for hosting admin panel for PolyFucked offer
-domain,polymarket.atlascore-panel.net,high,2026-10-31T04:33:12.221801+00:00,2026-10-31T04:33:12.221801+00:00,1,www.recordedfuture.com:2026-10-31,Subdomain used for hosting prediction market content by AtlasCore
-domain,prdct.cc,high,2026-10-31T04:33:12.221801+00:00,2026-10-31T04:33:12.221801+00:00,1,www.recordedfuture.com:2026-10-31,Domain used as shared infrastructure by AtlasCore
-domain,pred.co,high,2026-10-31T04:33:12.221801+00:00,2026-10-31T04:33:12.221801+00:00,1,www.recordedfuture.com:2026-10-31,Domain linked to fraudulent prediction market operations
-domain,predicate.cc,high,2026-10-31T04:33:12.221801+00:00,2026-10-31T04:33:12.221801+00:00,1,www.recordedfuture.com:2026-10-31,Domain used as shared infrastructure by AtlasCore
-domain,predicate.club,high,2026-10-31T04:33:12.221801+00:00,2026-10-31T04:33:12.221801+00:00,1,www.recordedfuture.com:2026-10-31,"Domain hosted casino-, exchange-, and prediction-market-related content"
-domain,predicate.live,high,2026-10-31T04:33:12.221801+00:00,2026-10-31T04:33:12.221801+00:00,1,www.recordedfuture.com:2026-10-31,Domain used as shared infrastructure by AtlasCore
-domain,predicate.world,high,2026-10-31T04:33:12.221801+00:00,2026-10-31T04:33:12.221801+00:00,1,www.recordedfuture.com:2026-10-31,Domain used as shared infrastructure by AtlasCore
-domain,predictedby.cc,high,2026-10-31T04:33:12.221801+00:00,2026-10-31T04:33:12.221801+00:00,1,www.recordedfuture.com:2026-10-31,Domain used as shared infrastructure by AtlasCore
-domain,predictum.app,high,2026-10-31T04:33:12.221801+00:00,2026-10-31T04:33:12.221801+00:00,1,www.recordedfuture.com:2026-10-31,Domain linked to fraudulent prediction market operations
-domain,predictum.cc,high,2026-10-31T04:33:12.221801+00:00,2026-10-31T04:33:12.221801+00:00,1,www.recordedfuture.com:2026-10-31,Domain linked to fraudulent prediction market operations
-domain,rqwrujarser.icu,high,2026-10-31T04:33:12.221801+00:00,2026-10-31T04:33:12.221801+00:00,1,www.recordedfuture.com:2026-10-31,"Domain hosted casino-, exchange-, and prediction-market-related content"
-domain,speculor.net,high,2026-10-31T04:33:12.221801+00:00,2026-10-31T04:33:12.221801+00:00,1,www.recordedfuture.com:2026-10-31,"Domain hosted casino-, exchange-, and prediction-market-related content"
-domain,tradingai.fun,high,2026-10-31T04:33:12.221801+00:00,2026-10-31T04:33:12.221801+00:00,1,www.recordedfuture.com:2026-10-31,Domain hosted on IP associated with Magnetic Team's infrastructure
-domain,wettora.com,high,2026-10-31T04:33:12.221801+00:00,2026-10-31T04:33:12.221801+00:00,1,www.recordedfuture.com:2026-10-31,"Domain hosted casino-, exchange-, and prediction-market-related content"
-domain,winzo.live,high,2026-10-31T04:33:12.221801+00:00,2026-10-31T04:33:12.221801+00:00,1,www.recordedfuture.com:2026-10-31,"Domain hosted casino-, exchange-, and prediction-market-related content"
 domain,artex.nhhh.de,high,2026-10-30T23:02:29+00:00,2026-10-30T23:02:29+00:00,1,Wiz:2026-10-30,Subdomain used to host a penetration testing console linked to attacker activity.
 domain,direct.465415.xyz,high,2026-10-30T23:02:29+00:00,2026-10-30T23:02:29+00:00,1,Wiz:2026-10-30,Domain tied via passive DNS to attacker-controlled infrastructure.
 domain,llm-routing.com,high,2026-10-30T23:02:29+00:00,2026-10-30T23:02:29+00:00,1,Wiz:2026-10-30,Domain used for LLM resale linked to attacker infrastructure.
@@ -767,8 +775,3 @@ domain,cocojambo.us.com,high,2026-10-05T18:15:00+00:00,2026-10-06T05:22:55+00:00
 domain,blomehairdryers.com,high,2026-10-05T20:54:17+00:00,2026-10-05T20:54:17+00:00,1,Reddit:2026-10-05,Redirects from a known adware domain
 domain,shubads.testcasehub.net,high,2026-10-05T20:54:17+00:00,2026-10-05T20:54:17+00:00,1,Reddit:2026-10-05,Domain used for adware and redirects to gambling site
 domain,aware-cr1.com,high,2026-10-05T19:05:32+00:00,2026-10-05T19:05:32+00:00,1,Socprime:2026-10-05,Listed as known C2 infrastructure in the context of 2CLoader activity
-domain,ci-artifacts.dev,high,2026-10-05T14:12:32+00:00,2026-10-05T14:12:32+00:00,1,Stepsecurity:2026-10-05,Identified as malicious in threat report
-domain,amazonprimeusa.com,high,2026-10-05T13:59:12+00:00,2026-10-05T13:59:12+00:00,1,Itsecurityguru:2026-10-05,Flagged as malicious in threat report
-domain,prime-amazonfr.com,high,2026-10-05T13:59:12+00:00,2026-10-05T13:59:12+00:00,1,Itsecurityguru:2026-10-05,Listed as a malicious Amazon-themed domain used for phishing
-domain,finger.linkeders.net,high,2026-10-05T13:48:11+00:00,2026-10-05T13:48:11+00:00,1,Huntress:2026-10-05,Used in an obfuscated command for malicious activity
-domain,linkeders.net,high,2026-10-05T13:48:11+00:00,2026-10-05T13:48:11+00:00,1,Huntress:2026-10-05,Used in an obfuscated command for malicious activity

@@ -1,27 +1,103 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason
-domain,analysis.shixunsuda.com,high,2026-11-02T14:28:46+00:00,2026-11-02T21:30:50.094224+00:00,2,,Listed as a command and control server for XCPE
-domain,anyevonline.com,high,2026-11-02T14:28:46+00:00,2026-11-02T21:30:50.094224+00:00,4,,"Used for initial bootstrap, registration, and configuration in the malware campaign"
-domain,collection.shixunsuda.com,high,2026-11-02T14:28:46+00:00,2026-11-02T21:30:50.094224+00:00,2,,Listed as a command and control server for XCPE
-domain,edisajalsjfdfh.shop,high,2026-11-02T14:28:46+00:00,2026-11-02T21:30:50.094224+00:00,2,,Listed as part of the command and control infrastructure
-domain,geo-loadbalanced.com,high,2026-11-02T14:28:46+00:00,2026-11-02T21:30:50.094224+00:00,2,,Listed as part of the command and control infrastructure
-domain,haimnsgsjhansj.shop,high,2026-11-02T14:28:46+00:00,2026-11-02T21:30:50.094224+00:00,2,,Listed as part of the command and control infrastructure
-domain,hiddeninplainsight.top,high,2026-11-02T14:28:46+00:00,2026-11-02T21:30:50.094224+00:00,2,,Listed as part of the command and control infrastructure
-domain,ishuoabh3years.online,high,2026-11-02T14:28:46+00:00,2026-11-02T21:30:50.094224+00:00,2,,Listed as part of the command and control infrastructure
-domain,jaguar-distributor.logreporter.com,high,2026-11-02T14:28:46+00:00,2026-11-02T21:30:50.094224+00:00,2,,Listed as part of the command and control infrastructure
-domain,jaguar-distributor.syslogcollector.com,high,2026-11-02T14:28:46+00:00,2026-11-02T21:30:50.094224+00:00,2,,Listed as part of the command and control infrastructure
-ipv4,219.134.163.210,high,2026-11-02T14:28:46+00:00,2026-11-02T21:30:50.094224+00:00,4,,Used as a host for the MQTT broker in the malware campaign
-ipv4,219.134.163.211,high,2026-11-02T14:28:46+00:00,2026-11-02T21:30:50.094224+00:00,2,,Used as a host for the MQTT broker in the malware campaign
+domain,ad-track.live,high,2026-11-04T17:22:27+00:00,2026-11-04T17:22:27+00:00,1,,Listed as part of spyware-related domains
+ipv4,142.111.194.73,high,2026-11-03T18:01:44.363139+00:00,2026-11-04T10:11:03.626581+00:00,1,,Listed as BeautyStealer exfiltration server
+sha256,51068e96d5cc21002b618c02bd5853520d73cb6451383e4094a70ea055251d5a,high,2026-11-04T08:10:15.668110+00:00,2026-11-04T08:10:15.668110+00:00,1,,Listed as a file hash in a malware analysis context.
+ipv4,45.194.90.57,high,2026-11-03T23:53:53+00:00,2026-11-04T04:34:30.223780+00:00,2,,Used to download a payload in the attack process
+domain,analytics.insightjs.com,high,2026-11-04T03:08:03.338852+00:00,2026-11-04T03:33:48+00:00,2,,Domain associated with the agent stage of the malware
+domain,insightjs.com,high,2026-11-04T03:08:03.338852+00:00,2026-11-04T03:33:48+00:00,2,,Domain used for malware communication
+domain,insightjs.org,high,2026-11-04T03:08:03.338852+00:00,2026-11-04T03:33:48+00:00,2,,Domain used as a fallback for malware communication
+ipv4,89.127.233.127,high,2026-11-04T03:08:03.338852+00:00,2026-11-04T03:33:48+00:00,2,,IP address used by the attacker
+ipv4,43.175.144.148,high,2026-11-04T03:08:03.338852+00:00,2026-11-04T03:08:03.338852+00:00,1,,IP address served modified malicious files
+ipv4,43.175.145.181,high,2026-11-04T03:08:03.338852+00:00,2026-11-04T03:08:03.338852+00:00,1,,IP address served modified malicious files
+ipv4,89.126.250.172,high,2026-11-04T03:08:03.338852+00:00,2026-11-04T03:08:03.338852+00:00,1,,IP address used by the attacker until a specific date
+sha256,2f2aac505f486067af6831d6c75ea74df63acb1ed4e4002709c5962c68bd9203,high,2026-11-04T03:08:03.338852+00:00,2026-11-04T03:08:03.338852+00:00,1,,Hash of a modified malicious file
+sha256,3aaafbd612f04501a6fdb0bb8b2f8a87796223e5584ac18ea5eb180feeafb193,high,2026-11-04T03:08:03.338852+00:00,2026-11-04T03:08:03.338852+00:00,1,,Hash of a modified malicious file
+ipv4,130.94.11.60,high,2026-11-04T02:38:03.647347+00:00,2026-11-04T02:38:03.647347+00:00,1,,"IP address hosting GodPotato source or builds, indicating attacker-controlled infrastructure"
+ipv4,149.88.73.163,high,2026-11-04T02:38:03.647347+00:00,2026-11-04T02:38:03.647347+00:00,1,,"IP address hosting GodPotato source or builds, indicating attacker-controlled infrastructure"
+ipv4,154.89.151.143,high,2026-11-04T02:38:03.647347+00:00,2026-11-04T02:38:03.647347+00:00,1,,"IP address hosting GodPotato source or builds, indicating attacker-controlled infrastructure"
+ipv4,177.3.42.39,high,2026-11-04T02:38:03.647347+00:00,2026-11-04T02:38:03.647347+00:00,1,,"IP address hosting GodPotato source or builds, indicating attacker-controlled infrastructure"
+ipv4,38.60.252.110,high,2026-10-08T20:23:28+00:00,2026-11-04T02:38:03.647347+00:00,2,,"IP address hosting GodPotato source or builds, indicating attacker-controlled infrastructure"
+domain,scigovjudicial.com,high,2026-11-04T01:04:30+00:00,2026-11-04T01:04:30+00:00,1,,"Identified as a fraudulent domain used for phishing, impersonating the Supreme Court of India."
+domain,atlascore-panel.net,high,2026-10-31T04:33:12.221801+00:00,2026-11-03T22:08:07.499011+00:00,1,,Domain used by AtlasCore administrators for hosting affiliate program panels
+domain,bravioar.com,high,2026-10-31T04:33:12.221801+00:00,2026-11-03T22:08:07.499011+00:00,1,,"Domain hosted casino-, exchange-, and prediction-market-related content linked to AtlasCore"
+domain,btwoteam.xyz,high,2026-10-31T04:33:12.221801+00:00,2026-11-03T22:08:07.499011+00:00,1,,Domain resolves to IP associated with Magnetic Team's administrative panel
+domain,casino.atlascore-panel.net,high,2026-10-31T04:33:12.221801+00:00,2026-11-03T22:08:07.499011+00:00,1,,Subdomain used for hosting casino-related content by AtlasCore
+domain,crossbook.xyz,high,2026-10-31T04:33:12.221801+00:00,2026-11-03T22:08:07.499011+00:00,1,,Domain hosted on IP associated with Magnetic Team's infrastructure
+domain,docs.atlascore-panel.net,high,2026-10-31T04:33:12.221801+00:00,2026-11-03T22:08:07.499011+00:00,1,,Subdomain used for hosting manuals by AtlasCore
+domain,event-x.cc,high,2026-10-31T04:33:12.221801+00:00,2026-11-03T22:08:07.499011+00:00,1,,Domain used for marketing and associated with fraudulent offers
+domain,fortexp.live,high,2026-10-31T04:33:12.221801+00:00,2026-11-03T22:08:07.499011+00:00,1,,Domain linked to fraudulent prediction market operations
+domain,fortvet.cc,high,2026-10-31T04:33:12.221801+00:00,2026-11-03T22:08:07.499011+00:00,1,,Domain associated with fraudulent prediction market operations
+domain,futaryx.com,high,2026-10-31T04:33:12.221801+00:00,2026-11-03T22:08:07.499011+00:00,1,,Domain linked to fraudulent prediction market operations
+domain,kiro-cheap.pro,high,2026-10-31T04:33:12.221801+00:00,2026-11-03T22:08:07.499011+00:00,1,,Domain associated with fraudulent prediction market operations
+domain,magnetic-panel.space,high,2026-10-31T04:33:12.221801+00:00,2026-11-03T22:08:07.499011+00:00,1,,Domain used for managing campaigns by Magnetic Team
+domain,polyfucker.space,high,2026-10-31T04:33:12.221801+00:00,2026-11-03T22:08:07.499011+00:00,1,,Domain used for hosting admin panel for PolyFucked offer
+domain,polymarket.atlascore-panel.net,high,2026-10-31T04:33:12.221801+00:00,2026-11-03T22:08:07.499011+00:00,1,,Subdomain used for hosting prediction market content by AtlasCore
+domain,prdct.cc,high,2026-10-31T04:33:12.221801+00:00,2026-11-03T22:08:07.499011+00:00,1,,Domain used as shared infrastructure by AtlasCore
+domain,pred.co,high,2026-10-31T04:33:12.221801+00:00,2026-11-03T22:08:07.499011+00:00,1,,Domain linked to fraudulent prediction market operations
+domain,predicate.cc,high,2026-10-31T04:33:12.221801+00:00,2026-11-03T22:08:07.499011+00:00,1,,Domain used as shared infrastructure by AtlasCore
+domain,predicate.club,high,2026-10-31T04:33:12.221801+00:00,2026-11-03T22:08:07.499011+00:00,1,,"Domain hosted casino-, exchange-, and prediction-market-related content"
+domain,predicate.live,high,2026-10-31T04:33:12.221801+00:00,2026-11-03T22:08:07.499011+00:00,1,,Domain used as shared infrastructure by AtlasCore
+domain,predicate.world,high,2026-10-31T04:33:12.221801+00:00,2026-11-03T22:08:07.499011+00:00,1,,Domain used as shared infrastructure by AtlasCore
+domain,predictedby.cc,high,2026-10-31T04:33:12.221801+00:00,2026-11-03T22:08:07.499011+00:00,1,,Domain used as shared infrastructure by AtlasCore
+domain,predictum.app,high,2026-10-31T04:33:12.221801+00:00,2026-11-03T22:08:07.499011+00:00,1,,Domain linked to fraudulent prediction market operations
+domain,predictum.cc,high,2026-10-31T04:33:12.221801+00:00,2026-11-03T22:08:07.499011+00:00,1,,Domain linked to fraudulent prediction market operations
+domain,rqwrujarser.icu,high,2026-10-31T04:33:12.221801+00:00,2026-11-03T22:08:07.499011+00:00,1,,"Domain hosted casino-, exchange-, and prediction-market-related content"
+domain,speculor.net,high,2026-10-31T04:33:12.221801+00:00,2026-11-03T22:08:07.499011+00:00,1,,"Domain hosted casino-, exchange-, and prediction-market-related content"
+domain,tradingai.fun,high,2026-10-31T04:33:12.221801+00:00,2026-11-03T22:08:07.499011+00:00,1,,Domain hosted on IP associated with Magnetic Team's infrastructure
+domain,wettora.com,high,2026-10-31T04:33:12.221801+00:00,2026-11-03T22:08:07.499011+00:00,1,,"Domain hosted casino-, exchange-, and prediction-market-related content"
+domain,winzo.live,high,2026-10-31T04:33:12.221801+00:00,2026-11-03T22:08:07.499011+00:00,1,,"Domain hosted casino-, exchange-, and prediction-market-related content"
+ipv4,192.162.199.243,high,2026-10-31T04:33:12.221801+00:00,2026-11-03T22:08:07.499011+00:00,1,,IP address hosted domains linked to fraudulent operations
+ipv4,192.64.119.163,high,2026-10-31T04:33:12.221801+00:00,2026-11-03T22:08:07.499011+00:00,1,,IP address associated with Magnetic Team's infrastructure
+ipv4,31.76.10.48,high,2026-10-31T04:33:12.221801+00:00,2026-11-03T22:08:07.499011+00:00,1,,IP address associated with Magnetic Team's infrastructure
+ipv4,31.77.159.194,high,2026-10-31T04:33:12.221801+00:00,2026-11-03T22:08:07.499011+00:00,1,,IP address associated with Magnetic Team's infrastructure
+ipv4,81.90.17.100,high,2026-10-31T04:33:12.221801+00:00,2026-11-03T22:08:07.499011+00:00,1,,IP address linked to fraudulent prediction market operations
+ipv4,87.120.165.193,high,2026-10-31T04:33:12.221801+00:00,2026-11-03T22:08:07.499011+00:00,1,,IP address associated with Magnetic Team's infrastructure
+domain,psw.agent.ma,high,2026-11-03T18:01:44.363139+00:00,2026-11-03T21:35:54.386082+00:00,1,,Listed in a comprehensive list of IoCs and samples related to the campaign.
+domain,dohadirt.com,high,2026-11-03T20:37:14.440262+00:00,2026-11-03T20:37:14.440262+00:00,1,,Domain tied to a disinformation campaign operation
+domain,shameqatar.com,high,2026-11-03T20:37:14.440262+00:00,2026-11-03T20:37:14.440262+00:00,1,,Domain used in a coordinated disinformation campaign against Qatar
+sha256,2bedc26d4b29b435c21962beed7db21188a0219a0d28334bba8b4fb1656d7b15,high,2026-10-02T14:41:59.270334+00:00,2026-11-03T19:30:28.772353+00:00,1,,Listed as a dropper in the threat report
+sha256,2fe2dd402ee6f9c578fce6dd4b36daaa407e99133e5dd502f2afca80feb60150,high,2026-10-02T14:41:59.270334+00:00,2026-11-03T19:30:28.772353+00:00,1,,Listed as a file indicator in the threat report
+sha256,4435fcd6862921092614dbeaa880e4192352984686ebcd98f0ba13ee8e226ef9,high,2026-10-02T14:41:59.270334+00:00,2026-11-03T19:30:28.772353+00:00,1,,Listed as a file indicator in the threat report
+sha256,4925bcca085ec504f51191645da278d8e96698d91f3c6df44146336c697b4de8,high,2026-10-02T14:41:59.270334+00:00,2026-11-03T19:30:28.772353+00:00,1,,Listed as a file indicator in the threat report
+sha256,652508a9cf40bee883dc0e5e219dfeba71fe7dac591d01c89f74c21f73b4963f,high,2026-10-02T14:41:59.270334+00:00,2026-11-03T19:30:28.772353+00:00,1,,Listed as a Rekoobe-based backdoor in the threat report
+sha256,7e667ba5f9df912e02275d3cfe3809d16f822fe776f4035c84b118ebd925b1b5,high,2026-10-02T14:41:59.270334+00:00,2026-11-03T19:30:28.772353+00:00,1,,Listed as a file indicator in the threat report
+sha256,925c041807d4fb9dfe2ad84f963c2a4c60ea1289f6a0bdccbfb944478ffc2cf2,high,2026-10-02T14:41:59.270334+00:00,2026-11-03T19:30:28.772353+00:00,1,,Listed as a file indicator in the threat report
+sha256,a37ea9897221d4495b538de72b74f2aa1d2ff09b7b6dcedd395aee58931adbf3,high,2026-10-02T14:41:59.270334+00:00,2026-11-03T19:30:28.772353+00:00,1,,Listed as a file indicator in the threat report
+sha256,a4379e115d3c4420f5d4b92561022d6e0897990e7297be65c033d47de68e6a6a,high,2026-10-02T14:41:59.270334+00:00,2026-11-03T19:30:28.772353+00:00,1,,Listed as a file indicator in the threat report
+sha256,a65048eb30661e27f8edc2dd8d8c77ec87faec1f1750f6e04e7ecaf069a32858,high,2026-10-02T14:41:59.270334+00:00,2026-11-03T19:30:28.772353+00:00,1,,Listed as a file indicator in the threat report
+sha256,a6f3b7f932761fb1fd5e74123f2482e36c65dd13e769af2ce08c65da195bfa7a,high,2026-10-02T14:41:59.270334+00:00,2026-11-03T19:30:28.772353+00:00,1,,Listed as a BPFDoor sample in the threat report
+sha256,bf8135f46ecedfe5bd06fcecbb2e721c2367ff765b18f4aa3f868e6597f49e47,high,2026-10-02T14:41:59.270334+00:00,2026-11-03T19:30:28.772353+00:00,1,,Listed as a file indicator in the threat report
+sha256,307a1217aac33c4b7a9cd923162439c19483e952c2ceb15aa82a98b46ff8942e,high,2026-11-03T18:33:00.832520+00:00,2026-11-03T18:33:00.832520+00:00,1,,Hash of a ransomware sample used in an attack
+domain,analysis.shixunsuda.com,high,2026-11-02T14:28:46+00:00,2026-11-03T16:32:00.743212+00:00,2,,Listed as a command and control server for XCPE
+domain,anyevonline.com,high,2026-11-02T14:28:46+00:00,2026-11-03T16:32:00.743212+00:00,4,,"Used for initial bootstrap, registration, and configuration by malware"
+domain,collection.shixunsuda.com,high,2026-11-02T14:28:46+00:00,2026-11-03T16:32:00.743212+00:00,2,,Listed as a command and control server for XCPE
+domain,edisajalsjfdfh.shop,high,2026-11-02T14:28:46+00:00,2026-11-03T16:32:00.743212+00:00,2,,Listed as part of the command and control infrastructure
+domain,geo-loadbalanced.com,high,2026-11-02T14:28:46+00:00,2026-11-03T16:32:00.743212+00:00,2,,Listed as part of the command and control infrastructure
+domain,haimnsgsjhansj.shop,high,2026-11-02T14:28:46+00:00,2026-11-03T16:32:00.743212+00:00,2,,Listed as part of the command and control infrastructure
+domain,hiddeninplainsight.top,high,2026-11-02T14:28:46+00:00,2026-11-03T16:32:00.743212+00:00,2,,Listed as part of the command and control infrastructure
+domain,ishuoabh3years.online,high,2026-11-02T14:28:46+00:00,2026-11-03T16:32:00.743212+00:00,2,,Listed as part of the command and control infrastructure
+domain,jaguar-distributor.logreporter.com,high,2026-11-02T14:28:46+00:00,2026-11-03T16:32:00.743212+00:00,2,,Listed as part of the command and control infrastructure
+domain,jaguar-distributor.syslogcollector.com,high,2026-11-02T14:28:46+00:00,2026-11-03T16:32:00.743212+00:00,2,,Listed as part of the command and control infrastructure
+ipv4,219.134.163.210,high,2026-11-02T14:28:46+00:00,2026-11-03T16:32:00.743212+00:00,4,,Used as a host for MQTT broker in the campaign
+ipv4,219.134.163.211,high,2026-11-02T14:28:46+00:00,2026-11-03T16:32:00.743212+00:00,2,,Used as a host for MQTT broker in the campaign
+sha256,3768f470934a111f1c3e3d098eb1392a3cb6f3e298ef5fd2a6309e6a98ee1e18,high,2026-11-02T14:28:46+00:00,2026-11-03T16:32:00.743212+00:00,2,,Listed as a representative SHA256 hash of malicious software
+sha256,42be8f18d6006ca092de191331d38e70a0d8383db701a759466dec59a0986135,high,2026-11-02T14:28:46+00:00,2026-11-03T16:32:00.743212+00:00,2,,Listed as a representative SHA256 hash of malicious software
+sha256,4f860efa8d8b9b8f35f343d524500181607a0cdc9fac35394cf16b71ff4ad1d0,high,2026-11-02T14:28:46+00:00,2026-11-03T16:32:00.743212+00:00,2,,Listed as a representative SHA256 hash of malicious software
+sha256,701f57169f3968bf412d33ec09fa6f2c11ece632aed9f44efa38eaf4fa2e08c6,high,2026-11-02T14:28:46+00:00,2026-11-03T16:32:00.743212+00:00,2,,ELF binary dropped by com.abc.nexus
+sha256,742b7ad8b95d4e0784c914f2b84706124f5a86a404e0fd479a0a97a784c2bb9e,high,2026-11-02T14:28:46+00:00,2026-11-03T16:32:00.743212+00:00,2,,ELF binary dropped by com.abc.nexus
+sha256,7830ce3c3222dd9b25a77a16116dcf832a24b4b9a0bc998501e12415a828fb42,high,2026-11-02T14:28:46+00:00,2026-11-03T16:32:00.743212+00:00,2,,Listed as a representative SHA256 hash of malicious software
+sha256,9e18c113eb8d2ba813199c7f90e26d80af3124d871fc31eea7253319a8406e8e,high,2026-11-02T14:28:46+00:00,2026-11-03T16:32:00.743212+00:00,2,,"ELF binary dropped by com.abc.nexus, indicating attacker control"
+sha256,b3690b3b013ac60752a6d05c3f53ea1f3e844d4603c5b90d258a30c596d0691b,high,2026-11-02T14:28:46+00:00,2026-11-03T16:32:00.743212+00:00,2,,"Anti-analysis binary spawned via NexusApplication.onCreate, indicating attacker control"
+sha256,ebcca22b96f7a30ae155efa2f25af29a369c6e9cfc99cb3bb0b72f35bc5528ed,high,2026-11-02T14:28:46+00:00,2026-11-03T16:32:00.743212+00:00,2,,Listed in a table of representative SHA256 hashes as an IOC
+domain,jet-night.com,high,2026-11-02T16:26:30+00:00,2026-11-03T15:41:53+00:00,2,,Domain used by attackers to route stolen API keys and incur fraudulent charges
+sha256,0d58616c750fc8530a7e90eee18398ddedd08cc0f4908c863ab650673b9819dd,high,2026-05-01T19:01:21+00:00,2026-11-03T15:36:46.143961+00:00,2,,Listed as a file hash from the infection in a malware analysis.
+sha256,63810ee8b478575f3b2c6c46160c1fd338b213c6fc11bb0069dac9bbb7db237d,high,2026-11-03T15:36:46.143961+00:00,2026-11-03T15:36:46.143961+00:00,1,,Listed as a file hash from the infection in a malware analysis.
+sha256,86d0c50cab4f394c58976c44d6d7b67a7dfbbb813fbcf622236e183d94fd944f,high,2026-05-01T19:01:21+00:00,2026-11-03T15:36:46.143961+00:00,2,,Listed as a file hash from the infection in a malware analysis.
+sha256,a4fcfecc5ac8fa57614b23928a0e9b7aa4f4a3b2b3a8c1772487b46277125571,high,2026-05-01T19:01:21+00:00,2026-11-03T15:36:46.143961+00:00,2,,Listed as a file hash from the infection in a malware analysis.
+domain,zz.aiapi2025.top,high,2026-11-03T13:57:04+00:00,2026-11-03T13:57:04+00:00,1,,Listed as protected infrastructure by attackers
+domain,icagllmbt.space,high,2026-11-03T00:00:00+00:00,2026-11-03T00:00:00+00:00,1,,Registered by attacker for malware delivery
 md5,96146abb8c2a75dab8cc1bb46c323923,high,2026-11-02T14:28:46+00:00,2026-11-02T21:30:50.094224+00:00,2,,Listed as a hash of a malware sample
-sha256,3768f470934a111f1c3e3d098eb1392a3cb6f3e298ef5fd2a6309e6a98ee1e18,high,2026-11-02T14:28:46+00:00,2026-11-02T21:30:50.094224+00:00,2,,Listed as a hash of a malware sample
-sha256,42be8f18d6006ca092de191331d38e70a0d8383db701a759466dec59a0986135,high,2026-11-02T14:28:46+00:00,2026-11-02T21:30:50.094224+00:00,2,,Listed as a hash of a malware sample
-sha256,4f860efa8d8b9b8f35f343d524500181607a0cdc9fac35394cf16b71ff4ad1d0,high,2026-11-02T14:28:46+00:00,2026-11-02T21:30:50.094224+00:00,2,,Listed as a hash of a malware sample
-sha256,701f57169f3968bf412d33ec09fa6f2c11ece632aed9f44efa38eaf4fa2e08c6,high,2026-11-02T14:28:46+00:00,2026-11-02T21:30:50.094224+00:00,2,,Listed as a hash of a malware sample
-sha256,742b7ad8b95d4e0784c914f2b84706124f5a86a404e0fd479a0a97a784c2bb9e,high,2026-11-02T14:28:46+00:00,2026-11-02T21:30:50.094224+00:00,2,,Listed as a hash of a malware sample
-sha256,7830ce3c3222dd9b25a77a16116dcf832a24b4b9a0bc998501e12415a828fb42,high,2026-11-02T14:28:46+00:00,2026-11-02T21:30:50.094224+00:00,2,,Listed as a hash of a malware sample
-sha256,9e18c113eb8d2ba813199c7f90e26d80af3124d871fc31eea7253319a8406e8e,high,2026-11-02T14:28:46+00:00,2026-11-02T21:30:50.094224+00:00,2,,"ELF binary dropped by com.abc.nexus, indicating attacker-controlled malware"
-sha256,b3690b3b013ac60752a6d05c3f53ea1f3e844d4603c5b90d258a30c596d0691b,high,2026-11-02T14:28:46+00:00,2026-11-02T21:30:50.094224+00:00,2,,"Anti-analysis binary spawned via NexusApplication.onCreate, indicating attacker-controlled malware"
-sha256,ebcca22b96f7a30ae155efa2f25af29a369c6e9cfc99cb3bb0b72f35bc5528ed,high,2026-11-02T14:28:46+00:00,2026-11-02T21:30:50.094224+00:00,2,,"Binary associated with com.abc.nexus, indicating attacker-controlled malware"
-domain,file.anyevonline.com,high,2026-11-02T16:37:45.131093+00:00,2026-11-02T18:38:39+00:00,2,,Hosts backdoors and is part of the command and control infrastructure
+domain,file.anyevonline.com,high,2026-11-02T16:37:45.131093+00:00,2026-11-02T18:38:39+00:00,2,,Hosts backdoors and other malicious files
 domain,mqtt.anyevonline.com,high,2026-11-02T16:37:45.131093+00:00,2026-11-02T18:38:39+00:00,2,,Used as the main administrator panel for operators
 domain,felixfuturenext.com,high,2026-11-02T18:00:29.118178+00:00,2026-11-02T18:00:29.118178+00:00,1,,Domain used in phishing and malware attacks
 domain,gomescareerplans.com,high,2026-10-01T10:31:57+00:00,2026-11-02T18:00:29.118178+00:00,2,,Domain used in attack chain for malware delivery
@@ -47,82 +123,81 @@ ipv4,2.56.126.151,high,2026-10-06T12:18:12.787511+00:00,2026-11-02T17:02:17.2011
 domain,meetingapp.site,high,2026-11-02T17:02:16.210021+00:00,2026-11-02T17:02:16.210021+00:00,1,,Associated with command-and-control infrastructure for malware.
 domain,starkmeet.com,high,2026-11-02T17:02:16.210021+00:00,2026-11-02T17:02:16.210021+00:00,1,,Used for fake videoconferencing application leading to malware execution.
 domain,extstb.anyevonline.com,high,2026-11-02T16:37:45.131093+00:00,2026-11-02T16:37:45.131093+00:00,1,,Used for device information collection and task distribution
-domain,jet-night.com,high,2026-11-02T16:26:30+00:00,2026-11-02T16:26:30+00:00,1,,Domain used by threat actors to operate a token routing service with stolen keys.
 domain,newapi.pro,high,2026-11-02T16:26:30+00:00,2026-11-02T16:26:30+00:00,1,,Domain used for illicit resale ecosystem siphoning victim's resources.
 domain,mfakuwait.online,high,2026-11-02T15:16:06+00:00,2026-11-02T15:16:06+00:00,1,,Used for credential phishing and malware delivery.
 domain,moelcloud.online,high,2026-11-02T15:16:06+00:00,2026-11-02T15:16:06+00:00,1,,Used for credential phishing and malware delivery.
 domain,stark-meet.com,high,2026-11-02T15:16:06+00:00,2026-11-02T15:16:06+00:00,1,,Domain used for a fake videoconferencing application delivering malware.
 domain,stark-meet.online,high,2026-11-02T15:16:06+00:00,2026-11-02T15:16:06+00:00,1,,Domain used for a fake videoconferencing application delivering malware.
 domain,stark-meet.website,high,2026-11-02T15:16:06+00:00,2026-11-02T15:16:06+00:00,1,,Domain used for a fake videoconferencing application delivering malware.
-sha256,0135b69bab304564628488829b825050d1dd6dab98e86ec6776839dac9365af9,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,Listed as a hash of a malware sample
-sha256,01b8c78f5509119b3e27ea4d628048985b94b5e00db0431d843519cf1d3e2cde,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,Listed as a hash of a malware sample
-sha256,02490fa9f472ec872723d64d03402967e77932d2df72c588b0d7a7df9e17ae62,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,Listed as a hash of a malware sample
-sha256,02b94ae4ee0fd2bab915fe2911d15ee70e51ca0564ba43c746593e7fe0b7ccd3,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,Listed as a hash of a malware sample
-sha256,049b626ca9bc4cf552e675dd5bf6215753caa3a3d28fab17b2a8fa9e0c8421c0,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,Listed as a hash of a malware sample
-sha256,04ffe332458931d82c0503daba1859622540828302af1190d2d3c6447094428c,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,Listed as a hash of a malware sample
-sha256,05e2e32e08073081adcb8875c3b7350fff53e7ea8f36d6388fb3daa626015d22,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,Listed as a hash of a malware sample
-sha256,07b511a6f7715ccd2f77b5f51e4cf46542ccaada99564252711f4a142ac26179,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,Listed as a hash of a malware sample
-sha256,085662ba43e22d04d6f69b7b5176c68cedee6507c5d34973c94459f324b44c8d,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,Listed as a hash of a malware sample
-sha256,08edc09f4465cd784360c223275c45a5e95d7dc8a5e796537ea5251848b3d2f1,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,Listed as a hash of a malware sample
-sha256,0d90d0e5009d0c67e978dffb1f78278fa22f296ebc14add1fe338abea8690867,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,Listed as a hash of a malware sample
-sha256,0ed2ec71901210b1100c6a4abee48ad36774962496d57577d58630072e30cc60,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,Listed as a hash of a malware sample
-sha256,17d4929578dac90af7da3a9c8bbd6f516ade8cc803c82a0f64849fb2a346a894,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,Listed as a hash of a malware sample
-sha256,1806a1a93a6bce28cc6e95e9001f06370eaef9c66846ade9aecaf220d7ac91a4,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,Listed as a hash of a malware sample
-sha256,1c34f551cea557b24f6f3776de7fecaf40536c749d5b9734242acde4dd578c53,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,Listed as a hash of a malware sample
-sha256,1c8408f80dcdac5c9cae5b2ac785e6f0aa97ad2ec6c8701e3ab661882e9fdd63,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,Listed as a hash of a malware sample
-sha256,1c989cef1b9cc5a39715d172e3f3acb574a958765f4a9df50c952c0a359826cd,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,Listed as a hash of a malware sample
-sha256,1de0a368599ab04b8863c0e61c2d5a75e00f742a3326325f2870a9a72ee8d200,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,Listed as a hash of a malware sample
-sha256,1f2ab93c35f0c37d9b88f82268183a2f77491aa6b142a48381524b18e217b960,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,Listed as a hash of a malware sample
-sha256,20af9e1538e1c211687c53e71318d9d265e36ce154457cade3266c7633fb953d,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,Listed as a hash of a malware sample
-sha256,22c0279d23973fd9b3bfd9f42fd19ea1595c6e3f71a89b698828c79fa8e4edd2,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,Listed as a hash of a malware sample
-sha256,2cdb1f0f0969766142f3debbab55eef5e24c15d49a513753f1f6b67bc3e8438b,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,Listed as a hash of a malware sample
-sha256,2d4b5c50e57e3e9b57d4ee02bef1dcd56163550a5e01c966e0f0fb6d46b2aeed,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,Listed as a hash of a malware sample
-sha256,3295d193ac405112ad076d7fab23274d44f8d0be6614a250a474c5ed7c95356f,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,Listed as a hash of a malware sample
-sha256,331d3a1cf85656c3657e97bab6f15b6e4ce30bf319069b22e8356dccac230321,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,Listed as a hash of a malware sample
-sha256,350d6db477e8567cf9347c1144b3a0b25550e7ce63bb800b056b8a7a8ef56af4,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,Listed as a hash of a malware sample
-sha256,3627f848804f49c041203e8d754e8d89f3ff6243b6d9e1ca6e50bbf08dbd9785,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,Listed as a hash of a malware sample
-sha256,39792bed070b1128cd67178591804fafb82112d371ccdb2b51cd600b2d435922,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,Listed as a hash of a malware sample
-sha256,3e891f061daf73c2edc14ed98512cad008346679645e8165320bf96fb8b0e0d6,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,Listed as a hash of a malware sample
-sha256,415d54757c2f96fd28404f1ab8da1e90297a381ec3d7fb47d33126644a0a421b,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,Listed as a hash of a malware sample
-sha256,471e76cce87e280a2fe11046fcb58c0817558ffbc8a526d84fb40c45b03ac9bc,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,Listed as a hash of a malware sample
-sha256,486a784cbd6335d31214edd7bed7fcfb486b875374597c139826c77c91ccbbaa,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,Listed as a hash of a malware sample
-sha256,498d0862ce2ce972e9ac9bd3ea592b9f9cd8c5119dcc90fcb1b14a547889e9f9,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,Listed as a hash of a malware sample
-sha256,4fd0ddb15849137df77e8cb86cd951d2d220fd8dd5b8b03c5a7e23e815092fdd,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,Listed as a hash of a malware sample
-sha256,5ae5df84cdce0100eb957cf235d1f3fd85fa634592e7ca137de12535e9f8ad2a,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,Listed as a hash of a malware sample
-sha256,69116e8f681ea312e7e9e3a8a436f66b3e98566c621412599ecaaa25348daadb,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,Listed as a hash of a malware sample
-sha256,6b55b8b3ff7bd31af93b59612f0800c09e49d3badc772e2395736616c87d5612,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,Listed as a hash of a malware sample
-sha256,6f7f4b22eb7841d2b828f1eda77173880d42267a33b387bee9cee983c03bf291,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,Listed as a hash of a malware sample
-sha256,71f52519aae77fb20448ea065caa55750bcd73cf425aab203277032e260a1981,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,Listed as a hash of a malware sample
-sha256,76b4bf6f55aaab35428260a830ac9a2c437a09aefd521c5b51618db47beca3b2,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,Listed as a hash of a malware sample
-sha256,7eb1afbf4428a9a3b41a6faf9a7497aab1d7768a8370d475f580e574145a9e7d,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,Listed as a hash of a malware sample
-sha256,8365658b7c51d7b607fe83d862d05e619cad5249c96db61a3d33a95c615c8194,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,Listed as a hash of a malware sample
-sha256,83b3cfb7655483e0d421737c2bed707fdd1747f105deca6980233c011aaaea30,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,Listed as a hash of a malware sample
-sha256,8953f9013eb8c31b27c86ba90edbdb9ecba216ed2cb6a992508c1964d53b8eee,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,Listed as a hash of a malware sample
-sha256,8cb62b3a9b74ca8b907aef7d83fee65f3ab80e0f4acbf4b2415ea1c2a6caf796,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,Listed as a hash of a malware sample
-sha256,9216a0a460400403027d4dfc9a6193a776603b64735f174e74a89607567ac6f2,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,Listed as a hash of a malware sample
-sha256,92326f3065273d619f866f76e3542b6271886f92b1342c5ccc27cb7150c75176,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,Listed as a hash of a malware sample
-sha256,99874d087e3f72a9d78439118361f438f7a156af318c788183d338cc315d7fa8,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,SHA256 hash listed among malware samples
-sha256,9df157f3975b582074033c80d0d586f3911fb6bd3813539e2edf87ada4eee9fb,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,SHA256 hash listed among malware samples
-sha256,a552bcb7d37c2bdb5c71e923157571598643de4051bfa3e5158fde3cb8709de7,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,SHA256 hash listed among malware samples
-sha256,a63757715b35ddd99916b63a1354de1ec05ac5855a480fe9a547b002e2091dcb,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,"Key storage for Traffmonetizer dropped by com.abc.nexus, indicating attacker-controlled malware"
-sha256,a6c7ef9b6d5277dada145361164ff79e1e6c6be1cd28f6739113c72ee30ea4cc,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,SHA256 hash listed among malware samples
-sha256,b2e55884c819c210eaf46aeb7970a1ec623944b5d1a8c2178904f998b9682ac0,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,SHA256 hash listed among malware samples
-sha256,bcf142ba37e897b7fcbb89353ec9b5a7c3bfb1d167838d3b91c347b9fdfb2230,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,SHA256 hash listed among malware samples
-sha256,be9990489fbf36100ec148f3a83795f2674d17063edb8accd560f1ce2f97dedd,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,SHA256 hash listed among malware samples
-sha256,c0e1fad801d87531ee889fa6ec344f14868e7cdac06c93d2d3de742f1a9293c5,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,SHA256 hash listed among malware samples
-sha256,cad908ad09d029971b24b4ad653fe680101ccaddd94b4e530c58bf45430fd1a4,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,SHA256 hash listed among malware samples
-sha256,cd8ef4ba20823b926b45a04946f24e45a7bcd4bf2bfc439cac8061a43f146903,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,"Binary associated with com.abc.nexus, indicating attacker-controlled malware"
-sha256,d3b94a74121e885bc698c8f56b9433247139be29b40ae1d0655dd558ecf5f9fa,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,"Binary associated with com.abc.nexus, indicating attacker-controlled malware"
-sha256,d4011b684ba389bf0b2dd8ded74fe8a4729b1cad4e6c18cfd928cb99a625a6e4,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,"Binary associated with com.abc.nexus, indicating attacker-controlled malware"
-sha256,d48cffc6d7e7c06f2d3db34ce6d4a53d5c25636179b7087a1e762f5d6bfa07f5,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,"Binary associated with com.abc.nexus, indicating attacker-controlled malware"
-sha256,da5246fb62db91eda31df0873835e1c96a3187df1a760ffc87abf9788ba69104,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,SHA256 hash listed among malware samples
-sha256,dca25ff0d11d49e9969be3177b50aa8bf120b5ad3946409dedae143a8a69aa99,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,SHA256 hash listed among malware samples
-sha256,e25616a0c64734f00d1f6dfb064d8f7bf1e4b95aac8b2e4aabb44b2950751bd0,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,SHA256 hash listed among malware samples
-sha256,e2bfca7225af84f116de7ed10e4ad425d0ebfd6e19903d226b9768282865700f,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,"Binary associated with com.abc.nexus, indicating attacker-controlled malware"
-sha256,f2ed4a40fbb21d0560e82bdd2e85e825970d32052348241b487dd93191ebef2a,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,"Binary associated with com.abc.nexus, indicating attacker-controlled malware"
-sha256,f451c0b770049c71fb0d8efd45115dfc3336f636fb6a0617ec5a5c58632196f4,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,SHA256 hash listed among malware samples
-sha256,fda3c8fdf7849814e270bbbc00adfa1e15ba8977f5b2508df5febf5dbd3075b2,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,"Binary associated with com.abc.nexus, indicating attacker-controlled malware"
-sha256,ff96f093bbac32654db62ebb33276c64cd30eb25a0bc11e66608ca40efb1bbdc,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,SHA256 hash listed among malware samples
+sha256,0135b69bab304564628488829b825050d1dd6dab98e86ec6776839dac9365af9,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,Listed as a representative SHA256 hash of malicious software
+sha256,01b8c78f5509119b3e27ea4d628048985b94b5e00db0431d843519cf1d3e2cde,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,Listed as a representative SHA256 hash of malicious software
+sha256,02490fa9f472ec872723d64d03402967e77932d2df72c588b0d7a7df9e17ae62,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,Listed as a representative SHA256 hash of malicious software
+sha256,02b94ae4ee0fd2bab915fe2911d15ee70e51ca0564ba43c746593e7fe0b7ccd3,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,Listed as a representative SHA256 hash of malicious software
+sha256,049b626ca9bc4cf552e675dd5bf6215753caa3a3d28fab17b2a8fa9e0c8421c0,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,Listed as a representative SHA256 hash of malicious software
+sha256,04ffe332458931d82c0503daba1859622540828302af1190d2d3c6447094428c,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,Listed as a representative SHA256 hash of malicious software
+sha256,05e2e32e08073081adcb8875c3b7350fff53e7ea8f36d6388fb3daa626015d22,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,Listed as a representative SHA256 hash of malicious software
+sha256,07b511a6f7715ccd2f77b5f51e4cf46542ccaada99564252711f4a142ac26179,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,Listed as a representative SHA256 hash of malicious software
+sha256,085662ba43e22d04d6f69b7b5176c68cedee6507c5d34973c94459f324b44c8d,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,Listed as a representative SHA256 hash of malicious software
+sha256,08edc09f4465cd784360c223275c45a5e95d7dc8a5e796537ea5251848b3d2f1,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,Listed as a representative SHA256 hash of malicious software
+sha256,0d90d0e5009d0c67e978dffb1f78278fa22f296ebc14add1fe338abea8690867,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,Listed as a representative SHA256 hash of malicious software
+sha256,0ed2ec71901210b1100c6a4abee48ad36774962496d57577d58630072e30cc60,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,Listed as a representative SHA256 hash of malicious software
+sha256,17d4929578dac90af7da3a9c8bbd6f516ade8cc803c82a0f64849fb2a346a894,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,Listed as a representative SHA256 hash of malicious software
+sha256,1806a1a93a6bce28cc6e95e9001f06370eaef9c66846ade9aecaf220d7ac91a4,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,Listed as a representative SHA256 hash of malicious software
+sha256,1c34f551cea557b24f6f3776de7fecaf40536c749d5b9734242acde4dd578c53,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,Listed as a representative SHA256 hash of malicious software
+sha256,1c8408f80dcdac5c9cae5b2ac785e6f0aa97ad2ec6c8701e3ab661882e9fdd63,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,Listed as a representative SHA256 hash of malicious software
+sha256,1c989cef1b9cc5a39715d172e3f3acb574a958765f4a9df50c952c0a359826cd,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,Listed as a representative SHA256 hash of malicious software
+sha256,1de0a368599ab04b8863c0e61c2d5a75e00f742a3326325f2870a9a72ee8d200,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,Listed as a representative SHA256 hash of malicious software
+sha256,1f2ab93c35f0c37d9b88f82268183a2f77491aa6b142a48381524b18e217b960,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,Listed as a representative SHA256 hash of malicious software
+sha256,20af9e1538e1c211687c53e71318d9d265e36ce154457cade3266c7633fb953d,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,Listed as a representative SHA256 hash of malicious software
+sha256,22c0279d23973fd9b3bfd9f42fd19ea1595c6e3f71a89b698828c79fa8e4edd2,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,Listed as a representative SHA256 hash of malicious software
+sha256,2cdb1f0f0969766142f3debbab55eef5e24c15d49a513753f1f6b67bc3e8438b,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,Listed as a representative SHA256 hash of malicious software
+sha256,2d4b5c50e57e3e9b57d4ee02bef1dcd56163550a5e01c966e0f0fb6d46b2aeed,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,Listed as a representative SHA256 hash of malicious software
+sha256,3295d193ac405112ad076d7fab23274d44f8d0be6614a250a474c5ed7c95356f,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,Listed as a representative SHA256 hash of malicious software
+sha256,331d3a1cf85656c3657e97bab6f15b6e4ce30bf319069b22e8356dccac230321,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,Listed as a representative SHA256 hash of malicious software
+sha256,350d6db477e8567cf9347c1144b3a0b25550e7ce63bb800b056b8a7a8ef56af4,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,Listed as a representative SHA256 hash of malicious software
+sha256,3627f848804f49c041203e8d754e8d89f3ff6243b6d9e1ca6e50bbf08dbd9785,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,Listed as a representative SHA256 hash of malicious software
+sha256,39792bed070b1128cd67178591804fafb82112d371ccdb2b51cd600b2d435922,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,Listed as a representative SHA256 hash of malicious software
+sha256,3e891f061daf73c2edc14ed98512cad008346679645e8165320bf96fb8b0e0d6,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,Listed as a representative SHA256 hash of malicious software
+sha256,415d54757c2f96fd28404f1ab8da1e90297a381ec3d7fb47d33126644a0a421b,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,Listed as a representative SHA256 hash of malicious software
+sha256,471e76cce87e280a2fe11046fcb58c0817558ffbc8a526d84fb40c45b03ac9bc,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,Listed as a representative SHA256 hash of malicious software
+sha256,486a784cbd6335d31214edd7bed7fcfb486b875374597c139826c77c91ccbbaa,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,Listed as a representative SHA256 hash of malicious software
+sha256,498d0862ce2ce972e9ac9bd3ea592b9f9cd8c5119dcc90fcb1b14a547889e9f9,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,Listed as a representative SHA256 hash of malicious software
+sha256,4fd0ddb15849137df77e8cb86cd951d2d220fd8dd5b8b03c5a7e23e815092fdd,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,Listed as a representative SHA256 hash of malicious software
+sha256,5ae5df84cdce0100eb957cf235d1f3fd85fa634592e7ca137de12535e9f8ad2a,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,Listed as a representative SHA256 hash of malicious software
+sha256,69116e8f681ea312e7e9e3a8a436f66b3e98566c621412599ecaaa25348daadb,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,Listed as a representative SHA256 hash of malicious software
+sha256,6b55b8b3ff7bd31af93b59612f0800c09e49d3badc772e2395736616c87d5612,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,Listed as a representative SHA256 hash of malicious software
+sha256,6f7f4b22eb7841d2b828f1eda77173880d42267a33b387bee9cee983c03bf291,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,Listed as a representative SHA256 hash of malicious software
+sha256,71f52519aae77fb20448ea065caa55750bcd73cf425aab203277032e260a1981,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,Listed as a representative SHA256 hash of malicious software
+sha256,76b4bf6f55aaab35428260a830ac9a2c437a09aefd521c5b51618db47beca3b2,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,Listed as a representative SHA256 hash of malicious software
+sha256,7eb1afbf4428a9a3b41a6faf9a7497aab1d7768a8370d475f580e574145a9e7d,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,Listed as a representative SHA256 hash of malicious software
+sha256,8365658b7c51d7b607fe83d862d05e619cad5249c96db61a3d33a95c615c8194,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,Listed as a representative SHA256 hash of malicious software
+sha256,83b3cfb7655483e0d421737c2bed707fdd1747f105deca6980233c011aaaea30,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,Listed as a representative SHA256 hash of malicious software
+sha256,8953f9013eb8c31b27c86ba90edbdb9ecba216ed2cb6a992508c1964d53b8eee,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,Listed as a representative SHA256 hash of malicious software
+sha256,8cb62b3a9b74ca8b907aef7d83fee65f3ab80e0f4acbf4b2415ea1c2a6caf796,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,Listed as a representative SHA256 hash of malicious software
+sha256,9216a0a460400403027d4dfc9a6193a776603b64735f174e74a89607567ac6f2,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,Listed as a representative SHA256 hash of malicious software
+sha256,92326f3065273d619f866f76e3542b6271886f92b1342c5ccc27cb7150c75176,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,Listed in a table of representative SHA256 hashes as an IOC
+sha256,99874d087e3f72a9d78439118361f438f7a156af318c788183d338cc315d7fa8,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,Listed in a table of representative SHA256 hashes as an IOC
+sha256,9df157f3975b582074033c80d0d586f3911fb6bd3813539e2edf87ada4eee9fb,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,Listed in a table of representative SHA256 hashes as an IOC
+sha256,a552bcb7d37c2bdb5c71e923157571598643de4051bfa3e5158fde3cb8709de7,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,Listed in a table of representative SHA256 hashes as an IOC
+sha256,a63757715b35ddd99916b63a1354de1ec05ac5855a480fe9a547b002e2091dcb,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,"Key storage for Traffmonetizer dropped by com.abc.nexus, indicating attacker control"
+sha256,a6c7ef9b6d5277dada145361164ff79e1e6c6be1cd28f6739113c72ee30ea4cc,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,"Package fetched from operator Github, indicating attacker control"
+sha256,b2e55884c819c210eaf46aeb7970a1ec623944b5d1a8c2178904f998b9682ac0,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,Listed in a table of representative SHA256 hashes as an IOC
+sha256,bcf142ba37e897b7fcbb89353ec9b5a7c3bfb1d167838d3b91c347b9fdfb2230,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,Listed in a table of representative SHA256 hashes as an IOC
+sha256,be9990489fbf36100ec148f3a83795f2674d17063edb8accd560f1ce2f97dedd,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,Listed in a table of representative SHA256 hashes as an IOC
+sha256,c0e1fad801d87531ee889fa6ec344f14868e7cdac06c93d2d3de742f1a9293c5,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,Listed in a table of representative SHA256 hashes as an IOC
+sha256,cad908ad09d029971b24b4ad653fe680101ccaddd94b4e530c58bf45430fd1a4,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,Listed in a table of representative SHA256 hashes as an IOC
+sha256,cd8ef4ba20823b926b45a04946f24e45a7bcd4bf2bfc439cac8061a43f146903,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,Listed in a table of representative SHA256 hashes as an IOC
+sha256,d3b94a74121e885bc698c8f56b9433247139be29b40ae1d0655dd558ecf5f9fa,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,Listed in a table of representative SHA256 hashes as an IOC
+sha256,d4011b684ba389bf0b2dd8ded74fe8a4729b1cad4e6c18cfd928cb99a625a6e4,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,Listed in a table of representative SHA256 hashes as an IOC
+sha256,d48cffc6d7e7c06f2d3db34ce6d4a53d5c25636179b7087a1e762f5d6bfa07f5,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,Listed in a table of representative SHA256 hashes as an IOC
+sha256,da5246fb62db91eda31df0873835e1c96a3187df1a760ffc87abf9788ba69104,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,Listed in a table of representative SHA256 hashes as an IOC
+sha256,dca25ff0d11d49e9969be3177b50aa8bf120b5ad3946409dedae143a8a69aa99,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,Listed in a table of representative SHA256 hashes as an IOC
+sha256,e25616a0c64734f00d1f6dfb064d8f7bf1e4b95aac8b2e4aabb44b2950751bd0,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,Listed in a table of representative SHA256 hashes as an IOC
+sha256,e2bfca7225af84f116de7ed10e4ad425d0ebfd6e19903d226b9768282865700f,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,Listed in a table of representative SHA256 hashes as an IOC
+sha256,f2ed4a40fbb21d0560e82bdd2e85e825970d32052348241b487dd93191ebef2a,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,Listed in a table of representative SHA256 hashes as an IOC
+sha256,f451c0b770049c71fb0d8efd45115dfc3336f636fb6a0617ec5a5c58632196f4,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,Listed in a table of representative SHA256 hashes as an IOC
+sha256,fda3c8fdf7849814e270bbbc00adfa1e15ba8977f5b2508df5febf5dbd3075b2,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,Listed in a table of representative SHA256 hashes as an IOC
+sha256,ff96f093bbac32654db62ebb33276c64cd30eb25a0bc11e66608ca40efb1bbdc,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,"Package fetched from operator Github, indicating attacker control"
 sha256,06c5c14f043aee3bcc5843b5f50909623d5c9a6239a7c1fba9cddad4111469e7,high,2026-11-02T12:17:30+00:00,2026-11-02T12:17:30+00:00,1,,SHA256 hash tied to initial-access script
 sha256,85b6c424117494d3056e88689dbc94c75e9afdb187a339714043aec0da109f17,high,2026-11-02T12:17:30+00:00,2026-11-02T12:17:30+00:00,1,,SHA256 hash tied to initial-access script
 sha256,f326201269f1ee2f803ae435317507263bb6e0dbfdeb70bd1bb5446e2e46f001,high,2026-11-02T12:17:30+00:00,2026-11-02T12:17:30+00:00,1,,SHA256 hash tied to initial-access script
@@ -221,40 +296,6 @@ domain,stakepoint.app,high,2026-10-31T16:26:27+00:00,2026-10-31T18:42:45+00:00,2
 domain,supswap.xyz,high,2026-10-31T16:26:27+00:00,2026-10-31T18:42:45+00:00,2,,"Listed as serving the drainer kit, indicating attacker control"
 sha256,57ef4242666d78c50df145b34023df564f0fad38812d6a580e66433d427e2279,high,2026-10-31T17:09:23+00:00,2026-10-31T17:09:23+00:00,1,,"Hash listed in context of malware analysis, indicating a malware sample."
 domain,quectel.us,high,2026-10-31T05:06:08+00:00,2026-10-31T05:06:08+00:00,1,,"Registered by a Telit employee and used to redirect traffic to a disparaging page, indicating attacker control."
-domain,atlascore-panel.net,high,2026-10-31T04:33:12.221801+00:00,2026-10-31T04:33:12.221801+00:00,1,,Domain used by AtlasCore administrators for hosting affiliate program panels
-domain,bravioar.com,high,2026-10-31T04:33:12.221801+00:00,2026-10-31T04:33:12.221801+00:00,1,,"Domain hosted casino-, exchange-, and prediction-market-related content linked to AtlasCore"
-domain,btwoteam.xyz,high,2026-10-31T04:33:12.221801+00:00,2026-10-31T04:33:12.221801+00:00,1,,Domain resolves to IP associated with Magnetic Team's administrative panel
-domain,casino.atlascore-panel.net,high,2026-10-31T04:33:12.221801+00:00,2026-10-31T04:33:12.221801+00:00,1,,Subdomain used for hosting casino-related content by AtlasCore
-domain,crossbook.xyz,high,2026-10-31T04:33:12.221801+00:00,2026-10-31T04:33:12.221801+00:00,1,,Domain hosted on IP associated with Magnetic Team's infrastructure
-domain,docs.atlascore-panel.net,high,2026-10-31T04:33:12.221801+00:00,2026-10-31T04:33:12.221801+00:00,1,,Subdomain used for hosting manuals by AtlasCore
-domain,event-x.cc,high,2026-10-31T04:33:12.221801+00:00,2026-10-31T04:33:12.221801+00:00,1,,Domain used for marketing and associated with fraudulent offers
-domain,fortexp.live,high,2026-10-31T04:33:12.221801+00:00,2026-10-31T04:33:12.221801+00:00,1,,Domain linked to fraudulent prediction market operations
-domain,fortvet.cc,high,2026-10-31T04:33:12.221801+00:00,2026-10-31T04:33:12.221801+00:00,1,,Domain associated with fraudulent prediction market operations
-domain,futaryx.com,high,2026-10-31T04:33:12.221801+00:00,2026-10-31T04:33:12.221801+00:00,1,,Domain linked to fraudulent prediction market operations
-domain,kiro-cheap.pro,high,2026-10-31T04:33:12.221801+00:00,2026-10-31T04:33:12.221801+00:00,1,,Domain associated with fraudulent prediction market operations
-domain,magnetic-panel.space,high,2026-10-31T04:33:12.221801+00:00,2026-10-31T04:33:12.221801+00:00,1,,Domain used for managing campaigns by Magnetic Team
-domain,polyfucker.space,high,2026-10-31T04:33:12.221801+00:00,2026-10-31T04:33:12.221801+00:00,1,,Domain used for hosting admin panel for PolyFucked offer
-domain,polymarket.atlascore-panel.net,high,2026-10-31T04:33:12.221801+00:00,2026-10-31T04:33:12.221801+00:00,1,,Subdomain used for hosting prediction market content by AtlasCore
-domain,prdct.cc,high,2026-10-31T04:33:12.221801+00:00,2026-10-31T04:33:12.221801+00:00,1,,Domain used as shared infrastructure by AtlasCore
-domain,pred.co,high,2026-10-31T04:33:12.221801+00:00,2026-10-31T04:33:12.221801+00:00,1,,Domain linked to fraudulent prediction market operations
-domain,predicate.cc,high,2026-10-31T04:33:12.221801+00:00,2026-10-31T04:33:12.221801+00:00,1,,Domain used as shared infrastructure by AtlasCore
-domain,predicate.club,high,2026-10-31T04:33:12.221801+00:00,2026-10-31T04:33:12.221801+00:00,1,,"Domain hosted casino-, exchange-, and prediction-market-related content"
-domain,predicate.live,high,2026-10-31T04:33:12.221801+00:00,2026-10-31T04:33:12.221801+00:00,1,,Domain used as shared infrastructure by AtlasCore
-domain,predicate.world,high,2026-10-31T04:33:12.221801+00:00,2026-10-31T04:33:12.221801+00:00,1,,Domain used as shared infrastructure by AtlasCore
-domain,predictedby.cc,high,2026-10-31T04:33:12.221801+00:00,2026-10-31T04:33:12.221801+00:00,1,,Domain used as shared infrastructure by AtlasCore
-domain,predictum.app,high,2026-10-31T04:33:12.221801+00:00,2026-10-31T04:33:12.221801+00:00,1,,Domain linked to fraudulent prediction market operations
-domain,predictum.cc,high,2026-10-31T04:33:12.221801+00:00,2026-10-31T04:33:12.221801+00:00,1,,Domain linked to fraudulent prediction market operations
-domain,rqwrujarser.icu,high,2026-10-31T04:33:12.221801+00:00,2026-10-31T04:33:12.221801+00:00,1,,"Domain hosted casino-, exchange-, and prediction-market-related content"
-domain,speculor.net,high,2026-10-31T04:33:12.221801+00:00,2026-10-31T04:33:12.221801+00:00,1,,"Domain hosted casino-, exchange-, and prediction-market-related content"
-domain,tradingai.fun,high,2026-10-31T04:33:12.221801+00:00,2026-10-31T04:33:12.221801+00:00,1,,Domain hosted on IP associated with Magnetic Team's infrastructure
-domain,wettora.com,high,2026-10-31T04:33:12.221801+00:00,2026-10-31T04:33:12.221801+00:00,1,,"Domain hosted casino-, exchange-, and prediction-market-related content"
-domain,winzo.live,high,2026-10-31T04:33:12.221801+00:00,2026-10-31T04:33:12.221801+00:00,1,,"Domain hosted casino-, exchange-, and prediction-market-related content"
-ipv4,192.162.199.243,high,2026-10-31T04:33:12.221801+00:00,2026-10-31T04:33:12.221801+00:00,1,,IP address hosted domains linked to fraudulent operations
-ipv4,192.64.119.163,high,2026-10-31T04:33:12.221801+00:00,2026-10-31T04:33:12.221801+00:00,1,,IP address associated with Magnetic Team's infrastructure
-ipv4,31.76.10.48,high,2026-10-31T04:33:12.221801+00:00,2026-10-31T04:33:12.221801+00:00,1,,IP address associated with Magnetic Team's infrastructure
-ipv4,31.77.159.194,high,2026-10-31T04:33:12.221801+00:00,2026-10-31T04:33:12.221801+00:00,1,,IP address associated with Magnetic Team's infrastructure
-ipv4,81.90.17.100,high,2026-10-31T04:33:12.221801+00:00,2026-10-31T04:33:12.221801+00:00,1,,IP address linked to fraudulent prediction market operations
-ipv4,87.120.165.193,high,2026-10-31T04:33:12.221801+00:00,2026-10-31T04:33:12.221801+00:00,1,,IP address associated with Magnetic Team's infrastructure
 domain,artex.nhhh.de,high,2026-10-30T23:02:29+00:00,2026-10-30T23:02:29+00:00,1,,Subdomain used to host a penetration testing console linked to attacker activity.
 domain,direct.465415.xyz,high,2026-10-30T23:02:29+00:00,2026-10-30T23:02:29+00:00,1,,Domain tied via passive DNS to attacker-controlled infrastructure.
 domain,llm-routing.com,high,2026-10-30T23:02:29+00:00,2026-10-30T23:02:29+00:00,1,,Domain used for LLM resale linked to attacker infrastructure.
@@ -1866,18 +1907,6 @@ sha256,69b94f987d06e3c69a8ee476ed16723fa8b13672b44c286b572cb7f09cdd7a4f,high,202
 md5,2853e92617d26045feb028e52bc9930d,high,2026-10-09T11:00:58.445581+00:00,2026-10-09T11:00:58.445581+00:00,1,,Listed as an encrypted malware hash
 sha1,206b5f0a0a42ff89576eb31becb89b2b90fcef9f,high,2026-10-09T11:00:58.445581+00:00,2026-10-09T11:00:58.445581+00:00,1,,Listed as a sample hash for a malicious RAT
 sha256,e6f28ba622abacbf78d3411656a185947ac385a01fed0733091159498674779d,high,2026-10-09T11:00:58.445581+00:00,2026-10-09T11:00:58.445581+00:00,1,,Listed as a sample hash for a malicious RAT
-sha256,2bedc26d4b29b435c21962beed7db21188a0219a0d28334bba8b4fb1656d7b15,high,2026-10-02T14:41:59.270334+00:00,2026-10-09T11:00:23.855979+00:00,1,,Listed as a dropper in the threat report
-sha256,2fe2dd402ee6f9c578fce6dd4b36daaa407e99133e5dd502f2afca80feb60150,high,2026-10-02T14:41:59.270334+00:00,2026-10-09T11:00:23.855979+00:00,1,,Listed as a file indicator in the threat report
-sha256,4435fcd6862921092614dbeaa880e4192352984686ebcd98f0ba13ee8e226ef9,high,2026-10-02T14:41:59.270334+00:00,2026-10-09T11:00:23.855979+00:00,1,,Listed as a file indicator in the threat report
-sha256,4925bcca085ec504f51191645da278d8e96698d91f3c6df44146336c697b4de8,high,2026-10-02T14:41:59.270334+00:00,2026-10-09T11:00:23.855979+00:00,1,,Listed as a file indicator in the threat report
-sha256,652508a9cf40bee883dc0e5e219dfeba71fe7dac591d01c89f74c21f73b4963f,high,2026-10-02T14:41:59.270334+00:00,2026-10-09T11:00:23.855979+00:00,1,,Listed as a Rekoobe-based backdoor in the threat report
-sha256,7e667ba5f9df912e02275d3cfe3809d16f822fe776f4035c84b118ebd925b1b5,high,2026-10-02T14:41:59.270334+00:00,2026-10-09T11:00:23.855979+00:00,1,,Listed as a file indicator in the threat report
-sha256,925c041807d4fb9dfe2ad84f963c2a4c60ea1289f6a0bdccbfb944478ffc2cf2,high,2026-10-02T14:41:59.270334+00:00,2026-10-09T11:00:23.855979+00:00,1,,Listed as a file indicator in the threat report
-sha256,a37ea9897221d4495b538de72b74f2aa1d2ff09b7b6dcedd395aee58931adbf3,high,2026-10-02T14:41:59.270334+00:00,2026-10-09T11:00:23.855979+00:00,1,,Listed as a file indicator in the threat report
-sha256,a4379e115d3c4420f5d4b92561022d6e0897990e7297be65c033d47de68e6a6a,high,2026-10-02T14:41:59.270334+00:00,2026-10-09T11:00:23.855979+00:00,1,,Listed as a file indicator in the threat report
-sha256,a65048eb30661e27f8edc2dd8d8c77ec87faec1f1750f6e04e7ecaf069a32858,high,2026-10-02T14:41:59.270334+00:00,2026-10-09T11:00:23.855979+00:00,1,,Listed as a file indicator in the threat report
-sha256,a6f3b7f932761fb1fd5e74123f2482e36c65dd13e769af2ce08c65da195bfa7a,high,2026-10-02T14:41:59.270334+00:00,2026-10-09T11:00:23.855979+00:00,1,,Listed as a BPFDoor sample in the threat report
-sha256,bf8135f46ecedfe5bd06fcecbb2e721c2367ff765b18f4aa3f868e6597f49e47,high,2026-10-02T14:41:59.270334+00:00,2026-10-09T11:00:23.855979+00:00,1,,Listed as a file indicator in the threat report
 domain,secure-login-university.xyz,high,2026-10-09T09:54:30+00:00,2026-10-09T09:54:30+00:00,1,,Listed as a suspicious link in phishing context
 domain,hashicorp-terraform.io,high,2026-10-09T08:48:52+00:00,2026-10-09T08:48:52+00:00,1,,Used to download a malicious Bash loader
 domain,w8510.com,high,2026-10-09T07:20:08+00:00,2026-10-09T07:20:08+00:00,1,,Used for command-and-control in a botnet
@@ -1902,7 +1931,6 @@ ipv4,104.234.26.10,high,2026-10-08T20:23:28+00:00,2026-10-08T20:23:28+00:00,1,,L
 ipv4,123.202.208.37,high,2026-10-08T20:23:28+00:00,2026-10-08T20:23:28+00:00,1,,Listed in the IOC section as attacker infrastructure
 ipv4,177.4.12.11,high,2026-10-08T20:23:28+00:00,2026-10-08T20:23:28+00:00,1,,Listed in the IOC section as attacker infrastructure
 ipv4,185.220.236.49,high,2026-10-08T20:23:28+00:00,2026-10-08T20:23:28+00:00,1,,Listed in the IOC section as attacker infrastructure
-ipv4,38.60.252.110,high,2026-10-08T20:23:28+00:00,2026-10-08T20:23:28+00:00,1,,Listed in the IOC section as attacker infrastructure
 sha256,05f69ae6b2b89c1c4dcf836bff032232f11bf0109f2b498e2345045d06139034,high,2026-10-08T20:23:28+00:00,2026-10-08T20:23:28+00:00,1,,Hash of a malicious file used by attackers
 sha256,481728a7c9c4c02be07051d9c1958d902ea6397ebb8952ab83944818e3d25d21,high,2026-10-08T20:23:28+00:00,2026-10-08T20:23:28+00:00,1,,Hash of a malicious file used by attackers
 sha256,4dcb0202fe8b2d4d7b183764e38184cd6ed50132786cc7e7d1f7f4bce1dd6f3d,high,2026-10-08T20:23:28+00:00,2026-10-08T20:23:28+00:00,1,,Hash of a malicious file used by attackers
@@ -6218,9 +6246,6 @@ sha256,d55549d5655e2f202e215676f4bdb0994ea08a93d15ec4ded413f64cfa7facc8,high,202
 sha256,ea1d34b21b739a6bbf89b3f7e67978005cf7f3eda612cefc7eac1c8ead7c5545,high,2026-05-05T09:04:46+00:00,2026-05-05T09:04:46+00:00,1,,Hash listed in malware analysis as a sample
 sha256,EA89CAAB82181881D971BE312412795051F6322B105C8B9D29CFB5729FAB8D33,high,2026-05-05T09:04:46+00:00,2026-05-05T09:04:46+00:00,1,,Hash listed in malware analysis as a sample
 domain,notepad-plus-plus-mac.org,high,2026-05-05T08:22:56+00:00,2026-05-05T08:22:56+00:00,1,,Domain associated with a malicious site misleading users to download malware
-sha256,0d58616c750fc8530a7e90eee18398ddedd08cc0f4908c863ab650673b9819dd,high,2026-05-01T19:01:21+00:00,2026-05-04T16:47:45.626977+00:00,2,,Malicious hash associated with infection
-sha256,86d0c50cab4f394c58976c44d6d7b67a7dfbbb813fbcf622236e183d94fd944f,high,2026-05-01T19:01:21+00:00,2026-05-04T16:47:45.626977+00:00,2,,Malicious hash associated with infection
-sha256,a4fcfecc5ac8fa57614b23928a0e9b7aa4f4a3b2b3a8c1772487b46277125571,high,2026-05-01T19:01:21+00:00,2026-05-04T16:47:45.626977+00:00,2,,Malicious hash associated with C2 server
 domain,econsulat.ro,high,2026-03-14T11:42:14+00:00,2026-05-02T20:49:09.132010+00:00,4,,Targeted by DDoS cyberattacks
 domain,eviza.mae.ro,high,2026-03-14T11:42:14+00:00,2026-05-02T20:49:09.132010+00:00,4,,Targeted by DDoS cyberattacks
 md5,3bc48c4833414f9d786e19b6f93bf8b5,high,2026-04-30T13:36:45.666436+00:00,2026-04-30T13:36:45.666436+00:00,1,,Hash listed in malware analysis as a sample.

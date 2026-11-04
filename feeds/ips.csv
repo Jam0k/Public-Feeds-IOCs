@@ -1,18 +1,28 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason
-ipv4,142.111.194.73,high,2026-11-03T12:31:18.389273+00:00,2026-11-03T12:31:18.389273+00:00,1,www.welivesecurity.com:2026-11-03,Identified as BeautyStealer exfiltration server.
-ipv4,219.134.163.210,high,2026-11-02T14:28:46+00:00,2026-11-02T21:30:50.094224+00:00,4,www.anrdoezrs.net:2026-11-02|Sqmagazine:2026-11-02|synthient.com:2026-11-02|Cloud.Google:2026-11-02,Used as a host for MQTT broker in the campaign
-ipv4,219.134.163.211,high,2026-11-02T14:28:46+00:00,2026-11-02T21:30:50.094224+00:00,2,www.anrdoezrs.net:2026-11-02|Cloud.Google:2026-11-02,Used as a host for MQTT broker in the campaign
+ipv4,142.111.194.73,high,2026-11-04T10:11:03.626581+00:00,2026-11-04T10:11:03.626581+00:00,1,www.welivesecurity.com:2026-11-04,Listed as BeautyStealer exfiltration server
+ipv4,45.194.90.57,high,2026-11-03T23:53:53+00:00,2026-11-04T04:34:30.223780+00:00,2,threat-intelligence.redeyesecurity.com:2026-11-04|Dev.To:2026-11-03,Used to download a payload in the attack process
+ipv4,89.127.233.127,high,2026-11-04T03:08:03.338852+00:00,2026-11-04T03:33:48+00:00,2,Invenglobal:2026-11-04|gist.github.com:2026-11-04,IP address used by the attacker
+ipv4,43.175.144.148,high,2026-11-04T03:08:03.338852+00:00,2026-11-04T03:08:03.338852+00:00,1,gist.github.com:2026-11-04,IP address served modified malicious files
+ipv4,43.175.145.181,high,2026-11-04T03:08:03.338852+00:00,2026-11-04T03:08:03.338852+00:00,1,gist.github.com:2026-11-04,IP address served modified malicious files
+ipv4,89.126.250.172,high,2026-11-04T03:08:03.338852+00:00,2026-11-04T03:08:03.338852+00:00,1,gist.github.com:2026-11-04,IP address used by the attacker until a specific date
+ipv4,130.94.11.60,high,2026-11-04T02:38:03.647347+00:00,2026-11-04T02:38:03.647347+00:00,1,hunt.io:2026-11-04,"IP address hosting GodPotato source or builds, indicating attacker-controlled infrastructure"
+ipv4,149.88.73.163,high,2026-11-04T02:38:03.647347+00:00,2026-11-04T02:38:03.647347+00:00,1,hunt.io:2026-11-04,"IP address hosting GodPotato source or builds, indicating attacker-controlled infrastructure"
+ipv4,154.89.151.143,high,2026-11-04T02:38:03.647347+00:00,2026-11-04T02:38:03.647347+00:00,1,hunt.io:2026-11-04,"IP address hosting GodPotato source or builds, indicating attacker-controlled infrastructure"
+ipv4,177.3.42.39,high,2026-11-04T02:38:03.647347+00:00,2026-11-04T02:38:03.647347+00:00,1,hunt.io:2026-11-04,"IP address hosting GodPotato source or builds, indicating attacker-controlled infrastructure"
+ipv4,38.60.252.110,high,2026-10-08T20:23:28+00:00,2026-11-04T02:38:03.647347+00:00,2,hunt.io:2026-11-04|Huntress:2026-10-08,"IP address hosting GodPotato source or builds, indicating attacker-controlled infrastructure"
+ipv4,192.162.199.243,high,2026-11-03T22:08:07.499011+00:00,2026-11-03T22:08:07.499011+00:00,1,www.recordedfuture.com:2026-11-03,IP address hosted domains linked to fraudulent operations
+ipv4,192.64.119.163,high,2026-11-03T22:08:07.499011+00:00,2026-11-03T22:08:07.499011+00:00,1,www.recordedfuture.com:2026-11-03,IP address associated with Magnetic Team's infrastructure
+ipv4,31.76.10.48,high,2026-11-03T22:08:07.499011+00:00,2026-11-03T22:08:07.499011+00:00,1,www.recordedfuture.com:2026-11-03,IP address associated with Magnetic Team's infrastructure
+ipv4,31.77.159.194,high,2026-11-03T22:08:07.499011+00:00,2026-11-03T22:08:07.499011+00:00,1,www.recordedfuture.com:2026-11-03,IP address associated with Magnetic Team's infrastructure
+ipv4,81.90.17.100,high,2026-11-03T22:08:07.499011+00:00,2026-11-03T22:08:07.499011+00:00,1,www.recordedfuture.com:2026-11-03,IP address linked to fraudulent prediction market operations
+ipv4,87.120.165.193,high,2026-11-03T22:08:07.499011+00:00,2026-11-03T22:08:07.499011+00:00,1,www.recordedfuture.com:2026-11-03,IP address associated with Magnetic Team's infrastructure
+ipv4,219.134.163.210,high,2026-11-02T14:28:46+00:00,2026-11-03T16:32:00.743212+00:00,4,www.anrdoezrs.net:2026-11-03|Sqmagazine:2026-11-02|synthient.com:2026-11-02|Cloud.Google:2026-11-02,Used as a host for MQTT broker in the campaign
+ipv4,219.134.163.211,high,2026-11-02T14:28:46+00:00,2026-11-03T16:32:00.743212+00:00,2,www.anrdoezrs.net:2026-11-03|Cloud.Google:2026-11-02,Used as a host for MQTT broker in the campaign
 ipv4,195.16.74.137,high,2026-11-02T17:02:17.201143+00:00,2026-11-02T17:02:17.201143+00:00,1,www.group-ib.com:2026-11-02,Listed as a C2 IP address.
 ipv4,195.16.74.138,high,2026-10-10T05:02:45.293755+00:00,2026-11-02T17:02:17.201143+00:00,2,www.group-ib.com:2026-11-02|www.elastic.co:2026-10-10,IP address associated with attacker-controlled domain
 ipv4,2.56.126.151,high,2026-10-10T05:02:45.293755+00:00,2026-11-02T17:02:17.201143+00:00,2,www.group-ib.com:2026-11-02|www.elastic.co:2026-10-10,IP address associated with attacker-controlled domain
 ipv4,45.14.227.58,high,2026-11-02T10:07:30.919290+00:00,2026-11-02T10:07:30.919290+00:00,1,www.cisa.gov:2026-11-02,Associated with DAFOM malware
 ipv4,108.165.147.64,high,2026-10-13T17:33:11+00:00,2026-11-02T10:06:11.096915+00:00,4,www.volexity.com:2026-11-02|Ccb.Belgium.Be:2026-10-14|Rescana:2026-10-14|Feeds.Feedburner:2026-10-13,Identified as a host used by the attacker for operations
-ipv4,192.162.199.243,high,2026-10-31T04:33:12.221801+00:00,2026-10-31T04:33:12.221801+00:00,1,www.recordedfuture.com:2026-10-31,IP address hosted domains linked to fraudulent operations
-ipv4,192.64.119.163,high,2026-10-31T04:33:12.221801+00:00,2026-10-31T04:33:12.221801+00:00,1,www.recordedfuture.com:2026-10-31,IP address associated with Magnetic Team's infrastructure
-ipv4,31.76.10.48,high,2026-10-31T04:33:12.221801+00:00,2026-10-31T04:33:12.221801+00:00,1,www.recordedfuture.com:2026-10-31,IP address associated with Magnetic Team's infrastructure
-ipv4,31.77.159.194,high,2026-10-31T04:33:12.221801+00:00,2026-10-31T04:33:12.221801+00:00,1,www.recordedfuture.com:2026-10-31,IP address associated with Magnetic Team's infrastructure
-ipv4,81.90.17.100,high,2026-10-31T04:33:12.221801+00:00,2026-10-31T04:33:12.221801+00:00,1,www.recordedfuture.com:2026-10-31,IP address linked to fraudulent prediction market operations
-ipv4,87.120.165.193,high,2026-10-31T04:33:12.221801+00:00,2026-10-31T04:33:12.221801+00:00,1,www.recordedfuture.com:2026-10-31,IP address associated with Magnetic Team's infrastructure
 ipv4,38.246.114.118,high,2026-10-30T23:02:29+00:00,2026-10-30T23:02:29+00:00,1,Wiz:2026-10-30,IP address conducting unauthorized key checks linked to attacker activity.
 ipv4,130.94.67.235,high,2026-10-30T17:50:37+00:00,2026-10-30T17:50:37+00:00,1,Reddit:2026-10-30,Exposed IP address for a custom heap exploit.
 ipv4,79.43.178.226,high,2026-10-30T16:01:04.709172+00:00,2026-10-30T16:01:04.709172+00:00,1,www.fortian.com.au:2026-10-30,Used as a C2 server by the attacker
@@ -159,7 +169,6 @@ ipv4,104.234.26.10,high,2026-10-08T20:23:28+00:00,2026-10-08T20:23:28+00:00,1,Hu
 ipv4,123.202.208.37,high,2026-10-08T20:23:28+00:00,2026-10-08T20:23:28+00:00,1,Huntress:2026-10-08,Listed in the IOC section as attacker infrastructure
 ipv4,177.4.12.11,high,2026-10-08T20:23:28+00:00,2026-10-08T20:23:28+00:00,1,Huntress:2026-10-08,Listed in the IOC section as attacker infrastructure
 ipv4,185.220.236.49,high,2026-10-08T20:23:28+00:00,2026-10-08T20:23:28+00:00,1,Huntress:2026-10-08,Listed in the IOC section as attacker infrastructure
-ipv4,38.60.252.110,high,2026-10-08T20:23:28+00:00,2026-10-08T20:23:28+00:00,1,Huntress:2026-10-08,Listed in the IOC section as attacker infrastructure
 ipv4,80.78.27.237,high,2026-10-08T19:12:38.094042+00:00,2026-10-08T19:12:38.094042+00:00,1,hunt.io:2026-10-08,IP associated with attacker infrastructure
 ipv4,80.78.27.252,high,2026-10-08T17:47:35+00:00,2026-10-08T19:12:38.094042+00:00,2,hunt.io:2026-10-08|Securityaffairs.Co:2026-10-08,IP associated with attacker infrastructure
 ipv4,103.248.148.84,high,2026-10-08T12:54:13+00:00,2026-10-08T12:54:13+00:00,1,News.Lavx.Hu:2026-10-08,Listed as a proxy address associated with the operation
@@ -219,10 +228,5 @@ ipv4,38.180.136.127,high,2026-10-06T10:05:56+00:00,2026-10-06T10:05:56+00:00,1,U
 ipv4,87.248.129.239,high,2026-10-06T10:05:56+00:00,2026-10-06T10:05:56+00:00,1,Unit42.Paloaltonetworks:2026-10-06,IP address associated with attacker-controlled domain
 ipv4,118.45.196.225,high,2026-10-06T08:37:33.517997+00:00,2026-10-06T08:37:33.517997+00:00,1,www.nozominetworks.com:2026-10-06,Listed as a loader host for malware
 ipv4,120.193.219.210,high,2026-10-06T08:37:33.517997+00:00,2026-10-06T08:37:33.517997+00:00,1,www.nozominetworks.com:2026-10-06,Listed as a loader host for malware
-ipv4,145.249.115.184,high,2026-10-05T11:50:39+00:00,2026-10-06T08:37:33.517997+00:00,4,www.nozominetworks.com:2026-10-06|Industrialcyber.Co:2026-10-06|News.Lavx.Hu:2026-10-06|Thehackernews:2026-10-05,Identified as a STUN server controlled by the botnet operator
+ipv4,145.249.115.184,high,2026-10-06T00:44:33+00:00,2026-10-06T08:37:33.517997+00:00,3,www.nozominetworks.com:2026-10-06|Industrialcyber.Co:2026-10-06|News.Lavx.Hu:2026-10-06,Identified as a STUN server controlled by the botnet operator
 ipv4,58.211.144.243,high,2026-10-06T08:37:33.517997+00:00,2026-10-06T08:37:33.517997+00:00,1,www.nozominetworks.com:2026-10-06,Listed as a loader host for malware
-ipv4,66.179.30.155,high,2026-10-05T11:10:47+00:00,2026-10-05T11:10:47+00:00,1,Cloudsek:2026-10-05,Used as a publication and archive node by attackers
-ipv4,66.203.124.135,high,2026-10-05T11:10:47+00:00,2026-10-05T11:10:47+00:00,1,Cloudsek:2026-10-05,Used as a final exfiltration destination by attackers
-ipv4,195.64.128.106,high,2026-10-05T02:54:00+00:00,2026-10-05T02:54:00+00:00,1,Malware-Traffic-Analysis:2026-10-05,Listed as C2 traffic for CNCmachineRMS RAT
-ipv4,45.138.12.177,high,2026-10-05T00:00:00+00:00,2026-10-05T00:00:00+00:00,1,Safedep:2026-10-05,Used as a reverse shell endpoint by malicious gems
-ipv4,213.209.159.55,high,2026-10-04T22:10:13+00:00,2026-10-04T22:10:13+00:00,1,Bleepingcomputer:2026-10-04,IP address used to download a payload in an attack sequence

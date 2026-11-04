@@ -1,17 +1,28 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason
-ipv4,219.134.163.210,high,2026-11-02T14:28:46+00:00,2026-11-02T21:30:50.094224+00:00,4,,Used as a host for the MQTT broker in the malware campaign
-ipv4,219.134.163.211,high,2026-11-02T14:28:46+00:00,2026-11-02T21:30:50.094224+00:00,2,,Used as a host for the MQTT broker in the malware campaign
+ipv4,142.111.194.73,high,2026-11-03T18:01:44.363139+00:00,2026-11-04T10:11:03.626581+00:00,1,,Listed as BeautyStealer exfiltration server
+ipv4,45.194.90.57,high,2026-11-03T23:53:53+00:00,2026-11-04T04:34:30.223780+00:00,2,,Used to download a payload in the attack process
+ipv4,89.127.233.127,high,2026-11-04T03:08:03.338852+00:00,2026-11-04T03:33:48+00:00,2,,IP address used by the attacker
+ipv4,43.175.144.148,high,2026-11-04T03:08:03.338852+00:00,2026-11-04T03:08:03.338852+00:00,1,,IP address served modified malicious files
+ipv4,43.175.145.181,high,2026-11-04T03:08:03.338852+00:00,2026-11-04T03:08:03.338852+00:00,1,,IP address served modified malicious files
+ipv4,89.126.250.172,high,2026-11-04T03:08:03.338852+00:00,2026-11-04T03:08:03.338852+00:00,1,,IP address used by the attacker until a specific date
+ipv4,130.94.11.60,high,2026-11-04T02:38:03.647347+00:00,2026-11-04T02:38:03.647347+00:00,1,,"IP address hosting GodPotato source or builds, indicating attacker-controlled infrastructure"
+ipv4,149.88.73.163,high,2026-11-04T02:38:03.647347+00:00,2026-11-04T02:38:03.647347+00:00,1,,"IP address hosting GodPotato source or builds, indicating attacker-controlled infrastructure"
+ipv4,154.89.151.143,high,2026-11-04T02:38:03.647347+00:00,2026-11-04T02:38:03.647347+00:00,1,,"IP address hosting GodPotato source or builds, indicating attacker-controlled infrastructure"
+ipv4,177.3.42.39,high,2026-11-04T02:38:03.647347+00:00,2026-11-04T02:38:03.647347+00:00,1,,"IP address hosting GodPotato source or builds, indicating attacker-controlled infrastructure"
+ipv4,38.60.252.110,high,2026-10-08T20:23:28+00:00,2026-11-04T02:38:03.647347+00:00,2,,"IP address hosting GodPotato source or builds, indicating attacker-controlled infrastructure"
+ipv4,192.162.199.243,high,2026-10-31T04:33:12.221801+00:00,2026-11-03T22:08:07.499011+00:00,1,,IP address hosted domains linked to fraudulent operations
+ipv4,192.64.119.163,high,2026-10-31T04:33:12.221801+00:00,2026-11-03T22:08:07.499011+00:00,1,,IP address associated with Magnetic Team's infrastructure
+ipv4,31.76.10.48,high,2026-10-31T04:33:12.221801+00:00,2026-11-03T22:08:07.499011+00:00,1,,IP address associated with Magnetic Team's infrastructure
+ipv4,31.77.159.194,high,2026-10-31T04:33:12.221801+00:00,2026-11-03T22:08:07.499011+00:00,1,,IP address associated with Magnetic Team's infrastructure
+ipv4,81.90.17.100,high,2026-10-31T04:33:12.221801+00:00,2026-11-03T22:08:07.499011+00:00,1,,IP address linked to fraudulent prediction market operations
+ipv4,87.120.165.193,high,2026-10-31T04:33:12.221801+00:00,2026-11-03T22:08:07.499011+00:00,1,,IP address associated with Magnetic Team's infrastructure
+ipv4,219.134.163.210,high,2026-11-02T14:28:46+00:00,2026-11-03T16:32:00.743212+00:00,4,,Used as a host for MQTT broker in the campaign
+ipv4,219.134.163.211,high,2026-11-02T14:28:46+00:00,2026-11-03T16:32:00.743212+00:00,2,,Used as a host for MQTT broker in the campaign
 ipv4,195.16.74.137,high,2026-11-02T17:02:17.201143+00:00,2026-11-02T17:02:17.201143+00:00,1,,Listed as a C2 IP address.
 ipv4,195.16.74.138,high,2026-10-06T12:18:12.787511+00:00,2026-11-02T17:02:17.201143+00:00,2,,Listed as a C2 IP address.
 ipv4,2.56.126.151,high,2026-10-06T12:18:12.787511+00:00,2026-11-02T17:02:17.201143+00:00,2,,Listed as additional staging IP.
 ipv4,45.14.227.58,high,2026-10-30T12:00:43.950153+00:00,2026-11-02T10:07:30.919290+00:00,1,,Associated with DAFOM malware
 ipv4,108.165.147.64,high,2026-10-13T17:33:11+00:00,2026-11-02T10:06:11.096915+00:00,4,,Identified as a host used by the attacker for operations
-ipv4,192.162.199.243,high,2026-10-31T04:33:12.221801+00:00,2026-10-31T04:33:12.221801+00:00,1,,IP address hosted domains linked to fraudulent operations
-ipv4,192.64.119.163,high,2026-10-31T04:33:12.221801+00:00,2026-10-31T04:33:12.221801+00:00,1,,IP address associated with Magnetic Team's infrastructure
-ipv4,31.76.10.48,high,2026-10-31T04:33:12.221801+00:00,2026-10-31T04:33:12.221801+00:00,1,,IP address associated with Magnetic Team's infrastructure
-ipv4,31.77.159.194,high,2026-10-31T04:33:12.221801+00:00,2026-10-31T04:33:12.221801+00:00,1,,IP address associated with Magnetic Team's infrastructure
-ipv4,81.90.17.100,high,2026-10-31T04:33:12.221801+00:00,2026-10-31T04:33:12.221801+00:00,1,,IP address linked to fraudulent prediction market operations
-ipv4,87.120.165.193,high,2026-10-31T04:33:12.221801+00:00,2026-10-31T04:33:12.221801+00:00,1,,IP address associated with Magnetic Team's infrastructure
 ipv4,38.246.114.118,high,2026-10-30T23:02:29+00:00,2026-10-30T23:02:29+00:00,1,,IP address conducting unauthorized key checks linked to attacker activity.
 ipv4,130.94.67.235,high,2026-10-30T17:50:37+00:00,2026-10-30T17:50:37+00:00,1,,Exposed IP address for a custom heap exploit.
 ipv4,79.43.178.226,high,2026-10-30T16:01:04.709172+00:00,2026-10-30T16:01:04.709172+00:00,1,,Used as a C2 server by the attacker
@@ -158,7 +169,6 @@ ipv4,104.234.26.10,high,2026-10-08T20:23:28+00:00,2026-10-08T20:23:28+00:00,1,,L
 ipv4,123.202.208.37,high,2026-10-08T20:23:28+00:00,2026-10-08T20:23:28+00:00,1,,Listed in the IOC section as attacker infrastructure
 ipv4,177.4.12.11,high,2026-10-08T20:23:28+00:00,2026-10-08T20:23:28+00:00,1,,Listed in the IOC section as attacker infrastructure
 ipv4,185.220.236.49,high,2026-10-08T20:23:28+00:00,2026-10-08T20:23:28+00:00,1,,Listed in the IOC section as attacker infrastructure
-ipv4,38.60.252.110,high,2026-10-08T20:23:28+00:00,2026-10-08T20:23:28+00:00,1,,Listed in the IOC section as attacker infrastructure
 ipv4,80.78.27.237,high,2026-10-08T19:12:38.094042+00:00,2026-10-08T19:12:38.094042+00:00,1,,IP associated with attacker infrastructure
 ipv4,80.78.27.252,high,2026-10-08T17:47:35+00:00,2026-10-08T19:12:38.094042+00:00,2,,IP associated with attacker infrastructure
 ipv4,103.248.148.84,high,2026-10-08T12:54:13+00:00,2026-10-08T12:54:13+00:00,1,,Listed as a proxy address associated with the operation
