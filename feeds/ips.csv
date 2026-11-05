@@ -1,232 +1,217 @@
-type,value,confidence,first_seen,last_seen,source_count,sources,reason
-ipv4,142.111.194.73,high,2026-11-04T10:11:03.626581+00:00,2026-11-04T10:11:03.626581+00:00,1,www.welivesecurity.com:2026-11-04,Listed as BeautyStealer exfiltration server
-ipv4,45.194.90.57,high,2026-11-03T23:53:53+00:00,2026-11-04T04:34:30.223780+00:00,2,threat-intelligence.redeyesecurity.com:2026-11-04|Dev.To:2026-11-03,Used to download a payload in the attack process
-ipv4,89.127.233.127,high,2026-11-04T03:08:03.338852+00:00,2026-11-04T03:33:48+00:00,2,Invenglobal:2026-11-04|gist.github.com:2026-11-04,IP address used by the attacker
-ipv4,43.175.144.148,high,2026-11-04T03:08:03.338852+00:00,2026-11-04T03:08:03.338852+00:00,1,gist.github.com:2026-11-04,IP address served modified malicious files
-ipv4,43.175.145.181,high,2026-11-04T03:08:03.338852+00:00,2026-11-04T03:08:03.338852+00:00,1,gist.github.com:2026-11-04,IP address served modified malicious files
-ipv4,89.126.250.172,high,2026-11-04T03:08:03.338852+00:00,2026-11-04T03:08:03.338852+00:00,1,gist.github.com:2026-11-04,IP address used by the attacker until a specific date
-ipv4,130.94.11.60,high,2026-11-04T02:38:03.647347+00:00,2026-11-04T02:38:03.647347+00:00,1,hunt.io:2026-11-04,"IP address hosting GodPotato source or builds, indicating attacker-controlled infrastructure"
-ipv4,149.88.73.163,high,2026-11-04T02:38:03.647347+00:00,2026-11-04T02:38:03.647347+00:00,1,hunt.io:2026-11-04,"IP address hosting GodPotato source or builds, indicating attacker-controlled infrastructure"
-ipv4,154.89.151.143,high,2026-11-04T02:38:03.647347+00:00,2026-11-04T02:38:03.647347+00:00,1,hunt.io:2026-11-04,"IP address hosting GodPotato source or builds, indicating attacker-controlled infrastructure"
-ipv4,177.3.42.39,high,2026-11-04T02:38:03.647347+00:00,2026-11-04T02:38:03.647347+00:00,1,hunt.io:2026-11-04,"IP address hosting GodPotato source or builds, indicating attacker-controlled infrastructure"
-ipv4,38.60.252.110,high,2026-10-08T20:23:28+00:00,2026-11-04T02:38:03.647347+00:00,2,hunt.io:2026-11-04|Huntress:2026-10-08,"IP address hosting GodPotato source or builds, indicating attacker-controlled infrastructure"
-ipv4,192.162.199.243,high,2026-11-03T22:08:07.499011+00:00,2026-11-03T22:08:07.499011+00:00,1,www.recordedfuture.com:2026-11-03,IP address hosted domains linked to fraudulent operations
-ipv4,192.64.119.163,high,2026-11-03T22:08:07.499011+00:00,2026-11-03T22:08:07.499011+00:00,1,www.recordedfuture.com:2026-11-03,IP address associated with Magnetic Team's infrastructure
-ipv4,31.76.10.48,high,2026-11-03T22:08:07.499011+00:00,2026-11-03T22:08:07.499011+00:00,1,www.recordedfuture.com:2026-11-03,IP address associated with Magnetic Team's infrastructure
-ipv4,31.77.159.194,high,2026-11-03T22:08:07.499011+00:00,2026-11-03T22:08:07.499011+00:00,1,www.recordedfuture.com:2026-11-03,IP address associated with Magnetic Team's infrastructure
-ipv4,81.90.17.100,high,2026-11-03T22:08:07.499011+00:00,2026-11-03T22:08:07.499011+00:00,1,www.recordedfuture.com:2026-11-03,IP address linked to fraudulent prediction market operations
-ipv4,87.120.165.193,high,2026-11-03T22:08:07.499011+00:00,2026-11-03T22:08:07.499011+00:00,1,www.recordedfuture.com:2026-11-03,IP address associated with Magnetic Team's infrastructure
-ipv4,219.134.163.210,high,2026-11-02T14:28:46+00:00,2026-11-03T16:32:00.743212+00:00,4,www.anrdoezrs.net:2026-11-03|Sqmagazine:2026-11-02|synthient.com:2026-11-02|Cloud.Google:2026-11-02,Used as a host for MQTT broker in the campaign
-ipv4,219.134.163.211,high,2026-11-02T14:28:46+00:00,2026-11-03T16:32:00.743212+00:00,2,www.anrdoezrs.net:2026-11-03|Cloud.Google:2026-11-02,Used as a host for MQTT broker in the campaign
-ipv4,195.16.74.137,high,2026-11-02T17:02:17.201143+00:00,2026-11-02T17:02:17.201143+00:00,1,www.group-ib.com:2026-11-02,Listed as a C2 IP address.
-ipv4,195.16.74.138,high,2026-10-10T05:02:45.293755+00:00,2026-11-02T17:02:17.201143+00:00,2,www.group-ib.com:2026-11-02|www.elastic.co:2026-10-10,IP address associated with attacker-controlled domain
-ipv4,2.56.126.151,high,2026-10-10T05:02:45.293755+00:00,2026-11-02T17:02:17.201143+00:00,2,www.group-ib.com:2026-11-02|www.elastic.co:2026-10-10,IP address associated with attacker-controlled domain
-ipv4,45.14.227.58,high,2026-11-02T10:07:30.919290+00:00,2026-11-02T10:07:30.919290+00:00,1,www.cisa.gov:2026-11-02,Associated with DAFOM malware
-ipv4,108.165.147.64,high,2026-10-13T17:33:11+00:00,2026-11-02T10:06:11.096915+00:00,4,www.volexity.com:2026-11-02|Ccb.Belgium.Be:2026-10-14|Rescana:2026-10-14|Feeds.Feedburner:2026-10-13,Identified as a host used by the attacker for operations
-ipv4,38.246.114.118,high,2026-10-30T23:02:29+00:00,2026-10-30T23:02:29+00:00,1,Wiz:2026-10-30,IP address conducting unauthorized key checks linked to attacker activity.
-ipv4,130.94.67.235,high,2026-10-30T17:50:37+00:00,2026-10-30T17:50:37+00:00,1,Reddit:2026-10-30,Exposed IP address for a custom heap exploit.
-ipv4,79.43.178.226,high,2026-10-30T16:01:04.709172+00:00,2026-10-30T16:01:04.709172+00:00,1,www.fortian.com.au:2026-10-30,Used as a C2 server by the attacker
-ipv4,45.94.47.224,high,2026-10-30T16:01:04.505393+00:00,2026-10-30T16:01:04.505393+00:00,1,www.esentire.com:2026-10-30,Configured as a C2 server in the attacker's setup
-ipv4,87.120.219.26,high,2026-10-30T16:01:04.505393+00:00,2026-10-30T16:01:04.505393+00:00,1,www.esentire.com:2026-10-30,Identified as a C2 server in the attacker's configuration
-ipv4,144.31.244.184,high,2026-10-30T11:13:57+00:00,2026-10-30T11:13:57+00:00,1,Bloglab.360:2026-10-30,Listed as part of C2 infrastructure
-ipv4,46.151.182.28,high,2026-10-30T11:13:57+00:00,2026-10-30T11:13:57+00:00,1,Bloglab.360:2026-10-30,Listed as part of C2 infrastructure
-ipv4,78.159.156.74,high,2026-10-30T11:13:57+00:00,2026-10-30T11:13:57+00:00,1,Bloglab.360:2026-10-30,Listed as an IP address used in a phishing campaign.
-ipv4,185.237.166.55,high,2026-10-30T05:45:56+00:00,2026-10-30T05:45:56+00:00,1,Cyfirma:2026-10-30,Listed in a YARA rule for detecting threat activity.
-ipv4,13.163.205.35,high,2026-10-29T19:50:25+00:00,2026-10-29T19:50:25+00:00,1,Thehackernews:2026-10-29,IP address where stolen data was left open on the internet
-ipv4,94.154.43.163,high,2026-10-29T16:07:42+00:00,2026-10-29T16:07:42+00:00,1,Bitsight:2026-10-29,Associated with malicious activity and listed on Spamhaus ASN-DROP
-ipv4,180.178.50.158,high,2026-10-29T15:40:51.693483+00:00,2026-10-29T15:40:51.693483+00:00,1,safedep.io:2026-10-29,IP address used for C2 infrastructure.
-ipv4,5.255.61.234,high,2026-10-29T13:00:00+00:00,2026-10-29T13:00:00+00:00,1,Zimperium:2026-10-29,Linked to malicious infrastructure through historical DNS records
-ipv4,87.120.196.120,high,2026-10-29T10:05:07+00:00,2026-10-29T10:05:07+00:00,1,Blog.Talosintelligence:2026-10-29,IP address hosts the NIK C2 framework controlled by the threat actor.
-ipv4,45.139.104.115,high,2026-10-19T14:05:31.040619+00:00,2026-10-28T22:30:29.446826+00:00,2,blog.gitguardian.com:2026-10-28|opensourcemalware.com:2026-10-19,"IP address used as an exfiltration endpoint in the attack campaign, indicating attacker control."
-ipv4,16.5.0.225,high,2026-10-28T12:00:04+00:00,2026-10-28T12:00:04+00:00,1,Cloudsek:2026-10-28,Identified as staging mirrors for attacker infrastructure
-ipv4,16.5.0.226,high,2026-10-28T12:00:04+00:00,2026-10-28T12:00:04+00:00,1,Cloudsek:2026-10-28,Identified as staging mirrors for attacker infrastructure
-ipv4,176.98.182.21,high,2026-10-28T12:00:04+00:00,2026-10-28T12:00:04+00:00,1,Cloudsek:2026-10-28,Listed as part of malicious infrastructure to be blocked
-ipv4,45.90.13.11,high,2026-10-28T12:00:04+00:00,2026-10-28T12:00:04+00:00,1,Cloudsek:2026-10-28,Listed as part of malicious infrastructure to be blocked
-ipv4,45.90.13.169,high,2026-10-28T12:00:04+00:00,2026-10-28T12:00:04+00:00,1,Cloudsek:2026-10-28,Listed as part of malicious infrastructure to be blocked
-ipv4,43.228.157.68,high,2026-10-28T02:58:27+00:00,2026-10-28T06:31:20.619550+00:00,2,www.infoworld.com:2026-10-28|Csoonline:2026-10-28,Reported as a server used in exploitation infrastructure
-ipv4,189.249.195.244,high,2026-10-28T06:01:28+00:00,2026-10-28T06:01:28+00:00,1,Redpacketsecurity:2026-10-28,Identified as a Mythic-branded C2 interface
-ipv4,103.151.172.95,high,2026-10-27T13:32:48+00:00,2026-10-27T13:32:48+00:00,1,Wiz:2026-10-27,Used in an exploit attempt against a honeypot.
-ipv4,85.11.187.35,high,2026-10-27T13:32:48+00:00,2026-10-27T13:32:48+00:00,1,Wiz:2026-10-27,Used in an exploitation attempt.
-ipv4,94.154.43.7,high,2026-10-26T18:38:14+00:00,2026-10-26T18:38:14+00:00,1,Cyberkendra:2026-10-26,"Rated as malicious with high confidence by ELLIO, linked to mass exploitation"
-ipv4,64.95.10.223,high,2026-10-26T18:30:29.359684+00:00,2026-10-26T18:30:29.359684+00:00,1,www.welivesecurity.com:2026-10-26,Listed as MATCHBOIL C&C IP
-ipv4,64.95.13.210,high,2026-10-26T18:30:29.359684+00:00,2026-10-26T18:30:29.359684+00:00,1,www.welivesecurity.com:2026-10-26,Listed as MATCHBOIL C&C IP
-ipv4,217.60.194.116,high,2026-10-19T17:34:34+00:00,2026-10-25T20:32:13.039275+00:00,2,www.boredhackerblog.info:2026-10-25|Thehackernews:2026-10-19,Source of malicious file downloads
-ipv4,185.17.0.52,high,2026-10-25T15:30:36.879000+00:00,2026-10-25T15:30:36.879000+00:00,1,asec.ahnlab.com:2026-10-25,"IP address used to host and distribute malware, including Amadey and RedLine"
-ipv4,103.249.201.108,high,2026-10-25T10:00:46.226969+00:00,2026-10-25T10:00:46.226969+00:00,1,www.lumen.com:2026-10-25,Listed as a C2 IP address associated with the campaign
-ipv4,120.224.114.212,high,2026-10-25T10:00:46.226969+00:00,2026-10-25T10:00:46.226969+00:00,1,www.lumen.com:2026-10-25,Listed as additional infrastructure used during the campaign
-ipv4,136.148.69.233,high,2026-10-25T10:00:46.226969+00:00,2026-10-25T10:00:46.226969+00:00,1,www.lumen.com:2026-10-25,Listed as additional infrastructure used during the campaign
-ipv4,185.132.53.158,high,2026-10-25T10:00:46.226969+00:00,2026-10-25T10:00:46.226969+00:00,1,www.lumen.com:2026-10-25,Listed as additional infrastructure used during the campaign
-ipv4,191.37.28.160,high,2026-10-25T10:00:46.226969+00:00,2026-10-25T10:00:46.226969+00:00,1,www.lumen.com:2026-10-25,Listed as additional infrastructure used during the campaign
-ipv4,89.39.253.46,high,2026-10-25T10:00:46.226969+00:00,2026-10-25T10:00:46.226969+00:00,1,www.lumen.com:2026-10-25,Listed as additional infrastructure used during the campaign
-ipv4,92.119.164.50,high,2026-10-25T10:00:46.226969+00:00,2026-10-25T10:00:46.226969+00:00,1,www.lumen.com:2026-10-25,Listed as a C2 IP address associated with the campaign
-ipv4,92.119.165.74,high,2026-10-25T10:00:46.226969+00:00,2026-10-25T10:00:46.226969+00:00,1,www.lumen.com:2026-10-25,Listed as additional infrastructure used during the campaign
-ipv4,162.33.178.213,high,2026-10-24T15:35:22.094108+00:00,2026-10-24T15:35:22.094108+00:00,1,www.group-ib.com:2026-10-24,IP used to host and deliver malicious agents
-ipv4,193.149.187.81,high,2026-10-24T15:35:22.094108+00:00,2026-10-24T15:35:22.094108+00:00,1,www.group-ib.com:2026-10-24,IP used for hosting malicious payload
-ipv4,64.94.85.14,high,2026-10-24T15:35:22.094108+00:00,2026-10-24T15:35:22.094108+00:00,1,www.group-ib.com:2026-10-24,IP hosting C2 infrastructure
-ipv4,45.227.254.43,high,2026-10-23T17:50:47+00:00,2026-10-24T10:39:08+00:00,3,News.Lavx.Hu:2026-10-24|Socprime:2026-10-23|Thehackernews:2026-10-23,Identified as an exposed command-and-control server used by the ransomware groups
-ipv4,199.91.221.39,high,2026-10-24T00:55:25+00:00,2026-10-24T00:55:25+00:00,1,Docs.Litellm.Ai:2026-10-24,Used by attacker to change workflow source in a GitHub attack
-ipv4,69.48.229.143,high,2026-10-24T00:55:25+00:00,2026-10-24T00:55:25+00:00,1,Docs.Litellm.Ai:2026-10-24,Used by attacker to call API with stolen credentials
-ipv4,92.118.112.100,high,2026-10-22T11:32:08.829801+00:00,2026-10-23T18:49:51+00:00,4,Sploitus:2026-10-23|Thehackernews:2026-10-23|Arcticwolf:2026-10-22|ellio.tech:2026-10-22,IP address associated with attacker-controlled scanning and exploitation attempts
-ipv4,191.96.225.125,high,2026-10-23T17:31:31+00:00,2026-10-23T17:31:31+00:00,1,Hackread:2026-10-23,Listed as Overlord RAT infrastructure
-ipv4,45.158.8.213,high,2026-10-23T17:31:31+00:00,2026-10-23T17:31:31+00:00,1,Hackread:2026-10-23,Associated with Overlord RAT infrastructure
-ipv4,102.210.149.166,high,2026-10-23T14:01:51.563234+00:00,2026-10-23T14:01:51.563234+00:00,1,hunt.io:2026-10-23,Listed as staging infrastructure for php2shell
-ipv4,104.219.251.31,high,2026-10-23T14:01:51.563234+00:00,2026-10-23T14:01:51.563234+00:00,1,hunt.io:2026-10-23,Listed as staging infrastructure for php2shell
-ipv4,122.10.110.72,high,2026-10-23T14:01:51.563234+00:00,2026-10-23T14:01:51.563234+00:00,1,hunt.io:2026-10-23,Listed as staging infrastructure for php2shell
-ipv4,122.10.17.49,high,2026-10-23T14:01:51.563234+00:00,2026-10-23T14:01:51.563234+00:00,1,hunt.io:2026-10-23,Listed as staging infrastructure for php2shell
-ipv4,206.188.197.105,high,2026-10-23T07:45:06+00:00,2026-10-23T14:01:51.563234+00:00,2,hunt.io:2026-10-23|Thehackernews:2026-10-23,Identified as an attacker-controlled server hosting exploit tooling
-ipv4,41.223.30.7,high,2026-10-23T07:45:06+00:00,2026-10-23T14:01:51.563234+00:00,2,hunt.io:2026-10-23|Thehackernews:2026-10-23,Listed as holding PHP2Shell-related tooling
-ipv4,58.221.60.160,high,2026-10-23T14:01:51.563234+00:00,2026-10-23T14:01:51.563234+00:00,1,hunt.io:2026-10-23,Listed as staging infrastructure for php2shell
-ipv4,193.29.57.161,high,2026-10-23T11:01:21.955683+00:00,2026-10-23T11:01:21.955683+00:00,1,securelist.com:2026-10-23,"Listed under ScrambleCross IPs, indicating attacker control"
-ipv4,45.128.132.6,high,2026-10-23T11:01:21.955683+00:00,2026-10-23T11:01:21.955683+00:00,1,securelist.com:2026-10-23,"Listed under Go malware IPs, indicating attacker control"
-ipv4,45.128.135.15,high,2026-10-23T11:01:21.955683+00:00,2026-10-23T11:01:21.955683+00:00,1,securelist.com:2026-10-23,"Listed under Go malware IPs, indicating attacker control"
-ipv4,5.188.108.22,high,2026-10-23T11:01:21.955683+00:00,2026-10-23T11:01:21.955683+00:00,1,securelist.com:2026-10-23,"Listed under Go malware IPs, indicating attacker control"
-ipv4,5.188.108.228,high,2026-10-23T11:01:21.955683+00:00,2026-10-23T11:01:21.955683+00:00,1,securelist.com:2026-10-23,"Listed under Go malware IPs, indicating attacker control"
-ipv4,5.188.93.132,high,2026-10-23T11:01:21.955683+00:00,2026-10-23T11:01:21.955683+00:00,1,securelist.com:2026-10-23,"Listed under Go malware IPs, indicating attacker control"
-ipv4,5.189.222.33,high,2026-10-23T11:01:21.955683+00:00,2026-10-23T11:01:21.955683+00:00,1,securelist.com:2026-10-23,"Listed under Go malware IPs, indicating attacker control"
-ipv4,92.223.105.246,high,2026-10-23T11:01:21.955683+00:00,2026-10-23T11:01:21.955683+00:00,1,securelist.com:2026-10-23,"Listed under Go malware IPs, indicating attacker control"
-ipv4,92.38.178.246,high,2026-10-23T11:01:21.955683+00:00,2026-10-23T11:01:21.955683+00:00,1,securelist.com:2026-10-23,"Listed under ScrambleCross IPs, indicating attacker control"
-ipv6,2409:40d2:204e:4be:2a1f:f9c9:a055:e00b,high,2026-10-23T07:45:06+00:00,2026-10-23T07:45:06+00:00,1,Thehackernews:2026-10-23,Listed as attempting to exploit PHP2Shell vulnerabilities
-ipv4,191.101.130.244,high,2026-10-23T07:30:31.639609+00:00,2026-10-23T07:30:31.639609+00:00,1,www.safebreach.com:2026-10-23,IP used as an RDP server by the attacker
-ipv4,45.80.148.195,high,2026-10-23T07:30:31.639609+00:00,2026-10-23T07:30:31.639609+00:00,1,www.safebreach.com:2026-10-23,IP used as a C2 server by the threat actor
-ipv4,45.80.148.249,high,2026-10-23T07:30:31.639609+00:00,2026-10-23T07:30:31.639609+00:00,1,www.safebreach.com:2026-10-23,IP used as a C2 server by the threat actor
-ipv4,45.80.149.100,high,2026-10-23T07:30:31.639609+00:00,2026-10-23T07:30:31.639609+00:00,1,www.safebreach.com:2026-10-23,IP used as a C2 server by the threat actor
-ipv4,45.80.149.3,high,2026-10-23T07:30:31.639609+00:00,2026-10-23T07:30:31.639609+00:00,1,www.safebreach.com:2026-10-23,IP used as a C2 server by the threat actor
-ipv4,186.2.175.183,high,2026-10-23T07:19:06+00:00,2026-10-23T07:19:06+00:00,1,Zscaler:2026-10-23,Listed as a C2 server for Armorsteal
-ipv4,209.99.186.187,high,2026-10-23T07:19:06+00:00,2026-10-23T07:19:06+00:00,1,Zscaler:2026-10-23,"Listed as hosting fake Chocolatey website, part of attacker infrastructure"
-ipv4,82.153.135.80,high,2026-10-23T07:19:06+00:00,2026-10-23T07:19:06+00:00,1,Zscaler:2026-10-23,Used to host fake Chocolatey and Massgrave lure websites
-ipv4,154.37.213.27,high,2026-10-23T04:11:38+00:00,2026-10-23T04:11:38+00:00,1,Cyfirma:2026-10-23,Listed in a YARA rule as exploit hosting infrastructure
-ipv4,170.231.237.214,high,2026-10-23T04:11:38+00:00,2026-10-23T04:11:38+00:00,1,Cyfirma:2026-10-23,Listed in a YARA rule as exploit hosting infrastructure
-ipv4,196.189.236.67,high,2026-10-23T04:11:38+00:00,2026-10-23T04:11:38+00:00,1,Cyfirma:2026-10-23,Listed in a YARA rule as exploit hosting infrastructure
-ipv4,38.54.50.151,high,2026-10-22T17:18:22+00:00,2026-10-22T23:44:11+00:00,4,Scworld:2026-10-22|X:2026-10-22|Mezha:2026-10-22|Bleepingcomputer:2026-10-22,Listed as a source IP for attacks
-ipv4,66.29.153.90,high,2026-10-22T19:36:42.065904+00:00,2026-10-22T19:36:42.065904+00:00,1,www.proofpoint.com:2026-10-22,Resolved to by attacker-controlled domain gettogether.quest
-ipv4,91.231.182.187,high,2026-10-22T18:31:10.890874+00:00,2026-10-22T18:31:10.890874+00:00,1,www.welivesecurity.com:2026-10-22,C&C server in payloads downloaded by PteroPaste
-ipv4,210.242.76.32,high,2026-10-22T17:49:54+00:00,2026-10-22T17:49:54+00:00,1,Thehackernews:2026-10-22,IP address used in exploitation attempts originating from Taiwan.
-ipv4,211.20.144.116,high,2026-10-22T17:49:54+00:00,2026-10-22T17:49:54+00:00,1,Thehackernews:2026-10-22,IP address used in exploitation attempts originating from Taiwan.
-ipv4,193.32.204.199,high,2026-10-07T13:03:38+00:00,2026-10-22T14:08:12+00:00,2,News.Ycombinator:2026-10-22|Blog.Gitguardian:2026-10-07,Listed as an exfiltration endpoint used by attackers.
-ipv4,185.238.2.195,high,2026-10-22T13:04:01+00:00,2026-10-22T13:04:01+00:00,1,Huntress:2026-10-22,Listed as an AiTM relay used by attackers.
-ipv4,192.159.99.172,high,2026-10-22T13:04:01+00:00,2026-10-22T13:04:01+00:00,1,Huntress:2026-10-22,Listed as a 1337 Services address used in attacks.
-ipv4,45.83.31.44,high,2026-10-22T13:04:01+00:00,2026-10-22T13:04:01+00:00,1,Huntress:2026-10-22,Listed as a 1337 Services address used in attacks.
-ipv4,193.148.56.97,high,2026-10-22T13:00:02+00:00,2026-10-22T13:00:02+00:00,1,Varonis:2026-10-22,Listed as a C2 address used by Stadia RAT
-ipv4,91.92.43.45,high,2026-10-22T13:00:02+00:00,2026-10-22T13:00:02+00:00,1,Varonis:2026-10-22,Listed as a C2 address used by Stadia RAT
-ipv4,93.152.213.215,high,2026-10-22T13:00:02+00:00,2026-10-22T13:00:02+00:00,1,Varonis:2026-10-22,Listed as a C2 address used by Stadia RAT
-ipv4,117.55.202.115,high,2026-10-22T11:32:08.829801+00:00,2026-10-22T11:32:08.829801+00:00,1,ellio.tech:2026-10-22,Used as a staging host for second-stage payloads
-ipv4,134.154.64.199,high,2026-10-22T11:32:08.829801+00:00,2026-10-22T11:32:08.829801+00:00,1,ellio.tech:2026-10-22,Derived command and control address
-ipv4,150.251.112.208,high,2026-10-22T11:32:08.829801+00:00,2026-10-22T11:32:08.829801+00:00,1,ellio.tech:2026-10-22,Listed as a C2 server in the binary
-ipv4,185.5.70.233,high,2026-10-22T11:32:08.829801+00:00,2026-10-22T11:32:08.829801+00:00,1,ellio.tech:2026-10-22,Used in conjunction with attacker infrastructure
-ipv4,64.199.134.154,high,2026-10-22T11:32:08.829801+00:00,2026-10-22T11:32:08.829801+00:00,1,ellio.tech:2026-10-22,Related to command and control infrastructure
-ipv4,211.240.117.200,high,2026-10-22T11:32:08.326901+00:00,2026-10-22T11:32:08.326901+00:00,1,beelzebub.ai:2026-10-22,Listed as an IP making suspicious requests.
-ipv4,168.100.8.57,high,2026-10-21T23:16:31+00:00,2026-10-21T23:16:31+00:00,1,Rescana:2026-10-21,Source IP address seen checking stolen AWS credentials
-ipv4,2.27.248.127,high,2026-10-20T07:11:45+00:00,2026-10-21T19:01:41.433743+00:00,3,productcert.siemens.com:2026-10-21|Helpnetsecurity:2026-10-20|Thehackernews:2026-10-20,IP address listed as part of attacker infrastructure to be blocked
-ipv4,96.62.218.59,high,2026-10-20T07:11:45+00:00,2026-10-21T19:01:41.433743+00:00,2,productcert.siemens.com:2026-10-21|Thehackernews:2026-10-20,IP address listed as part of attacker infrastructure to be blocked
-ipv4,167.148.201.106,high,2026-10-21T13:03:40+00:00,2026-10-21T13:03:40+00:00,1,Huntress:2026-10-21,C2 traffic generated by NetSupport Client software
-ipv4,79.130.26.202,high,2026-10-21T11:32:04.373928+00:00,2026-10-21T11:32:04.373928+00:00,1,www.rapid7.com:2026-10-21,Listed as a threat actor source IP in a campaign
-ipv4,185.225.226.62,high,2026-10-20T22:00:38.188496+00:00,2026-10-21T10:30:27+00:00,2,Thehackernews:2026-10-21|lists.torproject.org:2026-10-20,IP address used by attacker to log into the management server
-ipv4,162.33.177.177,high,2026-10-21T04:13:31+00:00,2026-10-21T04:13:31+00:00,1,Github:2026-10-21,Communicating with a persistent NodeJS service registered by the attacker
-ipv4,212.73.134.136,high,2026-10-20T21:22:02+00:00,2026-10-20T21:22:02+00:00,1,Wiz:2026-10-20,Used as a source IP for phishing activity
-ipv4,194.87.108.217,high,2026-10-20T11:06:25+00:00,2026-10-20T11:06:25+00:00,1,Thehackernews:2026-10-20,Listed as a LegionRelay C2 server used in attacks
-ipv4,91.149.221.118,high,2026-10-20T11:06:25+00:00,2026-10-20T11:06:25+00:00,1,Thehackernews:2026-10-20,Listed as a LegionRelay C2 server used in attacks
-ipv4,91.149.221.123,high,2026-10-20T11:06:25+00:00,2026-10-20T11:06:25+00:00,1,Thehackernews:2026-10-20,Listed as a LegionRelay C2 server used in attacks
-ipv6,2a09:bac5:4e21:2e3c::49b:9,high,2026-10-19T20:02:56+00:00,2026-10-20T03:02:44.775826+00:00,2,wordpress.org:2026-10-20|Wordfence:2026-10-19,Listed as a source address for malicious requests
-ipv4,176.65.139.228,high,2026-10-19T23:53:48+00:00,2026-10-19T23:53:48+00:00,1,Cybernewsai:2026-10-19,Listed as part of an attacker's scanning infrastructure
-ipv4,78.128.113.14,high,2026-10-19T22:38:04.235893+00:00,2026-10-19T22:38:04.235893+00:00,1,www.godaddy.com:2026-10-19,Used for plugin installations in malicious campaigns
-ipv4,176.123.26.67,high,2026-10-16T19:31:23.681851+00:00,2026-10-16T19:31:23.681851+00:00,1,citizenlab.ca:2026-10-16,Listed as an IP address associated with Candiru's infrastructure
-ipv4,185.25.50.194,high,2026-10-16T19:31:23.681851+00:00,2026-10-16T19:31:23.681851+00:00,1,citizenlab.ca:2026-10-16,Associated with CHAINSHOT exploit kit linked to Candiru
-ipv4,69.28.67.162,high,2026-10-16T19:31:23.681851+00:00,2026-10-16T19:31:23.681851+00:00,1,citizenlab.ca:2026-10-16,Listed as an IP address associated with Candiru's infrastructure
-ipv4,49.207.56.74,high,2026-10-16T12:01:13.068620+00:00,2026-10-16T12:01:13.068620+00:00,1,www.sysdig.com:2026-10-16,Referenced as the source of exploitation attempts in the article.
-ipv4,185.21.136.6,high,2026-10-16T10:31:51+00:00,2026-10-16T10:31:51+00:00,1,Bloglab.360:2026-10-16,Listed as part of attacker infrastructure in a threat report
-ipv4,198.23.185.234,high,2026-10-16T10:31:51+00:00,2026-10-16T10:31:51+00:00,1,Bloglab.360:2026-10-16,Listed as part of attacker infrastructure in a threat report
-ipv4,2.59.134.215,high,2026-10-16T08:01:09.321258+00:00,2026-10-16T08:01:09.321258+00:00,1,www.group-ib.com:2026-10-16,Listed as a secondary C2 server in the IOC section
-ipv4,23.240.77.233,high,2026-10-14T22:42:29+00:00,2026-10-16T05:04:36+00:00,2,Thehackernews:2026-10-16|Unit42.Paloaltonetworks:2026-10-14,Identified as known external staging infrastructure used by attackers
-ipv4,91.196.33.144,high,2026-10-15T15:12:22.476814+00:00,2026-10-15T15:12:22.476814+00:00,1,www.infoblox.com:2026-10-15,Resolved from hotcname.help used in tech support scams
-ipv4,47.18.167.159,high,2026-10-14T22:42:29+00:00,2026-10-14T22:42:29+00:00,1,Unit42.Paloaltonetworks:2026-10-14,Identified as known external staging infrastructure used by attackers
-ipv4,139.28.18.122,high,2026-10-14T20:05:01.148615+00:00,2026-10-14T20:05:01.148615+00:00,1,github.com:2026-10-14,IP address used in successful hacks on Nextcloud servers
-ipv4,193.124.203.226,high,2026-10-14T15:02:37.397197+00:00,2026-10-14T15:02:37.397197+00:00,1,www.group-ib.com:2026-10-14,IP address listed among others in a context suggesting attacker-controlled infrastructure.
-ipv4,138.124.123.87,high,2026-10-14T13:59:36+00:00,2026-10-14T13:59:36+00:00,1,Darktrace:2026-10-14,Used in suspicious WebDAV communication for malware delivery
-ipv4,77.110.127.205,high,2026-10-14T13:59:36+00:00,2026-10-14T13:59:36+00:00,1,Darktrace:2026-10-14,Involved in unusual C2 communication
-ipv4,158.94.209.19,high,2026-10-13T21:00:10+00:00,2026-10-13T21:00:10+00:00,1,Huntress:2026-10-13,IP address resolving to a credential collection endpoint.
-ipv4,193.178.159.129,high,2026-10-13T11:53:10.900000+00:00,2026-10-13T11:53:10.900000+00:00,1,Blog.Virustotal:2026-10-13,Listed as a C2 server for second-stage bot communication
-ipv4,61.18.208.27,high,2026-10-08T06:42:10+00:00,2026-10-12T14:53:04+00:00,2,The420.In:2026-10-12|Morphisec:2026-10-08,Communicates with VulcanRAT207.A as a C2 server
-ipv4,118.145.196.225,high,2026-10-11T16:02:05.609563+00:00,2026-10-11T16:02:05.609563+00:00,1,www.fortinet.com:2026-10-11,Listed as a download source for malware by the attacker
-ipv4,124.163.212.119,high,2026-10-11T16:02:05.609563+00:00,2026-10-11T16:02:05.609563+00:00,1,www.fortinet.com:2026-10-11,Listed as a download source for malware by the attacker
-ipv4,222.223.152.97,high,2026-10-11T16:02:05.609563+00:00,2026-10-11T16:02:05.609563+00:00,1,www.fortinet.com:2026-10-11,Listed as a download source for malware by the attacker
-ipv4,2.56.126.157,high,2026-10-10T05:02:45.293755+00:00,2026-10-10T05:02:45.293755+00:00,1,www.elastic.co:2026-10-10,IP address associated with attacker-controlled domain
-ipv4,2.56.126.188,high,2026-10-10T05:02:45.293755+00:00,2026-10-10T05:02:45.293755+00:00,1,www.elastic.co:2026-10-10,IP address associated with attacker-controlled domain
-ipv4,112.213.108.85,high,2026-10-09T18:00:23.022990+00:00,2026-10-09T18:00:23.022990+00:00,1,censys.com:2026-10-09,Listed as a live production server for C2
-ipv4,14.128.47.81,high,2026-10-09T18:00:23.022990+00:00,2026-10-09T18:00:23.022990+00:00,1,censys.com:2026-10-09,Listed as part of a C2 control panel fleet
-ipv4,154.217.250.206,high,2026-10-09T18:00:23.022990+00:00,2026-10-09T18:00:23.022990+00:00,1,censys.com:2026-10-09,Listed as serving a C2 Control Panel
-ipv4,154.219.127.147,high,2026-10-09T18:00:23.022990+00:00,2026-10-09T18:00:23.022990+00:00,1,censys.com:2026-10-09,Exposes server-side delivery infrastructure
-ipv4,154.219.127.94,high,2026-10-09T18:00:23.022990+00:00,2026-10-09T18:00:23.022990+00:00,1,censys.com:2026-10-09,Identified as egress for staging host
-ipv4,185.189.45.40,high,2026-10-09T18:00:23.022990+00:00,2026-10-09T18:00:23.022990+00:00,1,censys.com:2026-10-09,Capture associated with DarkSword/Coruna kit
-ipv4,199.30.90.154,high,2026-10-09T18:00:23.022990+00:00,2026-10-09T18:00:23.022990+00:00,1,censys.com:2026-10-09,Part of a cluster identified as attacker infrastructure
-ipv4,202.146.222.253,high,2026-10-09T18:00:23.022990+00:00,2026-10-09T18:00:23.022990+00:00,1,censys.com:2026-10-09,Identified as a DarkSword admin panel and old production server
-ipv4,218.25.85.177,high,2026-10-09T18:00:23.022990+00:00,2026-10-09T18:00:23.022990+00:00,1,censys.com:2026-10-09,Part of the operator's lab domain infrastructure
-ipv4,218.25.85.178,high,2026-10-09T18:00:23.022990+00:00,2026-10-09T18:00:23.022990+00:00,1,censys.com:2026-10-09,Part of the operator's lab domain infrastructure
-ipv4,59.46.4.117,high,2026-10-09T18:00:23.022990+00:00,2026-10-09T18:00:23.022990+00:00,1,censys.com:2026-10-09,Part of the operator's lab domain infrastructure
-ipv4,59.46.4.119,high,2026-10-09T18:00:23.022990+00:00,2026-10-09T18:00:23.022990+00:00,1,censys.com:2026-10-09,Part of the operator's lab domain infrastructure
-ipv4,23.148.212.237,high,2026-10-09T16:29:55+00:00,2026-10-09T16:29:55+00:00,1,Thehackernews:2026-10-09,Serves as an analysis workspace for exploit development
-ipv4,185.164.172.128,high,2026-10-09T03:56:52+00:00,2026-10-09T03:56:52+00:00,1,Cyfirma:2026-10-09,Listed in a rule for Proton Decrypter indicators
-ipv4,104.234.26.10,high,2026-10-08T20:23:28+00:00,2026-10-08T20:23:28+00:00,1,Huntress:2026-10-08,Listed in the IOC section as attacker infrastructure
-ipv4,123.202.208.37,high,2026-10-08T20:23:28+00:00,2026-10-08T20:23:28+00:00,1,Huntress:2026-10-08,Listed in the IOC section as attacker infrastructure
-ipv4,177.4.12.11,high,2026-10-08T20:23:28+00:00,2026-10-08T20:23:28+00:00,1,Huntress:2026-10-08,Listed in the IOC section as attacker infrastructure
-ipv4,185.220.236.49,high,2026-10-08T20:23:28+00:00,2026-10-08T20:23:28+00:00,1,Huntress:2026-10-08,Listed in the IOC section as attacker infrastructure
-ipv4,80.78.27.237,high,2026-10-08T19:12:38.094042+00:00,2026-10-08T19:12:38.094042+00:00,1,hunt.io:2026-10-08,IP associated with attacker infrastructure
-ipv4,80.78.27.252,high,2026-10-08T17:47:35+00:00,2026-10-08T19:12:38.094042+00:00,2,hunt.io:2026-10-08|Securityaffairs.Co:2026-10-08,IP associated with attacker infrastructure
-ipv4,103.248.148.84,high,2026-10-08T12:54:13+00:00,2026-10-08T12:54:13+00:00,1,News.Lavx.Hu:2026-10-08,Listed as a proxy address associated with the operation
-ipv4,154.201.79.246,high,2026-10-08T12:54:13+00:00,2026-10-08T12:54:13+00:00,1,News.Lavx.Hu:2026-10-08,Listed as a proxy address associated with the operation
-ipv4,203.160.133.172,high,2026-10-08T12:54:13+00:00,2026-10-08T12:54:13+00:00,1,News.Lavx.Hu:2026-10-08,Listed as a proxy address associated with the operation
-ipv4,209.209.85.38,high,2026-10-08T12:54:13+00:00,2026-10-08T12:54:13+00:00,1,News.Lavx.Hu:2026-10-08,Listed as a proxy address associated with the operation
-ipv4,23.158.220.98,high,2026-10-08T12:54:13+00:00,2026-10-08T12:54:13+00:00,1,News.Lavx.Hu:2026-10-08,Listed as a proxy address associated with the operation
-ipv4,23.248.249.90,high,2026-10-08T12:54:13+00:00,2026-10-08T12:54:13+00:00,1,News.Lavx.Hu:2026-10-08,Listed as a proxy address associated with the operation
-ipv4,177.75.57.20,high,2026-10-08T11:28:37+00:00,2026-10-08T11:28:37+00:00,1,Patchstack:2026-10-08,Identified as the most active address in coordinated exploitation
-ipv4,156.239.230.120,high,2026-10-08T11:13:46+00:00,2026-10-08T11:13:46+00:00,1,Gbhackers:2026-10-08,Hosts exploit server and C2 platform for DarkSword operations
-ipv4,166.88.95.90,high,2026-10-08T11:13:46+00:00,2026-10-08T11:13:46+00:00,1,Gbhackers:2026-10-08,Telemetry showed suspicious activity from this IP
-ipv4,101.53.80.20,high,2026-10-08T10:16:18+00:00,2026-10-08T10:16:18+00:00,1,Gbhackers:2026-10-08,Listed as a proxy address associated with the operation
-ipv4,124.155.252.63,high,2026-10-08T10:16:18+00:00,2026-10-08T10:16:18+00:00,1,Gbhackers:2026-10-08,Listed as a proxy address associated with the operation
-ipv4,205.214.59.31,high,2026-10-08T10:16:18+00:00,2026-10-08T10:16:18+00:00,1,Gbhackers:2026-10-08,Listed as a proxy address associated with the operation
-ipv4,38.60.157.86,high,2026-10-07T12:49:01+00:00,2026-10-08T07:57:29+00:00,2,Heise.De:2026-10-08|Bleepingcomputer:2026-10-07,Listed as an IP address from which exploit attempts originated
-ipv4,65.87.7.132,high,2026-10-08T00:00:00+00:00,2026-10-08T00:00:00+00:00,1,Cloudsek:2026-10-08,Configured to communicate with a remote-access tool
-ipv4,209.239.79.121,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,securelist.com:2026-10-07,Listed in a structured IOC list as attacker-controlled infrastructure
-ipv4,209.239.79.125,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,securelist.com:2026-10-07,Listed in a structured IOC list as attacker-controlled infrastructure
-ipv4,209.239.79.15,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,securelist.com:2026-10-07,Listed in a structured IOC list as attacker-controlled infrastructure
-ipv4,209.239.79.152,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,securelist.com:2026-10-07,Listed in a structured IOC list as attacker-controlled infrastructure
-ipv4,209.239.79.33,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,securelist.com:2026-10-07,Listed in a structured IOC list as attacker-controlled infrastructure
-ipv4,209.239.79.35,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,securelist.com:2026-10-07,Listed in a structured IOC list as attacker-controlled infrastructure
-ipv4,209.239.79.47,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,securelist.com:2026-10-07,Listed in a structured IOC list as attacker-controlled infrastructure
-ipv4,209.239.79.52,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,securelist.com:2026-10-07,Listed in a structured IOC list as attacker-controlled infrastructure
-ipv4,209.239.79.55,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,securelist.com:2026-10-07,Listed in a structured IOC list as attacker-controlled infrastructure
-ipv4,209.239.79.69,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,securelist.com:2026-10-07,Listed in a structured IOC list as attacker-controlled infrastructure
-ipv4,209.239.82.7,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,securelist.com:2026-10-07,Listed in a structured IOC list as attacker-controlled infrastructure
-ipv4,209.239.85.240,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,securelist.com:2026-10-07,Listed in a structured IOC list as attacker-controlled infrastructure
-ipv4,209.239.89.100,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,securelist.com:2026-10-07,Listed in a structured IOC list as attacker-controlled infrastructure
-ipv4,217.194.150.31,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,securelist.com:2026-10-07,Listed in a structured IOC list as attacker-controlled infrastructure
-ipv4,217.20.242.22,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,securelist.com:2026-10-07,Listed in a structured IOC list as attacker-controlled infrastructure
-ipv4,41.190.233.29,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,securelist.com:2026-10-07,Listed in a structured IOC list as attacker-controlled infrastructure
-ipv4,62.243.189.187,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,securelist.com:2026-10-07,Listed in a structured IOC list as attacker-controlled infrastructure
-ipv4,62.243.189.215,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,securelist.com:2026-10-07,Listed in a structured IOC list as attacker-controlled infrastructure
-ipv4,62.243.189.231,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,securelist.com:2026-10-07,Listed in a structured IOC list as attacker-controlled infrastructure
-ipv4,77.246.71.10,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,securelist.com:2026-10-07,Listed in a structured IOC list as attacker-controlled infrastructure
-ipv4,77.246.76.19,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,securelist.com:2026-10-07,Listed in a structured IOC list as attacker-controlled infrastructure
-ipv4,77.73.187.223,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,securelist.com:2026-10-07,Listed in a structured IOC list as attacker-controlled infrastructure
-ipv4,82.146.166.56,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,securelist.com:2026-10-07,Listed in a structured IOC list as attacker-controlled infrastructure
-ipv4,82.146.166.62,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,securelist.com:2026-10-07,Listed in a structured IOC list as attacker-controlled infrastructure
-ipv4,82.146.174.58,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,securelist.com:2026-10-07,Listed in a structured IOC list as attacker-controlled infrastructure
-ipv4,84.11.79.6,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,securelist.com:2026-10-07,Hardcoded in the configuration block of a malicious sample
-ipv4,92.62.218.99,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,securelist.com:2026-10-07,Listed in a structured IOC list as attacker-controlled infrastructure
-ipv4,92.62.219.172,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,securelist.com:2026-10-07,Listed in a structured IOC list as attacker-controlled infrastructure
-ipv4,92.62.220.170,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,securelist.com:2026-10-07,Listed in a structured IOC list as attacker-controlled infrastructure
-ipv4,92.62.221.30,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,securelist.com:2026-10-07,Listed in a structured IOC list as attacker-controlled infrastructure
-ipv4,92.62.221.38,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,securelist.com:2026-10-07,Listed in a structured IOC list as attacker-controlled infrastructure
-ipv4,45.154.12.132,high,2026-10-07T13:51:21+00:00,2026-10-07T13:51:23+00:00,1,Securityaffairs:2026-10-07,Listed as a C2 server used by the threat actors in the FortiBleed campaign.
-ipv4,103.27.186.156,high,2026-10-07T13:51:21+00:00,2026-10-07T13:51:21+00:00,1,Securityaffairs:2026-10-07,Listed as a proxy node used by threat actors.
-ipv4,154.202.59.169,high,2026-10-07T13:51:21+00:00,2026-10-07T13:51:21+00:00,1,Securityaffairs:2026-10-07,Listed as a proxy node used by threat actors.
-ipv4,170.39.218.2,high,2026-10-07T13:03:38+00:00,2026-10-07T13:03:38+00:00,1,Blog.Gitguardian:2026-10-07,Listed as an endpoint used by attackers.
-ipv4,103.101.85.123,high,2026-10-07T12:02:35.647461+00:00,2026-10-07T12:02:35.647461+00:00,1,www.ontinue.com:2026-10-07,IP address hosts a panel resolving to phishing domains
-ipv4,193.178.158.61,high,2026-10-07T12:02:35.647461+00:00,2026-10-07T12:02:35.647461+00:00,1,www.ontinue.com:2026-10-07,IP address hosts a panel on the same network as the exfiltration server
-ipv4,38.244.50.120,high,2026-10-07T05:00:00+00:00,2026-10-07T05:00:00+00:00,1,Crowdstrike:2026-10-07,Associated with threat actor activity and hosting malicious content.
-ipv4,185.177.72.38,high,2026-10-06T23:29:39+00:00,2026-10-06T23:29:39+00:00,1,F5:2026-10-06,"IP address used in capability probing sequence, indicating attacker control"
-ipv4,38.180.136.127,high,2026-10-06T10:05:56+00:00,2026-10-06T10:05:56+00:00,1,Unit42.Paloaltonetworks:2026-10-06,Used as a secondary IP for phishing infrastructure
-ipv4,87.248.129.239,high,2026-10-06T10:05:56+00:00,2026-10-06T10:05:56+00:00,1,Unit42.Paloaltonetworks:2026-10-06,IP address associated with attacker-controlled domain
-ipv4,118.45.196.225,high,2026-10-06T08:37:33.517997+00:00,2026-10-06T08:37:33.517997+00:00,1,www.nozominetworks.com:2026-10-06,Listed as a loader host for malware
-ipv4,120.193.219.210,high,2026-10-06T08:37:33.517997+00:00,2026-10-06T08:37:33.517997+00:00,1,www.nozominetworks.com:2026-10-06,Listed as a loader host for malware
-ipv4,145.249.115.184,high,2026-10-06T00:44:33+00:00,2026-10-06T08:37:33.517997+00:00,3,www.nozominetworks.com:2026-10-06|Industrialcyber.Co:2026-10-06|News.Lavx.Hu:2026-10-06,Identified as a STUN server controlled by the botnet operator
-ipv4,58.211.144.243,high,2026-10-06T08:37:33.517997+00:00,2026-10-06T08:37:33.517997+00:00,1,www.nozominetworks.com:2026-10-06,Listed as a loader host for malware
+type,value,confidence,first_seen,last_seen,source_count,sources,reason,categories
+ipv4,199.19.77.84,high,2026-11-04T19:04:02+00:00,2026-11-04T20:16:14.776971+00:00,2,www.todyl.com:2026-11-04|Fieldeffect:2026-11-04,Identified as the operator's IP with confirmed malicious activity,malware
+ipv4,142.111.194.73,high,2026-11-04T10:11:03.626581+00:00,2026-11-04T10:11:03.626581+00:00,1,www.welivesecurity.com:2026-11-04,Listed as BeautyStealer exfiltration server,exfiltration
+ipv4,45.194.90.57,high,2026-11-03T23:53:53+00:00,2026-11-04T04:34:30.223780+00:00,2,threat-intelligence.redeyesecurity.com:2026-11-04|Dev.To:2026-11-03,Used to download a payload in the attack process,malware|botnet
+ipv4,112.121.185.218,high,2026-11-04T03:55:19+00:00,2026-11-04T03:55:19+00:00,1,Acronis:2026-11-04,IP address identified as hosting attacker infrastructure,c2|malware|proxy_tunnel
+ipv4,89.127.233.127,high,2026-11-04T03:08:03.338852+00:00,2026-11-04T03:33:48+00:00,2,Invenglobal:2026-11-04|gist.github.com:2026-11-04,Listed as an attacker IP that was shut down,malware|c2
+ipv4,43.175.144.148,high,2026-11-04T03:08:03.338852+00:00,2026-11-04T03:08:03.338852+00:00,1,gist.github.com:2026-11-04,IP address served modified malicious file,malware
+ipv4,43.175.145.181,high,2026-11-04T03:08:03.338852+00:00,2026-11-04T03:08:03.338852+00:00,1,gist.github.com:2026-11-04,IP address served modified malicious file,malware
+ipv4,89.126.250.172,high,2026-11-04T03:08:03.338852+00:00,2026-11-04T03:08:03.338852+00:00,1,gist.github.com:2026-11-04,Listed as an attacker IP used until a specific date,malware
+ipv4,192.162.199.243,high,2026-11-03T22:08:07.499011+00:00,2026-11-03T22:08:07.499011+00:00,1,www.recordedfuture.com:2026-11-03,IP address hosted domains linked to fraudulent operations,scam_fraud
+ipv4,192.64.119.163,high,2026-11-03T22:08:07.499011+00:00,2026-11-03T22:08:07.499011+00:00,1,www.recordedfuture.com:2026-11-03,IP address associated with Magnetic Team's infrastructure,scam_fraud
+ipv4,31.76.10.48,high,2026-11-03T22:08:07.499011+00:00,2026-11-03T22:08:07.499011+00:00,1,www.recordedfuture.com:2026-11-03,IP address associated with Magnetic Team's infrastructure,scam_fraud
+ipv4,31.77.159.194,high,2026-11-03T22:08:07.499011+00:00,2026-11-03T22:08:07.499011+00:00,1,www.recordedfuture.com:2026-11-03,IP address associated with Magnetic Team's infrastructure,scam_fraud
+ipv4,81.90.17.100,high,2026-11-03T22:08:07.499011+00:00,2026-11-03T22:08:07.499011+00:00,1,www.recordedfuture.com:2026-11-03,IP address linked to fraudulent prediction market operations,scam_fraud
+ipv4,87.120.165.193,high,2026-11-03T22:08:07.499011+00:00,2026-11-03T22:08:07.499011+00:00,1,www.recordedfuture.com:2026-11-03,IP address associated with Magnetic Team's infrastructure,scam_fraud
+ipv4,219.134.163.210,high,2026-11-02T14:28:46+00:00,2026-11-03T16:32:00.743212+00:00,4,www.anrdoezrs.net:2026-11-03|Sqmagazine:2026-11-02|synthient.com:2026-11-02|Cloud.Google:2026-11-02,Used as a host for MQTT broker in the campaign,c2|malware
+ipv4,219.134.163.211,high,2026-11-02T14:28:46+00:00,2026-11-03T16:32:00.743212+00:00,2,www.anrdoezrs.net:2026-11-03|Cloud.Google:2026-11-02,Used as a host for MQTT broker in the campaign,c2|malware
+ipv4,195.16.74.137,high,2026-11-02T17:02:17.201143+00:00,2026-11-02T17:02:17.201143+00:00,1,www.group-ib.com:2026-11-02,Listed as a C2 IP address.,c2
+ipv4,195.16.74.138,high,2026-10-10T05:02:45.293755+00:00,2026-11-02T17:02:17.201143+00:00,2,www.group-ib.com:2026-11-02|www.elastic.co:2026-10-10,IP address associated with attacker-controlled domain,c2
+ipv4,2.56.126.151,high,2026-10-10T05:02:45.293755+00:00,2026-11-02T17:02:17.201143+00:00,2,www.group-ib.com:2026-11-02|www.elastic.co:2026-10-10,IP address associated with attacker-controlled domain,other
+ipv4,45.14.227.58,high,2026-11-02T10:07:30.919290+00:00,2026-11-02T10:07:30.919290+00:00,1,www.cisa.gov:2026-11-02,Associated with DAFOM malware,malware
+ipv4,108.165.147.64,high,2026-10-13T17:33:11+00:00,2026-11-02T10:06:11.096915+00:00,4,www.volexity.com:2026-11-02|Ccb.Belgium.Be:2026-10-14|Rescana:2026-10-14|Feeds.Feedburner:2026-10-13,Identified as a host used by the attacker for operations,other
+ipv4,38.246.114.118,high,2026-10-30T23:02:29+00:00,2026-10-30T23:02:29+00:00,1,Wiz:2026-10-30,IP address conducting unauthorized key checks linked to attacker activity.,malware
+ipv4,130.94.67.235,high,2026-10-30T17:50:37+00:00,2026-10-30T17:50:37+00:00,1,Reddit:2026-10-30,Exposed IP address for a custom heap exploit.,exploit
+ipv4,79.43.178.226,high,2026-10-30T16:01:04.709172+00:00,2026-10-30T16:01:04.709172+00:00,1,www.fortian.com.au:2026-10-30,Used as a C2 server by the attacker,c2
+ipv4,45.94.47.224,high,2026-10-30T16:01:04.505393+00:00,2026-10-30T16:01:04.505393+00:00,1,www.esentire.com:2026-10-30,Configured as a C2 server in the attacker's setup,c2
+ipv4,87.120.219.26,high,2026-10-30T16:01:04.505393+00:00,2026-10-30T16:01:04.505393+00:00,1,www.esentire.com:2026-10-30,Identified as a C2 server in the attacker's configuration,c2
+ipv4,144.31.244.184,high,2026-10-30T11:13:57+00:00,2026-10-30T11:13:57+00:00,1,Bloglab.360:2026-10-30,Listed as part of C2 infrastructure,c2
+ipv4,46.151.182.28,high,2026-10-30T11:13:57+00:00,2026-10-30T11:13:57+00:00,1,Bloglab.360:2026-10-30,Listed as part of C2 infrastructure,c2
+ipv4,78.159.156.74,high,2026-10-30T11:13:57+00:00,2026-10-30T11:13:57+00:00,1,Bloglab.360:2026-10-30,Listed as an IP address used in a phishing campaign.,phishing|c2
+ipv4,185.237.166.55,high,2026-10-30T05:45:56+00:00,2026-10-30T05:45:56+00:00,1,Cyfirma:2026-10-30,Listed in a YARA rule for detecting threat activity.,exploit
+ipv4,13.163.205.35,high,2026-10-29T19:50:25+00:00,2026-10-29T19:50:25+00:00,1,Thehackernews:2026-10-29,IP address where stolen data was left open on the internet,exfiltration
+ipv4,94.154.43.163,high,2026-10-29T16:07:42+00:00,2026-10-29T16:07:42+00:00,1,Bitsight:2026-10-29,Associated with malicious activity and listed on Spamhaus ASN-DROP,scanner
+ipv4,180.178.50.158,high,2026-10-29T15:40:51.693483+00:00,2026-10-29T15:40:51.693483+00:00,1,safedep.io:2026-10-29,IP address used for C2 infrastructure.,c2
+ipv4,5.255.61.234,high,2026-10-29T13:00:00+00:00,2026-10-29T13:00:00+00:00,1,Zimperium:2026-10-29,Linked to malicious infrastructure through historical DNS records,malware
+ipv4,87.120.196.120,high,2026-10-29T10:05:07+00:00,2026-10-29T10:05:07+00:00,1,Blog.Talosintelligence:2026-10-29,IP address hosts the NIK C2 framework controlled by the threat actor.,c2
+ipv4,16.5.0.225,high,2026-10-28T12:00:04+00:00,2026-10-28T12:00:04+00:00,1,Cloudsek:2026-10-28,Identified as staging mirrors for attacker infrastructure,malware
+ipv4,16.5.0.226,high,2026-10-28T12:00:04+00:00,2026-10-28T12:00:04+00:00,1,Cloudsek:2026-10-28,Identified as staging mirrors for attacker infrastructure,malware
+ipv4,176.98.182.21,high,2026-10-28T12:00:04+00:00,2026-10-28T12:00:04+00:00,1,Cloudsek:2026-10-28,Listed as part of malicious infrastructure to be blocked,botnet
+ipv4,45.90.13.11,high,2026-10-28T12:00:04+00:00,2026-10-28T12:00:04+00:00,1,Cloudsek:2026-10-28,Listed as part of malicious infrastructure to be blocked,botnet
+ipv4,45.90.13.169,high,2026-10-28T12:00:04+00:00,2026-10-28T12:00:04+00:00,1,Cloudsek:2026-10-28,Listed as part of malicious infrastructure to be blocked,botnet
+ipv4,43.228.157.68,high,2026-10-28T02:58:27+00:00,2026-10-28T06:31:20.619550+00:00,2,www.infoworld.com:2026-10-28|Csoonline:2026-10-28,Reported as a server used in exploitation infrastructure,exploit
+ipv4,189.249.195.244,high,2026-10-28T06:01:28+00:00,2026-10-28T06:01:28+00:00,1,Redpacketsecurity:2026-10-28,Identified as a Mythic-branded C2 interface,c2
+ipv4,103.151.172.95,high,2026-10-27T13:32:48+00:00,2026-10-27T13:32:48+00:00,1,Wiz:2026-10-27,Used in an exploit attempt against a honeypot.,exploit|scanner
+ipv4,85.11.187.35,high,2026-10-27T13:32:48+00:00,2026-10-27T13:32:48+00:00,1,Wiz:2026-10-27,Used in an exploitation attempt.,exploit|scanner
+ipv4,94.154.43.7,high,2026-10-26T18:38:14+00:00,2026-10-26T18:38:14+00:00,1,Cyberkendra:2026-10-26,"Rated as malicious with high confidence by ELLIO, linked to mass exploitation",scanner
+ipv4,64.95.10.223,high,2026-10-26T18:30:29.359684+00:00,2026-10-26T18:30:29.359684+00:00,1,www.welivesecurity.com:2026-10-26,Listed as MATCHBOIL C&C IP,c2
+ipv4,64.95.13.210,high,2026-10-26T18:30:29.359684+00:00,2026-10-26T18:30:29.359684+00:00,1,www.welivesecurity.com:2026-10-26,Listed as MATCHBOIL C&C IP,c2
+ipv4,217.60.194.116,high,2026-10-19T17:34:34+00:00,2026-10-25T20:32:13.039275+00:00,2,www.boredhackerblog.info:2026-10-25|Thehackernews:2026-10-19,Source of malicious file downloads,malware|cryptomining
+ipv4,185.17.0.52,high,2026-10-25T15:30:36.879000+00:00,2026-10-25T15:30:36.879000+00:00,1,asec.ahnlab.com:2026-10-25,"IP address used to host and distribute malware, including Amadey and RedLine",malware
+ipv4,103.249.201.108,high,2026-10-25T10:00:46.226969+00:00,2026-10-25T10:00:46.226969+00:00,1,www.lumen.com:2026-10-25,Listed as a C2 IP address associated with the campaign,c2
+ipv4,120.224.114.212,high,2026-10-25T10:00:46.226969+00:00,2026-10-25T10:00:46.226969+00:00,1,www.lumen.com:2026-10-25,Listed as additional infrastructure used during the campaign,malware
+ipv4,136.148.69.233,high,2026-10-25T10:00:46.226969+00:00,2026-10-25T10:00:46.226969+00:00,1,www.lumen.com:2026-10-25,Listed as additional infrastructure used during the campaign,malware
+ipv4,185.132.53.158,high,2026-10-25T10:00:46.226969+00:00,2026-10-25T10:00:46.226969+00:00,1,www.lumen.com:2026-10-25,Listed as additional infrastructure used during the campaign,malware
+ipv4,191.37.28.160,high,2026-10-25T10:00:46.226969+00:00,2026-10-25T10:00:46.226969+00:00,1,www.lumen.com:2026-10-25,Listed as additional infrastructure used during the campaign,c2
+ipv4,89.39.253.46,high,2026-10-25T10:00:46.226969+00:00,2026-10-25T10:00:46.226969+00:00,1,www.lumen.com:2026-10-25,Listed as additional infrastructure used during the campaign,malware
+ipv4,92.119.164.50,high,2026-10-25T10:00:46.226969+00:00,2026-10-25T10:00:46.226969+00:00,1,www.lumen.com:2026-10-25,Listed as a C2 IP address associated with the campaign,c2
+ipv4,92.119.165.74,high,2026-10-25T10:00:46.226969+00:00,2026-10-25T10:00:46.226969+00:00,1,www.lumen.com:2026-10-25,Listed as additional infrastructure used during the campaign,c2
+ipv4,162.33.178.213,high,2026-10-24T15:35:22.094108+00:00,2026-10-24T15:35:22.094108+00:00,1,www.group-ib.com:2026-10-24,IP used to host and deliver malicious agents,malware
+ipv4,193.149.187.81,high,2026-10-24T15:35:22.094108+00:00,2026-10-24T15:35:22.094108+00:00,1,www.group-ib.com:2026-10-24,IP used for hosting malicious payload,malware
+ipv4,64.94.85.14,high,2026-10-24T15:35:22.094108+00:00,2026-10-24T15:35:22.094108+00:00,1,www.group-ib.com:2026-10-24,IP hosting C2 infrastructure,c2
+ipv4,45.227.254.43,high,2026-10-23T17:50:47+00:00,2026-10-24T10:39:08+00:00,3,News.Lavx.Hu:2026-10-24|Socprime:2026-10-23|Thehackernews:2026-10-23,Identified as an exposed command-and-control server used by the ransomware groups,ransomware|c2
+ipv4,199.91.221.39,high,2026-10-24T00:55:25+00:00,2026-10-24T00:55:25+00:00,1,Docs.Litellm.Ai:2026-10-24,Used by attacker to change workflow source in a GitHub attack,other
+ipv4,69.48.229.143,high,2026-10-24T00:55:25+00:00,2026-10-24T00:55:25+00:00,1,Docs.Litellm.Ai:2026-10-24,Used by attacker to call API with stolen credentials,other
+ipv4,92.118.112.100,high,2026-10-22T11:32:08.829801+00:00,2026-10-23T18:49:51+00:00,4,Sploitus:2026-10-23|Thehackernews:2026-10-23|Arcticwolf:2026-10-22|ellio.tech:2026-10-22,IP address associated with attacker-controlled scanning and exploitation attempts,exploit
+ipv4,191.96.225.125,high,2026-10-23T17:31:31+00:00,2026-10-23T17:31:31+00:00,1,Hackread:2026-10-23,Listed as Overlord RAT infrastructure,c2|malware
+ipv4,45.158.8.213,high,2026-10-23T17:31:31+00:00,2026-10-23T17:31:31+00:00,1,Hackread:2026-10-23,Associated with Overlord RAT infrastructure,c2|malware
+ipv4,102.210.149.166,high,2026-10-23T14:01:51.563234+00:00,2026-10-23T14:01:51.563234+00:00,1,hunt.io:2026-10-23,Listed as staging infrastructure for php2shell,malware
+ipv4,104.219.251.31,high,2026-10-23T14:01:51.563234+00:00,2026-10-23T14:01:51.563234+00:00,1,hunt.io:2026-10-23,Listed as staging infrastructure for php2shell,malware
+ipv4,122.10.110.72,high,2026-10-23T14:01:51.563234+00:00,2026-10-23T14:01:51.563234+00:00,1,hunt.io:2026-10-23,Listed as staging infrastructure for php2shell,malware
+ipv4,122.10.17.49,high,2026-10-23T14:01:51.563234+00:00,2026-10-23T14:01:51.563234+00:00,1,hunt.io:2026-10-23,Listed as staging infrastructure for php2shell,malware
+ipv4,206.188.197.105,high,2026-10-23T07:45:06+00:00,2026-10-23T14:01:51.563234+00:00,2,hunt.io:2026-10-23|Thehackernews:2026-10-23,Identified as an attacker-controlled server hosting exploit tooling,scanner
+ipv4,41.223.30.7,high,2026-10-23T07:45:06+00:00,2026-10-23T14:01:51.563234+00:00,2,hunt.io:2026-10-23|Thehackernews:2026-10-23,Listed as holding PHP2Shell-related tooling,malware
+ipv4,58.221.60.160,high,2026-10-23T14:01:51.563234+00:00,2026-10-23T14:01:51.563234+00:00,1,hunt.io:2026-10-23,Listed as staging infrastructure for php2shell,malware
+ipv4,193.29.57.161,high,2026-10-23T11:01:21.955683+00:00,2026-10-23T11:01:21.955683+00:00,1,securelist.com:2026-10-23,"Listed under ScrambleCross IPs, indicating attacker control",c2|malware
+ipv4,45.128.132.6,high,2026-10-23T11:01:21.955683+00:00,2026-10-23T11:01:21.955683+00:00,1,securelist.com:2026-10-23,"Listed under Go malware IPs, indicating attacker control",c2|malware
+ipv4,45.128.135.15,high,2026-10-23T11:01:21.955683+00:00,2026-10-23T11:01:21.955683+00:00,1,securelist.com:2026-10-23,"Listed under Go malware IPs, indicating attacker control",c2|malware
+ipv4,5.188.108.22,high,2026-10-23T11:01:21.955683+00:00,2026-10-23T11:01:21.955683+00:00,1,securelist.com:2026-10-23,"Listed under Go malware IPs, indicating attacker control",malware
+ipv4,5.188.108.228,high,2026-10-23T11:01:21.955683+00:00,2026-10-23T11:01:21.955683+00:00,1,securelist.com:2026-10-23,"Listed under Go malware IPs, indicating attacker control",malware
+ipv4,5.188.93.132,high,2026-10-23T11:01:21.955683+00:00,2026-10-23T11:01:21.955683+00:00,1,securelist.com:2026-10-23,"Listed under Go malware IPs, indicating attacker control",malware
+ipv4,5.189.222.33,high,2026-10-23T11:01:21.955683+00:00,2026-10-23T11:01:21.955683+00:00,1,securelist.com:2026-10-23,"Listed under Go malware IPs, indicating attacker control",malware
+ipv4,92.223.105.246,high,2026-10-23T11:01:21.955683+00:00,2026-10-23T11:01:21.955683+00:00,1,securelist.com:2026-10-23,"Listed under Go malware IPs, indicating attacker control",malware
+ipv4,92.38.178.246,high,2026-10-23T11:01:21.955683+00:00,2026-10-23T11:01:21.955683+00:00,1,securelist.com:2026-10-23,"Listed under ScrambleCross IPs, indicating attacker control",malware
+ipv6,2409:40d2:204e:4be:2a1f:f9c9:a055:e00b,high,2026-10-23T07:45:06+00:00,2026-10-23T07:45:06+00:00,1,Thehackernews:2026-10-23,Listed as attempting to exploit PHP2Shell vulnerabilities,scanner
+ipv4,191.101.130.244,high,2026-10-23T07:30:31.639609+00:00,2026-10-23T07:30:31.639609+00:00,1,www.safebreach.com:2026-10-23,IP used as an RDP server by the attacker,malware
+ipv4,45.80.148.195,high,2026-10-23T07:30:31.639609+00:00,2026-10-23T07:30:31.639609+00:00,1,www.safebreach.com:2026-10-23,IP used as a C2 server by the threat actor,c2
+ipv4,45.80.148.249,high,2026-10-23T07:30:31.639609+00:00,2026-10-23T07:30:31.639609+00:00,1,www.safebreach.com:2026-10-23,IP used as a C2 server by the threat actor,c2
+ipv4,45.80.149.100,high,2026-10-23T07:30:31.639609+00:00,2026-10-23T07:30:31.639609+00:00,1,www.safebreach.com:2026-10-23,IP used as a C2 server by the threat actor,c2
+ipv4,45.80.149.3,high,2026-10-23T07:30:31.639609+00:00,2026-10-23T07:30:31.639609+00:00,1,www.safebreach.com:2026-10-23,IP used as a C2 server by the threat actor,c2
+ipv4,186.2.175.183,high,2026-10-23T07:19:06+00:00,2026-10-23T07:19:06+00:00,1,Zscaler:2026-10-23,Listed as a C2 server for Armorsteal,c2
+ipv4,209.99.186.187,high,2026-10-23T07:19:06+00:00,2026-10-23T07:19:06+00:00,1,Zscaler:2026-10-23,"Listed as hosting fake Chocolatey website, part of attacker infrastructure",malware
+ipv4,82.153.135.80,high,2026-10-23T07:19:06+00:00,2026-10-23T07:19:06+00:00,1,Zscaler:2026-10-23,Used to host fake Chocolatey and Massgrave lure websites,phishing
+ipv4,154.37.213.27,high,2026-10-23T04:11:38+00:00,2026-10-23T04:11:38+00:00,1,Cyfirma:2026-10-23,Listed in a YARA rule as exploit hosting infrastructure,exploit
+ipv4,170.231.237.214,high,2026-10-23T04:11:38+00:00,2026-10-23T04:11:38+00:00,1,Cyfirma:2026-10-23,Listed in a YARA rule as exploit hosting infrastructure,exploit
+ipv4,196.189.236.67,high,2026-10-23T04:11:38+00:00,2026-10-23T04:11:38+00:00,1,Cyfirma:2026-10-23,Listed in a YARA rule as exploit hosting infrastructure,exploit
+ipv4,38.54.50.151,high,2026-10-22T17:18:22+00:00,2026-10-22T23:44:11+00:00,4,Scworld:2026-10-22|X:2026-10-22|Mezha:2026-10-22|Bleepingcomputer:2026-10-22,Listed as a source IP for attacks,scanner
+ipv4,66.29.153.90,high,2026-10-22T19:36:42.065904+00:00,2026-10-22T19:36:42.065904+00:00,1,www.proofpoint.com:2026-10-22,Resolved to by attacker-controlled domain gettogether.quest,other
+ipv4,91.231.182.187,high,2026-10-22T18:31:10.890874+00:00,2026-10-22T18:31:10.890874+00:00,1,www.welivesecurity.com:2026-10-22,C&C server in payloads downloaded by PteroPaste,c2
+ipv4,210.242.76.32,high,2026-10-22T17:49:54+00:00,2026-10-22T17:49:54+00:00,1,Thehackernews:2026-10-22,IP address used in exploitation attempts originating from Taiwan.,exploit|scanner
+ipv4,211.20.144.116,high,2026-10-22T17:49:54+00:00,2026-10-22T17:49:54+00:00,1,Thehackernews:2026-10-22,IP address used in exploitation attempts originating from Taiwan.,exploit|scanner
+ipv4,193.32.204.199,high,2026-10-07T13:03:38+00:00,2026-10-22T14:08:12+00:00,2,News.Ycombinator:2026-10-22|Blog.Gitguardian:2026-10-07,Listed as an exfiltration endpoint used by attackers.,exfiltration
+ipv4,185.238.2.195,high,2026-10-22T13:04:01+00:00,2026-10-22T13:04:01+00:00,1,Huntress:2026-10-22,Listed as an AiTM relay used by attackers.,proxy_tunnel
+ipv4,192.159.99.172,high,2026-10-22T13:04:01+00:00,2026-10-22T13:04:01+00:00,1,Huntress:2026-10-22,Listed as a 1337 Services address used in attacks.,proxy_tunnel
+ipv4,45.83.31.44,high,2026-10-22T13:04:01+00:00,2026-10-22T13:04:01+00:00,1,Huntress:2026-10-22,Listed as a 1337 Services address used in attacks.,proxy_tunnel
+ipv4,193.148.56.97,high,2026-10-22T13:00:02+00:00,2026-10-22T13:00:02+00:00,1,Varonis:2026-10-22,Listed as a C2 address used by Stadia RAT,c2
+ipv4,91.92.43.45,high,2026-10-22T13:00:02+00:00,2026-10-22T13:00:02+00:00,1,Varonis:2026-10-22,Listed as a C2 address used by Stadia RAT,c2
+ipv4,93.152.213.215,high,2026-10-22T13:00:02+00:00,2026-10-22T13:00:02+00:00,1,Varonis:2026-10-22,Listed as a C2 address used by Stadia RAT,c2
+ipv4,117.55.202.115,high,2026-10-22T11:32:08.829801+00:00,2026-10-22T11:32:08.829801+00:00,1,ellio.tech:2026-10-22,Used as a staging host for second-stage payloads,malware
+ipv4,134.154.64.199,high,2026-10-22T11:32:08.829801+00:00,2026-10-22T11:32:08.829801+00:00,1,ellio.tech:2026-10-22,Derived command and control address,c2
+ipv4,150.251.112.208,high,2026-10-22T11:32:08.829801+00:00,2026-10-22T11:32:08.829801+00:00,1,ellio.tech:2026-10-22,Listed as a C2 server in the binary,c2
+ipv4,185.5.70.233,high,2026-10-22T11:32:08.829801+00:00,2026-10-22T11:32:08.829801+00:00,1,ellio.tech:2026-10-22,Used in conjunction with attacker infrastructure,malware
+ipv4,64.199.134.154,high,2026-10-22T11:32:08.829801+00:00,2026-10-22T11:32:08.829801+00:00,1,ellio.tech:2026-10-22,Related to command and control infrastructure,c2
+ipv4,211.240.117.200,high,2026-10-22T11:32:08.326901+00:00,2026-10-22T11:32:08.326901+00:00,1,beelzebub.ai:2026-10-22,Listed as an IP making suspicious requests.,scanner
+ipv4,168.100.8.57,high,2026-10-21T23:16:31+00:00,2026-10-21T23:16:31+00:00,1,Rescana:2026-10-21,Source IP address seen checking stolen AWS credentials,other
+ipv4,2.27.248.127,high,2026-10-20T07:11:45+00:00,2026-10-21T19:01:41.433743+00:00,3,productcert.siemens.com:2026-10-21|Helpnetsecurity:2026-10-20|Thehackernews:2026-10-20,IP address listed as part of attacker infrastructure to be blocked,exploit
+ipv4,96.62.218.59,high,2026-10-20T07:11:45+00:00,2026-10-21T19:01:41.433743+00:00,2,productcert.siemens.com:2026-10-21|Thehackernews:2026-10-20,IP address listed as part of attacker infrastructure to be blocked,exploit
+ipv4,167.148.201.106,high,2026-10-21T13:03:40+00:00,2026-10-21T13:03:40+00:00,1,Huntress:2026-10-21,C2 traffic generated by NetSupport Client software,c2
+ipv4,79.130.26.202,high,2026-10-21T11:32:04.373928+00:00,2026-10-21T11:32:04.373928+00:00,1,www.rapid7.com:2026-10-21,Listed as a threat actor source IP in a campaign,other
+ipv4,185.225.226.62,high,2026-10-20T22:00:38.188496+00:00,2026-10-21T10:30:27+00:00,2,Thehackernews:2026-10-21|lists.torproject.org:2026-10-20,IP address used by attacker to log into the management server,other
+ipv4,162.33.177.177,high,2026-10-21T04:13:31+00:00,2026-10-21T04:13:31+00:00,1,Github:2026-10-21,Communicating with a persistent NodeJS service registered by the attacker,c2
+ipv4,212.73.134.136,high,2026-10-20T21:22:02+00:00,2026-10-20T21:22:02+00:00,1,Wiz:2026-10-20,Used as a source IP for phishing activity,phishing
+ipv4,194.87.108.217,high,2026-10-20T11:06:25+00:00,2026-10-20T11:06:25+00:00,1,Thehackernews:2026-10-20,Listed as a LegionRelay C2 server used in attacks,c2
+ipv4,91.149.221.118,high,2026-10-20T11:06:25+00:00,2026-10-20T11:06:25+00:00,1,Thehackernews:2026-10-20,Listed as a LegionRelay C2 server used in attacks,c2
+ipv4,91.149.221.123,high,2026-10-20T11:06:25+00:00,2026-10-20T11:06:25+00:00,1,Thehackernews:2026-10-20,Listed as a LegionRelay C2 server used in attacks,c2
+ipv6,2a09:bac5:4e21:2e3c::49b:9,high,2026-10-19T20:02:56+00:00,2026-10-20T03:02:44.775826+00:00,2,wordpress.org:2026-10-20|Wordfence:2026-10-19,Listed as a source address for malicious requests,malware
+ipv4,176.65.139.228,high,2026-10-19T23:53:48+00:00,2026-10-19T23:53:48+00:00,1,Cybernewsai:2026-10-19,Listed as part of an attacker's scanning infrastructure,scanner
+ipv4,78.128.113.14,high,2026-10-19T22:38:04.235893+00:00,2026-10-19T22:38:04.235893+00:00,1,www.godaddy.com:2026-10-19,Used for plugin installations in malicious campaigns,malware
+ipv4,176.123.26.67,high,2026-10-16T19:31:23.681851+00:00,2026-10-16T19:31:23.681851+00:00,1,citizenlab.ca:2026-10-16,Listed as an IP address associated with Candiru's infrastructure,spyware|bulletproof_hosting
+ipv4,185.25.50.194,high,2026-10-16T19:31:23.681851+00:00,2026-10-16T19:31:23.681851+00:00,1,citizenlab.ca:2026-10-16,Associated with CHAINSHOT exploit kit linked to Candiru,exploit
+ipv4,69.28.67.162,high,2026-10-16T19:31:23.681851+00:00,2026-10-16T19:31:23.681851+00:00,1,citizenlab.ca:2026-10-16,Listed as an IP address associated with Candiru's infrastructure,other
+ipv4,49.207.56.74,high,2026-10-16T12:01:13.068620+00:00,2026-10-16T12:01:13.068620+00:00,1,www.sysdig.com:2026-10-16,Referenced as the source of exploitation attempts in the article.,scanner
+ipv4,185.21.136.6,high,2026-10-16T10:31:51+00:00,2026-10-16T10:31:51+00:00,1,Bloglab.360:2026-10-16,Listed as part of attacker infrastructure in a threat report,malware
+ipv4,198.23.185.234,high,2026-10-16T10:31:51+00:00,2026-10-16T10:31:51+00:00,1,Bloglab.360:2026-10-16,Listed as part of attacker infrastructure in a threat report,malware
+ipv4,2.59.134.215,high,2026-10-16T08:01:09.321258+00:00,2026-10-16T08:01:09.321258+00:00,1,www.group-ib.com:2026-10-16,Listed as a secondary C2 server in the IOC section,c2
+ipv4,23.240.77.233,high,2026-10-14T22:42:29+00:00,2026-10-16T05:04:36+00:00,2,Thehackernews:2026-10-16|Unit42.Paloaltonetworks:2026-10-14,Identified as known external staging infrastructure used by attackers,malware
+ipv4,91.196.33.144,high,2026-10-15T15:12:22.476814+00:00,2026-10-15T15:12:22.476814+00:00,1,www.infoblox.com:2026-10-15,Resolved from hotcname.help used in tech support scams,malware
+ipv4,47.18.167.159,high,2026-10-14T22:42:29+00:00,2026-10-14T22:42:29+00:00,1,Unit42.Paloaltonetworks:2026-10-14,Identified as known external staging infrastructure used by attackers,other
+ipv4,139.28.18.122,high,2026-10-14T20:05:01.148615+00:00,2026-10-14T20:05:01.148615+00:00,1,github.com:2026-10-14,IP address used in successful hacks on Nextcloud servers,other
+ipv4,193.124.203.226,high,2026-10-14T15:02:37.397197+00:00,2026-10-14T15:02:37.397197+00:00,1,www.group-ib.com:2026-10-14,IP address listed among others in a context suggesting attacker-controlled infrastructure.,other
+ipv4,138.124.123.87,high,2026-10-14T13:59:36+00:00,2026-10-14T13:59:36+00:00,1,Darktrace:2026-10-14,Used in suspicious WebDAV communication for malware delivery,malware
+ipv4,77.110.127.205,high,2026-10-14T13:59:36+00:00,2026-10-14T13:59:36+00:00,1,Darktrace:2026-10-14,Involved in unusual C2 communication,c2
+ipv4,158.94.209.19,high,2026-10-13T21:00:10+00:00,2026-10-13T21:00:10+00:00,1,Huntress:2026-10-13,IP address resolving to a credential collection endpoint.,phishing
+ipv4,193.178.159.129,high,2026-10-13T11:53:10.900000+00:00,2026-10-13T11:53:10.900000+00:00,1,Blog.Virustotal:2026-10-13,Listed as a C2 server for second-stage bot communication,c2|botnet
+ipv4,61.18.208.27,high,2026-10-08T06:42:10+00:00,2026-10-12T14:53:04+00:00,2,The420.In:2026-10-12|Morphisec:2026-10-08,Communicates with VulcanRAT207.A as a C2 server,c2
+ipv4,118.145.196.225,high,2026-10-11T16:02:05.609563+00:00,2026-10-11T16:02:05.609563+00:00,1,www.fortinet.com:2026-10-11,Listed as a download source for malware by the attacker,malware
+ipv4,124.163.212.119,high,2026-10-11T16:02:05.609563+00:00,2026-10-11T16:02:05.609563+00:00,1,www.fortinet.com:2026-10-11,Listed as a download source for malware by the attacker,malware
+ipv4,222.223.152.97,high,2026-10-11T16:02:05.609563+00:00,2026-10-11T16:02:05.609563+00:00,1,www.fortinet.com:2026-10-11,Listed as a download source for malware by the attacker,malware
+ipv4,2.56.126.157,high,2026-10-10T05:02:45.293755+00:00,2026-10-10T05:02:45.293755+00:00,1,www.elastic.co:2026-10-10,IP address associated with attacker-controlled domain,other
+ipv4,2.56.126.188,high,2026-10-10T05:02:45.293755+00:00,2026-10-10T05:02:45.293755+00:00,1,www.elastic.co:2026-10-10,IP address associated with attacker-controlled domain,other
+ipv4,112.213.108.85,high,2026-10-09T18:00:23.022990+00:00,2026-10-09T18:00:23.022990+00:00,1,censys.com:2026-10-09,Listed as a live production server for C2,c2
+ipv4,14.128.47.81,high,2026-10-09T18:00:23.022990+00:00,2026-10-09T18:00:23.022990+00:00,1,censys.com:2026-10-09,Listed as part of a C2 control panel fleet,c2
+ipv4,154.217.250.206,high,2026-10-09T18:00:23.022990+00:00,2026-10-09T18:00:23.022990+00:00,1,censys.com:2026-10-09,Listed as serving a C2 Control Panel,c2
+ipv4,154.219.127.147,high,2026-10-09T18:00:23.022990+00:00,2026-10-09T18:00:23.022990+00:00,1,censys.com:2026-10-09,Exposes server-side delivery infrastructure,malware
+ipv4,154.219.127.94,high,2026-10-09T18:00:23.022990+00:00,2026-10-09T18:00:23.022990+00:00,1,censys.com:2026-10-09,Identified as egress for staging host,other
+ipv4,185.189.45.40,high,2026-10-09T18:00:23.022990+00:00,2026-10-09T18:00:23.022990+00:00,1,censys.com:2026-10-09,Capture associated with DarkSword/Coruna kit,exploit|malware|c2
+ipv4,199.30.90.154,high,2026-10-09T18:00:23.022990+00:00,2026-10-09T18:00:23.022990+00:00,1,censys.com:2026-10-09,Part of a cluster identified as attacker infrastructure,malware
+ipv4,202.146.222.253,high,2026-10-09T18:00:23.022990+00:00,2026-10-09T18:00:23.022990+00:00,1,censys.com:2026-10-09,Identified as a DarkSword admin panel and old production server,c2|malware
+ipv4,23.148.212.237,high,2026-10-09T16:29:55+00:00,2026-10-09T16:29:55+00:00,1,Thehackernews:2026-10-09,Serves as an analysis workspace for exploit development,exploit
+ipv4,185.164.172.128,high,2026-10-09T03:56:52+00:00,2026-10-09T03:56:52+00:00,1,Cyfirma:2026-10-09,Listed in a rule for Proton Decrypter indicators,malware
+ipv4,104.234.26.10,high,2026-10-08T20:23:28+00:00,2026-10-08T20:23:28+00:00,1,Huntress:2026-10-08,Listed in the IOC section as attacker infrastructure,malware
+ipv4,123.202.208.37,high,2026-10-08T20:23:28+00:00,2026-10-08T20:23:28+00:00,1,Huntress:2026-10-08,Listed in the IOC section as attacker infrastructure,malware
+ipv4,177.4.12.11,high,2026-10-08T20:23:28+00:00,2026-10-08T20:23:28+00:00,1,Huntress:2026-10-08,Listed in the IOC section as attacker infrastructure,malware
+ipv4,185.220.236.49,high,2026-10-08T20:23:28+00:00,2026-10-08T20:23:28+00:00,1,Huntress:2026-10-08,Listed in the IOC section as attacker infrastructure,malware
+ipv4,38.60.252.110,high,2026-10-08T20:23:28+00:00,2026-10-08T20:23:28+00:00,1,Huntress:2026-10-08,Listed in the IOC section as attacker infrastructure,malware
+ipv4,103.248.148.84,high,2026-10-08T12:54:13+00:00,2026-10-08T12:54:13+00:00,1,News.Lavx.Hu:2026-10-08,Listed as a proxy address associated with the operation,proxy_tunnel
+ipv4,154.201.79.246,high,2026-10-08T12:54:13+00:00,2026-10-08T12:54:13+00:00,1,News.Lavx.Hu:2026-10-08,Listed as a proxy address associated with the operation,proxy_tunnel
+ipv4,203.160.133.172,high,2026-10-08T12:54:13+00:00,2026-10-08T12:54:13+00:00,1,News.Lavx.Hu:2026-10-08,Listed as a proxy address associated with the operation,proxy_tunnel
+ipv4,209.209.85.38,high,2026-10-08T12:54:13+00:00,2026-10-08T12:54:13+00:00,1,News.Lavx.Hu:2026-10-08,Listed as a proxy address associated with the operation,proxy_tunnel
+ipv4,23.158.220.98,high,2026-10-08T12:54:13+00:00,2026-10-08T12:54:13+00:00,1,News.Lavx.Hu:2026-10-08,Listed as a proxy address associated with the operation,proxy_tunnel
+ipv4,23.248.249.90,high,2026-10-08T12:54:13+00:00,2026-10-08T12:54:13+00:00,1,News.Lavx.Hu:2026-10-08,Listed as a proxy address associated with the operation,proxy_tunnel
+ipv4,177.75.57.20,high,2026-10-08T11:28:37+00:00,2026-10-08T11:28:37+00:00,1,Patchstack:2026-10-08,Identified as the most active address in coordinated exploitation,scanner
+ipv4,156.239.230.120,high,2026-10-08T11:13:46+00:00,2026-10-08T11:13:46+00:00,1,Gbhackers:2026-10-08,Hosts exploit server and C2 platform for DarkSword operations,exploit|c2|malware
+ipv4,166.88.95.90,high,2026-10-08T11:13:46+00:00,2026-10-08T11:13:46+00:00,1,Gbhackers:2026-10-08,Telemetry showed suspicious activity from this IP,other
+ipv4,101.53.80.20,high,2026-10-08T10:16:18+00:00,2026-10-08T10:16:18+00:00,1,Gbhackers:2026-10-08,Listed as a proxy address associated with the operation,proxy_tunnel
+ipv4,124.155.252.63,high,2026-10-08T10:16:18+00:00,2026-10-08T10:16:18+00:00,1,Gbhackers:2026-10-08,Listed as a proxy address associated with the operation,proxy_tunnel
+ipv4,205.214.59.31,high,2026-10-08T10:16:18+00:00,2026-10-08T10:16:18+00:00,1,Gbhackers:2026-10-08,Listed as a proxy address associated with the operation,proxy_tunnel
+ipv4,38.60.157.86,high,2026-10-07T12:49:01+00:00,2026-10-08T07:57:29+00:00,2,Heise.De:2026-10-08|Bleepingcomputer:2026-10-07,Listed as an IP address from which exploit attempts originated,scanner
+ipv4,65.87.7.132,high,2026-10-08T00:00:00+00:00,2026-10-08T00:00:00+00:00,1,Cloudsek:2026-10-08,Configured to communicate with a remote-access tool,c2
+ipv4,209.239.79.121,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,securelist.com:2026-10-07,Listed in a structured IOC list as attacker-controlled infrastructure,c2
+ipv4,209.239.79.125,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,securelist.com:2026-10-07,Listed in a structured IOC list as attacker-controlled infrastructure,c2
+ipv4,209.239.79.15,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,securelist.com:2026-10-07,Listed in a structured IOC list as attacker-controlled infrastructure,c2
+ipv4,209.239.79.152,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,securelist.com:2026-10-07,Listed in a structured IOC list as attacker-controlled infrastructure,c2
+ipv4,209.239.79.33,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,securelist.com:2026-10-07,Listed in a structured IOC list as attacker-controlled infrastructure,c2
+ipv4,209.239.79.35,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,securelist.com:2026-10-07,Listed in a structured IOC list as attacker-controlled infrastructure,c2
+ipv4,209.239.79.47,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,securelist.com:2026-10-07,Listed in a structured IOC list as attacker-controlled infrastructure,c2
+ipv4,209.239.79.52,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,securelist.com:2026-10-07,Listed in a structured IOC list as attacker-controlled infrastructure,c2
+ipv4,209.239.79.55,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,securelist.com:2026-10-07,Listed in a structured IOC list as attacker-controlled infrastructure,c2
+ipv4,209.239.79.69,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,securelist.com:2026-10-07,Listed in a structured IOC list as attacker-controlled infrastructure,c2
+ipv4,209.239.82.7,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,securelist.com:2026-10-07,Listed in a structured IOC list as attacker-controlled infrastructure,c2
+ipv4,209.239.85.240,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,securelist.com:2026-10-07,Listed in a structured IOC list as attacker-controlled infrastructure,c2
+ipv4,209.239.89.100,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,securelist.com:2026-10-07,Listed in a structured IOC list as attacker-controlled infrastructure,c2
+ipv4,217.194.150.31,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,securelist.com:2026-10-07,Listed in a structured IOC list as attacker-controlled infrastructure,c2
+ipv4,217.20.242.22,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,securelist.com:2026-10-07,Listed in a structured IOC list as attacker-controlled infrastructure,c2
+ipv4,41.190.233.29,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,securelist.com:2026-10-07,Listed in a structured IOC list as attacker-controlled infrastructure,c2
+ipv4,62.243.189.187,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,securelist.com:2026-10-07,Listed in a structured IOC list as attacker-controlled infrastructure,c2
+ipv4,62.243.189.215,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,securelist.com:2026-10-07,Listed in a structured IOC list as attacker-controlled infrastructure,c2
+ipv4,62.243.189.231,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,securelist.com:2026-10-07,Listed in a structured IOC list as attacker-controlled infrastructure,c2
+ipv4,77.246.71.10,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,securelist.com:2026-10-07,Listed in a structured IOC list as attacker-controlled infrastructure,c2
+ipv4,77.246.76.19,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,securelist.com:2026-10-07,Listed in a structured IOC list as attacker-controlled infrastructure,c2
+ipv4,77.73.187.223,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,securelist.com:2026-10-07,Listed in a structured IOC list as attacker-controlled infrastructure,c2
+ipv4,82.146.166.56,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,securelist.com:2026-10-07,Listed in a structured IOC list as attacker-controlled infrastructure,c2
+ipv4,82.146.166.62,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,securelist.com:2026-10-07,Listed in a structured IOC list as attacker-controlled infrastructure,c2
+ipv4,82.146.174.58,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,securelist.com:2026-10-07,Listed in a structured IOC list as attacker-controlled infrastructure,c2
+ipv4,84.11.79.6,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,securelist.com:2026-10-07,Hardcoded in the configuration block of a malicious sample,c2
+ipv4,92.62.218.99,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,securelist.com:2026-10-07,Listed in a structured IOC list as attacker-controlled infrastructure,c2
+ipv4,92.62.219.172,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,securelist.com:2026-10-07,Listed in a structured IOC list as attacker-controlled infrastructure,c2
+ipv4,92.62.220.170,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,securelist.com:2026-10-07,Listed in a structured IOC list as attacker-controlled infrastructure,c2
+ipv4,92.62.221.30,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,securelist.com:2026-10-07,Listed in a structured IOC list as attacker-controlled infrastructure,c2
+ipv4,92.62.221.38,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,securelist.com:2026-10-07,Listed in a structured IOC list as attacker-controlled infrastructure,c2
+ipv4,45.154.12.132,high,2026-10-07T13:51:21+00:00,2026-10-07T13:51:23+00:00,1,Securityaffairs:2026-10-07,Listed as a C2 server used by the threat actors in the FortiBleed campaign.,c2
+ipv4,103.27.186.156,high,2026-10-07T13:51:21+00:00,2026-10-07T13:51:21+00:00,1,Securityaffairs:2026-10-07,Listed as a proxy node used by threat actors.,proxy_tunnel
+ipv4,154.202.59.169,high,2026-10-07T13:51:21+00:00,2026-10-07T13:51:21+00:00,1,Securityaffairs:2026-10-07,Listed as a proxy node used by threat actors.,proxy_tunnel
+ipv4,170.39.218.2,high,2026-10-07T13:03:38+00:00,2026-10-07T13:03:38+00:00,1,Blog.Gitguardian:2026-10-07,Listed as an endpoint used by attackers.,other
+ipv4,103.101.85.123,high,2026-10-07T12:02:35.647461+00:00,2026-10-07T12:02:35.647461+00:00,1,www.ontinue.com:2026-10-07,IP address hosts a panel resolving to phishing domains,phishing
+ipv4,193.178.158.61,high,2026-10-07T12:02:35.647461+00:00,2026-10-07T12:02:35.647461+00:00,1,www.ontinue.com:2026-10-07,IP address hosts a panel on the same network as the exfiltration server,malware|exfiltration
+ipv4,38.244.50.120,high,2026-10-07T05:00:00+00:00,2026-10-07T05:00:00+00:00,1,Crowdstrike:2026-10-07,Associated with threat actor activity and hosting malicious content.,malware
+ipv4,185.177.72.38,high,2026-10-06T23:29:39+00:00,2026-10-06T23:29:39+00:00,1,F5:2026-10-06,"IP address used in capability probing sequence, indicating attacker control",scanner
