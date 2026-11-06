@@ -1,12 +1,60 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason,categories
+domain,ads-it-assets.com,high,2026-11-06T00:37:33.464844+00:00,2026-11-06T00:37:33.464844+00:00,1,blog.ostorlab.co:2026-11-06,"Listed in network logs for compromise checks, indicating attacker control.",malware
+domain,ad.starx-net.com,high,2026-11-04T14:27:52+00:00,2026-11-06T00:37:33.464844+00:00,2,blog.ostorlab.co:2026-11-06|Thehackernews:2026-11-04,Exfiltration endpoint for data collected by AndroSnitch malware,exfiltration
+domain,assets-int.com,high,2026-11-06T00:37:33.464844+00:00,2026-11-06T00:37:33.464844+00:00,1,blog.ostorlab.co:2026-11-06,"Listed in network logs for compromise checks, indicating attacker control.",malware
+domain,cdn.adv-static.com,high,2026-11-06T00:37:33.464844+00:00,2026-11-06T00:37:33.464844+00:00,1,blog.ostorlab.co:2026-11-06,"Listed in network logs for compromise checks, indicating attacker control.",malware
+domain,edge-ord.clouds-stacks.com,high,2026-11-06T00:37:33.464844+00:00,2026-11-06T00:37:33.464844+00:00,1,blog.ostorlab.co:2026-11-06,"Listed in network logs for compromise checks, indicating attacker control.",malware
+domain,wpvortex-mod.com,high,2026-11-06T00:37:33.464844+00:00,2026-11-06T00:37:33.464844+00:00,1,blog.ostorlab.co:2026-11-06,"Listed in network logs for compromise checks, indicating attacker control.",malware
+domain,amasonses.com,high,2026-11-05T21:35:05+00:00,2026-11-05T23:31:44.823729+00:00,2,www.sh.consulting:2026-11-05|Darkreading:2026-11-05,"Misspelled domain used for SPF abuse, indicating attacker control.",phishing
+domain,amzonses.com,high,2026-11-05T21:35:05+00:00,2026-11-05T23:31:44.823729+00:00,2,www.sh.consulting:2026-11-05|Darkreading:2026-11-05,"Misspelled domain used for SPF abuse, indicating attacker control.",phishing
+domain,bomex.org,high,2026-11-05T23:31:44.823729+00:00,2026-11-05T23:31:44.823729+00:00,1,www.sh.consulting:2026-11-05,Domain no longer affiliated with original owner and used for unauthorized activities.,scam_fraud
+domain,dispatch-us-ppe-hosted.com,high,2026-11-05T23:31:44.823729+00:00,2026-11-05T23:31:44.823729+00:00,1,www.sh.consulting:2026-11-05,"Misspelled domain used for SPF abuse, indicating attacker control.",phishing
+domain,domancontrol.com,high,2026-11-05T23:31:44.823729+00:00,2026-11-05T23:31:44.823729+00:00,1,www.sh.consulting:2026-11-05,Typo domain potentially used for DNS manipulation.,other
+domain,mail1.bomex.org,high,2026-11-05T23:31:44.823729+00:00,2026-11-05T23:31:44.823729+00:00,1,www.sh.consulting:2026-11-05,Domain used for unauthorized email activities.,scam_fraud
+domain,ns41.domancontrol.com,high,2026-11-05T23:31:44.823729+00:00,2026-11-05T23:31:44.823729+00:00,1,www.sh.consulting:2026-11-05,Typo domain potentially used for DNS manipulation.,other
+domain,carloxmextos.org,high,2026-11-05T22:16:29+00:00,2026-11-05T22:16:29+00:00,1,Microsoft:2026-11-05,"Used in phishing campaign with valid SPF, DKIM, and DMARC",phishing
+domain,wekash.net,high,2026-11-05T22:16:29+00:00,2026-11-05T22:16:29+00:00,1,Microsoft:2026-11-05,Used in phishing campaign targeting legal organizations,phishing
+domain,62zr4vcasl.shifts.icu,high,2026-11-05T22:08:38.317646+00:00,2026-11-05T22:08:38.317646+00:00,1,pushsecurity.com:2026-11-05,Domain used in phishing campaign as attacker-controlled infrastructure.,phishing
+domain,accounts-auth.ggolshhk.icu,high,2026-11-05T22:08:38.317646+00:00,2026-11-05T22:08:38.317646+00:00,1,pushsecurity.com:2026-11-05,Domain used as a Google sign-in proxy in phishing campaign.,phishing
+domain,accounts.careersggl.icu,high,2026-11-05T22:08:38.317646+00:00,2026-11-05T22:08:38.317646+00:00,1,pushsecurity.com:2026-11-05,Domain used as a Google sign-in proxy in phishing campaign.,phishing
+domain,accounts.gfmzrsj.icu,high,2026-11-05T22:08:38.317646+00:00,2026-11-05T22:08:38.317646+00:00,1,pushsecurity.com:2026-11-05,Domain used as a Google sign-in proxy in phishing campaign.,phishing
+domain,accounts.ggkiejl.icu,high,2026-11-05T22:08:38.317646+00:00,2026-11-05T22:08:38.317646+00:00,1,pushsecurity.com:2026-11-05,Domain used in phishing campaign as attacker-controlled infrastructure.,phishing
+domain,accounts.logins-offcevents.icu,high,2026-11-05T22:08:38.317646+00:00,2026-11-05T22:08:38.317646+00:00,1,pushsecurity.com:2026-11-05,Domain used in phishing campaign as attacker-controlled infrastructure.,phishing
+domain,anthropic.rsvpconnect-events.com,high,2026-11-05T22:08:38.317646+00:00,2026-11-05T22:08:38.317646+00:00,1,pushsecurity.com:2026-11-05,Domain used to serve phishing pages in the campaign.,phishing
+domain,application.workportalsso.com,high,2026-11-05T22:08:38.317646+00:00,2026-11-05T22:08:38.317646+00:00,1,pushsecurity.com:2026-11-05,Domain used as a sign-in proxy in phishing campaign.,phishing
+domain,claudewebinnar.com,high,2026-11-05T22:08:38.317646+00:00,2026-11-05T22:08:38.317646+00:00,1,pushsecurity.com:2026-11-05,Domain and its subdomains used in phishing campaign.,phishing
+domain,clqzwd4jqw.emptytownmoon.de,high,2026-11-05T22:08:38.317646+00:00,2026-11-05T22:08:38.317646+00:00,1,pushsecurity.com:2026-11-05,Domain used as a Google sign-in proxy in phishing campaign.,phishing
+domain,connect.ssoeventportal.com,high,2026-11-05T22:08:38.317646+00:00,2026-11-05T22:08:38.317646+00:00,1,pushsecurity.com:2026-11-05,Domain used to host fake Zoom event pages.,phishing
+domain,continueevenregistration.officegocrqb.com,high,2026-11-05T22:08:38.317646+00:00,2026-11-05T22:08:38.317646+00:00,1,pushsecurity.com:2026-11-05,Domain used to host fake Zoom event pages.,phishing
+domain,continuessoevent.officegocrqb.com,high,2026-11-05T22:08:38.317646+00:00,2026-11-05T22:08:38.317646+00:00,1,pushsecurity.com:2026-11-05,Domain used to host fake Zoom event pages.,phishing
+domain,continue-to-event.claudewebinnar.com,high,2026-11-05T22:08:38.317646+00:00,2026-11-05T22:08:38.317646+00:00,1,pushsecurity.com:2026-11-05,Domain used as a reverse proxy in phishing campaign.,phishing
+domain,eventrsvp.app,high,2026-11-05T22:08:38.317646+00:00,2026-11-05T22:08:38.317646+00:00,1,pushsecurity.com:2026-11-05,Domain used to host phishing event pages.,phishing
+domain,event.us968web-zoom.us,high,2026-11-05T22:08:38.317646+00:00,2026-11-05T22:08:38.317646+00:00,1,pushsecurity.com:2026-11-05,Domain used to host fake Zoom event pages.,phishing
+domain,financeline.com-access-sharepoint.com,high,2026-11-05T22:08:38.317646+00:00,2026-11-05T22:08:38.317646+00:00,1,pushsecurity.com:2026-11-05,Domain used as a Microsoft sign-in proxy in phishing campaign.,phishing
+domain,goo.gle-access-eventregister.icu,high,2026-10-29T22:34:58.991537+00:00,2026-11-05T22:08:38.317646+00:00,2,pushsecurity.com:2026-11-05|cofense.com:2026-10-29,Domain used as a Google sign-in proxy in phishing campaign.,phishing
+domain,logins-offcevents.icu,high,2026-11-05T22:08:38.317646+00:00,2026-11-05T22:08:38.317646+00:00,1,pushsecurity.com:2026-11-05,Domain used in phishing campaign as attacker-controlled infrastructure.,phishing
+domain,login.wbdssologin.app,high,2026-11-05T22:08:38.317646+00:00,2026-11-05T22:08:38.317646+00:00,1,pushsecurity.com:2026-11-05,Domain used as a Microsoft sign-in proxy in phishing campaign.,phishing
+domain,nextconfirmationlogin.officegocrqb.com,high,2026-11-05T22:08:38.317646+00:00,2026-11-05T22:08:38.317646+00:00,1,pushsecurity.com:2026-11-05,Domain used to host fake Zoom event pages.,phishing
+domain,officegocrqb.com,high,2026-11-05T22:08:38.317646+00:00,2026-11-05T22:08:38.317646+00:00,1,pushsecurity.com:2026-11-05,Domain used to host fake Zoom event pages.,phishing
+domain,openai.eventrsvp.app,high,2026-11-05T22:08:38.317646+00:00,2026-11-05T22:08:38.317646+00:00,1,pushsecurity.com:2026-11-05,Domain used to host phishing event pages.,phishing
+domain,register.rsvpconnect-events.com,high,2026-11-05T22:08:38.317646+00:00,2026-11-05T22:08:38.317646+00:00,1,pushsecurity.com:2026-11-05,Domain used to serve phishing pages in the campaign.,phishing
+domain,rsvpconnect-events.com,high,2026-11-05T22:08:38.317646+00:00,2026-11-05T22:08:38.317646+00:00,1,pushsecurity.com:2026-11-05,Domain used to serve phishing pages in the campaign.,phishing
+domain,spacex.eventrsvp.app,high,2026-11-05T22:08:38.317646+00:00,2026-11-05T22:08:38.317646+00:00,1,pushsecurity.com:2026-11-05,Domain used to host phishing event pages.,phishing
+domain,us968web-zoom.us,high,2026-10-29T22:34:58.991537+00:00,2026-11-05T22:08:38.317646+00:00,2,pushsecurity.com:2026-11-05|cofense.com:2026-10-29,Domain used to host fake Zoom event pages.,phishing
+domain,wbdssologin.app,high,2026-11-05T22:08:38.317646+00:00,2026-11-05T22:08:38.317646+00:00,1,pushsecurity.com:2026-11-05,Domain used as a Microsoft sign-in proxy in phishing campaign.,phishing
+domain,workportalsso.com,high,2026-11-05T22:08:38.317646+00:00,2026-11-05T22:08:38.317646+00:00,1,pushsecurity.com:2026-11-05,Domain used as a sign-in proxy in phishing campaign.,phishing
+domain,ydgjgdbhoa.shifts.icu,high,2026-11-05T22:08:38.317646+00:00,2026-11-05T22:08:38.317646+00:00,1,pushsecurity.com:2026-11-05,Domain used as a Google sign-in proxy in phishing campaign.,phishing
+domain,zoomconnect.ssomeetingportal.com,high,2026-11-05T22:08:38.317646+00:00,2026-11-05T22:08:38.317646+00:00,1,pushsecurity.com:2026-11-05,Domain used to host fake Zoom event pages.,phishing
+domain,zoomconnect.workportalsso.com,high,2026-11-05T22:08:38.317646+00:00,2026-11-05T22:08:38.317646+00:00,1,pushsecurity.com:2026-11-05,Domain used as a sign-in proxy in phishing campaign.,phishing
+domain,authorize-valley.com,high,2026-11-05T16:07:47.832235+00:00,2026-11-05T16:07:47.832235+00:00,1,www.kelacyber.com:2026-11-05,Domain targeting Valley National Bank in phishing campaign,phishing
+domain,commercial-atfirst.com,high,2026-11-05T16:07:47.832235+00:00,2026-11-05T16:07:47.832235+00:00,1,www.kelacyber.com:2026-11-05,Domain targeting First Financial Bank in phishing campaign,phishing
+domain,protect-pinnaclefp.com,high,2026-11-05T16:07:47.832235+00:00,2026-11-05T16:07:47.832235+00:00,1,www.kelacyber.com:2026-11-05,Domain targeting Pinnacle Financial Partners in phishing campaign,phishing
 domain,mygta6.icu,high,2026-11-04T18:16:17+00:00,2026-11-05T11:41:50+00:00,2,Helpnetsecurity:2026-11-05|Hackread:2026-11-04,Domain used for scams involving fake game keys.,scam_fraud
-domain,trastwallet.cam,high,2026-11-05T04:38:03+00:00,2026-11-05T09:35:18.157298+00:00,2,cryptobriefing.com:2026-11-05|Cryptonews:2026-11-05,"Identified as a phishing domain impersonating Trust Wallet, attacker-controlled.",phishing|crypto_drainer
-domain,theowo.club,high,2026-11-04T22:38:29+00:00,2026-11-04T22:38:29+00:00,1,Arstechnica:2026-11-04,Used as a reverse proxy for malicious purposes.,proxy_tunnel
+domain,3vb.org,high,2026-11-05T09:04:14+00:00,2026-11-05T09:04:14+00:00,1,3Vb:2026-11-05,Fraudulent site impersonating 3 Verulam Buildings,scam_fraud
 domain,cyberleek.click,high,2026-11-04T18:16:17+00:00,2026-11-04T18:16:17+00:00,1,Hackread:2026-11-04,Domain used to distribute malware and demand cryptocurrency payments.,malware
 domain,gta6cyberleek.com,high,2026-11-04T18:16:17+00:00,2026-11-04T18:16:17+00:00,1,Hackread:2026-11-04,Domain used to distribute a file flagged as a Trojan.,malware
 domain,gta6keycodes.com,high,2026-11-04T18:16:17+00:00,2026-11-04T18:16:17+00:00,1,Hackread:2026-11-04,Domain used for scams involving fake game keys.,scam_fraud
 domain,ad-track.live,high,2026-11-04T14:27:52+00:00,2026-11-04T17:22:27+00:00,2,F5:2026-11-04|Thehackernews:2026-11-04,Listed as part of spyware-related domains,spyware
-domain,ad.starx-net.com,high,2026-11-04T14:27:52+00:00,2026-11-04T14:27:52+00:00,1,Thehackernews:2026-11-04,Exfiltration endpoint for data collected by AndroSnitch malware,exfiltration
 domain,gfun.top,high,2026-11-04T11:25:38+00:00,2026-11-04T11:25:38+00:00,1,Welivesecurity:2026-11-04,Listed as a DarkVigil bootstrap domain.,malware
 domain,sogou-cdn.com,high,2026-11-04T11:24:31+00:00,2026-11-04T11:25:38+00:00,2,Welivesecurity:2026-11-04|Thehackernews:2026-11-04,Used as a staging server for delivering malicious configurations.,malware
 domain,dev.soft-png-cdn.com,high,2026-11-04T11:24:31+00:00,2026-11-04T11:24:31+00:00,1,Thehackernews:2026-11-04,Identified as a staging server used for DNS hijacking to deliver malicious configurations.,malware
@@ -181,8 +229,6 @@ domain,arabtechmessenger.net,high,2026-10-30T05:45:56+00:00,2026-10-30T05:45:56+
 domain,communityrespondalarm.com,high,2026-10-30T05:45:56+00:00,2026-10-30T05:45:56+00:00,1,Cyfirma:2026-10-30,Listed in a YARA rule for detecting threat activity.,exploit
 domain,rapidcomments.com,high,2026-10-30T05:45:56+00:00,2026-10-30T05:45:56+00:00,1,Cyfirma:2026-10-30,Listed in a YARA rule as a domain associated with threat activity.,exploit
 domain,zimbrasoft.com.ua,high,2026-10-30T05:45:56+00:00,2026-10-30T05:45:56+00:00,1,Cyfirma:2026-10-30,Listed in a YARA rule as a domain associated with threat activity.,exploit
-domain,goo.gle-access-eventregister.icu,high,2026-10-29T22:34:58.991537+00:00,2026-10-29T22:34:58.991537+00:00,1,cofense.com:2026-10-29,Phishing domain mimicking Google login page,phishing
-domain,us968web-zoom.us,high,2026-10-29T22:34:58.991537+00:00,2026-10-29T22:34:58.991537+00:00,1,cofense.com:2026-10-29,Phishing domain mimicking Zoom meeting page,phishing
 domain,l1ewsu3yjkqeroy.xyz,high,2026-10-29T15:40:51.693483+00:00,2026-10-29T15:40:51.693483+00:00,1,safedep.io:2026-10-29,Configured as a C2 sync endpoint for telemetry.,c2
 domain,utaq.cfww.shop,high,2026-10-29T15:40:51.693483+00:00,2026-10-29T15:40:51.693483+00:00,1,safedep.io:2026-10-29,Domain used for exploit modules and C2 infrastructure.,exploit|c2
 domain,coinbase.bonto.io,high,2026-10-27T17:28:33.184000+00:00,2026-10-29T14:12:13+00:00,2,Malwarebytes:2026-10-29|Socket.Dev:2026-10-27,Subdomain used for exfiltration by malicious Firefox extensions,exfiltration
@@ -202,7 +248,7 @@ domain,virtualine.net,high,2026-10-27T21:54:44+00:00,2026-10-29T08:07:18+00:00,5
 domain,shopcredit.xyz,high,2026-10-29T03:52:51+00:00,2026-10-29T03:52:51+00:00,1,Tribune.Ph:2026-10-29,Flagged as a phishing URL in a fraudulent recruitment scam,phishing
 domain,kosoyed.online,high,2026-10-29T00:31:32.441034+00:00,2026-10-29T00:31:32.441034+00:00,1,www.picussecurity.com:2026-10-29,Registered by attackers as a fallback C2 domain,c2
 domain,kosoyed.ru,high,2026-10-29T00:31:32.441034+00:00,2026-10-29T00:31:32.441034+00:00,1,www.picussecurity.com:2026-10-29,Registered by attackers as a fallback C2 domain,c2
-domain,carte-avantage.com,high,2026-10-07T13:03:38+00:00,2026-10-28T22:30:29.446826+00:00,2,blog.gitguardian.com:2026-10-28|Blog.Gitguardian:2026-10-07,Used as an exfiltration endpoint by attackers,exfiltration
+domain,carte-avantage.com,high,2026-10-28T22:30:29.446826+00:00,2026-10-28T22:30:29.446826+00:00,1,blog.gitguardian.com:2026-10-28,"Used as an exfiltration endpoint in the attack campaign, indicating attacker control.",exfiltration
 domain,api-com.cfd,high,2026-10-28T16:35:36.211876+00:00,2026-10-28T16:35:36.211876+00:00,1,isc.sans.edu:2026-10-28,"Returned a 403 Forbidden response, indicating potential malicious use",other
 domain,js-static.cfd,high,2026-10-28T16:35:36.211876+00:00,2026-10-28T16:35:36.211876+00:00,1,isc.sans.edu:2026-10-28,Domain hosting a fake verification page,fake_software
 domain,onverinusinesscommunicationscente.org,high,2026-10-28T13:45:32+00:00,2026-10-28T13:45:32+00:00,1,Nordvpn:2026-10-28,Identified as attacker-controlled domain in phishing campaign,phishing
@@ -719,22 +765,7 @@ domain,wargame.ignorelist.com,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T1
 domain,weather-online.hopto.org,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,securelist.com:2026-10-07,Listed in a structured IOC list as attacker-controlled infrastructure,c2|dynamic_dns
 domain,wintersport.mrbasic.com,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,securelist.com:2026-10-07,Listed in a structured IOC list as attacker-controlled infrastructure,c2
 domain,x-files.zapto.org,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,securelist.com:2026-10-07,Listed in a structured IOC list as attacker-controlled infrastructure,c2|dynamic_dns
-domain,burnsworth.site,high,2026-10-07T13:04:03+00:00,2026-10-07T14:25:29+00:00,2,Itsecurityguru:2026-10-07|Huntress:2026-10-07,Domain used for attacker-controlled operations and fingerprinting victims.,other
+domain,burnsworth.site,high,2026-10-07T14:25:29+00:00,2026-10-07T14:25:29+00:00,1,Itsecurityguru:2026-10-07,Domain used for attacker-controlled operations and fingerprinting victims.,other
 domain,dailylifeproject.site,high,2026-10-07T14:25:29+00:00,2026-10-07T14:25:29+00:00,1,Itsecurityguru:2026-10-07,Domain used for fingerprinting victims and part of attacker-controlled operations.,other
-domain,essaywritingservice.site,high,2026-10-07T13:04:03+00:00,2026-10-07T14:25:29+00:00,2,Itsecurityguru:2026-10-07|Huntress:2026-10-07,Domain used for attacker-controlled operations and fingerprinting victims.,other
-domain,onthegotree.site,high,2026-10-07T13:04:03+00:00,2026-10-07T14:25:29+00:00,2,Itsecurityguru:2026-10-07|Huntress:2026-10-07,Domain used for attacker-controlled operations and deploying rogue clients.,malware
-domain,check.vykyn.click,high,2026-10-07T13:04:03+00:00,2026-10-07T13:04:03+00:00,1,Huntress:2026-10-07,Domain used for redirecting visitors as part of attacker-controlled operations.,traffic_distribution
-domain,openpediatrics.site,high,2026-10-07T13:04:03+00:00,2026-10-07T13:04:03+00:00,1,Huntress:2026-10-07,Domain used for attacker-controlled operations and fingerprinting victims.,other
-domain,account-sams-club.com,high,2026-10-07T12:02:35.647461+00:00,2026-10-07T12:02:35.647461+00:00,1,www.ontinue.com:2026-10-07,Domain resolves to a phishing site used for brand impersonation,phishing
-domain,ibraq-perfumes.com,high,2026-10-07T12:02:35.647461+00:00,2026-10-07T12:02:35.647461+00:00,1,www.ontinue.com:2026-10-07,Domain resolves to a phishing site used for brand impersonation,phishing
-domain,namshi-uae.com,high,2026-10-07T12:02:35.647461+00:00,2026-10-07T12:02:35.647461+00:00,1,www.ontinue.com:2026-10-07,Domain resolves to a phishing site used for brand impersonation,phishing
-domain,teamwork-recover-password.com,high,2026-10-07T12:02:35.647461+00:00,2026-10-07T12:02:35.647461+00:00,1,www.ontinue.com:2026-10-07,Domain resolves to a phishing site used for brand impersonation,phishing
-domain,whatsappbusineses.com,high,2026-10-07T12:02:35.647461+00:00,2026-10-07T12:02:35.647461+00:00,1,www.ontinue.com:2026-10-07,Domain resolves to a phishing site used for brand impersonation,phishing
-domain,c0ce.org,high,2026-10-07T08:32:26+00:00,2026-10-07T08:32:26+00:00,1,Gbhackers:2026-10-07,"Domain used in malicious infrastructure, indicating attacker control.",malware
-domain,f91j.org,high,2026-10-07T08:32:26+00:00,2026-10-07T08:32:26+00:00,1,Gbhackers:2026-10-07,"Domain used in malicious infrastructure, indicating attacker control.",malware
-domain,gov-by.com,high,2026-10-07T08:32:26+00:00,2026-10-07T08:32:26+00:00,1,Gbhackers:2026-10-07,"Domain used in malicious infrastructure, indicating attacker control.",malware
-domain,p7cp.org,high,2026-10-07T08:32:26+00:00,2026-10-07T08:32:26+00:00,1,Gbhackers:2026-10-07,"Domain used in malicious infrastructure, indicating attacker control.",malware
-domain,w3a01.net,high,2026-10-07T08:32:26+00:00,2026-10-07T08:32:26+00:00,1,Gbhackers:2026-10-07,Listed as part of observed threat activity,malware
-domain,www.hookphish.com,high,2026-10-07T08:18:23+00:00,2026-10-07T08:18:23+00:00,1,Rescana:2026-10-07,Listed as an indicator for ransomware detection,ransomware
-domain,imgcdn1.com,high,2026-10-06T21:00:27+00:00,2026-10-07T02:25:48+00:00,2,X:2026-10-07|Bleepingcomputer:2026-10-06,Domain used to deliver JavaScript payloads in WordPress XSS attacks,malware
-domain,mx.zxopfds.com,high,2026-10-06T18:38:42+00:00,2026-10-06T18:38:42+00:00,1,Thehackernews:2026-10-06,Domain used as a C2 server for AVERAT malware,c2|malware
+domain,essaywritingservice.site,high,2026-10-07T14:25:29+00:00,2026-10-07T14:25:29+00:00,1,Itsecurityguru:2026-10-07,Domain used for attacker-controlled operations and fingerprinting victims.,other
+domain,onthegotree.site,high,2026-10-07T14:25:29+00:00,2026-10-07T14:25:29+00:00,1,Itsecurityguru:2026-10-07,Domain used for attacker-controlled operations and deploying rogue clients.,malware

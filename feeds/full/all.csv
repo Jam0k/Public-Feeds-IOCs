@@ -1,8 +1,94 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason,categories
+sha256,2ff2945b13a4cd0e9a65c85af29ea1539e162a516466c0de682dbf9f8a4000b1,high,2026-09-22T15:01:52.497356+00:00,2026-11-06T11:09:17.383163+00:00,1,,Hash of a malicious backdoor delivered to targets,malware|c2
+ipv4,199.19.77.84,high,2026-11-04T19:04:02+00:00,2026-11-06T10:02:02.033041+00:00,2,,Identified as the operator's IP with confirmed malicious activity,malware
+ipv4,136.0.141.71,high,2026-11-05T17:00:49.402066+00:00,2026-11-06T06:16:02+00:00,2,,IP address used as a download server for a backdoor,malware|c2
+md5,965aea67fb40de1bab5169ada993349f,high,2026-11-06T06:16:02+00:00,2026-11-06T06:16:02+00:00,1,,MD5 hash of a backdoored version of cwpsrv,malware
+md5,d3f4e95113d49ab3991b45e457bda75b,high,2026-11-06T06:16:02+00:00,2026-11-06T06:16:02+00:00,1,,MD5 hash of a backdoored version of cwpsrv,malware
+md5,e505d4ffa21cf494a5dc2d7c8f4f1236,high,2026-11-06T06:16:02+00:00,2026-11-06T06:16:02+00:00,1,,MD5 hash of an installer script for the backdoor,malware
+domain,ads-it-assets.com,high,2026-11-06T00:37:33.464844+00:00,2026-11-06T00:37:33.464844+00:00,1,,"Listed in network logs for compromise checks, indicating attacker control.",malware
+domain,ad.starx-net.com,high,2026-11-04T14:27:52+00:00,2026-11-06T00:37:33.464844+00:00,2,,"Used as an exfiltration endpoint in attack chains, indicating attacker control.",exfiltration
+domain,assets-int.com,high,2026-11-06T00:37:33.464844+00:00,2026-11-06T00:37:33.464844+00:00,1,,"Listed in network logs for compromise checks, indicating attacker control.",malware
+domain,cdn.adv-static.com,high,2026-11-06T00:37:33.464844+00:00,2026-11-06T00:37:33.464844+00:00,1,,"Listed in network logs for compromise checks, indicating attacker control.",malware
+domain,edge-ord.clouds-stacks.com,high,2026-11-06T00:37:33.464844+00:00,2026-11-06T00:37:33.464844+00:00,1,,"Listed in network logs for compromise checks, indicating attacker control.",malware
+domain,wpvortex-mod.com,high,2026-11-06T00:37:33.464844+00:00,2026-11-06T00:37:33.464844+00:00,1,,"Listed in network logs for compromise checks, indicating attacker control.",malware
+domain,amasonses.com,high,2026-11-05T21:35:05+00:00,2026-11-05T23:31:44.823729+00:00,2,,"Misspelled domain used for SPF abuse, indicating attacker control.",phishing
+domain,amzonses.com,high,2026-11-05T21:35:05+00:00,2026-11-05T23:31:44.823729+00:00,2,,"Misspelled domain used for SPF abuse, indicating attacker control.",phishing
+domain,bomex.org,high,2026-11-05T23:31:44.823729+00:00,2026-11-05T23:31:44.823729+00:00,1,,Domain no longer affiliated with original owner and used for unauthorized activities.,scam_fraud
+domain,dispatch-us-ppe-hosted.com,high,2026-11-05T23:31:44.823729+00:00,2026-11-05T23:31:44.823729+00:00,1,,"Misspelled domain used for SPF abuse, indicating attacker control.",phishing
+domain,domancontrol.com,high,2026-11-05T23:31:44.823729+00:00,2026-11-05T23:31:44.823729+00:00,1,,Typo domain potentially used for DNS manipulation.,other
+domain,mail1.bomex.org,high,2026-11-05T23:31:44.823729+00:00,2026-11-05T23:31:44.823729+00:00,1,,Domain used for unauthorized email activities.,scam_fraud
+domain,ns41.domancontrol.com,high,2026-11-05T23:31:44.823729+00:00,2026-11-05T23:31:44.823729+00:00,1,,Typo domain potentially used for DNS manipulation.,other
+domain,carloxmextos.org,high,2026-11-05T22:16:29+00:00,2026-11-05T22:16:29+00:00,1,,"Used in phishing campaign with valid SPF, DKIM, and DMARC",phishing
+domain,wekash.net,high,2026-11-05T22:16:29+00:00,2026-11-05T22:16:29+00:00,1,,Used in phishing campaign targeting legal organizations,phishing
+domain,62zr4vcasl.shifts.icu,high,2026-11-05T22:08:38.317646+00:00,2026-11-05T22:08:38.317646+00:00,1,,Domain used in phishing campaign as attacker-controlled infrastructure.,phishing
+domain,accounts-auth.ggolshhk.icu,high,2026-11-05T22:08:38.317646+00:00,2026-11-05T22:08:38.317646+00:00,1,,Domain used as a Google sign-in proxy in phishing campaign.,phishing
+domain,accounts.careersggl.icu,high,2026-11-05T22:08:38.317646+00:00,2026-11-05T22:08:38.317646+00:00,1,,Domain used as a Google sign-in proxy in phishing campaign.,phishing
+domain,accounts.gfmzrsj.icu,high,2026-11-05T22:08:38.317646+00:00,2026-11-05T22:08:38.317646+00:00,1,,Domain used as a Google sign-in proxy in phishing campaign.,phishing
+domain,accounts.ggkiejl.icu,high,2026-11-05T22:08:38.317646+00:00,2026-11-05T22:08:38.317646+00:00,1,,Domain used in phishing campaign as attacker-controlled infrastructure.,phishing
+domain,accounts.logins-offcevents.icu,high,2026-11-05T22:08:38.317646+00:00,2026-11-05T22:08:38.317646+00:00,1,,Domain used in phishing campaign as attacker-controlled infrastructure.,phishing
+domain,anthropic.rsvpconnect-events.com,high,2026-11-05T22:08:38.317646+00:00,2026-11-05T22:08:38.317646+00:00,1,,Domain used to serve phishing pages in the campaign.,phishing
+domain,application.workportalsso.com,high,2026-11-05T22:08:38.317646+00:00,2026-11-05T22:08:38.317646+00:00,1,,Domain used as a sign-in proxy in phishing campaign.,phishing
+domain,claudewebinnar.com,high,2026-11-05T22:08:38.317646+00:00,2026-11-05T22:08:38.317646+00:00,1,,Domain and its subdomains used in phishing campaign.,phishing
+domain,clqzwd4jqw.emptytownmoon.de,high,2026-11-05T22:08:38.317646+00:00,2026-11-05T22:08:38.317646+00:00,1,,Domain used as a Google sign-in proxy in phishing campaign.,phishing
+domain,connect.ssoeventportal.com,high,2026-11-05T22:08:38.317646+00:00,2026-11-05T22:08:38.317646+00:00,1,,Domain used to host fake Zoom event pages.,phishing
+domain,continueevenregistration.officegocrqb.com,high,2026-11-05T22:08:38.317646+00:00,2026-11-05T22:08:38.317646+00:00,1,,Domain used to host fake Zoom event pages.,phishing
+domain,continuessoevent.officegocrqb.com,high,2026-11-05T22:08:38.317646+00:00,2026-11-05T22:08:38.317646+00:00,1,,Domain used to host fake Zoom event pages.,phishing
+domain,continue-to-event.claudewebinnar.com,high,2026-11-05T22:08:38.317646+00:00,2026-11-05T22:08:38.317646+00:00,1,,Domain used as a reverse proxy in phishing campaign.,phishing
+domain,eventrsvp.app,high,2026-11-05T22:08:38.317646+00:00,2026-11-05T22:08:38.317646+00:00,1,,Domain used to host phishing event pages.,phishing
+domain,event.us968web-zoom.us,high,2026-11-05T22:08:38.317646+00:00,2026-11-05T22:08:38.317646+00:00,1,,Domain used to host fake Zoom event pages.,phishing
+domain,financeline.com-access-sharepoint.com,high,2026-11-05T22:08:38.317646+00:00,2026-11-05T22:08:38.317646+00:00,1,,Domain used as a Microsoft sign-in proxy in phishing campaign.,phishing
+domain,goo.gle-access-eventregister.icu,high,2026-10-29T22:34:58.991537+00:00,2026-11-05T22:08:38.317646+00:00,2,,Domain used as a Google sign-in proxy in phishing campaign.,phishing
+domain,logins-offcevents.icu,high,2026-11-05T22:08:38.317646+00:00,2026-11-05T22:08:38.317646+00:00,1,,Domain used in phishing campaign as attacker-controlled infrastructure.,phishing
+domain,login.wbdssologin.app,high,2026-11-05T22:08:38.317646+00:00,2026-11-05T22:08:38.317646+00:00,1,,Domain used as a Microsoft sign-in proxy in phishing campaign.,phishing
+domain,nextconfirmationlogin.officegocrqb.com,high,2026-11-05T22:08:38.317646+00:00,2026-11-05T22:08:38.317646+00:00,1,,Domain used to host fake Zoom event pages.,phishing
+domain,officegocrqb.com,high,2026-11-05T22:08:38.317646+00:00,2026-11-05T22:08:38.317646+00:00,1,,Domain used to host fake Zoom event pages.,phishing
+domain,openai.eventrsvp.app,high,2026-11-05T22:08:38.317646+00:00,2026-11-05T22:08:38.317646+00:00,1,,Domain used to host phishing event pages.,phishing
+domain,register.rsvpconnect-events.com,high,2026-11-05T22:08:38.317646+00:00,2026-11-05T22:08:38.317646+00:00,1,,Domain used to serve phishing pages in the campaign.,phishing
+domain,rsvpconnect-events.com,high,2026-11-05T22:08:38.317646+00:00,2026-11-05T22:08:38.317646+00:00,1,,Domain used to serve phishing pages in the campaign.,phishing
+domain,spacex.eventrsvp.app,high,2026-11-05T22:08:38.317646+00:00,2026-11-05T22:08:38.317646+00:00,1,,Domain used to host phishing event pages.,phishing
+domain,us968web-zoom.us,high,2026-10-29T22:34:58.991537+00:00,2026-11-05T22:08:38.317646+00:00,2,,Domain used to host fake Zoom event pages.,phishing
+domain,wbdssologin.app,high,2026-11-05T22:08:38.317646+00:00,2026-11-05T22:08:38.317646+00:00,1,,Domain used as a Microsoft sign-in proxy in phishing campaign.,phishing
+domain,workportalsso.com,high,2026-11-05T22:08:38.317646+00:00,2026-11-05T22:08:38.317646+00:00,1,,Domain used as a sign-in proxy in phishing campaign.,phishing
+domain,ydgjgdbhoa.shifts.icu,high,2026-11-05T22:08:38.317646+00:00,2026-11-05T22:08:38.317646+00:00,1,,Domain used as a Google sign-in proxy in phishing campaign.,phishing
+domain,zoomconnect.ssomeetingportal.com,high,2026-11-05T22:08:38.317646+00:00,2026-11-05T22:08:38.317646+00:00,1,,Domain used to host fake Zoom event pages.,phishing
+domain,zoomconnect.workportalsso.com,high,2026-11-05T22:08:38.317646+00:00,2026-11-05T22:08:38.317646+00:00,1,,Domain used as a sign-in proxy in phishing campaign.,phishing
+ipv4,206.187.215.173,high,2026-11-05T21:38:21+00:00,2026-11-05T21:38:21+00:00,1,,Reported by CrowdStrike as part of a threat actor's infrastructure,malware
+ipv4,45.87.53.10,high,2026-11-05T21:38:21+00:00,2026-11-05T21:38:21+00:00,1,,Part of a set of hosts running attacker tools,malware
+ipv4,45.87.53.14,high,2026-11-05T21:38:21+00:00,2026-11-05T21:38:21+00:00,1,,Part of a set of hosts running attacker tools,malware
+ipv4,45.87.53.3,high,2026-11-05T21:38:21+00:00,2026-11-05T21:38:21+00:00,1,,Part of a set of hosts running attacker tools,malware
+ipv4,45.87.53.4,high,2026-11-05T21:38:21+00:00,2026-11-05T21:38:21+00:00,1,,Part of a set of hosts running attacker tools,malware
+ipv4,45.87.53.6,high,2026-11-05T21:38:21+00:00,2026-11-05T21:38:21+00:00,1,,Part of a set of hosts running attacker tools,malware
+md5,0cf0271c3564881fce95f44c649bd745,high,2026-10-29T18:52:21+00:00,2026-11-05T19:03:23+00:00,1,,Listed as a prevalent malware file from Talos telemetry,malware
+md5,95a6a4b638cfdfbe3afc883d593a1f87,high,2026-11-05T19:03:23+00:00,2026-11-05T19:03:23+00:00,1,,Listed as a prevalent malware file from Talos telemetry,malware
+md5,cca616647db9370c88998ae25da6997f,high,2026-10-29T18:52:21+00:00,2026-11-05T19:03:23+00:00,1,,Listed as a prevalent malware file from Talos telemetry,malware
+sha256,73a25ff8893260418c2271b863c567e40e842adbab3c57023cb72de590ea377d,high,2026-10-29T18:52:21+00:00,2026-11-05T19:03:23+00:00,1,,Listed as a prevalent malware file from Talos telemetry,malware
+sha256,7fc50b69b56bfdfa9fc0a3e088ff13904587d6336a51e9edcc7919cba83d4e3f,high,2026-10-29T18:52:21+00:00,2026-11-05T19:03:23+00:00,1,,Listed as a prevalent malware file from Talos telemetry,malware
+sha256,f4b1f888f29faa7fbec180f42bdc78596e8a8b908c0a6e6c419933703c81df85,high,2026-11-05T19:03:23+00:00,2026-11-05T19:03:23+00:00,1,,Listed as a prevalent malware file from Talos telemetry,malware
+sha256,A29125333AD72138D299CC9EF09718DDB417C3485F6B8FE05BA88A08BB0E5023,high,2026-11-05T18:08:29.456895+00:00,2026-11-05T18:08:29.456895+00:00,1,,Identified as a malicious Velociraptor config file,malware
+sha256,C74897B1E986E2876873ABB3B5069BF1B103667F7F0E6B4581FBDA3FD647A74A,high,2026-11-05T18:08:29.456895+00:00,2026-11-05T18:08:29.456895+00:00,1,,Identified as malware used in an attack,malware
+domain,authorize-valley.com,high,2026-11-05T16:07:47.832235+00:00,2026-11-05T16:07:47.832235+00:00,1,,Domain targeting Valley National Bank in phishing campaign,phishing
+domain,commercial-atfirst.com,high,2026-11-05T16:07:47.832235+00:00,2026-11-05T16:07:47.832235+00:00,1,,Domain targeting First Financial Bank in phishing campaign,phishing
+domain,protect-pinnaclefp.com,high,2026-11-05T16:07:47.832235+00:00,2026-11-05T16:07:47.832235+00:00,1,,Domain targeting Pinnacle Financial Partners in phishing campaign,phishing
+ipv4,103.59.160.171,high,2026-11-05T15:58:24+00:00,2026-11-05T15:58:24+00:00,1,,Listed as a top offending IP address targeting a vulnerability,scanner
+ipv4,154.26.238.8,high,2026-11-05T15:58:24+00:00,2026-11-05T15:58:24+00:00,1,,Listed as a top offending IP address targeting a vulnerability,scanner
+ipv4,185.177.72.61,high,2026-11-05T15:58:24+00:00,2026-11-05T15:58:24+00:00,1,,Listed as a top offending IP address targeting a vulnerability,scanner
+ipv4,87.58.197.83,high,2026-11-05T15:58:24+00:00,2026-11-05T15:58:24+00:00,1,,Listed as an IP address actively engaged in targeting vulnerabilities,scanner
+ipv4,96.62.218.148,high,2026-11-05T15:58:24+00:00,2026-11-05T15:58:24+00:00,1,,Listed as an IP address actively engaged in targeting vulnerabilities,scanner
+sha256,0003445778b525bcb9d86b1651af6760da7a8f54a1d001c355a5d3ad915c94cb,high,2026-11-05T14:38:08.538020+00:00,2026-11-05T14:38:08.538020+00:00,1,,Listed as a SHA256 hash of BadPack malware sample,malware
+sha256,015bd2e799049f5e474b80cbbdcd592ce4e2dfbfae183bada86a9b6ec103e25e,high,2026-11-05T14:38:08.538020+00:00,2026-11-05T14:38:08.538020+00:00,1,,Listed as a SHA256 hash of BadPack malware sample,malware
+sha256,131135a7c911bd45db8801ca336fc051246280c90ae5dafc33e68499d8514761,high,2026-11-05T14:38:08.538020+00:00,2026-11-05T14:38:08.538020+00:00,1,,Listed as a hash of BadPack malware sample,malware
+sha256,90c41e52f5ac57b8bd056313063acadc753d44fb97c45c2dc58d4972fe9f9f21,high,2026-11-05T14:38:08.538020+00:00,2026-11-05T14:38:08.538020+00:00,1,,Listed as a SHA256 hash of BadPack malware sample,malware
+ipv4,175.102.182.6,high,2026-11-05T14:37:03.550931+00:00,2026-11-05T14:37:03.550931+00:00,1,,Identified as an IP address used by attackers for exfiltration,exfiltration
+ipv4,45.9.148.221,high,2026-11-05T14:37:03.550931+00:00,2026-11-05T14:37:03.550931+00:00,1,,Listed as a C2 IP address belonging to SCARLETEEL,c2|exfiltration
+ipv4,157.20.182.49,high,2026-11-05T13:09:11+00:00,2026-11-05T13:09:11+00:00,1,,Controlled by the Iran-nexus adversary STATIC KITTEN,exploit
+sha256,de8d1b25e8965dc98c62d675ee7c451ed12502194890f6cc691322ad66f3abf4,high,2026-11-05T13:09:11+00:00,2026-11-05T13:09:11+00:00,1,,Listed as a modified CopyFail exploit used by adversary,exploit|c2
+sha256,fd6b46d148af22da6163f18ce43b35ebb827cc6e140f03f0f514bc2a6f548743,high,2026-11-05T13:09:11+00:00,2026-11-05T13:09:11+00:00,1,,Listed as a modified version of a public POC exploit,exploit
 domain,mygta6.icu,high,2026-11-04T18:16:17+00:00,2026-11-05T11:41:50+00:00,2,,Domain used for scams involving fake game keys.,scam_fraud
+md5,054a32d6033b1744dca7f49b2e466ea2,high,2026-11-05T11:38:51+00:00,2026-11-05T11:38:51+00:00,1,,Identified as a malicious driver used in an attack,malware|ransomware
+md5,2d9ebf9c042f596f435865b40edad928,high,2026-11-05T11:38:51+00:00,2026-11-05T11:38:51+00:00,1,,Identified as a malicious DLL used in a sideloading attack,malware|ransomware
 domain,trastwallet.cam,high,2026-11-05T04:38:03+00:00,2026-11-05T09:35:18.157298+00:00,2,,"Identified as a phishing domain impersonating Trust Wallet, attacker-controlled.",phishing|crypto_drainer
+domain,3vb.org,high,2026-11-05T09:04:14+00:00,2026-11-05T09:04:14+00:00,1,,Fraudulent site impersonating 3 Verulam Buildings,scam_fraud
 domain,theowo.club,high,2026-11-04T22:38:29+00:00,2026-11-04T22:38:29+00:00,1,,Used as a reverse proxy for malicious purposes.,proxy_tunnel
-ipv4,199.19.77.84,high,2026-11-04T19:04:02+00:00,2026-11-04T20:16:14.776971+00:00,2,,Identified as the operator's IP with confirmed malicious activity,malware
 domain,cyberleek.click,high,2026-11-04T18:16:17+00:00,2026-11-04T18:16:17+00:00,1,,Domain used to distribute malware and demand cryptocurrency payments.,malware
 domain,gta6cyberleek.com,high,2026-11-04T18:16:17+00:00,2026-11-04T18:16:17+00:00,1,,Domain used to distribute a file flagged as a Trojan.,malware
 domain,gta6keycodes.com,high,2026-11-04T18:16:17+00:00,2026-11-04T18:16:17+00:00,1,,Domain used for scams involving fake game keys.,scam_fraud
@@ -12,7 +98,6 @@ sha256,28f3de066878cb710fe5d44f7e11f65f25328beff953e00587ffeb5ac4b2faa8,high,202
 sha256,a8c28bd6f0f1fe6a9b880400853fc86e46d87b69565ef15d8ab757979cd2cc73,high,2026-11-04T17:41:01.499024+00:00,2026-11-04T17:41:01.499024+00:00,1,,Listed as a ransomware sample hash in a threat report,ransomware
 sha256,b5e811d7c104ce8dd2509f809a80932540a21ada0ee9e22ac61d080dc0bd237d,high,2026-11-04T17:41:01.499024+00:00,2026-11-04T17:41:01.499024+00:00,1,,Listed as a ransomware sample hash in a threat report,ransomware
 domain,ad-track.live,high,2026-11-04T14:27:52+00:00,2026-11-04T17:22:27+00:00,2,,Listed as part of spyware-related domains,spyware
-domain,ad.starx-net.com,high,2026-11-04T14:27:52+00:00,2026-11-04T14:27:52+00:00,1,,Exfiltration endpoint for data collected by AndroSnitch malware,exfiltration
 md5,03FD832B81DD54D2BF5F610A8FF27856,high,2026-08-07T07:35:57.092239+00:00,2026-11-04T12:40:22.508003+00:00,1,,Listed as malware hash.,malware|supply_chain
 md5,19E760EE849EB7C1F100F2B7010A763D,high,2026-08-07T07:35:57.092239+00:00,2026-11-04T12:40:22.508003+00:00,1,,Listed as malware hash.,malware|supply_chain
 md5,1F3031167F94B166CC7B69376A01C124,high,2026-08-07T07:35:57.092239+00:00,2026-11-04T12:40:22.508003+00:00,1,,Listed as malware hash.,malware|supply_chain
@@ -427,11 +512,9 @@ sha256,45b4e8f160d8d5177819f6c1dc67acc7abbdc65eeaffc909e668799dc778bcf6,high,202
 sha256,57c1441c4f5bb3260981a2df64f9ff35f117abde0d8667c8c66a047880074c59,high,2026-10-30T11:13:57+00:00,2026-10-30T11:13:57+00:00,1,,Identified as a malicious file hash,malware
 domain,aiok.me,high,2026-10-30T09:56:23+00:00,2026-10-30T09:56:23+00:00,1,,Listed as part of attacker-controlled infrastructure redirecting traffic,traffic_distribution
 domain,chat.nuoda.vip,high,2026-10-30T09:56:23+00:00,2026-10-30T09:56:23+00:00,1,,Part of attacker-controlled infrastructure redirecting traffic,traffic_distribution
-domain,goo.gle-access-eventregister.icu,high,2026-10-29T22:34:58.991537+00:00,2026-10-30T09:56:23+00:00,1,,Phishing domain mimicking Google login page,phishing
 domain,nuoda.vip,high,2026-10-30T09:56:23+00:00,2026-10-30T09:56:23+00:00,1,,Part of attacker-controlled infrastructure redirecting traffic,traffic_distribution
 domain,sorryios.io,high,2026-10-30T09:56:23+00:00,2026-10-30T09:56:23+00:00,1,,Part of attacker-controlled infrastructure redirecting traffic,traffic_distribution
 domain,total-sitevv.lol,high,2026-10-29T10:05:07+00:00,2026-10-30T09:56:23+00:00,1,,Domain resolves to an active NIK C2 server hosted by the threat actor.,c2
-domain,us968web-zoom.us,high,2026-10-29T22:34:58.991537+00:00,2026-10-30T09:56:23+00:00,1,,Phishing domain mimicking Zoom meeting page,phishing
 domain,vibe.aiok.me,high,2026-10-30T09:56:23+00:00,2026-10-30T09:56:23+00:00,1,,Part of attacker-controlled infrastructure redirecting traffic,traffic_distribution
 ipv4,43.228.157.68,high,2026-10-28T02:58:27+00:00,2026-10-30T09:56:23+00:00,2,,Reported as a server used in exploitation infrastructure,exploit
 md5,9b5b0529dba5a43ebd01ba354ee30a25,high,2026-10-30T09:56:23+00:00,2026-10-30T09:56:23+00:00,1,,Identified as a malicious file hash,malware
@@ -509,10 +592,6 @@ sha256,cc970bd2673e46c7e0df5430ab617bc2a9214b4d5c2c44252af681a08ff526a8,high,202
 sha256,e3fa93dad8fb8c3a6d9b35d02ce97c22035b409e0efc9f04372f4c1d6280a481,high,2026-10-29T23:33:46.359247+00:00,2026-10-29T23:33:46.359247+00:00,1,,Listed as SHA256 hash for Akira ransomware's Linux/ESXi variant,ransomware|malware
 sha256,e702a572b514984deacaa54408059c6eac28e46111cb6f0f4190a3a6a72dd41d,high,2026-10-29T23:33:46.359247+00:00,2026-10-29T23:33:46.359247+00:00,1,,Listed as a SHA256 hash for Akira_v2,ransomware|malware
 ipv4,13.163.205.35,high,2026-10-29T19:50:25+00:00,2026-10-29T19:50:25+00:00,1,,IP address where stolen data was left open on the internet,exfiltration
-md5,0cf0271c3564881fce95f44c649bd745,high,2026-10-29T18:52:21+00:00,2026-10-29T18:52:21+00:00,1,,Listed as MD5 hash for prevalent malware file,malware
-md5,cca616647db9370c88998ae25da6997f,high,2026-10-29T18:52:21+00:00,2026-10-29T18:52:21+00:00,1,,Listed as MD5 hash for prevalent malware file,malware
-sha256,73a25ff8893260418c2271b863c567e40e842adbab3c57023cb72de590ea377d,high,2026-10-29T18:52:21+00:00,2026-10-29T18:52:21+00:00,1,,Listed as SHA256 hash for prevalent malware file,malware
-sha256,7fc50b69b56bfdfa9fc0a3e088ff13904587d6336a51e9edcc7919cba83d4e3f,high,2026-10-29T18:52:21+00:00,2026-10-29T18:52:21+00:00,1,,Listed as SHA256 hash for prevalent malware file,malware
 sha256,01c5bc78c4118115bd849ad34e3c42d7ff39479a0feb5b216b1e1ffdc02f853d,high,2026-10-29T18:34:25+00:00,2026-10-29T18:34:25+00:00,1,,SHA-256 hash of a malicious script listed in the indicators table,malware
 ipv4,94.154.43.163,high,2026-10-29T16:07:42+00:00,2026-10-29T16:07:42+00:00,1,,Associated with malicious activity and listed on Spamhaus ASN-DROP,scanner
 domain,l1ewsu3yjkqeroy.xyz,high,2026-05-21T11:04:03+00:00,2026-10-29T15:40:51.693483+00:00,2,,Configured as a C2 sync endpoint for telemetry.,c2
@@ -2953,7 +3032,6 @@ domain,bnbnhura.top,high,2026-09-23T08:50:25+00:00,2026-09-23T08:50:25+00:00,1,,
 domain,definatelynoone.com,high,2026-09-23T08:50:25+00:00,2026-09-23T08:50:25+00:00,1,,Used for operator panel servers,c2
 domain,tvtap-hd.app,high,2026-09-23T08:50:25+00:00,2026-09-23T08:50:25+00:00,1,,"Registered on the same day as a related domain for distributing a dropper, indicating attacker control.",malware|malvertising
 domain,tvtap-liveapp.com,high,2026-09-23T08:50:25+00:00,2026-09-23T08:50:25+00:00,1,,"Registered on the same day as a related domain for distributing a dropper, indicating attacker control.",malware|malvertising
-sha256,2ff2945b13a4cd0e9a65c85af29ea1539e162a516466c0de682dbf9f8a4000b1,high,2026-09-22T15:01:52.497356+00:00,2026-09-23T08:31:59.019086+00:00,1,,Hash of a malicious backdoor delivered to targets,malware|c2
 md5,dc78e206eaeadec59fc5801fe4556bd0,high,2026-09-22T12:35:29+00:00,2026-09-23T07:52:10+00:00,2,,Listed as a known malicious MD5 hash in the context of the attack,malware
 domain,techroboticslabmade.com,high,2026-09-22T23:35:45.683500+00:00,2026-09-22T23:35:45.683500+00:00,1,,Listed as Central C2 / MailVault platform,c2
 domain,effectivecpmnetwork.com,high,2026-09-22T22:12:48+00:00,2026-09-22T22:12:48+00:00,1,,Linked to adware tracking,malvertising

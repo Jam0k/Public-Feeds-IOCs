@@ -1,4 +1,24 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason,categories
+sha256,2ff2945b13a4cd0e9a65c85af29ea1539e162a516466c0de682dbf9f8a4000b1,high,2026-09-22T15:01:52.497356+00:00,2026-11-06T11:09:17.383163+00:00,1,,Hash of a malicious backdoor delivered to targets,malware|c2
+md5,965aea67fb40de1bab5169ada993349f,high,2026-11-06T06:16:02+00:00,2026-11-06T06:16:02+00:00,1,,MD5 hash of a backdoored version of cwpsrv,malware
+md5,d3f4e95113d49ab3991b45e457bda75b,high,2026-11-06T06:16:02+00:00,2026-11-06T06:16:02+00:00,1,,MD5 hash of a backdoored version of cwpsrv,malware
+md5,e505d4ffa21cf494a5dc2d7c8f4f1236,high,2026-11-06T06:16:02+00:00,2026-11-06T06:16:02+00:00,1,,MD5 hash of an installer script for the backdoor,malware
+md5,0cf0271c3564881fce95f44c649bd745,high,2026-10-29T18:52:21+00:00,2026-11-05T19:03:23+00:00,1,,Listed as a prevalent malware file from Talos telemetry,malware
+md5,95a6a4b638cfdfbe3afc883d593a1f87,high,2026-11-05T19:03:23+00:00,2026-11-05T19:03:23+00:00,1,,Listed as a prevalent malware file from Talos telemetry,malware
+md5,cca616647db9370c88998ae25da6997f,high,2026-10-29T18:52:21+00:00,2026-11-05T19:03:23+00:00,1,,Listed as a prevalent malware file from Talos telemetry,malware
+sha256,73a25ff8893260418c2271b863c567e40e842adbab3c57023cb72de590ea377d,high,2026-10-29T18:52:21+00:00,2026-11-05T19:03:23+00:00,1,,Listed as a prevalent malware file from Talos telemetry,malware
+sha256,7fc50b69b56bfdfa9fc0a3e088ff13904587d6336a51e9edcc7919cba83d4e3f,high,2026-10-29T18:52:21+00:00,2026-11-05T19:03:23+00:00,1,,Listed as a prevalent malware file from Talos telemetry,malware
+sha256,f4b1f888f29faa7fbec180f42bdc78596e8a8b908c0a6e6c419933703c81df85,high,2026-11-05T19:03:23+00:00,2026-11-05T19:03:23+00:00,1,,Listed as a prevalent malware file from Talos telemetry,malware
+sha256,A29125333AD72138D299CC9EF09718DDB417C3485F6B8FE05BA88A08BB0E5023,high,2026-11-05T18:08:29.456895+00:00,2026-11-05T18:08:29.456895+00:00,1,,Identified as a malicious Velociraptor config file,malware
+sha256,C74897B1E986E2876873ABB3B5069BF1B103667F7F0E6B4581FBDA3FD647A74A,high,2026-11-05T18:08:29.456895+00:00,2026-11-05T18:08:29.456895+00:00,1,,Identified as malware used in an attack,malware
+sha256,0003445778b525bcb9d86b1651af6760da7a8f54a1d001c355a5d3ad915c94cb,high,2026-11-05T14:38:08.538020+00:00,2026-11-05T14:38:08.538020+00:00,1,,Listed as a SHA256 hash of BadPack malware sample,malware
+sha256,015bd2e799049f5e474b80cbbdcd592ce4e2dfbfae183bada86a9b6ec103e25e,high,2026-11-05T14:38:08.538020+00:00,2026-11-05T14:38:08.538020+00:00,1,,Listed as a SHA256 hash of BadPack malware sample,malware
+sha256,131135a7c911bd45db8801ca336fc051246280c90ae5dafc33e68499d8514761,high,2026-11-05T14:38:08.538020+00:00,2026-11-05T14:38:08.538020+00:00,1,,Listed as a hash of BadPack malware sample,malware
+sha256,90c41e52f5ac57b8bd056313063acadc753d44fb97c45c2dc58d4972fe9f9f21,high,2026-11-05T14:38:08.538020+00:00,2026-11-05T14:38:08.538020+00:00,1,,Listed as a SHA256 hash of BadPack malware sample,malware
+sha256,de8d1b25e8965dc98c62d675ee7c451ed12502194890f6cc691322ad66f3abf4,high,2026-11-05T13:09:11+00:00,2026-11-05T13:09:11+00:00,1,,Listed as a modified CopyFail exploit used by adversary,exploit|c2
+sha256,fd6b46d148af22da6163f18ce43b35ebb827cc6e140f03f0f514bc2a6f548743,high,2026-11-05T13:09:11+00:00,2026-11-05T13:09:11+00:00,1,,Listed as a modified version of a public POC exploit,exploit
+md5,054a32d6033b1744dca7f49b2e466ea2,high,2026-11-05T11:38:51+00:00,2026-11-05T11:38:51+00:00,1,,Identified as a malicious driver used in an attack,malware|ransomware
+md5,2d9ebf9c042f596f435865b40edad928,high,2026-11-05T11:38:51+00:00,2026-11-05T11:38:51+00:00,1,,Identified as a malicious DLL used in a sideloading attack,malware|ransomware
 sha256,1f6640102f6472523830d69630def669dc3433bbb1c0e6183458bd792d420f8e,high,2026-11-04T17:41:01.499024+00:00,2026-11-04T17:41:01.499024+00:00,1,,Listed as a ransomware sample hash in a threat report,ransomware
 sha256,232f86e26ced211630957baffcd36dd3bcd6a786f3d307127e1ea9a8b31c199f,high,2026-11-04T17:41:01.499024+00:00,2026-11-04T17:41:01.499024+00:00,1,,Listed as a ransomware sample hash in a threat report,ransomware
 sha256,28f3de066878cb710fe5d44f7e11f65f25328beff953e00587ffeb5ac4b2faa8,high,2026-11-04T17:41:01.499024+00:00,2026-11-04T17:41:01.499024+00:00,1,,Listed as a ransomware sample hash in a threat report,ransomware
@@ -275,10 +295,6 @@ sha256,c0c0b2306d31e8962973a22e50b18dfde852c6ddf99baf849e3384ed9f07a0d6,high,202
 sha256,cc970bd2673e46c7e0df5430ab617bc2a9214b4d5c2c44252af681a08ff526a8,high,2026-10-29T23:33:46.359247+00:00,2026-10-29T23:33:46.359247+00:00,1,,Listed as a SHA256 hash for Akira ransomware's Windows variant,ransomware|malware
 sha256,e3fa93dad8fb8c3a6d9b35d02ce97c22035b409e0efc9f04372f4c1d6280a481,high,2026-10-29T23:33:46.359247+00:00,2026-10-29T23:33:46.359247+00:00,1,,Listed as SHA256 hash for Akira ransomware's Linux/ESXi variant,ransomware|malware
 sha256,e702a572b514984deacaa54408059c6eac28e46111cb6f0f4190a3a6a72dd41d,high,2026-10-29T23:33:46.359247+00:00,2026-10-29T23:33:46.359247+00:00,1,,Listed as a SHA256 hash for Akira_v2,ransomware|malware
-md5,0cf0271c3564881fce95f44c649bd745,high,2026-10-29T18:52:21+00:00,2026-10-29T18:52:21+00:00,1,,Listed as MD5 hash for prevalent malware file,malware
-md5,cca616647db9370c88998ae25da6997f,high,2026-10-29T18:52:21+00:00,2026-10-29T18:52:21+00:00,1,,Listed as MD5 hash for prevalent malware file,malware
-sha256,73a25ff8893260418c2271b863c567e40e842adbab3c57023cb72de590ea377d,high,2026-10-29T18:52:21+00:00,2026-10-29T18:52:21+00:00,1,,Listed as SHA256 hash for prevalent malware file,malware
-sha256,7fc50b69b56bfdfa9fc0a3e088ff13904587d6336a51e9edcc7919cba83d4e3f,high,2026-10-29T18:52:21+00:00,2026-10-29T18:52:21+00:00,1,,Listed as SHA256 hash for prevalent malware file,malware
 sha256,01c5bc78c4118115bd849ad34e3c42d7ff39479a0feb5b216b1e1ffdc02f853d,high,2026-10-29T18:34:25+00:00,2026-10-29T18:34:25+00:00,1,,SHA-256 hash of a malicious script listed in the indicators table,malware
 sha256,f31bdd069fe7966ae11be1f78ee5dd44445938856dd1df12379e0e84a6851f5c,high,2026-10-29T15:40:51.693483+00:00,2026-10-29T15:40:51.693483+00:00,1,,SHA256 hash of a malware loader script.,malware
 sha256,2546a45f0e751dc02630ee48ae624f2cf536cbe1978122785e9d395c789c46c5,high,2026-06-03T11:34:14.457827+00:00,2026-10-29T14:00:51.231238+00:00,1,,"Identified as ACRStealer hash, indicating malware.",malware
@@ -1638,7 +1654,6 @@ md5,f9f70096aabb4d22a6657014f4853a53,high,2026-09-24T10:12:52+00:00,2026-09-24T1
 md5,fb90887592655a8c989e443c640167aa,high,2026-09-24T10:12:52+00:00,2026-09-24T10:12:52+00:00,1,,Listed as a stage one loader in the malware analysis.,malware
 md5,fc3ba5ed282d77127efd0b0f2403531b,high,2026-09-24T10:12:52+00:00,2026-09-24T10:12:52+00:00,1,,Listed as a backdoor in the malware analysis.,malware
 sha256,5455341ed1bbe75a664fca2dd0794c508e1874f75360253a7ff5bc119bc92d80,high,2026-09-23T14:43:17.455423+00:00,2026-09-23T14:43:17.455423+00:00,1,,Listed as a loader executable hash downloading Vidar stealer,malware
-sha256,2ff2945b13a4cd0e9a65c85af29ea1539e162a516466c0de682dbf9f8a4000b1,high,2026-09-22T15:01:52.497356+00:00,2026-09-23T08:31:59.019086+00:00,1,,Hash of a malicious backdoor delivered to targets,malware|c2
 md5,dc78e206eaeadec59fc5801fe4556bd0,high,2026-09-22T12:35:29+00:00,2026-09-23T07:52:10+00:00,2,,Listed as a known malicious MD5 hash in the context of the attack,malware
 sha256,1c923c685f97e556f241d0f1880283500a61dc7ecae8cafe75f34c720ff6b918,high,2026-09-22T22:12:48+00:00,2026-09-22T22:12:48+00:00,1,,Listed as a malware sample in the IOC section,malware
 sha256,3052352ac811c48590f0239281312c35560fc06b4dc39790e365eb1e7cab8634,high,2026-09-22T22:12:48+00:00,2026-09-22T22:12:48+00:00,1,,Listed as a malware sample in the IOC section,malware

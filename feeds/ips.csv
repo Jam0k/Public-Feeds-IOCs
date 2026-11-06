@@ -1,5 +1,20 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason,categories
-ipv4,199.19.77.84,high,2026-11-04T19:04:02+00:00,2026-11-04T20:16:14.776971+00:00,2,www.todyl.com:2026-11-04|Fieldeffect:2026-11-04,Identified as the operator's IP with confirmed malicious activity,malware
+ipv4,199.19.77.84,high,2026-11-04T19:04:02+00:00,2026-11-06T13:00:29.149754+00:00,2,www.todyl.com:2026-11-06|Fieldeffect:2026-11-04,Identified as the operator's IP with confirmed malicious activity,malware
+ipv4,136.0.141.71,high,2026-11-05T17:00:49.402066+00:00,2026-11-06T06:16:02+00:00,2,Thehackernews:2026-11-06|blog.xlab.qianxin.com:2026-11-05,IP address used as a download server for a backdoor,malware|c2
+ipv4,206.187.215.173,high,2026-11-05T21:38:21+00:00,2026-11-05T21:38:21+00:00,1,Censys:2026-11-05,Reported by CrowdStrike as part of a threat actor's infrastructure,malware
+ipv4,45.87.53.10,high,2026-11-05T21:38:21+00:00,2026-11-05T21:38:21+00:00,1,Censys:2026-11-05,Part of a set of hosts running attacker tools,malware
+ipv4,45.87.53.14,high,2026-11-05T21:38:21+00:00,2026-11-05T21:38:21+00:00,1,Censys:2026-11-05,Part of a set of hosts running attacker tools,malware
+ipv4,45.87.53.3,high,2026-11-05T21:38:21+00:00,2026-11-05T21:38:21+00:00,1,Censys:2026-11-05,Part of a set of hosts running attacker tools,malware
+ipv4,45.87.53.4,high,2026-11-05T21:38:21+00:00,2026-11-05T21:38:21+00:00,1,Censys:2026-11-05,Part of a set of hosts running attacker tools,malware
+ipv4,45.87.53.6,high,2026-11-05T21:38:21+00:00,2026-11-05T21:38:21+00:00,1,Censys:2026-11-05,Part of a set of hosts running attacker tools,malware
+ipv4,103.59.160.171,high,2026-11-05T15:58:24+00:00,2026-11-05T15:58:24+00:00,1,Wordfence:2026-11-05,Listed as a top offending IP address targeting a vulnerability,scanner
+ipv4,154.26.238.8,high,2026-11-05T15:58:24+00:00,2026-11-05T15:58:24+00:00,1,Wordfence:2026-11-05,Listed as a top offending IP address targeting a vulnerability,scanner
+ipv4,185.177.72.61,high,2026-11-05T15:58:24+00:00,2026-11-05T15:58:24+00:00,1,Wordfence:2026-11-05,Listed as a top offending IP address targeting a vulnerability,scanner
+ipv4,87.58.197.83,high,2026-11-05T15:58:24+00:00,2026-11-05T15:58:24+00:00,1,Wordfence:2026-11-05,Listed as an IP address actively engaged in targeting vulnerabilities,scanner
+ipv4,96.62.218.148,high,2026-11-05T15:58:24+00:00,2026-11-05T15:58:24+00:00,1,Wordfence:2026-11-05,Listed as an IP address actively engaged in targeting vulnerabilities,scanner
+ipv4,175.102.182.6,high,2026-11-05T14:37:03.550931+00:00,2026-11-05T14:37:03.550931+00:00,1,www.sysdig.com:2026-11-05,Identified as an IP address used by attackers for exfiltration,exfiltration
+ipv4,45.9.148.221,high,2026-11-05T14:37:03.550931+00:00,2026-11-05T14:37:03.550931+00:00,1,www.sysdig.com:2026-11-05,Listed as a C2 IP address belonging to SCARLETEEL,c2|exfiltration
+ipv4,157.20.182.49,high,2026-11-05T13:09:11+00:00,2026-11-05T13:09:11+00:00,1,Crowdstrike:2026-11-05,Controlled by the Iran-nexus adversary STATIC KITTEN,exploit
 ipv4,142.111.194.73,high,2026-11-04T10:11:03.626581+00:00,2026-11-04T10:11:03.626581+00:00,1,www.welivesecurity.com:2026-11-04,Listed as BeautyStealer exfiltration server,exfiltration
 ipv4,45.194.90.57,high,2026-11-03T23:53:53+00:00,2026-11-04T04:34:30.223780+00:00,2,threat-intelligence.redeyesecurity.com:2026-11-04|Dev.To:2026-11-03,Used to download a payload in the attack process,malware|botnet
 ipv4,112.121.185.218,high,2026-11-04T03:55:19+00:00,2026-11-04T03:55:19+00:00,1,Acronis:2026-11-04,IP address identified as hosting attacker infrastructure,c2|malware|proxy_tunnel
@@ -98,7 +113,7 @@ ipv4,66.29.153.90,high,2026-10-22T19:36:42.065904+00:00,2026-10-22T19:36:42.0659
 ipv4,91.231.182.187,high,2026-10-22T18:31:10.890874+00:00,2026-10-22T18:31:10.890874+00:00,1,www.welivesecurity.com:2026-10-22,C&C server in payloads downloaded by PteroPaste,c2
 ipv4,210.242.76.32,high,2026-10-22T17:49:54+00:00,2026-10-22T17:49:54+00:00,1,Thehackernews:2026-10-22,IP address used in exploitation attempts originating from Taiwan.,exploit|scanner
 ipv4,211.20.144.116,high,2026-10-22T17:49:54+00:00,2026-10-22T17:49:54+00:00,1,Thehackernews:2026-10-22,IP address used in exploitation attempts originating from Taiwan.,exploit|scanner
-ipv4,193.32.204.199,high,2026-10-07T13:03:38+00:00,2026-10-22T14:08:12+00:00,2,News.Ycombinator:2026-10-22|Blog.Gitguardian:2026-10-07,Listed as an exfiltration endpoint used by attackers.,exfiltration
+ipv4,193.32.204.199,high,2026-10-22T14:08:12+00:00,2026-10-22T14:08:12+00:00,1,News.Ycombinator:2026-10-22,Used for exfiltrating data in a malicious campaign,exfiltration
 ipv4,185.238.2.195,high,2026-10-22T13:04:01+00:00,2026-10-22T13:04:01+00:00,1,Huntress:2026-10-22,Listed as an AiTM relay used by attackers.,proxy_tunnel
 ipv4,192.159.99.172,high,2026-10-22T13:04:01+00:00,2026-10-22T13:04:01+00:00,1,Huntress:2026-10-22,Listed as a 1337 Services address used in attacks.,proxy_tunnel
 ipv4,45.83.31.44,high,2026-10-22T13:04:01+00:00,2026-10-22T13:04:01+00:00,1,Huntress:2026-10-22,Listed as a 1337 Services address used in attacks.,proxy_tunnel
@@ -174,7 +189,7 @@ ipv4,166.88.95.90,high,2026-10-08T11:13:46+00:00,2026-10-08T11:13:46+00:00,1,Gbh
 ipv4,101.53.80.20,high,2026-10-08T10:16:18+00:00,2026-10-08T10:16:18+00:00,1,Gbhackers:2026-10-08,Listed as a proxy address associated with the operation,proxy_tunnel
 ipv4,124.155.252.63,high,2026-10-08T10:16:18+00:00,2026-10-08T10:16:18+00:00,1,Gbhackers:2026-10-08,Listed as a proxy address associated with the operation,proxy_tunnel
 ipv4,205.214.59.31,high,2026-10-08T10:16:18+00:00,2026-10-08T10:16:18+00:00,1,Gbhackers:2026-10-08,Listed as a proxy address associated with the operation,proxy_tunnel
-ipv4,38.60.157.86,high,2026-10-07T12:49:01+00:00,2026-10-08T07:57:29+00:00,2,Heise.De:2026-10-08|Bleepingcomputer:2026-10-07,Listed as an IP address from which exploit attempts originated,scanner
+ipv4,38.60.157.86,high,2026-10-08T07:57:29+00:00,2026-10-08T07:57:29+00:00,1,Heise.De:2026-10-08,Listed as an IP address from which exploit attempts originated,scanner
 ipv4,65.87.7.132,high,2026-10-08T00:00:00+00:00,2026-10-08T00:00:00+00:00,1,Cloudsek:2026-10-08,Configured to communicate with a remote-access tool,c2
 ipv4,209.239.79.121,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,securelist.com:2026-10-07,Listed in a structured IOC list as attacker-controlled infrastructure,c2
 ipv4,209.239.79.125,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.445490+00:00,1,securelist.com:2026-10-07,Listed in a structured IOC list as attacker-controlled infrastructure,c2
@@ -210,8 +225,3 @@ ipv4,92.62.221.38,high,2026-10-07T18:01:35.445490+00:00,2026-10-07T18:01:35.4454
 ipv4,45.154.12.132,high,2026-10-07T13:51:21+00:00,2026-10-07T13:51:23+00:00,1,Securityaffairs:2026-10-07,Listed as a C2 server used by the threat actors in the FortiBleed campaign.,c2
 ipv4,103.27.186.156,high,2026-10-07T13:51:21+00:00,2026-10-07T13:51:21+00:00,1,Securityaffairs:2026-10-07,Listed as a proxy node used by threat actors.,proxy_tunnel
 ipv4,154.202.59.169,high,2026-10-07T13:51:21+00:00,2026-10-07T13:51:21+00:00,1,Securityaffairs:2026-10-07,Listed as a proxy node used by threat actors.,proxy_tunnel
-ipv4,170.39.218.2,high,2026-10-07T13:03:38+00:00,2026-10-07T13:03:38+00:00,1,Blog.Gitguardian:2026-10-07,Listed as an endpoint used by attackers.,other
-ipv4,103.101.85.123,high,2026-10-07T12:02:35.647461+00:00,2026-10-07T12:02:35.647461+00:00,1,www.ontinue.com:2026-10-07,IP address hosts a panel resolving to phishing domains,phishing
-ipv4,193.178.158.61,high,2026-10-07T12:02:35.647461+00:00,2026-10-07T12:02:35.647461+00:00,1,www.ontinue.com:2026-10-07,IP address hosts a panel on the same network as the exfiltration server,malware|exfiltration
-ipv4,38.244.50.120,high,2026-10-07T05:00:00+00:00,2026-10-07T05:00:00+00:00,1,Crowdstrike:2026-10-07,Associated with threat actor activity and hosting malicious content.,malware
-ipv4,185.177.72.38,high,2026-10-06T23:29:39+00:00,2026-10-06T23:29:39+00:00,1,F5:2026-10-06,"IP address used in capability probing sequence, indicating attacker control",scanner

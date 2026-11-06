@@ -1,5 +1,20 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason,categories
-ipv4,199.19.77.84,high,2026-11-04T19:04:02+00:00,2026-11-04T20:16:14.776971+00:00,2,,Identified as the operator's IP with confirmed malicious activity,malware
+ipv4,199.19.77.84,high,2026-11-04T19:04:02+00:00,2026-11-06T10:02:02.033041+00:00,2,,Identified as the operator's IP with confirmed malicious activity,malware
+ipv4,136.0.141.71,high,2026-11-05T17:00:49.402066+00:00,2026-11-06T06:16:02+00:00,2,,IP address used as a download server for a backdoor,malware|c2
+ipv4,206.187.215.173,high,2026-11-05T21:38:21+00:00,2026-11-05T21:38:21+00:00,1,,Reported by CrowdStrike as part of a threat actor's infrastructure,malware
+ipv4,45.87.53.10,high,2026-11-05T21:38:21+00:00,2026-11-05T21:38:21+00:00,1,,Part of a set of hosts running attacker tools,malware
+ipv4,45.87.53.14,high,2026-11-05T21:38:21+00:00,2026-11-05T21:38:21+00:00,1,,Part of a set of hosts running attacker tools,malware
+ipv4,45.87.53.3,high,2026-11-05T21:38:21+00:00,2026-11-05T21:38:21+00:00,1,,Part of a set of hosts running attacker tools,malware
+ipv4,45.87.53.4,high,2026-11-05T21:38:21+00:00,2026-11-05T21:38:21+00:00,1,,Part of a set of hosts running attacker tools,malware
+ipv4,45.87.53.6,high,2026-11-05T21:38:21+00:00,2026-11-05T21:38:21+00:00,1,,Part of a set of hosts running attacker tools,malware
+ipv4,103.59.160.171,high,2026-11-05T15:58:24+00:00,2026-11-05T15:58:24+00:00,1,,Listed as a top offending IP address targeting a vulnerability,scanner
+ipv4,154.26.238.8,high,2026-11-05T15:58:24+00:00,2026-11-05T15:58:24+00:00,1,,Listed as a top offending IP address targeting a vulnerability,scanner
+ipv4,185.177.72.61,high,2026-11-05T15:58:24+00:00,2026-11-05T15:58:24+00:00,1,,Listed as a top offending IP address targeting a vulnerability,scanner
+ipv4,87.58.197.83,high,2026-11-05T15:58:24+00:00,2026-11-05T15:58:24+00:00,1,,Listed as an IP address actively engaged in targeting vulnerabilities,scanner
+ipv4,96.62.218.148,high,2026-11-05T15:58:24+00:00,2026-11-05T15:58:24+00:00,1,,Listed as an IP address actively engaged in targeting vulnerabilities,scanner
+ipv4,175.102.182.6,high,2026-11-05T14:37:03.550931+00:00,2026-11-05T14:37:03.550931+00:00,1,,Identified as an IP address used by attackers for exfiltration,exfiltration
+ipv4,45.9.148.221,high,2026-11-05T14:37:03.550931+00:00,2026-11-05T14:37:03.550931+00:00,1,,Listed as a C2 IP address belonging to SCARLETEEL,c2|exfiltration
+ipv4,157.20.182.49,high,2026-11-05T13:09:11+00:00,2026-11-05T13:09:11+00:00,1,,Controlled by the Iran-nexus adversary STATIC KITTEN,exploit
 ipv4,142.111.194.73,high,2026-11-03T18:01:44.363139+00:00,2026-11-04T10:11:03.626581+00:00,1,,Listed as BeautyStealer exfiltration server,exfiltration
 ipv4,45.194.90.57,high,2026-11-03T23:53:53+00:00,2026-11-04T04:34:30.223780+00:00,2,,Used to download a payload in the attack process,malware|botnet
 ipv4,112.121.185.218,high,2026-11-04T03:55:19+00:00,2026-11-04T03:55:19+00:00,1,,IP address identified as hosting attacker infrastructure,c2|malware|proxy_tunnel
