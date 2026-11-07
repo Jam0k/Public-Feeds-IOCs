@@ -1,17 +1,27 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason,categories
-ipv4,199.19.77.84,high,2026-11-04T19:04:02+00:00,2026-11-06T10:02:02.033041+00:00,2,,Identified as the operator's IP with confirmed malicious activity,malware
+ipv4,103.59.160.171,high,2026-11-05T15:58:24+00:00,2026-11-06T14:47:10+00:00,2,,Listed in Wordfence's report as an indicator of compromise.,scanner
+ipv4,154.26.238.8,high,2026-11-05T15:58:24+00:00,2026-11-06T14:47:10+00:00,2,,Listed in Wordfence's report as an indicator of compromise.,scanner
+ipv4,185.177.72.61,high,2026-11-05T15:58:24+00:00,2026-11-06T14:47:10+00:00,2,,Listed in Wordfence's report as an indicator of compromise.,scanner
+ipv4,87.58.197.83,high,2026-11-05T15:58:24+00:00,2026-11-06T14:47:10+00:00,2,,Listed in Wordfence's report as an indicator of compromise.,scanner
+ipv4,96.62.218.148,high,2026-11-05T15:58:24+00:00,2026-11-06T14:47:10+00:00,2,,Listed in Wordfence's report as an indicator of compromise.,scanner
+ipv4,199.19.77.84,high,2026-11-04T19:04:02+00:00,2026-11-06T13:00:29.149754+00:00,2,,Identified as the operator's IP with confirmed malicious activity,malware
+ipv4,104.234.26.163,high,2026-11-06T10:50:31+00:00,2026-11-06T10:50:31+00:00,1,,Listed as part of a malicious campaign targeting educational institutions,c2
 ipv4,136.0.141.71,high,2026-11-05T17:00:49.402066+00:00,2026-11-06T06:16:02+00:00,2,,IP address used as a download server for a backdoor,malware|c2
-ipv4,206.187.215.173,high,2026-11-05T21:38:21+00:00,2026-11-05T21:38:21+00:00,1,,Reported by CrowdStrike as part of a threat actor's infrastructure,malware
-ipv4,45.87.53.10,high,2026-11-05T21:38:21+00:00,2026-11-05T21:38:21+00:00,1,,Part of a set of hosts running attacker tools,malware
-ipv4,45.87.53.14,high,2026-11-05T21:38:21+00:00,2026-11-05T21:38:21+00:00,1,,Part of a set of hosts running attacker tools,malware
-ipv4,45.87.53.3,high,2026-11-05T21:38:21+00:00,2026-11-05T21:38:21+00:00,1,,Part of a set of hosts running attacker tools,malware
-ipv4,45.87.53.4,high,2026-11-05T21:38:21+00:00,2026-11-05T21:38:21+00:00,1,,Part of a set of hosts running attacker tools,malware
-ipv4,45.87.53.6,high,2026-11-05T21:38:21+00:00,2026-11-05T21:38:21+00:00,1,,Part of a set of hosts running attacker tools,malware
-ipv4,103.59.160.171,high,2026-11-05T15:58:24+00:00,2026-11-05T15:58:24+00:00,1,,Listed as a top offending IP address targeting a vulnerability,scanner
-ipv4,154.26.238.8,high,2026-11-05T15:58:24+00:00,2026-11-05T15:58:24+00:00,1,,Listed as a top offending IP address targeting a vulnerability,scanner
-ipv4,185.177.72.61,high,2026-11-05T15:58:24+00:00,2026-11-05T15:58:24+00:00,1,,Listed as a top offending IP address targeting a vulnerability,scanner
-ipv4,87.58.197.83,high,2026-11-05T15:58:24+00:00,2026-11-05T15:58:24+00:00,1,,Listed as an IP address actively engaged in targeting vulnerabilities,scanner
-ipv4,96.62.218.148,high,2026-11-05T15:58:24+00:00,2026-11-05T15:58:24+00:00,1,,Listed as an IP address actively engaged in targeting vulnerabilities,scanner
+ipv4,154.12.94.78,high,2026-11-06T06:01:32+00:00,2026-11-06T06:01:32+00:00,1,,Identified as a Mythic C2 server,c2
+ipv4,219.133.248.159,high,2026-11-06T04:48:54+00:00,2026-11-06T04:48:54+00:00,1,,Listed in a YARA rule as an IP indicator,traffic_distribution
+ipv4,219.133.249.210,high,2026-11-06T04:48:54+00:00,2026-11-06T04:48:54+00:00,1,,Listed in a YARA rule as an IP indicator,traffic_distribution
+ipv4,219.133.250.181,high,2026-11-06T04:48:54+00:00,2026-11-06T04:48:54+00:00,1,,Listed in a YARA rule as an IP indicator,traffic_distribution
+ipv4,157.22.126.128,high,2026-11-06T04:30:56+00:00,2026-11-06T04:30:56+00:00,1,,Associated with malicious reconnaissance operations,scanner
+ipv4,108.165.147.226,high,2026-11-05T21:38:21+00:00,2026-11-05T21:38:21+00:00,1,,Listed among Censys-observed hosts associated with ARTEX threat activity,scanner
+ipv4,111.68.4.13,high,2026-11-05T21:38:21+00:00,2026-11-05T21:38:21+00:00,1,,Listed among Censys-observed hosts associated with ARTEX threat activity,scanner
+ipv4,154.12.86.207,high,2026-11-05T21:38:21+00:00,2026-11-05T21:38:21+00:00,1,,Listed among Censys-observed hosts associated with ARTEX threat activity,scanner
+ipv4,206.187.215.173,high,2026-11-05T21:38:21+00:00,2026-11-05T21:38:21+00:00,1,,Listed among Censys-observed hosts associated with ARTEX threat activity,malware
+ipv4,38.244.50.120,high,2026-10-07T05:00:00+00:00,2026-11-05T21:38:21+00:00,2,,Used by an unattributed actor running ARTEX for malicious activities,malware
+ipv4,45.87.53.10,high,2026-11-05T21:38:21+00:00,2026-11-05T21:38:21+00:00,1,,Identified as part of a set of hosts running ARTEX and other C2 tools,malware
+ipv4,45.87.53.14,high,2026-11-05T21:38:21+00:00,2026-11-05T21:38:21+00:00,1,,Identified as part of a set of hosts running ARTEX and other C2 tools,malware
+ipv4,45.87.53.3,high,2026-11-05T21:38:21+00:00,2026-11-05T21:38:21+00:00,1,,Identified as part of a set of hosts running ARTEX and other C2 tools,malware
+ipv4,45.87.53.4,high,2026-11-05T21:38:21+00:00,2026-11-05T21:38:21+00:00,1,,Identified as part of a set of hosts running ARTEX and other C2 tools,malware
+ipv4,45.87.53.6,high,2026-11-05T21:38:21+00:00,2026-11-05T21:38:21+00:00,1,,Identified as part of a set of hosts running ARTEX and other C2 tools,malware
 ipv4,175.102.182.6,high,2026-11-05T14:37:03.550931+00:00,2026-11-05T14:37:03.550931+00:00,1,,Identified as an IP address used by attackers for exfiltration,exfiltration
 ipv4,45.9.148.221,high,2026-11-05T14:37:03.550931+00:00,2026-11-05T14:37:03.550931+00:00,1,,Listed as a C2 IP address belonging to SCARLETEEL,c2|exfiltration
 ipv4,157.20.182.49,high,2026-11-05T13:09:11+00:00,2026-11-05T13:09:11+00:00,1,,Controlled by the Iran-nexus adversary STATIC KITTEN,exploit
@@ -239,7 +249,6 @@ ipv4,154.202.59.169,high,2026-10-07T13:51:21+00:00,2026-10-07T13:51:21+00:00,1,,
 ipv4,170.39.218.2,high,2026-10-07T13:03:38+00:00,2026-10-07T13:03:38+00:00,1,,Listed as an endpoint used by attackers.,other
 ipv4,103.101.85.123,high,2026-09-27T09:02:32.908946+00:00,2026-10-07T12:02:35.647461+00:00,1,,IP address hosts a panel resolving to phishing domains,phishing
 ipv4,193.178.158.61,high,2026-09-25T17:12:02.656577+00:00,2026-10-07T12:02:35.647461+00:00,1,,IP address hosts a panel on the same network as the exfiltration server,malware|exfiltration
-ipv4,38.244.50.120,high,2026-10-07T05:00:00+00:00,2026-10-07T05:00:00+00:00,1,,Associated with threat actor activity and hosting malicious content.,malware
 ipv4,185.177.72.38,high,2026-10-06T23:29:39+00:00,2026-10-06T23:29:39+00:00,1,,"IP address used in capability probing sequence, indicating attacker control",scanner
 ipv4,38.180.136.127,high,2026-10-06T10:05:56+00:00,2026-10-06T10:05:56+00:00,1,,Used as a secondary IP for phishing infrastructure,phishing
 ipv4,87.248.129.239,high,2026-10-06T10:05:56+00:00,2026-10-06T10:05:56+00:00,1,,IP address associated with attacker-controlled domain,c2

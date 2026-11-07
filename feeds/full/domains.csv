@@ -1,4 +1,26 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason,categories
+domain,chlpolledelivery.com,high,2026-11-06T19:19:27+00:00,2026-11-06T19:19:27+00:00,1,,Listed among typosquatted domains used for phishing,phishing
+domain,chlpolleldelivery.com,high,2026-11-06T19:19:27+00:00,2026-11-06T19:19:27+00:00,1,,Listed among typosquatted domains used for phishing,phishing
+domain,chlpotedeliverys.com,high,2026-11-06T19:19:27+00:00,2026-11-06T19:19:27+00:00,1,,Listed among typosquatted domains used for phishing,phishing
+domain,chlpoteldeliverys.com,high,2026-11-06T19:19:27+00:00,2026-11-06T19:19:27+00:00,1,,Listed among typosquatted domains used for phishing,phishing
+domain,chlpotelrdeliverys.com,high,2026-11-06T19:19:27+00:00,2026-11-06T19:19:27+00:00,1,,Listed among typosquatted domains used for phishing,phishing
+domain,chlpotelrtdeliverys.com,high,2026-11-06T19:19:27+00:00,2026-11-06T19:19:27+00:00,1,,Listed among typosquatted domains used for phishing,phishing
+domain,firehousechicken.shop,high,2026-11-06T19:19:27+00:00,2026-11-06T19:19:27+00:00,1,,Listed among typosquatted domains used for phishing,phishing
+domain,firehousesubs-us.com,high,2026-11-06T19:19:27+00:00,2026-11-06T19:19:27+00:00,1,,Listed among typosquatted domains used for phishing,phishing
+domain,jerseymikes-delivery.com,high,2026-11-06T19:19:27+00:00,2026-11-06T19:19:27+00:00,1,,Listed among typosquatted domains used for phishing,phishing
+domain,pandaexpressdelivery.com,high,2026-11-06T19:19:27+00:00,2026-11-06T19:19:27+00:00,1,,"Domain used as part of a phishing campaign, indicating attacker control.",phishing
+domain,wingstop-delivery.com,high,2026-11-06T19:19:27+00:00,2026-11-06T19:19:27+00:00,1,,"Domain used as part of a phishing campaign, indicating attacker control.",phishing
+domain,paleasbest.top,high,2026-11-06T17:11:11.050000+00:00,2026-11-06T17:11:11.050000+00:00,1,,"Domain used for exfiltration in a malware campaign, indicating attacker control.",exfiltration
+domain,proxystream.st,high,2026-10-18T19:45:05+00:00,2026-11-06T15:29:50+00:00,3,,"Outbound connections to this domain are a sign of compromise, indicating attacker-controlled infrastructure.",proxy_tunnel
+domain,git.oddium.io,high,2026-11-06T13:30:55.835872+00:00,2026-11-06T13:30:55.835872+00:00,1,,Used in a sophisticated social engineering campaign,supply_chain
+domain,9i6pokerdepot.com,high,2026-09-08T13:01:18.371466+00:00,2026-11-06T13:00:35.400511+00:00,1,,Used as a sending domain in a phishing campaign,phishing
+domain,bitfit.io,high,2026-11-06T11:26:30+00:00,2026-11-06T11:26:30+00:00,1,,Identified as a front company used by attackers,other
+domain,citalab.com,high,2026-11-06T11:26:30+00:00,2026-11-06T11:26:30+00:00,1,,Identified as a front company used by attackers,other
+domain,citalab.net,high,2026-11-06T11:26:30+00:00,2026-11-06T11:26:30+00:00,1,,Identified as a front company used by attackers,other
+domain,clickcom.click,high,2026-11-06T04:48:54+00:00,2026-11-06T04:48:54+00:00,1,,Listed in a YARA rule as a domain indicator,traffic_distribution
+domain,clicko.click,high,2026-11-06T04:48:54+00:00,2026-11-06T04:48:54+00:00,1,,Listed in a YARA rule as a domain indicator,traffic_distribution
+domain,dy-tt.com.cn,high,2026-11-06T04:48:54+00:00,2026-11-06T04:48:54+00:00,1,,Listed in a YARA rule as a domain indicator,traffic_distribution
+domain,pdsguam.biz,high,2026-11-06T04:48:54+00:00,2026-11-06T04:48:54+00:00,1,,"Domain listed in a YARA rule for malware detection, indicating attacker control.",traffic_distribution
 domain,ads-it-assets.com,high,2026-11-06T00:37:33.464844+00:00,2026-11-06T00:37:33.464844+00:00,1,,"Listed in network logs for compromise checks, indicating attacker control.",malware
 domain,ad.starx-net.com,high,2026-11-04T14:27:52+00:00,2026-11-06T00:37:33.464844+00:00,2,,"Used as an exfiltration endpoint in attack chains, indicating attacker control.",exfiltration
 domain,assets-int.com,high,2026-11-06T00:37:33.464844+00:00,2026-11-06T00:37:33.464844+00:00,1,,"Listed in network logs for compromise checks, indicating attacker control.",malware
@@ -300,7 +322,6 @@ domain,reviewscene.com,high,2026-10-27T18:20:10+00:00,2026-10-27T18:20:10+00:00,
 domain,claude.ai.download-app.us,high,2026-07-22T20:08:20+00:00,2026-10-27T16:00:30.870663+00:00,2,,Redirects users to malicious content.,fake_software|traffic_distribution
 domain,bitchassbecerra.com,high,2026-10-27T15:00:35.448658+00:00,2026-10-27T15:00:35.448658+00:00,1,,Campaign website created for political purposes.,influence_operations
 domain,dedyn.io,high,2026-10-27T13:03:27+00:00,2026-10-27T13:03:27+00:00,1,,Used as a dynamic DNS for attacker-controlled infrastructure.,abused_service|c2
-domain,9i6pokerdepot.com,high,2026-09-08T13:01:18.371466+00:00,2026-10-27T06:31:11.483608+00:00,1,,Used as a sending domain in a phishing campaign,phishing
 domain,c85grt98sd.com,high,2026-10-24T00:00:00+00:00,2026-10-26T20:41:22+00:00,2,,Listed as a loader domain used in the campaign,malware
 domain,deepveindrilling.com,high,2026-10-24T00:00:00+00:00,2026-10-26T20:41:22+00:00,4,,Identified as the newest domain used by the criminal group,malware
 domain,hdfdsi84j3h.top,high,2026-10-24T00:00:00+00:00,2026-10-26T20:41:22+00:00,2,,Listed as a loader domain used in the campaign,malware
@@ -311,7 +332,6 @@ domain,additionalver.com,high,2026-10-24T00:00:00+00:00,2026-10-26T20:35:05+00:0
 domain,vps3749638.trouble-free.net,high,2026-10-26T12:31:06.850872+00:00,2026-10-26T12:31:06.850872+00:00,1,,PTR record associated with a confirmed source address used in exploit attempts.,exploit
 domain,vps-b225fb62.vps.ovh.us,high,2026-10-26T12:31:06.850872+00:00,2026-10-26T12:31:06.850872+00:00,1,,PTR record associated with a confirmed source address used in exploit attempts.,exploit
 domain,rdp.sh,high,2026-10-26T08:35:51+00:00,2026-10-26T08:35:51+00:00,1,,Linked to a remote access trojan and taken down in a law enforcement operation,bulletproof_hosting
-domain,proxystream.st,high,2026-10-18T19:45:05+00:00,2026-10-25T20:32:13.039275+00:00,2,,Associated with malicious activity and used in attacks,proxy_tunnel
 domain,0auth-chromium.com,high,2026-10-19T10:34:26+00:00,2026-10-25T20:32:07.509320+00:00,2,,Domain used to retrieve and execute a malicious PowerShell script,malware
 domain,arenapex.cloud,high,2026-10-19T13:35:56.267043+00:00,2026-10-25T20:32:07.509320+00:00,1,,Historical domain used for script-download in malicious infrastructure,malware
 domain,ccmihr.com,high,2026-10-19T10:34:26+00:00,2026-10-25T20:32:07.509320+00:00,2,,Domain used as a C2 server responding with tasks for malware,c2|malware
