@@ -1,4 +1,6 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason,categories
+sha256,07781a65a4542ce90cf30d40a0340ec515f6b50a44452564e69e45e8eb4276e7,high,2026-11-07T05:59:13+00:00,2026-11-07T05:59:13+00:00,1,Reddit:2026-11-07,SHA-256 hash of a malware sample listed in a threat report.,malware
+sha256,58c97440bdf1967710c5738a62dcf0cf5197ae2b94dbda7347acbc82bbe4c5fc,high,2026-11-07T05:59:13+00:00,2026-11-07T05:59:13+00:00,1,Reddit:2026-11-07,SHA-256 hash of a malware sample listed in a threat report.,malware
 sha256,063930af6a4aad06d8f8aab43226bf6dcddd2c79aa505894ee95876cf9254543,high,2026-10-20T10:11:03+00:00,2026-11-07T02:02:40.788788+00:00,2,www.security.com:2026-11-07|Security:2026-10-20,Listed as a Hookedge VBS launcher,malware
 sha256,1bb1b27e1695c726c7c1d3d4935f9318afc6f5fd9015d7cf3890f0eb7bf8d47e,high,2026-10-20T10:11:03+00:00,2026-11-07T02:02:40.788788+00:00,2,www.security.com:2026-11-07|Security:2026-10-20,Listed as a Hookedge dropper,malware
 sha256,1bff55104206d3f55cd72ca58ffecd2fa620a428c5a3c6987d3c4cc68285d335,high,2026-10-20T10:11:03+00:00,2026-11-07T02:02:40.788788+00:00,2,www.security.com:2026-11-07|Security:2026-10-20,Listed as a Hookedge dropper,malware
@@ -1150,82 +1152,3 @@ sha256,cbb3f830731fe2c9194f7fe5aa55479cffdae184039b0df078b1394209d7a49f,high,202
 sha256,fb07743d139f72fca4616b01308f1f705f02fda72988027bc68e9316655eadda,high,2026-10-10T02:19:11+00:00,2026-10-10T02:19:11+00:00,1,Paloaltonetworks:2026-10-10,Listed as a malicious Rust implant SHA-256 hash in a threat report,malware|supply_chain
 sha1,1334417664270db20af705f422878c53c8378203,high,2026-10-09T18:00:23.022990+00:00,2026-10-09T18:00:23.022990+00:00,1,censys.com:2026-10-09,Listed as a payload module hash for a malicious toolkit,malware
 sha256,864d68e64618d6bfc26d75d6f780ae0b7bfed3698cc8333818ed32519e560d1f,high,2026-10-09T18:00:23.022990+00:00,2026-10-09T18:00:23.022990+00:00,1,censys.com:2026-10-09,Unique body hash for a C2 control panel,c2
-sha256,69b94f987d06e3c69a8ee476ed16723fa8b13672b44c286b572cb7f09cdd7a4f,high,2026-10-09T11:01:00.573882+00:00,2026-10-09T11:01:00.573882+00:00,1,www.microsoft.com:2026-10-09,"SHA-256 hash of the malware sample used in the analysis, indicating attacker-produced artefact.",malware|c2
-md5,2853e92617d26045feb028e52bc9930d,high,2026-10-09T11:00:58.445581+00:00,2026-10-09T11:00:58.445581+00:00,1,tria.ge:2026-10-09,Listed as an encrypted malware hash,malware|c2
-sha1,206b5f0a0a42ff89576eb31becb89b2b90fcef9f,high,2026-10-09T11:00:58.445581+00:00,2026-10-09T11:00:58.445581+00:00,1,tria.ge:2026-10-09,Listed as a sample hash for a malicious RAT,malware|c2
-sha256,e6f28ba622abacbf78d3411656a185947ac385a01fed0733091159498674779d,high,2026-10-09T11:00:58.445581+00:00,2026-10-09T11:00:58.445581+00:00,1,tria.ge:2026-10-09,Listed as a sample hash for a malicious RAT,malware|c2
-md5,56b34de84f4950c4364e693877b640c6,high,2026-10-09T03:56:52+00:00,2026-10-09T03:56:52+00:00,1,Cyfirma:2026-10-09,Listed in a malware detection rule,malware
-sha1,dd350eac76d1157772889dc21d0ae2e85b2ddf2f,high,2026-10-09T03:56:52+00:00,2026-10-09T03:56:52+00:00,1,Cyfirma:2026-10-09,Listed in a malware detection rule,malware
-sha256,b312ef44bca34f2186177d9a6c8da06834d2748586ed5aa757d300c36d37acf2,high,2026-10-09T03:56:52+00:00,2026-10-09T03:56:52+00:00,1,Cyfirma:2026-10-09,Listed in a malware detection rule,malware
-sha256,05f69ae6b2b89c1c4dcf836bff032232f11bf0109f2b498e2345045d06139034,high,2026-10-08T20:23:28+00:00,2026-10-08T20:23:28+00:00,1,Huntress:2026-10-08,Hash of a malicious file used by attackers,malware|cryptomining
-sha256,481728a7c9c4c02be07051d9c1958d902ea6397ebb8952ab83944818e3d25d21,high,2026-10-08T20:23:28+00:00,2026-10-08T20:23:28+00:00,1,Huntress:2026-10-08,Hash of a malicious file used by attackers,malware|cryptomining
-sha256,4dcb0202fe8b2d4d7b183764e38184cd6ed50132786cc7e7d1f7f4bce1dd6f3d,high,2026-10-08T20:23:28+00:00,2026-10-08T20:23:28+00:00,1,Huntress:2026-10-08,Hash of a malicious file used by attackers,malware|cryptomining
-md5,1933c314041415939331fce183939547,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Listed as a known file used by threat actors,malware
-md5,1b8e29b6b7972fb124425aaa257f8f6d,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Listed as a known file used by threat actors,malware
-md5,1bcaef76b2063f1b80b0fa0d277ec9c5,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Listed as a known file used by threat actors,exploit
-md5,38f5ff8169423e2c756848c02e8cac3b,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Listed as a known file used by threat actors,malware
-md5,48ca18a25424a0f52276290b619a7a83,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Listed as a known file used by threat actors,malware
-md5,4d33bfb75e27fefaa72526899604d557,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Listed as a known file used by threat actors,exploit
-md5,4f61b9ab907f351bb40b37b10f4974d0,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Listed as a known file used by threat actors,malware
-md5,596b990b0b389d906a8f4384837c1878,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Listed as a known file used by threat actors,other
-md5,5b5a2c7fa705d8b1eb04da5db900b0d7,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Listed as a known file used by threat actors,other
-md5,655cd134976d3e80c521708aa8be418b,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Listed as a known file used by threat actors,other
-md5,6d57c42dee8bd7789969e2dd28671162,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Listed as a known file used by threat actors,malware
-md5,776807750280daad05348f931a33e4ef,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Listed as a known file used by threat actors,malware
-md5,7ce68f0dd85355ba2897a68521167e56,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Listed as a known file used by threat actors,malware
-md5,7d5a182f70bed0e4fa2f8615aba070de,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Listed as a known file used by threat actors,malware
-md5,8829f6f1cc5fc0aab2f6e71bfd7dc53d,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Listed as a known file used by threat actors,malware
-md5,8dcc4f9ccc6b6adf7eeeb3f51c95afad,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Listed as a known file used by threat actors,malware
-md5,a05cdf6afcbb107961307f59cbab5e4f,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Listed as a known file used by threat actors,malware
-md5,a73eca669fe80628dbbd2c7d9bb14c8f,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Listed as a known file used by threat actors,malware
-md5,a973c0ab904c1b74655a906b99b76850,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Listed as a known file used by threat actors,malware
-md5,b04375cca637f0702bf27feaff22a92d,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Listed as a known file used by threat actors,malware
-md5,bcacc7ca999980d26c186ef791242fb5,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Listed as a known file used by threat actors,malware
-md5,be121e707f817aa9392c55af1e7ec2aa,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Listed as a known file used by threat actors,malware
-md5,cf903e4a1629aa0582fd0363b5786676,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Listed as a known file used by threat actors,malware
-md5,d61326c4e6d24aa9b67e2b7a3ef7cedf,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Listed as a known file used by threat actors,malware
-md5,dae8f50ea44225fae3ba1f160b42bfdc,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Listed as a known file used by threat actors,malware
-md5,ef713447f18f5b7ee16af4ac37ec4133,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Listed as a known file used by threat actors,malware
-md5,f01a9a2d1e31332ed36c1a4d2839f412,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Listed as a known file used by threat actors,malware
-md5,f62cbbbdf35c7790909c26c7c5fbce05,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Listed as a known file used by threat actors,malware
-md5,f82694de2f19e1bff333c27bb7eb7a56,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Listed as a known file used by threat actors,malware
-md5,f8de2e99dc7523d2c83d1a48e844c5ff,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Listed as a known file used by threat actors,malware
-md5,fc6e8ca41cf4f6100177352660e520b4,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Listed as a known file used by threat actors,exploit
-md5,fdece34bc084f1e252aeae274650eb8d,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Listed as a known file used by threat actors,malware
-sha256,0e6fecb2d369b0eae63731616a3daada52036634885ab1b85b115af6bc5bcb86,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Listed as a known file used by threat actors,malware
-sha256,2ecb51d7fa3bc3fa7ad7df64c6d0cd1f4ff2b37ed6839d3cff529fb08af49fb0,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Listed as a known file used by threat actors,malware
-sha256,2f5c406eb64ad8902c8e30610d43fd3efc05a14cdb8fb158818953eaf3dc6a81,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Listed as a known file used by threat actors,malware
-sha256,2fbcb1995c458e5affd5fb8f1f979a08ddce21714a2e413aa3d5dc44f9f245fe,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Listed as a known file used by threat actors,malware
-sha256,33790218d5871af646feef5be29e0596d4703a45ce675c1eb2ca00140b3a1bde,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Listed as a known file used by threat actors,malware
-sha256,36f3b7645609ef40444dbc68f01d26c543d67689eda4937272ea5cfa4df1b522,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Listed as a known file used by threat actors,malware
-sha256,456586ababa08f70216c4459f4d6375676166ebfddd98a33b447ceb5099e8dc5,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Listed as a known file used by threat actors,malware
-sha256,46e59172c40c95d83c3a6f24f801fc2265653c8b575b66a726463e2a4eebd7f2,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Listed as a known file used by threat actors,malware
-sha256,4d488f21269b18e37aaca93ac2a61707c9b611e506cdb3b287277746e94636b5,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Listed as a known file used by threat actors,malware
-sha256,5782ff2c835c88cc1ee521d2e8c523cfad73db3f9a29c93b40c4223f0338ade9,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Listed as a known file used by threat actors,malware
-sha256,644decbc6ce8c52382f4755fa6fc2cb4d89a0e7ec0e574c11b398a6f2eed04b1,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Listed as a known file used by threat actors,exploit
-sha256,645f6f2667af01a94d04a9d7a71916a13d9426835d636b4ceee2e25ccb34e525,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Listed as a known file used by threat actors,malware
-sha256,670fa10a2ddde21fd594c4fef86b554d864089ed2de7153b472e921c623403ae,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Listed as a known file used by threat actors,malware
-sha256,67db57a1f957031b78f29aa91e2e87780eae3835290259eff846d8f14afb794b,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Listed as a known file used by threat actors,exploit
-sha256,72c6af6a4be99e31c4a7a0aa4f01750792788e7f6f9749243a9f2c47c14a708f,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Listed as a known file used by threat actors,malware
-sha256,752b14c6e6936991d51fcd5ebf40d303e657c2372893604f96044848ad9a5f24,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Listed as a known file used by threat actors,malware
-sha256,7b9efc7ef8957411cdd22582ce4bfb3a5f76d9c91cdb7e36bf85c9785a2480e9,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Listed as a known file used by threat actors,malware
-sha256,804a53be802378a8ec4c94602fd3d6584e0d472d83148e8a42c731950fec415d,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Listed as a known file used by threat actors,malware
-sha256,86f1cfa6a2e0a8cb6fc1fbee28472308e6467932f8658a6a4885e29ed8c34a67,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Listed as a known file used by threat actors,malware
-sha256,8a592e22c51311d482272ec5aba0103c9cd0cfd78e5b5ba75dfa8f1c56926672,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Listed as a known file used by threat actors,malware
-sha256,8b869a5edaff74ff18bca3658a519a19771e66d00ff7849af7a142dd6fc8da85,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Listed as a known file used by threat actors,malware
-sha256,8e1b56ef51ba70aa4c4cfd4430820f20875b354588d5d723ba4d3940ea6c924b,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Listed as a known file used by threat actors,malware
-sha256,9dc85f9569a15eaf51c7d34254767ea30dd67b2178cec4cc7125288b9544fe00,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Listed as a known file used by threat actors,malware
-sha256,a14844e982f172d0f23910558c3f390a9d4c45dc32db825c2af7cf0ed8631db2,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Listed as a known file used by threat actors,malware
-sha256,add7dd142e4f7e2873bc8f7b7fb6308063608e0b49a773dea93abad4047f1489,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Listed as a known file used by threat actors,malware
-sha256,b1552703ff0035f197c22cdb3a514bb6aa45ec98de3ef5409faab0978f18c35e,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Listed as a known file used by threat actors,malware
-sha256,c4503db6ece93eddf4511e787607cb14606a1df9f526f1e39992497119437cec,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Listed as a known file used by threat actors,malware
-sha256,c7f86a4623db5c90273cea041d43207849c5c6b0060c370b2095f13871b1366d,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Listed as a known file used by threat actors,malware
-sha256,c9d5dc956841e000bfd8762e2f0b48b66c79b79500e894b4efa7fb9ba17e4e9e,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Listed as a known file used by threat actors,malware
-sha256,e7e727458f573dded05537baddac2867d2801db1c3c74410398d063dfd6f6575,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Listed as a known file used by threat actors,malware
-sha256,e93244080a749b521f63476343ce3c81cc8c1b672fa0d9e67359aee37544c784,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Listed as a known file used by threat actors,malware
-sha256,efb0437e6a6a0f07169952f1a8b734299ec9a8b1faadbed811fe017f2cf54976,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Listed as a known file used by threat actors,malware
-sha256,893cd3583b49cb706b3e55ecb2ed0757b977a21f5c72e041392d1256f31166e2,high,2026-10-08T16:05:59.933906+00:00,2026-10-08T16:05:59.933906+00:00,1,www.cisa.gov:2026-10-08,Listed as a hash of a webshell used by attackers,malware
-sha256,974b69782fdf5d67b97cfd508465939e44ee10798dbcc1e82b92d78776bad938,high,2026-10-08T15:01:01.070092+00:00,2026-10-08T15:01:01.070092+00:00,1,www.levelblue.com:2026-10-08,Listed as a payload-hosting infrastructure file hash,malware
-sha256,e9fe43968c6c0955300e3bc4d7fb0b05a18570b4733aaf4f5c6f7f09be5a242c,high,2026-10-08T15:01:01.070092+00:00,2026-10-08T15:01:01.070092+00:00,1,www.levelblue.com:2026-10-08,Listed as a payload-hosting infrastructure file hash,malware
-sha256,25a0735d0db7dc40e5d45ce42d9c106067e6a66e184d967cfecfab17c3bcb5ef,high,2026-10-08T13:30:27+00:00,2026-10-08T13:30:27+00:00,1,Gbhackers:2026-10-08,SHA-256 hash of a malicious file used in the attack,supply_chain|malware
-sha256,b50a00900399ba99fb6ce1fc151519cb99d44320ef2a631f2237e1aea0ad6fec,high,2026-10-08T13:30:27+00:00,2026-10-08T13:30:27+00:00,1,Gbhackers:2026-10-08,SHA-256 hash of a malicious file used in the attack,supply_chain|malware

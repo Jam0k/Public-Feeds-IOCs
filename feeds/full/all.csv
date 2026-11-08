@@ -1,4 +1,18 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason,categories
+domain,irc.supernets.org,high,2026-11-07T22:30:54.007739+00:00,2026-11-07T22:30:54.007739+00:00,1,,Set up by the author to accept connections on unusual ports as a proof of concept,other
+domain,direct.xcai.pro,high,2026-11-07T20:35:53.378549+00:00,2026-11-07T20:35:53.378549+00:00,1,,Identified as part of the attacker's infrastructure in the campaign,other
+domain,u6ud2s.dnslog.cn,high,2026-11-07T20:35:53.378549+00:00,2026-11-07T20:35:53.378549+00:00,1,,Used for DNS callback to confirm command execution,callback_testing
+ipv4,154.201.79.246,high,2026-10-08T12:54:13+00:00,2026-11-07T20:35:53.378549+00:00,3,,Proxy service used in the attacker's infrastructure,proxy_tunnel
+ipv4,156.251.11.39,high,2026-11-07T20:00:02+00:00,2026-11-07T20:35:53.378549+00:00,2,,Hosts ARTEX panel and malicious open directories,malware
+ipv4,23.248.226.250,high,2026-11-07T20:00:02+00:00,2026-11-07T20:35:53.378549+00:00,2,,Acts as a jump server in the attacker's infrastructure,other
+ipv4,38.244.50.120,high,2026-10-07T05:00:00+00:00,2026-11-07T20:35:53.378549+00:00,4,,Hosts the ARTEX console as part of the attacker's infrastructure,malware
+ipv4,130.94.31.86,high,2026-11-07T20:00:02+00:00,2026-11-07T20:00:02+00:00,1,,Hosts exploitation kits and malicious scripts,exploit
+ipv4,154.222.16.220,high,2026-11-07T19:51:55+00:00,2026-11-07T19:51:55+00:00,1,,Listed as an iPhone exploit server controlled by attackers.,exploit
+domain,cdn.gotoiphone.com,high,2026-10-09T00:04:17.966518+00:00,2026-11-07T18:01:49.361980+00:00,1,,Used for C2 communication with the implant,c2
+domain,js.gotoiphone.com,high,2026-10-09T00:04:17.966518+00:00,2026-11-07T18:01:49.361980+00:00,1,,Used for C2 communication with the implant,c2
+domain,mzpo30.cam,high,2026-10-09T00:04:17.966518+00:00,2026-11-07T18:01:49.361980+00:00,1,,Used for C2 communication with the implant,c2
+sha256,07781a65a4542ce90cf30d40a0340ec515f6b50a44452564e69e45e8eb4276e7,high,2026-11-07T05:59:13+00:00,2026-11-07T05:59:13+00:00,1,,SHA-256 hash of a malware sample listed in a threat report.,malware
+sha256,58c97440bdf1967710c5738a62dcf0cf5197ae2b94dbda7347acbc82bbe4c5fc,high,2026-11-07T05:59:13+00:00,2026-11-07T05:59:13+00:00,1,,SHA-256 hash of a malware sample listed in a threat report.,malware
 sha256,063930af6a4aad06d8f8aab43226bf6dcddd2c79aa505894ee95876cf9254543,high,2026-10-20T10:11:03+00:00,2026-11-07T02:02:40.788788+00:00,2,,Listed as a Hookedge VBS launcher,malware
 sha256,1bb1b27e1695c726c7c1d3d4935f9318afc6f5fd9015d7cf3890f0eb7bf8d47e,high,2026-10-20T10:11:03+00:00,2026-11-07T02:02:40.788788+00:00,2,,Listed as a Hookedge dropper,malware
 sha256,1bff55104206d3f55cd72ca58ffecd2fa620a428c5a3c6987d3c4cc68285d335,high,2026-10-20T10:11:03+00:00,2026-11-07T02:02:40.788788+00:00,2,,Listed as a Hookedge dropper,malware
@@ -39,14 +53,14 @@ sha256,c78daf27c42c3929758b24c2ef0baf65eea81b26b0fddfe8a5b748672d40d5f5,high,202
 sha256,c7ef186aa59b67d9b198a14f6dc8aaee6dd86510ac7c37d28f65d310cd846411,high,2026-11-06T17:11:11.050000+00:00,2026-11-06T17:11:11.050000+00:00,1,,File hash associated with a malicious Python backdoor,malware
 sha256,e29a5319888319b51345ab8e3e009938ee5c2b9ae5d6bdd053f4f44c98f309d3,high,2026-11-06T17:11:11.050000+00:00,2026-11-06T17:11:11.050000+00:00,1,,File hash associated with a malicious RubyGems package,supply_chain|malware
 domain,proxystream.st,high,2026-10-18T19:45:05+00:00,2026-11-06T15:29:50+00:00,3,,"Outbound connections to this domain are a sign of compromise, indicating attacker-controlled infrastructure.",proxy_tunnel
-ipv4,103.59.160.171,high,2026-11-05T15:58:24+00:00,2026-11-06T14:47:10+00:00,2,,Listed in Wordfence's report as an indicator of compromise.,scanner
-ipv4,154.26.238.8,high,2026-11-05T15:58:24+00:00,2026-11-06T14:47:10+00:00,2,,Listed in Wordfence's report as an indicator of compromise.,scanner
-ipv4,185.177.72.61,high,2026-11-05T15:58:24+00:00,2026-11-06T14:47:10+00:00,2,,Listed in Wordfence's report as an indicator of compromise.,scanner
-ipv4,87.58.197.83,high,2026-11-05T15:58:24+00:00,2026-11-06T14:47:10+00:00,2,,Listed in Wordfence's report as an indicator of compromise.,scanner
-ipv4,96.62.218.148,high,2026-11-05T15:58:24+00:00,2026-11-06T14:47:10+00:00,2,,Listed in Wordfence's report as an indicator of compromise.,scanner
+ipv4,103.59.160.171,high,2026-11-05T15:58:24+00:00,2026-11-06T14:47:10+00:00,2,,Listed in Wordfence's report as an indicator of compromise,scanner
+ipv4,154.26.238.8,high,2026-11-05T15:58:24+00:00,2026-11-06T14:47:10+00:00,2,,Listed in Wordfence's report as an indicator of compromise,scanner
+ipv4,185.177.72.61,high,2026-11-05T15:58:24+00:00,2026-11-06T14:47:10+00:00,2,,Listed in Wordfence's report as an indicator of compromise,scanner
+ipv4,87.58.197.83,high,2026-11-05T15:58:24+00:00,2026-11-06T14:47:10+00:00,2,,Listed in Wordfence's report as an indicator of compromise,scanner
+ipv4,96.62.218.148,high,2026-11-05T15:58:24+00:00,2026-11-06T14:47:10+00:00,2,,Listed in Wordfence's report as an indicator of compromise,scanner
 domain,git.oddium.io,high,2026-11-06T13:30:55.835872+00:00,2026-11-06T13:30:55.835872+00:00,1,,Used in a sophisticated social engineering campaign,supply_chain
 domain,9i6pokerdepot.com,high,2026-09-08T13:01:18.371466+00:00,2026-11-06T13:00:35.400511+00:00,1,,Used as a sending domain in a phishing campaign,phishing
-ipv4,199.19.77.84,high,2026-11-04T19:04:02+00:00,2026-11-06T13:00:29.149754+00:00,2,,Identified as the operator's IP with confirmed malicious activity,malware
+ipv4,199.19.77.84,high,2026-11-04T19:04:02+00:00,2026-11-06T13:00:29.149754+00:00,3,,Identified as the operator's IP with confirmed malicious activity,malware
 domain,bitfit.io,high,2026-11-06T11:26:30+00:00,2026-11-06T11:26:30+00:00,1,,Identified as a front company used by attackers,other
 domain,citalab.com,high,2026-11-06T11:26:30+00:00,2026-11-06T11:26:30+00:00,1,,Identified as a front company used by attackers,other
 domain,citalab.net,high,2026-11-06T11:26:30+00:00,2026-11-06T11:26:30+00:00,1,,Identified as a front company used by attackers,other
@@ -56,6 +70,7 @@ md5,09e1da2afa1216ecc55648ec8e122d2a,high,2026-11-06T10:50:31+00:00,2026-11-06T1
 md5,2770562d104391b92b42671c270079bb,high,2026-11-06T10:50:31+00:00,2026-11-06T10:50:31+00:00,1,,Listed as part of a malicious campaign targeting educational institutions,malware
 md5,805b9e4ae74c903787416800999b8418,high,2026-11-06T10:50:31+00:00,2026-11-06T10:50:31+00:00,1,,Listed as part of a malicious campaign targeting educational institutions,malware
 md5,d726a8b4886c636f76ca6d30ef6a6ff4,high,2026-11-06T10:50:31+00:00,2026-11-06T10:50:31+00:00,1,,Listed as part of a malicious campaign targeting educational institutions,malware
+ipv4,157.22.126.128,high,2026-11-06T04:30:56+00:00,2026-11-06T10:37:41+00:00,2,,"IP used for reconnaissance operations targeting Azure AI services, indicating attacker control.",scanner
 ipv4,136.0.141.71,high,2026-11-05T17:00:49.402066+00:00,2026-11-06T06:16:02+00:00,2,,IP address used as a download server for a backdoor,malware|c2
 md5,965aea67fb40de1bab5169ada993349f,high,2026-11-06T06:16:02+00:00,2026-11-06T06:16:02+00:00,1,,MD5 hash of a backdoored version of cwpsrv,malware
 md5,d3f4e95113d49ab3991b45e457bda75b,high,2026-11-06T06:16:02+00:00,2026-11-06T06:16:02+00:00,1,,MD5 hash of a backdoored version of cwpsrv,malware
@@ -88,7 +103,6 @@ sha256,eed85356395295147330511690dd306cd0222a101ec933a064feb2560328546b,high,202
 sha256,f12da53d9df478d59219b506d313251292fae8052be92440622e34b8e1ca4f06,high,2026-11-06T04:48:54+00:00,2026-11-06T04:48:54+00:00,1,,Listed in a YARA rule for malware detection,malware
 sha256,f349e0c41a725e53c1d886e840902653548e4ef8d1174e8d4e3233b04c653351,high,2026-11-06T04:48:54+00:00,2026-11-06T04:48:54+00:00,1,,Listed in a YARA rule for malware detection,malware
 sha256,fbd3fd6fdfd9460f54bda772b7e0b55857606a86ef6f3af62999febd12c6680b,high,2026-11-06T04:48:54+00:00,2026-11-06T04:48:54+00:00,1,,Listed in a YARA rule for malware detection,malware
-ipv4,157.22.126.128,high,2026-11-06T04:30:56+00:00,2026-11-06T04:30:56+00:00,1,,Associated with malicious reconnaissance operations,scanner
 domain,ads-it-assets.com,high,2026-11-06T00:37:33.464844+00:00,2026-11-06T00:37:33.464844+00:00,1,,"Listed in network logs for compromise checks, indicating attacker control.",malware
 domain,ad.starx-net.com,high,2026-11-04T14:27:52+00:00,2026-11-06T00:37:33.464844+00:00,2,,"Used as an exfiltration endpoint in attack chains, indicating attacker control.",exfiltration
 domain,assets-int.com,high,2026-11-06T00:37:33.464844+00:00,2026-11-06T00:37:33.464844+00:00,1,,"Listed in network logs for compromise checks, indicating attacker control.",malware
@@ -140,7 +154,6 @@ ipv4,108.165.147.226,high,2026-11-05T21:38:21+00:00,2026-11-05T21:38:21+00:00,1,
 ipv4,111.68.4.13,high,2026-11-05T21:38:21+00:00,2026-11-05T21:38:21+00:00,1,,Listed among Censys-observed hosts associated with ARTEX threat activity,scanner
 ipv4,154.12.86.207,high,2026-11-05T21:38:21+00:00,2026-11-05T21:38:21+00:00,1,,Listed among Censys-observed hosts associated with ARTEX threat activity,scanner
 ipv4,206.187.215.173,high,2026-11-05T21:38:21+00:00,2026-11-05T21:38:21+00:00,1,,Listed among Censys-observed hosts associated with ARTEX threat activity,malware
-ipv4,38.244.50.120,high,2026-10-07T05:00:00+00:00,2026-11-05T21:38:21+00:00,2,,Used by an unattributed actor running ARTEX for malicious activities,malware
 ipv4,45.87.53.10,high,2026-11-05T21:38:21+00:00,2026-11-05T21:38:21+00:00,1,,Identified as part of a set of hosts running ARTEX and other C2 tools,malware
 ipv4,45.87.53.14,high,2026-11-05T21:38:21+00:00,2026-11-05T21:38:21+00:00,1,,Identified as part of a set of hosts running ARTEX and other C2 tools,malware
 ipv4,45.87.53.3,high,2026-11-05T21:38:21+00:00,2026-11-05T21:38:21+00:00,1,,Identified as part of a set of hosts running ARTEX and other C2 tools,malware
@@ -1304,9 +1317,6 @@ ipv4,91.149.221.123,high,2026-10-20T11:06:25+00:00,2026-10-20T11:06:25+00:00,1,,
 sha256,aafbc096e20f259df9166f837d0baf7333f177e6f383ca7cb9215936ecbe7f5e,high,2026-10-20T10:11:03+00:00,2026-10-20T10:11:03+00:00,1,,Listed as a Hookedge VBS launcher,malware
 sha256,d74c65e6d35d3b2a80686f059590f919316ecaf4ed539192e904d675ba5c7a40,high,2026-10-20T10:11:03+00:00,2026-10-20T10:11:03+00:00,1,,Listed as a Hookedge VBS launcher,malware
 ipv6,2a09:bac5:4e21:2e3c::49b:9,high,2026-10-19T20:02:56+00:00,2026-10-20T03:02:44.775826+00:00,2,,Listed as a source address for malicious requests,malware
-domain,cdn.gotoiphone.com,high,2026-10-09T00:04:17.966518+00:00,2026-10-20T01:05:43.294149+00:00,1,,Used for C2 communication with the implant,c2
-domain,js.gotoiphone.com,high,2026-10-09T00:04:17.966518+00:00,2026-10-20T01:05:43.294149+00:00,1,,Used for C2 communication with the implant,c2
-domain,mzpo30.cam,high,2026-10-09T00:04:17.966518+00:00,2026-10-20T01:05:43.294149+00:00,1,,Used for C2 communication with the implant,c2
 domain,buildwithknexus.xyz,high,2026-10-20T00:00:00+00:00,2026-10-20T00:00:00+00:00,1,,Used to host a malicious script,malware
 ipv4,176.65.139.228,high,2026-10-19T23:53:48+00:00,2026-10-19T23:53:48+00:00,1,,Listed as part of an attacker's scanning infrastructure,scanner
 domain,777traffget.site,high,2026-10-15T15:12:24.931033+00:00,2026-10-19T22:38:04.235893+00:00,1,,Listed as historical C2 infrastructure for malware,c2
@@ -2294,7 +2304,6 @@ domain,iseekaigogo.com,high,2026-10-08T00:00:00+00:00,2026-10-08T13:30:27+00:00,
 sha256,25a0735d0db7dc40e5d45ce42d9c106067e6a66e184d967cfecfab17c3bcb5ef,high,2026-10-08T02:54:50.050000+00:00,2026-10-08T13:30:27+00:00,4,,SHA-256 hash of a malicious file used in the attack,supply_chain|malware
 sha256,b50a00900399ba99fb6ce1fc151519cb99d44320ef2a631f2237e1aea0ad6fec,high,2026-10-08T02:54:50.050000+00:00,2026-10-08T13:30:27+00:00,3,,SHA-256 hash of a malicious file used in the attack,supply_chain|malware
 ipv4,103.248.148.84,high,2026-10-08T12:54:13+00:00,2026-10-08T12:54:13+00:00,1,,Listed as a proxy address associated with the operation,proxy_tunnel
-ipv4,154.201.79.246,high,2026-10-08T12:54:13+00:00,2026-10-08T12:54:13+00:00,1,,Listed as a proxy address associated with the operation,proxy_tunnel
 ipv4,203.160.133.172,high,2026-10-08T12:54:13+00:00,2026-10-08T12:54:13+00:00,1,,Listed as a proxy address associated with the operation,proxy_tunnel
 ipv4,209.209.85.38,high,2026-10-08T12:54:13+00:00,2026-10-08T12:54:13+00:00,1,,Listed as a proxy address associated with the operation,proxy_tunnel
 ipv4,23.158.220.98,high,2026-10-08T12:54:13+00:00,2026-10-08T12:54:13+00:00,1,,Listed as a proxy address associated with the operation,proxy_tunnel

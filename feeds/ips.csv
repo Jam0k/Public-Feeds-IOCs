@@ -1,22 +1,27 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason,categories
+ipv4,154.201.79.246,high,2026-11-07T20:00:02+00:00,2026-11-07T20:35:53.378549+00:00,2,hunt.io:2026-11-07|Securityaffairs:2026-11-07,Proxy service used in the attacker's infrastructure,proxy_tunnel
+ipv4,156.251.11.39,high,2026-11-07T20:00:02+00:00,2026-11-07T20:35:53.378549+00:00,2,hunt.io:2026-11-07|Securityaffairs:2026-11-07,Hosts ARTEX panel and malicious open directories,malware
+ipv4,23.248.226.250,high,2026-11-07T20:00:02+00:00,2026-11-07T20:35:53.378549+00:00,2,hunt.io:2026-11-07|Securityaffairs:2026-11-07,Acts as a jump server in the attacker's infrastructure,other
+ipv4,38.244.50.120,high,2026-11-05T21:38:21+00:00,2026-11-07T20:35:53.378549+00:00,3,hunt.io:2026-11-07|Securityaffairs:2026-11-07|Censys:2026-11-05,Hosts the ARTEX console as part of the attacker's infrastructure,malware
+ipv4,130.94.31.86,high,2026-11-07T20:00:02+00:00,2026-11-07T20:00:02+00:00,1,Securityaffairs:2026-11-07,Hosts exploitation kits and malicious scripts,exploit
+ipv4,154.222.16.220,high,2026-11-07T19:51:55+00:00,2026-11-07T19:51:55+00:00,1,X:2026-11-07,Listed as an iPhone exploit server controlled by attackers.,exploit
 ipv4,103.59.160.171,high,2026-11-05T15:58:24+00:00,2026-11-06T14:47:10+00:00,2,Mezha:2026-11-06|Wordfence:2026-11-05,Listed as a top offending IP address targeting a vulnerability,scanner
 ipv4,154.26.238.8,high,2026-11-05T15:58:24+00:00,2026-11-06T14:47:10+00:00,2,Mezha:2026-11-06|Wordfence:2026-11-05,Listed as a top offending IP address targeting a vulnerability,scanner
 ipv4,185.177.72.61,high,2026-11-05T15:58:24+00:00,2026-11-06T14:47:10+00:00,2,Mezha:2026-11-06|Wordfence:2026-11-05,Listed as a top offending IP address targeting a vulnerability,scanner
 ipv4,87.58.197.83,high,2026-11-05T15:58:24+00:00,2026-11-06T14:47:10+00:00,2,Mezha:2026-11-06|Wordfence:2026-11-05,Listed as an IP address actively engaged in targeting vulnerabilities,scanner
 ipv4,96.62.218.148,high,2026-11-05T15:58:24+00:00,2026-11-06T14:47:10+00:00,2,Mezha:2026-11-06|Wordfence:2026-11-05,Listed as an IP address actively engaged in targeting vulnerabilities,scanner
-ipv4,199.19.77.84,high,2026-11-04T19:04:02+00:00,2026-11-06T13:00:29.149754+00:00,2,www.todyl.com:2026-11-06|Fieldeffect:2026-11-04,Identified as the operator's IP with confirmed malicious activity,malware
+ipv4,199.19.77.84,high,2026-11-04T19:04:02+00:00,2026-11-06T13:00:29.149754+00:00,3,www.todyl.com:2026-11-06|Ciberseguridadlatam:2026-11-06|Fieldeffect:2026-11-04,Identified as the operator's IP with confirmed malicious activity,malware
 ipv4,104.234.26.163,high,2026-11-06T10:50:31+00:00,2026-11-06T10:50:31+00:00,1,Bloglab.360:2026-11-06,Listed as part of a malicious campaign targeting educational institutions,c2
+ipv4,157.22.126.128,high,2026-11-06T04:30:56+00:00,2026-11-06T10:37:41+00:00,2,Ciberseguridadlatam:2026-11-06|Microsoft:2026-11-06,Associated with malicious reconnaissance operations,scanner
 ipv4,136.0.141.71,high,2026-11-05T17:00:49.402066+00:00,2026-11-06T06:16:02+00:00,2,Thehackernews:2026-11-06|blog.xlab.qianxin.com:2026-11-05,IP address used as a download server for a backdoor,malware|c2
 ipv4,154.12.94.78,high,2026-11-06T06:01:32+00:00,2026-11-06T06:01:32+00:00,1,Redpacketsecurity:2026-11-06,Identified as a Mythic C2 server,c2
 ipv4,219.133.248.159,high,2026-11-06T04:48:54+00:00,2026-11-06T04:48:54+00:00,1,Cyfirma:2026-11-06,Listed in a YARA rule as an IP indicator,traffic_distribution
 ipv4,219.133.249.210,high,2026-11-06T04:48:54+00:00,2026-11-06T04:48:54+00:00,1,Cyfirma:2026-11-06,Listed in a YARA rule as an IP indicator,traffic_distribution
 ipv4,219.133.250.181,high,2026-11-06T04:48:54+00:00,2026-11-06T04:48:54+00:00,1,Cyfirma:2026-11-06,Listed in a YARA rule as an IP indicator,traffic_distribution
-ipv4,157.22.126.128,high,2026-11-06T04:30:56+00:00,2026-11-06T04:30:56+00:00,1,Microsoft:2026-11-06,Associated with malicious reconnaissance operations,scanner
 ipv4,108.165.147.226,high,2026-11-05T21:38:21+00:00,2026-11-05T21:38:21+00:00,1,Censys:2026-11-05,Listed among Censys-observed hosts associated with ARTEX threat activity,scanner
 ipv4,111.68.4.13,high,2026-11-05T21:38:21+00:00,2026-11-05T21:38:21+00:00,1,Censys:2026-11-05,Listed among Censys-observed hosts associated with ARTEX threat activity,scanner
 ipv4,154.12.86.207,high,2026-11-05T21:38:21+00:00,2026-11-05T21:38:21+00:00,1,Censys:2026-11-05,Listed among Censys-observed hosts associated with ARTEX threat activity,scanner
 ipv4,206.187.215.173,high,2026-11-05T21:38:21+00:00,2026-11-05T21:38:21+00:00,1,Censys:2026-11-05,Listed among Censys-observed hosts associated with ARTEX threat activity,malware
-ipv4,38.244.50.120,high,2026-11-05T21:38:21+00:00,2026-11-05T21:38:21+00:00,1,Censys:2026-11-05,Used by an unattributed actor running ARTEX for malicious activities,malware
 ipv4,45.87.53.10,high,2026-11-05T21:38:21+00:00,2026-11-05T21:38:21+00:00,1,Censys:2026-11-05,Identified as part of a set of hosts running ARTEX and other C2 tools,malware
 ipv4,45.87.53.14,high,2026-11-05T21:38:21+00:00,2026-11-05T21:38:21+00:00,1,Censys:2026-11-05,Identified as part of a set of hosts running ARTEX and other C2 tools,malware
 ipv4,45.87.53.3,high,2026-11-05T21:38:21+00:00,2026-11-05T21:38:21+00:00,1,Censys:2026-11-05,Identified as part of a set of hosts running ARTEX and other C2 tools,malware
@@ -181,15 +186,3 @@ ipv4,185.189.45.40,high,2026-10-09T18:00:23.022990+00:00,2026-10-09T18:00:23.022
 ipv4,199.30.90.154,high,2026-10-09T18:00:23.022990+00:00,2026-10-09T18:00:23.022990+00:00,1,censys.com:2026-10-09,Part of a cluster identified as attacker infrastructure,malware
 ipv4,202.146.222.253,high,2026-10-09T18:00:23.022990+00:00,2026-10-09T18:00:23.022990+00:00,1,censys.com:2026-10-09,Identified as a DarkSword admin panel and old production server,c2|malware
 ipv4,23.148.212.237,high,2026-10-09T16:29:55+00:00,2026-10-09T16:29:55+00:00,1,Thehackernews:2026-10-09,Serves as an analysis workspace for exploit development,exploit
-ipv4,185.164.172.128,high,2026-10-09T03:56:52+00:00,2026-10-09T03:56:52+00:00,1,Cyfirma:2026-10-09,Listed in a rule for Proton Decrypter indicators,malware
-ipv4,104.234.26.10,high,2026-10-08T20:23:28+00:00,2026-10-08T20:23:28+00:00,1,Huntress:2026-10-08,Listed in the IOC section as attacker infrastructure,malware
-ipv4,123.202.208.37,high,2026-10-08T20:23:28+00:00,2026-10-08T20:23:28+00:00,1,Huntress:2026-10-08,Listed in the IOC section as attacker infrastructure,malware
-ipv4,177.4.12.11,high,2026-10-08T20:23:28+00:00,2026-10-08T20:23:28+00:00,1,Huntress:2026-10-08,Listed in the IOC section as attacker infrastructure,malware
-ipv4,185.220.236.49,high,2026-10-08T20:23:28+00:00,2026-10-08T20:23:28+00:00,1,Huntress:2026-10-08,Listed in the IOC section as attacker infrastructure,malware
-ipv4,38.60.252.110,high,2026-10-08T20:23:28+00:00,2026-10-08T20:23:28+00:00,1,Huntress:2026-10-08,Listed in the IOC section as attacker infrastructure,malware
-ipv4,103.248.148.84,high,2026-10-08T12:54:13+00:00,2026-10-08T12:54:13+00:00,1,News.Lavx.Hu:2026-10-08,Listed as a proxy address associated with the operation,proxy_tunnel
-ipv4,154.201.79.246,high,2026-10-08T12:54:13+00:00,2026-10-08T12:54:13+00:00,1,News.Lavx.Hu:2026-10-08,Listed as a proxy address associated with the operation,proxy_tunnel
-ipv4,203.160.133.172,high,2026-10-08T12:54:13+00:00,2026-10-08T12:54:13+00:00,1,News.Lavx.Hu:2026-10-08,Listed as a proxy address associated with the operation,proxy_tunnel
-ipv4,209.209.85.38,high,2026-10-08T12:54:13+00:00,2026-10-08T12:54:13+00:00,1,News.Lavx.Hu:2026-10-08,Listed as a proxy address associated with the operation,proxy_tunnel
-ipv4,23.158.220.98,high,2026-10-08T12:54:13+00:00,2026-10-08T12:54:13+00:00,1,News.Lavx.Hu:2026-10-08,Listed as a proxy address associated with the operation,proxy_tunnel
-ipv4,23.248.249.90,high,2026-10-08T12:54:13+00:00,2026-10-08T12:54:13+00:00,1,News.Lavx.Hu:2026-10-08,Listed as a proxy address associated with the operation,proxy_tunnel

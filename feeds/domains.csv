@@ -1,4 +1,10 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason,categories
+domain,irc.supernets.org,high,2026-11-07T22:30:54.007739+00:00,2026-11-07T22:30:54.007739+00:00,1,acid.vegas:2026-11-07,Set up by the author to accept connections on unusual ports as a proof of concept,other
+domain,direct.xcai.pro,high,2026-11-07T20:35:53.378549+00:00,2026-11-07T20:35:53.378549+00:00,1,hunt.io:2026-11-07,Identified as part of the attacker's infrastructure in the campaign,other
+domain,u6ud2s.dnslog.cn,high,2026-11-07T20:35:53.378549+00:00,2026-11-07T20:35:53.378549+00:00,1,hunt.io:2026-11-07,Used for DNS callback to confirm command execution,callback_testing
+domain,cdn.gotoiphone.com,high,2026-11-07T18:01:49.361980+00:00,2026-11-07T18:01:49.361980+00:00,1,www.iverify.com:2026-11-07,Used for C2 communication with the implant,c2
+domain,js.gotoiphone.com,high,2026-11-07T18:01:49.361980+00:00,2026-11-07T18:01:49.361980+00:00,1,www.iverify.com:2026-11-07,Used for C2 communication with the implant,c2
+domain,mzpo30.cam,high,2026-11-07T18:01:49.361980+00:00,2026-11-07T18:01:49.361980+00:00,1,www.iverify.com:2026-11-07,Used for C2 communication with the implant,c2
 domain,chlpolledelivery.com,high,2026-11-06T19:19:27+00:00,2026-11-06T19:19:27+00:00,1,News.Ycombinator:2026-11-06,Listed among typosquatted domains used for phishing,phishing
 domain,chlpolleldelivery.com,high,2026-11-06T19:19:27+00:00,2026-11-06T19:19:27+00:00,1,News.Ycombinator:2026-11-06,Listed among typosquatted domains used for phishing,phishing
 domain,chlpotedeliverys.com,high,2026-11-06T19:19:27+00:00,2026-11-06T19:19:27+00:00,1,News.Ycombinator:2026-11-06,Listed among typosquatted domains used for phishing,phishing
@@ -13,9 +19,6 @@ domain,wingstop-delivery.com,high,2026-11-06T19:19:27+00:00,2026-11-06T19:19:27+
 domain,paleasbest.top,high,2026-11-06T17:11:11.050000+00:00,2026-11-06T17:11:11.050000+00:00,1,Socket.Dev:2026-11-06,"Domain used for exfiltration in a malware campaign, indicating attacker control.",exfiltration
 domain,proxystream.st,high,2026-10-18T19:45:05+00:00,2026-11-06T15:29:50+00:00,3,Cyberinsider:2026-11-06|www.boredhackerblog.info:2026-10-25|Cordcuttersnews:2026-10-18,Associated with malicious activity and used in attacks,proxy_tunnel
 domain,git.oddium.io,high,2026-11-06T13:30:55.835872+00:00,2026-11-06T13:30:55.835872+00:00,1,radar.securityalliance.org:2026-11-06,Used in a sophisticated social engineering campaign,supply_chain
-domain,bitfit.io,high,2026-11-06T11:26:30+00:00,2026-11-06T11:26:30+00:00,1,Cointelegraph:2026-11-06,Identified as a front company used by attackers,other
-domain,citalab.com,high,2026-11-06T11:26:30+00:00,2026-11-06T11:26:30+00:00,1,Cointelegraph:2026-11-06,Identified as a front company used by attackers,other
-domain,citalab.net,high,2026-11-06T11:26:30+00:00,2026-11-06T11:26:30+00:00,1,Cointelegraph:2026-11-06,Identified as a front company used by attackers,other
 domain,clickcom.click,high,2026-11-06T04:48:54+00:00,2026-11-06T04:48:54+00:00,1,Cyfirma:2026-11-06,Listed in a YARA rule as a domain indicator,traffic_distribution
 domain,clicko.click,high,2026-11-06T04:48:54+00:00,2026-11-06T04:48:54+00:00,1,Cyfirma:2026-11-06,Listed in a YARA rule as a domain indicator,traffic_distribution
 domain,dy-tt.com.cn,high,2026-11-06T04:48:54+00:00,2026-11-06T04:48:54+00:00,1,Cyfirma:2026-11-06,Listed in a YARA rule as a domain indicator,traffic_distribution
@@ -421,9 +424,6 @@ domain,www.ksog.org,high,2026-10-21T02:31:30.861288+00:00,2026-10-21T02:31:30.86
 domain,pwnedhost.com,high,2026-10-20T17:04:12+00:00,2026-10-20T17:04:12+00:00,1,Cxsecurity:2026-10-20,Domain used in a SQL injection attack payload,exploit
 domain,msauth.biz,high,2026-10-20T16:10:18.668520+00:00,2026-10-20T16:10:18.668520+00:00,1,ocean.security:2026-10-20,"Newly registered domain used for phishing, controlled by attacker",phishing
 domain,stateglobe.com,high,2026-10-20T13:06:22+00:00,2026-10-20T13:06:22+00:00,1,News.Ycombinator:2026-10-20,Domain created for an experiment with fake statistics,other
-domain,cdn.gotoiphone.com,high,2026-10-20T01:05:43.294149+00:00,2026-10-20T01:05:43.294149+00:00,1,www.iverify.com:2026-10-20,Used for C2 communication with the implant,c2
-domain,js.gotoiphone.com,high,2026-10-20T01:05:43.294149+00:00,2026-10-20T01:05:43.294149+00:00,1,www.iverify.com:2026-10-20,Used for C2 communication with the implant,c2
-domain,mzpo30.cam,high,2026-10-20T01:05:43.294149+00:00,2026-10-20T01:05:43.294149+00:00,1,www.iverify.com:2026-10-20,Used for C2 communication with the implant,c2
 domain,buildwithknexus.xyz,high,2026-10-20T00:00:00+00:00,2026-10-20T00:00:00+00:00,1,Safedep:2026-10-20,Used to host a malicious script,malware
 domain,777traffget.site,high,2026-10-19T22:38:04.235893+00:00,2026-10-19T22:38:04.235893+00:00,1,www.godaddy.com:2026-10-19,Listed as historical C2 infrastructure for malware,c2
 domain,cartoonmines.com,high,2026-10-19T22:38:04.235893+00:00,2026-10-19T22:38:04.235893+00:00,1,www.godaddy.com:2026-10-19,Used in redirect scripts for malicious traffic,traffic_distribution
@@ -496,7 +496,7 @@ domain,paripassuventures.com,high,2026-10-16T22:30:42.569985+00:00,2026-10-16T22
 domain,playcode.io,high,2026-10-16T22:30:42.569985+00:00,2026-10-16T22:30:42.569985+00:00,1,any.run:2026-10-16,Used to host fake download pages for malicious campaigns.,fake_software
 domain,refract3.com,high,2026-10-16T22:30:42.569985+00:00,2026-10-16T22:30:42.569985+00:00,1,any.run:2026-10-16,Used in a malicious command to pull further stages of an attack.,malware
 domain,sys-tools.cfd,high,2026-10-16T22:30:42.569985+00:00,2026-10-16T22:30:42.569985+00:00,1,any.run:2026-10-16,Used for data exfiltration in malicious campaigns.,exfiltration|malware
-domain,joinmatchy.com,high,2026-10-08T12:46:27+00:00,2026-10-16T20:33:31.682727+00:00,2,www.welivesecurity.com:2026-10-16|Helpnetsecurity:2026-10-08,Domain used to host a fake collaboration platform as part of a phishing scheme,phishing
+domain,joinmatchy.com,high,2026-10-16T20:33:31.682727+00:00,2026-10-16T20:33:31.682727+00:00,1,www.welivesecurity.com:2026-10-16,Domain used to host a fake collaboration platform as part of a phishing scheme,phishing
 domain,postgres.render-internal.com,high,2026-10-16T19:44:11.016280+00:00,2026-10-16T19:44:11.016280+00:00,1,www.air.security:2026-10-16,Domain not owned by Render and used in a vulnerability to obtain secrets,other
 domain,render-internal.com,high,2026-10-16T17:29:00+00:00,2026-10-16T19:44:11.016280+00:00,2,www.air.security:2026-10-16|Csoonline:2026-10-16,Domain not owned by Render and used in a vulnerability to obtain secrets,other
 domain,candirusecurity.com,high,2026-10-16T19:31:23.681851+00:00,2026-10-16T19:31:23.681851+00:00,1,citizenlab.ca:2026-10-16,"Attributed to Candiru Ltd, used in their operations",spyware
@@ -533,7 +533,7 @@ domain,0aa0cf0637d66c0d.com,high,2026-10-16T01:01:47.133590+00:00,2026-10-16T01:
 domain,442fe7151fb1e9b5.com,high,2026-10-16T01:01:47.133590+00:00,2026-10-16T01:01:47.133590+00:00,1,www.bitdefender.com:2026-10-16,Listed as a proxyware control host used by attackers,c2|proxy_tunnel
 domain,5.ahd187.com,high,2026-10-16T01:01:47.133590+00:00,2026-10-16T01:01:47.133590+00:00,1,www.bitdefender.com:2026-10-16,Listed as part of shared infrastructure used by malware operators,malware
 domain,aa86a52a98162b7d.com,high,2026-10-16T01:01:47.133590+00:00,2026-10-16T01:01:47.133590+00:00,1,www.bitdefender.com:2026-10-16,Listed as a proxyware control host used by attackers,c2|proxy_tunnel
-domain,api.weatherlive.world,high,2026-10-08T15:28:24+00:00,2026-10-16T01:01:47.133590+00:00,2,www.bitdefender.com:2026-10-16|Hackread:2026-10-08,Used as a command channel for malware control,c2
+domain,api.weatherlive.world,high,2026-10-16T01:01:47.133590+00:00,2026-10-16T01:01:47.133590+00:00,1,www.bitdefender.com:2026-10-16,Used as a command channel for malware control,c2
 domain,cgb.jingongbuxiao.com,high,2026-10-16T01:01:47.133590+00:00,2026-10-16T01:01:47.133590+00:00,1,www.bitdefender.com:2026-10-16,Listed as part of shared infrastructure used by malware operators,malware
 domain,fyapi.freeflightbird.com,high,2026-10-16T01:01:47.133590+00:00,2026-10-16T01:01:47.133590+00:00,1,www.bitdefender.com:2026-10-16,Listed as part of shared infrastructure used by malware operators,malware
 domain,newsadapi.zhuifengzhe.top,high,2026-10-16T01:01:47.133590+00:00,2026-10-16T01:01:47.133590+00:00,1,www.bitdefender.com:2026-10-16,Listed as part of shared infrastructure used by malware operators,malware
@@ -602,7 +602,7 @@ domain,house-connection.pro,high,2026-10-13T21:32:17.966241+00:00,2026-10-13T21:
 domain,watchguard-vpn.com,high,2026-10-13T21:00:10+00:00,2026-10-13T21:32:17.966241+00:00,2,www.watchguard.com:2026-10-13|Huntress:2026-10-13,Domain hosting malicious WatchGuard applications.,phishing
 domain,agdx53.cc,high,2026-10-13T08:51:36+00:00,2026-10-13T08:51:36+00:00,1,Esecurityplanet:2026-10-13,Reported as a command-and-control domain for DarkSword malware,c2
 domain,ecomtrack.io,high,2026-10-13T08:51:36+00:00,2026-10-13T08:51:36+00:00,1,Esecurityplanet:2026-10-13,Re-registered by attackers to deliver DarkSword malware,malware|exploit
-domain,c0cc.cc,high,2026-10-08T17:20:13+00:00,2026-10-11T13:37:33+00:00,4,Itnews.Au:2026-10-11|Finance.Biggo:2026-10-09|Thecyberexpress:2026-10-09|Justice:2026-10-08,"Domain used to access Microscan, controlled by attackers",other
+domain,c0cc.cc,high,2026-10-09T18:45:14+00:00,2026-10-11T13:37:33+00:00,2,Itnews.Au:2026-10-11|Finance.Biggo:2026-10-09,"Domain used to access Microscan, controlled by attackers",other
 domain,audit-coldcard.com,high,2026-10-11T12:09:50.126997+00:00,2026-10-11T12:09:50.126997+00:00,1,unclone.io:2026-10-11,Purpose-built phishing site using Coinkite's advisory language,phishing
 domain,coldcard-audit.com,high,2026-10-11T12:09:50.126997+00:00,2026-10-11T12:09:50.126997+00:00,1,unclone.io:2026-10-11,Registered as part of a phishing campaign targeting Coldcard users,phishing
 domain,coldcardfirmware.com,high,2026-10-11T12:09:50.126997+00:00,2026-10-11T12:09:50.126997+00:00,1,unclone.io:2026-10-11,Classified by Cloudflare as part of phishing infrastructure,phishing
@@ -616,11 +616,11 @@ domain,cablewireltd.site,high,2026-10-11T06:46:26+00:00,2026-10-11T06:46:26+00:0
 domain,s.grldiyrsmvsggojzmi4wmyi.inevyrcfknfvit2qfvcvinjriffe6ib6hyqdambqgaydambahy7cama.arthurshelby.click,high,2026-10-10T05:02:45.293755+00:00,2026-10-10T05:02:45.293755+00:00,1,www.elastic.co:2026-10-10,Subdomain used for C2 registration by malware,c2|malware
 domain,lake-90.com,high,2026-10-09T22:12:56.295984+00:00,2026-10-09T22:12:56.295984+00:00,1,pushsecurity.com:2026-10-09,"Domain used to host and deliver payload, indicating attacker control",malware
 domain,claude-desk-code.com,high,2026-10-09T20:31:37+00:00,2026-10-09T20:31:37+00:00,1,Bleepingcomputer:2026-10-09,Used as a phishing destination in a campaign,phishing
-domain,98aicai.com,high,2026-10-08T17:20:13+00:00,2026-10-09T18:45:14+00:00,3,Finance.Biggo:2026-10-09|Thecyberexpress:2026-10-09|Justice:2026-10-08,"Domain used to deliver post-compromise tool FishHub, controlled by attackers",malware
-domain,98aicode.com,high,2026-10-08T17:20:13+00:00,2026-10-09T18:45:14+00:00,3,Finance.Biggo:2026-10-09|Thecyberexpress:2026-10-09|Justice:2026-10-08,"Domain used to deliver post-compromise tool FishHub, controlled by attackers",malware
-domain,linkedinns.net,high,2026-10-08T17:20:13+00:00,2026-10-09T18:45:14+00:00,3,Finance.Biggo:2026-10-09|Thecyberexpress:2026-10-09|Justice:2026-10-08,"Domain used to deliver post-compromise tool FishHub, controlled by attackers",malware
-domain,outlook3650.com,high,2026-10-08T17:20:13+00:00,2026-10-09T18:45:14+00:00,3,Finance.Biggo:2026-10-09|Thecyberexpress:2026-10-09|Justice:2026-10-08,"Domain used to deliver post-compromise tool FishHub, controlled by attackers",malware
-domain,youtubecard.com,high,2026-10-08T17:20:13+00:00,2026-10-09T18:45:14+00:00,3,Finance.Biggo:2026-10-09|Thecyberexpress:2026-10-09|Justice:2026-10-08,"Domain used to deliver post-compromise tool FishHub, controlled by attackers",malware
+domain,98aicai.com,high,2026-10-09T18:45:14+00:00,2026-10-09T18:45:14+00:00,1,Finance.Biggo:2026-10-09,"Domain used to deliver post-compromise tool FishHub, controlled by attackers",malware
+domain,98aicode.com,high,2026-10-09T18:45:14+00:00,2026-10-09T18:45:14+00:00,1,Finance.Biggo:2026-10-09,"Domain used to deliver post-compromise tool FishHub, controlled by attackers",malware
+domain,linkedinns.net,high,2026-10-09T18:45:14+00:00,2026-10-09T18:45:14+00:00,1,Finance.Biggo:2026-10-09,"Domain used to deliver post-compromise tool FishHub, controlled by attackers",malware
+domain,outlook3650.com,high,2026-10-09T18:45:14+00:00,2026-10-09T18:45:14+00:00,1,Finance.Biggo:2026-10-09,"Domain used to deliver post-compromise tool FishHub, controlled by attackers",malware
+domain,youtubecard.com,high,2026-10-09T18:45:14+00:00,2026-10-09T18:45:14+00:00,1,Finance.Biggo:2026-10-09,"Domain used to deliver post-compromise tool FishHub, controlled by attackers",malware
 domain,ccwu.cc,high,2026-10-09T18:00:23.022990+00:00,2026-10-09T18:00:23.022990+00:00,1,censys.com:2026-10-09,Subdomains associated with C2 control panels,c2
 domain,escofiringbijou.com,high,2026-10-09T18:00:23.022990+00:00,2026-10-09T18:00:23.022990+00:00,1,censys.com:2026-10-09,Associated with a targeted campaign delivering malware,malware|c2
 domain,fc.rsqqq.top,high,2026-10-09T18:00:23.022990+00:00,2026-10-09T18:00:23.022990+00:00,1,censys.com:2026-10-09,Part of a cluster of domains used for C2 infrastructure,c2
@@ -633,105 +633,3 @@ domain,siekeltd.com,high,2026-10-09T18:00:23.022990+00:00,2026-10-09T18:00:23.02
 domain,breachforums.st,high,2026-10-09T17:01:55.081127+00:00,2026-10-09T17:01:55.081127+00:00,1,www.sekoia.com:2026-10-09,Described as a domain controlled by attackers to redirect users,cybercrime_forum
 domain,raid.lol,high,2026-10-09T17:01:55.081127+00:00,2026-10-09T17:01:55.081127+00:00,1,www.sekoia.com:2026-10-09,Described as a domain used by attackers for illegal activities,cybercrime_forum
 domain,rf.ws,high,2026-10-09T17:01:55.081127+00:00,2026-10-09T17:01:55.081127+00:00,1,www.sekoia.com:2026-10-09,Described as a domain used by attackers for illegal activities,cybercrime_forum
-domain,avittti.com,high,2026-10-09T12:04:28+00:00,2026-10-09T12:04:28+00:00,1,Mailguard.Au:2026-10-09,Part of a phishing flow impersonating legitimate services,phishing
-domain,musairkompresor.com,high,2026-10-09T12:04:28+00:00,2026-10-09T12:04:28+00:00,1,Mailguard.Au:2026-10-09,Part of a phishing redirect chain,phishing
-domain,secure-login-university.xyz,high,2026-10-09T09:54:30+00:00,2026-10-09T09:54:30+00:00,1,Westminster.Ac.Uk:2026-10-09,Listed as a suspicious link in phishing context,phishing
-domain,hashicorp-terraform.io,high,2026-10-09T08:48:52+00:00,2026-10-09T08:48:52+00:00,1,Gbhackers:2026-10-09,Used to download a malicious Bash loader,malware
-domain,w8510.com,high,2026-10-09T07:20:08+00:00,2026-10-09T07:20:08+00:00,1,Thehackernews:2026-10-09,Used for command-and-control in a botnet,botnet|c2
-domain,ficus.in,high,2026-10-09T06:49:45+00:00,2026-10-09T06:49:45+00:00,1,2-Spyware:2026-10-09,Associated with Remcos RAT and steganography,malware
-domain,donutsmpcheats.org,high,2026-10-09T06:46:00+00:00,2026-10-09T06:46:00+00:00,1,2-Spyware:2026-10-09,Associated with fake Minecraft mods and malware,malware
-domain,flycloud-service.com,high,2026-10-09T06:44:33+00:00,2026-10-09T06:44:33+00:00,1,Gbhackers:2026-10-09,Listed as MATCHBOIL C&C server,c2
-domain,telemetry-conf.com,high,2026-10-09T06:44:33+00:00,2026-10-09T06:44:33+00:00,1,Gbhackers:2026-10-09,Listed as MATCHBOIL C&C server,c2
-domain,virtualdailyplanner.pro,high,2026-10-09T06:44:33+00:00,2026-10-09T06:44:33+00:00,1,Gbhackers:2026-10-09,Listed as MATCHBOIL C&C server,c2
-domain,aerofluidthermo.org,high,2026-10-09T03:56:52+00:00,2026-10-09T03:56:52+00:00,1,Cyfirma:2026-10-09,Listed as part of Proton Decrypter indicators,malware
-domain,civilstructgeo.org,high,2026-10-09T03:56:52+00:00,2026-10-09T03:56:52+00:00,1,Cyfirma:2026-10-09,Listed in a rule as associated with malware indicators,malware
-domain,cloudmediaportal.com,high,2026-10-09T03:56:52+00:00,2026-10-09T03:56:52+00:00,1,Cyfirma:2026-10-09,Listed in a rule as associated with malware indicators,malware
-domain,docs-info.com,high,2026-10-09T03:56:52+00:00,2026-10-09T03:56:52+00:00,1,Cyfirma:2026-10-09,Listed in a rule as associated with malware indicators,malware
-domain,moonlighthathel.org,high,2026-10-08T15:00:39+00:00,2026-10-08T23:02:10.117783+00:00,2,www.splunk.com:2026-10-08|Blogs.Cisco:2026-10-08,Listed as a malicious FQDN targeted by DNS Object Block Rule,exploit
-domain,ukankingwithea.com,high,2026-10-08T23:02:10.117783+00:00,2026-10-08T23:02:10.117783+00:00,1,www.splunk.com:2026-10-08,Listed as a malicious FQDN targeted by DNS Object Block Rule,exploit
-domain,98aiblog.com,high,2026-10-08T21:56:58+00:00,2026-10-08T21:56:58+00:00,1,Bleepingcomputer:2026-10-08,"Seized domain used to deliver malware, indicating attacker control.",malware
-domain,imagefiles-backup.oss-ap-southeast-7.aliyuncs.com,high,2026-10-08T20:23:28+00:00,2026-10-08T20:23:28+00:00,1,Huntress:2026-10-08,Domain used to host and deliver malicious payloads,malware
-domain,504e1bed.host.njalla.net,high,2026-10-08T19:12:38.094042+00:00,2026-10-08T19:12:38.094042+00:00,1,hunt.io:2026-10-08,Domain resolves to an IP associated with attacker infrastructure,c2
-domain,504e1bfc.host.njalla.net,high,2026-10-08T19:12:38.094042+00:00,2026-10-08T19:12:38.094042+00:00,1,hunt.io:2026-10-08,Domain resolves to an IP associated with attacker infrastructure,c2
-domain,infectonline.store,high,2026-10-08T19:12:38.094042+00:00,2026-10-08T19:12:38.094042+00:00,1,hunt.io:2026-10-08,Listed as part of the attack infrastructure,c2
-domain,installscenter.com,high,2026-10-08T17:47:35+00:00,2026-10-08T19:12:38.094042+00:00,2,hunt.io:2026-10-08|Securityaffairs.Co:2026-10-08,Domain used in the attack infrastructure,c2
-domain,painel.installscenter.com,high,2026-10-08T17:47:35+00:00,2026-10-08T19:12:38.094042+00:00,2,hunt.io:2026-10-08|Securityaffairs.Co:2026-10-08,Domain used in the attack infrastructure,c2
-domain,painel.seu-dominio.com,high,2026-10-08T17:47:35+00:00,2026-10-08T19:12:38.094042+00:00,2,hunt.io:2026-10-08|Securityaffairs.Co:2026-10-08,Domain used in the attack infrastructure,c2
-domain,seu-dominio.com,high,2026-10-08T19:12:38.094042+00:00,2026-10-08T19:12:38.094042+00:00,1,hunt.io:2026-10-08,Domain used in the attack infrastructure,c2
-domain,vmi3003111.contaboserver.net,high,2026-10-08T19:12:38.094042+00:00,2026-10-08T19:12:38.094042+00:00,1,hunt.io:2026-10-08,Domain used in the attack infrastructure,c2
-domain,1421.client.96html.com,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Listed in a structured IOC list as attacker-controlled infrastructure,other
-domain,1421.cloud.96html.com,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Listed in a structured IOC list as attacker-controlled infrastructure,other
-domain,1421.support.96html.com,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Listed in a structured IOC list as attacker-controlled infrastructure,other
-domain,154-119-131-252-103-58-216-162-36.m.secshow.net,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Listed in a structured IOC list as attacker-controlled infrastructure,c2|dynamic_dns
-domain,2-12-44-140-78-81-211-109-241.h.secshow.net,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Listed in a structured IOC list as attacker-controlled infrastructure,c2|dynamic_dns
-domain,22852.careers.96html.com,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Listed in a structured IOC list as attacker-controlled infrastructure,c2|dynamic_dns
-domain,22852.careers.trendmicro.96html.com,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Listed in a structured IOC list as attacker-controlled infrastructure,c2|dynamic_dns
-domain,22852.trendmicro.96html.com,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Listed in a structured IOC list as attacker-controlled infrastructure,c2|dynamic_dns
-domain,23175.careers.96html.com,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Listed in a structured IOC list as attacker-controlled infrastructure,c2|dynamic_dns
-domain,23175.careers.trendmicro.96html.com,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Listed in a structured IOC list as attacker-controlled infrastructure,c2
-domain,2637596418.softether.net,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Listed in a structured IOC list as attacker-controlled infrastructure,proxy_tunnel
-domain,28394.careers.96html.com,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Listed in a structured IOC list as attacker-controlled infrastructure,c2
-domain,28394.careers.trendmicro.96html.com,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Listed in a structured IOC list as attacker-controlled infrastructure,other
-domain,28394.trendmicro.96html.com,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Listed in a structured IOC list as attacker-controlled infrastructure,other
-domain,28733.careers.trendmicro.96html.com,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Listed in a structured IOC list as attacker-controlled infrastructure,other
-domain,28733.trendmicro.96html.com,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Listed in a structured IOC list as attacker-controlled infrastructure,c2
-domain,35584.careers.96html.com,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Listed in a structured IOC list as attacker-controlled infrastructure,c2
-domain,35584.careers.trendmicro.96html.com,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Listed in a structured IOC list as attacker-controlled infrastructure,c2
-domain,35584.trendmicro.96html.com,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Listed in a structured IOC list as attacker-controlled infrastructure,c2
-domain,44673.careers.96html.com,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Listed in a structured IOC list as attacker-controlled infrastructure,c2
-domain,44673.trendmicro.96html.com,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Listed in a structured IOC list as attacker-controlled infrastructure,c2
-domain,47298.client.96html.com,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Listed in a structured IOC list as attacker-controlled infrastructure,c2
-domain,47298.cloud.96html.com,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Listed in a structured IOC list as attacker-controlled infrastructure,c2
-domain,47298.support.96html.com,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Listed in a structured IOC list as attacker-controlled infrastructure,c2
-domain,50669.careers.trendmicro.96html.com,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Listed in a structured IOC list as attacker-controlled infrastructure,c2
-domain,51640.careers.trendmicro.96html.com,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Listed in a structured IOC list as attacker-controlled infrastructure,other
-domain,54-2-32-236-208-2-40-107-38.h.secshow.net,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Listed in a structured IOC list as attacker-controlled infrastructure,other
-domain,66-37-178-96-110-2-40-107-38.h.secshow.net,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Listed in a structured IOC list as attacker-controlled infrastructure,proxy_tunnel
-domain,74788.careers.96html.com,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Listed in a structured IOC list as attacker-controlled infrastructure,c2
-domain,74788.trendmicro.96html.com,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Listed in a structured IOC list as attacker-controlled infrastructure,c2
-domain,77692.careers.96html.com,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Listed in a structured IOC list as attacker-controlled infrastructure,c2
-domain,77692.careers.trendmicro.96html.com,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Listed in a structured IOC list as attacker-controlled infrastructure,c2
-domain,77692.trendmicro.96html.com,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Listed in a structured IOC list as attacker-controlled infrastructure,c2
-domain,82262.careers.96html.com,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Listed in a structured IOC list as attacker-controlled infrastructure,c2
-domain,82262.careers.trendmicro.96html.com,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Listed in a structured IOC list as attacker-controlled infrastructure,c2
-domain,85005.careers.96html.com,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Listed in a structured IOC list as attacker-controlled infrastructure,c2
-domain,85005.careers.trendmicro.96html.com,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Listed in a structured IOC list as attacker-controlled infrastructure,c2
-domain,85005.trendmicro.96html.com,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Listed in a structured IOC list as attacker-controlled infrastructure,c2
-domain,90174.careers.96html.com,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Listed in a structured IOC list as attacker-controlled infrastructure,c2
-domain,90174.careers.trendmicro.96html.com,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Listed in a structured IOC list as attacker-controlled infrastructure,c2
-domain,96976.careers.96html.com,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Listed in a structured IOC list as attacker-controlled infrastructure,c2
-domain,96976.trendmicro.96html.com,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Listed in a structured IOC list as attacker-controlled infrastructure,other
-domain,careers.trendmicro.96html.com,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Listed in a structured IOC list as attacker-controlled infrastructure,c2
-domain,dc-29465b27aa45.96html.com,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Listed in a structured IOC list as attacker-controlled infrastructure,c2
-domain,dc-4fe9871cb224.96html.com,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Listed in a structured IOC list as attacker-controlled infrastructure,c2
-domain,dc-582fc0f46da9.96html.com,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Listed in a structured IOC list as attacker-controlled infrastructure,c2
-domain,dc-843d98722400.96html.com,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Listed in a structured IOC list as attacker-controlled infrastructure,c2
-domain,dc-bb503834b7dc.96html.com,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Listed in a structured IOC list as attacker-controlled infrastructure,c2
-domain,dc-c11a983d7f83.96html.com,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Listed in a structured IOC list as attacker-controlled infrastructure,c2
-domain,dns.studiocloud.xyz,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Attributed to attacker infrastructure by FBI,exfiltration|c2
-domain,gate.sinica.edu.tw.checkapi.cf,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Suspicious lookalike domain listed in IOC table,phishing
-domain,halloween.checkapi.cf,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Suspicious lookalike domain listed in IOC table,phishing
-domain,javacheck.ooguy.com,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Used by attackers for SoftEther connections,proxy_tunnel|c2
-domain,javaupdate.giize.com,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Used by attackers for SoftEther connections,proxy_tunnel|c2
-domain,natcloudservice.com,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Main C2 domain for bot activity,botnet|c2
-domain,trendmicro.96html.com,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Listed in a structured IOC list as attacker-controlled infrastructure,c2
-domain,upgrate.checkapi.cf,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Suspicious lookalike domain listed in IOC table,phishing
-domain,upl.natcloudservice.com,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Used for communication with main C2 domain,botnet|c2
-domain,vpn677190427.softether.net,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Listed in a table of domains attributed to threat activity and obfuscation network hosts,c2
-domain,vpn718535264.softether.net,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Listed in a table of domains attributed to threat activity and obfuscation network hosts,c2
-domain,vpn823494147.softether.net,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Listed in a table of domains attributed to threat activity and obfuscation network hosts,proxy_tunnel
-domain,wanfang.accesscam.org,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Listed in a table of domains attributed to threat activity and obfuscation network hosts,proxy_tunnel
-domain,webdisk.bailbonding.info,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Listed in a table of domains attributed to threat activity and obfuscation network hosts,malware
-domain,webmail.studiocloud.xyz,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Listed in a table of domains attributed to threat activity and obfuscation network hosts,malware
-domain,wss.studiocloud.xyz,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Listed in a table of domains attributed to threat activity and obfuscation network hosts,malware
-domain,xassxxdns.alitagotest.cf,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Listed in a table of domains attributed to threat activity and obfuscation network hosts,malware
-domain,ximmd.sexytube0.com,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Listed in a table of domains attributed to threat activity and obfuscation network hosts,malware
-domain,zerogravity1986.softether.net,high,2026-10-08T18:06:48+00:00,2026-10-08T18:06:48+00:00,1,Cisa:2026-10-08,Listed in a table of domains attributed to threat activity and obfuscation network hosts,malware
-domain,myhelpcare.cc,high,2026-10-08T17:01:59.564036+00:00,2026-10-08T17:01:59.564036+00:00,1,www.cisa.gov:2026-10-08,Identified as a malicious domain involved in phishing activity,phishing
-domain,myhelpcare.online,high,2026-10-08T17:01:59.564036+00:00,2026-10-08T17:01:59.564036+00:00,1,www.cisa.gov:2026-10-08,Identified as a malicious domain involved in phishing activity,phishing
-domain,dnshook.site,high,2026-10-08T15:14:15.038119+00:00,2026-10-08T15:14:15.038119+00:00,1,unit42.paloaltonetworks.com:2026-10-08,Configured as an authoritative nameserver for data exfiltration via DNS tunneling,exfiltration
-domain,my-secret.dnshook.site,high,2026-10-08T15:14:15.038119+00:00,2026-10-08T15:14:15.038119+00:00,1,unit42.paloaltonetworks.com:2026-10-08,Subdomain used for data exfiltration via DNS tunneling,exfiltration
-domain,iseekaigogo.com,high,2026-10-08T13:30:27+00:00,2026-10-08T13:30:27+00:00,1,Gbhackers:2026-10-08,Listed as a hardcoded command-and-control domain used by the malware,c2|malware
-domain,joinscouty.com,high,2026-10-08T12:46:27+00:00,2026-10-08T12:46:27+00:00,1,Helpnetsecurity:2026-10-08,Domain used to host a fake collaboration platform as part of a phishing scheme,phishing
-domain,matchyjoin.com,high,2026-10-08T12:46:27+00:00,2026-10-08T12:46:27+00:00,1,Helpnetsecurity:2026-10-08,Domain used to host a fake collaboration platform as part of a phishing scheme,phishing
-domain,mytubive.com,high,2026-10-08T12:46:27+00:00,2026-10-08T12:46:27+00:00,1,Helpnetsecurity:2026-10-08,Domain used to host a fake collaboration platform as part of a phishing scheme,phishing

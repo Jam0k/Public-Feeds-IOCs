@@ -1,4 +1,10 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason,categories
+domain,irc.supernets.org,high,2026-11-07T22:30:54.007739+00:00,2026-11-07T22:30:54.007739+00:00,1,,Set up by the author to accept connections on unusual ports as a proof of concept,other
+domain,direct.xcai.pro,high,2026-11-07T20:35:53.378549+00:00,2026-11-07T20:35:53.378549+00:00,1,,Identified as part of the attacker's infrastructure in the campaign,other
+domain,u6ud2s.dnslog.cn,high,2026-11-07T20:35:53.378549+00:00,2026-11-07T20:35:53.378549+00:00,1,,Used for DNS callback to confirm command execution,callback_testing
+domain,cdn.gotoiphone.com,high,2026-10-09T00:04:17.966518+00:00,2026-11-07T18:01:49.361980+00:00,1,,Used for C2 communication with the implant,c2
+domain,js.gotoiphone.com,high,2026-10-09T00:04:17.966518+00:00,2026-11-07T18:01:49.361980+00:00,1,,Used for C2 communication with the implant,c2
+domain,mzpo30.cam,high,2026-10-09T00:04:17.966518+00:00,2026-11-07T18:01:49.361980+00:00,1,,Used for C2 communication with the implant,c2
 domain,chlpolledelivery.com,high,2026-11-06T19:19:27+00:00,2026-11-06T19:19:27+00:00,1,,Listed among typosquatted domains used for phishing,phishing
 domain,chlpolleldelivery.com,high,2026-11-06T19:19:27+00:00,2026-11-06T19:19:27+00:00,1,,Listed among typosquatted domains used for phishing,phishing
 domain,chlpotedeliverys.com,high,2026-11-06T19:19:27+00:00,2026-11-06T19:19:27+00:00,1,,Listed among typosquatted domains used for phishing,phishing
@@ -455,9 +461,6 @@ domain,pwnedhost.com,high,2026-10-20T17:04:12+00:00,2026-10-20T17:04:12+00:00,1,
 domain,msauth.biz,high,2026-10-20T16:10:18.668520+00:00,2026-10-20T16:10:18.668520+00:00,1,,"Newly registered domain used for phishing, controlled by attacker",phishing
 domain,stateglobe.com,high,2026-10-20T13:06:22+00:00,2026-10-20T13:06:22+00:00,1,,Domain created for an experiment with fake statistics,other
 domain,sale-budget-9f21c8a3.cf.metaaiusercontent.com,high,2026-10-20T12:33:13+00:00,2026-10-20T12:33:13+00:00,1,,Domain used in phishing links with conversation names,phishing
-domain,cdn.gotoiphone.com,high,2026-10-09T00:04:17.966518+00:00,2026-10-20T01:05:43.294149+00:00,1,,Used for C2 communication with the implant,c2
-domain,js.gotoiphone.com,high,2026-10-09T00:04:17.966518+00:00,2026-10-20T01:05:43.294149+00:00,1,,Used for C2 communication with the implant,c2
-domain,mzpo30.cam,high,2026-10-09T00:04:17.966518+00:00,2026-10-20T01:05:43.294149+00:00,1,,Used for C2 communication with the implant,c2
 domain,buildwithknexus.xyz,high,2026-10-20T00:00:00+00:00,2026-10-20T00:00:00+00:00,1,,Used to host a malicious script,malware
 domain,777traffget.site,high,2026-10-15T15:12:24.931033+00:00,2026-10-19T22:38:04.235893+00:00,1,,Listed as historical C2 infrastructure for malware,c2
 domain,cartoonmines.com,high,2026-10-15T15:12:24.931033+00:00,2026-10-19T22:38:04.235893+00:00,1,,Used in redirect scripts for malicious traffic,traffic_distribution

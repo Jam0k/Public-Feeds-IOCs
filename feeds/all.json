@@ -1,7 +1,7 @@
 {
   "feed": "threatcluster-public-iocs",
   "version": 1,
-  "generated_at": "2026-11-07T12:57:16Z",
+  "generated_at": "2026-11-08T13:20:35Z",
   "filters": {
     "confidence": "high",
     "window_days": 30,
@@ -11,8 +11,379 @@
       "domain"
     ]
   },
-  "count": 950,
+  "count": 839,
   "iocs": [
+    {
+      "type": "domain",
+      "value": "irc.supernets.org",
+      "confidence": "high",
+      "reason": "Set up by the author to accept connections on unusual ports as a proof of concept",
+      "first_seen": "2026-11-07T22:30:54.007739+00:00",
+      "last_seen": "2026-11-07T22:30:54.007739+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "acid.vegas",
+          "url": "https://acid.vegas/blog/the-port-that-does-not-exist/",
+          "pub_date": "2026-11-07T22:30:54.007739+00:00"
+        }
+      ],
+      "tags": [],
+      "categories": [
+        "other"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "direct.xcai.pro",
+      "confidence": "high",
+      "reason": "Identified as part of the attacker's infrastructure in the campaign",
+      "first_seen": "2026-11-07T20:35:53.378549+00:00",
+      "last_seen": "2026-11-07T20:35:53.378549+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "hunt.io",
+          "url": "https://hunt.io/blog/artex-south-korea-bank-infrastructure",
+          "pub_date": "2026-11-07T20:35:53.378549+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Artex"
+        },
+        {
+          "type": "industry",
+          "value": "Financial"
+        }
+      ],
+      "categories": [
+        "other"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "u6ud2s.dnslog.cn",
+      "confidence": "high",
+      "reason": "Used for DNS callback to confirm command execution",
+      "first_seen": "2026-11-07T20:35:53.378549+00:00",
+      "last_seen": "2026-11-07T20:35:53.378549+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "hunt.io",
+          "url": "https://hunt.io/blog/artex-south-korea-bank-infrastructure",
+          "pub_date": "2026-11-07T20:35:53.378549+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Artex"
+        },
+        {
+          "type": "industry",
+          "value": "Financial"
+        }
+      ],
+      "categories": [
+        "callback_testing"
+      ],
+      "basis": null
+    },
+    {
+      "type": "ipv4",
+      "value": "154.201.79.246",
+      "confidence": "high",
+      "reason": "Proxy service used in the attacker's infrastructure",
+      "first_seen": "2026-11-07T20:00:02+00:00",
+      "last_seen": "2026-11-07T20:35:53.378549+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "hunt.io",
+          "url": "https://hunt.io/blog/artex-south-korea-bank-infrastructure",
+          "pub_date": "2026-11-07T20:35:53.378549+00:00"
+        },
+        {
+          "source": "Securityaffairs",
+          "url": "https://securityaffairs.com/202607/ai/inside-artex-ai-hacking-tools-exposed-servers-and-south-korean-bank-breaches.html",
+          "pub_date": "2026-11-07T20:00:02+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "industry",
+          "value": "Financial"
+        },
+        {
+          "type": "campaign",
+          "value": "Artex"
+        }
+      ],
+      "categories": [
+        "proxy_tunnel"
+      ],
+      "basis": null
+    },
+    {
+      "type": "ipv4",
+      "value": "156.251.11.39",
+      "confidence": "high",
+      "reason": "Hosts ARTEX panel and malicious open directories",
+      "first_seen": "2026-11-07T20:00:02+00:00",
+      "last_seen": "2026-11-07T20:35:53.378549+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "hunt.io",
+          "url": "https://hunt.io/blog/artex-south-korea-bank-infrastructure",
+          "pub_date": "2026-11-07T20:35:53.378549+00:00"
+        },
+        {
+          "source": "Securityaffairs",
+          "url": "https://securityaffairs.com/202607/ai/inside-artex-ai-hacking-tools-exposed-servers-and-south-korean-bank-breaches.html",
+          "pub_date": "2026-11-07T20:00:02+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "industry",
+          "value": "Financial"
+        },
+        {
+          "type": "campaign",
+          "value": "Artex"
+        }
+      ],
+      "categories": [
+        "malware"
+      ],
+      "basis": null
+    },
+    {
+      "type": "ipv4",
+      "value": "23.248.226.250",
+      "confidence": "high",
+      "reason": "Acts as a jump server in the attacker's infrastructure",
+      "first_seen": "2026-11-07T20:00:02+00:00",
+      "last_seen": "2026-11-07T20:35:53.378549+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "hunt.io",
+          "url": "https://hunt.io/blog/artex-south-korea-bank-infrastructure",
+          "pub_date": "2026-11-07T20:35:53.378549+00:00"
+        },
+        {
+          "source": "Securityaffairs",
+          "url": "https://securityaffairs.com/202607/ai/inside-artex-ai-hacking-tools-exposed-servers-and-south-korean-bank-breaches.html",
+          "pub_date": "2026-11-07T20:00:02+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "industry",
+          "value": "Financial"
+        },
+        {
+          "type": "campaign",
+          "value": "Artex"
+        }
+      ],
+      "categories": [
+        "other"
+      ],
+      "basis": null
+    },
+    {
+      "type": "ipv4",
+      "value": "38.244.50.120",
+      "confidence": "high",
+      "reason": "Hosts the ARTEX console as part of the attacker's infrastructure",
+      "first_seen": "2026-11-05T21:38:21+00:00",
+      "last_seen": "2026-11-07T20:35:53.378549+00:00",
+      "source_count": 3,
+      "sources": [
+        {
+          "source": "hunt.io",
+          "url": "https://hunt.io/blog/artex-south-korea-bank-infrastructure",
+          "pub_date": "2026-11-07T20:35:53.378549+00:00"
+        },
+        {
+          "source": "Securityaffairs",
+          "url": "https://securityaffairs.com/202607/ai/inside-artex-ai-hacking-tools-exposed-servers-and-south-korean-bank-breaches.html",
+          "pub_date": "2026-11-07T20:00:02+00:00"
+        },
+        {
+          "source": "Censys",
+          "url": "https://censys.com/blog/artex-agentic-asbestos/",
+          "pub_date": "2026-11-05T21:38:21+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "industry",
+          "value": "Financial"
+        },
+        {
+          "type": "campaign",
+          "value": "Artex"
+        },
+        {
+          "type": "campaign",
+          "value": "Storm-0940"
+        },
+        {
+          "type": "malware",
+          "value": "Cobalt Strike"
+        }
+      ],
+      "categories": [
+        "malware"
+      ],
+      "basis": null
+    },
+    {
+      "type": "ipv4",
+      "value": "130.94.31.86",
+      "confidence": "high",
+      "reason": "Hosts exploitation kits and malicious scripts",
+      "first_seen": "2026-11-07T20:00:02+00:00",
+      "last_seen": "2026-11-07T20:00:02+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Securityaffairs",
+          "url": "https://securityaffairs.com/202607/ai/inside-artex-ai-hacking-tools-exposed-servers-and-south-korean-bank-breaches.html",
+          "pub_date": "2026-11-07T20:00:02+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "industry",
+          "value": "Financial"
+        }
+      ],
+      "categories": [
+        "exploit"
+      ],
+      "basis": null
+    },
+    {
+      "type": "ipv4",
+      "value": "154.222.16.220",
+      "confidence": "high",
+      "reason": "Listed as an iPhone exploit server controlled by attackers.",
+      "first_seen": "2026-11-07T19:51:55+00:00",
+      "last_seen": "2026-11-07T19:51:55+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "X",
+          "url": "https://x.com/rst_cloud/status/2119134285382795708",
+          "pub_date": "2026-11-07T19:51:55+00:00"
+        }
+      ],
+      "tags": [],
+      "categories": [
+        "exploit"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "cdn.gotoiphone.com",
+      "confidence": "high",
+      "reason": "Used for C2 communication with the implant",
+      "first_seen": "2026-11-07T18:01:49.361980+00:00",
+      "last_seen": "2026-11-07T18:01:49.361980+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.iverify.com",
+          "url": "https://www.iverify.com/blog/darksword-variant-threat-research",
+          "pub_date": "2026-11-07T18:01:49.36198+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "Coruna"
+        },
+        {
+          "type": "malware",
+          "value": "DarkSword"
+        }
+      ],
+      "categories": [
+        "c2"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "js.gotoiphone.com",
+      "confidence": "high",
+      "reason": "Used for C2 communication with the implant",
+      "first_seen": "2026-11-07T18:01:49.361980+00:00",
+      "last_seen": "2026-11-07T18:01:49.361980+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.iverify.com",
+          "url": "https://www.iverify.com/blog/darksword-variant-threat-research",
+          "pub_date": "2026-11-07T18:01:49.36198+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "Coruna"
+        },
+        {
+          "type": "malware",
+          "value": "DarkSword"
+        }
+      ],
+      "categories": [
+        "c2"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "mzpo30.cam",
+      "confidence": "high",
+      "reason": "Used for C2 communication with the implant",
+      "first_seen": "2026-11-07T18:01:49.361980+00:00",
+      "last_seen": "2026-11-07T18:01:49.361980+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.iverify.com",
+          "url": "https://www.iverify.com/blog/darksword-variant-threat-research",
+          "pub_date": "2026-11-07T18:01:49.36198+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "Coruna"
+        },
+        {
+          "type": "malware",
+          "value": "DarkSword"
+        }
+      ],
+      "categories": [
+        "c2"
+      ],
+      "basis": null
+    },
     {
       "type": "domain",
       "value": "chlpolledelivery.com",
@@ -496,12 +867,17 @@
       "reason": "Identified as the operator's IP with confirmed malicious activity",
       "first_seen": "2026-11-04T19:04:02+00:00",
       "last_seen": "2026-11-06T13:00:29.149754+00:00",
-      "source_count": 2,
+      "source_count": 3,
       "sources": [
         {
           "source": "www.todyl.com",
           "url": "https://www.todyl.com/blog/stolen-app-credentials-real-access-an-actor-is-signing-into-entra-id-and-azure-devops-as-your-workloads",
           "pub_date": "2026-11-06T13:00:29.149754+00:00"
+        },
+        {
+          "source": "Ciberseguridadlatam",
+          "url": "https://ciberseguridadlatam.com/agentes-de-ia-autonomos-aceleran-robo-de-credenciales-en-github-cinco-minutos-desde-el-escaneo-hasta-la-exfiltracion/",
+          "pub_date": "2026-11-06T10:37:41+00:00"
         },
         {
           "source": "Fieldeffect",
@@ -533,69 +909,6 @@
       "basis": null
     },
     {
-      "type": "domain",
-      "value": "bitfit.io",
-      "confidence": "high",
-      "reason": "Identified as a front company used by attackers",
-      "first_seen": "2026-11-06T11:26:30+00:00",
-      "last_seen": "2026-11-06T11:26:30+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Cointelegraph",
-          "url": "https://cointelegraph.com/news/binance-hackers-8-weeks-access-63b-exploit-security-alliance?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-          "pub_date": "2026-11-06T11:26:30+00:00"
-        }
-      ],
-      "tags": [],
-      "categories": [
-        "other"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "citalab.com",
-      "confidence": "high",
-      "reason": "Identified as a front company used by attackers",
-      "first_seen": "2026-11-06T11:26:30+00:00",
-      "last_seen": "2026-11-06T11:26:30+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Cointelegraph",
-          "url": "https://cointelegraph.com/news/binance-hackers-8-weeks-access-63b-exploit-security-alliance?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-          "pub_date": "2026-11-06T11:26:30+00:00"
-        }
-      ],
-      "tags": [],
-      "categories": [
-        "other"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "citalab.net",
-      "confidence": "high",
-      "reason": "Identified as a front company used by attackers",
-      "first_seen": "2026-11-06T11:26:30+00:00",
-      "last_seen": "2026-11-06T11:26:30+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Cointelegraph",
-          "url": "https://cointelegraph.com/news/binance-hackers-8-weeks-access-63b-exploit-security-alliance?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-          "pub_date": "2026-11-06T11:26:30+00:00"
-        }
-      ],
-      "tags": [],
-      "categories": [
-        "other"
-      ],
-      "basis": null
-    },
-    {
       "type": "ipv4",
       "value": "104.234.26.163",
       "confidence": "high",
@@ -613,6 +926,32 @@
       "tags": [],
       "categories": [
         "c2"
+      ],
+      "basis": null
+    },
+    {
+      "type": "ipv4",
+      "value": "157.22.126.128",
+      "confidence": "high",
+      "reason": "Associated with malicious reconnaissance operations",
+      "first_seen": "2026-11-06T04:30:56+00:00",
+      "last_seen": "2026-11-06T10:37:41+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "Ciberseguridadlatam",
+          "url": "https://ciberseguridadlatam.com/agentes-de-ia-autonomos-aceleran-robo-de-credenciales-en-github-cinco-minutos-desde-el-escaneo-hasta-la-exfiltracion/",
+          "pub_date": "2026-11-06T10:37:41+00:00"
+        },
+        {
+          "source": "Microsoft",
+          "url": "https://www.microsoft.com/en-us/security/blog/2026/11/05/threat-actors-use-agentic-ai-tooling-to-find-and-abuse-exposed-secrets/",
+          "pub_date": "2026-11-06T04:30:56+00:00"
+        }
+      ],
+      "tags": [],
+      "categories": [
+        "scanner"
       ],
       "basis": null
     },
@@ -813,27 +1152,6 @@
       "tags": [],
       "categories": [
         "traffic_distribution"
-      ],
-      "basis": null
-    },
-    {
-      "type": "ipv4",
-      "value": "157.22.126.128",
-      "confidence": "high",
-      "reason": "Associated with malicious reconnaissance operations",
-      "first_seen": "2026-11-06T04:30:56+00:00",
-      "last_seen": "2026-11-06T04:30:56+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Microsoft",
-          "url": "https://www.microsoft.com/en-us/security/blog/2026/11/05/threat-actors-use-agentic-ai-tooling-to-find-and-abuse-exposed-secrets/",
-          "pub_date": "2026-11-06T04:30:56+00:00"
-        }
-      ],
-      "tags": [],
-      "categories": [
-        "scanner"
       ],
       "basis": null
     },
@@ -2103,40 +2421,6 @@
       "value": "206.187.215.173",
       "confidence": "high",
       "reason": "Listed among Censys-observed hosts associated with ARTEX threat activity",
-      "first_seen": "2026-11-05T21:38:21+00:00",
-      "last_seen": "2026-11-05T21:38:21+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Censys",
-          "url": "https://censys.com/blog/artex-agentic-asbestos/",
-          "pub_date": "2026-11-05T21:38:21+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Storm-0940"
-        },
-        {
-          "type": "industry",
-          "value": "Financial"
-        },
-        {
-          "type": "malware",
-          "value": "Cobalt Strike"
-        }
-      ],
-      "categories": [
-        "malware"
-      ],
-      "basis": null
-    },
-    {
-      "type": "ipv4",
-      "value": "38.244.50.120",
-      "confidence": "high",
-      "reason": "Used by an unattributed actor running ARTEX for malicious activities",
       "first_seen": "2026-11-05T21:38:21+00:00",
       "last_seen": "2026-11-05T21:38:21+00:00",
       "source_count": 1,
@@ -17281,96 +17565,6 @@
     },
     {
       "type": "domain",
-      "value": "cdn.gotoiphone.com",
-      "confidence": "high",
-      "reason": "Used for C2 communication with the implant",
-      "first_seen": "2026-10-20T01:05:43.294149+00:00",
-      "last_seen": "2026-10-20T01:05:43.294149+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.iverify.com",
-          "url": "https://www.iverify.com/blog/darksword-variant-threat-research",
-          "pub_date": "2026-10-20T01:05:43.294149+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "malware",
-          "value": "Coruna"
-        },
-        {
-          "type": "malware",
-          "value": "DarkSword"
-        }
-      ],
-      "categories": [
-        "c2"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "js.gotoiphone.com",
-      "confidence": "high",
-      "reason": "Used for C2 communication with the implant",
-      "first_seen": "2026-10-20T01:05:43.294149+00:00",
-      "last_seen": "2026-10-20T01:05:43.294149+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.iverify.com",
-          "url": "https://www.iverify.com/blog/darksword-variant-threat-research",
-          "pub_date": "2026-10-20T01:05:43.294149+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "malware",
-          "value": "Coruna"
-        },
-        {
-          "type": "malware",
-          "value": "DarkSword"
-        }
-      ],
-      "categories": [
-        "c2"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "mzpo30.cam",
-      "confidence": "high",
-      "reason": "Used for C2 communication with the implant",
-      "first_seen": "2026-10-20T01:05:43.294149+00:00",
-      "last_seen": "2026-10-20T01:05:43.294149+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.iverify.com",
-          "url": "https://www.iverify.com/blog/darksword-variant-threat-research",
-          "pub_date": "2026-10-20T01:05:43.294149+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "malware",
-          "value": "Coruna"
-        },
-        {
-          "type": "malware",
-          "value": "DarkSword"
-        }
-      ],
-      "categories": [
-        "c2"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
       "value": "buildwithknexus.xyz",
       "confidence": "high",
       "reason": "Used to host a malicious script",
@@ -19686,35 +19880,17 @@
       "value": "joinmatchy.com",
       "confidence": "high",
       "reason": "Domain used to host a fake collaboration platform as part of a phishing scheme",
-      "first_seen": "2026-10-08T12:46:27+00:00",
+      "first_seen": "2026-10-16T20:33:31.682727+00:00",
       "last_seen": "2026-10-16T20:33:31.682727+00:00",
-      "source_count": 2,
+      "source_count": 1,
       "sources": [
         {
           "source": "www.welivesecurity.com",
           "url": "https://www.welivesecurity.com/en/social-media/brand-deal-scam-targeting-youtube-creators/",
           "pub_date": "2026-10-16T20:33:31.682727+00:00"
-        },
-        {
-          "source": "Helpnetsecurity",
-          "url": "https://www.helpnetsecurity.com/2026/10/08/scams-targeting-youtube-creators-sponsorship/",
-          "pub_date": "2026-10-08T12:46:27+00:00"
         }
       ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Matchy"
-        },
-        {
-          "type": "campaign",
-          "value": "Scouty"
-        },
-        {
-          "type": "campaign",
-          "value": "Tubive"
-        }
-      ],
+      "tags": [],
       "categories": [
         "phishing"
       ],
@@ -21117,19 +21293,14 @@
       "value": "api.weatherlive.world",
       "confidence": "high",
       "reason": "Used as a command channel for malware control",
-      "first_seen": "2026-10-08T15:28:24+00:00",
+      "first_seen": "2026-10-16T01:01:47.133590+00:00",
       "last_seen": "2026-10-16T01:01:47.133590+00:00",
-      "source_count": 2,
+      "source_count": 1,
       "sources": [
         {
           "source": "www.bitdefender.com",
           "url": "https://www.bitdefender.com/en-us/blog/labs/midnight-mimosa-malware",
           "pub_date": "2026-10-16T01:01:47.13359+00:00"
-        },
-        {
-          "source": "Hackread",
-          "url": "https://hackread.com/midnight-mimosa-malware-preinstalled-android-phones/",
-          "pub_date": "2026-10-08T15:28:24+00:00"
         }
       ],
       "tags": [
@@ -21144,10 +21315,6 @@
         {
           "type": "malware",
           "value": "Android.Phantom"
-        },
-        {
-          "type": "malware",
-          "value": "Midnight Mimosa"
         }
       ],
       "categories": [
@@ -23691,9 +23858,9 @@
       "value": "c0cc.cc",
       "confidence": "high",
       "reason": "Domain used to access Microscan, controlled by attackers",
-      "first_seen": "2026-10-08T17:20:13+00:00",
+      "first_seen": "2026-10-09T18:45:14+00:00",
       "last_seen": "2026-10-11T13:37:33+00:00",
-      "source_count": 4,
+      "source_count": 2,
       "sources": [
         {
           "source": "Itnews.Au",
@@ -23704,23 +23871,9 @@
           "source": "Finance.Biggo",
           "url": "https://finance.biggo.com/news/f8e5b44f-988b-4edc-b409-10b6318f541c",
           "pub_date": "2026-10-09T18:45:14+00:00"
-        },
-        {
-          "source": "Thecyberexpress",
-          "url": "https://thecyberexpress.com/flax-typhoon-hackers-lose-microscan/",
-          "pub_date": "2026-10-09T05:40:37+00:00"
-        },
-        {
-          "source": "Justice",
-          "url": "https://www.justice.gov/opa/pr/justice-department-and-fbi-seize-vulnerability-scanning-and-spear-phishing-tools-operated",
-          "pub_date": "2026-10-08T17:20:13+00:00"
         }
       ],
       "tags": [
-        {
-          "type": "malware",
-          "value": "Mirai"
-        },
         {
           "type": "apt_group",
           "value": "Flax Typhoon"
@@ -23728,6 +23881,10 @@
         {
           "type": "industry",
           "value": "Government"
+        },
+        {
+          "type": "malware",
+          "value": "Mirai"
         },
         {
           "type": "apt_group",
@@ -24089,31 +24246,17 @@
       "value": "98aicai.com",
       "confidence": "high",
       "reason": "Domain used to deliver post-compromise tool FishHub, controlled by attackers",
-      "first_seen": "2026-10-08T17:20:13+00:00",
+      "first_seen": "2026-10-09T18:45:14+00:00",
       "last_seen": "2026-10-09T18:45:14+00:00",
-      "source_count": 3,
+      "source_count": 1,
       "sources": [
         {
           "source": "Finance.Biggo",
           "url": "https://finance.biggo.com/news/f8e5b44f-988b-4edc-b409-10b6318f541c",
           "pub_date": "2026-10-09T18:45:14+00:00"
-        },
-        {
-          "source": "Thecyberexpress",
-          "url": "https://thecyberexpress.com/flax-typhoon-hackers-lose-microscan/",
-          "pub_date": "2026-10-09T05:40:37+00:00"
-        },
-        {
-          "source": "Justice",
-          "url": "https://www.justice.gov/opa/pr/justice-department-and-fbi-seize-vulnerability-scanning-and-spear-phishing-tools-operated",
-          "pub_date": "2026-10-08T17:20:13+00:00"
         }
       ],
       "tags": [
-        {
-          "type": "malware",
-          "value": "Mirai"
-        },
         {
           "type": "apt_group",
           "value": "Flax Typhoon"
@@ -24125,6 +24268,10 @@
         {
           "type": "cve",
           "value": "CVE-2015-3306"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2015-5477"
         }
       ],
       "categories": [
@@ -24137,31 +24284,17 @@
       "value": "98aicode.com",
       "confidence": "high",
       "reason": "Domain used to deliver post-compromise tool FishHub, controlled by attackers",
-      "first_seen": "2026-10-08T17:20:13+00:00",
+      "first_seen": "2026-10-09T18:45:14+00:00",
       "last_seen": "2026-10-09T18:45:14+00:00",
-      "source_count": 3,
+      "source_count": 1,
       "sources": [
         {
           "source": "Finance.Biggo",
           "url": "https://finance.biggo.com/news/f8e5b44f-988b-4edc-b409-10b6318f541c",
           "pub_date": "2026-10-09T18:45:14+00:00"
-        },
-        {
-          "source": "Thecyberexpress",
-          "url": "https://thecyberexpress.com/flax-typhoon-hackers-lose-microscan/",
-          "pub_date": "2026-10-09T05:40:37+00:00"
-        },
-        {
-          "source": "Justice",
-          "url": "https://www.justice.gov/opa/pr/justice-department-and-fbi-seize-vulnerability-scanning-and-spear-phishing-tools-operated",
-          "pub_date": "2026-10-08T17:20:13+00:00"
         }
       ],
       "tags": [
-        {
-          "type": "malware",
-          "value": "Mirai"
-        },
         {
           "type": "apt_group",
           "value": "Flax Typhoon"
@@ -24173,6 +24306,10 @@
         {
           "type": "cve",
           "value": "CVE-2015-3306"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2015-5477"
         }
       ],
       "categories": [
@@ -24185,31 +24322,17 @@
       "value": "linkedinns.net",
       "confidence": "high",
       "reason": "Domain used to deliver post-compromise tool FishHub, controlled by attackers",
-      "first_seen": "2026-10-08T17:20:13+00:00",
+      "first_seen": "2026-10-09T18:45:14+00:00",
       "last_seen": "2026-10-09T18:45:14+00:00",
-      "source_count": 3,
+      "source_count": 1,
       "sources": [
         {
           "source": "Finance.Biggo",
           "url": "https://finance.biggo.com/news/f8e5b44f-988b-4edc-b409-10b6318f541c",
           "pub_date": "2026-10-09T18:45:14+00:00"
-        },
-        {
-          "source": "Thecyberexpress",
-          "url": "https://thecyberexpress.com/flax-typhoon-hackers-lose-microscan/",
-          "pub_date": "2026-10-09T05:40:37+00:00"
-        },
-        {
-          "source": "Justice",
-          "url": "https://www.justice.gov/opa/pr/justice-department-and-fbi-seize-vulnerability-scanning-and-spear-phishing-tools-operated",
-          "pub_date": "2026-10-08T17:20:13+00:00"
         }
       ],
       "tags": [
-        {
-          "type": "malware",
-          "value": "Mirai"
-        },
         {
           "type": "apt_group",
           "value": "Flax Typhoon"
@@ -24221,6 +24344,10 @@
         {
           "type": "cve",
           "value": "CVE-2015-3306"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2015-5477"
         }
       ],
       "categories": [
@@ -24233,31 +24360,17 @@
       "value": "outlook3650.com",
       "confidence": "high",
       "reason": "Domain used to deliver post-compromise tool FishHub, controlled by attackers",
-      "first_seen": "2026-10-08T17:20:13+00:00",
+      "first_seen": "2026-10-09T18:45:14+00:00",
       "last_seen": "2026-10-09T18:45:14+00:00",
-      "source_count": 3,
+      "source_count": 1,
       "sources": [
         {
           "source": "Finance.Biggo",
           "url": "https://finance.biggo.com/news/f8e5b44f-988b-4edc-b409-10b6318f541c",
           "pub_date": "2026-10-09T18:45:14+00:00"
-        },
-        {
-          "source": "Thecyberexpress",
-          "url": "https://thecyberexpress.com/flax-typhoon-hackers-lose-microscan/",
-          "pub_date": "2026-10-09T05:40:37+00:00"
-        },
-        {
-          "source": "Justice",
-          "url": "https://www.justice.gov/opa/pr/justice-department-and-fbi-seize-vulnerability-scanning-and-spear-phishing-tools-operated",
-          "pub_date": "2026-10-08T17:20:13+00:00"
         }
       ],
       "tags": [
-        {
-          "type": "malware",
-          "value": "Mirai"
-        },
         {
           "type": "apt_group",
           "value": "Flax Typhoon"
@@ -24269,6 +24382,10 @@
         {
           "type": "cve",
           "value": "CVE-2015-3306"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2015-5477"
         }
       ],
       "categories": [
@@ -24281,31 +24398,17 @@
       "value": "youtubecard.com",
       "confidence": "high",
       "reason": "Domain used to deliver post-compromise tool FishHub, controlled by attackers",
-      "first_seen": "2026-10-08T17:20:13+00:00",
+      "first_seen": "2026-10-09T18:45:14+00:00",
       "last_seen": "2026-10-09T18:45:14+00:00",
-      "source_count": 3,
+      "source_count": 1,
       "sources": [
         {
           "source": "Finance.Biggo",
           "url": "https://finance.biggo.com/news/f8e5b44f-988b-4edc-b409-10b6318f541c",
           "pub_date": "2026-10-09T18:45:14+00:00"
-        },
-        {
-          "source": "Thecyberexpress",
-          "url": "https://thecyberexpress.com/flax-typhoon-hackers-lose-microscan/",
-          "pub_date": "2026-10-09T05:40:37+00:00"
-        },
-        {
-          "source": "Justice",
-          "url": "https://www.justice.gov/opa/pr/justice-department-and-fbi-seize-vulnerability-scanning-and-spear-phishing-tools-operated",
-          "pub_date": "2026-10-08T17:20:13+00:00"
         }
       ],
       "tags": [
-        {
-          "type": "malware",
-          "value": "Mirai"
-        },
         {
           "type": "apt_group",
           "value": "Flax Typhoon"
@@ -24317,6 +24420,10 @@
         {
           "type": "cve",
           "value": "CVE-2015-3306"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2015-5477"
         }
       ],
       "categories": [
@@ -24941,4006 +25048,6 @@
       "tags": [],
       "categories": [
         "exploit"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "avittti.com",
-      "confidence": "high",
-      "reason": "Part of a phishing flow impersonating legitimate services",
-      "first_seen": "2026-10-09T12:04:28+00:00",
-      "last_seen": "2026-10-09T12:04:28+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Mailguard.Au",
-          "url": "https://www.mailguard.com.au/blog/a-new-secure-folder-auth-phishing-scam-targets-microsoft-accounts?hs_amp=true",
-          "pub_date": "2026-10-09T12:04:28+00:00"
-        }
-      ],
-      "tags": [],
-      "categories": [
-        "phishing"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "musairkompresor.com",
-      "confidence": "high",
-      "reason": "Part of a phishing redirect chain",
-      "first_seen": "2026-10-09T12:04:28+00:00",
-      "last_seen": "2026-10-09T12:04:28+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Mailguard.Au",
-          "url": "https://www.mailguard.com.au/blog/a-new-secure-folder-auth-phishing-scam-targets-microsoft-accounts?hs_amp=true",
-          "pub_date": "2026-10-09T12:04:28+00:00"
-        }
-      ],
-      "tags": [],
-      "categories": [
-        "phishing"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "secure-login-university.xyz",
-      "confidence": "high",
-      "reason": "Listed as a suspicious link in phishing context",
-      "first_seen": "2026-10-09T09:54:30+00:00",
-      "last_seen": "2026-10-09T09:54:30+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Westminster.Ac.Uk",
-          "url": "https://www.westminster.ac.uk/current-students/news/happy-cyber-security-awareness-month",
-          "pub_date": "2026-10-09T09:54:30+00:00"
-        }
-      ],
-      "tags": [],
-      "categories": [
-        "phishing"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "hashicorp-terraform.io",
-      "confidence": "high",
-      "reason": "Used to download a malicious Bash loader",
-      "first_seen": "2026-10-09T08:48:52+00:00",
-      "last_seen": "2026-10-09T08:48:52+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Gbhackers",
-          "url": "https://gbhackers.com/terraform-supply-chain/",
-          "pub_date": "2026-10-09T08:48:52+00:00"
-        }
-      ],
-      "tags": [],
-      "categories": [
-        "malware"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "w8510.com",
-      "confidence": "high",
-      "reason": "Used for command-and-control in a botnet",
-      "first_seen": "2026-10-09T07:20:08+00:00",
-      "last_seen": "2026-10-09T07:20:08+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Thehackernews",
-          "url": "https://thehackernews.com/2026/10/fbi-seizes-7-domains-disrupts-flax.html",
-          "pub_date": "2026-10-09T07:20:08+00:00"
-        }
-      ],
-      "tags": [],
-      "categories": [
-        "botnet",
-        "c2"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "ficus.in",
-      "confidence": "high",
-      "reason": "Associated with Remcos RAT and steganography",
-      "first_seen": "2026-10-09T06:49:45+00:00",
-      "last_seen": "2026-10-09T06:49:45+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "2-Spyware",
-          "url": "https://www.2-spyware.com/remove-ficus-in.html",
-          "pub_date": "2026-10-09T06:49:45+00:00"
-        }
-      ],
-      "tags": [],
-      "categories": [
-        "malware"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "donutsmpcheats.org",
-      "confidence": "high",
-      "reason": "Associated with fake Minecraft mods and malware",
-      "first_seen": "2026-10-09T06:46:00+00:00",
-      "last_seen": "2026-10-09T06:46:00+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "2-Spyware",
-          "url": "https://www.2-spyware.com/remove-donutsmpcheats-org.html",
-          "pub_date": "2026-10-09T06:46:00+00:00"
-        }
-      ],
-      "tags": [],
-      "categories": [
-        "malware"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "flycloud-service.com",
-      "confidence": "high",
-      "reason": "Listed as MATCHBOIL C&C server",
-      "first_seen": "2026-10-09T06:44:33+00:00",
-      "last_seen": "2026-10-09T06:44:33+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Gbhackers",
-          "url": "https://gbhackers.com/matchboil-malware/",
-          "pub_date": "2026-10-09T06:44:33+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Sandworm"
-        },
-        {
-          "type": "apt_group",
-          "value": "UAC-0099"
-        },
-        {
-          "type": "industry",
-          "value": "Energy"
-        },
-        {
-          "type": "industry",
-          "value": "Financial"
-        }
-      ],
-      "categories": [
-        "c2"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "telemetry-conf.com",
-      "confidence": "high",
-      "reason": "Listed as MATCHBOIL C&C server",
-      "first_seen": "2026-10-09T06:44:33+00:00",
-      "last_seen": "2026-10-09T06:44:33+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Gbhackers",
-          "url": "https://gbhackers.com/matchboil-malware/",
-          "pub_date": "2026-10-09T06:44:33+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Sandworm"
-        },
-        {
-          "type": "apt_group",
-          "value": "UAC-0099"
-        },
-        {
-          "type": "industry",
-          "value": "Energy"
-        },
-        {
-          "type": "industry",
-          "value": "Financial"
-        }
-      ],
-      "categories": [
-        "c2"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "virtualdailyplanner.pro",
-      "confidence": "high",
-      "reason": "Listed as MATCHBOIL C&C server",
-      "first_seen": "2026-10-09T06:44:33+00:00",
-      "last_seen": "2026-10-09T06:44:33+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Gbhackers",
-          "url": "https://gbhackers.com/matchboil-malware/",
-          "pub_date": "2026-10-09T06:44:33+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Sandworm"
-        },
-        {
-          "type": "apt_group",
-          "value": "UAC-0099"
-        },
-        {
-          "type": "industry",
-          "value": "Energy"
-        },
-        {
-          "type": "industry",
-          "value": "Financial"
-        }
-      ],
-      "categories": [
-        "c2"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "aerofluidthermo.org",
-      "confidence": "high",
-      "reason": "Listed as part of Proton Decrypter indicators",
-      "first_seen": "2026-10-09T03:56:52+00:00",
-      "last_seen": "2026-10-09T03:56:52+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Cyfirma",
-          "url": "https://www.cyfirma.com/news/weekly-intelligence-report-9-oct-2026/",
-          "pub_date": "2026-10-09T03:56:52+00:00"
-        }
-      ],
-      "tags": [],
-      "categories": [
-        "malware"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "civilstructgeo.org",
-      "confidence": "high",
-      "reason": "Listed in a rule as associated with malware indicators",
-      "first_seen": "2026-10-09T03:56:52+00:00",
-      "last_seen": "2026-10-09T03:56:52+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Cyfirma",
-          "url": "https://www.cyfirma.com/news/weekly-intelligence-report-9-oct-2026/",
-          "pub_date": "2026-10-09T03:56:52+00:00"
-        }
-      ],
-      "tags": [],
-      "categories": [
-        "malware"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "cloudmediaportal.com",
-      "confidence": "high",
-      "reason": "Listed in a rule as associated with malware indicators",
-      "first_seen": "2026-10-09T03:56:52+00:00",
-      "last_seen": "2026-10-09T03:56:52+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Cyfirma",
-          "url": "https://www.cyfirma.com/news/weekly-intelligence-report-9-oct-2026/",
-          "pub_date": "2026-10-09T03:56:52+00:00"
-        }
-      ],
-      "tags": [],
-      "categories": [
-        "malware"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "docs-info.com",
-      "confidence": "high",
-      "reason": "Listed in a rule as associated with malware indicators",
-      "first_seen": "2026-10-09T03:56:52+00:00",
-      "last_seen": "2026-10-09T03:56:52+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Cyfirma",
-          "url": "https://www.cyfirma.com/news/weekly-intelligence-report-9-oct-2026/",
-          "pub_date": "2026-10-09T03:56:52+00:00"
-        }
-      ],
-      "tags": [],
-      "categories": [
-        "malware"
-      ],
-      "basis": null
-    },
-    {
-      "type": "ipv4",
-      "value": "185.164.172.128",
-      "confidence": "high",
-      "reason": "Listed in a rule for Proton Decrypter indicators",
-      "first_seen": "2026-10-09T03:56:52+00:00",
-      "last_seen": "2026-10-09T03:56:52+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Cyfirma",
-          "url": "https://www.cyfirma.com/news/weekly-intelligence-report-9-oct-2026/",
-          "pub_date": "2026-10-09T03:56:52+00:00"
-        }
-      ],
-      "tags": [],
-      "categories": [
-        "malware"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "moonlighthathel.org",
-      "confidence": "high",
-      "reason": "Listed as a malicious FQDN targeted by DNS Object Block Rule",
-      "first_seen": "2026-10-08T15:00:39+00:00",
-      "last_seen": "2026-10-08T23:02:10.117783+00:00",
-      "source_count": 2,
-      "sources": [
-        {
-          "source": "www.splunk.com",
-          "url": "https://www.splunk.com/en_us/blog/security/conf26-agentic-soc-scalpel.html",
-          "pub_date": "2026-10-08T23:02:10.117783+00:00"
-        },
-        {
-          "source": "Blogs.Cisco",
-          "url": "https://blogs.cisco.com/security/conf26-agentic-soc/",
-          "pub_date": "2026-10-08T15:00:39+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "fake-Corepack Infostealer Campaign"
-        },
-        {
-          "type": "campaign",
-          "value": "Proxyware Campaign"
-        },
-        {
-          "type": "malware",
-          "value": "Corepack"
-        }
-      ],
-      "categories": [
-        "exploit"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "ukankingwithea.com",
-      "confidence": "high",
-      "reason": "Listed as a malicious FQDN targeted by DNS Object Block Rule",
-      "first_seen": "2026-10-08T23:02:10.117783+00:00",
-      "last_seen": "2026-10-08T23:02:10.117783+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.splunk.com",
-          "url": "https://www.splunk.com/en_us/blog/security/conf26-agentic-soc-scalpel.html",
-          "pub_date": "2026-10-08T23:02:10.117783+00:00"
-        }
-      ],
-      "tags": [],
-      "categories": [
-        "exploit"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "98aiblog.com",
-      "confidence": "high",
-      "reason": "Seized domain used to deliver malware, indicating attacker control.",
-      "first_seen": "2026-10-08T21:56:58+00:00",
-      "last_seen": "2026-10-08T21:56:58+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Bleepingcomputer",
-          "url": "https://www.bleepingcomputer.com/news/security/fbi-disrupts-chinese-hacking-tools-used-to-breach-critical-infrastructure/",
-          "pub_date": "2026-10-08T21:56:58+00:00"
-        }
-      ],
-      "tags": [],
-      "categories": [
-        "malware"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "imagefiles-backup.oss-ap-southeast-7.aliyuncs.com",
-      "confidence": "high",
-      "reason": "Domain used to host and deliver malicious payloads",
-      "first_seen": "2026-10-08T20:23:28+00:00",
-      "last_seen": "2026-10-08T20:23:28+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Huntress",
-          "url": "https://www.huntress.com/blog/ahsaycbs-flaws-exploit",
-          "pub_date": "2026-10-08T20:23:28+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "cve",
-          "value": "CVE-2026-105133"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-105134"
-        },
-        {
-          "type": "malware",
-          "value": "XMRig"
-        }
-      ],
-      "categories": [
-        "malware"
-      ],
-      "basis": null
-    },
-    {
-      "type": "ipv4",
-      "value": "104.234.26.10",
-      "confidence": "high",
-      "reason": "Listed in the IOC section as attacker infrastructure",
-      "first_seen": "2026-10-08T20:23:28+00:00",
-      "last_seen": "2026-10-08T20:23:28+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Huntress",
-          "url": "https://www.huntress.com/blog/ahsaycbs-flaws-exploit",
-          "pub_date": "2026-10-08T20:23:28+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "cve",
-          "value": "CVE-2026-105133"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-105134"
-        },
-        {
-          "type": "malware",
-          "value": "XMRig"
-        }
-      ],
-      "categories": [
-        "malware"
-      ],
-      "basis": null
-    },
-    {
-      "type": "ipv4",
-      "value": "123.202.208.37",
-      "confidence": "high",
-      "reason": "Listed in the IOC section as attacker infrastructure",
-      "first_seen": "2026-10-08T20:23:28+00:00",
-      "last_seen": "2026-10-08T20:23:28+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Huntress",
-          "url": "https://www.huntress.com/blog/ahsaycbs-flaws-exploit",
-          "pub_date": "2026-10-08T20:23:28+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "cve",
-          "value": "CVE-2026-105133"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-105134"
-        },
-        {
-          "type": "malware",
-          "value": "XMRig"
-        }
-      ],
-      "categories": [
-        "malware"
-      ],
-      "basis": null
-    },
-    {
-      "type": "ipv4",
-      "value": "177.4.12.11",
-      "confidence": "high",
-      "reason": "Listed in the IOC section as attacker infrastructure",
-      "first_seen": "2026-10-08T20:23:28+00:00",
-      "last_seen": "2026-10-08T20:23:28+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Huntress",
-          "url": "https://www.huntress.com/blog/ahsaycbs-flaws-exploit",
-          "pub_date": "2026-10-08T20:23:28+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "cve",
-          "value": "CVE-2026-105133"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-105134"
-        },
-        {
-          "type": "malware",
-          "value": "XMRig"
-        }
-      ],
-      "categories": [
-        "malware"
-      ],
-      "basis": null
-    },
-    {
-      "type": "ipv4",
-      "value": "185.220.236.49",
-      "confidence": "high",
-      "reason": "Listed in the IOC section as attacker infrastructure",
-      "first_seen": "2026-10-08T20:23:28+00:00",
-      "last_seen": "2026-10-08T20:23:28+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Huntress",
-          "url": "https://www.huntress.com/blog/ahsaycbs-flaws-exploit",
-          "pub_date": "2026-10-08T20:23:28+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "cve",
-          "value": "CVE-2026-105133"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-105134"
-        },
-        {
-          "type": "malware",
-          "value": "XMRig"
-        }
-      ],
-      "categories": [
-        "malware"
-      ],
-      "basis": null
-    },
-    {
-      "type": "ipv4",
-      "value": "38.60.252.110",
-      "confidence": "high",
-      "reason": "Listed in the IOC section as attacker infrastructure",
-      "first_seen": "2026-10-08T20:23:28+00:00",
-      "last_seen": "2026-10-08T20:23:28+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Huntress",
-          "url": "https://www.huntress.com/blog/ahsaycbs-flaws-exploit",
-          "pub_date": "2026-10-08T20:23:28+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "cve",
-          "value": "CVE-2026-105133"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-105134"
-        },
-        {
-          "type": "malware",
-          "value": "XMRig"
-        }
-      ],
-      "categories": [
-        "malware"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "504e1bed.host.njalla.net",
-      "confidence": "high",
-      "reason": "Domain resolves to an IP associated with attacker infrastructure",
-      "first_seen": "2026-10-08T19:12:38.094042+00:00",
-      "last_seen": "2026-10-08T19:12:38.094042+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "hunt.io",
-          "url": "https://hunt.io/blog/brazetsu-access-broker-infrastructure",
-          "pub_date": "2026-10-08T19:12:38.094042+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "industry",
-          "value": "Energy"
-        },
-        {
-          "type": "industry",
-          "value": "Government"
-        },
-        {
-          "type": "malware",
-          "value": "AgenteV2"
-        },
-        {
-          "type": "malware",
-          "value": "BraZetsu"
-        }
-      ],
-      "categories": [
-        "c2"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "504e1bfc.host.njalla.net",
-      "confidence": "high",
-      "reason": "Domain resolves to an IP associated with attacker infrastructure",
-      "first_seen": "2026-10-08T19:12:38.094042+00:00",
-      "last_seen": "2026-10-08T19:12:38.094042+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "hunt.io",
-          "url": "https://hunt.io/blog/brazetsu-access-broker-infrastructure",
-          "pub_date": "2026-10-08T19:12:38.094042+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "industry",
-          "value": "Energy"
-        },
-        {
-          "type": "industry",
-          "value": "Government"
-        },
-        {
-          "type": "malware",
-          "value": "AgenteV2"
-        },
-        {
-          "type": "malware",
-          "value": "BraZetsu"
-        }
-      ],
-      "categories": [
-        "c2"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "infectonline.store",
-      "confidence": "high",
-      "reason": "Listed as part of the attack infrastructure",
-      "first_seen": "2026-10-08T19:12:38.094042+00:00",
-      "last_seen": "2026-10-08T19:12:38.094042+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "hunt.io",
-          "url": "https://hunt.io/blog/brazetsu-access-broker-infrastructure",
-          "pub_date": "2026-10-08T19:12:38.094042+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "industry",
-          "value": "Energy"
-        },
-        {
-          "type": "industry",
-          "value": "Government"
-        },
-        {
-          "type": "malware",
-          "value": "AgenteV2"
-        },
-        {
-          "type": "malware",
-          "value": "BraZetsu"
-        }
-      ],
-      "categories": [
-        "c2"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "installscenter.com",
-      "confidence": "high",
-      "reason": "Domain used in the attack infrastructure",
-      "first_seen": "2026-10-08T17:47:35+00:00",
-      "last_seen": "2026-10-08T19:12:38.094042+00:00",
-      "source_count": 2,
-      "sources": [
-        {
-          "source": "hunt.io",
-          "url": "https://hunt.io/blog/brazetsu-access-broker-infrastructure",
-          "pub_date": "2026-10-08T19:12:38.094042+00:00"
-        },
-        {
-          "source": "Securityaffairs.Co",
-          "url": "https://securityaffairs.com/200634/cyber-crime/hunt-io-finds-new-brazetsu-infrastructure-months-before-disclosure.html",
-          "pub_date": "2026-10-08T17:47:35+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "malware",
-          "value": "BraZetsu"
-        },
-        {
-          "type": "industry",
-          "value": "Energy"
-        },
-        {
-          "type": "industry",
-          "value": "Government"
-        },
-        {
-          "type": "malware",
-          "value": "AgenteV2"
-        }
-      ],
-      "categories": [
-        "c2"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "painel.installscenter.com",
-      "confidence": "high",
-      "reason": "Domain used in the attack infrastructure",
-      "first_seen": "2026-10-08T17:47:35+00:00",
-      "last_seen": "2026-10-08T19:12:38.094042+00:00",
-      "source_count": 2,
-      "sources": [
-        {
-          "source": "hunt.io",
-          "url": "https://hunt.io/blog/brazetsu-access-broker-infrastructure",
-          "pub_date": "2026-10-08T19:12:38.094042+00:00"
-        },
-        {
-          "source": "Securityaffairs.Co",
-          "url": "https://securityaffairs.com/200634/cyber-crime/hunt-io-finds-new-brazetsu-infrastructure-months-before-disclosure.html",
-          "pub_date": "2026-10-08T17:47:35+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "malware",
-          "value": "BraZetsu"
-        },
-        {
-          "type": "industry",
-          "value": "Energy"
-        },
-        {
-          "type": "industry",
-          "value": "Government"
-        },
-        {
-          "type": "malware",
-          "value": "AgenteV2"
-        }
-      ],
-      "categories": [
-        "c2"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "painel.seu-dominio.com",
-      "confidence": "high",
-      "reason": "Domain used in the attack infrastructure",
-      "first_seen": "2026-10-08T17:47:35+00:00",
-      "last_seen": "2026-10-08T19:12:38.094042+00:00",
-      "source_count": 2,
-      "sources": [
-        {
-          "source": "hunt.io",
-          "url": "https://hunt.io/blog/brazetsu-access-broker-infrastructure",
-          "pub_date": "2026-10-08T19:12:38.094042+00:00"
-        },
-        {
-          "source": "Securityaffairs.Co",
-          "url": "https://securityaffairs.com/200634/cyber-crime/hunt-io-finds-new-brazetsu-infrastructure-months-before-disclosure.html",
-          "pub_date": "2026-10-08T17:47:35+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "malware",
-          "value": "BraZetsu"
-        },
-        {
-          "type": "industry",
-          "value": "Energy"
-        },
-        {
-          "type": "industry",
-          "value": "Government"
-        },
-        {
-          "type": "malware",
-          "value": "AgenteV2"
-        }
-      ],
-      "categories": [
-        "c2"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "seu-dominio.com",
-      "confidence": "high",
-      "reason": "Domain used in the attack infrastructure",
-      "first_seen": "2026-10-08T19:12:38.094042+00:00",
-      "last_seen": "2026-10-08T19:12:38.094042+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "hunt.io",
-          "url": "https://hunt.io/blog/brazetsu-access-broker-infrastructure",
-          "pub_date": "2026-10-08T19:12:38.094042+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "industry",
-          "value": "Energy"
-        },
-        {
-          "type": "industry",
-          "value": "Government"
-        },
-        {
-          "type": "malware",
-          "value": "AgenteV2"
-        },
-        {
-          "type": "malware",
-          "value": "BraZetsu"
-        }
-      ],
-      "categories": [
-        "c2"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "vmi3003111.contaboserver.net",
-      "confidence": "high",
-      "reason": "Domain used in the attack infrastructure",
-      "first_seen": "2026-10-08T19:12:38.094042+00:00",
-      "last_seen": "2026-10-08T19:12:38.094042+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "hunt.io",
-          "url": "https://hunt.io/blog/brazetsu-access-broker-infrastructure",
-          "pub_date": "2026-10-08T19:12:38.094042+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "industry",
-          "value": "Energy"
-        },
-        {
-          "type": "industry",
-          "value": "Government"
-        },
-        {
-          "type": "malware",
-          "value": "AgenteV2"
-        },
-        {
-          "type": "malware",
-          "value": "BraZetsu"
-        }
-      ],
-      "categories": [
-        "c2"
-      ],
-      "basis": null
-    },
-    {
-      "type": "ipv4",
-      "value": "80.78.27.237",
-      "confidence": "high",
-      "reason": "IP associated with attacker infrastructure",
-      "first_seen": "2026-10-08T19:12:38.094042+00:00",
-      "last_seen": "2026-10-08T19:12:38.094042+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "hunt.io",
-          "url": "https://hunt.io/blog/brazetsu-access-broker-infrastructure",
-          "pub_date": "2026-10-08T19:12:38.094042+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "industry",
-          "value": "Energy"
-        },
-        {
-          "type": "industry",
-          "value": "Government"
-        },
-        {
-          "type": "malware",
-          "value": "AgenteV2"
-        },
-        {
-          "type": "malware",
-          "value": "BraZetsu"
-        }
-      ],
-      "categories": [
-        "c2",
-        "abused_service"
-      ],
-      "basis": null
-    },
-    {
-      "type": "ipv4",
-      "value": "80.78.27.252",
-      "confidence": "high",
-      "reason": "IP associated with attacker infrastructure",
-      "first_seen": "2026-10-08T17:47:35+00:00",
-      "last_seen": "2026-10-08T19:12:38.094042+00:00",
-      "source_count": 2,
-      "sources": [
-        {
-          "source": "hunt.io",
-          "url": "https://hunt.io/blog/brazetsu-access-broker-infrastructure",
-          "pub_date": "2026-10-08T19:12:38.094042+00:00"
-        },
-        {
-          "source": "Securityaffairs.Co",
-          "url": "https://securityaffairs.com/200634/cyber-crime/hunt-io-finds-new-brazetsu-infrastructure-months-before-disclosure.html",
-          "pub_date": "2026-10-08T17:47:35+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "malware",
-          "value": "BraZetsu"
-        },
-        {
-          "type": "industry",
-          "value": "Energy"
-        },
-        {
-          "type": "industry",
-          "value": "Government"
-        },
-        {
-          "type": "malware",
-          "value": "AgenteV2"
-        }
-      ],
-      "categories": [
-        "c2",
-        "abused_service"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "1421.client.96html.com",
-      "confidence": "high",
-      "reason": "Listed in a structured IOC list as attacker-controlled infrastructure",
-      "first_seen": "2026-10-08T18:06:48+00:00",
-      "last_seen": "2026-10-08T18:06:48+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Cisa",
-          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
-          "pub_date": "2026-10-08T18:06:48+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Ethereal Panda"
-        },
-        {
-          "type": "apt_group",
-          "value": "Flax Typhoon"
-        },
-        {
-          "type": "apt_group",
-          "value": "Red Juliett"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2014-6278"
-        }
-      ],
-      "categories": [
-        "other"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "1421.cloud.96html.com",
-      "confidence": "high",
-      "reason": "Listed in a structured IOC list as attacker-controlled infrastructure",
-      "first_seen": "2026-10-08T18:06:48+00:00",
-      "last_seen": "2026-10-08T18:06:48+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Cisa",
-          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
-          "pub_date": "2026-10-08T18:06:48+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Ethereal Panda"
-        },
-        {
-          "type": "apt_group",
-          "value": "Flax Typhoon"
-        },
-        {
-          "type": "apt_group",
-          "value": "Red Juliett"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2014-6278"
-        }
-      ],
-      "categories": [
-        "other"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "1421.support.96html.com",
-      "confidence": "high",
-      "reason": "Listed in a structured IOC list as attacker-controlled infrastructure",
-      "first_seen": "2026-10-08T18:06:48+00:00",
-      "last_seen": "2026-10-08T18:06:48+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Cisa",
-          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
-          "pub_date": "2026-10-08T18:06:48+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Ethereal Panda"
-        },
-        {
-          "type": "apt_group",
-          "value": "Flax Typhoon"
-        },
-        {
-          "type": "apt_group",
-          "value": "Red Juliett"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2014-6278"
-        }
-      ],
-      "categories": [
-        "other"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "154-119-131-252-103-58-216-162-36.m.secshow.net",
-      "confidence": "high",
-      "reason": "Listed in a structured IOC list as attacker-controlled infrastructure",
-      "first_seen": "2026-10-08T18:06:48+00:00",
-      "last_seen": "2026-10-08T18:06:48+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Cisa",
-          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
-          "pub_date": "2026-10-08T18:06:48+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Ethereal Panda"
-        },
-        {
-          "type": "apt_group",
-          "value": "Flax Typhoon"
-        },
-        {
-          "type": "apt_group",
-          "value": "Red Juliett"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2014-6278"
-        }
-      ],
-      "categories": [
-        "c2",
-        "dynamic_dns"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "2-12-44-140-78-81-211-109-241.h.secshow.net",
-      "confidence": "high",
-      "reason": "Listed in a structured IOC list as attacker-controlled infrastructure",
-      "first_seen": "2026-10-08T18:06:48+00:00",
-      "last_seen": "2026-10-08T18:06:48+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Cisa",
-          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
-          "pub_date": "2026-10-08T18:06:48+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Ethereal Panda"
-        },
-        {
-          "type": "apt_group",
-          "value": "Flax Typhoon"
-        },
-        {
-          "type": "apt_group",
-          "value": "Red Juliett"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2014-6278"
-        }
-      ],
-      "categories": [
-        "c2",
-        "dynamic_dns"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "22852.careers.96html.com",
-      "confidence": "high",
-      "reason": "Listed in a structured IOC list as attacker-controlled infrastructure",
-      "first_seen": "2026-10-08T18:06:48+00:00",
-      "last_seen": "2026-10-08T18:06:48+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Cisa",
-          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
-          "pub_date": "2026-10-08T18:06:48+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Ethereal Panda"
-        },
-        {
-          "type": "apt_group",
-          "value": "Flax Typhoon"
-        },
-        {
-          "type": "apt_group",
-          "value": "Red Juliett"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2014-6278"
-        }
-      ],
-      "categories": [
-        "c2",
-        "dynamic_dns"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "22852.careers.trendmicro.96html.com",
-      "confidence": "high",
-      "reason": "Listed in a structured IOC list as attacker-controlled infrastructure",
-      "first_seen": "2026-10-08T18:06:48+00:00",
-      "last_seen": "2026-10-08T18:06:48+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Cisa",
-          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
-          "pub_date": "2026-10-08T18:06:48+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Ethereal Panda"
-        },
-        {
-          "type": "apt_group",
-          "value": "Flax Typhoon"
-        },
-        {
-          "type": "apt_group",
-          "value": "Red Juliett"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2014-6278"
-        }
-      ],
-      "categories": [
-        "c2",
-        "dynamic_dns"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "22852.trendmicro.96html.com",
-      "confidence": "high",
-      "reason": "Listed in a structured IOC list as attacker-controlled infrastructure",
-      "first_seen": "2026-10-08T18:06:48+00:00",
-      "last_seen": "2026-10-08T18:06:48+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Cisa",
-          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
-          "pub_date": "2026-10-08T18:06:48+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Ethereal Panda"
-        },
-        {
-          "type": "apt_group",
-          "value": "Flax Typhoon"
-        },
-        {
-          "type": "apt_group",
-          "value": "Red Juliett"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2014-6278"
-        }
-      ],
-      "categories": [
-        "c2",
-        "dynamic_dns"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "23175.careers.96html.com",
-      "confidence": "high",
-      "reason": "Listed in a structured IOC list as attacker-controlled infrastructure",
-      "first_seen": "2026-10-08T18:06:48+00:00",
-      "last_seen": "2026-10-08T18:06:48+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Cisa",
-          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
-          "pub_date": "2026-10-08T18:06:48+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Ethereal Panda"
-        },
-        {
-          "type": "apt_group",
-          "value": "Flax Typhoon"
-        },
-        {
-          "type": "apt_group",
-          "value": "Red Juliett"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2014-6278"
-        }
-      ],
-      "categories": [
-        "c2",
-        "dynamic_dns"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "23175.careers.trendmicro.96html.com",
-      "confidence": "high",
-      "reason": "Listed in a structured IOC list as attacker-controlled infrastructure",
-      "first_seen": "2026-10-08T18:06:48+00:00",
-      "last_seen": "2026-10-08T18:06:48+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Cisa",
-          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
-          "pub_date": "2026-10-08T18:06:48+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Ethereal Panda"
-        },
-        {
-          "type": "apt_group",
-          "value": "Flax Typhoon"
-        },
-        {
-          "type": "apt_group",
-          "value": "Red Juliett"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2014-6278"
-        }
-      ],
-      "categories": [
-        "c2"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "2637596418.softether.net",
-      "confidence": "high",
-      "reason": "Listed in a structured IOC list as attacker-controlled infrastructure",
-      "first_seen": "2026-10-08T18:06:48+00:00",
-      "last_seen": "2026-10-08T18:06:48+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Cisa",
-          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
-          "pub_date": "2026-10-08T18:06:48+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Ethereal Panda"
-        },
-        {
-          "type": "apt_group",
-          "value": "Flax Typhoon"
-        },
-        {
-          "type": "apt_group",
-          "value": "Red Juliett"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2014-6278"
-        }
-      ],
-      "categories": [
-        "proxy_tunnel"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "28394.careers.96html.com",
-      "confidence": "high",
-      "reason": "Listed in a structured IOC list as attacker-controlled infrastructure",
-      "first_seen": "2026-10-08T18:06:48+00:00",
-      "last_seen": "2026-10-08T18:06:48+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Cisa",
-          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
-          "pub_date": "2026-10-08T18:06:48+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Ethereal Panda"
-        },
-        {
-          "type": "apt_group",
-          "value": "Flax Typhoon"
-        },
-        {
-          "type": "apt_group",
-          "value": "Red Juliett"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2014-6278"
-        }
-      ],
-      "categories": [
-        "c2"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "28394.careers.trendmicro.96html.com",
-      "confidence": "high",
-      "reason": "Listed in a structured IOC list as attacker-controlled infrastructure",
-      "first_seen": "2026-10-08T18:06:48+00:00",
-      "last_seen": "2026-10-08T18:06:48+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Cisa",
-          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
-          "pub_date": "2026-10-08T18:06:48+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Ethereal Panda"
-        },
-        {
-          "type": "apt_group",
-          "value": "Flax Typhoon"
-        },
-        {
-          "type": "apt_group",
-          "value": "Red Juliett"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2014-6278"
-        }
-      ],
-      "categories": [
-        "other"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "28394.trendmicro.96html.com",
-      "confidence": "high",
-      "reason": "Listed in a structured IOC list as attacker-controlled infrastructure",
-      "first_seen": "2026-10-08T18:06:48+00:00",
-      "last_seen": "2026-10-08T18:06:48+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Cisa",
-          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
-          "pub_date": "2026-10-08T18:06:48+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Ethereal Panda"
-        },
-        {
-          "type": "apt_group",
-          "value": "Flax Typhoon"
-        },
-        {
-          "type": "apt_group",
-          "value": "Red Juliett"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2014-6278"
-        }
-      ],
-      "categories": [
-        "other"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "28733.careers.trendmicro.96html.com",
-      "confidence": "high",
-      "reason": "Listed in a structured IOC list as attacker-controlled infrastructure",
-      "first_seen": "2026-10-08T18:06:48+00:00",
-      "last_seen": "2026-10-08T18:06:48+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Cisa",
-          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
-          "pub_date": "2026-10-08T18:06:48+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Ethereal Panda"
-        },
-        {
-          "type": "apt_group",
-          "value": "Flax Typhoon"
-        },
-        {
-          "type": "apt_group",
-          "value": "Red Juliett"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2014-6278"
-        }
-      ],
-      "categories": [
-        "other"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "28733.trendmicro.96html.com",
-      "confidence": "high",
-      "reason": "Listed in a structured IOC list as attacker-controlled infrastructure",
-      "first_seen": "2026-10-08T18:06:48+00:00",
-      "last_seen": "2026-10-08T18:06:48+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Cisa",
-          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
-          "pub_date": "2026-10-08T18:06:48+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Ethereal Panda"
-        },
-        {
-          "type": "apt_group",
-          "value": "Flax Typhoon"
-        },
-        {
-          "type": "apt_group",
-          "value": "Red Juliett"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2014-6278"
-        }
-      ],
-      "categories": [
-        "c2"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "35584.careers.96html.com",
-      "confidence": "high",
-      "reason": "Listed in a structured IOC list as attacker-controlled infrastructure",
-      "first_seen": "2026-10-08T18:06:48+00:00",
-      "last_seen": "2026-10-08T18:06:48+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Cisa",
-          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
-          "pub_date": "2026-10-08T18:06:48+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Ethereal Panda"
-        },
-        {
-          "type": "apt_group",
-          "value": "Flax Typhoon"
-        },
-        {
-          "type": "apt_group",
-          "value": "Red Juliett"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2014-6278"
-        }
-      ],
-      "categories": [
-        "c2"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "35584.careers.trendmicro.96html.com",
-      "confidence": "high",
-      "reason": "Listed in a structured IOC list as attacker-controlled infrastructure",
-      "first_seen": "2026-10-08T18:06:48+00:00",
-      "last_seen": "2026-10-08T18:06:48+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Cisa",
-          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
-          "pub_date": "2026-10-08T18:06:48+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Ethereal Panda"
-        },
-        {
-          "type": "apt_group",
-          "value": "Flax Typhoon"
-        },
-        {
-          "type": "apt_group",
-          "value": "Red Juliett"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2014-6278"
-        }
-      ],
-      "categories": [
-        "c2"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "35584.trendmicro.96html.com",
-      "confidence": "high",
-      "reason": "Listed in a structured IOC list as attacker-controlled infrastructure",
-      "first_seen": "2026-10-08T18:06:48+00:00",
-      "last_seen": "2026-10-08T18:06:48+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Cisa",
-          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
-          "pub_date": "2026-10-08T18:06:48+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Ethereal Panda"
-        },
-        {
-          "type": "apt_group",
-          "value": "Flax Typhoon"
-        },
-        {
-          "type": "apt_group",
-          "value": "Red Juliett"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2014-6278"
-        }
-      ],
-      "categories": [
-        "c2"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "44673.careers.96html.com",
-      "confidence": "high",
-      "reason": "Listed in a structured IOC list as attacker-controlled infrastructure",
-      "first_seen": "2026-10-08T18:06:48+00:00",
-      "last_seen": "2026-10-08T18:06:48+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Cisa",
-          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
-          "pub_date": "2026-10-08T18:06:48+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Ethereal Panda"
-        },
-        {
-          "type": "apt_group",
-          "value": "Flax Typhoon"
-        },
-        {
-          "type": "apt_group",
-          "value": "Red Juliett"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2014-6278"
-        }
-      ],
-      "categories": [
-        "c2"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "44673.trendmicro.96html.com",
-      "confidence": "high",
-      "reason": "Listed in a structured IOC list as attacker-controlled infrastructure",
-      "first_seen": "2026-10-08T18:06:48+00:00",
-      "last_seen": "2026-10-08T18:06:48+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Cisa",
-          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
-          "pub_date": "2026-10-08T18:06:48+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Ethereal Panda"
-        },
-        {
-          "type": "apt_group",
-          "value": "Flax Typhoon"
-        },
-        {
-          "type": "apt_group",
-          "value": "Red Juliett"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2014-6278"
-        }
-      ],
-      "categories": [
-        "c2"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "47298.client.96html.com",
-      "confidence": "high",
-      "reason": "Listed in a structured IOC list as attacker-controlled infrastructure",
-      "first_seen": "2026-10-08T18:06:48+00:00",
-      "last_seen": "2026-10-08T18:06:48+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Cisa",
-          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
-          "pub_date": "2026-10-08T18:06:48+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Ethereal Panda"
-        },
-        {
-          "type": "apt_group",
-          "value": "Flax Typhoon"
-        },
-        {
-          "type": "apt_group",
-          "value": "Red Juliett"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2014-6278"
-        }
-      ],
-      "categories": [
-        "c2"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "47298.cloud.96html.com",
-      "confidence": "high",
-      "reason": "Listed in a structured IOC list as attacker-controlled infrastructure",
-      "first_seen": "2026-10-08T18:06:48+00:00",
-      "last_seen": "2026-10-08T18:06:48+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Cisa",
-          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
-          "pub_date": "2026-10-08T18:06:48+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Ethereal Panda"
-        },
-        {
-          "type": "apt_group",
-          "value": "Flax Typhoon"
-        },
-        {
-          "type": "apt_group",
-          "value": "Red Juliett"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2014-6278"
-        }
-      ],
-      "categories": [
-        "c2"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "47298.support.96html.com",
-      "confidence": "high",
-      "reason": "Listed in a structured IOC list as attacker-controlled infrastructure",
-      "first_seen": "2026-10-08T18:06:48+00:00",
-      "last_seen": "2026-10-08T18:06:48+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Cisa",
-          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
-          "pub_date": "2026-10-08T18:06:48+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Ethereal Panda"
-        },
-        {
-          "type": "apt_group",
-          "value": "Flax Typhoon"
-        },
-        {
-          "type": "apt_group",
-          "value": "Red Juliett"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2014-6278"
-        }
-      ],
-      "categories": [
-        "c2"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "50669.careers.trendmicro.96html.com",
-      "confidence": "high",
-      "reason": "Listed in a structured IOC list as attacker-controlled infrastructure",
-      "first_seen": "2026-10-08T18:06:48+00:00",
-      "last_seen": "2026-10-08T18:06:48+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Cisa",
-          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
-          "pub_date": "2026-10-08T18:06:48+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Ethereal Panda"
-        },
-        {
-          "type": "apt_group",
-          "value": "Flax Typhoon"
-        },
-        {
-          "type": "apt_group",
-          "value": "Red Juliett"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2014-6278"
-        }
-      ],
-      "categories": [
-        "c2"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "51640.careers.trendmicro.96html.com",
-      "confidence": "high",
-      "reason": "Listed in a structured IOC list as attacker-controlled infrastructure",
-      "first_seen": "2026-10-08T18:06:48+00:00",
-      "last_seen": "2026-10-08T18:06:48+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Cisa",
-          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
-          "pub_date": "2026-10-08T18:06:48+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Ethereal Panda"
-        },
-        {
-          "type": "apt_group",
-          "value": "Flax Typhoon"
-        },
-        {
-          "type": "apt_group",
-          "value": "Red Juliett"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2014-6278"
-        }
-      ],
-      "categories": [
-        "other"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "54-2-32-236-208-2-40-107-38.h.secshow.net",
-      "confidence": "high",
-      "reason": "Listed in a structured IOC list as attacker-controlled infrastructure",
-      "first_seen": "2026-10-08T18:06:48+00:00",
-      "last_seen": "2026-10-08T18:06:48+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Cisa",
-          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
-          "pub_date": "2026-10-08T18:06:48+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Ethereal Panda"
-        },
-        {
-          "type": "apt_group",
-          "value": "Flax Typhoon"
-        },
-        {
-          "type": "apt_group",
-          "value": "Red Juliett"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2014-6278"
-        }
-      ],
-      "categories": [
-        "other"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "66-37-178-96-110-2-40-107-38.h.secshow.net",
-      "confidence": "high",
-      "reason": "Listed in a structured IOC list as attacker-controlled infrastructure",
-      "first_seen": "2026-10-08T18:06:48+00:00",
-      "last_seen": "2026-10-08T18:06:48+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Cisa",
-          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
-          "pub_date": "2026-10-08T18:06:48+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Ethereal Panda"
-        },
-        {
-          "type": "apt_group",
-          "value": "Flax Typhoon"
-        },
-        {
-          "type": "apt_group",
-          "value": "Red Juliett"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2014-6278"
-        }
-      ],
-      "categories": [
-        "proxy_tunnel"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "74788.careers.96html.com",
-      "confidence": "high",
-      "reason": "Listed in a structured IOC list as attacker-controlled infrastructure",
-      "first_seen": "2026-10-08T18:06:48+00:00",
-      "last_seen": "2026-10-08T18:06:48+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Cisa",
-          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
-          "pub_date": "2026-10-08T18:06:48+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Ethereal Panda"
-        },
-        {
-          "type": "apt_group",
-          "value": "Flax Typhoon"
-        },
-        {
-          "type": "apt_group",
-          "value": "Red Juliett"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2014-6278"
-        }
-      ],
-      "categories": [
-        "c2"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "74788.trendmicro.96html.com",
-      "confidence": "high",
-      "reason": "Listed in a structured IOC list as attacker-controlled infrastructure",
-      "first_seen": "2026-10-08T18:06:48+00:00",
-      "last_seen": "2026-10-08T18:06:48+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Cisa",
-          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
-          "pub_date": "2026-10-08T18:06:48+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Ethereal Panda"
-        },
-        {
-          "type": "apt_group",
-          "value": "Flax Typhoon"
-        },
-        {
-          "type": "apt_group",
-          "value": "Red Juliett"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2014-6278"
-        }
-      ],
-      "categories": [
-        "c2"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "77692.careers.96html.com",
-      "confidence": "high",
-      "reason": "Listed in a structured IOC list as attacker-controlled infrastructure",
-      "first_seen": "2026-10-08T18:06:48+00:00",
-      "last_seen": "2026-10-08T18:06:48+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Cisa",
-          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
-          "pub_date": "2026-10-08T18:06:48+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Ethereal Panda"
-        },
-        {
-          "type": "apt_group",
-          "value": "Flax Typhoon"
-        },
-        {
-          "type": "apt_group",
-          "value": "Red Juliett"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2014-6278"
-        }
-      ],
-      "categories": [
-        "c2"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "77692.careers.trendmicro.96html.com",
-      "confidence": "high",
-      "reason": "Listed in a structured IOC list as attacker-controlled infrastructure",
-      "first_seen": "2026-10-08T18:06:48+00:00",
-      "last_seen": "2026-10-08T18:06:48+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Cisa",
-          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
-          "pub_date": "2026-10-08T18:06:48+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Ethereal Panda"
-        },
-        {
-          "type": "apt_group",
-          "value": "Flax Typhoon"
-        },
-        {
-          "type": "apt_group",
-          "value": "Red Juliett"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2014-6278"
-        }
-      ],
-      "categories": [
-        "c2"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "77692.trendmicro.96html.com",
-      "confidence": "high",
-      "reason": "Listed in a structured IOC list as attacker-controlled infrastructure",
-      "first_seen": "2026-10-08T18:06:48+00:00",
-      "last_seen": "2026-10-08T18:06:48+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Cisa",
-          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
-          "pub_date": "2026-10-08T18:06:48+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Ethereal Panda"
-        },
-        {
-          "type": "apt_group",
-          "value": "Flax Typhoon"
-        },
-        {
-          "type": "apt_group",
-          "value": "Red Juliett"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2014-6278"
-        }
-      ],
-      "categories": [
-        "c2"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "82262.careers.96html.com",
-      "confidence": "high",
-      "reason": "Listed in a structured IOC list as attacker-controlled infrastructure",
-      "first_seen": "2026-10-08T18:06:48+00:00",
-      "last_seen": "2026-10-08T18:06:48+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Cisa",
-          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
-          "pub_date": "2026-10-08T18:06:48+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Ethereal Panda"
-        },
-        {
-          "type": "apt_group",
-          "value": "Flax Typhoon"
-        },
-        {
-          "type": "apt_group",
-          "value": "Red Juliett"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2014-6278"
-        }
-      ],
-      "categories": [
-        "c2"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "82262.careers.trendmicro.96html.com",
-      "confidence": "high",
-      "reason": "Listed in a structured IOC list as attacker-controlled infrastructure",
-      "first_seen": "2026-10-08T18:06:48+00:00",
-      "last_seen": "2026-10-08T18:06:48+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Cisa",
-          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
-          "pub_date": "2026-10-08T18:06:48+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Ethereal Panda"
-        },
-        {
-          "type": "apt_group",
-          "value": "Flax Typhoon"
-        },
-        {
-          "type": "apt_group",
-          "value": "Red Juliett"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2014-6278"
-        }
-      ],
-      "categories": [
-        "c2"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "85005.careers.96html.com",
-      "confidence": "high",
-      "reason": "Listed in a structured IOC list as attacker-controlled infrastructure",
-      "first_seen": "2026-10-08T18:06:48+00:00",
-      "last_seen": "2026-10-08T18:06:48+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Cisa",
-          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
-          "pub_date": "2026-10-08T18:06:48+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Ethereal Panda"
-        },
-        {
-          "type": "apt_group",
-          "value": "Flax Typhoon"
-        },
-        {
-          "type": "apt_group",
-          "value": "Red Juliett"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2014-6278"
-        }
-      ],
-      "categories": [
-        "c2"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "85005.careers.trendmicro.96html.com",
-      "confidence": "high",
-      "reason": "Listed in a structured IOC list as attacker-controlled infrastructure",
-      "first_seen": "2026-10-08T18:06:48+00:00",
-      "last_seen": "2026-10-08T18:06:48+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Cisa",
-          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
-          "pub_date": "2026-10-08T18:06:48+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Ethereal Panda"
-        },
-        {
-          "type": "apt_group",
-          "value": "Flax Typhoon"
-        },
-        {
-          "type": "apt_group",
-          "value": "Red Juliett"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2014-6278"
-        }
-      ],
-      "categories": [
-        "c2"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "85005.trendmicro.96html.com",
-      "confidence": "high",
-      "reason": "Listed in a structured IOC list as attacker-controlled infrastructure",
-      "first_seen": "2026-10-08T18:06:48+00:00",
-      "last_seen": "2026-10-08T18:06:48+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Cisa",
-          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
-          "pub_date": "2026-10-08T18:06:48+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Ethereal Panda"
-        },
-        {
-          "type": "apt_group",
-          "value": "Flax Typhoon"
-        },
-        {
-          "type": "apt_group",
-          "value": "Red Juliett"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2014-6278"
-        }
-      ],
-      "categories": [
-        "c2"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "90174.careers.96html.com",
-      "confidence": "high",
-      "reason": "Listed in a structured IOC list as attacker-controlled infrastructure",
-      "first_seen": "2026-10-08T18:06:48+00:00",
-      "last_seen": "2026-10-08T18:06:48+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Cisa",
-          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
-          "pub_date": "2026-10-08T18:06:48+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Ethereal Panda"
-        },
-        {
-          "type": "apt_group",
-          "value": "Flax Typhoon"
-        },
-        {
-          "type": "apt_group",
-          "value": "Red Juliett"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2014-6278"
-        }
-      ],
-      "categories": [
-        "c2"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "90174.careers.trendmicro.96html.com",
-      "confidence": "high",
-      "reason": "Listed in a structured IOC list as attacker-controlled infrastructure",
-      "first_seen": "2026-10-08T18:06:48+00:00",
-      "last_seen": "2026-10-08T18:06:48+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Cisa",
-          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
-          "pub_date": "2026-10-08T18:06:48+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Ethereal Panda"
-        },
-        {
-          "type": "apt_group",
-          "value": "Flax Typhoon"
-        },
-        {
-          "type": "apt_group",
-          "value": "Red Juliett"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2014-6278"
-        }
-      ],
-      "categories": [
-        "c2"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "96976.careers.96html.com",
-      "confidence": "high",
-      "reason": "Listed in a structured IOC list as attacker-controlled infrastructure",
-      "first_seen": "2026-10-08T18:06:48+00:00",
-      "last_seen": "2026-10-08T18:06:48+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Cisa",
-          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
-          "pub_date": "2026-10-08T18:06:48+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Ethereal Panda"
-        },
-        {
-          "type": "apt_group",
-          "value": "Flax Typhoon"
-        },
-        {
-          "type": "apt_group",
-          "value": "Red Juliett"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2014-6278"
-        }
-      ],
-      "categories": [
-        "c2"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "96976.trendmicro.96html.com",
-      "confidence": "high",
-      "reason": "Listed in a structured IOC list as attacker-controlled infrastructure",
-      "first_seen": "2026-10-08T18:06:48+00:00",
-      "last_seen": "2026-10-08T18:06:48+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Cisa",
-          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
-          "pub_date": "2026-10-08T18:06:48+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Ethereal Panda"
-        },
-        {
-          "type": "apt_group",
-          "value": "Flax Typhoon"
-        },
-        {
-          "type": "apt_group",
-          "value": "Red Juliett"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2014-6278"
-        }
-      ],
-      "categories": [
-        "other"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "careers.trendmicro.96html.com",
-      "confidence": "high",
-      "reason": "Listed in a structured IOC list as attacker-controlled infrastructure",
-      "first_seen": "2026-10-08T18:06:48+00:00",
-      "last_seen": "2026-10-08T18:06:48+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Cisa",
-          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
-          "pub_date": "2026-10-08T18:06:48+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Ethereal Panda"
-        },
-        {
-          "type": "apt_group",
-          "value": "Flax Typhoon"
-        },
-        {
-          "type": "apt_group",
-          "value": "Red Juliett"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2014-6278"
-        }
-      ],
-      "categories": [
-        "c2"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "dc-29465b27aa45.96html.com",
-      "confidence": "high",
-      "reason": "Listed in a structured IOC list as attacker-controlled infrastructure",
-      "first_seen": "2026-10-08T18:06:48+00:00",
-      "last_seen": "2026-10-08T18:06:48+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Cisa",
-          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
-          "pub_date": "2026-10-08T18:06:48+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Ethereal Panda"
-        },
-        {
-          "type": "apt_group",
-          "value": "Flax Typhoon"
-        },
-        {
-          "type": "apt_group",
-          "value": "Red Juliett"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2014-6278"
-        }
-      ],
-      "categories": [
-        "c2"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "dc-4fe9871cb224.96html.com",
-      "confidence": "high",
-      "reason": "Listed in a structured IOC list as attacker-controlled infrastructure",
-      "first_seen": "2026-10-08T18:06:48+00:00",
-      "last_seen": "2026-10-08T18:06:48+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Cisa",
-          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
-          "pub_date": "2026-10-08T18:06:48+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Ethereal Panda"
-        },
-        {
-          "type": "apt_group",
-          "value": "Flax Typhoon"
-        },
-        {
-          "type": "apt_group",
-          "value": "Red Juliett"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2014-6278"
-        }
-      ],
-      "categories": [
-        "c2"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "dc-582fc0f46da9.96html.com",
-      "confidence": "high",
-      "reason": "Listed in a structured IOC list as attacker-controlled infrastructure",
-      "first_seen": "2026-10-08T18:06:48+00:00",
-      "last_seen": "2026-10-08T18:06:48+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Cisa",
-          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
-          "pub_date": "2026-10-08T18:06:48+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Ethereal Panda"
-        },
-        {
-          "type": "apt_group",
-          "value": "Flax Typhoon"
-        },
-        {
-          "type": "apt_group",
-          "value": "Red Juliett"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2014-6278"
-        }
-      ],
-      "categories": [
-        "c2"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "dc-843d98722400.96html.com",
-      "confidence": "high",
-      "reason": "Listed in a structured IOC list as attacker-controlled infrastructure",
-      "first_seen": "2026-10-08T18:06:48+00:00",
-      "last_seen": "2026-10-08T18:06:48+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Cisa",
-          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
-          "pub_date": "2026-10-08T18:06:48+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Ethereal Panda"
-        },
-        {
-          "type": "apt_group",
-          "value": "Flax Typhoon"
-        },
-        {
-          "type": "apt_group",
-          "value": "Red Juliett"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2014-6278"
-        }
-      ],
-      "categories": [
-        "c2"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "dc-bb503834b7dc.96html.com",
-      "confidence": "high",
-      "reason": "Listed in a structured IOC list as attacker-controlled infrastructure",
-      "first_seen": "2026-10-08T18:06:48+00:00",
-      "last_seen": "2026-10-08T18:06:48+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Cisa",
-          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
-          "pub_date": "2026-10-08T18:06:48+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Ethereal Panda"
-        },
-        {
-          "type": "apt_group",
-          "value": "Flax Typhoon"
-        },
-        {
-          "type": "apt_group",
-          "value": "Red Juliett"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2014-6278"
-        }
-      ],
-      "categories": [
-        "c2"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "dc-c11a983d7f83.96html.com",
-      "confidence": "high",
-      "reason": "Listed in a structured IOC list as attacker-controlled infrastructure",
-      "first_seen": "2026-10-08T18:06:48+00:00",
-      "last_seen": "2026-10-08T18:06:48+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Cisa",
-          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
-          "pub_date": "2026-10-08T18:06:48+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Ethereal Panda"
-        },
-        {
-          "type": "apt_group",
-          "value": "Flax Typhoon"
-        },
-        {
-          "type": "apt_group",
-          "value": "Red Juliett"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2014-6278"
-        }
-      ],
-      "categories": [
-        "c2"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "dns.studiocloud.xyz",
-      "confidence": "high",
-      "reason": "Attributed to attacker infrastructure by FBI",
-      "first_seen": "2026-10-08T18:06:48+00:00",
-      "last_seen": "2026-10-08T18:06:48+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Cisa",
-          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
-          "pub_date": "2026-10-08T18:06:48+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Ethereal Panda"
-        },
-        {
-          "type": "apt_group",
-          "value": "Flax Typhoon"
-        },
-        {
-          "type": "apt_group",
-          "value": "Red Juliett"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2014-6278"
-        }
-      ],
-      "categories": [
-        "exfiltration",
-        "c2"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "gate.sinica.edu.tw.checkapi.cf",
-      "confidence": "high",
-      "reason": "Suspicious lookalike domain listed in IOC table",
-      "first_seen": "2026-10-08T18:06:48+00:00",
-      "last_seen": "2026-10-08T18:06:48+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Cisa",
-          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
-          "pub_date": "2026-10-08T18:06:48+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Ethereal Panda"
-        },
-        {
-          "type": "apt_group",
-          "value": "Flax Typhoon"
-        },
-        {
-          "type": "apt_group",
-          "value": "Red Juliett"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2014-6278"
-        }
-      ],
-      "categories": [
-        "phishing"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "halloween.checkapi.cf",
-      "confidence": "high",
-      "reason": "Suspicious lookalike domain listed in IOC table",
-      "first_seen": "2026-10-08T18:06:48+00:00",
-      "last_seen": "2026-10-08T18:06:48+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Cisa",
-          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
-          "pub_date": "2026-10-08T18:06:48+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Ethereal Panda"
-        },
-        {
-          "type": "apt_group",
-          "value": "Flax Typhoon"
-        },
-        {
-          "type": "apt_group",
-          "value": "Red Juliett"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2014-6278"
-        }
-      ],
-      "categories": [
-        "phishing"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "javacheck.ooguy.com",
-      "confidence": "high",
-      "reason": "Used by attackers for SoftEther connections",
-      "first_seen": "2026-10-08T18:06:48+00:00",
-      "last_seen": "2026-10-08T18:06:48+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Cisa",
-          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
-          "pub_date": "2026-10-08T18:06:48+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Ethereal Panda"
-        },
-        {
-          "type": "apt_group",
-          "value": "Flax Typhoon"
-        },
-        {
-          "type": "apt_group",
-          "value": "Red Juliett"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2014-6278"
-        }
-      ],
-      "categories": [
-        "proxy_tunnel",
-        "c2"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "javaupdate.giize.com",
-      "confidence": "high",
-      "reason": "Used by attackers for SoftEther connections",
-      "first_seen": "2026-10-08T18:06:48+00:00",
-      "last_seen": "2026-10-08T18:06:48+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Cisa",
-          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
-          "pub_date": "2026-10-08T18:06:48+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Ethereal Panda"
-        },
-        {
-          "type": "apt_group",
-          "value": "Flax Typhoon"
-        },
-        {
-          "type": "apt_group",
-          "value": "Red Juliett"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2014-6278"
-        }
-      ],
-      "categories": [
-        "proxy_tunnel",
-        "c2"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "natcloudservice.com",
-      "confidence": "high",
-      "reason": "Main C2 domain for bot activity",
-      "first_seen": "2026-10-08T18:06:48+00:00",
-      "last_seen": "2026-10-08T18:06:48+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Cisa",
-          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
-          "pub_date": "2026-10-08T18:06:48+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Ethereal Panda"
-        },
-        {
-          "type": "apt_group",
-          "value": "Flax Typhoon"
-        },
-        {
-          "type": "apt_group",
-          "value": "Red Juliett"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2014-6278"
-        }
-      ],
-      "categories": [
-        "botnet",
-        "c2"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "trendmicro.96html.com",
-      "confidence": "high",
-      "reason": "Listed in a structured IOC list as attacker-controlled infrastructure",
-      "first_seen": "2026-10-08T18:06:48+00:00",
-      "last_seen": "2026-10-08T18:06:48+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Cisa",
-          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
-          "pub_date": "2026-10-08T18:06:48+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Ethereal Panda"
-        },
-        {
-          "type": "apt_group",
-          "value": "Flax Typhoon"
-        },
-        {
-          "type": "apt_group",
-          "value": "Red Juliett"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2014-6278"
-        }
-      ],
-      "categories": [
-        "c2"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "upgrate.checkapi.cf",
-      "confidence": "high",
-      "reason": "Suspicious lookalike domain listed in IOC table",
-      "first_seen": "2026-10-08T18:06:48+00:00",
-      "last_seen": "2026-10-08T18:06:48+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Cisa",
-          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
-          "pub_date": "2026-10-08T18:06:48+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Ethereal Panda"
-        },
-        {
-          "type": "apt_group",
-          "value": "Flax Typhoon"
-        },
-        {
-          "type": "apt_group",
-          "value": "Red Juliett"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2014-6278"
-        }
-      ],
-      "categories": [
-        "phishing"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "upl.natcloudservice.com",
-      "confidence": "high",
-      "reason": "Used for communication with main C2 domain",
-      "first_seen": "2026-10-08T18:06:48+00:00",
-      "last_seen": "2026-10-08T18:06:48+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Cisa",
-          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
-          "pub_date": "2026-10-08T18:06:48+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Ethereal Panda"
-        },
-        {
-          "type": "apt_group",
-          "value": "Flax Typhoon"
-        },
-        {
-          "type": "apt_group",
-          "value": "Red Juliett"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2014-6278"
-        }
-      ],
-      "categories": [
-        "botnet",
-        "c2"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "vpn677190427.softether.net",
-      "confidence": "high",
-      "reason": "Listed in a table of domains attributed to threat activity and obfuscation network hosts",
-      "first_seen": "2026-10-08T18:06:48+00:00",
-      "last_seen": "2026-10-08T18:06:48+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Cisa",
-          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
-          "pub_date": "2026-10-08T18:06:48+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Ethereal Panda"
-        },
-        {
-          "type": "apt_group",
-          "value": "Flax Typhoon"
-        },
-        {
-          "type": "apt_group",
-          "value": "Red Juliett"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2014-6278"
-        }
-      ],
-      "categories": [
-        "c2"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "vpn718535264.softether.net",
-      "confidence": "high",
-      "reason": "Listed in a table of domains attributed to threat activity and obfuscation network hosts",
-      "first_seen": "2026-10-08T18:06:48+00:00",
-      "last_seen": "2026-10-08T18:06:48+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Cisa",
-          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
-          "pub_date": "2026-10-08T18:06:48+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Ethereal Panda"
-        },
-        {
-          "type": "apt_group",
-          "value": "Flax Typhoon"
-        },
-        {
-          "type": "apt_group",
-          "value": "Red Juliett"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2014-6278"
-        }
-      ],
-      "categories": [
-        "c2"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "vpn823494147.softether.net",
-      "confidence": "high",
-      "reason": "Listed in a table of domains attributed to threat activity and obfuscation network hosts",
-      "first_seen": "2026-10-08T18:06:48+00:00",
-      "last_seen": "2026-10-08T18:06:48+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Cisa",
-          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
-          "pub_date": "2026-10-08T18:06:48+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Ethereal Panda"
-        },
-        {
-          "type": "apt_group",
-          "value": "Flax Typhoon"
-        },
-        {
-          "type": "apt_group",
-          "value": "Red Juliett"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2014-6278"
-        }
-      ],
-      "categories": [
-        "proxy_tunnel"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "wanfang.accesscam.org",
-      "confidence": "high",
-      "reason": "Listed in a table of domains attributed to threat activity and obfuscation network hosts",
-      "first_seen": "2026-10-08T18:06:48+00:00",
-      "last_seen": "2026-10-08T18:06:48+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Cisa",
-          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
-          "pub_date": "2026-10-08T18:06:48+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Ethereal Panda"
-        },
-        {
-          "type": "apt_group",
-          "value": "Flax Typhoon"
-        },
-        {
-          "type": "apt_group",
-          "value": "Red Juliett"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2014-6278"
-        }
-      ],
-      "categories": [
-        "proxy_tunnel"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "webdisk.bailbonding.info",
-      "confidence": "high",
-      "reason": "Listed in a table of domains attributed to threat activity and obfuscation network hosts",
-      "first_seen": "2026-10-08T18:06:48+00:00",
-      "last_seen": "2026-10-08T18:06:48+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Cisa",
-          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
-          "pub_date": "2026-10-08T18:06:48+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Ethereal Panda"
-        },
-        {
-          "type": "apt_group",
-          "value": "Flax Typhoon"
-        },
-        {
-          "type": "apt_group",
-          "value": "Red Juliett"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2014-6278"
-        }
-      ],
-      "categories": [
-        "malware"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "webmail.studiocloud.xyz",
-      "confidence": "high",
-      "reason": "Listed in a table of domains attributed to threat activity and obfuscation network hosts",
-      "first_seen": "2026-10-08T18:06:48+00:00",
-      "last_seen": "2026-10-08T18:06:48+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Cisa",
-          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
-          "pub_date": "2026-10-08T18:06:48+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Ethereal Panda"
-        },
-        {
-          "type": "apt_group",
-          "value": "Flax Typhoon"
-        },
-        {
-          "type": "apt_group",
-          "value": "Red Juliett"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2014-6278"
-        }
-      ],
-      "categories": [
-        "malware"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "wss.studiocloud.xyz",
-      "confidence": "high",
-      "reason": "Listed in a table of domains attributed to threat activity and obfuscation network hosts",
-      "first_seen": "2026-10-08T18:06:48+00:00",
-      "last_seen": "2026-10-08T18:06:48+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Cisa",
-          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
-          "pub_date": "2026-10-08T18:06:48+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Ethereal Panda"
-        },
-        {
-          "type": "apt_group",
-          "value": "Flax Typhoon"
-        },
-        {
-          "type": "apt_group",
-          "value": "Red Juliett"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2014-6278"
-        }
-      ],
-      "categories": [
-        "malware"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "xassxxdns.alitagotest.cf",
-      "confidence": "high",
-      "reason": "Listed in a table of domains attributed to threat activity and obfuscation network hosts",
-      "first_seen": "2026-10-08T18:06:48+00:00",
-      "last_seen": "2026-10-08T18:06:48+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Cisa",
-          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
-          "pub_date": "2026-10-08T18:06:48+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Ethereal Panda"
-        },
-        {
-          "type": "apt_group",
-          "value": "Flax Typhoon"
-        },
-        {
-          "type": "apt_group",
-          "value": "Red Juliett"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2014-6278"
-        }
-      ],
-      "categories": [
-        "malware"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "ximmd.sexytube0.com",
-      "confidence": "high",
-      "reason": "Listed in a table of domains attributed to threat activity and obfuscation network hosts",
-      "first_seen": "2026-10-08T18:06:48+00:00",
-      "last_seen": "2026-10-08T18:06:48+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Cisa",
-          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
-          "pub_date": "2026-10-08T18:06:48+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Ethereal Panda"
-        },
-        {
-          "type": "apt_group",
-          "value": "Flax Typhoon"
-        },
-        {
-          "type": "apt_group",
-          "value": "Red Juliett"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2014-6278"
-        }
-      ],
-      "categories": [
-        "malware"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "zerogravity1986.softether.net",
-      "confidence": "high",
-      "reason": "Listed in a table of domains attributed to threat activity and obfuscation network hosts",
-      "first_seen": "2026-10-08T18:06:48+00:00",
-      "last_seen": "2026-10-08T18:06:48+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Cisa",
-          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
-          "pub_date": "2026-10-08T18:06:48+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Ethereal Panda"
-        },
-        {
-          "type": "apt_group",
-          "value": "Flax Typhoon"
-        },
-        {
-          "type": "apt_group",
-          "value": "Red Juliett"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2014-6278"
-        }
-      ],
-      "categories": [
-        "malware"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "myhelpcare.cc",
-      "confidence": "high",
-      "reason": "Identified as a malicious domain involved in phishing activity",
-      "first_seen": "2026-10-08T17:01:59.564036+00:00",
-      "last_seen": "2026-10-08T17:01:59.564036+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.cisa.gov",
-          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-025a",
-          "pub_date": "2026-10-08T17:01:59.564036+00:00"
-        }
-      ],
-      "tags": [],
-      "categories": [
-        "phishing"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "myhelpcare.online",
-      "confidence": "high",
-      "reason": "Identified as a malicious domain involved in phishing activity",
-      "first_seen": "2026-10-08T17:01:59.564036+00:00",
-      "last_seen": "2026-10-08T17:01:59.564036+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.cisa.gov",
-          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-025a",
-          "pub_date": "2026-10-08T17:01:59.564036+00:00"
-        }
-      ],
-      "tags": [],
-      "categories": [
-        "phishing"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "dnshook.site",
-      "confidence": "high",
-      "reason": "Configured as an authoritative nameserver for data exfiltration via DNS tunneling",
-      "first_seen": "2026-10-08T15:14:15.038119+00:00",
-      "last_seen": "2026-10-08T15:14:15.038119+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "unit42.paloaltonetworks.com",
-          "url": "https://unit42.paloaltonetworks.com/bypass-of-aws-sandbox-network-isolation-mode/",
-          "pub_date": "2026-10-08T15:14:15.038119+00:00"
-        }
-      ],
-      "tags": [],
-      "categories": [
-        "exfiltration"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "my-secret.dnshook.site",
-      "confidence": "high",
-      "reason": "Subdomain used for data exfiltration via DNS tunneling",
-      "first_seen": "2026-10-08T15:14:15.038119+00:00",
-      "last_seen": "2026-10-08T15:14:15.038119+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "unit42.paloaltonetworks.com",
-          "url": "https://unit42.paloaltonetworks.com/bypass-of-aws-sandbox-network-isolation-mode/",
-          "pub_date": "2026-10-08T15:14:15.038119+00:00"
-        }
-      ],
-      "tags": [],
-      "categories": [
-        "exfiltration"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "iseekaigogo.com",
-      "confidence": "high",
-      "reason": "Listed as a hardcoded command-and-control domain used by the malware",
-      "first_seen": "2026-10-08T13:30:27+00:00",
-      "last_seen": "2026-10-08T13:30:27+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Gbhackers",
-          "url": "https://gbhackers.com/tensorlake-package-hijacked/",
-          "pub_date": "2026-10-08T13:30:27+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Shai-Hulud"
-        },
-        {
-          "type": "campaign",
-          "value": "August Campaign"
-        },
-        {
-          "type": "campaign",
-          "value": "Shai-Hulud Campaign"
-        },
-        {
-          "type": "malware",
-          "value": "Tensorlake"
-        }
-      ],
-      "categories": [
-        "c2",
-        "malware"
-      ],
-      "basis": null
-    },
-    {
-      "type": "ipv4",
-      "value": "103.248.148.84",
-      "confidence": "high",
-      "reason": "Listed as a proxy address associated with the operation",
-      "first_seen": "2026-10-08T12:54:13+00:00",
-      "last_seen": "2026-10-08T12:54:13+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "News.Lavx.Hu",
-          "url": "https://news.lavx.hu/article/chinese-linked-threat-actor-deploys-ai-driven-artex-against-south-korean-banks",
-          "pub_date": "2026-10-08T12:54:13+00:00"
-        }
-      ],
-      "tags": [],
-      "categories": [
-        "proxy_tunnel"
-      ],
-      "basis": null
-    },
-    {
-      "type": "ipv4",
-      "value": "154.201.79.246",
-      "confidence": "high",
-      "reason": "Listed as a proxy address associated with the operation",
-      "first_seen": "2026-10-08T12:54:13+00:00",
-      "last_seen": "2026-10-08T12:54:13+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "News.Lavx.Hu",
-          "url": "https://news.lavx.hu/article/chinese-linked-threat-actor-deploys-ai-driven-artex-against-south-korean-banks",
-          "pub_date": "2026-10-08T12:54:13+00:00"
-        }
-      ],
-      "tags": [],
-      "categories": [
-        "proxy_tunnel"
-      ],
-      "basis": null
-    },
-    {
-      "type": "ipv4",
-      "value": "203.160.133.172",
-      "confidence": "high",
-      "reason": "Listed as a proxy address associated with the operation",
-      "first_seen": "2026-10-08T12:54:13+00:00",
-      "last_seen": "2026-10-08T12:54:13+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "News.Lavx.Hu",
-          "url": "https://news.lavx.hu/article/chinese-linked-threat-actor-deploys-ai-driven-artex-against-south-korean-banks",
-          "pub_date": "2026-10-08T12:54:13+00:00"
-        }
-      ],
-      "tags": [],
-      "categories": [
-        "proxy_tunnel"
-      ],
-      "basis": null
-    },
-    {
-      "type": "ipv4",
-      "value": "209.209.85.38",
-      "confidence": "high",
-      "reason": "Listed as a proxy address associated with the operation",
-      "first_seen": "2026-10-08T12:54:13+00:00",
-      "last_seen": "2026-10-08T12:54:13+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "News.Lavx.Hu",
-          "url": "https://news.lavx.hu/article/chinese-linked-threat-actor-deploys-ai-driven-artex-against-south-korean-banks",
-          "pub_date": "2026-10-08T12:54:13+00:00"
-        }
-      ],
-      "tags": [],
-      "categories": [
-        "proxy_tunnel"
-      ],
-      "basis": null
-    },
-    {
-      "type": "ipv4",
-      "value": "23.158.220.98",
-      "confidence": "high",
-      "reason": "Listed as a proxy address associated with the operation",
-      "first_seen": "2026-10-08T12:54:13+00:00",
-      "last_seen": "2026-10-08T12:54:13+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "News.Lavx.Hu",
-          "url": "https://news.lavx.hu/article/chinese-linked-threat-actor-deploys-ai-driven-artex-against-south-korean-banks",
-          "pub_date": "2026-10-08T12:54:13+00:00"
-        }
-      ],
-      "tags": [],
-      "categories": [
-        "proxy_tunnel"
-      ],
-      "basis": null
-    },
-    {
-      "type": "ipv4",
-      "value": "23.248.249.90",
-      "confidence": "high",
-      "reason": "Listed as a proxy address associated with the operation",
-      "first_seen": "2026-10-08T12:54:13+00:00",
-      "last_seen": "2026-10-08T12:54:13+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "News.Lavx.Hu",
-          "url": "https://news.lavx.hu/article/chinese-linked-threat-actor-deploys-ai-driven-artex-against-south-korean-banks",
-          "pub_date": "2026-10-08T12:54:13+00:00"
-        }
-      ],
-      "tags": [],
-      "categories": [
-        "proxy_tunnel"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "joinscouty.com",
-      "confidence": "high",
-      "reason": "Domain used to host a fake collaboration platform as part of a phishing scheme",
-      "first_seen": "2026-10-08T12:46:27+00:00",
-      "last_seen": "2026-10-08T12:46:27+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Helpnetsecurity",
-          "url": "https://www.helpnetsecurity.com/2026/10/08/scams-targeting-youtube-creators-sponsorship/",
-          "pub_date": "2026-10-08T12:46:27+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Matchy"
-        },
-        {
-          "type": "campaign",
-          "value": "Scouty"
-        },
-        {
-          "type": "campaign",
-          "value": "Tubive"
-        }
-      ],
-      "categories": [
-        "phishing"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "matchyjoin.com",
-      "confidence": "high",
-      "reason": "Domain used to host a fake collaboration platform as part of a phishing scheme",
-      "first_seen": "2026-10-08T12:46:27+00:00",
-      "last_seen": "2026-10-08T12:46:27+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Helpnetsecurity",
-          "url": "https://www.helpnetsecurity.com/2026/10/08/scams-targeting-youtube-creators-sponsorship/",
-          "pub_date": "2026-10-08T12:46:27+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Matchy"
-        },
-        {
-          "type": "campaign",
-          "value": "Scouty"
-        },
-        {
-          "type": "campaign",
-          "value": "Tubive"
-        }
-      ],
-      "categories": [
-        "phishing"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "mytubive.com",
-      "confidence": "high",
-      "reason": "Domain used to host a fake collaboration platform as part of a phishing scheme",
-      "first_seen": "2026-10-08T12:46:27+00:00",
-      "last_seen": "2026-10-08T12:46:27+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Helpnetsecurity",
-          "url": "https://www.helpnetsecurity.com/2026/10/08/scams-targeting-youtube-creators-sponsorship/",
-          "pub_date": "2026-10-08T12:46:27+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Matchy"
-        },
-        {
-          "type": "campaign",
-          "value": "Scouty"
-        },
-        {
-          "type": "campaign",
-          "value": "Tubive"
-        }
-      ],
-      "categories": [
-        "phishing"
       ],
       "basis": null
     }
