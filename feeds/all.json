@@ -1,7 +1,7 @@
 {
   "feed": "threatcluster-public-iocs",
   "version": 1,
-  "generated_at": "2026-11-08T13:20:35Z",
+  "generated_at": "2026-11-09T16:13:16Z",
   "filters": {
     "confidence": "high",
     "window_days": 30,
@@ -11,8 +11,463 @@
       "domain"
     ]
   },
-  "count": 839,
+  "count": 808,
   "iocs": [
+    {
+      "type": "domain",
+      "value": "felixfuturenext.com",
+      "confidence": "high",
+      "reason": "Domain used in phishing and malware attacks",
+      "first_seen": "2026-11-09T15:02:15.435063+00:00",
+      "last_seen": "2026-11-09T15:02:15.435063+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.fortinet.com",
+          "url": "https://www.fortinet.com/blog/threat-research/bitter-expands-its-arsenal-with-paprat",
+          "pub_date": "2026-11-09T15:02:15.435063+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Bitter"
+        },
+        {
+          "type": "industry",
+          "value": "Energy"
+        },
+        {
+          "type": "industry",
+          "value": "Engineering"
+        },
+        {
+          "type": "industry",
+          "value": "Government"
+        }
+      ],
+      "categories": [
+        "phishing",
+        "malware"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "gomescareerplans.com",
+      "confidence": "high",
+      "reason": "Domain used in attack chain for malware delivery",
+      "first_seen": "2026-11-09T15:02:15.435063+00:00",
+      "last_seen": "2026-11-09T15:02:15.435063+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.fortinet.com",
+          "url": "https://www.fortinet.com/blog/threat-research/bitter-expands-its-arsenal-with-paprat",
+          "pub_date": "2026-11-09T15:02:15.435063+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Bitter"
+        },
+        {
+          "type": "industry",
+          "value": "Energy"
+        },
+        {
+          "type": "industry",
+          "value": "Engineering"
+        },
+        {
+          "type": "industry",
+          "value": "Government"
+        }
+      ],
+      "categories": [
+        "malware"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "goodnfortunes.com",
+      "confidence": "high",
+      "reason": "Domain used for data exfiltration in attack chain",
+      "first_seen": "2026-11-09T15:02:15.435063+00:00",
+      "last_seen": "2026-11-09T15:02:15.435063+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.fortinet.com",
+          "url": "https://www.fortinet.com/blog/threat-research/bitter-expands-its-arsenal-with-paprat",
+          "pub_date": "2026-11-09T15:02:15.435063+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Bitter"
+        },
+        {
+          "type": "industry",
+          "value": "Energy"
+        },
+        {
+          "type": "industry",
+          "value": "Engineering"
+        },
+        {
+          "type": "industry",
+          "value": "Government"
+        }
+      ],
+      "categories": [
+        "exfiltration"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "rivingtonclarks.com",
+      "confidence": "high",
+      "reason": "Domain used as C2 panel for PapRAT",
+      "first_seen": "2026-11-09T15:02:15.435063+00:00",
+      "last_seen": "2026-11-09T15:02:15.435063+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.fortinet.com",
+          "url": "https://www.fortinet.com/blog/threat-research/bitter-expands-its-arsenal-with-paprat",
+          "pub_date": "2026-11-09T15:02:15.435063+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Bitter"
+        },
+        {
+          "type": "industry",
+          "value": "Energy"
+        },
+        {
+          "type": "industry",
+          "value": "Engineering"
+        },
+        {
+          "type": "industry",
+          "value": "Government"
+        }
+      ],
+      "categories": [
+        "c2"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "techtalkhelp.com",
+      "confidence": "high",
+      "reason": "Domain used for staging and command updates",
+      "first_seen": "2026-11-09T15:02:15.435063+00:00",
+      "last_seen": "2026-11-09T15:02:15.435063+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.fortinet.com",
+          "url": "https://www.fortinet.com/blog/threat-research/bitter-expands-its-arsenal-with-paprat",
+          "pub_date": "2026-11-09T15:02:15.435063+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Bitter"
+        },
+        {
+          "type": "industry",
+          "value": "Energy"
+        },
+        {
+          "type": "industry",
+          "value": "Engineering"
+        },
+        {
+          "type": "industry",
+          "value": "Government"
+        }
+      ],
+      "categories": [
+        "malware"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "www.chestergreenfarming.com",
+      "confidence": "high",
+      "reason": "Domain used as decoded C2 server",
+      "first_seen": "2026-11-09T15:02:15.435063+00:00",
+      "last_seen": "2026-11-09T15:02:15.435063+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.fortinet.com",
+          "url": "https://www.fortinet.com/blog/threat-research/bitter-expands-its-arsenal-with-paprat",
+          "pub_date": "2026-11-09T15:02:15.435063+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Bitter"
+        },
+        {
+          "type": "industry",
+          "value": "Energy"
+        },
+        {
+          "type": "industry",
+          "value": "Engineering"
+        },
+        {
+          "type": "industry",
+          "value": "Government"
+        }
+      ],
+      "categories": [
+        "c2"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "www.rivingtonclarks.com",
+      "confidence": "high",
+      "reason": "Domain used as C2 URL for PapRAT",
+      "first_seen": "2026-11-09T15:02:15.435063+00:00",
+      "last_seen": "2026-11-09T15:02:15.435063+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.fortinet.com",
+          "url": "https://www.fortinet.com/blog/threat-research/bitter-expands-its-arsenal-with-paprat",
+          "pub_date": "2026-11-09T15:02:15.435063+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Bitter"
+        },
+        {
+          "type": "industry",
+          "value": "Energy"
+        },
+        {
+          "type": "industry",
+          "value": "Engineering"
+        },
+        {
+          "type": "industry",
+          "value": "Government"
+        }
+      ],
+      "categories": [
+        "c2"
+      ],
+      "basis": null
+    },
+    {
+      "type": "ipv4",
+      "value": "112.121.185.218",
+      "confidence": "high",
+      "reason": "Identified as the primary node hosting multiple attack platforms including C2",
+      "first_seen": "2026-11-04T03:55:19+00:00",
+      "last_seen": "2026-11-09T11:33:39.764694+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "www.acronis.com",
+          "url": "https://www.acronis.com/en/tru/posts/bossai-inside-the-ai-attack-mesh-that-targeted-taiwans-emergency-services/",
+          "pub_date": "2026-11-09T11:33:39.764694+00:00"
+        },
+        {
+          "source": "Acronis",
+          "url": "https://www.acronis.com/tru/posts/bossai-inside-the-ai-attack-mesh-that-targeted-taiwans-emergency-services/",
+          "pub_date": "2026-11-04T03:55:19+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Bossai Campaign"
+        },
+        {
+          "type": "industry",
+          "value": "Financial"
+        },
+        {
+          "type": "industry",
+          "value": "Gambling"
+        },
+        {
+          "type": "industry",
+          "value": "Government"
+        }
+      ],
+      "categories": [
+        "c2",
+        "malware",
+        "proxy_tunnel"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "api.frameworkmetrics.xyz",
+      "confidence": "high",
+      "reason": "Domain used to deliver platform-specific JavaScript payloads in a malicious npm package",
+      "first_seen": "2026-11-09T01:18:18+00:00",
+      "last_seen": "2026-11-09T10:45:24+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "Ox.Security",
+          "url": "https://www.ox.security/blog/ethersphere-hijacked-with-crypto-stealing-malware-via-github-npm/",
+          "pub_date": "2026-11-09T10:45:24+00:00"
+        },
+        {
+          "source": "Stepsecurity",
+          "url": "https://www.stepsecurity.io/blog/ethersphere-bee-js-13-3-0-compromise",
+          "pub_date": "2026-11-09T01:18:18+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "Evjawbreaker"
+        }
+      ],
+      "categories": [
+        "supply_chain",
+        "malware"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "frameworkmetrics.xyz",
+      "confidence": "high",
+      "reason": "Domain used to deliver platform-specific JavaScript payloads in a malicious npm package",
+      "first_seen": "2026-11-09T10:45:24+00:00",
+      "last_seen": "2026-11-09T10:45:24+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Ox.Security",
+          "url": "https://www.ox.security/blog/ethersphere-hijacked-with-crypto-stealing-malware-via-github-npm/",
+          "pub_date": "2026-11-09T10:45:24+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "Evjawbreaker"
+        }
+      ],
+      "categories": [
+        "malware"
+      ],
+      "basis": null
+    },
+    {
+      "type": "ipv4",
+      "value": "193.57.9.155",
+      "confidence": "high",
+      "reason": "IP address used as a hub for the Go-based RAT malware",
+      "first_seen": "2026-11-09T00:00:00+00:00",
+      "last_seen": "2026-11-09T10:45:24+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "Ox.Security",
+          "url": "https://www.ox.security/blog/ethersphere-hijacked-with-crypto-stealing-malware-via-github-npm/",
+          "pub_date": "2026-11-09T10:45:24+00:00"
+        },
+        {
+          "source": "Safedep",
+          "url": "https://safedep.io/blog/ethersphere-bee-js-npm-compromise",
+          "pub_date": "2026-11-09T00:00:00+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "Evjawbreaker"
+        }
+      ],
+      "categories": [
+        "c2"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "analysis-id-lfg.info",
+      "confidence": "high",
+      "reason": "Listed as a C2 domain for ErrTraffic malware",
+      "first_seen": "2026-11-09T10:02:27.813351+00:00",
+      "last_seen": "2026-11-09T10:02:27.813351+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.sekoia.com",
+          "url": "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework",
+          "pub_date": "2026-11-09T10:02:27.813351+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "ErrTraffic"
+        },
+        {
+          "type": "malware",
+          "value": "Exvicy"
+        }
+      ],
+      "categories": [
+        "c2"
+      ],
+      "basis": null
+    },
+    {
+      "type": "ipv4",
+      "value": "185.232.84.169",
+      "confidence": "high",
+      "reason": "IP address used as a relay for remote access tool",
+      "first_seen": "2026-11-09T00:00:00+00:00",
+      "last_seen": "2026-11-09T00:00:00+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Safedep",
+          "url": "https://safedep.io/blog/ethersphere-bee-js-npm-compromise",
+          "pub_date": "2026-11-09T00:00:00+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "Evjawbreaker"
+        }
+      ],
+      "categories": [],
+      "basis": null
+    },
     {
       "type": "domain",
       "value": "irc.supernets.org",
@@ -3118,29 +3573,6 @@
     },
     {
       "type": "ipv4",
-      "value": "112.121.185.218",
-      "confidence": "high",
-      "reason": "IP address identified as hosting attacker infrastructure",
-      "first_seen": "2026-11-04T03:55:19+00:00",
-      "last_seen": "2026-11-04T03:55:19+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Acronis",
-          "url": "https://www.acronis.com/tru/posts/bossai-inside-the-ai-attack-mesh-that-targeted-taiwans-emergency-services/",
-          "pub_date": "2026-11-04T03:55:19+00:00"
-        }
-      ],
-      "tags": [],
-      "categories": [
-        "c2",
-        "malware",
-        "proxy_tunnel"
-      ],
-      "basis": null
-    },
-    {
-      "type": "ipv4",
       "value": "89.127.233.127",
       "confidence": "high",
       "reason": "Listed as an attacker IP that was shut down",
@@ -4766,289 +5198,17 @@
     },
     {
       "type": "domain",
-      "value": "felixfuturenext.com",
-      "confidence": "high",
-      "reason": "Domain used in phishing and malware attacks",
-      "first_seen": "2026-11-02T18:00:29.118178+00:00",
-      "last_seen": "2026-11-02T18:00:29.118178+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.fortinet.com",
-          "url": "https://www.fortinet.com/blog/threat-research/bitter-expands-its-arsenal-with-paprat",
-          "pub_date": "2026-11-02T18:00:29.118178+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Bitter"
-        },
-        {
-          "type": "industry",
-          "value": "Energy"
-        },
-        {
-          "type": "industry",
-          "value": "Engineering"
-        },
-        {
-          "type": "industry",
-          "value": "Government"
-        }
-      ],
-      "categories": [
-        "phishing",
-        "malware"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "gomescareerplans.com",
-      "confidence": "high",
-      "reason": "Domain used in attack chain for malware delivery",
-      "first_seen": "2026-11-02T18:00:29.118178+00:00",
-      "last_seen": "2026-11-02T18:00:29.118178+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.fortinet.com",
-          "url": "https://www.fortinet.com/blog/threat-research/bitter-expands-its-arsenal-with-paprat",
-          "pub_date": "2026-11-02T18:00:29.118178+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Bitter"
-        },
-        {
-          "type": "industry",
-          "value": "Energy"
-        },
-        {
-          "type": "industry",
-          "value": "Engineering"
-        },
-        {
-          "type": "industry",
-          "value": "Government"
-        }
-      ],
-      "categories": [
-        "malware"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "goodnfortunes.com",
-      "confidence": "high",
-      "reason": "Domain used for data exfiltration in attack chain",
-      "first_seen": "2026-11-02T18:00:29.118178+00:00",
-      "last_seen": "2026-11-02T18:00:29.118178+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.fortinet.com",
-          "url": "https://www.fortinet.com/blog/threat-research/bitter-expands-its-arsenal-with-paprat",
-          "pub_date": "2026-11-02T18:00:29.118178+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Bitter"
-        },
-        {
-          "type": "industry",
-          "value": "Energy"
-        },
-        {
-          "type": "industry",
-          "value": "Engineering"
-        },
-        {
-          "type": "industry",
-          "value": "Government"
-        }
-      ],
-      "categories": [
-        "exfiltration"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "rivingtonclarks.com",
-      "confidence": "high",
-      "reason": "Domain used as C2 panel for PapRAT",
-      "first_seen": "2026-11-02T18:00:29.118178+00:00",
-      "last_seen": "2026-11-02T18:00:29.118178+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.fortinet.com",
-          "url": "https://www.fortinet.com/blog/threat-research/bitter-expands-its-arsenal-with-paprat",
-          "pub_date": "2026-11-02T18:00:29.118178+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Bitter"
-        },
-        {
-          "type": "industry",
-          "value": "Energy"
-        },
-        {
-          "type": "industry",
-          "value": "Engineering"
-        },
-        {
-          "type": "industry",
-          "value": "Government"
-        }
-      ],
-      "categories": [
-        "c2"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "techtalkhelp.com",
-      "confidence": "high",
-      "reason": "Domain used for staging and command updates",
-      "first_seen": "2026-11-02T18:00:29.118178+00:00",
-      "last_seen": "2026-11-02T18:00:29.118178+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.fortinet.com",
-          "url": "https://www.fortinet.com/blog/threat-research/bitter-expands-its-arsenal-with-paprat",
-          "pub_date": "2026-11-02T18:00:29.118178+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Bitter"
-        },
-        {
-          "type": "industry",
-          "value": "Energy"
-        },
-        {
-          "type": "industry",
-          "value": "Engineering"
-        },
-        {
-          "type": "industry",
-          "value": "Government"
-        }
-      ],
-      "categories": [
-        "malware"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "www.chestergreenfarming.com",
-      "confidence": "high",
-      "reason": "Domain used as decoded C2 server",
-      "first_seen": "2026-11-02T18:00:29.118178+00:00",
-      "last_seen": "2026-11-02T18:00:29.118178+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.fortinet.com",
-          "url": "https://www.fortinet.com/blog/threat-research/bitter-expands-its-arsenal-with-paprat",
-          "pub_date": "2026-11-02T18:00:29.118178+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Bitter"
-        },
-        {
-          "type": "industry",
-          "value": "Energy"
-        },
-        {
-          "type": "industry",
-          "value": "Engineering"
-        },
-        {
-          "type": "industry",
-          "value": "Government"
-        }
-      ],
-      "categories": [
-        "c2"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "www.rivingtonclarks.com",
-      "confidence": "high",
-      "reason": "Domain used as C2 URL for PapRAT",
-      "first_seen": "2026-11-02T18:00:29.118178+00:00",
-      "last_seen": "2026-11-02T18:00:29.118178+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.fortinet.com",
-          "url": "https://www.fortinet.com/blog/threat-research/bitter-expands-its-arsenal-with-paprat",
-          "pub_date": "2026-11-02T18:00:29.118178+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Bitter"
-        },
-        {
-          "type": "industry",
-          "value": "Energy"
-        },
-        {
-          "type": "industry",
-          "value": "Engineering"
-        },
-        {
-          "type": "industry",
-          "value": "Government"
-        }
-      ],
-      "categories": [
-        "c2"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
       "value": "arthurshelby.click",
       "confidence": "high",
-      "reason": "Domain used for C2 registration and subdomain generation by malware",
-      "first_seen": "2026-10-10T05:02:45.293755+00:00",
+      "reason": "Listed as part of the supporting network infrastructure for C2 operations.",
+      "first_seen": "2026-11-02T17:02:17.201143+00:00",
       "last_seen": "2026-11-02T17:02:17.201143+00:00",
-      "source_count": 2,
+      "source_count": 1,
       "sources": [
         {
           "source": "www.group-ib.com",
           "url": "https://www.group-ib.com/masked-actors/darkblinders/",
           "pub_date": "2026-11-02T17:02:17.201143+00:00"
-        },
-        {
-          "source": "www.elastic.co",
-          "url": "https://www.elastic.co/security-labs/threat-command/the-shelby-strategy",
-          "pub_date": "2026-10-10T05:02:45.293755+00:00"
         }
       ],
       "tags": [
@@ -5062,11 +5222,11 @@
         },
         {
           "type": "malware",
-          "value": "Shelby"
+          "value": "SHELBYC2"
         },
         {
           "type": "malware",
-          "value": "SHELBYC2"
+          "value": "Shelbyloader"
         }
       ],
       "categories": [
@@ -5306,20 +5466,15 @@
       "type": "ipv4",
       "value": "195.16.74.138",
       "confidence": "high",
-      "reason": "IP address associated with attacker-controlled domain",
-      "first_seen": "2026-10-10T05:02:45.293755+00:00",
+      "reason": "Listed as a C2 IP address.",
+      "first_seen": "2026-11-02T17:02:17.201143+00:00",
       "last_seen": "2026-11-02T17:02:17.201143+00:00",
-      "source_count": 2,
+      "source_count": 1,
       "sources": [
         {
           "source": "www.group-ib.com",
           "url": "https://www.group-ib.com/masked-actors/darkblinders/",
           "pub_date": "2026-11-02T17:02:17.201143+00:00"
-        },
-        {
-          "source": "www.elastic.co",
-          "url": "https://www.elastic.co/security-labs/threat-command/the-shelby-strategy",
-          "pub_date": "2026-10-10T05:02:45.293755+00:00"
         }
       ],
       "tags": [
@@ -5333,11 +5488,11 @@
         },
         {
           "type": "malware",
-          "value": "Shelby"
+          "value": "SHELBYC2"
         },
         {
           "type": "malware",
-          "value": "SHELBYC2"
+          "value": "Shelbyloader"
         }
       ],
       "categories": [
@@ -5349,20 +5504,15 @@
       "type": "ipv4",
       "value": "2.56.126.151",
       "confidence": "high",
-      "reason": "IP address associated with attacker-controlled domain",
-      "first_seen": "2026-10-10T05:02:45.293755+00:00",
+      "reason": "Listed as additional staging IP.",
+      "first_seen": "2026-11-02T17:02:17.201143+00:00",
       "last_seen": "2026-11-02T17:02:17.201143+00:00",
-      "source_count": 2,
+      "source_count": 1,
       "sources": [
         {
           "source": "www.group-ib.com",
           "url": "https://www.group-ib.com/masked-actors/darkblinders/",
           "pub_date": "2026-11-02T17:02:17.201143+00:00"
-        },
-        {
-          "source": "www.elastic.co",
-          "url": "https://www.elastic.co/security-labs/threat-command/the-shelby-strategy",
-          "pub_date": "2026-10-10T05:02:45.293755+00:00"
         }
       ],
       "tags": [
@@ -5376,11 +5526,11 @@
         },
         {
           "type": "malware",
-          "value": "Shelby"
+          "value": "SHELBYC2"
         },
         {
           "type": "malware",
-          "value": "SHELBYC2"
+          "value": "Shelbyloader"
         }
       ],
       "categories": [
@@ -23857,38 +24007,33 @@
       "type": "domain",
       "value": "c0cc.cc",
       "confidence": "high",
-      "reason": "Domain used to access Microscan, controlled by attackers",
-      "first_seen": "2026-10-09T18:45:14+00:00",
+      "reason": "Seized domain used by attackers for unauthorized access to stolen data",
+      "first_seen": "2026-10-11T13:37:33+00:00",
       "last_seen": "2026-10-11T13:37:33+00:00",
-      "source_count": 2,
+      "source_count": 1,
       "sources": [
         {
           "source": "Itnews.Au",
           "url": "https://www.itnews.com.au/news/asd-joins-seven-nation-alert-as-us-seizes-chinese-hacking-firms-tools-629536",
           "pub_date": "2026-10-11T13:37:33+00:00"
-        },
-        {
-          "source": "Finance.Biggo",
-          "url": "https://finance.biggo.com/news/f8e5b44f-988b-4edc-b409-10b6318f541c",
-          "pub_date": "2026-10-09T18:45:14+00:00"
         }
       ],
       "tags": [
         {
           "type": "apt_group",
-          "value": "Flax Typhoon"
-        },
-        {
-          "type": "industry",
-          "value": "Government"
-        },
-        {
-          "type": "malware",
-          "value": "Mirai"
+          "value": "Ethereal Panda"
         },
         {
           "type": "apt_group",
-          "value": "Ethereal Panda"
+          "value": "Flax Typhoon"
+        },
+        {
+          "type": "apt_group",
+          "value": "Red Juliett"
+        },
+        {
+          "type": "industry",
+          "value": "Critical Manufacturing"
         }
       ],
       "categories": [
@@ -24108,946 +24253,6 @@
       "tags": [],
       "categories": [
         "malware"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "s.grldiyrsmvsggojzmi4wmyi.inevyrcfknfvit2qfvcvinjriffe6ib6hyqdambqgaydambahy7cama.arthurshelby.click",
-      "confidence": "high",
-      "reason": "Subdomain used for C2 registration by malware",
-      "first_seen": "2026-10-10T05:02:45.293755+00:00",
-      "last_seen": "2026-10-10T05:02:45.293755+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.elastic.co",
-          "url": "https://www.elastic.co/security-labs/threat-command/the-shelby-strategy",
-          "pub_date": "2026-10-10T05:02:45.293755+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "malware",
-          "value": "Shelby"
-        }
-      ],
-      "categories": [
-        "c2",
-        "malware"
-      ],
-      "basis": null
-    },
-    {
-      "type": "ipv4",
-      "value": "2.56.126.157",
-      "confidence": "high",
-      "reason": "IP address associated with attacker-controlled domain",
-      "first_seen": "2026-10-10T05:02:45.293755+00:00",
-      "last_seen": "2026-10-10T05:02:45.293755+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.elastic.co",
-          "url": "https://www.elastic.co/security-labs/threat-command/the-shelby-strategy",
-          "pub_date": "2026-10-10T05:02:45.293755+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "malware",
-          "value": "Shelby"
-        }
-      ],
-      "categories": [
-        "other"
-      ],
-      "basis": null
-    },
-    {
-      "type": "ipv4",
-      "value": "2.56.126.188",
-      "confidence": "high",
-      "reason": "IP address associated with attacker-controlled domain",
-      "first_seen": "2026-10-10T05:02:45.293755+00:00",
-      "last_seen": "2026-10-10T05:02:45.293755+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.elastic.co",
-          "url": "https://www.elastic.co/security-labs/threat-command/the-shelby-strategy",
-          "pub_date": "2026-10-10T05:02:45.293755+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "malware",
-          "value": "Shelby"
-        }
-      ],
-      "categories": [
-        "other"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "lake-90.com",
-      "confidence": "high",
-      "reason": "Domain used to host and deliver payload, indicating attacker control",
-      "first_seen": "2026-10-09T22:12:56.295984+00:00",
-      "last_seen": "2026-10-09T22:12:56.295984+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "pushsecurity.com",
-          "url": "https://pushsecurity.com/blog/adception-malvertising-another-search-engines-search-results",
-          "pub_date": "2026-10-09T22:12:56.295984+00:00"
-        }
-      ],
-      "tags": [],
-      "categories": [
-        "malware"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "claude-desk-code.com",
-      "confidence": "high",
-      "reason": "Used as a phishing destination in a campaign",
-      "first_seen": "2026-10-09T20:31:37+00:00",
-      "last_seen": "2026-10-09T20:31:37+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Bleepingcomputer",
-          "url": "https://www.bleepingcomputer.com/news/security/hackers-abuse-google-ads-bing-redirects-to-push-claude-clickfix-attacks/",
-          "pub_date": "2026-10-09T20:31:37+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Adception"
-        },
-        {
-          "type": "malware",
-          "value": "AcSig"
-        }
-      ],
-      "categories": [
-        "phishing"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "98aicai.com",
-      "confidence": "high",
-      "reason": "Domain used to deliver post-compromise tool FishHub, controlled by attackers",
-      "first_seen": "2026-10-09T18:45:14+00:00",
-      "last_seen": "2026-10-09T18:45:14+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Finance.Biggo",
-          "url": "https://finance.biggo.com/news/f8e5b44f-988b-4edc-b409-10b6318f541c",
-          "pub_date": "2026-10-09T18:45:14+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Flax Typhoon"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2014-6278"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2015-3306"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2015-5477"
-        }
-      ],
-      "categories": [
-        "malware"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "98aicode.com",
-      "confidence": "high",
-      "reason": "Domain used to deliver post-compromise tool FishHub, controlled by attackers",
-      "first_seen": "2026-10-09T18:45:14+00:00",
-      "last_seen": "2026-10-09T18:45:14+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Finance.Biggo",
-          "url": "https://finance.biggo.com/news/f8e5b44f-988b-4edc-b409-10b6318f541c",
-          "pub_date": "2026-10-09T18:45:14+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Flax Typhoon"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2014-6278"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2015-3306"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2015-5477"
-        }
-      ],
-      "categories": [
-        "malware"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "linkedinns.net",
-      "confidence": "high",
-      "reason": "Domain used to deliver post-compromise tool FishHub, controlled by attackers",
-      "first_seen": "2026-10-09T18:45:14+00:00",
-      "last_seen": "2026-10-09T18:45:14+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Finance.Biggo",
-          "url": "https://finance.biggo.com/news/f8e5b44f-988b-4edc-b409-10b6318f541c",
-          "pub_date": "2026-10-09T18:45:14+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Flax Typhoon"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2014-6278"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2015-3306"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2015-5477"
-        }
-      ],
-      "categories": [
-        "malware"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "outlook3650.com",
-      "confidence": "high",
-      "reason": "Domain used to deliver post-compromise tool FishHub, controlled by attackers",
-      "first_seen": "2026-10-09T18:45:14+00:00",
-      "last_seen": "2026-10-09T18:45:14+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Finance.Biggo",
-          "url": "https://finance.biggo.com/news/f8e5b44f-988b-4edc-b409-10b6318f541c",
-          "pub_date": "2026-10-09T18:45:14+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Flax Typhoon"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2014-6278"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2015-3306"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2015-5477"
-        }
-      ],
-      "categories": [
-        "malware"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "youtubecard.com",
-      "confidence": "high",
-      "reason": "Domain used to deliver post-compromise tool FishHub, controlled by attackers",
-      "first_seen": "2026-10-09T18:45:14+00:00",
-      "last_seen": "2026-10-09T18:45:14+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Finance.Biggo",
-          "url": "https://finance.biggo.com/news/f8e5b44f-988b-4edc-b409-10b6318f541c",
-          "pub_date": "2026-10-09T18:45:14+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Flax Typhoon"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2014-6278"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2015-3306"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2015-5477"
-        }
-      ],
-      "categories": [
-        "malware"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "ccwu.cc",
-      "confidence": "high",
-      "reason": "Subdomains associated with C2 control panels",
-      "first_seen": "2026-10-09T18:00:23.022990+00:00",
-      "last_seen": "2026-10-09T18:00:23.022990+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "censys.com",
-          "url": "https://censys.com/blog/darksword-coruna-open-directory-finding-report",
-          "pub_date": "2026-10-09T18:00:23.02299+00:00"
-        }
-      ],
-      "tags": [],
-      "categories": [
-        "c2"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "escofiringbijou.com",
-      "confidence": "high",
-      "reason": "Associated with a targeted campaign delivering malware",
-      "first_seen": "2026-10-09T18:00:23.022990+00:00",
-      "last_seen": "2026-10-09T18:00:23.022990+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "censys.com",
-          "url": "https://censys.com/blog/darksword-coruna-open-directory-finding-report",
-          "pub_date": "2026-10-09T18:00:23.02299+00:00"
-        }
-      ],
-      "tags": [],
-      "categories": [
-        "malware",
-        "c2"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "fc.rsqqq.top",
-      "confidence": "high",
-      "reason": "Part of a cluster of domains used for C2 infrastructure",
-      "first_seen": "2026-10-09T18:00:23.022990+00:00",
-      "last_seen": "2026-10-09T18:00:23.022990+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "censys.com",
-          "url": "https://censys.com/blog/darksword-coruna-open-directory-finding-report",
-          "pub_date": "2026-10-09T18:00:23.02299+00:00"
-        }
-      ],
-      "tags": [],
-      "categories": [
-        "c2"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "g.northlab.cn",
-      "confidence": "high",
-      "reason": "Tied to an operator's lab domain with self-signed certificates",
-      "first_seen": "2026-10-09T18:00:23.022990+00:00",
-      "last_seen": "2026-10-09T18:00:23.022990+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "censys.com",
-          "url": "https://censys.com/blog/darksword-coruna-open-directory-finding-report",
-          "pub_date": "2026-10-09T18:00:23.02299+00:00"
-        }
-      ],
-      "tags": [],
-      "categories": [
-        "other"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "hdios.cn",
-      "confidence": "high",
-      "reason": "Hosts C2 infrastructure and exploit registry",
-      "first_seen": "2026-10-09T18:00:23.022990+00:00",
-      "last_seen": "2026-10-09T18:00:23.022990+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "censys.com",
-          "url": "https://censys.com/blog/darksword-coruna-open-directory-finding-report",
-          "pub_date": "2026-10-09T18:00:23.02299+00:00"
-        }
-      ],
-      "tags": [],
-      "categories": [
-        "c2",
-        "exploit"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "iplcz.cn",
-      "confidence": "high",
-      "reason": "Associated with an operator's lab domain",
-      "first_seen": "2026-10-09T18:00:23.022990+00:00",
-      "last_seen": "2026-10-09T18:00:23.022990+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "censys.com",
-          "url": "https://censys.com/blog/darksword-coruna-open-directory-finding-report",
-          "pub_date": "2026-10-09T18:00:23.02299+00:00"
-        }
-      ],
-      "tags": [],
-      "categories": [
-        "other"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "manager.g.northlab.cn",
-      "confidence": "high",
-      "reason": "Tied to an operator's lab domain with self-signed certificates",
-      "first_seen": "2026-10-09T18:00:23.022990+00:00",
-      "last_seen": "2026-10-09T18:00:23.022990+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "censys.com",
-          "url": "https://censys.com/blog/darksword-coruna-open-directory-finding-report",
-          "pub_date": "2026-10-09T18:00:23.02299+00:00"
-        }
-      ],
-      "tags": [],
-      "categories": [
-        "other"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "northlab.cn",
-      "confidence": "high",
-      "reason": "Tied to an operator's lab domain with self-signed certificates",
-      "first_seen": "2026-10-09T18:00:23.022990+00:00",
-      "last_seen": "2026-10-09T18:00:23.022990+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "censys.com",
-          "url": "https://censys.com/blog/darksword-coruna-open-directory-finding-report",
-          "pub_date": "2026-10-09T18:00:23.02299+00:00"
-        }
-      ],
-      "tags": [],
-      "categories": [
-        "other"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "siekeltd.com",
-      "confidence": "high",
-      "reason": "Listed as payload and C2 in a targeted campaign",
-      "first_seen": "2026-10-09T18:00:23.022990+00:00",
-      "last_seen": "2026-10-09T18:00:23.022990+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "censys.com",
-          "url": "https://censys.com/blog/darksword-coruna-open-directory-finding-report",
-          "pub_date": "2026-10-09T18:00:23.02299+00:00"
-        }
-      ],
-      "tags": [],
-      "categories": [
-        "malware",
-        "c2"
-      ],
-      "basis": null
-    },
-    {
-      "type": "ipv4",
-      "value": "112.213.108.85",
-      "confidence": "high",
-      "reason": "Listed as a live production server for C2",
-      "first_seen": "2026-10-09T18:00:23.022990+00:00",
-      "last_seen": "2026-10-09T18:00:23.022990+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "censys.com",
-          "url": "https://censys.com/blog/darksword-coruna-open-directory-finding-report",
-          "pub_date": "2026-10-09T18:00:23.02299+00:00"
-        }
-      ],
-      "tags": [],
-      "categories": [
-        "c2"
-      ],
-      "basis": null
-    },
-    {
-      "type": "ipv4",
-      "value": "14.128.47.81",
-      "confidence": "high",
-      "reason": "Listed as part of a C2 control panel fleet",
-      "first_seen": "2026-10-09T18:00:23.022990+00:00",
-      "last_seen": "2026-10-09T18:00:23.022990+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "censys.com",
-          "url": "https://censys.com/blog/darksword-coruna-open-directory-finding-report",
-          "pub_date": "2026-10-09T18:00:23.02299+00:00"
-        }
-      ],
-      "tags": [],
-      "categories": [
-        "c2"
-      ],
-      "basis": null
-    },
-    {
-      "type": "ipv4",
-      "value": "154.217.250.206",
-      "confidence": "high",
-      "reason": "Listed as serving a C2 Control Panel",
-      "first_seen": "2026-10-09T18:00:23.022990+00:00",
-      "last_seen": "2026-10-09T18:00:23.022990+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "censys.com",
-          "url": "https://censys.com/blog/darksword-coruna-open-directory-finding-report",
-          "pub_date": "2026-10-09T18:00:23.02299+00:00"
-        }
-      ],
-      "tags": [],
-      "categories": [
-        "c2"
-      ],
-      "basis": null
-    },
-    {
-      "type": "ipv4",
-      "value": "154.219.127.147",
-      "confidence": "high",
-      "reason": "Exposes server-side delivery infrastructure",
-      "first_seen": "2026-10-09T18:00:23.022990+00:00",
-      "last_seen": "2026-10-09T18:00:23.022990+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "censys.com",
-          "url": "https://censys.com/blog/darksword-coruna-open-directory-finding-report",
-          "pub_date": "2026-10-09T18:00:23.02299+00:00"
-        }
-      ],
-      "tags": [],
-      "categories": [
-        "malware"
-      ],
-      "basis": null
-    },
-    {
-      "type": "ipv4",
-      "value": "154.219.127.94",
-      "confidence": "high",
-      "reason": "Identified as egress for staging host",
-      "first_seen": "2026-10-09T18:00:23.022990+00:00",
-      "last_seen": "2026-10-09T18:00:23.022990+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "censys.com",
-          "url": "https://censys.com/blog/darksword-coruna-open-directory-finding-report",
-          "pub_date": "2026-10-09T18:00:23.02299+00:00"
-        }
-      ],
-      "tags": [],
-      "categories": [
-        "other"
-      ],
-      "basis": null
-    },
-    {
-      "type": "ipv4",
-      "value": "185.189.45.40",
-      "confidence": "high",
-      "reason": "Capture associated with DarkSword/Coruna kit",
-      "first_seen": "2026-10-09T18:00:23.022990+00:00",
-      "last_seen": "2026-10-09T18:00:23.022990+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "censys.com",
-          "url": "https://censys.com/blog/darksword-coruna-open-directory-finding-report",
-          "pub_date": "2026-10-09T18:00:23.02299+00:00"
-        }
-      ],
-      "tags": [],
-      "categories": [
-        "exploit",
-        "malware",
-        "c2"
-      ],
-      "basis": null
-    },
-    {
-      "type": "ipv4",
-      "value": "199.30.90.154",
-      "confidence": "high",
-      "reason": "Part of a cluster identified as attacker infrastructure",
-      "first_seen": "2026-10-09T18:00:23.022990+00:00",
-      "last_seen": "2026-10-09T18:00:23.022990+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "censys.com",
-          "url": "https://censys.com/blog/darksword-coruna-open-directory-finding-report",
-          "pub_date": "2026-10-09T18:00:23.02299+00:00"
-        }
-      ],
-      "tags": [],
-      "categories": [
-        "malware"
-      ],
-      "basis": null
-    },
-    {
-      "type": "ipv4",
-      "value": "202.146.222.253",
-      "confidence": "high",
-      "reason": "Identified as a DarkSword admin panel and old production server",
-      "first_seen": "2026-10-09T18:00:23.022990+00:00",
-      "last_seen": "2026-10-09T18:00:23.022990+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "censys.com",
-          "url": "https://censys.com/blog/darksword-coruna-open-directory-finding-report",
-          "pub_date": "2026-10-09T18:00:23.02299+00:00"
-        }
-      ],
-      "tags": [],
-      "categories": [
-        "c2",
-        "malware"
-      ],
-      "basis": null
-    },
-    {
-      "type": "ipv4",
-      "value": "218.25.85.177",
-      "confidence": "high",
-      "reason": "Part of the operator's lab domain infrastructure",
-      "first_seen": "2026-10-09T18:00:23.022990+00:00",
-      "last_seen": "2026-10-09T18:00:23.022990+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "censys.com",
-          "url": "https://censys.com/blog/darksword-coruna-open-directory-finding-report",
-          "pub_date": "2026-10-09T18:00:23.02299+00:00"
-        }
-      ],
-      "tags": [],
-      "categories": [
-        "abused_service"
-      ],
-      "basis": null
-    },
-    {
-      "type": "ipv4",
-      "value": "218.25.85.178",
-      "confidence": "high",
-      "reason": "Part of the operator's lab domain infrastructure",
-      "first_seen": "2026-10-09T18:00:23.022990+00:00",
-      "last_seen": "2026-10-09T18:00:23.022990+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "censys.com",
-          "url": "https://censys.com/blog/darksword-coruna-open-directory-finding-report",
-          "pub_date": "2026-10-09T18:00:23.02299+00:00"
-        }
-      ],
-      "tags": [],
-      "categories": [
-        "abused_service"
-      ],
-      "basis": null
-    },
-    {
-      "type": "ipv4",
-      "value": "59.46.4.117",
-      "confidence": "high",
-      "reason": "Part of the operator's lab domain infrastructure",
-      "first_seen": "2026-10-09T18:00:23.022990+00:00",
-      "last_seen": "2026-10-09T18:00:23.022990+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "censys.com",
-          "url": "https://censys.com/blog/darksword-coruna-open-directory-finding-report",
-          "pub_date": "2026-10-09T18:00:23.02299+00:00"
-        }
-      ],
-      "tags": [],
-      "categories": [
-        "abused_service"
-      ],
-      "basis": null
-    },
-    {
-      "type": "ipv4",
-      "value": "59.46.4.119",
-      "confidence": "high",
-      "reason": "Part of the operator's lab domain infrastructure",
-      "first_seen": "2026-10-09T18:00:23.022990+00:00",
-      "last_seen": "2026-10-09T18:00:23.022990+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "censys.com",
-          "url": "https://censys.com/blog/darksword-coruna-open-directory-finding-report",
-          "pub_date": "2026-10-09T18:00:23.02299+00:00"
-        }
-      ],
-      "tags": [],
-      "categories": [
-        "abused_service"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "breachforums.hn",
-      "confidence": "high",
-      "reason": "Described as a freshly registered domain used for disinformation by attackers",
-      "first_seen": "2026-10-09T17:01:55.081127+00:00",
-      "last_seen": "2026-10-09T17:01:55.081127+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.sekoia.com",
-          "url": "https://www.sekoia.com/blog/gotta-breach-em-all-the-journey-of-shinyhunters",
-          "pub_date": "2026-10-09T17:01:55.081127+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "cve",
-          "value": "CVE-2026-35273"
-        },
-        {
-          "type": "industry",
-          "value": "Education"
-        },
-        {
-          "type": "industry",
-          "value": "Financial"
-        },
-        {
-          "type": "industry",
-          "value": "Healthcare"
-        }
-      ],
-      "categories": [
-        "influence_operations"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "breachforums.st",
-      "confidence": "high",
-      "reason": "Described as a domain controlled by attackers to redirect users",
-      "first_seen": "2026-10-09T17:01:55.081127+00:00",
-      "last_seen": "2026-10-09T17:01:55.081127+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.sekoia.com",
-          "url": "https://www.sekoia.com/blog/gotta-breach-em-all-the-journey-of-shinyhunters",
-          "pub_date": "2026-10-09T17:01:55.081127+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "cve",
-          "value": "CVE-2026-35273"
-        },
-        {
-          "type": "industry",
-          "value": "Education"
-        },
-        {
-          "type": "industry",
-          "value": "Financial"
-        },
-        {
-          "type": "industry",
-          "value": "Healthcare"
-        }
-      ],
-      "categories": [
-        "cybercrime_forum"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "raid.lol",
-      "confidence": "high",
-      "reason": "Described as a domain used by attackers for illegal activities",
-      "first_seen": "2026-10-09T17:01:55.081127+00:00",
-      "last_seen": "2026-10-09T17:01:55.081127+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.sekoia.com",
-          "url": "https://www.sekoia.com/blog/gotta-breach-em-all-the-journey-of-shinyhunters",
-          "pub_date": "2026-10-09T17:01:55.081127+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "cve",
-          "value": "CVE-2026-35273"
-        },
-        {
-          "type": "industry",
-          "value": "Education"
-        },
-        {
-          "type": "industry",
-          "value": "Financial"
-        },
-        {
-          "type": "industry",
-          "value": "Healthcare"
-        }
-      ],
-      "categories": [
-        "cybercrime_forum"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "rf.ws",
-      "confidence": "high",
-      "reason": "Described as a domain used by attackers for illegal activities",
-      "first_seen": "2026-10-09T17:01:55.081127+00:00",
-      "last_seen": "2026-10-09T17:01:55.081127+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.sekoia.com",
-          "url": "https://www.sekoia.com/blog/gotta-breach-em-all-the-journey-of-shinyhunters",
-          "pub_date": "2026-10-09T17:01:55.081127+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "cve",
-          "value": "CVE-2026-35273"
-        },
-        {
-          "type": "industry",
-          "value": "Education"
-        },
-        {
-          "type": "industry",
-          "value": "Financial"
-        },
-        {
-          "type": "industry",
-          "value": "Healthcare"
-        }
-      ],
-      "categories": [
-        "cybercrime_forum"
-      ],
-      "basis": null
-    },
-    {
-      "type": "ipv4",
-      "value": "23.148.212.237",
-      "confidence": "high",
-      "reason": "Serves as an analysis workspace for exploit development",
-      "first_seen": "2026-10-09T16:29:55+00:00",
-      "last_seen": "2026-10-09T16:29:55+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Thehackernews",
-          "url": "https://thehackernews.com/2026/10/p7-darksword-ios-exploit-kit-adds.html",
-          "pub_date": "2026-10-09T16:29:55+00:00"
-        }
-      ],
-      "tags": [],
-      "categories": [
-        "exploit"
       ],
       "basis": null
     }

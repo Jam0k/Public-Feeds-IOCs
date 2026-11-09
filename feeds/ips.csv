@@ -1,4 +1,7 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason,categories
+ipv4,112.121.185.218,high,2026-11-04T03:55:19+00:00,2026-11-09T11:33:39.764694+00:00,2,www.acronis.com:2026-11-09|Acronis:2026-11-04,Identified as the primary node hosting multiple attack platforms including C2,c2|malware|proxy_tunnel
+ipv4,193.57.9.155,high,2026-11-09T00:00:00+00:00,2026-11-09T10:45:24+00:00,2,Ox.Security:2026-11-09|Safedep:2026-11-09,IP address used as a hub for the Go-based RAT malware,c2
+ipv4,185.232.84.169,high,2026-11-09T00:00:00+00:00,2026-11-09T00:00:00+00:00,1,Safedep:2026-11-09,IP address used as a relay for remote access tool,
 ipv4,154.201.79.246,high,2026-11-07T20:00:02+00:00,2026-11-07T20:35:53.378549+00:00,2,hunt.io:2026-11-07|Securityaffairs:2026-11-07,Proxy service used in the attacker's infrastructure,proxy_tunnel
 ipv4,156.251.11.39,high,2026-11-07T20:00:02+00:00,2026-11-07T20:35:53.378549+00:00,2,hunt.io:2026-11-07|Securityaffairs:2026-11-07,Hosts ARTEX panel and malicious open directories,malware
 ipv4,23.248.226.250,high,2026-11-07T20:00:02+00:00,2026-11-07T20:35:53.378549+00:00,2,hunt.io:2026-11-07|Securityaffairs:2026-11-07,Acts as a jump server in the attacker's infrastructure,other
@@ -32,7 +35,6 @@ ipv4,45.9.148.221,high,2026-11-05T14:37:03.550931+00:00,2026-11-05T14:37:03.5509
 ipv4,157.20.182.49,high,2026-11-05T13:09:11+00:00,2026-11-05T13:09:11+00:00,1,Crowdstrike:2026-11-05,Controlled by the Iran-nexus adversary STATIC KITTEN,exploit
 ipv4,142.111.194.73,high,2026-11-04T10:11:03.626581+00:00,2026-11-04T10:11:03.626581+00:00,1,www.welivesecurity.com:2026-11-04,Listed as BeautyStealer exfiltration server,exfiltration
 ipv4,45.194.90.57,high,2026-11-03T23:53:53+00:00,2026-11-04T04:34:30.223780+00:00,2,threat-intelligence.redeyesecurity.com:2026-11-04|Dev.To:2026-11-03,Used to download a payload in the attack process,malware|botnet
-ipv4,112.121.185.218,high,2026-11-04T03:55:19+00:00,2026-11-04T03:55:19+00:00,1,Acronis:2026-11-04,IP address identified as hosting attacker infrastructure,c2|malware|proxy_tunnel
 ipv4,89.127.233.127,high,2026-11-04T03:08:03.338852+00:00,2026-11-04T03:33:48+00:00,2,Invenglobal:2026-11-04|gist.github.com:2026-11-04,Listed as an attacker IP that was shut down,malware|c2
 ipv4,43.175.144.148,high,2026-11-04T03:08:03.338852+00:00,2026-11-04T03:08:03.338852+00:00,1,gist.github.com:2026-11-04,IP address served modified malicious file,malware
 ipv4,43.175.145.181,high,2026-11-04T03:08:03.338852+00:00,2026-11-04T03:08:03.338852+00:00,1,gist.github.com:2026-11-04,IP address served modified malicious file,malware
@@ -46,8 +48,8 @@ ipv4,87.120.165.193,high,2026-11-03T22:08:07.499011+00:00,2026-11-03T22:08:07.49
 ipv4,219.134.163.210,high,2026-11-02T14:28:46+00:00,2026-11-03T16:32:00.743212+00:00,4,www.anrdoezrs.net:2026-11-03|Sqmagazine:2026-11-02|synthient.com:2026-11-02|Cloud.Google:2026-11-02,Used as a host for MQTT broker in the campaign,c2|malware
 ipv4,219.134.163.211,high,2026-11-02T14:28:46+00:00,2026-11-03T16:32:00.743212+00:00,2,www.anrdoezrs.net:2026-11-03|Cloud.Google:2026-11-02,Used as a host for MQTT broker in the campaign,c2|malware
 ipv4,195.16.74.137,high,2026-11-02T17:02:17.201143+00:00,2026-11-02T17:02:17.201143+00:00,1,www.group-ib.com:2026-11-02,Listed as a C2 IP address.,c2
-ipv4,195.16.74.138,high,2026-10-10T05:02:45.293755+00:00,2026-11-02T17:02:17.201143+00:00,2,www.group-ib.com:2026-11-02|www.elastic.co:2026-10-10,IP address associated with attacker-controlled domain,c2
-ipv4,2.56.126.151,high,2026-10-10T05:02:45.293755+00:00,2026-11-02T17:02:17.201143+00:00,2,www.group-ib.com:2026-11-02|www.elastic.co:2026-10-10,IP address associated with attacker-controlled domain,other
+ipv4,195.16.74.138,high,2026-11-02T17:02:17.201143+00:00,2026-11-02T17:02:17.201143+00:00,1,www.group-ib.com:2026-11-02,Listed as a C2 IP address.,c2
+ipv4,2.56.126.151,high,2026-11-02T17:02:17.201143+00:00,2026-11-02T17:02:17.201143+00:00,1,www.group-ib.com:2026-11-02,Listed as additional staging IP.,other
 ipv4,45.14.227.58,high,2026-11-02T10:07:30.919290+00:00,2026-11-02T10:07:30.919290+00:00,1,www.cisa.gov:2026-11-02,Associated with DAFOM malware,malware
 ipv4,108.165.147.64,high,2026-10-13T17:33:11+00:00,2026-11-02T10:06:11.096915+00:00,4,www.volexity.com:2026-11-02|Ccb.Belgium.Be:2026-10-14|Rescana:2026-10-14|Feeds.Feedburner:2026-10-13,Identified as a host used by the attacker for operations,other
 ipv4,38.246.114.118,high,2026-10-30T23:02:29+00:00,2026-10-30T23:02:29+00:00,1,Wiz:2026-10-30,IP address conducting unauthorized key checks linked to attacker activity.,malware
@@ -175,14 +177,3 @@ ipv4,61.18.208.27,high,2026-10-12T14:53:04+00:00,2026-10-12T14:53:04+00:00,1,The
 ipv4,118.145.196.225,high,2026-10-11T16:02:05.609563+00:00,2026-10-11T16:02:05.609563+00:00,1,www.fortinet.com:2026-10-11,Listed as a download source for malware by the attacker,malware
 ipv4,124.163.212.119,high,2026-10-11T16:02:05.609563+00:00,2026-10-11T16:02:05.609563+00:00,1,www.fortinet.com:2026-10-11,Listed as a download source for malware by the attacker,malware
 ipv4,222.223.152.97,high,2026-10-11T16:02:05.609563+00:00,2026-10-11T16:02:05.609563+00:00,1,www.fortinet.com:2026-10-11,Listed as a download source for malware by the attacker,malware
-ipv4,2.56.126.157,high,2026-10-10T05:02:45.293755+00:00,2026-10-10T05:02:45.293755+00:00,1,www.elastic.co:2026-10-10,IP address associated with attacker-controlled domain,other
-ipv4,2.56.126.188,high,2026-10-10T05:02:45.293755+00:00,2026-10-10T05:02:45.293755+00:00,1,www.elastic.co:2026-10-10,IP address associated with attacker-controlled domain,other
-ipv4,112.213.108.85,high,2026-10-09T18:00:23.022990+00:00,2026-10-09T18:00:23.022990+00:00,1,censys.com:2026-10-09,Listed as a live production server for C2,c2
-ipv4,14.128.47.81,high,2026-10-09T18:00:23.022990+00:00,2026-10-09T18:00:23.022990+00:00,1,censys.com:2026-10-09,Listed as part of a C2 control panel fleet,c2
-ipv4,154.217.250.206,high,2026-10-09T18:00:23.022990+00:00,2026-10-09T18:00:23.022990+00:00,1,censys.com:2026-10-09,Listed as serving a C2 Control Panel,c2
-ipv4,154.219.127.147,high,2026-10-09T18:00:23.022990+00:00,2026-10-09T18:00:23.022990+00:00,1,censys.com:2026-10-09,Exposes server-side delivery infrastructure,malware
-ipv4,154.219.127.94,high,2026-10-09T18:00:23.022990+00:00,2026-10-09T18:00:23.022990+00:00,1,censys.com:2026-10-09,Identified as egress for staging host,other
-ipv4,185.189.45.40,high,2026-10-09T18:00:23.022990+00:00,2026-10-09T18:00:23.022990+00:00,1,censys.com:2026-10-09,Capture associated with DarkSword/Coruna kit,exploit|malware|c2
-ipv4,199.30.90.154,high,2026-10-09T18:00:23.022990+00:00,2026-10-09T18:00:23.022990+00:00,1,censys.com:2026-10-09,Part of a cluster identified as attacker infrastructure,malware
-ipv4,202.146.222.253,high,2026-10-09T18:00:23.022990+00:00,2026-10-09T18:00:23.022990+00:00,1,censys.com:2026-10-09,Identified as a DarkSword admin panel and old production server,c2|malware
-ipv4,23.148.212.237,high,2026-10-09T16:29:55+00:00,2026-10-09T16:29:55+00:00,1,Thehackernews:2026-10-09,Serves as an analysis workspace for exploit development,exploit

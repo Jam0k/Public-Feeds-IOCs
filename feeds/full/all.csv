@@ -1,4 +1,14 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason,categories
+ipv4,112.121.185.218,high,2026-11-04T03:55:19+00:00,2026-11-09T11:33:39.764694+00:00,2,,Identified as the primary node hosting multiple attack platforms including C2,c2|malware|proxy_tunnel
+domain,api.frameworkmetrics.xyz,high,2026-11-09T01:18:18+00:00,2026-11-09T10:45:24+00:00,2,,Domain used to deliver platform-specific JavaScript payloads in a malicious npm package,supply_chain|malware
+domain,frameworkmetrics.xyz,high,2026-11-09T10:45:24+00:00,2026-11-09T10:45:24+00:00,1,,Base domain of attacker-controlled infrastructure used for malicious payload delivery,malware
+ipv4,193.57.9.155,high,2026-11-09T10:45:24+00:00,2026-11-09T10:45:24+00:00,1,,IP address used by malware as a C2 endpoint,c2
+sha256,5d5b4f259ef3b3d20f6ef1a63def6dee9326efe2b7b7b7e474008aa978f1f19b,high,2026-10-12T22:01:13.867245+00:00,2026-11-09T10:02:32.826902+00:00,1,,Listed as a suspected AsyncRAT C2 server.,c2
+sha256,d737637ee5f121d11a6f3295bf0d51b06218812b5ec04fe9ea484921e905a207,high,2026-10-12T22:01:13.867245+00:00,2026-11-09T10:02:32.826902+00:00,1,,Listed as a suspected AsyncRAT C2 server.,c2
+sha256,d9ab6cfa60cc75785e31ca9b5a31dae1c33022bdb90cb382ef3ca823c627590d,high,2026-10-12T22:01:13.867245+00:00,2026-11-09T10:02:32.826902+00:00,1,,Listed as a Lumma Stealer payload URL.,malware
+sha256,e726d3324ca8b9a8da4d317c5d749dd0ad58fd447a2eb5eee75ef14824339cd5,high,2026-10-12T22:01:13.867245+00:00,2026-11-09T10:02:32.826902+00:00,1,,Listed as a suspected AsyncRAT C2 server.,c2
+domain,analysis-id-lfg.info,high,2026-09-21T18:01:30.115223+00:00,2026-11-09T10:02:27.813351+00:00,1,,Listed as a C2 domain for ErrTraffic malware,c2
+sha1,a205c8a5fed81e9a787645b2801f00be3db3348d,high,2026-11-09T01:18:18+00:00,2026-11-09T01:18:18+00:00,1,,SHA-1 hash of a malicious npm tarball,supply_chain|malware
 domain,irc.supernets.org,high,2026-11-07T22:30:54.007739+00:00,2026-11-07T22:30:54.007739+00:00,1,,Set up by the author to accept connections on unusual ports as a proof of concept,other
 domain,direct.xcai.pro,high,2026-11-07T20:35:53.378549+00:00,2026-11-07T20:35:53.378549+00:00,1,,Identified as part of the attacker's infrastructure in the campaign,other
 domain,u6ud2s.dnslog.cn,high,2026-11-07T20:35:53.378549+00:00,2026-11-07T20:35:53.378549+00:00,1,,Used for DNS callback to confirm command execution,callback_testing
@@ -227,7 +237,6 @@ domain,dev.soft-png-cdn.com,high,2026-11-04T11:24:31+00:00,2026-11-04T11:24:31+0
 ipv4,142.111.194.73,high,2026-11-03T18:01:44.363139+00:00,2026-11-04T10:11:03.626581+00:00,1,,Listed as BeautyStealer exfiltration server,exfiltration
 sha256,51068e96d5cc21002b618c02bd5853520d73cb6451383e4094a70ea055251d5a,high,2026-11-04T08:10:15.668110+00:00,2026-11-04T08:10:15.668110+00:00,1,,Listed as a file hash in a malware analysis context.,malware
 ipv4,45.194.90.57,high,2026-11-03T23:53:53+00:00,2026-11-04T04:34:30.223780+00:00,2,,Used to download a payload in the attack process,malware|botnet
-ipv4,112.121.185.218,high,2026-11-04T03:55:19+00:00,2026-11-04T03:55:19+00:00,1,,IP address identified as hosting attacker infrastructure,c2|malware|proxy_tunnel
 domain,analytics.insightjs.com,high,2026-11-04T03:08:03.338852+00:00,2026-11-04T03:33:48+00:00,2,,Domain associated with the agent stage of the malware,malware
 domain,insightjs.com,high,2026-11-04T03:08:03.338852+00:00,2026-11-04T03:33:48+00:00,2,,Domain used for malware communication,malware|c2
 domain,insightjs.org,high,2026-11-04T03:08:03.338852+00:00,2026-11-04T03:33:48+00:00,2,,Domain used as a fallback for malware communication,malware|c2
@@ -2012,10 +2021,6 @@ ipv4,193.178.159.129,high,2026-10-13T11:53:10.900000+00:00,2026-10-13T11:53:10.9
 sha256,be77bca22f078d57058535ddcf26a39a752a8df030392cb45ba6a60e06651878,high,2026-10-13T11:53:10.900000+00:00,2026-10-13T11:53:10.900000+00:00,1,,Listed in a malware analysis as a credential-phishing sample hash,malware|phishing
 domain,agdx53.cc,high,2026-10-13T08:51:36+00:00,2026-10-13T08:51:36+00:00,1,,Reported as a command-and-control domain for DarkSword malware,c2
 domain,ecomtrack.io,high,2026-10-13T08:51:36+00:00,2026-10-13T08:51:36+00:00,1,,Re-registered by attackers to deliver DarkSword malware,malware|exploit
-sha256,5d5b4f259ef3b3d20f6ef1a63def6dee9326efe2b7b7b7e474008aa978f1f19b,high,2026-10-12T22:01:13.867245+00:00,2026-10-12T22:01:13.867245+00:00,1,,Listed as a suspected AsyncRAT C2 server.,c2
-sha256,d737637ee5f121d11a6f3295bf0d51b06218812b5ec04fe9ea484921e905a207,high,2026-10-12T22:01:13.867245+00:00,2026-10-12T22:01:13.867245+00:00,1,,Listed as a suspected AsyncRAT C2 server.,c2
-sha256,d9ab6cfa60cc75785e31ca9b5a31dae1c33022bdb90cb382ef3ca823c627590d,high,2026-10-12T22:01:13.867245+00:00,2026-10-12T22:01:13.867245+00:00,1,,Listed as a Lumma Stealer payload URL.,malware
-sha256,e726d3324ca8b9a8da4d317c5d749dd0ad58fd447a2eb5eee75ef14824339cd5,high,2026-10-12T22:01:13.867245+00:00,2026-10-12T22:01:13.867245+00:00,1,,Listed as a suspected AsyncRAT C2 server.,c2
 domain,freepressfront.com,high,2026-10-12T20:02:07.907502+00:00,2026-10-12T20:02:07.907502+00:00,1,,Part of a network of domains used for influence operations,influence_operations
 domain,free-speechfront.info,high,2026-10-12T20:02:07.907502+00:00,2026-10-12T20:02:07.907502+00:00,1,,Domain used to host misleading content as part of influence operations,influence_operations
 domain,free-speechfront.net,high,2026-10-12T20:02:07.907502+00:00,2026-10-12T20:02:07.907502+00:00,1,,Domain used to amplify misleading content in influence operations,influence_operations
@@ -3159,7 +3164,6 @@ domain,ethers.it,high,2026-09-21T18:33:44+00:00,2026-09-21T18:33:44+00:00,1,,Dom
 domain,execsync.it,high,2026-09-21T18:33:44+00:00,2026-09-21T18:33:44+00:00,1,,Domain with suspicious TLD likely registered by attacker for malicious purposes,other
 domain,fs.it,high,2026-09-21T18:33:44+00:00,2026-09-21T18:33:44+00:00,1,,Domain with suspicious TLD likely registered by attacker for malicious purposes,other
 domain,graph.js.it,high,2026-09-21T18:33:44+00:00,2026-09-21T18:33:44+00:00,1,,Domain with suspicious TLD likely registered by attacker for malicious purposes,other
-domain,analysis-id-lfg.info,high,2026-09-21T18:01:30.115223+00:00,2026-09-21T18:01:30.115223+00:00,1,,Listed as a C2 domain for ErrTraffic malware,c2
 domain,attachmentsharingdrive.xyz,high,2026-09-21T14:20:02+00:00,2026-09-21T15:00:57.908655+00:00,2,,Domain used as C2 infrastructure in the campaign,c2
 domain,corecloudfileshare.xyz,high,2026-09-21T14:20:02+00:00,2026-09-21T15:00:57.908655+00:00,2,,Domain used as C2 infrastructure in the campaign,c2
 domain,throughoutes.net,high,2026-09-21T13:05:04+00:00,2026-09-21T13:05:04+00:00,1,,Communicated with a PowerShell implant,c2

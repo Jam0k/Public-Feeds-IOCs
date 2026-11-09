@@ -1,4 +1,7 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason,categories
+eth,0xf8a900Db50b3331be6B768bA460BB59f3E40C344,high,2026-11-09T10:45:24+00:00,2026-11-09T10:45:24+00:00,1,,Ethereum contract address used by attacker to control C2 IP addresses,other
+eth,0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2,high,2026-07-15T10:09:30.310385+00:00,2026-11-09T10:02:27.813351+00:00,2,,Smart contract address used to retrieve C2 domain for malware,other
+eth,0xCaf2C54E400437da717cF215181B170F65187aBf,high,2026-09-21T18:01:30.115223+00:00,2026-11-09T10:02:27.813351+00:00,1,,Wallet address identified as operational hub for cybercriminal activities,crypto_drainer
 btc,bc1q2we5eqjj8je6lz9xwjattpc3pn4jejc5h0s70f,high,2026-11-06T13:40:44.281584+00:00,2026-11-06T13:40:44.281584+00:00,1,,Cryptocurrency wallet used by a transnational criminal organization,crypto_drainer
 btc,bc1qeth6n6ryxexvkx34wnx3nuynun4474h3j0gkhw,high,2026-11-06T13:40:44.281584+00:00,2026-11-06T13:40:44.281584+00:00,1,,Cryptocurrency wallet used by a transnational criminal organization,crypto_drainer
 btc,bc1qnujzvts45qka3cr2eqqw8ur3q6g6s0ze2wlk5m,high,2026-11-06T13:40:44.281584+00:00,2026-11-06T13:40:44.281584+00:00,1,,Cryptocurrency wallet used by a transnational criminal organization,crypto_drainer
@@ -661,8 +664,6 @@ eth,0xac0bfC4C48A679b667732128278EACBA1c191894,high,2026-09-21T21:03:59.851622+0
 eth,0xc0445F1b679DC46280A0f03F451bdf613b5A0feA,high,2026-09-21T21:03:59.851622+00:00,2026-09-21T21:03:59.851622+00:00,1,,Ethereum wallet used in malicious campaign,scam_fraud
 eth,0xd5A4620278788AcCf388B7Ea5f35f849465728E7,high,2026-09-21T21:03:59.851622+00:00,2026-09-21T21:03:59.851622+00:00,1,,Ethereum wallet used in malicious campaign,crypto_drainer
 eth,0xDe34270921D37124fd0b64ea3aE4c5062B467418,high,2026-09-21T21:03:59.851622+00:00,2026-09-21T21:03:59.851622+00:00,1,,Ethereum wallet used in malicious campaign,crypto_drainer
-eth,0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2,high,2026-07-15T10:09:30.310385+00:00,2026-09-21T18:01:30.115223+00:00,2,,Smart contract address used to retrieve C2 domain for malware,other
-eth,0xCaf2C54E400437da717cF215181B170F65187aBf,high,2026-09-21T18:01:30.115223+00:00,2026-09-21T18:01:30.115223+00:00,1,,Wallet address identified as operational hub for cybercriminal activities,crypto_drainer
 eth,0xf9099d0d747368cce8C10226CC9AF2bFD4DDbCF4,high,2026-09-21T14:16:39+00:00,2026-09-21T14:16:39+00:00,1,,Used as a smart contract for C2 discovery by the malware,other
 eth,0x3a35b409af86e79e8945d6a7ffb1dc59b8dbdf46,high,2026-09-14T16:32:19.199902+00:00,2026-09-21T11:02:57.464783+00:00,1,,Used for malicious contract interactions,other
 eth,0x130BEDC81bF39f0435bAA01538664Ee6ba0FF16c,high,2026-09-19T16:17:01+00:00,2026-09-19T16:17:01+00:00,1,,Cryptocurrency wallet used to receive stolen funds,crypto_drainer

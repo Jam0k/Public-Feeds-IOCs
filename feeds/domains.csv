@@ -1,4 +1,14 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason,categories
+domain,felixfuturenext.com,high,2026-11-09T15:02:15.435063+00:00,2026-11-09T15:02:15.435063+00:00,1,www.fortinet.com:2026-11-09,Domain used in phishing and malware attacks,phishing|malware
+domain,gomescareerplans.com,high,2026-11-09T15:02:15.435063+00:00,2026-11-09T15:02:15.435063+00:00,1,www.fortinet.com:2026-11-09,Domain used in attack chain for malware delivery,malware
+domain,goodnfortunes.com,high,2026-11-09T15:02:15.435063+00:00,2026-11-09T15:02:15.435063+00:00,1,www.fortinet.com:2026-11-09,Domain used for data exfiltration in attack chain,exfiltration
+domain,rivingtonclarks.com,high,2026-11-09T15:02:15.435063+00:00,2026-11-09T15:02:15.435063+00:00,1,www.fortinet.com:2026-11-09,Domain used as C2 panel for PapRAT,c2
+domain,techtalkhelp.com,high,2026-11-09T15:02:15.435063+00:00,2026-11-09T15:02:15.435063+00:00,1,www.fortinet.com:2026-11-09,Domain used for staging and command updates,malware
+domain,www.chestergreenfarming.com,high,2026-11-09T15:02:15.435063+00:00,2026-11-09T15:02:15.435063+00:00,1,www.fortinet.com:2026-11-09,Domain used as decoded C2 server,c2
+domain,www.rivingtonclarks.com,high,2026-11-09T15:02:15.435063+00:00,2026-11-09T15:02:15.435063+00:00,1,www.fortinet.com:2026-11-09,Domain used as C2 URL for PapRAT,c2
+domain,api.frameworkmetrics.xyz,high,2026-11-09T01:18:18+00:00,2026-11-09T10:45:24+00:00,2,Ox.Security:2026-11-09|Stepsecurity:2026-11-09,Domain used to deliver platform-specific JavaScript payloads in a malicious npm package,supply_chain|malware
+domain,frameworkmetrics.xyz,high,2026-11-09T10:45:24+00:00,2026-11-09T10:45:24+00:00,1,Ox.Security:2026-11-09,Domain used to deliver platform-specific JavaScript payloads in a malicious npm package,malware
+domain,analysis-id-lfg.info,high,2026-11-09T10:02:27.813351+00:00,2026-11-09T10:02:27.813351+00:00,1,www.sekoia.com:2026-11-09,Listed as a C2 domain for ErrTraffic malware,c2
 domain,irc.supernets.org,high,2026-11-07T22:30:54.007739+00:00,2026-11-07T22:30:54.007739+00:00,1,acid.vegas:2026-11-07,Set up by the author to accept connections on unusual ports as a proof of concept,other
 domain,direct.xcai.pro,high,2026-11-07T20:35:53.378549+00:00,2026-11-07T20:35:53.378549+00:00,1,hunt.io:2026-11-07,Identified as part of the attacker's infrastructure in the campaign,other
 domain,u6ud2s.dnslog.cn,high,2026-11-07T20:35:53.378549+00:00,2026-11-07T20:35:53.378549+00:00,1,hunt.io:2026-11-07,Used for DNS callback to confirm command execution,callback_testing
@@ -129,14 +139,7 @@ domain,zz.aiapi2025.top,high,2026-11-03T13:57:04+00:00,2026-11-03T13:57:04+00:00
 domain,icagllmbt.space,high,2026-11-03T00:00:00+00:00,2026-11-03T00:00:00+00:00,1,Safedep:2026-11-03,Registered by attacker for malware delivery,malware
 domain,file.anyevonline.com,high,2026-11-02T16:37:45.131093+00:00,2026-11-02T18:38:39+00:00,2,Bleepingcomputer:2026-11-02|synthient.com:2026-11-02,Hosts backdoors and other malicious files,malware
 domain,mqtt.anyevonline.com,high,2026-11-02T16:37:45.131093+00:00,2026-11-02T18:38:39+00:00,2,Bleepingcomputer:2026-11-02|synthient.com:2026-11-02,Used as the main administrator panel for operators,c2
-domain,felixfuturenext.com,high,2026-11-02T18:00:29.118178+00:00,2026-11-02T18:00:29.118178+00:00,1,www.fortinet.com:2026-11-02,Domain used in phishing and malware attacks,phishing|malware
-domain,gomescareerplans.com,high,2026-11-02T18:00:29.118178+00:00,2026-11-02T18:00:29.118178+00:00,1,www.fortinet.com:2026-11-02,Domain used in attack chain for malware delivery,malware
-domain,goodnfortunes.com,high,2026-11-02T18:00:29.118178+00:00,2026-11-02T18:00:29.118178+00:00,1,www.fortinet.com:2026-11-02,Domain used for data exfiltration in attack chain,exfiltration
-domain,rivingtonclarks.com,high,2026-11-02T18:00:29.118178+00:00,2026-11-02T18:00:29.118178+00:00,1,www.fortinet.com:2026-11-02,Domain used as C2 panel for PapRAT,c2
-domain,techtalkhelp.com,high,2026-11-02T18:00:29.118178+00:00,2026-11-02T18:00:29.118178+00:00,1,www.fortinet.com:2026-11-02,Domain used for staging and command updates,malware
-domain,www.chestergreenfarming.com,high,2026-11-02T18:00:29.118178+00:00,2026-11-02T18:00:29.118178+00:00,1,www.fortinet.com:2026-11-02,Domain used as decoded C2 server,c2
-domain,www.rivingtonclarks.com,high,2026-11-02T18:00:29.118178+00:00,2026-11-02T18:00:29.118178+00:00,1,www.fortinet.com:2026-11-02,Domain used as C2 URL for PapRAT,c2
-domain,arthurshelby.click,high,2026-10-10T05:02:45.293755+00:00,2026-11-02T17:02:17.201143+00:00,2,www.group-ib.com:2026-11-02|www.elastic.co:2026-10-10,Domain used for C2 registration and subdomain generation by malware,c2
+domain,arthurshelby.click,high,2026-11-02T17:02:17.201143+00:00,2026-11-02T17:02:17.201143+00:00,1,www.group-ib.com:2026-11-02,Listed as part of the supporting network infrastructure for C2 operations.,c2
 domain,korektell.com,high,2026-11-02T17:02:17.201143+00:00,2026-11-02T17:02:17.201143+00:00,1,www.group-ib.com:2026-11-02,Used in campaigns to compromise carriers with region-specific infrastructure.,phishing
 domain,newroztelecom.digital,high,2026-11-02T17:02:17.201143+00:00,2026-11-02T17:02:17.201143+00:00,1,www.group-ib.com:2026-11-02,Part of the supporting network infrastructure for C2 operations.,c2
 domain,ns2.arthurshelby.click,high,2026-11-02T17:02:17.201143+00:00,2026-11-02T17:02:17.201143+00:00,1,www.group-ib.com:2026-11-02,Nameserver associated with attacker-controlled domains.,c2
@@ -602,7 +605,7 @@ domain,house-connection.pro,high,2026-10-13T21:32:17.966241+00:00,2026-10-13T21:
 domain,watchguard-vpn.com,high,2026-10-13T21:00:10+00:00,2026-10-13T21:32:17.966241+00:00,2,www.watchguard.com:2026-10-13|Huntress:2026-10-13,Domain hosting malicious WatchGuard applications.,phishing
 domain,agdx53.cc,high,2026-10-13T08:51:36+00:00,2026-10-13T08:51:36+00:00,1,Esecurityplanet:2026-10-13,Reported as a command-and-control domain for DarkSword malware,c2
 domain,ecomtrack.io,high,2026-10-13T08:51:36+00:00,2026-10-13T08:51:36+00:00,1,Esecurityplanet:2026-10-13,Re-registered by attackers to deliver DarkSword malware,malware|exploit
-domain,c0cc.cc,high,2026-10-09T18:45:14+00:00,2026-10-11T13:37:33+00:00,2,Itnews.Au:2026-10-11|Finance.Biggo:2026-10-09,"Domain used to access Microscan, controlled by attackers",other
+domain,c0cc.cc,high,2026-10-11T13:37:33+00:00,2026-10-11T13:37:33+00:00,1,Itnews.Au:2026-10-11,Seized domain used by attackers for unauthorized access to stolen data,other
 domain,audit-coldcard.com,high,2026-10-11T12:09:50.126997+00:00,2026-10-11T12:09:50.126997+00:00,1,unclone.io:2026-10-11,Purpose-built phishing site using Coinkite's advisory language,phishing
 domain,coldcard-audit.com,high,2026-10-11T12:09:50.126997+00:00,2026-10-11T12:09:50.126997+00:00,1,unclone.io:2026-10-11,Registered as part of a phishing campaign targeting Coldcard users,phishing
 domain,coldcardfirmware.com,high,2026-10-11T12:09:50.126997+00:00,2026-10-11T12:09:50.126997+00:00,1,unclone.io:2026-10-11,Classified by Cloudflare as part of phishing infrastructure,phishing
@@ -613,23 +616,3 @@ domain,coldcardswallet.info,high,2026-10-11T12:09:50.126997+00:00,2026-10-11T12:
 domain,coldcardwallet.info,high,2026-10-11T12:09:50.126997+00:00,2026-10-11T12:09:50.126997+00:00,1,unclone.io:2026-10-11,Registered for phishing using Coinkite's incident response vocabulary,phishing
 domain,migrate.coldcardwallet.io,high,2026-10-11T10:56:35+00:00,2026-10-11T11:17:54+00:00,2,Tradingview:2026-10-11|Cryptobriefing:2026-10-11,Used in a phishing post on Coldcard's official account,phishing
 domain,cablewireltd.site,high,2026-10-11T06:46:26+00:00,2026-10-11T06:46:26+00:00,1,2-Spyware:2026-10-11,Identified as a source for malware delivery,malware
-domain,s.grldiyrsmvsggojzmi4wmyi.inevyrcfknfvit2qfvcvinjriffe6ib6hyqdambqgaydambahy7cama.arthurshelby.click,high,2026-10-10T05:02:45.293755+00:00,2026-10-10T05:02:45.293755+00:00,1,www.elastic.co:2026-10-10,Subdomain used for C2 registration by malware,c2|malware
-domain,lake-90.com,high,2026-10-09T22:12:56.295984+00:00,2026-10-09T22:12:56.295984+00:00,1,pushsecurity.com:2026-10-09,"Domain used to host and deliver payload, indicating attacker control",malware
-domain,claude-desk-code.com,high,2026-10-09T20:31:37+00:00,2026-10-09T20:31:37+00:00,1,Bleepingcomputer:2026-10-09,Used as a phishing destination in a campaign,phishing
-domain,98aicai.com,high,2026-10-09T18:45:14+00:00,2026-10-09T18:45:14+00:00,1,Finance.Biggo:2026-10-09,"Domain used to deliver post-compromise tool FishHub, controlled by attackers",malware
-domain,98aicode.com,high,2026-10-09T18:45:14+00:00,2026-10-09T18:45:14+00:00,1,Finance.Biggo:2026-10-09,"Domain used to deliver post-compromise tool FishHub, controlled by attackers",malware
-domain,linkedinns.net,high,2026-10-09T18:45:14+00:00,2026-10-09T18:45:14+00:00,1,Finance.Biggo:2026-10-09,"Domain used to deliver post-compromise tool FishHub, controlled by attackers",malware
-domain,outlook3650.com,high,2026-10-09T18:45:14+00:00,2026-10-09T18:45:14+00:00,1,Finance.Biggo:2026-10-09,"Domain used to deliver post-compromise tool FishHub, controlled by attackers",malware
-domain,youtubecard.com,high,2026-10-09T18:45:14+00:00,2026-10-09T18:45:14+00:00,1,Finance.Biggo:2026-10-09,"Domain used to deliver post-compromise tool FishHub, controlled by attackers",malware
-domain,ccwu.cc,high,2026-10-09T18:00:23.022990+00:00,2026-10-09T18:00:23.022990+00:00,1,censys.com:2026-10-09,Subdomains associated with C2 control panels,c2
-domain,escofiringbijou.com,high,2026-10-09T18:00:23.022990+00:00,2026-10-09T18:00:23.022990+00:00,1,censys.com:2026-10-09,Associated with a targeted campaign delivering malware,malware|c2
-domain,fc.rsqqq.top,high,2026-10-09T18:00:23.022990+00:00,2026-10-09T18:00:23.022990+00:00,1,censys.com:2026-10-09,Part of a cluster of domains used for C2 infrastructure,c2
-domain,g.northlab.cn,high,2026-10-09T18:00:23.022990+00:00,2026-10-09T18:00:23.022990+00:00,1,censys.com:2026-10-09,Tied to an operator's lab domain with self-signed certificates,other
-domain,hdios.cn,high,2026-10-09T18:00:23.022990+00:00,2026-10-09T18:00:23.022990+00:00,1,censys.com:2026-10-09,Hosts C2 infrastructure and exploit registry,c2|exploit
-domain,iplcz.cn,high,2026-10-09T18:00:23.022990+00:00,2026-10-09T18:00:23.022990+00:00,1,censys.com:2026-10-09,Associated with an operator's lab domain,other
-domain,manager.g.northlab.cn,high,2026-10-09T18:00:23.022990+00:00,2026-10-09T18:00:23.022990+00:00,1,censys.com:2026-10-09,Tied to an operator's lab domain with self-signed certificates,other
-domain,northlab.cn,high,2026-10-09T18:00:23.022990+00:00,2026-10-09T18:00:23.022990+00:00,1,censys.com:2026-10-09,Tied to an operator's lab domain with self-signed certificates,other
-domain,siekeltd.com,high,2026-10-09T18:00:23.022990+00:00,2026-10-09T18:00:23.022990+00:00,1,censys.com:2026-10-09,Listed as payload and C2 in a targeted campaign,malware|c2
-domain,breachforums.st,high,2026-10-09T17:01:55.081127+00:00,2026-10-09T17:01:55.081127+00:00,1,www.sekoia.com:2026-10-09,Described as a domain controlled by attackers to redirect users,cybercrime_forum
-domain,raid.lol,high,2026-10-09T17:01:55.081127+00:00,2026-10-09T17:01:55.081127+00:00,1,www.sekoia.com:2026-10-09,Described as a domain used by attackers for illegal activities,cybercrime_forum
-domain,rf.ws,high,2026-10-09T17:01:55.081127+00:00,2026-10-09T17:01:55.081127+00:00,1,www.sekoia.com:2026-10-09,Described as a domain used by attackers for illegal activities,cybercrime_forum

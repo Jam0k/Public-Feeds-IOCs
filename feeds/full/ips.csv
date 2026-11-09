@@ -1,4 +1,6 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason,categories
+ipv4,112.121.185.218,high,2026-11-04T03:55:19+00:00,2026-11-09T11:33:39.764694+00:00,2,,Identified as the primary node hosting multiple attack platforms including C2,c2|malware|proxy_tunnel
+ipv4,193.57.9.155,high,2026-11-09T10:45:24+00:00,2026-11-09T10:45:24+00:00,1,,IP address used by malware as a C2 endpoint,c2
 ipv4,154.201.79.246,high,2026-10-08T12:54:13+00:00,2026-11-07T20:35:53.378549+00:00,3,,Proxy service used in the attacker's infrastructure,proxy_tunnel
 ipv4,156.251.11.39,high,2026-11-07T20:00:02+00:00,2026-11-07T20:35:53.378549+00:00,2,,Hosts ARTEX panel and malicious open directories,malware
 ipv4,23.248.226.250,high,2026-11-07T20:00:02+00:00,2026-11-07T20:35:53.378549+00:00,2,,Acts as a jump server in the attacker's infrastructure,other
@@ -32,7 +34,6 @@ ipv4,45.9.148.221,high,2026-11-05T14:37:03.550931+00:00,2026-11-05T14:37:03.5509
 ipv4,157.20.182.49,high,2026-11-05T13:09:11+00:00,2026-11-05T13:09:11+00:00,1,,Controlled by the Iran-nexus adversary STATIC KITTEN,exploit
 ipv4,142.111.194.73,high,2026-11-03T18:01:44.363139+00:00,2026-11-04T10:11:03.626581+00:00,1,,Listed as BeautyStealer exfiltration server,exfiltration
 ipv4,45.194.90.57,high,2026-11-03T23:53:53+00:00,2026-11-04T04:34:30.223780+00:00,2,,Used to download a payload in the attack process,malware|botnet
-ipv4,112.121.185.218,high,2026-11-04T03:55:19+00:00,2026-11-04T03:55:19+00:00,1,,IP address identified as hosting attacker infrastructure,c2|malware|proxy_tunnel
 ipv4,89.127.233.127,high,2026-11-04T03:08:03.338852+00:00,2026-11-04T03:33:48+00:00,2,,Listed as an attacker IP that was shut down,malware|c2
 ipv4,43.175.144.148,high,2026-11-04T03:08:03.338852+00:00,2026-11-04T03:08:03.338852+00:00,1,,IP address served modified malicious file,malware
 ipv4,43.175.145.181,high,2026-11-04T03:08:03.338852+00:00,2026-11-04T03:08:03.338852+00:00,1,,IP address served modified malicious file,malware

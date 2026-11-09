@@ -1,4 +1,7 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason,categories
+domain,api.frameworkmetrics.xyz,high,2026-11-09T01:18:18+00:00,2026-11-09T10:45:24+00:00,2,,Domain used to deliver platform-specific JavaScript payloads in a malicious npm package,supply_chain|malware
+domain,frameworkmetrics.xyz,high,2026-11-09T10:45:24+00:00,2026-11-09T10:45:24+00:00,1,,Base domain of attacker-controlled infrastructure used for malicious payload delivery,malware
+domain,analysis-id-lfg.info,high,2026-09-21T18:01:30.115223+00:00,2026-11-09T10:02:27.813351+00:00,1,,Listed as a C2 domain for ErrTraffic malware,c2
 domain,irc.supernets.org,high,2026-11-07T22:30:54.007739+00:00,2026-11-07T22:30:54.007739+00:00,1,,Set up by the author to accept connections on unusual ports as a proof of concept,other
 domain,direct.xcai.pro,high,2026-11-07T20:35:53.378549+00:00,2026-11-07T20:35:53.378549+00:00,1,,Identified as part of the attacker's infrastructure in the campaign,other
 domain,u6ud2s.dnslog.cn,high,2026-11-07T20:35:53.378549+00:00,2026-11-07T20:35:53.378549+00:00,1,,Used for DNS callback to confirm command execution,callback_testing
@@ -1149,7 +1152,6 @@ domain,ethers.it,high,2026-09-21T18:33:44+00:00,2026-09-21T18:33:44+00:00,1,,Dom
 domain,execsync.it,high,2026-09-21T18:33:44+00:00,2026-09-21T18:33:44+00:00,1,,Domain with suspicious TLD likely registered by attacker for malicious purposes,other
 domain,fs.it,high,2026-09-21T18:33:44+00:00,2026-09-21T18:33:44+00:00,1,,Domain with suspicious TLD likely registered by attacker for malicious purposes,other
 domain,graph.js.it,high,2026-09-21T18:33:44+00:00,2026-09-21T18:33:44+00:00,1,,Domain with suspicious TLD likely registered by attacker for malicious purposes,other
-domain,analysis-id-lfg.info,high,2026-09-21T18:01:30.115223+00:00,2026-09-21T18:01:30.115223+00:00,1,,Listed as a C2 domain for ErrTraffic malware,c2
 domain,attachmentsharingdrive.xyz,high,2026-09-21T14:20:02+00:00,2026-09-21T15:00:57.908655+00:00,2,,Domain used as C2 infrastructure in the campaign,c2
 domain,corecloudfileshare.xyz,high,2026-09-21T14:20:02+00:00,2026-09-21T15:00:57.908655+00:00,2,,Domain used as C2 infrastructure in the campaign,c2
 domain,throughoutes.net,high,2026-09-21T13:05:04+00:00,2026-09-21T13:05:04+00:00,1,,Communicated with a PowerShell implant,c2
