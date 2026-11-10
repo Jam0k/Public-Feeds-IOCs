@@ -1,4 +1,23 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason,categories
+domain,bi2price.com,high,2026-11-10T03:03:07.874391+00:00,2026-11-10T03:03:07.874391+00:00,1,github.blog:2026-11-10,Listed among malicious npm packages and domains used in the campaign,supply_chain
+domain,coingeckoprice.com,high,2026-11-10T03:03:07.874391+00:00,2026-11-10T03:03:07.874391+00:00,1,github.blog:2026-11-10,Listed among malicious npm packages and domains used in the campaign,supply_chain
+domain,cryptopriceoffer.com,high,2026-11-10T03:03:07.874391+00:00,2026-11-10T03:03:07.874391+00:00,1,github.blog:2026-11-10,Listed among malicious npm packages and domains used in the campaign,supply_chain
+domain,npmaudit.com,high,2026-11-10T03:03:07.874391+00:00,2026-11-10T03:03:07.874391+00:00,1,github.blog:2026-11-10,Listed among malicious npm packages and domains used in the campaign,supply_chain
+domain,npmjscloud.com,high,2026-11-10T03:03:07.874391+00:00,2026-11-10T03:03:07.874391+00:00,1,github.blog:2026-11-10,Listed among malicious npm packages and domains used in the campaign,supply_chain
+domain,npmjsregister.com,high,2026-11-10T03:03:07.874391+00:00,2026-11-10T03:03:07.874391+00:00,1,github.blog:2026-11-10,Listed among malicious npm packages and domains used in the campaign,supply_chain
+domain,npmrepos.com,high,2026-11-10T03:03:07.874391+00:00,2026-11-10T03:03:07.874391+00:00,1,github.blog:2026-11-10,Listed among malicious npm packages and domains used in the campaign,supply_chain
+domain,tradingprice.net,high,2026-11-10T03:03:07.874391+00:00,2026-11-10T03:03:07.874391+00:00,1,github.blog:2026-11-10,Listed among malicious npm packages and domains used in the campaign,supply_chain
+domain,api.frameworkmetrics.xyz,high,2026-11-09T01:18:18+00:00,2026-11-09T18:31:57.060802+00:00,4,socket.dev:2026-11-09|Thehackernews:2026-11-09|Ox.Security:2026-11-09|Stepsecurity:2026-11-09,Domain used to fetch malicious JavaScript as part of the attack,supply_chain|malware
+domain,frameworkmetrics.xyz,high,2026-11-09T10:45:24+00:00,2026-11-09T18:31:57.060802+00:00,2,socket.dev:2026-11-09|Ox.Security:2026-11-09,Domain used to fetch malicious JavaScript as part of the attack,malware
+ipv4,178.16.54.222,high,2026-11-09T18:31:57.060802+00:00,2026-11-09T18:31:57.060802+00:00,1,socket.dev:2026-11-09,IP address used as a hub in the attack infrastructure,c2
+ipv4,185.232.84.169,high,2026-11-09T00:00:00+00:00,2026-11-09T18:31:57.060802+00:00,3,socket.dev:2026-11-09|Thehackernews:2026-11-09|Safedep:2026-11-09,Relay IP address used in the attack infrastructure,c2
+ipv4,193.57.9.155,high,2026-11-09T00:00:00+00:00,2026-11-09T18:31:57.060802+00:00,4,socket.dev:2026-11-09|Thehackernews:2026-11-09|Ox.Security:2026-11-09|Safedep:2026-11-09,IP address used as a hub in the attack infrastructure,c2
+ipv4,193.57.9.17,high,2026-11-09T18:31:57.060802+00:00,2026-11-09T18:31:57.060802+00:00,1,socket.dev:2026-11-09,IP address used as a hub in the attack infrastructure,c2
+ipv4,91.108.240.156,high,2026-11-09T18:31:57.060802+00:00,2026-11-09T18:31:57.060802+00:00,1,socket.dev:2026-11-09,IP address used as a hub in the attack infrastructure,c2
+domain,api.tablacysexplorer.com,high,2026-11-09T17:02:47.578875+00:00,2026-11-09T17:02:47.578875+00:00,1,malbearlabs.com:2026-11-09,Identified as the beacon domain for C2 communication,c2
+ipv4,113.23.212.15,high,2026-11-09T17:02:47.578875+00:00,2026-11-09T17:02:47.578875+00:00,1,malbearlabs.com:2026-11-09,Listed as a tool download server used by the attacker,malware
+domain,tac.vpnla.org,high,2026-11-09T16:12:15+00:00,2026-11-09T16:12:15+00:00,1,Bleepingcomputer:2026-11-09,Identified as a C2 server for TAC Agent,c2
+domain,tradingclaw.pro,high,2026-11-09T15:58:45+00:00,2026-11-09T15:58:45+00:00,1,Cryptopolitan:2026-11-09,Used as a fake website to distribute malware,malware
 domain,felixfuturenext.com,high,2026-11-09T15:02:15.435063+00:00,2026-11-09T15:02:15.435063+00:00,1,www.fortinet.com:2026-11-09,Domain used in phishing and malware attacks,phishing|malware
 domain,gomescareerplans.com,high,2026-11-09T15:02:15.435063+00:00,2026-11-09T15:02:15.435063+00:00,1,www.fortinet.com:2026-11-09,Domain used in attack chain for malware delivery,malware
 domain,goodnfortunes.com,high,2026-11-09T15:02:15.435063+00:00,2026-11-09T15:02:15.435063+00:00,1,www.fortinet.com:2026-11-09,Domain used for data exfiltration in attack chain,exfiltration
@@ -6,12 +25,74 @@ domain,rivingtonclarks.com,high,2026-11-09T15:02:15.435063+00:00,2026-11-09T15:0
 domain,techtalkhelp.com,high,2026-11-09T15:02:15.435063+00:00,2026-11-09T15:02:15.435063+00:00,1,www.fortinet.com:2026-11-09,Domain used for staging and command updates,malware
 domain,www.chestergreenfarming.com,high,2026-11-09T15:02:15.435063+00:00,2026-11-09T15:02:15.435063+00:00,1,www.fortinet.com:2026-11-09,Domain used as decoded C2 server,c2
 domain,www.rivingtonclarks.com,high,2026-11-09T15:02:15.435063+00:00,2026-11-09T15:02:15.435063+00:00,1,www.fortinet.com:2026-11-09,Domain used as C2 URL for PapRAT,c2
+ipv4,37.16.75.128,high,2026-11-09T14:24:06+00:00,2026-11-09T14:24:06+00:00,1,Sekoia:2026-11-09,IP address involved in exploitation attempt,exploit|scanner
+domain,creepexplosiondarknight.com,high,2026-11-09T14:05:09+00:00,2026-11-09T14:05:09+00:00,1,Huntress:2026-11-09,Contains a C2 URL used by malware,c2|malware
+ipv4,136.0.141.71,high,2026-11-05T17:00:49.402066+00:00,2026-11-09T13:28:25+00:00,2,Thehackernews:2026-11-09|blog.xlab.qianxin.com:2026-11-05,IP address used as a download server for a backdoor,malware|c2
+ipv4,156.246.94.183,high,2026-11-09T13:28:25+00:00,2026-11-09T13:28:25+00:00,1,Thehackernews:2026-11-09,IP address identified as the origin of malware delivery activity,other
 ipv4,112.121.185.218,high,2026-11-04T03:55:19+00:00,2026-11-09T11:33:39.764694+00:00,2,www.acronis.com:2026-11-09|Acronis:2026-11-04,Identified as the primary node hosting multiple attack platforms including C2,c2|malware|proxy_tunnel
-domain,api.frameworkmetrics.xyz,high,2026-11-09T01:18:18+00:00,2026-11-09T10:45:24+00:00,2,Ox.Security:2026-11-09|Stepsecurity:2026-11-09,Domain used to deliver platform-specific JavaScript payloads in a malicious npm package,supply_chain|malware
-domain,frameworkmetrics.xyz,high,2026-11-09T10:45:24+00:00,2026-11-09T10:45:24+00:00,1,Ox.Security:2026-11-09,Domain used to deliver platform-specific JavaScript payloads in a malicious npm package,malware
-ipv4,193.57.9.155,high,2026-11-09T00:00:00+00:00,2026-11-09T10:45:24+00:00,2,Ox.Security:2026-11-09|Safedep:2026-11-09,IP address used as a hub for the Go-based RAT malware,c2
+domain,0350pvas.acs-wcst.com,high,2026-11-09T11:32:39.346278+00:00,2026-11-09T11:32:39.346278+00:00,1,any.run:2026-11-09,Domain hosting phishing kit,phishing
+domain,1355bcra.ck29material.com,high,2026-11-09T11:32:39.346278+00:00,2026-11-09T11:32:39.346278+00:00,1,any.run:2026-11-09,Domain hosting phishing kit,phishing
+domain,1717emxr.acs-wcst.com,high,2026-11-09T11:32:39.346278+00:00,2026-11-09T11:32:39.346278+00:00,1,any.run:2026-11-09,Domain hosting phishing kit,phishing
+domain,5375jngu.prefform.us,high,2026-11-09T11:32:39.346278+00:00,2026-11-09T11:32:39.346278+00:00,1,any.run:2026-11-09,Domain hosting phishing kit,phishing
+domain,6662nyde.acs-wcst.com,high,2026-11-09T11:32:39.346278+00:00,2026-11-09T11:32:39.346278+00:00,1,any.run:2026-11-09,Domain hosting phishing kit,phishing
+domain,6695lkmo.prefform.us,high,2026-11-09T11:32:39.346278+00:00,2026-11-09T11:32:39.346278+00:00,1,any.run:2026-11-09,Domain hosting phishing kit,phishing
+domain,7301eqny.acs-wcst.com,high,2026-11-09T11:32:39.346278+00:00,2026-11-09T11:32:39.346278+00:00,1,any.run:2026-11-09,Domain hosting phishing kit,phishing
+domain,7criccasinobonus.cc,high,2026-11-09T11:32:39.346278+00:00,2026-11-09T11:32:39.346278+00:00,1,any.run:2026-11-09,Domain hosting phishing kit,phishing
+domain,acrobat-adobe-com-4464uswc.egllo.com,high,2026-11-09T11:32:39.346278+00:00,2026-11-09T11:32:39.346278+00:00,1,any.run:2026-11-09,Domain hosting phishing kit,phishing
+domain,advancedsteelbuilding.com,high,2026-11-09T11:32:39.346278+00:00,2026-11-09T11:32:39.346278+00:00,1,any.run:2026-11-09,Domain hosting phishing kit,phishing
+domain,alfabricationinc.com,high,2026-11-09T11:32:39.346278+00:00,2026-11-09T11:32:39.346278+00:00,1,any.run:2026-11-09,Domain hosting phishing kit,phishing
+domain,auth-loadingdocuments.online,high,2026-11-09T11:32:39.346278+00:00,2026-11-09T11:32:39.346278+00:00,1,any.run:2026-11-09,Listed as a domain hosting a phishing kit,phishing
+domain,awemode.outlookoffice365.microsoftcopilots.docshare.linnwest.us,high,2026-11-09T11:32:39.346278+00:00,2026-11-09T11:32:39.346278+00:00,1,any.run:2026-11-09,Listed as a domain hosting a phishing kit,phishing
+domain,docshare.auth2026.onedrive.outlooksdocument.csr-rooflng.com,high,2026-11-09T11:32:39.346278+00:00,2026-11-09T11:32:39.346278+00:00,1,any.run:2026-11-09,Listed as a domain hosting a phishing kit,phishing
+domain,docshare.auth.copilot.outlook.onedrive.common0.evergreenerg.com,high,2026-11-09T11:32:39.346278+00:00,2026-11-09T11:32:39.346278+00:00,1,any.run:2026-11-09,Listed as a domain hosting a phishing kit,phishing
+domain,docshare.auth.copilot.outlook.onedrive.common.earthlink-net.com,high,2026-11-09T11:32:39.346278+00:00,2026-11-09T11:32:39.346278+00:00,1,any.run:2026-11-09,Listed as a domain hosting a phishing kit,phishing
+domain,docshare.auth.copilot.outlook.onedrive.common.evergreenerg.com,high,2026-11-09T11:32:39.346278+00:00,2026-11-09T11:32:39.346278+00:00,1,any.run:2026-11-09,Listed as a domain hosting a phishing kit,phishing
+domain,docshare.auth.copilot.outlook.onedrive.common.northemheating.com,high,2026-11-09T11:32:39.346278+00:00,2026-11-09T11:32:39.346278+00:00,1,any.run:2026-11-09,Listed as a domain hosting a phishing kit,phishing
+domain,docshare.auth.copilot.outlookonedrive.common.northemheating.com,high,2026-11-09T11:32:39.346278+00:00,2026-11-09T11:32:39.346278+00:00,1,any.run:2026-11-09,Listed as a domain hosting a phishing kit,phishing
+domain,docshares.auth2026.outlookcommon.copilots.commm.csr-rooflng.com,high,2026-11-09T11:32:39.346278+00:00,2026-11-09T11:32:39.346278+00:00,1,any.run:2026-11-09,Listed as a domain hosting a phishing kit,phishing
+domain,document.akiflx.com,high,2026-11-09T11:32:39.346278+00:00,2026-11-09T11:32:39.346278+00:00,1,any.run:2026-11-09,Listed as a domain hosting a phishing kit,phishing
+domain,eccentric-authentication.com,high,2026-11-09T11:32:39.346278+00:00,2026-11-09T11:32:39.346278+00:00,1,any.run:2026-11-09,Listed as a domain hosting a phishing kit,phishing
+domain,ecosys.newdocument2026.pdfdocshared.tntileandmarbleinc.com,high,2026-11-09T11:32:39.346278+00:00,2026-11-09T11:32:39.346278+00:00,1,any.run:2026-11-09,Listed as a domain hosting a phishing kit,phishing
+domain,efaxdoc.auth.login.outlook.office365.tescoccontrols.com,high,2026-11-09T11:32:39.346278+00:00,2026-11-09T11:32:39.346278+00:00,1,any.run:2026-11-09,Listed as a domain hosting a phishing kit,phishing
+domain,efaxdoc.auth.outlook2026common.copilos26.bettylnc.com,high,2026-11-09T11:32:39.346278+00:00,2026-11-09T11:32:39.346278+00:00,1,any.run:2026-11-09,Listed as a domain hosting a phishing kit,phishing
+domain,efaxdoc.auth.outlook2026common.copilos26.ikextal-co-kr.com,high,2026-11-09T11:32:39.346278+00:00,2026-11-09T11:32:39.346278+00:00,1,any.run:2026-11-09,Listed as a domain hosting a phishing kit,phishing
+domain,efaxdoc.auth.outlook2026common.copilos26.kone-inc.com,high,2026-11-09T11:32:39.346278+00:00,2026-11-09T11:32:39.346278+00:00,1,any.run:2026-11-09,Listed as a domain hosting a phishing kit,phishing
+domain,efaxdoc.documents2026.cmc.docs.shared.matchlinemechanicallc.com,high,2026-11-09T11:32:39.346278+00:00,2026-11-09T11:32:39.346278+00:00,1,any.run:2026-11-09,Listed as a domain hosting a phishing kit,phishing
+domain,goldcreekconcrete.com,high,2026-11-09T11:32:39.346278+00:00,2026-11-09T11:32:39.346278+00:00,1,any.run:2026-11-09,Hosts directories associated with phishing kits,phishing
+domain,goldcreekconcrete.org,high,2026-11-09T11:32:39.346278+00:00,2026-11-09T11:32:39.346278+00:00,1,any.run:2026-11-09,Hosts directories associated with phishing kits,phishing
+domain,login.microsoft365.outlook.copilotsoffice365.lntactpr.com,high,2026-11-09T11:32:39.346278+00:00,2026-11-09T11:32:39.346278+00:00,1,any.run:2026-11-09,Listed as a domain hosting a phishing kit,phishing
+domain,login.office365outlooks.microsoft.cloud-outlook.naregruop.com,high,2026-11-09T11:32:39.346278+00:00,2026-11-09T11:32:39.346278+00:00,1,any.run:2026-11-09,Listed as a domain hosting a phishing kit,phishing
+domain,m365cloud.login.outlook.office365.azgymfloor.com,high,2026-11-09T11:32:39.346278+00:00,2026-11-09T11:32:39.346278+00:00,1,any.run:2026-11-09,Listed as a domain hosting a phishing kit,phishing
+domain,outlookdrive.microsoftonline.common.oauth2.client.buycerm.com,high,2026-11-09T11:32:39.346278+00:00,2026-11-09T11:32:39.346278+00:00,1,any.run:2026-11-09,Listed as a domain hosting a phishing kit,phishing
+domain,outlookoffice365.microsoftcopilots.vigilantlnc.com,high,2026-11-09T11:32:39.346278+00:00,2026-11-09T11:32:39.346278+00:00,1,any.run:2026-11-09,Listed as a domain hosting a phishing kit,phishing
+domain,payapp.auth.outlook2026common.copilos26.bettylnc.com,high,2026-11-09T11:32:39.346278+00:00,2026-11-09T11:32:39.346278+00:00,1,any.run:2026-11-09,Listed as a domain hosting a phishing kit,phishing
+domain,pdfdocshared.auth.outlook2026common.copilos26.ikextal-co-kr.com,high,2026-11-09T11:32:39.346278+00:00,2026-11-09T11:32:39.346278+00:00,1,any.run:2026-11-09,Listed as a domain hosting a phishing kit,phishing
+domain,pdocshared.documents2026.docs.shared.ecmholdlnggroup.com,high,2026-11-09T11:32:39.346278+00:00,2026-11-09T11:32:39.346278+00:00,1,any.run:2026-11-09,Listed as a domain hosting a phishing kit,phishing
+domain,pdocshared.payments2026.outlooks.common.ecmholdlnggroup.com,high,2026-11-09T11:32:39.346278+00:00,2026-11-09T11:32:39.346278+00:00,1,any.run:2026-11-09,Listed as a domain hosting a phishing kit,phishing
+domain,reauth.copilot.auth.outlook.mcloud365.buycerm.com,high,2026-11-09T11:32:39.346278+00:00,2026-11-09T11:32:39.346278+00:00,1,any.run:2026-11-09,Listed as a domain hosting a phishing kit,phishing
+domain,reauth.copilot.auth.outlook.mcloud365.myhalnc.com,high,2026-11-09T11:32:39.346278+00:00,2026-11-09T11:32:39.346278+00:00,1,any.run:2026-11-09,Listed as a domain hosting a phishing kit,phishing
+domain,reauth.copilot.common.outlook.mcloud365.atlarchitacts.com,high,2026-11-09T11:32:39.346278+00:00,2026-11-09T11:32:39.346278+00:00,1,any.run:2026-11-09,Listed as a domain hosting a phishing kit,phishing
+domain,reauth.docs.copilot.auth02.outlook.mcloud365.argentventuras.com,high,2026-11-09T11:32:39.346278+00:00,2026-11-09T11:32:39.346278+00:00,1,any.run:2026-11-09,Listed as a domain hosting a phishing kit,phishing
+domain,sdocshares.auth.outlook2026common.copilos26.csr-rooflng.com,high,2026-11-09T11:32:39.346278+00:00,2026-11-09T11:32:39.346278+00:00,1,any.run:2026-11-09,Listed as a domain hosting a phishing kit,phishing
+domain,sdocshares.auth.outlook.copilos26.general.csr-rooflng.com,high,2026-11-09T11:32:39.346278+00:00,2026-11-09T11:32:39.346278+00:00,1,any.run:2026-11-09,Listed as a domain hosting a phishing kit,phishing
+domain,sdocshares.authoutlooks.common.copilots2026.hathormson.com,high,2026-11-09T11:32:39.346278+00:00,2026-11-09T11:32:39.346278+00:00,1,any.run:2026-11-09,Listed as a domain hosting a phishing kit,phishing
+domain,sedocs.docs.payrol2026.common.copilots2026.vatrarnsformer.com,high,2026-11-09T11:32:39.346278+00:00,2026-11-09T11:32:39.346278+00:00,1,any.run:2026-11-09,Listed as a domain hosting a phishing kit,phishing
+domain,shared.paymentsclouds.statementsapproved.jetbusinesscapltal.com,high,2026-11-09T11:32:39.346278+00:00,2026-11-09T11:32:39.346278+00:00,1,any.run:2026-11-09,Listed as a domain hosting a phishing kit,phishing
+domain,solutions00fileptroduct.com,high,2026-11-09T11:32:39.346278+00:00,2026-11-09T11:32:39.346278+00:00,1,any.run:2026-11-09,Domain appears in a list of suspicious domains likely used for malicious purposes,phishing
+domain,statement.docdriveoauth.authorized.copilot.syrosconstructlon.com,high,2026-11-09T11:32:39.346278+00:00,2026-11-09T11:32:39.346278+00:00,1,any.run:2026-11-09,Domain appears in a list of suspicious domains likely used for malicious purposes,phishing
+domain,statement.outlookoffice365.microsoftcopilots.calmechc.net,high,2026-11-09T11:32:39.346278+00:00,2026-11-09T11:32:39.346278+00:00,1,any.run:2026-11-09,Domain appears in a list of suspicious domains likely used for malicious purposes,phishing
+domain,statements.outlook.office365microsoft.payment.run.stoneclty.com,high,2026-11-09T11:32:39.346278+00:00,2026-11-09T11:32:39.346278+00:00,1,any.run:2026-11-09,Domain appears in a list of suspicious domains likely used for malicious purposes,phishing
+domain,studeseliamechan.link,high,2026-11-09T11:32:39.346278+00:00,2026-11-09T11:32:39.346278+00:00,1,any.run:2026-11-09,Domain appears in a list of suspicious domains likely used for malicious purposes,phishing
+domain,sunraycontractlng.com,high,2026-11-09T11:32:39.346278+00:00,2026-11-09T11:32:39.346278+00:00,1,any.run:2026-11-09,Domain appears in a list of suspicious domains likely used for malicious purposes,phishing
+domain,topcoatmetalsfinishing.com,high,2026-11-09T11:32:39.346278+00:00,2026-11-09T11:32:39.346278+00:00,1,any.run:2026-11-09,Domain appears in a list of suspicious domains likely used for malicious purposes,phishing
+domain,unitedwirescompany.com,high,2026-11-09T11:32:39.346278+00:00,2026-11-09T11:32:39.346278+00:00,1,any.run:2026-11-09,Domain appears in a list of suspicious domains likely used for malicious purposes,phishing
+domain,us-agricultures.com,high,2026-11-09T11:32:39.346278+00:00,2026-11-09T11:32:39.346278+00:00,1,any.run:2026-11-09,Domain appears in a list of suspicious domains likely used for malicious purposes,phishing
+domain,westlakeproduces.com,high,2026-11-09T11:32:39.346278+00:00,2026-11-09T11:32:39.346278+00:00,1,any.run:2026-11-09,Domain appears in a list of suspicious domains likely used for malicious purposes,phishing
+domain,whitfillsnursery.com,high,2026-11-09T11:32:39.346278+00:00,2026-11-09T11:32:39.346278+00:00,1,any.run:2026-11-09,Domain appears in a list of suspicious domains likely used for malicious purposes,phishing
+domain,wsochares.authpayments.common.paid2026.bullochdirtwroks.com,high,2026-11-09T11:32:39.346278+00:00,2026-11-09T11:32:39.346278+00:00,1,any.run:2026-11-09,Domain appears in a list of suspicious domains likely used for malicious purposes,phishing
+domain,wwriwashingtonenergy.com,high,2026-11-09T11:32:39.346278+00:00,2026-11-09T11:32:39.346278+00:00,1,any.run:2026-11-09,Domain appears in a list of suspicious domains likely used for malicious purposes,phishing
 domain,analysis-id-lfg.info,high,2026-11-09T10:02:27.813351+00:00,2026-11-09T10:02:27.813351+00:00,1,www.sekoia.com:2026-11-09,Listed as a C2 domain for ErrTraffic malware,c2
-ipv4,185.232.84.169,high,2026-11-09T00:00:00+00:00,2026-11-09T00:00:00+00:00,1,Safedep:2026-11-09,IP address used as a relay for remote access tool,
+ipv4,38.207.176.218,high,2026-11-09T06:02:06+00:00,2026-11-09T06:02:06+00:00,1,Redpacketsecurity:2026-11-09,IP address associated with exposed Mythic C2 interface,c2
 domain,irc.supernets.org,high,2026-11-07T22:30:54.007739+00:00,2026-11-07T22:30:54.007739+00:00,1,acid.vegas:2026-11-07,Set up by the author to accept connections on unusual ports as a proof of concept,other
 domain,direct.xcai.pro,high,2026-11-07T20:35:53.378549+00:00,2026-11-07T20:35:53.378549+00:00,1,hunt.io:2026-11-07,Identified as part of the attacker's infrastructure in the campaign,other
 domain,u6ud2s.dnslog.cn,high,2026-11-07T20:35:53.378549+00:00,2026-11-07T20:35:53.378549+00:00,1,hunt.io:2026-11-07,Used for DNS callback to confirm command execution,callback_testing
@@ -35,7 +116,8 @@ domain,firehousesubs-us.com,high,2026-11-06T19:19:27+00:00,2026-11-06T19:19:27+0
 domain,jerseymikes-delivery.com,high,2026-11-06T19:19:27+00:00,2026-11-06T19:19:27+00:00,1,News.Ycombinator:2026-11-06,Listed among typosquatted domains used for phishing,phishing
 domain,pandaexpressdelivery.com,high,2026-11-06T19:19:27+00:00,2026-11-06T19:19:27+00:00,1,News.Ycombinator:2026-11-06,"Domain used as part of a phishing campaign, indicating attacker control.",phishing
 domain,wingstop-delivery.com,high,2026-11-06T19:19:27+00:00,2026-11-06T19:19:27+00:00,1,News.Ycombinator:2026-11-06,"Domain used as part of a phishing campaign, indicating attacker control.",phishing
-domain,paleasbest.top,high,2026-11-06T17:11:11.050000+00:00,2026-11-06T17:11:11.050000+00:00,1,Socket.Dev:2026-11-06,"Domain used for exfiltration in a malware campaign, indicating attacker control.",exfiltration
+domain,aiarmor.website,high,2026-10-22T00:00:00+00:00,2026-11-06T17:11:11.050000+00:00,3,Socket.Dev:2026-11-06|research.jfrog.com:2026-10-28|Safedep:2026-10-22,Listed as a fallback endpoint for data exfiltration.,malware
+domain,paleasbest.top,high,2026-11-06T17:11:11.050000+00:00,2026-11-06T17:11:11.050000+00:00,1,Socket.Dev:2026-11-06,"Used for exfiltration of credentials, indicating attacker control.",exfiltration
 domain,proxystream.st,high,2026-10-18T19:45:05+00:00,2026-11-06T15:29:50+00:00,3,Cyberinsider:2026-11-06|www.boredhackerblog.info:2026-10-25|Cordcuttersnews:2026-10-18,Associated with malicious activity and used in attacks,proxy_tunnel
 ipv4,103.59.160.171,high,2026-11-05T15:58:24+00:00,2026-11-06T14:47:10+00:00,2,Mezha:2026-11-06|Wordfence:2026-11-05,Listed as a top offending IP address targeting a vulnerability,scanner
 ipv4,154.26.238.8,high,2026-11-05T15:58:24+00:00,2026-11-06T14:47:10+00:00,2,Mezha:2026-11-06|Wordfence:2026-11-05,Listed as a top offending IP address targeting a vulnerability,scanner
@@ -46,7 +128,6 @@ domain,git.oddium.io,high,2026-11-06T13:30:55.835872+00:00,2026-11-06T13:30:55.8
 ipv4,199.19.77.84,high,2026-11-04T19:04:02+00:00,2026-11-06T13:00:29.149754+00:00,3,www.todyl.com:2026-11-06|Ciberseguridadlatam:2026-11-06|Fieldeffect:2026-11-04,Identified as the operator's IP with confirmed malicious activity,malware
 ipv4,104.234.26.163,high,2026-11-06T10:50:31+00:00,2026-11-06T10:50:31+00:00,1,Bloglab.360:2026-11-06,Listed as part of a malicious campaign targeting educational institutions,c2
 ipv4,157.22.126.128,high,2026-11-06T04:30:56+00:00,2026-11-06T10:37:41+00:00,2,Ciberseguridadlatam:2026-11-06|Microsoft:2026-11-06,Associated with malicious reconnaissance operations,scanner
-ipv4,136.0.141.71,high,2026-11-05T17:00:49.402066+00:00,2026-11-06T06:16:02+00:00,2,Thehackernews:2026-11-06|blog.xlab.qianxin.com:2026-11-05,IP address used as a download server for a backdoor,malware|c2
 ipv4,154.12.94.78,high,2026-11-06T06:01:32+00:00,2026-11-06T06:01:32+00:00,1,Redpacketsecurity:2026-11-06,Identified as a Mythic C2 server,c2
 domain,clickcom.click,high,2026-11-06T04:48:54+00:00,2026-11-06T04:48:54+00:00,1,Cyfirma:2026-11-06,Listed in a YARA rule as a domain indicator,traffic_distribution
 domain,clicko.click,high,2026-11-06T04:48:54+00:00,2026-11-06T04:48:54+00:00,1,Cyfirma:2026-11-06,Listed in a YARA rule as a domain indicator,traffic_distribution
@@ -62,7 +143,6 @@ domain,cdn.adv-static.com,high,2026-11-06T00:37:33.464844+00:00,2026-11-06T00:37
 domain,edge-ord.clouds-stacks.com,high,2026-11-06T00:37:33.464844+00:00,2026-11-06T00:37:33.464844+00:00,1,blog.ostorlab.co:2026-11-06,"Listed in network logs for compromise checks, indicating attacker control.",malware
 domain,wpvortex-mod.com,high,2026-11-06T00:37:33.464844+00:00,2026-11-06T00:37:33.464844+00:00,1,blog.ostorlab.co:2026-11-06,"Listed in network logs for compromise checks, indicating attacker control.",malware
 domain,amasonses.com,high,2026-11-05T21:35:05+00:00,2026-11-05T23:31:44.823729+00:00,2,www.sh.consulting:2026-11-05|Darkreading:2026-11-05,"Misspelled domain used for SPF abuse, indicating attacker control.",phishing
-domain,amzonses.com,high,2026-11-05T21:35:05+00:00,2026-11-05T23:31:44.823729+00:00,2,www.sh.consulting:2026-11-05|Darkreading:2026-11-05,"Misspelled domain used for SPF abuse, indicating attacker control.",phishing
 domain,bomex.org,high,2026-11-05T23:31:44.823729+00:00,2026-11-05T23:31:44.823729+00:00,1,www.sh.consulting:2026-11-05,Domain no longer affiliated with original owner and used for unauthorized activities.,scam_fraud
 domain,dispatch-us-ppe-hosted.com,high,2026-11-05T23:31:44.823729+00:00,2026-11-05T23:31:44.823729+00:00,1,www.sh.consulting:2026-11-05,"Misspelled domain used for SPF abuse, indicating attacker control.",phishing
 domain,domancontrol.com,high,2026-11-05T23:31:44.823729+00:00,2026-11-05T23:31:44.823729+00:00,1,www.sh.consulting:2026-11-05,Typo domain potentially used for DNS manipulation.,other
@@ -119,6 +199,20 @@ ipv4,45.9.148.221,high,2026-11-05T14:37:03.550931+00:00,2026-11-05T14:37:03.5509
 ipv4,157.20.182.49,high,2026-11-05T13:09:11+00:00,2026-11-05T13:09:11+00:00,1,Crowdstrike:2026-11-05,Controlled by the Iran-nexus adversary STATIC KITTEN,exploit
 domain,mygta6.icu,high,2026-11-04T18:16:17+00:00,2026-11-05T11:41:50+00:00,2,Helpnetsecurity:2026-11-05|Hackread:2026-11-04,Domain used for scams involving fake game keys.,scam_fraud
 domain,3vb.org,high,2026-11-05T09:04:14+00:00,2026-11-05T09:04:14+00:00,1,3Vb:2026-11-05,Fraudulent site impersonating 3 Verulam Buildings,scam_fraud
+domain,careertrixauvex.ink,high,2026-11-05T08:36:28.377656+00:00,2026-11-05T08:36:28.377656+00:00,1,www.proofpoint.com:2026-11-05,Part of related infrastructure used by attackers,other
+domain,connectptogether.ink,high,2026-11-05T08:36:28.377656+00:00,2026-11-05T08:36:28.377656+00:00,1,www.proofpoint.com:2026-11-05,Part of related infrastructure used by attackers,phishing
+domain,contactpredicttogether.ink,high,2026-11-05T08:36:28.377656+00:00,2026-11-05T08:36:28.377656+00:00,1,www.proofpoint.com:2026-11-05,Part of related infrastructure used by attackers,phishing
+domain,contacttrixauvex.ink,high,2026-11-05T08:36:28.377656+00:00,2026-11-05T08:36:28.377656+00:00,1,www.proofpoint.com:2026-11-05,Part of related infrastructure used by attackers,phishing
+domain,deep-ai-guard.store,high,2026-11-05T08:36:28.377656+00:00,2026-11-05T08:36:28.377656+00:00,1,www.proofpoint.com:2026-11-05,Part of related infrastructure used by attackers,phishing
+domain,hr.contacttrixauvex.ink,high,2026-11-05T08:36:28.377656+00:00,2026-11-05T08:36:28.377656+00:00,1,www.proofpoint.com:2026-11-05,Part of related infrastructure used by attackers,phishing
+domain,hr.mailpredicttogether.ink,high,2026-11-05T08:36:28.377656+00:00,2026-11-05T08:36:28.377656+00:00,1,www.proofpoint.com:2026-11-05,Part of related infrastructure used by attackers,phishing
+domain,hr.mailtrixauvex.ink,high,2026-11-05T08:36:28.377656+00:00,2026-11-05T08:36:28.377656+00:00,1,www.proofpoint.com:2026-11-05,Part of related infrastructure used by attackers,other
+domain,hr.onoplanoai.ink,high,2026-11-05T08:36:28.377656+00:00,2026-11-05T08:36:28.377656+00:00,1,www.proofpoint.com:2026-11-05,Part of related infrastructure used by attackers,phishing
+domain,hr.trixauvexnet.ink,high,2026-11-05T08:36:28.377656+00:00,2026-11-05T08:36:28.377656+00:00,1,www.proofpoint.com:2026-11-05,Part of related infrastructure used by attackers,other
+domain,mailpredicttogether.ink,high,2026-11-05T08:36:28.377656+00:00,2026-11-05T08:36:28.377656+00:00,1,www.proofpoint.com:2026-11-05,Part of related infrastructure used by attackers,other
+domain,predicttogerecruit.store,high,2026-11-05T08:36:28.377656+00:00,2026-11-05T08:36:28.377656+00:00,1,www.proofpoint.com:2026-11-05,Part of related infrastructure used by attackers,other
+domain,predicttogether.ink,high,2026-11-05T08:36:28.377656+00:00,2026-11-05T08:36:28.377656+00:00,1,www.proofpoint.com:2026-11-05,Part of related infrastructure used by attackers,other
+domain,predicttogetherrecruit.store,high,2026-11-05T08:36:28.377656+00:00,2026-11-05T08:36:28.377656+00:00,1,www.proofpoint.com:2026-11-05,Part of related infrastructure used by attackers,phishing
 domain,cyberleek.click,high,2026-11-04T18:16:17+00:00,2026-11-04T18:16:17+00:00,1,Hackread:2026-11-04,Domain used to distribute malware and demand cryptocurrency payments.,malware
 domain,gta6cyberleek.com,high,2026-11-04T18:16:17+00:00,2026-11-04T18:16:17+00:00,1,Hackread:2026-11-04,Domain used to distribute a file flagged as a Trojan.,malware
 domain,gta6keycodes.com,high,2026-11-04T18:16:17+00:00,2026-11-04T18:16:17+00:00,1,Hackread:2026-11-04,Domain used for scams involving fake game keys.,scam_fraud
@@ -364,7 +458,6 @@ ipv4,45.90.13.169,high,2026-10-28T12:00:04+00:00,2026-10-28T12:00:04+00:00,1,Clo
 domain,virtualine.org,high,2026-10-28T11:41:01+00:00,2026-10-28T11:41:01+00:00,1,Helpnetsecurity:2026-10-28,"Domain used by Virtualine to post an open letter disputing allegations, indicating attacker control",bulletproof_hosting
 domain,lanhd6549tdhse.top,high,2026-10-24T00:00:00+00:00,2026-10-28T07:31:19.901894+00:00,5,sansec.io:2026-10-28|Securityaffairs.Co:2026-10-26|Thehackernews:2026-10-26|Securityweek:2026-10-26|Sansec:2026-10-24,Described as a freshly registered domain used to inject malicious JavaScript,malware
 ipv4,43.228.157.68,high,2026-10-28T02:58:27+00:00,2026-10-28T06:31:20.619550+00:00,2,www.infoworld.com:2026-10-28|Csoonline:2026-10-28,Reported as a server used in exploitation infrastructure,exploit
-domain,aiarmor.website,high,2026-10-22T00:00:00+00:00,2026-10-28T06:31:18.999798+00:00,2,research.jfrog.com:2026-10-28|Safedep:2026-10-22,Listed as a fallback endpoint for data exfiltration.,malware
 ipv4,189.249.195.244,high,2026-10-28T06:01:28+00:00,2026-10-28T06:01:28+00:00,1,Redpacketsecurity:2026-10-28,Identified as a Mythic-branded C2 interface,c2
 domain,wikileaks2.site,high,2026-10-28T03:33:15+00:00,2026-10-28T03:33:15+00:00,1,Acronis:2026-10-28,Domain used for publishing stolen data,exfiltration
 domain,1x0.is,high,2026-10-27T21:12:06.561606+00:00,2026-10-27T21:12:06.561606+00:00,1,sansec.io:2026-10-27,"Domain used to exfiltrate card details from compromised checkouts, indicating attacker control.",exfiltration
@@ -783,14 +876,3 @@ ipv4,61.18.208.27,high,2026-10-12T14:53:04+00:00,2026-10-12T14:53:04+00:00,1,The
 ipv4,118.145.196.225,high,2026-10-11T16:02:05.609563+00:00,2026-10-11T16:02:05.609563+00:00,1,www.fortinet.com:2026-10-11,Listed as a download source for malware by the attacker,malware
 ipv4,124.163.212.119,high,2026-10-11T16:02:05.609563+00:00,2026-10-11T16:02:05.609563+00:00,1,www.fortinet.com:2026-10-11,Listed as a download source for malware by the attacker,malware
 ipv4,222.223.152.97,high,2026-10-11T16:02:05.609563+00:00,2026-10-11T16:02:05.609563+00:00,1,www.fortinet.com:2026-10-11,Listed as a download source for malware by the attacker,malware
-domain,c0cc.cc,high,2026-10-11T13:37:33+00:00,2026-10-11T13:37:33+00:00,1,Itnews.Au:2026-10-11,Seized domain used by attackers for unauthorized access to stolen data,other
-domain,audit-coldcard.com,high,2026-10-11T12:09:50.126997+00:00,2026-10-11T12:09:50.126997+00:00,1,unclone.io:2026-10-11,Purpose-built phishing site using Coinkite's advisory language,phishing
-domain,coldcard-audit.com,high,2026-10-11T12:09:50.126997+00:00,2026-10-11T12:09:50.126997+00:00,1,unclone.io:2026-10-11,Registered as part of a phishing campaign targeting Coldcard users,phishing
-domain,coldcardfirmware.com,high,2026-10-11T12:09:50.126997+00:00,2026-10-11T12:09:50.126997+00:00,1,unclone.io:2026-10-11,Classified by Cloudflare as part of phishing infrastructure,phishing
-domain,cold-card.live,high,2026-10-11T12:09:50.126997+00:00,2026-10-11T12:09:50.126997+00:00,1,unclone.io:2026-10-11,Registered for phishing using Coinkite's incident response vocabulary,phishing
-domain,coldcard.online,high,2026-10-11T12:09:50.126997+00:00,2026-10-11T12:09:50.126997+00:00,1,unclone.io:2026-10-11,Identified as a phishing site for seed-phrase harvesting,phishing
-domain,coldcards.app,high,2026-10-11T12:09:50.126997+00:00,2026-10-11T12:09:50.126997+00:00,1,unclone.io:2026-10-11,Registered for phishing using Coinkite's incident response vocabulary,phishing
-domain,coldcardswallet.info,high,2026-10-11T12:09:50.126997+00:00,2026-10-11T12:09:50.126997+00:00,1,unclone.io:2026-10-11,Registered for phishing using Coinkite's incident response vocabulary,phishing
-domain,coldcardwallet.info,high,2026-10-11T12:09:50.126997+00:00,2026-10-11T12:09:50.126997+00:00,1,unclone.io:2026-10-11,Registered for phishing using Coinkite's incident response vocabulary,phishing
-domain,migrate.coldcardwallet.io,high,2026-10-11T10:56:35+00:00,2026-10-11T11:17:54+00:00,2,Tradingview:2026-10-11|Cryptobriefing:2026-10-11,Used in a phishing post on Coldcard's official account,phishing
-domain,cablewireltd.site,high,2026-10-11T06:46:26+00:00,2026-10-11T06:46:26+00:00,1,2-Spyware:2026-10-11,Identified as a source for malware delivery,malware

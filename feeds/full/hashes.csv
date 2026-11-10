@@ -1,4 +1,15 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason,categories
+sha256,d01fdf241aa9e0a1ba6ebc19f8f667af1bf652745021c5050126cb7036f7ce58,high,2026-11-09T18:31:57.060802+00:00,2026-11-09T18:31:57.060802+00:00,1,,SHA-256 hash of a malicious npm tarball,malware
+sha256,f81315968e679b48f6bdff1c9b928bb223230d07f44d7948412c2250c2a14deb,high,2026-11-09T18:31:57.060802+00:00,2026-11-09T18:31:57.060802+00:00,1,,SHA-256 hash of a malicious JavaScript file,malware
+sha256,37d14bff30762ca701e9c1f8bc6c57c065bb20ae3a2208cb7411a6530610f08e,high,2026-11-09T17:40:38+00:00,2026-11-09T17:40:38+00:00,1,,SHA-256 hash of a malicious PowerShell script,malware
+sha256,0d10a6472facabf7d7a8cfd2492fc990b890754c3d90888ef9fe5b2d2cca41c0,high,2026-11-09T16:30:59.657125+00:00,2026-11-09T16:30:59.657125+00:00,1,,Listed as a malware sample hash,malware
+sha256,95dcac62fc15e99d112d812f7687292e34de0e8e0a39e4f12082f726fa1b50ed,high,2026-11-09T16:30:59.657125+00:00,2026-11-09T16:30:59.657125+00:00,1,,Listed as a malware sample hash,malware
+sha256,65f061281c9a712e9502793dc4c5035cae490b84da05f7d4223cefa65ad396e4,high,2026-11-09T15:41:22+00:00,2026-11-09T15:41:22+00:00,1,,SHA-256 hash of a malicious ISO file used by the attacker,malware
+sha256,411c0b9a2f98b927d806a685faf0c1ab1005647b4816157008892347fb88546b,high,2026-11-02T18:00:29.118178+00:00,2026-11-09T15:02:15.435063+00:00,1,,SHA256 hash listed as malware sample,malware
+sha256,569a21b519aaac8c92f653d708ab6ef34e3f38ea967f47e041d1e2425f6a4b33,high,2026-11-02T18:00:29.118178+00:00,2026-11-09T15:02:15.435063+00:00,1,,SHA256 hash listed as malware sample,malware
+sha256,a3081df333ca7f18bd90d10a45125ab5011dcf9d2806feae2935f09cab07da4c,high,2026-11-02T18:00:29.118178+00:00,2026-11-09T15:02:15.435063+00:00,1,,SHA256 hash listed among malware samples,malware
+sha256,ccefbdec2718d864d9d33c743aabfcef88a8d7904d1c598bfcf15cf5f3591c88,high,2026-11-02T18:00:29.118178+00:00,2026-11-09T15:02:15.435063+00:00,1,,SHA256 hash listed among malware samples,malware
+sha256,e3992f8c945b0761242377cba32d91b0a390c7cecd79478439843d93e6d2b76b,high,2026-11-02T18:00:29.118178+00:00,2026-11-09T15:02:15.435063+00:00,1,,SHA256 hash listed among malware samples,malware
 sha256,5d5b4f259ef3b3d20f6ef1a63def6dee9326efe2b7b7b7e474008aa978f1f19b,high,2026-10-12T22:01:13.867245+00:00,2026-11-09T10:02:32.826902+00:00,1,,Listed as a suspected AsyncRAT C2 server.,c2
 sha256,d737637ee5f121d11a6f3295bf0d51b06218812b5ec04fe9ea484921e905a207,high,2026-10-12T22:01:13.867245+00:00,2026-11-09T10:02:32.826902+00:00,1,,Listed as a suspected AsyncRAT C2 server.,c2
 sha256,d9ab6cfa60cc75785e31ca9b5a31dae1c33022bdb90cb382ef3ca823c627590d,high,2026-10-12T22:01:13.867245+00:00,2026-11-09T10:02:32.826902+00:00,1,,Listed as a Lumma Stealer payload URL.,malware
@@ -26,13 +37,13 @@ sha256,e94402a9886d4433ccad0ced0cd4f22d055d1f0f7e4155dbec992433eb94e00c,high,202
 sha256,ea525336b787c2fd3dbc4b3e9a3a78f71004e1bd43e2e1ed953edad51118cb72,high,2026-10-20T10:11:03+00:00,2026-11-07T02:02:40.788788+00:00,2,,Listed as a Hookedge dropper,malware
 sha256,f1cc91e7427a22027f65d31bbee19c54b602d08d7d93e4745b9cea59fa8132ff,high,2026-10-20T10:11:03+00:00,2026-11-07T02:02:40.788788+00:00,2,,Listed as a reflective loader,malware
 sha256,9f8b8630f88afc0b4a1aedeefb4e20adbf3fb9dea06f64747fb0bdf65c0a7bc1,high,2026-11-06T22:30:41.459298+00:00,2026-11-06T22:30:41.459298+00:00,1,,Associated with a malicious campaign involving credential exfiltration,malware|exfiltration
-sha256,306c1deec402e8b4a6478e7f0fe02194bcd224d37d8fc6ba61ad1951e8abd7a9,high,2026-11-06T17:11:11.050000+00:00,2026-11-06T17:11:11.050000+00:00,1,,File hash associated with a malicious RubyGems package,supply_chain|malware
-sha256,3b3f6e1bde0b28b015030a81a6d805b5b5306dc3f021e1102123971cfd83acc0,high,2026-11-06T17:11:11.050000+00:00,2026-11-06T17:11:11.050000+00:00,1,,File hash associated with a malicious RubyGems package,supply_chain|malware
-sha256,66c1c6b6b2c47e96fa5fd328338b939e1360511ab5eb2dda6d9112f592259d6b,high,2026-11-06T17:11:11.050000+00:00,2026-11-06T17:11:11.050000+00:00,1,,File hash associated with a malicious RubyGems package,supply_chain|malware
-sha256,c5264f3b9cf2f95c83a70b7dd7430aab8abc262b853dbbcd5386c3a8a9c74769,high,2026-11-06T17:11:11.050000+00:00,2026-11-06T17:11:11.050000+00:00,1,,File hash associated with a malicious RubyGems package,supply_chain|malware
-sha256,c78daf27c42c3929758b24c2ef0baf65eea81b26b0fddfe8a5b748672d40d5f5,high,2026-11-06T17:11:11.050000+00:00,2026-11-06T17:11:11.050000+00:00,1,,File hash associated with a malicious RubyGems package,supply_chain|malware
-sha256,c7ef186aa59b67d9b198a14f6dc8aaee6dd86510ac7c37d28f65d310cd846411,high,2026-11-06T17:11:11.050000+00:00,2026-11-06T17:11:11.050000+00:00,1,,File hash associated with a malicious Python backdoor,malware
-sha256,e29a5319888319b51345ab8e3e009938ee5c2b9ae5d6bdd053f4f44c98f309d3,high,2026-11-06T17:11:11.050000+00:00,2026-11-06T17:11:11.050000+00:00,1,,File hash associated with a malicious RubyGems package,supply_chain|malware
+sha256,306c1deec402e8b4a6478e7f0fe02194bcd224d37d8fc6ba61ad1951e8abd7a9,high,2026-11-06T17:11:11.050000+00:00,2026-11-06T17:11:11.050000+00:00,1,,Listed as a file hash of a malicious component in the threat report.,supply_chain|malware
+sha256,3b3f6e1bde0b28b015030a81a6d805b5b5306dc3f021e1102123971cfd83acc0,high,2026-11-06T17:11:11.050000+00:00,2026-11-06T17:11:11.050000+00:00,1,,Listed as a file hash of a malicious component in the threat report.,supply_chain|malware
+sha256,66c1c6b6b2c47e96fa5fd328338b939e1360511ab5eb2dda6d9112f592259d6b,high,2026-11-06T17:11:11.050000+00:00,2026-11-06T17:11:11.050000+00:00,1,,Listed as a file hash of a malicious component in the threat report.,supply_chain|malware
+sha256,c5264f3b9cf2f95c83a70b7dd7430aab8abc262b853dbbcd5386c3a8a9c74769,high,2026-11-06T17:11:11.050000+00:00,2026-11-06T17:11:11.050000+00:00,1,,Listed as a file hash of a malicious component in the threat report.,supply_chain|malware
+sha256,c78daf27c42c3929758b24c2ef0baf65eea81b26b0fddfe8a5b748672d40d5f5,high,2026-11-06T17:11:11.050000+00:00,2026-11-06T17:11:11.050000+00:00,1,,Listed as a file hash of a malicious component in the threat report.,supply_chain|malware
+sha256,c7ef186aa59b67d9b198a14f6dc8aaee6dd86510ac7c37d28f65d310cd846411,high,2026-11-06T17:11:11.050000+00:00,2026-11-06T17:11:11.050000+00:00,1,,Listed as a file hash of a malicious component in the threat report.,malware
+sha256,e29a5319888319b51345ab8e3e009938ee5c2b9ae5d6bdd053f4f44c98f309d3,high,2026-11-06T17:11:11.050000+00:00,2026-11-06T17:11:11.050000+00:00,1,,Listed as a file hash of a malicious component in the threat report.,supply_chain|malware
 sha256,2ff2945b13a4cd0e9a65c85af29ea1539e162a516466c0de682dbf9f8a4000b1,high,2026-09-22T15:01:52.497356+00:00,2026-11-06T11:09:17.383163+00:00,1,,Hash of a malicious backdoor delivered to targets,malware|c2
 md5,09e1da2afa1216ecc55648ec8e122d2a,high,2026-11-06T10:50:31+00:00,2026-11-06T10:50:31+00:00,1,,Listed as part of a malicious campaign targeting educational institutions,malware
 md5,2770562d104391b92b42671c270079bb,high,2026-11-06T10:50:31+00:00,2026-11-06T10:50:31+00:00,1,,Listed as part of a malicious campaign targeting educational institutions,malware
@@ -77,6 +88,9 @@ sha256,de8d1b25e8965dc98c62d675ee7c451ed12502194890f6cc691322ad66f3abf4,high,202
 sha256,fd6b46d148af22da6163f18ce43b35ebb827cc6e140f03f0f514bc2a6f548743,high,2026-11-05T13:09:11+00:00,2026-11-05T13:09:11+00:00,1,,Listed as a modified version of a public POC exploit,exploit
 md5,054a32d6033b1744dca7f49b2e466ea2,high,2026-11-05T11:38:51+00:00,2026-11-05T11:38:51+00:00,1,,Identified as a malicious driver used in an attack,malware|ransomware
 md5,2d9ebf9c042f596f435865b40edad928,high,2026-11-05T11:38:51+00:00,2026-11-05T11:38:51+00:00,1,,Identified as a malicious DLL used in a sideloading attack,malware|ransomware
+sha256,2812e0847d472cb8870c94f463331dbe53b84135132b9bf5f6d84c2382be628f,high,2026-06-08T15:11:53+00:00,2026-11-05T08:36:28.377656+00:00,2,,Listed as a malware sample in the report,malware
+sha256,4f7a8c3d2e1b5f9071a6b2c8d4e3f50a92b1c7d6e8f4a30b5c2d9e1f7a6b8c4d,high,2026-06-08T15:11:53+00:00,2026-11-05T08:36:28.377656+00:00,2,,Used as an AES-256-GCM key for decrypting payloads,malware
+sha256,52886aab179f26421678ff23af1b0fabf0a17ffbb534369cdbbac8008cbed8e7,high,2026-06-08T15:11:53+00:00,2026-11-05T08:36:28.377656+00:00,2,,Listed as a malware sample in the report,malware
 sha256,1f6640102f6472523830d69630def669dc3433bbb1c0e6183458bd792d420f8e,high,2026-11-04T17:41:01.499024+00:00,2026-11-04T17:41:01.499024+00:00,1,,Listed as a ransomware sample hash in a threat report,ransomware
 sha256,232f86e26ced211630957baffcd36dd3bcd6a786f3d307127e1ea9a8b31c199f,high,2026-11-04T17:41:01.499024+00:00,2026-11-04T17:41:01.499024+00:00,1,,Listed as a ransomware sample hash in a threat report,ransomware
 sha256,28f3de066878cb710fe5d44f7e11f65f25328beff953e00587ffeb5ac4b2faa8,high,2026-11-04T17:41:01.499024+00:00,2026-11-04T17:41:01.499024+00:00,1,,Listed as a ransomware sample hash in a threat report,ransomware
@@ -140,11 +154,6 @@ sha256,63810ee8b478575f3b2c6c46160c1fd338b213c6fc11bb0069dac9bbb7db237d,high,202
 sha256,86d0c50cab4f394c58976c44d6d7b67a7dfbbb813fbcf622236e183d94fd944f,high,2026-05-01T19:01:21+00:00,2026-11-03T15:36:46.143961+00:00,2,,Listed as a file hash from the infection in a malware analysis.,malware
 sha256,a4fcfecc5ac8fa57614b23928a0e9b7aa4f4a3b2b3a8c1772487b46277125571,high,2026-05-01T19:01:21+00:00,2026-11-03T15:36:46.143961+00:00,2,,Listed as a file hash from the infection in a malware analysis.,malware
 md5,96146abb8c2a75dab8cc1bb46c323923,high,2026-11-02T14:28:46+00:00,2026-11-02T21:30:50.094224+00:00,2,,Listed as a hash of a malware sample,malware
-sha256,411c0b9a2f98b927d806a685faf0c1ab1005647b4816157008892347fb88546b,high,2026-11-02T18:00:29.118178+00:00,2026-11-02T18:00:29.118178+00:00,1,,SHA256 hash listed as malware sample,malware
-sha256,569a21b519aaac8c92f653d708ab6ef34e3f38ea967f47e041d1e2425f6a4b33,high,2026-11-02T18:00:29.118178+00:00,2026-11-02T18:00:29.118178+00:00,1,,SHA256 hash listed as malware sample,malware
-sha256,a3081df333ca7f18bd90d10a45125ab5011dcf9d2806feae2935f09cab07da4c,high,2026-11-02T18:00:29.118178+00:00,2026-11-02T18:00:29.118178+00:00,1,,SHA256 hash listed among malware samples,malware
-sha256,ccefbdec2718d864d9d33c743aabfcef88a8d7904d1c598bfcf15cf5f3591c88,high,2026-11-02T18:00:29.118178+00:00,2026-11-02T18:00:29.118178+00:00,1,,SHA256 hash listed among malware samples,malware
-sha256,e3992f8c945b0761242377cba32d91b0a390c7cecd79478439843d93e6d2b76b,high,2026-11-02T18:00:29.118178+00:00,2026-11-02T18:00:29.118178+00:00,1,,SHA256 hash listed among malware samples,malware
 sha256,0135b69bab304564628488829b825050d1dd6dab98e86ec6776839dac9365af9,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,Listed as a representative SHA256 hash of malicious software,malware|botnet
 sha256,01b8c78f5509119b3e27ea4d628048985b94b5e00db0431d843519cf1d3e2cde,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,Listed as a representative SHA256 hash of malicious software,malware|botnet
 sha256,02490fa9f472ec872723d64d03402967e77932d2df72c588b0d7a7df9e17ae62,high,2026-11-02T14:28:46+00:00,2026-11-02T14:28:46+00:00,1,,Listed as a representative SHA256 hash of malicious software,malware|botnet
@@ -3470,10 +3479,7 @@ md5,6cbc93b041165d59ea5ded0c5f377171,high,2026-06-09T11:44:35.643172+00:00,2026-
 md5,FC3A8EABD07A221B478A4DDD77DDCE43,high,2026-06-09T11:44:35.643172+00:00,2026-06-09T11:44:35.643172+00:00,1,,Listed as malware sample hash in threat report.,malware
 sha256,3d371ef71e40c34a75c168d4647db096c2f386499d99a88d4e16b63cd4acda25,high,2026-06-08T08:12:54+00:00,2026-06-09T05:24:07+00:00,1,,listed as malware sample hash,malware
 md5,A534e03a8094db089445b75199abf2d9,high,2026-06-08T18:05:28.588746+00:00,2026-06-08T18:05:28.588746+00:00,1,,Listed in a malware analysis as a hash of a malware sample,malware
-sha256,2812e0847d472cb8870c94f463331dbe53b84135132b9bf5f6d84c2382be628f,high,2026-06-08T15:11:53+00:00,2026-06-08T15:11:53+00:00,1,,Listed as a hash in a malware analysis,malware
 sha256,4c0d9b802c075be79e9edb52d88f8dd72e6904f5c58267213745818470945c78,high,2026-06-08T15:11:53+00:00,2026-06-08T15:11:53+00:00,1,,Hash listed among malware samples,malware
-sha256,4f7a8c3d2e1b5f9071a6b2c8d4e3f50a92b1c7d6e8f4a30b5c2d9e1f7a6b8c4d,high,2026-06-08T15:11:53+00:00,2026-06-08T15:11:53+00:00,1,,Listed as a hash in a malware analysis,malware
-sha256,52886aab179f26421678ff23af1b0fabf0a17ffbb534369cdbbac8008cbed8e7,high,2026-06-08T15:11:53+00:00,2026-06-08T15:11:53+00:00,1,,Listed as a hash in a malware analysis,malware
 sha256,62761f38ed194c59abe15c49f09f0ebc431ac852c965180c9327ed84d3a454fb,high,2026-06-08T15:11:53+00:00,2026-06-08T15:11:53+00:00,1,,Listed in a table of hashes as a malware sample.,malware
 sha256,6cf9f7b2aa456a0b438600588df869b38d8007e28f01fa96022f9d8059f120b0,high,2026-06-08T15:11:53+00:00,2026-06-08T15:11:53+00:00,1,,Listed in a table of hashes as a malware sample.,malware
 sha256,734699773e53d995f20d485eb61261033d9d00b4332b39ca26071bcd60cd352f,high,2026-06-08T15:11:53+00:00,2026-06-08T15:11:53+00:00,1,,Listed in a table of hashes as a malware sample.,malware

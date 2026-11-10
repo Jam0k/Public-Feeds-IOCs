@@ -1,7 +1,15 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason,categories
+ipv4,178.16.54.222,high,2026-11-09T18:31:57.060802+00:00,2026-11-09T18:31:57.060802+00:00,1,socket.dev:2026-11-09,IP address used as a hub in the attack infrastructure,c2
+ipv4,185.232.84.169,high,2026-11-09T00:00:00+00:00,2026-11-09T18:31:57.060802+00:00,3,socket.dev:2026-11-09|Thehackernews:2026-11-09|Safedep:2026-11-09,Relay IP address used in the attack infrastructure,c2
+ipv4,193.57.9.155,high,2026-11-09T00:00:00+00:00,2026-11-09T18:31:57.060802+00:00,4,socket.dev:2026-11-09|Thehackernews:2026-11-09|Ox.Security:2026-11-09|Safedep:2026-11-09,IP address used as a hub in the attack infrastructure,c2
+ipv4,193.57.9.17,high,2026-11-09T18:31:57.060802+00:00,2026-11-09T18:31:57.060802+00:00,1,socket.dev:2026-11-09,IP address used as a hub in the attack infrastructure,c2
+ipv4,91.108.240.156,high,2026-11-09T18:31:57.060802+00:00,2026-11-09T18:31:57.060802+00:00,1,socket.dev:2026-11-09,IP address used as a hub in the attack infrastructure,c2
+ipv4,113.23.212.15,high,2026-11-09T17:02:47.578875+00:00,2026-11-09T17:02:47.578875+00:00,1,malbearlabs.com:2026-11-09,Listed as a tool download server used by the attacker,malware
+ipv4,37.16.75.128,high,2026-11-09T14:24:06+00:00,2026-11-09T14:24:06+00:00,1,Sekoia:2026-11-09,IP address involved in exploitation attempt,exploit|scanner
+ipv4,136.0.141.71,high,2026-11-05T17:00:49.402066+00:00,2026-11-09T13:28:25+00:00,2,Thehackernews:2026-11-09|blog.xlab.qianxin.com:2026-11-05,IP address used as a download server for a backdoor,malware|c2
+ipv4,156.246.94.183,high,2026-11-09T13:28:25+00:00,2026-11-09T13:28:25+00:00,1,Thehackernews:2026-11-09,IP address identified as the origin of malware delivery activity,other
 ipv4,112.121.185.218,high,2026-11-04T03:55:19+00:00,2026-11-09T11:33:39.764694+00:00,2,www.acronis.com:2026-11-09|Acronis:2026-11-04,Identified as the primary node hosting multiple attack platforms including C2,c2|malware|proxy_tunnel
-ipv4,193.57.9.155,high,2026-11-09T00:00:00+00:00,2026-11-09T10:45:24+00:00,2,Ox.Security:2026-11-09|Safedep:2026-11-09,IP address used as a hub for the Go-based RAT malware,c2
-ipv4,185.232.84.169,high,2026-11-09T00:00:00+00:00,2026-11-09T00:00:00+00:00,1,Safedep:2026-11-09,IP address used as a relay for remote access tool,
+ipv4,38.207.176.218,high,2026-11-09T06:02:06+00:00,2026-11-09T06:02:06+00:00,1,Redpacketsecurity:2026-11-09,IP address associated with exposed Mythic C2 interface,c2
 ipv4,154.201.79.246,high,2026-11-07T20:00:02+00:00,2026-11-07T20:35:53.378549+00:00,2,hunt.io:2026-11-07|Securityaffairs:2026-11-07,Proxy service used in the attacker's infrastructure,proxy_tunnel
 ipv4,156.251.11.39,high,2026-11-07T20:00:02+00:00,2026-11-07T20:35:53.378549+00:00,2,hunt.io:2026-11-07|Securityaffairs:2026-11-07,Hosts ARTEX panel and malicious open directories,malware
 ipv4,23.248.226.250,high,2026-11-07T20:00:02+00:00,2026-11-07T20:35:53.378549+00:00,2,hunt.io:2026-11-07|Securityaffairs:2026-11-07,Acts as a jump server in the attacker's infrastructure,other
@@ -16,7 +24,6 @@ ipv4,96.62.218.148,high,2026-11-05T15:58:24+00:00,2026-11-06T14:47:10+00:00,2,Me
 ipv4,199.19.77.84,high,2026-11-04T19:04:02+00:00,2026-11-06T13:00:29.149754+00:00,3,www.todyl.com:2026-11-06|Ciberseguridadlatam:2026-11-06|Fieldeffect:2026-11-04,Identified as the operator's IP with confirmed malicious activity,malware
 ipv4,104.234.26.163,high,2026-11-06T10:50:31+00:00,2026-11-06T10:50:31+00:00,1,Bloglab.360:2026-11-06,Listed as part of a malicious campaign targeting educational institutions,c2
 ipv4,157.22.126.128,high,2026-11-06T04:30:56+00:00,2026-11-06T10:37:41+00:00,2,Ciberseguridadlatam:2026-11-06|Microsoft:2026-11-06,Associated with malicious reconnaissance operations,scanner
-ipv4,136.0.141.71,high,2026-11-05T17:00:49.402066+00:00,2026-11-06T06:16:02+00:00,2,Thehackernews:2026-11-06|blog.xlab.qianxin.com:2026-11-05,IP address used as a download server for a backdoor,malware|c2
 ipv4,154.12.94.78,high,2026-11-06T06:01:32+00:00,2026-11-06T06:01:32+00:00,1,Redpacketsecurity:2026-11-06,Identified as a Mythic C2 server,c2
 ipv4,219.133.248.159,high,2026-11-06T04:48:54+00:00,2026-11-06T04:48:54+00:00,1,Cyfirma:2026-11-06,Listed in a YARA rule as an IP indicator,traffic_distribution
 ipv4,219.133.249.210,high,2026-11-06T04:48:54+00:00,2026-11-06T04:48:54+00:00,1,Cyfirma:2026-11-06,Listed in a YARA rule as an IP indicator,traffic_distribution
