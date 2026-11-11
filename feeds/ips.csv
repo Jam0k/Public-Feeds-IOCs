@@ -1,13 +1,17 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason,categories
+ipv4,93.152.209.36,high,2026-11-11T02:18:00+00:00,2026-11-11T02:18:00+00:00,1,Malware-Traffic-Analysis:2026-11-11,Associated with NetSupport RAT alerts,c2
+ipv4,45.146.81.142,high,2026-11-10T16:34:00.409132+00:00,2026-11-10T16:34:00.409132+00:00,1,zenox.ai:2026-11-10,Associated with a dedicated C&C server in the campaign,c2
+ipv4,167.148.201.104,high,2026-11-10T13:57:59+00:00,2026-11-10T13:57:59+00:00,1,Huntress:2026-11-10,Potential command-and-control endpoint,c2
 ipv4,178.16.54.222,high,2026-11-09T18:31:57.060802+00:00,2026-11-09T18:31:57.060802+00:00,1,socket.dev:2026-11-09,IP address used as a hub in the attack infrastructure,c2
 ipv4,185.232.84.169,high,2026-11-09T00:00:00+00:00,2026-11-09T18:31:57.060802+00:00,3,socket.dev:2026-11-09|Thehackernews:2026-11-09|Safedep:2026-11-09,Relay IP address used in the attack infrastructure,c2
 ipv4,193.57.9.155,high,2026-11-09T00:00:00+00:00,2026-11-09T18:31:57.060802+00:00,4,socket.dev:2026-11-09|Thehackernews:2026-11-09|Ox.Security:2026-11-09|Safedep:2026-11-09,IP address used as a hub in the attack infrastructure,c2
 ipv4,193.57.9.17,high,2026-11-09T18:31:57.060802+00:00,2026-11-09T18:31:57.060802+00:00,1,socket.dev:2026-11-09,IP address used as a hub in the attack infrastructure,c2
 ipv4,91.108.240.156,high,2026-11-09T18:31:57.060802+00:00,2026-11-09T18:31:57.060802+00:00,1,socket.dev:2026-11-09,IP address used as a hub in the attack infrastructure,c2
+ipv4,82.26.72.21,high,2026-11-09T18:18:15+00:00,2026-11-09T18:18:15+00:00,1,Isc.Sans.Edu:2026-11-09,Identified as an attacker IP hitting specific URLs,scanner
 ipv4,113.23.212.15,high,2026-11-09T17:02:47.578875+00:00,2026-11-09T17:02:47.578875+00:00,1,malbearlabs.com:2026-11-09,Listed as a tool download server used by the attacker,malware
 ipv4,37.16.75.128,high,2026-11-09T14:24:06+00:00,2026-11-09T14:24:06+00:00,1,Sekoia:2026-11-09,IP address involved in exploitation attempt,exploit|scanner
 ipv4,136.0.141.71,high,2026-11-05T17:00:49.402066+00:00,2026-11-09T13:28:25+00:00,2,Thehackernews:2026-11-09|blog.xlab.qianxin.com:2026-11-05,IP address used as a download server for a backdoor,malware|c2
-ipv4,156.246.94.183,high,2026-11-09T13:28:25+00:00,2026-11-09T13:28:25+00:00,1,Thehackernews:2026-11-09,IP address identified as the origin of malware delivery activity,other
+ipv4,156.246.94.183,high,2026-11-09T13:28:25+00:00,2026-11-09T13:28:25+00:00,1,Thehackernews:2026-11-09,IP address used to deliver malware,other
 ipv4,112.121.185.218,high,2026-11-04T03:55:19+00:00,2026-11-09T11:33:39.764694+00:00,2,www.acronis.com:2026-11-09|Acronis:2026-11-04,Identified as the primary node hosting multiple attack platforms including C2,c2|malware|proxy_tunnel
 ipv4,38.207.176.218,high,2026-11-09T06:02:06+00:00,2026-11-09T06:02:06+00:00,1,Redpacketsecurity:2026-11-09,IP address associated with exposed Mythic C2 interface,c2
 ipv4,154.201.79.246,high,2026-11-07T20:00:02+00:00,2026-11-07T20:35:53.378549+00:00,2,hunt.io:2026-11-07|Securityaffairs:2026-11-07,Proxy service used in the attacker's infrastructure,proxy_tunnel
@@ -181,6 +185,3 @@ ipv4,77.110.127.205,high,2026-10-14T13:59:36+00:00,2026-10-14T13:59:36+00:00,1,D
 ipv4,158.94.209.19,high,2026-10-13T21:00:10+00:00,2026-10-13T21:00:10+00:00,1,Huntress:2026-10-13,IP address resolving to a credential collection endpoint.,phishing
 ipv4,193.178.159.129,high,2026-10-13T11:53:10.900000+00:00,2026-10-13T11:53:10.900000+00:00,1,Blog.Virustotal:2026-10-13,Listed as a C2 server for second-stage bot communication,c2|botnet
 ipv4,61.18.208.27,high,2026-10-12T14:53:04+00:00,2026-10-12T14:53:04+00:00,1,The420.In:2026-10-12,Communicates with VulcanRAT207.A as a C2 server,c2
-ipv4,118.145.196.225,high,2026-10-11T16:02:05.609563+00:00,2026-10-11T16:02:05.609563+00:00,1,www.fortinet.com:2026-10-11,Listed as a download source for malware by the attacker,malware
-ipv4,124.163.212.119,high,2026-10-11T16:02:05.609563+00:00,2026-10-11T16:02:05.609563+00:00,1,www.fortinet.com:2026-10-11,Listed as a download source for malware by the attacker,malware
-ipv4,222.223.152.97,high,2026-10-11T16:02:05.609563+00:00,2026-10-11T16:02:05.609563+00:00,1,www.fortinet.com:2026-10-11,Listed as a download source for malware by the attacker,malware

@@ -1,17 +1,21 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason,categories
+ipv4,93.152.209.36,high,2026-11-11T02:18:00+00:00,2026-11-11T02:18:00+00:00,1,,Associated with NetSupport RAT alerts,c2
+ipv4,45.146.81.142,high,2026-11-10T16:34:00.409132+00:00,2026-11-10T16:34:00.409132+00:00,1,,Associated with a dedicated C&C server in the campaign,c2
+ipv4,167.148.201.104,high,2026-11-10T13:57:59+00:00,2026-11-10T13:57:59+00:00,1,,Potential command-and-control endpoint,c2
 ipv4,178.16.54.222,high,2026-11-09T18:31:57.060802+00:00,2026-11-09T18:31:57.060802+00:00,1,,IP address used as a hub in the attack infrastructure,c2
 ipv4,185.232.84.169,high,2026-11-09T00:00:00+00:00,2026-11-09T18:31:57.060802+00:00,3,,Relay IP address used in the attack infrastructure,c2
 ipv4,193.57.9.155,high,2026-11-09T00:00:00+00:00,2026-11-09T18:31:57.060802+00:00,4,,IP address used as a hub in the attack infrastructure,c2
 ipv4,193.57.9.17,high,2026-11-09T18:31:57.060802+00:00,2026-11-09T18:31:57.060802+00:00,1,,IP address used as a hub in the attack infrastructure,c2
 ipv4,91.108.240.156,high,2026-11-09T18:31:57.060802+00:00,2026-11-09T18:31:57.060802+00:00,1,,IP address used as a hub in the attack infrastructure,c2
+ipv4,82.26.72.21,high,2026-11-09T18:18:15+00:00,2026-11-09T18:18:15+00:00,1,,Identified as an attacker IP hitting specific URLs,scanner
 ipv4,113.23.212.15,high,2026-11-09T17:02:47.578875+00:00,2026-11-09T17:02:47.578875+00:00,1,,Listed as a tool download server used by the attacker,malware
 ipv4,178.16.54.109,high,2026-11-09T16:30:59.657125+00:00,2026-11-09T16:30:59.657125+00:00,1,,Listed as a C2 panel,c2
 ipv4,178.16.55.234,high,2026-11-09T16:30:59.657125+00:00,2026-11-09T16:30:59.657125+00:00,1,,Listed as a C2 panel,c2
 ipv4,185.11.61.149,high,2026-11-09T16:30:59.657125+00:00,2026-11-09T16:30:59.657125+00:00,1,,Listed as a C2 panel,c2
 ipv4,2.56.179.16,high,2026-11-09T16:30:59.657125+00:00,2026-11-09T16:30:59.657125+00:00,1,,Listed as a C2 panel,c2
 ipv4,37.16.75.128,high,2026-11-09T14:24:06+00:00,2026-11-09T14:24:06+00:00,1,,IP address involved in exploitation attempt,exploit|scanner
-ipv4,136.0.141.71,high,2026-11-05T17:00:49.402066+00:00,2026-11-09T13:28:25+00:00,2,,IP address used to host and distribute a trojanized version of a web server,malware|c2
-ipv4,156.246.94.183,high,2026-11-09T13:28:25+00:00,2026-11-09T13:28:25+00:00,1,,IP address identified as the origin of malware delivery activity,other
+ipv4,136.0.141.71,high,2026-11-05T17:00:49.402066+00:00,2026-11-09T13:28:25+00:00,2,,IP address used to host and distribute a backdoor,malware|c2
+ipv4,156.246.94.183,high,2026-11-09T13:28:25+00:00,2026-11-09T13:28:25+00:00,1,,IP address used to deliver malware,other
 ipv4,112.121.185.218,high,2026-11-04T03:55:19+00:00,2026-11-09T11:33:39.764694+00:00,2,,Identified as the primary node hosting multiple attack platforms including C2,c2|malware|proxy_tunnel
 ipv4,38.207.176.218,high,2026-11-09T06:02:06+00:00,2026-11-09T06:02:06+00:00,1,,IP address associated with exposed Mythic C2 interface,c2
 ipv4,154.201.79.246,high,2026-10-08T12:54:13+00:00,2026-11-07T20:35:53.378549+00:00,3,,Proxy service used in the attacker's infrastructure,proxy_tunnel

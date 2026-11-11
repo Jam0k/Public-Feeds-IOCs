@@ -1,4 +1,39 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason,categories
+ipv4,93.152.209.36,high,2026-11-11T02:18:00+00:00,2026-11-11T02:18:00+00:00,1,Malware-Traffic-Analysis:2026-11-11,Associated with NetSupport RAT alerts,c2
+domain,ervsystem.com,high,2026-11-10T17:05:54.209556+00:00,2026-11-10T17:05:54.209556+00:00,1,www.cisa.gov:2026-11-10,Listed in an IOC table as attacker-controlled infrastructure,malware
+domain,infinitysoftwares.com,high,2026-11-10T17:05:54.209556+00:00,2026-11-10T17:05:54.209556+00:00,1,www.cisa.gov:2026-11-10,Listed in an IOC table as attacker-controlled infrastructure,malware
+domain,rhanksharborpartners.club,high,2026-11-10T16:34:00.845293+00:00,2026-11-10T16:34:00.845293+00:00,1,www.cloudflare.com:2026-11-10,Used as a phishing domain in the campaign,phishing
+domain,test.excellencesinfo.com,high,2026-11-10T16:34:00.845293+00:00,2026-11-10T16:34:00.845293+00:00,1,www.cloudflare.com:2026-11-10,Newly registered domain used for phishing redirection,phishing
+domain,crp2026.online,high,2026-11-10T16:34:00.409132+00:00,2026-11-10T16:34:00.409132+00:00,1,zenox.ai:2026-11-10,Described as protected distribution infrastructure used in the campaign,malware|traffic_distribution
+ipv4,45.146.81.142,high,2026-11-10T16:34:00.409132+00:00,2026-11-10T16:34:00.409132+00:00,1,zenox.ai:2026-11-10,Associated with a dedicated C&C server in the campaign,c2
+domain,creepexplosiondarknight.com,high,2026-11-09T14:05:09+00:00,2026-11-10T16:00:55+00:00,2,Thehackernews:2026-11-10|Huntress:2026-11-09,Identified as a C2 URL in the malware's execution flow.,c2|malware
+domain,61paris.fr,high,2026-11-10T15:07:01.933967+00:00,2026-11-10T15:07:01.933967+00:00,1,github.com:2026-11-10,Listed as a hacked website used as a 1st level proxy,traffic_distribution
+domain,ales.ball-mill.es,high,2026-11-10T15:07:01.933967+00:00,2026-11-10T15:07:01.933967+00:00,1,github.com:2026-11-10,Listed as a C2 server in the context,other
+domain,baby.greenweb.co.il,high,2026-11-10T15:07:01.933967+00:00,2026-11-10T15:07:01.933967+00:00,1,github.com:2026-11-10,Listed as a hacked website used for malicious purposes,malware
+domain,daybreakhealthcare.co.uk,high,2026-11-10T15:07:01.933967+00:00,2026-11-10T15:07:01.933967+00:00,1,github.com:2026-11-10,Listed as a hacked website used for malicious purposes,malware
+domain,doctorshand.org,high,2026-11-10T15:07:01.933967+00:00,2026-11-10T15:07:01.933967+00:00,1,github.com:2026-11-10,Listed as a hacked website used as a 1st level proxy,malware|traffic_distribution
+domain,dyskurs.com.ua,high,2026-11-10T15:07:01.933967+00:00,2026-11-10T15:07:01.933967+00:00,1,github.com:2026-11-10,Listed as a hacked website used for malicious purposes,malware
+domain,giadinhvabe.net,high,2026-11-10T15:07:01.933967+00:00,2026-11-10T15:07:01.933967+00:00,1,github.com:2026-11-10,Listed as a hacked website used for malicious purposes,malware
+domain,highcolumn.webredirect.org,high,2026-11-10T15:07:01.933967+00:00,2026-11-10T15:07:01.933967+00:00,1,github.com:2026-11-10,Listed as a C2 server in the context,malware
+domain,hotspot.accesscam.org,high,2026-11-10T15:07:01.933967+00:00,2026-11-10T15:07:01.933967+00:00,1,github.com:2026-11-10,Listed as a C2 server in the context,malware
+domain,jucheafrica.com,high,2026-11-10T15:07:01.933967+00:00,2026-11-10T15:07:01.933967+00:00,1,github.com:2026-11-10,Listed as a hacked website used as a 1st level proxy,malware|traffic_distribution
+domain,officebuild.4irc.com,high,2026-11-10T15:07:01.933967+00:00,2026-11-10T15:07:01.933967+00:00,1,github.com:2026-11-10,Listed as a C2 server in the context,c2
+domain,outletpiumini.springwaterfeatures.com,high,2026-11-10T15:07:01.933967+00:00,2026-11-10T15:07:01.933967+00:00,1,github.com:2026-11-10,Listed as a hacked website used for malicious purposes,malware
+domain,shinestars-lifestyle.com,high,2026-11-10T15:07:01.933967+00:00,2026-11-10T15:07:01.933967+00:00,1,github.com:2026-11-10,Listed as a hacked website used for malicious purposes,malware
+domain,soligro.com,high,2026-11-10T15:07:01.933967+00:00,2026-11-10T15:07:01.933967+00:00,1,github.com:2026-11-10,Listed as a hacked website used for malicious purposes,malware
+domain,sonneteck.com,high,2026-11-10T15:07:01.933967+00:00,2026-11-10T15:07:01.933967+00:00,1,github.com:2026-11-10,Listed as a hacked website used for malicious purposes,malware
+domain,tazohor.com,high,2026-11-10T15:07:01.933967+00:00,2026-11-10T15:07:01.933967+00:00,1,github.com:2026-11-10,Listed as a hacked website used as a 1st level proxy,malware|traffic_distribution
+domain,tekfordummies.com,high,2026-11-10T15:07:01.933967+00:00,2026-11-10T15:07:01.933967+00:00,1,github.com:2026-11-10,Listed as a hacked website used for malicious purposes,malware
+domain,tellmemore.4irc.com,high,2026-11-10T15:07:01.933967+00:00,2026-11-10T15:07:01.933967+00:00,1,github.com:2026-11-10,Listed as a C2 server in the context,c2
+domain,thedarktower.av.master.dns-cloud.net,high,2026-11-10T15:07:01.933967+00:00,2026-11-10T15:07:01.933967+00:00,1,github.com:2026-11-10,Listed as a domain pinged by malicious macro,c2|dynamic_dns
+domain,theguardian.webredirect.org,high,2026-11-10T15:07:01.933967+00:00,2026-11-10T15:07:01.933967+00:00,1,github.com:2026-11-10,Listed as a C2 server in the context,malware
+domain,warrixmalaysia.com.my,high,2026-11-10T15:07:01.933967+00:00,2026-11-10T15:07:01.933967+00:00,1,github.com:2026-11-10,Listed as a hacked website used for malicious purposes,malware
+domain,weandcats.com,high,2026-11-10T15:07:01.933967+00:00,2026-11-10T15:07:01.933967+00:00,1,github.com:2026-11-10,Listed as a hacked website used for malicious purposes,malware
+domain,zerogov.com,high,2026-11-10T15:07:01.933967+00:00,2026-11-10T15:07:01.933967+00:00,1,github.com:2026-11-10,Listed as a hacked website used for malicious purposes,malware
+domain,amelicen.com,high,2026-11-10T14:01:14+00:00,2026-11-10T14:01:14+00:00,1,Research.Checkpoint:2026-11-10,"Reported as a SparrowDoor C2 server, part of CopperDNS infrastructure.",c2
+domain,apirequestaccess.com,high,2026-11-10T13:57:59+00:00,2026-11-10T13:57:59+00:00,1,Huntress:2026-11-10,Used to deliver malicious MSI package,malware
+domain,westlaw-signon.com,high,2026-11-10T13:57:59+00:00,2026-11-10T13:57:59+00:00,1,Huntress:2026-11-10,Identified as a typosquatted domain used in phishing campaigns.,phishing
+ipv4,167.148.201.104,high,2026-11-10T13:57:59+00:00,2026-11-10T13:57:59+00:00,1,Huntress:2026-11-10,Potential command-and-control endpoint,c2
 domain,bi2price.com,high,2026-11-10T03:03:07.874391+00:00,2026-11-10T03:03:07.874391+00:00,1,github.blog:2026-11-10,Listed among malicious npm packages and domains used in the campaign,supply_chain
 domain,coingeckoprice.com,high,2026-11-10T03:03:07.874391+00:00,2026-11-10T03:03:07.874391+00:00,1,github.blog:2026-11-10,Listed among malicious npm packages and domains used in the campaign,supply_chain
 domain,cryptopriceoffer.com,high,2026-11-10T03:03:07.874391+00:00,2026-11-10T03:03:07.874391+00:00,1,github.blog:2026-11-10,Listed among malicious npm packages and domains used in the campaign,supply_chain
@@ -14,6 +49,7 @@ ipv4,185.232.84.169,high,2026-11-09T00:00:00+00:00,2026-11-09T18:31:57.060802+00
 ipv4,193.57.9.155,high,2026-11-09T00:00:00+00:00,2026-11-09T18:31:57.060802+00:00,4,socket.dev:2026-11-09|Thehackernews:2026-11-09|Ox.Security:2026-11-09|Safedep:2026-11-09,IP address used as a hub in the attack infrastructure,c2
 ipv4,193.57.9.17,high,2026-11-09T18:31:57.060802+00:00,2026-11-09T18:31:57.060802+00:00,1,socket.dev:2026-11-09,IP address used as a hub in the attack infrastructure,c2
 ipv4,91.108.240.156,high,2026-11-09T18:31:57.060802+00:00,2026-11-09T18:31:57.060802+00:00,1,socket.dev:2026-11-09,IP address used as a hub in the attack infrastructure,c2
+ipv4,82.26.72.21,high,2026-11-09T18:18:15+00:00,2026-11-09T18:18:15+00:00,1,Isc.Sans.Edu:2026-11-09,Identified as an attacker IP hitting specific URLs,scanner
 domain,api.tablacysexplorer.com,high,2026-11-09T17:02:47.578875+00:00,2026-11-09T17:02:47.578875+00:00,1,malbearlabs.com:2026-11-09,Identified as the beacon domain for C2 communication,c2
 ipv4,113.23.212.15,high,2026-11-09T17:02:47.578875+00:00,2026-11-09T17:02:47.578875+00:00,1,malbearlabs.com:2026-11-09,Listed as a tool download server used by the attacker,malware
 domain,tac.vpnla.org,high,2026-11-09T16:12:15+00:00,2026-11-09T16:12:15+00:00,1,Bleepingcomputer:2026-11-09,Identified as a C2 server for TAC Agent,c2
@@ -26,9 +62,8 @@ domain,techtalkhelp.com,high,2026-11-09T15:02:15.435063+00:00,2026-11-09T15:02:1
 domain,www.chestergreenfarming.com,high,2026-11-09T15:02:15.435063+00:00,2026-11-09T15:02:15.435063+00:00,1,www.fortinet.com:2026-11-09,Domain used as decoded C2 server,c2
 domain,www.rivingtonclarks.com,high,2026-11-09T15:02:15.435063+00:00,2026-11-09T15:02:15.435063+00:00,1,www.fortinet.com:2026-11-09,Domain used as C2 URL for PapRAT,c2
 ipv4,37.16.75.128,high,2026-11-09T14:24:06+00:00,2026-11-09T14:24:06+00:00,1,Sekoia:2026-11-09,IP address involved in exploitation attempt,exploit|scanner
-domain,creepexplosiondarknight.com,high,2026-11-09T14:05:09+00:00,2026-11-09T14:05:09+00:00,1,Huntress:2026-11-09,Contains a C2 URL used by malware,c2|malware
 ipv4,136.0.141.71,high,2026-11-05T17:00:49.402066+00:00,2026-11-09T13:28:25+00:00,2,Thehackernews:2026-11-09|blog.xlab.qianxin.com:2026-11-05,IP address used as a download server for a backdoor,malware|c2
-ipv4,156.246.94.183,high,2026-11-09T13:28:25+00:00,2026-11-09T13:28:25+00:00,1,Thehackernews:2026-11-09,IP address identified as the origin of malware delivery activity,other
+ipv4,156.246.94.183,high,2026-11-09T13:28:25+00:00,2026-11-09T13:28:25+00:00,1,Thehackernews:2026-11-09,IP address used to deliver malware,other
 ipv4,112.121.185.218,high,2026-11-04T03:55:19+00:00,2026-11-09T11:33:39.764694+00:00,2,www.acronis.com:2026-11-09|Acronis:2026-11-04,Identified as the primary node hosting multiple attack platforms including C2,c2|malware|proxy_tunnel
 domain,0350pvas.acs-wcst.com,high,2026-11-09T11:32:39.346278+00:00,2026-11-09T11:32:39.346278+00:00,1,any.run:2026-11-09,Domain hosting phishing kit,phishing
 domain,1355bcra.ck29material.com,high,2026-11-09T11:32:39.346278+00:00,2026-11-09T11:32:39.346278+00:00,1,any.run:2026-11-09,Domain hosting phishing kit,phishing
@@ -873,6 +908,3 @@ ipv4,193.178.159.129,high,2026-10-13T11:53:10.900000+00:00,2026-10-13T11:53:10.9
 domain,agdx53.cc,high,2026-10-13T08:51:36+00:00,2026-10-13T08:51:36+00:00,1,Esecurityplanet:2026-10-13,Reported as a command-and-control domain for DarkSword malware,c2
 domain,ecomtrack.io,high,2026-10-13T08:51:36+00:00,2026-10-13T08:51:36+00:00,1,Esecurityplanet:2026-10-13,Re-registered by attackers to deliver DarkSword malware,malware|exploit
 ipv4,61.18.208.27,high,2026-10-12T14:53:04+00:00,2026-10-12T14:53:04+00:00,1,The420.In:2026-10-12,Communicates with VulcanRAT207.A as a C2 server,c2
-ipv4,118.145.196.225,high,2026-10-11T16:02:05.609563+00:00,2026-10-11T16:02:05.609563+00:00,1,www.fortinet.com:2026-10-11,Listed as a download source for malware by the attacker,malware
-ipv4,124.163.212.119,high,2026-10-11T16:02:05.609563+00:00,2026-10-11T16:02:05.609563+00:00,1,www.fortinet.com:2026-10-11,Listed as a download source for malware by the attacker,malware
-ipv4,222.223.152.97,high,2026-10-11T16:02:05.609563+00:00,2026-10-11T16:02:05.609563+00:00,1,www.fortinet.com:2026-10-11,Listed as a download source for malware by the attacker,malware
