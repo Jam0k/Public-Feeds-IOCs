@@ -1,7 +1,7 @@
 {
   "feed": "threatcluster-public-iocs",
   "version": 1,
-  "generated_at": "2026-11-11T14:18:05Z",
+  "generated_at": "2026-11-12T15:10:13Z",
   "filters": {
     "confidence": "high",
     "window_days": 30,
@@ -11,8 +11,1357 @@
       "domain"
     ]
   },
-  "count": 922,
+  "count": 938,
   "iocs": [
+    {
+      "type": "domain",
+      "value": "net-echo.com",
+      "confidence": "high",
+      "reason": "Domain with algorithmically generated subdomains used in malicious campaign activity.",
+      "first_seen": "2026-11-12T12:08:23+00:00",
+      "last_seen": "2026-11-12T12:08:23+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Darktrace",
+          "url": "https://www.darktrace.com/blog/living-off-the-ai-shared-memories-as-a-covert-c2-channel",
+          "pub_date": "2026-11-12T12:08:23+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2026-109618"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-109619"
+        },
+        {
+          "type": "malware",
+          "value": "Dustmaker"
+        },
+        {
+          "type": "malware",
+          "value": "Quietvault"
+        }
+      ],
+      "categories": [],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "s016841786.net-echo.com",
+      "confidence": "high",
+      "reason": "Algorithmically generated subdomain used in malicious campaign activity.",
+      "first_seen": "2026-11-12T12:08:23+00:00",
+      "last_seen": "2026-11-12T12:08:23+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Darktrace",
+          "url": "https://www.darktrace.com/blog/living-off-the-ai-shared-memories-as-a-covert-c2-channel",
+          "pub_date": "2026-11-12T12:08:23+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2026-109618"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-109619"
+        },
+        {
+          "type": "malware",
+          "value": "Dustmaker"
+        },
+        {
+          "type": "malware",
+          "value": "Quietvault"
+        }
+      ],
+      "categories": [],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "s1786.net-echo.com",
+      "confidence": "high",
+      "reason": "Algorithmically generated subdomain used in malicious campaign activity.",
+      "first_seen": "2026-11-12T12:08:23+00:00",
+      "last_seen": "2026-11-12T12:08:23+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Darktrace",
+          "url": "https://www.darktrace.com/blog/living-off-the-ai-shared-memories-as-a-covert-c2-channel",
+          "pub_date": "2026-11-12T12:08:23+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2026-109618"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-109619"
+        },
+        {
+          "type": "malware",
+          "value": "Dustmaker"
+        },
+        {
+          "type": "malware",
+          "value": "Quietvault"
+        }
+      ],
+      "categories": [],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "foreverpeace.ru",
+      "confidence": "high",
+      "reason": "Domain used as part of the attacker's infrastructure with a reverse proxy.",
+      "first_seen": "2026-11-12T09:32:10.976841+00:00",
+      "last_seen": "2026-11-12T09:32:10.976841+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.cloudsek.com",
+          "url": "https://www.cloudsek.com/blog/off-the-rails-inside-an-exposed-silent-lynx-server",
+          "pub_date": "2026-11-12T09:32:10.976841+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Silent Lynx"
+        },
+        {
+          "type": "campaign",
+          "value": "Chain C"
+        },
+        {
+          "type": "campaign",
+          "value": "Operation Peek-a-Baku"
+        },
+        {
+          "type": "industry",
+          "value": "Government"
+        }
+      ],
+      "categories": [
+        "proxy_tunnel"
+      ],
+      "basis": null
+    },
+    {
+      "type": "ipv4",
+      "value": "89.125.213.123",
+      "confidence": "high",
+      "reason": "IP address used as a server for phishing and other malicious activities.",
+      "first_seen": "2026-11-12T09:32:10.976841+00:00",
+      "last_seen": "2026-11-12T09:32:10.976841+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.cloudsek.com",
+          "url": "https://www.cloudsek.com/blog/off-the-rails-inside-an-exposed-silent-lynx-server",
+          "pub_date": "2026-11-12T09:32:10.976841+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Silent Lynx"
+        },
+        {
+          "type": "campaign",
+          "value": "Chain C"
+        },
+        {
+          "type": "campaign",
+          "value": "Operation Peek-a-Baku"
+        },
+        {
+          "type": "industry",
+          "value": "Government"
+        }
+      ],
+      "categories": [
+        "phishing"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "sc.payproofkit.com",
+      "confidence": "high",
+      "reason": "Attacker-controlled ScreenConnect panel",
+      "first_seen": "2026-11-11T22:56:21+00:00",
+      "last_seen": "2026-11-12T04:39:48+00:00",
+      "source_count": 3,
+      "sources": [
+        {
+          "source": "Feeds.Feedburner",
+          "url": "https://thehackernews.com/2026/11/screenconnect-attacks-target-at-least.html",
+          "pub_date": "2026-11-12T04:39:48+00:00"
+        },
+        {
+          "source": "Huntress",
+          "url": "https://www.huntress.com/blog/sckit-worm-rogue-screenconnect",
+          "pub_date": "2026-11-12T03:26:13+00:00"
+        },
+        {
+          "source": "Bleepingcomputer",
+          "url": "https://www.bleepingcomputer.com/news/security/active-screenconnect-attacks-breach-msps-impact-dozens-of-organizations/",
+          "pub_date": "2026-11-11T22:56:21+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "SCKit"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-84869"
+        },
+        {
+          "type": "malware",
+          "value": "RelayTrap"
+        }
+      ],
+      "categories": [
+        "malware"
+      ],
+      "basis": null
+    },
+    {
+      "type": "ipv4",
+      "value": "155.94.150.39",
+      "confidence": "high",
+      "reason": "Associated with attacker-controlled ScreenConnect panel",
+      "first_seen": "2026-11-11T22:56:21+00:00",
+      "last_seen": "2026-11-12T04:39:48+00:00",
+      "source_count": 3,
+      "sources": [
+        {
+          "source": "Feeds.Feedburner",
+          "url": "https://thehackernews.com/2026/11/screenconnect-attacks-target-at-least.html",
+          "pub_date": "2026-11-12T04:39:48+00:00"
+        },
+        {
+          "source": "Huntress",
+          "url": "https://www.huntress.com/blog/sckit-worm-rogue-screenconnect",
+          "pub_date": "2026-11-12T03:26:13+00:00"
+        },
+        {
+          "source": "Bleepingcomputer",
+          "url": "https://www.bleepingcomputer.com/news/security/active-screenconnect-attacks-breach-msps-impact-dozens-of-organizations/",
+          "pub_date": "2026-11-11T22:56:21+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "SCKit"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-84869"
+        },
+        {
+          "type": "malware",
+          "value": "RelayTrap"
+        }
+      ],
+      "categories": [
+        "malware",
+        "abused_service"
+      ],
+      "basis": null
+    },
+    {
+      "type": "ipv4",
+      "value": "185.99.255.28",
+      "confidence": "high",
+      "reason": "Listed as an attacker ScreenConnect server",
+      "first_seen": "2026-11-11T22:56:21+00:00",
+      "last_seen": "2026-11-12T04:39:48+00:00",
+      "source_count": 3,
+      "sources": [
+        {
+          "source": "Feeds.Feedburner",
+          "url": "https://thehackernews.com/2026/11/screenconnect-attacks-target-at-least.html",
+          "pub_date": "2026-11-12T04:39:48+00:00"
+        },
+        {
+          "source": "Huntress",
+          "url": "https://www.huntress.com/blog/sckit-worm-rogue-screenconnect",
+          "pub_date": "2026-11-12T03:26:13+00:00"
+        },
+        {
+          "source": "Bleepingcomputer",
+          "url": "https://www.bleepingcomputer.com/news/security/active-screenconnect-attacks-breach-msps-impact-dozens-of-organizations/",
+          "pub_date": "2026-11-11T22:56:21+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "SCKit"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-84869"
+        },
+        {
+          "type": "malware",
+          "value": "RelayTrap"
+        }
+      ],
+      "categories": [
+        "malware",
+        "abused_service"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "amexsafekeyupdate.com",
+      "confidence": "high",
+      "reason": "Domain contacted by malware to retrieve installation commands",
+      "first_seen": "2026-11-11T22:56:21+00:00",
+      "last_seen": "2026-11-11T22:56:21+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Bleepingcomputer",
+          "url": "https://www.bleepingcomputer.com/news/security/active-screenconnect-attacks-breach-msps-impact-dozens-of-organizations/",
+          "pub_date": "2026-11-11T22:56:21+00:00"
+        }
+      ],
+      "tags": [],
+      "categories": [
+        "malware"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "whitearmor.cc",
+      "confidence": "high",
+      "reason": "Domain mentioned as down due to VPS provider ban, likely attacker-controlled",
+      "first_seen": "2026-10-23T19:19:21+00:00",
+      "last_seen": "2026-11-11T21:08:38.493980+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "www.ransomlook.io",
+          "url": "https://www.ransomlook.io/group/whitearmor",
+          "pub_date": "2026-11-11T21:08:38.49398+00:00"
+        },
+        {
+          "source": "Redpacketsecurity",
+          "url": "https://www.redpacketsecurity.com/whitearmor-ransomware-victim-whitearmor-cc/",
+          "pub_date": "2026-10-23T19:19:21+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "industry",
+          "value": "Consumer Goods"
+        },
+        {
+          "type": "industry",
+          "value": "Healthcare"
+        },
+        {
+          "type": "industry",
+          "value": "Transportation"
+        }
+      ],
+      "categories": [
+        "ransomware"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "admin.inboxsession.info",
+      "confidence": "high",
+      "reason": "Domain listed among others in a context suggesting attacker-controlled infrastructure.",
+      "first_seen": "2026-11-11T16:58:35.900937+00:00",
+      "last_seen": "2026-11-11T16:58:35.900937+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.group-ib.com",
+          "url": "https://www.group-ib.com/blog/shadowsilk/",
+          "pub_date": "2026-11-11T16:58:35.900937+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "ShadowSilk"
+        },
+        {
+          "type": "apt_group",
+          "value": "YoroTrooper"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2018-7600"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2018-7602"
+        }
+      ],
+      "categories": [
+        "other"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "auth.allcloudindex.com",
+      "confidence": "high",
+      "reason": "Domain listed among others in a context suggesting attacker-controlled infrastructure.",
+      "first_seen": "2026-11-11T16:58:35.900937+00:00",
+      "last_seen": "2026-11-11T16:58:35.900937+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.group-ib.com",
+          "url": "https://www.group-ib.com/blog/shadowsilk/",
+          "pub_date": "2026-11-11T16:58:35.900937+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "ShadowSilk"
+        },
+        {
+          "type": "apt_group",
+          "value": "YoroTrooper"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2018-7600"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2018-7602"
+        }
+      ],
+      "categories": [
+        "other"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "document.hometowncity.cloud",
+      "confidence": "high",
+      "reason": "Domain listed among others in a context suggesting attacker-controlled infrastructure.",
+      "first_seen": "2026-11-11T16:58:35.900937+00:00",
+      "last_seen": "2026-11-11T16:58:35.900937+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.group-ib.com",
+          "url": "https://www.group-ib.com/blog/shadowsilk/",
+          "pub_date": "2026-11-11T16:58:35.900937+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "ShadowSilk"
+        },
+        {
+          "type": "apt_group",
+          "value": "YoroTrooper"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2018-7600"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2018-7602"
+        }
+      ],
+      "categories": [
+        "other"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "document.mailboxarea.cloud",
+      "confidence": "high",
+      "reason": "Domain listed among others in a context suggesting attacker-controlled infrastructure.",
+      "first_seen": "2026-11-11T16:58:35.900937+00:00",
+      "last_seen": "2026-11-11T16:58:35.900937+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.group-ib.com",
+          "url": "https://www.group-ib.com/blog/shadowsilk/",
+          "pub_date": "2026-11-11T16:58:35.900937+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "ShadowSilk"
+        },
+        {
+          "type": "apt_group",
+          "value": "YoroTrooper"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2018-7600"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2018-7602"
+        }
+      ],
+      "categories": [
+        "other"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "document.webmailsession.com",
+      "confidence": "high",
+      "reason": "Domain listed among others in a context suggesting attacker-controlled infrastructure.",
+      "first_seen": "2026-11-11T16:58:35.900937+00:00",
+      "last_seen": "2026-11-11T16:58:35.900937+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.group-ib.com",
+          "url": "https://www.group-ib.com/blog/shadowsilk/",
+          "pub_date": "2026-11-11T16:58:35.900937+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "ShadowSilk"
+        },
+        {
+          "type": "apt_group",
+          "value": "YoroTrooper"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2018-7600"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2018-7602"
+        }
+      ],
+      "categories": [
+        "other"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "ex.wincorpupdates.com",
+      "confidence": "high",
+      "reason": "Domain listed among others in a context suggesting attacker-controlled infrastructure.",
+      "first_seen": "2026-11-11T16:58:35.900937+00:00",
+      "last_seen": "2026-11-11T16:58:35.900937+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.group-ib.com",
+          "url": "https://www.group-ib.com/blog/shadowsilk/",
+          "pub_date": "2026-11-11T16:58:35.900937+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "ShadowSilk"
+        },
+        {
+          "type": "apt_group",
+          "value": "YoroTrooper"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2018-7600"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2018-7602"
+        }
+      ],
+      "categories": [
+        "other"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "mailboxdownload.com",
+      "confidence": "high",
+      "reason": "Domain listed among others in a context suggesting attacker-controlled infrastructure.",
+      "first_seen": "2026-11-11T16:58:35.900937+00:00",
+      "last_seen": "2026-11-11T16:58:35.900937+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.group-ib.com",
+          "url": "https://www.group-ib.com/blog/shadowsilk/",
+          "pub_date": "2026-11-11T16:58:35.900937+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "ShadowSilk"
+        },
+        {
+          "type": "apt_group",
+          "value": "YoroTrooper"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2018-7600"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2018-7602"
+        }
+      ],
+      "categories": [
+        "other"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "message.mailboxarea.cloud",
+      "confidence": "high",
+      "reason": "Domain listed among others in a context suggesting attacker-controlled infrastructure.",
+      "first_seen": "2026-11-11T16:58:35.900937+00:00",
+      "last_seen": "2026-11-11T16:58:35.900937+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.group-ib.com",
+          "url": "https://www.group-ib.com/blog/shadowsilk/",
+          "pub_date": "2026-11-11T16:58:35.900937+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "ShadowSilk"
+        },
+        {
+          "type": "apt_group",
+          "value": "YoroTrooper"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2018-7600"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2018-7602"
+        }
+      ],
+      "categories": [
+        "other"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "pweobmxdlboi.com",
+      "confidence": "high",
+      "reason": "Domain used for uploading archives, indicating attacker control.",
+      "first_seen": "2026-11-11T16:58:34.870410+00:00",
+      "last_seen": "2026-11-11T16:58:35.900937+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "www.group-ib.com",
+          "url": "https://www.group-ib.com/blog/shadowsilk/",
+          "pub_date": "2026-11-11T16:58:35.900937+00:00"
+        },
+        {
+          "source": "www.seqrite.com",
+          "url": "https://www.seqrite.com/blog/silent-lynx-apt-targeting-central-asian-entities/",
+          "pub_date": "2026-11-11T16:58:34.87041+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "industry",
+          "value": "Government"
+        },
+        {
+          "type": "apt_group",
+          "value": "ShadowSilk"
+        },
+        {
+          "type": "apt_group",
+          "value": "Silent Lynx"
+        },
+        {
+          "type": "apt_group",
+          "value": "YoroTrooper"
+        }
+      ],
+      "categories": [
+        "malware"
+      ],
+      "basis": null
+    },
+    {
+      "type": "ipv4",
+      "value": "193.124.203.226",
+      "confidence": "high",
+      "reason": "IP address listed among others in a context suggesting attacker-controlled infrastructure.",
+      "first_seen": "2026-11-11T16:58:35.900937+00:00",
+      "last_seen": "2026-11-11T16:58:35.900937+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.group-ib.com",
+          "url": "https://www.group-ib.com/blog/shadowsilk/",
+          "pub_date": "2026-11-11T16:58:35.900937+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "ShadowSilk"
+        },
+        {
+          "type": "apt_group",
+          "value": "YoroTrooper"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2018-7600"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2018-7602"
+        }
+      ],
+      "categories": [
+        "other"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "fogomyart.com",
+      "confidence": "high",
+      "reason": "Domain used to host and deliver malicious payloads as described in the article",
+      "first_seen": "2026-11-11T16:42:52.499566+00:00",
+      "last_seen": "2026-11-11T16:42:52.499566+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "blog.eclecticiq.com",
+          "url": "https://blog.eclecticiq.com/pakistan-telecommunication-company-ptcl-targeted-by-bitter-apt-during-heightened-regional-conflict",
+          "pub_date": "2026-11-11T16:42:52.499566+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Bitter APT"
+        },
+        {
+          "type": "campaign",
+          "value": "Operation Sindoor"
+        },
+        {
+          "type": "industry",
+          "value": "Telecommunications"
+        },
+        {
+          "type": "malware",
+          "value": "StealC"
+        }
+      ],
+      "categories": [
+        "malware"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "tradesmarkets.greenadelhouse.com",
+      "confidence": "high",
+      "reason": "Identified as a C2 domain decrypted from malware sample",
+      "first_seen": "2026-11-11T16:42:52.499566+00:00",
+      "last_seen": "2026-11-11T16:42:52.499566+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "blog.eclecticiq.com",
+          "url": "https://blog.eclecticiq.com/pakistan-telecommunication-company-ptcl-targeted-by-bitter-apt-during-heightened-regional-conflict",
+          "pub_date": "2026-11-11T16:42:52.499566+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Bitter APT"
+        },
+        {
+          "type": "campaign",
+          "value": "Operation Sindoor"
+        },
+        {
+          "type": "industry",
+          "value": "Telecommunications"
+        },
+        {
+          "type": "malware",
+          "value": "StealC"
+        }
+      ],
+      "categories": [
+        "c2"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "felixfuturenext.com",
+      "confidence": "high",
+      "reason": "Domain used in phishing and malware attacks",
+      "first_seen": "2026-11-11T16:42:50.075876+00:00",
+      "last_seen": "2026-11-11T16:42:50.075876+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.fortinet.com",
+          "url": "https://www.fortinet.com/blog/threat-research/bitter-expands-its-arsenal-with-paprat",
+          "pub_date": "2026-11-11T16:42:50.075876+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Bitter"
+        },
+        {
+          "type": "industry",
+          "value": "Energy"
+        },
+        {
+          "type": "industry",
+          "value": "Engineering"
+        },
+        {
+          "type": "industry",
+          "value": "Government"
+        }
+      ],
+      "categories": [
+        "phishing",
+        "malware"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "gomescareerplans.com",
+      "confidence": "high",
+      "reason": "Domain used in attack chain for malware delivery",
+      "first_seen": "2026-11-11T16:42:50.075876+00:00",
+      "last_seen": "2026-11-11T16:42:50.075876+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.fortinet.com",
+          "url": "https://www.fortinet.com/blog/threat-research/bitter-expands-its-arsenal-with-paprat",
+          "pub_date": "2026-11-11T16:42:50.075876+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Bitter"
+        },
+        {
+          "type": "industry",
+          "value": "Energy"
+        },
+        {
+          "type": "industry",
+          "value": "Engineering"
+        },
+        {
+          "type": "industry",
+          "value": "Government"
+        }
+      ],
+      "categories": [
+        "malware"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "goodnfortunes.com",
+      "confidence": "high",
+      "reason": "Domain used for data exfiltration in attack chain",
+      "first_seen": "2026-11-11T16:42:50.075876+00:00",
+      "last_seen": "2026-11-11T16:42:50.075876+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.fortinet.com",
+          "url": "https://www.fortinet.com/blog/threat-research/bitter-expands-its-arsenal-with-paprat",
+          "pub_date": "2026-11-11T16:42:50.075876+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Bitter"
+        },
+        {
+          "type": "industry",
+          "value": "Energy"
+        },
+        {
+          "type": "industry",
+          "value": "Engineering"
+        },
+        {
+          "type": "industry",
+          "value": "Government"
+        }
+      ],
+      "categories": [
+        "exfiltration"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "rivingtonclarks.com",
+      "confidence": "high",
+      "reason": "Domain used as C2 panel for PapRAT",
+      "first_seen": "2026-11-11T16:42:50.075876+00:00",
+      "last_seen": "2026-11-11T16:42:50.075876+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.fortinet.com",
+          "url": "https://www.fortinet.com/blog/threat-research/bitter-expands-its-arsenal-with-paprat",
+          "pub_date": "2026-11-11T16:42:50.075876+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Bitter"
+        },
+        {
+          "type": "industry",
+          "value": "Energy"
+        },
+        {
+          "type": "industry",
+          "value": "Engineering"
+        },
+        {
+          "type": "industry",
+          "value": "Government"
+        }
+      ],
+      "categories": [
+        "c2"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "techtalkhelp.com",
+      "confidence": "high",
+      "reason": "Domain used for staging and command updates",
+      "first_seen": "2026-11-11T16:42:50.075876+00:00",
+      "last_seen": "2026-11-11T16:42:50.075876+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.fortinet.com",
+          "url": "https://www.fortinet.com/blog/threat-research/bitter-expands-its-arsenal-with-paprat",
+          "pub_date": "2026-11-11T16:42:50.075876+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Bitter"
+        },
+        {
+          "type": "industry",
+          "value": "Energy"
+        },
+        {
+          "type": "industry",
+          "value": "Engineering"
+        },
+        {
+          "type": "industry",
+          "value": "Government"
+        }
+      ],
+      "categories": [
+        "malware"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "www.chestergreenfarming.com",
+      "confidence": "high",
+      "reason": "Domain used as decoded C2 server",
+      "first_seen": "2026-11-11T16:42:50.075876+00:00",
+      "last_seen": "2026-11-11T16:42:50.075876+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.fortinet.com",
+          "url": "https://www.fortinet.com/blog/threat-research/bitter-expands-its-arsenal-with-paprat",
+          "pub_date": "2026-11-11T16:42:50.075876+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Bitter"
+        },
+        {
+          "type": "industry",
+          "value": "Energy"
+        },
+        {
+          "type": "industry",
+          "value": "Engineering"
+        },
+        {
+          "type": "industry",
+          "value": "Government"
+        }
+      ],
+      "categories": [
+        "c2"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "www.rivingtonclarks.com",
+      "confidence": "high",
+      "reason": "Domain used as C2 URL for PapRAT",
+      "first_seen": "2026-11-11T16:42:50.075876+00:00",
+      "last_seen": "2026-11-11T16:42:50.075876+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.fortinet.com",
+          "url": "https://www.fortinet.com/blog/threat-research/bitter-expands-its-arsenal-with-paprat",
+          "pub_date": "2026-11-11T16:42:50.075876+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Bitter"
+        },
+        {
+          "type": "industry",
+          "value": "Energy"
+        },
+        {
+          "type": "industry",
+          "value": "Engineering"
+        },
+        {
+          "type": "industry",
+          "value": "Government"
+        }
+      ],
+      "categories": [
+        "c2"
+      ],
+      "basis": null
+    },
+    {
+      "type": "ipv4",
+      "value": "107.148.225.248",
+      "confidence": "high",
+      "reason": "Used as a C2 server for malware delivery.",
+      "first_seen": "2026-11-11T14:09:04+00:00",
+      "last_seen": "2026-11-11T14:09:04+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Morphisec",
+          "url": "https://www.morphisec.com/blog/beyond-the-signature-how-attackers-hide-malware-in-pe-certificate-tables/",
+          "pub_date": "2026-11-11T14:09:04+00:00"
+        }
+      ],
+      "tags": [],
+      "categories": [
+        "c2",
+        "malware"
+      ],
+      "basis": null
+    },
+    {
+      "type": "ipv4",
+      "value": "45.115.26.23",
+      "confidence": "high",
+      "reason": "Used as a reverse shell endpoint in a PowerShell command for remote control and persistence.",
+      "first_seen": "2026-11-11T14:05:36+00:00",
+      "last_seen": "2026-11-11T14:05:36+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Thehackernews",
+          "url": "https://thehackernews.com/2026/11/hackers-target-qlik-sense-servers-with.html",
+          "pub_date": "2026-11-11T14:05:36+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Cactus Ransomware Campaign"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2023-41265"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2023-41266"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2023-46604"
+        }
+      ],
+      "categories": [
+        "c2"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "asteara.org",
+      "confidence": "high",
+      "reason": "Attributed to attacker infrastructure by Proofpoint.",
+      "first_seen": "2026-11-11T13:44:51+00:00",
+      "last_seen": "2026-11-11T13:44:51+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Stormshield",
+          "url": "https://www.stormshield.com/news/cti-trigram-campaign/",
+          "pub_date": "2026-11-11T13:44:51+00:00"
+        }
+      ],
+      "tags": [],
+      "categories": [
+        "c2"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "dscufo.xyz",
+      "confidence": "high",
+      "reason": "Used in fake recruitment approaches by attackers.",
+      "first_seen": "2026-11-11T13:44:51+00:00",
+      "last_seen": "2026-11-11T13:44:51+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Stormshield",
+          "url": "https://www.stormshield.com/news/cti-trigram-campaign/",
+          "pub_date": "2026-11-11T13:44:51+00:00"
+        }
+      ],
+      "tags": [],
+      "categories": [
+        "phishing"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "subnet.dokamacto.xyz",
+      "confidence": "high",
+      "reason": "Domain used for campaign's operational tooling",
+      "first_seen": "2026-11-11T13:44:51+00:00",
+      "last_seen": "2026-11-11T13:44:51+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Stormshield",
+          "url": "https://www.stormshield.com/news/cti-trigram-campaign/",
+          "pub_date": "2026-11-11T13:44:51+00:00"
+        }
+      ],
+      "tags": [],
+      "categories": [
+        "malware"
+      ],
+      "basis": null
+    },
+    {
+      "type": "ipv4",
+      "value": "198.54.127.82",
+      "confidence": "high",
+      "reason": "Revealed in attackers' documentation as part of their infrastructure.",
+      "first_seen": "2026-11-11T13:44:51+00:00",
+      "last_seen": "2026-11-11T13:44:51+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Stormshield",
+          "url": "https://www.stormshield.com/news/cti-trigram-campaign/",
+          "pub_date": "2026-11-11T13:44:51+00:00"
+        }
+      ],
+      "tags": [],
+      "categories": [
+        "malware",
+        "abused_service"
+      ],
+      "basis": null
+    },
+    {
+      "type": "ipv4",
+      "value": "45.158.196.141",
+      "confidence": "high",
+      "reason": "Listed as GhostFrame C2 address, indicating attacker control",
+      "first_seen": "2026-11-11T09:23:29+00:00",
+      "last_seen": "2026-11-11T09:23:29+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Gbhackers",
+          "url": "https://gbhackers.com/new-ghostframe-malware-targets-vmware-esxi-servers/",
+          "pub_date": "2026-11-11T09:23:29+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Settra"
+        },
+        {
+          "type": "apt_group",
+          "value": "TAG-218"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-0257"
+        },
+        {
+          "type": "malware",
+          "value": "GhostFrame"
+        }
+      ],
+      "categories": [
+        "c2"
+      ],
+      "basis": null
+    },
+    {
+      "type": "ipv4",
+      "value": "45.158.196.81",
+      "confidence": "high",
+      "reason": "Listed as GhostFrame C2 address, indicating attacker control",
+      "first_seen": "2026-11-11T09:23:29+00:00",
+      "last_seen": "2026-11-11T09:23:29+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Gbhackers",
+          "url": "https://gbhackers.com/new-ghostframe-malware-targets-vmware-esxi-servers/",
+          "pub_date": "2026-11-11T09:23:29+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Settra"
+        },
+        {
+          "type": "apt_group",
+          "value": "TAG-218"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-0257"
+        },
+        {
+          "type": "malware",
+          "value": "GhostFrame"
+        }
+      ],
+      "categories": [
+        "c2"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "oneglobalvisa.com",
+      "confidence": "high",
+      "reason": "Used as a C2 server for credential theft.",
+      "first_seen": "2026-11-11T08:05:48+00:00",
+      "last_seen": "2026-11-11T08:05:48+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Picussecurity",
+          "url": "https://www.picussecurity.com/resource/blog/imperial-kitten-tortoiseshell-apt-ttps-malware-and-attack-simulation",
+          "pub_date": "2026-11-11T08:05:48+00:00"
+        }
+      ],
+      "tags": [],
+      "categories": [
+        "c2",
+        "malware"
+      ],
+      "basis": null
+    },
     {
       "type": "ipv4",
       "value": "93.152.209.36",
@@ -1955,273 +3304,6 @@
       ],
       "categories": [
         "malware"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "felixfuturenext.com",
-      "confidence": "high",
-      "reason": "Domain used in phishing and malware attacks",
-      "first_seen": "2026-11-09T15:02:15.435063+00:00",
-      "last_seen": "2026-11-09T15:02:15.435063+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.fortinet.com",
-          "url": "https://www.fortinet.com/blog/threat-research/bitter-expands-its-arsenal-with-paprat",
-          "pub_date": "2026-11-09T15:02:15.435063+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Bitter"
-        },
-        {
-          "type": "industry",
-          "value": "Energy"
-        },
-        {
-          "type": "industry",
-          "value": "Engineering"
-        },
-        {
-          "type": "industry",
-          "value": "Government"
-        }
-      ],
-      "categories": [
-        "phishing",
-        "malware"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "gomescareerplans.com",
-      "confidence": "high",
-      "reason": "Domain used in attack chain for malware delivery",
-      "first_seen": "2026-11-09T15:02:15.435063+00:00",
-      "last_seen": "2026-11-09T15:02:15.435063+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.fortinet.com",
-          "url": "https://www.fortinet.com/blog/threat-research/bitter-expands-its-arsenal-with-paprat",
-          "pub_date": "2026-11-09T15:02:15.435063+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Bitter"
-        },
-        {
-          "type": "industry",
-          "value": "Energy"
-        },
-        {
-          "type": "industry",
-          "value": "Engineering"
-        },
-        {
-          "type": "industry",
-          "value": "Government"
-        }
-      ],
-      "categories": [
-        "malware"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "goodnfortunes.com",
-      "confidence": "high",
-      "reason": "Domain used for data exfiltration in attack chain",
-      "first_seen": "2026-11-09T15:02:15.435063+00:00",
-      "last_seen": "2026-11-09T15:02:15.435063+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.fortinet.com",
-          "url": "https://www.fortinet.com/blog/threat-research/bitter-expands-its-arsenal-with-paprat",
-          "pub_date": "2026-11-09T15:02:15.435063+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Bitter"
-        },
-        {
-          "type": "industry",
-          "value": "Energy"
-        },
-        {
-          "type": "industry",
-          "value": "Engineering"
-        },
-        {
-          "type": "industry",
-          "value": "Government"
-        }
-      ],
-      "categories": [
-        "exfiltration"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "rivingtonclarks.com",
-      "confidence": "high",
-      "reason": "Domain used as C2 panel for PapRAT",
-      "first_seen": "2026-11-09T15:02:15.435063+00:00",
-      "last_seen": "2026-11-09T15:02:15.435063+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.fortinet.com",
-          "url": "https://www.fortinet.com/blog/threat-research/bitter-expands-its-arsenal-with-paprat",
-          "pub_date": "2026-11-09T15:02:15.435063+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Bitter"
-        },
-        {
-          "type": "industry",
-          "value": "Energy"
-        },
-        {
-          "type": "industry",
-          "value": "Engineering"
-        },
-        {
-          "type": "industry",
-          "value": "Government"
-        }
-      ],
-      "categories": [
-        "c2"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "techtalkhelp.com",
-      "confidence": "high",
-      "reason": "Domain used for staging and command updates",
-      "first_seen": "2026-11-09T15:02:15.435063+00:00",
-      "last_seen": "2026-11-09T15:02:15.435063+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.fortinet.com",
-          "url": "https://www.fortinet.com/blog/threat-research/bitter-expands-its-arsenal-with-paprat",
-          "pub_date": "2026-11-09T15:02:15.435063+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Bitter"
-        },
-        {
-          "type": "industry",
-          "value": "Energy"
-        },
-        {
-          "type": "industry",
-          "value": "Engineering"
-        },
-        {
-          "type": "industry",
-          "value": "Government"
-        }
-      ],
-      "categories": [
-        "malware"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "www.chestergreenfarming.com",
-      "confidence": "high",
-      "reason": "Domain used as decoded C2 server",
-      "first_seen": "2026-11-09T15:02:15.435063+00:00",
-      "last_seen": "2026-11-09T15:02:15.435063+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.fortinet.com",
-          "url": "https://www.fortinet.com/blog/threat-research/bitter-expands-its-arsenal-with-paprat",
-          "pub_date": "2026-11-09T15:02:15.435063+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Bitter"
-        },
-        {
-          "type": "industry",
-          "value": "Energy"
-        },
-        {
-          "type": "industry",
-          "value": "Engineering"
-        },
-        {
-          "type": "industry",
-          "value": "Government"
-        }
-      ],
-      "categories": [
-        "c2"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "www.rivingtonclarks.com",
-      "confidence": "high",
-      "reason": "Domain used as C2 URL for PapRAT",
-      "first_seen": "2026-11-09T15:02:15.435063+00:00",
-      "last_seen": "2026-11-09T15:02:15.435063+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.fortinet.com",
-          "url": "https://www.fortinet.com/blog/threat-research/bitter-expands-its-arsenal-with-paprat",
-          "pub_date": "2026-11-09T15:02:15.435063+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Bitter"
-        },
-        {
-          "type": "industry",
-          "value": "Energy"
-        },
-        {
-          "type": "industry",
-          "value": "Engineering"
-        },
-        {
-          "type": "industry",
-          "value": "Government"
-        }
-      ],
-      "categories": [
-        "c2"
       ],
       "basis": null
     },
@@ -16264,27 +17346,6 @@
     },
     {
       "type": "domain",
-      "value": "whitearmor.cc",
-      "confidence": "high",
-      "reason": "Listed as a clearnet domain established by the Whitearmor group",
-      "first_seen": "2026-10-23T19:19:21+00:00",
-      "last_seen": "2026-10-23T19:19:21+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Redpacketsecurity",
-          "url": "https://www.redpacketsecurity.com/whitearmor-ransomware-victim-whitearmor-cc/",
-          "pub_date": "2026-10-23T19:19:21+00:00"
-        }
-      ],
-      "tags": [],
-      "categories": [
-        "ransomware"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
       "value": "archivetj.com",
       "confidence": "high",
       "reason": "Used for command-and-control communication",
@@ -24468,49 +25529,6 @@
     },
     {
       "type": "domain",
-      "value": "pweobmxdlboi.com",
-      "confidence": "high",
-      "reason": "Domain used for uploading archives, indicating attacker control.",
-      "first_seen": "2026-10-14T15:02:37.397197+00:00",
-      "last_seen": "2026-10-16T13:02:06.654650+00:00",
-      "source_count": 2,
-      "sources": [
-        {
-          "source": "www.seqrite.com",
-          "url": "https://www.seqrite.com/blog/silent-lynx-apt-targeting-central-asian-entities/",
-          "pub_date": "2026-10-16T13:02:06.65465+00:00"
-        },
-        {
-          "source": "www.group-ib.com",
-          "url": "https://www.group-ib.com/blog/shadowsilk/",
-          "pub_date": "2026-10-14T15:02:37.397197+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "industry",
-          "value": "Government"
-        },
-        {
-          "type": "apt_group",
-          "value": "ShadowSilk"
-        },
-        {
-          "type": "apt_group",
-          "value": "Silent Lynx"
-        },
-        {
-          "type": "apt_group",
-          "value": "YoroTrooper"
-        }
-      ],
-      "categories": [
-        "malware"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
       "value": "account-notif.com",
       "confidence": "high",
       "reason": "Domain used in phishing email impersonating Claude, indicating attacker control.",
@@ -26742,348 +27760,6 @@
     },
     {
       "type": "domain",
-      "value": "admin.inboxsession.info",
-      "confidence": "high",
-      "reason": "Domain listed among others in a context suggesting attacker-controlled infrastructure.",
-      "first_seen": "2026-10-14T15:02:37.397197+00:00",
-      "last_seen": "2026-10-14T15:02:37.397197+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.group-ib.com",
-          "url": "https://www.group-ib.com/blog/shadowsilk/",
-          "pub_date": "2026-10-14T15:02:37.397197+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "ShadowSilk"
-        },
-        {
-          "type": "apt_group",
-          "value": "YoroTrooper"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2018-7600"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2018-7602"
-        }
-      ],
-      "categories": [
-        "other"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "auth.allcloudindex.com",
-      "confidence": "high",
-      "reason": "Domain listed among others in a context suggesting attacker-controlled infrastructure.",
-      "first_seen": "2026-10-14T15:02:37.397197+00:00",
-      "last_seen": "2026-10-14T15:02:37.397197+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.group-ib.com",
-          "url": "https://www.group-ib.com/blog/shadowsilk/",
-          "pub_date": "2026-10-14T15:02:37.397197+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "ShadowSilk"
-        },
-        {
-          "type": "apt_group",
-          "value": "YoroTrooper"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2018-7600"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2018-7602"
-        }
-      ],
-      "categories": [
-        "other"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "document.hometowncity.cloud",
-      "confidence": "high",
-      "reason": "Domain listed among others in a context suggesting attacker-controlled infrastructure.",
-      "first_seen": "2026-10-14T15:02:37.397197+00:00",
-      "last_seen": "2026-10-14T15:02:37.397197+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.group-ib.com",
-          "url": "https://www.group-ib.com/blog/shadowsilk/",
-          "pub_date": "2026-10-14T15:02:37.397197+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "ShadowSilk"
-        },
-        {
-          "type": "apt_group",
-          "value": "YoroTrooper"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2018-7600"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2018-7602"
-        }
-      ],
-      "categories": [
-        "other"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "document.mailboxarea.cloud",
-      "confidence": "high",
-      "reason": "Domain listed among others in a context suggesting attacker-controlled infrastructure.",
-      "first_seen": "2026-10-14T15:02:37.397197+00:00",
-      "last_seen": "2026-10-14T15:02:37.397197+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.group-ib.com",
-          "url": "https://www.group-ib.com/blog/shadowsilk/",
-          "pub_date": "2026-10-14T15:02:37.397197+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "ShadowSilk"
-        },
-        {
-          "type": "apt_group",
-          "value": "YoroTrooper"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2018-7600"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2018-7602"
-        }
-      ],
-      "categories": [
-        "other"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "document.webmailsession.com",
-      "confidence": "high",
-      "reason": "Domain listed among others in a context suggesting attacker-controlled infrastructure.",
-      "first_seen": "2026-10-14T15:02:37.397197+00:00",
-      "last_seen": "2026-10-14T15:02:37.397197+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.group-ib.com",
-          "url": "https://www.group-ib.com/blog/shadowsilk/",
-          "pub_date": "2026-10-14T15:02:37.397197+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "ShadowSilk"
-        },
-        {
-          "type": "apt_group",
-          "value": "YoroTrooper"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2018-7600"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2018-7602"
-        }
-      ],
-      "categories": [
-        "other"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "ex.wincorpupdates.com",
-      "confidence": "high",
-      "reason": "Domain listed among others in a context suggesting attacker-controlled infrastructure.",
-      "first_seen": "2026-10-14T15:02:37.397197+00:00",
-      "last_seen": "2026-10-14T15:02:37.397197+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.group-ib.com",
-          "url": "https://www.group-ib.com/blog/shadowsilk/",
-          "pub_date": "2026-10-14T15:02:37.397197+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "ShadowSilk"
-        },
-        {
-          "type": "apt_group",
-          "value": "YoroTrooper"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2018-7600"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2018-7602"
-        }
-      ],
-      "categories": [
-        "other"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "mailboxdownload.com",
-      "confidence": "high",
-      "reason": "Domain listed among others in a context suggesting attacker-controlled infrastructure.",
-      "first_seen": "2026-10-14T15:02:37.397197+00:00",
-      "last_seen": "2026-10-14T15:02:37.397197+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.group-ib.com",
-          "url": "https://www.group-ib.com/blog/shadowsilk/",
-          "pub_date": "2026-10-14T15:02:37.397197+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "ShadowSilk"
-        },
-        {
-          "type": "apt_group",
-          "value": "YoroTrooper"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2018-7600"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2018-7602"
-        }
-      ],
-      "categories": [
-        "other"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "message.mailboxarea.cloud",
-      "confidence": "high",
-      "reason": "Domain listed among others in a context suggesting attacker-controlled infrastructure.",
-      "first_seen": "2026-10-14T15:02:37.397197+00:00",
-      "last_seen": "2026-10-14T15:02:37.397197+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.group-ib.com",
-          "url": "https://www.group-ib.com/blog/shadowsilk/",
-          "pub_date": "2026-10-14T15:02:37.397197+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "ShadowSilk"
-        },
-        {
-          "type": "apt_group",
-          "value": "YoroTrooper"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2018-7600"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2018-7602"
-        }
-      ],
-      "categories": [
-        "other"
-      ],
-      "basis": null
-    },
-    {
-      "type": "ipv4",
-      "value": "193.124.203.226",
-      "confidence": "high",
-      "reason": "IP address listed among others in a context suggesting attacker-controlled infrastructure.",
-      "first_seen": "2026-10-14T15:02:37.397197+00:00",
-      "last_seen": "2026-10-14T15:02:37.397197+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.group-ib.com",
-          "url": "https://www.group-ib.com/blog/shadowsilk/",
-          "pub_date": "2026-10-14T15:02:37.397197+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "ShadowSilk"
-        },
-        {
-          "type": "apt_group",
-          "value": "YoroTrooper"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2018-7600"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2018-7602"
-        }
-      ],
-      "categories": [
-        "other"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
       "value": "hf98x4d.site",
       "confidence": "high",
       "reason": "Algorithmically generated domain used for C2 activity",
@@ -27520,97 +28196,6 @@
       ],
       "categories": [
         "phishing"
-      ],
-      "basis": null
-    },
-    {
-      "type": "ipv4",
-      "value": "193.178.159.129",
-      "confidence": "high",
-      "reason": "Listed as a C2 server for second-stage bot communication",
-      "first_seen": "2026-10-13T11:53:10.900000+00:00",
-      "last_seen": "2026-10-13T11:53:10.900000+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Blog.Virustotal",
-          "url": "https://blog.virustotal.com/2026/10/introducing-macos-mirage.html.html",
-          "pub_date": "2026-10-13T11:53:10.9+00:00"
-        }
-      ],
-      "tags": [],
-      "categories": [
-        "c2",
-        "botnet"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "agdx53.cc",
-      "confidence": "high",
-      "reason": "Reported as a command-and-control domain for DarkSword malware",
-      "first_seen": "2026-10-13T08:51:36+00:00",
-      "last_seen": "2026-10-13T08:51:36+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Esecurityplanet",
-          "url": "https://www.esecurityplanet.com/threats/news-darksword-iphone-keychain-wallet-theft/",
-          "pub_date": "2026-10-13T08:51:36+00:00"
-        }
-      ],
-      "tags": [],
-      "categories": [
-        "c2"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "ecomtrack.io",
-      "confidence": "high",
-      "reason": "Re-registered by attackers to deliver DarkSword malware",
-      "first_seen": "2026-10-13T08:51:36+00:00",
-      "last_seen": "2026-10-13T08:51:36+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Esecurityplanet",
-          "url": "https://www.esecurityplanet.com/threats/news-darksword-iphone-keychain-wallet-theft/",
-          "pub_date": "2026-10-13T08:51:36+00:00"
-        }
-      ],
-      "tags": [],
-      "categories": [
-        "malware",
-        "exploit"
-      ],
-      "basis": null
-    },
-    {
-      "type": "ipv4",
-      "value": "61.18.208.27",
-      "confidence": "high",
-      "reason": "Communicates with VulcanRAT207.A as a C2 server",
-      "first_seen": "2026-10-12T14:53:04+00:00",
-      "last_seen": "2026-10-12T14:53:04+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "The420.In",
-          "url": "https://the420.in/whatsapp-vulcanrat-windows-malware-system-access-cyber-attack/",
-          "pub_date": "2026-10-12T14:53:04+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "malware",
-          "value": "VulcanRAT207.A"
-        }
-      ],
-      "categories": [
-        "c2"
       ],
       "basis": null
     }

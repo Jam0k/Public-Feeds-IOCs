@@ -1,4 +1,32 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason,categories
+domain,foreverpeace.ru,high,2026-11-11T16:42:15.716050+00:00,2026-11-12T09:32:10.976841+00:00,1,,Domain used as part of the attacker's infrastructure with a reverse proxy.,proxy_tunnel
+domain,cdn007-digitaldownloads.com,high,2026-11-11T22:56:21+00:00,2026-11-12T04:39:48+00:00,2,,Listed as a potential IOC and used for downloading malicious installers,malware
+domain,ns.mo7sen.dev,high,2026-11-11T22:56:21+00:00,2026-11-12T04:39:48+00:00,2,,Listed as an IOC in the article,malware
+domain,sc.payproofkit.com,high,2026-11-11T22:56:21+00:00,2026-11-12T04:39:48+00:00,3,,Attacker-controlled ScreenConnect panel,malware
+domain,amexsafekeyupdate.com,high,2026-11-11T22:56:21+00:00,2026-11-11T22:56:21+00:00,1,,Domain used to retrieve installation commands for malicious activity,malware
+domain,whitearmor.cc,high,2026-10-23T19:19:21+00:00,2026-11-11T21:08:38.493980+00:00,2,,"Domain mentioned as down due to VPS provider ban, likely attacker-controlled",ransomware
+domain,admin.inboxsession.info,high,2026-10-14T15:02:37.397197+00:00,2026-11-11T16:58:35.900937+00:00,1,,Domain listed among others in a context suggesting attacker-controlled infrastructure.,other
+domain,auth.allcloudindex.com,high,2026-10-14T15:02:37.397197+00:00,2026-11-11T16:58:35.900937+00:00,1,,Domain listed among others in a context suggesting attacker-controlled infrastructure.,other
+domain,document.hometowncity.cloud,high,2026-10-14T15:02:37.397197+00:00,2026-11-11T16:58:35.900937+00:00,1,,Domain listed among others in a context suggesting attacker-controlled infrastructure.,other
+domain,document.mailboxarea.cloud,high,2026-10-14T15:02:37.397197+00:00,2026-11-11T16:58:35.900937+00:00,1,,Domain listed among others in a context suggesting attacker-controlled infrastructure.,other
+domain,document.webmailsession.com,high,2026-10-14T15:02:37.397197+00:00,2026-11-11T16:58:35.900937+00:00,1,,Domain listed among others in a context suggesting attacker-controlled infrastructure.,other
+domain,ex.wincorpupdates.com,high,2026-10-14T15:02:37.397197+00:00,2026-11-11T16:58:35.900937+00:00,1,,Domain listed among others in a context suggesting attacker-controlled infrastructure.,other
+domain,mailboxdownload.com,high,2026-10-14T15:02:37.397197+00:00,2026-11-11T16:58:35.900937+00:00,1,,Domain listed among others in a context suggesting attacker-controlled infrastructure.,other
+domain,message.mailboxarea.cloud,high,2026-10-14T15:02:37.397197+00:00,2026-11-11T16:58:35.900937+00:00,1,,Domain listed among others in a context suggesting attacker-controlled infrastructure.,other
+domain,pweobmxdlboi.com,high,2026-10-14T15:02:34.120624+00:00,2026-11-11T16:58:35.900937+00:00,2,,"Domain used for uploading archives, indicating attacker control.",malware
+domain,fogomyart.com,high,2026-11-11T16:42:52.499566+00:00,2026-11-11T16:42:52.499566+00:00,1,,Domain used to host and deliver malicious payloads as described in the article,malware
+domain,tradesmarkets.greenadelhouse.com,high,2026-11-11T16:42:52.499566+00:00,2026-11-11T16:42:52.499566+00:00,1,,Identified as a C2 domain decrypted from malware sample,c2
+domain,felixfuturenext.com,high,2026-11-02T18:00:29.118178+00:00,2026-11-11T16:42:50.075876+00:00,1,,Domain used in phishing and malware attacks,phishing|malware
+domain,gomescareerplans.com,high,2026-10-01T10:31:57+00:00,2026-11-11T16:42:50.075876+00:00,2,,Domain used in attack chain for malware delivery,malware
+domain,goodnfortunes.com,high,2026-11-02T18:00:29.118178+00:00,2026-11-11T16:42:50.075876+00:00,1,,Domain used for data exfiltration in attack chain,exfiltration
+domain,rivingtonclarks.com,high,2026-11-02T18:00:29.118178+00:00,2026-11-11T16:42:50.075876+00:00,1,,Domain used as C2 panel for PapRAT,c2
+domain,techtalkhelp.com,high,2026-11-02T18:00:29.118178+00:00,2026-11-11T16:42:50.075876+00:00,1,,Domain used for staging and command updates,malware
+domain,www.chestergreenfarming.com,high,2026-11-02T18:00:29.118178+00:00,2026-11-11T16:42:50.075876+00:00,1,,Domain used as decoded C2 server,c2
+domain,www.rivingtonclarks.com,high,2026-11-02T18:00:29.118178+00:00,2026-11-11T16:42:50.075876+00:00,1,,Domain used as C2 URL for PapRAT,c2
+domain,asteara.org,high,2026-11-11T13:44:51+00:00,2026-11-11T13:44:51+00:00,1,,Attributed to attacker infrastructure by Proofpoint.,c2
+domain,dscufo.xyz,high,2026-11-11T13:44:51+00:00,2026-11-11T13:44:51+00:00,1,,Used in fake recruitment approaches by attackers.,phishing
+domain,subnet.dokamacto.xyz,high,2026-11-11T13:44:51+00:00,2026-11-11T13:44:51+00:00,1,,Domain used for campaign's operational tooling,malware
+domain,oneglobalvisa.com,high,2026-11-11T08:05:48+00:00,2026-11-11T08:05:48+00:00,1,,Used as a C2 server for credential theft.,c2|malware
 domain,ervsystem.com,high,2026-11-10T17:05:54.209556+00:00,2026-11-10T17:05:54.209556+00:00,1,,Listed in an IOC table as attacker-controlled infrastructure,malware
 domain,infinitysoftwares.com,high,2026-11-10T17:05:54.209556+00:00,2026-11-10T17:05:54.209556+00:00,1,,Listed in an IOC table as attacker-controlled infrastructure,malware
 domain,rhanksharborpartners.club,high,2026-11-10T16:34:00.845293+00:00,2026-11-10T16:34:00.845293+00:00,1,,Used as a phishing domain in the campaign,phishing
@@ -47,13 +75,6 @@ domain,chrocustumapp.com,high,2026-11-09T16:30:59.657125+00:00,2026-11-09T16:30:
 domain,coretest.digital,high,2026-11-09T16:30:59.657125+00:00,2026-11-09T16:30:59.657125+00:00,1,,Listed as a C2 panel,c2
 domain,tac.vpnla.org,high,2026-11-09T16:12:15+00:00,2026-11-09T16:12:15+00:00,1,,Identified as a C2 server for TAC Agent,c2
 domain,tradingclaw.pro,high,2026-09-17T09:32:21+00:00,2026-11-09T15:58:45+00:00,2,,Used as a fake website to distribute malware,malware
-domain,felixfuturenext.com,high,2026-11-02T18:00:29.118178+00:00,2026-11-09T15:02:15.435063+00:00,1,,Domain used in phishing and malware attacks,phishing|malware
-domain,gomescareerplans.com,high,2026-10-01T10:31:57+00:00,2026-11-09T15:02:15.435063+00:00,2,,Domain used in attack chain for malware delivery,malware
-domain,goodnfortunes.com,high,2026-11-02T18:00:29.118178+00:00,2026-11-09T15:02:15.435063+00:00,1,,Domain used for data exfiltration in attack chain,exfiltration
-domain,rivingtonclarks.com,high,2026-11-02T18:00:29.118178+00:00,2026-11-09T15:02:15.435063+00:00,1,,Domain used as C2 panel for PapRAT,c2
-domain,techtalkhelp.com,high,2026-11-02T18:00:29.118178+00:00,2026-11-09T15:02:15.435063+00:00,1,,Domain used for staging and command updates,malware
-domain,www.chestergreenfarming.com,high,2026-11-02T18:00:29.118178+00:00,2026-11-09T15:02:15.435063+00:00,1,,Domain used as decoded C2 server,c2
-domain,www.rivingtonclarks.com,high,2026-11-02T18:00:29.118178+00:00,2026-11-09T15:02:15.435063+00:00,1,,Domain used as C2 URL for PapRAT,c2
 domain,0350pvas.acs-wcst.com,high,2026-11-09T11:32:39.346278+00:00,2026-11-09T11:32:39.346278+00:00,1,,Domain hosting phishing kit,phishing
 domain,1355bcra.ck29material.com,high,2026-11-09T11:32:39.346278+00:00,2026-11-09T11:32:39.346278+00:00,1,,Domain hosting phishing kit,phishing
 domain,1717emxr.acs-wcst.com,high,2026-11-09T11:32:39.346278+00:00,2026-11-09T11:32:39.346278+00:00,1,,Domain hosting phishing kit,phishing
@@ -485,7 +506,6 @@ domain,muzpan.com,high,2026-10-23T15:09:38+00:00,2026-10-23T21:32:21.253490+00:0
 domain,sodkamus.com,high,2026-10-23T15:09:38+00:00,2026-10-23T21:32:21.253490+00:00,2,,Domain used by attacker-controlled VPN infrastructure to disguise connections.,proxy_tunnel
 domain,agent2.sh,high,2026-09-30T21:13:41.814200+00:00,2026-10-23T19:31:50.527393+00:00,1,,Described as part of a multi-stage payload chain used by attackers,malware
 domain,bypass.eu.org,high,2026-09-30T21:13:41.814200+00:00,2026-10-23T19:31:50.527393+00:00,1,,Described as campaign-associated infrastructure used by attackers,callback_testing
-domain,whitearmor.cc,high,2026-10-23T19:19:21+00:00,2026-10-23T19:19:21+00:00,1,,Listed as a clearnet domain established by the Whitearmor group,ransomware
 domain,archivetj.com,high,2026-10-23T18:50:13+00:00,2026-10-23T18:50:13+00:00,1,,Used for command-and-control communication,c2
 domain,check.foquh.icu,high,2026-10-23T18:45:08+00:00,2026-10-23T18:45:08+00:00,1,,"Domain used to fetch a file via mshta in a malware campaign, indicating attacker control.",malware
 domain,litellm.dev,high,2026-10-21T17:08:52+00:00,2026-10-23T12:00:40.720071+00:00,5,,Listed as an exfiltration endpoint and attacker-controlled domain,exfiltration
@@ -678,7 +698,6 @@ domain,cache-cdn.org,high,2026-10-16T17:00:33.282078+00:00,2026-10-16T17:00:33.2
 domain,cache-mcp.com,high,2026-10-16T17:00:33.282078+00:00,2026-10-16T17:00:33.282078+00:00,1,,Listed as a PeckBirdy C2 domain in a threat report,c2
 domain,js.cache-mcp.com,high,2026-10-16T17:00:33.282078+00:00,2026-10-16T17:00:33.282078+00:00,1,,Subdomain used to load suspicious JavaScript payloads linked to malware,malware|c2
 domain,mcp-source.online,high,2026-10-16T17:00:33.282078+00:00,2026-10-16T17:00:33.282078+00:00,1,,Listed as a PeckBirdy C2 domain in a threat report,c2
-domain,pweobmxdlboi.com,high,2026-10-14T15:02:34.120624+00:00,2026-10-16T13:02:06.654650+00:00,2,,Domain used to host and deliver a malicious payload as part of the attack campaign.,malware
 domain,account-notif.com,high,2026-10-16T13:00:47+00:00,2026-10-16T13:00:47+00:00,1,,"Domain used in phishing email impersonating Claude, indicating attacker control.",phishing
 domain,checkout-confirm.top,high,2026-10-16T07:17:00+00:00,2026-10-16T12:11:39.667022+00:00,2,,Domain used for phishing as a lookalike payment page in a malicious redirection scheme,phishing
 domain,apexaccs.org,high,2026-10-16T10:31:51+00:00,2026-10-16T10:31:51+00:00,1,,Listed as part of attacker infrastructure in a threat report,malware
@@ -750,14 +769,6 @@ domain,malowzx.sbs,high,2026-10-14T16:09:56.281706+00:00,2026-10-14T16:09:56.281
 domain,my.id,high,2026-10-14T16:09:56.281706+00:00,2026-10-14T16:09:56.281706+00:00,1,,Used in a phishing campaign as a fake government portal.,phishing
 domain,q-parkfine.cfd,high,2026-10-14T16:09:56.281706+00:00,2026-10-14T16:09:56.281706+00:00,1,,Domain associated with phishing-as-a-service infrastructure.,phishing
 domain,examp1e.com,high,2026-10-14T15:15:45+00:00,2026-10-14T15:15:45+00:00,1,,Described as a phishing domain used to capture credentials.,phishing
-domain,admin.inboxsession.info,high,2026-10-14T15:02:37.397197+00:00,2026-10-14T15:02:37.397197+00:00,1,,Domain listed among others in a context suggesting attacker-controlled infrastructure.,other
-domain,auth.allcloudindex.com,high,2026-10-14T15:02:37.397197+00:00,2026-10-14T15:02:37.397197+00:00,1,,Domain listed among others in a context suggesting attacker-controlled infrastructure.,other
-domain,document.hometowncity.cloud,high,2026-10-14T15:02:37.397197+00:00,2026-10-14T15:02:37.397197+00:00,1,,Domain listed among others in a context suggesting attacker-controlled infrastructure.,other
-domain,document.mailboxarea.cloud,high,2026-10-14T15:02:37.397197+00:00,2026-10-14T15:02:37.397197+00:00,1,,Domain listed among others in a context suggesting attacker-controlled infrastructure.,other
-domain,document.webmailsession.com,high,2026-10-14T15:02:37.397197+00:00,2026-10-14T15:02:37.397197+00:00,1,,Domain listed among others in a context suggesting attacker-controlled infrastructure.,other
-domain,ex.wincorpupdates.com,high,2026-10-14T15:02:37.397197+00:00,2026-10-14T15:02:37.397197+00:00,1,,Domain listed among others in a context suggesting attacker-controlled infrastructure.,other
-domain,mailboxdownload.com,high,2026-10-14T15:02:37.397197+00:00,2026-10-14T15:02:37.397197+00:00,1,,Domain listed among others in a context suggesting attacker-controlled infrastructure.,other
-domain,message.mailboxarea.cloud,high,2026-10-14T15:02:37.397197+00:00,2026-10-14T15:02:37.397197+00:00,1,,Domain listed among others in a context suggesting attacker-controlled infrastructure.,other
 domain,amlbot-clear.com,high,2026-10-14T14:07:13.436321+00:00,2026-10-14T14:07:13.436321+00:00,1,,Listed as an IOC in the context of phishing and scam websites.,phishing|scam_fraud
 domain,audittrust.shop,high,2026-10-14T14:07:13.436321+00:00,2026-10-14T14:07:13.436321+00:00,1,,Listed as an IOC in the context of phishing and scam websites.,phishing|scam_fraud
 domain,bitget-aml.com,high,2026-10-14T14:07:13.436321+00:00,2026-10-14T14:07:13.436321+00:00,1,,Listed as an IOC in the context of phishing and scam websites.,phishing|scam_fraud

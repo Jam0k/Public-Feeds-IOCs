@@ -1,4 +1,13 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason,categories
+ipv4,89.125.213.123,high,2026-11-11T16:42:15.716050+00:00,2026-11-12T09:32:10.976841+00:00,1,,IP address used as a server for phishing and other malicious activities.,phishing
+ipv4,155.94.150.39,high,2026-11-11T22:56:21+00:00,2026-11-12T04:39:48+00:00,3,,IP address associated with attacker-controlled ScreenConnect panel,malware|abused_service
+ipv4,185.99.255.28,high,2026-11-11T22:56:21+00:00,2026-11-12T04:39:48+00:00,3,,IP address associated with attacker ScreenConnect server,malware|abused_service
+ipv4,193.124.203.226,high,2026-10-14T15:02:37.397197+00:00,2026-11-11T16:58:35.900937+00:00,1,,IP address listed among others in a context suggesting attacker-controlled infrastructure.,other
+ipv4,107.148.225.248,high,2026-11-11T14:09:04+00:00,2026-11-11T14:09:04+00:00,1,,Used as a C2 server for malware delivery.,c2|malware
+ipv4,45.115.26.23,high,2026-11-11T14:05:36+00:00,2026-11-11T14:05:36+00:00,1,,Used as a reverse shell endpoint in a PowerShell command for remote control and persistence.,c2
+ipv4,198.54.127.82,high,2026-11-11T13:44:51+00:00,2026-11-11T13:44:51+00:00,1,,Revealed in attackers' documentation as part of their infrastructure.,malware|abused_service
+ipv4,45.158.196.141,high,2026-11-11T09:23:29+00:00,2026-11-11T09:23:29+00:00,1,,"Listed as GhostFrame C2 address, indicating attacker control",c2
+ipv4,45.158.196.81,high,2026-11-11T09:23:29+00:00,2026-11-11T09:23:29+00:00,1,,"Listed as GhostFrame C2 address, indicating attacker control",c2
 ipv4,93.152.209.36,high,2026-11-11T02:18:00+00:00,2026-11-11T02:18:00+00:00,1,,Associated with NetSupport RAT alerts,c2
 ipv4,45.146.81.142,high,2026-11-10T16:34:00.409132+00:00,2026-11-10T16:34:00.409132+00:00,1,,Associated with a dedicated C&C server in the campaign,c2
 ipv4,167.148.201.104,high,2026-11-10T13:57:59+00:00,2026-11-10T13:57:59+00:00,1,,Potential command-and-control endpoint,c2
@@ -189,7 +198,6 @@ ipv4,23.240.77.233,high,2026-10-14T22:42:29+00:00,2026-10-16T05:04:36+00:00,2,,I
 ipv4,91.196.33.144,high,2026-10-15T15:12:22.476814+00:00,2026-10-15T15:12:22.476814+00:00,1,,Resolved from hotcname.help used in tech support scams,malware
 ipv4,47.18.167.159,high,2026-10-14T22:42:29+00:00,2026-10-14T22:42:29+00:00,1,,Identified as known external staging infrastructure used by attackers,other
 ipv4,139.28.18.122,high,2026-10-14T20:05:01.148615+00:00,2026-10-14T20:05:01.148615+00:00,1,,IP address used in successful hacks on Nextcloud servers,other
-ipv4,193.124.203.226,high,2026-10-14T15:02:37.397197+00:00,2026-10-14T15:02:37.397197+00:00,1,,IP address listed among others in a context suggesting attacker-controlled infrastructure.,other
 ipv4,138.124.123.87,high,2026-09-30T12:35:09+00:00,2026-10-14T13:59:36+00:00,1,,Used in suspicious WebDAV communication for malware delivery,malware
 ipv4,77.110.127.205,high,2026-07-20T15:43:55+00:00,2026-10-14T13:59:36+00:00,2,,Involved in unusual C2 communication,c2
 ipv4,158.94.209.19,high,2026-10-13T21:00:10+00:00,2026-10-13T21:00:10+00:00,1,,IP address resolving to a credential collection endpoint.,phishing
