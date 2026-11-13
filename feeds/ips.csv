@@ -1,5 +1,11 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason,categories
-ipv4,89.125.213.123,high,2026-11-12T09:32:10.976841+00:00,2026-11-12T09:32:10.976841+00:00,1,www.cloudsek.com:2026-11-12,IP address used as a server for phishing and other malicious activities.,phishing
+ipv4,130.94.19.204,high,2026-11-12T14:06:23+00:00,2026-11-13T11:46:59+00:00,4,Securityaffairs:2026-11-13|News.Lavx.Hu:2026-11-13|Thehackernews:2026-11-13|Research.Checkpoint:2026-11-12,IP address used by attackers to target vulnerable systems,exploit
+ipv4,89.125.213.123,high,2026-11-13T00:38:10.803831+00:00,2026-11-13T00:38:10.803831+00:00,1,www.cloudsek.com:2026-11-13,Exposed Debian VPS used by attackers for phishing operations.,phishing
+ipv4,89.34.90.203,high,2026-11-12T23:15:23+00:00,2026-11-12T23:15:23+00:00,1,Helpnetsecurity:2026-11-12,IP address used to host a script for a phishing campaign.,malware
+ipv4,185.138.88.3,high,2026-11-12T15:31:44.382105+00:00,2026-11-12T15:31:44.382105+00:00,1,www.island.io:2026-11-12,IP address used in malicious command execution,malware
+ipv4,154.44.31.4,high,2026-11-12T15:00:29+00:00,2026-11-12T15:03:54+00:00,2,Unit42.Paloaltonetworks:2026-11-12|Helpnetsecurity:2026-11-12,Server used by attackers to run a customized fork of Cairn,malware
+ipv4,157.20.241.16,high,2026-11-12T11:51:43+00:00,2026-11-12T11:51:43+00:00,1,Thehackernews:2026-11-12,Used in a targeted attack against N-central servers,exploit
+ipv4,194.150.166.244,high,2026-11-12T01:45:00+00:00,2026-11-12T01:45:00+00:00,1,Aikido.Dev:2026-11-12,IP address used as a callback server for exfiltration in a campaign.,exfiltration
 ipv4,193.124.203.226,high,2026-11-11T16:58:35.900937+00:00,2026-11-11T16:58:35.900937+00:00,1,www.group-ib.com:2026-11-11,IP address listed among others in a context suggesting attacker-controlled infrastructure.,other
 ipv4,107.148.225.248,high,2026-11-11T14:09:04+00:00,2026-11-11T14:09:04+00:00,1,Morphisec:2026-11-11,Used as a C2 server for malware delivery.,c2|malware
 ipv4,45.115.26.23,high,2026-11-11T14:05:36+00:00,2026-11-11T14:05:36+00:00,1,Thehackernews:2026-11-11,Used as a reverse shell endpoint in a PowerShell command for remote control and persistence.,c2
@@ -68,7 +74,7 @@ ipv4,195.16.74.137,high,2026-11-02T17:02:17.201143+00:00,2026-11-02T17:02:17.201
 ipv4,195.16.74.138,high,2026-11-02T17:02:17.201143+00:00,2026-11-02T17:02:17.201143+00:00,1,www.group-ib.com:2026-11-02,Listed as a C2 IP address.,c2
 ipv4,2.56.126.151,high,2026-11-02T17:02:17.201143+00:00,2026-11-02T17:02:17.201143+00:00,1,www.group-ib.com:2026-11-02,Listed as additional staging IP.,other
 ipv4,45.14.227.58,high,2026-11-02T10:07:30.919290+00:00,2026-11-02T10:07:30.919290+00:00,1,www.cisa.gov:2026-11-02,Associated with DAFOM malware,malware
-ipv4,108.165.147.64,high,2026-10-13T17:33:11+00:00,2026-11-02T10:06:11.096915+00:00,4,www.volexity.com:2026-11-02|Ccb.Belgium.Be:2026-10-14|Rescana:2026-10-14|Feeds.Feedburner:2026-10-13,Identified as a host used by the attacker for operations,other
+ipv4,108.165.147.64,high,2026-10-14T16:28:35+00:00,2026-11-02T10:06:11.096915+00:00,2,www.volexity.com:2026-11-02|Ccb.Belgium.Be:2026-10-14,Identified as a host used by the attacker for operations,other
 ipv4,38.246.114.118,high,2026-10-30T23:02:29+00:00,2026-10-30T23:02:29+00:00,1,Wiz:2026-10-30,IP address conducting unauthorized key checks linked to attacker activity.,malware
 ipv4,130.94.67.235,high,2026-10-30T17:50:37+00:00,2026-10-30T17:50:37+00:00,1,Reddit:2026-10-30,Exposed IP address for a custom heap exploit.,exploit
 ipv4,79.43.178.226,high,2026-10-30T16:01:04.709172+00:00,2026-10-30T16:01:04.709172+00:00,1,www.fortian.com.au:2026-10-30,Used as a C2 server by the attacker,c2
@@ -187,4 +193,3 @@ ipv4,47.18.167.159,high,2026-10-14T22:42:29+00:00,2026-10-14T22:42:29+00:00,1,Un
 ipv4,139.28.18.122,high,2026-10-14T20:05:01.148615+00:00,2026-10-14T20:05:01.148615+00:00,1,github.com:2026-10-14,IP address used in successful hacks on Nextcloud servers,other
 ipv4,138.124.123.87,high,2026-10-14T13:59:36+00:00,2026-10-14T13:59:36+00:00,1,Darktrace:2026-10-14,Used in suspicious WebDAV communication for malware delivery,malware
 ipv4,77.110.127.205,high,2026-10-14T13:59:36+00:00,2026-10-14T13:59:36+00:00,1,Darktrace:2026-10-14,Involved in unusual C2 communication,c2
-ipv4,158.94.209.19,high,2026-10-13T21:00:10+00:00,2026-10-13T21:00:10+00:00,1,Huntress:2026-10-13,IP address resolving to a credential collection endpoint.,phishing

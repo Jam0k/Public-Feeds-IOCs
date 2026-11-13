@@ -1,11 +1,39 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason,categories
-sha256,43b7a5e56f9e6c7b74e1ce2b7b5af63f383084625fcc2d3a5985fa1059e2db95,high,2026-11-12T03:26:13+00:00,2026-11-12T03:26:13+00:00,1,,SHA256 hash of a dropper used in the attack,malware
-sha256,454c43d296b1276bde9a4f6ff1da2221cb35ccdb2fc7991bdd572e45bce12a8a,high,2026-11-12T03:26:13+00:00,2026-11-12T03:26:13+00:00,1,,SHA256 hash of a script used in the attack,malware
-sha256,50659748723e906c8b3d3c0386bd4cf692f693a3e23639398c1a14d0c31fed61,high,2026-11-12T03:26:13+00:00,2026-11-12T03:26:13+00:00,1,,SHA256 hash of a file used in the attack,malware
-sha256,5dd3a6ba806ac472663e243cfc1c034c534d5d9a42ec362c3dbf0f8d950148d0,high,2026-11-12T03:26:13+00:00,2026-11-12T03:26:13+00:00,1,,SHA256 hash of a file used in the attack,malware
-sha256,81cc2baa35b798d6084bd078662fa29ff28df02c46c6ccdb2b43bde97d19f781,high,2026-11-12T03:26:13+00:00,2026-11-12T03:26:13+00:00,1,,SHA256 hash of a file used in the attack,malware
-sha256,8cb5f48bbe70b5248db7f327f3d1ad6649df5c767d2a7e0711ee147fd92e06af,high,2026-11-12T03:26:13+00:00,2026-11-12T03:26:13+00:00,1,,SHA256 hash of a file used in the attack,malware
-sha256,94b93c649b0ae0281352da9d01761fa9195ab1e6ac7010af3b9ba1646355eb11,high,2026-11-12T03:26:13+00:00,2026-11-12T03:26:13+00:00,1,,SHA256 hash of the main worm installer script,malware
+sha256,2014d09c7ded74d89c885b5f11693865224116f1b25df9330e61fe528f419d73,high,2026-11-12T23:04:32.821660+00:00,2026-11-12T23:05:14.625615+00:00,1,,SHA256 hash of a trojanized file used in the attack,malware
+sha256,24604384b0e748ada07923630b3d037489e696284a98c4409fb9b6763565571f,high,2026-11-12T23:04:32.821660+00:00,2026-11-12T23:05:14.625615+00:00,1,,SHA256 hash of a malicious NPM package used in the attack,malware|supply_chain
+sha256,fc4c01fd11bc301cf312830460cfdccc3af9dcfe50c910b86d6a1117bc76c747,high,2026-11-12T21:04:51.417216+00:00,2026-11-12T21:04:51.417216+00:00,1,,Python script used by attackers to escalate privileges,malware
+sha256,124774698FD3EDE0800015D19C2BD6C1869D03BBC2E6E8DBE2F69D2978F7F4D0,high,2026-11-12T17:33:18.748119+00:00,2026-11-12T17:33:18.748119+00:00,1,,Listed as a hash of a malicious executable (dwm.exe) in the article.,malware
+sha256,125D3A0EFE7699BB20397C13F0F4993AD893952727487B4D190E386A5B14C427,high,2026-11-12T17:33:18.748119+00:00,2026-11-12T17:33:18.748119+00:00,1,,Listed as a hash of a malicious executable (down.exe) in the article.,malware
+sha256,20983573B840447E1AACD6D3F6DD240732B15037D268D6456F0D3C4EC5051CB0,high,2026-11-12T17:33:18.748119+00:00,2026-11-12T17:33:18.748119+00:00,1,,Listed as a hash of a malicious executable in the article.,malware
+sha256,2a0d2889241885d5ea6fe7dd1b1adc83653a0c07b8aaa1b0832e5f9c0225b379,high,2026-11-12T17:33:18.748119+00:00,2026-11-12T17:33:18.748119+00:00,1,,Listed as a relevant sample in a malware analysis,malware
+sha256,2a23e10bfc097e98295cbff8124bd403c4cb677e709b48ccc53d6aca216c3061,high,2026-11-12T17:33:18.748119+00:00,2026-11-12T17:33:18.748119+00:00,1,,Listed as a relevant sample in a malware analysis,malware
+sha256,3F64B0146B323C5716043360E84384A5A197A897F46088DF93A910470A29E1A0,high,2026-11-12T17:33:18.748119+00:00,2026-11-12T17:33:18.748119+00:00,1,,Listed as a hash of a malicious executable (winlogon.exe) in the article.,malware
+sha256,58DB0CA2054ABE2989412D7A1C8ED16718577F893C196825C848FCD56C7E8F05,high,2026-11-12T17:33:18.748119+00:00,2026-11-12T17:33:18.748119+00:00,1,,Listed as a hash of a malicious executable in the article.,malware
+sha256,79596cf6e267ef5cb658bd97d04e42a41001d36595e370441adb3c2b5dd5666c,high,2026-11-12T17:33:18.748119+00:00,2026-11-12T17:33:18.748119+00:00,1,,Listed as a relevant sample in a malware analysis,malware
+sha256,8CE2CD98EF6CEEECE8239936E4AEA042C41807F632CD691D5091705BF6C0076D,high,2026-11-12T17:33:18.748119+00:00,2026-11-12T17:33:18.748119+00:00,1,,Listed as a hash of a malicious executable (dllhost.exe) in the article.,malware
+sha256,d6e3fd28f479138b336e2c2088ad2e86b7646a163aa453b1703905a4b359070f,high,2026-11-12T17:33:18.748119+00:00,2026-11-12T17:33:18.748119+00:00,1,,Listed as a relevant sample in a malware analysis,malware
+sha256,da4128aa5d006e05c58f0d240c2d8e5fb02774b6acf314f1230059c7a3498724,high,2026-11-12T17:33:18.748119+00:00,2026-11-12T17:33:18.748119+00:00,1,,Listed as a relevant sample in a malware analysis,malware
+sha256,e9d3fd9093c476b8b5de19aa00c50758568649def6491f54fa3e0aba4ea31ac9,high,2026-11-12T17:33:18.748119+00:00,2026-11-12T17:33:18.748119+00:00,1,,Listed as a relevant sample in a malware analysis,malware
+sha256,f5444e8e9e9e019693aacb363b7441ac0b8ecfe96a77fd94b9c312a017588eb4,high,2026-11-12T17:33:18.748119+00:00,2026-11-12T17:33:18.748119+00:00,1,,Listed as a relevant sample in a malware analysis,exploit
+md5,6401646e701f5f47518ecef48a308a36,high,2026-10-14T14:02:31.736623+00:00,2026-11-12T14:31:28.836363+00:00,1,,Listed in a table of IOCs related to threat actor exploitation,malware
+sha256,0bd84c776dc01f784a617e73fc77b269f847fc4a062ffd489e4692869724bf08,high,2026-11-12T03:26:13+00:00,2026-11-12T03:26:13+00:00,1,,Listed as a config file that points the worm at the attacker panel,malware
+sha256,3c7a98f0fdb6235b8076319c74dc1085f7b349b6d750416dd0cadb07d7972ec4,high,2026-11-12T03:26:13+00:00,2026-11-12T03:26:13+00:00,1,,Source code for the trap used by attackers,malware
+sha256,43b7a5e56f9e6c7b74e1ce2b7b5af63f383084625fcc2d3a5985fa1059e2db95,high,2026-11-12T03:26:13+00:00,2026-11-12T03:26:13+00:00,1,,Identified as the dropper in malware analysis,malware
+sha256,454c43d296b1276bde9a4f6ff1da2221cb35ccdb2fc7991bdd572e45bce12a8a,high,2026-11-12T03:26:13+00:00,2026-11-12T03:26:13+00:00,1,,Identified as part of the malware payload,malware
+sha256,4a1dd3cd2ea14368afadf7e9dfdd63b104e3981ef8c85bbb6510919b810af04b,high,2026-11-12T03:26:13+00:00,2026-11-12T03:26:13+00:00,1,,Sets up the trap in a malware campaign,malware
+sha256,50659748723e906c8b3d3c0386bd4cf692f693a3e23639398c1a14d0c31fed61,high,2026-11-12T03:26:13+00:00,2026-11-12T03:26:13+00:00,1,,Identified as part of the malware payload,malware
+sha256,5dd3a6ba806ac472663e243cfc1c034c534d5d9a42ec362c3dbf0f8d950148d0,high,2026-11-12T03:26:13+00:00,2026-11-12T03:26:13+00:00,1,,Identified as part of the malware payload,malware
+sha256,7a9aca9fdd4dcc13fe497cabdb13ca1e5d6a529271c8aa495e5ca1c1c80271ec,high,2026-11-12T03:26:13+00:00,2026-11-12T03:26:13+00:00,1,,Main worm installer script used by attackers,malware
+sha256,81cc2baa35b798d6084bd078662fa29ff28df02c46c6ccdb2b43bde97d19f781,high,2026-11-12T03:26:13+00:00,2026-11-12T03:26:13+00:00,1,,Identified as part of the malware payload,malware
+sha256,8cb5f48bbe70b5248db7f327f3d1ad6649df5c767d2a7e0711ee147fd92e06af,high,2026-11-12T03:26:13+00:00,2026-11-12T03:26:13+00:00,1,,Identified as part of the malware payload,malware
+sha256,94b93c649b0ae0281352da9d01761fa9195ab1e6ac7010af3b9ba1646355eb11,high,2026-11-12T03:26:13+00:00,2026-11-12T03:26:13+00:00,1,,Identified as the main worm installer script,malware
+sha256,b93f10f30ee453d1e1c046fec9d141c41d7680be5cd46c3aeb3febe0f4953b4d,high,2026-11-12T03:26:13+00:00,2026-11-12T03:26:13+00:00,1,,Helper library used by attackers,malware
+sha256,c31e6f075cd77e01839aebce32ed35659a9ee962d102aca53040bb5e297410a9,high,2026-11-12T03:26:13+00:00,2026-11-12T03:26:13+00:00,1,,Removes the trap in a malware campaign,malware
+sha256,cf50d73fa8117a758093b1344de41cd6a6ccddc645cdda1fa91a9264efe93956,high,2026-11-12T03:26:13+00:00,2026-11-12T03:26:13+00:00,1,,Logs ScreenConnect events for attackers,malware
+sha256,d2ed7a7bf4f8ac9c7969e9b3a07ebd4dda0d858f372c876ac0a041611698de9a,high,2026-11-12T03:26:13+00:00,2026-11-12T03:26:13+00:00,1,,Runs as SYSTEM to take over ScreenConnect clients,malware
+sha256,deda7c30d798a19b6699a45fbcba503cf778594df9163c61c2f96bb2d2b9fb45,high,2026-11-12T03:26:13+00:00,2026-11-12T03:26:13+00:00,1,,Stops AppLocker service in a malware campaign,malware
+sha256,89695abb392d5cfd4972672961e644bb46baa98aa1ed7173c2a2816c762735cf,high,2026-11-12T01:45:00+00:00,2026-11-12T01:45:00+00:00,1,,Stealer script used by attackers,malware
+md5,a71ad3167f9402d8c5388910862b16ae,high,2026-11-11T17:10:40.644000+00:00,2026-11-11T17:10:40.644000+00:00,1,,Hardcoded C2 list in a malware sample,malware
 sha1,00bf14e8153778835f95b9255ae1658e37819f8d,high,2026-10-14T15:02:37.397197+00:00,2026-11-11T16:58:35.900937+00:00,1,,SHA1 hash listed in a section labeled as Indicators of Compromise.,malware
 sha1,0135f8420c61babee43625dbba2a23ef9a12477d,high,2026-10-14T15:02:37.397197+00:00,2026-11-11T16:58:35.900937+00:00,1,,SHA1 hash listed in a section labeled as Indicators of Compromise.,malware
 sha1,0279a25ee68fc23e91a353fbcd28f71c21e691fc,high,2026-10-14T15:02:37.397197+00:00,2026-11-11T16:58:35.900937+00:00,1,,SHA1 hash listed in a section labeled as Indicators of Compromise.,malware
@@ -470,7 +498,6 @@ md5,9d88b4494c7bc27b10358b68a899ad54,high,2026-10-09T12:00:42.928944+00:00,2026-
 md5,ad0b1b6d2c8b9d09d6473a4a299470ab,high,2026-10-09T12:00:42.928944+00:00,2026-11-01T08:02:54.837437+00:00,1,,Listed as an encrypted malware hash,malware
 md5,be60c52ca8a01fef7dc15c2f0ebb77d8,high,2026-10-09T12:00:42.928944+00:00,2026-11-01T08:02:54.837437+00:00,1,,Listed as an encrypted malware hash,malware
 sha256,57ef4242666d78c50df145b34023df564f0fad38812d6a580e66433d427e2279,high,2026-10-31T17:09:23+00:00,2026-10-31T17:09:23+00:00,1,,"Hash listed in context of malware analysis, indicating a malware sample.",malware
-md5,6401646e701f5f47518ecef48a308a36,high,2026-10-14T14:02:31.736623+00:00,2026-10-30T19:38:04.036390+00:00,1,,Listed in a table of IOCs related to threat actor exploitation,malware
 sha256,04491f12e4d1ce10cdadc8ff8698b4650f63bad0759edb2629779d9f6424e78c,high,2026-10-30T16:01:04.709172+00:00,2026-10-30T16:01:04.709172+00:00,1,,Listed as a file hash in a malware analysis.,malware
 sha256,475ab98b7722e965bd38c8fa6ed23502309582ccf294ff1061cb290c7988f0d1,high,2026-10-30T16:01:04.709172+00:00,2026-10-30T16:01:04.709172+00:00,1,,Listed as a file hash in a malware analysis.,malware
 sha256,5bc4a60e6be37331f5dc17e9a9ae5bc2519cb6f8e436b4ac9bed1dfb74e189e8,high,2026-10-30T16:01:04.709172+00:00,2026-10-30T16:01:04.709172+00:00,1,,Listed as a file hash in a malware analysis.,malware

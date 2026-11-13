@@ -1,7 +1,13 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason,categories
-ipv4,89.125.213.123,high,2026-11-11T16:42:15.716050+00:00,2026-11-12T09:32:10.976841+00:00,1,,IP address used as a server for phishing and other malicious activities.,phishing
-ipv4,155.94.150.39,high,2026-11-11T22:56:21+00:00,2026-11-12T04:39:48+00:00,3,,IP address associated with attacker-controlled ScreenConnect panel,malware|abused_service
-ipv4,185.99.255.28,high,2026-11-11T22:56:21+00:00,2026-11-12T04:39:48+00:00,3,,IP address associated with attacker ScreenConnect server,malware|abused_service
+ipv4,130.94.19.204,high,2026-11-12T14:06:23+00:00,2026-11-13T08:36:11+00:00,3,,IP address used by attackers to target vulnerable Mobile Access portals on Check Point Security Gateways.,exploit
+ipv4,89.125.213.123,high,2026-11-11T16:42:15.716050+00:00,2026-11-13T00:38:10.803831+00:00,1,,Exposed Debian VPS used by attackers for phishing operations.,phishing
+ipv4,89.34.90.203,high,2026-11-12T23:15:23+00:00,2026-11-12T23:15:23+00:00,1,,IP address used to host a script for a phishing campaign.,malware
+ipv4,185.138.88.3,high,2026-11-12T15:31:44.382105+00:00,2026-11-12T15:31:44.382105+00:00,1,,IP address used in malicious command execution,malware
+ipv4,154.44.31.4,high,2026-11-12T15:00:29+00:00,2026-11-12T15:03:54+00:00,2,,Server used by attackers to run a customized fork of Cairn,malware
+ipv4,155.94.150.39,high,2026-11-11T22:56:21+00:00,2026-11-12T13:47:54+00:00,4,,Listed as attacker-controlled ScreenConnect panel,malware|abused_service
+ipv4,157.20.241.16,high,2026-11-12T11:51:43+00:00,2026-11-12T11:51:43+00:00,1,,Used in a targeted attack against N-central servers,exploit
+ipv4,185.99.255.28,high,2026-11-11T22:56:21+00:00,2026-11-12T04:39:48+00:00,3,,Listed as attacker ScreenConnect server,malware|abused_service
+ipv4,194.150.166.244,high,2026-11-12T01:45:00+00:00,2026-11-12T01:45:00+00:00,1,,IP address used as a callback server for exfiltration in a campaign.,exfiltration
 ipv4,193.124.203.226,high,2026-10-14T15:02:37.397197+00:00,2026-11-11T16:58:35.900937+00:00,1,,IP address listed among others in a context suggesting attacker-controlled infrastructure.,other
 ipv4,107.148.225.248,high,2026-11-11T14:09:04+00:00,2026-11-11T14:09:04+00:00,1,,Used as a C2 server for malware delivery.,c2|malware
 ipv4,45.115.26.23,high,2026-11-11T14:05:36+00:00,2026-11-11T14:05:36+00:00,1,,Used as a reverse shell endpoint in a PowerShell command for remote control and persistence.,c2

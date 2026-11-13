@@ -1,7 +1,7 @@
 {
   "feed": "threatcluster-public-iocs",
   "version": 1,
-  "generated_at": "2026-11-12T15:10:13Z",
+  "generated_at": "2026-11-13T14:31:48Z",
   "filters": {
     "confidence": "high",
     "window_days": 30,
@@ -11,21 +11,36 @@
       "domain"
     ]
   },
-  "count": 938,
+  "count": 986,
   "iocs": [
     {
-      "type": "domain",
-      "value": "net-echo.com",
+      "type": "ipv4",
+      "value": "130.94.19.204",
       "confidence": "high",
-      "reason": "Domain with algorithmically generated subdomains used in malicious campaign activity.",
-      "first_seen": "2026-11-12T12:08:23+00:00",
-      "last_seen": "2026-11-12T12:08:23+00:00",
-      "source_count": 1,
+      "reason": "IP address used by attackers to target vulnerable systems",
+      "first_seen": "2026-11-12T14:06:23+00:00",
+      "last_seen": "2026-11-13T11:46:59+00:00",
+      "source_count": 4,
       "sources": [
         {
-          "source": "Darktrace",
-          "url": "https://www.darktrace.com/blog/living-off-the-ai-shared-memories-as-a-covert-c2-channel",
-          "pub_date": "2026-11-12T12:08:23+00:00"
+          "source": "Securityaffairs",
+          "url": "https://securityaffairs.com/202982/hacking/unpatched-check-point-gateways-are-being-wiped-exploiting-php2shell.html?amp",
+          "pub_date": "2026-11-13T11:46:59+00:00"
+        },
+        {
+          "source": "News.Lavx.Hu",
+          "url": "https://news.lavx.hu/article/attackers-exploit-php2shell-and-gaia-os-flaws-in-check-point-gateways-to-deploy-tsga-backdoor-and-wipe-esxi-files",
+          "pub_date": "2026-11-13T08:36:11+00:00"
+        },
+        {
+          "source": "Thehackernews",
+          "url": "https://thehackernews.com/2026/11/hackers-exploit-php2shell-flaws-in.html",
+          "pub_date": "2026-11-13T08:05:00+00:00"
+        },
+        {
+          "source": "Research.Checkpoint",
+          "url": "https://research.checkpoint.com/2026/php2shell-exploitation-on-check-point-gateway/",
+          "pub_date": "2026-11-12T14:06:23+00:00"
         }
       ],
       "tags": [
@@ -38,102 +53,32 @@
           "value": "CVE-2026-109619"
         },
         {
-          "type": "malware",
-          "value": "Dustmaker"
-        },
-        {
-          "type": "malware",
-          "value": "Quietvault"
-        }
-      ],
-      "categories": [],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "s016841786.net-echo.com",
-      "confidence": "high",
-      "reason": "Algorithmically generated subdomain used in malicious campaign activity.",
-      "first_seen": "2026-11-12T12:08:23+00:00",
-      "last_seen": "2026-11-12T12:08:23+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Darktrace",
-          "url": "https://www.darktrace.com/blog/living-off-the-ai-shared-memories-as-a-covert-c2-channel",
-          "pub_date": "2026-11-12T12:08:23+00:00"
-        }
-      ],
-      "tags": [
-        {
           "type": "cve",
-          "value": "CVE-2026-109618"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-109619"
+          "value": "CVE-2026-123039"
         },
         {
           "type": "malware",
-          "value": "Dustmaker"
-        },
-        {
-          "type": "malware",
-          "value": "Quietvault"
+          "value": "Destroy_v6"
         }
       ],
-      "categories": [],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "s1786.net-echo.com",
-      "confidence": "high",
-      "reason": "Algorithmically generated subdomain used in malicious campaign activity.",
-      "first_seen": "2026-11-12T12:08:23+00:00",
-      "last_seen": "2026-11-12T12:08:23+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Darktrace",
-          "url": "https://www.darktrace.com/blog/living-off-the-ai-shared-memories-as-a-covert-c2-channel",
-          "pub_date": "2026-11-12T12:08:23+00:00"
-        }
+      "categories": [
+        "exploit"
       ],
-      "tags": [
-        {
-          "type": "cve",
-          "value": "CVE-2026-109618"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-109619"
-        },
-        {
-          "type": "malware",
-          "value": "Dustmaker"
-        },
-        {
-          "type": "malware",
-          "value": "Quietvault"
-        }
-      ],
-      "categories": [],
       "basis": null
     },
     {
       "type": "domain",
       "value": "foreverpeace.ru",
       "confidence": "high",
-      "reason": "Domain used as part of the attacker's infrastructure with a reverse proxy.",
-      "first_seen": "2026-11-12T09:32:10.976841+00:00",
-      "last_seen": "2026-11-12T09:32:10.976841+00:00",
+      "reason": "Domain used as part of attacker's infrastructure with a reverse proxy.",
+      "first_seen": "2026-11-13T00:38:10.803831+00:00",
+      "last_seen": "2026-11-13T00:38:10.803831+00:00",
       "source_count": 1,
       "sources": [
         {
           "source": "www.cloudsek.com",
           "url": "https://www.cloudsek.com/blog/off-the-rails-inside-an-exposed-silent-lynx-server",
-          "pub_date": "2026-11-12T09:32:10.976841+00:00"
+          "pub_date": "2026-11-13T00:38:10.803831+00:00"
         }
       ],
       "tags": [
@@ -163,15 +108,15 @@
       "type": "ipv4",
       "value": "89.125.213.123",
       "confidence": "high",
-      "reason": "IP address used as a server for phishing and other malicious activities.",
-      "first_seen": "2026-11-12T09:32:10.976841+00:00",
-      "last_seen": "2026-11-12T09:32:10.976841+00:00",
+      "reason": "Exposed Debian VPS used by attackers for phishing operations.",
+      "first_seen": "2026-11-13T00:38:10.803831+00:00",
+      "last_seen": "2026-11-13T00:38:10.803831+00:00",
       "source_count": 1,
       "sources": [
         {
           "source": "www.cloudsek.com",
           "url": "https://www.cloudsek.com/blog/off-the-rails-inside-an-exposed-silent-lynx-server",
-          "pub_date": "2026-11-12T09:32:10.976841+00:00"
+          "pub_date": "2026-11-13T00:38:10.803831+00:00"
         }
       ],
       "tags": [
@@ -199,13 +144,1723 @@
     },
     {
       "type": "domain",
+      "value": "apartments-review8509831.sbs",
+      "confidence": "high",
+      "reason": "Domain used in a rental listing scam, newly registered and short-lived.",
+      "first_seen": "2026-11-12T23:15:23+00:00",
+      "last_seen": "2026-11-12T23:15:23+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Helpnetsecurity",
+          "url": "https://www.helpnetsecurity.com/2026/11/13/fake-zillow-clickfix-netsupport-rat/",
+          "pub_date": "2026-11-12T23:15:23+00:00"
+        }
+      ],
+      "tags": [],
+      "categories": [
+        "phishing"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "asgomd.com",
+      "confidence": "high",
+      "reason": "Domain used as a gateway for NetSupport RAT deployment.",
+      "first_seen": "2026-11-12T23:15:23+00:00",
+      "last_seen": "2026-11-12T23:15:23+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Helpnetsecurity",
+          "url": "https://www.helpnetsecurity.com/2026/11/13/fake-zillow-clickfix-netsupport-rat/",
+          "pub_date": "2026-11-12T23:15:23+00:00"
+        }
+      ],
+      "tags": [],
+      "categories": [
+        "c2",
+        "malware"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "asgrsv.com",
+      "confidence": "high",
+      "reason": "Domain used as a gateway for NetSupport RAT deployment.",
+      "first_seen": "2026-11-12T23:15:23+00:00",
+      "last_seen": "2026-11-12T23:15:23+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Helpnetsecurity",
+          "url": "https://www.helpnetsecurity.com/2026/11/13/fake-zillow-clickfix-netsupport-rat/",
+          "pub_date": "2026-11-12T23:15:23+00:00"
+        }
+      ],
+      "tags": [],
+      "categories": [
+        "c2",
+        "malware"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "verify.apartments-review.sbs",
+      "confidence": "high",
+      "reason": "Described as a phishing domain used in rental scams",
+      "first_seen": "2026-11-12T23:15:23+00:00",
+      "last_seen": "2026-11-12T23:15:23+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Helpnetsecurity",
+          "url": "https://www.helpnetsecurity.com/2026/11/13/fake-zillow-clickfix-netsupport-rat/",
+          "pub_date": "2026-11-12T23:15:23+00:00"
+        }
+      ],
+      "tags": [],
+      "categories": [
+        "phishing"
+      ],
+      "basis": null
+    },
+    {
+      "type": "ipv4",
+      "value": "89.34.90.203",
+      "confidence": "high",
+      "reason": "IP address used to host a script for a phishing campaign.",
+      "first_seen": "2026-11-12T23:15:23+00:00",
+      "last_seen": "2026-11-12T23:15:23+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Helpnetsecurity",
+          "url": "https://www.helpnetsecurity.com/2026/11/13/fake-zillow-clickfix-netsupport-rat/",
+          "pub_date": "2026-11-12T23:15:23+00:00"
+        }
+      ],
+      "tags": [],
+      "categories": [
+        "malware"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "npmjs.store",
+      "confidence": "high",
+      "reason": "Listed as a domain associated with attacker-controlled infrastructure",
+      "first_seen": "2026-11-12T23:04:32.821660+00:00",
+      "last_seen": "2026-11-12T23:05:14.625615+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "aws.amazon.com",
+          "url": "https://aws.amazon.com/blogs/security/amazon-identifies-north-korean-hacker-group-behind-open-source-supply-chain-attacks/?tag=pcmaguk-21",
+          "pub_date": "2026-11-12T23:05:14.625615+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Alluring Pisces"
+        },
+        {
+          "type": "apt_group",
+          "value": "BlueNoroff"
+        },
+        {
+          "type": "apt_group",
+          "value": "CageyChameleon"
+        },
+        {
+          "type": "apt_group",
+          "value": "Sapphire Sleet"
+        }
+      ],
+      "categories": [
+        "supply_chain",
+        "c2"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "billnova.online",
+      "confidence": "high",
+      "reason": "Domain used in a phishing campaign, flagged as malicious by security vendors.",
+      "first_seen": "2026-11-12T19:43:22+00:00",
+      "last_seen": "2026-11-12T19:43:22+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Legit.Ng",
+          "url": "https://www.legit.ng/nigeria/1741074-nersi-n50000-cash-transfer-fg-warns-nigerians-fake-whatsapp-links/",
+          "pub_date": "2026-11-12T19:43:22+00:00"
+        }
+      ],
+      "tags": [],
+      "categories": [
+        "phishing"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "gifmi.site",
+      "confidence": "high",
+      "reason": "Domain used in a phishing campaign, flagged as malicious by security vendors.",
+      "first_seen": "2026-11-12T19:43:22+00:00",
+      "last_seen": "2026-11-12T19:43:22+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Legit.Ng",
+          "url": "https://www.legit.ng/nigeria/1741074-nersi-n50000-cash-transfer-fg-warns-nigerians-fake-whatsapp-links/",
+          "pub_date": "2026-11-12T19:43:22+00:00"
+        }
+      ],
+      "tags": [],
+      "categories": [
+        "phishing"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "ftp.vietnam852.com",
+      "confidence": "high",
+      "reason": "Domain used to host and deliver malware payloads as described in the article.",
+      "first_seen": "2026-11-12T17:33:18.748119+00:00",
+      "last_seen": "2026-11-12T17:33:18.748119+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.fortinet.com",
+          "url": "https://www.fortinet.com/blog/threat-research/t-sql-being-abused-to-deliver-malware-on-compromised-ms-sql-servers",
+          "pub_date": "2026-11-12T17:33:18.748119+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "Gh0st RAT"
+        },
+        {
+          "type": "malware",
+          "value": "XMR Miner"
+        }
+      ],
+      "categories": [
+        "malware"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "server.vietnam852.com",
+      "confidence": "high",
+      "reason": "Identified as a hardcoded C2 endpoint for Gh0st RAT.",
+      "first_seen": "2026-11-12T17:33:18.748119+00:00",
+      "last_seen": "2026-11-12T17:33:18.748119+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.fortinet.com",
+          "url": "https://www.fortinet.com/blog/threat-research/t-sql-being-abused-to-deliver-malware-on-compromised-ms-sql-servers",
+          "pub_date": "2026-11-12T17:33:18.748119+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "Gh0st RAT"
+        },
+        {
+          "type": "malware",
+          "value": "XMR Miner"
+        }
+      ],
+      "categories": [
+        "c2",
+        "malware"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "site.hfgjjkrewjk.com",
+      "confidence": "high",
+      "reason": "Listed among domains used for malicious activities in the article.",
+      "first_seen": "2026-11-12T17:33:18.748119+00:00",
+      "last_seen": "2026-11-12T17:33:18.748119+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.fortinet.com",
+          "url": "https://www.fortinet.com/blog/threat-research/t-sql-being-abused-to-deliver-malware-on-compromised-ms-sql-servers",
+          "pub_date": "2026-11-12T17:33:18.748119+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "Gh0st RAT"
+        },
+        {
+          "type": "malware",
+          "value": "XMR Miner"
+        }
+      ],
+      "categories": [
+        "malware"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "site.jiancai008.com",
+      "confidence": "high",
+      "reason": "Domain used to host and deliver malware payloads as described in the article.",
+      "first_seen": "2026-11-12T17:33:18.748119+00:00",
+      "last_seen": "2026-11-12T17:33:18.748119+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.fortinet.com",
+          "url": "https://www.fortinet.com/blog/threat-research/t-sql-being-abused-to-deliver-malware-on-compromised-ms-sql-servers",
+          "pub_date": "2026-11-12T17:33:18.748119+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "Gh0st RAT"
+        },
+        {
+          "type": "malware",
+          "value": "XMR Miner"
+        }
+      ],
+      "categories": [
+        "malware"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "site.vietnam852.com",
+      "confidence": "high",
+      "reason": "Domain used to host and deliver malware payloads as described in the article.",
+      "first_seen": "2026-11-12T17:33:18.748119+00:00",
+      "last_seen": "2026-11-12T17:33:18.748119+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.fortinet.com",
+          "url": "https://www.fortinet.com/blog/threat-research/t-sql-being-abused-to-deliver-malware-on-compromised-ms-sql-servers",
+          "pub_date": "2026-11-12T17:33:18.748119+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "Gh0st RAT"
+        },
+        {
+          "type": "malware",
+          "value": "XMR Miner"
+        }
+      ],
+      "categories": [
+        "malware"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "wuxiapingg.ga",
+      "confidence": "high",
+      "reason": "Used as delivery infrastructure and C2 for Cobalt Strike, associated with attacker group LIMINAL PANDA",
+      "first_seen": "2026-11-12T15:37:19.851104+00:00",
+      "last_seen": "2026-11-12T15:37:19.851104+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.crowdstrike.com",
+          "url": "https://www.crowdstrike.com/en-us/blog/liminal-panda-telecom-sector-threats/",
+          "pub_date": "2026-11-12T15:37:19.851104+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "LightBasin"
+        },
+        {
+          "type": "apt_group",
+          "value": "Liminal Panda"
+        },
+        {
+          "type": "industry",
+          "value": "Telecommunications"
+        },
+        {
+          "type": "malware",
+          "value": "Cobalt Strike"
+        }
+      ],
+      "categories": [
+        "c2",
+        "malware"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "pweobmxdlboi.com",
+      "confidence": "high",
+      "reason": "Domain used for uploading archives, indicating attacker control.",
+      "first_seen": "2026-11-11T16:58:35.900937+00:00",
+      "last_seen": "2026-11-12T15:31:58.402260+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "www.seqrite.com",
+          "url": "https://www.seqrite.com/blog/silent-lynx-apt-targeting-central-asian-entities/",
+          "pub_date": "2026-11-12T15:31:58.40226+00:00"
+        },
+        {
+          "source": "www.group-ib.com",
+          "url": "https://www.group-ib.com/blog/shadowsilk/",
+          "pub_date": "2026-11-11T16:58:35.900937+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "industry",
+          "value": "Government"
+        },
+        {
+          "type": "apt_group",
+          "value": "ShadowSilk"
+        },
+        {
+          "type": "apt_group",
+          "value": "Silent Lynx"
+        },
+        {
+          "type": "apt_group",
+          "value": "YoroTrooper"
+        }
+      ],
+      "categories": [
+        "malware"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "caude.ai",
+      "confidence": "high",
+      "reason": "Typo-squatted domain used for malicious purposes",
+      "first_seen": "2026-11-12T15:31:44.382105+00:00",
+      "last_seen": "2026-11-12T15:31:44.382105+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.island.io",
+          "url": "https://www.island.io/blog/typoprompting-from-ai-typos-to-malware",
+          "pub_date": "2026-11-12T15:31:44.382105+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "Aurora Stealer"
+        },
+        {
+          "type": "malware",
+          "value": "Net Guard"
+        },
+        {
+          "type": "malware",
+          "value": "OctoV2"
+        }
+      ],
+      "categories": [
+        "traffic_distribution"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "charactor.ai",
+      "confidence": "high",
+      "reason": "Typo-squatted domain used for malicious purposes",
+      "first_seen": "2026-11-12T15:31:44.382105+00:00",
+      "last_seen": "2026-11-12T15:31:44.382105+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.island.io",
+          "url": "https://www.island.io/blog/typoprompting-from-ai-typos-to-malware",
+          "pub_date": "2026-11-12T15:31:44.382105+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "Aurora Stealer"
+        },
+        {
+          "type": "malware",
+          "value": "Net Guard"
+        },
+        {
+          "type": "malware",
+          "value": "OctoV2"
+        }
+      ],
+      "categories": [
+        "traffic_distribution"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "chstgpt.com",
+      "confidence": "high",
+      "reason": "Typo-squatted domain used for malicious purposes",
+      "first_seen": "2026-11-12T15:31:44.382105+00:00",
+      "last_seen": "2026-11-12T15:31:44.382105+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.island.io",
+          "url": "https://www.island.io/blog/typoprompting-from-ai-typos-to-malware",
+          "pub_date": "2026-11-12T15:31:44.382105+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "Aurora Stealer"
+        },
+        {
+          "type": "malware",
+          "value": "Net Guard"
+        },
+        {
+          "type": "malware",
+          "value": "OctoV2"
+        }
+      ],
+      "categories": [
+        "traffic_distribution"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "ckaude.ai",
+      "confidence": "high",
+      "reason": "Typo-squatted domain used for malicious purposes",
+      "first_seen": "2026-11-12T15:31:44.382105+00:00",
+      "last_seen": "2026-11-12T15:31:44.382105+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.island.io",
+          "url": "https://www.island.io/blog/typoprompting-from-ai-typos-to-malware",
+          "pub_date": "2026-11-12T15:31:44.382105+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "Aurora Stealer"
+        },
+        {
+          "type": "malware",
+          "value": "Net Guard"
+        },
+        {
+          "type": "malware",
+          "value": "OctoV2"
+        }
+      ],
+      "categories": [
+        "malware"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "clsude.ai",
+      "confidence": "high",
+      "reason": "Typo-squatted domain used for malicious purposes",
+      "first_seen": "2026-11-12T15:31:44.382105+00:00",
+      "last_seen": "2026-11-12T15:31:44.382105+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.island.io",
+          "url": "https://www.island.io/blog/typoprompting-from-ai-typos-to-malware",
+          "pub_date": "2026-11-12T15:31:44.382105+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "Aurora Stealer"
+        },
+        {
+          "type": "malware",
+          "value": "Net Guard"
+        },
+        {
+          "type": "malware",
+          "value": "OctoV2"
+        }
+      ],
+      "categories": [
+        "traffic_distribution"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "cluade.ai",
+      "confidence": "high",
+      "reason": "Typo-squatted domain used for malicious purposes",
+      "first_seen": "2026-11-12T15:20:24+00:00",
+      "last_seen": "2026-11-12T15:31:44.382105+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "www.island.io",
+          "url": "https://www.island.io/blog/typoprompting-from-ai-typos-to-malware",
+          "pub_date": "2026-11-12T15:31:44.382105+00:00"
+        },
+        {
+          "source": "Thehackernews",
+          "url": "https://thehackernews.com/2026/11/186-fake-ai-domains-redirect-users-to.html",
+          "pub_date": "2026-11-12T15:20:24+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "Net Guard"
+        },
+        {
+          "type": "campaign",
+          "value": "TypoPrompting"
+        },
+        {
+          "type": "malware",
+          "value": "Aurora Stealer"
+        },
+        {
+          "type": "malware",
+          "value": "OctoV2"
+        }
+      ],
+      "categories": [
+        "traffic_distribution"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "copiot.com",
+      "confidence": "high",
+      "reason": "Typo-squatted domain used for malicious purposes",
+      "first_seen": "2026-11-12T15:31:44.382105+00:00",
+      "last_seen": "2026-11-12T15:31:44.382105+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.island.io",
+          "url": "https://www.island.io/blog/typoprompting-from-ai-typos-to-malware",
+          "pub_date": "2026-11-12T15:31:44.382105+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "Aurora Stealer"
+        },
+        {
+          "type": "malware",
+          "value": "Net Guard"
+        },
+        {
+          "type": "malware",
+          "value": "OctoV2"
+        }
+      ],
+      "categories": [
+        "phishing"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "deepceek.com",
+      "confidence": "high",
+      "reason": "Typo-squatted domain used for malicious purposes",
+      "first_seen": "2026-11-12T15:31:44.382105+00:00",
+      "last_seen": "2026-11-12T15:31:44.382105+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.island.io",
+          "url": "https://www.island.io/blog/typoprompting-from-ai-typos-to-malware",
+          "pub_date": "2026-11-12T15:31:44.382105+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "Aurora Stealer"
+        },
+        {
+          "type": "malware",
+          "value": "Net Guard"
+        },
+        {
+          "type": "malware",
+          "value": "OctoV2"
+        }
+      ],
+      "categories": [
+        "phishing"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "deepsek.icu",
+      "confidence": "high",
+      "reason": "Domain used to deliver malicious Android package",
+      "first_seen": "2026-11-12T15:31:44.382105+00:00",
+      "last_seen": "2026-11-12T15:31:44.382105+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.island.io",
+          "url": "https://www.island.io/blog/typoprompting-from-ai-typos-to-malware",
+          "pub_date": "2026-11-12T15:31:44.382105+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "Aurora Stealer"
+        },
+        {
+          "type": "malware",
+          "value": "Net Guard"
+        },
+        {
+          "type": "malware",
+          "value": "OctoV2"
+        }
+      ],
+      "categories": [
+        "malware"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "deespeek.com",
+      "confidence": "high",
+      "reason": "Typo-squatted domain used for malicious purposes",
+      "first_seen": "2026-11-12T15:31:44.382105+00:00",
+      "last_seen": "2026-11-12T15:31:44.382105+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.island.io",
+          "url": "https://www.island.io/blog/typoprompting-from-ai-typos-to-malware",
+          "pub_date": "2026-11-12T15:31:44.382105+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "Aurora Stealer"
+        },
+        {
+          "type": "malware",
+          "value": "Net Guard"
+        },
+        {
+          "type": "malware",
+          "value": "OctoV2"
+        }
+      ],
+      "categories": [
+        "traffic_distribution"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "deezyj.com",
+      "confidence": "high",
+      "reason": "Domain used in fake security check pages",
+      "first_seen": "2026-11-12T15:31:44.382105+00:00",
+      "last_seen": "2026-11-12T15:31:44.382105+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.island.io",
+          "url": "https://www.island.io/blog/typoprompting-from-ai-typos-to-malware",
+          "pub_date": "2026-11-12T15:31:44.382105+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "Aurora Stealer"
+        },
+        {
+          "type": "malware",
+          "value": "Net Guard"
+        },
+        {
+          "type": "malware",
+          "value": "OctoV2"
+        }
+      ],
+      "categories": [
+        "traffic_distribution"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "elevenlebs.io",
+      "confidence": "high",
+      "reason": "Typo-squatted domain used for malicious purposes",
+      "first_seen": "2026-11-12T15:31:44.382105+00:00",
+      "last_seen": "2026-11-12T15:31:44.382105+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.island.io",
+          "url": "https://www.island.io/blog/typoprompting-from-ai-typos-to-malware",
+          "pub_date": "2026-11-12T15:31:44.382105+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "Aurora Stealer"
+        },
+        {
+          "type": "malware",
+          "value": "Net Guard"
+        },
+        {
+          "type": "malware",
+          "value": "OctoV2"
+        }
+      ],
+      "categories": [
+        "phishing"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "elevnlabs.io",
+      "confidence": "high",
+      "reason": "Typo-squatted domain used for malicious purposes",
+      "first_seen": "2026-11-12T15:31:44.382105+00:00",
+      "last_seen": "2026-11-12T15:31:44.382105+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.island.io",
+          "url": "https://www.island.io/blog/typoprompting-from-ai-typos-to-malware",
+          "pub_date": "2026-11-12T15:31:44.382105+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "Aurora Stealer"
+        },
+        {
+          "type": "malware",
+          "value": "Net Guard"
+        },
+        {
+          "type": "malware",
+          "value": "OctoV2"
+        }
+      ],
+      "categories": [
+        "phishing"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "hailou.ai",
+      "confidence": "high",
+      "reason": "Typo-squatted domain used for malicious purposes",
+      "first_seen": "2026-11-12T15:31:44.382105+00:00",
+      "last_seen": "2026-11-12T15:31:44.382105+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.island.io",
+          "url": "https://www.island.io/blog/typoprompting-from-ai-typos-to-malware",
+          "pub_date": "2026-11-12T15:31:44.382105+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "Aurora Stealer"
+        },
+        {
+          "type": "malware",
+          "value": "Net Guard"
+        },
+        {
+          "type": "malware",
+          "value": "OctoV2"
+        }
+      ],
+      "categories": [
+        "phishing"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "hygen.ai",
+      "confidence": "high",
+      "reason": "Typo-squatted domain used for malicious purposes",
+      "first_seen": "2026-11-12T15:31:44.382105+00:00",
+      "last_seen": "2026-11-12T15:31:44.382105+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.island.io",
+          "url": "https://www.island.io/blog/typoprompting-from-ai-typos-to-malware",
+          "pub_date": "2026-11-12T15:31:44.382105+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "Aurora Stealer"
+        },
+        {
+          "type": "malware",
+          "value": "Net Guard"
+        },
+        {
+          "type": "malware",
+          "value": "OctoV2"
+        }
+      ],
+      "categories": [
+        "phishing"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "klign.ai",
+      "confidence": "high",
+      "reason": "Typo-squatted domain used for malicious purposes",
+      "first_seen": "2026-11-12T15:31:44.382105+00:00",
+      "last_seen": "2026-11-12T15:31:44.382105+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.island.io",
+          "url": "https://www.island.io/blog/typoprompting-from-ai-typos-to-malware",
+          "pub_date": "2026-11-12T15:31:44.382105+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "Aurora Stealer"
+        },
+        {
+          "type": "malware",
+          "value": "Net Guard"
+        },
+        {
+          "type": "malware",
+          "value": "OctoV2"
+        }
+      ],
+      "categories": [
+        "phishing"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "leonardi.ai",
+      "confidence": "high",
+      "reason": "Typo-squatted domain used for malicious purposes",
+      "first_seen": "2026-11-12T15:31:44.382105+00:00",
+      "last_seen": "2026-11-12T15:31:44.382105+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.island.io",
+          "url": "https://www.island.io/blog/typoprompting-from-ai-typos-to-malware",
+          "pub_date": "2026-11-12T15:31:44.382105+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "Aurora Stealer"
+        },
+        {
+          "type": "malware",
+          "value": "Net Guard"
+        },
+        {
+          "type": "malware",
+          "value": "OctoV2"
+        }
+      ],
+      "categories": [
+        "phishing"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "lovabe.dev",
+      "confidence": "high",
+      "reason": "Typo-squatted domain used for malicious purposes",
+      "first_seen": "2026-11-12T15:31:44.382105+00:00",
+      "last_seen": "2026-11-12T15:31:44.382105+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.island.io",
+          "url": "https://www.island.io/blog/typoprompting-from-ai-typos-to-malware",
+          "pub_date": "2026-11-12T15:31:44.382105+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "Aurora Stealer"
+        },
+        {
+          "type": "malware",
+          "value": "Net Guard"
+        },
+        {
+          "type": "malware",
+          "value": "OctoV2"
+        }
+      ],
+      "categories": [
+        "phishing"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "lovble.dev",
+      "confidence": "high",
+      "reason": "Typo-squatted domain used for malicious purposes",
+      "first_seen": "2026-11-12T15:31:44.382105+00:00",
+      "last_seen": "2026-11-12T15:31:44.382105+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.island.io",
+          "url": "https://www.island.io/blog/typoprompting-from-ai-typos-to-malware",
+          "pub_date": "2026-11-12T15:31:44.382105+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "Aurora Stealer"
+        },
+        {
+          "type": "malware",
+          "value": "Net Guard"
+        },
+        {
+          "type": "malware",
+          "value": "OctoV2"
+        }
+      ],
+      "categories": [
+        "traffic_distribution",
+        "phishing"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "lovsble.dev",
+      "confidence": "high",
+      "reason": "Typo-squatted domain used for malicious purposes",
+      "first_seen": "2026-11-12T15:31:44.382105+00:00",
+      "last_seen": "2026-11-12T15:31:44.382105+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.island.io",
+          "url": "https://www.island.io/blog/typoprompting-from-ai-typos-to-malware",
+          "pub_date": "2026-11-12T15:31:44.382105+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "Aurora Stealer"
+        },
+        {
+          "type": "malware",
+          "value": "Net Guard"
+        },
+        {
+          "type": "malware",
+          "value": "OctoV2"
+        }
+      ],
+      "categories": [
+        "traffic_distribution"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "midj0urney.org",
+      "confidence": "high",
+      "reason": "Domain used to deliver malicious Windows payload",
+      "first_seen": "2026-11-12T15:31:44.382105+00:00",
+      "last_seen": "2026-11-12T15:31:44.382105+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.island.io",
+          "url": "https://www.island.io/blog/typoprompting-from-ai-typos-to-malware",
+          "pub_date": "2026-11-12T15:31:44.382105+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "Aurora Stealer"
+        },
+        {
+          "type": "malware",
+          "value": "Net Guard"
+        },
+        {
+          "type": "malware",
+          "value": "OctoV2"
+        }
+      ],
+      "categories": [
+        "malware"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "midjourny.com",
+      "confidence": "high",
+      "reason": "Typo-squatted domain used for malicious purposes",
+      "first_seen": "2026-11-12T15:31:44.382105+00:00",
+      "last_seen": "2026-11-12T15:31:44.382105+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.island.io",
+          "url": "https://www.island.io/blog/typoprompting-from-ai-typos-to-malware",
+          "pub_date": "2026-11-12T15:31:44.382105+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "Aurora Stealer"
+        },
+        {
+          "type": "malware",
+          "value": "Net Guard"
+        },
+        {
+          "type": "malware",
+          "value": "OctoV2"
+        }
+      ],
+      "categories": [
+        "traffic_distribution"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "perplixity.ai",
+      "confidence": "high",
+      "reason": "Typo-squatted domain used for malicious purposes",
+      "first_seen": "2026-11-12T15:31:44.382105+00:00",
+      "last_seen": "2026-11-12T15:31:44.382105+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.island.io",
+          "url": "https://www.island.io/blog/typoprompting-from-ai-typos-to-malware",
+          "pub_date": "2026-11-12T15:31:44.382105+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "Aurora Stealer"
+        },
+        {
+          "type": "malware",
+          "value": "Net Guard"
+        },
+        {
+          "type": "malware",
+          "value": "OctoV2"
+        }
+      ],
+      "categories": [
+        "traffic_distribution"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "poll.ai",
+      "confidence": "high",
+      "reason": "Typo-squatted domain used for malicious purposes",
+      "first_seen": "2026-11-12T15:31:44.382105+00:00",
+      "last_seen": "2026-11-12T15:31:44.382105+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.island.io",
+          "url": "https://www.island.io/blog/typoprompting-from-ai-typos-to-malware",
+          "pub_date": "2026-11-12T15:31:44.382105+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "Aurora Stealer"
+        },
+        {
+          "type": "malware",
+          "value": "Net Guard"
+        },
+        {
+          "type": "malware",
+          "value": "OctoV2"
+        }
+      ],
+      "categories": [
+        "traffic_distribution"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "preplexity.ai",
+      "confidence": "high",
+      "reason": "Typo-squatted domain used for malicious purposes",
+      "first_seen": "2026-11-12T15:20:24+00:00",
+      "last_seen": "2026-11-12T15:31:44.382105+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "www.island.io",
+          "url": "https://www.island.io/blog/typoprompting-from-ai-typos-to-malware",
+          "pub_date": "2026-11-12T15:31:44.382105+00:00"
+        },
+        {
+          "source": "Thehackernews",
+          "url": "https://thehackernews.com/2026/11/186-fake-ai-domains-redirect-users-to.html",
+          "pub_date": "2026-11-12T15:20:24+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "Net Guard"
+        },
+        {
+          "type": "campaign",
+          "value": "TypoPrompting"
+        },
+        {
+          "type": "malware",
+          "value": "Aurora Stealer"
+        },
+        {
+          "type": "malware",
+          "value": "OctoV2"
+        }
+      ],
+      "categories": [
+        "traffic_distribution"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "purplexity.ai",
+      "confidence": "high",
+      "reason": "Typo-squatted domain used for malicious purposes",
+      "first_seen": "2026-11-12T15:31:44.382105+00:00",
+      "last_seen": "2026-11-12T15:31:44.382105+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.island.io",
+          "url": "https://www.island.io/blog/typoprompting-from-ai-typos-to-malware",
+          "pub_date": "2026-11-12T15:31:44.382105+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "Aurora Stealer"
+        },
+        {
+          "type": "malware",
+          "value": "Net Guard"
+        },
+        {
+          "type": "malware",
+          "value": "OctoV2"
+        }
+      ],
+      "categories": [
+        "traffic_distribution"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "quickflashtool.com",
+      "confidence": "high",
+      "reason": "Domain used for malicious Chrome extension installation",
+      "first_seen": "2026-11-12T15:31:44.382105+00:00",
+      "last_seen": "2026-11-12T15:31:44.382105+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.island.io",
+          "url": "https://www.island.io/blog/typoprompting-from-ai-typos-to-malware",
+          "pub_date": "2026-11-12T15:31:44.382105+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "Aurora Stealer"
+        },
+        {
+          "type": "malware",
+          "value": "Net Guard"
+        },
+        {
+          "type": "malware",
+          "value": "OctoV2"
+        }
+      ],
+      "categories": [
+        "malware"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "runawayml.com",
+      "confidence": "high",
+      "reason": "Typo-squatted domain used for malicious purposes",
+      "first_seen": "2026-11-12T15:31:44.382105+00:00",
+      "last_seen": "2026-11-12T15:31:44.382105+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.island.io",
+          "url": "https://www.island.io/blog/typoprompting-from-ai-typos-to-malware",
+          "pub_date": "2026-11-12T15:31:44.382105+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "Aurora Stealer"
+        },
+        {
+          "type": "malware",
+          "value": "Net Guard"
+        },
+        {
+          "type": "malware",
+          "value": "OctoV2"
+        }
+      ],
+      "categories": [
+        "traffic_distribution"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "speachma.com",
+      "confidence": "high",
+      "reason": "Typo-squatted domain used for malicious purposes",
+      "first_seen": "2026-11-12T15:31:44.382105+00:00",
+      "last_seen": "2026-11-12T15:31:44.382105+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.island.io",
+          "url": "https://www.island.io/blog/typoprompting-from-ai-typos-to-malware",
+          "pub_date": "2026-11-12T15:31:44.382105+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "Aurora Stealer"
+        },
+        {
+          "type": "malware",
+          "value": "Net Guard"
+        },
+        {
+          "type": "malware",
+          "value": "OctoV2"
+        }
+      ],
+      "categories": [
+        "traffic_distribution"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "sunno.ai",
+      "confidence": "high",
+      "reason": "Typo-squatted domain used for malicious purposes",
+      "first_seen": "2026-11-12T15:31:44.382105+00:00",
+      "last_seen": "2026-11-12T15:31:44.382105+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.island.io",
+          "url": "https://www.island.io/blog/typoprompting-from-ai-typos-to-malware",
+          "pub_date": "2026-11-12T15:31:44.382105+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "Aurora Stealer"
+        },
+        {
+          "type": "malware",
+          "value": "Net Guard"
+        },
+        {
+          "type": "malware",
+          "value": "OctoV2"
+        }
+      ],
+      "categories": [
+        "traffic_distribution"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "viggie.ai",
+      "confidence": "high",
+      "reason": "Typo-squatted domain used for malicious purposes",
+      "first_seen": "2026-11-12T15:31:44.382105+00:00",
+      "last_seen": "2026-11-12T15:31:44.382105+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.island.io",
+          "url": "https://www.island.io/blog/typoprompting-from-ai-typos-to-malware",
+          "pub_date": "2026-11-12T15:31:44.382105+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "Aurora Stealer"
+        },
+        {
+          "type": "malware",
+          "value": "Net Guard"
+        },
+        {
+          "type": "malware",
+          "value": "OctoV2"
+        }
+      ],
+      "categories": [
+        "traffic_distribution"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "vocie.ai",
+      "confidence": "high",
+      "reason": "Typo-squatted domain used for malicious purposes",
+      "first_seen": "2026-11-12T15:31:44.382105+00:00",
+      "last_seen": "2026-11-12T15:31:44.382105+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.island.io",
+          "url": "https://www.island.io/blog/typoprompting-from-ai-typos-to-malware",
+          "pub_date": "2026-11-12T15:31:44.382105+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "Aurora Stealer"
+        },
+        {
+          "type": "malware",
+          "value": "Net Guard"
+        },
+        {
+          "type": "malware",
+          "value": "OctoV2"
+        }
+      ],
+      "categories": [
+        "traffic_distribution"
+      ],
+      "basis": null
+    },
+    {
+      "type": "ipv4",
+      "value": "185.138.88.3",
+      "confidence": "high",
+      "reason": "IP address used in malicious command execution",
+      "first_seen": "2026-11-12T15:31:44.382105+00:00",
+      "last_seen": "2026-11-12T15:31:44.382105+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.island.io",
+          "url": "https://www.island.io/blog/typoprompting-from-ai-typos-to-malware",
+          "pub_date": "2026-11-12T15:31:44.382105+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "Aurora Stealer"
+        },
+        {
+          "type": "malware",
+          "value": "Net Guard"
+        },
+        {
+          "type": "malware",
+          "value": "OctoV2"
+        }
+      ],
+      "categories": [
+        "malware"
+      ],
+      "basis": null
+    },
+    {
+      "type": "ipv4",
+      "value": "154.44.31.4",
+      "confidence": "high",
+      "reason": "Server used by attackers to run a customized fork of Cairn",
+      "first_seen": "2026-11-12T15:00:29+00:00",
+      "last_seen": "2026-11-12T15:03:54+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "Unit42.Paloaltonetworks",
+          "url": "https://unit42.paloaltonetworks.com/cairn-framework-ai-autonomous-attacks/",
+          "pub_date": "2026-11-12T15:03:54+00:00"
+        },
+        {
+          "source": "Helpnetsecurity",
+          "url": "https://www.helpnetsecurity.com/2026/11/12/cairn-autonomous-ai-cyberattacks/",
+          "pub_date": "2026-11-12T15:00:29+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "industry",
+          "value": "Manufacturing"
+        },
+        {
+          "type": "campaign",
+          "value": "CL-STA-1238"
+        },
+        {
+          "type": "industry",
+          "value": "Government"
+        }
+      ],
+      "categories": [
+        "malware"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "cdn007-digitaldownloads.com",
+      "confidence": "high",
+      "reason": "Listed as a C2 domain associated with malware installation",
+      "first_seen": "2026-11-11T22:56:21+00:00",
+      "last_seen": "2026-11-12T14:31:27.691600+00:00",
+      "source_count": 4,
+      "sources": [
+        {
+          "source": "blackpointcyber.com",
+          "url": "https://blackpointcyber.com/blog/screenconnect-attack-sckit/",
+          "pub_date": "2026-11-12T14:31:27.6916+00:00"
+        },
+        {
+          "source": "Finance.Biggo",
+          "url": "https://finance.biggo.com/news/e8fc1162-8941-4cdd-ab23-d2676048fd58",
+          "pub_date": "2026-11-12T13:47:54+00:00"
+        },
+        {
+          "source": "Feeds.Feedburner",
+          "url": "https://thehackernews.com/2026/11/screenconnect-attacks-target-at-least.html",
+          "pub_date": "2026-11-12T04:39:48+00:00"
+        },
+        {
+          "source": "Bleepingcomputer",
+          "url": "https://www.bleepingcomputer.com/news/security/active-screenconnect-attacks-breach-msps-impact-dozens-of-organizations/",
+          "pub_date": "2026-11-11T22:56:21+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "SCKit"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-84869"
+        }
+      ],
+      "categories": [
+        "malware"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "ns.mo7sen.dev",
+      "confidence": "high",
+      "reason": "Used as a staging endpoint for malicious payloads",
+      "first_seen": "2026-11-11T22:56:21+00:00",
+      "last_seen": "2026-11-12T14:31:27.691600+00:00",
+      "source_count": 6,
+      "sources": [
+        {
+          "source": "blackpointcyber.com",
+          "url": "https://blackpointcyber.com/blog/screenconnect-attack-sckit/",
+          "pub_date": "2026-11-12T14:31:27.6916+00:00"
+        },
+        {
+          "source": "Finance.Biggo",
+          "url": "https://finance.biggo.com/news/e8fc1162-8941-4cdd-ab23-d2676048fd58",
+          "pub_date": "2026-11-12T13:47:54+00:00"
+        },
+        {
+          "source": "Thehackernews",
+          "url": "https://thehackernews.com/2026/11/sckit-malware-targets-screenconnect.html",
+          "pub_date": "2026-11-12T13:10:58+00:00"
+        },
+        {
+          "source": "Feeds.Feedburner",
+          "url": "https://thehackernews.com/2026/11/screenconnect-attacks-target-at-least.html",
+          "pub_date": "2026-11-12T04:39:48+00:00"
+        },
+        {
+          "source": "Huntress",
+          "url": "https://www.huntress.com/blog/sckit-worm-rogue-screenconnect",
+          "pub_date": "2026-11-12T03:26:13+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "SCKit"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-84869"
+        },
+        {
+          "type": "malware",
+          "value": "RelayTrap"
+        }
+      ],
+      "categories": [
+        "malware"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
       "value": "sc.payproofkit.com",
       "confidence": "high",
-      "reason": "Attacker-controlled ScreenConnect panel",
+      "reason": "Configured download source for unauthorized ScreenConnect client",
       "first_seen": "2026-11-11T22:56:21+00:00",
-      "last_seen": "2026-11-12T04:39:48+00:00",
-      "source_count": 3,
+      "last_seen": "2026-11-12T14:31:27.691600+00:00",
+      "source_count": 5,
       "sources": [
+        {
+          "source": "blackpointcyber.com",
+          "url": "https://blackpointcyber.com/blog/screenconnect-attack-sckit/",
+          "pub_date": "2026-11-12T14:31:27.6916+00:00"
+        },
+        {
+          "source": "Finance.Biggo",
+          "url": "https://finance.biggo.com/news/e8fc1162-8941-4cdd-ab23-d2676048fd58",
+          "pub_date": "2026-11-12T13:47:54+00:00"
+        },
         {
           "source": "Feeds.Feedburner",
           "url": "https://thehackernews.com/2026/11/screenconnect-attacks-target-at-least.html",
@@ -242,10 +1897,243 @@
       "basis": null
     },
     {
+      "type": "domain",
+      "value": "backend-updates.top",
+      "confidence": "high",
+      "reason": "Domain used as backend for cryptocurrency mining operations, suspended after abuse reports.",
+      "first_seen": "2026-11-12T14:01:13.174343+00:00",
+      "last_seen": "2026-11-12T14:01:13.174343+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.deepwatch.com",
+          "url": "https://www.deepwatch.com/blog/pirated-adobe-photoshop-2023-installers-lead-to-monero-cryptocurrency-mining/",
+          "pub_date": "2026-11-12T14:01:13.174343+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "XMRig"
+        }
+      ],
+      "categories": [
+        "cryptomining"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "updates-windows.to",
+      "confidence": "high",
+      "reason": "Domain used as backend for cryptocurrency mining operations, suspended after abuse reports.",
+      "first_seen": "2026-11-12T14:01:13.174343+00:00",
+      "last_seen": "2026-11-12T14:01:13.174343+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.deepwatch.com",
+          "url": "https://www.deepwatch.com/blog/pirated-adobe-photoshop-2023-installers-lead-to-monero-cryptocurrency-mining/",
+          "pub_date": "2026-11-12T14:01:13.174343+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "XMRig"
+        }
+      ],
+      "categories": [
+        "cryptomining"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "gpimmlgration.com",
+      "confidence": "high",
+      "reason": "Identified as a phishing domain used in the attacker's infrastructure",
+      "first_seen": "2026-11-12T13:58:30+00:00",
+      "last_seen": "2026-11-12T13:58:30+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Huntress",
+          "url": "https://www.huntress.com/blog/crafty-microsoft-teams-booking-flow-disguises-device-code-phishing",
+          "pub_date": "2026-11-12T13:58:30+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Device Code Phishing Campaigns"
+        },
+        {
+          "type": "campaign",
+          "value": "Railway-based Microsoft 365 Token Replay Campaign"
+        },
+        {
+          "type": "industry",
+          "value": "Construction"
+        }
+      ],
+      "categories": [
+        "phishing"
+      ],
+      "basis": null
+    },
+    {
       "type": "ipv4",
       "value": "155.94.150.39",
       "confidence": "high",
-      "reason": "Associated with attacker-controlled ScreenConnect panel",
+      "reason": "Listed as attacker-controlled ScreenConnect panel",
+      "first_seen": "2026-11-11T22:56:21+00:00",
+      "last_seen": "2026-11-12T13:47:54+00:00",
+      "source_count": 4,
+      "sources": [
+        {
+          "source": "Finance.Biggo",
+          "url": "https://finance.biggo.com/news/e8fc1162-8941-4cdd-ab23-d2676048fd58",
+          "pub_date": "2026-11-12T13:47:54+00:00"
+        },
+        {
+          "source": "Feeds.Feedburner",
+          "url": "https://thehackernews.com/2026/11/screenconnect-attacks-target-at-least.html",
+          "pub_date": "2026-11-12T04:39:48+00:00"
+        },
+        {
+          "source": "Huntress",
+          "url": "https://www.huntress.com/blog/sckit-worm-rogue-screenconnect",
+          "pub_date": "2026-11-12T03:26:13+00:00"
+        },
+        {
+          "source": "Bleepingcomputer",
+          "url": "https://www.bleepingcomputer.com/news/security/active-screenconnect-attacks-breach-msps-impact-dozens-of-organizations/",
+          "pub_date": "2026-11-11T22:56:21+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "SCKit"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-84869"
+        },
+        {
+          "type": "malware",
+          "value": "RelayTrap"
+        }
+      ],
+      "categories": [
+        "malware",
+        "abused_service"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "s016841786.net-echo.com",
+      "confidence": "high",
+      "reason": "Subdomain with algorithmically generated name used in malicious campaign activity.",
+      "first_seen": "2026-11-12T12:08:23+00:00",
+      "last_seen": "2026-11-12T12:08:23+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Darktrace",
+          "url": "https://www.darktrace.com/blog/living-off-the-ai-shared-memories-as-a-covert-c2-channel",
+          "pub_date": "2026-11-12T12:08:23+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2026-109618"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-109619"
+        },
+        {
+          "type": "malware",
+          "value": "Dustmaker"
+        },
+        {
+          "type": "malware",
+          "value": "Quietvault"
+        }
+      ],
+      "categories": [
+        "c2"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "s1786.net-echo.com",
+      "confidence": "high",
+      "reason": "Subdomain with algorithmically generated name used in malicious campaign activity.",
+      "first_seen": "2026-11-12T12:08:23+00:00",
+      "last_seen": "2026-11-12T12:08:23+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Darktrace",
+          "url": "https://www.darktrace.com/blog/living-off-the-ai-shared-memories-as-a-covert-c2-channel",
+          "pub_date": "2026-11-12T12:08:23+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2026-109618"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-109619"
+        },
+        {
+          "type": "malware",
+          "value": "Dustmaker"
+        },
+        {
+          "type": "malware",
+          "value": "Quietvault"
+        }
+      ],
+      "categories": [
+        "c2"
+      ],
+      "basis": null
+    },
+    {
+      "type": "ipv4",
+      "value": "157.20.241.16",
+      "confidence": "high",
+      "reason": "Used in a targeted attack against N-central servers",
+      "first_seen": "2026-11-12T11:51:43+00:00",
+      "last_seen": "2026-11-12T11:51:43+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Thehackernews",
+          "url": "https://thehackernews.com/2026/11/new-n-central-exploits-work-against.html",
+          "pub_date": "2026-11-12T11:51:43+00:00"
+        }
+      ],
+      "tags": [],
+      "categories": [
+        "exploit"
+      ],
+      "basis": null
+    },
+    {
+      "type": "ipv4",
+      "value": "185.99.255.28",
+      "confidence": "high",
+      "reason": "Listed as attacker ScreenConnect server",
       "first_seen": "2026-11-11T22:56:21+00:00",
       "last_seen": "2026-11-12T04:39:48+00:00",
       "source_count": 3,
@@ -288,46 +2176,22 @@
     },
     {
       "type": "ipv4",
-      "value": "185.99.255.28",
+      "value": "194.150.166.244",
       "confidence": "high",
-      "reason": "Listed as an attacker ScreenConnect server",
-      "first_seen": "2026-11-11T22:56:21+00:00",
-      "last_seen": "2026-11-12T04:39:48+00:00",
-      "source_count": 3,
+      "reason": "IP address used as a callback server for exfiltration in a campaign.",
+      "first_seen": "2026-11-12T01:45:00+00:00",
+      "last_seen": "2026-11-12T01:45:00+00:00",
+      "source_count": 1,
       "sources": [
         {
-          "source": "Feeds.Feedburner",
-          "url": "https://thehackernews.com/2026/11/screenconnect-attacks-target-at-least.html",
-          "pub_date": "2026-11-12T04:39:48+00:00"
-        },
-        {
-          "source": "Huntress",
-          "url": "https://www.huntress.com/blog/sckit-worm-rogue-screenconnect",
-          "pub_date": "2026-11-12T03:26:13+00:00"
-        },
-        {
-          "source": "Bleepingcomputer",
-          "url": "https://www.bleepingcomputer.com/news/security/active-screenconnect-attacks-breach-msps-impact-dozens-of-organizations/",
-          "pub_date": "2026-11-11T22:56:21+00:00"
+          "source": "Aikido.Dev",
+          "url": "https://www.aikido.dev/blog/compromised-github-accounts-push-ci-secret-stealer-to-tens-of-thousands-of-repositories",
+          "pub_date": "2026-11-12T01:45:00+00:00"
         }
       ],
-      "tags": [
-        {
-          "type": "malware",
-          "value": "SCKit"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-84869"
-        },
-        {
-          "type": "malware",
-          "value": "RelayTrap"
-        }
-      ],
+      "tags": [],
       "categories": [
-        "malware",
-        "abused_service"
+        "exfiltration"
       ],
       "basis": null
     },
@@ -388,6 +2252,69 @@
       ],
       "categories": [
         "ransomware"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "lsd.systemten.org",
+      "confidence": "high",
+      "reason": "Domain used in a campaign to remove rival processes and cron entries.",
+      "first_seen": "2026-11-11T17:10:40.644000+00:00",
+      "last_seen": "2026-11-11T17:10:40.644000+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Malwaremustdie.Blogspot",
+          "url": "https://blog.malwaremustdie.org/2026/11/mmd-071-2026-kinsingbot-well-designed.html",
+          "pub_date": "2026-11-11T17:10:40.644+00:00"
+        }
+      ],
+      "tags": [],
+      "categories": [
+        "other"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "spre.sh",
+      "confidence": "high",
+      "reason": "Referenced as part of a malware update loop",
+      "first_seen": "2026-11-11T17:10:40.644000+00:00",
+      "last_seen": "2026-11-11T17:10:40.644000+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Malwaremustdie.Blogspot",
+          "url": "https://blog.malwaremustdie.org/2026/11/mmd-071-2026-kinsingbot-well-designed.html",
+          "pub_date": "2026-11-11T17:10:40.644+00:00"
+        }
+      ],
+      "tags": [],
+      "categories": [
+        "malware"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "spr.sh",
+      "confidence": "high",
+      "reason": "Referenced as part of a malware C2 infrastructure",
+      "first_seen": "2026-11-11T17:10:40.644000+00:00",
+      "last_seen": "2026-11-11T17:10:40.644000+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Malwaremustdie.Blogspot",
+          "url": "https://blog.malwaremustdie.org/2026/11/mmd-071-2026-kinsingbot-well-designed.html",
+          "pub_date": "2026-11-11T17:10:40.644+00:00"
+        }
+      ],
+      "tags": [],
+      "categories": [
+        "c2"
       ],
       "basis": null
     },
@@ -692,49 +2619,6 @@
       ],
       "categories": [
         "other"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "pweobmxdlboi.com",
-      "confidence": "high",
-      "reason": "Domain used for uploading archives, indicating attacker control.",
-      "first_seen": "2026-11-11T16:58:34.870410+00:00",
-      "last_seen": "2026-11-11T16:58:35.900937+00:00",
-      "source_count": 2,
-      "sources": [
-        {
-          "source": "www.group-ib.com",
-          "url": "https://www.group-ib.com/blog/shadowsilk/",
-          "pub_date": "2026-11-11T16:58:35.900937+00:00"
-        },
-        {
-          "source": "www.seqrite.com",
-          "url": "https://www.seqrite.com/blog/silent-lynx-apt-targeting-central-asian-entities/",
-          "pub_date": "2026-11-11T16:58:34.87041+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "industry",
-          "value": "Government"
-        },
-        {
-          "type": "apt_group",
-          "value": "ShadowSilk"
-        },
-        {
-          "type": "apt_group",
-          "value": "Silent Lynx"
-        },
-        {
-          "type": "apt_group",
-          "value": "YoroTrooper"
-        }
-      ],
-      "categories": [
-        "malware"
       ],
       "basis": null
     },
@@ -1342,9 +3226,9 @@
     },
     {
       "type": "domain",
-      "value": "oneglobalvisa.com",
+      "value": "neexportfolio.com",
       "confidence": "high",
-      "reason": "Used as a C2 server for credential theft.",
+      "reason": "Listed as a hardcoded C2 domain in the threat report",
       "first_seen": "2026-11-11T08:05:48+00:00",
       "last_seen": "2026-11-11T08:05:48+00:00",
       "source_count": 1,
@@ -1355,7 +3239,62 @@
           "pub_date": "2026-11-11T08:05:48+00:00"
         }
       ],
-      "tags": [],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Imperial Kitten"
+        },
+        {
+          "type": "campaign",
+          "value": "Operation Epic Fury"
+        },
+        {
+          "type": "industry",
+          "value": "Aerospace"
+        },
+        {
+          "type": "industry",
+          "value": "Defense"
+        }
+      ],
+      "categories": [
+        "malware"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "oneglobalvisa.com",
+      "confidence": "high",
+      "reason": "Used as a C2 server for browser stealer malware",
+      "first_seen": "2026-11-11T08:05:48+00:00",
+      "last_seen": "2026-11-11T08:05:48+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Picussecurity",
+          "url": "https://www.picussecurity.com/resource/blog/imperial-kitten-tortoiseshell-apt-ttps-malware-and-attack-simulation",
+          "pub_date": "2026-11-11T08:05:48+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Imperial Kitten"
+        },
+        {
+          "type": "campaign",
+          "value": "Operation Epic Fury"
+        },
+        {
+          "type": "industry",
+          "value": "Aerospace"
+        },
+        {
+          "type": "industry",
+          "value": "Defense"
+        }
+      ],
       "categories": [
         "c2",
         "malware"
@@ -10962,9 +12901,9 @@
       "value": "108.165.147.64",
       "confidence": "high",
       "reason": "Identified as a host used by the attacker for operations",
-      "first_seen": "2026-10-13T17:33:11+00:00",
+      "first_seen": "2026-10-14T16:28:35+00:00",
       "last_seen": "2026-11-02T10:06:11.096915+00:00",
-      "source_count": 4,
+      "source_count": 2,
       "sources": [
         {
           "source": "www.volexity.com",
@@ -10975,34 +12914,12 @@
           "source": "Ccb.Belgium.Be",
           "url": "https://ccb.belgium.be/advisories/warning-actively-exploited-zero-day-vulnerability-ivanti-connect-secure-allows-remote",
           "pub_date": "2026-10-14T16:28:35+00:00"
-        },
-        {
-          "source": "Rescana",
-          "url": "https://www.rescana.com/post/ivanti-connect-secure-zero-day-exploit-chain-enables-root-level-rce-and-credential-theft-on-fully-patched-vpn-appliances",
-          "pub_date": "2026-10-14T07:31:12+00:00"
-        },
-        {
-          "source": "Feeds.Feedburner",
-          "url": "https://thehackernews.com/2026/10/attacker-chains-three-ivanti-connect.html",
-          "pub_date": "2026-10-13T17:33:11+00:00"
         }
       ],
       "tags": [
         {
           "type": "cve",
           "value": "CVE-2026-104935"
-        },
-        {
-          "type": "campaign",
-          "value": "Chained Exploitation Of Ivanti Connect Secure Zero-Days"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-106042"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-109412"
         }
       ],
       "categories": [
@@ -27833,369 +29750,6 @@
       ],
       "categories": [
         "c2"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "com.koishort.app",
-      "confidence": "high",
-      "reason": "Listed as a dropper app delivering the Hirudo malware",
-      "first_seen": "2026-10-14T11:09:28+00:00",
-      "last_seen": "2026-10-14T11:09:28+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Thehackernews",
-          "url": "https://thehackernews.com/2026/10/hirudo-android-trojan-uses-patched.html",
-          "pub_date": "2026-10-14T11:09:28+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "malware",
-          "value": "Hirudo"
-        },
-        {
-          "type": "malware",
-          "value": "StreamRat"
-        }
-      ],
-      "categories": [
-        "malware"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "com.zoyatv.app",
-      "confidence": "high",
-      "reason": "Listed as a dropper app delivering the Hirudo malware",
-      "first_seen": "2026-10-14T11:09:28+00:00",
-      "last_seen": "2026-10-14T11:09:28+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Thehackernews",
-          "url": "https://thehackernews.com/2026/10/hirudo-android-trojan-uses-patched.html",
-          "pub_date": "2026-10-14T11:09:28+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "malware",
-          "value": "Hirudo"
-        },
-        {
-          "type": "malware",
-          "value": "StreamRat"
-        }
-      ],
-      "categories": [
-        "malware",
-        "fake_software"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "watchguard-ssl.online",
-      "confidence": "high",
-      "reason": "Domain used as a credential collection endpoint.",
-      "first_seen": "2026-10-13T21:00:10+00:00",
-      "last_seen": "2026-10-14T10:56:00+00:00",
-      "source_count": 2,
-      "sources": [
-        {
-          "source": "Itsecurityguru",
-          "url": "https://www.itsecurityguru.org/2026/10/14/fake-watchguard-vpn-site-steals-credentials-then-serves-the-genuine-signed-client/",
-          "pub_date": "2026-10-14T10:56:00+00:00"
-        },
-        {
-          "source": "Huntress",
-          "url": "https://www.huntress.com/blog/fake-watchguard-vpn-credential-phishing",
-          "pub_date": "2026-10-13T21:00:10+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Storm-2561"
-        }
-      ],
-      "categories": [
-        "phishing"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "cbc-comerica.com-e2.es",
-      "confidence": "high",
-      "reason": "Domain is part of a cluster used by Omegatech for phishing, indicating attacker control.",
-      "first_seen": "2026-10-14T07:43:37.912387+00:00",
-      "last_seen": "2026-10-14T07:43:37.912387+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.netcraft.com",
-          "url": "https://www.netcraft.com/blog/h1-phishing-landscape-report-financial-sector",
-          "pub_date": "2026-10-14T07:43:37.912387+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Golden Chollima"
-        },
-        {
-          "type": "apt_group",
-          "value": "Labyrinth Chollima"
-        },
-        {
-          "type": "apt_group",
-          "value": "Pressure Chollima"
-        },
-        {
-          "type": "campaign",
-          "value": "Darcula Campaign"
-        }
-      ],
-      "categories": [
-        "phishing",
-        "bulletproof_hosting"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "c3lestial.fun",
-      "confidence": "high",
-      "reason": "Domain linked to malware branding and updates, likely attacker-controlled.",
-      "first_seen": "2026-10-14T05:46:19+00:00",
-      "last_seen": "2026-10-14T05:46:19+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Securityaffairs.Co",
-          "url": "https://securityaffairs.com/200910/malware/how-a-leaked-builder-of-xworm-turned-a-remote-access-trojan-into-a-surveillance-kit.html",
-          "pub_date": "2026-10-14T05:46:19+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "industry",
-          "value": "Financial Services"
-        },
-        {
-          "type": "malware",
-          "value": "XWorm"
-        }
-      ],
-      "categories": [
-        "malware",
-        "c2"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "myaccountoptions.com",
-      "confidence": "high",
-      "reason": "Used in phishing campaigns with target-specific subdomains",
-      "first_seen": "2026-10-13T21:33:44.216910+00:00",
-      "last_seen": "2026-10-13T21:33:44.216910+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "reliaquest.com",
-          "url": "https://reliaquest.com/blog/threat-spotlight-whats-trending-top-cyber-attacker-techniques-june-2026-august-2026",
-          "pub_date": "2026-10-13T21:33:44.21691+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Helix"
-        },
-        {
-          "type": "apt_group",
-          "value": "ShinyHunters"
-        },
-        {
-          "type": "campaign",
-          "value": "BlackFile"
-        },
-        {
-          "type": "campaign",
-          "value": "Redact"
-        }
-      ],
-      "categories": [
-        "phishing"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "report.com",
-      "confidence": "high",
-      "reason": "Used in phishing campaigns with target-specific subdomains",
-      "first_seen": "2026-10-13T21:33:44.216910+00:00",
-      "last_seen": "2026-10-13T21:33:44.216910+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "reliaquest.com",
-          "url": "https://reliaquest.com/blog/threat-spotlight-whats-trending-top-cyber-attacker-techniques-june-2026-august-2026",
-          "pub_date": "2026-10-13T21:33:44.21691+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Helix"
-        },
-        {
-          "type": "apt_group",
-          "value": "ShinyHunters"
-        },
-        {
-          "type": "campaign",
-          "value": "BlackFile"
-        },
-        {
-          "type": "campaign",
-          "value": "Redact"
-        }
-      ],
-      "categories": [
-        "phishing"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "firebox-ssl.com",
-      "confidence": "high",
-      "reason": "Domain hosting malicious credential-stealing application.",
-      "first_seen": "2026-10-13T21:32:17.966241+00:00",
-      "last_seen": "2026-10-13T21:32:17.966241+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.watchguard.com",
-          "url": "https://www.watchguard.com/wgrd-security-hub/secplicity-blog/ongoing-widespread-credential-harvesting-campaign-targets-vpn",
-          "pub_date": "2026-10-13T21:32:17.966241+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "malware",
-          "value": "BumbleBee"
-        },
-        {
-          "type": "ransomware_group",
-          "value": "Akira"
-        }
-      ],
-      "categories": [
-        "phishing"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "house-connection.pro",
-      "confidence": "high",
-      "reason": "Domain involved in credential-harvesting campaign.",
-      "first_seen": "2026-10-13T21:32:17.966241+00:00",
-      "last_seen": "2026-10-13T21:32:17.966241+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.watchguard.com",
-          "url": "https://www.watchguard.com/wgrd-security-hub/secplicity-blog/ongoing-widespread-credential-harvesting-campaign-targets-vpn",
-          "pub_date": "2026-10-13T21:32:17.966241+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "malware",
-          "value": "BumbleBee"
-        },
-        {
-          "type": "ransomware_group",
-          "value": "Akira"
-        }
-      ],
-      "categories": [
-        "phishing"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "watchguard-vpn.com",
-      "confidence": "high",
-      "reason": "Domain hosting malicious WatchGuard applications.",
-      "first_seen": "2026-10-13T21:00:10+00:00",
-      "last_seen": "2026-10-13T21:32:17.966241+00:00",
-      "source_count": 2,
-      "sources": [
-        {
-          "source": "www.watchguard.com",
-          "url": "https://www.watchguard.com/wgrd-security-hub/secplicity-blog/ongoing-widespread-credential-harvesting-campaign-targets-vpn",
-          "pub_date": "2026-10-13T21:32:17.966241+00:00"
-        },
-        {
-          "source": "Huntress",
-          "url": "https://www.huntress.com/blog/fake-watchguard-vpn-credential-phishing",
-          "pub_date": "2026-10-13T21:00:10+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Storm-2561"
-        },
-        {
-          "type": "malware",
-          "value": "BumbleBee"
-        },
-        {
-          "type": "ransomware_group",
-          "value": "Akira"
-        }
-      ],
-      "categories": [
-        "phishing"
-      ],
-      "basis": null
-    },
-    {
-      "type": "ipv4",
-      "value": "158.94.209.19",
-      "confidence": "high",
-      "reason": "IP address resolving to a credential collection endpoint.",
-      "first_seen": "2026-10-13T21:00:10+00:00",
-      "last_seen": "2026-10-13T21:00:10+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Huntress",
-          "url": "https://www.huntress.com/blog/fake-watchguard-vpn-credential-phishing",
-          "pub_date": "2026-10-13T21:00:10+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Storm-2561"
-        }
-      ],
-      "categories": [
-        "phishing"
       ],
       "basis": null
     }

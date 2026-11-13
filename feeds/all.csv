@@ -1,12 +1,71 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason,categories
-domain,net-echo.com,high,2026-11-12T12:08:23+00:00,2026-11-12T12:08:23+00:00,1,Darktrace:2026-11-12,Domain with algorithmically generated subdomains used in malicious campaign activity.,
-domain,s016841786.net-echo.com,high,2026-11-12T12:08:23+00:00,2026-11-12T12:08:23+00:00,1,Darktrace:2026-11-12,Algorithmically generated subdomain used in malicious campaign activity.,
-domain,s1786.net-echo.com,high,2026-11-12T12:08:23+00:00,2026-11-12T12:08:23+00:00,1,Darktrace:2026-11-12,Algorithmically generated subdomain used in malicious campaign activity.,
-domain,foreverpeace.ru,high,2026-11-12T09:32:10.976841+00:00,2026-11-12T09:32:10.976841+00:00,1,www.cloudsek.com:2026-11-12,Domain used as part of the attacker's infrastructure with a reverse proxy.,proxy_tunnel
-ipv4,89.125.213.123,high,2026-11-12T09:32:10.976841+00:00,2026-11-12T09:32:10.976841+00:00,1,www.cloudsek.com:2026-11-12,IP address used as a server for phishing and other malicious activities.,phishing
-domain,sc.payproofkit.com,high,2026-11-11T22:56:21+00:00,2026-11-12T04:39:48+00:00,3,Feeds.Feedburner:2026-11-12|Huntress:2026-11-12|Bleepingcomputer:2026-11-11,Attacker-controlled ScreenConnect panel,malware
+ipv4,130.94.19.204,high,2026-11-12T14:06:23+00:00,2026-11-13T11:46:59+00:00,4,Securityaffairs:2026-11-13|News.Lavx.Hu:2026-11-13|Thehackernews:2026-11-13|Research.Checkpoint:2026-11-12,IP address used by attackers to target vulnerable systems,exploit
+domain,foreverpeace.ru,high,2026-11-13T00:38:10.803831+00:00,2026-11-13T00:38:10.803831+00:00,1,www.cloudsek.com:2026-11-13,Domain used as part of attacker's infrastructure with a reverse proxy.,proxy_tunnel
+ipv4,89.125.213.123,high,2026-11-13T00:38:10.803831+00:00,2026-11-13T00:38:10.803831+00:00,1,www.cloudsek.com:2026-11-13,Exposed Debian VPS used by attackers for phishing operations.,phishing
+domain,apartments-review8509831.sbs,high,2026-11-12T23:15:23+00:00,2026-11-12T23:15:23+00:00,1,Helpnetsecurity:2026-11-12,"Domain used in a rental listing scam, newly registered and short-lived.",phishing
+domain,asgomd.com,high,2026-11-12T23:15:23+00:00,2026-11-12T23:15:23+00:00,1,Helpnetsecurity:2026-11-12,Domain used as a gateway for NetSupport RAT deployment.,c2|malware
+domain,asgrsv.com,high,2026-11-12T23:15:23+00:00,2026-11-12T23:15:23+00:00,1,Helpnetsecurity:2026-11-12,Domain used as a gateway for NetSupport RAT deployment.,c2|malware
+domain,verify.apartments-review.sbs,high,2026-11-12T23:15:23+00:00,2026-11-12T23:15:23+00:00,1,Helpnetsecurity:2026-11-12,Described as a phishing domain used in rental scams,phishing
+ipv4,89.34.90.203,high,2026-11-12T23:15:23+00:00,2026-11-12T23:15:23+00:00,1,Helpnetsecurity:2026-11-12,IP address used to host a script for a phishing campaign.,malware
+domain,npmjs.store,high,2026-11-12T23:04:32.821660+00:00,2026-11-12T23:05:14.625615+00:00,1,aws.amazon.com:2026-11-12,Listed as a domain associated with attacker-controlled infrastructure,supply_chain|c2
+domain,billnova.online,high,2026-11-12T19:43:22+00:00,2026-11-12T19:43:22+00:00,1,Legit.Ng:2026-11-12,"Domain used in a phishing campaign, flagged as malicious by security vendors.",phishing
+domain,gifmi.site,high,2026-11-12T19:43:22+00:00,2026-11-12T19:43:22+00:00,1,Legit.Ng:2026-11-12,"Domain used in a phishing campaign, flagged as malicious by security vendors.",phishing
+domain,ftp.vietnam852.com,high,2026-11-12T17:33:18.748119+00:00,2026-11-12T17:33:18.748119+00:00,1,www.fortinet.com:2026-11-12,Domain used to host and deliver malware payloads as described in the article.,malware
+domain,server.vietnam852.com,high,2026-11-12T17:33:18.748119+00:00,2026-11-12T17:33:18.748119+00:00,1,www.fortinet.com:2026-11-12,Identified as a hardcoded C2 endpoint for Gh0st RAT.,c2|malware
+domain,site.hfgjjkrewjk.com,high,2026-11-12T17:33:18.748119+00:00,2026-11-12T17:33:18.748119+00:00,1,www.fortinet.com:2026-11-12,Listed among domains used for malicious activities in the article.,malware
+domain,site.jiancai008.com,high,2026-11-12T17:33:18.748119+00:00,2026-11-12T17:33:18.748119+00:00,1,www.fortinet.com:2026-11-12,Domain used to host and deliver malware payloads as described in the article.,malware
+domain,site.vietnam852.com,high,2026-11-12T17:33:18.748119+00:00,2026-11-12T17:33:18.748119+00:00,1,www.fortinet.com:2026-11-12,Domain used to host and deliver malware payloads as described in the article.,malware
+domain,wuxiapingg.ga,high,2026-11-12T15:37:19.851104+00:00,2026-11-12T15:37:19.851104+00:00,1,www.crowdstrike.com:2026-11-12,"Used as delivery infrastructure and C2 for Cobalt Strike, associated with attacker group LIMINAL PANDA",c2|malware
+domain,pweobmxdlboi.com,high,2026-11-11T16:58:35.900937+00:00,2026-11-12T15:31:58.402260+00:00,2,www.seqrite.com:2026-11-12|www.group-ib.com:2026-11-11,"Domain used for uploading archives, indicating attacker control.",malware
+domain,caude.ai,high,2026-11-12T15:31:44.382105+00:00,2026-11-12T15:31:44.382105+00:00,1,www.island.io:2026-11-12,Typo-squatted domain used for malicious purposes,traffic_distribution
+domain,charactor.ai,high,2026-11-12T15:31:44.382105+00:00,2026-11-12T15:31:44.382105+00:00,1,www.island.io:2026-11-12,Typo-squatted domain used for malicious purposes,traffic_distribution
+domain,chstgpt.com,high,2026-11-12T15:31:44.382105+00:00,2026-11-12T15:31:44.382105+00:00,1,www.island.io:2026-11-12,Typo-squatted domain used for malicious purposes,traffic_distribution
+domain,ckaude.ai,high,2026-11-12T15:31:44.382105+00:00,2026-11-12T15:31:44.382105+00:00,1,www.island.io:2026-11-12,Typo-squatted domain used for malicious purposes,malware
+domain,clsude.ai,high,2026-11-12T15:31:44.382105+00:00,2026-11-12T15:31:44.382105+00:00,1,www.island.io:2026-11-12,Typo-squatted domain used for malicious purposes,traffic_distribution
+domain,cluade.ai,high,2026-11-12T15:20:24+00:00,2026-11-12T15:31:44.382105+00:00,2,www.island.io:2026-11-12|Thehackernews:2026-11-12,Typo-squatted domain used for malicious purposes,traffic_distribution
+domain,copiot.com,high,2026-11-12T15:31:44.382105+00:00,2026-11-12T15:31:44.382105+00:00,1,www.island.io:2026-11-12,Typo-squatted domain used for malicious purposes,phishing
+domain,deepceek.com,high,2026-11-12T15:31:44.382105+00:00,2026-11-12T15:31:44.382105+00:00,1,www.island.io:2026-11-12,Typo-squatted domain used for malicious purposes,phishing
+domain,deepsek.icu,high,2026-11-12T15:31:44.382105+00:00,2026-11-12T15:31:44.382105+00:00,1,www.island.io:2026-11-12,Domain used to deliver malicious Android package,malware
+domain,deespeek.com,high,2026-11-12T15:31:44.382105+00:00,2026-11-12T15:31:44.382105+00:00,1,www.island.io:2026-11-12,Typo-squatted domain used for malicious purposes,traffic_distribution
+domain,deezyj.com,high,2026-11-12T15:31:44.382105+00:00,2026-11-12T15:31:44.382105+00:00,1,www.island.io:2026-11-12,Domain used in fake security check pages,traffic_distribution
+domain,elevenlebs.io,high,2026-11-12T15:31:44.382105+00:00,2026-11-12T15:31:44.382105+00:00,1,www.island.io:2026-11-12,Typo-squatted domain used for malicious purposes,phishing
+domain,elevnlabs.io,high,2026-11-12T15:31:44.382105+00:00,2026-11-12T15:31:44.382105+00:00,1,www.island.io:2026-11-12,Typo-squatted domain used for malicious purposes,phishing
+domain,hailou.ai,high,2026-11-12T15:31:44.382105+00:00,2026-11-12T15:31:44.382105+00:00,1,www.island.io:2026-11-12,Typo-squatted domain used for malicious purposes,phishing
+domain,hygen.ai,high,2026-11-12T15:31:44.382105+00:00,2026-11-12T15:31:44.382105+00:00,1,www.island.io:2026-11-12,Typo-squatted domain used for malicious purposes,phishing
+domain,klign.ai,high,2026-11-12T15:31:44.382105+00:00,2026-11-12T15:31:44.382105+00:00,1,www.island.io:2026-11-12,Typo-squatted domain used for malicious purposes,phishing
+domain,leonardi.ai,high,2026-11-12T15:31:44.382105+00:00,2026-11-12T15:31:44.382105+00:00,1,www.island.io:2026-11-12,Typo-squatted domain used for malicious purposes,phishing
+domain,lovabe.dev,high,2026-11-12T15:31:44.382105+00:00,2026-11-12T15:31:44.382105+00:00,1,www.island.io:2026-11-12,Typo-squatted domain used for malicious purposes,phishing
+domain,lovble.dev,high,2026-11-12T15:31:44.382105+00:00,2026-11-12T15:31:44.382105+00:00,1,www.island.io:2026-11-12,Typo-squatted domain used for malicious purposes,traffic_distribution|phishing
+domain,lovsble.dev,high,2026-11-12T15:31:44.382105+00:00,2026-11-12T15:31:44.382105+00:00,1,www.island.io:2026-11-12,Typo-squatted domain used for malicious purposes,traffic_distribution
+domain,midj0urney.org,high,2026-11-12T15:31:44.382105+00:00,2026-11-12T15:31:44.382105+00:00,1,www.island.io:2026-11-12,Domain used to deliver malicious Windows payload,malware
+domain,midjourny.com,high,2026-11-12T15:31:44.382105+00:00,2026-11-12T15:31:44.382105+00:00,1,www.island.io:2026-11-12,Typo-squatted domain used for malicious purposes,traffic_distribution
+domain,perplixity.ai,high,2026-11-12T15:31:44.382105+00:00,2026-11-12T15:31:44.382105+00:00,1,www.island.io:2026-11-12,Typo-squatted domain used for malicious purposes,traffic_distribution
+domain,poll.ai,high,2026-11-12T15:31:44.382105+00:00,2026-11-12T15:31:44.382105+00:00,1,www.island.io:2026-11-12,Typo-squatted domain used for malicious purposes,traffic_distribution
+domain,preplexity.ai,high,2026-11-12T15:20:24+00:00,2026-11-12T15:31:44.382105+00:00,2,www.island.io:2026-11-12|Thehackernews:2026-11-12,Typo-squatted domain used for malicious purposes,traffic_distribution
+domain,purplexity.ai,high,2026-11-12T15:31:44.382105+00:00,2026-11-12T15:31:44.382105+00:00,1,www.island.io:2026-11-12,Typo-squatted domain used for malicious purposes,traffic_distribution
+domain,quickflashtool.com,high,2026-11-12T15:31:44.382105+00:00,2026-11-12T15:31:44.382105+00:00,1,www.island.io:2026-11-12,Domain used for malicious Chrome extension installation,malware
+domain,runawayml.com,high,2026-11-12T15:31:44.382105+00:00,2026-11-12T15:31:44.382105+00:00,1,www.island.io:2026-11-12,Typo-squatted domain used for malicious purposes,traffic_distribution
+domain,speachma.com,high,2026-11-12T15:31:44.382105+00:00,2026-11-12T15:31:44.382105+00:00,1,www.island.io:2026-11-12,Typo-squatted domain used for malicious purposes,traffic_distribution
+domain,sunno.ai,high,2026-11-12T15:31:44.382105+00:00,2026-11-12T15:31:44.382105+00:00,1,www.island.io:2026-11-12,Typo-squatted domain used for malicious purposes,traffic_distribution
+domain,viggie.ai,high,2026-11-12T15:31:44.382105+00:00,2026-11-12T15:31:44.382105+00:00,1,www.island.io:2026-11-12,Typo-squatted domain used for malicious purposes,traffic_distribution
+domain,vocie.ai,high,2026-11-12T15:31:44.382105+00:00,2026-11-12T15:31:44.382105+00:00,1,www.island.io:2026-11-12,Typo-squatted domain used for malicious purposes,traffic_distribution
+ipv4,185.138.88.3,high,2026-11-12T15:31:44.382105+00:00,2026-11-12T15:31:44.382105+00:00,1,www.island.io:2026-11-12,IP address used in malicious command execution,malware
+ipv4,154.44.31.4,high,2026-11-12T15:00:29+00:00,2026-11-12T15:03:54+00:00,2,Unit42.Paloaltonetworks:2026-11-12|Helpnetsecurity:2026-11-12,Server used by attackers to run a customized fork of Cairn,malware
+domain,cdn007-digitaldownloads.com,high,2026-11-11T22:56:21+00:00,2026-11-12T14:31:27.691600+00:00,4,blackpointcyber.com:2026-11-12|Finance.Biggo:2026-11-12|Feeds.Feedburner:2026-11-12|Bleepingcomputer:2026-11-11,Listed as a C2 domain associated with malware installation,malware
+domain,ns.mo7sen.dev,high,2026-11-11T22:56:21+00:00,2026-11-12T14:31:27.691600+00:00,6,blackpointcyber.com:2026-11-12|Finance.Biggo:2026-11-12|Thehackernews:2026-11-12|Feeds.Feedburner:2026-11-12|Huntress:2026-11-12,Used as a staging endpoint for malicious payloads,malware
+domain,sc.payproofkit.com,high,2026-11-11T22:56:21+00:00,2026-11-12T14:31:27.691600+00:00,5,blackpointcyber.com:2026-11-12|Finance.Biggo:2026-11-12|Feeds.Feedburner:2026-11-12|Huntress:2026-11-12|Bleepingcomputer:2026-11-11,Configured download source for unauthorized ScreenConnect client,malware
+domain,backend-updates.top,high,2026-11-12T14:01:13.174343+00:00,2026-11-12T14:01:13.174343+00:00,1,www.deepwatch.com:2026-11-12,"Domain used as backend for cryptocurrency mining operations, suspended after abuse reports.",cryptomining
+domain,updates-windows.to,high,2026-11-12T14:01:13.174343+00:00,2026-11-12T14:01:13.174343+00:00,1,www.deepwatch.com:2026-11-12,"Domain used as backend for cryptocurrency mining operations, suspended after abuse reports.",cryptomining
+domain,gpimmlgration.com,high,2026-11-12T13:58:30+00:00,2026-11-12T13:58:30+00:00,1,Huntress:2026-11-12,Identified as a phishing domain used in the attacker's infrastructure,phishing
+domain,s016841786.net-echo.com,high,2026-11-12T12:08:23+00:00,2026-11-12T12:08:23+00:00,1,Darktrace:2026-11-12,Subdomain with algorithmically generated name used in malicious campaign activity.,c2
+domain,s1786.net-echo.com,high,2026-11-12T12:08:23+00:00,2026-11-12T12:08:23+00:00,1,Darktrace:2026-11-12,Subdomain with algorithmically generated name used in malicious campaign activity.,c2
+ipv4,157.20.241.16,high,2026-11-12T11:51:43+00:00,2026-11-12T11:51:43+00:00,1,Thehackernews:2026-11-12,Used in a targeted attack against N-central servers,exploit
+ipv4,194.150.166.244,high,2026-11-12T01:45:00+00:00,2026-11-12T01:45:00+00:00,1,Aikido.Dev:2026-11-12,IP address used as a callback server for exfiltration in a campaign.,exfiltration
 domain,amexsafekeyupdate.com,high,2026-11-11T22:56:21+00:00,2026-11-11T22:56:21+00:00,1,Bleepingcomputer:2026-11-11,Domain contacted by malware to retrieve installation commands,malware
 domain,whitearmor.cc,high,2026-10-23T19:19:21+00:00,2026-11-11T21:08:38.493980+00:00,2,www.ransomlook.io:2026-11-11|Redpacketsecurity:2026-10-23,"Domain mentioned as down due to VPS provider ban, likely attacker-controlled",ransomware
+domain,lsd.systemten.org,high,2026-11-11T17:10:40.644000+00:00,2026-11-11T17:10:40.644000+00:00,1,Malwaremustdie.Blogspot:2026-11-11,Domain used in a campaign to remove rival processes and cron entries.,other
+domain,spre.sh,high,2026-11-11T17:10:40.644000+00:00,2026-11-11T17:10:40.644000+00:00,1,Malwaremustdie.Blogspot:2026-11-11,Referenced as part of a malware update loop,malware
+domain,spr.sh,high,2026-11-11T17:10:40.644000+00:00,2026-11-11T17:10:40.644000+00:00,1,Malwaremustdie.Blogspot:2026-11-11,Referenced as part of a malware C2 infrastructure,c2
 domain,admin.inboxsession.info,high,2026-11-11T16:58:35.900937+00:00,2026-11-11T16:58:35.900937+00:00,1,www.group-ib.com:2026-11-11,Domain listed among others in a context suggesting attacker-controlled infrastructure.,other
 domain,auth.allcloudindex.com,high,2026-11-11T16:58:35.900937+00:00,2026-11-11T16:58:35.900937+00:00,1,www.group-ib.com:2026-11-11,Domain listed among others in a context suggesting attacker-controlled infrastructure.,other
 domain,document.hometowncity.cloud,high,2026-11-11T16:58:35.900937+00:00,2026-11-11T16:58:35.900937+00:00,1,www.group-ib.com:2026-11-11,Domain listed among others in a context suggesting attacker-controlled infrastructure.,other
@@ -15,7 +74,6 @@ domain,document.webmailsession.com,high,2026-11-11T16:58:35.900937+00:00,2026-11
 domain,ex.wincorpupdates.com,high,2026-11-11T16:58:35.900937+00:00,2026-11-11T16:58:35.900937+00:00,1,www.group-ib.com:2026-11-11,Domain listed among others in a context suggesting attacker-controlled infrastructure.,other
 domain,mailboxdownload.com,high,2026-11-11T16:58:35.900937+00:00,2026-11-11T16:58:35.900937+00:00,1,www.group-ib.com:2026-11-11,Domain listed among others in a context suggesting attacker-controlled infrastructure.,other
 domain,message.mailboxarea.cloud,high,2026-11-11T16:58:35.900937+00:00,2026-11-11T16:58:35.900937+00:00,1,www.group-ib.com:2026-11-11,Domain listed among others in a context suggesting attacker-controlled infrastructure.,other
-domain,pweobmxdlboi.com,high,2026-11-11T16:58:34.870410+00:00,2026-11-11T16:58:35.900937+00:00,2,www.group-ib.com:2026-11-11|www.seqrite.com:2026-11-11,"Domain used for uploading archives, indicating attacker control.",malware
 ipv4,193.124.203.226,high,2026-11-11T16:58:35.900937+00:00,2026-11-11T16:58:35.900937+00:00,1,www.group-ib.com:2026-11-11,IP address listed among others in a context suggesting attacker-controlled infrastructure.,other
 domain,fogomyart.com,high,2026-11-11T16:42:52.499566+00:00,2026-11-11T16:42:52.499566+00:00,1,blog.eclecticiq.com:2026-11-11,Domain used to host and deliver malicious payloads as described in the article,malware
 domain,tradesmarkets.greenadelhouse.com,high,2026-11-11T16:42:52.499566+00:00,2026-11-11T16:42:52.499566+00:00,1,blog.eclecticiq.com:2026-11-11,Identified as a C2 domain decrypted from malware sample,c2
@@ -33,7 +91,8 @@ domain,dscufo.xyz,high,2026-11-11T13:44:51+00:00,2026-11-11T13:44:51+00:00,1,Sto
 domain,subnet.dokamacto.xyz,high,2026-11-11T13:44:51+00:00,2026-11-11T13:44:51+00:00,1,Stormshield:2026-11-11,Domain used for campaign's operational tooling,malware
 ipv4,45.158.196.141,high,2026-11-11T09:23:29+00:00,2026-11-11T09:23:29+00:00,1,Gbhackers:2026-11-11,"Listed as GhostFrame C2 address, indicating attacker control",c2
 ipv4,45.158.196.81,high,2026-11-11T09:23:29+00:00,2026-11-11T09:23:29+00:00,1,Gbhackers:2026-11-11,"Listed as GhostFrame C2 address, indicating attacker control",c2
-domain,oneglobalvisa.com,high,2026-11-11T08:05:48+00:00,2026-11-11T08:05:48+00:00,1,Picussecurity:2026-11-11,Used as a C2 server for credential theft.,c2|malware
+domain,neexportfolio.com,high,2026-11-11T08:05:48+00:00,2026-11-11T08:05:48+00:00,1,Picussecurity:2026-11-11,Listed as a hardcoded C2 domain in the threat report,malware
+domain,oneglobalvisa.com,high,2026-11-11T08:05:48+00:00,2026-11-11T08:05:48+00:00,1,Picussecurity:2026-11-11,Used as a C2 server for browser stealer malware,c2|malware
 ipv4,93.152.209.36,high,2026-11-11T02:18:00+00:00,2026-11-11T02:18:00+00:00,1,Malware-Traffic-Analysis:2026-11-11,Associated with NetSupport RAT alerts,c2
 domain,ervsystem.com,high,2026-11-10T17:05:54.209556+00:00,2026-11-10T17:05:54.209556+00:00,1,www.cisa.gov:2026-11-10,Listed in an IOC table as attacker-controlled infrastructure,malware
 domain,infinitysoftwares.com,high,2026-11-10T17:05:54.209556+00:00,2026-11-10T17:05:54.209556+00:00,1,www.cisa.gov:2026-11-10,Listed in an IOC table as attacker-controlled infrastructure,malware
@@ -368,7 +427,7 @@ domain,greenvideo.nl,high,2026-11-02T10:07:30.919290+00:00,2026-11-02T10:07:30.9
 domain,infodigitalnew.com,high,2026-11-02T10:07:30.919290+00:00,2026-11-02T10:07:30.919290+00:00,1,www.cisa.gov:2026-11-02,Listed as a C2 endpoint for malware,c2|malware
 domain,sche-eg.org,high,2026-11-02T10:07:30.919290+00:00,2026-11-02T10:07:30.919290+00:00,1,www.cisa.gov:2026-11-02,Listed as a C2 endpoint for malware,c2|malware
 ipv4,45.14.227.58,high,2026-11-02T10:07:30.919290+00:00,2026-11-02T10:07:30.919290+00:00,1,www.cisa.gov:2026-11-02,Associated with DAFOM malware,malware
-ipv4,108.165.147.64,high,2026-10-13T17:33:11+00:00,2026-11-02T10:06:11.096915+00:00,4,www.volexity.com:2026-11-02|Ccb.Belgium.Be:2026-10-14|Rescana:2026-10-14|Feeds.Feedburner:2026-10-13,Identified as a host used by the attacker for operations,other
+ipv4,108.165.147.64,high,2026-10-14T16:28:35+00:00,2026-11-02T10:06:11.096915+00:00,2,www.volexity.com:2026-11-02|Ccb.Belgium.Be:2026-10-14,Identified as a host used by the attacker for operations,other
 domain,my.thispc.net,high,2026-11-02T03:35:22.150017+00:00,2026-11-02T03:35:22.150017+00:00,1,www.threatdown.com:2026-11-02,Domain used for C2 beaconing in the phishing campaign,c2
 domain,com.ucreator.tg,high,2026-10-26T10:54:17+00:00,2026-11-01T18:33:22.053338+00:00,3,www.0x0v1.com:2026-11-01|cybernoz.com:2026-10-27|Thehackernews:2026-10-26,Part of the uCreator platform framework and command handlers,malware|c2
 domain,hpncallback.gold5play.com,high,2026-10-26T10:54:17+00:00,2026-11-01T18:33:22.053338+00:00,4,www.0x0v1.com:2026-11-01|cybernoz.com:2026-10-27|News.Lavx.Hu:2026-10-26|Thehackernews:2026-10-26,Listed as a callback domain for C2 and payload delivery,c2
@@ -910,14 +969,3 @@ domain,examp1e.com,high,2026-10-14T15:15:45+00:00,2026-10-14T15:15:45+00:00,1,Ne
 domain,hf98x4d.site,high,2026-10-14T13:59:36+00:00,2026-10-14T13:59:36+00:00,1,Darktrace:2026-10-14,Algorithmically generated domain used for C2 activity,c2
 ipv4,138.124.123.87,high,2026-10-14T13:59:36+00:00,2026-10-14T13:59:36+00:00,1,Darktrace:2026-10-14,Used in suspicious WebDAV communication for malware delivery,malware
 ipv4,77.110.127.205,high,2026-10-14T13:59:36+00:00,2026-10-14T13:59:36+00:00,1,Darktrace:2026-10-14,Involved in unusual C2 communication,c2
-domain,com.koishort.app,high,2026-10-14T11:09:28+00:00,2026-10-14T11:09:28+00:00,1,Thehackernews:2026-10-14,Listed as a dropper app delivering the Hirudo malware,malware
-domain,com.zoyatv.app,high,2026-10-14T11:09:28+00:00,2026-10-14T11:09:28+00:00,1,Thehackernews:2026-10-14,Listed as a dropper app delivering the Hirudo malware,malware|fake_software
-domain,watchguard-ssl.online,high,2026-10-13T21:00:10+00:00,2026-10-14T10:56:00+00:00,2,Itsecurityguru:2026-10-14|Huntress:2026-10-13,Domain used as a credential collection endpoint.,phishing
-domain,cbc-comerica.com-e2.es,high,2026-10-14T07:43:37.912387+00:00,2026-10-14T07:43:37.912387+00:00,1,www.netcraft.com:2026-10-14,"Domain is part of a cluster used by Omegatech for phishing, indicating attacker control.",phishing|bulletproof_hosting
-domain,c3lestial.fun,high,2026-10-14T05:46:19+00:00,2026-10-14T05:46:19+00:00,1,Securityaffairs.Co:2026-10-14,"Domain linked to malware branding and updates, likely attacker-controlled.",malware|c2
-domain,myaccountoptions.com,high,2026-10-13T21:33:44.216910+00:00,2026-10-13T21:33:44.216910+00:00,1,reliaquest.com:2026-10-13,Used in phishing campaigns with target-specific subdomains,phishing
-domain,report.com,high,2026-10-13T21:33:44.216910+00:00,2026-10-13T21:33:44.216910+00:00,1,reliaquest.com:2026-10-13,Used in phishing campaigns with target-specific subdomains,phishing
-domain,firebox-ssl.com,high,2026-10-13T21:32:17.966241+00:00,2026-10-13T21:32:17.966241+00:00,1,www.watchguard.com:2026-10-13,Domain hosting malicious credential-stealing application.,phishing
-domain,house-connection.pro,high,2026-10-13T21:32:17.966241+00:00,2026-10-13T21:32:17.966241+00:00,1,www.watchguard.com:2026-10-13,Domain involved in credential-harvesting campaign.,phishing
-domain,watchguard-vpn.com,high,2026-10-13T21:00:10+00:00,2026-10-13T21:32:17.966241+00:00,2,www.watchguard.com:2026-10-13|Huntress:2026-10-13,Domain hosting malicious WatchGuard applications.,phishing
-ipv4,158.94.209.19,high,2026-10-13T21:00:10+00:00,2026-10-13T21:00:10+00:00,1,Huntress:2026-10-13,IP address resolving to a credential collection endpoint.,phishing
