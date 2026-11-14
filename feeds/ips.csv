@@ -1,8 +1,19 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason,categories
-ipv4,130.94.19.204,high,2026-11-12T14:06:23+00:00,2026-11-13T11:46:59+00:00,4,Securityaffairs:2026-11-13|News.Lavx.Hu:2026-11-13|Thehackernews:2026-11-13|Research.Checkpoint:2026-11-12,IP address used by attackers to target vulnerable systems,exploit
+ipv4,130.94.19.204,high,2026-11-12T14:06:23+00:00,2026-11-14T01:42:00+00:00,8,Cyberkendra:2026-11-14|The420.In:2026-11-13|Securityaffairs:2026-11-13|Securityaffairs.Co:2026-11-13|Gbhackers:2026-11-13,IP address used by attackers to target vulnerable systems.,exploit
+ipv4,103.179.142.155,high,2026-11-13T17:04:34+00:00,2026-11-13T17:04:34+00:00,1,Stepsecurity:2026-11-13,IP address used by the camera payload analyzed by JFrog.,malware
+ipv4,166.88.134.75,high,2026-11-13T17:04:34+00:00,2026-11-13T17:04:34+00:00,1,Stepsecurity:2026-11-13,IP address used by attackers as part of their infrastructure.,malware
+ipv4,91.218.183.174,high,2026-11-13T17:04:34+00:00,2026-11-13T17:04:34+00:00,1,Stepsecurity:2026-11-13,IP address used by attackers as part of their infrastructure.,malware
+ipv4,185.138.88.3,high,2026-11-13T12:05:34+00:00,2026-11-13T17:02:54.280270+00:00,2,www.island.io:2026-11-13|Gbhackers:2026-11-13,Used in a malicious command to download and execute a script,malware
+ipv4,156.246.94.183,high,2026-11-09T13:28:25+00:00,2026-11-13T14:03:43+00:00,2,Huntress:2026-11-13|Thehackernews:2026-11-09,IP address associated with attacker-controlled domain and used for malicious activity,other
+ipv4,87.236.16.216,high,2026-11-13T11:36:23+00:00,2026-11-13T11:36:23+00:00,1,Cyfirma:2026-11-13,Listed as part of attacker infrastructure in a YARA rule.,other
+ipv4,96.45.83.119,high,2026-11-13T11:36:23+00:00,2026-11-13T11:36:23+00:00,1,Cyfirma:2026-11-13,Listed as part of attacker infrastructure in a YARA rule.,other
+ipv4,178.16.54.129,high,2026-11-13T10:54:15.514000+00:00,2026-11-13T10:54:15.514000+00:00,1,Malwaremustdie.Blogspot:2026-11-13,Listed as part of attacker infrastructure.,other
+ipv4,171.22.131.24,high,2026-11-13T03:41:41+00:00,2026-11-13T03:41:41+00:00,1,Isc.Sans.Edu:2026-11-13,Used for infection traffic in a malware campaign.,malware
+ipv4,45.150.32.130,high,2026-11-13T03:41:41+00:00,2026-11-13T03:41:41+00:00,1,Isc.Sans.Edu:2026-11-13,Used for infection traffic in a malware campaign.,malware
 ipv4,89.125.213.123,high,2026-11-13T00:38:10.803831+00:00,2026-11-13T00:38:10.803831+00:00,1,www.cloudsek.com:2026-11-13,Exposed Debian VPS used by attackers for phishing operations.,phishing
+ipv4,202.61.138.117,high,2026-11-13T00:00:00+00:00,2026-11-13T00:00:00+00:00,1,Vulncheck:2026-11-13,Source IP for malicious activity.,scanner
+ipv4,77.91.123.131,high,2026-11-13T00:00:00+00:00,2026-11-13T00:00:00+00:00,1,Ransom-Isac:2026-11-13,Listed as operator infrastructure in multiple intrusions.,c2|proxy_tunnel
 ipv4,89.34.90.203,high,2026-11-12T23:15:23+00:00,2026-11-12T23:15:23+00:00,1,Helpnetsecurity:2026-11-12,IP address used to host a script for a phishing campaign.,malware
-ipv4,185.138.88.3,high,2026-11-12T15:31:44.382105+00:00,2026-11-12T15:31:44.382105+00:00,1,www.island.io:2026-11-12,IP address used in malicious command execution,malware
 ipv4,154.44.31.4,high,2026-11-12T15:00:29+00:00,2026-11-12T15:03:54+00:00,2,Unit42.Paloaltonetworks:2026-11-12|Helpnetsecurity:2026-11-12,Server used by attackers to run a customized fork of Cairn,malware
 ipv4,157.20.241.16,high,2026-11-12T11:51:43+00:00,2026-11-12T11:51:43+00:00,1,Thehackernews:2026-11-12,Used in a targeted attack against N-central servers,exploit
 ipv4,194.150.166.244,high,2026-11-12T01:45:00+00:00,2026-11-12T01:45:00+00:00,1,Aikido.Dev:2026-11-12,IP address used as a callback server for exfiltration in a campaign.,exfiltration
@@ -13,7 +24,7 @@ ipv4,45.158.196.141,high,2026-11-11T09:23:29+00:00,2026-11-11T09:23:29+00:00,1,G
 ipv4,45.158.196.81,high,2026-11-11T09:23:29+00:00,2026-11-11T09:23:29+00:00,1,Gbhackers:2026-11-11,"Listed as GhostFrame C2 address, indicating attacker control",c2
 ipv4,93.152.209.36,high,2026-11-11T02:18:00+00:00,2026-11-11T02:18:00+00:00,1,Malware-Traffic-Analysis:2026-11-11,Associated with NetSupport RAT alerts,c2
 ipv4,45.146.81.142,high,2026-11-10T16:34:00.409132+00:00,2026-11-10T16:34:00.409132+00:00,1,zenox.ai:2026-11-10,Associated with a dedicated C&C server in the campaign,c2
-ipv4,167.148.201.104,high,2026-11-10T13:57:59+00:00,2026-11-10T13:57:59+00:00,1,Huntress:2026-11-10,Potential command-and-control endpoint,c2
+ipv4,167.148.201.104,high,2026-11-10T13:57:59+00:00,2026-11-10T13:57:59+00:00,1,Huntress:2026-11-10,IP address used as a potential C2 endpoint for malicious activity.,c2
 ipv4,178.16.54.222,high,2026-11-09T18:31:57.060802+00:00,2026-11-09T18:31:57.060802+00:00,1,socket.dev:2026-11-09,IP address used as a hub in the attack infrastructure,c2
 ipv4,185.232.84.169,high,2026-11-09T00:00:00+00:00,2026-11-09T18:31:57.060802+00:00,3,socket.dev:2026-11-09|Thehackernews:2026-11-09|Safedep:2026-11-09,Relay IP address used in the attack infrastructure,c2
 ipv4,193.57.9.155,high,2026-11-09T00:00:00+00:00,2026-11-09T18:31:57.060802+00:00,4,socket.dev:2026-11-09|Thehackernews:2026-11-09|Ox.Security:2026-11-09|Safedep:2026-11-09,IP address used as a hub in the attack infrastructure,c2
@@ -23,7 +34,6 @@ ipv4,82.26.72.21,high,2026-11-09T18:18:15+00:00,2026-11-09T18:18:15+00:00,1,Isc.
 ipv4,113.23.212.15,high,2026-11-09T17:02:47.578875+00:00,2026-11-09T17:02:47.578875+00:00,1,malbearlabs.com:2026-11-09,Listed as a tool download server used by the attacker,malware
 ipv4,37.16.75.128,high,2026-11-09T14:24:06+00:00,2026-11-09T14:24:06+00:00,1,Sekoia:2026-11-09,IP address involved in exploitation attempt,exploit|scanner
 ipv4,136.0.141.71,high,2026-11-05T17:00:49.402066+00:00,2026-11-09T13:28:25+00:00,2,Thehackernews:2026-11-09|blog.xlab.qianxin.com:2026-11-05,IP address used as a download server for a backdoor,malware|c2
-ipv4,156.246.94.183,high,2026-11-09T13:28:25+00:00,2026-11-09T13:28:25+00:00,1,Thehackernews:2026-11-09,IP address used to deliver malware,other
 ipv4,112.121.185.218,high,2026-11-04T03:55:19+00:00,2026-11-09T11:33:39.764694+00:00,2,www.acronis.com:2026-11-09|Acronis:2026-11-04,Identified as the primary node hosting multiple attack platforms including C2,c2|malware|proxy_tunnel
 ipv4,38.207.176.218,high,2026-11-09T06:02:06+00:00,2026-11-09T06:02:06+00:00,1,Redpacketsecurity:2026-11-09,IP address associated with exposed Mythic C2 interface,c2
 ipv4,154.201.79.246,high,2026-11-07T20:00:02+00:00,2026-11-07T20:35:53.378549+00:00,2,hunt.io:2026-11-07|Securityaffairs:2026-11-07,Proxy service used in the attacker's infrastructure,proxy_tunnel
@@ -74,7 +84,7 @@ ipv4,195.16.74.137,high,2026-11-02T17:02:17.201143+00:00,2026-11-02T17:02:17.201
 ipv4,195.16.74.138,high,2026-11-02T17:02:17.201143+00:00,2026-11-02T17:02:17.201143+00:00,1,www.group-ib.com:2026-11-02,Listed as a C2 IP address.,c2
 ipv4,2.56.126.151,high,2026-11-02T17:02:17.201143+00:00,2026-11-02T17:02:17.201143+00:00,1,www.group-ib.com:2026-11-02,Listed as additional staging IP.,other
 ipv4,45.14.227.58,high,2026-11-02T10:07:30.919290+00:00,2026-11-02T10:07:30.919290+00:00,1,www.cisa.gov:2026-11-02,Associated with DAFOM malware,malware
-ipv4,108.165.147.64,high,2026-10-14T16:28:35+00:00,2026-11-02T10:06:11.096915+00:00,2,www.volexity.com:2026-11-02|Ccb.Belgium.Be:2026-10-14,Identified as a host used by the attacker for operations,other
+ipv4,108.165.147.64,high,2026-11-02T10:06:11.096915+00:00,2026-11-02T10:06:11.096915+00:00,1,www.volexity.com:2026-11-02,Identified as a host used by the attacker for operations,other
 ipv4,38.246.114.118,high,2026-10-30T23:02:29+00:00,2026-10-30T23:02:29+00:00,1,Wiz:2026-10-30,IP address conducting unauthorized key checks linked to attacker activity.,malware
 ipv4,130.94.67.235,high,2026-10-30T17:50:37+00:00,2026-10-30T17:50:37+00:00,1,Reddit:2026-10-30,Exposed IP address for a custom heap exploit.,exploit
 ipv4,79.43.178.226,high,2026-10-30T16:01:04.709172+00:00,2026-10-30T16:01:04.709172+00:00,1,www.fortian.com.au:2026-10-30,Used as a C2 server by the attacker,c2
@@ -187,9 +197,5 @@ ipv4,49.207.56.74,high,2026-10-16T12:01:13.068620+00:00,2026-10-16T12:01:13.0686
 ipv4,185.21.136.6,high,2026-10-16T10:31:51+00:00,2026-10-16T10:31:51+00:00,1,Bloglab.360:2026-10-16,Listed as part of attacker infrastructure in a threat report,malware
 ipv4,198.23.185.234,high,2026-10-16T10:31:51+00:00,2026-10-16T10:31:51+00:00,1,Bloglab.360:2026-10-16,Listed as part of attacker infrastructure in a threat report,malware
 ipv4,2.59.134.215,high,2026-10-16T08:01:09.321258+00:00,2026-10-16T08:01:09.321258+00:00,1,www.group-ib.com:2026-10-16,Listed as a secondary C2 server in the IOC section,c2
-ipv4,23.240.77.233,high,2026-10-14T22:42:29+00:00,2026-10-16T05:04:36+00:00,2,Thehackernews:2026-10-16|Unit42.Paloaltonetworks:2026-10-14,Identified as known external staging infrastructure used by attackers,malware
+ipv4,23.240.77.233,high,2026-10-16T05:04:36+00:00,2026-10-16T05:04:36+00:00,1,Thehackernews:2026-10-16,Identified as known external staging infrastructure used by attackers,malware
 ipv4,91.196.33.144,high,2026-10-15T15:12:22.476814+00:00,2026-10-15T15:12:22.476814+00:00,1,www.infoblox.com:2026-10-15,Resolved from hotcname.help used in tech support scams,malware
-ipv4,47.18.167.159,high,2026-10-14T22:42:29+00:00,2026-10-14T22:42:29+00:00,1,Unit42.Paloaltonetworks:2026-10-14,Identified as known external staging infrastructure used by attackers,other
-ipv4,139.28.18.122,high,2026-10-14T20:05:01.148615+00:00,2026-10-14T20:05:01.148615+00:00,1,github.com:2026-10-14,IP address used in successful hacks on Nextcloud servers,other
-ipv4,138.124.123.87,high,2026-10-14T13:59:36+00:00,2026-10-14T13:59:36+00:00,1,Darktrace:2026-10-14,Used in suspicious WebDAV communication for malware delivery,malware
-ipv4,77.110.127.205,high,2026-10-14T13:59:36+00:00,2026-10-14T13:59:36+00:00,1,Darktrace:2026-10-14,Involved in unusual C2 communication,c2

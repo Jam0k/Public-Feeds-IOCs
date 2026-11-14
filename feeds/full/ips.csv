@@ -1,12 +1,23 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason,categories
-ipv4,130.94.19.204,high,2026-11-12T14:06:23+00:00,2026-11-13T08:36:11+00:00,3,,IP address used by attackers to target vulnerable Mobile Access portals on Check Point Security Gateways.,exploit
+ipv4,130.94.19.204,high,2026-11-12T14:06:23+00:00,2026-11-14T01:42:00+00:00,8,,IP address used by attackers to target vulnerable systems.,exploit
+ipv4,103.179.142.155,high,2026-11-13T17:04:34+00:00,2026-11-13T17:04:34+00:00,1,,IP address used by the camera payload analyzed by JFrog.,malware
+ipv4,166.88.134.75,high,2026-11-13T17:04:34+00:00,2026-11-13T17:04:34+00:00,1,,IP address used by attackers as part of their infrastructure.,malware
+ipv4,91.218.183.174,high,2026-11-13T17:04:34+00:00,2026-11-13T17:04:34+00:00,1,,IP address used by attackers as part of their infrastructure.,malware
+ipv4,185.138.88.3,high,2026-11-12T15:31:44.382105+00:00,2026-11-13T17:02:54.280270+00:00,2,,Used in a malicious command to download and execute a script,malware
+ipv4,156.246.94.183,high,2026-11-09T13:28:25+00:00,2026-11-13T14:03:43+00:00,2,,IP address associated with attacker-controlled domain and used for malicious activity,other
+ipv4,87.236.16.216,high,2026-11-13T11:36:23+00:00,2026-11-13T11:36:23+00:00,1,,Listed as part of attacker infrastructure in a YARA rule.,other
+ipv4,96.45.83.119,high,2026-11-13T11:36:23+00:00,2026-11-13T11:36:23+00:00,1,,Listed as part of attacker infrastructure in a YARA rule.,other
+ipv4,178.16.54.129,high,2026-11-13T10:54:15.514000+00:00,2026-11-13T10:54:15.514000+00:00,1,,Listed as part of attacker infrastructure.,other
+ipv4,171.22.131.24,high,2026-11-13T03:41:41+00:00,2026-11-13T03:41:41+00:00,1,,Used for infection traffic in a malware campaign.,malware
+ipv4,45.150.32.130,high,2026-11-13T03:41:41+00:00,2026-11-13T03:41:41+00:00,1,,Used for infection traffic in a malware campaign.,malware
 ipv4,89.125.213.123,high,2026-11-11T16:42:15.716050+00:00,2026-11-13T00:38:10.803831+00:00,1,,Exposed Debian VPS used by attackers for phishing operations.,phishing
+ipv4,202.61.138.117,high,2026-11-13T00:00:00+00:00,2026-11-13T00:00:00+00:00,1,,Source IP for malicious activity.,scanner
+ipv4,77.91.123.131,high,2026-11-13T00:00:00+00:00,2026-11-13T00:00:00+00:00,1,,Listed as operator infrastructure in multiple intrusions.,c2|proxy_tunnel
 ipv4,89.34.90.203,high,2026-11-12T23:15:23+00:00,2026-11-12T23:15:23+00:00,1,,IP address used to host a script for a phishing campaign.,malware
-ipv4,185.138.88.3,high,2026-11-12T15:31:44.382105+00:00,2026-11-12T15:31:44.382105+00:00,1,,IP address used in malicious command execution,malware
 ipv4,154.44.31.4,high,2026-11-12T15:00:29+00:00,2026-11-12T15:03:54+00:00,2,,Server used by attackers to run a customized fork of Cairn,malware
-ipv4,155.94.150.39,high,2026-11-11T22:56:21+00:00,2026-11-12T13:47:54+00:00,4,,Listed as attacker-controlled ScreenConnect panel,malware|abused_service
+ipv4,155.94.150.39,high,2026-11-11T22:56:21+00:00,2026-11-12T13:47:54+00:00,4,,Listed as an attacker-controlled ScreenConnect panel,malware|abused_service
 ipv4,157.20.241.16,high,2026-11-12T11:51:43+00:00,2026-11-12T11:51:43+00:00,1,,Used in a targeted attack against N-central servers,exploit
-ipv4,185.99.255.28,high,2026-11-11T22:56:21+00:00,2026-11-12T04:39:48+00:00,3,,Listed as attacker ScreenConnect server,malware|abused_service
+ipv4,185.99.255.28,high,2026-11-11T22:56:21+00:00,2026-11-12T04:39:48+00:00,3,,Identified as an attacker ScreenConnect server,malware|abused_service
 ipv4,194.150.166.244,high,2026-11-12T01:45:00+00:00,2026-11-12T01:45:00+00:00,1,,IP address used as a callback server for exfiltration in a campaign.,exfiltration
 ipv4,193.124.203.226,high,2026-10-14T15:02:37.397197+00:00,2026-11-11T16:58:35.900937+00:00,1,,IP address listed among others in a context suggesting attacker-controlled infrastructure.,other
 ipv4,107.148.225.248,high,2026-11-11T14:09:04+00:00,2026-11-11T14:09:04+00:00,1,,Used as a C2 server for malware delivery.,c2|malware
@@ -16,7 +27,7 @@ ipv4,45.158.196.141,high,2026-11-11T09:23:29+00:00,2026-11-11T09:23:29+00:00,1,,
 ipv4,45.158.196.81,high,2026-11-11T09:23:29+00:00,2026-11-11T09:23:29+00:00,1,,"Listed as GhostFrame C2 address, indicating attacker control",c2
 ipv4,93.152.209.36,high,2026-11-11T02:18:00+00:00,2026-11-11T02:18:00+00:00,1,,Associated with NetSupport RAT alerts,c2
 ipv4,45.146.81.142,high,2026-11-10T16:34:00.409132+00:00,2026-11-10T16:34:00.409132+00:00,1,,Associated with a dedicated C&C server in the campaign,c2
-ipv4,167.148.201.104,high,2026-11-10T13:57:59+00:00,2026-11-10T13:57:59+00:00,1,,Potential command-and-control endpoint,c2
+ipv4,167.148.201.104,high,2026-11-10T13:57:59+00:00,2026-11-10T13:57:59+00:00,1,,IP address used as a potential C2 endpoint for malicious activity.,c2
 ipv4,178.16.54.222,high,2026-11-09T18:31:57.060802+00:00,2026-11-09T18:31:57.060802+00:00,1,,IP address used as a hub in the attack infrastructure,c2
 ipv4,185.232.84.169,high,2026-11-09T00:00:00+00:00,2026-11-09T18:31:57.060802+00:00,3,,Relay IP address used in the attack infrastructure,c2
 ipv4,193.57.9.155,high,2026-11-09T00:00:00+00:00,2026-11-09T18:31:57.060802+00:00,4,,IP address used as a hub in the attack infrastructure,c2
@@ -30,7 +41,6 @@ ipv4,185.11.61.149,high,2026-11-09T16:30:59.657125+00:00,2026-11-09T16:30:59.657
 ipv4,2.56.179.16,high,2026-11-09T16:30:59.657125+00:00,2026-11-09T16:30:59.657125+00:00,1,,Listed as a C2 panel,c2
 ipv4,37.16.75.128,high,2026-11-09T14:24:06+00:00,2026-11-09T14:24:06+00:00,1,,IP address involved in exploitation attempt,exploit|scanner
 ipv4,136.0.141.71,high,2026-11-05T17:00:49.402066+00:00,2026-11-09T13:28:25+00:00,2,,IP address used to host and distribute a backdoor,malware|c2
-ipv4,156.246.94.183,high,2026-11-09T13:28:25+00:00,2026-11-09T13:28:25+00:00,1,,IP address used to deliver malware,other
 ipv4,112.121.185.218,high,2026-11-04T03:55:19+00:00,2026-11-09T11:33:39.764694+00:00,2,,Identified as the primary node hosting multiple attack platforms including C2,c2|malware|proxy_tunnel
 ipv4,38.207.176.218,high,2026-11-09T06:02:06+00:00,2026-11-09T06:02:06+00:00,1,,IP address associated with exposed Mythic C2 interface,c2
 ipv4,154.201.79.246,high,2026-10-08T12:54:13+00:00,2026-11-07T20:35:53.378549+00:00,3,,Proxy service used in the attacker's infrastructure,proxy_tunnel
