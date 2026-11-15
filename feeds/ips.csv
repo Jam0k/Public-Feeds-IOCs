@@ -1,4 +1,6 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason,categories
+ipv4,104.28.225.223,high,2026-11-14T07:19:13+00:00,2026-11-14T12:21:44+00:00,1,Gbhackers:2026-11-14,Listed as an IP address used for credential theft.,phishing
+ipv4,212.107.28.51,high,2026-11-14T07:19:13+00:00,2026-11-14T12:21:44+00:00,1,Gbhackers:2026-11-14,Listed as an IP address used for cryptocurrency fraud.,crypto_drainer
 ipv4,130.94.19.204,high,2026-11-12T14:06:23+00:00,2026-11-14T01:42:00+00:00,8,Cyberkendra:2026-11-14|The420.In:2026-11-13|Securityaffairs:2026-11-13|Securityaffairs.Co:2026-11-13|Gbhackers:2026-11-13,IP address used by attackers to target vulnerable systems.,exploit
 ipv4,103.179.142.155,high,2026-11-13T17:04:34+00:00,2026-11-13T17:04:34+00:00,1,Stepsecurity:2026-11-13,IP address used by the camera payload analyzed by JFrog.,malware
 ipv4,166.88.134.75,high,2026-11-13T17:04:34+00:00,2026-11-13T17:04:34+00:00,1,Stepsecurity:2026-11-13,IP address used by attackers as part of their infrastructure.,malware
@@ -193,9 +195,3 @@ ipv4,78.128.113.14,high,2026-10-19T22:38:04.235893+00:00,2026-10-19T22:38:04.235
 ipv4,176.123.26.67,high,2026-10-16T19:31:23.681851+00:00,2026-10-16T19:31:23.681851+00:00,1,citizenlab.ca:2026-10-16,Listed as an IP address associated with Candiru's infrastructure,spyware|bulletproof_hosting
 ipv4,185.25.50.194,high,2026-10-16T19:31:23.681851+00:00,2026-10-16T19:31:23.681851+00:00,1,citizenlab.ca:2026-10-16,Associated with CHAINSHOT exploit kit linked to Candiru,exploit
 ipv4,69.28.67.162,high,2026-10-16T19:31:23.681851+00:00,2026-10-16T19:31:23.681851+00:00,1,citizenlab.ca:2026-10-16,Listed as an IP address associated with Candiru's infrastructure,other
-ipv4,49.207.56.74,high,2026-10-16T12:01:13.068620+00:00,2026-10-16T12:01:13.068620+00:00,1,www.sysdig.com:2026-10-16,Referenced as the source of exploitation attempts in the article.,scanner
-ipv4,185.21.136.6,high,2026-10-16T10:31:51+00:00,2026-10-16T10:31:51+00:00,1,Bloglab.360:2026-10-16,Listed as part of attacker infrastructure in a threat report,malware
-ipv4,198.23.185.234,high,2026-10-16T10:31:51+00:00,2026-10-16T10:31:51+00:00,1,Bloglab.360:2026-10-16,Listed as part of attacker infrastructure in a threat report,malware
-ipv4,2.59.134.215,high,2026-10-16T08:01:09.321258+00:00,2026-10-16T08:01:09.321258+00:00,1,www.group-ib.com:2026-10-16,Listed as a secondary C2 server in the IOC section,c2
-ipv4,23.240.77.233,high,2026-10-16T05:04:36+00:00,2026-10-16T05:04:36+00:00,1,Thehackernews:2026-10-16,Identified as known external staging infrastructure used by attackers,malware
-ipv4,91.196.33.144,high,2026-10-15T15:12:22.476814+00:00,2026-10-15T15:12:22.476814+00:00,1,www.infoblox.com:2026-10-15,Resolved from hotcname.help used in tech support scams,malware
