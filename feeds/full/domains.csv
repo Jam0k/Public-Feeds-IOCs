@@ -1,11 +1,59 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason,categories
+domain,ftp.vietnam852.com,high,2026-11-12T17:33:18.748119+00:00,2026-11-16T12:01:10.798395+00:00,1,,Domain used to host and deliver malware payloads as described in the article.,malware
+domain,server.vietnam852.com,high,2026-11-12T17:33:18.748119+00:00,2026-11-16T12:01:10.798395+00:00,1,,Identified as a hardcoded C2 endpoint for Gh0st RAT.,c2|malware
+domain,site.hfgjjkrewjk.com,high,2026-11-12T17:33:18.748119+00:00,2026-11-16T12:01:10.798395+00:00,1,,Listed among domains used for malicious activities in the article.,malware
+domain,site.jiancai008.com,high,2026-11-12T17:33:18.748119+00:00,2026-11-16T12:01:10.798395+00:00,1,,Domain used to host and deliver malware payloads as described in the article.,malware
+domain,site.vietnam852.com,high,2026-11-12T17:33:18.748119+00:00,2026-11-16T12:01:10.798395+00:00,1,,Domain used to host and deliver malware payloads as described in the article.,malware
+domain,wuxiapingg.ga,high,2026-11-12T15:37:19.851104+00:00,2026-11-16T09:33:12.358995+00:00,1,,"Used as delivery infrastructure and C2 for Cobalt Strike, associated with attacker group LIMINAL PANDA",c2|malware
+domain,ip-223-6.dataclub.info,high,2026-11-16T07:32:50.113918+00:00,2026-11-16T07:32:50.113918+00:00,1,,Used by attackers to send phishing emails with a valid DKIM signature.,phishing
+domain,lo1yaizaeghaevarood1ahtaichootae.nofrillsdns.com,high,2026-11-16T06:56:38+00:00,2026-11-16T07:32:50.113918+00:00,2,,Domain used to host and deliver malicious scripts.,malware|dynamic_dns
+domain,lo1yaizaeghaevarood1ahtaichootaz.nofrillsdns.com,high,2026-11-16T06:56:38+00:00,2026-11-16T07:32:50.113918+00:00,2,,Domain used as a command-and-control server for malware.,c2|malware|dynamic_dns
+domain,vmware-timecheck-api.nofrillsdns.com,high,2026-11-16T07:32:50.113918+00:00,2026-11-16T07:32:50.113918+00:00,1,,Domain used by attackers for remote control over SSH.,c2|malware|dynamic_dns
+domain,alphanoob.com,high,2026-11-16T07:00:37+00:00,2026-11-16T07:00:37+00:00,1,,Listed as a C2 server for Retadup and CoffeeLoader campaigns,c2
+domain,internet-speed-check.com,high,2026-11-16T07:00:37+00:00,2026-11-16T07:00:37+00:00,1,,Identified as CoffeeLoader C2 server,c2|malware
+domain,minernewage.com,high,2026-11-16T07:00:37+00:00,2026-11-16T07:00:37+00:00,1,,Listed as a C2 server for Retadup campaign,c2
+domain,newblackage.com,high,2026-11-16T07:00:37+00:00,2026-11-16T07:00:37+00:00,1,,Listed as a C2 server for Retadup campaign,c2
+domain,newminersage.com,high,2026-11-16T07:00:37+00:00,2026-11-16T07:00:37+00:00,1,,Listed as a C2 server for Retadup campaign,c2
+domain,radnewage.com,high,2026-11-16T07:00:37+00:00,2026-11-16T07:00:37+00:00,1,,Listed as a C2 server for Retadup campaign,c2
+domain,worldlibertyfinancial-ai.com,high,2026-11-15T22:11:43+00:00,2026-11-15T22:11:43+00:00,1,,"Domain registered afresh and used in a suspicious context, borrowing the name of a legitimate entity.",phishing
+domain,caude.ai,high,2026-11-12T15:31:44.382105+00:00,2026-11-15T20:01:02.719590+00:00,1,,Typo-squatted domain used in malicious redirect chains,traffic_distribution
+domain,charactor.ai,high,2026-11-12T15:31:44.382105+00:00,2026-11-15T20:01:02.719590+00:00,1,,Typo-squatted domain used in malicious redirect chains,traffic_distribution
+domain,chstgpt.com,high,2026-11-12T15:31:44.382105+00:00,2026-11-15T20:01:02.719590+00:00,1,,Typo-squatted domain used in malicious redirect chains,traffic_distribution
+domain,ckaude.ai,high,2026-11-12T15:31:44.382105+00:00,2026-11-15T20:01:02.719590+00:00,1,,Used in a fake security check to deliver malware,malware
+domain,clsude.ai,high,2026-11-12T15:31:44.382105+00:00,2026-11-15T20:01:02.719590+00:00,2,,Typo-squatted domain used in malicious redirect chains,traffic_distribution
+domain,cluade.ai,high,2026-11-12T15:20:24+00:00,2026-11-15T20:01:02.719590+00:00,3,,Typo-squatted domain used in malicious redirect chains,traffic_distribution
+domain,copiot.com,high,2026-11-12T15:31:44.382105+00:00,2026-11-15T20:01:02.719590+00:00,1,,Used in a fake security check to deliver malware,phishing
+domain,deepceek.com,high,2026-11-12T15:31:44.382105+00:00,2026-11-15T20:01:02.719590+00:00,1,,Used in a fake security check to deliver malware,phishing
+domain,deepsek.icu,high,2026-11-12T15:31:44.382105+00:00,2026-11-15T20:01:02.719590+00:00,2,,Served malware directly as part of a malicious campaign,malware
+domain,deespeek.com,high,2026-11-12T15:31:44.382105+00:00,2026-11-15T20:01:02.719590+00:00,1,,Typo-squatted domain used in malicious redirect chains,traffic_distribution
+domain,deezyj.com,high,2026-11-12T15:31:44.382105+00:00,2026-11-15T20:01:02.719590+00:00,2,,Used in a fake security check to deliver malware,traffic_distribution
+domain,elevenlebs.io,high,2026-11-12T15:31:44.382105+00:00,2026-11-15T20:01:02.719590+00:00,1,,Used in a fake security check to deliver malware,phishing
+domain,elevnlabs.io,high,2026-11-12T15:31:44.382105+00:00,2026-11-15T20:01:02.719590+00:00,1,,Typo-squatted domain used in malicious redirect chains,phishing
+domain,hailou.ai,high,2026-11-12T15:31:44.382105+00:00,2026-11-15T20:01:02.719590+00:00,1,,Part of a malicious redirect chain tied to AI lookalike domains,phishing
+domain,hygen.ai,high,2026-11-12T15:31:44.382105+00:00,2026-11-15T20:01:02.719590+00:00,1,,Part of a malicious redirect chain tied to AI lookalike domains,phishing
+domain,klign.ai,high,2026-11-12T15:31:44.382105+00:00,2026-11-15T20:01:02.719590+00:00,1,,Typo-squatted domain used in malicious redirect chains,phishing
+domain,leonardi.ai,high,2026-11-12T15:31:44.382105+00:00,2026-11-15T20:01:02.719590+00:00,1,,Typo-squatted domain used in malicious redirect chains,phishing
+domain,lovabe.dev,high,2026-11-12T15:31:44.382105+00:00,2026-11-15T20:01:02.719590+00:00,1,,Typo-squatted domain used in malicious redirect chains,phishing
+domain,lovble.dev,high,2026-11-12T15:31:44.382105+00:00,2026-11-15T20:01:02.719590+00:00,1,,Typo-squatted domain used in malicious redirect chains,traffic_distribution|phishing
+domain,lovsble.dev,high,2026-11-12T15:31:44.382105+00:00,2026-11-15T20:01:02.719590+00:00,1,,Typo-squatted domain used in malicious redirect chains,traffic_distribution
+domain,midj0urney.org,high,2026-11-12T15:31:44.382105+00:00,2026-11-15T20:01:02.719590+00:00,2,,Served malware directly as part of a malicious campaign,malware
+domain,midjourny.com,high,2026-11-12T15:31:44.382105+00:00,2026-11-15T20:01:02.719590+00:00,1,,Typo-squatted domain used in malicious redirect chains,traffic_distribution
+domain,perplixity.ai,high,2026-11-12T15:31:44.382105+00:00,2026-11-15T20:01:02.719590+00:00,1,,Typo-squatted domain used in malicious redirect chains,traffic_distribution
+domain,poll.ai,high,2026-11-12T15:31:44.382105+00:00,2026-11-15T20:01:02.719590+00:00,1,,Typo-squatted domain used in malicious redirect chains,traffic_distribution
+domain,preplexity.ai,high,2026-11-12T15:20:24+00:00,2026-11-15T20:01:02.719590+00:00,3,,Used to redirect to malicious Chrome extension installation,traffic_distribution
+domain,purplexity.ai,high,2026-11-12T15:31:44.382105+00:00,2026-11-15T20:01:02.719590+00:00,1,,Typo-squatted domain used in malicious redirect chains,traffic_distribution
+domain,quickflashtool.com,high,2026-11-12T15:31:44.382105+00:00,2026-11-15T20:01:02.719590+00:00,2,,Hosts installation page for malicious Chrome extension,malware
+domain,runawayml.com,high,2026-11-12T15:31:44.382105+00:00,2026-11-15T20:01:02.719590+00:00,1,,Typo-squatted domain used in malicious redirect chains,traffic_distribution
+domain,speachma.com,high,2026-11-12T15:31:44.382105+00:00,2026-11-15T20:01:02.719590+00:00,1,,Typo-squatted domain used in malicious redirect chains,traffic_distribution
+domain,sunno.ai,high,2026-11-12T15:31:44.382105+00:00,2026-11-15T20:01:02.719590+00:00,1,,Typo-squatted domain used in malicious redirect chains,traffic_distribution
+domain,viggie.ai,high,2026-11-12T15:31:44.382105+00:00,2026-11-15T20:01:02.719590+00:00,1,,Part of a malicious redirect chain tied to AI lookalike domains,traffic_distribution
+domain,vocie.ai,high,2026-11-12T15:31:44.382105+00:00,2026-11-15T20:01:02.719590+00:00,1,,Part of a malicious redirect chain tied to AI lookalike domains,traffic_distribution
+domain,cherryberry.click,high,2026-11-15T16:27:51+00:00,2026-11-15T16:27:51+00:00,1,,Listed as a support domain used by attackers in the context of the exploit,exploit
+domain,amazon.com.order-review.net,high,2026-11-15T16:05:24+00:00,2026-11-15T16:05:24+00:00,1,,Identified as a phishing domain impersonating Amazon.,phishing
+domain,order-review.net,high,2026-11-15T16:05:24+00:00,2026-11-15T16:05:24+00:00,1,,Identified as a phishing domain impersonating Amazon.,phishing
 domain,watchnaza.com,high,2026-11-15T10:38:58.466554+00:00,2026-11-15T10:38:58.466554+00:00,1,,"Domain registered to promote a rival documentary, linked to the same campaign",influence_operations
 domain,whatisnaza.com,high,2026-11-15T10:38:58.466554+00:00,2026-11-15T10:38:58.466554+00:00,1,,"Domain registered to promote a rival documentary, linked to the same campaign",influence_operations
-domain,ftp.vietnam852.com,high,2026-11-12T17:33:18.748119+00:00,2026-11-15T00:06:23.895266+00:00,1,,Domain used to host and deliver malware payloads as described in the article.,malware
-domain,server.vietnam852.com,high,2026-11-12T17:33:18.748119+00:00,2026-11-15T00:06:23.895266+00:00,1,,Identified as a hardcoded C2 endpoint for Gh0st RAT.,c2|malware
-domain,site.hfgjjkrewjk.com,high,2026-11-12T17:33:18.748119+00:00,2026-11-15T00:06:23.895266+00:00,1,,Listed among domains used for malicious activities in the article.,malware
-domain,site.jiancai008.com,high,2026-11-12T17:33:18.748119+00:00,2026-11-15T00:06:23.895266+00:00,1,,Domain used to host and deliver malware payloads as described in the article.,malware
-domain,site.vietnam852.com,high,2026-11-12T17:33:18.748119+00:00,2026-11-15T00:06:23.895266+00:00,1,,Domain used to host and deliver malware payloads as described in the article.,malware
+domain,reallifeaccounting.com,high,2026-11-14T09:09:35+00:00,2026-11-15T02:08:49+00:00,9,,Used as a destination for phishing links in the campaign,phishing
 domain,airdropradar.club,high,2026-11-14T21:09:07.593272+00:00,2026-11-14T21:09:07.593272+00:00,1,,"Listed as an airdrop site behind a challenge page, likely attacker-controlled.",crypto_drainer
 domain,app-kamiral.online,high,2026-11-14T21:09:07.593272+00:00,2026-11-14T21:09:07.593272+00:00,1,,"Listed as part of a drainer kit, likely attacker-controlled.",crypto_drainer
 domain,blueguradian.com,high,2026-11-14T21:09:07.593272+00:00,2026-11-14T21:09:07.593272+00:00,1,,"Listed as part of a drainer kit, likely attacker-controlled.",crypto_drainer
@@ -17,45 +65,12 @@ domain,reward-hubs.org,high,2026-11-14T21:09:07.593272+00:00,2026-11-14T21:09:07
 domain,spacetrixairdrop.xyz,high,2026-11-14T21:09:07.593272+00:00,2026-11-14T21:09:07.593272+00:00,1,,"Listed as an airdrop site behind a challenge page, likely attacker-controlled.",crypto_drainer
 domain,wazirxkyc.com,high,2026-11-14T21:09:07.593272+00:00,2026-11-14T21:09:07.593272+00:00,1,,"Listed as a fake WazirX page, likely attacker-controlled.",crypto_drainer|phishing
 domain,latestgta6.com,high,2026-11-14T19:32:34+00:00,2026-11-14T19:32:34+00:00,1,,"Advertised a fake GTA 6 copy, likely attacker-controlled.",crypto_drainer|scam_fraud
-domain,moments-notice.com,high,2026-11-14T09:09:35+00:00,2026-11-14T17:37:09+00:00,8,,Listed as a domain linked to the phishing campaign,phishing
-domain,newbooker.com,high,2026-11-14T09:09:35+00:00,2026-11-14T17:37:09+00:00,8,,Listed as a domain linked to the phishing campaign,phishing
-domain,planetmaison.com,high,2026-11-14T09:09:35+00:00,2026-11-14T17:37:09+00:00,8,,Listed as a domain linked to the phishing campaign,phishing
-domain,reallifeaccounting.com,high,2026-11-14T09:09:35+00:00,2026-11-14T17:37:09+00:00,8,,Destination domain for phishing links in the campaign,phishing
+domain,moments-notice.com,high,2026-11-14T09:09:35+00:00,2026-11-14T17:37:09+00:00,8,,Identified as linked to a phishing campaign by Microsoft,phishing
+domain,newbooker.com,high,2026-11-14T09:09:35+00:00,2026-11-14T17:37:09+00:00,8,,Identified as linked to a phishing campaign by Microsoft,phishing
+domain,planetmaison.com,high,2026-11-14T09:09:35+00:00,2026-11-14T17:37:09+00:00,8,,Identified as linked to a phishing campaign by Microsoft,phishing
 domain,pbsotalk.com,high,2026-11-14T16:39:11.976823+00:00,2026-11-14T16:39:11.976823+00:00,1,,Launched by Dougan as a forum for anonymous tips on law enforcement corruption.,influence_operations
 domain,api.cloudvflare.com,high,2026-11-14T07:47:10+00:00,2026-11-14T07:47:10+00:00,1,,"Beaconed to by a malicious binary, likely attacker-controlled.",c2|malware
 domain,accurasofthire.com,high,2026-11-13T17:04:34+00:00,2026-11-13T18:33:32.637467+00:00,2,,Identified as a careers site and loader server controlled by attackers.,malware
-domain,caude.ai,high,2026-11-12T15:31:44.382105+00:00,2026-11-13T17:02:54.280270+00:00,1,,Typo-squatted domain used in malicious redirect chains,traffic_distribution
-domain,charactor.ai,high,2026-11-12T15:31:44.382105+00:00,2026-11-13T17:02:54.280270+00:00,1,,Typo-squatted domain used in malicious redirect chains,traffic_distribution
-domain,chstgpt.com,high,2026-11-12T15:31:44.382105+00:00,2026-11-13T17:02:54.280270+00:00,1,,Typo-squatted domain used in malicious redirect chains,traffic_distribution
-domain,ckaude.ai,high,2026-11-12T15:31:44.382105+00:00,2026-11-13T17:02:54.280270+00:00,1,,Used in a fake security check to deliver malware,malware
-domain,clsude.ai,high,2026-11-12T15:31:44.382105+00:00,2026-11-13T17:02:54.280270+00:00,2,,Typo-squatted domain used in malicious redirect chains,traffic_distribution
-domain,cluade.ai,high,2026-11-12T15:20:24+00:00,2026-11-13T17:02:54.280270+00:00,3,,Typo-squatted domain used in malicious redirect chains,traffic_distribution
-domain,copiot.com,high,2026-11-12T15:31:44.382105+00:00,2026-11-13T17:02:54.280270+00:00,1,,Used in a fake security check to deliver malware,phishing
-domain,deepceek.com,high,2026-11-12T15:31:44.382105+00:00,2026-11-13T17:02:54.280270+00:00,1,,Used in a fake security check to deliver malware,phishing
-domain,deepsek.icu,high,2026-11-12T15:31:44.382105+00:00,2026-11-13T17:02:54.280270+00:00,2,,Served malware directly as part of a malicious campaign,malware
-domain,deespeek.com,high,2026-11-12T15:31:44.382105+00:00,2026-11-13T17:02:54.280270+00:00,1,,Typo-squatted domain used in malicious redirect chains,traffic_distribution
-domain,deezyj.com,high,2026-11-12T15:31:44.382105+00:00,2026-11-13T17:02:54.280270+00:00,2,,Used in a fake security check to deliver malware,traffic_distribution
-domain,elevenlebs.io,high,2026-11-12T15:31:44.382105+00:00,2026-11-13T17:02:54.280270+00:00,1,,Used in a fake security check to deliver malware,phishing
-domain,elevnlabs.io,high,2026-11-12T15:31:44.382105+00:00,2026-11-13T17:02:54.280270+00:00,1,,Typo-squatted domain used in malicious redirect chains,phishing
-domain,hailou.ai,high,2026-11-12T15:31:44.382105+00:00,2026-11-13T17:02:54.280270+00:00,1,,Part of a malicious redirect chain tied to AI lookalike domains,phishing
-domain,hygen.ai,high,2026-11-12T15:31:44.382105+00:00,2026-11-13T17:02:54.280270+00:00,1,,Part of a malicious redirect chain tied to AI lookalike domains,phishing
-domain,klign.ai,high,2026-11-12T15:31:44.382105+00:00,2026-11-13T17:02:54.280270+00:00,1,,Typo-squatted domain used in malicious redirect chains,phishing
-domain,leonardi.ai,high,2026-11-12T15:31:44.382105+00:00,2026-11-13T17:02:54.280270+00:00,1,,Typo-squatted domain used in malicious redirect chains,phishing
-domain,lovabe.dev,high,2026-11-12T15:31:44.382105+00:00,2026-11-13T17:02:54.280270+00:00,1,,Typo-squatted domain used in malicious redirect chains,phishing
-domain,lovble.dev,high,2026-11-12T15:31:44.382105+00:00,2026-11-13T17:02:54.280270+00:00,1,,Typo-squatted domain used in malicious redirect chains,traffic_distribution|phishing
-domain,lovsble.dev,high,2026-11-12T15:31:44.382105+00:00,2026-11-13T17:02:54.280270+00:00,1,,Typo-squatted domain used in malicious redirect chains,traffic_distribution
-domain,midj0urney.org,high,2026-11-12T15:31:44.382105+00:00,2026-11-13T17:02:54.280270+00:00,2,,Served malware directly as part of a malicious campaign,malware
-domain,midjourny.com,high,2026-11-12T15:31:44.382105+00:00,2026-11-13T17:02:54.280270+00:00,1,,Typo-squatted domain used in malicious redirect chains,traffic_distribution
-domain,perplixity.ai,high,2026-11-12T15:31:44.382105+00:00,2026-11-13T17:02:54.280270+00:00,1,,Typo-squatted domain used in malicious redirect chains,traffic_distribution
-domain,poll.ai,high,2026-11-12T15:31:44.382105+00:00,2026-11-13T17:02:54.280270+00:00,1,,Typo-squatted domain used in malicious redirect chains,traffic_distribution
-domain,preplexity.ai,high,2026-11-12T15:20:24+00:00,2026-11-13T17:02:54.280270+00:00,3,,Used to redirect to malicious Chrome extension installation,traffic_distribution
-domain,purplexity.ai,high,2026-11-12T15:31:44.382105+00:00,2026-11-13T17:02:54.280270+00:00,1,,Typo-squatted domain used in malicious redirect chains,traffic_distribution
-domain,quickflashtool.com,high,2026-11-12T15:31:44.382105+00:00,2026-11-13T17:02:54.280270+00:00,2,,Hosts installation page for malicious Chrome extension,malware
-domain,runawayml.com,high,2026-11-12T15:31:44.382105+00:00,2026-11-13T17:02:54.280270+00:00,1,,Typo-squatted domain used in malicious redirect chains,traffic_distribution
-domain,speachma.com,high,2026-11-12T15:31:44.382105+00:00,2026-11-13T17:02:54.280270+00:00,1,,Typo-squatted domain used in malicious redirect chains,traffic_distribution
-domain,sunno.ai,high,2026-11-12T15:31:44.382105+00:00,2026-11-13T17:02:54.280270+00:00,1,,Typo-squatted domain used in malicious redirect chains,traffic_distribution
-domain,viggie.ai,high,2026-11-12T15:31:44.382105+00:00,2026-11-13T17:02:54.280270+00:00,1,,Part of a malicious redirect chain tied to AI lookalike domains,traffic_distribution
-domain,vocie.ai,high,2026-11-12T15:31:44.382105+00:00,2026-11-13T17:02:54.280270+00:00,1,,Part of a malicious redirect chain tied to AI lookalike domains,traffic_distribution
 domain,bib.1001gacor.org,high,2026-09-09T14:31:09.124499+00:00,2026-11-13T17:02:42.619777+00:00,1,,Listed as part of a malicious infrastructure.,malware
 domain,bob.1001gacor.org,high,2026-09-09T14:31:09.124499+00:00,2026-11-13T17:02:42.619777+00:00,1,,Listed as part of Vidar infrastructure.,malware
 domain,brr.1001gacor.org,high,2026-09-09T14:31:09.124499+00:00,2026-11-13T17:02:42.619777+00:00,1,,Listed as part of Vidar infrastructure.,c2|malware
@@ -93,7 +108,6 @@ domain,npmjs.store,high,2026-11-12T23:04:32.821660+00:00,2026-11-12T23:05:14.625
 domain,billnova.online,high,2026-11-12T19:43:22+00:00,2026-11-12T19:43:22+00:00,1,,Domain used in phishing scam to collect personal information,phishing
 domain,gifmi.site,high,2026-11-12T19:43:22+00:00,2026-11-12T19:43:22+00:00,1,,Domain used in phishing scam to collect personal information,phishing
 domain,badvolf.com,high,2026-11-12T15:49:09+00:00,2026-11-12T15:49:09+00:00,1,,Identified as part of the Storm-1516 network operated by Dougan.,influence_operations
-domain,wuxiapingg.ga,high,2026-11-12T15:37:19.851104+00:00,2026-11-12T15:37:19.851104+00:00,1,,"Used as delivery infrastructure and C2 for Cobalt Strike, associated with attacker group LIMINAL PANDA",c2|malware
 domain,pweobmxdlboi.com,high,2026-10-14T15:02:34.120624+00:00,2026-11-12T15:31:58.402260+00:00,2,,Domain used to host and deliver a malicious payload as part of the attack campaign.,malware
 domain,cdn007-digitaldownloads.com,high,2026-11-11T22:56:21+00:00,2026-11-12T14:31:27.691600+00:00,4,,Domain used as a download source for unauthorized ScreenConnect client installations,malware
 domain,ns.mo7sen.dev,high,2026-11-11T22:56:21+00:00,2026-11-12T14:31:27.691600+00:00,6,,Used as a staging endpoint for malware campaign,malware
