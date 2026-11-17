@@ -1,8 +1,26 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason,categories
+ipv4,27.102.66.162,high,2026-11-17T12:04:31+00:00,2026-11-17T12:04:31+00:00,1,Thehackernews:2026-11-17,Configured as a hard-coded C2 server,
+ipv4,103.137.63.39,high,2026-11-17T08:00:43+00:00,2026-11-17T08:00:43+00:00,1,Securelist:2026-11-17,Listed in the Indicators of Compromise section,
+ipv4,103.214.68.20,high,2026-11-17T08:00:43+00:00,2026-11-17T08:00:43+00:00,1,Securelist:2026-11-17,Listed in the Indicators of Compromise section,
+ipv4,103.227.224.189,high,2026-11-17T08:00:43+00:00,2026-11-17T08:00:43+00:00,1,Securelist:2026-11-17,Listed in the Indicators of Compromise section,
+ipv4,122.147.252.16,high,2026-11-17T08:00:43+00:00,2026-11-17T08:00:43+00:00,1,Securelist:2026-11-17,Listed in the Indicators of Compromise section,
+ipv4,154.205.154.209,high,2026-11-17T08:00:43+00:00,2026-11-17T08:00:43+00:00,1,Securelist:2026-11-17,Listed in the Indicators of Compromise section,
+ipv4,216.73.158.117,high,2026-11-17T08:00:43+00:00,2026-11-17T08:00:43+00:00,1,Securelist:2026-11-17,Listed in the Indicators of Compromise section,
+ipv4,216.73.158.72,high,2026-11-17T08:00:43+00:00,2026-11-17T08:00:43+00:00,1,Securelist:2026-11-17,Listed in the Indicators of Compromise section,
+ipv4,38.52.17.113,high,2026-11-17T08:00:43+00:00,2026-11-17T08:00:43+00:00,1,Securelist:2026-11-17,Listed in the Indicators of Compromise section,
+ipv4,38.54.17.113,high,2026-11-17T08:00:43+00:00,2026-11-17T08:00:43+00:00,1,Securelist:2026-11-17,Listed in the Indicators of Compromise section,
+ipv4,5.133.47.243,high,2026-11-16T23:54:03+00:00,2026-11-16T23:54:03+00:00,1,Twitter:2026-11-16,Listed as an exploitation IP by Rapid7,exploit|scanner
+ipv4,193.148.56.72,high,2026-11-16T21:36:35+00:00,2026-11-16T21:36:35+00:00,1,Ccb.Belgium.Be:2026-11-16,Listed as a known malicious IP to block,other
+ipv4,37.221.208.216,high,2026-11-16T21:36:35+00:00,2026-11-16T21:36:35+00:00,1,Ccb.Belgium.Be:2026-11-16,Listed as a known malicious IP to block,other
+ipv4,45.66.35.11,high,2026-11-16T21:36:35+00:00,2026-11-16T21:36:35+00:00,1,Ccb.Belgium.Be:2026-11-16,Listed as a known malicious IP to block,other
+ipv4,64.65.0.120,high,2026-11-16T21:36:35+00:00,2026-11-16T21:36:35+00:00,1,Ccb.Belgium.Be:2026-11-16,Listed as a known malicious IP to block,other
+ipv4,64.65.62.160,high,2026-11-16T21:36:35+00:00,2026-11-16T21:36:35+00:00,1,Ccb.Belgium.Be:2026-11-16,Listed as a known malicious IP to block,other
+ipv4,89.47.51.90,high,2026-11-16T21:36:35+00:00,2026-11-16T21:36:35+00:00,1,Ccb.Belgium.Be:2026-11-16,Listed as a known malicious IP to block,other
 ipv4,103.175.50.32,high,2026-11-16T09:10:15+00:00,2026-11-16T12:01:24.718062+00:00,2,antares-research.com:2026-11-16|Gbhackers:2026-11-16,Listed as a hardcoded C2 IP address in the malware configuration,c2
 ipv4,31.59.184.185,high,2026-11-16T09:10:15+00:00,2026-11-16T12:01:24.718062+00:00,2,antares-research.com:2026-11-16|Gbhackers:2026-11-16,Listed as a hardcoded C2 IP address in the malware configuration,c2
 ipv4,193.3.23.236,high,2026-11-16T06:56:38+00:00,2026-11-16T07:32:50.113918+00:00,2,ics-cert.kaspersky.com:2026-11-16|Thehackernews:2026-11-16,IP address used by attackers to establish VPN connections.,proxy_tunnel
 ipv4,80.76.42.139,high,2026-11-16T06:56:38+00:00,2026-11-16T07:32:50.113918+00:00,2,ics-cert.kaspersky.com:2026-11-16|Thehackernews:2026-11-16,IP address used by attackers to establish VPN connections.,proxy_tunnel
+ipv4,95.81.115.77,high,2026-11-16T07:32:50.113918+00:00,2026-11-16T07:32:50.113918+00:00,1,ics-cert.kaspersky.com:2026-11-16,Used as a C2 server by attackers,c2
 ipv4,180.178.56.10,high,2026-11-16T01:30:43.043128+00:00,2026-11-16T01:30:43.043128+00:00,1,trust.barracuda.com:2026-11-16,Listed in the article as an indicator of compromise potentially associated with the incident.,other
 ipv4,221.146.68.107,high,2026-11-16T01:30:43.043128+00:00,2026-11-16T01:30:43.043128+00:00,1,trust.barracuda.com:2026-11-16,Listed in the article as an indicator of compromise potentially associated with the incident.,other
 ipv4,52.128.238.126,high,2026-11-16T01:30:43.043128+00:00,2026-11-16T01:30:43.043128+00:00,1,trust.barracuda.com:2026-11-16,Listed in the article as an indicator of compromise potentially associated with the incident.,other
@@ -20,7 +38,7 @@ ipv4,156.246.94.183,high,2026-11-09T13:28:25+00:00,2026-11-13T14:03:43+00:00,2,H
 ipv4,87.236.16.216,high,2026-11-13T11:36:23+00:00,2026-11-13T11:36:23+00:00,1,Cyfirma:2026-11-13,Listed as part of attacker infrastructure in a YARA rule.,other
 ipv4,96.45.83.119,high,2026-11-13T11:36:23+00:00,2026-11-13T11:36:23+00:00,1,Cyfirma:2026-11-13,Listed as part of attacker infrastructure in a YARA rule.,other
 ipv4,178.16.54.129,high,2026-11-13T10:54:15.514000+00:00,2026-11-13T10:54:15.514000+00:00,1,Malwaremustdie.Blogspot:2026-11-13,Listed as part of ARTEX servers and C2 infrastructure.,other
-ipv4,207.5.195.93,high,2026-11-13T10:54:15.514000+00:00,2026-11-13T10:54:15.514000+00:00,1,Malwaremustdie.Blogspot:2026-11-13,Listed as part of ARTEX family domains infrastructure.,
+ipv4,207.5.195.93,high,2026-11-13T10:54:15.514000+00:00,2026-11-13T10:54:15.514000+00:00,1,Malwaremustdie.Blogspot:2026-11-13,Listed as part of ARTEX family domains infrastructure.,c2
 ipv4,38.244.50.120,high,2026-11-05T21:38:21+00:00,2026-11-13T10:54:15.514000+00:00,4,Malwaremustdie.Blogspot:2026-11-13|hunt.io:2026-11-07|Securityaffairs:2026-11-07|Censys:2026-11-05,Hosts the ARTEX console as part of the attacker's infrastructure,malware
 ipv4,171.22.131.24,high,2026-11-13T03:41:41+00:00,2026-11-13T03:41:41+00:00,1,Isc.Sans.Edu:2026-11-13,Used for infection traffic in a malware campaign.,malware
 ipv4,45.150.32.130,high,2026-11-13T03:41:41+00:00,2026-11-13T03:41:41+00:00,1,Isc.Sans.Edu:2026-11-13,Used for infection traffic in a malware campaign.,malware

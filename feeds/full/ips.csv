@@ -1,8 +1,16 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason,categories
+ipv4,5.133.47.243,high,2026-11-16T23:54:03+00:00,2026-11-16T23:54:03+00:00,1,,Listed as an exploitation IP by Rapid7,exploit|scanner
+ipv4,193.148.56.72,high,2026-11-16T21:36:35+00:00,2026-11-16T21:36:35+00:00,1,,Listed as a known malicious IP to block,other
+ipv4,37.221.208.216,high,2026-11-16T21:36:35+00:00,2026-11-16T21:36:35+00:00,1,,Listed as a known malicious IP to block,other
+ipv4,45.66.35.11,high,2026-11-16T21:36:35+00:00,2026-11-16T21:36:35+00:00,1,,Listed as a known malicious IP to block,other
+ipv4,64.65.0.120,high,2026-11-16T21:36:35+00:00,2026-11-16T21:36:35+00:00,1,,Listed as a known malicious IP to block,other
+ipv4,64.65.62.160,high,2026-11-16T21:36:35+00:00,2026-11-16T21:36:35+00:00,1,,Listed as a known malicious IP to block,other
+ipv4,89.47.51.90,high,2026-11-16T21:36:35+00:00,2026-11-16T21:36:35+00:00,1,,Listed as a known malicious IP to block,other
 ipv4,103.175.50.32,high,2026-11-16T09:10:15+00:00,2026-11-16T12:01:24.718062+00:00,2,,Listed as a hardcoded C2 IP address in the malware configuration,c2
 ipv4,31.59.184.185,high,2026-11-16T09:10:15+00:00,2026-11-16T12:01:24.718062+00:00,2,,Listed as a hardcoded C2 IP address in the malware configuration,c2
 ipv4,193.3.23.236,high,2026-11-16T06:56:38+00:00,2026-11-16T07:32:50.113918+00:00,2,,IP address used by attackers to establish VPN connections.,proxy_tunnel
 ipv4,80.76.42.139,high,2026-11-16T06:56:38+00:00,2026-11-16T07:32:50.113918+00:00,2,,IP address used by attackers to establish VPN connections.,proxy_tunnel
+ipv4,95.81.115.77,high,2026-11-16T07:32:50.113918+00:00,2026-11-16T07:32:50.113918+00:00,1,,Used as a C2 server by attackers,c2
 ipv4,180.178.56.10,high,2026-11-16T01:30:43.043128+00:00,2026-11-16T01:30:43.043128+00:00,1,,Listed in the article as an indicator of compromise potentially associated with the incident.,other
 ipv4,221.146.68.107,high,2026-11-16T01:30:43.043128+00:00,2026-11-16T01:30:43.043128+00:00,1,,Listed in the article as an indicator of compromise potentially associated with the incident.,other
 ipv4,52.128.238.126,high,2026-11-16T01:30:43.043128+00:00,2026-11-16T01:30:43.043128+00:00,1,,Listed in the article as an indicator of compromise potentially associated with the incident.,other
@@ -19,7 +27,9 @@ ipv4,91.218.183.174,high,2026-11-13T17:04:34+00:00,2026-11-13T17:04:34+00:00,1,,
 ipv4,156.246.94.183,high,2026-11-09T13:28:25+00:00,2026-11-13T14:03:43+00:00,2,,IP address associated with attacker-controlled domain and used for malicious activity,other
 ipv4,87.236.16.216,high,2026-11-13T11:36:23+00:00,2026-11-13T11:36:23+00:00,1,,Listed as part of attacker infrastructure in a YARA rule.,other
 ipv4,96.45.83.119,high,2026-11-13T11:36:23+00:00,2026-11-13T11:36:23+00:00,1,,Listed as part of attacker infrastructure in a YARA rule.,other
-ipv4,178.16.54.129,high,2026-11-13T10:54:15.514000+00:00,2026-11-13T10:54:15.514000+00:00,1,,Listed as part of attacker infrastructure.,other
+ipv4,178.16.54.129,high,2026-11-13T10:54:15.514000+00:00,2026-11-13T10:54:15.514000+00:00,1,,Listed as part of ARTEX servers and C2 infrastructure.,other
+ipv4,207.5.195.93,high,2026-11-13T10:54:15.514000+00:00,2026-11-13T10:54:15.514000+00:00,1,,Listed as part of ARTEX family domains infrastructure.,c2
+ipv4,38.244.50.120,high,2026-10-07T05:00:00+00:00,2026-11-13T10:54:15.514000+00:00,5,,"Used as a host for ARTEX operations, indicating attacker control.",malware
 ipv4,171.22.131.24,high,2026-11-13T03:41:41+00:00,2026-11-13T03:41:41+00:00,1,,Used for infection traffic in a malware campaign.,malware
 ipv4,45.150.32.130,high,2026-11-13T03:41:41+00:00,2026-11-13T03:41:41+00:00,1,,Used for infection traffic in a malware campaign.,malware
 ipv4,89.125.213.123,high,2026-11-11T16:42:15.716050+00:00,2026-11-13T00:38:10.803831+00:00,1,,Exposed Debian VPS used by attackers for phishing operations.,phishing
@@ -57,7 +67,6 @@ ipv4,38.207.176.218,high,2026-11-09T06:02:06+00:00,2026-11-09T06:02:06+00:00,1,,
 ipv4,154.201.79.246,high,2026-10-08T12:54:13+00:00,2026-11-07T20:35:53.378549+00:00,3,,Proxy service used in the attacker's infrastructure,proxy_tunnel
 ipv4,156.251.11.39,high,2026-11-07T20:00:02+00:00,2026-11-07T20:35:53.378549+00:00,2,,Hosts ARTEX panel and malicious open directories,malware
 ipv4,23.248.226.250,high,2026-11-07T20:00:02+00:00,2026-11-07T20:35:53.378549+00:00,2,,Acts as a jump server in the attacker's infrastructure,other
-ipv4,38.244.50.120,high,2026-10-07T05:00:00+00:00,2026-11-07T20:35:53.378549+00:00,4,,Hosts the ARTEX console as part of the attacker's infrastructure,malware
 ipv4,130.94.31.86,high,2026-11-07T20:00:02+00:00,2026-11-07T20:00:02+00:00,1,,Hosts exploitation kits and malicious scripts,exploit
 ipv4,154.222.16.220,high,2026-11-07T19:51:55+00:00,2026-11-07T19:51:55+00:00,1,,Listed as an iPhone exploit server controlled by attackers.,exploit
 ipv4,103.59.160.171,high,2026-11-05T15:58:24+00:00,2026-11-06T14:47:10+00:00,2,,Listed in Wordfence's report as an indicator of compromise,scanner

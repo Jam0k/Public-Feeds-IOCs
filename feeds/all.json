@@ -1,7 +1,7 @@
 {
   "feed": "threatcluster-public-iocs",
   "version": 1,
-  "generated_at": "2026-11-16T15:41:37Z",
+  "generated_at": "2026-11-17T15:57:16Z",
   "filters": {
     "confidence": "high",
     "window_days": 30,
@@ -11,8 +11,1654 @@
       "domain"
     ]
   },
-  "count": 933,
+  "count": 977,
   "iocs": [
+    {
+      "type": "domain",
+      "value": "5vobauua3ojpklx.icu",
+      "confidence": "high",
+      "reason": "Domain used for iOS exploit delivery, identified as attacker-controlled",
+      "first_seen": "2026-11-17T02:12:41+00:00",
+      "last_seen": "2026-11-17T15:01:53.604417+00:00",
+      "source_count": 5,
+      "sources": [
+        {
+          "source": "blog.report-uri.com",
+          "url": "https://blog.report-uri.com/worlds-largest-brands-infected-with-malware-via-optimizely/",
+          "pub_date": "2026-11-17T15:01:53.604417+00:00"
+        },
+        {
+          "source": "www.stepsecurity.io",
+          "url": "https://www.stepsecurity.io/blog/optimjack-optimizely-hosted-scripts-crypto-clipper-card-skimmer",
+          "pub_date": "2026-11-17T14:00:46.952499+00:00"
+        },
+        {
+          "source": "www.infostealers.com",
+          "url": "https://www.infostealers.com/article/poisoned-scripts-on-bbc-zoom-and-other-major-websites-linked-to-iphone-exploit-loaders/",
+          "pub_date": "2026-11-17T12:03:27.176809+00:00"
+        },
+        {
+          "source": "Thehackernews",
+          "url": "https://thehackernews.com/2026/11/hijacked-optimizely-scripts-served-card.html",
+          "pub_date": "2026-11-17T07:17:57+00:00"
+        },
+        {
+          "source": "Cyberkendra",
+          "url": "https://www.cyberkendra.com/2026/11/optimizely-malware-hits-zoom-bbc-cnn-what-to-do.html",
+          "pub_date": "2026-11-17T02:12:41+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "Coruna"
+        },
+        {
+          "type": "malware",
+          "value": "DarkSword"
+        },
+        {
+          "type": "campaign",
+          "value": "Optimjack"
+        },
+        {
+          "type": "industry",
+          "value": "Airlines & Travel"
+        }
+      ],
+      "categories": [
+        "malware"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "webshell.lol",
+      "confidence": "high",
+      "reason": "Domain used as injector in the attack, identified as attacker-controlled",
+      "first_seen": "2026-11-17T02:12:41+00:00",
+      "last_seen": "2026-11-17T15:01:53.604417+00:00",
+      "source_count": 6,
+      "sources": [
+        {
+          "source": "blog.report-uri.com",
+          "url": "https://blog.report-uri.com/worlds-largest-brands-infected-with-malware-via-optimizely/",
+          "pub_date": "2026-11-17T15:01:53.604417+00:00"
+        },
+        {
+          "source": "www.infostealers.com",
+          "url": "https://www.infostealers.com/article/poisoned-scripts-on-bbc-zoom-and-other-major-websites-linked-to-iphone-exploit-loaders/",
+          "pub_date": "2026-11-17T12:03:27.176809+00:00"
+        },
+        {
+          "source": "mallory.ai",
+          "url": "https://mallory.ai/stories/01a1e667-4cf7-75e6-8063-2e293c9b61a1",
+          "pub_date": "2026-11-17T12:03:21.808647+00:00"
+        },
+        {
+          "source": "Securityaffairs.Co",
+          "url": "https://securityaffairs.com/203289/malware/optimjack-bbc-cnn-and-zoom-among-targets-of-optimizely-script-hijacking.html",
+          "pub_date": "2026-11-17T09:38:44+00:00"
+        },
+        {
+          "source": "Thehackernews",
+          "url": "https://thehackernews.com/2026/11/hijacked-optimizely-scripts-served-card.html",
+          "pub_date": "2026-11-17T07:17:57+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "Coruna"
+        },
+        {
+          "type": "malware",
+          "value": "DarkSword"
+        },
+        {
+          "type": "campaign",
+          "value": "Optimjack"
+        },
+        {
+          "type": "campaign",
+          "value": "Optimizely Supply Chain Attack"
+        }
+      ],
+      "categories": [
+        "malware"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "1688360.cc",
+      "confidence": "high",
+      "reason": "Domain used to send captured card details, identified as attacker-controlled",
+      "first_seen": "2026-11-17T14:00:46.952499+00:00",
+      "last_seen": "2026-11-17T14:00:46.952499+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.stepsecurity.io",
+          "url": "https://www.stepsecurity.io/blog/optimjack-optimizely-hosted-scripts-crypto-clipper-card-skimmer",
+          "pub_date": "2026-11-17T14:00:46.952499+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Optimjack"
+        },
+        {
+          "type": "malware",
+          "value": "Coruna"
+        },
+        {
+          "type": "malware",
+          "value": "DarkSword"
+        }
+      ],
+      "categories": [],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "1y69gy2mdzaltz1.icu",
+      "confidence": "high",
+      "reason": "Domain registered and used by attackers as part of the campaign",
+      "first_seen": "2026-11-17T14:00:46.952499+00:00",
+      "last_seen": "2026-11-17T14:00:46.952499+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.stepsecurity.io",
+          "url": "https://www.stepsecurity.io/blog/optimjack-optimizely-hosted-scripts-crypto-clipper-card-skimmer",
+          "pub_date": "2026-11-17T14:00:46.952499+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Optimjack"
+        },
+        {
+          "type": "malware",
+          "value": "Coruna"
+        },
+        {
+          "type": "malware",
+          "value": "DarkSword"
+        }
+      ],
+      "categories": [
+        "malware"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "eil786npto9u5bq.icu",
+      "confidence": "high",
+      "reason": "Domain used for iOS exploit delivery, identified as attacker-controlled",
+      "first_seen": "2026-11-17T02:12:41+00:00",
+      "last_seen": "2026-11-17T14:00:46.952499+00:00",
+      "source_count": 4,
+      "sources": [
+        {
+          "source": "www.stepsecurity.io",
+          "url": "https://www.stepsecurity.io/blog/optimjack-optimizely-hosted-scripts-crypto-clipper-card-skimmer",
+          "pub_date": "2026-11-17T14:00:46.952499+00:00"
+        },
+        {
+          "source": "www.infostealers.com",
+          "url": "https://www.infostealers.com/article/poisoned-scripts-on-bbc-zoom-and-other-major-websites-linked-to-iphone-exploit-loaders/",
+          "pub_date": "2026-11-17T12:03:27.176809+00:00"
+        },
+        {
+          "source": "Thehackernews",
+          "url": "https://thehackernews.com/2026/11/hijacked-optimizely-scripts-served-card.html",
+          "pub_date": "2026-11-17T07:17:57+00:00"
+        },
+        {
+          "source": "Cyberkendra",
+          "url": "https://www.cyberkendra.com/2026/11/optimizely-malware-hits-zoom-bbc-cnn-what-to-do.html",
+          "pub_date": "2026-11-17T02:12:41+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Optimjack"
+        },
+        {
+          "type": "malware",
+          "value": "Coruna"
+        },
+        {
+          "type": "malware",
+          "value": "DarkSword"
+        },
+        {
+          "type": "industry",
+          "value": "Banking"
+        }
+      ],
+      "categories": [
+        "malware"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "gm38duxoihbmy5o.icu",
+      "confidence": "high",
+      "reason": "Domain registered and used by attackers as part of the campaign",
+      "first_seen": "2026-11-17T14:00:46.952499+00:00",
+      "last_seen": "2026-11-17T14:00:46.952499+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.stepsecurity.io",
+          "url": "https://www.stepsecurity.io/blog/optimjack-optimizely-hosted-scripts-crypto-clipper-card-skimmer",
+          "pub_date": "2026-11-17T14:00:46.952499+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Optimjack"
+        },
+        {
+          "type": "malware",
+          "value": "Coruna"
+        },
+        {
+          "type": "malware",
+          "value": "DarkSword"
+        }
+      ],
+      "categories": [
+        "malware"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "l7bcsnwc7nzr3uo.icu",
+      "confidence": "high",
+      "reason": "Domain registered and used by attackers as part of the campaign",
+      "first_seen": "2026-11-17T12:03:27.176809+00:00",
+      "last_seen": "2026-11-17T14:00:46.952499+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "www.stepsecurity.io",
+          "url": "https://www.stepsecurity.io/blog/optimjack-optimizely-hosted-scripts-crypto-clipper-card-skimmer",
+          "pub_date": "2026-11-17T14:00:46.952499+00:00"
+        },
+        {
+          "source": "www.infostealers.com",
+          "url": "https://www.infostealers.com/article/poisoned-scripts-on-bbc-zoom-and-other-major-websites-linked-to-iphone-exploit-loaders/",
+          "pub_date": "2026-11-17T12:03:27.176809+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Optimjack"
+        },
+        {
+          "type": "industry",
+          "value": "Banking"
+        },
+        {
+          "type": "industry",
+          "value": "Business Services"
+        },
+        {
+          "type": "industry",
+          "value": "Communications"
+        }
+      ],
+      "categories": [
+        "malware"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "p55abnw2pnsz0bo.icu",
+      "confidence": "high",
+      "reason": "Domain registered and used by attackers as part of the campaign",
+      "first_seen": "2026-11-17T14:00:46.952499+00:00",
+      "last_seen": "2026-11-17T14:00:46.952499+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.stepsecurity.io",
+          "url": "https://www.stepsecurity.io/blog/optimjack-optimizely-hosted-scripts-crypto-clipper-card-skimmer",
+          "pub_date": "2026-11-17T14:00:46.952499+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Optimjack"
+        },
+        {
+          "type": "malware",
+          "value": "Coruna"
+        },
+        {
+          "type": "malware",
+          "value": "DarkSword"
+        }
+      ],
+      "categories": [
+        "malware"
+      ],
+      "basis": null
+    },
+    {
+      "type": "ipv4",
+      "value": "27.102.66.162",
+      "confidence": "high",
+      "reason": "Configured as a hard-coded C2 server",
+      "first_seen": "2026-11-17T12:04:31+00:00",
+      "last_seen": "2026-11-17T12:04:31+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Thehackernews",
+          "url": "https://thehackernews.com/2026/11/new-gitdoor-and-graphdoor-backdoors.html",
+          "pub_date": "2026-11-17T12:04:31+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Bronze Sandcastle"
+        },
+        {
+          "type": "apt_group",
+          "value": "FamousSparrow"
+        },
+        {
+          "type": "campaign",
+          "value": "Operation ShadowCloud"
+        },
+        {
+          "type": "industry",
+          "value": "Government"
+        }
+      ],
+      "categories": [],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "ios-hack.icu",
+      "confidence": "high",
+      "reason": "Domain used in iOS exploit infrastructure, identified as attacker-controlled",
+      "first_seen": "2026-11-17T12:03:27.176809+00:00",
+      "last_seen": "2026-11-17T12:03:27.176809+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.infostealers.com",
+          "url": "https://www.infostealers.com/article/poisoned-scripts-on-bbc-zoom-and-other-major-websites-linked-to-iphone-exploit-loaders/",
+          "pub_date": "2026-11-17T12:03:27.176809+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "industry",
+          "value": "Banking"
+        },
+        {
+          "type": "industry",
+          "value": "Business Services"
+        },
+        {
+          "type": "industry",
+          "value": "Communications"
+        },
+        {
+          "type": "industry",
+          "value": "News"
+        }
+      ],
+      "categories": [
+        "malware"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "runner.ec",
+      "confidence": "high",
+      "reason": "Malware delivery domain associated with modified Spark RAT",
+      "first_seen": "2026-11-17T10:01:57.969991+00:00",
+      "last_seen": "2026-11-17T10:01:57.969991+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.welivesecurity.com",
+          "url": "https://www.welivesecurity.com/en/eset-research/you-will-always-remember-this-as-the-day-you-finally-caught-famoussparrow/",
+          "pub_date": "2026-11-17T10:01:57.969991+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Earth Estries"
+        },
+        {
+          "type": "apt_group",
+          "value": "FamousSparrow"
+        },
+        {
+          "type": "apt_group",
+          "value": "GhostEmperor"
+        },
+        {
+          "type": "apt_group",
+          "value": "Salt Typhoon"
+        }
+      ],
+      "categories": [
+        "malware"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "runner.lk",
+      "confidence": "high",
+      "reason": "Loader for modular SparrowDoor",
+      "first_seen": "2026-11-17T10:01:57.969991+00:00",
+      "last_seen": "2026-11-17T10:01:57.969991+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.welivesecurity.com",
+          "url": "https://www.welivesecurity.com/en/eset-research/you-will-always-remember-this-as-the-day-you-finally-caught-famoussparrow/",
+          "pub_date": "2026-11-17T10:01:57.969991+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Earth Estries"
+        },
+        {
+          "type": "apt_group",
+          "value": "FamousSparrow"
+        },
+        {
+          "type": "apt_group",
+          "value": "GhostEmperor"
+        },
+        {
+          "type": "apt_group",
+          "value": "Salt Typhoon"
+        }
+      ],
+      "categories": [
+        "malware"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "webshell.se",
+      "confidence": "high",
+      "reason": "Webshell associated with FamousSparrow",
+      "first_seen": "2026-11-17T10:01:57.969991+00:00",
+      "last_seen": "2026-11-17T10:01:57.969991+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.welivesecurity.com",
+          "url": "https://www.welivesecurity.com/en/eset-research/you-will-always-remember-this-as-the-day-you-finally-caught-famoussparrow/",
+          "pub_date": "2026-11-17T10:01:57.969991+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Earth Estries"
+        },
+        {
+          "type": "apt_group",
+          "value": "FamousSparrow"
+        },
+        {
+          "type": "apt_group",
+          "value": "GhostEmperor"
+        },
+        {
+          "type": "apt_group",
+          "value": "Salt Typhoon"
+        }
+      ],
+      "categories": [
+        "malware"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "ekmt.tw",
+      "confidence": "high",
+      "reason": "Used as a Cobalt Strike beacon C2 server",
+      "first_seen": "2026-11-17T08:00:43+00:00",
+      "last_seen": "2026-11-17T08:00:43+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Securelist",
+          "url": "https://securelist.com/operation-shadowcloud-graphdoor/122005/",
+          "pub_date": "2026-11-17T08:00:43+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "ShadowCloud"
+        },
+        {
+          "type": "malware",
+          "value": "GitDoor"
+        },
+        {
+          "type": "malware",
+          "value": "GraphDoor"
+        }
+      ],
+      "categories": [],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "ms.twnic.top",
+      "confidence": "high",
+      "reason": "Used as a Cobalt Strike beacon C2 server",
+      "first_seen": "2026-11-17T08:00:43+00:00",
+      "last_seen": "2026-11-17T08:00:43+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Securelist",
+          "url": "https://securelist.com/operation-shadowcloud-graphdoor/122005/",
+          "pub_date": "2026-11-17T08:00:43+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "ShadowCloud"
+        },
+        {
+          "type": "malware",
+          "value": "GitDoor"
+        },
+        {
+          "type": "malware",
+          "value": "GraphDoor"
+        }
+      ],
+      "categories": [],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "twnic.top",
+      "confidence": "high",
+      "reason": "Used as a Cobalt Strike beacon C2 server",
+      "first_seen": "2026-11-17T08:00:43+00:00",
+      "last_seen": "2026-11-17T08:00:43+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Securelist",
+          "url": "https://securelist.com/operation-shadowcloud-graphdoor/122005/",
+          "pub_date": "2026-11-17T08:00:43+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "ShadowCloud"
+        },
+        {
+          "type": "malware",
+          "value": "GitDoor"
+        },
+        {
+          "type": "malware",
+          "value": "GraphDoor"
+        }
+      ],
+      "categories": [],
+      "basis": null
+    },
+    {
+      "type": "ipv4",
+      "value": "103.137.63.39",
+      "confidence": "high",
+      "reason": "Listed in the Indicators of Compromise section",
+      "first_seen": "2026-11-17T08:00:43+00:00",
+      "last_seen": "2026-11-17T08:00:43+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Securelist",
+          "url": "https://securelist.com/operation-shadowcloud-graphdoor/122005/",
+          "pub_date": "2026-11-17T08:00:43+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "ShadowCloud"
+        },
+        {
+          "type": "malware",
+          "value": "GitDoor"
+        },
+        {
+          "type": "malware",
+          "value": "GraphDoor"
+        }
+      ],
+      "categories": [],
+      "basis": null
+    },
+    {
+      "type": "ipv4",
+      "value": "103.214.68.20",
+      "confidence": "high",
+      "reason": "Listed in the Indicators of Compromise section",
+      "first_seen": "2026-11-17T08:00:43+00:00",
+      "last_seen": "2026-11-17T08:00:43+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Securelist",
+          "url": "https://securelist.com/operation-shadowcloud-graphdoor/122005/",
+          "pub_date": "2026-11-17T08:00:43+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "ShadowCloud"
+        },
+        {
+          "type": "malware",
+          "value": "GitDoor"
+        },
+        {
+          "type": "malware",
+          "value": "GraphDoor"
+        }
+      ],
+      "categories": [],
+      "basis": null
+    },
+    {
+      "type": "ipv4",
+      "value": "103.227.224.189",
+      "confidence": "high",
+      "reason": "Listed in the Indicators of Compromise section",
+      "first_seen": "2026-11-17T08:00:43+00:00",
+      "last_seen": "2026-11-17T08:00:43+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Securelist",
+          "url": "https://securelist.com/operation-shadowcloud-graphdoor/122005/",
+          "pub_date": "2026-11-17T08:00:43+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "ShadowCloud"
+        },
+        {
+          "type": "malware",
+          "value": "GitDoor"
+        },
+        {
+          "type": "malware",
+          "value": "GraphDoor"
+        }
+      ],
+      "categories": [],
+      "basis": null
+    },
+    {
+      "type": "ipv4",
+      "value": "122.147.252.16",
+      "confidence": "high",
+      "reason": "Listed in the Indicators of Compromise section",
+      "first_seen": "2026-11-17T08:00:43+00:00",
+      "last_seen": "2026-11-17T08:00:43+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Securelist",
+          "url": "https://securelist.com/operation-shadowcloud-graphdoor/122005/",
+          "pub_date": "2026-11-17T08:00:43+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "ShadowCloud"
+        },
+        {
+          "type": "malware",
+          "value": "GitDoor"
+        },
+        {
+          "type": "malware",
+          "value": "GraphDoor"
+        }
+      ],
+      "categories": [],
+      "basis": null
+    },
+    {
+      "type": "ipv4",
+      "value": "154.205.154.209",
+      "confidence": "high",
+      "reason": "Listed in the Indicators of Compromise section",
+      "first_seen": "2026-11-17T08:00:43+00:00",
+      "last_seen": "2026-11-17T08:00:43+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Securelist",
+          "url": "https://securelist.com/operation-shadowcloud-graphdoor/122005/",
+          "pub_date": "2026-11-17T08:00:43+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "ShadowCloud"
+        },
+        {
+          "type": "malware",
+          "value": "GitDoor"
+        },
+        {
+          "type": "malware",
+          "value": "GraphDoor"
+        }
+      ],
+      "categories": [],
+      "basis": null
+    },
+    {
+      "type": "ipv4",
+      "value": "216.73.158.117",
+      "confidence": "high",
+      "reason": "Listed in the Indicators of Compromise section",
+      "first_seen": "2026-11-17T08:00:43+00:00",
+      "last_seen": "2026-11-17T08:00:43+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Securelist",
+          "url": "https://securelist.com/operation-shadowcloud-graphdoor/122005/",
+          "pub_date": "2026-11-17T08:00:43+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "ShadowCloud"
+        },
+        {
+          "type": "malware",
+          "value": "GitDoor"
+        },
+        {
+          "type": "malware",
+          "value": "GraphDoor"
+        }
+      ],
+      "categories": [],
+      "basis": null
+    },
+    {
+      "type": "ipv4",
+      "value": "216.73.158.72",
+      "confidence": "high",
+      "reason": "Listed in the Indicators of Compromise section",
+      "first_seen": "2026-11-17T08:00:43+00:00",
+      "last_seen": "2026-11-17T08:00:43+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Securelist",
+          "url": "https://securelist.com/operation-shadowcloud-graphdoor/122005/",
+          "pub_date": "2026-11-17T08:00:43+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "ShadowCloud"
+        },
+        {
+          "type": "malware",
+          "value": "GitDoor"
+        },
+        {
+          "type": "malware",
+          "value": "GraphDoor"
+        }
+      ],
+      "categories": [],
+      "basis": null
+    },
+    {
+      "type": "ipv4",
+      "value": "38.52.17.113",
+      "confidence": "high",
+      "reason": "Listed in the Indicators of Compromise section",
+      "first_seen": "2026-11-17T08:00:43+00:00",
+      "last_seen": "2026-11-17T08:00:43+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Securelist",
+          "url": "https://securelist.com/operation-shadowcloud-graphdoor/122005/",
+          "pub_date": "2026-11-17T08:00:43+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "ShadowCloud"
+        },
+        {
+          "type": "malware",
+          "value": "GitDoor"
+        },
+        {
+          "type": "malware",
+          "value": "GraphDoor"
+        }
+      ],
+      "categories": [],
+      "basis": null
+    },
+    {
+      "type": "ipv4",
+      "value": "38.54.17.113",
+      "confidence": "high",
+      "reason": "Listed in the Indicators of Compromise section",
+      "first_seen": "2026-11-17T08:00:43+00:00",
+      "last_seen": "2026-11-17T08:00:43+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Securelist",
+          "url": "https://securelist.com/operation-shadowcloud-graphdoor/122005/",
+          "pub_date": "2026-11-17T08:00:43+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "ShadowCloud"
+        },
+        {
+          "type": "malware",
+          "value": "GitDoor"
+        },
+        {
+          "type": "malware",
+          "value": "GraphDoor"
+        }
+      ],
+      "categories": [],
+      "basis": null
+    },
+    {
+      "type": "ipv4",
+      "value": "5.133.47.243",
+      "confidence": "high",
+      "reason": "Listed as an exploitation IP by Rapid7",
+      "first_seen": "2026-11-16T23:54:03+00:00",
+      "last_seen": "2026-11-16T23:54:03+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Twitter",
+          "url": "https://twitter.com/censysio/status/2122447661236154797",
+          "pub_date": "2026-11-16T23:54:03+00:00"
+        }
+      ],
+      "tags": [],
+      "categories": [
+        "exploit",
+        "scanner"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "cashcoma.cooljz.com",
+      "confidence": "high",
+      "reason": "Used in a phishing email as a sender address",
+      "first_seen": "2026-11-16T21:38:27+00:00",
+      "last_seen": "2026-11-16T21:38:27+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Foxnews",
+          "url": "https://www.foxnews.com/tech/fake-ezpass-email-threatens-100-fine-unpaid-toll",
+          "pub_date": "2026-11-16T21:38:27+00:00"
+        }
+      ],
+      "tags": [],
+      "categories": [
+        "phishing"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "ezpassviolations.com",
+      "confidence": "high",
+      "reason": "Domain used in phishing email impersonating E-ZPass.",
+      "first_seen": "2026-11-16T21:38:27+00:00",
+      "last_seen": "2026-11-16T21:38:27+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Foxnews",
+          "url": "https://www.foxnews.com/tech/fake-ezpass-email-threatens-100-fine-unpaid-toll",
+          "pub_date": "2026-11-16T21:38:27+00:00"
+        }
+      ],
+      "tags": [],
+      "categories": [
+        "phishing"
+      ],
+      "basis": null
+    },
+    {
+      "type": "ipv4",
+      "value": "193.148.56.72",
+      "confidence": "high",
+      "reason": "Listed as a known malicious IP to block",
+      "first_seen": "2026-11-16T21:36:35+00:00",
+      "last_seen": "2026-11-16T21:36:35+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Ccb.Belgium.Be",
+          "url": "https://ccb.belgium.be/advisories/warning-critical-authentication-bypass-vulnerability-xen-orchestra-patch-immediately",
+          "pub_date": "2026-11-16T21:36:35+00:00"
+        }
+      ],
+      "tags": [],
+      "categories": [
+        "other"
+      ],
+      "basis": null
+    },
+    {
+      "type": "ipv4",
+      "value": "37.221.208.216",
+      "confidence": "high",
+      "reason": "Listed as a known malicious IP to block",
+      "first_seen": "2026-11-16T21:36:35+00:00",
+      "last_seen": "2026-11-16T21:36:35+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Ccb.Belgium.Be",
+          "url": "https://ccb.belgium.be/advisories/warning-critical-authentication-bypass-vulnerability-xen-orchestra-patch-immediately",
+          "pub_date": "2026-11-16T21:36:35+00:00"
+        }
+      ],
+      "tags": [],
+      "categories": [
+        "other"
+      ],
+      "basis": null
+    },
+    {
+      "type": "ipv4",
+      "value": "45.66.35.11",
+      "confidence": "high",
+      "reason": "Listed as a known malicious IP to block",
+      "first_seen": "2026-11-16T21:36:35+00:00",
+      "last_seen": "2026-11-16T21:36:35+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Ccb.Belgium.Be",
+          "url": "https://ccb.belgium.be/advisories/warning-critical-authentication-bypass-vulnerability-xen-orchestra-patch-immediately",
+          "pub_date": "2026-11-16T21:36:35+00:00"
+        }
+      ],
+      "tags": [],
+      "categories": [
+        "other"
+      ],
+      "basis": null
+    },
+    {
+      "type": "ipv4",
+      "value": "64.65.0.120",
+      "confidence": "high",
+      "reason": "Listed as a known malicious IP to block",
+      "first_seen": "2026-11-16T21:36:35+00:00",
+      "last_seen": "2026-11-16T21:36:35+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Ccb.Belgium.Be",
+          "url": "https://ccb.belgium.be/advisories/warning-critical-authentication-bypass-vulnerability-xen-orchestra-patch-immediately",
+          "pub_date": "2026-11-16T21:36:35+00:00"
+        }
+      ],
+      "tags": [],
+      "categories": [
+        "other"
+      ],
+      "basis": null
+    },
+    {
+      "type": "ipv4",
+      "value": "64.65.62.160",
+      "confidence": "high",
+      "reason": "Listed as a known malicious IP to block",
+      "first_seen": "2026-11-16T21:36:35+00:00",
+      "last_seen": "2026-11-16T21:36:35+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Ccb.Belgium.Be",
+          "url": "https://ccb.belgium.be/advisories/warning-critical-authentication-bypass-vulnerability-xen-orchestra-patch-immediately",
+          "pub_date": "2026-11-16T21:36:35+00:00"
+        }
+      ],
+      "tags": [],
+      "categories": [
+        "other"
+      ],
+      "basis": null
+    },
+    {
+      "type": "ipv4",
+      "value": "89.47.51.90",
+      "confidence": "high",
+      "reason": "Listed as a known malicious IP to block",
+      "first_seen": "2026-11-16T21:36:35+00:00",
+      "last_seen": "2026-11-16T21:36:35+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Ccb.Belgium.Be",
+          "url": "https://ccb.belgium.be/advisories/warning-critical-authentication-bypass-vulnerability-xen-orchestra-patch-immediately",
+          "pub_date": "2026-11-16T21:36:35+00:00"
+        }
+      ],
+      "tags": [],
+      "categories": [
+        "other"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "masterdarky.com",
+      "confidence": "high",
+      "reason": "Domain used to download malicious payloads in an attack chain.",
+      "first_seen": "2026-11-16T17:24:05+00:00",
+      "last_seen": "2026-11-16T17:24:05+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Huntress",
+          "url": "https://www.huntress.com/blog/cve-2026-84869-screenconnect-technician-exploitation",
+          "pub_date": "2026-11-16T17:24:05+00:00"
+        }
+      ],
+      "tags": [],
+      "categories": [
+        "malware"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "amazon-refund.cc",
+      "confidence": "high",
+      "reason": "Fake Amazon sign-in page for phishing",
+      "first_seen": "2026-11-16T15:30:23+00:00",
+      "last_seen": "2026-11-16T15:30:23+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Blog.Checkpoint",
+          "url": "https://blog.checkpoint.com/corporate/black-friday-cyber-crime-2026-attacks-on-retailers-surge-28-as-risky-domains-multiply/",
+          "pub_date": "2026-11-16T15:30:23+00:00"
+        }
+      ],
+      "tags": [],
+      "categories": [
+        "phishing"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "amazonshopping1.com",
+      "confidence": "high",
+      "reason": "Identified as an Amazon phishing website",
+      "first_seen": "2026-11-16T15:30:23+00:00",
+      "last_seen": "2026-11-16T15:30:23+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Blog.Checkpoint",
+          "url": "https://blog.checkpoint.com/corporate/black-friday-cyber-crime-2026-attacks-on-retailers-surge-28-as-risky-domains-multiply/",
+          "pub_date": "2026-11-16T15:30:23+00:00"
+        }
+      ],
+      "tags": [],
+      "categories": [
+        "phishing"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "dhlhelp.com",
+      "confidence": "high",
+      "reason": "Registered domain using DHL branding, identified as risky and potentially used for phishing.",
+      "first_seen": "2026-11-16T15:30:23+00:00",
+      "last_seen": "2026-11-16T15:30:23+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Blog.Checkpoint",
+          "url": "https://blog.checkpoint.com/corporate/black-friday-cyber-crime-2026-attacks-on-retailers-surge-28-as-risky-domains-multiply/",
+          "pub_date": "2026-11-16T15:30:23+00:00"
+        }
+      ],
+      "tags": [],
+      "categories": [
+        "other"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "dhl.hvwql-ie.org",
+      "confidence": "high",
+      "reason": "Phishing website impersonating DHL to collect personal information.",
+      "first_seen": "2026-11-16T15:30:23+00:00",
+      "last_seen": "2026-11-16T15:30:23+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Blog.Checkpoint",
+          "url": "https://blog.checkpoint.com/corporate/black-friday-cyber-crime-2026-attacks-on-retailers-surge-28-as-risky-domains-multiply/",
+          "pub_date": "2026-11-16T15:30:23+00:00"
+        }
+      ],
+      "tags": [],
+      "categories": [
+        "phishing"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "dhlparcel-support.com",
+      "confidence": "high",
+      "reason": "Phishing website using fake CAPTCHA to collect credentials.",
+      "first_seen": "2026-11-16T15:30:23+00:00",
+      "last_seen": "2026-11-16T15:30:23+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Blog.Checkpoint",
+          "url": "https://blog.checkpoint.com/corporate/black-friday-cyber-crime-2026-attacks-on-retailers-surge-28-as-risky-domains-multiply/",
+          "pub_date": "2026-11-16T15:30:23+00:00"
+        }
+      ],
+      "tags": [],
+      "categories": [
+        "phishing"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "fedexac.com",
+      "confidence": "high",
+      "reason": "Domain registered as part of a pattern to impersonate FedEx for phishing.",
+      "first_seen": "2026-11-16T15:30:23+00:00",
+      "last_seen": "2026-11-16T15:30:23+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Blog.Checkpoint",
+          "url": "https://blog.checkpoint.com/corporate/black-friday-cyber-crime-2026-attacks-on-retailers-surge-28-as-risky-domains-multiply/",
+          "pub_date": "2026-11-16T15:30:23+00:00"
+        }
+      ],
+      "tags": [],
+      "categories": [
+        "phishing"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "fedexbeta.com",
+      "confidence": "high",
+      "reason": "Domain registered as part of a pattern to impersonate FedEx for phishing.",
+      "first_seen": "2026-11-16T15:30:23+00:00",
+      "last_seen": "2026-11-16T15:30:23+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Blog.Checkpoint",
+          "url": "https://blog.checkpoint.com/corporate/black-friday-cyber-crime-2026-attacks-on-retailers-surge-28-as-risky-domains-multiply/",
+          "pub_date": "2026-11-16T15:30:23+00:00"
+        }
+      ],
+      "tags": [],
+      "categories": [
+        "phishing"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "fedexde.com",
+      "confidence": "high",
+      "reason": "Domain registered as part of a pattern to impersonate FedEx for phishing.",
+      "first_seen": "2026-11-16T15:30:23+00:00",
+      "last_seen": "2026-11-16T15:30:23+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Blog.Checkpoint",
+          "url": "https://blog.checkpoint.com/corporate/black-friday-cyber-crime-2026-attacks-on-retailers-surge-28-as-risky-domains-multiply/",
+          "pub_date": "2026-11-16T15:30:23+00:00"
+        }
+      ],
+      "tags": [],
+      "categories": [
+        "phishing"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "fedexkkt.com",
+      "confidence": "high",
+      "reason": "Domain registered as part of a pattern to impersonate FedEx for phishing.",
+      "first_seen": "2026-11-16T15:30:23+00:00",
+      "last_seen": "2026-11-16T15:30:23+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Blog.Checkpoint",
+          "url": "https://blog.checkpoint.com/corporate/black-friday-cyber-crime-2026-attacks-on-retailers-surge-28-as-risky-domains-multiply/",
+          "pub_date": "2026-11-16T15:30:23+00:00"
+        }
+      ],
+      "tags": [],
+      "categories": [
+        "phishing"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "fedexla.com",
+      "confidence": "high",
+      "reason": "Domain registered as part of a pattern to impersonate FedEx for phishing.",
+      "first_seen": "2026-11-16T15:30:23+00:00",
+      "last_seen": "2026-11-16T15:30:23+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Blog.Checkpoint",
+          "url": "https://blog.checkpoint.com/corporate/black-friday-cyber-crime-2026-attacks-on-retailers-surge-28-as-risky-domains-multiply/",
+          "pub_date": "2026-11-16T15:30:23+00:00"
+        }
+      ],
+      "tags": [],
+      "categories": [
+        "phishing"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "fedexmup.com",
+      "confidence": "high",
+      "reason": "Domain registered as part of a pattern to impersonate FedEx for phishing.",
+      "first_seen": "2026-11-16T15:30:23+00:00",
+      "last_seen": "2026-11-16T15:30:23+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Blog.Checkpoint",
+          "url": "https://blog.checkpoint.com/corporate/black-friday-cyber-crime-2026-attacks-on-retailers-surge-28-as-risky-domains-multiply/",
+          "pub_date": "2026-11-16T15:30:23+00:00"
+        }
+      ],
+      "tags": [],
+      "categories": [
+        "phishing"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "fedexonl.com",
+      "confidence": "high",
+      "reason": "Domain registered as part of a pattern to impersonate FedEx for phishing.",
+      "first_seen": "2026-11-16T15:30:23+00:00",
+      "last_seen": "2026-11-16T15:30:23+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Blog.Checkpoint",
+          "url": "https://blog.checkpoint.com/corporate/black-friday-cyber-crime-2026-attacks-on-retailers-surge-28-as-risky-domains-multiply/",
+          "pub_date": "2026-11-16T15:30:23+00:00"
+        }
+      ],
+      "tags": [],
+      "categories": [
+        "phishing"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "fedexpres.com",
+      "confidence": "high",
+      "reason": "Domain displays a fake FedEx package tracking page.",
+      "first_seen": "2026-11-16T15:30:23+00:00",
+      "last_seen": "2026-11-16T15:30:23+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Blog.Checkpoint",
+          "url": "https://blog.checkpoint.com/corporate/black-friday-cyber-crime-2026-attacks-on-retailers-surge-28-as-risky-domains-multiply/",
+          "pub_date": "2026-11-16T15:30:23+00:00"
+        }
+      ],
+      "tags": [],
+      "categories": [
+        "phishing"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "fedexyb.com",
+      "confidence": "high",
+      "reason": "Domain registered as part of a pattern to impersonate FedEx for phishing.",
+      "first_seen": "2026-11-16T15:30:23+00:00",
+      "last_seen": "2026-11-16T15:30:23+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Blog.Checkpoint",
+          "url": "https://blog.checkpoint.com/corporate/black-friday-cyber-crime-2026-attacks-on-retailers-surge-28-as-risky-domains-multiply/",
+          "pub_date": "2026-11-16T15:30:23+00:00"
+        }
+      ],
+      "tags": [],
+      "categories": [
+        "phishing"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "h5-aliexpressus.com",
+      "confidence": "high",
+      "reason": "Domain used for phishing with a fake AliExpress login page.",
+      "first_seen": "2026-11-16T15:30:23+00:00",
+      "last_seen": "2026-11-16T15:30:23+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Blog.Checkpoint",
+          "url": "https://blog.checkpoint.com/corporate/black-friday-cyber-crime-2026-attacks-on-retailers-surge-28-as-risky-domains-multiply/",
+          "pub_date": "2026-11-16T15:30:23+00:00"
+        }
+      ],
+      "tags": [],
+      "categories": [
+        "phishing"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "oneractiveblackfriday.com",
+      "confidence": "high",
+      "reason": "Domain uses Oner Active brand name with a Black Friday theme, identified as risky.",
+      "first_seen": "2026-11-16T15:30:23+00:00",
+      "last_seen": "2026-11-16T15:30:23+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Blog.Checkpoint",
+          "url": "https://blog.checkpoint.com/corporate/black-friday-cyber-crime-2026-attacks-on-retailers-surge-28-as-risky-domains-multiply/",
+          "pub_date": "2026-11-16T15:30:23+00:00"
+        }
+      ],
+      "tags": [],
+      "categories": [
+        "other"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "silverseablackfridayvoyage.com",
+      "confidence": "high",
+      "reason": "Domain combines Silversea brand name with a Black Friday theme, identified as risky.",
+      "first_seen": "2026-11-16T15:30:23+00:00",
+      "last_seen": "2026-11-16T15:30:23+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Blog.Checkpoint",
+          "url": "https://blog.checkpoint.com/corporate/black-friday-cyber-crime-2026-attacks-on-retailers-surge-28-as-risky-domains-multiply/",
+          "pub_date": "2026-11-16T15:30:23+00:00"
+        }
+      ],
+      "tags": [],
+      "categories": [
+        "other"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "singlesday-online.com",
+      "confidence": "high",
+      "reason": "Domain uses Singles\u2019 Day promotional terminology, identified as risky.",
+      "first_seen": "2026-11-16T15:30:23+00:00",
+      "last_seen": "2026-11-16T15:30:23+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Blog.Checkpoint",
+          "url": "https://blog.checkpoint.com/corporate/black-friday-cyber-crime-2026-attacks-on-retailers-surge-28-as-risky-domains-multiply/",
+          "pub_date": "2026-11-16T15:30:23+00:00"
+        }
+      ],
+      "tags": [],
+      "categories": [
+        "other"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "temu.hhllal.com",
+      "confidence": "high",
+      "reason": "Domain used for phishing with a fake Temu login page.",
+      "first_seen": "2026-11-16T15:30:23+00:00",
+      "last_seen": "2026-11-16T15:30:23+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Blog.Checkpoint",
+          "url": "https://blog.checkpoint.com/corporate/black-friday-cyber-crime-2026-attacks-on-retailers-surge-28-as-risky-domains-multiply/",
+          "pub_date": "2026-11-16T15:30:23+00:00"
+        }
+      ],
+      "tags": [],
+      "categories": [
+        "phishing"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "walmart-hkshop.club",
+      "confidence": "high",
+      "reason": "Fraudulent Walmart-branded shop displaying discounted items.",
+      "first_seen": "2026-11-16T15:30:23+00:00",
+      "last_seen": "2026-11-16T15:30:23+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Blog.Checkpoint",
+          "url": "https://blog.checkpoint.com/corporate/black-friday-cyber-crime-2026-attacks-on-retailers-surge-28-as-risky-domains-multiply/",
+          "pub_date": "2026-11-16T15:30:23+00:00"
+        }
+      ],
+      "tags": [],
+      "categories": [
+        "scam_fraud"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "www.bestbuy-in.online",
+      "confidence": "high",
+      "reason": "Fraudulent Best Buy-branded storefront advertising discounts.",
+      "first_seen": "2026-11-16T15:30:23+00:00",
+      "last_seen": "2026-11-16T15:30:23+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Blog.Checkpoint",
+          "url": "https://blog.checkpoint.com/corporate/black-friday-cyber-crime-2026-attacks-on-retailers-surge-28-as-risky-domains-multiply/",
+          "pub_date": "2026-11-16T15:30:23+00:00"
+        }
+      ],
+      "tags": [],
+      "categories": [
+        "scam_fraud"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "fc27-prime.shop",
+      "confidence": "high",
+      "reason": "Domain used to impersonate EA for phishing purposes.",
+      "first_seen": "2026-11-16T13:40:55+00:00",
+      "last_seen": "2026-11-16T13:40:55+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Malwarebytes",
+          "url": "https://www.malwarebytes.com/blog/threat-intel/2026/11/fake-prime-gaming-x-fc-27-reward-site-harvests-ea-passwords-and-2fa-codes",
+          "pub_date": "2026-11-16T13:40:55+00:00"
+        }
+      ],
+      "tags": [],
+      "categories": [
+        "phishing"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "fedserv.thenewsip.site",
+      "confidence": "high",
+      "reason": "Domain used to capture credentials in a phishing attack.",
+      "first_seen": "2026-11-16T13:40:55+00:00",
+      "last_seen": "2026-11-16T13:40:55+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Malwarebytes",
+          "url": "https://www.malwarebytes.com/blog/threat-intel/2026/11/fake-prime-gaming-x-fc-27-reward-site-harvests-ea-passwords-and-2fa-codes",
+          "pub_date": "2026-11-16T13:40:55+00:00"
+        }
+      ],
+      "tags": [],
+      "categories": [
+        "phishing"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "new2026.pro",
+      "confidence": "high",
+      "reason": "Domain used as a fraudulent online casino or crypto platform in a phishing campaign.",
+      "first_seen": "2026-11-16T13:16:21+00:00",
+      "last_seen": "2026-11-16T13:16:21+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Blog.Knowbe4",
+          "url": "https://blog.knowbe4.com/gta-6-phishing-hype-weaponization",
+          "pub_date": "2026-11-16T13:16:21+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "industry",
+          "value": "Education"
+        },
+        {
+          "type": "industry",
+          "value": "Finance"
+        },
+        {
+          "type": "industry",
+          "value": "Technology"
+        }
+      ],
+      "categories": [
+        "phishing"
+      ],
+      "basis": null
+    },
     {
       "type": "ipv4",
       "value": "103.175.50.32",
@@ -535,6 +2181,44 @@
       "basis": null
     },
     {
+      "type": "ipv4",
+      "value": "95.81.115.77",
+      "confidence": "high",
+      "reason": "Used as a C2 server by attackers",
+      "first_seen": "2026-11-16T07:32:50.113918+00:00",
+      "last_seen": "2026-11-16T07:32:50.113918+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "ics-cert.kaspersky.com",
+          "url": "https://ics-cert.kaspersky.com/publications/reports/2026/11/05/supply-chain-attack-bo-team-in-a-software-developers-infrastructure/",
+          "pub_date": "2026-11-16T07:32:50.113918+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Black Owl"
+        },
+        {
+          "type": "apt_group",
+          "value": "BO Team"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2021-44228"
+        },
+        {
+          "type": "malware",
+          "value": "HackTool.Linux.ReverseSSH"
+        }
+      ],
+      "categories": [
+        "c2"
+      ],
+      "basis": null
+    },
+    {
       "type": "domain",
       "value": "alphanoob.com",
       "confidence": "high",
@@ -740,6 +2424,27 @@
       "basis": null
     },
     {
+      "type": "domain",
+      "value": "ngoogle.com",
+      "confidence": "high",
+      "reason": "Domain used in a script injection attack.",
+      "first_seen": "2026-11-16T02:04:48+00:00",
+      "last_seen": "2026-11-16T02:04:48+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "News.Ycombinator",
+          "url": "https://iter.ca/post/ubo-uxss/",
+          "pub_date": "2026-11-16T02:04:48+00:00"
+        }
+      ],
+      "tags": [],
+      "categories": [
+        "other"
+      ],
+      "basis": null
+    },
+    {
       "type": "ipv4",
       "value": "180.178.56.10",
       "confidence": "high",
@@ -825,9 +2530,30 @@
     },
     {
       "type": "domain",
+      "value": "dappradars.website",
+      "confidence": "high",
+      "reason": "Typosquat of a legitimate site used for phishing",
+      "first_seen": "2026-11-15T22:11:43+00:00",
+      "last_seen": "2026-11-15T22:11:43+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "News.Ycombinator",
+          "url": "https://ransomnews.com/burger-king-tweet-bitly-link-hijack-2026/",
+          "pub_date": "2026-11-15T22:11:43+00:00"
+        }
+      ],
+      "tags": [],
+      "categories": [
+        "phishing"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
       "value": "worldlibertyfinancial-ai.com",
       "confidence": "high",
-      "reason": "Domain registered afresh and used in a suspicious context, borrowing the name of a legitimate entity.",
+      "reason": "Domain registered afresh and used in a suspicious context related to impersonation of a legitimate entity",
       "first_seen": "2026-11-15T22:11:43+00:00",
       "last_seen": "2026-11-15T22:11:43+00:00",
       "source_count": 1,
@@ -3222,7 +4948,9 @@
           "value": "Storm-0940"
         }
       ],
-      "categories": [],
+      "categories": [
+        "c2"
+      ],
       "basis": null
     },
     {
@@ -3250,7 +4978,9 @@
           "value": "Storm-0940"
         }
       ],
-      "categories": [],
+      "categories": [
+        "other"
+      ],
       "basis": null
     },
     {
@@ -3308,7 +5038,9 @@
           "value": "Storm-0940"
         }
       ],
-      "categories": [],
+      "categories": [
+        "c2"
+      ],
       "basis": null
     },
     {
@@ -27614,654 +29346,6 @@
       "tags": [],
       "categories": [
         "phishing"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "cn.druid.mtrtb.com",
-      "confidence": "high",
-      "reason": "Endpoint on Discover-Tech's website used for ad bidding data",
-      "first_seen": "2026-10-18T14:30:37.759146+00:00",
-      "last_seen": "2026-10-18T14:30:37.759146+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "citizenlab.ca",
-          "url": "https://citizenlab.ca/research/how-discover-tech-turned-targeted-ads-into-a-pipeline-for-spyware/?ref=ppc.land",
-          "pub_date": "2026-10-18T14:30:37.759146+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Bindecy"
-        },
-        {
-          "type": "apt_group",
-          "value": "Candiru"
-        },
-        {
-          "type": "apt_group",
-          "value": "DARK Cartographer"
-        },
-        {
-          "type": "apt_group",
-          "value": "Intelos"
-        }
-      ],
-      "categories": [
-        "abused_service"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "events-ui.discover-tech.io",
-      "confidence": "high",
-      "reason": "Domain associated with Discover-Tech's app used for malicious activities",
-      "first_seen": "2026-10-18T14:30:37.759146+00:00",
-      "last_seen": "2026-10-18T14:30:37.759146+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "citizenlab.ca",
-          "url": "https://citizenlab.ca/research/how-discover-tech-turned-targeted-ads-into-a-pipeline-for-spyware/?ref=ppc.land",
-          "pub_date": "2026-10-18T14:30:37.759146+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Bindecy"
-        },
-        {
-          "type": "apt_group",
-          "value": "Candiru"
-        },
-        {
-          "type": "apt_group",
-          "value": "DARK Cartographer"
-        },
-        {
-          "type": "apt_group",
-          "value": "Intelos"
-        }
-      ],
-      "categories": [
-        "other"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "fearevolve.com",
-      "confidence": "high",
-      "reason": "Identified as a C&C server used in the attack",
-      "first_seen": "2026-10-18T14:30:37.759146+00:00",
-      "last_seen": "2026-10-18T14:30:37.759146+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "citizenlab.ca",
-          "url": "https://citizenlab.ca/research/how-discover-tech-turned-targeted-ads-into-a-pipeline-for-spyware/?ref=ppc.land",
-          "pub_date": "2026-10-18T14:30:37.759146+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Bindecy"
-        },
-        {
-          "type": "apt_group",
-          "value": "Candiru"
-        },
-        {
-          "type": "apt_group",
-          "value": "DARK Cartographer"
-        },
-        {
-          "type": "apt_group",
-          "value": "Intelos"
-        }
-      ],
-      "categories": [
-        "c2",
-        "spyware"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "insightenterprisells.com",
-      "confidence": "high",
-      "reason": "Identified as a C&C server used in the attack",
-      "first_seen": "2026-10-18T14:30:37.759146+00:00",
-      "last_seen": "2026-10-18T14:30:37.759146+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "citizenlab.ca",
-          "url": "https://citizenlab.ca/research/how-discover-tech-turned-targeted-ads-into-a-pipeline-for-spyware/?ref=ppc.land",
-          "pub_date": "2026-10-18T14:30:37.759146+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Bindecy"
-        },
-        {
-          "type": "apt_group",
-          "value": "Candiru"
-        },
-        {
-          "type": "apt_group",
-          "value": "DARK Cartographer"
-        },
-        {
-          "type": "apt_group",
-          "value": "Intelos"
-        }
-      ],
-      "categories": [
-        "c2",
-        "spyware"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "jobmarcher.com",
-      "confidence": "high",
-      "reason": "Identified as a C&C server used in the attack",
-      "first_seen": "2026-10-18T14:30:37.759146+00:00",
-      "last_seen": "2026-10-18T14:30:37.759146+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "citizenlab.ca",
-          "url": "https://citizenlab.ca/research/how-discover-tech-turned-targeted-ads-into-a-pipeline-for-spyware/?ref=ppc.land",
-          "pub_date": "2026-10-18T14:30:37.759146+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Bindecy"
-        },
-        {
-          "type": "apt_group",
-          "value": "Candiru"
-        },
-        {
-          "type": "apt_group",
-          "value": "DARK Cartographer"
-        },
-        {
-          "type": "apt_group",
-          "value": "Intelos"
-        }
-      ],
-      "categories": [
-        "c2",
-        "spyware"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "keyadapter.com",
-      "confidence": "high",
-      "reason": "Identified as a Candiru validator server",
-      "first_seen": "2026-10-18T14:30:37.759146+00:00",
-      "last_seen": "2026-10-18T14:30:37.759146+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "citizenlab.ca",
-          "url": "https://citizenlab.ca/research/how-discover-tech-turned-targeted-ads-into-a-pipeline-for-spyware/?ref=ppc.land",
-          "pub_date": "2026-10-18T14:30:37.759146+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Bindecy"
-        },
-        {
-          "type": "apt_group",
-          "value": "Candiru"
-        },
-        {
-          "type": "apt_group",
-          "value": "DARK Cartographer"
-        },
-        {
-          "type": "apt_group",
-          "value": "Intelos"
-        }
-      ],
-      "categories": [
-        "other"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "mtrtb.com",
-      "confidence": "high",
-      "reason": "Domain associated with Discover-Tech's ad bidding data",
-      "first_seen": "2026-10-18T13:36:04+00:00",
-      "last_seen": "2026-10-18T14:30:37.759146+00:00",
-      "source_count": 2,
-      "sources": [
-        {
-          "source": "citizenlab.ca",
-          "url": "https://citizenlab.ca/research/how-discover-tech-turned-targeted-ads-into-a-pipeline-for-spyware/?ref=ppc.land",
-          "pub_date": "2026-10-18T14:30:37.759146+00:00"
-        },
-        {
-          "source": "Ppc.Land",
-          "url": "https://ppc.land/google-drops-ad-vendor-it-listed-since-2020-after-45-device-spyware-attack/",
-          "pub_date": "2026-10-18T13:36:04+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "AdFection"
-        },
-        {
-          "type": "apt_group",
-          "value": "Bindecy"
-        },
-        {
-          "type": "apt_group",
-          "value": "Candiru"
-        },
-        {
-          "type": "apt_group",
-          "value": "DARK Cartographer"
-        }
-      ],
-      "categories": [
-        "abused_service"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "plasticbells.com",
-      "confidence": "high",
-      "reason": "Identified as a C&C server used in the attack",
-      "first_seen": "2026-10-18T14:30:37.759146+00:00",
-      "last_seen": "2026-10-18T14:30:37.759146+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "citizenlab.ca",
-          "url": "https://citizenlab.ca/research/how-discover-tech-turned-targeted-ads-into-a-pipeline-for-spyware/?ref=ppc.land",
-          "pub_date": "2026-10-18T14:30:37.759146+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Bindecy"
-        },
-        {
-          "type": "apt_group",
-          "value": "Candiru"
-        },
-        {
-          "type": "apt_group",
-          "value": "DARK Cartographer"
-        },
-        {
-          "type": "apt_group",
-          "value": "Intelos"
-        }
-      ],
-      "categories": [
-        "c2",
-        "spyware"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "ppv2.mtrtb.com",
-      "confidence": "high",
-      "reason": "Domain associated with Discover-Tech's Infinite FIFO feature",
-      "first_seen": "2026-10-18T13:36:04+00:00",
-      "last_seen": "2026-10-18T14:30:37.759146+00:00",
-      "source_count": 2,
-      "sources": [
-        {
-          "source": "citizenlab.ca",
-          "url": "https://citizenlab.ca/research/how-discover-tech-turned-targeted-ads-into-a-pipeline-for-spyware/?ref=ppc.land",
-          "pub_date": "2026-10-18T14:30:37.759146+00:00"
-        },
-        {
-          "source": "Ppc.Land",
-          "url": "https://ppc.land/google-drops-ad-vendor-it-listed-since-2020-after-45-device-spyware-attack/",
-          "pub_date": "2026-10-18T13:36:04+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "AdFection"
-        },
-        {
-          "type": "apt_group",
-          "value": "Bindecy"
-        },
-        {
-          "type": "apt_group",
-          "value": "Candiru"
-        },
-        {
-          "type": "apt_group",
-          "value": "DARK Cartographer"
-        }
-      ],
-      "categories": [
-        "abused_service"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "sharethere.net",
-      "confidence": "high",
-      "reason": "Identified as a Candiru validator server",
-      "first_seen": "2026-10-18T14:30:37.759146+00:00",
-      "last_seen": "2026-10-18T14:30:37.759146+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "citizenlab.ca",
-          "url": "https://citizenlab.ca/research/how-discover-tech-turned-targeted-ads-into-a-pipeline-for-spyware/?ref=ppc.land",
-          "pub_date": "2026-10-18T14:30:37.759146+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Bindecy"
-        },
-        {
-          "type": "apt_group",
-          "value": "Candiru"
-        },
-        {
-          "type": "apt_group",
-          "value": "DARK Cartographer"
-        },
-        {
-          "type": "apt_group",
-          "value": "Intelos"
-        }
-      ],
-      "categories": [
-        "other"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "dtech.adtimizer.co",
-      "confidence": "high",
-      "reason": "Subdomain used within Discover-Tech's infrastructure, indicating attacker control",
-      "first_seen": "2026-10-18T13:36:04+00:00",
-      "last_seen": "2026-10-18T13:36:04+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Ppc.Land",
-          "url": "https://ppc.land/google-drops-ad-vendor-it-listed-since-2020-after-45-device-spyware-attack/",
-          "pub_date": "2026-10-18T13:36:04+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "AdFection"
-        },
-        {
-          "type": "campaign",
-          "value": "Controlium"
-        },
-        {
-          "type": "campaign",
-          "value": "SourTrade"
-        },
-        {
-          "type": "malware",
-          "value": "Candiru"
-        }
-      ],
-      "categories": [
-        "other"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "mydsp.io",
-      "confidence": "high",
-      "reason": "Domain used by Discover-Tech for malicious ad operations",
-      "first_seen": "2026-10-18T13:36:04+00:00",
-      "last_seen": "2026-10-18T13:36:04+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Ppc.Land",
-          "url": "https://ppc.land/google-drops-ad-vendor-it-listed-since-2020-after-45-device-spyware-attack/",
-          "pub_date": "2026-10-18T13:36:04+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "AdFection"
-        },
-        {
-          "type": "campaign",
-          "value": "Controlium"
-        },
-        {
-          "type": "campaign",
-          "value": "SourTrade"
-        },
-        {
-          "type": "malware",
-          "value": "Candiru"
-        }
-      ],
-      "categories": [
-        "other"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "myipinfo.io",
-      "confidence": "high",
-      "reason": "Domain used by Discover-Tech for malicious ad operations",
-      "first_seen": "2026-10-18T13:36:04+00:00",
-      "last_seen": "2026-10-18T13:36:04+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Ppc.Land",
-          "url": "https://ppc.land/google-drops-ad-vendor-it-listed-since-2020-after-45-device-spyware-attack/",
-          "pub_date": "2026-10-18T13:36:04+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "AdFection"
-        },
-        {
-          "type": "campaign",
-          "value": "Controlium"
-        },
-        {
-          "type": "campaign",
-          "value": "SourTrade"
-        },
-        {
-          "type": "malware",
-          "value": "Candiru"
-        }
-      ],
-      "categories": [
-        "other"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "tracker.mtrtb.com",
-      "confidence": "high",
-      "reason": "Subdomain used by Discover-Tech for malicious ad operations",
-      "first_seen": "2026-10-18T13:36:04+00:00",
-      "last_seen": "2026-10-18T13:36:04+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Ppc.Land",
-          "url": "https://ppc.land/google-drops-ad-vendor-it-listed-since-2020-after-45-device-spyware-attack/",
-          "pub_date": "2026-10-18T13:36:04+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "AdFection"
-        },
-        {
-          "type": "campaign",
-          "value": "Controlium"
-        },
-        {
-          "type": "campaign",
-          "value": "SourTrade"
-        },
-        {
-          "type": "malware",
-          "value": "Candiru"
-        }
-      ],
-      "categories": [
-        "other"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "tracookiepixel.xyz",
-      "confidence": "high",
-      "reason": "Domain involved in Discover-Tech's tracking operations",
-      "first_seen": "2026-10-18T13:36:04+00:00",
-      "last_seen": "2026-10-18T13:36:04+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Ppc.Land",
-          "url": "https://ppc.land/google-drops-ad-vendor-it-listed-since-2020-after-45-device-spyware-attack/",
-          "pub_date": "2026-10-18T13:36:04+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "AdFection"
-        },
-        {
-          "type": "campaign",
-          "value": "Controlium"
-        },
-        {
-          "type": "campaign",
-          "value": "SourTrade"
-        },
-        {
-          "type": "malware",
-          "value": "Candiru"
-        }
-      ],
-      "categories": [
-        "other"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "xn--pple-43d.com",
-      "confidence": "high",
-      "reason": "Punycode domain used to impersonate apple.com with Cyrillic lookalikes, indicating attacker-controlled infrastructure.",
-      "first_seen": "2026-10-18T12:10:16+00:00",
-      "last_seen": "2026-10-18T12:10:16+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Tomshardware",
-          "url": "https://www.tomshardware.com/tech-industry/cyber-security/typo-squatting-attacks-with-major-domains-are-still-viable-corner-cases-with-cyrillic-characters-still-evade-the-best-checks",
-          "pub_date": "2026-10-18T12:10:16+00:00"
-        }
-      ],
-      "tags": [],
-      "categories": [
-        "phishing"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "jewishchoice.org",
-      "confidence": "high",
-      "reason": "Described as a fraudulent domain created by attackers.",
-      "first_seen": "2026-10-17T20:02:25.870566+00:00",
-      "last_seen": "2026-10-17T20:02:25.870566+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.microsoft.com",
-          "url": "https://www.microsoft.com/en-us/security/blog/2026/10/14/the-hidden-network-inside-the-phishing-infrastructure-ecosystem-powering-global-cybercrime/",
-          "pub_date": "2026-10-17T20:02:25.870566+00:00"
-        }
-      ],
-      "tags": [],
-      "categories": [
-        "phishing"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "beenetprotect.com",
-      "confidence": "high",
-      "reason": "Used as a command server in malware.",
-      "first_seen": "2026-10-17T16:17:16+00:00",
-      "last_seen": "2026-10-17T16:17:16+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "News.Lavx.Hu",
-          "url": "https://news.lavx.hu/article/malware-laced-south-park-torrent-targets-sonarr-users-steals-credentials",
-          "pub_date": "2026-10-17T16:17:16+00:00"
-        }
-      ],
-      "tags": [],
-      "categories": [
-        "c2",
-        "malware"
       ],
       "basis": null
     }
