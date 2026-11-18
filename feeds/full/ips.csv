@@ -1,4 +1,33 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason,categories
+ipv4,45.139.84.200,high,2026-11-18T08:02:12.447565+00:00,2026-11-18T08:02:12.447565+00:00,1,,Identified as an attacker-controlled server used for remote management,c2|malware
+ipv4,87.120.104.213,high,2026-11-18T08:02:12.447565+00:00,2026-11-18T08:02:12.447565+00:00,1,,Connected to by CastleRAT as part of command-and-control infrastructure,c2
+ipv4,27.102.66.162,high,2026-11-17T12:04:31+00:00,2026-11-17T12:04:31+00:00,1,,Configured as a hard-coded C2 server,c2
+ipv4,103.137.63.39,high,2026-11-17T08:00:43+00:00,2026-11-17T08:00:43+00:00,1,,Listed in the Indicators of Compromise section,other
+ipv4,103.214.68.20,high,2026-11-17T08:00:43+00:00,2026-11-17T08:00:43+00:00,1,,Listed in the Indicators of Compromise section,other
+ipv4,103.227.224.189,high,2026-11-17T08:00:43+00:00,2026-11-17T08:00:43+00:00,1,,Listed in the Indicators of Compromise section,other
+ipv4,122.147.252.16,high,2026-11-17T08:00:43+00:00,2026-11-17T08:00:43+00:00,1,,Listed in the Indicators of Compromise section,other
+ipv4,154.205.154.209,high,2026-11-17T08:00:43+00:00,2026-11-17T08:00:43+00:00,1,,Listed in the Indicators of Compromise section,other
+ipv4,216.73.158.117,high,2026-11-17T08:00:43+00:00,2026-11-17T08:00:43+00:00,1,,Listed in the Indicators of Compromise section,other
+ipv4,216.73.158.72,high,2026-11-17T08:00:43+00:00,2026-11-17T08:00:43+00:00,1,,Listed in the Indicators of Compromise section,other
+ipv4,38.52.17.113,high,2026-11-17T08:00:43+00:00,2026-11-17T08:00:43+00:00,1,,Listed in the Indicators of Compromise section,other
+ipv4,38.54.17.113,high,2026-11-17T08:00:43+00:00,2026-11-17T08:00:43+00:00,1,,Listed in the Indicators of Compromise section,other
+ipv4,191.96.101.224,high,2026-11-17T00:27:19.504000+00:00,2026-11-17T00:27:19.504000+00:00,1,,Identified as an IP used for malicious remote access,c2
+ipv4,196.251.121.110,high,2026-11-17T00:00:00+00:00,2026-11-17T00:00:00+00:00,1,,Associated with malicious activity in a threat report,other
+ipv4,196.251.121.204,high,2026-11-17T00:00:00+00:00,2026-11-17T00:00:00+00:00,1,,Identified as hosting an Evilginx access panel,malware
+ipv4,196.251.121.218,high,2026-11-17T00:00:00+00:00,2026-11-17T00:00:00+00:00,1,,Associated with impersonation activity in a threat report,phishing
+ipv4,31.56.19.115,high,2026-11-17T00:00:00+00:00,2026-11-17T00:00:00+00:00,1,,Resolved domain associated with attacker infrastructure,other
+ipv4,31.56.19.34,high,2026-11-17T00:00:00+00:00,2026-11-17T00:00:00+00:00,1,,Reported as part of BYOD extortion infrastructure,ransomware
+ipv4,36.255.97.60,high,2026-11-17T00:00:00+00:00,2026-11-17T00:00:00+00:00,1,,Configured for ScreenConnect client used by attackers,c2
+ipv4,37.72.140.221,high,2026-11-17T00:00:00+00:00,2026-11-17T00:00:00+00:00,1,,Used in attack to send requests to Apple Pay endpoint,scanner
+ipv4,43.228.157.248,high,2026-11-17T00:00:00+00:00,2026-11-17T00:00:00+00:00,1,,Historical service data shows malicious activity,scanner
+ipv4,45.86.62.180,high,2026-11-17T00:00:00+00:00,2026-11-17T00:00:00+00:00,1,,Used to send stolen card data via skimmer,exfiltration
+ipv4,46.151.182.154,high,2026-11-17T00:00:00+00:00,2026-11-17T00:00:00+00:00,1,,Associated with CERBERUS service used by attackers,malware
+ipv4,46.151.182.182,high,2026-11-17T00:00:00+00:00,2026-11-17T00:00:00+00:00,1,,Suspected Sliver C2 service,c2
+ipv4,46.151.182.203,high,2026-11-17T00:00:00+00:00,2026-11-17T00:00:00+00:00,1,,Linked to LiteLLM exfiltration infrastructure,exfiltration|supply_chain
+ipv4,46.151.182.31,high,2026-11-17T00:00:00+00:00,2026-11-17T00:00:00+00:00,1,,Used for ScreenConnect client setup by attackers,malware
+ipv4,64.89.160.194,high,2026-11-17T00:00:00+00:00,2026-11-17T00:00:00+00:00,1,,Identified as Lumma C2 associated with Ghosty Networks,c2
+ipv4,64.89.160.67,high,2026-11-17T00:00:00+00:00,2026-11-17T00:00:00+00:00,1,,Resolved domain associated with attacker infrastructure,malware
+ipv4,91.92.240.5,high,2026-11-17T00:00:00+00:00,2026-11-17T00:00:00+00:00,1,,Associated with bulletproof-hosting feed,bulletproof_hosting
 ipv4,5.133.47.243,high,2026-11-16T23:54:03+00:00,2026-11-16T23:54:03+00:00,1,,Listed as an exploitation IP by Rapid7,exploit|scanner
 ipv4,193.148.56.72,high,2026-11-16T21:36:35+00:00,2026-11-16T21:36:35+00:00,1,,Listed as a known malicious IP to block,other
 ipv4,37.221.208.216,high,2026-11-16T21:36:35+00:00,2026-11-16T21:36:35+00:00,1,,Listed as a known malicious IP to block,other

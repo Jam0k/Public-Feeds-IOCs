@@ -1,29 +1,78 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason,categories
-domain,5vobauua3ojpklx.icu,high,2026-11-17T02:12:41+00:00,2026-11-17T15:01:53.604417+00:00,5,blog.report-uri.com:2026-11-17|www.stepsecurity.io:2026-11-17|www.infostealers.com:2026-11-17|Thehackernews:2026-11-17|Cyberkendra:2026-11-17,"Domain used for iOS exploit delivery, identified as attacker-controlled",malware
-domain,webshell.lol,high,2026-11-17T02:12:41+00:00,2026-11-17T15:01:53.604417+00:00,6,blog.report-uri.com:2026-11-17|www.infostealers.com:2026-11-17|mallory.ai:2026-11-17|Securityaffairs.Co:2026-11-17|Thehackernews:2026-11-17,"Domain used as injector in the attack, identified as attacker-controlled",malware
-domain,1688360.cc,high,2026-11-17T14:00:46.952499+00:00,2026-11-17T14:00:46.952499+00:00,1,www.stepsecurity.io:2026-11-17,"Domain used to send captured card details, identified as attacker-controlled",
-domain,1y69gy2mdzaltz1.icu,high,2026-11-17T14:00:46.952499+00:00,2026-11-17T14:00:46.952499+00:00,1,www.stepsecurity.io:2026-11-17,Domain registered and used by attackers as part of the campaign,malware
-domain,eil786npto9u5bq.icu,high,2026-11-17T02:12:41+00:00,2026-11-17T14:00:46.952499+00:00,4,www.stepsecurity.io:2026-11-17|www.infostealers.com:2026-11-17|Thehackernews:2026-11-17|Cyberkendra:2026-11-17,"Domain used for iOS exploit delivery, identified as attacker-controlled",malware
-domain,gm38duxoihbmy5o.icu,high,2026-11-17T14:00:46.952499+00:00,2026-11-17T14:00:46.952499+00:00,1,www.stepsecurity.io:2026-11-17,Domain registered and used by attackers as part of the campaign,malware
-domain,l7bcsnwc7nzr3uo.icu,high,2026-11-17T12:03:27.176809+00:00,2026-11-17T14:00:46.952499+00:00,2,www.stepsecurity.io:2026-11-17|www.infostealers.com:2026-11-17,Domain registered and used by attackers as part of the campaign,malware
-domain,p55abnw2pnsz0bo.icu,high,2026-11-17T14:00:46.952499+00:00,2026-11-17T14:00:46.952499+00:00,1,www.stepsecurity.io:2026-11-17,Domain registered and used by attackers as part of the campaign,malware
-ipv4,27.102.66.162,high,2026-11-17T12:04:31+00:00,2026-11-17T12:04:31+00:00,1,Thehackernews:2026-11-17,Configured as a hard-coded C2 server,
-domain,ios-hack.icu,high,2026-11-17T12:03:27.176809+00:00,2026-11-17T12:03:27.176809+00:00,1,www.infostealers.com:2026-11-17,"Domain used in iOS exploit infrastructure, identified as attacker-controlled",malware
+domain,uncvlizd.com,high,2026-11-18T15:01:47.568295+00:00,2026-11-18T15:01:47.568295+00:00,1,dreamgroup.com:2026-11-18,Identified as the command-and-control endpoint re-registered by attackers.,
+domain,mepintei.com,high,2026-11-18T15:01:46.955903+00:00,2026-11-18T15:01:46.955903+00:00,1,businessinsights.bitdefender.com:2026-11-18,Listed as part of C2 infrastructure for EggStreme operation,
+ipv4,109.248.24.84,high,2026-11-18T15:01:46.955903+00:00,2026-11-18T15:01:46.955903+00:00,1,businessinsights.bitdefender.com:2026-11-18,Identified as part of C2 infrastructure for EggStreme operation,
+ipv4,45.115.225.73,high,2026-11-18T15:01:46.955903+00:00,2026-11-18T15:01:46.955903+00:00,1,businessinsights.bitdefender.com:2026-11-18,Identified as part of C2 infrastructure for EggStreme operation,
+domain,1688360.cc,high,2026-11-18T11:01:13.197125+00:00,2026-11-18T11:01:13.197125+00:00,1,www.stepsecurity.io:2026-11-18,"Domain used to send stolen card data, identified as attacker infrastructure",exfiltration
+domain,1y69gy2mdzaltz1.icu,high,2026-11-18T11:01:13.197125+00:00,2026-11-18T11:01:13.197125+00:00,1,www.stepsecurity.io:2026-11-18,Part of a batch of domains registered by the attacker for malicious use,malware
+domain,5vobauua3ojpklx.icu,high,2026-11-17T02:12:41+00:00,2026-11-18T11:01:13.197125+00:00,6,www.stepsecurity.io:2026-11-18|www.infostealers.com:2026-11-17|blog.report-uri.com:2026-11-17|Gbhackers:2026-11-17|Thehackernews:2026-11-17,"Domain used for iOS exploit delivery, identified as attacker infrastructure",malware
+domain,eil786npto9u5bq.icu,high,2026-11-17T02:12:41+00:00,2026-11-18T11:01:13.197125+00:00,5,www.stepsecurity.io:2026-11-18|www.infostealers.com:2026-11-17|Gbhackers:2026-11-17|Thehackernews:2026-11-17|Cyberkendra:2026-11-17,"Domain used for iOS exploit delivery, identified as attacker infrastructure",malware
+domain,gm38duxoihbmy5o.icu,high,2026-11-18T11:01:13.197125+00:00,2026-11-18T11:01:13.197125+00:00,1,www.stepsecurity.io:2026-11-18,Part of a batch of domains registered by the attacker for malicious use,malware
+domain,l7bcsnwc7nzr3uo.icu,high,2026-11-17T22:02:18.875976+00:00,2026-11-18T11:01:13.197125+00:00,2,www.stepsecurity.io:2026-11-18|www.infostealers.com:2026-11-17,Domain registered by the attacker for malicious use,malware
+domain,p55abnw2pnsz0bo.icu,high,2026-11-18T11:01:13.197125+00:00,2026-11-18T11:01:13.197125+00:00,1,www.stepsecurity.io:2026-11-18,Part of a batch of domains registered by the attacker for malicious use,malware
+domain,q1ls1ho9x7wsxlu.icu,high,2026-11-18T11:01:13.197125+00:00,2026-11-18T11:01:13.197125+00:00,1,www.stepsecurity.io:2026-11-18,Domain registered by the attacker for malicious use,malware
+domain,androidasynclib.com,high,2026-11-17T16:30:48.777836+00:00,2026-11-18T08:33:19.644367+00:00,2,www.lookout.com:2026-11-18|lookoutstaging.webflow.io:2026-11-17,Part of the command infrastructure used by GravityRAT,c2
+domain,androidstaticserve.com,high,2026-11-17T16:30:48.777836+00:00,2026-11-18T08:33:19.644367+00:00,2,www.lookout.com:2026-11-18|lookoutstaging.webflow.io:2026-11-17,Part of the command infrastructure used by GravityRAT,c2
+domain,api.androiddevpool.com,high,2026-11-17T16:30:48.777836+00:00,2026-11-18T08:33:19.644367+00:00,2,www.lookout.com:2026-11-18|lookoutstaging.webflow.io:2026-11-17,Active endpoint URL used by GravityRAT,c2
+domain,connectivity.androidstaticserve.com,high,2026-11-17T16:30:48.777836+00:00,2026-11-18T08:33:19.644367+00:00,2,www.lookout.com:2026-11-18|lookoutstaging.webflow.io:2026-11-17,Active endpoint URL used by GravityRAT,c2
+domain,meta.androidasynclib.com,high,2026-11-17T16:30:48.777836+00:00,2026-11-18T08:33:19.644367+00:00,2,www.lookout.com:2026-11-18|lookoutstaging.webflow.io:2026-11-17,Active endpoint URL used by GravityRAT,c2
+domain,static.androidufslib.com,high,2026-11-17T16:30:48.777836+00:00,2026-11-18T08:33:19.644367+00:00,2,www.lookout.com:2026-11-18|lookoutstaging.webflow.io:2026-11-17,Active endpoint URL used by GravityRAT,c2
+ipv4,45.139.84.200,high,2026-11-18T08:02:12.447565+00:00,2026-11-18T08:02:12.447565+00:00,1,any.run:2026-11-18,Identified as an attacker-controlled server used for remote management,c2|malware
+ipv4,87.120.104.213,high,2026-11-18T08:02:12.447565+00:00,2026-11-18T08:02:12.447565+00:00,1,any.run:2026-11-18,Connected to by CastleRAT as part of command-and-control infrastructure,c2
+domain,dropdeckx.com,high,2026-11-18T04:59:47+00:00,2026-11-18T06:30:33+00:00,1,Gbhackers:2026-11-18,Linked to the mobile campaign through shared registration dates and name servers,malware
+domain,gta6demo.asia,high,2026-11-18T04:30:00+00:00,2026-11-18T04:30:00+00:00,1,Computerweekly:2026-11-18,Domain associated with a fake GTA VI demo package used to distribute malware,malware|fake_software
+domain,gta6-play.ru,high,2026-11-18T04:30:00+00:00,2026-11-18T04:30:00+00:00,1,Computerweekly:2026-11-18,Domain flagged as potentially malicious and associated with a fake GTA VI site,fake_software
+domain,caapman.me,high,2026-11-17T22:33:49.017029+00:00,2026-11-17T22:33:49.017029+00:00,1,www.securonix.com:2026-11-17,Domain listed in a hunting query for suspicious activity,malware
+domain,gerlace.com,high,2026-11-17T22:33:49.017029+00:00,2026-11-17T22:33:49.017029+00:00,1,www.securonix.com:2026-11-17,Domain listed in a hunting query for suspicious activity,malware
+domain,nutmann.club,high,2026-11-17T22:33:49.017029+00:00,2026-11-17T22:33:49.017029+00:00,1,www.securonix.com:2026-11-17,Domain listed in a hunting query for suspicious activity,malware
+domain,okuneva.sbs,high,2026-11-17T22:33:49.017029+00:00,2026-11-17T22:33:49.017029+00:00,1,www.securonix.com:2026-11-17,Domain listed in a hunting query for suspicious activity,malware
+domain,vilialobos.lol,high,2026-11-17T22:33:49.017029+00:00,2026-11-17T22:33:49.017029+00:00,1,www.securonix.com:2026-11-17,Domain used as a source for remote script injection,c2
+domain,vtevens.icu,high,2026-11-17T22:33:49.017029+00:00,2026-11-17T22:33:49.017029+00:00,1,www.securonix.com:2026-11-17,Domain listed in a hunting query for suspicious activity,malware
+domain,ios-hack.icu,high,2026-11-17T22:02:18.875976+00:00,2026-11-17T22:02:18.875976+00:00,1,www.infostealers.com:2026-11-17,Domain associated with iOS exploit infrastructure,malware
+domain,webshell.lol,high,2026-11-17T02:12:41+00:00,2026-11-17T22:02:18.875976+00:00,6,www.infostealers.com:2026-11-17|blog.report-uri.com:2026-11-17|mallory.ai:2026-11-17|Securityaffairs.Co:2026-11-17|Thehackernews:2026-11-17,Domain used as an injector in the attack,malware
+domain,outagefixed.sbs,high,2026-11-17T12:20:34+00:00,2026-11-17T12:20:34+00:00,1,Gbhackers:2026-11-17,Identified as a phishing domain,phishing
+domain,outagerestored.sbs,high,2026-11-17T12:20:34+00:00,2026-11-17T12:20:34+00:00,1,Gbhackers:2026-11-17,Identified as a phishing domain,phishing
+ipv4,27.102.66.162,high,2026-11-17T12:04:31+00:00,2026-11-17T12:04:31+00:00,1,Thehackernews:2026-11-17,Configured as a hard-coded C2 server,c2
 domain,runner.ec,high,2026-11-17T10:01:57.969991+00:00,2026-11-17T10:01:57.969991+00:00,1,www.welivesecurity.com:2026-11-17,Malware delivery domain associated with modified Spark RAT,malware
 domain,runner.lk,high,2026-11-17T10:01:57.969991+00:00,2026-11-17T10:01:57.969991+00:00,1,www.welivesecurity.com:2026-11-17,Loader for modular SparrowDoor,malware
 domain,webshell.se,high,2026-11-17T10:01:57.969991+00:00,2026-11-17T10:01:57.969991+00:00,1,www.welivesecurity.com:2026-11-17,Webshell associated with FamousSparrow,malware
-domain,ekmt.tw,high,2026-11-17T08:00:43+00:00,2026-11-17T08:00:43+00:00,1,Securelist:2026-11-17,Used as a Cobalt Strike beacon C2 server,
-domain,ms.twnic.top,high,2026-11-17T08:00:43+00:00,2026-11-17T08:00:43+00:00,1,Securelist:2026-11-17,Used as a Cobalt Strike beacon C2 server,
-domain,twnic.top,high,2026-11-17T08:00:43+00:00,2026-11-17T08:00:43+00:00,1,Securelist:2026-11-17,Used as a Cobalt Strike beacon C2 server,
-ipv4,103.137.63.39,high,2026-11-17T08:00:43+00:00,2026-11-17T08:00:43+00:00,1,Securelist:2026-11-17,Listed in the Indicators of Compromise section,
-ipv4,103.214.68.20,high,2026-11-17T08:00:43+00:00,2026-11-17T08:00:43+00:00,1,Securelist:2026-11-17,Listed in the Indicators of Compromise section,
-ipv4,103.227.224.189,high,2026-11-17T08:00:43+00:00,2026-11-17T08:00:43+00:00,1,Securelist:2026-11-17,Listed in the Indicators of Compromise section,
-ipv4,122.147.252.16,high,2026-11-17T08:00:43+00:00,2026-11-17T08:00:43+00:00,1,Securelist:2026-11-17,Listed in the Indicators of Compromise section,
-ipv4,154.205.154.209,high,2026-11-17T08:00:43+00:00,2026-11-17T08:00:43+00:00,1,Securelist:2026-11-17,Listed in the Indicators of Compromise section,
-ipv4,216.73.158.117,high,2026-11-17T08:00:43+00:00,2026-11-17T08:00:43+00:00,1,Securelist:2026-11-17,Listed in the Indicators of Compromise section,
-ipv4,216.73.158.72,high,2026-11-17T08:00:43+00:00,2026-11-17T08:00:43+00:00,1,Securelist:2026-11-17,Listed in the Indicators of Compromise section,
-ipv4,38.52.17.113,high,2026-11-17T08:00:43+00:00,2026-11-17T08:00:43+00:00,1,Securelist:2026-11-17,Listed in the Indicators of Compromise section,
-ipv4,38.54.17.113,high,2026-11-17T08:00:43+00:00,2026-11-17T08:00:43+00:00,1,Securelist:2026-11-17,Listed in the Indicators of Compromise section,
+domain,tea.vexexo.com,high,2026-11-17T09:21:02+00:00,2026-11-17T09:21:02+00:00,1,Gbhackers:2026-11-17,"Domain contacted by decoded payload, associated with PureLogs and PureRAT campaigns",c2|malware
+domain,ekmt.tw,high,2026-11-17T08:00:43+00:00,2026-11-17T08:00:43+00:00,1,Securelist:2026-11-17,Used as a Cobalt Strike beacon C2 server,c2
+domain,ms.twnic.top,high,2026-11-17T08:00:43+00:00,2026-11-17T08:00:43+00:00,1,Securelist:2026-11-17,Used as a Cobalt Strike beacon C2 server,c2
+domain,twnic.top,high,2026-11-17T08:00:43+00:00,2026-11-17T08:00:43+00:00,1,Securelist:2026-11-17,Used as a Cobalt Strike beacon C2 server,c2
+ipv4,103.137.63.39,high,2026-11-17T08:00:43+00:00,2026-11-17T08:00:43+00:00,1,Securelist:2026-11-17,Listed in the Indicators of Compromise section,other
+ipv4,103.214.68.20,high,2026-11-17T08:00:43+00:00,2026-11-17T08:00:43+00:00,1,Securelist:2026-11-17,Listed in the Indicators of Compromise section,other
+ipv4,103.227.224.189,high,2026-11-17T08:00:43+00:00,2026-11-17T08:00:43+00:00,1,Securelist:2026-11-17,Listed in the Indicators of Compromise section,other
+ipv4,122.147.252.16,high,2026-11-17T08:00:43+00:00,2026-11-17T08:00:43+00:00,1,Securelist:2026-11-17,Listed in the Indicators of Compromise section,other
+ipv4,154.205.154.209,high,2026-11-17T08:00:43+00:00,2026-11-17T08:00:43+00:00,1,Securelist:2026-11-17,Listed in the Indicators of Compromise section,other
+ipv4,216.73.158.117,high,2026-11-17T08:00:43+00:00,2026-11-17T08:00:43+00:00,1,Securelist:2026-11-17,Listed in the Indicators of Compromise section,other
+ipv4,216.73.158.72,high,2026-11-17T08:00:43+00:00,2026-11-17T08:00:43+00:00,1,Securelist:2026-11-17,Listed in the Indicators of Compromise section,other
+ipv4,38.52.17.113,high,2026-11-17T08:00:43+00:00,2026-11-17T08:00:43+00:00,1,Securelist:2026-11-17,Listed in the Indicators of Compromise section,other
+ipv4,38.54.17.113,high,2026-11-17T08:00:43+00:00,2026-11-17T08:00:43+00:00,1,Securelist:2026-11-17,Listed in the Indicators of Compromise section,other
+domain,fjksdjfdtitive.net,high,2026-11-17T00:27:19.504000+00:00,2026-11-17T00:27:19.504000+00:00,1,Bartblaze.Blogspot:2026-11-17,Used for ScreenConnect client service by attackers,c2
+ipv4,191.96.101.224,high,2026-11-17T00:27:19.504000+00:00,2026-11-17T00:27:19.504000+00:00,1,Bartblaze.Blogspot:2026-11-17,Identified as an IP used for malicious remote access,c2
+domain,anonrdp.com,high,2026-11-17T00:00:00+00:00,2026-11-17T00:00:00+00:00,1,Ransom-Isac:2026-11-17,Associated with Ghosty Networks and used by attackers,bulletproof_hosting
+domain,c3rberus.at,high,2026-11-17T00:00:00+00:00,2026-11-17T00:00:00+00:00,1,Ransom-Isac:2026-11-17,Identified as part of CERBERUS infrastructure,malware
+domain,dojiner.at,high,2026-11-17T00:00:00+00:00,2026-11-17T00:00:00+00:00,1,Ransom-Isac:2026-11-17,Associated with CERBERUS infrastructure,malware
+domain,g2fali.kittyrdp.com,high,2026-11-17T00:00:00+00:00,2026-11-17T00:00:00+00:00,1,Ransom-Isac:2026-11-17,Associated with CERBERUS panels used by attackers,malware
+domain,ghostynetworks.com,high,2026-11-17T00:00:00+00:00,2026-11-17T00:00:00+00:00,1,Ransom-Isac:2026-11-17,Associated with Ghosty Networks used by attackers,other
+domain,santandergetsupport.com,high,2026-11-17T00:00:00+00:00,2026-11-17T00:00:00+00:00,1,Ransom-Isac:2026-11-17,Helpdesk-themed domain likely used for phishing,phishing
+ipv4,196.251.121.110,high,2026-11-17T00:00:00+00:00,2026-11-17T00:00:00+00:00,1,Ransom-Isac:2026-11-17,Associated with malicious activity in a threat report,other
+ipv4,196.251.121.204,high,2026-11-17T00:00:00+00:00,2026-11-17T00:00:00+00:00,1,Ransom-Isac:2026-11-17,Identified as hosting an Evilginx access panel,malware
+ipv4,196.251.121.218,high,2026-11-17T00:00:00+00:00,2026-11-17T00:00:00+00:00,1,Ransom-Isac:2026-11-17,Associated with impersonation activity in a threat report,phishing
+ipv4,31.56.19.115,high,2026-11-17T00:00:00+00:00,2026-11-17T00:00:00+00:00,1,Ransom-Isac:2026-11-17,Resolved domain associated with attacker infrastructure,other
+ipv4,31.56.19.34,high,2026-11-17T00:00:00+00:00,2026-11-17T00:00:00+00:00,1,Ransom-Isac:2026-11-17,Reported as part of BYOD extortion infrastructure,ransomware
+ipv4,36.255.97.60,high,2026-11-17T00:00:00+00:00,2026-11-17T00:00:00+00:00,1,Ransom-Isac:2026-11-17,Configured for ScreenConnect client used by attackers,c2
+ipv4,37.72.140.221,high,2026-11-17T00:00:00+00:00,2026-11-17T00:00:00+00:00,1,Sansec:2026-11-17,Used in attack to send requests to Apple Pay endpoint,scanner
+ipv4,43.228.157.248,high,2026-11-17T00:00:00+00:00,2026-11-17T00:00:00+00:00,1,Ransom-Isac:2026-11-17,Historical service data shows malicious activity,scanner
+ipv4,45.86.62.180,high,2026-11-17T00:00:00+00:00,2026-11-17T00:00:00+00:00,1,Sansec:2026-11-17,Used to send stolen card data via skimmer,exfiltration
+ipv4,46.151.182.154,high,2026-11-17T00:00:00+00:00,2026-11-17T00:00:00+00:00,1,Ransom-Isac:2026-11-17,Associated with CERBERUS service used by attackers,malware
+ipv4,46.151.182.182,high,2026-11-17T00:00:00+00:00,2026-11-17T00:00:00+00:00,1,Ransom-Isac:2026-11-17,Suspected Sliver C2 service,c2
+ipv4,46.151.182.203,high,2026-11-17T00:00:00+00:00,2026-11-17T00:00:00+00:00,1,Ransom-Isac:2026-11-17,Linked to LiteLLM exfiltration infrastructure,exfiltration|supply_chain
+ipv4,46.151.182.31,high,2026-11-17T00:00:00+00:00,2026-11-17T00:00:00+00:00,1,Ransom-Isac:2026-11-17,Used for ScreenConnect client setup by attackers,malware
+ipv4,64.89.160.194,high,2026-11-17T00:00:00+00:00,2026-11-17T00:00:00+00:00,1,Ransom-Isac:2026-11-17,Identified as Lumma C2 associated with Ghosty Networks,c2
+ipv4,64.89.160.67,high,2026-11-17T00:00:00+00:00,2026-11-17T00:00:00+00:00,1,Ransom-Isac:2026-11-17,Resolved domain associated with attacker infrastructure,malware
+ipv4,91.92.240.5,high,2026-11-17T00:00:00+00:00,2026-11-17T00:00:00+00:00,1,Ransom-Isac:2026-11-17,Associated with bulletproof-hosting feed,bulletproof_hosting
 ipv4,5.133.47.243,high,2026-11-16T23:54:03+00:00,2026-11-16T23:54:03+00:00,1,Twitter:2026-11-16,Listed as an exploitation IP by Rapid7,exploit|scanner
 domain,cashcoma.cooljz.com,high,2026-11-16T21:38:27+00:00,2026-11-16T21:38:27+00:00,1,Foxnews:2026-11-16,Used in a phishing email as a sender address,phishing
 domain,ezpassviolations.com,high,2026-11-16T21:38:27+00:00,2026-11-16T21:38:27+00:00,1,Foxnews:2026-11-16,Domain used in phishing email impersonating E-ZPass.,phishing
@@ -84,8 +133,8 @@ ipv4,180.178.56.10,high,2026-11-16T01:30:43.043128+00:00,2026-11-16T01:30:43.043
 ipv4,221.146.68.107,high,2026-11-16T01:30:43.043128+00:00,2026-11-16T01:30:43.043128+00:00,1,trust.barracuda.com:2026-11-16,Listed in the article as an indicator of compromise potentially associated with the incident.,other
 ipv4,52.128.238.126,high,2026-11-16T01:30:43.043128+00:00,2026-11-16T01:30:43.043128+00:00,1,trust.barracuda.com:2026-11-16,Listed in the article as an indicator of compromise potentially associated with the incident.,other
 ipv6,2a09:bac1:7680:3d0::26b:5b,high,2026-11-16T01:30:43.043128+00:00,2026-11-16T01:30:43.043128+00:00,1,trust.barracuda.com:2026-11-16,Listed in the article as an indicator of compromise potentially associated with the incident.,other
-domain,dappradars.website,high,2026-11-15T22:11:43+00:00,2026-11-15T22:11:43+00:00,1,News.Ycombinator:2026-11-15,Typosquat of a legitimate site used for phishing,phishing
-domain,worldlibertyfinancial-ai.com,high,2026-11-15T22:11:43+00:00,2026-11-15T22:11:43+00:00,1,News.Ycombinator:2026-11-15,Domain registered afresh and used in a suspicious context related to impersonation of a legitimate entity,phishing
+domain,dappradars.website,high,2026-11-15T22:11:43+00:00,2026-11-15T22:11:43+00:00,1,News.Ycombinator:2026-11-15,"Domain registered afresh and used in a suspicious context, one letter away from a legitimate site",phishing
+domain,worldlibertyfinancial-ai.com,high,2026-11-15T22:11:43+00:00,2026-11-15T22:11:43+00:00,1,News.Ycombinator:2026-11-15,"Domain registered afresh and used in a suspicious context, borrowing the name of a legitimate venture",phishing
 ipv4,112.121.185.218,high,2026-11-04T03:55:19+00:00,2026-11-15T21:30:40.559384+00:00,2,www.acronis.com:2026-11-15|Acronis:2026-11-04,Identified as the primary node hosting multiple attack platforms including C2,c2|malware|proxy_tunnel
 domain,caude.ai,high,2026-11-15T20:01:02.719590+00:00,2026-11-15T20:01:02.719590+00:00,1,www.island.io:2026-11-15,Typo-squatted domain used in malicious redirect chains,traffic_distribution
 domain,charactor.ai,high,2026-11-15T20:01:02.719590+00:00,2026-11-15T20:01:02.719590+00:00,1,www.island.io:2026-11-15,Typo-squatted domain used in malicious redirect chains,traffic_distribution
@@ -364,7 +413,7 @@ domain,pandaexpressdelivery.com,high,2026-11-06T19:19:27+00:00,2026-11-06T19:19:
 domain,wingstop-delivery.com,high,2026-11-06T19:19:27+00:00,2026-11-06T19:19:27+00:00,1,News.Ycombinator:2026-11-06,"Domain used as part of a phishing campaign, indicating attacker control.",phishing
 domain,aiarmor.website,high,2026-10-22T00:00:00+00:00,2026-11-06T17:11:11.050000+00:00,3,Socket.Dev:2026-11-06|research.jfrog.com:2026-10-28|Safedep:2026-10-22,Listed as a fallback endpoint for data exfiltration.,malware
 domain,paleasbest.top,high,2026-11-06T17:11:11.050000+00:00,2026-11-06T17:11:11.050000+00:00,1,Socket.Dev:2026-11-06,"Used for exfiltration of credentials, indicating attacker control.",exfiltration
-domain,proxystream.st,high,2026-10-18T19:45:05+00:00,2026-11-06T15:29:50+00:00,3,Cyberinsider:2026-11-06|www.boredhackerblog.info:2026-10-25|Cordcuttersnews:2026-10-18,Associated with malicious activity and used in attacks,proxy_tunnel
+domain,proxystream.st,high,2026-10-25T20:32:13.039275+00:00,2026-11-06T15:29:50+00:00,2,Cyberinsider:2026-11-06|www.boredhackerblog.info:2026-10-25,Associated with malicious activity and used in attacks,proxy_tunnel
 ipv4,103.59.160.171,high,2026-11-05T15:58:24+00:00,2026-11-06T14:47:10+00:00,2,Mezha:2026-11-06|Wordfence:2026-11-05,Listed as a top offending IP address targeting a vulnerability,scanner
 ipv4,154.26.238.8,high,2026-11-05T15:58:24+00:00,2026-11-06T14:47:10+00:00,2,Mezha:2026-11-06|Wordfence:2026-11-05,Listed as a top offending IP address targeting a vulnerability,scanner
 ipv4,185.177.72.61,high,2026-11-05T15:58:24+00:00,2026-11-06T14:47:10+00:00,2,Mezha:2026-11-06|Wordfence:2026-11-05,Listed as a top offending IP address targeting a vulnerability,scanner
@@ -731,14 +780,14 @@ domain,vps3749638.trouble-free.net,high,2026-10-26T12:31:06.850872+00:00,2026-10
 domain,vps-b225fb62.vps.ovh.us,high,2026-10-26T12:31:06.850872+00:00,2026-10-26T12:31:06.850872+00:00,1,github.com:2026-10-26,PTR record associated with a confirmed source address used in exploit attempts.,exploit
 domain,rdp.sh,high,2026-10-26T08:35:51+00:00,2026-10-26T08:35:51+00:00,1,Thehackernews:2026-10-26,Linked to a remote access trojan and taken down in a law enforcement operation,bulletproof_hosting
 ipv4,217.60.194.116,high,2026-10-19T17:34:34+00:00,2026-10-25T20:32:13.039275+00:00,2,www.boredhackerblog.info:2026-10-25|Thehackernews:2026-10-19,Source of malicious file downloads,malware|cryptomining
-domain,0auth-chromium.com,high,2026-10-19T10:34:26+00:00,2026-10-25T20:32:07.509320+00:00,2,www.elastic.co:2026-10-25|Thehackernews:2026-10-19,Domain used to retrieve and execute a malicious PowerShell script,malware
+domain,0auth-chromium.com,high,2026-10-25T20:32:07.509320+00:00,2026-10-25T20:32:07.509320+00:00,1,www.elastic.co:2026-10-25,Domain used to retrieve and execute a malicious PowerShell script,malware
 domain,arenapex.cloud,high,2026-10-25T20:32:07.509320+00:00,2026-10-25T20:32:07.509320+00:00,1,www.elastic.co:2026-10-25,Historical domain used for script-download in malicious infrastructure,malware
-domain,ccmihr.com,high,2026-10-19T10:34:26+00:00,2026-10-25T20:32:07.509320+00:00,2,www.elastic.co:2026-10-25|Thehackernews:2026-10-19,Domain used as a C2 server responding with tasks for malware,c2|malware
+domain,ccmihr.com,high,2026-10-25T20:32:07.509320+00:00,2026-10-25T20:32:07.509320+00:00,1,www.elastic.co:2026-10-25,Domain used as a C2 server responding with tasks for malware,c2|malware
 domain,cloudmain365duo.top,high,2026-10-25T20:32:07.509320+00:00,2026-10-25T20:32:07.509320+00:00,1,www.elastic.co:2026-10-25,Domain used as a script-download host in malicious infrastructure,malware
-domain,ehegisnightmare.icu,high,2026-10-19T10:34:26+00:00,2026-10-25T20:32:07.509320+00:00,2,www.elastic.co:2026-10-25|Thehackernews:2026-10-19,Domain used to download and execute a malicious payload,malware
+domain,ehegisnightmare.icu,high,2026-10-25T20:32:07.509320+00:00,2026-10-25T20:32:07.509320+00:00,1,www.elastic.co:2026-10-25,Domain used to download and execute a malicious payload,malware
 domain,main.router-apex.com,high,2026-10-25T20:32:07.509320+00:00,2026-10-25T20:32:07.509320+00:00,1,www.elastic.co:2026-10-25,Domain used as a script-download host in malicious infrastructure,malware
 domain,update.apex-arena-router.com,high,2026-10-25T20:32:07.509320+00:00,2026-10-25T20:32:07.509320+00:00,1,www.elastic.co:2026-10-25,Domain used as a script-download host in malicious infrastructure,malware
-domain,vrf.apexaccs.org,high,2026-10-19T10:34:26+00:00,2026-10-25T20:32:07.509320+00:00,2,www.elastic.co:2026-10-25|Thehackernews:2026-10-19,Domain used to obtain commands from attacker's C2 server,c2
+domain,vrf.apexaccs.org,high,2026-10-25T20:32:07.509320+00:00,2026-10-25T20:32:07.509320+00:00,1,www.elastic.co:2026-10-25,Domain used to obtain commands from attacker's C2 server,c2
 domain,loradmiadministraciones.com,high,2026-10-25T16:02:28+00:00,2026-10-25T16:02:28+00:00,1,Foxnews:2026-10-25,Domain used in a phishing scam impersonating a government agency.,phishing
 ipv4,185.17.0.52,high,2026-10-25T15:30:36.879000+00:00,2026-10-25T15:30:36.879000+00:00,1,asec.ahnlab.com:2026-10-25,"IP address used to host and distribute malware, including Amadey and RedLine",malware
 domain,malwarescan.xyz,high,2026-10-25T10:00:46.226969+00:00,2026-10-25T10:00:46.226969+00:00,1,www.lumen.com:2026-10-25,Domain registered and likely operated by the attacker for malicious purposes,c2
@@ -851,7 +900,7 @@ ipv4,66.29.153.90,high,2026-10-22T19:36:42.065904+00:00,2026-10-22T19:36:42.0659
 ipv4,91.231.182.187,high,2026-10-22T18:31:10.890874+00:00,2026-10-22T18:31:10.890874+00:00,1,www.welivesecurity.com:2026-10-22,C&C server in payloads downloaded by PteroPaste,c2
 ipv4,210.242.76.32,high,2026-10-22T17:49:54+00:00,2026-10-22T17:49:54+00:00,1,Thehackernews:2026-10-22,IP address used in exploitation attempts originating from Taiwan.,exploit|scanner
 ipv4,211.20.144.116,high,2026-10-22T17:49:54+00:00,2026-10-22T17:49:54+00:00,1,Thehackernews:2026-10-22,IP address used in exploitation attempts originating from Taiwan.,exploit|scanner
-domain,my-github.com,high,2026-10-19T13:09:39+00:00,2026-10-22T14:08:12+00:00,2,News.Ycombinator:2026-10-22|Thehackernews:2026-10-19,Registered by the threat actor for phishing and data exfiltration.,phishing
+domain,my-github.com,high,2026-10-22T14:08:12+00:00,2026-10-22T14:08:12+00:00,1,News.Ycombinator:2026-10-22,Used in phishing campaign as a GitHub-themed domain,phishing
 ipv4,193.32.204.199,high,2026-10-22T14:08:12+00:00,2026-10-22T14:08:12+00:00,1,News.Ycombinator:2026-10-22,Used for exfiltrating data in a malicious campaign,exfiltration
 domain,oskeysetup.com,high,2026-10-22T14:02:12+00:00,2026-10-22T14:02:12+00:00,1,Bleepingcomputer:2026-10-22,Domain used for phishing and adversary-in-the-middle attacks,phishing
 domain,fegrs.adidasabc.com,high,2026-10-22T13:53:58+00:00,2026-10-22T13:53:58+00:00,1,Zimperium:2026-10-22,Domain used as C2 endpoint in a malware operation,c2
@@ -948,14 +997,3 @@ domain,17447d.sh,high,2026-10-19T15:48:23+00:00,2026-10-19T15:48:23+00:00,1,Rapi
 domain,1.sh,high,2026-10-19T15:48:23+00:00,2026-10-19T15:48:23+00:00,1,Rapid7:2026-10-19,Listed as a stage server in a threat report,malware
 domain,2.sh,high,2026-10-19T15:48:23+00:00,2026-10-19T15:48:23+00:00,1,Rapid7:2026-10-19,Listed as a stage server in a threat report,malware
 domain,agent.pl,high,2026-10-19T15:48:23+00:00,2026-10-19T15:48:23+00:00,1,Rapid7:2026-10-19,Listed as part of a malicious infrastructure in a threat report,malware
-domain,api.my-github.com,high,2026-10-19T14:05:31.040619+00:00,2026-10-19T14:05:31.040619+00:00,1,opensourcemalware.com:2026-10-19,Listed as suspicious infrastructure associated with a campaign,phishing
-domain,ghassets.my-github.com,high,2026-10-19T14:05:31.040619+00:00,2026-10-19T14:05:31.040619+00:00,1,opensourcemalware.com:2026-10-19,Part of a suspicious infrastructure associated with GitHub impersonation.,phishing
-domain,gh.my-github.com,high,2026-10-19T14:05:31.040619+00:00,2026-10-19T14:05:31.040619+00:00,1,opensourcemalware.com:2026-10-19,Part of a suspicious infrastructure associated with GitHub impersonation.,phishing
-domain,github.my-github.com,high,2026-10-19T14:05:31.040619+00:00,2026-10-19T14:05:31.040619+00:00,1,opensourcemalware.com:2026-10-19,Part of a suspicious infrastructure associated with GitHub impersonation.,phishing
-domain,gitlab.my-gitlab.com,high,2026-10-19T14:05:31.040619+00:00,2026-10-19T14:05:31.040619+00:00,1,opensourcemalware.com:2026-10-19,Described as hosting a GitLab service on suspicious infrastructure.,phishing
-domain,vigilantcyber.top,high,2026-10-19T14:05:31.040619+00:00,2026-10-19T14:05:31.040619+00:00,1,opensourcemalware.com:2026-10-19,Associated with malicious infrastructure and phishing activities.,phishing
-domain,shinywire.com,high,2026-10-19T13:48:56+00:00,2026-10-19T13:48:56+00:00,1,Krebsonsecurity:2026-10-19,Described as a victim extortion website operated by ShinyHunters.,ransomware
-domain,my-gitlab.com,high,2026-10-19T13:09:39+00:00,2026-10-19T13:09:39+00:00,1,Thehackernews:2026-10-19,Registered by the threat actor for phishing and data exfiltration.,phishing|exfiltration
-domain,amgen.teams-cloud.live,high,2026-10-19T12:42:05+00:00,2026-10-19T12:42:05+00:00,1,Pasqualepillitteri.It:2026-10-19,Listed as a phishing domain in a threat report,phishing
-domain,companyname.suspicious-domain.live,high,2026-10-19T12:42:05+00:00,2026-10-19T12:42:05+00:00,1,Pasqualepillitteri.It:2026-10-19,Described as a phishing domain with a suspicious subdomain.,phishing
-domain,teams-cloud.live,high,2026-10-19T12:42:05+00:00,2026-10-19T12:42:05+00:00,1,Pasqualepillitteri.It:2026-10-19,Described as a phishing domain impersonating Microsoft Teams.,phishing
