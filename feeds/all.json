@@ -1,7 +1,7 @@
 {
   "feed": "threatcluster-public-iocs",
   "version": 1,
-  "generated_at": "2026-11-18T15:37:10Z",
+  "generated_at": "2026-11-19T15:41:59Z",
   "filters": {
     "confidence": "high",
     "window_days": 30,
@@ -11,122 +11,170 @@
       "domain"
     ]
   },
-  "count": 1015,
+  "count": 1005,
   "iocs": [
     {
       "type": "domain",
-      "value": "uncvlizd.com",
+      "value": "moments-notice.com",
       "confidence": "high",
-      "reason": "Identified as the command-and-control endpoint re-registered by attackers.",
-      "first_seen": "2026-11-18T15:01:47.568295+00:00",
-      "last_seen": "2026-11-18T15:01:47.568295+00:00",
-      "source_count": 1,
+      "reason": "Identified as linked to a phishing campaign by Microsoft",
+      "first_seen": "2026-11-14T09:09:35+00:00",
+      "last_seen": "2026-11-19T11:41:27+00:00",
+      "source_count": 9,
       "sources": [
         {
-          "source": "dreamgroup.com",
-          "url": "https://dreamgroup.com/blog/mustang-panda-asean-summit-lures-philippines",
-          "pub_date": "2026-11-18T15:01:47.568295+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Mustang Panda"
+          "source": "Ciberseguridadlatam",
+          "url": "https://ciberseguridadlatam.com/phishing-coordinado-exploto-la-caida-de-microsoft-365-los-atacantes-usaron-la-urgencia-del-apagon-real/",
+          "pub_date": "2026-11-19T11:41:27+00:00"
         },
         {
-          "type": "industry",
-          "value": "Government"
+          "source": "Chinimandi",
+          "url": "https://www.chinimandi.com/microsoft-restores-365-services-globally-after-disruption-warns-of-phishing-campaign-exploiting-outage/",
+          "pub_date": "2026-11-14T17:37:09+00:00"
         },
         {
-          "type": "malware",
-          "value": "PlugX"
+          "source": "Khaleejtimes",
+          "url": "https://www.khaleejtimes.com/business/tech/microsoft-finds-active-phishing-campaign-exploiting-service-disruption",
+          "pub_date": "2026-11-14T14:47:11+00:00"
+        },
+        {
+          "source": "Thehansindia",
+          "url": "https://www.thehansindia.com/amp/tech/microsoft-warns-users-of-phishing-attacks-after-recent-outage-1142131",
+          "pub_date": "2026-11-14T13:10:04+00:00"
+        },
+        {
+          "source": "In.Mashable",
+          "url": "https://in.mashable.com/tech/116140/microsoft-outage-has-given-hackers-a-new-opportunity-to-steal-your-passwords-company-issues-warning",
+          "pub_date": "2026-11-14T11:33:20+00:00"
         }
       ],
-      "categories": [],
+      "tags": [],
+      "categories": [
+        "phishing"
+      ],
       "basis": null
     },
     {
       "type": "domain",
-      "value": "mepintei.com",
+      "value": "newbooker.com",
       "confidence": "high",
-      "reason": "Listed as part of C2 infrastructure for EggStreme operation",
-      "first_seen": "2026-11-18T15:01:46.955903+00:00",
-      "last_seen": "2026-11-18T15:01:46.955903+00:00",
-      "source_count": 1,
+      "reason": "Identified as linked to a phishing campaign by Microsoft",
+      "first_seen": "2026-11-14T09:09:35+00:00",
+      "last_seen": "2026-11-19T11:41:27+00:00",
+      "source_count": 9,
       "sources": [
         {
-          "source": "businessinsights.bitdefender.com",
-          "url": "https://businessinsights.bitdefender.com/eggstreme-malware-revises-architecture-infrastructure",
-          "pub_date": "2026-11-18T15:01:46.955903+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "industry",
-          "value": "Government"
+          "source": "Ciberseguridadlatam",
+          "url": "https://ciberseguridadlatam.com/phishing-coordinado-exploto-la-caida-de-microsoft-365-los-atacantes-usaron-la-urgencia-del-apagon-real/",
+          "pub_date": "2026-11-19T11:41:27+00:00"
         },
         {
-          "type": "malware",
-          "value": "EggStreme"
+          "source": "Chinimandi",
+          "url": "https://www.chinimandi.com/microsoft-restores-365-services-globally-after-disruption-warns-of-phishing-campaign-exploiting-outage/",
+          "pub_date": "2026-11-14T17:37:09+00:00"
+        },
+        {
+          "source": "Khaleejtimes",
+          "url": "https://www.khaleejtimes.com/business/tech/microsoft-finds-active-phishing-campaign-exploiting-service-disruption",
+          "pub_date": "2026-11-14T14:47:11+00:00"
+        },
+        {
+          "source": "Thehansindia",
+          "url": "https://www.thehansindia.com/amp/tech/microsoft-warns-users-of-phishing-attacks-after-recent-outage-1142131",
+          "pub_date": "2026-11-14T13:10:04+00:00"
+        },
+        {
+          "source": "In.Mashable",
+          "url": "https://in.mashable.com/tech/116140/microsoft-outage-has-given-hackers-a-new-opportunity-to-steal-your-passwords-company-issues-warning",
+          "pub_date": "2026-11-14T11:33:20+00:00"
         }
       ],
-      "categories": [],
+      "tags": [],
+      "categories": [
+        "phishing"
+      ],
       "basis": null
     },
     {
-      "type": "ipv4",
-      "value": "109.248.24.84",
+      "type": "domain",
+      "value": "planetmaison.com",
       "confidence": "high",
-      "reason": "Identified as part of C2 infrastructure for EggStreme operation",
-      "first_seen": "2026-11-18T15:01:46.955903+00:00",
-      "last_seen": "2026-11-18T15:01:46.955903+00:00",
-      "source_count": 1,
+      "reason": "Identified as linked to a phishing campaign by Microsoft",
+      "first_seen": "2026-11-14T09:09:35+00:00",
+      "last_seen": "2026-11-19T11:41:27+00:00",
+      "source_count": 9,
       "sources": [
         {
-          "source": "businessinsights.bitdefender.com",
-          "url": "https://businessinsights.bitdefender.com/eggstreme-malware-revises-architecture-infrastructure",
-          "pub_date": "2026-11-18T15:01:46.955903+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "industry",
-          "value": "Government"
+          "source": "Ciberseguridadlatam",
+          "url": "https://ciberseguridadlatam.com/phishing-coordinado-exploto-la-caida-de-microsoft-365-los-atacantes-usaron-la-urgencia-del-apagon-real/",
+          "pub_date": "2026-11-19T11:41:27+00:00"
         },
         {
-          "type": "malware",
-          "value": "EggStreme"
+          "source": "Chinimandi",
+          "url": "https://www.chinimandi.com/microsoft-restores-365-services-globally-after-disruption-warns-of-phishing-campaign-exploiting-outage/",
+          "pub_date": "2026-11-14T17:37:09+00:00"
+        },
+        {
+          "source": "Khaleejtimes",
+          "url": "https://www.khaleejtimes.com/business/tech/microsoft-finds-active-phishing-campaign-exploiting-service-disruption",
+          "pub_date": "2026-11-14T14:47:11+00:00"
+        },
+        {
+          "source": "Thehansindia",
+          "url": "https://www.thehansindia.com/amp/tech/microsoft-warns-users-of-phishing-attacks-after-recent-outage-1142131",
+          "pub_date": "2026-11-14T13:10:04+00:00"
+        },
+        {
+          "source": "In.Mashable",
+          "url": "https://in.mashable.com/tech/116140/microsoft-outage-has-given-hackers-a-new-opportunity-to-steal-your-passwords-company-issues-warning",
+          "pub_date": "2026-11-14T11:33:20+00:00"
         }
       ],
-      "categories": [],
+      "tags": [],
+      "categories": [
+        "phishing"
+      ],
       "basis": null
     },
     {
-      "type": "ipv4",
-      "value": "45.115.225.73",
+      "type": "domain",
+      "value": "reallifeaccounting.com",
       "confidence": "high",
-      "reason": "Identified as part of C2 infrastructure for EggStreme operation",
-      "first_seen": "2026-11-18T15:01:46.955903+00:00",
-      "last_seen": "2026-11-18T15:01:46.955903+00:00",
-      "source_count": 1,
+      "reason": "Used as a destination for phishing links in the campaign",
+      "first_seen": "2026-11-14T09:09:35+00:00",
+      "last_seen": "2026-11-19T11:41:27+00:00",
+      "source_count": 10,
       "sources": [
         {
-          "source": "businessinsights.bitdefender.com",
-          "url": "https://businessinsights.bitdefender.com/eggstreme-malware-revises-architecture-infrastructure",
-          "pub_date": "2026-11-18T15:01:46.955903+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "industry",
-          "value": "Government"
+          "source": "Ciberseguridadlatam",
+          "url": "https://ciberseguridadlatam.com/phishing-coordinado-exploto-la-caida-de-microsoft-365-los-atacantes-usaron-la-urgencia-del-apagon-real/",
+          "pub_date": "2026-11-19T11:41:27+00:00"
         },
         {
-          "type": "malware",
-          "value": "EggStreme"
+          "source": "India",
+          "url": "https://www.india.com/technology/microsoft-satya-nadella-outlook-team-phishing-email-american-technology-facebook-instagram-twitter-gmail-global-crisis-8544982/",
+          "pub_date": "2026-11-15T02:08:49+00:00"
+        },
+        {
+          "source": "Chinimandi",
+          "url": "https://www.chinimandi.com/microsoft-restores-365-services-globally-after-disruption-warns-of-phishing-campaign-exploiting-outage/",
+          "pub_date": "2026-11-14T17:37:09+00:00"
+        },
+        {
+          "source": "Tvcnews.Tv",
+          "url": "https://www.tvcnews.tv/microsoft-warns-of-phishing-campaign-exploiting-microsoft-365-service-disruption/",
+          "pub_date": "2026-11-14T15:40:18+00:00"
+        },
+        {
+          "source": "Khaleejtimes",
+          "url": "https://www.khaleejtimes.com/business/tech/microsoft-finds-active-phishing-campaign-exploiting-service-disruption",
+          "pub_date": "2026-11-14T14:47:11+00:00"
         }
       ],
-      "categories": [],
+      "tags": [],
+      "categories": [
+        "phishing"
+      ],
       "basis": null
     },
     {
@@ -134,14 +182,14 @@
       "value": "1688360.cc",
       "confidence": "high",
       "reason": "Domain used to send stolen card data, identified as attacker infrastructure",
-      "first_seen": "2026-11-18T11:01:13.197125+00:00",
-      "last_seen": "2026-11-18T11:01:13.197125+00:00",
+      "first_seen": "2026-11-19T11:09:34.323529+00:00",
+      "last_seen": "2026-11-19T11:09:34.323529+00:00",
       "source_count": 1,
       "sources": [
         {
           "source": "www.stepsecurity.io",
           "url": "https://www.stepsecurity.io/blog/optimjack-optimizely-hosted-scripts-crypto-clipper-card-skimmer",
-          "pub_date": "2026-11-18T11:01:13.197125+00:00"
+          "pub_date": "2026-11-19T11:09:34.323529+00:00"
         }
       ],
       "tags": [
@@ -168,14 +216,14 @@
       "value": "1y69gy2mdzaltz1.icu",
       "confidence": "high",
       "reason": "Part of a batch of domains registered by the attacker for malicious use",
-      "first_seen": "2026-11-18T11:01:13.197125+00:00",
-      "last_seen": "2026-11-18T11:01:13.197125+00:00",
+      "first_seen": "2026-11-19T11:09:34.323529+00:00",
+      "last_seen": "2026-11-19T11:09:34.323529+00:00",
       "source_count": 1,
       "sources": [
         {
           "source": "www.stepsecurity.io",
           "url": "https://www.stepsecurity.io/blog/optimjack-optimizely-hosted-scripts-crypto-clipper-card-skimmer",
-          "pub_date": "2026-11-18T11:01:13.197125+00:00"
+          "pub_date": "2026-11-19T11:09:34.323529+00:00"
         }
       ],
       "tags": [
@@ -203,18 +251,18 @@
       "confidence": "high",
       "reason": "Domain used for iOS exploit delivery, identified as attacker infrastructure",
       "first_seen": "2026-11-17T02:12:41+00:00",
-      "last_seen": "2026-11-18T11:01:13.197125+00:00",
+      "last_seen": "2026-11-19T11:09:34.323529+00:00",
       "source_count": 6,
       "sources": [
         {
           "source": "www.stepsecurity.io",
           "url": "https://www.stepsecurity.io/blog/optimjack-optimizely-hosted-scripts-crypto-clipper-card-skimmer",
-          "pub_date": "2026-11-18T11:01:13.197125+00:00"
+          "pub_date": "2026-11-19T11:09:34.323529+00:00"
         },
         {
           "source": "www.infostealers.com",
           "url": "https://www.infostealers.com/article/poisoned-scripts-on-bbc-zoom-and-other-major-websites-linked-to-iphone-exploit-loaders/",
-          "pub_date": "2026-11-17T22:02:18.875976+00:00"
+          "pub_date": "2026-11-18T18:35:06.684387+00:00"
         },
         {
           "source": "blog.report-uri.com",
@@ -261,18 +309,18 @@
       "confidence": "high",
       "reason": "Domain used for iOS exploit delivery, identified as attacker infrastructure",
       "first_seen": "2026-11-17T02:12:41+00:00",
-      "last_seen": "2026-11-18T11:01:13.197125+00:00",
+      "last_seen": "2026-11-19T11:09:34.323529+00:00",
       "source_count": 5,
       "sources": [
         {
           "source": "www.stepsecurity.io",
           "url": "https://www.stepsecurity.io/blog/optimjack-optimizely-hosted-scripts-crypto-clipper-card-skimmer",
-          "pub_date": "2026-11-18T11:01:13.197125+00:00"
+          "pub_date": "2026-11-19T11:09:34.323529+00:00"
         },
         {
           "source": "www.infostealers.com",
           "url": "https://www.infostealers.com/article/poisoned-scripts-on-bbc-zoom-and-other-major-websites-linked-to-iphone-exploit-loaders/",
-          "pub_date": "2026-11-17T22:02:18.875976+00:00"
+          "pub_date": "2026-11-18T18:35:06.684387+00:00"
         },
         {
           "source": "Gbhackers",
@@ -318,14 +366,14 @@
       "value": "gm38duxoihbmy5o.icu",
       "confidence": "high",
       "reason": "Part of a batch of domains registered by the attacker for malicious use",
-      "first_seen": "2026-11-18T11:01:13.197125+00:00",
-      "last_seen": "2026-11-18T11:01:13.197125+00:00",
+      "first_seen": "2026-11-19T11:09:34.323529+00:00",
+      "last_seen": "2026-11-19T11:09:34.323529+00:00",
       "source_count": 1,
       "sources": [
         {
           "source": "www.stepsecurity.io",
           "url": "https://www.stepsecurity.io/blog/optimjack-optimizely-hosted-scripts-crypto-clipper-card-skimmer",
-          "pub_date": "2026-11-18T11:01:13.197125+00:00"
+          "pub_date": "2026-11-19T11:09:34.323529+00:00"
         }
       ],
       "tags": [
@@ -352,19 +400,19 @@
       "value": "l7bcsnwc7nzr3uo.icu",
       "confidence": "high",
       "reason": "Domain registered by the attacker for malicious use",
-      "first_seen": "2026-11-17T22:02:18.875976+00:00",
-      "last_seen": "2026-11-18T11:01:13.197125+00:00",
+      "first_seen": "2026-11-18T18:35:06.684387+00:00",
+      "last_seen": "2026-11-19T11:09:34.323529+00:00",
       "source_count": 2,
       "sources": [
         {
           "source": "www.stepsecurity.io",
           "url": "https://www.stepsecurity.io/blog/optimjack-optimizely-hosted-scripts-crypto-clipper-card-skimmer",
-          "pub_date": "2026-11-18T11:01:13.197125+00:00"
+          "pub_date": "2026-11-19T11:09:34.323529+00:00"
         },
         {
           "source": "www.infostealers.com",
           "url": "https://www.infostealers.com/article/poisoned-scripts-on-bbc-zoom-and-other-major-websites-linked-to-iphone-exploit-loaders/",
-          "pub_date": "2026-11-17T22:02:18.875976+00:00"
+          "pub_date": "2026-11-18T18:35:06.684387+00:00"
         }
       ],
       "tags": [
@@ -395,14 +443,14 @@
       "value": "p55abnw2pnsz0bo.icu",
       "confidence": "high",
       "reason": "Part of a batch of domains registered by the attacker for malicious use",
-      "first_seen": "2026-11-18T11:01:13.197125+00:00",
-      "last_seen": "2026-11-18T11:01:13.197125+00:00",
+      "first_seen": "2026-11-19T11:09:34.323529+00:00",
+      "last_seen": "2026-11-19T11:09:34.323529+00:00",
       "source_count": 1,
       "sources": [
         {
           "source": "www.stepsecurity.io",
           "url": "https://www.stepsecurity.io/blog/optimjack-optimizely-hosted-scripts-crypto-clipper-card-skimmer",
-          "pub_date": "2026-11-18T11:01:13.197125+00:00"
+          "pub_date": "2026-11-19T11:09:34.323529+00:00"
         }
       ],
       "tags": [
@@ -429,14 +477,14 @@
       "value": "q1ls1ho9x7wsxlu.icu",
       "confidence": "high",
       "reason": "Domain registered by the attacker for malicious use",
-      "first_seen": "2026-11-18T11:01:13.197125+00:00",
-      "last_seen": "2026-11-18T11:01:13.197125+00:00",
+      "first_seen": "2026-11-19T11:09:34.323529+00:00",
+      "last_seen": "2026-11-19T11:09:34.323529+00:00",
       "source_count": 1,
       "sources": [
         {
           "source": "www.stepsecurity.io",
           "url": "https://www.stepsecurity.io/blog/optimjack-optimizely-hosted-scripts-crypto-clipper-card-skimmer",
-          "pub_date": "2026-11-18T11:01:13.197125+00:00"
+          "pub_date": "2026-11-19T11:09:34.323529+00:00"
         }
       ],
       "tags": [
@@ -453,6 +501,985 @@
           "value": "DarkSword"
         }
       ],
+      "categories": [
+        "malware"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "fromtheriver2theseapalestinewillbefree.com",
+      "confidence": "high",
+      "reason": "Domain registered by a group member for potential redirection to content",
+      "first_seen": "2026-11-19T11:00:00+00:00",
+      "last_seen": "2026-11-19T11:00:00+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Wired",
+          "url": "https://www.wired.com/story/leaked-how-silicon-valley-elites-bankrolled-anti-migrant-pro-israel-propaganda-machine/",
+          "pub_date": "2026-11-19T11:00:00+00:00"
+        }
+      ],
+      "tags": [],
+      "categories": [],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "fromtherivertothesee.com",
+      "confidence": "high",
+      "reason": "Domain registered by a group member for potential redirection to content",
+      "first_seen": "2026-11-19T11:00:00+00:00",
+      "last_seen": "2026-11-19T11:00:00+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Wired",
+          "url": "https://www.wired.com/story/leaked-how-silicon-valley-elites-bankrolled-anti-migrant-pro-israel-propaganda-machine/",
+          "pub_date": "2026-11-19T11:00:00+00:00"
+        }
+      ],
+      "tags": [],
+      "categories": [],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "longlivetheintifada.com",
+      "confidence": "high",
+      "reason": "Domain registered by a group member for potential redirection to content",
+      "first_seen": "2026-11-19T11:00:00+00:00",
+      "last_seen": "2026-11-19T11:00:00+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Wired",
+          "url": "https://www.wired.com/story/leaked-how-silicon-valley-elites-bankrolled-anti-migrant-pro-israel-propaganda-machine/",
+          "pub_date": "2026-11-19T11:00:00+00:00"
+        }
+      ],
+      "tags": [],
+      "categories": [],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "wechargeyouwithgenocide.com",
+      "confidence": "high",
+      "reason": "Domain registered by a group member for potential redirection to content",
+      "first_seen": "2026-11-19T11:00:00+00:00",
+      "last_seen": "2026-11-19T11:00:00+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Wired",
+          "url": "https://www.wired.com/story/leaked-how-silicon-valley-elites-bankrolled-anti-migrant-pro-israel-propaganda-machine/",
+          "pub_date": "2026-11-19T11:00:00+00:00"
+        }
+      ],
+      "tags": [],
+      "categories": [],
+      "basis": null
+    },
+    {
+      "type": "ipv4",
+      "value": "130.94.67.235",
+      "confidence": "high",
+      "reason": "Exposed IP address for a custom heap exploit.",
+      "first_seen": "2026-10-30T17:50:37+00:00",
+      "last_seen": "2026-11-19T06:01:46.669414+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "hunt.io",
+          "url": "https://hunt.io/blog/php2shell-honeypot-shells-root-palo-alto-firewalls",
+          "pub_date": "2026-11-19T06:01:46.669414+00:00"
+        },
+        {
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/Malware/comments/1xjmb2a/php2shell_exploit_toolkits_and_a_panos/",
+          "pub_date": "2026-10-30T17:50:37+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2026-109618"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-109619"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-115560"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-46300"
+        }
+      ],
+      "categories": [
+        "exploit"
+      ],
+      "basis": null
+    },
+    {
+      "type": "ipv4",
+      "value": "198.41.83.165",
+      "confidence": "high",
+      "reason": "Hosts php2shell exploit script and other attack tools.",
+      "first_seen": "2026-11-19T06:01:46.669414+00:00",
+      "last_seen": "2026-11-19T06:01:46.669414+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "hunt.io",
+          "url": "https://hunt.io/blog/php2shell-honeypot-shells-root-palo-alto-firewalls",
+          "pub_date": "2026-11-19T06:01:46.669414+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2026-109618"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-109619"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-115560"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-46300"
+        }
+      ],
+      "categories": [
+        "exploit"
+      ],
+      "basis": null
+    },
+    {
+      "type": "ipv4",
+      "value": "198.41.83.174",
+      "confidence": "high",
+      "reason": "Hosts php2shell exploit script and other attack tools.",
+      "first_seen": "2026-11-19T06:01:46.669414+00:00",
+      "last_seen": "2026-11-19T06:01:46.669414+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "hunt.io",
+          "url": "https://hunt.io/blog/php2shell-honeypot-shells-root-palo-alto-firewalls",
+          "pub_date": "2026-11-19T06:01:46.669414+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2026-109618"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-109619"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-115560"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-46300"
+        }
+      ],
+      "categories": [
+        "exploit"
+      ],
+      "basis": null
+    },
+    {
+      "type": "ipv4",
+      "value": "38.60.136.217",
+      "confidence": "high",
+      "reason": "Part of shared exploit kit infrastructure used by attackers.",
+      "first_seen": "2026-11-19T06:01:46.669414+00:00",
+      "last_seen": "2026-11-19T06:01:46.669414+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "hunt.io",
+          "url": "https://hunt.io/blog/php2shell-honeypot-shells-root-palo-alto-firewalls",
+          "pub_date": "2026-11-19T06:01:46.669414+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2026-109618"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-109619"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-115560"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-46300"
+        }
+      ],
+      "categories": [
+        "exploit"
+      ],
+      "basis": null
+    },
+    {
+      "type": "ipv4",
+      "value": "96.126.130.81",
+      "confidence": "high",
+      "reason": "Part of shared exploit kit infrastructure used by attackers.",
+      "first_seen": "2026-11-19T06:01:46.669414+00:00",
+      "last_seen": "2026-11-19T06:01:46.669414+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "hunt.io",
+          "url": "https://hunt.io/blog/php2shell-honeypot-shells-root-palo-alto-firewalls",
+          "pub_date": "2026-11-19T06:01:46.669414+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2026-109618"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-109619"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-115560"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-46300"
+        }
+      ],
+      "categories": [
+        "exploit"
+      ],
+      "basis": null
+    },
+    {
+      "type": "ipv4",
+      "value": "77.239.124.204",
+      "confidence": "high",
+      "reason": "Involved in SSH brute force attack",
+      "first_seen": "2026-11-19T01:53:48+00:00",
+      "last_seen": "2026-11-19T01:53:48+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Isc.Sans.Edu",
+          "url": "https://isc.sans.edu/diary/rss/33534",
+          "pub_date": "2026-11-19T01:53:48+00:00"
+        }
+      ],
+      "tags": [],
+      "categories": [
+        "scanner"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "nginxmysql.com",
+      "confidence": "high",
+      "reason": "Identified as C2 infrastructure linked to espionage activity.",
+      "first_seen": "2026-11-18T16:09:36+00:00",
+      "last_seen": "2026-11-18T22:59:12+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Darktrace",
+          "url": "https://www.darktrace.com/blog/microsoft-perception-agentic-insiders-and-the-role-of-behavioral-security",
+          "pub_date": "2026-11-18T22:59:12+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "industry",
+          "value": "Defense"
+        },
+        {
+          "type": "industry",
+          "value": "Financial"
+        },
+        {
+          "type": "industry",
+          "value": "Government"
+        },
+        {
+          "type": "industry",
+          "value": "Technology"
+        }
+      ],
+      "categories": [
+        "c2"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "sqlserver-sqlite.com",
+      "confidence": "high",
+      "reason": "Listed as an indicator of compromise in the threat report",
+      "first_seen": "2026-11-18T16:09:36+00:00",
+      "last_seen": "2026-11-18T22:59:12+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Darktrace",
+          "url": "https://www.darktrace.com/blog/microsoft-perception-agentic-insiders-and-the-role-of-behavioral-security",
+          "pub_date": "2026-11-18T22:59:12+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "industry",
+          "value": "Defense"
+        },
+        {
+          "type": "industry",
+          "value": "Financial"
+        },
+        {
+          "type": "industry",
+          "value": "Government"
+        },
+        {
+          "type": "industry",
+          "value": "Technology"
+        }
+      ],
+      "categories": [
+        "other"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "www.ddduuuppp.com",
+      "confidence": "high",
+      "reason": "Listed as an indicator of compromise in the threat report",
+      "first_seen": "2026-11-18T16:09:36+00:00",
+      "last_seen": "2026-11-18T22:59:12+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Darktrace",
+          "url": "https://www.darktrace.com/blog/microsoft-perception-agentic-insiders-and-the-role-of-behavioral-security",
+          "pub_date": "2026-11-18T22:59:12+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "industry",
+          "value": "Defense"
+        },
+        {
+          "type": "industry",
+          "value": "Financial"
+        },
+        {
+          "type": "industry",
+          "value": "Government"
+        },
+        {
+          "type": "industry",
+          "value": "Technology"
+        }
+      ],
+      "categories": [
+        "other"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "ios-hack.icu",
+      "confidence": "high",
+      "reason": "Domain associated with iOS exploit infrastructure",
+      "first_seen": "2026-11-18T18:35:06.684387+00:00",
+      "last_seen": "2026-11-18T18:35:06.684387+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.infostealers.com",
+          "url": "https://www.infostealers.com/article/poisoned-scripts-on-bbc-zoom-and-other-major-websites-linked-to-iphone-exploit-loaders/",
+          "pub_date": "2026-11-18T18:35:06.684387+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "industry",
+          "value": "Banking"
+        },
+        {
+          "type": "industry",
+          "value": "Business Services"
+        },
+        {
+          "type": "industry",
+          "value": "Communications"
+        },
+        {
+          "type": "industry",
+          "value": "News"
+        }
+      ],
+      "categories": [
+        "malware"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "webshell.lol",
+      "confidence": "high",
+      "reason": "Domain used as an injector in the attack",
+      "first_seen": "2026-11-17T02:12:41+00:00",
+      "last_seen": "2026-11-18T18:35:06.684387+00:00",
+      "source_count": 6,
+      "sources": [
+        {
+          "source": "www.infostealers.com",
+          "url": "https://www.infostealers.com/article/poisoned-scripts-on-bbc-zoom-and-other-major-websites-linked-to-iphone-exploit-loaders/",
+          "pub_date": "2026-11-18T18:35:06.684387+00:00"
+        },
+        {
+          "source": "blog.report-uri.com",
+          "url": "https://blog.report-uri.com/worlds-largest-brands-infected-with-malware-via-optimizely/",
+          "pub_date": "2026-11-17T15:01:53.604417+00:00"
+        },
+        {
+          "source": "mallory.ai",
+          "url": "https://mallory.ai/stories/01a1e667-4cf7-75e6-8063-2e293c9b61a1",
+          "pub_date": "2026-11-17T12:03:21.808647+00:00"
+        },
+        {
+          "source": "Securityaffairs.Co",
+          "url": "https://securityaffairs.com/203289/malware/optimjack-bbc-cnn-and-zoom-among-targets-of-optimizely-script-hijacking.html",
+          "pub_date": "2026-11-17T09:38:44+00:00"
+        },
+        {
+          "source": "Thehackernews",
+          "url": "https://thehackernews.com/2026/11/hijacked-optimizely-scripts-served-card.html",
+          "pub_date": "2026-11-17T07:17:57+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "malware",
+          "value": "Coruna"
+        },
+        {
+          "type": "malware",
+          "value": "DarkSword"
+        },
+        {
+          "type": "campaign",
+          "value": "Optimjack"
+        },
+        {
+          "type": "campaign",
+          "value": "Optimizely Supply Chain Attack"
+        }
+      ],
+      "categories": [
+        "malware"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "je4ft3gn8vxudum.icu",
+      "confidence": "high",
+      "reason": "Registered and used in malicious campaign",
+      "first_seen": "2026-11-18T18:35:05.861352+00:00",
+      "last_seen": "2026-11-18T18:35:05.861352+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.stepsecurity.io",
+          "url": "https://www.stepsecurity.io/blog/optimjack-optimizely-hosted-scripts-crypto-clipper-card-skimmer?ref=metacurity.com",
+          "pub_date": "2026-11-18T18:35:05.861352+00:00"
+        }
+      ],
+      "tags": [],
+      "categories": [
+        "other"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "gta6demo.asia",
+      "confidence": "high",
+      "reason": "Associated with a fake GTA VI demo used to distribute malware",
+      "first_seen": "2026-11-18T04:30:00+00:00",
+      "last_seen": "2026-11-18T16:09:36+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "Darktrace",
+          "url": "https://www.darktrace.com/fr/blog/agentic-attacks-in-the-wild-inside-three-artex-investigations",
+          "pub_date": "2026-11-18T16:09:36+00:00"
+        },
+        {
+          "source": "Computerweekly",
+          "url": "https://www.computerweekly.com/news/366654629/The-cyber-threats-to-businesses-from-Grand-Theft-Auto-VI",
+          "pub_date": "2026-11-18T04:30:00+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Bloodalchemy"
+        },
+        {
+          "type": "campaign",
+          "value": "Artex Campaigns"
+        },
+        {
+          "type": "industry",
+          "value": "Defense"
+        },
+        {
+          "type": "industry",
+          "value": "Finance"
+        }
+      ],
+      "categories": [
+        "malware",
+        "fake_software"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "gta6-play.ru",
+      "confidence": "high",
+      "reason": "Domain flagged as potentially malicious and used to advertise a fake GTA VI download",
+      "first_seen": "2026-11-18T04:30:00+00:00",
+      "last_seen": "2026-11-18T16:09:36+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "Darktrace",
+          "url": "https://www.darktrace.com/fr/blog/agentic-attacks-in-the-wild-inside-three-artex-investigations",
+          "pub_date": "2026-11-18T16:09:36+00:00"
+        },
+        {
+          "source": "Computerweekly",
+          "url": "https://www.computerweekly.com/news/366654629/The-cyber-threats-to-businesses-from-Grand-Theft-Auto-VI",
+          "pub_date": "2026-11-18T04:30:00+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Bloodalchemy"
+        },
+        {
+          "type": "campaign",
+          "value": "Artex Campaigns"
+        },
+        {
+          "type": "industry",
+          "value": "Defense"
+        },
+        {
+          "type": "industry",
+          "value": "Finance"
+        }
+      ],
+      "categories": [
+        "fake_software"
+      ],
+      "basis": null
+    },
+    {
+      "type": "ipv4",
+      "value": "45.153.126.223",
+      "confidence": "high",
+      "reason": "Linked to BLOODALCHEMY C2 infrastructure",
+      "first_seen": "2026-11-18T16:09:36+00:00",
+      "last_seen": "2026-11-18T16:09:36+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Darktrace",
+          "url": "https://www.darktrace.com/fr/blog/agentic-attacks-in-the-wild-inside-three-artex-investigations",
+          "pub_date": "2026-11-18T16:09:36+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Bloodalchemy"
+        },
+        {
+          "type": "campaign",
+          "value": "Artex Campaigns"
+        },
+        {
+          "type": "industry",
+          "value": "Defense"
+        },
+        {
+          "type": "industry",
+          "value": "Financial"
+        }
+      ],
+      "categories": [
+        "c2"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "uncvlizd.com",
+      "confidence": "high",
+      "reason": "Identified as the command-and-control endpoint re-registered by attackers.",
+      "first_seen": "2026-11-18T15:01:47.568295+00:00",
+      "last_seen": "2026-11-18T15:01:47.568295+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "dreamgroup.com",
+          "url": "https://dreamgroup.com/blog/mustang-panda-asean-summit-lures-philippines",
+          "pub_date": "2026-11-18T15:01:47.568295+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "apt_group",
+          "value": "Mustang Panda"
+        },
+        {
+          "type": "industry",
+          "value": "Government"
+        },
+        {
+          "type": "malware",
+          "value": "PlugX"
+        }
+      ],
+      "categories": [
+        "c2"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "mepintei.com",
+      "confidence": "high",
+      "reason": "Listed as part of the C2 infrastructure for EggStremeFuel activity",
+      "first_seen": "2026-11-18T14:29:25+00:00",
+      "last_seen": "2026-11-18T15:01:46.955903+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "businessinsights.bitdefender.com",
+          "url": "https://businessinsights.bitdefender.com/eggstreme-malware-revises-architecture-infrastructure",
+          "pub_date": "2026-11-18T15:01:46.955903+00:00"
+        },
+        {
+          "source": "Bitdefender",
+          "url": "https://www.bitdefender.com/en-gb/blog/businessinsights/eggstreme-malware-revises-architecture-infrastructure",
+          "pub_date": "2026-11-18T14:29:25+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "industry",
+          "value": "Government"
+        },
+        {
+          "type": "malware",
+          "value": "EggStreme"
+        }
+      ],
+      "categories": [
+        "c2"
+      ],
+      "basis": null
+    },
+    {
+      "type": "ipv4",
+      "value": "109.248.24.84",
+      "confidence": "high",
+      "reason": "Identified as part of the C2 infrastructure for EggStremeFuel activity",
+      "first_seen": "2026-11-18T14:29:25+00:00",
+      "last_seen": "2026-11-18T15:01:46.955903+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "businessinsights.bitdefender.com",
+          "url": "https://businessinsights.bitdefender.com/eggstreme-malware-revises-architecture-infrastructure",
+          "pub_date": "2026-11-18T15:01:46.955903+00:00"
+        },
+        {
+          "source": "Bitdefender",
+          "url": "https://www.bitdefender.com/en-gb/blog/businessinsights/eggstreme-malware-revises-architecture-infrastructure",
+          "pub_date": "2026-11-18T14:29:25+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "industry",
+          "value": "Government"
+        },
+        {
+          "type": "malware",
+          "value": "EggStreme"
+        }
+      ],
+      "categories": [
+        "c2"
+      ],
+      "basis": null
+    },
+    {
+      "type": "ipv4",
+      "value": "45.115.225.73",
+      "confidence": "high",
+      "reason": "Identified as part of the C2 infrastructure for EggStremeFuel activity",
+      "first_seen": "2026-11-18T14:29:25+00:00",
+      "last_seen": "2026-11-18T15:01:46.955903+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "businessinsights.bitdefender.com",
+          "url": "https://businessinsights.bitdefender.com/eggstreme-malware-revises-architecture-infrastructure",
+          "pub_date": "2026-11-18T15:01:46.955903+00:00"
+        },
+        {
+          "source": "Bitdefender",
+          "url": "https://www.bitdefender.com/en-gb/blog/businessinsights/eggstreme-malware-revises-architecture-infrastructure",
+          "pub_date": "2026-11-18T14:29:25+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "industry",
+          "value": "Government"
+        },
+        {
+          "type": "malware",
+          "value": "EggStreme"
+        }
+      ],
+      "categories": [
+        "c2"
+      ],
+      "basis": null
+    },
+    {
+      "type": "ipv4",
+      "value": "149.104.109.230",
+      "confidence": "high",
+      "reason": "Listed as part of C2 infrastructure for EggStremeFuel",
+      "first_seen": "2026-11-18T14:29:25+00:00",
+      "last_seen": "2026-11-18T14:29:25+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Bitdefender",
+          "url": "https://www.bitdefender.com/en-gb/blog/businessinsights/eggstreme-malware-revises-architecture-infrastructure",
+          "pub_date": "2026-11-18T14:29:25+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "industry",
+          "value": "Government"
+        },
+        {
+          "type": "malware",
+          "value": "EggStreme"
+        }
+      ],
+      "categories": [
+        "c2"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "brokerok.org",
+      "confidence": "high",
+      "reason": "Subdomains used in malicious activities",
+      "first_seen": "2026-11-18T13:11:08+00:00",
+      "last_seen": "2026-11-18T13:11:08+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Threatfabric",
+          "url": "https://www.threatfabric.com/blogs/bazuka-the-fraud-framework-that-can-do-it-all",
+          "pub_date": "2026-11-18T13:11:08+00:00"
+        }
+      ],
+      "tags": [],
+      "categories": [
+        "malware"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "c2data.brokerok.org",
+      "confidence": "high",
+      "reason": "Subdomain used in malicious activities",
+      "first_seen": "2026-11-18T13:11:08+00:00",
+      "last_seen": "2026-11-18T13:11:08+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Threatfabric",
+          "url": "https://www.threatfabric.com/blogs/bazuka-the-fraud-framework-that-can-do-it-all",
+          "pub_date": "2026-11-18T13:11:08+00:00"
+        }
+      ],
+      "tags": [],
+      "categories": [
+        "malware"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "c2proxy.brokerok.org",
+      "confidence": "high",
+      "reason": "Subdomain used in malicious activities",
+      "first_seen": "2026-11-18T13:11:08+00:00",
+      "last_seen": "2026-11-18T13:11:08+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Threatfabric",
+          "url": "https://www.threatfabric.com/blogs/bazuka-the-fraud-framework-that-can-do-it-all",
+          "pub_date": "2026-11-18T13:11:08+00:00"
+        }
+      ],
+      "tags": [],
+      "categories": [
+        "malware"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "com.tiktok.premium.pro",
+      "confidence": "high",
+      "reason": "Used in malicious APK installation",
+      "first_seen": "2026-11-18T13:11:08+00:00",
+      "last_seen": "2026-11-18T13:11:08+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Threatfabric",
+          "url": "https://www.threatfabric.com/blogs/bazuka-the-fraud-framework-that-can-do-it-all",
+          "pub_date": "2026-11-18T13:11:08+00:00"
+        }
+      ],
+      "tags": [],
+      "categories": [
+        "malware"
+      ],
+      "basis": null
+    },
+    {
+      "type": "ipv4",
+      "value": "95.181.213.21",
+      "confidence": "high",
+      "reason": "Used by attacker for hosting malicious infrastructure",
+      "first_seen": "2026-11-18T13:11:08+00:00",
+      "last_seen": "2026-11-18T13:11:08+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Threatfabric",
+          "url": "https://www.threatfabric.com/blogs/bazuka-the-fraud-framework-that-can-do-it-all",
+          "pub_date": "2026-11-18T13:11:08+00:00"
+        }
+      ],
+      "tags": [],
+      "categories": [
+        "malware"
+      ],
+      "basis": null
+    },
+    {
+      "type": "ipv4",
+      "value": "206.245.153.56",
+      "confidence": "high",
+      "reason": "Serves as C2, payload-hosting, and loot-collection server for exploitation campaign.",
+      "first_seen": "2026-11-18T13:03:01+00:00",
+      "last_seen": "2026-11-18T13:03:01+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Socradar",
+          "url": "https://socradar.io/blog/php2shell-ai-agents-credential-harvesting/",
+          "pub_date": "2026-11-18T13:03:01+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2026-109618"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-109619"
+        },
+        {
+          "type": "malware",
+          "value": "PHP2Shell"
+        }
+      ],
+      "categories": [
+        "c2",
+        "malware",
+        "exfiltration"
+      ],
+      "basis": null
+    },
+    {
+      "type": "ipv4",
+      "value": "41.216.188.11",
+      "confidence": "high",
+      "reason": "Used by threat actor for hosting malicious files",
+      "first_seen": "2026-11-18T11:00:00+00:00",
+      "last_seen": "2026-11-18T11:00:00+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Blog.Talosintelligence",
+          "url": "https://blog.talosintelligence.com/uat-12643-suspected-north-korea-aligned-actor-blends-blockchain-resilience-with-targeted-infostealing/",
+          "pub_date": "2026-11-18T11:00:00+00:00"
+        }
+      ],
+      "tags": [],
       "categories": [
         "malware"
       ],
@@ -832,79 +1859,44 @@
       "basis": null
     },
     {
-      "type": "domain",
-      "value": "gta6demo.asia",
+      "type": "ipv4",
+      "value": "146.103.42.94",
       "confidence": "high",
-      "reason": "Domain associated with a fake GTA VI demo package used to distribute malware",
-      "first_seen": "2026-11-18T04:30:00+00:00",
-      "last_seen": "2026-11-18T04:30:00+00:00",
+      "reason": "Identified as hosting a Mythic C2 interface",
+      "first_seen": "2026-11-18T06:01:52+00:00",
+      "last_seen": "2026-11-18T06:01:52+00:00",
       "source_count": 1,
       "sources": [
         {
-          "source": "Computerweekly",
-          "url": "https://www.computerweekly.com/news/366654629/The-cyber-threats-to-businesses-from-Grand-Theft-Auto-VI",
-          "pub_date": "2026-11-18T04:30:00+00:00"
+          "source": "Redpacketsecurity",
+          "url": "https://www.redpacketsecurity.com/mythic-c2-detected-146-103-42-94-port-7443/",
+          "pub_date": "2026-11-18T06:01:52+00:00"
         }
       ],
-      "tags": [
-        {
-          "type": "industry",
-          "value": "Finance"
-        },
-        {
-          "type": "industry",
-          "value": "Healthcare"
-        },
-        {
-          "type": "industry",
-          "value": "Manufacturing"
-        },
-        {
-          "type": "malware",
-          "value": "Vidar Infostealer"
-        }
-      ],
+      "tags": [],
       "categories": [
-        "malware",
-        "fake_software"
+        "c2"
       ],
       "basis": null
     },
     {
-      "type": "domain",
-      "value": "gta6-play.ru",
+      "type": "ipv4",
+      "value": "194.29.187.168",
       "confidence": "high",
-      "reason": "Domain flagged as potentially malicious and associated with a fake GTA VI site",
-      "first_seen": "2026-11-18T04:30:00+00:00",
-      "last_seen": "2026-11-18T04:30:00+00:00",
+      "reason": "Identified as a Mythic C2 server",
+      "first_seen": "2026-11-18T06:01:52+00:00",
+      "last_seen": "2026-11-18T06:01:52+00:00",
       "source_count": 1,
       "sources": [
         {
-          "source": "Computerweekly",
-          "url": "https://www.computerweekly.com/news/366654629/The-cyber-threats-to-businesses-from-Grand-Theft-Auto-VI",
-          "pub_date": "2026-11-18T04:30:00+00:00"
+          "source": "Redpacketsecurity",
+          "url": "https://www.redpacketsecurity.com/mythic-c2-detected-194-29-187-168-port-7443/",
+          "pub_date": "2026-11-18T06:01:52+00:00"
         }
       ],
-      "tags": [
-        {
-          "type": "industry",
-          "value": "Finance"
-        },
-        {
-          "type": "industry",
-          "value": "Healthcare"
-        },
-        {
-          "type": "industry",
-          "value": "Manufacturing"
-        },
-        {
-          "type": "malware",
-          "value": "Vidar Infostealer"
-        }
-      ],
+      "tags": [],
       "categories": [
-        "fake_software"
+        "c2"
       ],
       "basis": null
     },
@@ -1057,102 +2049,6 @@
         {
           "type": "malware",
           "value": "Web Media Optimizer"
-        }
-      ],
-      "categories": [
-        "malware"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "ios-hack.icu",
-      "confidence": "high",
-      "reason": "Domain associated with iOS exploit infrastructure",
-      "first_seen": "2026-11-17T22:02:18.875976+00:00",
-      "last_seen": "2026-11-17T22:02:18.875976+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.infostealers.com",
-          "url": "https://www.infostealers.com/article/poisoned-scripts-on-bbc-zoom-and-other-major-websites-linked-to-iphone-exploit-loaders/",
-          "pub_date": "2026-11-17T22:02:18.875976+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "industry",
-          "value": "Banking"
-        },
-        {
-          "type": "industry",
-          "value": "Business Services"
-        },
-        {
-          "type": "industry",
-          "value": "Communications"
-        },
-        {
-          "type": "industry",
-          "value": "News"
-        }
-      ],
-      "categories": [
-        "malware"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "webshell.lol",
-      "confidence": "high",
-      "reason": "Domain used as an injector in the attack",
-      "first_seen": "2026-11-17T02:12:41+00:00",
-      "last_seen": "2026-11-17T22:02:18.875976+00:00",
-      "source_count": 6,
-      "sources": [
-        {
-          "source": "www.infostealers.com",
-          "url": "https://www.infostealers.com/article/poisoned-scripts-on-bbc-zoom-and-other-major-websites-linked-to-iphone-exploit-loaders/",
-          "pub_date": "2026-11-17T22:02:18.875976+00:00"
-        },
-        {
-          "source": "blog.report-uri.com",
-          "url": "https://blog.report-uri.com/worlds-largest-brands-infected-with-malware-via-optimizely/",
-          "pub_date": "2026-11-17T15:01:53.604417+00:00"
-        },
-        {
-          "source": "mallory.ai",
-          "url": "https://mallory.ai/stories/01a1e667-4cf7-75e6-8063-2e293c9b61a1",
-          "pub_date": "2026-11-17T12:03:21.808647+00:00"
-        },
-        {
-          "source": "Securityaffairs.Co",
-          "url": "https://securityaffairs.com/203289/malware/optimjack-bbc-cnn-and-zoom-among-targets-of-optimizely-script-hijacking.html",
-          "pub_date": "2026-11-17T09:38:44+00:00"
-        },
-        {
-          "source": "Thehackernews",
-          "url": "https://thehackernews.com/2026/11/hijacked-optimizely-scripts-served-card.html",
-          "pub_date": "2026-11-17T07:17:57+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "malware",
-          "value": "Coruna"
-        },
-        {
-          "type": "malware",
-          "value": "DarkSword"
-        },
-        {
-          "type": "campaign",
-          "value": "Optimjack"
-        },
-        {
-          "type": "campaign",
-          "value": "Optimizely Supply Chain Attack"
         }
       ],
       "categories": [
@@ -3791,27 +4687,6 @@
       "basis": null
     },
     {
-      "type": "domain",
-      "value": "ngoogle.com",
-      "confidence": "high",
-      "reason": "Domain used in a script injection attack.",
-      "first_seen": "2026-11-16T02:04:48+00:00",
-      "last_seen": "2026-11-16T02:04:48+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "News.Ycombinator",
-          "url": "https://iter.ca/post/ubo-uxss/",
-          "pub_date": "2026-11-16T02:04:48+00:00"
-        }
-      ],
-      "tags": [],
-      "categories": [
-        "other"
-      ],
-      "basis": null
-    },
-    {
       "type": "ipv4",
       "value": "180.178.56.10",
       "confidence": "high",
@@ -5349,47 +6224,6 @@
     },
     {
       "type": "domain",
-      "value": "reallifeaccounting.com",
-      "confidence": "high",
-      "reason": "Used as a destination for phishing links in the campaign",
-      "first_seen": "2026-11-14T09:09:35+00:00",
-      "last_seen": "2026-11-15T02:08:49+00:00",
-      "source_count": 9,
-      "sources": [
-        {
-          "source": "India",
-          "url": "https://www.india.com/technology/microsoft-satya-nadella-outlook-team-phishing-email-american-technology-facebook-instagram-twitter-gmail-global-crisis-8544982/",
-          "pub_date": "2026-11-15T02:08:49+00:00"
-        },
-        {
-          "source": "Chinimandi",
-          "url": "https://www.chinimandi.com/microsoft-restores-365-services-globally-after-disruption-warns-of-phishing-campaign-exploiting-outage/",
-          "pub_date": "2026-11-14T17:37:09+00:00"
-        },
-        {
-          "source": "Tvcnews.Tv",
-          "url": "https://www.tvcnews.tv/microsoft-warns-of-phishing-campaign-exploiting-microsoft-365-service-disruption/",
-          "pub_date": "2026-11-14T15:40:18+00:00"
-        },
-        {
-          "source": "Khaleejtimes",
-          "url": "https://www.khaleejtimes.com/business/tech/microsoft-finds-active-phishing-campaign-exploiting-service-disruption",
-          "pub_date": "2026-11-14T14:47:11+00:00"
-        },
-        {
-          "source": "Thehansindia",
-          "url": "https://www.thehansindia.com/amp/tech/microsoft-warns-users-of-phishing-attacks-after-recent-outage-1142131",
-          "pub_date": "2026-11-14T13:10:04+00:00"
-        }
-      ],
-      "tags": [],
-      "categories": [
-        "phishing"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
       "value": "airdropradar.club",
       "confidence": "high",
       "reason": "Listed as an airdrop site behind a challenge page, likely attacker-controlled.",
@@ -5619,129 +6453,6 @@
       "categories": [
         "crypto_drainer",
         "scam_fraud"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "moments-notice.com",
-      "confidence": "high",
-      "reason": "Identified as linked to a phishing campaign by Microsoft",
-      "first_seen": "2026-11-14T09:09:35+00:00",
-      "last_seen": "2026-11-14T17:37:09+00:00",
-      "source_count": 8,
-      "sources": [
-        {
-          "source": "Chinimandi",
-          "url": "https://www.chinimandi.com/microsoft-restores-365-services-globally-after-disruption-warns-of-phishing-campaign-exploiting-outage/",
-          "pub_date": "2026-11-14T17:37:09+00:00"
-        },
-        {
-          "source": "Khaleejtimes",
-          "url": "https://www.khaleejtimes.com/business/tech/microsoft-finds-active-phishing-campaign-exploiting-service-disruption",
-          "pub_date": "2026-11-14T14:47:11+00:00"
-        },
-        {
-          "source": "Thehansindia",
-          "url": "https://www.thehansindia.com/amp/tech/microsoft-warns-users-of-phishing-attacks-after-recent-outage-1142131",
-          "pub_date": "2026-11-14T13:10:04+00:00"
-        },
-        {
-          "source": "In.Mashable",
-          "url": "https://in.mashable.com/tech/116140/microsoft-outage-has-given-hackers-a-new-opportunity-to-steal-your-passwords-company-issues-warning",
-          "pub_date": "2026-11-14T11:33:20+00:00"
-        },
-        {
-          "source": "Eastleighvoice.Co.Ke",
-          "url": "https://eastleighvoice.co.ke/news/423665/hackers-exploit-microsoft-365-outage-to-target-users-with-phishing-emails",
-          "pub_date": "2026-11-14T11:00:50+00:00"
-        }
-      ],
-      "tags": [],
-      "categories": [
-        "phishing"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "newbooker.com",
-      "confidence": "high",
-      "reason": "Identified as linked to a phishing campaign by Microsoft",
-      "first_seen": "2026-11-14T09:09:35+00:00",
-      "last_seen": "2026-11-14T17:37:09+00:00",
-      "source_count": 8,
-      "sources": [
-        {
-          "source": "Chinimandi",
-          "url": "https://www.chinimandi.com/microsoft-restores-365-services-globally-after-disruption-warns-of-phishing-campaign-exploiting-outage/",
-          "pub_date": "2026-11-14T17:37:09+00:00"
-        },
-        {
-          "source": "Khaleejtimes",
-          "url": "https://www.khaleejtimes.com/business/tech/microsoft-finds-active-phishing-campaign-exploiting-service-disruption",
-          "pub_date": "2026-11-14T14:47:11+00:00"
-        },
-        {
-          "source": "Thehansindia",
-          "url": "https://www.thehansindia.com/amp/tech/microsoft-warns-users-of-phishing-attacks-after-recent-outage-1142131",
-          "pub_date": "2026-11-14T13:10:04+00:00"
-        },
-        {
-          "source": "In.Mashable",
-          "url": "https://in.mashable.com/tech/116140/microsoft-outage-has-given-hackers-a-new-opportunity-to-steal-your-passwords-company-issues-warning",
-          "pub_date": "2026-11-14T11:33:20+00:00"
-        },
-        {
-          "source": "Eastleighvoice.Co.Ke",
-          "url": "https://eastleighvoice.co.ke/news/423665/hackers-exploit-microsoft-365-outage-to-target-users-with-phishing-emails",
-          "pub_date": "2026-11-14T11:00:50+00:00"
-        }
-      ],
-      "tags": [],
-      "categories": [
-        "phishing"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "planetmaison.com",
-      "confidence": "high",
-      "reason": "Identified as linked to a phishing campaign by Microsoft",
-      "first_seen": "2026-11-14T09:09:35+00:00",
-      "last_seen": "2026-11-14T17:37:09+00:00",
-      "source_count": 8,
-      "sources": [
-        {
-          "source": "Chinimandi",
-          "url": "https://www.chinimandi.com/microsoft-restores-365-services-globally-after-disruption-warns-of-phishing-campaign-exploiting-outage/",
-          "pub_date": "2026-11-14T17:37:09+00:00"
-        },
-        {
-          "source": "Khaleejtimes",
-          "url": "https://www.khaleejtimes.com/business/tech/microsoft-finds-active-phishing-campaign-exploiting-service-disruption",
-          "pub_date": "2026-11-14T14:47:11+00:00"
-        },
-        {
-          "source": "Thehansindia",
-          "url": "https://www.thehansindia.com/amp/tech/microsoft-warns-users-of-phishing-attacks-after-recent-outage-1142131",
-          "pub_date": "2026-11-14T13:10:04+00:00"
-        },
-        {
-          "source": "In.Mashable",
-          "url": "https://in.mashable.com/tech/116140/microsoft-outage-has-given-hackers-a-new-opportunity-to-steal-your-passwords-company-issues-warning",
-          "pub_date": "2026-11-14T11:33:20+00:00"
-        },
-        {
-          "source": "Eastleighvoice.Co.Ke",
-          "url": "https://eastleighvoice.co.ke/news/423665/hackers-exploit-microsoft-365-outage-to-target-users-with-phishing-emails",
-          "pub_date": "2026-11-14T11:00:50+00:00"
-        }
-      ],
-      "tags": [],
-      "categories": [
-        "phishing"
       ],
       "basis": null
     },
@@ -19254,27 +19965,6 @@
       "basis": null
     },
     {
-      "type": "ipv4",
-      "value": "130.94.67.235",
-      "confidence": "high",
-      "reason": "Exposed IP address for a custom heap exploit.",
-      "first_seen": "2026-10-30T17:50:37+00:00",
-      "last_seen": "2026-10-30T17:50:37+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/Malware/comments/1xjmb2a/php2shell_exploit_toolkits_and_a_panos/",
-          "pub_date": "2026-10-30T17:50:37+00:00"
-        }
-      ],
-      "tags": [],
-      "categories": [
-        "exploit"
-      ],
-      "basis": null
-    },
-    {
       "type": "domain",
       "value": "betasignaltradingviewai.app",
       "confidence": "high",
@@ -23097,37 +23787,20 @@
       "value": "217.60.194.116",
       "confidence": "high",
       "reason": "Source of malicious file downloads",
-      "first_seen": "2026-10-19T17:34:34+00:00",
+      "first_seen": "2026-10-25T20:32:13.039275+00:00",
       "last_seen": "2026-10-25T20:32:13.039275+00:00",
-      "source_count": 2,
+      "source_count": 1,
       "sources": [
         {
           "source": "www.boredhackerblog.info",
           "url": "https://www.boredhackerblog.info/2026/10/plex-vulnerabilities-being-exploited-in.html",
           "pub_date": "2026-10-25T20:32:13.039275+00:00"
-        },
-        {
-          "source": "Thehackernews",
-          "url": "https://thehackernews.com/2026/10/hackers-exploit-plex2shell-flaws-to.html",
-          "pub_date": "2026-10-19T17:34:34+00:00"
         }
       ],
       "tags": [
         {
-          "type": "cve",
-          "value": "CVE-2026-96651"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-96652"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-96654"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-96655"
+          "type": "malware",
+          "value": "Xmrig"
         }
       ],
       "categories": [
@@ -28215,19 +28888,14 @@
       "value": "wizardexpensive.com",
       "confidence": "high",
       "reason": "Domain listed as part of attacker infrastructure to be blocked",
-      "first_seen": "2026-10-20T07:11:45+00:00",
+      "first_seen": "2026-10-21T19:01:41.433743+00:00",
       "last_seen": "2026-10-21T19:01:41.433743+00:00",
-      "source_count": 2,
+      "source_count": 1,
       "sources": [
         {
           "source": "productcert.siemens.com",
           "url": "https://productcert.siemens.com/news/2026/10/19/active-exploitation-of-cve-2026-110936-in-siemens-software-center",
           "pub_date": "2026-10-21T19:01:41.433743+00:00"
-        },
-        {
-          "source": "Thehackernews",
-          "url": "https://thehackernews.com/2026/10/clickfix-attackers-exploit-siemens.html",
-          "pub_date": "2026-10-20T07:11:45+00:00"
         }
       ],
       "tags": [
@@ -28238,10 +28906,6 @@
         {
           "type": "cve",
           "value": "CVE-2026-110936"
-        },
-        {
-          "type": "malware",
-          "value": "Legion Loader"
         }
       ],
       "categories": [
@@ -28254,42 +28918,24 @@
       "value": "2.27.248.127",
       "confidence": "high",
       "reason": "IP address listed as part of attacker infrastructure to be blocked",
-      "first_seen": "2026-10-20T07:11:45+00:00",
+      "first_seen": "2026-10-21T19:01:41.433743+00:00",
       "last_seen": "2026-10-21T19:01:41.433743+00:00",
-      "source_count": 3,
+      "source_count": 1,
       "sources": [
         {
           "source": "productcert.siemens.com",
           "url": "https://productcert.siemens.com/news/2026/10/19/active-exploitation-of-cve-2026-110936-in-siemens-software-center",
           "pub_date": "2026-10-21T19:01:41.433743+00:00"
-        },
-        {
-          "source": "Helpnetsecurity",
-          "url": "https://www.helpnetsecurity.com/2026/10/20/exploitation-siemens-software-center-vulnerability-cve-2026-110936/",
-          "pub_date": "2026-10-20T12:27:36+00:00"
-        },
-        {
-          "source": "Thehackernews",
-          "url": "https://thehackernews.com/2026/10/clickfix-attackers-exploit-siemens.html",
-          "pub_date": "2026-10-20T07:11:45+00:00"
         }
       ],
       "tags": [
-        {
-          "type": "cve",
-          "value": "CVE-2026-110936"
-        },
         {
           "type": "campaign",
           "value": "ClickFix"
         },
         {
-          "type": "campaign",
-          "value": "ClickFix Campaign"
-        },
-        {
-          "type": "malware",
-          "value": "Legion Loader"
+          "type": "cve",
+          "value": "CVE-2026-110936"
         }
       ],
       "categories": [
@@ -28302,19 +28948,14 @@
       "value": "96.62.218.59",
       "confidence": "high",
       "reason": "IP address listed as part of attacker infrastructure to be blocked",
-      "first_seen": "2026-10-20T07:11:45+00:00",
+      "first_seen": "2026-10-21T19:01:41.433743+00:00",
       "last_seen": "2026-10-21T19:01:41.433743+00:00",
-      "source_count": 2,
+      "source_count": 1,
       "sources": [
         {
           "source": "productcert.siemens.com",
           "url": "https://productcert.siemens.com/news/2026/10/19/active-exploitation-of-cve-2026-110936-in-siemens-software-center",
           "pub_date": "2026-10-21T19:01:41.433743+00:00"
-        },
-        {
-          "source": "Thehackernews",
-          "url": "https://thehackernews.com/2026/10/clickfix-attackers-exploit-siemens.html",
-          "pub_date": "2026-10-20T07:11:45+00:00"
         }
       ],
       "tags": [
@@ -28325,10 +28966,6 @@
         {
           "type": "cve",
           "value": "CVE-2026-110936"
-        },
-        {
-          "type": "malware",
-          "value": "Legion Loader"
         }
       ],
       "categories": [
@@ -29317,1103 +29954,6 @@
       ],
       "categories": [
         "phishing"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "stateglobe.com",
-      "confidence": "high",
-      "reason": "Domain created for an experiment with fake statistics",
-      "first_seen": "2026-10-20T13:06:22+00:00",
-      "last_seen": "2026-10-20T13:06:22+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "News.Ycombinator",
-          "url": "https://peec.ai/blog/publish-stats-get-cited-the-tactic-that-put-my-data-all-over-the-web",
-          "pub_date": "2026-10-20T13:06:22+00:00"
-        }
-      ],
-      "tags": [],
-      "categories": [
-        "other"
-      ],
-      "basis": null
-    },
-    {
-      "type": "ipv4",
-      "value": "194.87.108.217",
-      "confidence": "high",
-      "reason": "Listed as a LegionRelay C2 server used in attacks",
-      "first_seen": "2026-10-20T11:06:25+00:00",
-      "last_seen": "2026-10-20T11:06:25+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Thehackernews",
-          "url": "https://thehackernews.com/2026/10/russian-apt28-breaches-nato-naval.html",
-          "pub_date": "2026-10-20T11:06:25+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "APT28"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-21509"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-8496"
-        },
-        {
-          "type": "industry",
-          "value": "Government"
-        }
-      ],
-      "categories": [
-        "c2"
-      ],
-      "basis": null
-    },
-    {
-      "type": "ipv4",
-      "value": "91.149.221.118",
-      "confidence": "high",
-      "reason": "Listed as a LegionRelay C2 server used in attacks",
-      "first_seen": "2026-10-20T11:06:25+00:00",
-      "last_seen": "2026-10-20T11:06:25+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Thehackernews",
-          "url": "https://thehackernews.com/2026/10/russian-apt28-breaches-nato-naval.html",
-          "pub_date": "2026-10-20T11:06:25+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "APT28"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-21509"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-8496"
-        },
-        {
-          "type": "industry",
-          "value": "Government"
-        }
-      ],
-      "categories": [
-        "c2"
-      ],
-      "basis": null
-    },
-    {
-      "type": "ipv4",
-      "value": "91.149.221.123",
-      "confidence": "high",
-      "reason": "Listed as a LegionRelay C2 server used in attacks",
-      "first_seen": "2026-10-20T11:06:25+00:00",
-      "last_seen": "2026-10-20T11:06:25+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Thehackernews",
-          "url": "https://thehackernews.com/2026/10/russian-apt28-breaches-nato-naval.html",
-          "pub_date": "2026-10-20T11:06:25+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "APT28"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-21509"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-8496"
-        },
-        {
-          "type": "industry",
-          "value": "Government"
-        }
-      ],
-      "categories": [
-        "c2"
-      ],
-      "basis": null
-    },
-    {
-      "type": "ipv6",
-      "value": "2a09:bac5:4e21:2e3c::49b:9",
-      "confidence": "high",
-      "reason": "Listed as a source address for malicious requests",
-      "first_seen": "2026-10-19T20:02:56+00:00",
-      "last_seen": "2026-10-20T03:02:44.775826+00:00",
-      "source_count": 2,
-      "sources": [
-        {
-          "source": "wordpress.org",
-          "url": "https://wordpress.org/support/topic/unauthorised-updraftcentral-key-used-to-install-malware-plugins/",
-          "pub_date": "2026-10-20T03:02:44.775826+00:00"
-        },
-        {
-          "source": "Wordfence",
-          "url": "https://www.wordfence.com/blog/2026/10/updraftcentral-connection-key-compromise/",
-          "pub_date": "2026-10-19T20:02:56+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "cve",
-          "value": "CVE-2026-10795"
-        }
-      ],
-      "categories": [
-        "malware"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "buildwithknexus.xyz",
-      "confidence": "high",
-      "reason": "Used to host a malicious script",
-      "first_seen": "2026-10-20T00:00:00+00:00",
-      "last_seen": "2026-10-20T00:00:00+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Safedep",
-          "url": "https://safedep.io/hugo-paper-mevn-cli-forged-commit-preinstall-dropper",
-          "pub_date": "2026-10-20T00:00:00+00:00"
-        }
-      ],
-      "tags": [],
-      "categories": [
-        "malware"
-      ],
-      "basis": null
-    },
-    {
-      "type": "ipv4",
-      "value": "176.65.139.228",
-      "confidence": "high",
-      "reason": "Listed as part of an attacker's scanning infrastructure",
-      "first_seen": "2026-10-19T23:53:48+00:00",
-      "last_seen": "2026-10-19T23:53:48+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Cybernewsai",
-          "url": "https://www.cybernewsai.com/blog/plex2shell-how-to-detect-patch-plex-media-server-rce",
-          "pub_date": "2026-10-19T23:53:48+00:00"
-        }
-      ],
-      "tags": [],
-      "categories": [
-        "scanner"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "777traffget.site",
-      "confidence": "high",
-      "reason": "Listed as historical C2 infrastructure for malware",
-      "first_seen": "2026-10-19T22:38:04.235893+00:00",
-      "last_seen": "2026-10-19T22:38:04.235893+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.godaddy.com",
-          "url": "https://www.godaddy.com/resources/news/help-tds-malicious-plugins-redirect-tech-support-scams",
-          "pub_date": "2026-10-19T22:38:04.235893+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Help TDS"
-        },
-        {
-          "type": "malware",
-          "value": "Crypper"
-        },
-        {
-          "type": "malware",
-          "value": "DollyWay"
-        },
-        {
-          "type": "malware",
-          "value": "Woocommerce_inputs"
-        }
-      ],
-      "categories": [
-        "c2"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "cartoonmines.com",
-      "confidence": "high",
-      "reason": "Used in redirect scripts for malicious traffic",
-      "first_seen": "2026-10-19T22:38:04.235893+00:00",
-      "last_seen": "2026-10-19T22:38:04.235893+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.godaddy.com",
-          "url": "https://www.godaddy.com/resources/news/help-tds-malicious-plugins-redirect-tech-support-scams",
-          "pub_date": "2026-10-19T22:38:04.235893+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Help TDS"
-        },
-        {
-          "type": "malware",
-          "value": "Crypper"
-        },
-        {
-          "type": "malware",
-          "value": "DollyWay"
-        },
-        {
-          "type": "malware",
-          "value": "Woocommerce_inputs"
-        }
-      ],
-      "categories": [
-        "traffic_distribution"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "distie.shop",
-      "confidence": "high",
-      "reason": "Listed as historical C2 infrastructure for malware",
-      "first_seen": "2026-10-19T22:38:04.235893+00:00",
-      "last_seen": "2026-10-19T22:38:04.235893+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.godaddy.com",
-          "url": "https://www.godaddy.com/resources/news/help-tds-malicious-plugins-redirect-tech-support-scams",
-          "pub_date": "2026-10-19T22:38:04.235893+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Help TDS"
-        },
-        {
-          "type": "malware",
-          "value": "Crypper"
-        },
-        {
-          "type": "malware",
-          "value": "DollyWay"
-        },
-        {
-          "type": "malware",
-          "value": "Woocommerce_inputs"
-        }
-      ],
-      "categories": [
-        "c2"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "fped8.org",
-      "confidence": "high",
-      "reason": "Associated with historical SEO spam doorway malware",
-      "first_seen": "2026-10-19T22:38:04.235893+00:00",
-      "last_seen": "2026-10-19T22:38:04.235893+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.godaddy.com",
-          "url": "https://www.godaddy.com/resources/news/help-tds-malicious-plugins-redirect-tech-support-scams",
-          "pub_date": "2026-10-19T22:38:04.235893+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Help TDS"
-        },
-        {
-          "type": "malware",
-          "value": "Crypper"
-        },
-        {
-          "type": "malware",
-          "value": "DollyWay"
-        },
-        {
-          "type": "malware",
-          "value": "Woocommerce_inputs"
-        }
-      ],
-      "categories": [
-        "malware"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "gadbets.site",
-      "confidence": "high",
-      "reason": "Used in tech support scam operations",
-      "first_seen": "2026-10-19T22:38:04.235893+00:00",
-      "last_seen": "2026-10-19T22:38:04.235893+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.godaddy.com",
-          "url": "https://www.godaddy.com/resources/news/help-tds-malicious-plugins-redirect-tech-support-scams",
-          "pub_date": "2026-10-19T22:38:04.235893+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Help TDS"
-        },
-        {
-          "type": "malware",
-          "value": "Crypper"
-        },
-        {
-          "type": "malware",
-          "value": "DollyWay"
-        },
-        {
-          "type": "malware",
-          "value": "Woocommerce_inputs"
-        }
-      ],
-      "categories": [
-        "scam_fraud"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "hjce0ou6.aparticult.my.id",
-      "confidence": "high",
-      "reason": "Used as a redirect URL in Help TDS campaigns",
-      "first_seen": "2026-10-19T22:38:04.235893+00:00",
-      "last_seen": "2026-10-19T22:38:04.235893+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.godaddy.com",
-          "url": "https://www.godaddy.com/resources/news/help-tds-malicious-plugins-redirect-tech-support-scams",
-          "pub_date": "2026-10-19T22:38:04.235893+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Help TDS"
-        },
-        {
-          "type": "malware",
-          "value": "Crypper"
-        },
-        {
-          "type": "malware",
-          "value": "DollyWay"
-        },
-        {
-          "type": "malware",
-          "value": "Woocommerce_inputs"
-        }
-      ],
-      "categories": [
-        "scam_fraud"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "misunderstanding.salahaaakal.my.id",
-      "confidence": "high",
-      "reason": "Used in tech support scam operations",
-      "first_seen": "2026-10-19T22:38:04.235893+00:00",
-      "last_seen": "2026-10-19T22:38:04.235893+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.godaddy.com",
-          "url": "https://www.godaddy.com/resources/news/help-tds-malicious-plugins-redirect-tech-support-scams",
-          "pub_date": "2026-10-19T22:38:04.235893+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Help TDS"
-        },
-        {
-          "type": "malware",
-          "value": "Crypper"
-        },
-        {
-          "type": "malware",
-          "value": "DollyWay"
-        },
-        {
-          "type": "malware",
-          "value": "Woocommerce_inputs"
-        }
-      ],
-      "categories": [
-        "scam_fraud"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "pinkfels.shop",
-      "confidence": "high",
-      "reason": "Fallback C2 URL for Help TDS",
-      "first_seen": "2026-10-19T22:38:04.235893+00:00",
-      "last_seen": "2026-10-19T22:38:04.235893+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.godaddy.com",
-          "url": "https://www.godaddy.com/resources/news/help-tds-malicious-plugins-redirect-tech-support-scams",
-          "pub_date": "2026-10-19T22:38:04.235893+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Help TDS"
-        },
-        {
-          "type": "malware",
-          "value": "Crypper"
-        },
-        {
-          "type": "malware",
-          "value": "DollyWay"
-        },
-        {
-          "type": "malware",
-          "value": "Woocommerce_inputs"
-        }
-      ],
-      "categories": [
-        "c2"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "radiant.growsier.shop",
-      "confidence": "high",
-      "reason": "Used in tech support scam operations",
-      "first_seen": "2026-10-19T22:38:04.235893+00:00",
-      "last_seen": "2026-10-19T22:38:04.235893+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.godaddy.com",
-          "url": "https://www.godaddy.com/resources/news/help-tds-malicious-plugins-redirect-tech-support-scams",
-          "pub_date": "2026-10-19T22:38:04.235893+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Help TDS"
-        },
-        {
-          "type": "malware",
-          "value": "Crypper"
-        },
-        {
-          "type": "malware",
-          "value": "DollyWay"
-        },
-        {
-          "type": "malware",
-          "value": "Woocommerce_inputs"
-        }
-      ],
-      "categories": [
-        "scam_fraud"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "roi777.com",
-      "confidence": "high",
-      "reason": "Used for malicious activities and C2 nodes",
-      "first_seen": "2026-10-19T22:38:04.235893+00:00",
-      "last_seen": "2026-10-19T22:38:04.235893+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.godaddy.com",
-          "url": "https://www.godaddy.com/resources/news/help-tds-malicious-plugins-redirect-tech-support-scams",
-          "pub_date": "2026-10-19T22:38:04.235893+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Help TDS"
-        },
-        {
-          "type": "malware",
-          "value": "Crypper"
-        },
-        {
-          "type": "malware",
-          "value": "DollyWay"
-        },
-        {
-          "type": "malware",
-          "value": "Woocommerce_inputs"
-        }
-      ],
-      "categories": [
-        "c2"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "roi-traffic.icu",
-      "confidence": "high",
-      "reason": "Used for C2 nodes in historical Help TDS infrastructure",
-      "first_seen": "2026-10-19T22:38:04.235893+00:00",
-      "last_seen": "2026-10-19T22:38:04.235893+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.godaddy.com",
-          "url": "https://www.godaddy.com/resources/news/help-tds-malicious-plugins-redirect-tech-support-scams",
-          "pub_date": "2026-10-19T22:38:04.235893+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Help TDS"
-        },
-        {
-          "type": "malware",
-          "value": "Crypper"
-        },
-        {
-          "type": "malware",
-          "value": "DollyWay"
-        },
-        {
-          "type": "malware",
-          "value": "Woocommerce_inputs"
-        }
-      ],
-      "categories": [
-        "c2"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "splittous.com",
-      "confidence": "high",
-      "reason": "Used in redirect scripts for malicious traffic",
-      "first_seen": "2026-10-19T22:38:04.235893+00:00",
-      "last_seen": "2026-10-19T22:38:04.235893+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.godaddy.com",
-          "url": "https://www.godaddy.com/resources/news/help-tds-malicious-plugins-redirect-tech-support-scams",
-          "pub_date": "2026-10-19T22:38:04.235893+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Help TDS"
-        },
-        {
-          "type": "malware",
-          "value": "Crypper"
-        },
-        {
-          "type": "malware",
-          "value": "DollyWay"
-        },
-        {
-          "type": "malware",
-          "value": "Woocommerce_inputs"
-        }
-      ],
-      "categories": [
-        "traffic_distribution"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "starbuck.xyz",
-      "confidence": "high",
-      "reason": "Used in redirect scripts for malicious traffic",
-      "first_seen": "2026-10-19T22:38:04.235893+00:00",
-      "last_seen": "2026-10-19T22:38:04.235893+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.godaddy.com",
-          "url": "https://www.godaddy.com/resources/news/help-tds-malicious-plugins-redirect-tech-support-scams",
-          "pub_date": "2026-10-19T22:38:04.235893+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Help TDS"
-        },
-        {
-          "type": "malware",
-          "value": "Crypper"
-        },
-        {
-          "type": "malware",
-          "value": "DollyWay"
-        },
-        {
-          "type": "malware",
-          "value": "Woocommerce_inputs"
-        }
-      ],
-      "categories": [
-        "traffic_distribution"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "traffic-redirect.site",
-      "confidence": "high",
-      "reason": "Listed as historical C2 infrastructure for malware",
-      "first_seen": "2026-10-19T22:38:04.235893+00:00",
-      "last_seen": "2026-10-19T22:38:04.235893+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.godaddy.com",
-          "url": "https://www.godaddy.com/resources/news/help-tds-malicious-plugins-redirect-tech-support-scams",
-          "pub_date": "2026-10-19T22:38:04.235893+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Help TDS"
-        },
-        {
-          "type": "malware",
-          "value": "Crypper"
-        },
-        {
-          "type": "malware",
-          "value": "DollyWay"
-        },
-        {
-          "type": "malware",
-          "value": "Woocommerce_inputs"
-        }
-      ],
-      "categories": [
-        "c2"
-      ],
-      "basis": null
-    },
-    {
-      "type": "ipv4",
-      "value": "78.128.113.14",
-      "confidence": "high",
-      "reason": "Used for plugin installations in malicious campaigns",
-      "first_seen": "2026-10-19T22:38:04.235893+00:00",
-      "last_seen": "2026-10-19T22:38:04.235893+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.godaddy.com",
-          "url": "https://www.godaddy.com/resources/news/help-tds-malicious-plugins-redirect-tech-support-scams",
-          "pub_date": "2026-10-19T22:38:04.235893+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Help TDS"
-        },
-        {
-          "type": "malware",
-          "value": "Crypper"
-        },
-        {
-          "type": "malware",
-          "value": "DollyWay"
-        },
-        {
-          "type": "malware",
-          "value": "Woocommerce_inputs"
-        }
-      ],
-      "categories": [
-        "malware"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "aomei.storage-data.com",
-      "confidence": "high",
-      "reason": "Identified as a dedicated, vendor-themed domain used by the threat actor for payload delivery.",
-      "first_seen": "2026-10-19T21:31:29.601518+00:00",
-      "last_seen": "2026-10-19T21:31:29.601518+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "cloud.google.com",
-          "url": "https://cloud.google.com/blog/topics/threat-intelligence/investigating-ephemeral-supply-chain-tampering",
-          "pub_date": "2026-10-19T21:31:29.601518+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "UNC7017"
-        },
-        {
-          "type": "campaign",
-          "value": "Short Burst Supply Chain Tampering"
-        },
-        {
-          "type": "industry",
-          "value": "Higher Education"
-        },
-        {
-          "type": "industry",
-          "value": "IT Services"
-        }
-      ],
-      "categories": [
-        "malware",
-        "supply_chain"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "promotion.storage-data.com",
-      "confidence": "high",
-      "reason": "Used by the threat actor to redirect downloads during tampering windows.",
-      "first_seen": "2026-10-19T21:31:29.601518+00:00",
-      "last_seen": "2026-10-19T21:31:29.601518+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "cloud.google.com",
-          "url": "https://cloud.google.com/blog/topics/threat-intelligence/investigating-ephemeral-supply-chain-tampering",
-          "pub_date": "2026-10-19T21:31:29.601518+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "UNC7017"
-        },
-        {
-          "type": "campaign",
-          "value": "Short Burst Supply Chain Tampering"
-        },
-        {
-          "type": "industry",
-          "value": "Higher Education"
-        },
-        {
-          "type": "industry",
-          "value": "IT Services"
-        }
-      ],
-      "categories": [
-        "malware",
-        "supply_chain"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "storage-data.com",
-      "confidence": "high",
-      "reason": "Part of the dedicated domain infrastructure used by the threat actor.",
-      "first_seen": "2026-10-19T21:31:29.601518+00:00",
-      "last_seen": "2026-10-19T21:31:29.601518+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "cloud.google.com",
-          "url": "https://cloud.google.com/blog/topics/threat-intelligence/investigating-ephemeral-supply-chain-tampering",
-          "pub_date": "2026-10-19T21:31:29.601518+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "UNC7017"
-        },
-        {
-          "type": "campaign",
-          "value": "Short Burst Supply Chain Tampering"
-        },
-        {
-          "type": "industry",
-          "value": "Higher Education"
-        },
-        {
-          "type": "industry",
-          "value": "IT Services"
-        }
-      ],
-      "categories": [
-        "malware",
-        "supply_chain"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "rank1cdn.com",
-      "confidence": "high",
-      "reason": "Domain identified as malicious and recommended to be blocked to prevent malware activity",
-      "first_seen": "2026-10-19T21:31:27.659102+00:00",
-      "last_seen": "2026-10-19T21:31:27.659102+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "rankmath.com",
-          "url": "https://rankmath.com/kb/pro-3-0-123-security-incident/",
-          "pub_date": "2026-10-19T21:31:27.659102+00:00"
-        }
-      ],
-      "tags": [],
-      "categories": [
-        "malware"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "wp-mail.net",
-      "confidence": "high",
-      "reason": "Domain used in malicious email addresses for unauthorized administrator accounts",
-      "first_seen": "2026-10-19T21:31:27.659102+00:00",
-      "last_seen": "2026-10-19T21:31:27.659102+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "rankmath.com",
-          "url": "https://rankmath.com/kb/pro-3-0-123-security-incident/",
-          "pub_date": "2026-10-19T21:31:27.659102+00:00"
-        }
-      ],
-      "tags": [],
-      "categories": [
-        "phishing"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "global.relay.proxystream.st",
-      "confidence": "high",
-      "reason": "Flagged in connection with a botnet and associated with malicious activity",
-      "first_seen": "2026-10-19T17:34:34+00:00",
-      "last_seen": "2026-10-19T17:34:34+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Thehackernews",
-          "url": "https://thehackernews.com/2026/10/hackers-exploit-plex2shell-flaws-to.html",
-          "pub_date": "2026-10-19T17:34:34+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "cve",
-          "value": "CVE-2026-96651"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-96652"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-96654"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-96655"
-        }
-      ],
-      "categories": [
-        "botnet"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "ota.proxystream.st",
-      "confidence": "high",
-      "reason": "Used as a mining server for malicious activity",
-      "first_seen": "2026-10-19T17:34:34+00:00",
-      "last_seen": "2026-10-19T17:34:34+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Thehackernews",
-          "url": "https://thehackernews.com/2026/10/hackers-exploit-plex2shell-flaws-to.html",
-          "pub_date": "2026-10-19T17:34:34+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "cve",
-          "value": "CVE-2026-96651"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-96652"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-96654"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-96655"
-        }
-      ],
-      "categories": [
-        "cryptomining"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "17447d.sh",
-      "confidence": "high",
-      "reason": "Listed as a stage server in a threat report",
-      "first_seen": "2026-10-19T15:48:23+00:00",
-      "last_seen": "2026-10-19T15:48:23+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Rapid7",
-          "url": "https://www.rapid7.com/blog/post/ra-netscaler-intrusions-chaining-cve-2026-88771-and-cve-2026-88779/",
-          "pub_date": "2026-10-19T15:48:23+00:00"
-        }
-      ],
-      "tags": [],
-      "categories": [
-        "malware"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "1.sh",
-      "confidence": "high",
-      "reason": "Listed as a stage server in a threat report",
-      "first_seen": "2026-10-19T15:48:23+00:00",
-      "last_seen": "2026-10-19T15:48:23+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Rapid7",
-          "url": "https://www.rapid7.com/blog/post/ra-netscaler-intrusions-chaining-cve-2026-88771-and-cve-2026-88779/",
-          "pub_date": "2026-10-19T15:48:23+00:00"
-        }
-      ],
-      "tags": [],
-      "categories": [
-        "malware"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "2.sh",
-      "confidence": "high",
-      "reason": "Listed as a stage server in a threat report",
-      "first_seen": "2026-10-19T15:48:23+00:00",
-      "last_seen": "2026-10-19T15:48:23+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Rapid7",
-          "url": "https://www.rapid7.com/blog/post/ra-netscaler-intrusions-chaining-cve-2026-88771-and-cve-2026-88779/",
-          "pub_date": "2026-10-19T15:48:23+00:00"
-        }
-      ],
-      "tags": [],
-      "categories": [
-        "malware"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "agent.pl",
-      "confidence": "high",
-      "reason": "Listed as part of a malicious infrastructure in a threat report",
-      "first_seen": "2026-10-19T15:48:23+00:00",
-      "last_seen": "2026-10-19T15:48:23+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Rapid7",
-          "url": "https://www.rapid7.com/blog/post/ra-netscaler-intrusions-chaining-cve-2026-88771-and-cve-2026-88779/",
-          "pub_date": "2026-10-19T15:48:23+00:00"
-        }
-      ],
-      "tags": [],
-      "categories": [
-        "malware"
       ],
       "basis": null
     }

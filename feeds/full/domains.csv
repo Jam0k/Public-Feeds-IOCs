@@ -1,12 +1,48 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason,categories
-domain,1688360.cc,high,2026-11-17T14:00:46.952499+00:00,2026-11-18T11:01:13.197125+00:00,1,,"Domain used to send stolen card data, identified as attacker infrastructure",exfiltration
-domain,1y69gy2mdzaltz1.icu,high,2026-11-17T05:31:17.470834+00:00,2026-11-18T11:01:13.197125+00:00,1,,Part of a batch of domains registered by the attacker for malicious use,malware
-domain,5vobauua3ojpklx.icu,high,2026-11-17T01:07:09.668295+00:00,2026-11-18T11:01:13.197125+00:00,6,,"Domain used for iOS exploit delivery, identified as attacker infrastructure",malware
-domain,eil786npto9u5bq.icu,high,2026-11-17T02:12:41+00:00,2026-11-18T11:01:13.197125+00:00,5,,"Domain used for iOS exploit delivery, identified as attacker infrastructure",malware
-domain,gm38duxoihbmy5o.icu,high,2026-11-17T05:31:17.470834+00:00,2026-11-18T11:01:13.197125+00:00,1,,Part of a batch of domains registered by the attacker for malicious use,malware
-domain,l7bcsnwc7nzr3uo.icu,high,2026-11-17T05:31:17.284187+00:00,2026-11-18T11:01:13.197125+00:00,2,,Domain registered by the attacker for malicious use,malware
-domain,p55abnw2pnsz0bo.icu,high,2026-11-17T05:31:17.470834+00:00,2026-11-18T11:01:13.197125+00:00,1,,Part of a batch of domains registered by the attacker for malicious use,malware
-domain,q1ls1ho9x7wsxlu.icu,high,2026-11-17T14:00:46.952499+00:00,2026-11-18T11:01:13.197125+00:00,1,,Domain registered by the attacker for malicious use,malware
+domain,1688360.cc,high,2026-11-17T14:00:46.952499+00:00,2026-11-19T11:09:34.323529+00:00,1,,"Domain used to send stolen card data, identified as attacker infrastructure",exfiltration
+domain,1y69gy2mdzaltz1.icu,high,2026-11-17T05:31:17.470834+00:00,2026-11-19T11:09:34.323529+00:00,1,,Part of a batch of domains registered by the attacker for malicious use,malware
+domain,5vobauua3ojpklx.icu,high,2026-11-17T01:07:09.668295+00:00,2026-11-19T11:09:34.323529+00:00,6,,"Domain used for iOS exploit delivery, identified as attacker infrastructure",malware
+domain,eil786npto9u5bq.icu,high,2026-11-17T02:12:41+00:00,2026-11-19T11:09:34.323529+00:00,5,,"Domain used for iOS exploit delivery, identified as attacker infrastructure",malware
+domain,gm38duxoihbmy5o.icu,high,2026-11-17T05:31:17.470834+00:00,2026-11-19T11:09:34.323529+00:00,1,,Part of a batch of domains registered by the attacker for malicious use,malware
+domain,l7bcsnwc7nzr3uo.icu,high,2026-11-17T05:31:17.284187+00:00,2026-11-19T11:09:34.323529+00:00,2,,Domain registered by the attacker for malicious use,malware
+domain,p55abnw2pnsz0bo.icu,high,2026-11-17T05:31:17.470834+00:00,2026-11-19T11:09:34.323529+00:00,1,,Part of a batch of domains registered by the attacker for malicious use,malware
+domain,q1ls1ho9x7wsxlu.icu,high,2026-11-17T14:00:46.952499+00:00,2026-11-19T11:09:34.323529+00:00,1,,Domain registered by the attacker for malicious use,malware
+domain,nginxmysql.com,high,2026-11-18T16:09:36+00:00,2026-11-18T22:59:12+00:00,1,,Identified as C2 infrastructure linked to espionage activity.,c2
+domain,sqlserver-sqlite.com,high,2026-11-18T16:09:36+00:00,2026-11-18T22:59:12+00:00,1,,Listed as an IOC in the context of suspicious beaconing and compromise.,other
+domain,www.ddduuuppp.com,high,2026-11-18T16:09:36+00:00,2026-11-18T22:59:12+00:00,1,,Listed as an IOC with suspicious connection activity.,other
+domain,ios-hack.icu,high,2026-11-17T05:31:17.284187+00:00,2026-11-18T18:35:06.684387+00:00,1,,Domain associated with iOS exploit infrastructure,malware
+domain,webshell.lol,high,2026-11-17T01:07:09.668295+00:00,2026-11-18T18:35:06.684387+00:00,6,,Domain used as an injector in the attack,malware
+domain,je4ft3gn8vxudum.icu,high,2026-11-18T18:35:05.861352+00:00,2026-11-18T18:35:05.861352+00:00,1,,Registered and used in malicious campaign,other
+domain,bib.1001gacor.org,high,2026-09-09T14:31:09.124499+00:00,2026-11-18T18:01:26.422480+00:00,1,,Listed as part of a malicious infrastructure.,malware
+domain,bob.1001gacor.org,high,2026-09-09T14:31:09.124499+00:00,2026-11-18T18:01:26.422480+00:00,1,,Listed as part of Vidar infrastructure.,malware
+domain,brr.1001gacor.org,high,2026-09-09T14:31:09.124499+00:00,2026-11-18T18:01:26.422480+00:00,1,,Listed as part of Vidar infrastructure.,c2|malware
+domain,dez.11gokil.org,high,2026-09-09T14:31:09.124499+00:00,2026-11-18T18:01:26.422480+00:00,1,,Listed as additional Vidar infrastructure,c2|malware
+domain,ges.1001gacor.org,high,2026-09-09T14:31:09.124499+00:00,2026-11-18T18:01:26.422480+00:00,1,,Listed as part of Vidar infrastructure,c2|malware
+domain,gta6demo.eu,high,2026-09-09T14:31:09.124499+00:00,2026-11-18T18:01:26.422480+00:00,1,,Listed in an IOC table as attacker infrastructure,c2|malware
+domain,gta6demo.us,high,2026-09-09T14:31:09.124499+00:00,2026-11-18T18:01:26.422480+00:00,1,,Listed in an IOC table as attacker infrastructure,c2|malware
+domain,ket.1001gacor.org,high,2026-09-09T14:31:09.124499+00:00,2026-11-18T18:01:26.422480+00:00,1,,Listed as part of Vidar infrastructure,c2|malware
+domain,kra.1001gacor.org,high,2026-09-09T14:31:09.124499+00:00,2026-11-18T18:01:26.422480+00:00,1,,Listed as part of Vidar infrastructure,c2|malware
+domain,ljr.1001gacor.org,high,2026-09-09T14:31:09.124499+00:00,2026-11-18T18:01:26.422480+00:00,1,,Listed as part of Vidar infrastructure,c2|malware
+domain,nhg.1001gacor.org,high,2026-09-09T14:31:09.124499+00:00,2026-11-18T18:01:26.422480+00:00,1,,Domain used as part of Vidar malware infrastructure,c2|malware
+domain,rex.1001gacor.org,high,2026-09-09T14:31:09.124499+00:00,2026-11-18T18:01:26.422480+00:00,1,,Listed as part of Vidar infrastructure,c2|malware
+domain,rockstar-gta-6.com,high,2026-09-09T14:31:09.124499+00:00,2026-11-18T18:01:26.422480+00:00,1,,Listed as part of attacker infrastructure,c2|malware
+domain,ses.1001gacor.org,high,2026-09-09T14:31:09.124499+00:00,2026-11-18T18:01:26.422480+00:00,1,,Communicated with by malware as part of attacker infrastructure.,c2|malware
+domain,sii.11gokil.org,high,2026-09-09T14:31:09.124499+00:00,2026-11-18T18:01:26.422480+00:00,1,,Listed as part of Vidar malware infrastructure,c2|malware
+domain,sii.sm188dnsx.top,high,2026-09-09T14:31:09.124499+00:00,2026-11-18T18:01:26.422480+00:00,1,,Listed as part of Vidar malware infrastructure,c2|malware
+domain,sto.1001gacor.org,high,2026-09-09T14:31:09.124499+00:00,2026-11-18T18:01:26.422480+00:00,1,,Listed as part of Vidar malware infrastructure,c2|malware
+domain,tax.11gokil.org,high,2026-09-09T14:31:09.124499+00:00,2026-11-18T18:01:26.422480+00:00,1,,Listed as part of Vidar malware infrastructure,c2|malware
+domain,tax.sm188dnsx.top,high,2026-09-09T14:31:09.124499+00:00,2026-11-18T18:01:26.422480+00:00,1,,Listed as part of Vidar malware infrastructure,c2|malware
+domain,zaf.11gokil.org,high,2026-09-09T14:31:09.124499+00:00,2026-11-18T18:01:26.422480+00:00,1,,Domain listed among attacker-controlled infrastructure,c2|malware
+domain,zaf.sm188dnsx.top,high,2026-09-09T14:31:09.124499+00:00,2026-11-18T18:01:26.422480+00:00,1,,Domain listed among attacker-controlled infrastructure,c2|malware
+domain,nginx2root.com,high,2026-11-18T16:17:21+00:00,2026-11-18T16:17:21+00:00,1,,"Domain used to host demos of exploiting vulnerabilities, likely attacker-controlled.",exploit
+domain,gta6demo.asia,high,2026-11-18T04:30:00+00:00,2026-11-18T16:09:36+00:00,2,,Associated with a fake GTA VI demo used to distribute malware,malware|fake_software
+domain,gta6-play.ru,high,2026-11-18T04:30:00+00:00,2026-11-18T16:09:36+00:00,2,,Flagged as likely malicious and associated with fake GTA VI downloads,fake_software
+domain,uncvlizd.com,high,2026-11-18T15:01:47.568295+00:00,2026-11-18T15:01:47.568295+00:00,1,,Identified as the command-and-control endpoint re-registered by attackers.,c2
+domain,mepintei.com,high,2026-11-18T14:29:25+00:00,2026-11-18T15:01:46.955903+00:00,2,,Listed as part of the C2 infrastructure for EggStremeFuel activity,c2
+domain,brokerok.org,high,2026-11-18T13:11:08+00:00,2026-11-18T13:11:08+00:00,1,,Subdomains used in malicious activities,malware
+domain,c2data.brokerok.org,high,2026-11-18T13:11:08+00:00,2026-11-18T13:11:08+00:00,1,,Subdomain used in malicious activities,malware
+domain,c2proxy.brokerok.org,high,2026-11-18T13:11:08+00:00,2026-11-18T13:11:08+00:00,1,,Subdomain used in malicious activities,malware
+domain,com.tiktok.premium.pro,high,2026-11-18T13:11:08+00:00,2026-11-18T13:11:08+00:00,1,,Used in malicious APK installation,malware
 domain,androidasynclib.com,high,2026-11-17T16:30:48.777836+00:00,2026-11-18T08:33:19.644367+00:00,2,,Part of the command infrastructure used by GravityRAT,c2
 domain,androidstaticserve.com,high,2026-11-17T16:30:48.777836+00:00,2026-11-18T08:33:19.644367+00:00,2,,Part of the command infrastructure used by GravityRAT,c2
 domain,api.androiddevpool.com,high,2026-11-17T16:30:48.777836+00:00,2026-11-18T08:33:19.644367+00:00,2,,Active endpoint URL used by GravityRAT,c2
@@ -14,16 +50,12 @@ domain,connectivity.androidstaticserve.com,high,2026-11-17T16:30:48.777836+00:00
 domain,meta.androidasynclib.com,high,2026-11-17T16:30:48.777836+00:00,2026-11-18T08:33:19.644367+00:00,2,,Active endpoint URL used by GravityRAT,c2
 domain,static.androidufslib.com,high,2026-11-17T16:30:48.777836+00:00,2026-11-18T08:33:19.644367+00:00,2,,Active endpoint URL used by GravityRAT,c2
 domain,dropdeckx.com,high,2026-11-18T04:59:47+00:00,2026-11-18T06:30:33+00:00,1,,Linked to the mobile campaign through shared registration dates and name servers,malware
-domain,gta6demo.asia,high,2026-11-18T04:30:00+00:00,2026-11-18T04:30:00+00:00,1,,Domain associated with a fake GTA VI demo package used to distribute malware,malware|fake_software
-domain,gta6-play.ru,high,2026-11-18T04:30:00+00:00,2026-11-18T04:30:00+00:00,1,,Domain flagged as potentially malicious and associated with a fake GTA VI site,fake_software
 domain,caapman.me,high,2026-11-17T22:33:49.017029+00:00,2026-11-17T22:33:49.017029+00:00,1,,Domain listed in a hunting query for suspicious activity,malware
 domain,gerlace.com,high,2026-11-17T22:33:49.017029+00:00,2026-11-17T22:33:49.017029+00:00,1,,Domain listed in a hunting query for suspicious activity,malware
 domain,nutmann.club,high,2026-11-17T22:33:49.017029+00:00,2026-11-17T22:33:49.017029+00:00,1,,Domain listed in a hunting query for suspicious activity,malware
 domain,okuneva.sbs,high,2026-11-17T22:33:49.017029+00:00,2026-11-17T22:33:49.017029+00:00,1,,Domain listed in a hunting query for suspicious activity,malware
 domain,vilialobos.lol,high,2026-11-17T22:33:49.017029+00:00,2026-11-17T22:33:49.017029+00:00,1,,Domain used as a source for remote script injection,c2
 domain,vtevens.icu,high,2026-11-17T22:33:49.017029+00:00,2026-11-17T22:33:49.017029+00:00,1,,Domain listed in a hunting query for suspicious activity,malware
-domain,ios-hack.icu,high,2026-11-17T05:31:17.284187+00:00,2026-11-17T22:02:18.875976+00:00,1,,Domain associated with iOS exploit infrastructure,malware
-domain,webshell.lol,high,2026-11-17T01:07:09.668295+00:00,2026-11-17T22:02:18.875976+00:00,6,,Domain used as an injector in the attack,malware
 domain,outagefixed.sbs,high,2026-11-17T12:20:34+00:00,2026-11-17T12:20:34+00:00,1,,Identified as a phishing domain,phishing
 domain,outagerestored.sbs,high,2026-11-17T12:20:34+00:00,2026-11-17T12:20:34+00:00,1,,Identified as a phishing domain,phishing
 domain,runner.ec,high,2026-05-13T13:02:09.007681+00:00,2026-11-17T10:01:57.969991+00:00,1,,Malware delivery domain associated with modified Spark RAT,malware
@@ -141,27 +173,6 @@ domain,planetmaison.com,high,2026-11-14T09:09:35+00:00,2026-11-14T17:37:09+00:00
 domain,pbsotalk.com,high,2026-11-14T16:39:11.976823+00:00,2026-11-14T16:39:11.976823+00:00,1,,Launched by Dougan as a forum for anonymous tips on law enforcement corruption.,influence_operations
 domain,api.cloudvflare.com,high,2026-11-14T07:47:10+00:00,2026-11-14T07:47:10+00:00,1,,"Beaconed to by a malicious binary, likely attacker-controlled.",c2|malware
 domain,accurasofthire.com,high,2026-11-13T17:04:34+00:00,2026-11-13T18:33:32.637467+00:00,2,,Identified as a careers site and loader server controlled by attackers.,malware
-domain,bib.1001gacor.org,high,2026-09-09T14:31:09.124499+00:00,2026-11-13T17:02:42.619777+00:00,1,,Listed as part of a malicious infrastructure.,malware
-domain,bob.1001gacor.org,high,2026-09-09T14:31:09.124499+00:00,2026-11-13T17:02:42.619777+00:00,1,,Listed as part of Vidar infrastructure.,malware
-domain,brr.1001gacor.org,high,2026-09-09T14:31:09.124499+00:00,2026-11-13T17:02:42.619777+00:00,1,,Listed as part of Vidar infrastructure.,c2|malware
-domain,dez.11gokil.org,high,2026-09-09T14:31:09.124499+00:00,2026-11-13T17:02:42.619777+00:00,1,,Listed as additional Vidar infrastructure,c2|malware
-domain,ges.1001gacor.org,high,2026-09-09T14:31:09.124499+00:00,2026-11-13T17:02:42.619777+00:00,1,,Listed as part of Vidar infrastructure,c2|malware
-domain,gta6demo.eu,high,2026-09-09T14:31:09.124499+00:00,2026-11-13T17:02:42.619777+00:00,1,,Listed in an IOC table as attacker infrastructure,c2|malware
-domain,gta6demo.us,high,2026-09-09T14:31:09.124499+00:00,2026-11-13T17:02:42.619777+00:00,1,,Listed in an IOC table as attacker infrastructure,c2|malware
-domain,ket.1001gacor.org,high,2026-09-09T14:31:09.124499+00:00,2026-11-13T17:02:42.619777+00:00,1,,Listed as part of Vidar infrastructure,c2|malware
-domain,kra.1001gacor.org,high,2026-09-09T14:31:09.124499+00:00,2026-11-13T17:02:42.619777+00:00,1,,Listed as part of Vidar infrastructure,c2|malware
-domain,ljr.1001gacor.org,high,2026-09-09T14:31:09.124499+00:00,2026-11-13T17:02:42.619777+00:00,1,,Listed as part of Vidar infrastructure,c2|malware
-domain,nhg.1001gacor.org,high,2026-09-09T14:31:09.124499+00:00,2026-11-13T17:02:42.619777+00:00,1,,Domain used as part of Vidar malware infrastructure,c2|malware
-domain,rex.1001gacor.org,high,2026-09-09T14:31:09.124499+00:00,2026-11-13T17:02:42.619777+00:00,1,,Listed as part of Vidar infrastructure,c2|malware
-domain,rockstar-gta-6.com,high,2026-09-09T14:31:09.124499+00:00,2026-11-13T17:02:42.619777+00:00,1,,Listed as part of attacker infrastructure,c2|malware
-domain,ses.1001gacor.org,high,2026-09-09T14:31:09.124499+00:00,2026-11-13T17:02:42.619777+00:00,1,,Communicated with by malware as part of attacker infrastructure.,c2|malware
-domain,sii.11gokil.org,high,2026-09-09T14:31:09.124499+00:00,2026-11-13T17:02:42.619777+00:00,1,,Listed as part of Vidar malware infrastructure,c2|malware
-domain,sii.sm188dnsx.top,high,2026-09-09T14:31:09.124499+00:00,2026-11-13T17:02:42.619777+00:00,1,,Listed as part of Vidar malware infrastructure,c2|malware
-domain,sto.1001gacor.org,high,2026-09-09T14:31:09.124499+00:00,2026-11-13T17:02:42.619777+00:00,1,,Listed as part of Vidar malware infrastructure,c2|malware
-domain,tax.11gokil.org,high,2026-09-09T14:31:09.124499+00:00,2026-11-13T17:02:42.619777+00:00,1,,Listed as part of Vidar malware infrastructure,c2|malware
-domain,tax.sm188dnsx.top,high,2026-09-09T14:31:09.124499+00:00,2026-11-13T17:02:42.619777+00:00,1,,Listed as part of Vidar malware infrastructure,c2|malware
-domain,zaf.11gokil.org,high,2026-09-09T14:31:09.124499+00:00,2026-11-13T17:02:42.619777+00:00,1,,Domain listed among attacker-controlled infrastructure,c2|malware
-domain,zaf.sm188dnsx.top,high,2026-09-09T14:31:09.124499+00:00,2026-11-13T17:02:42.619777+00:00,1,,Domain listed among attacker-controlled infrastructure,c2|malware
 domain,cryptor.biz,high,2026-11-13T15:59:00+00:00,2026-11-13T15:59:00+00:00,1,,Used to test malware against antivirus tools.,abused_service
 domain,cryptor.live,high,2026-11-13T15:59:00+00:00,2026-11-13T15:59:00+00:00,1,,Used to test malware against antivirus tools.,abused_service
 domain,cctv-update.top,high,2026-11-13T14:03:43+00:00,2026-11-13T14:06:17+00:00,2,,Domain registered by attacker and associated with malicious activity,malware
