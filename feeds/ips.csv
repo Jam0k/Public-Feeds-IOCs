@@ -1,16 +1,24 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason,categories
+ipv4,89.34.90.203,high,2026-11-12T23:15:23+00:00,2026-11-20T09:01:12.474928+00:00,2,efficientip.com:2026-11-20|Helpnetsecurity:2026-11-12,IP address used to host a script for a phishing campaign.,malware
+ipv4,45.38.60.254,high,2026-11-19T17:21:03+00:00,2026-11-19T17:21:03+00:00,1,Wordfence:2026-11-19,Identified as a source of scanning activity,scanner
+ipv4,185.138.88.3,high,2026-11-13T12:05:34+00:00,2026-11-19T16:32:34.129750+00:00,2,www.island.io:2026-11-19|Gbhackers:2026-11-13,Used in a malicious command to download and execute a script,malware
+ipv4,145.63.138.67,high,2026-11-19T12:15:57.204323+00:00,2026-11-19T12:15:57.204323+00:00,1,hunt.io:2026-11-19,Used as a VPS for credential-theft operation,malware
+ipv4,188.137.236.209,high,2026-11-19T12:15:57.204323+00:00,2026-11-19T12:15:57.204323+00:00,1,hunt.io:2026-11-19,Operator authenticated from this IP in a C2 operation,c2
+ipv4,202.61.139.15,high,2026-11-19T09:08:28+00:00,2026-11-19T09:08:28+00:00,1,Rescana:2026-11-19,Listed as an outbound destination for exfiltration,exfiltration
 ipv4,130.94.67.235,high,2026-10-30T17:50:37+00:00,2026-11-19T06:01:46.669414+00:00,2,hunt.io:2026-11-19|Reddit:2026-10-30,Exposed IP address for a custom heap exploit.,exploit
-ipv4,198.41.83.165,high,2026-11-19T06:01:46.669414+00:00,2026-11-19T06:01:46.669414+00:00,1,hunt.io:2026-11-19,Hosts php2shell exploit script and other attack tools.,exploit
-ipv4,198.41.83.174,high,2026-11-19T06:01:46.669414+00:00,2026-11-19T06:01:46.669414+00:00,1,hunt.io:2026-11-19,Hosts php2shell exploit script and other attack tools.,exploit
-ipv4,38.60.136.217,high,2026-11-19T06:01:46.669414+00:00,2026-11-19T06:01:46.669414+00:00,1,hunt.io:2026-11-19,Part of shared exploit kit infrastructure used by attackers.,exploit
-ipv4,96.126.130.81,high,2026-11-19T06:01:46.669414+00:00,2026-11-19T06:01:46.669414+00:00,1,hunt.io:2026-11-19,Part of shared exploit kit infrastructure used by attackers.,exploit
+ipv4,198.41.83.165,high,2026-11-19T06:01:46.669414+00:00,2026-11-19T06:01:46.669414+00:00,1,hunt.io:2026-11-19,Hosts exploit script and tools used in attacks,exploit
+ipv4,198.41.83.174,high,2026-11-19T06:01:46.669414+00:00,2026-11-19T06:01:46.669414+00:00,1,hunt.io:2026-11-19,Hosts exploit script and tools used in attacks,exploit
+ipv4,2.59.133.151,high,2026-11-19T06:01:46.669414+00:00,2026-11-19T06:01:46.669414+00:00,1,hunt.io:2026-11-19,Logged as a source of shell activity in honeypot data,exploit
+ipv4,38.60.136.217,high,2026-11-19T06:01:46.669414+00:00,2026-11-19T06:01:46.669414+00:00,1,hunt.io:2026-11-19,Part of shared exploit kit infrastructure,exploit
+ipv4,45.39.190.176,high,2026-11-19T06:01:46.669414+00:00,2026-11-19T06:01:46.669414+00:00,1,hunt.io:2026-11-19,Used in an exploit operation with open directories,exploit
+ipv4,96.126.130.81,high,2026-11-19T06:01:46.669414+00:00,2026-11-19T06:01:46.669414+00:00,1,hunt.io:2026-11-19,Part of shared exploit kit infrastructure,exploit
 ipv4,77.239.124.204,high,2026-11-19T01:53:48+00:00,2026-11-19T01:53:48+00:00,1,Isc.Sans.Edu:2026-11-19,Involved in SSH brute force attack,scanner
+ipv4,144.31.108.125,high,2026-11-19T01:39:50+00:00,2026-11-19T01:39:50+00:00,1,Community.Modx:2026-11-19,Listed as an address in access logs indicating compromise,other
 ipv4,45.153.126.223,high,2026-11-18T16:09:36+00:00,2026-11-18T16:09:36+00:00,1,Darktrace:2026-11-18,Linked to BLOODALCHEMY C2 infrastructure,c2
 ipv4,109.248.24.84,high,2026-11-18T14:29:25+00:00,2026-11-18T15:01:46.955903+00:00,2,businessinsights.bitdefender.com:2026-11-18|Bitdefender:2026-11-18,Identified as part of the C2 infrastructure for EggStremeFuel activity,c2
 ipv4,45.115.225.73,high,2026-11-18T14:29:25+00:00,2026-11-18T15:01:46.955903+00:00,2,businessinsights.bitdefender.com:2026-11-18|Bitdefender:2026-11-18,Identified as part of the C2 infrastructure for EggStremeFuel activity,c2
 ipv4,149.104.109.230,high,2026-11-18T14:29:25+00:00,2026-11-18T14:29:25+00:00,1,Bitdefender:2026-11-18,Listed as part of C2 infrastructure for EggStremeFuel,c2
 ipv4,95.181.213.21,high,2026-11-18T13:11:08+00:00,2026-11-18T13:11:08+00:00,1,Threatfabric:2026-11-18,Used by attacker for hosting malicious infrastructure,malware
-ipv4,206.245.153.56,high,2026-11-18T13:03:01+00:00,2026-11-18T13:03:01+00:00,1,Socradar:2026-11-18,"Serves as C2, payload-hosting, and loot-collection server for exploitation campaign.",c2|malware|exfiltration
 ipv4,41.216.188.11,high,2026-11-18T11:00:00+00:00,2026-11-18T11:00:00+00:00,1,Blog.Talosintelligence:2026-11-18,Used by threat actor for hosting malicious files,malware
 ipv4,45.139.84.200,high,2026-11-18T08:02:12.447565+00:00,2026-11-18T08:02:12.447565+00:00,1,any.run:2026-11-18,Identified as an attacker-controlled server used for remote management,c2|malware
 ipv4,87.120.104.213,high,2026-11-18T08:02:12.447565+00:00,2026-11-18T08:02:12.447565+00:00,1,any.run:2026-11-18,Connected to by CastleRAT as part of command-and-control infrastructure,c2
@@ -60,7 +68,6 @@ ipv4,221.146.68.107,high,2026-11-16T01:30:43.043128+00:00,2026-11-16T01:30:43.04
 ipv4,52.128.238.126,high,2026-11-16T01:30:43.043128+00:00,2026-11-16T01:30:43.043128+00:00,1,trust.barracuda.com:2026-11-16,Listed in the article as an indicator of compromise potentially associated with the incident.,other
 ipv6,2a09:bac1:7680:3d0::26b:5b,high,2026-11-16T01:30:43.043128+00:00,2026-11-16T01:30:43.043128+00:00,1,trust.barracuda.com:2026-11-16,Listed in the article as an indicator of compromise potentially associated with the incident.,other
 ipv4,112.121.185.218,high,2026-11-04T03:55:19+00:00,2026-11-15T21:30:40.559384+00:00,2,www.acronis.com:2026-11-15|Acronis:2026-11-04,Identified as the primary node hosting multiple attack platforms including C2,c2|malware|proxy_tunnel
-ipv4,185.138.88.3,high,2026-11-13T12:05:34+00:00,2026-11-15T20:01:02.719590+00:00,2,www.island.io:2026-11-15|Gbhackers:2026-11-13,Used in a malicious command to download and execute a script,malware
 ipv4,206.251.239.164,high,2026-11-15T16:27:51+00:00,2026-11-15T16:27:51+00:00,1,Cyberkendra:2026-11-15,Identified as the exploit source in the context of the attack,exploit
 ipv4,104.28.225.223,high,2026-11-14T07:19:13+00:00,2026-11-14T12:21:44+00:00,1,Gbhackers:2026-11-14,Listed as an IP address used for credential theft.,phishing
 ipv4,212.107.28.51,high,2026-11-14T07:19:13+00:00,2026-11-14T12:21:44+00:00,1,Gbhackers:2026-11-14,Listed as an IP address used for cryptocurrency fraud.,crypto_drainer
@@ -79,7 +86,6 @@ ipv4,45.150.32.130,high,2026-11-13T03:41:41+00:00,2026-11-13T03:41:41+00:00,1,Is
 ipv4,89.125.213.123,high,2026-11-13T00:38:10.803831+00:00,2026-11-13T00:38:10.803831+00:00,1,www.cloudsek.com:2026-11-13,Exposed Debian VPS used by attackers for phishing operations.,phishing
 ipv4,202.61.138.117,high,2026-11-13T00:00:00+00:00,2026-11-13T00:00:00+00:00,1,Vulncheck:2026-11-13,Source IP for malicious activity.,scanner
 ipv4,77.91.123.131,high,2026-11-13T00:00:00+00:00,2026-11-13T00:00:00+00:00,1,Ransom-Isac:2026-11-13,Listed as operator infrastructure in multiple intrusions.,c2|proxy_tunnel
-ipv4,89.34.90.203,high,2026-11-12T23:15:23+00:00,2026-11-12T23:15:23+00:00,1,Helpnetsecurity:2026-11-12,IP address used to host a script for a phishing campaign.,malware
 ipv4,154.44.31.4,high,2026-11-12T15:00:29+00:00,2026-11-12T15:03:54+00:00,2,Unit42.Paloaltonetworks:2026-11-12|Helpnetsecurity:2026-11-12,Server used by attackers to run a customized fork of Cairn,malware
 ipv4,157.20.241.16,high,2026-11-12T11:51:43+00:00,2026-11-12T11:51:43+00:00,1,Thehackernews:2026-11-12,Used in a targeted attack against N-central servers,exploit
 ipv4,194.150.166.244,high,2026-11-12T01:45:00+00:00,2026-11-12T01:45:00+00:00,1,Aikido.Dev:2026-11-12,IP address used as a callback server for exfiltration in a campaign.,exfiltration
@@ -241,8 +247,3 @@ ipv4,211.240.117.200,high,2026-10-22T11:32:08.326901+00:00,2026-10-22T11:32:08.3
 ipv4,168.100.8.57,high,2026-10-21T23:16:31+00:00,2026-10-21T23:16:31+00:00,1,Rescana:2026-10-21,Source IP address seen checking stolen AWS credentials,other
 ipv4,2.27.248.127,high,2026-10-21T19:01:41.433743+00:00,2026-10-21T19:01:41.433743+00:00,1,productcert.siemens.com:2026-10-21,IP address listed as part of attacker infrastructure to be blocked,exploit
 ipv4,96.62.218.59,high,2026-10-21T19:01:41.433743+00:00,2026-10-21T19:01:41.433743+00:00,1,productcert.siemens.com:2026-10-21,IP address listed as part of attacker infrastructure to be blocked,exploit
-ipv4,167.148.201.106,high,2026-10-21T13:03:40+00:00,2026-10-21T13:03:40+00:00,1,Huntress:2026-10-21,C2 traffic generated by NetSupport Client software,c2
-ipv4,79.130.26.202,high,2026-10-21T11:32:04.373928+00:00,2026-10-21T11:32:04.373928+00:00,1,www.rapid7.com:2026-10-21,Listed as a threat actor source IP in a campaign,other
-ipv4,185.225.226.62,high,2026-10-20T22:00:38.188496+00:00,2026-10-21T10:30:27+00:00,2,Thehackernews:2026-10-21|lists.torproject.org:2026-10-20,IP address used by attacker to log into the management server,other
-ipv4,162.33.177.177,high,2026-10-21T04:13:31+00:00,2026-10-21T04:13:31+00:00,1,Github:2026-10-21,Communicating with a persistent NodeJS service registered by the attacker,c2
-ipv4,212.73.134.136,high,2026-10-20T21:22:02+00:00,2026-10-20T21:22:02+00:00,1,Wiz:2026-10-20,Used as a source IP for phishing activity,phishing
