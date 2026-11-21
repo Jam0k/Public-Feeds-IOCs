@@ -1,4 +1,11 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason,categories
+domain,enrollmfamethods.com,high,2026-11-20T22:03:51+00:00,2026-11-20T22:03:51+00:00,1,,Listed in FQDN indicators of compromise as passkey-themed phishing domain,phishing
+domain,keyconfiguration.com,high,2026-11-20T22:03:51+00:00,2026-11-20T22:03:51+00:00,1,,Listed in FQDN indicators as passkey-themed phishing domain,phishing
+domain,oskeyregister.com,high,2026-11-20T22:03:51+00:00,2026-11-20T22:03:51+00:00,1,,Phishing domain tied to Com-affiliated passkey campaigns,phishing
+domain,register-passkeys.com,high,2026-11-20T22:03:51+00:00,2026-11-20T22:03:51+00:00,1,,Listed FQDN indicator of passkey phishing,phishing
+domain,nimbuskeep.com,high,2026-11-20T21:07:22+00:00,2026-11-20T21:07:22+00:00,1,,C2 domain for the Rust stealer,c2|exfiltration
+domain,velmontriq.net,high,2026-11-20T21:07:22+00:00,2026-11-20T21:07:22+00:00,1,,Newly registered attacker-controlled domain hosting malware payloads,malware
+domain,bestbuy-in.online,high,2026-11-20T10:46:10+00:00,2026-11-20T10:46:10+00:00,1,,"Fraudulent lookalike shop impersonating a retailer, used to collect personal information",phishing|scam_fraud
 domain,caapman.me,high,2026-11-17T22:33:49.017029+00:00,2026-11-20T09:01:12.979173+00:00,1,,Domain listed in a hunting query for suspicious activity,malware
 domain,gerlace.com,high,2026-11-17T22:33:49.017029+00:00,2026-11-20T09:01:12.979173+00:00,1,,Domain listed in a hunting query for suspicious activity,malware
 domain,nutmann.club,high,2026-11-17T22:33:49.017029+00:00,2026-11-20T09:01:12.979173+00:00,1,,Domain listed in a hunting query for suspicious activity,malware
@@ -48,6 +55,7 @@ domain,speachma.com,high,2026-11-12T15:31:44.382105+00:00,2026-11-19T16:32:34.12
 domain,sunno.ai,high,2026-11-12T15:31:44.382105+00:00,2026-11-19T16:32:34.129750+00:00,1,,Typo-squatted domain used in malicious redirect chains,traffic_distribution
 domain,viggie.ai,high,2026-11-12T15:31:44.382105+00:00,2026-11-19T16:32:34.129750+00:00,1,,Part of a malicious redirect chain tied to AI lookalike domains,traffic_distribution
 domain,vocie.ai,high,2026-11-12T15:31:44.382105+00:00,2026-11-19T16:32:34.129750+00:00,1,,Part of a malicious redirect chain tied to AI lookalike domains,traffic_distribution
+domain,nzqztr2208262ea.cfd,high,2026-11-19T15:00:00+00:00,2026-11-19T15:00:00+00:00,1,,Distribution domain for infostealer malware disguised as cracks,malware|fake_software
 domain,sync-node-serv.com,high,2026-11-19T12:15:57.204323+00:00,2026-11-19T12:15:57.204323+00:00,1,,Used for serving task payloads in an attack chain,malware
 domain,moments-notice.com,high,2026-11-14T09:09:35+00:00,2026-11-19T11:41:27+00:00,9,,Used as a domain in a phishing campaign exploiting Microsoft 365 outage.,phishing
 domain,newbooker.com,high,2026-11-14T09:09:35+00:00,2026-11-19T11:41:27+00:00,9,,Used as a domain in a phishing campaign exploiting Microsoft 365 outage.,phishing
@@ -111,9 +119,9 @@ domain,gta6demo.asia,high,2026-11-18T04:30:00+00:00,2026-11-18T16:09:36+00:00,2,
 domain,gta6-play.ru,high,2026-11-18T04:30:00+00:00,2026-11-18T16:09:36+00:00,2,,Flagged as likely malicious and associated with fake GTA VI downloads,fake_software
 domain,uncvlizd.com,high,2026-11-18T15:01:47.568295+00:00,2026-11-18T15:01:47.568295+00:00,1,,Identified as the command-and-control endpoint re-registered by attackers.,c2
 domain,mepintei.com,high,2026-11-18T14:29:25+00:00,2026-11-18T15:01:46.955903+00:00,2,,Listed as part of the C2 infrastructure for EggStremeFuel activity,c2
-domain,brokerok.org,high,2026-11-18T13:11:08+00:00,2026-11-18T13:11:08+00:00,1,,Subdomains used in malicious activities,malware
-domain,c2data.brokerok.org,high,2026-11-18T13:11:08+00:00,2026-11-18T13:11:08+00:00,1,,Subdomain used in malicious activities,malware
-domain,c2proxy.brokerok.org,high,2026-11-18T13:11:08+00:00,2026-11-18T13:11:08+00:00,1,,Subdomain used in malicious activities,malware
+domain,brokerok.org,high,2026-11-18T13:11:08+00:00,2026-11-18T13:11:08+00:00,1,,Subdomains used as C2 infrastructure in the malware framework,malware
+domain,c2data.brokerok.org,high,2026-11-18T13:11:08+00:00,2026-11-18T13:11:08+00:00,1,,Subdomain used as C2 infrastructure in the malware framework,malware
+domain,c2proxy.brokerok.org,high,2026-11-18T13:11:08+00:00,2026-11-18T13:11:08+00:00,1,,Subdomain used as C2 infrastructure in the malware framework,malware
 domain,com.tiktok.premium.pro,high,2026-11-18T13:11:08+00:00,2026-11-18T13:11:08+00:00,1,,Used in malicious APK installation,malware
 domain,androidasynclib.com,high,2026-11-17T16:30:48.777836+00:00,2026-11-18T08:33:19.644367+00:00,2,,Part of the command infrastructure used by GravityRAT,c2
 domain,androidstaticserve.com,high,2026-11-17T16:30:48.777836+00:00,2026-11-18T08:33:19.644367+00:00,2,,Part of the command infrastructure used by GravityRAT,c2

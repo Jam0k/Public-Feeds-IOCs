@@ -1,7 +1,7 @@
 {
   "feed": "threatcluster-public-iocs",
   "version": 1,
-  "generated_at": "2026-11-20T15:24:43Z",
+  "generated_at": "2026-11-21T14:37:09Z",
   "filters": {
     "confidence": "high",
     "window_days": 30,
@@ -11,8 +11,233 @@
       "domain"
     ]
   },
-  "count": 1005,
+  "count": 970,
   "iocs": [
+    {
+      "type": "domain",
+      "value": "enrollmfamethods.com",
+      "confidence": "high",
+      "reason": "Listed in FQDN indicators of compromise as passkey-themed phishing domain",
+      "first_seen": "2026-11-20T22:03:51+00:00",
+      "last_seen": "2026-11-20T22:03:51+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Unit42.Paloaltonetworks",
+          "url": "https://unit42.paloaltonetworks.com/com-affiliate-vishing-attacks/",
+          "pub_date": "2026-11-20T22:03:51+00:00"
+        }
+      ],
+      "tags": [],
+      "categories": [
+        "phishing"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "keyconfiguration.com",
+      "confidence": "high",
+      "reason": "Listed in FQDN indicators as passkey-themed phishing domain",
+      "first_seen": "2026-11-20T22:03:51+00:00",
+      "last_seen": "2026-11-20T22:03:51+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Unit42.Paloaltonetworks",
+          "url": "https://unit42.paloaltonetworks.com/com-affiliate-vishing-attacks/",
+          "pub_date": "2026-11-20T22:03:51+00:00"
+        }
+      ],
+      "tags": [],
+      "categories": [
+        "phishing"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "oskeyregister.com",
+      "confidence": "high",
+      "reason": "Phishing domain tied to Com-affiliated passkey campaigns",
+      "first_seen": "2026-11-20T22:03:51+00:00",
+      "last_seen": "2026-11-20T22:03:51+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Unit42.Paloaltonetworks",
+          "url": "https://unit42.paloaltonetworks.com/com-affiliate-vishing-attacks/",
+          "pub_date": "2026-11-20T22:03:51+00:00"
+        }
+      ],
+      "tags": [],
+      "categories": [
+        "phishing"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "register-passkeys.com",
+      "confidence": "high",
+      "reason": "Listed FQDN indicator of passkey phishing",
+      "first_seen": "2026-11-20T22:03:51+00:00",
+      "last_seen": "2026-11-20T22:03:51+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Unit42.Paloaltonetworks",
+          "url": "https://unit42.paloaltonetworks.com/com-affiliate-vishing-attacks/",
+          "pub_date": "2026-11-20T22:03:51+00:00"
+        }
+      ],
+      "tags": [],
+      "categories": [
+        "phishing"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "nimbuskeep.com",
+      "confidence": "high",
+      "reason": "C2 domain for the Rust stealer",
+      "first_seen": "2026-11-20T21:07:22+00:00",
+      "last_seen": "2026-11-20T21:07:22+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Bitdefender",
+          "url": "https://www.bitdefender.com/en-au/blog/labs/fake-gta-vi-pc-client-malware-clickfix",
+          "pub_date": "2026-11-20T21:07:22+00:00"
+        }
+      ],
+      "tags": [],
+      "categories": [
+        "c2",
+        "exfiltration"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "velmontriq.net",
+      "confidence": "high",
+      "reason": "Newly registered attacker-controlled domain hosting malware payloads",
+      "first_seen": "2026-11-20T21:07:22+00:00",
+      "last_seen": "2026-11-20T21:07:22+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Bitdefender",
+          "url": "https://www.bitdefender.com/en-au/blog/labs/fake-gta-vi-pc-client-malware-clickfix",
+          "pub_date": "2026-11-20T21:07:22+00:00"
+        }
+      ],
+      "tags": [],
+      "categories": [
+        "malware"
+      ],
+      "basis": null
+    },
+    {
+      "type": "ipv4",
+      "value": "103.147.251.5",
+      "confidence": "high",
+      "reason": "Listed as a suspected obfuscation-network IP address associated with ARMORY CASTLE intrusion",
+      "first_seen": "2026-11-20T14:14:50+00:00",
+      "last_seen": "2026-11-20T14:14:50+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Socprime",
+          "url": "https://socprime.com/blog/cve-2026-123890-critical-vmware-vcenter-zero-day-exploited-by-china-linked-hackers/",
+          "pub_date": "2026-11-20T14:14:50+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2026-102764"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-123890"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-59309"
+        },
+        {
+          "type": "malware",
+          "value": "Bearbones"
+        }
+      ],
+      "categories": [
+        "other"
+      ],
+      "basis": null
+    },
+    {
+      "type": "ipv4",
+      "value": "103.190.38.3",
+      "confidence": "high",
+      "reason": "Listed as a suspected obfuscation-network IP address associated with ARMORY CASTLE intrusion",
+      "first_seen": "2026-11-20T14:14:50+00:00",
+      "last_seen": "2026-11-20T14:14:50+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Socprime",
+          "url": "https://socprime.com/blog/cve-2026-123890-critical-vmware-vcenter-zero-day-exploited-by-china-linked-hackers/",
+          "pub_date": "2026-11-20T14:14:50+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2026-102764"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-123890"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-59309"
+        },
+        {
+          "type": "malware",
+          "value": "Bearbones"
+        }
+      ],
+      "categories": [
+        "other"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "bestbuy-in.online",
+      "confidence": "high",
+      "reason": "Fraudulent lookalike shop impersonating a retailer, used to collect personal information",
+      "first_seen": "2026-11-20T10:46:10+00:00",
+      "last_seen": "2026-11-20T10:46:10+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Itweb.Co.Za",
+          "url": "https://www.itweb.co.za/article/fake-retail-courier-websites-target-black-friday-shoppers/lwrKxv3Y6lAMmg1o",
+          "pub_date": "2026-11-20T10:46:10+00:00"
+        }
+      ],
+      "tags": [],
+      "categories": [
+        "phishing",
+        "scam_fraud"
+      ],
+      "basis": null
+    },
     {
       "type": "domain",
       "value": "caapman.me",
@@ -294,6 +519,29 @@
       "tags": [],
       "categories": [
         "ransomware"
+      ],
+      "basis": null
+    },
+    {
+      "type": "ipv4",
+      "value": "103.151.199.22",
+      "confidence": "high",
+      "reason": "Operator panel and lure server hosting the fake Play Store page and APKs",
+      "first_seen": "2026-11-20T00:00:00+00:00",
+      "last_seen": "2026-11-20T00:00:00+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Cloudsek",
+          "url": "https://www.cloudsek.com/blog/inside-party-panel-android-banking-trojan-targeting-indian-banks",
+          "pub_date": "2026-11-20T00:00:00+00:00"
+        }
+      ],
+      "tags": [],
+      "categories": [
+        "phishing",
+        "malware",
+        "c2"
       ],
       "basis": null
     },
@@ -1849,6 +2097,28 @@
       ],
       "categories": [
         "malware"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "nzqztr2208262ea.cfd",
+      "confidence": "high",
+      "reason": "Distribution domain for infostealer malware disguised as cracks",
+      "first_seen": "2026-11-19T15:00:00+00:00",
+      "last_seen": "2026-11-19T15:00:00+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Asec.Ahnlab",
+          "url": "https://asec.ahnlab.com/en/96698/",
+          "pub_date": "2026-11-19T15:00:00+00:00"
+        }
+      ],
+      "tags": [],
+      "categories": [
+        "malware",
+        "fake_software"
       ],
       "basis": null
     },
@@ -3704,7 +3974,7 @@
       "type": "domain",
       "value": "brokerok.org",
       "confidence": "high",
-      "reason": "Subdomains used in malicious activities",
+      "reason": "Subdomains used as C2 infrastructure in the malware framework",
       "first_seen": "2026-11-18T13:11:08+00:00",
       "last_seen": "2026-11-18T13:11:08+00:00",
       "source_count": 1,
@@ -3715,7 +3985,16 @@
           "pub_date": "2026-11-18T13:11:08+00:00"
         }
       ],
-      "tags": [],
+      "tags": [
+        {
+          "type": "industry",
+          "value": "Financial"
+        },
+        {
+          "type": "malware",
+          "value": "Bazuka"
+        }
+      ],
       "categories": [
         "malware"
       ],
@@ -3725,7 +4004,7 @@
       "type": "domain",
       "value": "c2data.brokerok.org",
       "confidence": "high",
-      "reason": "Subdomain used in malicious activities",
+      "reason": "Subdomain used as C2 infrastructure in the malware framework",
       "first_seen": "2026-11-18T13:11:08+00:00",
       "last_seen": "2026-11-18T13:11:08+00:00",
       "source_count": 1,
@@ -3736,7 +4015,16 @@
           "pub_date": "2026-11-18T13:11:08+00:00"
         }
       ],
-      "tags": [],
+      "tags": [
+        {
+          "type": "industry",
+          "value": "Financial"
+        },
+        {
+          "type": "malware",
+          "value": "Bazuka"
+        }
+      ],
       "categories": [
         "malware"
       ],
@@ -3746,7 +4034,7 @@
       "type": "domain",
       "value": "c2proxy.brokerok.org",
       "confidence": "high",
-      "reason": "Subdomain used in malicious activities",
+      "reason": "Subdomain used as C2 infrastructure in the malware framework",
       "first_seen": "2026-11-18T13:11:08+00:00",
       "last_seen": "2026-11-18T13:11:08+00:00",
       "source_count": 1,
@@ -3757,28 +4045,16 @@
           "pub_date": "2026-11-18T13:11:08+00:00"
         }
       ],
-      "tags": [],
-      "categories": [
-        "malware"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "com.tiktok.premium.pro",
-      "confidence": "high",
-      "reason": "Used in malicious APK installation",
-      "first_seen": "2026-11-18T13:11:08+00:00",
-      "last_seen": "2026-11-18T13:11:08+00:00",
-      "source_count": 1,
-      "sources": [
+      "tags": [
         {
-          "source": "Threatfabric",
-          "url": "https://www.threatfabric.com/blogs/bazuka-the-fraud-framework-that-can-do-it-all",
-          "pub_date": "2026-11-18T13:11:08+00:00"
+          "type": "industry",
+          "value": "Financial"
+        },
+        {
+          "type": "malware",
+          "value": "Bazuka"
         }
       ],
-      "tags": [],
       "categories": [
         "malware"
       ],
@@ -3788,7 +4064,7 @@
       "type": "ipv4",
       "value": "95.181.213.21",
       "confidence": "high",
-      "reason": "Used by attacker for hosting malicious infrastructure",
+      "reason": "Server used as part of the attacker's infrastructure",
       "first_seen": "2026-11-18T13:11:08+00:00",
       "last_seen": "2026-11-18T13:11:08+00:00",
       "source_count": 1,
@@ -3799,7 +4075,16 @@
           "pub_date": "2026-11-18T13:11:08+00:00"
         }
       ],
-      "tags": [],
+      "tags": [
+        {
+          "type": "industry",
+          "value": "Financial"
+        },
+        {
+          "type": "malware",
+          "value": "Bazuka"
+        }
+      ],
       "categories": [
         "malware"
       ],
@@ -10503,44 +10788,6 @@
     },
     {
       "type": "domain",
-      "value": "61paris.fr",
-      "confidence": "high",
-      "reason": "Listed as a hacked website used as a 1st level proxy",
-      "first_seen": "2026-11-10T15:07:01.933967+00:00",
-      "last_seen": "2026-11-10T15:07:01.933967+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "github.com",
-          "url": "https://github.com/eset/malware-ioc/tree/master/turla",
-          "pub_date": "2026-11-10T15:07:01.933967+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Gamaredon"
-        },
-        {
-          "type": "apt_group",
-          "value": "Turla"
-        },
-        {
-          "type": "campaign",
-          "value": "Exchange For Breakfast: Turla\u2019s Cereal Tricks Are Not For Kids"
-        },
-        {
-          "type": "campaign",
-          "value": "To The Moon And Back(doors): Lunar Landing In Diplomatic Missions"
-        }
-      ],
-      "categories": [
-        "traffic_distribution"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
       "value": "ales.ball-mill.es",
       "confidence": "high",
       "reason": "Listed as a C2 server in the context",
@@ -10574,197 +10821,6 @@
       ],
       "categories": [
         "other"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "baby.greenweb.co.il",
-      "confidence": "high",
-      "reason": "Listed as a hacked website used for malicious purposes",
-      "first_seen": "2026-11-10T15:07:01.933967+00:00",
-      "last_seen": "2026-11-10T15:07:01.933967+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "github.com",
-          "url": "https://github.com/eset/malware-ioc/tree/master/turla",
-          "pub_date": "2026-11-10T15:07:01.933967+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Gamaredon"
-        },
-        {
-          "type": "apt_group",
-          "value": "Turla"
-        },
-        {
-          "type": "campaign",
-          "value": "Exchange For Breakfast: Turla\u2019s Cereal Tricks Are Not For Kids"
-        },
-        {
-          "type": "campaign",
-          "value": "To The Moon And Back(doors): Lunar Landing In Diplomatic Missions"
-        }
-      ],
-      "categories": [
-        "malware"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "daybreakhealthcare.co.uk",
-      "confidence": "high",
-      "reason": "Listed as a hacked website used for malicious purposes",
-      "first_seen": "2026-11-10T15:07:01.933967+00:00",
-      "last_seen": "2026-11-10T15:07:01.933967+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "github.com",
-          "url": "https://github.com/eset/malware-ioc/tree/master/turla",
-          "pub_date": "2026-11-10T15:07:01.933967+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Gamaredon"
-        },
-        {
-          "type": "apt_group",
-          "value": "Turla"
-        },
-        {
-          "type": "campaign",
-          "value": "Exchange For Breakfast: Turla\u2019s Cereal Tricks Are Not For Kids"
-        },
-        {
-          "type": "campaign",
-          "value": "To The Moon And Back(doors): Lunar Landing In Diplomatic Missions"
-        }
-      ],
-      "categories": [
-        "malware"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "doctorshand.org",
-      "confidence": "high",
-      "reason": "Listed as a hacked website used as a 1st level proxy",
-      "first_seen": "2026-11-10T15:07:01.933967+00:00",
-      "last_seen": "2026-11-10T15:07:01.933967+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "github.com",
-          "url": "https://github.com/eset/malware-ioc/tree/master/turla",
-          "pub_date": "2026-11-10T15:07:01.933967+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Gamaredon"
-        },
-        {
-          "type": "apt_group",
-          "value": "Turla"
-        },
-        {
-          "type": "campaign",
-          "value": "Exchange For Breakfast: Turla\u2019s Cereal Tricks Are Not For Kids"
-        },
-        {
-          "type": "campaign",
-          "value": "To The Moon And Back(doors): Lunar Landing In Diplomatic Missions"
-        }
-      ],
-      "categories": [
-        "malware",
-        "traffic_distribution"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "dyskurs.com.ua",
-      "confidence": "high",
-      "reason": "Listed as a hacked website used for malicious purposes",
-      "first_seen": "2026-11-10T15:07:01.933967+00:00",
-      "last_seen": "2026-11-10T15:07:01.933967+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "github.com",
-          "url": "https://github.com/eset/malware-ioc/tree/master/turla",
-          "pub_date": "2026-11-10T15:07:01.933967+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Gamaredon"
-        },
-        {
-          "type": "apt_group",
-          "value": "Turla"
-        },
-        {
-          "type": "campaign",
-          "value": "Exchange For Breakfast: Turla\u2019s Cereal Tricks Are Not For Kids"
-        },
-        {
-          "type": "campaign",
-          "value": "To The Moon And Back(doors): Lunar Landing In Diplomatic Missions"
-        }
-      ],
-      "categories": [
-        "malware"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "giadinhvabe.net",
-      "confidence": "high",
-      "reason": "Listed as a hacked website used for malicious purposes",
-      "first_seen": "2026-11-10T15:07:01.933967+00:00",
-      "last_seen": "2026-11-10T15:07:01.933967+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "github.com",
-          "url": "https://github.com/eset/malware-ioc/tree/master/turla",
-          "pub_date": "2026-11-10T15:07:01.933967+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Gamaredon"
-        },
-        {
-          "type": "apt_group",
-          "value": "Turla"
-        },
-        {
-          "type": "campaign",
-          "value": "Exchange For Breakfast: Turla\u2019s Cereal Tricks Are Not For Kids"
-        },
-        {
-          "type": "campaign",
-          "value": "To The Moon And Back(doors): Lunar Landing In Diplomatic Missions"
-        }
-      ],
-      "categories": [
-        "malware"
       ],
       "basis": null
     },
@@ -10846,45 +10902,6 @@
     },
     {
       "type": "domain",
-      "value": "jucheafrica.com",
-      "confidence": "high",
-      "reason": "Listed as a hacked website used as a 1st level proxy",
-      "first_seen": "2026-11-10T15:07:01.933967+00:00",
-      "last_seen": "2026-11-10T15:07:01.933967+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "github.com",
-          "url": "https://github.com/eset/malware-ioc/tree/master/turla",
-          "pub_date": "2026-11-10T15:07:01.933967+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Gamaredon"
-        },
-        {
-          "type": "apt_group",
-          "value": "Turla"
-        },
-        {
-          "type": "campaign",
-          "value": "Exchange For Breakfast: Turla\u2019s Cereal Tricks Are Not For Kids"
-        },
-        {
-          "type": "campaign",
-          "value": "To The Moon And Back(doors): Lunar Landing In Diplomatic Missions"
-        }
-      ],
-      "categories": [
-        "malware",
-        "traffic_distribution"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
       "value": "officebuild.4irc.com",
       "confidence": "high",
       "reason": "Listed as a C2 server in the context",
@@ -10918,235 +10935,6 @@
       ],
       "categories": [
         "c2"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "outletpiumini.springwaterfeatures.com",
-      "confidence": "high",
-      "reason": "Listed as a hacked website used for malicious purposes",
-      "first_seen": "2026-11-10T15:07:01.933967+00:00",
-      "last_seen": "2026-11-10T15:07:01.933967+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "github.com",
-          "url": "https://github.com/eset/malware-ioc/tree/master/turla",
-          "pub_date": "2026-11-10T15:07:01.933967+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Gamaredon"
-        },
-        {
-          "type": "apt_group",
-          "value": "Turla"
-        },
-        {
-          "type": "campaign",
-          "value": "Exchange For Breakfast: Turla\u2019s Cereal Tricks Are Not For Kids"
-        },
-        {
-          "type": "campaign",
-          "value": "To The Moon And Back(doors): Lunar Landing In Diplomatic Missions"
-        }
-      ],
-      "categories": [
-        "malware"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "shinestars-lifestyle.com",
-      "confidence": "high",
-      "reason": "Listed as a hacked website used for malicious purposes",
-      "first_seen": "2026-11-10T15:07:01.933967+00:00",
-      "last_seen": "2026-11-10T15:07:01.933967+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "github.com",
-          "url": "https://github.com/eset/malware-ioc/tree/master/turla",
-          "pub_date": "2026-11-10T15:07:01.933967+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Gamaredon"
-        },
-        {
-          "type": "apt_group",
-          "value": "Turla"
-        },
-        {
-          "type": "campaign",
-          "value": "Exchange For Breakfast: Turla\u2019s Cereal Tricks Are Not For Kids"
-        },
-        {
-          "type": "campaign",
-          "value": "To The Moon And Back(doors): Lunar Landing In Diplomatic Missions"
-        }
-      ],
-      "categories": [
-        "malware"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "soligro.com",
-      "confidence": "high",
-      "reason": "Listed as a hacked website used for malicious purposes",
-      "first_seen": "2026-11-10T15:07:01.933967+00:00",
-      "last_seen": "2026-11-10T15:07:01.933967+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "github.com",
-          "url": "https://github.com/eset/malware-ioc/tree/master/turla",
-          "pub_date": "2026-11-10T15:07:01.933967+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Gamaredon"
-        },
-        {
-          "type": "apt_group",
-          "value": "Turla"
-        },
-        {
-          "type": "campaign",
-          "value": "Exchange For Breakfast: Turla\u2019s Cereal Tricks Are Not For Kids"
-        },
-        {
-          "type": "campaign",
-          "value": "To The Moon And Back(doors): Lunar Landing In Diplomatic Missions"
-        }
-      ],
-      "categories": [
-        "malware"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "sonneteck.com",
-      "confidence": "high",
-      "reason": "Listed as a hacked website used for malicious purposes",
-      "first_seen": "2026-11-10T15:07:01.933967+00:00",
-      "last_seen": "2026-11-10T15:07:01.933967+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "github.com",
-          "url": "https://github.com/eset/malware-ioc/tree/master/turla",
-          "pub_date": "2026-11-10T15:07:01.933967+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Gamaredon"
-        },
-        {
-          "type": "apt_group",
-          "value": "Turla"
-        },
-        {
-          "type": "campaign",
-          "value": "Exchange For Breakfast: Turla\u2019s Cereal Tricks Are Not For Kids"
-        },
-        {
-          "type": "campaign",
-          "value": "To The Moon And Back(doors): Lunar Landing In Diplomatic Missions"
-        }
-      ],
-      "categories": [
-        "malware"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "tazohor.com",
-      "confidence": "high",
-      "reason": "Listed as a hacked website used as a 1st level proxy",
-      "first_seen": "2026-11-10T15:07:01.933967+00:00",
-      "last_seen": "2026-11-10T15:07:01.933967+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "github.com",
-          "url": "https://github.com/eset/malware-ioc/tree/master/turla",
-          "pub_date": "2026-11-10T15:07:01.933967+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Gamaredon"
-        },
-        {
-          "type": "apt_group",
-          "value": "Turla"
-        },
-        {
-          "type": "campaign",
-          "value": "Exchange For Breakfast: Turla\u2019s Cereal Tricks Are Not For Kids"
-        },
-        {
-          "type": "campaign",
-          "value": "To The Moon And Back(doors): Lunar Landing In Diplomatic Missions"
-        }
-      ],
-      "categories": [
-        "malware",
-        "traffic_distribution"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "tekfordummies.com",
-      "confidence": "high",
-      "reason": "Listed as a hacked website used for malicious purposes",
-      "first_seen": "2026-11-10T15:07:01.933967+00:00",
-      "last_seen": "2026-11-10T15:07:01.933967+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "github.com",
-          "url": "https://github.com/eset/malware-ioc/tree/master/turla",
-          "pub_date": "2026-11-10T15:07:01.933967+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Gamaredon"
-        },
-        {
-          "type": "apt_group",
-          "value": "Turla"
-        },
-        {
-          "type": "campaign",
-          "value": "Exchange For Breakfast: Turla\u2019s Cereal Tricks Are Not For Kids"
-        },
-        {
-          "type": "campaign",
-          "value": "To The Moon And Back(doors): Lunar Landing In Diplomatic Missions"
-        }
-      ],
-      "categories": [
-        "malware"
       ],
       "basis": null
     },
@@ -11232,120 +11020,6 @@
       "value": "theguardian.webredirect.org",
       "confidence": "high",
       "reason": "Listed as a C2 server in the context",
-      "first_seen": "2026-11-10T15:07:01.933967+00:00",
-      "last_seen": "2026-11-10T15:07:01.933967+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "github.com",
-          "url": "https://github.com/eset/malware-ioc/tree/master/turla",
-          "pub_date": "2026-11-10T15:07:01.933967+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Gamaredon"
-        },
-        {
-          "type": "apt_group",
-          "value": "Turla"
-        },
-        {
-          "type": "campaign",
-          "value": "Exchange For Breakfast: Turla\u2019s Cereal Tricks Are Not For Kids"
-        },
-        {
-          "type": "campaign",
-          "value": "To The Moon And Back(doors): Lunar Landing In Diplomatic Missions"
-        }
-      ],
-      "categories": [
-        "malware"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "warrixmalaysia.com.my",
-      "confidence": "high",
-      "reason": "Listed as a hacked website used for malicious purposes",
-      "first_seen": "2026-11-10T15:07:01.933967+00:00",
-      "last_seen": "2026-11-10T15:07:01.933967+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "github.com",
-          "url": "https://github.com/eset/malware-ioc/tree/master/turla",
-          "pub_date": "2026-11-10T15:07:01.933967+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Gamaredon"
-        },
-        {
-          "type": "apt_group",
-          "value": "Turla"
-        },
-        {
-          "type": "campaign",
-          "value": "Exchange For Breakfast: Turla\u2019s Cereal Tricks Are Not For Kids"
-        },
-        {
-          "type": "campaign",
-          "value": "To The Moon And Back(doors): Lunar Landing In Diplomatic Missions"
-        }
-      ],
-      "categories": [
-        "malware"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "weandcats.com",
-      "confidence": "high",
-      "reason": "Listed as a hacked website used for malicious purposes",
-      "first_seen": "2026-11-10T15:07:01.933967+00:00",
-      "last_seen": "2026-11-10T15:07:01.933967+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "github.com",
-          "url": "https://github.com/eset/malware-ioc/tree/master/turla",
-          "pub_date": "2026-11-10T15:07:01.933967+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Gamaredon"
-        },
-        {
-          "type": "apt_group",
-          "value": "Turla"
-        },
-        {
-          "type": "campaign",
-          "value": "Exchange For Breakfast: Turla\u2019s Cereal Tricks Are Not For Kids"
-        },
-        {
-          "type": "campaign",
-          "value": "To The Moon And Back(doors): Lunar Landing In Diplomatic Missions"
-        }
-      ],
-      "categories": [
-        "malware"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "zerogov.com",
-      "confidence": "high",
-      "reason": "Listed as a hacked website used for malicious purposes",
       "first_seen": "2026-11-10T15:07:01.933967+00:00",
       "last_seen": "2026-11-10T15:07:01.933967+00:00",
       "source_count": 1,
@@ -14171,10 +13845,10 @@
       "type": "domain",
       "value": "aiarmor.website",
       "confidence": "high",
-      "reason": "Listed as a fallback endpoint for data exfiltration.",
-      "first_seen": "2026-10-22T00:00:00+00:00",
+      "reason": "Listed as part of malicious infrastructure in the article",
+      "first_seen": "2026-10-28T06:31:18.999798+00:00",
       "last_seen": "2026-11-06T17:11:11.050000+00:00",
-      "source_count": 3,
+      "source_count": 2,
       "sources": [
         {
           "source": "Socket.Dev",
@@ -14185,11 +13859,6 @@
           "source": "research.jfrog.com",
           "url": "https://research.jfrog.com/post/beyond-testmetest-42-hijacked-github-repos/",
           "pub_date": "2026-10-28T06:31:18.999798+00:00"
-        },
-        {
-          "source": "Safedep",
-          "url": "https://safedep.io/testmetest-npm-worm-miasma-variant",
-          "pub_date": "2026-10-22T00:00:00+00:00"
         }
       ],
       "tags": [
@@ -25927,9 +25596,9 @@
       "value": "92.118.112.100",
       "confidence": "high",
       "reason": "IP address associated with attacker-controlled scanning and exploitation attempts",
-      "first_seen": "2026-10-22T11:32:08.829801+00:00",
+      "first_seen": "2026-10-22T18:45:20+00:00",
       "last_seen": "2026-10-23T18:49:51+00:00",
-      "source_count": 4,
+      "source_count": 3,
       "sources": [
         {
           "source": "Sploitus",
@@ -25945,11 +25614,6 @@
           "source": "Arcticwolf",
           "url": "https://arcticwolf.com/resources/blog/php2shell-critical-php-vulnerabilities-enable-unauthenticated-remote-code-execution/",
           "pub_date": "2026-10-22T18:45:20+00:00"
-        },
-        {
-          "source": "ellio.tech",
-          "url": "https://ellio.tech/en/blog/php2shell-what-we-observed-and-what-to-do/",
-          "pub_date": "2026-10-22T11:32:08.829801+00:00"
         }
       ],
       "tags": [
@@ -25963,11 +25627,11 @@
         },
         {
           "type": "malware",
-          "value": "Mirai"
+          "value": "Potassium"
         },
         {
-          "type": "malware",
-          "value": "Potassium"
+          "type": "cve",
+          "value": "CVE-2026-115560"
         }
       ],
       "categories": [
@@ -26338,42 +26002,17 @@
       "value": "litellm.dev",
       "confidence": "high",
       "reason": "Listed as an exfiltration endpoint and attacker-controlled domain",
-      "first_seen": "2026-10-21T17:08:52+00:00",
+      "first_seen": "2026-10-23T12:00:40.720071+00:00",
       "last_seen": "2026-10-23T12:00:40.720071+00:00",
-      "source_count": 5,
+      "source_count": 1,
       "sources": [
         {
           "source": "www.stepsecurity.io",
           "url": "https://www.stepsecurity.io/blog/litellm-1-107-0-compromised-pypi-backdoored-wheels-credential-stealer",
           "pub_date": "2026-10-23T12:00:40.720071+00:00"
-        },
-        {
-          "source": "Helpnetsecurity",
-          "url": "https://www.helpnetsecurity.com/2026/10/22/litellm-compromised-supply-chain-attack-pypi-docker/",
-          "pub_date": "2026-10-22T13:10:28+00:00"
-        },
-        {
-          "source": "Thehackernews",
-          "url": "https://thehackernews.com/2026/10/litellm-suspects-github-token-leak-in.html",
-          "pub_date": "2026-10-22T08:28:48+00:00"
-        },
-        {
-          "source": "Rescana",
-          "url": "https://www.rescana.com/post/litellm-1-107-0-supply-chain-compromise-october-2026",
-          "pub_date": "2026-10-21T23:16:31+00:00"
-        },
-        {
-          "source": "Ox.Security",
-          "url": "https://www.ox.security/blog/litellm-1-107-0-compromised-with-a-rat-infostealer",
-          "pub_date": "2026-10-21T17:08:52+00:00"
         }
       ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "TeamPCP"
-        }
-      ],
+      "tags": [],
       "categories": [
         "exfiltration"
       ],
@@ -26384,19 +26023,14 @@
       "value": "hackattackkaboom.botlesscucks.st",
       "confidence": "high",
       "reason": "Listed as a backup domain in the bot's C2 configuration",
-      "first_seen": "2026-10-22T11:32:08.829801+00:00",
+      "first_seen": "2026-10-23T11:31:38.104751+00:00",
       "last_seen": "2026-10-23T11:31:38.104751+00:00",
-      "source_count": 2,
+      "source_count": 1,
       "sources": [
         {
           "source": "cowrai.com",
           "url": "https://cowrai.com/research/php2shell-godofthunder/",
           "pub_date": "2026-10-23T11:31:38.104751+00:00"
-        },
-        {
-          "source": "ellio.tech",
-          "url": "https://ellio.tech/en/blog/php2shell-what-we-observed-and-what-to-do/",
-          "pub_date": "2026-10-22T11:32:08.829801+00:00"
         }
       ],
       "tags": [
@@ -26411,10 +26045,6 @@
         {
           "type": "malware",
           "value": "Mirai"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2025-55182"
         }
       ],
       "categories": [
@@ -26428,19 +26058,14 @@
       "value": "hik.gettingheadfromduckysmom.st",
       "confidence": "high",
       "reason": "Listed as a backup domain in the bot's C2 configuration",
-      "first_seen": "2026-10-22T11:32:08.829801+00:00",
+      "first_seen": "2026-10-23T11:31:38.104751+00:00",
       "last_seen": "2026-10-23T11:31:38.104751+00:00",
-      "source_count": 2,
+      "source_count": 1,
       "sources": [
         {
           "source": "cowrai.com",
           "url": "https://cowrai.com/research/php2shell-godofthunder/",
           "pub_date": "2026-10-23T11:31:38.104751+00:00"
-        },
-        {
-          "source": "ellio.tech",
-          "url": "https://ellio.tech/en/blog/php2shell-what-we-observed-and-what-to-do/",
-          "pub_date": "2026-10-22T11:32:08.829801+00:00"
         }
       ],
       "tags": [
@@ -26455,10 +26080,6 @@
         {
           "type": "malware",
           "value": "Mirai"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2025-55182"
         }
       ],
       "categories": [
@@ -26471,10 +26092,10 @@
       "type": "domain",
       "value": "thunder.godofthunder.st",
       "confidence": "high",
-      "reason": "Listed as a command and control domain",
-      "first_seen": "2026-10-22T11:32:08.829801+00:00",
+      "reason": "Primary DNS in the bot's C2 configuration",
+      "first_seen": "2026-10-23T07:45:06+00:00",
       "last_seen": "2026-10-23T11:31:38.104751+00:00",
-      "source_count": 3,
+      "source_count": 2,
       "sources": [
         {
           "source": "cowrai.com",
@@ -26485,11 +26106,6 @@
           "source": "Thehackernews",
           "url": "https://thehackernews.com/2026/10/php2shell-exploit-attempts-hit-millions.html",
           "pub_date": "2026-10-23T07:45:06+00:00"
-        },
-        {
-          "source": "ellio.tech",
-          "url": "https://ellio.tech/en/blog/php2shell-what-we-observed-and-what-to-do/",
-          "pub_date": "2026-10-22T11:32:08.829801+00:00"
         }
       ],
       "tags": [
@@ -26506,8 +26122,8 @@
           "value": "Mirai"
         },
         {
-          "type": "cve",
-          "value": "CVE-2025-55182"
+          "type": "malware",
+          "value": "Potassium"
         }
       ],
       "categories": [
@@ -27100,19 +26716,14 @@
       "value": "www.archivetj.com",
       "confidence": "high",
       "reason": "Described as a command-and-control domain for malicious payloads",
-      "first_seen": "2026-10-22T07:59:42+00:00",
+      "first_seen": "2026-10-23T10:46:29+00:00",
       "last_seen": "2026-10-23T10:46:29+00:00",
-      "source_count": 2,
+      "source_count": 1,
       "sources": [
         {
           "source": "Techtimes",
           "url": "https://www.techtimes.com/articles/329414/20261023/chinese-hackers-breached-diplomatic-networks-microsoft-baton-drop-enforcement-never-deployed.htm",
           "pub_date": "2026-10-23T10:46:29+00:00"
-        },
-        {
-          "source": "Securelist",
-          "url": "https://securelist.com/uefi-bootkit-blackx/121539/",
-          "pub_date": "2026-10-22T07:59:42+00:00"
         }
       ],
       "tags": [
@@ -27121,16 +26732,16 @@
           "value": "APT41"
         },
         {
-          "type": "malware",
-          "value": "BlackLotus"
-        },
-        {
-          "type": "malware",
-          "value": "BlackX"
-        },
-        {
           "type": "cve",
           "value": "CVE-2022-21894"
+        },
+        {
+          "type": "industry",
+          "value": "Government"
+        },
+        {
+          "type": "malware",
+          "value": "BlackLotus"
         }
       ],
       "categories": [
@@ -29104,903 +28715,6 @@
       "tags": [],
       "categories": [
         "c2"
-      ],
-      "basis": null
-    },
-    {
-      "type": "ipv4",
-      "value": "185.238.2.195",
-      "confidence": "high",
-      "reason": "Listed as an AiTM relay used by attackers.",
-      "first_seen": "2026-10-22T13:04:01+00:00",
-      "last_seen": "2026-10-22T13:04:01+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Huntress",
-          "url": "https://www.huntress.com/blog/token-replay-spray",
-          "pub_date": "2026-10-22T13:04:01+00:00"
-        }
-      ],
-      "tags": [],
-      "categories": [
-        "proxy_tunnel"
-      ],
-      "basis": null
-    },
-    {
-      "type": "ipv4",
-      "value": "192.159.99.172",
-      "confidence": "high",
-      "reason": "Listed as a 1337 Services address used in attacks.",
-      "first_seen": "2026-10-22T13:04:01+00:00",
-      "last_seen": "2026-10-22T13:04:01+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Huntress",
-          "url": "https://www.huntress.com/blog/token-replay-spray",
-          "pub_date": "2026-10-22T13:04:01+00:00"
-        }
-      ],
-      "tags": [],
-      "categories": [
-        "proxy_tunnel"
-      ],
-      "basis": null
-    },
-    {
-      "type": "ipv4",
-      "value": "45.83.31.44",
-      "confidence": "high",
-      "reason": "Listed as a 1337 Services address used in attacks.",
-      "first_seen": "2026-10-22T13:04:01+00:00",
-      "last_seen": "2026-10-22T13:04:01+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Huntress",
-          "url": "https://www.huntress.com/blog/token-replay-spray",
-          "pub_date": "2026-10-22T13:04:01+00:00"
-        }
-      ],
-      "tags": [],
-      "categories": [
-        "proxy_tunnel"
-      ],
-      "basis": null
-    },
-    {
-      "type": "ipv4",
-      "value": "193.148.56.97",
-      "confidence": "high",
-      "reason": "Listed as a C2 address used by Stadia RAT",
-      "first_seen": "2026-10-22T13:00:02+00:00",
-      "last_seen": "2026-10-22T13:00:02+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Varonis",
-          "url": "https://www.varonis.com/blog/stealc-returns",
-          "pub_date": "2026-10-22T13:00:02+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Operation Endgame"
-        },
-        {
-          "type": "malware",
-          "value": "Stadia"
-        },
-        {
-          "type": "malware",
-          "value": "StealC"
-        }
-      ],
-      "categories": [
-        "c2"
-      ],
-      "basis": null
-    },
-    {
-      "type": "ipv4",
-      "value": "91.92.43.45",
-      "confidence": "high",
-      "reason": "Listed as a C2 address used by Stadia RAT",
-      "first_seen": "2026-10-22T13:00:02+00:00",
-      "last_seen": "2026-10-22T13:00:02+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Varonis",
-          "url": "https://www.varonis.com/blog/stealc-returns",
-          "pub_date": "2026-10-22T13:00:02+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Operation Endgame"
-        },
-        {
-          "type": "malware",
-          "value": "Stadia"
-        },
-        {
-          "type": "malware",
-          "value": "StealC"
-        }
-      ],
-      "categories": [
-        "c2"
-      ],
-      "basis": null
-    },
-    {
-      "type": "ipv4",
-      "value": "93.152.213.215",
-      "confidence": "high",
-      "reason": "Listed as a C2 address used by Stadia RAT",
-      "first_seen": "2026-10-22T13:00:02+00:00",
-      "last_seen": "2026-10-22T13:00:02+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Varonis",
-          "url": "https://www.varonis.com/blog/stealc-returns",
-          "pub_date": "2026-10-22T13:00:02+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Operation Endgame"
-        },
-        {
-          "type": "malware",
-          "value": "Stadia"
-        },
-        {
-          "type": "malware",
-          "value": "StealC"
-        }
-      ],
-      "categories": [
-        "c2"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "mosaichealthsolutions.com",
-      "confidence": "high",
-      "reason": "Described as an attacker-controlled domain for credential harvesting",
-      "first_seen": "2026-10-22T12:59:53+00:00",
-      "last_seen": "2026-10-22T12:59:53+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Esecurityplanet",
-          "url": "https://www.esecurityplanet.com/fr/threats/iranian-cyber-espionage-proofpoint-uncovers-unk_smudgedserpent/",
-          "pub_date": "2026-10-22T12:59:53+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Charming Kitten"
-        },
-        {
-          "type": "apt_group",
-          "value": "MuddyWater"
-        },
-        {
-          "type": "apt_group",
-          "value": "Smoke Sandstorm"
-        },
-        {
-          "type": "campaign",
-          "value": "UNK_SmudgedSerpent"
-        }
-      ],
-      "categories": [
-        "phishing"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "thebesthomehealth.com",
-      "confidence": "high",
-      "reason": "Described as an attacker-controlled domain for credential harvesting",
-      "first_seen": "2026-10-22T12:59:53+00:00",
-      "last_seen": "2026-10-22T12:59:53+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Esecurityplanet",
-          "url": "https://www.esecurityplanet.com/fr/threats/iranian-cyber-espionage-proofpoint-uncovers-unk_smudgedserpent/",
-          "pub_date": "2026-10-22T12:59:53+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Charming Kitten"
-        },
-        {
-          "type": "apt_group",
-          "value": "MuddyWater"
-        },
-        {
-          "type": "apt_group",
-          "value": "Smoke Sandstorm"
-        },
-        {
-          "type": "campaign",
-          "value": "UNK_SmudgedSerpent"
-        }
-      ],
-      "categories": [
-        "phishing"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "godofthunder.st",
-      "confidence": "high",
-      "reason": "Listed as a command and control domain",
-      "first_seen": "2026-10-22T11:32:08.829801+00:00",
-      "last_seen": "2026-10-22T11:32:08.829801+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "ellio.tech",
-          "url": "https://ellio.tech/en/blog/php2shell-what-we-observed-and-what-to-do/",
-          "pub_date": "2026-10-22T11:32:08.829801+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "cve",
-          "value": "CVE-2025-55182"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-109618"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-109619"
-        },
-        {
-          "type": "malware",
-          "value": "Mirai"
-        }
-      ],
-      "categories": [
-        "c2"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "rootkit.net.cn",
-      "confidence": "high",
-      "reason": "Associated with a web shell used by attackers",
-      "first_seen": "2026-10-22T11:32:08.829801+00:00",
-      "last_seen": "2026-10-22T11:32:08.829801+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "ellio.tech",
-          "url": "https://ellio.tech/en/blog/php2shell-what-we-observed-and-what-to-do/",
-          "pub_date": "2026-10-22T11:32:08.829801+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "cve",
-          "value": "CVE-2025-55182"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-109618"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-109619"
-        },
-        {
-          "type": "malware",
-          "value": "Mirai"
-        }
-      ],
-      "categories": [
-        "malware"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "z-cg.com",
-      "confidence": "high",
-      "reason": "Associated with a web shell used by attackers",
-      "first_seen": "2026-10-22T11:32:08.829801+00:00",
-      "last_seen": "2026-10-22T11:32:08.829801+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "ellio.tech",
-          "url": "https://ellio.tech/en/blog/php2shell-what-we-observed-and-what-to-do/",
-          "pub_date": "2026-10-22T11:32:08.829801+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "cve",
-          "value": "CVE-2025-55182"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-109618"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-109619"
-        },
-        {
-          "type": "malware",
-          "value": "Mirai"
-        }
-      ],
-      "categories": [
-        "malware"
-      ],
-      "basis": null
-    },
-    {
-      "type": "ipv4",
-      "value": "117.55.202.115",
-      "confidence": "high",
-      "reason": "Used as a staging host for second-stage payloads",
-      "first_seen": "2026-10-22T11:32:08.829801+00:00",
-      "last_seen": "2026-10-22T11:32:08.829801+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "ellio.tech",
-          "url": "https://ellio.tech/en/blog/php2shell-what-we-observed-and-what-to-do/",
-          "pub_date": "2026-10-22T11:32:08.829801+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "cve",
-          "value": "CVE-2025-55182"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-109618"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-109619"
-        },
-        {
-          "type": "malware",
-          "value": "Mirai"
-        }
-      ],
-      "categories": [
-        "malware"
-      ],
-      "basis": null
-    },
-    {
-      "type": "ipv4",
-      "value": "134.154.64.199",
-      "confidence": "high",
-      "reason": "Derived command and control address",
-      "first_seen": "2026-10-22T11:32:08.829801+00:00",
-      "last_seen": "2026-10-22T11:32:08.829801+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "ellio.tech",
-          "url": "https://ellio.tech/en/blog/php2shell-what-we-observed-and-what-to-do/",
-          "pub_date": "2026-10-22T11:32:08.829801+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "cve",
-          "value": "CVE-2025-55182"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-109618"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-109619"
-        },
-        {
-          "type": "malware",
-          "value": "Mirai"
-        }
-      ],
-      "categories": [
-        "c2"
-      ],
-      "basis": null
-    },
-    {
-      "type": "ipv4",
-      "value": "150.251.112.208",
-      "confidence": "high",
-      "reason": "Listed as a C2 server in the binary",
-      "first_seen": "2026-10-22T11:32:08.829801+00:00",
-      "last_seen": "2026-10-22T11:32:08.829801+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "ellio.tech",
-          "url": "https://ellio.tech/en/blog/php2shell-what-we-observed-and-what-to-do/",
-          "pub_date": "2026-10-22T11:32:08.829801+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "cve",
-          "value": "CVE-2025-55182"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-109618"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-109619"
-        },
-        {
-          "type": "malware",
-          "value": "Mirai"
-        }
-      ],
-      "categories": [
-        "c2"
-      ],
-      "basis": null
-    },
-    {
-      "type": "ipv4",
-      "value": "185.5.70.233",
-      "confidence": "high",
-      "reason": "Used in conjunction with attacker infrastructure",
-      "first_seen": "2026-10-22T11:32:08.829801+00:00",
-      "last_seen": "2026-10-22T11:32:08.829801+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "ellio.tech",
-          "url": "https://ellio.tech/en/blog/php2shell-what-we-observed-and-what-to-do/",
-          "pub_date": "2026-10-22T11:32:08.829801+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "cve",
-          "value": "CVE-2025-55182"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-109618"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-109619"
-        },
-        {
-          "type": "malware",
-          "value": "Mirai"
-        }
-      ],
-      "categories": [
-        "malware"
-      ],
-      "basis": null
-    },
-    {
-      "type": "ipv4",
-      "value": "64.199.134.154",
-      "confidence": "high",
-      "reason": "Related to command and control infrastructure",
-      "first_seen": "2026-10-22T11:32:08.829801+00:00",
-      "last_seen": "2026-10-22T11:32:08.829801+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "ellio.tech",
-          "url": "https://ellio.tech/en/blog/php2shell-what-we-observed-and-what-to-do/",
-          "pub_date": "2026-10-22T11:32:08.829801+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "cve",
-          "value": "CVE-2025-55182"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-109618"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-109619"
-        },
-        {
-          "type": "malware",
-          "value": "Mirai"
-        }
-      ],
-      "categories": [
-        "c2"
-      ],
-      "basis": null
-    },
-    {
-      "type": "ipv4",
-      "value": "211.240.117.200",
-      "confidence": "high",
-      "reason": "Listed as an IP making suspicious requests.",
-      "first_seen": "2026-10-22T11:32:08.326901+00:00",
-      "last_seen": "2026-10-22T11:32:08.326901+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "beelzebub.ai",
-          "url": "https://beelzebub.ai/blog/php2shell-in-the-wild-beelzebub-honeypot",
-          "pub_date": "2026-10-22T11:32:08.326901+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "cve",
-          "value": "CVE-2026-109618"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-109619"
-        },
-        {
-          "type": "malware",
-          "value": "PHP2Shell"
-        }
-      ],
-      "categories": [
-        "scanner"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "aaa-emudhra.we-have-a-problem.com",
-      "confidence": "high",
-      "reason": "Domain used for testing certificate validation.",
-      "first_seen": "2026-10-22T00:00:00+00:00",
-      "last_seen": "2026-10-22T00:00:00+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Safedep",
-          "url": "https://safedep.io/emudhra-ca-key-compromise",
-          "pub_date": "2026-10-22T00:00:00+00:00"
-        }
-      ],
-      "tags": [],
-      "categories": [
-        "callback_testing"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "www.litellm.dev",
-      "confidence": "high",
-      "reason": "Listed as an exfiltration endpoint and attacker-controlled domain",
-      "first_seen": "2026-10-21T23:16:31+00:00",
-      "last_seen": "2026-10-21T23:16:31+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Rescana",
-          "url": "https://www.rescana.com/post/litellm-1-107-0-supply-chain-compromise-october-2026",
-          "pub_date": "2026-10-21T23:16:31+00:00"
-        }
-      ],
-      "tags": [],
-      "categories": [
-        "exfiltration"
-      ],
-      "basis": null
-    },
-    {
-      "type": "ipv4",
-      "value": "168.100.8.57",
-      "confidence": "high",
-      "reason": "Source IP address seen checking stolen AWS credentials",
-      "first_seen": "2026-10-21T23:16:31+00:00",
-      "last_seen": "2026-10-21T23:16:31+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Rescana",
-          "url": "https://www.rescana.com/post/litellm-1-107-0-supply-chain-compromise-october-2026",
-          "pub_date": "2026-10-21T23:16:31+00:00"
-        }
-      ],
-      "tags": [],
-      "categories": [
-        "other"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "ytstvmovies.xyz",
-      "confidence": "high",
-      "reason": "Domain used for distributing pirated content and potentially malicious ads",
-      "first_seen": "2026-10-21T20:25:59+00:00",
-      "last_seen": "2026-10-21T20:25:59+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "News.Trendmicro",
-          "url": "https://trendlife.com/en-us/blog/2026/10/21/searching-for-free-movie-downloads-could-put-your-security-at-risk",
-          "pub_date": "2026-10-21T20:25:59+00:00"
-        }
-      ],
-      "tags": [],
-      "categories": [
-        "malvertising"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "wizardexpensive.com",
-      "confidence": "high",
-      "reason": "Domain listed as part of attacker infrastructure to be blocked",
-      "first_seen": "2026-10-21T19:01:41.433743+00:00",
-      "last_seen": "2026-10-21T19:01:41.433743+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "productcert.siemens.com",
-          "url": "https://productcert.siemens.com/news/2026/10/19/active-exploitation-of-cve-2026-110936-in-siemens-software-center",
-          "pub_date": "2026-10-21T19:01:41.433743+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "ClickFix"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-110936"
-        }
-      ],
-      "categories": [
-        "exploit"
-      ],
-      "basis": null
-    },
-    {
-      "type": "ipv4",
-      "value": "2.27.248.127",
-      "confidence": "high",
-      "reason": "IP address listed as part of attacker infrastructure to be blocked",
-      "first_seen": "2026-10-21T19:01:41.433743+00:00",
-      "last_seen": "2026-10-21T19:01:41.433743+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "productcert.siemens.com",
-          "url": "https://productcert.siemens.com/news/2026/10/19/active-exploitation-of-cve-2026-110936-in-siemens-software-center",
-          "pub_date": "2026-10-21T19:01:41.433743+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "ClickFix"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-110936"
-        }
-      ],
-      "categories": [
-        "exploit"
-      ],
-      "basis": null
-    },
-    {
-      "type": "ipv4",
-      "value": "96.62.218.59",
-      "confidence": "high",
-      "reason": "IP address listed as part of attacker infrastructure to be blocked",
-      "first_seen": "2026-10-21T19:01:41.433743+00:00",
-      "last_seen": "2026-10-21T19:01:41.433743+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "productcert.siemens.com",
-          "url": "https://productcert.siemens.com/news/2026/10/19/active-exploitation-of-cve-2026-110936-in-siemens-software-center",
-          "pub_date": "2026-10-21T19:01:41.433743+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "ClickFix"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-110936"
-        }
-      ],
-      "categories": [
-        "exploit"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "fine-work-team.com",
-      "confidence": "high",
-      "reason": "Domain used in a PowerShell command to download and execute a payload",
-      "first_seen": "2026-10-21T15:00:29.781307+00:00",
-      "last_seen": "2026-10-21T15:00:29.781307+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "pushsecurity.com",
-          "url": "https://pushsecurity.com/blog/the-state-of-clickfix-by-detection-data",
-          "pub_date": "2026-10-21T15:00:29.781307+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "EtherHiding"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-26980"
-        },
-        {
-          "type": "malware",
-          "value": "SocGholish"
-        }
-      ],
-      "categories": [
-        "malware"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "linkedinsig.com",
-      "confidence": "high",
-      "reason": "Domain used in a command to execute a payload",
-      "first_seen": "2026-10-21T15:00:29.781307+00:00",
-      "last_seen": "2026-10-21T15:00:29.781307+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "pushsecurity.com",
-          "url": "https://pushsecurity.com/blog/the-state-of-clickfix-by-detection-data",
-          "pub_date": "2026-10-21T15:00:29.781307+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "EtherHiding"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-26980"
-        },
-        {
-          "type": "malware",
-          "value": "SocGholish"
-        }
-      ],
-      "categories": [
-        "malware"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "wirelesswebdevice.com",
-      "confidence": "high",
-      "reason": "Domain used in a PowerShell command to download and execute a script",
-      "first_seen": "2026-10-21T15:00:29.781307+00:00",
-      "last_seen": "2026-10-21T15:00:29.781307+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "pushsecurity.com",
-          "url": "https://pushsecurity.com/blog/the-state-of-clickfix-by-detection-data",
-          "pub_date": "2026-10-21T15:00:29.781307+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "EtherHiding"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-26980"
-        },
-        {
-          "type": "malware",
-          "value": "SocGholish"
-        }
-      ],
-      "categories": [
-        "malware"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "simba.sg-recharge.cfd",
-      "confidence": "high",
-      "reason": "Phishing domain impersonating a legitimate site",
-      "first_seen": "2026-10-21T14:46:49+00:00",
-      "last_seen": "2026-10-21T14:46:49+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Straitstimes",
-          "url": "https://www.straitstimes.com/singapore/at-least-83000-lost-in-phishing-scams-linked-to-fake-simba-websites-since-march-police",
-          "pub_date": "2026-10-21T14:46:49+00:00"
-        }
-      ],
-      "tags": [],
-      "categories": [
-        "phishing"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "simba.sg-recharge.cyou",
-      "confidence": "high",
-      "reason": "Phishing domain impersonating a legitimate site",
-      "first_seen": "2026-10-21T14:46:49+00:00",
-      "last_seen": "2026-10-21T14:46:49+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Straitstimes",
-          "url": "https://www.straitstimes.com/singapore/at-least-83000-lost-in-phishing-scams-linked-to-fake-simba-websites-since-march-police",
-          "pub_date": "2026-10-21T14:46:49+00:00"
-        }
-      ],
-      "tags": [],
-      "categories": [
-        "phishing"
       ],
       "basis": null
     }

@@ -1,4 +1,25 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason,categories
+domain,enrollmfamethods.com,high,2026-11-20T22:03:51+00:00,2026-11-20T22:03:51+00:00,1,,Listed in FQDN indicators of compromise as passkey-themed phishing domain,phishing
+domain,keyconfiguration.com,high,2026-11-20T22:03:51+00:00,2026-11-20T22:03:51+00:00,1,,Listed in FQDN indicators as passkey-themed phishing domain,phishing
+domain,oskeyregister.com,high,2026-11-20T22:03:51+00:00,2026-11-20T22:03:51+00:00,1,,Phishing domain tied to Com-affiliated passkey campaigns,phishing
+domain,register-passkeys.com,high,2026-11-20T22:03:51+00:00,2026-11-20T22:03:51+00:00,1,,Listed FQDN indicator of passkey phishing,phishing
+sha256,930898e8b65e9cf4e2595ac4092042a707cca8922751e723ad8b86260655154a,high,2026-11-20T22:03:51+00:00,2026-11-20T22:03:51+00:00,1,,Hash of folderextension.crx malicious extension in the IOC list,malware
+sha256,ea8d30c42e758559e78bd1fe97f8849011beb7f24c7f092a066a5a62fa7fbe6f,high,2026-11-20T22:03:51+00:00,2026-11-20T22:03:51+00:00,1,,Hash of folderextension.zip in the IOC list,malware
+domain,nimbuskeep.com,high,2026-11-20T21:07:22+00:00,2026-11-20T21:07:22+00:00,1,,C2 domain for the Rust stealer,c2|exfiltration
+domain,velmontriq.net,high,2026-11-20T21:07:22+00:00,2026-11-20T21:07:22+00:00,1,,Newly registered attacker-controlled domain hosting malware payloads,malware
+sha256,18dd64270e540a52db41bf77e357df709cbecab88e160bd66c23b63f9240ab38,high,2026-11-20T21:07:22+00:00,2026-11-20T21:07:22+00:00,1,,"Hash of loadperf.dll, the side-loaded malicious DLL in the GTA6Cloud campaign listed in the IOC table",malware
+sha256,28f9725fc6a701fc5d3e06c5687c2a842e0cdf79b9b2780fb5a804fc006410e8,high,2026-11-20T21:07:22+00:00,2026-11-20T21:07:22+00:00,1,,"Hash of GTA6Cloud.exe, the malicious executable in the archive listed in the IOC table",malware
+sha256,33f1649976ff7a6c1a785a1d9eb091e078a5d653bff5f696fa48d80d5ef904f3,high,2026-11-20T21:07:22+00:00,2026-11-20T21:07:22+00:00,1,,Hash of PhotoCache.exe loader listed in the malware IOC table,malware
+sha256,3a0c4760dec4fed3e822db9a630107da266aaeffea8a0ccf506dfaa5847bd922,high,2026-11-20T21:07:22+00:00,2026-11-20T21:07:22+00:00,1,,Hash of GTA6Cloud.zip lure archive listed in the IOC table,malware
+ipv4,103.147.251.5,high,2026-11-20T14:14:50+00:00,2026-11-20T14:14:50+00:00,1,,Listed as a suspected obfuscation-network IP address associated with ARMORY CASTLE intrusion,other
+ipv4,103.190.38.3,high,2026-11-20T14:14:50+00:00,2026-11-20T14:14:50+00:00,1,,Listed as a suspected obfuscation-network IP address associated with ARMORY CASTLE intrusion,other
+domain,bestbuy-in.online,high,2026-11-20T10:46:10+00:00,2026-11-20T10:46:10+00:00,1,,"Fraudulent lookalike shop impersonating a retailer, used to collect personal information",phishing|scam_fraud
+sha256,3dd45ab8e2f9c1af773a75221d792fb78870764419170e9c9c5941160364c700,high,2026-11-20T09:54:17.141000+00:00,2026-11-20T09:54:17.141000+00:00,1,,Hash of K404T_Fidye.exe ransomware sample in the .k404 campaign,ransomware
+sha256,6bdf42a575d2daee3de2530161cb5b1fef6ca78b4abfa74f329d6b6c72890d18,high,2026-11-20T09:54:17.141000+00:00,2026-11-20T09:54:17.141000+00:00,1,,Heartbreaker macOS ransomware sample hash,ransomware
+sha256,98110dedcca5803bc211f2d8dd640de79a2ba2a69d1def2f4970fa7799313f3e,high,2026-11-20T09:54:17.141000+00:00,2026-11-20T09:54:17.141000+00:00,1,,BlackWizardLock ransomware sample hash,ransomware
+sha256,a8c2402ef3ae115300f5428712ccb0b5461f4a2f14b5bfdfbe08d5ad86bd3087,high,2026-11-20T09:54:17.141000+00:00,2026-11-20T09:54:17.141000+00:00,1,,lkd.exe Windows locker sample hash,ransomware
+sha256,d243031985f7fa82a741e5677a227c65b2e2f1b07e0e10f00fe575dcc0eb4645,high,2026-11-20T09:54:17.141000+00:00,2026-11-20T09:54:17.141000+00:00,1,,INC Ransom sample hash,ransomware
+sha256,fb0982bb9f5d5700685dcf4e99ff695f4593fbc3e3d0359d4c2baf23c545f354,high,2026-11-20T09:54:17.141000+00:00,2026-11-20T09:54:17.141000+00:00,1,,Python locker system_update.pyw hash from the .k404 campaign,ransomware
 domain,caapman.me,high,2026-11-17T22:33:49.017029+00:00,2026-11-20T09:01:12.979173+00:00,1,,Domain listed in a hunting query for suspicious activity,malware
 domain,gerlace.com,high,2026-11-17T22:33:49.017029+00:00,2026-11-20T09:01:12.979173+00:00,1,,Domain listed in a hunting query for suspicious activity,malware
 domain,nutmann.club,high,2026-11-17T22:33:49.017029+00:00,2026-11-20T09:01:12.979173+00:00,1,,Domain listed in a hunting query for suspicious activity,malware
@@ -19,6 +40,7 @@ sha256,85f54c089d78ebfb101454ec934c767065a342a43c9ee1beac8430cdd3b2086f,high,202
 sha256,877ff2531a63393c4cb9c3c86908b62d9c4fc3db971bc231c48537faae6cb3ec,high,2026-11-20T00:02:53.910362+00:00,2026-11-20T00:02:53.910362+00:00,1,,Listed as a payload file structure indicator of compromise,malware|supply_chain|c2
 sha256,aeaf583e20347bf850e2fabdcd6f4982996ba023f8c2cd56bbd299cfd56516f5,high,2026-11-20T00:02:53.910362+00:00,2026-11-20T00:02:53.910362+00:00,1,,Listed as a payload file structure indicator of compromise,malware|supply_chain|c2
 sha256,c0b094e46842260936d4b97ce63e4539b99a3eae48b736798c700217c52569dc,high,2026-11-20T00:02:53.910362+00:00,2026-11-20T00:02:53.910362+00:00,1,,Listed as a payload file structure indicator of compromise,malware|supply_chain|c2
+ipv4,103.151.199.22,high,2026-11-20T00:00:00+00:00,2026-11-20T00:00:00+00:00,1,,Operator panel and lure server hosting the fake Play Store page and APKs,phishing|malware|c2
 sha256,7170b55e6541c89d914a388534b7ccaeb303abb46def27bda667f5ad2051ed5d,high,2026-11-19T23:01:12.821728+00:00,2026-11-19T23:01:12.821728+00:00,1,,Compromised versions use this hash to trigger malicious actions,malware|exfiltration
 sha256,72f7549a69d5529aca2fb787d2fbb62f94e73afd9ca1a832608687e1d185e594,high,2026-11-19T23:01:12.821728+00:00,2026-11-19T23:01:12.821728+00:00,1,,Used in a malicious campaign to exfiltrate data,malware|exfiltration
 domain,1688360.cc,high,2026-11-17T14:00:46.952499+00:00,2026-11-19T22:33:41.321903+00:00,1,,"Domain used to send stolen card data, identified as attacker infrastructure",exfiltration
@@ -64,6 +86,7 @@ domain,sunno.ai,high,2026-11-12T15:31:44.382105+00:00,2026-11-19T16:32:34.129750
 domain,viggie.ai,high,2026-11-12T15:31:44.382105+00:00,2026-11-19T16:32:34.129750+00:00,1,,Part of a malicious redirect chain tied to AI lookalike domains,traffic_distribution
 domain,vocie.ai,high,2026-11-12T15:31:44.382105+00:00,2026-11-19T16:32:34.129750+00:00,1,,Part of a malicious redirect chain tied to AI lookalike domains,traffic_distribution
 ipv4,185.138.88.3,high,2026-11-12T15:31:44.382105+00:00,2026-11-19T16:32:34.129750+00:00,2,,Used in a malicious command to download and execute a script,malware
+domain,nzqztr2208262ea.cfd,high,2026-11-19T15:00:00+00:00,2026-11-19T15:00:00+00:00,1,,Distribution domain for infostealer malware disguised as cracks,malware|fake_software
 domain,sync-node-serv.com,high,2026-11-19T12:15:57.204323+00:00,2026-11-19T12:15:57.204323+00:00,1,,Used for serving task payloads in an attack chain,malware
 ipv4,145.63.138.67,high,2026-11-19T12:15:57.204323+00:00,2026-11-19T12:15:57.204323+00:00,1,,Used as a VPS for credential-theft operation,malware
 ipv4,188.137.236.209,high,2026-11-19T12:15:57.204323+00:00,2026-11-19T12:15:57.204323+00:00,1,,Operator authenticated from this IP in a C2 operation,c2
@@ -148,11 +171,38 @@ domain,mepintei.com,high,2026-11-18T14:29:25+00:00,2026-11-18T15:01:46.955903+00
 ipv4,109.248.24.84,high,2026-11-18T14:29:25+00:00,2026-11-18T15:01:46.955903+00:00,2,,Identified as part of the C2 infrastructure for EggStremeFuel activity,c2
 ipv4,45.115.225.73,high,2026-11-18T14:29:25+00:00,2026-11-18T15:01:46.955903+00:00,2,,Identified as part of the C2 infrastructure for EggStremeFuel activity,c2
 ipv4,149.104.109.230,high,2026-11-18T14:29:25+00:00,2026-11-18T14:29:25+00:00,1,,Listed as part of C2 infrastructure for EggStremeFuel,c2
-domain,brokerok.org,high,2026-11-18T13:11:08+00:00,2026-11-18T13:11:08+00:00,1,,Subdomains used in malicious activities,malware
-domain,c2data.brokerok.org,high,2026-11-18T13:11:08+00:00,2026-11-18T13:11:08+00:00,1,,Subdomain used in malicious activities,malware
-domain,c2proxy.brokerok.org,high,2026-11-18T13:11:08+00:00,2026-11-18T13:11:08+00:00,1,,Subdomain used in malicious activities,malware
+domain,brokerok.org,high,2026-11-18T13:11:08+00:00,2026-11-18T13:11:08+00:00,1,,Subdomains used as C2 infrastructure in the malware framework,malware
+domain,c2data.brokerok.org,high,2026-11-18T13:11:08+00:00,2026-11-18T13:11:08+00:00,1,,Subdomain used as C2 infrastructure in the malware framework,malware
+domain,c2proxy.brokerok.org,high,2026-11-18T13:11:08+00:00,2026-11-18T13:11:08+00:00,1,,Subdomain used as C2 infrastructure in the malware framework,malware
 domain,com.tiktok.premium.pro,high,2026-11-18T13:11:08+00:00,2026-11-18T13:11:08+00:00,1,,Used in malicious APK installation,malware
-ipv4,95.181.213.21,high,2026-11-18T13:11:08+00:00,2026-11-18T13:11:08+00:00,1,,Used by attacker for hosting malicious infrastructure,malware
+ipv4,95.181.213.21,high,2026-11-18T13:11:08+00:00,2026-11-18T13:11:08+00:00,1,,Server used as part of the attacker's infrastructure,malware
+sha256,0785f8ca820ccfb62be61ac4bd55fd5295a771cab9e4cd91fc4eb1e3c43af3db,high,2026-11-18T13:11:08+00:00,2026-11-18T13:11:08+00:00,1,,Listed as a malware sample hash,malware
+sha256,1c29e14001edcfc548e1ae43572aa17f91ad89ce09a0e9028737077d7af97d30,high,2026-11-18T13:11:08+00:00,2026-11-18T13:11:08+00:00,1,,Listed as a malware sample hash,malware
+sha256,2cc693857f47758e974c3ee928a4fe0fdba444b7efe5a284dcfc0d3b47429275,high,2026-11-18T13:11:08+00:00,2026-11-18T13:11:08+00:00,1,,Listed as a malware sample hash,malware
+sha256,38bf5b694512cf14620edc0af700c08e7570fa5a20b4c3c052c7fe8823b2ec5f,high,2026-11-18T13:11:08+00:00,2026-11-18T13:11:08+00:00,1,,Listed as a malware sample hash,malware
+sha256,3cb8711a51331123247476eef768c435d6286a21cd8ac5479a6276349632c82b,high,2026-11-18T13:11:08+00:00,2026-11-18T13:11:08+00:00,1,,Listed as a malware sample hash,malware
+sha256,3da80bbcf6c6e7ff117db4cdfe1422375ecf1db97b61574359f97a1da43566ae,high,2026-11-18T13:11:08+00:00,2026-11-18T13:11:08+00:00,1,,Listed as a malware sample hash,malware
+sha256,4d572669d6000304a692874c1583021dfdb4f2f113ea487e470f7e4c486e503a,high,2026-11-18T13:11:08+00:00,2026-11-18T13:11:08+00:00,1,,Listed as a malware sample hash,malware
+sha256,4dcad3a1547c72d08ccb86dc393e14935c7f06ebe3ca63ba30e51b98ab4930e1,high,2026-11-18T13:11:08+00:00,2026-11-18T13:11:08+00:00,1,,Listed as a malware sample hash,malware
+sha256,5be63e04a98988d8d15d12cdf2af8cd6b1b6b8681e511587bb1a22ebcb32583f,high,2026-11-18T13:11:08+00:00,2026-11-18T13:11:08+00:00,1,,Listed as a malware sample hash,malware
+sha256,5cf38406fbed48fe110bcf1e84314429e1f649a2539c00b78216a5808fb53aa0,high,2026-11-18T13:11:08+00:00,2026-11-18T13:11:08+00:00,1,,Listed as a malware sample hash,malware
+sha256,7361a1ad372367dfc11421385632586da4aaf164c41f67e0acb2ccdb7931e3c1,high,2026-11-18T13:11:08+00:00,2026-11-18T13:11:08+00:00,1,,Listed as a malware sample hash,malware
+sha256,7e8f8f2be55855a86ee120382fa4cbdd851f958a06543da80fffa424b89555df,high,2026-11-18T13:11:08+00:00,2026-11-18T13:11:08+00:00,1,,Listed as a malware sample hash,malware|c2
+sha256,84849921d229c4e6c1a43af86582bff7560e938e96ad8b01b0ff13dafe559757,high,2026-11-18T13:11:08+00:00,2026-11-18T13:11:08+00:00,1,,Listed as a malware sample hash,malware
+sha256,8ee9d88db8874662c7743bb0f7d06e852c372b2bdb1846a12afb71a62b8f0a7b,high,2026-11-18T13:11:08+00:00,2026-11-18T13:11:08+00:00,1,,Listed as a malware sample hash,malware
+sha256,910911b7d1be3f67c926067e923ba86be6100366e52f0fe30484176353bf1701,high,2026-11-18T13:11:08+00:00,2026-11-18T13:11:08+00:00,1,,Listed as a malware sample hash,malware
+sha256,ac34c61cb7368ba4409311a7492bf14316e1cee1f2984955005915d6ec7336f3,high,2026-11-18T13:11:08+00:00,2026-11-18T13:11:08+00:00,1,,Listed as a malware sample hash,malware
+sha256,ac57a003ad4464ac357ae78e8e4eb24aae9d8442545129f82ad683efa1b2ad99,high,2026-11-18T13:11:08+00:00,2026-11-18T13:11:08+00:00,1,,Listed as a malware sample hash,malware
+sha256,adf9a4689e4c178a8c8fedef5e0bdf7be6ab443264125efabfadd8e1594bd471,high,2026-11-18T13:11:08+00:00,2026-11-18T13:11:08+00:00,1,,Listed as a malware sample hash,malware
+sha256,b7987e06d515fa06751a014a034b680f5a2c185bf0eb1fcf76c29b8626527d53,high,2026-11-18T13:11:08+00:00,2026-11-18T13:11:08+00:00,1,,Listed as a malware sample hash,malware
+sha256,b97b3ca1fdce56ae41418b287ca0e97d93ea16ec7b9182bdde459bba8b09f661,high,2026-11-18T13:11:08+00:00,2026-11-18T13:11:08+00:00,1,,Listed as a malware sample hash,malware
+sha256,c08a5f3df1693b03540db8c6c001b5e7f98ea6121ad4aca9c6904c798f4f4635,high,2026-11-18T13:11:08+00:00,2026-11-18T13:11:08+00:00,1,,Listed as a malware sample hash,malware
+sha256,c181d5c6c098f9f4ac6b10e4b1d69a0278bb3e07f260d0013244113c8504f39a,high,2026-11-18T13:11:08+00:00,2026-11-18T13:11:08+00:00,1,,Listed as a malware sample hash,malware
+sha256,d0ba986440b06c4b587690acd3e594cc674c82408cd4f5c59c7f6675a2b4d9c0,high,2026-11-18T13:11:08+00:00,2026-11-18T13:11:08+00:00,1,,Listed as a malware sample hash,malware
+sha256,d0fc542db2602d3a881c825c4d58e5ae34db054496d64c9185a84dceab30a850,high,2026-11-18T13:11:08+00:00,2026-11-18T13:11:08+00:00,1,,Listed as a malware sample hash,malware
+sha256,de97f4864e94eb9fecd018d51c36fc0a2e0d3a67e9bb83ab0e5ac29ad101f292,high,2026-11-18T13:11:08+00:00,2026-11-18T13:11:08+00:00,1,,Listed as a malware sample hash,malware
+sha256,f046b50166c8229b49839eeebcc7fd14bf3f198e4ec1bfde8a5b271e1407dec5,high,2026-11-18T13:11:08+00:00,2026-11-18T13:11:08+00:00,1,,Listed as a malware sample hash,malware
+sha256,ffc35c48d8a5cb1ee3e5bdc80e0df3e8509e8dd840edd0b9fb0ff5d5880834d0,high,2026-11-18T13:11:08+00:00,2026-11-18T13:11:08+00:00,1,,Listed as a malware sample hash,malware
 ipv4,206.245.153.56,high,2026-11-18T13:03:01+00:00,2026-11-18T13:03:01+00:00,1,,Serves as C2 and payload-hosting server for PHP2Shell campaign,c2|malware|exfiltration
 sha256,0f8f7cd39e1a5231b49f986b877befce0c2f558f0c1a9844833ac702cb3eba6e,high,2026-09-17T14:01:48.566375+00:00,2026-11-18T11:02:42.622839+00:00,1,,Hardcoded hash used to decode C&C server domain,c2
 ipv4,41.216.188.11,high,2026-11-18T11:00:00+00:00,2026-11-18T11:00:00+00:00,1,,Used by threat actor for hosting malicious files,malware
