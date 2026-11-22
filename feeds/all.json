@@ -1,7 +1,7 @@
 {
   "feed": "threatcluster-public-iocs",
   "version": 1,
-  "generated_at": "2026-11-21T14:37:09Z",
+  "generated_at": "2026-11-22T14:31:21Z",
   "filters": {
     "confidence": "high",
     "window_days": 30,
@@ -11,8 +11,358 @@
       "domain"
     ]
   },
-  "count": 970,
+  "count": 891,
   "iocs": [
+    {
+      "type": "domain",
+      "value": "1688360.cc",
+      "confidence": "high",
+      "reason": "Domain used to send stolen card data, identified as attacker infrastructure",
+      "first_seen": "2026-11-21T18:06:51.012599+00:00",
+      "last_seen": "2026-11-21T18:06:51.012599+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.stepsecurity.io",
+          "url": "https://www.stepsecurity.io/blog/optimjack-optimizely-hosted-scripts-crypto-clipper-card-skimmer",
+          "pub_date": "2026-11-21T18:06:51.012599+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Optimjack"
+        },
+        {
+          "type": "malware",
+          "value": "Coruna"
+        },
+        {
+          "type": "malware",
+          "value": "DarkSword"
+        }
+      ],
+      "categories": [
+        "exfiltration"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "1y69gy2mdzaltz1.icu",
+      "confidence": "high",
+      "reason": "Part of a batch of domains registered by the attacker for malicious use",
+      "first_seen": "2026-11-21T18:06:51.012599+00:00",
+      "last_seen": "2026-11-21T18:06:51.012599+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.stepsecurity.io",
+          "url": "https://www.stepsecurity.io/blog/optimjack-optimizely-hosted-scripts-crypto-clipper-card-skimmer",
+          "pub_date": "2026-11-21T18:06:51.012599+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Optimjack"
+        },
+        {
+          "type": "malware",
+          "value": "Coruna"
+        },
+        {
+          "type": "malware",
+          "value": "DarkSword"
+        }
+      ],
+      "categories": [
+        "malware"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "5vobauua3ojpklx.icu",
+      "confidence": "high",
+      "reason": "Domain used for iOS exploit delivery, identified as attacker infrastructure",
+      "first_seen": "2026-11-17T02:12:41+00:00",
+      "last_seen": "2026-11-21T18:06:51.012599+00:00",
+      "source_count": 6,
+      "sources": [
+        {
+          "source": "www.stepsecurity.io",
+          "url": "https://www.stepsecurity.io/blog/optimjack-optimizely-hosted-scripts-crypto-clipper-card-skimmer",
+          "pub_date": "2026-11-21T18:06:51.012599+00:00"
+        },
+        {
+          "source": "www.infostealers.com",
+          "url": "https://www.infostealers.com/article/poisoned-scripts-on-bbc-zoom-and-other-major-websites-linked-to-iphone-exploit-loaders/",
+          "pub_date": "2026-11-18T18:35:06.684387+00:00"
+        },
+        {
+          "source": "blog.report-uri.com",
+          "url": "https://blog.report-uri.com/worlds-largest-brands-infected-with-malware-via-optimizely/",
+          "pub_date": "2026-11-17T15:01:53.604417+00:00"
+        },
+        {
+          "source": "Gbhackers",
+          "url": "https://gbhackers.com/optimjack-attack/",
+          "pub_date": "2026-11-17T13:26:59+00:00"
+        },
+        {
+          "source": "Thehackernews",
+          "url": "https://thehackernews.com/2026/11/hijacked-optimizely-scripts-served-card.html",
+          "pub_date": "2026-11-17T07:17:57+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Optimjack"
+        },
+        {
+          "type": "malware",
+          "value": "Coruna"
+        },
+        {
+          "type": "malware",
+          "value": "DarkSword"
+        },
+        {
+          "type": "industry",
+          "value": "Financial"
+        }
+      ],
+      "categories": [
+        "malware"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "eil786npto9u5bq.icu",
+      "confidence": "high",
+      "reason": "Domain used for iOS exploit delivery, identified as attacker infrastructure",
+      "first_seen": "2026-11-17T02:12:41+00:00",
+      "last_seen": "2026-11-21T18:06:51.012599+00:00",
+      "source_count": 5,
+      "sources": [
+        {
+          "source": "www.stepsecurity.io",
+          "url": "https://www.stepsecurity.io/blog/optimjack-optimizely-hosted-scripts-crypto-clipper-card-skimmer",
+          "pub_date": "2026-11-21T18:06:51.012599+00:00"
+        },
+        {
+          "source": "www.infostealers.com",
+          "url": "https://www.infostealers.com/article/poisoned-scripts-on-bbc-zoom-and-other-major-websites-linked-to-iphone-exploit-loaders/",
+          "pub_date": "2026-11-18T18:35:06.684387+00:00"
+        },
+        {
+          "source": "Gbhackers",
+          "url": "https://gbhackers.com/optimjack-attack/",
+          "pub_date": "2026-11-17T13:26:59+00:00"
+        },
+        {
+          "source": "Thehackernews",
+          "url": "https://thehackernews.com/2026/11/hijacked-optimizely-scripts-served-card.html",
+          "pub_date": "2026-11-17T07:17:57+00:00"
+        },
+        {
+          "source": "Cyberkendra",
+          "url": "https://www.cyberkendra.com/2026/11/optimizely-malware-hits-zoom-bbc-cnn-what-to-do.html",
+          "pub_date": "2026-11-17T02:12:41+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Optimjack"
+        },
+        {
+          "type": "malware",
+          "value": "Coruna"
+        },
+        {
+          "type": "malware",
+          "value": "DarkSword"
+        },
+        {
+          "type": "industry",
+          "value": "Banking"
+        }
+      ],
+      "categories": [
+        "malware"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "gm38duxoihbmy5o.icu",
+      "confidence": "high",
+      "reason": "Part of a batch of domains registered by the attacker for malicious use",
+      "first_seen": "2026-11-21T18:06:51.012599+00:00",
+      "last_seen": "2026-11-21T18:06:51.012599+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.stepsecurity.io",
+          "url": "https://www.stepsecurity.io/blog/optimjack-optimizely-hosted-scripts-crypto-clipper-card-skimmer",
+          "pub_date": "2026-11-21T18:06:51.012599+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Optimjack"
+        },
+        {
+          "type": "malware",
+          "value": "Coruna"
+        },
+        {
+          "type": "malware",
+          "value": "DarkSword"
+        }
+      ],
+      "categories": [
+        "malware"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "l7bcsnwc7nzr3uo.icu",
+      "confidence": "high",
+      "reason": "Domain registered by the attacker for malicious use",
+      "first_seen": "2026-11-18T18:35:06.684387+00:00",
+      "last_seen": "2026-11-21T18:06:51.012599+00:00",
+      "source_count": 2,
+      "sources": [
+        {
+          "source": "www.stepsecurity.io",
+          "url": "https://www.stepsecurity.io/blog/optimjack-optimizely-hosted-scripts-crypto-clipper-card-skimmer",
+          "pub_date": "2026-11-21T18:06:51.012599+00:00"
+        },
+        {
+          "source": "www.infostealers.com",
+          "url": "https://www.infostealers.com/article/poisoned-scripts-on-bbc-zoom-and-other-major-websites-linked-to-iphone-exploit-loaders/",
+          "pub_date": "2026-11-18T18:35:06.684387+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Optimjack"
+        },
+        {
+          "type": "industry",
+          "value": "Banking"
+        },
+        {
+          "type": "industry",
+          "value": "Business Services"
+        },
+        {
+          "type": "industry",
+          "value": "Communications"
+        }
+      ],
+      "categories": [
+        "malware"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "p55abnw2pnsz0bo.icu",
+      "confidence": "high",
+      "reason": "Part of a batch of domains registered by the attacker for malicious use",
+      "first_seen": "2026-11-21T18:06:51.012599+00:00",
+      "last_seen": "2026-11-21T18:06:51.012599+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.stepsecurity.io",
+          "url": "https://www.stepsecurity.io/blog/optimjack-optimizely-hosted-scripts-crypto-clipper-card-skimmer",
+          "pub_date": "2026-11-21T18:06:51.012599+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Optimjack"
+        },
+        {
+          "type": "malware",
+          "value": "Coruna"
+        },
+        {
+          "type": "malware",
+          "value": "DarkSword"
+        }
+      ],
+      "categories": [
+        "malware"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "q1ls1ho9x7wsxlu.icu",
+      "confidence": "high",
+      "reason": "Domain registered by the attacker for malicious use",
+      "first_seen": "2026-11-21T18:06:51.012599+00:00",
+      "last_seen": "2026-11-21T18:06:51.012599+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "www.stepsecurity.io",
+          "url": "https://www.stepsecurity.io/blog/optimjack-optimizely-hosted-scripts-crypto-clipper-card-skimmer",
+          "pub_date": "2026-11-21T18:06:51.012599+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "type": "campaign",
+          "value": "Optimjack"
+        },
+        {
+          "type": "malware",
+          "value": "Coruna"
+        },
+        {
+          "type": "malware",
+          "value": "DarkSword"
+        }
+      ],
+      "categories": [
+        "malware"
+      ],
+      "basis": null
+    },
+    {
+      "type": "domain",
+      "value": "thegreathouse.us",
+      "confidence": "high",
+      "reason": "Front-company website registered by a suspected North Korean operator for fake contracting",
+      "first_seen": "2026-11-21T06:50:30+00:00",
+      "last_seen": "2026-11-21T06:50:30+00:00",
+      "source_count": 1,
+      "sources": [
+        {
+          "source": "Gbhackers",
+          "url": "https://gbhackers.com/north-korean-fake-construction-company-ai-deepfakes/",
+          "pub_date": "2026-11-21T06:50:30+00:00"
+        }
+      ],
+      "tags": [],
+      "categories": [
+        "scam_fraud"
+      ],
+      "basis": null
+    },
     {
       "type": "domain",
       "value": "enrollmfamethods.com",
@@ -542,335 +892,6 @@
         "phishing",
         "malware",
         "c2"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "1688360.cc",
-      "confidence": "high",
-      "reason": "Domain used to send stolen card data, identified as attacker infrastructure",
-      "first_seen": "2026-11-19T22:33:41.321903+00:00",
-      "last_seen": "2026-11-19T22:33:41.321903+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.stepsecurity.io",
-          "url": "https://www.stepsecurity.io/blog/optimjack-optimizely-hosted-scripts-crypto-clipper-card-skimmer",
-          "pub_date": "2026-11-19T22:33:41.321903+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Optimjack"
-        },
-        {
-          "type": "malware",
-          "value": "Coruna"
-        },
-        {
-          "type": "malware",
-          "value": "DarkSword"
-        }
-      ],
-      "categories": [
-        "exfiltration"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "1y69gy2mdzaltz1.icu",
-      "confidence": "high",
-      "reason": "Part of a batch of domains registered by the attacker for malicious use",
-      "first_seen": "2026-11-19T22:33:41.321903+00:00",
-      "last_seen": "2026-11-19T22:33:41.321903+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.stepsecurity.io",
-          "url": "https://www.stepsecurity.io/blog/optimjack-optimizely-hosted-scripts-crypto-clipper-card-skimmer",
-          "pub_date": "2026-11-19T22:33:41.321903+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Optimjack"
-        },
-        {
-          "type": "malware",
-          "value": "Coruna"
-        },
-        {
-          "type": "malware",
-          "value": "DarkSword"
-        }
-      ],
-      "categories": [
-        "malware"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "5vobauua3ojpklx.icu",
-      "confidence": "high",
-      "reason": "Domain used for iOS exploit delivery, identified as attacker infrastructure",
-      "first_seen": "2026-11-17T02:12:41+00:00",
-      "last_seen": "2026-11-19T22:33:41.321903+00:00",
-      "source_count": 6,
-      "sources": [
-        {
-          "source": "www.stepsecurity.io",
-          "url": "https://www.stepsecurity.io/blog/optimjack-optimizely-hosted-scripts-crypto-clipper-card-skimmer",
-          "pub_date": "2026-11-19T22:33:41.321903+00:00"
-        },
-        {
-          "source": "www.infostealers.com",
-          "url": "https://www.infostealers.com/article/poisoned-scripts-on-bbc-zoom-and-other-major-websites-linked-to-iphone-exploit-loaders/",
-          "pub_date": "2026-11-18T18:35:06.684387+00:00"
-        },
-        {
-          "source": "blog.report-uri.com",
-          "url": "https://blog.report-uri.com/worlds-largest-brands-infected-with-malware-via-optimizely/",
-          "pub_date": "2026-11-17T15:01:53.604417+00:00"
-        },
-        {
-          "source": "Gbhackers",
-          "url": "https://gbhackers.com/optimjack-attack/",
-          "pub_date": "2026-11-17T13:26:59+00:00"
-        },
-        {
-          "source": "Thehackernews",
-          "url": "https://thehackernews.com/2026/11/hijacked-optimizely-scripts-served-card.html",
-          "pub_date": "2026-11-17T07:17:57+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Optimjack"
-        },
-        {
-          "type": "malware",
-          "value": "Coruna"
-        },
-        {
-          "type": "malware",
-          "value": "DarkSword"
-        },
-        {
-          "type": "industry",
-          "value": "Airlines & Travel"
-        }
-      ],
-      "categories": [
-        "malware"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "eil786npto9u5bq.icu",
-      "confidence": "high",
-      "reason": "Domain used for iOS exploit delivery, identified as attacker infrastructure",
-      "first_seen": "2026-11-17T02:12:41+00:00",
-      "last_seen": "2026-11-19T22:33:41.321903+00:00",
-      "source_count": 5,
-      "sources": [
-        {
-          "source": "www.stepsecurity.io",
-          "url": "https://www.stepsecurity.io/blog/optimjack-optimizely-hosted-scripts-crypto-clipper-card-skimmer",
-          "pub_date": "2026-11-19T22:33:41.321903+00:00"
-        },
-        {
-          "source": "www.infostealers.com",
-          "url": "https://www.infostealers.com/article/poisoned-scripts-on-bbc-zoom-and-other-major-websites-linked-to-iphone-exploit-loaders/",
-          "pub_date": "2026-11-18T18:35:06.684387+00:00"
-        },
-        {
-          "source": "Gbhackers",
-          "url": "https://gbhackers.com/optimjack-attack/",
-          "pub_date": "2026-11-17T13:26:59+00:00"
-        },
-        {
-          "source": "Thehackernews",
-          "url": "https://thehackernews.com/2026/11/hijacked-optimizely-scripts-served-card.html",
-          "pub_date": "2026-11-17T07:17:57+00:00"
-        },
-        {
-          "source": "Cyberkendra",
-          "url": "https://www.cyberkendra.com/2026/11/optimizely-malware-hits-zoom-bbc-cnn-what-to-do.html",
-          "pub_date": "2026-11-17T02:12:41+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Optimjack"
-        },
-        {
-          "type": "malware",
-          "value": "Coruna"
-        },
-        {
-          "type": "malware",
-          "value": "DarkSword"
-        },
-        {
-          "type": "industry",
-          "value": "Banking"
-        }
-      ],
-      "categories": [
-        "malware"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "gm38duxoihbmy5o.icu",
-      "confidence": "high",
-      "reason": "Part of a batch of domains registered by the attacker for malicious use",
-      "first_seen": "2026-11-19T22:33:41.321903+00:00",
-      "last_seen": "2026-11-19T22:33:41.321903+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.stepsecurity.io",
-          "url": "https://www.stepsecurity.io/blog/optimjack-optimizely-hosted-scripts-crypto-clipper-card-skimmer",
-          "pub_date": "2026-11-19T22:33:41.321903+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Optimjack"
-        },
-        {
-          "type": "malware",
-          "value": "Coruna"
-        },
-        {
-          "type": "malware",
-          "value": "DarkSword"
-        }
-      ],
-      "categories": [
-        "malware"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "l7bcsnwc7nzr3uo.icu",
-      "confidence": "high",
-      "reason": "Domain registered by the attacker for malicious use",
-      "first_seen": "2026-11-18T18:35:06.684387+00:00",
-      "last_seen": "2026-11-19T22:33:41.321903+00:00",
-      "source_count": 2,
-      "sources": [
-        {
-          "source": "www.stepsecurity.io",
-          "url": "https://www.stepsecurity.io/blog/optimjack-optimizely-hosted-scripts-crypto-clipper-card-skimmer",
-          "pub_date": "2026-11-19T22:33:41.321903+00:00"
-        },
-        {
-          "source": "www.infostealers.com",
-          "url": "https://www.infostealers.com/article/poisoned-scripts-on-bbc-zoom-and-other-major-websites-linked-to-iphone-exploit-loaders/",
-          "pub_date": "2026-11-18T18:35:06.684387+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Optimjack"
-        },
-        {
-          "type": "industry",
-          "value": "Banking"
-        },
-        {
-          "type": "industry",
-          "value": "Business Services"
-        },
-        {
-          "type": "industry",
-          "value": "Communications"
-        }
-      ],
-      "categories": [
-        "malware"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "p55abnw2pnsz0bo.icu",
-      "confidence": "high",
-      "reason": "Part of a batch of domains registered by the attacker for malicious use",
-      "first_seen": "2026-11-19T22:33:41.321903+00:00",
-      "last_seen": "2026-11-19T22:33:41.321903+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.stepsecurity.io",
-          "url": "https://www.stepsecurity.io/blog/optimjack-optimizely-hosted-scripts-crypto-clipper-card-skimmer",
-          "pub_date": "2026-11-19T22:33:41.321903+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Optimjack"
-        },
-        {
-          "type": "malware",
-          "value": "Coruna"
-        },
-        {
-          "type": "malware",
-          "value": "DarkSword"
-        }
-      ],
-      "categories": [
-        "malware"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "q1ls1ho9x7wsxlu.icu",
-      "confidence": "high",
-      "reason": "Domain registered by the attacker for malicious use",
-      "first_seen": "2026-11-19T22:33:41.321903+00:00",
-      "last_seen": "2026-11-19T22:33:41.321903+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.stepsecurity.io",
-          "url": "https://www.stepsecurity.io/blog/optimjack-optimizely-hosted-scripts-crypto-clipper-card-skimmer",
-          "pub_date": "2026-11-19T22:33:41.321903+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "campaign",
-          "value": "Optimjack"
-        },
-        {
-          "type": "malware",
-          "value": "Coruna"
-        },
-        {
-          "type": "malware",
-          "value": "DarkSword"
-        }
-      ],
-      "categories": [
-        "malware"
       ],
       "basis": null
     },
@@ -3646,8 +3667,8 @@
           "value": "Optimjack"
         },
         {
-          "type": "campaign",
-          "value": "Optimizely Supply Chain Attack"
+          "type": "industry",
+          "value": "Financial"
         }
       ],
       "categories": [
@@ -3698,6 +3719,10 @@
       ],
       "tags": [
         {
+          "type": "industry",
+          "value": "Financial"
+        },
+        {
           "type": "apt_group",
           "value": "Bloodalchemy"
         },
@@ -3708,10 +3733,6 @@
         {
           "type": "industry",
           "value": "Defense"
-        },
-        {
-          "type": "industry",
-          "value": "Finance"
         }
       ],
       "categories": [
@@ -3742,6 +3763,10 @@
       ],
       "tags": [
         {
+          "type": "industry",
+          "value": "Financial"
+        },
+        {
           "type": "apt_group",
           "value": "Bloodalchemy"
         },
@@ -3752,10 +3777,6 @@
         {
           "type": "industry",
           "value": "Defense"
-        },
-        {
-          "type": "industry",
-          "value": "Finance"
         }
       ],
       "categories": [
@@ -4108,7 +4129,7 @@
       "tags": [
         {
           "type": "apt_group",
-          "value": "Lazarus APT Group"
+          "value": "Lazarus Group"
         },
         {
           "type": "campaign",
@@ -4120,7 +4141,7 @@
         },
         {
           "type": "industry",
-          "value": "Finance"
+          "value": "Financial"
         }
       ],
       "categories": [
@@ -6397,7 +6418,7 @@
         },
         {
           "type": "industry",
-          "value": "Finance"
+          "value": "Financial"
         },
         {
           "type": "industry",
@@ -7322,7 +7343,7 @@
       "tags": [
         {
           "type": "campaign",
-          "value": "Bossai Campaign"
+          "value": "Bossai"
         },
         {
           "type": "industry",
@@ -7756,7 +7777,7 @@
       "tags": [
         {
           "type": "campaign",
-          "value": "Storm-1516 Campaign"
+          "value": "Storm-1516"
         }
       ],
       "categories": [
@@ -9812,7 +9833,7 @@
       "tags": [
         {
           "type": "apt_group",
-          "value": "Bitter APT"
+          "value": "Bitter"
         },
         {
           "type": "campaign",
@@ -9850,7 +9871,7 @@
       "tags": [
         {
           "type": "apt_group",
-          "value": "Bitter APT"
+          "value": "Bitter"
         },
         {
           "type": "campaign",
@@ -10245,10 +10266,6 @@
       ],
       "tags": [
         {
-          "type": "campaign",
-          "value": "Cactus Ransomware Campaign"
-        },
-        {
           "type": "cve",
           "value": "CVE-2023-41265"
         },
@@ -10259,6 +10276,10 @@
         {
           "type": "cve",
           "value": "CVE-2023-46604"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2023-48365"
         }
       ],
       "categories": [
@@ -10619,7 +10640,7 @@
       "tags": [
         {
           "type": "industry",
-          "value": "Financial Services"
+          "value": "Financial"
         },
         {
           "type": "industry",
@@ -10653,7 +10674,7 @@
       "tags": [
         {
           "type": "industry",
-          "value": "Financial Services"
+          "value": "Financial"
         },
         {
           "type": "industry",
@@ -15961,8 +15982,8 @@
       ],
       "tags": [
         {
-          "type": "malware",
-          "value": "Chaos Ransomware"
+          "type": "ransomware_group",
+          "value": "Chaos"
         }
       ],
       "categories": [
@@ -17836,11 +17857,11 @@
         },
         {
           "type": "campaign",
-          "value": "Kimwolf Campaign"
+          "value": "XCPE Botnet"
         },
         {
-          "type": "campaign",
-          "value": "XCPE Botnet"
+          "type": "malware",
+          "value": "AppSalt/Honeygain"
         }
       ],
       "categories": [
@@ -18170,11 +18191,11 @@
         },
         {
           "type": "campaign",
-          "value": "Kimwolf Campaign"
+          "value": "XCPE Botnet"
         },
         {
-          "type": "campaign",
-          "value": "XCPE Botnet"
+          "type": "malware",
+          "value": "AppSalt"
         }
       ],
       "categories": [
@@ -18335,10 +18356,6 @@
       ],
       "tags": [
         {
-          "type": "campaign",
-          "value": "Kimwolf Campaign"
-        },
-        {
           "type": "industry",
           "value": "Technology"
         },
@@ -18349,6 +18366,10 @@
         {
           "type": "malware",
           "value": "APSolo"
+        },
+        {
+          "type": "malware",
+          "value": "BWM"
         }
       ],
       "categories": [
@@ -18378,10 +18399,6 @@
       ],
       "tags": [
         {
-          "type": "campaign",
-          "value": "Kimwolf Campaign"
-        },
-        {
           "type": "industry",
           "value": "Technology"
         },
@@ -18392,6 +18409,10 @@
         {
           "type": "malware",
           "value": "APSolo"
+        },
+        {
+          "type": "malware",
+          "value": "BWM"
         }
       ],
       "categories": [
@@ -18835,10 +18856,6 @@
       ],
       "tags": [
         {
-          "type": "campaign",
-          "value": "Kimwolf Campaign"
-        },
-        {
           "type": "industry",
           "value": "Technology"
         },
@@ -18849,6 +18866,10 @@
         {
           "type": "malware",
           "value": "BWM"
+        },
+        {
+          "type": "malware",
+          "value": "IPWeb"
         }
       ],
       "categories": [
@@ -20387,7 +20408,7 @@
       "tags": [
         {
           "type": "campaign",
-          "value": "Mini-Shai Hulud Campaign"
+          "value": "Mini Shai Hulud"
         }
       ],
       "categories": [
@@ -20413,7 +20434,7 @@
       "tags": [
         {
           "type": "campaign",
-          "value": "Mini-Shai Hulud Campaign"
+          "value": "Mini Shai Hulud"
         }
       ],
       "categories": [
@@ -20439,7 +20460,7 @@
       "tags": [
         {
           "type": "campaign",
-          "value": "Mini-Shai Hulud Campaign"
+          "value": "Mini Shai Hulud"
         }
       ],
       "categories": [
@@ -20465,7 +20486,7 @@
       "tags": [
         {
           "type": "campaign",
-          "value": "Mini-Shai Hulud Campaign"
+          "value": "Mini Shai Hulud"
         }
       ],
       "categories": [
@@ -20491,7 +20512,7 @@
       "tags": [
         {
           "type": "campaign",
-          "value": "Mini-Shai Hulud Campaign"
+          "value": "Mini Shai Hulud"
         }
       ],
       "categories": [
@@ -20517,7 +20538,7 @@
       "tags": [
         {
           "type": "campaign",
-          "value": "Mini-Shai Hulud Campaign"
+          "value": "Mini Shai Hulud"
         }
       ],
       "categories": [
@@ -20553,7 +20574,7 @@
       "tags": [
         {
           "type": "campaign",
-          "value": "ClickFix Campaigns"
+          "value": "ClickFix campaign"
         },
         {
           "type": "malware",
@@ -20712,7 +20733,7 @@
       "tags": [
         {
           "type": "campaign",
-          "value": "ClickFix Campaigns"
+          "value": "ClickFix campaign"
         },
         {
           "type": "malware",
@@ -20765,7 +20786,7 @@
       "tags": [
         {
           "type": "campaign",
-          "value": "ClickFix Campaigns"
+          "value": "ClickFix campaign"
         },
         {
           "type": "malware",
@@ -22565,7 +22586,7 @@
         },
         {
           "type": "industry",
-          "value": "IT"
+          "value": "Technology"
         }
       ],
       "categories": [
@@ -22719,12 +22740,12 @@
           "value": "Primitive Bear"
         },
         {
-          "type": "campaign",
-          "value": "GammaLoad Campaigns"
+          "type": "cve",
+          "value": "CVE-2025-8088"
         },
         {
-          "type": "campaign",
-          "value": "GammaSteel Campaigns"
+          "type": "industry",
+          "value": "Government"
         }
       ],
       "categories": [
@@ -22757,12 +22778,12 @@
           "value": "Primitive Bear"
         },
         {
-          "type": "campaign",
-          "value": "GammaLoad Campaigns"
+          "type": "cve",
+          "value": "CVE-2025-8088"
         },
         {
-          "type": "campaign",
-          "value": "GammaSteel Campaigns"
+          "type": "industry",
+          "value": "Government"
         }
       ],
       "categories": [
@@ -22993,20 +23014,20 @@
       ],
       "tags": [
         {
-          "type": "campaign",
-          "value": "Btmob RAT Campaign"
-        },
-        {
-          "type": "campaign",
-          "value": "MiningDropper Campaign"
-        },
-        {
           "type": "malware",
           "value": "BeatBanker"
         },
         {
           "type": "malware",
           "value": "Btmob RAT"
+        },
+        {
+          "type": "malware",
+          "value": "Lumolight"
+        },
+        {
+          "type": "malware",
+          "value": "MiningDropper"
         }
       ],
       "categories": [
@@ -23031,20 +23052,20 @@
       ],
       "tags": [
         {
-          "type": "campaign",
-          "value": "Btmob RAT Campaign"
-        },
-        {
-          "type": "campaign",
-          "value": "MiningDropper Campaign"
-        },
-        {
           "type": "malware",
           "value": "BeatBanker"
         },
         {
           "type": "malware",
           "value": "Btmob RAT"
+        },
+        {
+          "type": "malware",
+          "value": "Lumolight"
+        },
+        {
+          "type": "malware",
+          "value": "MiningDropper"
         }
       ],
       "categories": [
@@ -23069,20 +23090,20 @@
       ],
       "tags": [
         {
-          "type": "campaign",
-          "value": "Btmob RAT Campaign"
-        },
-        {
-          "type": "campaign",
-          "value": "MiningDropper Campaign"
-        },
-        {
           "type": "malware",
           "value": "BeatBanker"
         },
         {
           "type": "malware",
           "value": "Btmob RAT"
+        },
+        {
+          "type": "malware",
+          "value": "Lumolight"
+        },
+        {
+          "type": "malware",
+          "value": "MiningDropper"
         }
       ],
       "categories": [
@@ -23108,20 +23129,20 @@
       ],
       "tags": [
         {
-          "type": "campaign",
-          "value": "Btmob RAT Campaign"
-        },
-        {
-          "type": "campaign",
-          "value": "MiningDropper Campaign"
-        },
-        {
           "type": "malware",
           "value": "BeatBanker"
         },
         {
           "type": "malware",
           "value": "Btmob RAT"
+        },
+        {
+          "type": "malware",
+          "value": "Lumolight"
+        },
+        {
+          "type": "malware",
+          "value": "MiningDropper"
         }
       ],
       "categories": [
@@ -23146,20 +23167,20 @@
       ],
       "tags": [
         {
-          "type": "campaign",
-          "value": "Btmob RAT Campaign"
-        },
-        {
-          "type": "campaign",
-          "value": "MiningDropper Campaign"
-        },
-        {
           "type": "malware",
           "value": "BeatBanker"
         },
         {
           "type": "malware",
           "value": "Btmob RAT"
+        },
+        {
+          "type": "malware",
+          "value": "Lumolight"
+        },
+        {
+          "type": "malware",
+          "value": "MiningDropper"
         }
       ],
       "categories": [
@@ -23184,20 +23205,20 @@
       ],
       "tags": [
         {
-          "type": "campaign",
-          "value": "Btmob RAT Campaign"
-        },
-        {
-          "type": "campaign",
-          "value": "MiningDropper Campaign"
-        },
-        {
           "type": "malware",
           "value": "BeatBanker"
         },
         {
           "type": "malware",
           "value": "Btmob RAT"
+        },
+        {
+          "type": "malware",
+          "value": "Lumolight"
+        },
+        {
+          "type": "malware",
+          "value": "MiningDropper"
         }
       ],
       "categories": [
@@ -23498,10 +23519,6 @@
         {
           "type": "malware",
           "value": "Miasma"
-        },
-        {
-          "type": "malware",
-          "value": "Miasma-family"
         }
       ],
       "categories": [
@@ -23804,50 +23821,6 @@
       "categories": [
         "fake_software",
         "traffic_distribution"
-      ],
-      "basis": null
-    },
-    {
-      "type": "ipv4",
-      "value": "103.151.172.95",
-      "confidence": "high",
-      "reason": "Used in an exploit attempt against a honeypot.",
-      "first_seen": "2026-10-27T13:32:48+00:00",
-      "last_seen": "2026-10-27T13:32:48+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Wiz",
-          "url": "https://www.wiz.io/blog/php2shell-exploitation-so-far",
-          "pub_date": "2026-10-27T13:32:48+00:00"
-        }
-      ],
-      "tags": [],
-      "categories": [
-        "exploit",
-        "scanner"
-      ],
-      "basis": null
-    },
-    {
-      "type": "ipv4",
-      "value": "85.11.187.35",
-      "confidence": "high",
-      "reason": "Used in an exploitation attempt.",
-      "first_seen": "2026-10-27T13:32:48+00:00",
-      "last_seen": "2026-10-27T13:32:48+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Wiz",
-          "url": "https://www.wiz.io/blog/php2shell-exploitation-so-far",
-          "pub_date": "2026-10-27T13:32:48+00:00"
-        }
-      ],
-      "tags": [],
-      "categories": [
-        "exploit",
-        "scanner"
       ],
       "basis": null
     },
@@ -24157,7 +24130,7 @@
         },
         {
           "type": "apt_group",
-          "value": "Prince Of Persia APT"
+          "value": "Prince Of Persia"
         }
       ],
       "categories": [
@@ -24655,10 +24628,6 @@
       ],
       "tags": [
         {
-          "type": "campaign",
-          "value": "PoeLLM Campaign"
-        },
-        {
           "type": "cve",
           "value": "CVE-2018-21027"
         },
@@ -24669,6 +24638,10 @@
         {
           "type": "cve",
           "value": "CVE-2026-10520"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-42271"
         }
       ],
       "categories": [
@@ -24693,10 +24666,6 @@
       ],
       "tags": [
         {
-          "type": "campaign",
-          "value": "PoeLLM Campaign"
-        },
-        {
           "type": "cve",
           "value": "CVE-2018-21027"
         },
@@ -24707,6 +24676,10 @@
         {
           "type": "cve",
           "value": "CVE-2026-10520"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-42271"
         }
       ],
       "categories": [
@@ -24731,10 +24704,6 @@
       ],
       "tags": [
         {
-          "type": "campaign",
-          "value": "PoeLLM Campaign"
-        },
-        {
           "type": "cve",
           "value": "CVE-2018-21027"
         },
@@ -24745,6 +24714,10 @@
         {
           "type": "cve",
           "value": "CVE-2026-10520"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-42271"
         }
       ],
       "categories": [
@@ -24769,10 +24742,6 @@
       ],
       "tags": [
         {
-          "type": "campaign",
-          "value": "PoeLLM Campaign"
-        },
-        {
           "type": "cve",
           "value": "CVE-2018-21027"
         },
@@ -24783,6 +24752,10 @@
         {
           "type": "cve",
           "value": "CVE-2026-10520"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-42271"
         }
       ],
       "categories": [
@@ -24807,10 +24780,6 @@
       ],
       "tags": [
         {
-          "type": "campaign",
-          "value": "PoeLLM Campaign"
-        },
-        {
           "type": "cve",
           "value": "CVE-2018-21027"
         },
@@ -24821,6 +24790,10 @@
         {
           "type": "cve",
           "value": "CVE-2026-10520"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-42271"
         }
       ],
       "categories": [
@@ -24845,10 +24818,6 @@
       ],
       "tags": [
         {
-          "type": "campaign",
-          "value": "PoeLLM Campaign"
-        },
-        {
           "type": "cve",
           "value": "CVE-2018-21027"
         },
@@ -24859,6 +24828,10 @@
         {
           "type": "cve",
           "value": "CVE-2026-10520"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-42271"
         }
       ],
       "categories": [
@@ -24883,10 +24856,6 @@
       ],
       "tags": [
         {
-          "type": "campaign",
-          "value": "PoeLLM Campaign"
-        },
-        {
           "type": "cve",
           "value": "CVE-2018-21027"
         },
@@ -24897,6 +24866,10 @@
         {
           "type": "cve",
           "value": "CVE-2026-10520"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-42271"
         }
       ],
       "categories": [
@@ -24921,10 +24894,6 @@
       ],
       "tags": [
         {
-          "type": "campaign",
-          "value": "PoeLLM Campaign"
-        },
-        {
           "type": "cve",
           "value": "CVE-2018-21027"
         },
@@ -24935,6 +24904,10 @@
         {
           "type": "cve",
           "value": "CVE-2026-10520"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-42271"
         }
       ],
       "categories": [
@@ -24959,10 +24932,6 @@
       ],
       "tags": [
         {
-          "type": "campaign",
-          "value": "PoeLLM Campaign"
-        },
-        {
           "type": "cve",
           "value": "CVE-2018-21027"
         },
@@ -24973,6 +24942,10 @@
         {
           "type": "cve",
           "value": "CVE-2026-10520"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2026-42271"
         }
       ],
       "categories": [
@@ -25595,39 +25568,21 @@
       "type": "ipv4",
       "value": "92.118.112.100",
       "confidence": "high",
-      "reason": "IP address associated with attacker-controlled scanning and exploitation attempts",
-      "first_seen": "2026-10-22T18:45:20+00:00",
+      "reason": "Listed as a defanged string in a vendor publication",
+      "first_seen": "2026-10-23T18:49:51+00:00",
       "last_seen": "2026-10-23T18:49:51+00:00",
-      "source_count": 3,
+      "source_count": 1,
       "sources": [
         {
           "source": "Sploitus",
           "url": "https://sploitus.com/exploit?id=D57E903B-A042-5D9D-AE06-7F89B3DB11FA&utm_source=rss&utm_medium=rss",
           "pub_date": "2026-10-23T18:49:51+00:00"
-        },
-        {
-          "source": "Thehackernews",
-          "url": "https://thehackernews.com/2026/10/php2shell-exploit-attempts-hit-millions.html",
-          "pub_date": "2026-10-23T07:45:06+00:00"
-        },
-        {
-          "source": "Arcticwolf",
-          "url": "https://arcticwolf.com/resources/blog/php2shell-critical-php-vulnerabilities-enable-unauthenticated-remote-code-execution/",
-          "pub_date": "2026-10-22T18:45:20+00:00"
         }
       ],
       "tags": [
         {
           "type": "cve",
           "value": "CVE-2026-109618"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-109619"
-        },
-        {
-          "type": "malware",
-          "value": "Potassium"
         },
         {
           "type": "cve",
@@ -25877,23 +25832,26 @@
       "type": "ipv4",
       "value": "206.188.197.105",
       "confidence": "high",
-      "reason": "Identified as an attacker-controlled server hosting exploit tooling",
-      "first_seen": "2026-10-23T07:45:06+00:00",
+      "reason": "Listed as mass-exploitation server",
+      "first_seen": "2026-10-23T14:01:51.563234+00:00",
       "last_seen": "2026-10-23T14:01:51.563234+00:00",
-      "source_count": 2,
+      "source_count": 1,
       "sources": [
         {
           "source": "hunt.io",
           "url": "https://hunt.io/blog/php2shell-cve-2026-109618-109619-open-directories",
           "pub_date": "2026-10-23T14:01:51.563234+00:00"
-        },
-        {
-          "source": "Thehackernews",
-          "url": "https://thehackernews.com/2026/10/php2shell-exploit-attempts-hit-millions.html",
-          "pub_date": "2026-10-23T07:45:06+00:00"
         }
       ],
       "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2025-32975"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2025-55182"
+        },
         {
           "type": "cve",
           "value": "CVE-2026-109618"
@@ -25901,14 +25859,6 @@
         {
           "type": "cve",
           "value": "CVE-2026-109619"
-        },
-        {
-          "type": "malware",
-          "value": "Mirai"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2025-32975"
         }
       ],
       "categories": [
@@ -25920,23 +25870,26 @@
       "type": "ipv4",
       "value": "41.223.30.7",
       "confidence": "high",
-      "reason": "Listed as holding PHP2Shell-related tooling",
-      "first_seen": "2026-10-23T07:45:06+00:00",
+      "reason": "Listed as staging infrastructure for php2shell",
+      "first_seen": "2026-10-23T14:01:51.563234+00:00",
       "last_seen": "2026-10-23T14:01:51.563234+00:00",
-      "source_count": 2,
+      "source_count": 1,
       "sources": [
         {
           "source": "hunt.io",
           "url": "https://hunt.io/blog/php2shell-cve-2026-109618-109619-open-directories",
           "pub_date": "2026-10-23T14:01:51.563234+00:00"
-        },
-        {
-          "source": "Thehackernews",
-          "url": "https://thehackernews.com/2026/10/php2shell-exploit-attempts-hit-millions.html",
-          "pub_date": "2026-10-23T07:45:06+00:00"
         }
       ],
       "tags": [
+        {
+          "type": "cve",
+          "value": "CVE-2025-32975"
+        },
+        {
+          "type": "cve",
+          "value": "CVE-2025-55182"
+        },
         {
           "type": "cve",
           "value": "CVE-2026-109618"
@@ -25944,14 +25897,6 @@
         {
           "type": "cve",
           "value": "CVE-2026-109619"
-        },
-        {
-          "type": "malware",
-          "value": "Mirai"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2025-32975"
         }
       ],
       "categories": [
@@ -25996,2729 +25941,8 @@
         "malware"
       ],
       "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "litellm.dev",
-      "confidence": "high",
-      "reason": "Listed as an exfiltration endpoint and attacker-controlled domain",
-      "first_seen": "2026-10-23T12:00:40.720071+00:00",
-      "last_seen": "2026-10-23T12:00:40.720071+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.stepsecurity.io",
-          "url": "https://www.stepsecurity.io/blog/litellm-1-107-0-compromised-pypi-backdoored-wheels-credential-stealer",
-          "pub_date": "2026-10-23T12:00:40.720071+00:00"
-        }
-      ],
-      "tags": [],
-      "categories": [
-        "exfiltration"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "hackattackkaboom.botlesscucks.st",
-      "confidence": "high",
-      "reason": "Listed as a backup domain in the bot's C2 configuration",
-      "first_seen": "2026-10-23T11:31:38.104751+00:00",
-      "last_seen": "2026-10-23T11:31:38.104751+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "cowrai.com",
-          "url": "https://cowrai.com/research/php2shell-godofthunder/",
-          "pub_date": "2026-10-23T11:31:38.104751+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "cve",
-          "value": "CVE-2026-109618"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-109619"
-        },
-        {
-          "type": "malware",
-          "value": "Mirai"
-        }
-      ],
-      "categories": [
-        "c2",
-        "botnet"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "hik.gettingheadfromduckysmom.st",
-      "confidence": "high",
-      "reason": "Listed as a backup domain in the bot's C2 configuration",
-      "first_seen": "2026-10-23T11:31:38.104751+00:00",
-      "last_seen": "2026-10-23T11:31:38.104751+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "cowrai.com",
-          "url": "https://cowrai.com/research/php2shell-godofthunder/",
-          "pub_date": "2026-10-23T11:31:38.104751+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "cve",
-          "value": "CVE-2026-109618"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-109619"
-        },
-        {
-          "type": "malware",
-          "value": "Mirai"
-        }
-      ],
-      "categories": [
-        "c2",
-        "botnet"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "thunder.godofthunder.st",
-      "confidence": "high",
-      "reason": "Primary DNS in the bot's C2 configuration",
-      "first_seen": "2026-10-23T07:45:06+00:00",
-      "last_seen": "2026-10-23T11:31:38.104751+00:00",
-      "source_count": 2,
-      "sources": [
-        {
-          "source": "cowrai.com",
-          "url": "https://cowrai.com/research/php2shell-godofthunder/",
-          "pub_date": "2026-10-23T11:31:38.104751+00:00"
-        },
-        {
-          "source": "Thehackernews",
-          "url": "https://thehackernews.com/2026/10/php2shell-exploit-attempts-hit-millions.html",
-          "pub_date": "2026-10-23T07:45:06+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "cve",
-          "value": "CVE-2026-109618"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-109619"
-        },
-        {
-          "type": "malware",
-          "value": "Mirai"
-        },
-        {
-          "type": "malware",
-          "value": "Potassium"
-        }
-      ],
-      "categories": [
-        "c2",
-        "botnet"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "dev.kinopoisksu.com",
-      "confidence": "high",
-      "reason": "Listed under ScrambleCross domains, indicating attacker control",
-      "first_seen": "2026-10-23T11:01:21.955683+00:00",
-      "last_seen": "2026-10-23T11:01:21.955683+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "securelist.com",
-          "url": "https://securelist.com/moonbounce-the-dark-side-of-uefi-firmware/105468/",
-          "pub_date": "2026-10-23T11:01:21.955683+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "APT41"
-        },
-        {
-          "type": "industry",
-          "value": "Government"
-        },
-        {
-          "type": "malware",
-          "value": "GhostEmperor"
-        },
-        {
-          "type": "malware",
-          "value": "Go Implant"
-        }
-      ],
-      "categories": [
-        "c2",
-        "malware"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "holdmem.dbhubspi.com",
-      "confidence": "high",
-      "reason": "Listed under Microcin domains, indicating attacker control",
-      "first_seen": "2026-10-23T11:01:21.955683+00:00",
-      "last_seen": "2026-10-23T11:01:21.955683+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "securelist.com",
-          "url": "https://securelist.com/moonbounce-the-dark-side-of-uefi-firmware/105468/",
-          "pub_date": "2026-10-23T11:01:21.955683+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "APT41"
-        },
-        {
-          "type": "industry",
-          "value": "Government"
-        },
-        {
-          "type": "malware",
-          "value": "GhostEmperor"
-        },
-        {
-          "type": "malware",
-          "value": "Go Implant"
-        }
-      ],
-      "categories": [
-        "c2",
-        "malware"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "mb.glbaitech.com",
-      "confidence": "high",
-      "reason": "Described as a C&C URL for MoonBounce malware",
-      "first_seen": "2026-10-23T11:01:21.955683+00:00",
-      "last_seen": "2026-10-23T11:01:21.955683+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "securelist.com",
-          "url": "https://securelist.com/moonbounce-the-dark-side-of-uefi-firmware/105468/",
-          "pub_date": "2026-10-23T11:01:21.955683+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "APT41"
-        },
-        {
-          "type": "industry",
-          "value": "Government"
-        },
-        {
-          "type": "malware",
-          "value": "GhostEmperor"
-        },
-        {
-          "type": "malware",
-          "value": "Go Implant"
-        }
-      ],
-      "categories": [
-        "c2",
-        "malware"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "m.necemarket.com",
-      "confidence": "high",
-      "reason": "Listed under Microcin domains, indicating attacker control",
-      "first_seen": "2026-10-23T11:01:21.955683+00:00",
-      "last_seen": "2026-10-23T11:01:21.955683+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "securelist.com",
-          "url": "https://securelist.com/moonbounce-the-dark-side-of-uefi-firmware/105468/",
-          "pub_date": "2026-10-23T11:01:21.955683+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "APT41"
-        },
-        {
-          "type": "industry",
-          "value": "Government"
-        },
-        {
-          "type": "malware",
-          "value": "GhostEmperor"
-        },
-        {
-          "type": "malware",
-          "value": "Go Implant"
-        }
-      ],
-      "categories": [
-        "c2",
-        "malware"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "ns.glbaitech.com",
-      "confidence": "high",
-      "reason": "Listed under ScrambleCross domains, indicating attacker control",
-      "first_seen": "2026-10-23T11:01:21.955683+00:00",
-      "last_seen": "2026-10-23T11:01:21.955683+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "securelist.com",
-          "url": "https://securelist.com/moonbounce-the-dark-side-of-uefi-firmware/105468/",
-          "pub_date": "2026-10-23T11:01:21.955683+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "APT41"
-        },
-        {
-          "type": "industry",
-          "value": "Government"
-        },
-        {
-          "type": "malware",
-          "value": "GhostEmperor"
-        },
-        {
-          "type": "malware",
-          "value": "Go Implant"
-        }
-      ],
-      "categories": [
-        "c2",
-        "malware"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "st.kinopoisksu.com",
-      "confidence": "high",
-      "reason": "Listed under ScrambleCross domains, indicating attacker control",
-      "first_seen": "2026-10-23T11:01:21.955683+00:00",
-      "last_seen": "2026-10-23T11:01:21.955683+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "securelist.com",
-          "url": "https://securelist.com/moonbounce-the-dark-side-of-uefi-firmware/105468/",
-          "pub_date": "2026-10-23T11:01:21.955683+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "APT41"
-        },
-        {
-          "type": "industry",
-          "value": "Government"
-        },
-        {
-          "type": "malware",
-          "value": "GhostEmperor"
-        },
-        {
-          "type": "malware",
-          "value": "Go Implant"
-        }
-      ],
-      "categories": [
-        "c2",
-        "malware"
-      ],
-      "basis": null
-    },
-    {
-      "type": "ipv4",
-      "value": "193.29.57.161",
-      "confidence": "high",
-      "reason": "Listed under ScrambleCross IPs, indicating attacker control",
-      "first_seen": "2026-10-23T11:01:21.955683+00:00",
-      "last_seen": "2026-10-23T11:01:21.955683+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "securelist.com",
-          "url": "https://securelist.com/moonbounce-the-dark-side-of-uefi-firmware/105468/",
-          "pub_date": "2026-10-23T11:01:21.955683+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "APT41"
-        },
-        {
-          "type": "industry",
-          "value": "Government"
-        },
-        {
-          "type": "malware",
-          "value": "GhostEmperor"
-        },
-        {
-          "type": "malware",
-          "value": "Go Implant"
-        }
-      ],
-      "categories": [
-        "c2",
-        "malware"
-      ],
-      "basis": null
-    },
-    {
-      "type": "ipv4",
-      "value": "45.128.132.6",
-      "confidence": "high",
-      "reason": "Listed under Go malware IPs, indicating attacker control",
-      "first_seen": "2026-10-23T11:01:21.955683+00:00",
-      "last_seen": "2026-10-23T11:01:21.955683+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "securelist.com",
-          "url": "https://securelist.com/moonbounce-the-dark-side-of-uefi-firmware/105468/",
-          "pub_date": "2026-10-23T11:01:21.955683+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "APT41"
-        },
-        {
-          "type": "industry",
-          "value": "Government"
-        },
-        {
-          "type": "malware",
-          "value": "GhostEmperor"
-        },
-        {
-          "type": "malware",
-          "value": "Go Implant"
-        }
-      ],
-      "categories": [
-        "c2",
-        "malware"
-      ],
-      "basis": null
-    },
-    {
-      "type": "ipv4",
-      "value": "45.128.135.15",
-      "confidence": "high",
-      "reason": "Listed under Go malware IPs, indicating attacker control",
-      "first_seen": "2026-10-23T11:01:21.955683+00:00",
-      "last_seen": "2026-10-23T11:01:21.955683+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "securelist.com",
-          "url": "https://securelist.com/moonbounce-the-dark-side-of-uefi-firmware/105468/",
-          "pub_date": "2026-10-23T11:01:21.955683+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "APT41"
-        },
-        {
-          "type": "industry",
-          "value": "Government"
-        },
-        {
-          "type": "malware",
-          "value": "GhostEmperor"
-        },
-        {
-          "type": "malware",
-          "value": "Go Implant"
-        }
-      ],
-      "categories": [
-        "c2",
-        "malware"
-      ],
-      "basis": null
-    },
-    {
-      "type": "ipv4",
-      "value": "5.188.108.22",
-      "confidence": "high",
-      "reason": "Listed under Go malware IPs, indicating attacker control",
-      "first_seen": "2026-10-23T11:01:21.955683+00:00",
-      "last_seen": "2026-10-23T11:01:21.955683+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "securelist.com",
-          "url": "https://securelist.com/moonbounce-the-dark-side-of-uefi-firmware/105468/",
-          "pub_date": "2026-10-23T11:01:21.955683+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "APT41"
-        },
-        {
-          "type": "industry",
-          "value": "Government"
-        },
-        {
-          "type": "malware",
-          "value": "GhostEmperor"
-        },
-        {
-          "type": "malware",
-          "value": "Go Implant"
-        }
-      ],
-      "categories": [
-        "malware"
-      ],
-      "basis": null
-    },
-    {
-      "type": "ipv4",
-      "value": "5.188.108.228",
-      "confidence": "high",
-      "reason": "Listed under Go malware IPs, indicating attacker control",
-      "first_seen": "2026-10-23T11:01:21.955683+00:00",
-      "last_seen": "2026-10-23T11:01:21.955683+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "securelist.com",
-          "url": "https://securelist.com/moonbounce-the-dark-side-of-uefi-firmware/105468/",
-          "pub_date": "2026-10-23T11:01:21.955683+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "APT41"
-        },
-        {
-          "type": "industry",
-          "value": "Government"
-        },
-        {
-          "type": "malware",
-          "value": "GhostEmperor"
-        },
-        {
-          "type": "malware",
-          "value": "Go Implant"
-        }
-      ],
-      "categories": [
-        "malware"
-      ],
-      "basis": null
-    },
-    {
-      "type": "ipv4",
-      "value": "5.188.93.132",
-      "confidence": "high",
-      "reason": "Listed under Go malware IPs, indicating attacker control",
-      "first_seen": "2026-10-23T11:01:21.955683+00:00",
-      "last_seen": "2026-10-23T11:01:21.955683+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "securelist.com",
-          "url": "https://securelist.com/moonbounce-the-dark-side-of-uefi-firmware/105468/",
-          "pub_date": "2026-10-23T11:01:21.955683+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "APT41"
-        },
-        {
-          "type": "industry",
-          "value": "Government"
-        },
-        {
-          "type": "malware",
-          "value": "GhostEmperor"
-        },
-        {
-          "type": "malware",
-          "value": "Go Implant"
-        }
-      ],
-      "categories": [
-        "malware"
-      ],
-      "basis": null
-    },
-    {
-      "type": "ipv4",
-      "value": "5.189.222.33",
-      "confidence": "high",
-      "reason": "Listed under Go malware IPs, indicating attacker control",
-      "first_seen": "2026-10-23T11:01:21.955683+00:00",
-      "last_seen": "2026-10-23T11:01:21.955683+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "securelist.com",
-          "url": "https://securelist.com/moonbounce-the-dark-side-of-uefi-firmware/105468/",
-          "pub_date": "2026-10-23T11:01:21.955683+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "APT41"
-        },
-        {
-          "type": "industry",
-          "value": "Government"
-        },
-        {
-          "type": "malware",
-          "value": "GhostEmperor"
-        },
-        {
-          "type": "malware",
-          "value": "Go Implant"
-        }
-      ],
-      "categories": [
-        "malware"
-      ],
-      "basis": null
-    },
-    {
-      "type": "ipv4",
-      "value": "92.223.105.246",
-      "confidence": "high",
-      "reason": "Listed under Go malware IPs, indicating attacker control",
-      "first_seen": "2026-10-23T11:01:21.955683+00:00",
-      "last_seen": "2026-10-23T11:01:21.955683+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "securelist.com",
-          "url": "https://securelist.com/moonbounce-the-dark-side-of-uefi-firmware/105468/",
-          "pub_date": "2026-10-23T11:01:21.955683+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "APT41"
-        },
-        {
-          "type": "industry",
-          "value": "Government"
-        },
-        {
-          "type": "malware",
-          "value": "GhostEmperor"
-        },
-        {
-          "type": "malware",
-          "value": "Go Implant"
-        }
-      ],
-      "categories": [
-        "malware"
-      ],
-      "basis": null
-    },
-    {
-      "type": "ipv4",
-      "value": "92.38.178.246",
-      "confidence": "high",
-      "reason": "Listed under ScrambleCross IPs, indicating attacker control",
-      "first_seen": "2026-10-23T11:01:21.955683+00:00",
-      "last_seen": "2026-10-23T11:01:21.955683+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "securelist.com",
-          "url": "https://securelist.com/moonbounce-the-dark-side-of-uefi-firmware/105468/",
-          "pub_date": "2026-10-23T11:01:21.955683+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "APT41"
-        },
-        {
-          "type": "industry",
-          "value": "Government"
-        },
-        {
-          "type": "malware",
-          "value": "GhostEmperor"
-        },
-        {
-          "type": "malware",
-          "value": "Go Implant"
-        }
-      ],
-      "categories": [
-        "malware"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "www.archivetj.com",
-      "confidence": "high",
-      "reason": "Described as a command-and-control domain for malicious payloads",
-      "first_seen": "2026-10-23T10:46:29+00:00",
-      "last_seen": "2026-10-23T10:46:29+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Techtimes",
-          "url": "https://www.techtimes.com/articles/329414/20261023/chinese-hackers-breached-diplomatic-networks-microsoft-baton-drop-enforcement-never-deployed.htm",
-          "pub_date": "2026-10-23T10:46:29+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "APT41"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2022-21894"
-        },
-        {
-          "type": "industry",
-          "value": "Government"
-        },
-        {
-          "type": "malware",
-          "value": "BlackLotus"
-        }
-      ],
-      "categories": [
-        "c2"
-      ],
-      "basis": null
-    },
-    {
-      "type": "ipv6",
-      "value": "2409:40d2:204e:4be:2a1f:f9c9:a055:e00b",
-      "confidence": "high",
-      "reason": "Listed as attempting to exploit PHP2Shell vulnerabilities",
-      "first_seen": "2026-10-23T07:45:06+00:00",
-      "last_seen": "2026-10-23T07:45:06+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Thehackernews",
-          "url": "https://thehackernews.com/2026/10/php2shell-exploit-attempts-hit-millions.html",
-          "pub_date": "2026-10-23T07:45:06+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "cve",
-          "value": "CVE-2026-109618"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-109619"
-        },
-        {
-          "type": "malware",
-          "value": "Mirai"
-        },
-        {
-          "type": "malware",
-          "value": "Potassium"
-        }
-      ],
-      "categories": [
-        "scanner"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "26edd0a4.ddns.net",
-      "confidence": "high",
-      "reason": "Domain resolved to a C2 server used by the threat actor",
-      "first_seen": "2026-10-23T07:30:31.639609+00:00",
-      "last_seen": "2026-10-23T07:30:31.639609+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.safebreach.com",
-          "url": "https://www.safebreach.com/blog/prince-of-persia-part-ii",
-          "pub_date": "2026-10-23T07:30:31.639609+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "cve",
-          "value": "CVE-2025-8088"
-        },
-        {
-          "type": "malware",
-          "value": "Foudre"
-        },
-        {
-          "type": "malware",
-          "value": "StormKitty"
-        },
-        {
-          "type": "malware",
-          "value": "Tonnerre"
-        }
-      ],
-      "categories": [
-        "c2",
-        "dynamic_dns"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "dnsbroadcaster.lat",
-      "confidence": "high",
-      "reason": "Domain resolved to a C2 server used by the threat actor",
-      "first_seen": "2026-10-23T07:30:31.639609+00:00",
-      "last_seen": "2026-10-23T07:30:31.639609+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.safebreach.com",
-          "url": "https://www.safebreach.com/blog/prince-of-persia-part-ii",
-          "pub_date": "2026-10-23T07:30:31.639609+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "cve",
-          "value": "CVE-2025-8088"
-        },
-        {
-          "type": "malware",
-          "value": "Foudre"
-        },
-        {
-          "type": "malware",
-          "value": "StormKitty"
-        },
-        {
-          "type": "malware",
-          "value": "Tonnerre"
-        }
-      ],
-      "categories": [
-        "c2"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "ejjnhkucbw.ix.tc",
-      "confidence": "high",
-      "reason": "Domain registered and used as a C2 server by the threat actor",
-      "first_seen": "2026-10-23T07:30:31.639609+00:00",
-      "last_seen": "2026-10-23T07:30:31.639609+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.safebreach.com",
-          "url": "https://www.safebreach.com/blog/prince-of-persia-part-ii",
-          "pub_date": "2026-10-23T07:30:31.639609+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "cve",
-          "value": "CVE-2025-8088"
-        },
-        {
-          "type": "malware",
-          "value": "Foudre"
-        },
-        {
-          "type": "malware",
-          "value": "StormKitty"
-        },
-        {
-          "type": "malware",
-          "value": "Tonnerre"
-        }
-      ],
-      "categories": [
-        "c2"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "f13.ddnsking.com",
-      "confidence": "high",
-      "reason": "Domain registered and used as a C2 server by the threat actor",
-      "first_seen": "2026-10-23T07:30:31.639609+00:00",
-      "last_seen": "2026-10-23T07:30:31.639609+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.safebreach.com",
-          "url": "https://www.safebreach.com/blog/prince-of-persia-part-ii",
-          "pub_date": "2026-10-23T07:30:31.639609+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "cve",
-          "value": "CVE-2025-8088"
-        },
-        {
-          "type": "malware",
-          "value": "Foudre"
-        },
-        {
-          "type": "malware",
-          "value": "StormKitty"
-        },
-        {
-          "type": "malware",
-          "value": "Tonnerre"
-        }
-      ],
-      "categories": [
-        "c2"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "joqoqwtu.privatedns.org",
-      "confidence": "high",
-      "reason": "Domain registered and used as a C2 server by the threat actor",
-      "first_seen": "2026-10-23T07:30:31.639609+00:00",
-      "last_seen": "2026-10-23T07:30:31.639609+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.safebreach.com",
-          "url": "https://www.safebreach.com/blog/prince-of-persia-part-ii",
-          "pub_date": "2026-10-23T07:30:31.639609+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "cve",
-          "value": "CVE-2025-8088"
-        },
-        {
-          "type": "malware",
-          "value": "Foudre"
-        },
-        {
-          "type": "malware",
-          "value": "StormKitty"
-        },
-        {
-          "type": "malware",
-          "value": "Tonnerre"
-        }
-      ],
-      "categories": [
-        "c2"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "kbbpissmqs.conningstone.net",
-      "confidence": "high",
-      "reason": "Domain used as a C2 server by the threat actor",
-      "first_seen": "2026-10-23T07:30:31.639609+00:00",
-      "last_seen": "2026-10-23T07:30:31.639609+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.safebreach.com",
-          "url": "https://www.safebreach.com/blog/prince-of-persia-part-ii",
-          "pub_date": "2026-10-23T07:30:31.639609+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "cve",
-          "value": "CVE-2025-8088"
-        },
-        {
-          "type": "malware",
-          "value": "Foudre"
-        },
-        {
-          "type": "malware",
-          "value": "StormKitty"
-        },
-        {
-          "type": "malware",
-          "value": "Tonnerre"
-        }
-      ],
-      "categories": [
-        "c2"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "kbbpissmqs.hbmc.net",
-      "confidence": "high",
-      "reason": "Domain used as a C2 server by the threat actor",
-      "first_seen": "2026-10-23T07:30:31.639609+00:00",
-      "last_seen": "2026-10-23T07:30:31.639609+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.safebreach.com",
-          "url": "https://www.safebreach.com/blog/prince-of-persia-part-ii",
-          "pub_date": "2026-10-23T07:30:31.639609+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "cve",
-          "value": "CVE-2025-8088"
-        },
-        {
-          "type": "malware",
-          "value": "Foudre"
-        },
-        {
-          "type": "malware",
-          "value": "StormKitty"
-        },
-        {
-          "type": "malware",
-          "value": "Tonnerre"
-        }
-      ],
-      "categories": [
-        "c2"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "klnptruu.space",
-      "confidence": "high",
-      "reason": "Domain registered and used as a C2 server by the threat actor",
-      "first_seen": "2026-10-23T07:30:31.639609+00:00",
-      "last_seen": "2026-10-23T07:30:31.639609+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.safebreach.com",
-          "url": "https://www.safebreach.com/blog/prince-of-persia-part-ii",
-          "pub_date": "2026-10-23T07:30:31.639609+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "cve",
-          "value": "CVE-2025-8088"
-        },
-        {
-          "type": "malware",
-          "value": "Foudre"
-        },
-        {
-          "type": "malware",
-          "value": "StormKitty"
-        },
-        {
-          "type": "malware",
-          "value": "Tonnerre"
-        }
-      ],
-      "categories": [
-        "c2"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "lklptttt.space",
-      "confidence": "high",
-      "reason": "Domain resolved to a C2 server used by the threat actor",
-      "first_seen": "2026-10-23T07:30:31.639609+00:00",
-      "last_seen": "2026-10-23T07:30:31.639609+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.safebreach.com",
-          "url": "https://www.safebreach.com/blog/prince-of-persia-part-ii",
-          "pub_date": "2026-10-23T07:30:31.639609+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "cve",
-          "value": "CVE-2025-8088"
-        },
-        {
-          "type": "malware",
-          "value": "Foudre"
-        },
-        {
-          "type": "malware",
-          "value": "StormKitty"
-        },
-        {
-          "type": "malware",
-          "value": "Tonnerre"
-        }
-      ],
-      "categories": [
-        "c2"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "noonrpxv.privatedns.org",
-      "confidence": "high",
-      "reason": "Domain resolved to a C2 server used by the threat actor",
-      "first_seen": "2026-10-23T07:30:31.639609+00:00",
-      "last_seen": "2026-10-23T07:30:31.639609+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.safebreach.com",
-          "url": "https://www.safebreach.com/blog/prince-of-persia-part-ii",
-          "pub_date": "2026-10-23T07:30:31.639609+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "cve",
-          "value": "CVE-2025-8088"
-        },
-        {
-          "type": "malware",
-          "value": "Foudre"
-        },
-        {
-          "type": "malware",
-          "value": "StormKitty"
-        },
-        {
-          "type": "malware",
-          "value": "Tonnerre"
-        }
-      ],
-      "categories": [
-        "c2"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "onnmuoru.privatedns.org",
-      "confidence": "high",
-      "reason": "Domain resolved to a C2 server used by the threat actor",
-      "first_seen": "2026-10-23T07:30:31.639609+00:00",
-      "last_seen": "2026-10-23T07:30:31.639609+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.safebreach.com",
-          "url": "https://www.safebreach.com/blog/prince-of-persia-part-ii",
-          "pub_date": "2026-10-23T07:30:31.639609+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "cve",
-          "value": "CVE-2025-8088"
-        },
-        {
-          "type": "malware",
-          "value": "Foudre"
-        },
-        {
-          "type": "malware",
-          "value": "StormKitty"
-        },
-        {
-          "type": "malware",
-          "value": "Tonnerre"
-        }
-      ],
-      "categories": [
-        "c2"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "phantomsoftwares.site",
-      "confidence": "high",
-      "reason": "Domain used to host malware files",
-      "first_seen": "2026-10-23T07:30:31.639609+00:00",
-      "last_seen": "2026-10-23T07:30:31.639609+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.safebreach.com",
-          "url": "https://www.safebreach.com/blog/prince-of-persia-part-ii",
-          "pub_date": "2026-10-23T07:30:31.639609+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "cve",
-          "value": "CVE-2025-8088"
-        },
-        {
-          "type": "malware",
-          "value": "Foudre"
-        },
-        {
-          "type": "malware",
-          "value": "StormKitty"
-        },
-        {
-          "type": "malware",
-          "value": "Tonnerre"
-        }
-      ],
-      "categories": [
-        "malware"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "querylist.online",
-      "confidence": "high",
-      "reason": "Domain used to download files from a C2 server",
-      "first_seen": "2026-10-23T07:30:31.639609+00:00",
-      "last_seen": "2026-10-23T07:30:31.639609+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.safebreach.com",
-          "url": "https://www.safebreach.com/blog/prince-of-persia-part-ii",
-          "pub_date": "2026-10-23T07:30:31.639609+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "cve",
-          "value": "CVE-2025-8088"
-        },
-        {
-          "type": "malware",
-          "value": "Foudre"
-        },
-        {
-          "type": "malware",
-          "value": "StormKitty"
-        },
-        {
-          "type": "malware",
-          "value": "Tonnerre"
-        }
-      ],
-      "categories": [
-        "c2"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "skttxrdwucbw.conningstone.net",
-      "confidence": "high",
-      "reason": "Domain used as a C2 server by the threat actor",
-      "first_seen": "2026-10-23T07:30:31.639609+00:00",
-      "last_seen": "2026-10-23T07:30:31.639609+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.safebreach.com",
-          "url": "https://www.safebreach.com/blog/prince-of-persia-part-ii",
-          "pub_date": "2026-10-23T07:30:31.639609+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "cve",
-          "value": "CVE-2025-8088"
-        },
-        {
-          "type": "malware",
-          "value": "Foudre"
-        },
-        {
-          "type": "malware",
-          "value": "StormKitty"
-        },
-        {
-          "type": "malware",
-          "value": "Tonnerre"
-        }
-      ],
-      "categories": [
-        "c2"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "skttxrdwucbw.hbmc.net",
-      "confidence": "high",
-      "reason": "Domain used as a C2 server by the threat actor",
-      "first_seen": "2026-10-23T07:30:31.639609+00:00",
-      "last_seen": "2026-10-23T07:30:31.639609+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.safebreach.com",
-          "url": "https://www.safebreach.com/blog/prince-of-persia-part-ii",
-          "pub_date": "2026-10-23T07:30:31.639609+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "cve",
-          "value": "CVE-2025-8088"
-        },
-        {
-          "type": "malware",
-          "value": "Foudre"
-        },
-        {
-          "type": "malware",
-          "value": "StormKitty"
-        },
-        {
-          "type": "malware",
-          "value": "Tonnerre"
-        }
-      ],
-      "categories": [
-        "c2"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "szzqwggurg.conningstone.net",
-      "confidence": "high",
-      "reason": "Domain used as a C2 server by the threat actor",
-      "first_seen": "2026-10-23T07:30:31.639609+00:00",
-      "last_seen": "2026-10-23T07:30:31.639609+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.safebreach.com",
-          "url": "https://www.safebreach.com/blog/prince-of-persia-part-ii",
-          "pub_date": "2026-10-23T07:30:31.639609+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "cve",
-          "value": "CVE-2025-8088"
-        },
-        {
-          "type": "malware",
-          "value": "Foudre"
-        },
-        {
-          "type": "malware",
-          "value": "StormKitty"
-        },
-        {
-          "type": "malware",
-          "value": "Tonnerre"
-        }
-      ],
-      "categories": [
-        "c2"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "szzqwggurg.hbmc.net",
-      "confidence": "high",
-      "reason": "Domain used as a C2 server by the threat actor",
-      "first_seen": "2026-10-23T07:30:31.639609+00:00",
-      "last_seen": "2026-10-23T07:30:31.639609+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.safebreach.com",
-          "url": "https://www.safebreach.com/blog/prince-of-persia-part-ii",
-          "pub_date": "2026-10-23T07:30:31.639609+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "cve",
-          "value": "CVE-2025-8088"
-        },
-        {
-          "type": "malware",
-          "value": "Foudre"
-        },
-        {
-          "type": "malware",
-          "value": "StormKitty"
-        },
-        {
-          "type": "malware",
-          "value": "Tonnerre"
-        }
-      ],
-      "categories": [
-        "c2",
-        "exfiltration"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "t13.ddnsking.com",
-      "confidence": "high",
-      "reason": "Domain registered and used as a C2 server by the threat actor",
-      "first_seen": "2026-10-23T07:30:31.639609+00:00",
-      "last_seen": "2026-10-23T07:30:31.639609+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.safebreach.com",
-          "url": "https://www.safebreach.com/blog/prince-of-persia-part-ii",
-          "pub_date": "2026-10-23T07:30:31.639609+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "cve",
-          "value": "CVE-2025-8088"
-        },
-        {
-          "type": "malware",
-          "value": "Foudre"
-        },
-        {
-          "type": "malware",
-          "value": "StormKitty"
-        },
-        {
-          "type": "malware",
-          "value": "Tonnerre"
-        }
-      ],
-      "categories": [
-        "c2"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "tegfxbnk.site",
-      "confidence": "high",
-      "reason": "Domain resolved to a C2 server used by the threat actor",
-      "first_seen": "2026-10-23T07:30:31.639609+00:00",
-      "last_seen": "2026-10-23T07:30:31.639609+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.safebreach.com",
-          "url": "https://www.safebreach.com/blog/prince-of-persia-part-ii",
-          "pub_date": "2026-10-23T07:30:31.639609+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "cve",
-          "value": "CVE-2025-8088"
-        },
-        {
-          "type": "malware",
-          "value": "Foudre"
-        },
-        {
-          "type": "malware",
-          "value": "StormKitty"
-        },
-        {
-          "type": "malware",
-          "value": "Tonnerre"
-        }
-      ],
-      "categories": [
-        "c2"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "ttdl3.dynu.net",
-      "confidence": "high",
-      "reason": "Domain resolved to a C2 server used by the threat actor",
-      "first_seen": "2026-10-23T07:30:31.639609+00:00",
-      "last_seen": "2026-10-23T07:30:31.639609+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.safebreach.com",
-          "url": "https://www.safebreach.com/blog/prince-of-persia-part-ii",
-          "pub_date": "2026-10-23T07:30:31.639609+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "cve",
-          "value": "CVE-2025-8088"
-        },
-        {
-          "type": "malware",
-          "value": "Foudre"
-        },
-        {
-          "type": "malware",
-          "value": "StormKitty"
-        },
-        {
-          "type": "malware",
-          "value": "Tonnerre"
-        }
-      ],
-      "categories": [
-        "c2",
-        "dynamic_dns"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "uiavuflyjqodj.conningstone.net",
-      "confidence": "high",
-      "reason": "Domain used as a C2 server by the threat actor",
-      "first_seen": "2026-10-23T07:30:31.639609+00:00",
-      "last_seen": "2026-10-23T07:30:31.639609+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.safebreach.com",
-          "url": "https://www.safebreach.com/blog/prince-of-persia-part-ii",
-          "pub_date": "2026-10-23T07:30:31.639609+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "cve",
-          "value": "CVE-2025-8088"
-        },
-        {
-          "type": "malware",
-          "value": "Foudre"
-        },
-        {
-          "type": "malware",
-          "value": "StormKitty"
-        },
-        {
-          "type": "malware",
-          "value": "Tonnerre"
-        }
-      ],
-      "categories": [
-        "c2"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "uiavuflyjqodj.hbmc.net",
-      "confidence": "high",
-      "reason": "Domain used as a C2 server by the threat actor",
-      "first_seen": "2026-10-23T07:30:31.639609+00:00",
-      "last_seen": "2026-10-23T07:30:31.639609+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.safebreach.com",
-          "url": "https://www.safebreach.com/blog/prince-of-persia-part-ii",
-          "pub_date": "2026-10-23T07:30:31.639609+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "cve",
-          "value": "CVE-2025-8088"
-        },
-        {
-          "type": "malware",
-          "value": "Foudre"
-        },
-        {
-          "type": "malware",
-          "value": "StormKitty"
-        },
-        {
-          "type": "malware",
-          "value": "Tonnerre"
-        }
-      ],
-      "categories": [
-        "c2"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "vssmqppaup.conningstone.net",
-      "confidence": "high",
-      "reason": "Domain used as a C2 server by the threat actor",
-      "first_seen": "2026-10-23T07:30:31.639609+00:00",
-      "last_seen": "2026-10-23T07:30:31.639609+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.safebreach.com",
-          "url": "https://www.safebreach.com/blog/prince-of-persia-part-ii",
-          "pub_date": "2026-10-23T07:30:31.639609+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "cve",
-          "value": "CVE-2025-8088"
-        },
-        {
-          "type": "malware",
-          "value": "Foudre"
-        },
-        {
-          "type": "malware",
-          "value": "StormKitty"
-        },
-        {
-          "type": "malware",
-          "value": "Tonnerre"
-        }
-      ],
-      "categories": [
-        "c2"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "vssmqppaup.hbmc.net",
-      "confidence": "high",
-      "reason": "Domain used as a C2 server by the threat actor",
-      "first_seen": "2026-10-23T07:30:31.639609+00:00",
-      "last_seen": "2026-10-23T07:30:31.639609+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.safebreach.com",
-          "url": "https://www.safebreach.com/blog/prince-of-persia-part-ii",
-          "pub_date": "2026-10-23T07:30:31.639609+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "cve",
-          "value": "CVE-2025-8088"
-        },
-        {
-          "type": "malware",
-          "value": "Foudre"
-        },
-        {
-          "type": "malware",
-          "value": "StormKitty"
-        },
-        {
-          "type": "malware",
-          "value": "Tonnerre"
-        }
-      ],
-      "categories": [
-        "c2"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "vtykvjbmhkpah.hbmc.net",
-      "confidence": "high",
-      "reason": "Domain used as a C2 server by the threat actor",
-      "first_seen": "2026-10-23T07:30:31.639609+00:00",
-      "last_seen": "2026-10-23T07:30:31.639609+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.safebreach.com",
-          "url": "https://www.safebreach.com/blog/prince-of-persia-part-ii",
-          "pub_date": "2026-10-23T07:30:31.639609+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "cve",
-          "value": "CVE-2025-8088"
-        },
-        {
-          "type": "malware",
-          "value": "Foudre"
-        },
-        {
-          "type": "malware",
-          "value": "StormKitty"
-        },
-        {
-          "type": "malware",
-          "value": "Tonnerre"
-        }
-      ],
-      "categories": [
-        "c2"
-      ],
-      "basis": null
-    },
-    {
-      "type": "ipv4",
-      "value": "191.101.130.244",
-      "confidence": "high",
-      "reason": "IP used as an RDP server by the attacker",
-      "first_seen": "2026-10-23T07:30:31.639609+00:00",
-      "last_seen": "2026-10-23T07:30:31.639609+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.safebreach.com",
-          "url": "https://www.safebreach.com/blog/prince-of-persia-part-ii",
-          "pub_date": "2026-10-23T07:30:31.639609+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "cve",
-          "value": "CVE-2025-8088"
-        },
-        {
-          "type": "malware",
-          "value": "Foudre"
-        },
-        {
-          "type": "malware",
-          "value": "StormKitty"
-        },
-        {
-          "type": "malware",
-          "value": "Tonnerre"
-        }
-      ],
-      "categories": [
-        "malware"
-      ],
-      "basis": null
-    },
-    {
-      "type": "ipv4",
-      "value": "45.80.148.195",
-      "confidence": "high",
-      "reason": "IP used as a C2 server by the threat actor",
-      "first_seen": "2026-10-23T07:30:31.639609+00:00",
-      "last_seen": "2026-10-23T07:30:31.639609+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.safebreach.com",
-          "url": "https://www.safebreach.com/blog/prince-of-persia-part-ii",
-          "pub_date": "2026-10-23T07:30:31.639609+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "cve",
-          "value": "CVE-2025-8088"
-        },
-        {
-          "type": "malware",
-          "value": "Foudre"
-        },
-        {
-          "type": "malware",
-          "value": "StormKitty"
-        },
-        {
-          "type": "malware",
-          "value": "Tonnerre"
-        }
-      ],
-      "categories": [
-        "c2"
-      ],
-      "basis": null
-    },
-    {
-      "type": "ipv4",
-      "value": "45.80.148.249",
-      "confidence": "high",
-      "reason": "IP used as a C2 server by the threat actor",
-      "first_seen": "2026-10-23T07:30:31.639609+00:00",
-      "last_seen": "2026-10-23T07:30:31.639609+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.safebreach.com",
-          "url": "https://www.safebreach.com/blog/prince-of-persia-part-ii",
-          "pub_date": "2026-10-23T07:30:31.639609+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "cve",
-          "value": "CVE-2025-8088"
-        },
-        {
-          "type": "malware",
-          "value": "Foudre"
-        },
-        {
-          "type": "malware",
-          "value": "StormKitty"
-        },
-        {
-          "type": "malware",
-          "value": "Tonnerre"
-        }
-      ],
-      "categories": [
-        "c2"
-      ],
-      "basis": null
-    },
-    {
-      "type": "ipv4",
-      "value": "45.80.149.100",
-      "confidence": "high",
-      "reason": "IP used as a C2 server by the threat actor",
-      "first_seen": "2026-10-23T07:30:31.639609+00:00",
-      "last_seen": "2026-10-23T07:30:31.639609+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.safebreach.com",
-          "url": "https://www.safebreach.com/blog/prince-of-persia-part-ii",
-          "pub_date": "2026-10-23T07:30:31.639609+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "cve",
-          "value": "CVE-2025-8088"
-        },
-        {
-          "type": "malware",
-          "value": "Foudre"
-        },
-        {
-          "type": "malware",
-          "value": "StormKitty"
-        },
-        {
-          "type": "malware",
-          "value": "Tonnerre"
-        }
-      ],
-      "categories": [
-        "c2"
-      ],
-      "basis": null
-    },
-    {
-      "type": "ipv4",
-      "value": "45.80.149.3",
-      "confidence": "high",
-      "reason": "IP used as a C2 server by the threat actor",
-      "first_seen": "2026-10-23T07:30:31.639609+00:00",
-      "last_seen": "2026-10-23T07:30:31.639609+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.safebreach.com",
-          "url": "https://www.safebreach.com/blog/prince-of-persia-part-ii",
-          "pub_date": "2026-10-23T07:30:31.639609+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "cve",
-          "value": "CVE-2025-8088"
-        },
-        {
-          "type": "malware",
-          "value": "Foudre"
-        },
-        {
-          "type": "malware",
-          "value": "StormKitty"
-        },
-        {
-          "type": "malware",
-          "value": "Tonnerre"
-        }
-      ],
-      "categories": [
-        "c2"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "choclatey.org",
-      "confidence": "high",
-      "reason": "Typosquatted domain impersonating Chocolatey",
-      "first_seen": "2026-10-23T07:19:06+00:00",
-      "last_seen": "2026-10-23T07:19:06+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Zscaler",
-          "url": "https://www.zscaler.com/blogs/security-research/seo-poisoning-campaign-delivers-new-armorsteal-malware",
-          "pub_date": "2026-10-23T07:19:06+00:00"
-        }
-      ],
-      "tags": [],
-      "categories": [
-        "phishing"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "community.choclatey.org",
-      "confidence": "high",
-      "reason": "Used in malicious campaign related to Chocolatey",
-      "first_seen": "2026-10-23T07:19:06+00:00",
-      "last_seen": "2026-10-23T07:19:06+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Zscaler",
-          "url": "https://www.zscaler.com/blogs/security-research/seo-poisoning-campaign-delivers-new-armorsteal-malware",
-          "pub_date": "2026-10-23T07:19:06+00:00"
-        }
-      ],
-      "tags": [],
-      "categories": [
-        "c2"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "datamons.org",
-      "confidence": "high",
-      "reason": "Used as a C2 server by threat actor",
-      "first_seen": "2026-10-23T07:19:06+00:00",
-      "last_seen": "2026-10-23T07:19:06+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Zscaler",
-          "url": "https://www.zscaler.com/blogs/security-research/seo-poisoning-campaign-delivers-new-armorsteal-malware",
-          "pub_date": "2026-10-23T07:19:06+00:00"
-        }
-      ],
-      "tags": [],
-      "categories": [
-        "c2"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "niceer.net",
-      "confidence": "high",
-      "reason": "Identified as a C2 domain used in a malicious campaign",
-      "first_seen": "2026-10-23T07:19:06+00:00",
-      "last_seen": "2026-10-23T07:19:06+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Zscaler",
-          "url": "https://www.zscaler.com/blogs/security-research/seo-poisoning-campaign-delivers-new-armorsteal-malware",
-          "pub_date": "2026-10-23T07:19:06+00:00"
-        }
-      ],
-      "tags": [],
-      "categories": [
-        "c2"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "supertrap.net",
-      "confidence": "high",
-      "reason": "Identified as a C2 domain used in a malicious campaign",
-      "first_seen": "2026-10-23T07:19:06+00:00",
-      "last_seen": "2026-10-23T07:19:06+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Zscaler",
-          "url": "https://www.zscaler.com/blogs/security-research/seo-poisoning-campaign-delivers-new-armorsteal-malware",
-          "pub_date": "2026-10-23T07:19:06+00:00"
-        }
-      ],
-      "tags": [],
-      "categories": [
-        "c2"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "workerstats.net",
-      "confidence": "high",
-      "reason": "Identified as a C2 domain used in a malicious campaign",
-      "first_seen": "2026-10-23T07:19:06+00:00",
-      "last_seen": "2026-10-23T07:19:06+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Zscaler",
-          "url": "https://www.zscaler.com/blogs/security-research/seo-poisoning-campaign-delivers-new-armorsteal-malware",
-          "pub_date": "2026-10-23T07:19:06+00:00"
-        }
-      ],
-      "tags": [],
-      "categories": [
-        "c2"
-      ],
-      "basis": null
-    },
-    {
-      "type": "ipv4",
-      "value": "186.2.175.183",
-      "confidence": "high",
-      "reason": "Listed as a C2 server for Armorsteal",
-      "first_seen": "2026-10-23T07:19:06+00:00",
-      "last_seen": "2026-10-23T07:19:06+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Zscaler",
-          "url": "https://www.zscaler.com/blogs/security-research/seo-poisoning-campaign-delivers-new-armorsteal-malware",
-          "pub_date": "2026-10-23T07:19:06+00:00"
-        }
-      ],
-      "tags": [],
-      "categories": [
-        "c2"
-      ],
-      "basis": null
-    },
-    {
-      "type": "ipv4",
-      "value": "209.99.186.187",
-      "confidence": "high",
-      "reason": "Listed as hosting fake Chocolatey website, part of attacker infrastructure",
-      "first_seen": "2026-10-23T07:19:06+00:00",
-      "last_seen": "2026-10-23T07:19:06+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Zscaler",
-          "url": "https://www.zscaler.com/blogs/security-research/seo-poisoning-campaign-delivers-new-armorsteal-malware",
-          "pub_date": "2026-10-23T07:19:06+00:00"
-        }
-      ],
-      "tags": [],
-      "categories": [
-        "malware"
-      ],
-      "basis": null
-    },
-    {
-      "type": "ipv4",
-      "value": "82.153.135.80",
-      "confidence": "high",
-      "reason": "Used to host fake Chocolatey and Massgrave lure websites",
-      "first_seen": "2026-10-23T07:19:06+00:00",
-      "last_seen": "2026-10-23T07:19:06+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Zscaler",
-          "url": "https://www.zscaler.com/blogs/security-research/seo-poisoning-campaign-delivers-new-armorsteal-malware",
-          "pub_date": "2026-10-23T07:19:06+00:00"
-        }
-      ],
-      "tags": [],
-      "categories": [
-        "phishing"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "rat.ironrat.de5.net",
-      "confidence": "high",
-      "reason": "Listed as part of malicious infrastructure to be blocked",
-      "first_seen": "2026-10-23T04:11:38+00:00",
-      "last_seen": "2026-10-23T04:11:38+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Cyfirma",
-          "url": "https://www.cyfirma.com/news/weekly-intelligence-report-23-oct-2026/",
-          "pub_date": "2026-10-23T04:11:38+00:00"
-        }
-      ],
-      "tags": [],
-      "categories": [
-        "malware"
-      ],
-      "basis": null
-    },
-    {
-      "type": "ipv4",
-      "value": "154.37.213.27",
-      "confidence": "high",
-      "reason": "Listed in a YARA rule as exploit hosting infrastructure",
-      "first_seen": "2026-10-23T04:11:38+00:00",
-      "last_seen": "2026-10-23T04:11:38+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Cyfirma",
-          "url": "https://www.cyfirma.com/news/weekly-intelligence-report-23-oct-2026/",
-          "pub_date": "2026-10-23T04:11:38+00:00"
-        }
-      ],
-      "tags": [],
-      "categories": [
-        "exploit"
-      ],
-      "basis": null
-    },
-    {
-      "type": "ipv4",
-      "value": "170.231.237.214",
-      "confidence": "high",
-      "reason": "Listed in a YARA rule as exploit hosting infrastructure",
-      "first_seen": "2026-10-23T04:11:38+00:00",
-      "last_seen": "2026-10-23T04:11:38+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Cyfirma",
-          "url": "https://www.cyfirma.com/news/weekly-intelligence-report-23-oct-2026/",
-          "pub_date": "2026-10-23T04:11:38+00:00"
-        }
-      ],
-      "tags": [],
-      "categories": [
-        "exploit"
-      ],
-      "basis": null
-    },
-    {
-      "type": "ipv4",
-      "value": "196.189.236.67",
-      "confidence": "high",
-      "reason": "Listed in a YARA rule as exploit hosting infrastructure",
-      "first_seen": "2026-10-23T04:11:38+00:00",
-      "last_seen": "2026-10-23T04:11:38+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Cyfirma",
-          "url": "https://www.cyfirma.com/news/weekly-intelligence-report-23-oct-2026/",
-          "pub_date": "2026-10-23T04:11:38+00:00"
-        }
-      ],
-      "tags": [],
-      "categories": [
-        "exploit"
-      ],
-      "basis": null
-    },
-    {
-      "type": "ipv4",
-      "value": "38.54.50.151",
-      "confidence": "high",
-      "reason": "Listed as a source IP for attacks",
-      "first_seen": "2026-10-22T17:18:22+00:00",
-      "last_seen": "2026-10-22T23:44:11+00:00",
-      "source_count": 4,
-      "sources": [
-        {
-          "source": "Scworld",
-          "url": "https://www.scworld.com/brief/arista-networks-patches-actively-exploited-zero-day-vulnerability-in-velocloud-orchestrator",
-          "pub_date": "2026-10-22T23:44:11+00:00"
-        },
-        {
-          "source": "X",
-          "url": "https://x.com/DailyDarkWeb/status/2113365371248144517",
-          "pub_date": "2026-10-22T20:54:14+00:00"
-        },
-        {
-          "source": "Mezha",
-          "url": "https://mezha.net/eng/news/mezha-aaf566c15f04cb1c53d35e47_arista_patches_actively/",
-          "pub_date": "2026-10-22T17:55:22+00:00"
-        },
-        {
-          "source": "Bleepingcomputer",
-          "url": "https://www.bleepingcomputer.com/news/security/arista-patches-new-velocloud-orchestrator-zero-day-exploited-in-attacks/",
-          "pub_date": "2026-10-22T17:18:22+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "cve",
-          "value": "CVE-2026-114625"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-16812"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-7473"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-93952"
-        }
-      ],
-      "categories": [
-        "scanner"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "bnt2.live",
-      "confidence": "high",
-      "reason": "Described as an actor-controlled URL shortener used for credential harvesting",
-      "first_seen": "2026-10-22T19:36:42.065904+00:00",
-      "last_seen": "2026-10-22T19:36:42.065904+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.proofpoint.com",
-          "url": "https://www.proofpoint.com/us/blog/threat-insight/ta453-refuses-be-bound-expectations",
-          "pub_date": "2026-10-22T19:36:42.065904+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "APT42"
-        },
-        {
-          "type": "apt_group",
-          "value": "Charming Kitten"
-        },
-        {
-          "type": "apt_group",
-          "value": "Phosphorus"
-        },
-        {
-          "type": "apt_group",
-          "value": "TA453"
-        }
-      ],
-      "categories": [
-        "phishing"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "gettogether.quest",
-      "confidence": "high",
-      "reason": "Used in a TA453 campaign to deliver threatening messages",
-      "first_seen": "2026-10-22T19:36:42.065904+00:00",
-      "last_seen": "2026-10-22T19:36:42.065904+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.proofpoint.com",
-          "url": "https://www.proofpoint.com/us/blog/threat-insight/ta453-refuses-be-bound-expectations",
-          "pub_date": "2026-10-22T19:36:42.065904+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "APT42"
-        },
-        {
-          "type": "apt_group",
-          "value": "Charming Kitten"
-        },
-        {
-          "type": "apt_group",
-          "value": "Phosphorus"
-        },
-        {
-          "type": "apt_group",
-          "value": "TA453"
-        }
-      ],
-      "categories": [
-        "phishing"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "nco2.live",
-      "confidence": "high",
-      "reason": "Described as an actor-controlled URL shortener used for credential harvesting",
-      "first_seen": "2026-10-22T19:36:42.065904+00:00",
-      "last_seen": "2026-10-22T19:36:42.065904+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.proofpoint.com",
-          "url": "https://www.proofpoint.com/us/blog/threat-insight/ta453-refuses-be-bound-expectations",
-          "pub_date": "2026-10-22T19:36:42.065904+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "APT42"
-        },
-        {
-          "type": "apt_group",
-          "value": "Charming Kitten"
-        },
-        {
-          "type": "apt_group",
-          "value": "Phosphorus"
-        },
-        {
-          "type": "apt_group",
-          "value": "TA453"
-        }
-      ],
-      "categories": [
-        "phishing"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "office-updates.info",
-      "confidence": "high",
-      "reason": "Used to download malicious templates in a TA453 campaign",
-      "first_seen": "2026-10-22T19:36:42.065904+00:00",
-      "last_seen": "2026-10-22T19:36:42.065904+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.proofpoint.com",
-          "url": "https://www.proofpoint.com/us/blog/threat-insight/ta453-refuses-be-bound-expectations",
-          "pub_date": "2026-10-22T19:36:42.065904+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "APT42"
-        },
-        {
-          "type": "apt_group",
-          "value": "Charming Kitten"
-        },
-        {
-          "type": "apt_group",
-          "value": "Phosphorus"
-        },
-        {
-          "type": "apt_group",
-          "value": "TA453"
-        }
-      ],
-      "categories": [
-        "malware"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "profilepic.site",
-      "confidence": "high",
-      "reason": "Attributed to TA453 based on registration similarities",
-      "first_seen": "2026-10-22T19:36:42.065904+00:00",
-      "last_seen": "2026-10-22T19:36:42.065904+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.proofpoint.com",
-          "url": "https://www.proofpoint.com/us/blog/threat-insight/ta453-refuses-be-bound-expectations",
-          "pub_date": "2026-10-22T19:36:42.065904+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "APT42"
-        },
-        {
-          "type": "apt_group",
-          "value": "Charming Kitten"
-        },
-        {
-          "type": "apt_group",
-          "value": "Phosphorus"
-        },
-        {
-          "type": "apt_group",
-          "value": "TA453"
-        }
-      ],
-      "categories": [
-        "phishing"
-      ],
-      "basis": null
-    },
-    {
-      "type": "ipv4",
-      "value": "66.29.153.90",
-      "confidence": "high",
-      "reason": "Resolved to by attacker-controlled domain gettogether.quest",
-      "first_seen": "2026-10-22T19:36:42.065904+00:00",
-      "last_seen": "2026-10-22T19:36:42.065904+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.proofpoint.com",
-          "url": "https://www.proofpoint.com/us/blog/threat-insight/ta453-refuses-be-bound-expectations",
-          "pub_date": "2026-10-22T19:36:42.065904+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "APT42"
-        },
-        {
-          "type": "apt_group",
-          "value": "Charming Kitten"
-        },
-        {
-          "type": "apt_group",
-          "value": "Phosphorus"
-        },
-        {
-          "type": "apt_group",
-          "value": "TA453"
-        }
-      ],
-      "categories": [
-        "other"
-      ],
-      "basis": null
-    },
-    {
-      "type": "ipv4",
-      "value": "91.231.182.187",
-      "confidence": "high",
-      "reason": "C&C server in payloads downloaded by PteroPaste",
-      "first_seen": "2026-10-22T18:31:10.890874+00:00",
-      "last_seen": "2026-10-22T18:31:10.890874+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "www.welivesecurity.com",
-          "url": "https://www.welivesecurity.com/en/eset-research/gamaredon-x-turla-collab/",
-          "pub_date": "2026-10-22T18:31:10.890874+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "apt_group",
-          "value": "Gamaredon"
-        },
-        {
-          "type": "apt_group",
-          "value": "InvisiMole"
-        },
-        {
-          "type": "apt_group",
-          "value": "Turla"
-        },
-        {
-          "type": "campaign",
-          "value": "SpiceyHoney"
-        }
-      ],
-      "categories": [
-        "c2"
-      ],
-      "basis": null
-    },
-    {
-      "type": "ipv4",
-      "value": "210.242.76.32",
-      "confidence": "high",
-      "reason": "IP address used in exploitation attempts originating from Taiwan.",
-      "first_seen": "2026-10-22T17:49:54+00:00",
-      "last_seen": "2026-10-22T17:49:54+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Thehackernews",
-          "url": "https://thehackernews.com/2026/10/threatsday-ai-secrets-leak-pingcap.html",
-          "pub_date": "2026-10-22T17:49:54+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "cve",
-          "value": "CVE-2017-9841"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2020-3259"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2021-41773"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2022-47945"
-        }
-      ],
-      "categories": [
-        "exploit",
-        "scanner"
-      ],
-      "basis": null
-    },
-    {
-      "type": "ipv4",
-      "value": "211.20.144.116",
-      "confidence": "high",
-      "reason": "IP address used in exploitation attempts originating from Taiwan.",
-      "first_seen": "2026-10-22T17:49:54+00:00",
-      "last_seen": "2026-10-22T17:49:54+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Thehackernews",
-          "url": "https://thehackernews.com/2026/10/threatsday-ai-secrets-leak-pingcap.html",
-          "pub_date": "2026-10-22T17:49:54+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "cve",
-          "value": "CVE-2017-9841"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2020-3259"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2021-41773"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2022-47945"
-        }
-      ],
-      "categories": [
-        "exploit",
-        "scanner"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "my-github.com",
-      "confidence": "high",
-      "reason": "Used in phishing campaign as a GitHub-themed domain",
-      "first_seen": "2026-10-22T14:08:12+00:00",
-      "last_seen": "2026-10-22T14:08:12+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "News.Ycombinator",
-          "url": "https://pwn.watch/",
-          "pub_date": "2026-10-22T14:08:12+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "cve",
-          "value": "CVE-2025-61624"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-0322"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-102489"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-102490"
-        }
-      ],
-      "categories": [
-        "phishing"
-      ],
-      "basis": null
-    },
-    {
-      "type": "ipv4",
-      "value": "193.32.204.199",
-      "confidence": "high",
-      "reason": "Used for exfiltrating data in a malicious campaign",
-      "first_seen": "2026-10-22T14:08:12+00:00",
-      "last_seen": "2026-10-22T14:08:12+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "News.Ycombinator",
-          "url": "https://pwn.watch/",
-          "pub_date": "2026-10-22T14:08:12+00:00"
-        }
-      ],
-      "tags": [
-        {
-          "type": "cve",
-          "value": "CVE-2025-61624"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-0322"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-102489"
-        },
-        {
-          "type": "cve",
-          "value": "CVE-2026-102490"
-        }
-      ],
-      "categories": [
-        "exfiltration"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "oskeysetup.com",
-      "confidence": "high",
-      "reason": "Domain used for phishing and adversary-in-the-middle attacks",
-      "first_seen": "2026-10-22T14:02:12+00:00",
-      "last_seen": "2026-10-22T14:02:12+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Bleepingcomputer",
-          "url": "https://www.bleepingcomputer.com/news/security/machine-speed-attacks-require-machine-speed-detection-and-response/",
-          "pub_date": "2026-10-22T14:02:12+00:00"
-        }
-      ],
-      "tags": [],
-      "categories": [
-        "phishing"
-      ],
-      "basis": null
-    },
-    {
-      "type": "domain",
-      "value": "fegrs.adidasabc.com",
-      "confidence": "high",
-      "reason": "Domain used as C2 endpoint in a malware operation",
-      "first_seen": "2026-10-22T13:53:58+00:00",
-      "last_seen": "2026-10-22T13:53:58+00:00",
-      "source_count": 1,
-      "sources": [
-        {
-          "source": "Zimperium",
-          "url": "https://zimperium.com/blog/beyond-the-sandbox-leveraging-android-intrusion-logs-to-expose-advanced-threats",
-          "pub_date": "2026-10-22T13:53:58+00:00"
-        }
-      ],
-      "tags": [],
-      "categories": [
-        "c2"
-      ],
-      "basis": null
     }
   ],
-  "license": "CC-BY 4.0 \u2014 attribute ThreatCluster (https://threatcluster.io)",
+  "license": "Free to use in your own environment and in non-commercial community defence, with attribution to ThreatCluster (https://threatcluster.io). Redistributing it in a commercial product or service requires a licence: https://threatcluster.io/terms",
   "report_false_positive": "hello@threatcluster.io"
 }

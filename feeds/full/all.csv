@@ -1,4 +1,13 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason,categories
+domain,1688360.cc,high,2026-11-17T14:00:46.952499+00:00,2026-11-21T18:06:51.012599+00:00,1,,"Domain used to send stolen card data, identified as attacker infrastructure",exfiltration
+domain,1y69gy2mdzaltz1.icu,high,2026-11-17T05:31:17.470834+00:00,2026-11-21T18:06:51.012599+00:00,1,,Part of a batch of domains registered by the attacker for malicious use,malware
+domain,5vobauua3ojpklx.icu,high,2026-11-17T01:07:09.668295+00:00,2026-11-21T18:06:51.012599+00:00,6,,"Domain used for iOS exploit delivery, identified as attacker infrastructure",malware
+domain,eil786npto9u5bq.icu,high,2026-11-17T02:12:41+00:00,2026-11-21T18:06:51.012599+00:00,5,,"Domain used for iOS exploit delivery, identified as attacker infrastructure",malware
+domain,gm38duxoihbmy5o.icu,high,2026-11-17T05:31:17.470834+00:00,2026-11-21T18:06:51.012599+00:00,1,,Part of a batch of domains registered by the attacker for malicious use,malware
+domain,l7bcsnwc7nzr3uo.icu,high,2026-11-17T05:31:17.284187+00:00,2026-11-21T18:06:51.012599+00:00,2,,Domain registered by the attacker for malicious use,malware
+domain,p55abnw2pnsz0bo.icu,high,2026-11-17T05:31:17.470834+00:00,2026-11-21T18:06:51.012599+00:00,1,,Part of a batch of domains registered by the attacker for malicious use,malware
+domain,q1ls1ho9x7wsxlu.icu,high,2026-11-17T14:00:46.952499+00:00,2026-11-21T18:06:51.012599+00:00,1,,Domain registered by the attacker for malicious use,malware
+domain,thegreathouse.us,high,2026-11-21T06:50:30+00:00,2026-11-21T06:50:30+00:00,1,,Front-company website registered by a suspected North Korean operator for fake contracting,scam_fraud
 domain,enrollmfamethods.com,high,2026-11-20T22:03:51+00:00,2026-11-20T22:03:51+00:00,1,,Listed in FQDN indicators of compromise as passkey-themed phishing domain,phishing
 domain,keyconfiguration.com,high,2026-11-20T22:03:51+00:00,2026-11-20T22:03:51+00:00,1,,Listed in FQDN indicators as passkey-themed phishing domain,phishing
 domain,oskeyregister.com,high,2026-11-20T22:03:51+00:00,2026-11-20T22:03:51+00:00,1,,Phishing domain tied to Com-affiliated passkey campaigns,phishing
@@ -43,14 +52,6 @@ sha256,c0b094e46842260936d4b97ce63e4539b99a3eae48b736798c700217c52569dc,high,202
 ipv4,103.151.199.22,high,2026-11-20T00:00:00+00:00,2026-11-20T00:00:00+00:00,1,,Operator panel and lure server hosting the fake Play Store page and APKs,phishing|malware|c2
 sha256,7170b55e6541c89d914a388534b7ccaeb303abb46def27bda667f5ad2051ed5d,high,2026-11-19T23:01:12.821728+00:00,2026-11-19T23:01:12.821728+00:00,1,,Compromised versions use this hash to trigger malicious actions,malware|exfiltration
 sha256,72f7549a69d5529aca2fb787d2fbb62f94e73afd9ca1a832608687e1d185e594,high,2026-11-19T23:01:12.821728+00:00,2026-11-19T23:01:12.821728+00:00,1,,Used in a malicious campaign to exfiltrate data,malware|exfiltration
-domain,1688360.cc,high,2026-11-17T14:00:46.952499+00:00,2026-11-19T22:33:41.321903+00:00,1,,"Domain used to send stolen card data, identified as attacker infrastructure",exfiltration
-domain,1y69gy2mdzaltz1.icu,high,2026-11-17T05:31:17.470834+00:00,2026-11-19T22:33:41.321903+00:00,1,,Part of a batch of domains registered by the attacker for malicious use,malware
-domain,5vobauua3ojpklx.icu,high,2026-11-17T01:07:09.668295+00:00,2026-11-19T22:33:41.321903+00:00,6,,"Domain used for iOS exploit delivery, identified as attacker infrastructure",malware
-domain,eil786npto9u5bq.icu,high,2026-11-17T02:12:41+00:00,2026-11-19T22:33:41.321903+00:00,5,,"Domain used for iOS exploit delivery, identified as attacker infrastructure",malware
-domain,gm38duxoihbmy5o.icu,high,2026-11-17T05:31:17.470834+00:00,2026-11-19T22:33:41.321903+00:00,1,,Part of a batch of domains registered by the attacker for malicious use,malware
-domain,l7bcsnwc7nzr3uo.icu,high,2026-11-17T05:31:17.284187+00:00,2026-11-19T22:33:41.321903+00:00,2,,Domain registered by the attacker for malicious use,malware
-domain,p55abnw2pnsz0bo.icu,high,2026-11-17T05:31:17.470834+00:00,2026-11-19T22:33:41.321903+00:00,1,,Part of a batch of domains registered by the attacker for malicious use,malware
-domain,q1ls1ho9x7wsxlu.icu,high,2026-11-17T14:00:46.952499+00:00,2026-11-19T22:33:41.321903+00:00,1,,Domain registered by the attacker for malicious use,malware
 sha256,985c3972712218c62d2418b41056dba5fe883ca5104d8ec12041f8611db344f9,high,2026-11-19T19:03:30+00:00,2026-11-19T19:03:30+00:00,1,,Detection name indicates malicious intent,malware
 ipv4,45.38.60.254,high,2026-11-19T17:21:03+00:00,2026-11-19T17:21:03+00:00,1,,Identified as a source of scanning activity,scanner
 domain,caude.ai,high,2026-11-12T15:31:44.382105+00:00,2026-11-19T16:32:34.129750+00:00,1,,Typo-squatted domain used in malicious redirect chains,traffic_distribution

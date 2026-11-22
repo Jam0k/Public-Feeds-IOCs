@@ -177,8 +177,6 @@ ipv4,45.90.13.11,high,2026-10-28T12:00:04+00:00,2026-10-28T12:00:04+00:00,1,Clou
 ipv4,45.90.13.169,high,2026-10-28T12:00:04+00:00,2026-10-28T12:00:04+00:00,1,Cloudsek:2026-10-28,Listed as part of malicious infrastructure to be blocked,botnet
 ipv4,43.228.157.68,high,2026-10-28T02:58:27+00:00,2026-10-28T06:31:20.619550+00:00,2,www.infoworld.com:2026-10-28|Csoonline:2026-10-28,Reported as a server used in exploitation infrastructure,exploit
 ipv4,189.249.195.244,high,2026-10-28T06:01:28+00:00,2026-10-28T06:01:28+00:00,1,Redpacketsecurity:2026-10-28,Identified as a Mythic-branded C2 interface,c2
-ipv4,103.151.172.95,high,2026-10-27T13:32:48+00:00,2026-10-27T13:32:48+00:00,1,Wiz:2026-10-27,Used in an exploit attempt against a honeypot.,exploit|scanner
-ipv4,85.11.187.35,high,2026-10-27T13:32:48+00:00,2026-10-27T13:32:48+00:00,1,Wiz:2026-10-27,Used in an exploitation attempt.,exploit|scanner
 ipv4,94.154.43.7,high,2026-10-26T18:38:14+00:00,2026-10-26T18:38:14+00:00,1,Cyberkendra:2026-10-26,"Rated as malicious with high confidence by ELLIO, linked to mass exploitation",scanner
 ipv4,64.95.10.223,high,2026-10-26T18:30:29.359684+00:00,2026-10-26T18:30:29.359684+00:00,1,www.welivesecurity.com:2026-10-26,Listed as MATCHBOIL C&C IP,c2
 ipv4,64.95.13.210,high,2026-10-26T18:30:29.359684+00:00,2026-10-26T18:30:29.359684+00:00,1,www.welivesecurity.com:2026-10-26,Listed as MATCHBOIL C&C IP,c2
@@ -198,40 +196,13 @@ ipv4,64.94.85.14,high,2026-10-24T15:35:22.094108+00:00,2026-10-24T15:35:22.09410
 ipv4,45.227.254.43,high,2026-10-23T17:50:47+00:00,2026-10-24T10:39:08+00:00,3,News.Lavx.Hu:2026-10-24|Socprime:2026-10-23|Thehackernews:2026-10-23,Identified as an exposed command-and-control server used by the ransomware groups,ransomware|c2
 ipv4,199.91.221.39,high,2026-10-24T00:55:25+00:00,2026-10-24T00:55:25+00:00,1,Docs.Litellm.Ai:2026-10-24,Used by attacker to change workflow source in a GitHub attack,other
 ipv4,69.48.229.143,high,2026-10-24T00:55:25+00:00,2026-10-24T00:55:25+00:00,1,Docs.Litellm.Ai:2026-10-24,Used by attacker to call API with stolen credentials,other
-ipv4,92.118.112.100,high,2026-10-22T18:45:20+00:00,2026-10-23T18:49:51+00:00,3,Sploitus:2026-10-23|Thehackernews:2026-10-23|Arcticwolf:2026-10-22,IP address associated with attacker-controlled scanning and exploitation attempts,exploit
+ipv4,92.118.112.100,high,2026-10-23T18:49:51+00:00,2026-10-23T18:49:51+00:00,1,Sploitus:2026-10-23,Listed as a defanged string in a vendor publication,exploit
 ipv4,191.96.225.125,high,2026-10-23T17:31:31+00:00,2026-10-23T17:31:31+00:00,1,Hackread:2026-10-23,Listed as Overlord RAT infrastructure,c2|malware
 ipv4,45.158.8.213,high,2026-10-23T17:31:31+00:00,2026-10-23T17:31:31+00:00,1,Hackread:2026-10-23,Associated with Overlord RAT infrastructure,c2|malware
 ipv4,102.210.149.166,high,2026-10-23T14:01:51.563234+00:00,2026-10-23T14:01:51.563234+00:00,1,hunt.io:2026-10-23,Listed as staging infrastructure for php2shell,malware
 ipv4,104.219.251.31,high,2026-10-23T14:01:51.563234+00:00,2026-10-23T14:01:51.563234+00:00,1,hunt.io:2026-10-23,Listed as staging infrastructure for php2shell,malware
 ipv4,122.10.110.72,high,2026-10-23T14:01:51.563234+00:00,2026-10-23T14:01:51.563234+00:00,1,hunt.io:2026-10-23,Listed as staging infrastructure for php2shell,malware
 ipv4,122.10.17.49,high,2026-10-23T14:01:51.563234+00:00,2026-10-23T14:01:51.563234+00:00,1,hunt.io:2026-10-23,Listed as staging infrastructure for php2shell,malware
-ipv4,206.188.197.105,high,2026-10-23T07:45:06+00:00,2026-10-23T14:01:51.563234+00:00,2,hunt.io:2026-10-23|Thehackernews:2026-10-23,Identified as an attacker-controlled server hosting exploit tooling,scanner
-ipv4,41.223.30.7,high,2026-10-23T07:45:06+00:00,2026-10-23T14:01:51.563234+00:00,2,hunt.io:2026-10-23|Thehackernews:2026-10-23,Listed as holding PHP2Shell-related tooling,malware
+ipv4,206.188.197.105,high,2026-10-23T14:01:51.563234+00:00,2026-10-23T14:01:51.563234+00:00,1,hunt.io:2026-10-23,Listed as mass-exploitation server,scanner
+ipv4,41.223.30.7,high,2026-10-23T14:01:51.563234+00:00,2026-10-23T14:01:51.563234+00:00,1,hunt.io:2026-10-23,Listed as staging infrastructure for php2shell,malware
 ipv4,58.221.60.160,high,2026-10-23T14:01:51.563234+00:00,2026-10-23T14:01:51.563234+00:00,1,hunt.io:2026-10-23,Listed as staging infrastructure for php2shell,malware
-ipv4,193.29.57.161,high,2026-10-23T11:01:21.955683+00:00,2026-10-23T11:01:21.955683+00:00,1,securelist.com:2026-10-23,"Listed under ScrambleCross IPs, indicating attacker control",c2|malware
-ipv4,45.128.132.6,high,2026-10-23T11:01:21.955683+00:00,2026-10-23T11:01:21.955683+00:00,1,securelist.com:2026-10-23,"Listed under Go malware IPs, indicating attacker control",c2|malware
-ipv4,45.128.135.15,high,2026-10-23T11:01:21.955683+00:00,2026-10-23T11:01:21.955683+00:00,1,securelist.com:2026-10-23,"Listed under Go malware IPs, indicating attacker control",c2|malware
-ipv4,5.188.108.22,high,2026-10-23T11:01:21.955683+00:00,2026-10-23T11:01:21.955683+00:00,1,securelist.com:2026-10-23,"Listed under Go malware IPs, indicating attacker control",malware
-ipv4,5.188.108.228,high,2026-10-23T11:01:21.955683+00:00,2026-10-23T11:01:21.955683+00:00,1,securelist.com:2026-10-23,"Listed under Go malware IPs, indicating attacker control",malware
-ipv4,5.188.93.132,high,2026-10-23T11:01:21.955683+00:00,2026-10-23T11:01:21.955683+00:00,1,securelist.com:2026-10-23,"Listed under Go malware IPs, indicating attacker control",malware
-ipv4,5.189.222.33,high,2026-10-23T11:01:21.955683+00:00,2026-10-23T11:01:21.955683+00:00,1,securelist.com:2026-10-23,"Listed under Go malware IPs, indicating attacker control",malware
-ipv4,92.223.105.246,high,2026-10-23T11:01:21.955683+00:00,2026-10-23T11:01:21.955683+00:00,1,securelist.com:2026-10-23,"Listed under Go malware IPs, indicating attacker control",malware
-ipv4,92.38.178.246,high,2026-10-23T11:01:21.955683+00:00,2026-10-23T11:01:21.955683+00:00,1,securelist.com:2026-10-23,"Listed under ScrambleCross IPs, indicating attacker control",malware
-ipv6,2409:40d2:204e:4be:2a1f:f9c9:a055:e00b,high,2026-10-23T07:45:06+00:00,2026-10-23T07:45:06+00:00,1,Thehackernews:2026-10-23,Listed as attempting to exploit PHP2Shell vulnerabilities,scanner
-ipv4,191.101.130.244,high,2026-10-23T07:30:31.639609+00:00,2026-10-23T07:30:31.639609+00:00,1,www.safebreach.com:2026-10-23,IP used as an RDP server by the attacker,malware
-ipv4,45.80.148.195,high,2026-10-23T07:30:31.639609+00:00,2026-10-23T07:30:31.639609+00:00,1,www.safebreach.com:2026-10-23,IP used as a C2 server by the threat actor,c2
-ipv4,45.80.148.249,high,2026-10-23T07:30:31.639609+00:00,2026-10-23T07:30:31.639609+00:00,1,www.safebreach.com:2026-10-23,IP used as a C2 server by the threat actor,c2
-ipv4,45.80.149.100,high,2026-10-23T07:30:31.639609+00:00,2026-10-23T07:30:31.639609+00:00,1,www.safebreach.com:2026-10-23,IP used as a C2 server by the threat actor,c2
-ipv4,45.80.149.3,high,2026-10-23T07:30:31.639609+00:00,2026-10-23T07:30:31.639609+00:00,1,www.safebreach.com:2026-10-23,IP used as a C2 server by the threat actor,c2
-ipv4,186.2.175.183,high,2026-10-23T07:19:06+00:00,2026-10-23T07:19:06+00:00,1,Zscaler:2026-10-23,Listed as a C2 server for Armorsteal,c2
-ipv4,209.99.186.187,high,2026-10-23T07:19:06+00:00,2026-10-23T07:19:06+00:00,1,Zscaler:2026-10-23,"Listed as hosting fake Chocolatey website, part of attacker infrastructure",malware
-ipv4,82.153.135.80,high,2026-10-23T07:19:06+00:00,2026-10-23T07:19:06+00:00,1,Zscaler:2026-10-23,Used to host fake Chocolatey and Massgrave lure websites,phishing
-ipv4,154.37.213.27,high,2026-10-23T04:11:38+00:00,2026-10-23T04:11:38+00:00,1,Cyfirma:2026-10-23,Listed in a YARA rule as exploit hosting infrastructure,exploit
-ipv4,170.231.237.214,high,2026-10-23T04:11:38+00:00,2026-10-23T04:11:38+00:00,1,Cyfirma:2026-10-23,Listed in a YARA rule as exploit hosting infrastructure,exploit
-ipv4,196.189.236.67,high,2026-10-23T04:11:38+00:00,2026-10-23T04:11:38+00:00,1,Cyfirma:2026-10-23,Listed in a YARA rule as exploit hosting infrastructure,exploit
-ipv4,38.54.50.151,high,2026-10-22T17:18:22+00:00,2026-10-22T23:44:11+00:00,4,Scworld:2026-10-22|X:2026-10-22|Mezha:2026-10-22|Bleepingcomputer:2026-10-22,Listed as a source IP for attacks,scanner
-ipv4,66.29.153.90,high,2026-10-22T19:36:42.065904+00:00,2026-10-22T19:36:42.065904+00:00,1,www.proofpoint.com:2026-10-22,Resolved to by attacker-controlled domain gettogether.quest,other
-ipv4,91.231.182.187,high,2026-10-22T18:31:10.890874+00:00,2026-10-22T18:31:10.890874+00:00,1,www.welivesecurity.com:2026-10-22,C&C server in payloads downloaded by PteroPaste,c2
-ipv4,210.242.76.32,high,2026-10-22T17:49:54+00:00,2026-10-22T17:49:54+00:00,1,Thehackernews:2026-10-22,IP address used in exploitation attempts originating from Taiwan.,exploit|scanner
-ipv4,211.20.144.116,high,2026-10-22T17:49:54+00:00,2026-10-22T17:49:54+00:00,1,Thehackernews:2026-10-22,IP address used in exploitation attempts originating from Taiwan.,exploit|scanner
-ipv4,193.32.204.199,high,2026-10-22T14:08:12+00:00,2026-10-22T14:08:12+00:00,1,News.Ycombinator:2026-10-22,Used for exfiltrating data in a malicious campaign,exfiltration
