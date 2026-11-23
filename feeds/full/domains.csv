@@ -1,4 +1,8 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason,categories
+domain,adguardns.com,high,2026-11-22T19:02:49.738971+00:00,2026-11-22T19:02:49.738971+00:00,1,,"Listed as a server name the loader/backdoor uses; none belongs to AdGuard, so attacker-registered lookalike of a legitimate brand",c2|phishing
+domain,adguardns.org,high,2026-11-22T19:02:49.738971+00:00,2026-11-22T19:02:49.738971+00:00,1,,"Backdoor server name in the configuration; not owned by AdGuard, attacker lookalike",c2|phishing
+domain,adxinsight.com,high,2026-11-22T19:02:49.738971+00:00,2026-11-22T19:02:49.738971+00:00,1,,Listed among malware server names not belonging to the named vendors,c2
+domain,lede-openproject.org,high,2026-11-22T19:02:49.738971+00:00,2026-11-22T19:02:49.738971+00:00,1,,Backdoor server name impersonating OpenWrt/LEDE project; not owned by OpenWrt,c2|phishing
 domain,1688360.cc,high,2026-11-17T14:00:46.952499+00:00,2026-11-21T18:06:51.012599+00:00,1,,"Domain used to send stolen card data, identified as attacker infrastructure",exfiltration
 domain,1y69gy2mdzaltz1.icu,high,2026-11-17T05:31:17.470834+00:00,2026-11-21T18:06:51.012599+00:00,1,,Part of a batch of domains registered by the attacker for malicious use,malware
 domain,5vobauua3ojpklx.icu,high,2026-11-17T01:07:09.668295+00:00,2026-11-21T18:06:51.012599+00:00,6,,"Domain used for iOS exploit delivery, identified as attacker infrastructure",malware
