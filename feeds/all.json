@@ -1,7 +1,7 @@
 {
   "feed": "threatcluster-public-iocs",
   "version": 1,
-  "generated_at": "2026-11-23T18:02:13Z",
+  "generated_at": "2026-11-24T17:39:48Z",
   "filters": {
     "confidence": "high",
     "window_days": 30,
@@ -11,9 +11,285 @@
       "domain"
     ]
   },
-  "count": 872,
+  "count": 936,
   "notice": "Free 30-day blocklist: indicator values only. The reason, sources, campaign and malware tags and categories behind each indicator are on Starter, with 90 days of history: https://threatcluster.io/pricing",
   "iocs": [
+    {
+      "type": "domain",
+      "value": "newpayapp.com"
+    },
+    {
+      "type": "domain",
+      "value": "activisionblizzard-legal.com"
+    },
+    {
+      "type": "domain",
+      "value": "henryschein-legal.com"
+    },
+    {
+      "type": "domain",
+      "value": "iheartmedia-legal.com"
+    },
+    {
+      "type": "domain",
+      "value": "law-henryschein.com"
+    },
+    {
+      "type": "domain",
+      "value": "law-verisk.com"
+    },
+    {
+      "type": "domain",
+      "value": "legal-adobe.com"
+    },
+    {
+      "type": "domain",
+      "value": "legal-aexp.com"
+    },
+    {
+      "type": "domain",
+      "value": "legal-alaskaair.com"
+    },
+    {
+      "type": "domain",
+      "value": "legal-amd.com"
+    },
+    {
+      "type": "domain",
+      "value": "legal-anthropic.com"
+    },
+    {
+      "type": "domain",
+      "value": "legal-arthrex.com"
+    },
+    {
+      "type": "domain",
+      "value": "legal-autozone.com"
+    },
+    {
+      "type": "domain",
+      "value": "legal-caesars.com"
+    },
+    {
+      "type": "domain",
+      "value": "legal-carvana.com"
+    },
+    {
+      "type": "domain",
+      "value": "legal-cigna.com"
+    },
+    {
+      "type": "domain",
+      "value": "legal-colpipe.com"
+    },
+    {
+      "type": "domain",
+      "value": "legal-delta.com"
+    },
+    {
+      "type": "domain",
+      "value": "legaldept-amazon.com"
+    },
+    {
+      "type": "domain",
+      "value": "legal-duolingo.com"
+    },
+    {
+      "type": "domain",
+      "value": "legal-ea.com"
+    },
+    {
+      "type": "domain",
+      "value": "legal-epicgames.com"
+    },
+    {
+      "type": "domain",
+      "value": "legal-grubhub.com"
+    },
+    {
+      "type": "domain",
+      "value": "legal-henryschein.com"
+    },
+    {
+      "type": "domain",
+      "value": "legal-iheartmedia.com"
+    },
+    {
+      "type": "domain",
+      "value": "legal-jcpenney.com"
+    },
+    {
+      "type": "domain",
+      "value": "legal-jonesday.com"
+    },
+    {
+      "type": "domain",
+      "value": "legal-kfc.com"
+    },
+    {
+      "type": "domain",
+      "value": "legal-lucid.com"
+    },
+    {
+      "type": "domain",
+      "value": "legal-lucidmotors.com"
+    },
+    {
+      "type": "domain",
+      "value": "legal-lvmh.com"
+    },
+    {
+      "type": "domain",
+      "value": "legal-mcdonalds.com"
+    },
+    {
+      "type": "domain",
+      "value": "legal-ml.com"
+    },
+    {
+      "type": "domain",
+      "value": "legal-molinahealthcare.com"
+    },
+    {
+      "type": "domain",
+      "value": "legal-morningstar.com"
+    },
+    {
+      "type": "domain",
+      "value": "legal-mtb.com"
+    },
+    {
+      "type": "domain",
+      "value": "legal-nbcuniversal.com"
+    },
+    {
+      "type": "domain",
+      "value": "legal-nestle.com"
+    },
+    {
+      "type": "domain",
+      "value": "legal-netflix.com"
+    },
+    {
+      "type": "domain",
+      "value": "legal-nfl.com"
+    },
+    {
+      "type": "domain",
+      "value": "legal-nintendo.com"
+    },
+    {
+      "type": "domain",
+      "value": "legal-openai.com"
+    },
+    {
+      "type": "domain",
+      "value": "legal-paramount.com"
+    },
+    {
+      "type": "domain",
+      "value": "legal-paychex.com"
+    },
+    {
+      "type": "domain",
+      "value": "legal-pepsico.com"
+    },
+    {
+      "type": "domain",
+      "value": "legal-rbi.com"
+    },
+    {
+      "type": "domain",
+      "value": "legal-ssctech.com"
+    },
+    {
+      "type": "domain",
+      "value": "legal-starbucks.com"
+    },
+    {
+      "type": "domain",
+      "value": "legal-tesla.com"
+    },
+    {
+      "type": "domain",
+      "value": "legal-twitch.tv"
+    },
+    {
+      "type": "domain",
+      "value": "legal-ubisoft.com"
+    },
+    {
+      "type": "domain",
+      "value": "legal-ulta.com"
+    },
+    {
+      "type": "domain",
+      "value": "legal-verisk.com"
+    },
+    {
+      "type": "domain",
+      "value": "legal-vrtx.com"
+    },
+    {
+      "type": "domain",
+      "value": "legal-warnerbros.com"
+    },
+    {
+      "type": "domain",
+      "value": "legal-westernunion.com"
+    },
+    {
+      "type": "domain",
+      "value": "legal-wynnresorts.com"
+    },
+    {
+      "type": "domain",
+      "value": "nintendo-legal.com"
+    },
+    {
+      "type": "domain",
+      "value": "verisk-law.com"
+    },
+    {
+      "type": "domain",
+      "value": "verisk-legal.com"
+    },
+    {
+      "type": "domain",
+      "value": "warnerbros-legal.com"
+    },
+    {
+      "type": "domain",
+      "value": "bloonspace.com"
+    },
+    {
+      "type": "domain",
+      "value": "tascredit-pay.com"
+    },
+    {
+      "type": "domain",
+      "value": "grove-satin.com"
+    },
+    {
+      "type": "domain",
+      "value": "homebrexwin.com"
+    },
+    {
+      "type": "domain",
+      "value": "plume-compass.com"
+    },
+    {
+      "type": "domain",
+      "value": "storageprofiler.com"
+    },
+    {
+      "type": "domain",
+      "value": "stride25.com"
+    },
+    {
+      "type": "domain",
+      "value": "vine-96.com"
+    },
     {
       "type": "domain",
       "value": "betasignaltradingviewai.app"
@@ -39,12 +315,40 @@
       "value": "smartkitcheneg.com"
     },
     {
+      "type": "domain",
+      "value": "videohostinginsort.net"
+    },
+    {
+      "type": "domain",
+      "value": "videovisitors.com"
+    },
+    {
       "type": "ipv4",
       "value": "217.60.102.123"
     },
     {
       "type": "ipv4",
       "value": "91.92.243.204"
+    },
+    {
+      "type": "domain",
+      "value": "pitbullflex.shop"
+    },
+    {
+      "type": "domain",
+      "value": "pitbullforge.shop"
+    },
+    {
+      "type": "domain",
+      "value": "pitbullstreet.shop"
+    },
+    {
+      "type": "domain",
+      "value": "pitbullstyle.shop"
+    },
+    {
+      "type": "domain",
+      "value": "toppersaleclub.shop"
     },
     {
       "type": "domain",
@@ -3453,54 +3757,6 @@
     {
       "type": "domain",
       "value": "vrf.apexaccs.org"
-    },
-    {
-      "type": "domain",
-      "value": "loradmiadministraciones.com"
-    },
-    {
-      "type": "ipv4",
-      "value": "185.17.0.52"
-    },
-    {
-      "type": "domain",
-      "value": "malwarescan.xyz"
-    },
-    {
-      "type": "ipv4",
-      "value": "103.249.201.108"
-    },
-    {
-      "type": "ipv4",
-      "value": "120.224.114.212"
-    },
-    {
-      "type": "ipv4",
-      "value": "136.148.69.233"
-    },
-    {
-      "type": "ipv4",
-      "value": "185.132.53.158"
-    },
-    {
-      "type": "ipv4",
-      "value": "191.37.28.160"
-    },
-    {
-      "type": "ipv4",
-      "value": "89.39.253.46"
-    },
-    {
-      "type": "ipv4",
-      "value": "92.119.164.50"
-    },
-    {
-      "type": "ipv4",
-      "value": "92.119.165.74"
-    },
-    {
-      "type": "domain",
-      "value": "jakang.freewebhostmost.com"
     }
   ],
   "license": "Free to use in your own environment and in non-commercial community defence, with attribution to ThreatCluster (https://threatcluster.io). Redistributing it in a commercial product or service requires a licence: https://threatcluster.io/terms",

@@ -1,4 +1,25 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason,categories
+domain,tascredit-pay.com,high,2026-11-23T22:10:01+00:00,2026-11-23T22:10:01+00:00,1,,"Hardcoded C2 endpoint of the backdoor module, unrelated to the vendor and clearly attacker-controlled",c2
+domain,grove-satin.com,high,2026-11-23T18:21:45+00:00,2026-11-23T18:21:45+00:00,1,,"Campaign domain the fake Claude installer script sent activity data to, per Cato's campaign analysis",exfiltration
+domain,homebrexwin.com,high,2026-11-23T18:21:45+00:00,2026-11-23T18:21:45+00:00,1,,Fake Homebrew lookalike site used to distribute malware in the campaign,fake_software|malware
+domain,plume-compass.com,high,2026-11-23T18:21:45+00:00,2026-11-23T18:21:45+00:00,1,,Fake Codex download site in the campaign,fake_software
+domain,storageprofiler.com,high,2026-11-23T18:21:45+00:00,2026-11-23T18:21:45+00:00,1,,Fake Homebrew lookalike site in the same campaign,fake_software
+domain,stride25.com,high,2026-11-23T18:21:45+00:00,2026-11-23T18:21:45+00:00,1,,Fake Claude/Codex site in the campaign,fake_software
+domain,vine-96.com,high,2026-11-23T18:21:45+00:00,2026-11-23T18:21:45+00:00,1,,"Fake Claude installer script host in the macOS campaign, attacker-controlled",malware
+domain,betasignaltradingviewai.app,high,2026-10-29T22:39:27.698522+00:00,2026-11-23T15:43:32.034181+00:00,3,,"Domain used in a campaign to lure traders with fake TradingView videos, indicating attacker control.",phishing
+domain,developer-update.app,high,2026-10-29T22:09:24+00:00,2026-11-23T15:43:32.034181+00:00,4,,"Domain used for payload delivery in a malicious campaign, indicating attacker control.",malware
+domain,maxwintodaybtc.com,high,2026-10-29T22:09:24+00:00,2026-11-23T15:43:32.034181+00:00,4,,"Specified as a C2 server in the attacker's configuration file, indicating attacker control.",c2
+domain,newpayapp.com,high,2026-11-23T15:15:15+00:00,2026-11-23T15:15:15+00:00,1,,Attempted malware domain registered by the GT13 actor for attack infrastructure,malware
+domain,biklonasmain.net,high,2026-11-23T11:35:39+00:00,2026-11-23T11:35:39+00:00,1,,Listed as OXLoader distribution domain in the IOC list,malware
+domain,guestsisfilesjpmp.com,high,2026-11-23T11:35:39+00:00,2026-11-23T11:35:39+00:00,1,,Listed as OXLoader distribution domain in the IOC list,malware
+domain,smartkitcheneg.com,high,2026-11-23T11:35:39+00:00,2026-11-23T11:35:39+00:00,1,,Listed as OXLoader distribution domain in the IOC list,malware
+domain,videohostinginsort.net,high,2026-11-23T11:35:39+00:00,2026-11-23T11:35:39+00:00,1,,Listed in the OXLoader distribution IOC list as a malware delivery domain,malware
+domain,videovisitors.com,high,2026-11-23T11:35:39+00:00,2026-11-23T11:35:39+00:00,1,,Listed in the OXLoader distribution IOC list as a malware delivery domain,malware
+domain,pitbullflex.shop,high,2026-11-23T00:00:00+00:00,2026-11-23T00:00:00+00:00,1,,Pit Bull-themed storefront domain serving the attacker's store 183272 in the rotating network,scam_fraud
+domain,pitbullforge.shop,high,2026-11-23T00:00:00+00:00,2026-11-23T00:00:00+00:00,1,,Pit Bull-themed storefront domain in the attacker's rotating network,scam_fraud
+domain,pitbullstreet.shop,high,2026-11-23T00:00:00+00:00,2026-11-23T00:00:00+00:00,1,,Storefront domain serving the attacker's store 183272 after rotation,scam_fraud
+domain,pitbullstyle.shop,high,2026-11-23T00:00:00+00:00,2026-11-23T00:00:00+00:00,1,,Storefront domain that served attacker store 183272 before rotation,scam_fraud
+domain,toppersaleclub.shop,high,2026-11-23T00:00:00+00:00,2026-11-23T00:00:00+00:00,1,,Lure storefront that is part of the attacker's store-builder fraud network and was tracked as malicious,scam_fraud
 domain,adguardns.com,high,2026-11-22T19:02:49.738971+00:00,2026-11-22T19:02:49.738971+00:00,1,,"Listed as a server name the loader/backdoor uses; none belongs to AdGuard, so attacker-registered lookalike of a legitimate brand",c2|phishing
 domain,adguardns.org,high,2026-11-22T19:02:49.738971+00:00,2026-11-22T19:02:49.738971+00:00,1,,"Backdoor server name in the configuration; not owned by AdGuard, attacker lookalike",c2|phishing
 domain,adxinsight.com,high,2026-11-22T19:02:49.738971+00:00,2026-11-22T19:02:49.738971+00:00,1,,Listed among malware server names not belonging to the named vendors,c2
@@ -598,9 +619,6 @@ domain,direct.465415.xyz,high,2026-10-30T23:02:29+00:00,2026-10-30T23:02:29+00:0
 domain,llm-routing.com,high,2026-10-30T23:02:29+00:00,2026-10-30T23:02:29+00:00,1,,Domain used for LLM resale linked to attacker infrastructure.,malware
 domain,s3.xingjiabiapi.org,high,2026-10-30T23:02:29+00:00,2026-10-30T23:02:29+00:00,1,,Subdomain used for conducting unauthorized key checks linked to attacker activity.,malware
 domain,xingjiabiapi.org,high,2026-10-30T23:02:29+00:00,2026-10-30T23:02:29+00:00,1,,Domain associated with resale operation leveraging stolen keys.,malware
-domain,betasignaltradingviewai.app,high,2026-10-29T22:39:27.698522+00:00,2026-10-30T16:01:04.709172+00:00,3,,Used in a phishing campaign with a fake TradingView AI signal,phishing
-domain,developer-update.app,high,2026-10-29T22:09:24+00:00,2026-10-30T16:01:03.448711+00:00,4,,Used to deliver a malicious payload via PowerShell,malware
-domain,maxwintodaybtc.com,high,2026-10-29T22:09:24+00:00,2026-10-30T16:01:03.448711+00:00,4,,Specified as a C2 server in the attacker's configuration,c2
 domain,trainer.io,high,2026-10-30T14:38:21+00:00,2026-10-30T14:38:21+00:00,1,,Described as a fake site distributing malicious files.,fake_software
 domain,apkder.com,high,2026-10-30T14:04:09.963653+00:00,2026-10-30T14:04:09.963653+00:00,1,,Domain used for hosting fraudulent mobile applications,scam_fraud
 domain,bank.boeahk.com,high,2026-10-30T14:04:09.963653+00:00,2026-10-30T14:04:09.963653+00:00,1,,Listed as a fraudulent website used in phishing scams,phishing

@@ -1,4 +1,59 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason,categories
+domain,tascredit-pay.com,high,2026-11-23T22:10:01+00:00,2026-11-23T22:10:01+00:00,1,,"Hardcoded C2 endpoint of the backdoor module, unrelated to the vendor and clearly attacker-controlled",c2
+sha256,0068c4edd784c482030b68fa3a13e5d16fde30ed999619b87ead40ef5333a074,high,2026-11-23T21:55:22.725000+00:00,2026-11-23T21:55:22.725000+00:00,1,,Listed in file hash table as PyInstaller stealer sample build,malware
+sha256,016f633b9a8dd5ef17d577775cc64f96aa30192f3fbf814eba0c3f5c9fa5d91a,high,2026-11-23T21:55:22.725000+00:00,2026-11-23T21:55:22.725000+00:00,1,,Listed as PyInstaller Chrome stealer malware sample in hash table,malware
+sha256,09dd6f214a5b5a1fe2934cc859a1d1ce566894faf9236a0bcab2d2cf34448d63,high,2026-11-23T21:55:22.725000+00:00,2026-11-23T21:55:22.725000+00:00,1,,Listed as malicious MSBuildAnalyzer.dll in file hash table,supply_chain|malware
+sha256,17761569bf44d46877b22972bb1ca224527562a7a7aeb5b70ca8112510a49537,high,2026-11-23T21:55:22.725000+00:00,2026-11-23T21:55:22.725000+00:00,1,,Listed as vcruntime146_cor2.dll loader in malware hash list,malware
+sha256,1bc553ee2324f67c86cf8d9057da242e8ab363c59e452f5a69a1275909c20a97,high,2026-11-23T21:55:22.725000+00:00,2026-11-23T21:55:22.725000+00:00,1,,Listed as WeapF payload in malware hash list,malware
+sha256,26485a167f9e4c4ea146c8420ba0bcc44facbec4d5e8fd91e624f2c81255b589,high,2026-11-23T21:55:22.725000+00:00,2026-11-23T21:55:22.725000+00:00,1,,Listed as Themida build of malware in hash list,malware
+sha256,27f600d476638c8f1236db3eda9d70e39c9a96ff62fca69ca227426c48448bf7,high,2026-11-23T21:55:22.725000+00:00,2026-11-23T21:55:22.725000+00:00,1,,Listed as trojanized CryptoWalletAnalyzer.dll in hash list,malware|supply_chain
+sha256,33510d8e48c26279c0c212b4e6e5f95b7f0a116061eae7f50241f81903be5b6b,high,2026-11-23T21:55:22.725000+00:00,2026-11-23T21:55:22.725000+00:00,1,,Hash of malicious build targets file in attacker package,supply_chain|malware
+sha256,352b04dac5f63208f45c7c7326ed06c6fa8ae2752e4cdafff0cfe649ebaeabe2,high,2026-11-23T21:55:22.725000+00:00,2026-11-23T21:55:22.725000+00:00,1,,Listed as malicious MSBuildAnalyzer.dll in file hash table,malware|supply_chain
+sha256,3dfce4e8d5b625e435429c8d15fb6ce8bad9601fbc7b84f74b4aa5b560bc482e,high,2026-11-23T21:55:22.725000+00:00,2026-11-23T21:55:22.725000+00:00,1,,Listed as Themida build of malware in hash list,malware
+sha256,541b0893ca326b6c652cb1d5873f208e968481e33b635c3869479016bcd75d4f,high,2026-11-23T21:55:22.725000+00:00,2026-11-23T21:55:22.725000+00:00,1,,Listed as updater.exe loader in malware hash list,malware
+sha256,56e899eb1d5c967cbe760d1b7ac409fb9420b862c122ef7ec2a2aa6469a503a7,high,2026-11-23T21:55:22.725000+00:00,2026-11-23T21:55:22.725000+00:00,1,,Listed as msedgewebview2.exe loader in malware hash list,malware
+sha256,63f1c64bd0db73b327d6655e4262ab8dcbd4ff2ed0a6dd5e062ceb977dcb3e75,high,2026-11-23T21:55:22.725000+00:00,2026-11-23T21:55:22.725000+00:00,1,,Listed as malicious VS_Builder.WinUI3Controls nupkg in hash table,supply_chain
+sha256,78fa8ea3d4daaaf088babd49f2bc0e59220940dc256d8b8938bad95e2fe4717b,high,2026-11-23T21:55:22.725000+00:00,2026-11-23T21:55:22.725000+00:00,1,,Listed as LGA.exe lure wrapper malware in hash list,malware|fake_software
+sha256,9e58baccd25b009b80f093bbcaf007b1ca3ac763c9826e05e1352e64264d0d42,high,2026-11-23T21:55:22.725000+00:00,2026-11-23T21:55:22.725000+00:00,1,,Listed as malicious WinUI.Button.dll in file hash table,supply_chain
+sha256,a3d04638930eae8442578679be6d150b3c56373627c9bc7e480725a31bb2d85d,high,2026-11-23T21:55:22.725000+00:00,2026-11-23T21:55:22.725000+00:00,1,,Listed as malicious WinUI3Controls.dll in file hash table,malware
+sha256,ae28ff44ee3bd2911c5a1e4110f12d12e7b585f087a0afd85d6fdc4d4b5a36f5,high,2026-11-23T21:55:22.725000+00:00,2026-11-23T21:55:22.725000+00:00,1,,Listed as updater.exe loader in malware hash list,malware
+sha256,b49a89af8c4884f9aecad7d980bfffa03226e8d30aa35afd813919af9e2d7cfa,high,2026-11-23T21:55:22.725000+00:00,2026-11-23T21:55:22.725000+00:00,1,,Listed as malicious MSBuildAnalyzer.dll in file hash table,malware
+sha256,b797935ff3db3da42d046537d17191d790a6344a12947347165eea2744e1265d,high,2026-11-23T21:55:22.725000+00:00,2026-11-23T21:55:22.725000+00:00,1,,Listed as LGA.exe lure wrapper malware in hash list,malware
+sha256,ccf299e23471cd79b2f40f91ee6f48293893e6c626ef84b10ef0b3ba86a89770,high,2026-11-23T21:55:22.725000+00:00,2026-11-23T21:55:22.725000+00:00,1,,Listed as malicious winui.button nupkg in file hash table,supply_chain
+sha256,d0a78aec3dd8dbce2e3fb0412b666a602fc0a71a800e24b99d735581795e11dc,high,2026-11-23T21:55:22.725000+00:00,2026-11-23T21:55:22.725000+00:00,1,,Listed as malicious VS_Builder nupkg in file hash table,supply_chain
+sha256,e7e7649f7249cb32f3123299e3a200c83dc210420b40f944168c36ab781b9458,high,2026-11-23T21:55:22.725000+00:00,2026-11-23T21:55:22.725000+00:00,1,,Listed as trojanized CryptoWalletAnalyzer.exe in hash list,malware
+sha256,ef691b00cada5974b6bb516386c90589bd2340216f446518ad08d11fc930d631,high,2026-11-23T21:55:22.725000+00:00,2026-11-23T21:55:22.725000+00:00,1,,Listed as PyInstaller Chrome stealer build in hash list,malware
+sha1,28fd3345d82da0cdb565a11c648aff196f03d770,high,2026-11-23T21:43:13.302955+00:00,2026-11-23T21:43:13.302955+00:00,1,,Malicious patched Disk Monitor Gadget sample attributed to CosmicBeetle,malware
+domain,grove-satin.com,high,2026-11-23T18:21:45+00:00,2026-11-23T18:21:45+00:00,1,,"Campaign domain the fake Claude installer script sent activity data to, per Cato's campaign analysis",exfiltration
+domain,homebrexwin.com,high,2026-11-23T18:21:45+00:00,2026-11-23T18:21:45+00:00,1,,Fake Homebrew lookalike site used to distribute malware in the campaign,fake_software|malware
+domain,plume-compass.com,high,2026-11-23T18:21:45+00:00,2026-11-23T18:21:45+00:00,1,,Fake Codex download site in the campaign,fake_software
+domain,storageprofiler.com,high,2026-11-23T18:21:45+00:00,2026-11-23T18:21:45+00:00,1,,Fake Homebrew lookalike site in the same campaign,fake_software
+domain,stride25.com,high,2026-11-23T18:21:45+00:00,2026-11-23T18:21:45+00:00,1,,Fake Claude/Codex site in the campaign,fake_software
+domain,vine-96.com,high,2026-11-23T18:21:45+00:00,2026-11-23T18:21:45+00:00,1,,"Fake Claude installer script host in the macOS campaign, attacker-controlled",malware
+domain,betasignaltradingviewai.app,high,2026-10-29T22:39:27.698522+00:00,2026-11-23T15:43:32.034181+00:00,3,,"Domain used in a campaign to lure traders with fake TradingView videos, indicating attacker control.",phishing
+domain,developer-update.app,high,2026-10-29T22:09:24+00:00,2026-11-23T15:43:32.034181+00:00,4,,"Domain used for payload delivery in a malicious campaign, indicating attacker control.",malware
+domain,maxwintodaybtc.com,high,2026-10-29T22:09:24+00:00,2026-11-23T15:43:32.034181+00:00,4,,"Specified as a C2 server in the attacker's configuration file, indicating attacker control.",c2
+sha256,41902d18fa2c285c0f4a6b39cf0f2eefbc7acbff33b6eb6fc88ba680a201d17d,high,2026-10-29T22:39:27.698522+00:00,2026-11-23T15:43:32.034181+00:00,2,,"SHA-256 hash of a PowerShell dropper used in the attack, indicating attacker control.",malware
+domain,newpayapp.com,high,2026-11-23T15:15:15+00:00,2026-11-23T15:15:15+00:00,1,,Attempted malware domain registered by the GT13 actor for attack infrastructure,malware
+domain,biklonasmain.net,high,2026-11-23T11:35:39+00:00,2026-11-23T11:35:39+00:00,1,,Listed as OXLoader distribution domain in the IOC list,malware
+domain,guestsisfilesjpmp.com,high,2026-11-23T11:35:39+00:00,2026-11-23T11:35:39+00:00,1,,Listed as OXLoader distribution domain in the IOC list,malware
+domain,smartkitcheneg.com,high,2026-11-23T11:35:39+00:00,2026-11-23T11:35:39+00:00,1,,Listed as OXLoader distribution domain in the IOC list,malware
+domain,videohostinginsort.net,high,2026-11-23T11:35:39+00:00,2026-11-23T11:35:39+00:00,1,,Listed in the OXLoader distribution IOC list as a malware delivery domain,malware
+domain,videovisitors.com,high,2026-11-23T11:35:39+00:00,2026-11-23T11:35:39+00:00,1,,Listed in the OXLoader distribution IOC list as a malware delivery domain,malware
+ipv4,217.60.102.123,high,2026-11-23T11:35:39+00:00,2026-11-23T11:35:39+00:00,1,,Listed as LOLD C2 server in the IOC list,c2
+ipv4,91.92.243.204,high,2026-11-23T11:35:39+00:00,2026-11-23T11:35:39+00:00,1,,Listed as LOLD C2 server in the IOC list,c2
+md5,27b3fd4a4ac2c2f62f7b175ca904c8f7,high,2026-11-23T11:35:39+00:00,2026-11-23T11:35:39+00:00,1,,Hash of Donut module/PE loader listed in the malware IOC table,malware
+md5,5A0B0BAE87A464228398696517FCF6F5,high,2026-11-23T11:35:39+00:00,2026-11-23T11:35:39+00:00,1,,Hash of LOLD payload listed in the malware IOC table,malware
+md5,A9D620B690F84D552986A4872D57849E,high,2026-11-23T11:35:39+00:00,2026-11-23T11:35:39+00:00,1,,Hash of encrypted shellcode listed in the malware IOC table,malware
+md5,AC8547F5AF42DC6932367EBCB162FB0E,high,2026-11-23T11:35:39+00:00,2026-11-23T11:35:39+00:00,1,,Hash of trojanized UnityPlayer.dll listed in the malware IOC table,malware
+md5,B97730BA59B158F400E67050406CB3EA,high,2026-11-23T11:35:39+00:00,2026-11-23T11:35:39+00:00,1,,Hash of decrypted shellcode listed in the malware IOC table,malware
+sha256,311b5767e7d63e7dbdc1476c36608b8d7ef729c8bbcc64ded63b9470396351d6,high,2026-11-23T10:02:33.846282+00:00,2026-11-23T10:02:33.846282+00:00,1,,Hash of ujaild second-stage backdoor binary running on routers,malware
+sha256,53736d5db721a358bec5b9ddf6056df73b36fc5330300342c42f866a05191432,high,2026-11-23T10:02:33.846282+00:00,2026-11-23T10:02:33.846282+00:00,1,,Hash of second ujaild backdoor version on seven routers,malware
+domain,pitbullflex.shop,high,2026-11-23T00:00:00+00:00,2026-11-23T00:00:00+00:00,1,,Pit Bull-themed storefront domain serving the attacker's store 183272 in the rotating network,scam_fraud
+domain,pitbullforge.shop,high,2026-11-23T00:00:00+00:00,2026-11-23T00:00:00+00:00,1,,Pit Bull-themed storefront domain in the attacker's rotating network,scam_fraud
+domain,pitbullstreet.shop,high,2026-11-23T00:00:00+00:00,2026-11-23T00:00:00+00:00,1,,Storefront domain serving the attacker's store 183272 after rotation,scam_fraud
+domain,pitbullstyle.shop,high,2026-11-23T00:00:00+00:00,2026-11-23T00:00:00+00:00,1,,Storefront domain that served attacker store 183272 before rotation,scam_fraud
+domain,toppersaleclub.shop,high,2026-11-23T00:00:00+00:00,2026-11-23T00:00:00+00:00,1,,Lure storefront that is part of the attacker's store-builder fraud network and was tracked as malicious,scam_fraud
 domain,adguardns.com,high,2026-11-22T19:02:49.738971+00:00,2026-11-22T19:02:49.738971+00:00,1,,"Listed as a server name the loader/backdoor uses; none belongs to AdGuard, so attacker-registered lookalike of a legitimate brand",c2|phishing
 domain,adguardns.org,high,2026-11-22T19:02:49.738971+00:00,2026-11-22T19:02:49.738971+00:00,1,,"Backdoor server name in the configuration; not owned by AdGuard, attacker lookalike",c2|phishing
 domain,adxinsight.com,high,2026-11-22T19:02:49.738971+00:00,2026-11-22T19:02:49.738971+00:00,1,,Listed among malware server names not belonging to the named vendors,c2
@@ -1547,7 +1602,6 @@ domain,llm-routing.com,high,2026-10-30T23:02:29+00:00,2026-10-30T23:02:29+00:00,
 domain,s3.xingjiabiapi.org,high,2026-10-30T23:02:29+00:00,2026-10-30T23:02:29+00:00,1,,Subdomain used for conducting unauthorized key checks linked to attacker activity.,malware
 domain,xingjiabiapi.org,high,2026-10-30T23:02:29+00:00,2026-10-30T23:02:29+00:00,1,,Domain associated with resale operation leveraging stolen keys.,malware
 ipv4,38.246.114.118,high,2026-10-30T23:02:29+00:00,2026-10-30T23:02:29+00:00,1,,IP address conducting unauthorized key checks linked to attacker activity.,malware
-domain,betasignaltradingviewai.app,high,2026-10-29T22:39:27.698522+00:00,2026-10-30T16:01:04.709172+00:00,3,,Used in a phishing campaign with a fake TradingView AI signal,phishing
 ipv4,79.43.178.226,high,2026-10-30T16:01:04.709172+00:00,2026-10-30T16:01:04.709172+00:00,1,,Used as a C2 server by the attacker,c2
 sha256,04491f12e4d1ce10cdadc8ff8698b4650f63bad0759edb2629779d9f6424e78c,high,2026-10-30T16:01:04.709172+00:00,2026-10-30T16:01:04.709172+00:00,1,,Listed as a file hash in a malware analysis.,malware
 sha256,475ab98b7722e965bd38c8fa6ed23502309582ccf294ff1061cb290c7988f0d1,high,2026-10-30T16:01:04.709172+00:00,2026-10-30T16:01:04.709172+00:00,1,,Listed as a file hash in a malware analysis.,malware
@@ -1558,9 +1612,6 @@ sha256,abd5308ec6b01b8ada0f2b83a2e1585502cac9e00170edb22332a7c1d96d58d3,high,202
 sha256,b4b77db72fa42eeef0f6a379cc2058dd5ec3f8a0b272c417a97651718b41eb89,high,2026-10-30T16:01:04.709172+00:00,2026-10-30T16:01:04.709172+00:00,1,,Listed as a file hash in a malware analysis.,malware
 ipv4,45.94.47.224,high,2026-10-30T16:01:04.505393+00:00,2026-10-30T16:01:04.505393+00:00,1,,Configured as a C2 server in the attacker's setup,c2
 ipv4,87.120.219.26,high,2026-10-30T16:01:04.505393+00:00,2026-10-30T16:01:04.505393+00:00,1,,Identified as a C2 server in the attacker's configuration,c2
-domain,developer-update.app,high,2026-10-29T22:09:24+00:00,2026-10-30T16:01:03.448711+00:00,4,,Used to deliver a malicious payload via PowerShell,malware
-domain,maxwintodaybtc.com,high,2026-10-29T22:09:24+00:00,2026-10-30T16:01:03.448711+00:00,4,,Specified as a C2 server in the attacker's configuration,c2
-sha256,41902d18fa2c285c0f4a6b39cf0f2eefbc7acbff33b6eb6fc88ba680a201d17d,high,2026-10-29T22:39:27.698522+00:00,2026-10-30T16:01:03.448711+00:00,2,,SHA-256 hash of a malicious PowerShell dropper,malware
 domain,trainer.io,high,2026-10-30T14:38:21+00:00,2026-10-30T14:38:21+00:00,1,,Described as a fake site distributing malicious files.,fake_software
 domain,apkder.com,high,2026-10-30T14:04:09.963653+00:00,2026-10-30T14:04:09.963653+00:00,1,,Domain used for hosting fraudulent mobile applications,scam_fraud
 domain,bank.boeahk.com,high,2026-10-30T14:04:09.963653+00:00,2026-10-30T14:04:09.963653+00:00,1,,Listed as a fraudulent website used in phishing scams,phishing
