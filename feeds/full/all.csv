@@ -1,5 +1,87 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason,categories
-domain,tascredit-pay.com,high,2026-11-23T22:10:01+00:00,2026-11-23T22:10:01+00:00,1,,"Hardcoded C2 endpoint of the backdoor module, unrelated to the vendor and clearly attacker-controlled",c2
+domain,newpayapp.com,high,2026-11-23T15:15:15+00:00,2026-11-25T11:07:37.890990+00:00,2,,"Attempted malware domain first registered by the GT13 actor, per the article's attribution of attack infrastructure.",malware
+domain,activisionblizzard-legal.com,high,2026-11-24T17:00:36.145307+00:00,2026-11-24T20:36:23.253833+00:00,1,,"Brand-themed legal lookalike domain in the vishing lure cluster, attacker-registered for credential phishing",phishing
+domain,henryschein-legal.com,high,2026-11-24T17:00:36.145307+00:00,2026-11-24T20:36:23.253833+00:00,1,,Attacker-registered lookalike lure domain targeting Henry Schein,phishing
+domain,iheartmedia-legal.com,high,2026-11-24T17:00:36.145307+00:00,2026-11-24T20:36:23.253833+00:00,1,,Attacker-registered lookalike lure domain targeting iHeartMedia,phishing
+domain,law-henryschein.com,high,2026-11-24T17:00:36.145307+00:00,2026-11-24T20:36:23.253833+00:00,1,,Attacker-registered lookalike lure domain targeting Henry Schein,phishing
+domain,law-verisk.com,high,2026-11-24T17:00:36.145307+00:00,2026-11-24T20:36:23.253833+00:00,1,,Attacker-registered lookalike lure domain targeting Verisk,phishing
+domain,legal-adobe.com,high,2026-11-24T17:00:36.145307+00:00,2026-11-24T20:36:23.253833+00:00,1,,Listed as attacker lure domain in the campaign cluster,phishing
+domain,legal-aexp.com,high,2026-11-24T17:00:36.145307+00:00,2026-11-24T20:36:23.253833+00:00,1,,Attacker-registered lure domain targeting American Express,phishing
+domain,legal-alaskaair.com,high,2026-11-24T17:00:36.145307+00:00,2026-11-24T20:36:23.253833+00:00,1,,Attacker-registered lookalike lure domain in high-confidence cluster,phishing
+domain,legal-amd.com,high,2026-11-24T17:00:36.145307+00:00,2026-11-24T20:36:23.253833+00:00,1,,Confirmed attacker lure domain with Okta redirection behavior,phishing
+domain,legal-anthropic.com,high,2026-11-24T17:00:36.145307+00:00,2026-11-24T20:36:23.253833+00:00,1,,Attacker-registered lookalike lure domain in high-confidence cluster,phishing
+domain,legal-arthrex.com,high,2026-11-24T17:00:36.145307+00:00,2026-11-24T20:36:23.253833+00:00,1,,Attacker-registered lookalike lure domain in high-confidence cluster,phishing
+domain,legal-autozone.com,high,2026-11-24T17:00:36.145307+00:00,2026-11-24T20:36:23.253833+00:00,1,,Attacker-registered lure domain for AutoZone,phishing
+domain,legal-caesars.com,high,2026-11-24T17:00:36.145307+00:00,2026-11-24T20:36:23.253833+00:00,1,,Attacker-registered lure domain in confirmed cluster,phishing
+domain,legal-carvana.com,high,2026-11-24T17:00:36.145307+00:00,2026-11-24T20:36:23.253833+00:00,1,,Attacker-registered lure domain in confirmed cluster,phishing
+domain,legal-cigna.com,high,2026-11-24T17:00:36.145307+00:00,2026-11-24T20:36:23.253833+00:00,1,,Attacker-registered lure domain in confirmed cluster,phishing
+domain,legal-colpipe.com,high,2026-11-24T17:00:36.145307+00:00,2026-11-24T20:36:23.253833+00:00,1,,Attacker-registered lookalike lure domain in high-confidence cluster,phishing
+domain,legal-delta.com,high,2026-11-24T17:00:36.145307+00:00,2026-11-24T20:36:23.253833+00:00,1,,Attacker-registered lookalike lure domain in high-confidence cluster,phishing
+domain,legaldept-amazon.com,high,2026-11-24T17:00:36.145307+00:00,2026-11-24T20:36:23.253833+00:00,1,,Attacker-registered lookalike lure domain impersonating Amazon,phishing
+domain,legal-duolingo.com,high,2026-11-24T17:00:36.145307+00:00,2026-11-24T20:36:23.253833+00:00,1,,Attacker-registered lure domain in campaign cluster,phishing
+domain,legal-ea.com,high,2026-11-24T17:00:36.145307+00:00,2026-11-24T20:36:23.253833+00:00,1,,Attacker-registered lure domain in campaign cluster,phishing
+domain,legal-epicgames.com,high,2026-11-24T17:00:36.145307+00:00,2026-11-24T20:36:23.253833+00:00,1,,Attacker-registered lookalike lure domain in high-confidence cluster,phishing
+domain,legal-grubhub.com,high,2026-11-24T17:00:36.145307+00:00,2026-11-24T20:36:23.253833+00:00,1,,Attacker-registered lure domain in confirmed cluster,phishing
+domain,legal-henryschein.com,high,2026-11-24T17:00:36.145307+00:00,2026-11-24T20:36:23.253833+00:00,1,,Attacker-registered lure domain registered 19:28 UTC targeting Henry Schein,phishing
+domain,legal-iheartmedia.com,high,2026-11-24T17:00:36.145307+00:00,2026-11-24T20:36:23.253833+00:00,1,,Duplicate lure domain entry; attacker-registered,phishing
+domain,legal-jcpenney.com,high,2026-11-24T17:00:36.145307+00:00,2026-11-24T20:36:23.253833+00:00,1,,Attacker-registered lookalike lure domain in high-confidence cluster,phishing
+domain,legal-jonesday.com,high,2026-11-24T17:00:36.145307+00:00,2026-11-24T20:36:23.253833+00:00,1,,Attacker-registered lookalike lure domain in high-confidence cluster,phishing
+domain,legal-kfc.com,high,2026-11-24T17:00:36.145307+00:00,2026-11-24T20:36:23.253833+00:00,1,,Attacker-registered lookalike lure domain in high-confidence cluster,phishing
+domain,legal-lucid.com,high,2026-11-24T17:00:36.145307+00:00,2026-11-24T20:36:23.253833+00:00,1,,Attacker-registered lure domain in victim-mapping cluster,phishing
+domain,legal-lucidmotors.com,high,2026-11-24T17:00:36.145307+00:00,2026-11-24T20:36:23.253833+00:00,1,,Confirmed attacker phishing domain redirecting to NetIQ sign-in,phishing
+domain,legal-lvmh.com,high,2026-11-24T17:00:36.145307+00:00,2026-11-24T20:36:23.253833+00:00,1,,Attacker-registered lure domain registered at Spaceship,phishing
+domain,legal-mcdonalds.com,high,2026-11-24T17:00:36.145307+00:00,2026-11-24T20:36:23.253833+00:00,1,,Attacker-registered lure domain registered at NICENIC,phishing
+domain,legal-ml.com,high,2026-11-24T17:00:36.145307+00:00,2026-11-24T20:36:23.253833+00:00,1,,Attacker-registered lookalike lure domain in high-confidence cluster,phishing
+domain,legal-molinahealthcare.com,high,2026-11-24T17:00:36.145307+00:00,2026-11-24T20:36:23.253833+00:00,1,,Attacker-registered lookalike lure domain in high-confidence cluster,phishing
+domain,legal-morningstar.com,high,2026-11-24T17:00:36.145307+00:00,2026-11-24T20:36:23.253833+00:00,1,,Attacker-registered lure domain in campaign cluster,phishing
+domain,legal-mtb.com,high,2026-11-24T17:00:36.145307+00:00,2026-11-24T20:36:23.253833+00:00,1,,Attacker-registered lookalike lure domain in high-confidence cluster,phishing
+domain,legal-nbcuniversal.com,high,2026-11-24T17:00:36.145307+00:00,2026-11-24T20:36:23.253833+00:00,1,,Attacker-registered lookalike lure domain in high-confidence cluster,phishing
+domain,legal-nestle.com,high,2026-11-24T17:00:36.145307+00:00,2026-11-24T20:36:23.253833+00:00,1,,Attacker-registered lookalike lure domain in high-confidence cluster,phishing
+domain,legal-netflix.com,high,2026-11-24T17:00:36.145307+00:00,2026-11-24T20:36:23.253833+00:00,1,,Attacker-registered lookalike lure domain in high-confidence cluster,phishing
+domain,legal-nfl.com,high,2026-11-24T17:00:36.145307+00:00,2026-11-24T20:36:23.253833+00:00,1,,Attacker-registered lookalike lure domain in high-confidence cluster,phishing
+domain,legal-nintendo.com,high,2026-11-24T17:00:36.145307+00:00,2026-11-24T20:36:23.253833+00:00,1,,Attacker-registered lookalike lure domain in high-confidence cluster,phishing
+domain,legal-openai.com,high,2026-11-24T17:00:36.145307+00:00,2026-11-24T20:36:23.253833+00:00,1,,Attacker-registered lookalike lure domain in high-confidence cluster,phishing
+domain,legal-paramount.com,high,2026-11-24T17:00:36.145307+00:00,2026-11-24T20:36:23.253833+00:00,1,,Attacker-registered lookalike lure domain in high-confidence cluster,phishing
+domain,legal-paychex.com,high,2026-11-24T17:00:36.145307+00:00,2026-11-24T20:36:23.253833+00:00,1,,Attacker-registered lure domain for Paychex in confirmed cluster,phishing
+domain,legal-pepsico.com,high,2026-11-24T17:00:36.145307+00:00,2026-11-24T20:36:23.253833+00:00,1,,Attacker-registered lure domain for PepsiCo in confirmed cluster,phishing
+domain,legal-rbi.com,high,2026-11-24T17:00:36.145307+00:00,2026-11-24T20:36:23.253833+00:00,1,,Attacker-registered lure domain in confirmed cluster,phishing
+domain,legal-ssctech.com,high,2026-11-24T17:00:36.145307+00:00,2026-11-24T20:36:23.253833+00:00,1,,Attacker-registered lookalike lure domain in high-confidence cluster,phishing
+domain,legal-starbucks.com,high,2026-11-24T17:00:36.145307+00:00,2026-11-24T20:36:23.253833+00:00,1,,Attacker-registered lookalike lure domain in high-confidence cluster,phishing
+domain,legal-tesla.com,high,2026-11-24T17:00:36.145307+00:00,2026-11-24T20:36:23.253833+00:00,1,,Attacker-registered lookalike lure domain in high-confidence cluster,phishing
+domain,legal-twitch.tv,high,2026-11-24T17:00:36.145307+00:00,2026-11-24T20:36:23.253833+00:00,1,,Attacker-registered lure domain spoofing Twitch in campaign cluster,phishing
+domain,legal-ubisoft.com,high,2026-11-24T17:00:36.145307+00:00,2026-11-24T20:36:23.253833+00:00,1,,Attacker-registered lookalike lure domain in high-confidence cluster,phishing
+domain,legal-ulta.com,high,2026-11-24T17:00:36.145307+00:00,2026-11-24T20:36:23.253833+00:00,1,,Attacker-registered lookalike lure domain in high-confidence cluster,phishing
+domain,legal-verisk.com,high,2026-11-24T17:00:36.145307+00:00,2026-11-24T20:36:23.253833+00:00,1,,Attacker-registered lookalike lure domain in high-confidence cluster,phishing
+domain,legal-vrtx.com,high,2026-11-24T17:00:36.145307+00:00,2026-11-24T20:36:23.253833+00:00,1,,Confirmed attacker phishing domain loading Okta sign-in widget,phishing
+domain,legal-warnerbros.com,high,2026-11-24T17:00:36.145307+00:00,2026-11-24T20:36:23.253833+00:00,1,,Attacker-registered lookalike lure domain in high-confidence cluster,phishing
+domain,legal-westernunion.com,high,2026-11-24T17:00:36.145307+00:00,2026-11-24T20:36:23.253833+00:00,1,,Attacker-registered lure domain in campaign cluster,phishing
+domain,legal-wynnresorts.com,high,2026-11-24T17:00:36.145307+00:00,2026-11-24T20:36:23.253833+00:00,1,,Attacker-registered lookalike lure domain in high-confidence cluster,phishing
+domain,nintendo-legal.com,high,2026-11-24T17:00:36.145307+00:00,2026-11-24T20:36:23.253833+00:00,1,,Attacker-registered lookalike lure domain in high-confidence cluster,phishing
+domain,verisk-law.com,high,2026-11-24T17:00:36.145307+00:00,2026-11-24T20:36:23.253833+00:00,1,,Attacker-registered lookalike lure domain targeting Verisk,phishing
+domain,verisk-legal.com,high,2026-11-24T17:00:36.145307+00:00,2026-11-24T20:36:23.253833+00:00,1,,Attacker-registered lookalike lure domain targeting Verisk,phishing
+domain,warnerbros-legal.com,high,2026-11-24T17:00:36.145307+00:00,2026-11-24T20:36:23.253833+00:00,1,,Attacker-registered lookalike lure domain in high-confidence cluster,phishing
+domain,juioprtexi.com,high,2026-11-24T17:17:15+00:00,2026-11-24T17:17:15+00:00,1,,Encoded C2 host of the malware plugin,c2|malware
+domain,linearprocesshost.com,high,2026-11-24T17:17:15+00:00,2026-11-24T17:17:15+00:00,1,,C2 host from earlier malware version,c2|malware
+domain,ghostrider.serveirc.com,high,2026-11-24T17:02:16.639839+00:00,2026-11-24T17:02:16.639839+00:00,1,,Dynamic DNS C2 domain used by MuddyC2Go in a listed IOC table,c2|dynamic_dns
+domain,jbf1.nc1310022a.biz,high,2026-11-24T17:02:16.639839+00:00,2026-11-24T17:02:16.639839+00:00,1,,Passive DNS domain on a MuddyC2Go server listed in the IOC table,c2
+domain,microsoftfice.ddns.net,high,2026-11-24T17:02:16.639839+00:00,2026-11-24T17:02:16.639839+00:00,1,,Dynamic DNS C2 address used by MuddyC2Go in the IOC table,c2|dynamic_dns
+domain,qjk2.6nc051221c.co,high,2026-11-24T17:02:16.639839+00:00,2026-11-24T17:02:16.639839+00:00,1,,MuddyC2Go C2 domain listed in the IOC table,c2
+ipv4,162.223.89.11,high,2026-11-24T17:02:16.639839+00:00,2026-11-24T17:02:16.639839+00:00,1,,Identified as a MuddyC2Go C2 server used by MuddyWater,c2
+ipv4,94.131.109.65,high,2026-11-24T17:02:16.639839+00:00,2026-11-24T17:02:16.639839+00:00,1,,C2 IP address used in the attack per the article,c2
+ipv4,95.164.46.35,high,2026-11-24T17:02:16.639839+00:00,2026-11-24T17:02:16.639839+00:00,1,,Named as C2 for KorekFile and d.exe in the IOC table,c2
+sha256,63e404011aeabb964ce63f467be29d678d0576bddb72124d491ab5565e1044cf,high,2026-11-24T17:02:16.639839+00:00,2026-11-24T17:02:16.639839+00:00,1,,"Hash of the malicious Excel file that leads to C2 162.223.89.11, a malware sample",malware
+ipv4,150.242.254.199,high,2026-11-24T15:08:21+00:00,2026-11-24T15:08:21+00:00,1,,Listed in the article's Indicators of Compromise as the reverse shell target used in the attack,c2
+ipv4,204.194.54.240,high,2026-11-24T15:08:21+00:00,2026-11-24T15:08:21+00:00,1,,Described as the hard-coded attacker C2 server used for payload staging and cradles,c2|malware
+ipv4,38.253.224.12,high,2026-11-24T15:08:21+00:00,2026-11-24T15:08:21+00:00,1,,Listed in the IOC section as GSocket and SSH tunnel relay used by the attackers,proxy_tunnel|c2
+domain,bloonspace.com,high,2026-11-24T13:16:03+00:00,2026-11-24T15:00:51.315141+00:00,2,,"Article states NVISO confirmed all known ZQAgent samples use bloonspace.com for command and control, associated with FOG0003.",c2|malware
+domain,cnpcyprus.net,high,2026-11-24T14:13:55+00:00,2026-11-24T14:13:55+00:00,1,,"Cyprus-themed domain cluster with subdomains for RMM and GoPhish-backed credential harvesting, attributed to actor infrastructure",phishing|c2
+domain,nl-backend.cnpcyprus.net,high,2026-11-24T14:13:55+00:00,2026-11-24T14:13:55+00:00,1,,"Backend endpoint that the NetLock RMM installer communicates with, part of actor-controlled cnpcyprus.net infrastructure",c2
+domain,legal-creditkarma.com,high,2026-11-24T13:30:06+00:00,2026-11-24T13:30:06+00:00,1,,Lure domain registered by the adversary for phishing,phishing
+domain,gta6cloud.com,high,2026-11-24T10:15:09+00:00,2026-11-24T10:15:09+00:00,1,,Malicious site distributing a fake GTA VI client via ClickFix malware,malware|fake_software
+ipv4,103.179.143.219,high,2026-11-24T00:00:00+00:00,2026-11-24T00:00:00+00:00,1,,C2 server in PolinRider heartbeat chain,c2
+sha256,48cf14560a8c2c5eaa984078cb345a81bc6d49d6695a06851499a3a31260aa91,high,2026-11-24T00:00:00+00:00,2026-11-24T00:00:00+00:00,1,,SHA-256 of enterotoxin.exe RAT sample described in article,malware
+sha256,ca2b7eced5937817b2aca2d50542d2e171bc95593be72a94c158616ed17a5334,high,2026-11-24T00:00:00+00:00,2026-11-24T00:00:00+00:00,1,,SHA-256 of obfuscated JavaScript dropper/stealer in malicious npm packages,malware|supply_chain
+domain,tascredit-pay.com,high,2026-11-23T22:10:01+00:00,2026-11-23T22:10:01+00:00,1,,"Hardcoded C2 endpoint of the backdoor's remote-control module, unrelated to the vendor and attacker-controlled",c2
 sha256,0068c4edd784c482030b68fa3a13e5d16fde30ed999619b87ead40ef5333a074,high,2026-11-23T21:55:22.725000+00:00,2026-11-23T21:55:22.725000+00:00,1,,Listed in file hash table as PyInstaller stealer sample build,malware
 sha256,016f633b9a8dd5ef17d577775cc64f96aa30192f3fbf814eba0c3f5c9fa5d91a,high,2026-11-23T21:55:22.725000+00:00,2026-11-23T21:55:22.725000+00:00,1,,Listed as PyInstaller Chrome stealer malware sample in hash table,malware
 sha256,09dd6f214a5b5a1fe2934cc859a1d1ce566894faf9236a0bcab2d2cf34448d63,high,2026-11-23T21:55:22.725000+00:00,2026-11-23T21:55:22.725000+00:00,1,,Listed as malicious MSBuildAnalyzer.dll in file hash table,supply_chain|malware
@@ -34,7 +116,6 @@ domain,betasignaltradingviewai.app,high,2026-10-29T22:39:27.698522+00:00,2026-11
 domain,developer-update.app,high,2026-10-29T22:09:24+00:00,2026-11-23T15:43:32.034181+00:00,4,,"Domain used for payload delivery in a malicious campaign, indicating attacker control.",malware
 domain,maxwintodaybtc.com,high,2026-10-29T22:09:24+00:00,2026-11-23T15:43:32.034181+00:00,4,,"Specified as a C2 server in the attacker's configuration file, indicating attacker control.",c2
 sha256,41902d18fa2c285c0f4a6b39cf0f2eefbc7acbff33b6eb6fc88ba680a201d17d,high,2026-10-29T22:39:27.698522+00:00,2026-11-23T15:43:32.034181+00:00,2,,"SHA-256 hash of a PowerShell dropper used in the attack, indicating attacker control.",malware
-domain,newpayapp.com,high,2026-11-23T15:15:15+00:00,2026-11-23T15:15:15+00:00,1,,Attempted malware domain registered by the GT13 actor for attack infrastructure,malware
 domain,biklonasmain.net,high,2026-11-23T11:35:39+00:00,2026-11-23T11:35:39+00:00,1,,Listed as OXLoader distribution domain in the IOC list,malware
 domain,guestsisfilesjpmp.com,high,2026-11-23T11:35:39+00:00,2026-11-23T11:35:39+00:00,1,,Listed as OXLoader distribution domain in the IOC list,malware
 domain,smartkitcheneg.com,high,2026-11-23T11:35:39+00:00,2026-11-23T11:35:39+00:00,1,,Listed as OXLoader distribution domain in the IOC list,malware
@@ -74,12 +155,16 @@ domain,l7bcsnwc7nzr3uo.icu,high,2026-11-17T05:31:17.284187+00:00,2026-11-21T18:0
 domain,p55abnw2pnsz0bo.icu,high,2026-11-17T05:31:17.470834+00:00,2026-11-21T18:06:51.012599+00:00,1,,Part of a batch of domains registered by the attacker for malicious use,malware
 domain,q1ls1ho9x7wsxlu.icu,high,2026-11-17T14:00:46.952499+00:00,2026-11-21T18:06:51.012599+00:00,1,,Domain registered by the attacker for malicious use,malware
 domain,thegreathouse.us,high,2026-11-21T06:50:30+00:00,2026-11-21T06:50:30+00:00,1,,Front-company website registered by a suspected North Korean operator for fake contracting,scam_fraud
-domain,enrollmfamethods.com,high,2026-11-20T22:03:51+00:00,2026-11-20T22:03:51+00:00,1,,Listed in FQDN indicators of compromise as passkey-themed phishing domain,phishing
-domain,keyconfiguration.com,high,2026-11-20T22:03:51+00:00,2026-11-20T22:03:51+00:00,1,,Listed in FQDN indicators as passkey-themed phishing domain,phishing
+domain,enrollmfamethods.com,high,2026-11-20T22:03:51+00:00,2026-11-20T22:03:51+00:00,1,,Listed in the FQDN list of Com-affiliated passkey phishing domains that impersonate SSO/MFA services,phishing
+domain,enrollssopasskey.com,high,2026-11-20T22:03:51+00:00,2026-11-20T22:03:51+00:00,1,,Listed in the attacker FQDN list of passkey-themed phishing domains,phishing
+domain,keyconfiguration.com,high,2026-11-20T22:03:51+00:00,2026-11-20T22:03:51+00:00,1,,Listed in the attacker FQDN list of passkey-themed phishing domains,phishing
+domain,mfapasskeysetup.com,high,2026-11-20T22:03:51+00:00,2026-11-20T22:03:51+00:00,1,,Listed in the attacker FQDN list and table of registration patterns used by Com actors,phishing
+domain,myaccountoptions.com,high,2026-10-13T21:33:44.216910+00:00,2026-11-20T22:03:51+00:00,2,,Listed in the attacker FQDN list of passkey-themed phishing domains,phishing
 domain,oskeyregister.com,high,2026-11-20T22:03:51+00:00,2026-11-20T22:03:51+00:00,1,,Phishing domain tied to Com-affiliated passkey campaigns,phishing
-domain,register-passkeys.com,high,2026-11-20T22:03:51+00:00,2026-11-20T22:03:51+00:00,1,,Listed FQDN indicator of passkey phishing,phishing
-sha256,930898e8b65e9cf4e2595ac4092042a707cca8922751e723ad8b86260655154a,high,2026-11-20T22:03:51+00:00,2026-11-20T22:03:51+00:00,1,,Hash of folderextension.crx malicious extension in the IOC list,malware
-sha256,ea8d30c42e758559e78bd1fe97f8849011beb7f24c7f092a066a5a62fa7fbe6f,high,2026-11-20T22:03:51+00:00,2026-11-20T22:03:51+00:00,1,,Hash of folderextension.zip in the IOC list,malware
+domain,oskeysetup.com,high,2026-10-22T14:02:12+00:00,2026-11-20T22:03:51+00:00,2,,Described as attacker-controlled server hosting the malicious browser extension,phishing
+domain,register-passkeys.com,high,2026-11-20T22:03:51+00:00,2026-11-20T22:03:51+00:00,1,,Listed in the attacker FQDN list of passkey-themed phishing domains,phishing
+sha256,930898e8b65e9cf4e2595ac4092042a707cca8922751e723ad8b86260655154a,high,2026-11-20T22:03:51+00:00,2026-11-20T22:03:51+00:00,1,,Hash of folderextension.crx malicious extension listed in IOC table,malware
+sha256,ea8d30c42e758559e78bd1fe97f8849011beb7f24c7f092a066a5a62fa7fbe6f,high,2026-11-20T22:03:51+00:00,2026-11-20T22:03:51+00:00,1,,Hash of folderextension.zip malicious extension listed in IOC table,malware
 domain,nimbuskeep.com,high,2026-11-20T21:07:22+00:00,2026-11-20T21:07:22+00:00,1,,C2 domain for the Rust stealer,c2|exfiltration
 domain,velmontriq.net,high,2026-11-20T21:07:22+00:00,2026-11-20T21:07:22+00:00,1,,Newly registered attacker-controlled domain hosting malware payloads,malware
 sha256,18dd64270e540a52db41bf77e357df709cbecab88e160bd66c23b63f9240ab38,high,2026-11-20T21:07:22+00:00,2026-11-20T21:07:22+00:00,1,,"Hash of loadperf.dll, the side-loaded malicious DLL in the GTA6Cloud campaign listed in the IOC table",malware
@@ -2237,7 +2322,6 @@ domain,nulled.lol,high,2026-10-22T15:01:04.253606+00:00,2026-10-22T15:01:04.2536
 domain,starkrdp.io,high,2026-10-22T15:01:04.253606+00:00,2026-10-22T15:01:04.253606+00:00,1,,Domain used for anonymity services advertised on cybercrime forums,abused_service
 domain,my-github.com,high,2026-10-19T13:09:39+00:00,2026-10-22T14:08:12+00:00,2,,Used in phishing campaign as a GitHub-themed domain,phishing
 ipv4,193.32.204.199,high,2026-10-07T13:03:38+00:00,2026-10-22T14:08:12+00:00,2,,Used for exfiltrating data in a malicious campaign,exfiltration
-domain,oskeysetup.com,high,2026-10-22T14:02:12+00:00,2026-10-22T14:02:12+00:00,1,,Domain used for phishing and adversary-in-the-middle attacks,phishing
 domain,fegrs.adidasabc.com,high,2026-10-22T13:53:58+00:00,2026-10-22T13:53:58+00:00,1,,Domain used as C2 endpoint in a malware operation,c2
 sha256,bdfccc6ab3e592f6cfc47f6deb910950666fa47b5f87c6a08af7096d90e59d0f,high,2026-10-22T13:53:58+00:00,2026-10-22T13:53:58+00:00,1,,Hash associated with a malicious Android package in intrusion logs.,malware
 ipv4,185.238.2.195,high,2026-10-22T13:04:01+00:00,2026-10-22T13:04:01+00:00,1,,Listed as an AiTM relay used by attackers.,proxy_tunnel
@@ -3008,7 +3092,6 @@ md5,f6786ff62fdfdc46cfb84ff7cc2a580a,high,2026-10-13T22:32:04.345781+00:00,2026-
 md5,f6f00417b925bf42090a89f8668fb554,high,2026-10-13T22:32:04.345781+00:00,2026-10-13T22:32:04.345781+00:00,1,,"Listed in a table of IoCs, indicating it is a malware file hash",malware
 md5,f85016e8cc6b509a9fba1ccd1dc88da1,high,2026-10-13T22:32:04.345781+00:00,2026-10-13T22:32:04.345781+00:00,1,,"Listed in a table of IoCs, indicating it is a malware file hash",malware
 md5,fa87911771a52e3c1ffb1c39da59540c,high,2026-10-13T22:32:04.345781+00:00,2026-10-13T22:32:04.345781+00:00,1,,"Listed in a table of IoCs, indicating it is a malware file hash",malware
-domain,myaccountoptions.com,high,2026-10-13T21:33:44.216910+00:00,2026-10-13T21:33:44.216910+00:00,1,,Used in phishing campaigns with target-specific subdomains,phishing
 domain,report.com,high,2026-10-13T21:33:44.216910+00:00,2026-10-13T21:33:44.216910+00:00,1,,Used in phishing campaigns with target-specific subdomains,phishing
 domain,firebox-ssl.com,high,2026-10-13T21:32:17.966241+00:00,2026-10-13T21:32:17.966241+00:00,1,,Domain hosting malicious credential-stealing application.,phishing
 domain,house-connection.pro,high,2026-10-13T21:32:17.966241+00:00,2026-10-13T21:32:17.966241+00:00,1,,Domain involved in credential-harvesting campaign.,phishing

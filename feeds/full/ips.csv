@@ -1,4 +1,11 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason,categories
+ipv4,162.223.89.11,high,2026-11-24T17:02:16.639839+00:00,2026-11-24T17:02:16.639839+00:00,1,,Identified as a MuddyC2Go C2 server used by MuddyWater,c2
+ipv4,94.131.109.65,high,2026-11-24T17:02:16.639839+00:00,2026-11-24T17:02:16.639839+00:00,1,,C2 IP address used in the attack per the article,c2
+ipv4,95.164.46.35,high,2026-11-24T17:02:16.639839+00:00,2026-11-24T17:02:16.639839+00:00,1,,Named as C2 for KorekFile and d.exe in the IOC table,c2
+ipv4,150.242.254.199,high,2026-11-24T15:08:21+00:00,2026-11-24T15:08:21+00:00,1,,Listed in the article's Indicators of Compromise as the reverse shell target used in the attack,c2
+ipv4,204.194.54.240,high,2026-11-24T15:08:21+00:00,2026-11-24T15:08:21+00:00,1,,Described as the hard-coded attacker C2 server used for payload staging and cradles,c2|malware
+ipv4,38.253.224.12,high,2026-11-24T15:08:21+00:00,2026-11-24T15:08:21+00:00,1,,Listed in the IOC section as GSocket and SSH tunnel relay used by the attackers,proxy_tunnel|c2
+ipv4,103.179.143.219,high,2026-11-24T00:00:00+00:00,2026-11-24T00:00:00+00:00,1,,C2 server in PolinRider heartbeat chain,c2
 ipv4,217.60.102.123,high,2026-11-23T11:35:39+00:00,2026-11-23T11:35:39+00:00,1,,Listed as LOLD C2 server in the IOC list,c2
 ipv4,91.92.243.204,high,2026-11-23T11:35:39+00:00,2026-11-23T11:35:39+00:00,1,,Listed as LOLD C2 server in the IOC list,c2
 ipv4,103.147.251.5,high,2026-11-20T14:14:50+00:00,2026-11-20T14:14:50+00:00,1,,Listed as a suspected obfuscation-network IP address associated with ARMORY CASTLE intrusion,other

@@ -1,4 +1,7 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason,categories
+sha256,63e404011aeabb964ce63f467be29d678d0576bddb72124d491ab5565e1044cf,high,2026-11-24T17:02:16.639839+00:00,2026-11-24T17:02:16.639839+00:00,1,,"Hash of the malicious Excel file that leads to C2 162.223.89.11, a malware sample",malware
+sha256,48cf14560a8c2c5eaa984078cb345a81bc6d49d6695a06851499a3a31260aa91,high,2026-11-24T00:00:00+00:00,2026-11-24T00:00:00+00:00,1,,SHA-256 of enterotoxin.exe RAT sample described in article,malware
+sha256,ca2b7eced5937817b2aca2d50542d2e171bc95593be72a94c158616ed17a5334,high,2026-11-24T00:00:00+00:00,2026-11-24T00:00:00+00:00,1,,SHA-256 of obfuscated JavaScript dropper/stealer in malicious npm packages,malware|supply_chain
 sha256,0068c4edd784c482030b68fa3a13e5d16fde30ed999619b87ead40ef5333a074,high,2026-11-23T21:55:22.725000+00:00,2026-11-23T21:55:22.725000+00:00,1,,Listed in file hash table as PyInstaller stealer sample build,malware
 sha256,016f633b9a8dd5ef17d577775cc64f96aa30192f3fbf814eba0c3f5c9fa5d91a,high,2026-11-23T21:55:22.725000+00:00,2026-11-23T21:55:22.725000+00:00,1,,Listed as PyInstaller Chrome stealer malware sample in hash table,malware
 sha256,09dd6f214a5b5a1fe2934cc859a1d1ce566894faf9236a0bcab2d2cf34448d63,high,2026-11-23T21:55:22.725000+00:00,2026-11-23T21:55:22.725000+00:00,1,,Listed as malicious MSBuildAnalyzer.dll in file hash table,supply_chain|malware
@@ -38,8 +41,8 @@ sha256,96fc528ca5e7d1c2b3add5e31b8797cb126f704976c8fbeaecdbf0aa4309ad46,high,202
 sha256,acc706afc9322a3eae1ef49049749e0a7c9f1a123895ac56dc8a289beb2fb5b7,high,2026-11-13T14:30:57.567509+00:00,2026-11-22T16:00:30.690463+00:00,1,,Listed as a malicious file hash in the context of malware analysis.,cryptomining
 sha256,cc1ad7f14777a098ccc91fd4e8f6143da14418c2b6fdf23b7f8f6b3d1b0b7f1d,high,2026-11-13T14:30:57.567509+00:00,2026-11-22T16:00:30.690463+00:00,1,,Listed as a malicious file hash in the context of malware analysis.,cryptomining
 sha256,df8ab6fd699e6ae90e63e9696bae8f01342708bafc2ed88af414337e4f237194,high,2026-11-13T14:30:57.567509+00:00,2026-11-22T16:00:30.690463+00:00,1,,Listed as a malicious file hash in the context of malware analysis.,malware
-sha256,930898e8b65e9cf4e2595ac4092042a707cca8922751e723ad8b86260655154a,high,2026-11-20T22:03:51+00:00,2026-11-20T22:03:51+00:00,1,,Hash of folderextension.crx malicious extension in the IOC list,malware
-sha256,ea8d30c42e758559e78bd1fe97f8849011beb7f24c7f092a066a5a62fa7fbe6f,high,2026-11-20T22:03:51+00:00,2026-11-20T22:03:51+00:00,1,,Hash of folderextension.zip in the IOC list,malware
+sha256,930898e8b65e9cf4e2595ac4092042a707cca8922751e723ad8b86260655154a,high,2026-11-20T22:03:51+00:00,2026-11-20T22:03:51+00:00,1,,Hash of folderextension.crx malicious extension listed in IOC table,malware
+sha256,ea8d30c42e758559e78bd1fe97f8849011beb7f24c7f092a066a5a62fa7fbe6f,high,2026-11-20T22:03:51+00:00,2026-11-20T22:03:51+00:00,1,,Hash of folderextension.zip malicious extension listed in IOC table,malware
 sha256,18dd64270e540a52db41bf77e357df709cbecab88e160bd66c23b63f9240ab38,high,2026-11-20T21:07:22+00:00,2026-11-20T21:07:22+00:00,1,,"Hash of loadperf.dll, the side-loaded malicious DLL in the GTA6Cloud campaign listed in the IOC table",malware
 sha256,28f9725fc6a701fc5d3e06c5687c2a842e0cdf79b9b2780fb5a804fc006410e8,high,2026-11-20T21:07:22+00:00,2026-11-20T21:07:22+00:00,1,,"Hash of GTA6Cloud.exe, the malicious executable in the archive listed in the IOC table",malware
 sha256,33f1649976ff7a6c1a785a1d9eb091e078a5d653bff5f696fa48d80d5ef904f3,high,2026-11-20T21:07:22+00:00,2026-11-20T21:07:22+00:00,1,,Hash of PhotoCache.exe loader listed in the malware IOC table,malware
