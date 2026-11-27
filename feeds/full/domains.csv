@@ -1,6 +1,32 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason,categories
-domain,cgfcbftdsf-microsoft-auth-portal.static.hf.space,high,2026-11-26T10:36:03.851361+00:00,2026-11-26T10:36:03.851361+00:00,1,,Attacker-created Space serving a fake Microsoft login page that exfiltrates credentials to Telegram,phishing
-domain,newpayapp.com,high,2026-11-23T15:15:15+00:00,2026-11-26T06:33:08.896258+00:00,2,,"Attempted malware domain first registered by the GT13 actor, per the article's attribution of attack infrastructure.",malware
+domain,mail.c1a2.top,high,2026-11-27T09:34:01+00:00,2026-11-27T09:34:01+00:00,1,,Attacker-controlled host serving the trojanized payloads (7zr.exe and dsv2_py39_agent.7z) for the Python RAT delivery chain.,malware
+domain,cgfcbftdsf-microsoft-auth-portal.static.hf.space,high,2026-11-26T10:36:03.851361+00:00,2026-11-27T05:01:00.461937+00:00,1,,Attacker-created Space serving a fake Microsoft login page that exfiltrates credentials to Telegram,phishing
+domain,accenture.international-interviews.com,high,2026-11-26T17:15:27+00:00,2026-11-26T17:15:27+00:00,1,,Brand-impersonating phishing subdomain hosting fake Accenture site,phishing
+domain,nvidia.feedback-study.com,high,2026-11-26T17:15:27+00:00,2026-11-26T17:15:27+00:00,1,,Brand-specific lookalike subdomain hosting a phishing page impersonating Nvidia,phishing
+domain,newpayapp.com,high,2026-11-23T15:15:15+00:00,2026-11-26T17:06:30.691545+00:00,2,,"Attempted malware domain first registered by the GT13 actor, per the article's attribution of attack infrastructure.",malware
+domain,api.huntrole.com,high,2026-11-26T16:09:31.585179+00:00,2026-11-26T16:09:31.585179+00:00,1,,"Server the malicious extension contacts on every start to receive tasks, operated by the campaign",c2
+domain,huntrole.org,high,2026-11-26T15:44:32+00:00,2026-11-26T16:09:31.585179+00:00,2,,Recently registered lookalike sender domain used in fraudulent recruitment emails,phishing
+domain,accurasofthire.com,high,2026-11-13T17:04:34+00:00,2026-11-26T15:44:32+00:00,3,,Fake hiring portal registered by the campaign operators to lure targets into running malware-laced assessments,malware
+domain,beta666888.cc,high,2026-11-26T15:06:20+00:00,2026-11-26T15:06:20+00:00,1,,C2 server for the Android RAT builder configuration,c2
+domain,ftp.rivardxteriaspte.co.uk,high,2026-11-26T14:38:30.811044+00:00,2026-11-26T14:38:30.811044+00:00,1,,Article states this is a C2 server run by the malicious actor for FTP exfiltration communications,c2
+domain,mail.rivardxteriaspte.co.uk,high,2026-11-26T14:38:30.811044+00:00,2026-11-26T14:38:30.811044+00:00,1,,Article states this is a C2 server run by the malicious actor for SMTP communications,c2
+domain,codes-team.com,high,2026-11-26T14:04:54.446769+00:00,2026-11-26T14:04:54.446769+00:00,1,,Root domain registered March 2026 hosting lookalike fake software download subdomains impersonating Teams and Roblox pages; attacker-registered.,fake_software
+domain,monkeysholder.info,high,2026-11-26T14:04:54.446769+00:00,2026-11-26T14:04:54.446769+00:00,1,,C2 server serving the Vinci RAT stager via api.php and index.php endpoints.,c2
+domain,snipp.codes-team.com,high,2026-11-26T13:04:30+00:00,2026-11-26T14:04:54.446769+00:00,2,,Fake snipping tool installation site subdomain under attacker-registered codes-team.com delivering the malicious installer.,fake_software|malware
+domain,4kwallpapers.top,high,2026-11-26T12:42:14+00:00,2026-11-26T13:04:00.879904+00:00,2,,Listed under Malware Hosting Domains; fake wallpaper download site created for the SYS010 campaign,malware
+domain,best-pc-softs.top,high,2026-11-26T12:42:14+00:00,2026-11-26T13:04:00.879904+00:00,2,,"Listed as backend of the decoy application in the IOC section, attacker-registered lookalike",malware
+domain,content.document-hub.top,high,2026-11-26T12:42:14+00:00,2026-11-26T13:04:00.879904+00:00,2,,Listed under Malware Hosting Domains in the IOC table,malware
+domain,dnow.top,high,2026-11-26T12:42:14+00:00,2026-11-26T13:04:00.879904+00:00,2,,Attacker domain returned by Telegram bot as new extension server in signed list,c2
+domain,esora.top,high,2026-11-26T12:42:14+00:00,2026-11-26T13:04:00.879904+00:00,2,,Attacker domain returned by Telegram bot as new server in signed list,c2
+domain,gover.top,high,2026-11-26T12:42:14+00:00,2026-11-26T13:04:00.879904+00:00,2,,Listed as download host in malware hosting IOCs,malware
+domain,merio.top,high,2026-11-26T12:42:14+00:00,2026-11-26T13:04:00.879904+00:00,2,,Attacker domain returned by Telegram bot as new server in signed list,c2|dynamic_dns
+domain,openmagic.net,high,2026-11-26T12:42:14+00:00,2026-11-26T13:04:00.879904+00:00,2,,Listed under C2 Domains (browser extension) in IOC section,c2
+domain,rarer.top,high,2026-11-26T12:42:14+00:00,2026-11-26T13:04:00.879904+00:00,2,,Server operated by threat actors that assigns extension identifiers to victims,c2
+domain,scontent.storys.top,high,2026-11-26T12:42:14+00:00,2026-11-26T13:04:00.879904+00:00,2,,Listed under Malware Hosting Domains in IOC table,malware
+domain,static.docs-helper.top,high,2026-11-26T12:42:14+00:00,2026-11-26T13:04:00.879904+00:00,2,,Described as attacker-controlled website hosting the malicious extension,malware
+domain,svc.workplace-local.com,high,2026-11-26T12:42:14+00:00,2026-11-26T13:04:00.879904+00:00,2,,Listed under C2 Domains (installer module and MDM) in IOC section,c2
+domain,upfiles.top,high,2026-11-26T12:42:14+00:00,2026-11-26T13:04:00.879904+00:00,2,,Listed as download host in malware hosting IOCs,malware
+domain,wallpaper-engine.pro,high,2026-11-26T12:42:14+00:00,2026-11-26T13:04:00.879904+00:00,2,,Listed under Malware Hosting Domains; impersonates Wallpaper Engine,malware
 domain,cloaderx.sytes.net,high,2026-11-25T19:44:32+00:00,2026-11-25T19:44:32+00:00,1,,Named as the C2 domain the LuaJIT dropper calls back to; dynamic DNS subdomain used for malware callbacks,c2|dynamic_dns
 domain,activisionblizzard-legal.com,high,2026-11-24T17:00:36.145307+00:00,2026-11-25T15:38:09.370457+00:00,1,,"Brand-themed legal lookalike domain in the vishing lure cluster, attacker-registered for credential phishing",phishing
 domain,henryschein-legal.com,high,2026-11-24T17:00:36.145307+00:00,2026-11-25T15:38:09.370457+00:00,1,,Attacker-registered lookalike lure domain targeting Henry Schein,phishing
@@ -314,7 +340,6 @@ domain,wazirxkyc.com,high,2026-11-14T21:09:07.593272+00:00,2026-11-14T21:09:07.5
 domain,latestgta6.com,high,2026-11-14T19:32:34+00:00,2026-11-14T19:32:34+00:00,1,,"Advertised a fake GTA 6 copy, likely attacker-controlled.",crypto_drainer|scam_fraud
 domain,pbsotalk.com,high,2026-11-14T16:39:11.976823+00:00,2026-11-14T16:39:11.976823+00:00,1,,Launched by Dougan as a forum for anonymous tips on law enforcement corruption.,influence_operations
 domain,api.cloudvflare.com,high,2026-11-14T07:47:10+00:00,2026-11-14T07:47:10+00:00,1,,"Beaconed to by a malicious binary, likely attacker-controlled.",c2|malware
-domain,accurasofthire.com,high,2026-11-13T17:04:34+00:00,2026-11-13T18:33:32.637467+00:00,2,,Identified as a careers site and loader server controlled by attackers.,malware
 domain,cryptor.biz,high,2026-11-13T15:59:00+00:00,2026-11-13T15:59:00+00:00,1,,Used to test malware against antivirus tools.,abused_service
 domain,cryptor.live,high,2026-11-13T15:59:00+00:00,2026-11-13T15:59:00+00:00,1,,Used to test malware against antivirus tools.,abused_service
 domain,cctv-update.top,high,2026-11-13T14:03:43+00:00,2026-11-13T14:06:17+00:00,2,,Domain registered by attacker and associated with malicious activity,malware

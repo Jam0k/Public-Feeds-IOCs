@@ -1,7 +1,41 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason,categories
+sha256,1a21bad1df69b51efebfd2fae849ac27722b0dfac7b1cb459cf81d38b36f9705,high,2026-11-26T16:09:34.788059+00:00,2026-11-26T16:09:34.788059+00:00,1,,Hash of fa-solid-900.woff2 malware sample listed in the IOC table,malware
+sha256,3b572a613f5013a64e1877dfed3873f2bcbd52e5259b199d41e02c33840abbcb,high,2026-11-26T16:09:34.788059+00:00,2026-11-26T16:09:34.788059+00:00,1,,Hash of fa-solid-300.llf malware sample listed in the IOC table,malware
+sha256,6200054e0ea8575c3af37e4da10e23249bf0a17d1d6843ecc81ee35af2f7d1f2,high,2026-11-26T16:09:34.788059+00:00,2026-11-26T16:09:34.788059+00:00,1,,Hash of malicious .vscode/tasks.json listed in the IOC table,malware
+sha256,90a3875ff84a53473107a03cec6ad19636da0cc0eccb02c036d03b8f2a5dff28,high,2026-11-26T16:09:34.788059+00:00,2026-11-26T16:09:34.788059+00:00,1,,Hash of malicious tasks.json variant listed in the IOC table,malware
+sha256,91e334655d31f84963e6b9369d41698f51b00d7a203cf314ceba01780e6f337c,high,2026-11-26T16:09:34.788059+00:00,2026-11-26T16:09:34.788059+00:00,1,,Hash of trojanized eslint.config.mjs listed in the IOC table,malware
+sha256,fbf0e36dd7eb1e70fc4868a8d0d0cd8f6c80753241cd88a3518f40e9a67d232e,high,2026-11-26T16:09:34.788059+00:00,2026-11-26T16:09:34.788059+00:00,1,,Hash of tasks.json file listed in the IOC table,malware
+md5,b6275be58a539ea9548d02ab6229c768,high,2026-11-26T14:38:30.811044+00:00,2026-11-26T14:38:30.811044+00:00,1,,MD5 of the Windows Update.exe malware sample analysed in the article,malware
+sha256,3d155fb874cbef9bf44cff125520a437e791e6faf33efb9f5937097a99f6d31e,high,2026-11-26T12:42:14+00:00,2026-11-26T12:42:14+00:00,1,,Malicious Wallpaper_Engine.zip hash in the IOC list,malware
+sha256,419f95a427116725e8eb691a53afacaf71ca023139b3f78d51edf66d332b5ec9,high,2026-11-26T12:42:14+00:00,2026-11-26T12:42:14+00:00,1,,Malicious Wallpaper_Engine.zip hash in the IOC list,malware
+sha256,5f5f2d9a34e03dc59530173a1315c344dc690acee3cd7a65c3ff72da65ca68a9,high,2026-11-26T12:42:14+00:00,2026-11-26T12:42:14+00:00,1,,Malicious Firefox extension XPI hash in the IOC list,malware
+sha256,92686bac718b5853bc26abeafe3bd0d5a542060c94a8715e76dc1a62834f6691,high,2026-11-26T12:42:14+00:00,2026-11-26T12:42:14+00:00,1,,Malicious Chrome extension CRX hash in the IOC list,malware
+sha256,a1e3c512e1b8036d3c2fd2cc7bbefad7b2919000be169db110f1e32e8a085201,high,2026-11-26T12:42:14+00:00,2026-11-26T12:42:14+00:00,1,,Malicious Live_Wallpapers.zip hash in the IOC list,malware
+sha256,2514913f8a6f4671a058304651289b0babe47d81c044212b3140ed1c1b643b09,high,2026-11-26T12:01:04.640177+00:00,2026-11-26T12:01:04.640177+00:00,1,,Malware DLL hash in the IOC list,malware
+sha256,25b3981176cec03b0d842008c2f8b0bfb064dfe53bb43ae01653bfe013cac299,high,2026-11-26T12:01:04.640177+00:00,2026-11-26T12:01:04.640177+00:00,1,,Malware file hash in the IOC list,malware
+sha256,388a796580234efc95f3b1c70ad4cb44bfddc7ba0f9203bf4902b9929b136f95,high,2026-11-26T12:01:04.640177+00:00,2026-11-26T12:01:04.640177+00:00,1,,Malware helper EXE hash in the IOC list,malware
+sha256,3a9d8e1f3f7b9f1f8eb5bd03de44abfd5ba2b2b08a263e9362f8c1dcdd8dee53,high,2026-11-26T12:01:04.640177+00:00,2026-11-26T12:01:04.640177+00:00,1,,Malware Setup.exe hash in the IOC list,malware
+sha256,408632e9f0a1e3e224747442017677e3ac11f6370fc90154f70ae6c7f25259e7,high,2026-11-26T12:01:04.640177+00:00,2026-11-26T12:01:04.640177+00:00,1,,Malware Updater hash in the IOC list,malware
+sha256,4675678c2314159e1efdbf2f26debc2858acad0d00d5ba3d1f6e5a7081c476dc,high,2026-11-26T12:01:04.640177+00:00,2026-11-26T12:01:04.640177+00:00,1,,Malware Setup.exe hash in the IOC list,malware
+sha256,4d55f55c35dcca832d6a854edcb28df0517feb65de9757e00c741d3180bfb856,high,2026-11-26T12:01:04.640177+00:00,2026-11-26T12:01:04.640177+00:00,1,,Malware-associated file hash in the IOC list,malware
+sha256,4ecdf80bcace65f8feecd4b1acb97510ed2fa3abbddfcc6d5bd720829db29806,high,2026-11-26T12:01:04.640177+00:00,2026-11-26T12:01:04.640177+00:00,1,,Malware-associated file hash in the IOC list,malware
 sha256,4fcf6394b14e24d830b04209a0ede1dcc911d199740a55d12c8ab8aeabb84073,high,2026-11-26T12:01:04.640177+00:00,2026-11-26T12:01:04.640177+00:00,1,,"Listed in the IOC-style sample list as TaskLoad.exe, a malware component of the campaign",malware
 sha256,55c4913ee154821dd43812e49e28ba9248103644a59a5f4704c6a64cffa83a8d,high,2026-11-26T12:01:04.640177+00:00,2026-11-26T12:01:04.640177+00:00,1,,Listed in the sample hash list as executable.tmp dropped by the malware chain,malware
+sha256,6feeb95115d7d8a51403996fee1ad219a52151662d3a01a2d17cfb77dbd51f3b,high,2026-11-26T12:01:04.640177+00:00,2026-11-26T12:01:04.640177+00:00,1,,Malware DLL hash in the IOC list,malware
+sha256,7f36fe6224fb7e6f6fdbfafa5eac99f5dedfc82fb5363bd046a4be9557b96f60,high,2026-11-26T12:01:04.640177+00:00,2026-11-26T12:01:04.640177+00:00,1,,Malware sample hash in the IOC list,malware
+sha256,8e6d7eb780d6e05a7728061d06bab9dabc280c4906b3f07a577d737924bbada6,high,2026-11-26T12:01:04.640177+00:00,2026-11-26T12:01:04.640177+00:00,1,,Malware libcef.dll hash in the IOC list,malware
+sha256,95e04537263f52975b63f004f4d576380b23d47309e43e95b16fceb80d4ef836,high,2026-11-26T12:01:04.640177+00:00,2026-11-26T12:01:04.640177+00:00,1,,Malware-associated file hash in the IOC list,malware
+sha256,9bd52ec7e7750500de33df995fcc7e68ed1da70d125579cf76ae8f787577ef75,high,2026-11-26T12:01:04.640177+00:00,2026-11-26T12:01:04.640177+00:00,1,,Malware DLL hash in the IOC list,malware
+sha256,a5eb53004c797fbc0117056221b18a7bdf04335029a72c7c8d03d2234baf44ae,high,2026-11-26T12:01:04.640177+00:00,2026-11-26T12:01:04.640177+00:00,1,,Malware-associated instal.ini hash in the IOC list,malware
+sha256,c337899c72e2de6f7049aaf53826f4d34f159adddbc9fbb07e524a70e91104ea,high,2026-11-26T12:01:04.640177+00:00,2026-11-26T12:01:04.640177+00:00,1,,Malware-associated file hash in the IOC list,malware
+sha256,d2d6a47a8ae96fcae7ea96683a9b700c2f28793495c0b1e3050c5af8c7c7486b,high,2026-11-26T12:01:04.640177+00:00,2026-11-26T12:01:04.640177+00:00,1,,Malware-associated file hash in the IOC list,malware
+sha256,e85d448b73b1bfae42d7b16d34892d47ce8a055cfe405082b5fa7f36bf5cfd5c,high,2026-11-26T12:01:04.640177+00:00,2026-11-26T12:01:04.640177+00:00,1,,Malware-associated file hash in the IOC list,malware
 sha256,ecb5d5968d77e77b397ef18a077612d8f732a3f9cb78c7d8066c94bd9e580281,high,2026-11-26T12:01:04.640177+00:00,2026-11-26T12:01:04.640177+00:00,1,,"Listed in the Indicators of Compromise section as Ocam_setup.exe, the malicious installer",malware
+sha256,ed2c6bc3e77a404b8cf61176844ad19c1fdcae19881206631e3f0831a4bd919a,high,2026-11-26T12:01:04.640177+00:00,2026-11-26T12:01:04.640177+00:00,1,,Malware DLL hash in the IOC list,malware
+sha256,f1fb4db77fcc50d839523d8df7a0d04a5110320cce1718cf3728ea1be7b2a6f8,high,2026-11-26T12:01:04.640177+00:00,2026-11-26T12:01:04.640177+00:00,1,,Malware dll1.dll hash in the IOC list,malware
+sha256,f4d68918fe8b7ef0a5b0e53a7c62216e67ccca27e2000a8ba6dcd03140b0c2b9,high,2026-11-26T12:01:04.640177+00:00,2026-11-26T12:01:04.640177+00:00,1,,Malware-associated file hash in the IOC list,malware
+sha256,b02a81974810532fff8f76903e09b20431857bfaff00f2473421f4a4fb8162b5,high,2026-11-26T02:02:45.082472+00:00,2026-11-26T02:02:45.805175+00:00,1,,SHA-256 of the malicious api.js loader listed in the IOC section as a malware sample.,supply_chain|malware
+sha256,8d463b9511a97b3f73f00acdc2b5ea7ffea64546c93c6898fb70e97f4737b391,high,2026-11-26T02:02:45.082472+00:00,2026-11-26T02:02:45.082472+00:00,1,,SHA-256 of the malicious package.json listed in the IOC section as a malware artefact.,malware
 sha256,63e404011aeabb964ce63f467be29d678d0576bddb72124d491ab5565e1044cf,high,2026-11-24T17:02:16.639839+00:00,2026-11-24T17:02:16.639839+00:00,1,,"Hash of the malicious Excel file that leads to C2 162.223.89.11, a malware sample",malware
 sha256,48cf14560a8c2c5eaa984078cb345a81bc6d49d6695a06851499a3a31260aa91,high,2026-11-24T00:00:00+00:00,2026-11-24T00:00:00+00:00,1,,SHA-256 of enterotoxin.exe RAT sample described in article,malware
 sha256,ca2b7eced5937817b2aca2d50542d2e171bc95593be72a94c158616ed17a5334,high,2026-11-24T00:00:00+00:00,2026-11-24T00:00:00+00:00,1,,SHA-256 of obfuscated JavaScript dropper/stealer in malicious npm packages,malware|supply_chain

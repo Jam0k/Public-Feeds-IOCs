@@ -1,9 +1,75 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason,categories
+domain,mail.c1a2.top,high,2026-11-27T09:34:01+00:00,2026-11-27T09:34:01+00:00,1,,Attacker-controlled host serving the trojanized payloads (7zr.exe and dsv2_py39_agent.7z) for the Python RAT delivery chain.,malware
+domain,cgfcbftdsf-microsoft-auth-portal.static.hf.space,high,2026-11-26T10:36:03.851361+00:00,2026-11-27T05:01:00.461937+00:00,1,,Attacker-created Space serving a fake Microsoft login page that exfiltrates credentials to Telegram,phishing
+domain,accenture.international-interviews.com,high,2026-11-26T17:15:27+00:00,2026-11-26T17:15:27+00:00,1,,Brand-impersonating phishing subdomain hosting fake Accenture site,phishing
+domain,nvidia.feedback-study.com,high,2026-11-26T17:15:27+00:00,2026-11-26T17:15:27+00:00,1,,Brand-specific lookalike subdomain hosting a phishing page impersonating Nvidia,phishing
+domain,newpayapp.com,high,2026-11-23T15:15:15+00:00,2026-11-26T17:06:30.691545+00:00,2,,"Attempted malware domain first registered by the GT13 actor, per the article's attribution of attack infrastructure.",malware
+sha256,1a21bad1df69b51efebfd2fae849ac27722b0dfac7b1cb459cf81d38b36f9705,high,2026-11-26T16:09:34.788059+00:00,2026-11-26T16:09:34.788059+00:00,1,,Hash of fa-solid-900.woff2 malware sample listed in the IOC table,malware
+sha256,3b572a613f5013a64e1877dfed3873f2bcbd52e5259b199d41e02c33840abbcb,high,2026-11-26T16:09:34.788059+00:00,2026-11-26T16:09:34.788059+00:00,1,,Hash of fa-solid-300.llf malware sample listed in the IOC table,malware
+sha256,6200054e0ea8575c3af37e4da10e23249bf0a17d1d6843ecc81ee35af2f7d1f2,high,2026-11-26T16:09:34.788059+00:00,2026-11-26T16:09:34.788059+00:00,1,,Hash of malicious .vscode/tasks.json listed in the IOC table,malware
+sha256,90a3875ff84a53473107a03cec6ad19636da0cc0eccb02c036d03b8f2a5dff28,high,2026-11-26T16:09:34.788059+00:00,2026-11-26T16:09:34.788059+00:00,1,,Hash of malicious tasks.json variant listed in the IOC table,malware
+sha256,91e334655d31f84963e6b9369d41698f51b00d7a203cf314ceba01780e6f337c,high,2026-11-26T16:09:34.788059+00:00,2026-11-26T16:09:34.788059+00:00,1,,Hash of trojanized eslint.config.mjs listed in the IOC table,malware
+sha256,fbf0e36dd7eb1e70fc4868a8d0d0cd8f6c80753241cd88a3518f40e9a67d232e,high,2026-11-26T16:09:34.788059+00:00,2026-11-26T16:09:34.788059+00:00,1,,Hash of tasks.json file listed in the IOC table,malware
+domain,api.huntrole.com,high,2026-11-26T16:09:31.585179+00:00,2026-11-26T16:09:31.585179+00:00,1,,"Server the malicious extension contacts on every start to receive tasks, operated by the campaign",c2
+domain,huntrole.org,high,2026-11-26T15:44:32+00:00,2026-11-26T16:09:31.585179+00:00,2,,Recently registered lookalike sender domain used in fraudulent recruitment emails,phishing
+domain,accurasofthire.com,high,2026-11-13T17:04:34+00:00,2026-11-26T15:44:32+00:00,3,,Fake hiring portal registered by the campaign operators to lure targets into running malware-laced assessments,malware
+ipv4,103.179.142.155,high,2026-11-13T17:04:34+00:00,2026-11-26T15:44:32+00:00,2,,C2 server address extracted from the NullReceiver wallet data,malware
+domain,beta666888.cc,high,2026-11-26T15:06:20+00:00,2026-11-26T15:06:20+00:00,1,,C2 server for the Android RAT builder configuration,c2
+ipv4,118.45.196.225,high,2026-10-05T13:30:43.355486+00:00,2026-11-26T15:05:50.662051+00:00,2,,Listed in the Cling C2/payload distribution URL list as an attacker-operated host serving alya binaries on port 800,malware
+ipv4,202.110.70.60,high,2026-11-26T15:05:50.662051+00:00,2026-11-26T15:05:50.662051+00:00,1,,"Hosts alya payload binaries at port 800 in the IOC table, indicating attacker-controlled distribution infrastructure",malware|botnet
+ipv4,58.211.144.243,high,2026-10-05T13:30:43.355486+00:00,2026-11-26T15:05:50.662051+00:00,2,,"Hosts alya payload binaries at port 800 in the IOC table, indicating attacker-controlled distribution infrastructure",malware
+domain,ftp.rivardxteriaspte.co.uk,high,2026-11-26T14:38:30.811044+00:00,2026-11-26T14:38:30.811044+00:00,1,,Article states this is a C2 server run by the malicious actor for FTP exfiltration communications,c2
+domain,mail.rivardxteriaspte.co.uk,high,2026-11-26T14:38:30.811044+00:00,2026-11-26T14:38:30.811044+00:00,1,,Article states this is a C2 server run by the malicious actor for SMTP communications,c2
+md5,b6275be58a539ea9548d02ab6229c768,high,2026-11-26T14:38:30.811044+00:00,2026-11-26T14:38:30.811044+00:00,1,,MD5 of the Windows Update.exe malware sample analysed in the article,malware
+domain,codes-team.com,high,2026-11-26T14:04:54.446769+00:00,2026-11-26T14:04:54.446769+00:00,1,,Root domain registered March 2026 hosting lookalike fake software download subdomains impersonating Teams and Roblox pages; attacker-registered.,fake_software
+domain,monkeysholder.info,high,2026-11-26T14:04:54.446769+00:00,2026-11-26T14:04:54.446769+00:00,1,,C2 server serving the Vinci RAT stager via api.php and index.php endpoints.,c2
+domain,snipp.codes-team.com,high,2026-11-26T13:04:30+00:00,2026-11-26T14:04:54.446769+00:00,2,,Fake snipping tool installation site subdomain under attacker-registered codes-team.com delivering the malicious installer.,fake_software|malware
+domain,4kwallpapers.top,high,2026-11-26T12:42:14+00:00,2026-11-26T13:04:00.879904+00:00,2,,Listed under Malware Hosting Domains; fake wallpaper download site created for the SYS010 campaign,malware
+domain,best-pc-softs.top,high,2026-11-26T12:42:14+00:00,2026-11-26T13:04:00.879904+00:00,2,,"Listed as backend of the decoy application in the IOC section, attacker-registered lookalike",malware
+domain,content.document-hub.top,high,2026-11-26T12:42:14+00:00,2026-11-26T13:04:00.879904+00:00,2,,Listed under Malware Hosting Domains in the IOC table,malware
+domain,dnow.top,high,2026-11-26T12:42:14+00:00,2026-11-26T13:04:00.879904+00:00,2,,Attacker domain returned by Telegram bot as new extension server in signed list,c2
+domain,esora.top,high,2026-11-26T12:42:14+00:00,2026-11-26T13:04:00.879904+00:00,2,,Attacker domain returned by Telegram bot as new server in signed list,c2
+domain,gover.top,high,2026-11-26T12:42:14+00:00,2026-11-26T13:04:00.879904+00:00,2,,Listed as download host in malware hosting IOCs,malware
+domain,merio.top,high,2026-11-26T12:42:14+00:00,2026-11-26T13:04:00.879904+00:00,2,,Attacker domain returned by Telegram bot as new server in signed list,c2|dynamic_dns
+domain,openmagic.net,high,2026-11-26T12:42:14+00:00,2026-11-26T13:04:00.879904+00:00,2,,Listed under C2 Domains (browser extension) in IOC section,c2
+domain,rarer.top,high,2026-11-26T12:42:14+00:00,2026-11-26T13:04:00.879904+00:00,2,,Server operated by threat actors that assigns extension identifiers to victims,c2
+domain,scontent.storys.top,high,2026-11-26T12:42:14+00:00,2026-11-26T13:04:00.879904+00:00,2,,Listed under Malware Hosting Domains in IOC table,malware
+domain,static.docs-helper.top,high,2026-11-26T12:42:14+00:00,2026-11-26T13:04:00.879904+00:00,2,,Described as attacker-controlled website hosting the malicious extension,malware
+domain,svc.workplace-local.com,high,2026-11-26T12:42:14+00:00,2026-11-26T13:04:00.879904+00:00,2,,Listed under C2 Domains (installer module and MDM) in IOC section,c2
+domain,upfiles.top,high,2026-11-26T12:42:14+00:00,2026-11-26T13:04:00.879904+00:00,2,,Listed as download host in malware hosting IOCs,malware
+domain,wallpaper-engine.pro,high,2026-11-26T12:42:14+00:00,2026-11-26T13:04:00.879904+00:00,2,,Listed under Malware Hosting Domains; impersonates Wallpaper Engine,malware
+sha256,3d155fb874cbef9bf44cff125520a437e791e6faf33efb9f5937097a99f6d31e,high,2026-11-26T12:42:14+00:00,2026-11-26T12:42:14+00:00,1,,Malicious Wallpaper_Engine.zip hash in the IOC list,malware
+sha256,419f95a427116725e8eb691a53afacaf71ca023139b3f78d51edf66d332b5ec9,high,2026-11-26T12:42:14+00:00,2026-11-26T12:42:14+00:00,1,,Malicious Wallpaper_Engine.zip hash in the IOC list,malware
+sha256,5f5f2d9a34e03dc59530173a1315c344dc690acee3cd7a65c3ff72da65ca68a9,high,2026-11-26T12:42:14+00:00,2026-11-26T12:42:14+00:00,1,,Malicious Firefox extension XPI hash in the IOC list,malware
+sha256,92686bac718b5853bc26abeafe3bd0d5a542060c94a8715e76dc1a62834f6691,high,2026-11-26T12:42:14+00:00,2026-11-26T12:42:14+00:00,1,,Malicious Chrome extension CRX hash in the IOC list,malware
+sha256,a1e3c512e1b8036d3c2fd2cc7bbefad7b2919000be169db110f1e32e8a085201,high,2026-11-26T12:42:14+00:00,2026-11-26T12:42:14+00:00,1,,Malicious Live_Wallpapers.zip hash in the IOC list,malware
+ipv4,209.99.188.119,high,2026-11-26T12:21:42+00:00,2026-11-26T12:21:42+00:00,1,,Listed as the C&C IP for the ClingSTUN backdoor,c2
+sha256,2514913f8a6f4671a058304651289b0babe47d81c044212b3140ed1c1b643b09,high,2026-11-26T12:01:04.640177+00:00,2026-11-26T12:01:04.640177+00:00,1,,Malware DLL hash in the IOC list,malware
+sha256,25b3981176cec03b0d842008c2f8b0bfb064dfe53bb43ae01653bfe013cac299,high,2026-11-26T12:01:04.640177+00:00,2026-11-26T12:01:04.640177+00:00,1,,Malware file hash in the IOC list,malware
+sha256,388a796580234efc95f3b1c70ad4cb44bfddc7ba0f9203bf4902b9929b136f95,high,2026-11-26T12:01:04.640177+00:00,2026-11-26T12:01:04.640177+00:00,1,,Malware helper EXE hash in the IOC list,malware
+sha256,3a9d8e1f3f7b9f1f8eb5bd03de44abfd5ba2b2b08a263e9362f8c1dcdd8dee53,high,2026-11-26T12:01:04.640177+00:00,2026-11-26T12:01:04.640177+00:00,1,,Malware Setup.exe hash in the IOC list,malware
+sha256,408632e9f0a1e3e224747442017677e3ac11f6370fc90154f70ae6c7f25259e7,high,2026-11-26T12:01:04.640177+00:00,2026-11-26T12:01:04.640177+00:00,1,,Malware Updater hash in the IOC list,malware
+sha256,4675678c2314159e1efdbf2f26debc2858acad0d00d5ba3d1f6e5a7081c476dc,high,2026-11-26T12:01:04.640177+00:00,2026-11-26T12:01:04.640177+00:00,1,,Malware Setup.exe hash in the IOC list,malware
+sha256,4d55f55c35dcca832d6a854edcb28df0517feb65de9757e00c741d3180bfb856,high,2026-11-26T12:01:04.640177+00:00,2026-11-26T12:01:04.640177+00:00,1,,Malware-associated file hash in the IOC list,malware
+sha256,4ecdf80bcace65f8feecd4b1acb97510ed2fa3abbddfcc6d5bd720829db29806,high,2026-11-26T12:01:04.640177+00:00,2026-11-26T12:01:04.640177+00:00,1,,Malware-associated file hash in the IOC list,malware
 sha256,4fcf6394b14e24d830b04209a0ede1dcc911d199740a55d12c8ab8aeabb84073,high,2026-11-26T12:01:04.640177+00:00,2026-11-26T12:01:04.640177+00:00,1,,"Listed in the IOC-style sample list as TaskLoad.exe, a malware component of the campaign",malware
 sha256,55c4913ee154821dd43812e49e28ba9248103644a59a5f4704c6a64cffa83a8d,high,2026-11-26T12:01:04.640177+00:00,2026-11-26T12:01:04.640177+00:00,1,,Listed in the sample hash list as executable.tmp dropped by the malware chain,malware
+sha256,6feeb95115d7d8a51403996fee1ad219a52151662d3a01a2d17cfb77dbd51f3b,high,2026-11-26T12:01:04.640177+00:00,2026-11-26T12:01:04.640177+00:00,1,,Malware DLL hash in the IOC list,malware
+sha256,7f36fe6224fb7e6f6fdbfafa5eac99f5dedfc82fb5363bd046a4be9557b96f60,high,2026-11-26T12:01:04.640177+00:00,2026-11-26T12:01:04.640177+00:00,1,,Malware sample hash in the IOC list,malware
+sha256,8e6d7eb780d6e05a7728061d06bab9dabc280c4906b3f07a577d737924bbada6,high,2026-11-26T12:01:04.640177+00:00,2026-11-26T12:01:04.640177+00:00,1,,Malware libcef.dll hash in the IOC list,malware
+sha256,95e04537263f52975b63f004f4d576380b23d47309e43e95b16fceb80d4ef836,high,2026-11-26T12:01:04.640177+00:00,2026-11-26T12:01:04.640177+00:00,1,,Malware-associated file hash in the IOC list,malware
+sha256,9bd52ec7e7750500de33df995fcc7e68ed1da70d125579cf76ae8f787577ef75,high,2026-11-26T12:01:04.640177+00:00,2026-11-26T12:01:04.640177+00:00,1,,Malware DLL hash in the IOC list,malware
+sha256,a5eb53004c797fbc0117056221b18a7bdf04335029a72c7c8d03d2234baf44ae,high,2026-11-26T12:01:04.640177+00:00,2026-11-26T12:01:04.640177+00:00,1,,Malware-associated instal.ini hash in the IOC list,malware
+sha256,c337899c72e2de6f7049aaf53826f4d34f159adddbc9fbb07e524a70e91104ea,high,2026-11-26T12:01:04.640177+00:00,2026-11-26T12:01:04.640177+00:00,1,,Malware-associated file hash in the IOC list,malware
+sha256,d2d6a47a8ae96fcae7ea96683a9b700c2f28793495c0b1e3050c5af8c7c7486b,high,2026-11-26T12:01:04.640177+00:00,2026-11-26T12:01:04.640177+00:00,1,,Malware-associated file hash in the IOC list,malware
+sha256,e85d448b73b1bfae42d7b16d34892d47ce8a055cfe405082b5fa7f36bf5cfd5c,high,2026-11-26T12:01:04.640177+00:00,2026-11-26T12:01:04.640177+00:00,1,,Malware-associated file hash in the IOC list,malware
 sha256,ecb5d5968d77e77b397ef18a077612d8f732a3f9cb78c7d8066c94bd9e580281,high,2026-11-26T12:01:04.640177+00:00,2026-11-26T12:01:04.640177+00:00,1,,"Listed in the Indicators of Compromise section as Ocam_setup.exe, the malicious installer",malware
-domain,cgfcbftdsf-microsoft-auth-portal.static.hf.space,high,2026-11-26T10:36:03.851361+00:00,2026-11-26T10:36:03.851361+00:00,1,,Attacker-created Space serving a fake Microsoft login page that exfiltrates credentials to Telegram,phishing
-domain,newpayapp.com,high,2026-11-23T15:15:15+00:00,2026-11-26T06:33:08.896258+00:00,2,,"Attempted malware domain first registered by the GT13 actor, per the article's attribution of attack infrastructure.",malware
+sha256,ed2c6bc3e77a404b8cf61176844ad19c1fdcae19881206631e3f0831a4bd919a,high,2026-11-26T12:01:04.640177+00:00,2026-11-26T12:01:04.640177+00:00,1,,Malware DLL hash in the IOC list,malware
+sha256,f1fb4db77fcc50d839523d8df7a0d04a5110320cce1718cf3728ea1be7b2a6f8,high,2026-11-26T12:01:04.640177+00:00,2026-11-26T12:01:04.640177+00:00,1,,Malware dll1.dll hash in the IOC list,malware
+sha256,f4d68918fe8b7ef0a5b0e53a7c62216e67ccca27e2000a8ba6dcd03140b0c2b9,high,2026-11-26T12:01:04.640177+00:00,2026-11-26T12:01:04.640177+00:00,1,,Malware-associated file hash in the IOC list,malware
+ipv4,156.234.43.98,high,2026-11-26T09:20:53+00:00,2026-11-26T09:20:53+00:00,1,,Decoded C2 IP address used by the malware loader,c2
+sha256,b02a81974810532fff8f76903e09b20431857bfaff00f2473421f4a4fb8162b5,high,2026-11-26T02:02:45.082472+00:00,2026-11-26T02:02:45.805175+00:00,1,,SHA-256 of the malicious api.js loader listed in the IOC section as a malware sample.,supply_chain|malware
+sha256,8d463b9511a97b3f73f00acdc2b5ea7ffea64546c93c6898fb70e97f4737b391,high,2026-11-26T02:02:45.082472+00:00,2026-11-26T02:02:45.082472+00:00,1,,SHA-256 of the malicious package.json listed in the IOC section as a malware artefact.,malware
 domain,cloaderx.sytes.net,high,2026-11-25T19:44:32+00:00,2026-11-25T19:44:32+00:00,1,,Named as the C2 domain the LuaJIT dropper calls back to; dynamic DNS subdomain used for malware callbacks,c2|dynamic_dns
 domain,activisionblizzard-legal.com,high,2026-11-24T17:00:36.145307+00:00,2026-11-25T15:38:09.370457+00:00,1,,"Brand-themed legal lookalike domain in the vishing lure cluster, attacker-registered for credential phishing",phishing
 domain,henryschein-legal.com,high,2026-11-24T17:00:36.145307+00:00,2026-11-25T15:38:09.370457+00:00,1,,Attacker-registered lookalike lure domain targeting Henry Schein,phishing
@@ -85,7 +151,8 @@ domain,cnpcyprus.net,high,2026-11-24T14:13:55+00:00,2026-11-24T14:13:55+00:00,1,
 domain,nl-backend.cnpcyprus.net,high,2026-11-24T14:13:55+00:00,2026-11-24T14:13:55+00:00,1,,"Backend endpoint that the NetLock RMM installer communicates with, part of actor-controlled cnpcyprus.net infrastructure",c2
 domain,legal-creditkarma.com,high,2026-11-24T13:30:06+00:00,2026-11-24T13:30:06+00:00,1,,Lure domain registered by the adversary for phishing,phishing
 domain,gta6cloud.com,high,2026-11-24T10:15:09+00:00,2026-11-24T10:15:09+00:00,1,,Malicious site distributing a fake GTA VI client via ClickFix malware,malware|fake_software
-ipv4,103.179.143.219,high,2026-11-24T00:00:00+00:00,2026-11-24T00:00:00+00:00,1,,C2 server in PolinRider heartbeat chain,c2
+ipv4,103.179.143.219,high,2026-11-24T00:00:00+00:00,2026-11-24T00:00:00+00:00,1,,Earlier C2 server in the wallet heartbeat history,c2
+ipv4,23.27.13.72,high,2026-11-24T00:00:00+00:00,2026-11-24T00:00:00+00:00,1,,C2 server pointed to by the wallet for one heartbeat,c2
 sha256,48cf14560a8c2c5eaa984078cb345a81bc6d49d6695a06851499a3a31260aa91,high,2026-11-24T00:00:00+00:00,2026-11-24T00:00:00+00:00,1,,SHA-256 of enterotoxin.exe RAT sample described in article,malware
 sha256,ca2b7eced5937817b2aca2d50542d2e171bc95593be72a94c158616ed17a5334,high,2026-11-24T00:00:00+00:00,2026-11-24T00:00:00+00:00,1,,SHA-256 of obfuscated JavaScript dropper/stealer in malicious npm packages,malware|supply_chain
 domain,tascredit-pay.com,high,2026-11-23T22:10:01+00:00,2026-11-23T22:10:01+00:00,1,,"Hardcoded C2 endpoint of the backdoor's remote-control module, unrelated to the vendor and attacker-controlled",c2
@@ -758,13 +825,11 @@ ipv4,104.28.225.223,high,2026-11-14T07:19:13+00:00,2026-11-14T12:21:44+00:00,1,,
 ipv4,212.107.28.51,high,2026-11-14T07:19:13+00:00,2026-11-14T12:21:44+00:00,1,,Listed as an IP address used for cryptocurrency fraud.,crypto_drainer
 domain,api.cloudvflare.com,high,2026-11-14T07:47:10+00:00,2026-11-14T07:47:10+00:00,1,,"Beaconed to by a malicious binary, likely attacker-controlled.",c2|malware
 ipv4,130.94.19.204,high,2026-11-12T14:06:23+00:00,2026-11-14T01:42:00+00:00,8,,IP address used by attackers to target vulnerable systems.,exploit
-domain,accurasofthire.com,high,2026-11-13T17:04:34+00:00,2026-11-13T18:33:32.637467+00:00,2,,Identified as a careers site and loader server controlled by attackers.,malware
 sha256,1159e357dc90e7560a94adacf8bb3ca8923e2ef5a11be414bab924b69e7c2bde,high,2026-11-13T18:32:01.448595+00:00,2026-11-13T18:32:01.448595+00:00,1,,Listed as a malicious file hash in the context of malware analysis.,malware
 sha256,27df8b11e83668baa91616583f27599251c2d554e4c941fe39ed2db2b86771ab,high,2026-11-13T18:32:01.448595+00:00,2026-11-13T18:32:01.448595+00:00,1,,Listed as a malicious file hash in the context of malware analysis.,malware
 sha256,5131be0a7dd030e844615d88904e1528611ccca0eed979da681c1d47302c6d82,high,2026-11-13T18:32:01.448595+00:00,2026-11-13T18:32:01.448595+00:00,1,,Listed as a malicious file hash in the context of malware analysis.,malware
 sha256,d22a029b0fd967ef7a08501c1554a648f2f576f11706ab9a9ad9c042d63244ec,high,2026-11-13T18:32:01.448595+00:00,2026-11-13T18:32:01.448595+00:00,1,,Listed as a malicious file hash in the context of malware analysis.,malware
 sha256,ea55193528ed286541e7f95bf1210b989f519d81364181c2b9eab50c392dd698,high,2026-11-13T18:32:01.448595+00:00,2026-11-13T18:32:01.448595+00:00,1,,Listed as a malicious file hash in the context of malware analysis.,malware
-ipv4,103.179.142.155,high,2026-11-13T17:04:34+00:00,2026-11-13T17:04:34+00:00,1,,IP address used by the camera payload analyzed by JFrog.,malware
 ipv4,166.88.134.75,high,2026-11-13T17:04:34+00:00,2026-11-13T17:04:34+00:00,1,,IP address used by attackers as part of their infrastructure.,malware
 ipv4,91.218.183.174,high,2026-11-13T17:04:34+00:00,2026-11-13T17:04:34+00:00,1,,IP address used by attackers as part of their infrastructure.,malware
 domain,cryptor.biz,high,2026-11-13T15:59:00+00:00,2026-11-13T15:59:00+00:00,1,,Used to test malware against antivirus tools.,abused_service
@@ -3619,10 +3684,8 @@ sha256,7cc571aca6d8715d9aaad3d83e1bcd30467565d583db1dfe73697c5d00a1f875,high,202
 sha256,d3561bd4aad003dc3e08157b0891860bb496b80cd6e44901692e08ab1d4e8260,high,2026-10-06T10:05:56+00:00,2026-10-06T10:05:56+00:00,1,,"Listed as a hash of Blackwood.dll.conf, contacting an IP",malware
 sha256,f5b12772db6817f7a765a6fe7565fd3d4f87edc28e42fe3ec0244a372a410fc9,high,2026-10-06T10:05:56+00:00,2026-10-06T10:05:56+00:00,1,,"Listed as a hash of FlightManager.csproj, a weaponized project file",malware
 sha256,f5ba1645694c62f527ed6ceda8c68a5c3dd92b4032439167e8e937e72803b4bd,high,2026-10-06T10:05:56+00:00,2026-10-06T10:05:56+00:00,1,,"Listed as a hash of Blackwood archive, contacting an IP",malware
-ipv4,118.45.196.225,high,2026-10-05T13:30:43.355486+00:00,2026-10-06T08:37:33.517997+00:00,1,,Listed as a loader host for malware,malware
 ipv4,120.193.219.210,high,2026-10-05T13:30:43.355486+00:00,2026-10-06T08:37:33.517997+00:00,1,,Listed as a loader host for malware,malware
 ipv4,145.249.115.184,high,2026-10-05T11:50:39+00:00,2026-10-06T08:37:33.517997+00:00,4,,Identified as a STUN server controlled by the botnet operator,botnet|c2
-ipv4,58.211.144.243,high,2026-10-05T13:30:43.355486+00:00,2026-10-06T08:37:33.517997+00:00,1,,Listed as a loader host for malware,malware
 sha1,08636d09d9ffd1713bd6bcb965ad40b6ce3de1aa,high,2026-10-05T13:30:43.355486+00:00,2026-10-06T08:37:33.517997+00:00,1,,SHA1 hash of a malware sample,malware
 sha1,3b0ac6aaabb3bf8058ca14f9c8ccc613cfa3ea71,high,2026-10-05T13:30:43.355486+00:00,2026-10-06T08:37:33.517997+00:00,1,,SHA1 hash of a malware sample,malware|exploit
 sha256,3a6927a3399f2a10bb2e2229482e5096e5f1c3401a87f7f1730db11243531e28,high,2026-10-05T13:30:43.355486+00:00,2026-10-06T08:37:33.517997+00:00,1,,SHA256 hash of a malware sample,malware
