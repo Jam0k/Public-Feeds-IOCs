@@ -1,18 +1,26 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason,categories
+domain,ccsigen321qc.com,high,2026-10-29T13:00:00+00:00,2026-11-28T07:52:32+00:00,2,,"Named as the command-and-control host that the compromised device sent 144 HTTPS POST requests to, indicating attacker-controlled C2 infrastructure.",c2
+domain,codes-team.com,high,2026-11-26T14:04:54.446769+00:00,2026-11-27T14:38:16.983793+00:00,1,,Root domain registered March 2026 hosting lookalike fake software download subdomains impersonating Teams and Roblox pages; attacker-registered.,fake_software
+domain,monkeysholder.info,high,2026-11-26T14:04:54.446769+00:00,2026-11-27T14:38:16.983793+00:00,1,,C2 server serving the Vinci RAT stager via api.php and index.php endpoints.,c2
+domain,snipp.codes-team.com,high,2026-11-26T13:04:30+00:00,2026-11-27T14:38:16.983793+00:00,2,,Fake snipping tool installation site subdomain under attacker-registered codes-team.com delivering the malicious installer.,fake_software|malware
+domain,teams-bing.codes-team.com,high,2026-11-27T11:49:34+00:00,2026-11-27T11:49:34+00:00,1,,Attacker-registered subdomain spoofing Microsoft Teams download pages,malware|fake_software
+domain,ollama-ko.com,high,2026-11-27T10:27:26+00:00,2026-11-27T10:27:26+00:00,1,,Impersonating lookalike site distributing the malware installer,malware|fake_software|phishing
 domain,mail.c1a2.top,high,2026-11-27T09:34:01+00:00,2026-11-27T09:34:01+00:00,1,,Attacker-controlled host serving the trojanized payloads (7zr.exe and dsv2_py39_agent.7z) for the Python RAT delivery chain.,malware
+domain,67gsf00.3utilities.com,high,2026-11-27T07:16:21+00:00,2026-11-27T07:16:21+00:00,1,,"Phishing redirect domain in a credential phishing chain impersonating Microsoft, registered by attacker",phishing|traffic_distribution
+domain,gmxe3s.studiview.vu,high,2026-11-27T07:16:21+00:00,2026-11-27T07:16:21+00:00,1,,Phishing redirect host in Microsoft-impersonating campaign chain,phishing|traffic_distribution
+domain,clubown.com,high,2026-11-27T07:11:58+00:00,2026-11-27T07:11:58+00:00,1,,Lab/C2 domain the Streamer implant called back to on October 21; article ties it to the operators' C2 infrastructure,c2
+domain,firmadigitale.assistenza-mobile.it,high,2026-11-27T06:34:39+00:00,2026-11-27T06:34:39+00:00,1,,"Spyware distribution site impersonating Poste Italiane, registered by attackers",spyware|phishing
 domain,cgfcbftdsf-microsoft-auth-portal.static.hf.space,high,2026-11-26T10:36:03.851361+00:00,2026-11-27T05:01:00.461937+00:00,1,,Attacker-created Space serving a fake Microsoft login page that exfiltrates credentials to Telegram,phishing
 domain,accenture.international-interviews.com,high,2026-11-26T17:15:27+00:00,2026-11-26T17:15:27+00:00,1,,Brand-impersonating phishing subdomain hosting fake Accenture site,phishing
 domain,nvidia.feedback-study.com,high,2026-11-26T17:15:27+00:00,2026-11-26T17:15:27+00:00,1,,Brand-specific lookalike subdomain hosting a phishing page impersonating Nvidia,phishing
 domain,newpayapp.com,high,2026-11-23T15:15:15+00:00,2026-11-26T17:06:30.691545+00:00,2,,"Attempted malware domain first registered by the GT13 actor, per the article's attribution of attack infrastructure.",malware
-domain,api.huntrole.com,high,2026-11-26T16:09:31.585179+00:00,2026-11-26T16:09:31.585179+00:00,1,,"Server the malicious extension contacts on every start to receive tasks, operated by the campaign",c2
-domain,huntrole.org,high,2026-11-26T15:44:32+00:00,2026-11-26T16:09:31.585179+00:00,2,,Recently registered lookalike sender domain used in fraudulent recruitment emails,phishing
-domain,accurasofthire.com,high,2026-11-13T17:04:34+00:00,2026-11-26T15:44:32+00:00,3,,Fake hiring portal registered by the campaign operators to lure targets into running malware-laced assessments,malware
-domain,beta666888.cc,high,2026-11-26T15:06:20+00:00,2026-11-26T15:06:20+00:00,1,,C2 server for the Android RAT builder configuration,c2
+domain,api.huntrole.com,high,2026-11-26T16:09:31.585179+00:00,2026-11-26T16:09:31.585179+00:00,1,,"Server the malicious VS Code extension contacts to receive tasks, operated by the attackers",c2
+domain,huntrole.org,high,2026-11-26T15:44:32+00:00,2026-11-26T16:09:31.585179+00:00,2,,Recently registered lookalike sender domain for the fake recruitment campaign,phishing
+domain,accurasofthire.com,high,2026-11-13T17:04:34+00:00,2026-11-26T15:44:32+00:00,3,,Fake hiring portal registered by the attackers to lure targets into running malware-laced projects,malware
+domain,beta666888.cc,high,2026-11-26T15:06:20+00:00,2026-11-26T15:06:20+00:00,1,,"Server address the buyer configures in the builder-generated RAT payloads, operating as the C2 backend for the seller's toolkit",c2
+domain,esou.bond,high,2026-11-26T15:06:20+00:00,2026-11-26T15:06:20+00:00,1,,Seller's domain hosting 102 numbered subdomain download-page templates used to spread the RAT to victims,malware|fake_software
 domain,ftp.rivardxteriaspte.co.uk,high,2026-11-26T14:38:30.811044+00:00,2026-11-26T14:38:30.811044+00:00,1,,Article states this is a C2 server run by the malicious actor for FTP exfiltration communications,c2
 domain,mail.rivardxteriaspte.co.uk,high,2026-11-26T14:38:30.811044+00:00,2026-11-26T14:38:30.811044+00:00,1,,Article states this is a C2 server run by the malicious actor for SMTP communications,c2
-domain,codes-team.com,high,2026-11-26T14:04:54.446769+00:00,2026-11-26T14:04:54.446769+00:00,1,,Root domain registered March 2026 hosting lookalike fake software download subdomains impersonating Teams and Roblox pages; attacker-registered.,fake_software
-domain,monkeysholder.info,high,2026-11-26T14:04:54.446769+00:00,2026-11-26T14:04:54.446769+00:00,1,,C2 server serving the Vinci RAT stager via api.php and index.php endpoints.,c2
-domain,snipp.codes-team.com,high,2026-11-26T13:04:30+00:00,2026-11-26T14:04:54.446769+00:00,2,,Fake snipping tool installation site subdomain under attacker-registered codes-team.com delivering the malicious installer.,fake_software|malware
 domain,4kwallpapers.top,high,2026-11-26T12:42:14+00:00,2026-11-26T13:04:00.879904+00:00,2,,Listed under Malware Hosting Domains; fake wallpaper download site created for the SYS010 campaign,malware
 domain,best-pc-softs.top,high,2026-11-26T12:42:14+00:00,2026-11-26T13:04:00.879904+00:00,2,,"Listed as backend of the decoy application in the IOC section, attacker-registered lookalike",malware
 domain,content.document-hub.top,high,2026-11-26T12:42:14+00:00,2026-11-26T13:04:00.879904+00:00,2,,Listed under Malware Hosting Domains in the IOC table,malware
@@ -787,7 +795,6 @@ domain,coinbase.bonto.io,high,2026-10-27T17:28:33.184000+00:00,2026-10-29T14:12:
 domain,3x3br.eu.cc,high,2026-10-29T13:00:00+00:00,2026-10-29T13:38:14+00:00,1,,Domain used in social engineering tactics to direct users to exploit environments.,exploit|phishing
 domain,66wc.eu.cc,high,2026-10-29T13:00:00+00:00,2026-10-29T13:38:14+00:00,1,,Domain used for tracking and configuration in the Coruna campaign.,traffic_distribution
 domain,ax.xoovo.top,high,2026-10-29T13:00:00+00:00,2026-10-29T13:38:14+00:00,1,,Domain used to load attack code in a hidden frame while displaying legitimate content.,exploit
-domain,ccsigen321qc.com,high,2026-10-29T13:00:00+00:00,2026-10-29T13:38:14+00:00,1,,Configured as a C2 endpoint for command and control traffic.,c2
 domain,echomint.buzz,high,2026-10-29T13:00:00+00:00,2026-10-29T13:38:14+00:00,1,,Domain used to hide exploit framework behind a decoy service.,exploit|phishing
 domain,jiaoyou.eu.cc,high,2026-10-29T13:00:00+00:00,2026-10-29T13:38:14+00:00,1,,Domain variant used in attack chain configurations.,traffic_distribution
 domain,melatibiru.win,high,2026-10-29T13:00:00+00:00,2026-10-29T13:38:14+00:00,1,,Domain used to distribute DarkSword-derived exploit scripts.,exploit

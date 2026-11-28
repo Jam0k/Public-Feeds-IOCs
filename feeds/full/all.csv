@@ -1,29 +1,39 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason,categories
+domain,ccsigen321qc.com,high,2026-10-29T13:00:00+00:00,2026-11-28T07:52:32+00:00,2,,"Named as the command-and-control host that the compromised device sent 144 HTTPS POST requests to, indicating attacker-controlled C2 infrastructure.",c2
+domain,codes-team.com,high,2026-11-26T14:04:54.446769+00:00,2026-11-27T14:38:16.983793+00:00,1,,Root domain registered March 2026 hosting lookalike fake software download subdomains impersonating Teams and Roblox pages; attacker-registered.,fake_software
+domain,monkeysholder.info,high,2026-11-26T14:04:54.446769+00:00,2026-11-27T14:38:16.983793+00:00,1,,C2 server serving the Vinci RAT stager via api.php and index.php endpoints.,c2
+domain,snipp.codes-team.com,high,2026-11-26T13:04:30+00:00,2026-11-27T14:38:16.983793+00:00,2,,Fake snipping tool installation site subdomain under attacker-registered codes-team.com delivering the malicious installer.,fake_software|malware
+ipv4,154.91.0.103,high,2026-11-27T13:36:17.344726+00:00,2026-11-27T13:36:17.344726+00:00,1,,Attacker bootstrapper server address at port 27017 used for C2,c2|malware
+ipv4,85.239.60.213,high,2026-11-27T13:36:17.344726+00:00,2026-11-27T13:36:17.344726+00:00,1,,Attacker upload endpoint for stolen data at port 27017,exfiltration|c2
+domain,teams-bing.codes-team.com,high,2026-11-27T11:49:34+00:00,2026-11-27T11:49:34+00:00,1,,Attacker-registered subdomain spoofing Microsoft Teams download pages,malware|fake_software
+domain,ollama-ko.com,high,2026-11-27T10:27:26+00:00,2026-11-27T10:27:26+00:00,1,,Impersonating lookalike site distributing the malware installer,malware|fake_software|phishing
 domain,mail.c1a2.top,high,2026-11-27T09:34:01+00:00,2026-11-27T09:34:01+00:00,1,,Attacker-controlled host serving the trojanized payloads (7zr.exe and dsv2_py39_agent.7z) for the Python RAT delivery chain.,malware
+domain,67gsf00.3utilities.com,high,2026-11-27T07:16:21+00:00,2026-11-27T07:16:21+00:00,1,,"Phishing redirect domain in a credential phishing chain impersonating Microsoft, registered by attacker",phishing|traffic_distribution
+domain,gmxe3s.studiview.vu,high,2026-11-27T07:16:21+00:00,2026-11-27T07:16:21+00:00,1,,Phishing redirect host in Microsoft-impersonating campaign chain,phishing|traffic_distribution
+domain,clubown.com,high,2026-11-27T07:11:58+00:00,2026-11-27T07:11:58+00:00,1,,Lab/C2 domain the Streamer implant called back to on October 21; article ties it to the operators' C2 infrastructure,c2
+domain,firmadigitale.assistenza-mobile.it,high,2026-11-27T06:34:39+00:00,2026-11-27T06:34:39+00:00,1,,"Spyware distribution site impersonating Poste Italiane, registered by attackers",spyware|phishing
 domain,cgfcbftdsf-microsoft-auth-portal.static.hf.space,high,2026-11-26T10:36:03.851361+00:00,2026-11-27T05:01:00.461937+00:00,1,,Attacker-created Space serving a fake Microsoft login page that exfiltrates credentials to Telegram,phishing
 domain,accenture.international-interviews.com,high,2026-11-26T17:15:27+00:00,2026-11-26T17:15:27+00:00,1,,Brand-impersonating phishing subdomain hosting fake Accenture site,phishing
 domain,nvidia.feedback-study.com,high,2026-11-26T17:15:27+00:00,2026-11-26T17:15:27+00:00,1,,Brand-specific lookalike subdomain hosting a phishing page impersonating Nvidia,phishing
 domain,newpayapp.com,high,2026-11-23T15:15:15+00:00,2026-11-26T17:06:30.691545+00:00,2,,"Attempted malware domain first registered by the GT13 actor, per the article's attribution of attack infrastructure.",malware
-sha256,1a21bad1df69b51efebfd2fae849ac27722b0dfac7b1cb459cf81d38b36f9705,high,2026-11-26T16:09:34.788059+00:00,2026-11-26T16:09:34.788059+00:00,1,,Hash of fa-solid-900.woff2 malware sample listed in the IOC table,malware
-sha256,3b572a613f5013a64e1877dfed3873f2bcbd52e5259b199d41e02c33840abbcb,high,2026-11-26T16:09:34.788059+00:00,2026-11-26T16:09:34.788059+00:00,1,,Hash of fa-solid-300.llf malware sample listed in the IOC table,malware
-sha256,6200054e0ea8575c3af37e4da10e23249bf0a17d1d6843ecc81ee35af2f7d1f2,high,2026-11-26T16:09:34.788059+00:00,2026-11-26T16:09:34.788059+00:00,1,,Hash of malicious .vscode/tasks.json listed in the IOC table,malware
-sha256,90a3875ff84a53473107a03cec6ad19636da0cc0eccb02c036d03b8f2a5dff28,high,2026-11-26T16:09:34.788059+00:00,2026-11-26T16:09:34.788059+00:00,1,,Hash of malicious tasks.json variant listed in the IOC table,malware
-sha256,91e334655d31f84963e6b9369d41698f51b00d7a203cf314ceba01780e6f337c,high,2026-11-26T16:09:34.788059+00:00,2026-11-26T16:09:34.788059+00:00,1,,Hash of trojanized eslint.config.mjs listed in the IOC table,malware
-sha256,fbf0e36dd7eb1e70fc4868a8d0d0cd8f6c80753241cd88a3518f40e9a67d232e,high,2026-11-26T16:09:34.788059+00:00,2026-11-26T16:09:34.788059+00:00,1,,Hash of tasks.json file listed in the IOC table,malware
-domain,api.huntrole.com,high,2026-11-26T16:09:31.585179+00:00,2026-11-26T16:09:31.585179+00:00,1,,"Server the malicious extension contacts on every start to receive tasks, operated by the campaign",c2
-domain,huntrole.org,high,2026-11-26T15:44:32+00:00,2026-11-26T16:09:31.585179+00:00,2,,Recently registered lookalike sender domain used in fraudulent recruitment emails,phishing
-domain,accurasofthire.com,high,2026-11-13T17:04:34+00:00,2026-11-26T15:44:32+00:00,3,,Fake hiring portal registered by the campaign operators to lure targets into running malware-laced assessments,malware
-ipv4,103.179.142.155,high,2026-11-13T17:04:34+00:00,2026-11-26T15:44:32+00:00,2,,C2 server address extracted from the NullReceiver wallet data,malware
-domain,beta666888.cc,high,2026-11-26T15:06:20+00:00,2026-11-26T15:06:20+00:00,1,,C2 server for the Android RAT builder configuration,c2
+sha256,1a21bad1df69b51efebfd2fae849ac27722b0dfac7b1cb459cf81d38b36f9705,high,2026-11-26T16:09:34.788059+00:00,2026-11-26T16:09:34.788059+00:00,1,,Hash of attacker malware payload fa-solid-900.woff2 listed in IOC table,malware
+sha256,3b572a613f5013a64e1877dfed3873f2bcbd52e5259b199d41e02c33840abbcb,high,2026-11-26T16:09:34.788059+00:00,2026-11-26T16:09:34.788059+00:00,1,,Hash of attacker payload fa-solid-300.llf listed in IOC table,malware
+sha256,6200054e0ea8575c3af37e4da10e23249bf0a17d1d6843ecc81ee35af2f7d1f2,high,2026-11-26T16:09:34.788059+00:00,2026-11-26T16:09:34.788059+00:00,1,,Hash of attacker-planted tasks.json listed in IOC table,malware
+sha256,90a3875ff84a53473107a03cec6ad19636da0cc0eccb02c036d03b8f2a5dff28,high,2026-11-26T16:09:34.788059+00:00,2026-11-26T16:09:34.788059+00:00,1,,Hash of attacker-planted tasks.json variant listed in IOC table,malware
+sha256,91e334655d31f84963e6b9369d41698f51b00d7a203cf314ceba01780e6f337c,high,2026-11-26T16:09:34.788059+00:00,2026-11-26T16:09:34.788059+00:00,1,,Hash of attacker-modified eslint.config.mjs listed in IOC table,malware
+sha256,fbf0e36dd7eb1e70fc4868a8d0d0cd8f6c80753241cd88a3518f40e9a67d232e,high,2026-11-26T16:09:34.788059+00:00,2026-11-26T16:09:34.788059+00:00,1,,Hash of attacker-planted tasks.json listed in IOC table,malware
+domain,api.huntrole.com,high,2026-11-26T16:09:31.585179+00:00,2026-11-26T16:09:31.585179+00:00,1,,"Server the malicious VS Code extension contacts to receive tasks, operated by the attackers",c2
+domain,huntrole.org,high,2026-11-26T15:44:32+00:00,2026-11-26T16:09:31.585179+00:00,2,,Recently registered lookalike sender domain for the fake recruitment campaign,phishing
+domain,accurasofthire.com,high,2026-11-13T17:04:34+00:00,2026-11-26T15:44:32+00:00,3,,Fake hiring portal registered by the attackers to lure targets into running malware-laced projects,malware
+ipv4,103.179.142.155,high,2026-11-13T17:04:34+00:00,2026-11-26T15:44:32+00:00,2,,C2 server address extracted by the NullReceiver stage,malware
+domain,beta666888.cc,high,2026-11-26T15:06:20+00:00,2026-11-26T15:06:20+00:00,1,,"Server address the buyer configures in the builder-generated RAT payloads, operating as the C2 backend for the seller's toolkit",c2
+domain,esou.bond,high,2026-11-26T15:06:20+00:00,2026-11-26T15:06:20+00:00,1,,Seller's domain hosting 102 numbered subdomain download-page templates used to spread the RAT to victims,malware|fake_software
 ipv4,118.45.196.225,high,2026-10-05T13:30:43.355486+00:00,2026-11-26T15:05:50.662051+00:00,2,,Listed in the Cling C2/payload distribution URL list as an attacker-operated host serving alya binaries on port 800,malware
 ipv4,202.110.70.60,high,2026-11-26T15:05:50.662051+00:00,2026-11-26T15:05:50.662051+00:00,1,,"Hosts alya payload binaries at port 800 in the IOC table, indicating attacker-controlled distribution infrastructure",malware|botnet
 ipv4,58.211.144.243,high,2026-10-05T13:30:43.355486+00:00,2026-11-26T15:05:50.662051+00:00,2,,"Hosts alya payload binaries at port 800 in the IOC table, indicating attacker-controlled distribution infrastructure",malware
 domain,ftp.rivardxteriaspte.co.uk,high,2026-11-26T14:38:30.811044+00:00,2026-11-26T14:38:30.811044+00:00,1,,Article states this is a C2 server run by the malicious actor for FTP exfiltration communications,c2
 domain,mail.rivardxteriaspte.co.uk,high,2026-11-26T14:38:30.811044+00:00,2026-11-26T14:38:30.811044+00:00,1,,Article states this is a C2 server run by the malicious actor for SMTP communications,c2
 md5,b6275be58a539ea9548d02ab6229c768,high,2026-11-26T14:38:30.811044+00:00,2026-11-26T14:38:30.811044+00:00,1,,MD5 of the Windows Update.exe malware sample analysed in the article,malware
-domain,codes-team.com,high,2026-11-26T14:04:54.446769+00:00,2026-11-26T14:04:54.446769+00:00,1,,Root domain registered March 2026 hosting lookalike fake software download subdomains impersonating Teams and Roblox pages; attacker-registered.,fake_software
-domain,monkeysholder.info,high,2026-11-26T14:04:54.446769+00:00,2026-11-26T14:04:54.446769+00:00,1,,C2 server serving the Vinci RAT stager via api.php and index.php endpoints.,c2
-domain,snipp.codes-team.com,high,2026-11-26T13:04:30+00:00,2026-11-26T14:04:54.446769+00:00,2,,Fake snipping tool installation site subdomain under attacker-registered codes-team.com delivering the malicious installer.,fake_software|malware
 domain,4kwallpapers.top,high,2026-11-26T12:42:14+00:00,2026-11-26T13:04:00.879904+00:00,2,,Listed under Malware Hosting Domains; fake wallpaper download site created for the SYS010 campaign,malware
 domain,best-pc-softs.top,high,2026-11-26T12:42:14+00:00,2026-11-26T13:04:00.879904+00:00,2,,"Listed as backend of the decoy application in the IOC section, attacker-registered lookalike",malware
 domain,content.document-hub.top,high,2026-11-26T12:42:14+00:00,2026-11-26T13:04:00.879904+00:00,2,,Listed under Malware Hosting Domains in the IOC table,malware
@@ -68,7 +78,7 @@ sha256,ed2c6bc3e77a404b8cf61176844ad19c1fdcae19881206631e3f0831a4bd919a,high,202
 sha256,f1fb4db77fcc50d839523d8df7a0d04a5110320cce1718cf3728ea1be7b2a6f8,high,2026-11-26T12:01:04.640177+00:00,2026-11-26T12:01:04.640177+00:00,1,,Malware dll1.dll hash in the IOC list,malware
 sha256,f4d68918fe8b7ef0a5b0e53a7c62216e67ccca27e2000a8ba6dcd03140b0c2b9,high,2026-11-26T12:01:04.640177+00:00,2026-11-26T12:01:04.640177+00:00,1,,Malware-associated file hash in the IOC list,malware
 ipv4,156.234.43.98,high,2026-11-26T09:20:53+00:00,2026-11-26T09:20:53+00:00,1,,Decoded C2 IP address used by the malware loader,c2
-sha256,b02a81974810532fff8f76903e09b20431857bfaff00f2473421f4a4fb8162b5,high,2026-11-26T02:02:45.082472+00:00,2026-11-26T02:02:45.805175+00:00,1,,SHA-256 of the malicious api.js loader listed in the IOC section as a malware sample.,supply_chain|malware
+sha256,b02a81974810532fff8f76903e09b20431857bfaff00f2473421f4a4fb8162b5,high,2026-11-26T02:02:45.082472+00:00,2026-11-26T02:02:45.805175+00:00,1,,SHA-256 of the malicious api.js loader sample identified in the analysis,supply_chain|malware
 sha256,8d463b9511a97b3f73f00acdc2b5ea7ffea64546c93c6898fb70e97f4737b391,high,2026-11-26T02:02:45.082472+00:00,2026-11-26T02:02:45.082472+00:00,1,,SHA-256 of the malicious package.json listed in the IOC section as a malware artefact.,malware
 domain,cloaderx.sytes.net,high,2026-11-25T19:44:32+00:00,2026-11-25T19:44:32+00:00,1,,Named as the C2 domain the LuaJIT dropper calls back to; dynamic DNS subdomain used for malware callbacks,c2|dynamic_dns
 domain,activisionblizzard-legal.com,high,2026-11-24T17:00:36.145307+00:00,2026-11-25T15:38:09.370457+00:00,1,,"Brand-themed legal lookalike domain in the vishing lure cluster, attacker-registered for credential phishing",phishing
@@ -151,8 +161,8 @@ domain,cnpcyprus.net,high,2026-11-24T14:13:55+00:00,2026-11-24T14:13:55+00:00,1,
 domain,nl-backend.cnpcyprus.net,high,2026-11-24T14:13:55+00:00,2026-11-24T14:13:55+00:00,1,,"Backend endpoint that the NetLock RMM installer communicates with, part of actor-controlled cnpcyprus.net infrastructure",c2
 domain,legal-creditkarma.com,high,2026-11-24T13:30:06+00:00,2026-11-24T13:30:06+00:00,1,,Lure domain registered by the adversary for phishing,phishing
 domain,gta6cloud.com,high,2026-11-24T10:15:09+00:00,2026-11-24T10:15:09+00:00,1,,Malicious site distributing a fake GTA VI client via ClickFix malware,malware|fake_software
-ipv4,103.179.143.219,high,2026-11-24T00:00:00+00:00,2026-11-24T00:00:00+00:00,1,,Earlier C2 server in the wallet heartbeat history,c2
-ipv4,23.27.13.72,high,2026-11-24T00:00:00+00:00,2026-11-24T00:00:00+00:00,1,,C2 server pointed to by the wallet for one heartbeat,c2
+ipv4,103.179.143.219,high,2026-11-24T00:00:00+00:00,2026-11-24T00:00:00+00:00,1,,Earlier C2 server in the attacker's heartbeat timeline,c2
+ipv4,23.27.13.72,high,2026-11-24T00:00:00+00:00,2026-11-24T00:00:00+00:00,1,,C2 server pointed to by attacker wallet heartbeat,c2
 sha256,48cf14560a8c2c5eaa984078cb345a81bc6d49d6695a06851499a3a31260aa91,high,2026-11-24T00:00:00+00:00,2026-11-24T00:00:00+00:00,1,,SHA-256 of enterotoxin.exe RAT sample described in article,malware
 sha256,ca2b7eced5937817b2aca2d50542d2e171bc95593be72a94c158616ed17a5334,high,2026-11-24T00:00:00+00:00,2026-11-24T00:00:00+00:00,1,,SHA-256 of obfuscated JavaScript dropper/stealer in malicious npm packages,malware|supply_chain
 domain,tascredit-pay.com,high,2026-11-23T22:10:01+00:00,2026-11-23T22:10:01+00:00,1,,"Hardcoded C2 endpoint of the backdoor's remote-control module, unrelated to the vendor and attacker-controlled",c2
@@ -1927,7 +1937,6 @@ sha256,d04208c041891beac90d0ef818310c7bd98b66d7bdb3d2ba523fb1939915ac90,high,202
 domain,3x3br.eu.cc,high,2026-10-29T13:00:00+00:00,2026-10-29T13:38:14+00:00,1,,Domain used in social engineering tactics to direct users to exploit environments.,exploit|phishing
 domain,66wc.eu.cc,high,2026-10-29T13:00:00+00:00,2026-10-29T13:38:14+00:00,1,,Domain used for tracking and configuration in the Coruna campaign.,traffic_distribution
 domain,ax.xoovo.top,high,2026-10-29T13:00:00+00:00,2026-10-29T13:38:14+00:00,1,,Domain used to load attack code in a hidden frame while displaying legitimate content.,exploit
-domain,ccsigen321qc.com,high,2026-10-29T13:00:00+00:00,2026-10-29T13:38:14+00:00,1,,Configured as a C2 endpoint for command and control traffic.,c2
 domain,echomint.buzz,high,2026-10-29T13:00:00+00:00,2026-10-29T13:38:14+00:00,1,,Domain used to hide exploit framework behind a decoy service.,exploit|phishing
 domain,jiaoyou.eu.cc,high,2026-10-29T13:00:00+00:00,2026-10-29T13:38:14+00:00,1,,Domain variant used in attack chain configurations.,traffic_distribution
 domain,melatibiru.win,high,2026-10-29T13:00:00+00:00,2026-10-29T13:38:14+00:00,1,,Domain used to distribute DarkSword-derived exploit scripts.,exploit

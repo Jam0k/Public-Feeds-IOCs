@@ -1,7 +1,7 @@
 {
   "feed": "threatcluster-public-iocs",
   "version": 1,
-  "generated_at": "2026-11-27T16:36:52Z",
+  "generated_at": "2026-11-28T15:28:32Z",
   "filters": {
     "confidence": "high",
     "window_days": 30,
@@ -11,9 +11,13 @@
       "domain"
     ]
   },
-  "count": 935,
+  "count": 919,
   "notice": "Free 30-day blocklist: indicator values only. The reason, sources, campaign and malware tags and categories behind each indicator are on Starter, with 90 days of history: https://threatcluster.io/pricing",
   "iocs": [
+    {
+      "type": "domain",
+      "value": "ccsigen321qc.com"
+    },
     {
       "type": "domain",
       "value": "codes-team.com"
@@ -33,6 +37,30 @@
     {
       "type": "ipv4",
       "value": "85.239.60.213"
+    },
+    {
+      "type": "domain",
+      "value": "teams-bing.codes-team.com"
+    },
+    {
+      "type": "domain",
+      "value": "ollama-ko.com"
+    },
+    {
+      "type": "domain",
+      "value": "67gsf00.3utilities.com"
+    },
+    {
+      "type": "domain",
+      "value": "gmxe3s.studiview.vu"
+    },
+    {
+      "type": "domain",
+      "value": "clubown.com"
+    },
+    {
+      "type": "domain",
+      "value": "firmadigitale.assistenza-mobile.it"
     },
     {
       "type": "domain",
@@ -69,6 +97,10 @@
     {
       "type": "domain",
       "value": "beta666888.cc"
+    },
+    {
+      "type": "domain",
+      "value": "esou.bond"
     },
     {
       "type": "ipv4",
@@ -3657,102 +3689,6 @@
     {
       "type": "ipv4",
       "value": "180.178.50.158"
-    },
-    {
-      "type": "domain",
-      "value": "coinbase.bonto.io"
-    },
-    {
-      "type": "domain",
-      "value": "3x3br.eu.cc"
-    },
-    {
-      "type": "domain",
-      "value": "66wc.eu.cc"
-    },
-    {
-      "type": "domain",
-      "value": "ax.xoovo.top"
-    },
-    {
-      "type": "domain",
-      "value": "ccsigen321qc.com"
-    },
-    {
-      "type": "domain",
-      "value": "echomint.buzz"
-    },
-    {
-      "type": "domain",
-      "value": "jiaoyou.eu.cc"
-    },
-    {
-      "type": "domain",
-      "value": "melatibiru.win"
-    },
-    {
-      "type": "domain",
-      "value": "ssc.vever3eds.com"
-    },
-    {
-      "type": "domain",
-      "value": "vrgrt4t33.com"
-    },
-    {
-      "type": "domain",
-      "value": "xxtg1.eu.cc"
-    },
-    {
-      "type": "ipv4",
-      "value": "5.255.61.234"
-    },
-    {
-      "type": "domain",
-      "value": "kndr.su"
-    },
-    {
-      "type": "domain",
-      "value": "total-sitevv.lol"
-    },
-    {
-      "type": "ipv4",
-      "value": "87.120.196.120"
-    },
-    {
-      "type": "domain",
-      "value": "virtualine.net"
-    },
-    {
-      "type": "domain",
-      "value": "shopcredit.xyz"
-    },
-    {
-      "type": "domain",
-      "value": "kosoyed.online"
-    },
-    {
-      "type": "domain",
-      "value": "kosoyed.ru"
-    },
-    {
-      "type": "domain",
-      "value": "carte-avantage.com"
-    },
-    {
-      "type": "ipv4",
-      "value": "45.139.104.115"
-    },
-    {
-      "type": "domain",
-      "value": "armenia.pravda-news.com"
-    },
-    {
-      "type": "domain",
-      "value": "api-com.cfd"
-    },
-    {
-      "type": "domain",
-      "value": "js-static.cfd"
     }
   ],
   "license": "Free to use in your own environment and in non-commercial community defence, with attribution to ThreatCluster (https://threatcluster.io). Redistributing it in a commercial product or service requires a licence: https://threatcluster.io/terms",

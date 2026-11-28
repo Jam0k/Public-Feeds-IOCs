@@ -1,5 +1,7 @@
 type,value,confidence,first_seen,last_seen,source_count,sources,reason,categories
-ipv4,103.179.142.155,high,2026-11-13T17:04:34+00:00,2026-11-26T15:44:32+00:00,2,,C2 server address extracted from the NullReceiver wallet data,malware
+ipv4,154.91.0.103,high,2026-11-27T13:36:17.344726+00:00,2026-11-27T13:36:17.344726+00:00,1,,Attacker bootstrapper server address at port 27017 used for C2,c2|malware
+ipv4,85.239.60.213,high,2026-11-27T13:36:17.344726+00:00,2026-11-27T13:36:17.344726+00:00,1,,Attacker upload endpoint for stolen data at port 27017,exfiltration|c2
+ipv4,103.179.142.155,high,2026-11-13T17:04:34+00:00,2026-11-26T15:44:32+00:00,2,,C2 server address extracted by the NullReceiver stage,malware
 ipv4,118.45.196.225,high,2026-10-05T13:30:43.355486+00:00,2026-11-26T15:05:50.662051+00:00,2,,Listed in the Cling C2/payload distribution URL list as an attacker-operated host serving alya binaries on port 800,malware
 ipv4,202.110.70.60,high,2026-11-26T15:05:50.662051+00:00,2026-11-26T15:05:50.662051+00:00,1,,"Hosts alya payload binaries at port 800 in the IOC table, indicating attacker-controlled distribution infrastructure",malware|botnet
 ipv4,58.211.144.243,high,2026-10-05T13:30:43.355486+00:00,2026-11-26T15:05:50.662051+00:00,2,,"Hosts alya payload binaries at port 800 in the IOC table, indicating attacker-controlled distribution infrastructure",malware
@@ -11,8 +13,8 @@ ipv4,95.164.46.35,high,2026-11-24T17:02:16.639839+00:00,2026-11-24T17:02:16.6398
 ipv4,150.242.254.199,high,2026-11-24T15:08:21+00:00,2026-11-24T15:08:21+00:00,1,,Listed in the article's Indicators of Compromise as the reverse shell target used in the attack,c2
 ipv4,204.194.54.240,high,2026-11-24T15:08:21+00:00,2026-11-24T15:08:21+00:00,1,,Described as the hard-coded attacker C2 server used for payload staging and cradles,c2|malware
 ipv4,38.253.224.12,high,2026-11-24T15:08:21+00:00,2026-11-24T15:08:21+00:00,1,,Listed in the IOC section as GSocket and SSH tunnel relay used by the attackers,proxy_tunnel|c2
-ipv4,103.179.143.219,high,2026-11-24T00:00:00+00:00,2026-11-24T00:00:00+00:00,1,,Earlier C2 server in the wallet heartbeat history,c2
-ipv4,23.27.13.72,high,2026-11-24T00:00:00+00:00,2026-11-24T00:00:00+00:00,1,,C2 server pointed to by the wallet for one heartbeat,c2
+ipv4,103.179.143.219,high,2026-11-24T00:00:00+00:00,2026-11-24T00:00:00+00:00,1,,Earlier C2 server in the attacker's heartbeat timeline,c2
+ipv4,23.27.13.72,high,2026-11-24T00:00:00+00:00,2026-11-24T00:00:00+00:00,1,,C2 server pointed to by attacker wallet heartbeat,c2
 ipv4,217.60.102.123,high,2026-11-23T11:35:39+00:00,2026-11-23T11:35:39+00:00,1,,Listed as LOLD C2 server in the IOC list,c2
 ipv4,91.92.243.204,high,2026-11-23T11:35:39+00:00,2026-11-23T11:35:39+00:00,1,,Listed as LOLD C2 server in the IOC list,c2
 ipv4,103.147.251.5,high,2026-11-20T14:14:50+00:00,2026-11-20T14:14:50+00:00,1,,Listed as a suspected obfuscation-network IP address associated with ARMORY CASTLE intrusion,other
